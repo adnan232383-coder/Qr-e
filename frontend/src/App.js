@@ -10,6 +10,7 @@ import CourseCatalog from "@/pages/CourseCatalog";
 import CourseDetail from "@/pages/CourseDetail";
 import Login from "@/pages/Login";
 import AuthCallback from "@/pages/AuthCallback";
+import GenerationProgress from "@/pages/GenerationProgress";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
