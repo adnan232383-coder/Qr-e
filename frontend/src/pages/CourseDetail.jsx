@@ -163,6 +163,23 @@ export default function CourseDetail() {
     }
   };
 
+  const fetchVideos = async () => {
+    try {
+      // Fetch videos for all modules in this course
+      const modulesRes = await fetch(`${API}/courses/${courseId}/modules`);
+      if (modulesRes.ok) {
+        const modulesData = await modulesRes.json();
+        const videoPromises = modulesData.map(m => 
+          fetch(`${API}/video/${m.module_id}`).then(r => r.ok ? r.json() : null).catch(() => null)
+        );
+        const videosData = await Promise.all(videoPromises);
+        setVideos(videosData.filter(v => v && v.video_path));
+      }
+    } catch (e) {
+      console.error("Error fetching videos:", e);
+    }
+  };
+
   const generateContent = async () => {
     setGenerating(true);
     try {
@@ -182,6 +199,49 @@ export default function CourseDetail() {
       toast.error("Error starting content generation");
     } finally {
       setGenerating(false);
+    }
+  };
+
+  const generateMCQ = async () => {
+    setGeneratingMCQ(true);
+    try {
+      const res = await fetch(`${API}/content/generate-mcq/${courseId}?count=200`, {
+        method: "POST"
+      });
+      
+      if (res.ok) {
+        const data = await res.json();
+        toast.success(`Generated ${data.questions_count} MCQ questions!`);
+        await fetchQuestions();
+      } else {
+        toast.error("Failed to generate MCQ questions");
+      }
+    } catch (e) {
+      toast.error("Error generating MCQ questions");
+    } finally {
+      setGeneratingMCQ(false);
+    }
+  };
+
+  const generateVideos = async () => {
+    setGeneratingVideos(true);
+    try {
+      const res = await fetch(`${API}/video/generate-course/${courseId}`, {
+        method: "POST"
+      });
+      
+      if (res.ok) {
+        const data = await res.json();
+        toast.success(`Queued ${data.modules.length} videos for generation!`);
+        // Poll for video status
+        setTimeout(() => fetchVideos(), 30000);
+      } else {
+        toast.error("Failed to start video generation");
+      }
+    } catch (e) {
+      toast.error("Error starting video generation");
+    } finally {
+      setGeneratingVideos(false);
     }
   };
 
