@@ -580,19 +580,32 @@ export default function CourseDetail() {
           <TabsContent value="scripts">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Video className="h-5 w-5 text-primary" />
-                  Module Scripts
-                </CardTitle>
-                <CardDescription>
-                  Avatar video scripts for each module (~12 minutes each)
-                </CardDescription>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <CardTitle className="flex items-center gap-2">
+                      <Video className="h-5 w-5 text-primary" />
+                      Module Scripts & Videos
+                    </CardTitle>
+                    <CardDescription>
+                      Avatar video scripts for each module (~12 minutes each)
+                    </CardDescription>
+                  </div>
+                  <Button 
+                    onClick={generateVideos} 
+                    disabled={generatingVideos || scripts.length === 0}
+                    data-testid="generate-videos-btn"
+                  >
+                    {generatingVideos ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <Video className="h-4 w-4 mr-2" />}
+                    Generate Videos
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
                 <ScrollArea className="h-[600px]">
                   <div className="space-y-6">
                     {scripts.map((script, idx) => {
                       const module = modules.find(m => m.module_id === script.module_id);
+                      const video = videos.find(v => v.module_id === script.module_id);
                       return (
                         <Card key={script.script_id} className="border-border/50">
                           <CardHeader className="pb-2">
@@ -603,13 +616,38 @@ export default function CourseDetail() {
                                 ~{script.estimated_duration_minutes} min
                                 <span className="mx-2">|</span>
                                 {script.word_count} words
+                                {video && (
+                                  <>
+                                    <span className="mx-2">|</span>
+                                    <Badge variant="outline" className="text-green-600 border-green-600">
+                                      <Video className="h-3 w-3 mr-1" /> Video Ready
+                                    </Badge>
+                                  </>
+                                )}
                               </div>
                             </div>
                           </CardHeader>
-                          <CardContent>
-                            <div className="bg-secondary/50 rounded-lg p-4 max-h-[300px] overflow-y-auto">
-                              <pre className="whitespace-pre-wrap text-sm font-mono">{script.script_text}</pre>
-                            </div>
+                          <CardContent className="space-y-4">
+                            {video && (
+                              <div className="bg-black rounded-lg overflow-hidden aspect-video">
+                                <video 
+                                  controls 
+                                  className="w-full h-full"
+                                  src={`${API}/videos/${script.module_id}/file`}
+                                >
+                                  Your browser does not support the video tag.
+                                </video>
+                              </div>
+                            )}
+                            <details className="group">
+                              <summary className="cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground flex items-center gap-2">
+                                <FileText className="h-4 w-4" />
+                                View Script Text
+                              </summary>
+                              <div className="mt-2 bg-secondary/50 rounded-lg p-4 max-h-[300px] overflow-y-auto">
+                                <pre className="whitespace-pre-wrap text-sm font-mono">{script.script_text}</pre>
+                              </div>
+                            </details>
                           </CardContent>
                         </Card>
                       );
