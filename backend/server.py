@@ -81,6 +81,16 @@ class CourseContent(BaseModel):
     summary: Optional[str] = None
     chapters: Optional[List[Dict[str, Any]]] = None
 
+class Module(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    module_id: str
+    courseId: str  # Links to course.external_id
+    title: str
+    description: Optional[str] = None
+    order: int
+    duration_hours: Optional[float] = None
+    topics: Optional[List[str]] = None
+
 class User(BaseModel):
     model_config = ConfigDict(extra="ignore")
     user_id: str
