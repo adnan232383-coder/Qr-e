@@ -9,13 +9,14 @@ Build a University Assistant platform for University of Georgia (UG) in Tbilisi 
 - Emergent Google OAuth authentication
 - Light/dark theme toggle
 - Auto-generated content: Summaries, MCQ Questions (200/course), Module Scripts (~12 min)
+- Avatar video generation from scripts using Sora 2
 
 ## User Personas
 1. **International Medical Students** - Primary users browsing Dentistry curriculum
 2. **International Pharmacy Students** - Primary users browsing Pharmacy curriculum
 3. **Prospective Students** - Exploring programs before enrollment
 
-## Core Requirements (Static)
+## Core Requirements
 - [x] Browse courses by Major → Year → Semester
 - [x] View course details and descriptions
 - [x] AI-powered study assistant
@@ -23,8 +24,9 @@ Build a University Assistant platform for University of Georgia (UG) in Tbilisi 
 - [x] Light/dark theme toggle
 - [x] Responsive design for mobile students
 - [x] Auto-generated course content via RAG + AI
-- [x] MCQ Quiz functionality
+- [x] MCQ Quiz functionality (200 questions/course)
 - [x] Module scripts for avatar videos
+- [x] Video generation with Sora 2
 
 ## What's Been Implemented
 
@@ -36,61 +38,44 @@ Build a University Assistant platform for University of Georgia (UG) in Tbilisi 
 - GPT-5.2 AI chat endpoint
 
 ### Phase 2 - Content Generation (Jan 2025)
-- **Content Generator Service**: RAG-based content generation
-- **MCQ Questions**: 480 questions with explanations (24/course for first 20 courses)
-- **Course Summaries**: AI-generated or template summaries for all courses
-- **Module Scripts**: 60 avatar video scripts (~12 min each)
+- **Content Generator Service**: RAG-based content generation with GPT-5.2
+- **MCQ Questions**: Bulk generation endpoint for 200 questions/course
+- **Course Summaries**: AI-generated summaries for all courses
+- **Module Scripts**: 270 avatar video scripts (~12 min each)
 - **Content Status Workflow**: pending → generating → reviewed → published
-- **Quiz Interface**: Start quiz, select answer, submit, see explanation, track score
-- **Scripts Display**: Full avatar scripts with word count and duration
+- **Progress Tracking**: `/admin/progress` page for monitoring
 
-### Frontend Features
-- Course detail page with 4 tabs: Overview, Modules, Quiz, Scripts
-- Content status badge (Published/Pending/Generating)
-- Generate Content CTA for courses without content
-- Real-time status polling during generation
-- Quiz with difficulty breakdown (Easy/Medium/Hard)
-- Module scripts with expandable view
+### Phase 3 - Video Generation (Jan 2025)
+- **Video Generator Service**: Sora 2 integration for avatar videos
+- **Bulk Generation**: Background task queue for all modules
+- **Video API Endpoints**: Generate, status, retrieve videos
 
-## Content Generation System
-- **Sources**: AI-generated topic research
-- **Summary**: 800-1200 words with learning objectives
-- **MCQ**: 25 questions per course batch, varied difficulty
-- **Scripts**: ~300 words per module (~2-12 min duration)
-- **Status Tracking**: All content has status workflow
-- **Logs**: Generation events logged per course
+### Current Generation Status (In Progress)
+- MCQ Generation: Running in background for all 90 courses
+- Target: 18,000 MCQ questions (200 × 90 courses)
+- Video Generation: Ready to start after MCQ completion
 
-## Prioritized Backlog
+## API Endpoints
 
-### P0 (Critical) - Complete
-- [x] Course catalog browsing
-- [x] AI Study Assistant
-- [x] Authentication
-- [x] Content generation system
-- [x] MCQ quiz functionality
-- [x] Module scripts
+### Content Generation
+- `POST /api/content/generate-all-mcq` - Generate MCQ for all courses
+- `POST /api/content/generate-mcq/{course_id}` - Generate MCQ for single course
+- `GET /api/generation-progress` - Get overall progress
 
-### P1 (High Priority) - Phase 3
-- [ ] Scale MCQ to 200 questions per course
-- [ ] Video generation from scripts
-- [ ] Student progress tracking
-- [ ] Exam practice mode with timer
-
-### P2 (Medium Priority) - Future
-- [ ] Study groups/collaboration
-- [ ] Note-taking per course
-- [ ] Calendar integration
-- [ ] Push notifications
+### Video Generation
+- `POST /api/video/generate-all` - Generate videos for all modules
+- `POST /api/video/generate-course/{course_id}` - Generate videos for course
+- `GET /api/video/{module_id}` - Get video info
 
 ## Tech Stack
 - **Frontend**: React 19, Tailwind CSS, Shadcn UI
 - **Backend**: FastAPI, Python 3.11
 - **Database**: MongoDB
 - **AI**: GPT-5.2 via Emergent LLM Key
+- **Video**: Sora 2 via Emergent LLM Key
 - **Auth**: Emergent Google OAuth
 
-## Next Tasks
-1. Scale MCQ generation to 200 questions per course
-2. Integrate video avatar generation for scripts
-3. Add student progress tracking dashboard
-4. Implement exam mode with timer and scoring
+## Cost Estimate
+- MCQ (18,000 questions): ~$150-200
+- Videos (270 modules): ~$80-100
+- Total: ~$250-300
