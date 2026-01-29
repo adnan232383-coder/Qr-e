@@ -89,7 +89,7 @@ export default function ChatWidget({ isOpen, onToggle, courseId, courseName }) {
     return (
       <Button
         onClick={onToggle}
-        className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg float-shadow bounce-subtle z-50"
+        className="fixed bottom-20 right-6 h-14 w-14 rounded-full shadow-lg float-shadow bounce-subtle z-50"
         data-testid="chat-toggle-btn"
       >
         <MessageSquare className="h-6 w-6" />
