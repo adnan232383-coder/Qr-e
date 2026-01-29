@@ -111,6 +111,39 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     response: str
 
+class MCQQuestion(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    question_id: str
+    course_id: str
+    question: str
+    option_a: str
+    option_b: str
+    option_c: str
+    option_d: str
+    correct_answer: str
+    explanation: str
+    difficulty: Optional[str] = "medium"
+    topic: Optional[str] = None
+
+class ModuleScript(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    script_id: str
+    module_id: str
+    course_id: str
+    script_text: str
+    word_count: int
+    estimated_duration_minutes: float
+    status: str
+
+class ContentStatusModel(BaseModel):
+    course_id: str
+    status: str
+    updated_at: Optional[str] = None
+    published_at: Optional[str] = None
+
+class GenerateContentRequest(BaseModel):
+    course_id: str
+
 # ==================== AUTH HELPERS ====================
 
 async def get_current_user(request: Request) -> Optional[User]:
