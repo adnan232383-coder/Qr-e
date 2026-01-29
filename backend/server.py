@@ -572,7 +572,68 @@ async def seed_database():
             upsert=True
         )
     
-    return {"message": "Database seeded successfully", "courses_count": len(courses_data)}
+    # Seed Modules for each course (2-3 modules per course)
+    modules_templates = {
+        "General Biology": [
+            {"title": "Cell Structure & Function", "description": "Introduction to cell biology, organelles, and cellular processes.", "topics": ["Cell membrane", "Nucleus", "Mitochondria", "Cell division"], "duration_hours": 4},
+            {"title": "Genetics Fundamentals", "description": "Basic genetics, DNA, RNA, and gene expression.", "topics": ["DNA structure", "Replication", "Transcription", "Translation"], "duration_hours": 5},
+            {"title": "Evolution & Diversity", "description": "Principles of evolution and biological diversity.", "topics": ["Natural selection", "Adaptation", "Speciation"], "duration_hours": 3},
+        ],
+        "General Chemistry": [
+            {"title": "Atomic Structure", "description": "Atoms, electrons, and periodic table fundamentals.", "topics": ["Atomic models", "Electron configuration", "Periodic trends"], "duration_hours": 4},
+            {"title": "Chemical Bonding", "description": "Ionic, covalent, and metallic bonds.", "topics": ["Ionic bonds", "Covalent bonds", "Lewis structures"], "duration_hours": 4},
+            {"title": "Stoichiometry", "description": "Chemical calculations and reactions.", "topics": ["Mole concept", "Balancing equations", "Limiting reagents"], "duration_hours": 5},
+        ],
+        "Human Anatomy I": [
+            {"title": "Skeletal System", "description": "Bones, joints, and skeletal anatomy.", "topics": ["Bone structure", "Axial skeleton", "Appendicular skeleton"], "duration_hours": 6},
+            {"title": "Muscular System", "description": "Muscle types, structure, and function.", "topics": ["Skeletal muscles", "Muscle contraction", "Major muscle groups"], "duration_hours": 5},
+            {"title": "Integumentary System", "description": "Skin structure and functions.", "topics": ["Epidermis", "Dermis", "Skin appendages"], "duration_hours": 3},
+        ],
+        "Physiology": [
+            {"title": "Cardiovascular Physiology", "description": "Heart function and blood circulation.", "topics": ["Cardiac cycle", "Blood pressure", "ECG basics"], "duration_hours": 6},
+            {"title": "Respiratory Physiology", "description": "Breathing mechanics and gas exchange.", "topics": ["Ventilation", "Gas transport", "Respiratory control"], "duration_hours": 5},
+            {"title": "Renal Physiology", "description": "Kidney function and fluid balance.", "topics": ["Nephron function", "Filtration", "Acid-base balance"], "duration_hours": 5},
+        ],
+        "Pharmacology I": [
+            {"title": "Pharmacokinetics", "description": "Drug absorption, distribution, metabolism, and excretion.", "topics": ["ADME", "Bioavailability", "Half-life"], "duration_hours": 5},
+            {"title": "Pharmacodynamics", "description": "Drug-receptor interactions and mechanisms.", "topics": ["Receptors", "Agonists/Antagonists", "Dose-response"], "duration_hours": 5},
+            {"title": "Autonomic Pharmacology", "description": "Drugs affecting the autonomic nervous system.", "topics": ["Cholinergics", "Adrenergics", "Blockers"], "duration_hours": 6},
+        ],
+    }
+    
+    # Default module template for courses not in the templates
+    default_modules = [
+        {"title": "Introduction & Fundamentals", "description": "Core concepts and foundational principles.", "topics": ["Key terms", "Basic principles", "Overview"], "duration_hours": 4},
+        {"title": "Clinical Applications", "description": "Practical applications and case studies.", "topics": ["Case studies", "Clinical scenarios", "Practice"], "duration_hours": 5},
+        {"title": "Advanced Topics & Review", "description": "Advanced concepts and exam preparation.", "topics": ["Complex topics", "Integration", "Review"], "duration_hours": 4},
+    ]
+    
+    modules_count = 0
+    for course in courses_data:
+        course_id = course["external_id"]
+        course_name = course["course_name"]
+        
+        # Get modules template or use default
+        course_modules = modules_templates.get(course_name, default_modules)
+        
+        for idx, mod in enumerate(course_modules):
+            module_data = {
+                "module_id": f"{course_id}_M{idx+1:02d}",
+                "courseId": course_id,
+                "title": mod["title"],
+                "description": mod["description"],
+                "order": idx + 1,
+                "duration_hours": mod.get("duration_hours", 4),
+                "topics": mod.get("topics", []),
+            }
+            await db.modules.update_one(
+                {"module_id": module_data["module_id"]},
+                {"$set": module_data},
+                upsert=True
+            )
+            modules_count += 1
+    
+    return {"message": "Database seeded successfully", "courses_count": len(courses_data), "modules_count": modules_count}
 
 # ==================== ROOT AND STATUS ====================
 
