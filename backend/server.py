@@ -501,6 +501,76 @@ async def generate_all_content(background_tasks: BackgroundTasks, limit: int = 5
     
     return {"message": f"Queued {len(queued)} courses for content generation", "courses": queued}
 
+# ==================== VIDEO GENERATION ROUTES ====================
+
+@api_router.post("/video/generate/{module_id}")
+async def generate_module_video(module_id: str, background_tasks: BackgroundTasks):
+    """Generate video for a module script"""
+    from video_generator import VideoGenerationQueue
+    
+    module = await db.modules.find_one({"module_id": module_id}, {"_id": 0})
+    if not module:
+        raise HTTPException(status_code=404, detail="Module not found")
+    
+    script = await db.module_scripts.find_one({"module_id": module_id}, {"_id": 0})
+    if not script:
+        raise HTTPException(status_code=400, detail="Module script not found. Generate content first.")
+    
+    queue = VideoGenerationQueue(db)
+    task = await queue.enqueue(module_id)
+    
+    background_tasks.add_task(queue.process_queue)
+    
+    return {"message": "Video generation queued", "task": task}
+
+@api_router.get("/video/status/{module_id}")
+async def get_video_status(module_id: str):
+    """Get video generation status for a module"""
+    from video_generator import VideoGenerator
+    generator = VideoGenerator(db)
+    return await generator.get_video_status(module_id)
+
+@api_router.get("/video/{module_id}")
+async def get_module_video(module_id: str):
+    """Get video info for a module"""
+    from video_generator import VideoGenerator
+    generator = VideoGenerator(db)
+    video = await generator.get_module_video(module_id)
+    if not video:
+        raise HTTPException(status_code=404, detail="Video not found")
+    return video
+
+@api_router.get("/video/queue-status")
+async def get_video_queue_status():
+    """Get video generation queue status"""
+    from video_generator import VideoGenerationQueue
+    queue = VideoGenerationQueue(db)
+    return await queue.get_queue_status()
+
+@api_router.post("/video/generate-course/{course_id}")
+async def generate_course_videos(course_id: str, background_tasks: BackgroundTasks):
+    """Generate videos for all modules in a course"""
+    from video_generator import VideoGenerationQueue
+    
+    modules = await db.modules.find({"courseId": course_id}, {"_id": 0}).to_list(100)
+    if not modules:
+        raise HTTPException(status_code=404, detail="No modules found for course")
+    
+    queue = VideoGenerationQueue(db)
+    queued = []
+    
+    for module in modules:
+        module_id = module["module_id"]
+        script = await db.module_scripts.find_one({"module_id": module_id})
+        if script:
+            await queue.enqueue(module_id)
+            queued.append(module_id)
+    
+    if queued:
+        background_tasks.add_task(queue.process_queue)
+    
+    return {"message": f"Queued {len(queued)} videos for generation", "modules": queued}
+
 # ==================== AI CHAT ROUTES ====================
 
 @api_router.post("/chat", response_model=ChatResponse)
