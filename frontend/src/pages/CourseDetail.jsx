@@ -68,8 +68,11 @@ export default function CourseDetail() {
   const [contentStatus, setContentStatus] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [scripts, setScripts] = useState([]);
+  const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [generating, setGenerating] = useState(false);
+  const [generatingVideos, setGeneratingVideos] = useState(false);
+  const [generatingMCQ, setGeneratingMCQ] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("overview");
   
@@ -104,7 +107,8 @@ export default function CourseDetail() {
       fetchCourseData(),
       fetchContentStatus(),
       fetchQuestions(),
-      fetchScripts()
+      fetchScripts(),
+      fetchVideos()
     ]);
     setLoading(false);
   };
