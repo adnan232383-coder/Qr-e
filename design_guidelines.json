@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "name": "UG University Assistant",
+    "persona": "E1 - The Anti-AI Designer",
+    "archetype": "The Performance Pro (Academic Rigor) x Organic & Earthy (Growth)",
+    "tone": "Professional, Trustworthy, Focused, Supportive"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Libre Baskerville, serif",
+      "weights": ["400", "700"],
+      "usage": "All H1-H3 headings. Use tight tracking (-0.02em) for H1."
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "All body text, UI elements, and data displays."
+    },
+    "mono": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Course codes, credits, and technical data."
+    }
+  },
+  "colors": {
+    "light": {
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "primary": "#0F766E",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F1F5F9",
+      "secondary_foreground": "#0F172A",
+      "accent": "#CCFBF1",
+      "accent_foreground": "#0F766E",
+      "muted": "#F1F5F9",
+      "muted_foreground": "#64748B",
+      "card": "#FFFFFF",
+      "card_foreground": "#0F172A",
+      "border": "#E2E8F0"
+    },
+    "dark": {
+      "background": "#0F172A",
+      "foreground": "#F8FAFC",
+      "primary": "#2DD4BF",
+      "primary_foreground": "#0F172A",
+      "secondary": "#1E293B",
+      "secondary_foreground": "#F8FAFC",
+      "accent": "#134E4A",
+      "accent_foreground": "#2DD4BF",
+      "muted": "#1E293B",
+      "muted_foreground": "#94A3B8",
+      "card": "#1E293B",
+      "card_foreground": "#F8FAFC",
+      "border": "#334155"
+    },
+    "semantic": {
+      "dentistry": "#0EA5E9",
+      "pharmacy": "#10B981",
+      "alert": "#EF4444",
+      "success": "#10B981"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "usage": "Sticky headers, Chatbot window, Modal overlays",
+      "classes": "bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border border-white/20 shadow-sm"
+    },
+    "borders": {
+      "style": "Clean, clinical lines",
+      "radius": "rounded-lg",
+      "width": "border"
+    },
+    "shadows": {
+      "card": "shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300",
+      "float": "shadow-[0_12px_32px_rgba(15,118,110,0.15)]"
+    }
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section": "py-16 lg:py-24",
+      "element": "gap-6"
+    },
+    "grids": {
+      "bento": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "catalog": "grid grid-cols-1 lg:grid-cols-12 gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 rounded-full font-medium transition-all active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-11 px-8 rounded-full font-medium",
+      "ghost": "hover:bg-accent hover:text-accent-foreground h-11 px-6 rounded-full"
+    },
+    "cards": {
+      "course": "bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-colors group relative overflow-hidden",
+      "feature": "bg-secondary/50 border border-border/50 rounded-2xl p-8"
+    },
+    "inputs": {
+      "default": "h-11 bg-background border-input focus:ring-2 focus:ring-primary/20 focus:border-primary rounded-lg"
+    }
+  },
+  "image_urls": {
+    "hero": {
+      "url": "https://images.pexels.com/photos/35531445/pexels-photo-35531445.jpeg",
+      "alt": "Medical student studying in library",
+      "category": "landing"
+    },
+    "dentistry": {
+      "url": "https://images.unsplash.com/photo-1643386106343-18d5d3c64d47?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Clean dentistry tools",
+      "category": "major_selection"
+    },
+    "pharmacy": {
+      "url": "https://images.unsplash.com/photo-1766297248027-864589dbd336?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Pharmacy laboratory science",
+      "category": "major_selection"
+    },
+    "university_bg": {
+      "url": "https://images.unsplash.com/photo-1761405973526-c2ce51b8a9c5?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "University library atmosphere",
+      "category": "background"
+    }
+  },
+  "instructions_to_main_agent": {
+    "general": "Follow the 'Clinical Warmth' theme. Avoid sterile hospital white; use warm slate/grey tones. Ensure high contrast for readability.",
+    "fonts": "Import 'Libre Baskerville' and 'Manrope' from Google Fonts immediately.",
+    "layout": "Use the 'Catalog Grid' for the course browser: Sidebar (col-span-3) for filters, Main (col-span-9) for course cards.",
+    "chatbot": "Implement the AI Assistant as a floating widget that expands into a glassmorphic panel. Do not make it a full page.",
+    "auth": "Design the Login page with a split layout: Left side form, Right side 'University BG' image with a quote overlay.",
+    "theme_toggle": "Place the Light/Dark toggle in the top navigation bar. Ensure smooth transitions."
+  },
+  "universal_guidelines": {
+    "do_not": [
+      "Use generic 'Bootstrap' layouts.",
+      "Use pure black (#000000) or pure white (#FFFFFF) for large backgrounds.",
+      "Use 'Inter' for headings.",
+      "Center text on heavy content pages (like course descriptions)."
+    ],
+    "must_do": [
+      "Add 'data-testid' to all interactive elements.",
+      "Use 'sonner' for toast notifications.",
+      "Ensure all images have 'object-cover' and proper aspect ratios.",
+      "Use 'lucide-react' for icons."
+    ]
+  }
+}
