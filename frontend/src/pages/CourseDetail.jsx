@@ -3,6 +3,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useAuth } from "@/context/AuthContext";
 import { useTheme } from "@/context/ThemeContext";
 import { 
@@ -13,7 +15,10 @@ import {
   BookOpen, 
   Clock,
   FileText,
-  MessageSquare
+  MessageSquare,
+  Play,
+  CheckCircle,
+  ListOrdered
 } from "lucide-react";
 import ChatWidget from "@/components/ChatWidget";
 
@@ -28,6 +33,7 @@ export default function CourseDetail() {
   
   const [course, setCourse] = useState(null);
   const [content, setContent] = useState(null);
+  const [modules, setModules] = useState([]);
   const [loading, setLoading] = useState(true);
   const [chatOpen, setChatOpen] = useState(false);
 
@@ -52,6 +58,13 @@ export default function CourseDetail() {
       if (contentRes.ok) {
         const contentData = await contentRes.json();
         setContent(contentData);
+      }
+
+      // Fetch course modules
+      const modulesRes = await fetch(`${API}/courses/${courseId}/modules`);
+      if (modulesRes.ok) {
+        const modulesData = await modulesRes.json();
+        setModules(modulesData || []);
       }
     } catch (e) {
       console.error("Error fetching course data:", e);
@@ -81,6 +94,8 @@ export default function CourseDetail() {
       </div>
     );
   }
+
+  const totalDuration = modules.reduce((sum, mod) => sum + (mod.duration_hours || 0), 0);
 
   return (
     <div className="min-h-screen bg-background" data-testid="course-detail-page">
@@ -154,12 +169,106 @@ export default function CourseDetail() {
               <Clock className="h-4 w-4" />
               Semester {course.semester}
             </span>
+            {modules.length > 0 && (
+              <span className="flex items-center gap-1">
+                <ListOrdered className="h-4 w-4" />
+                {modules.length} Modules
+              </span>
+            )}
+            {totalDuration > 0 && (
+              <span className="flex items-center gap-1">
+                <Play className="h-4 w-4" />
+                {totalDuration} Hours
+              </span>
+            )}
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">{course.course_name}</h1>
           <p className="text-lg text-muted-foreground">{course.course_description}</p>
         </div>
 
         <Separator className="my-8" />
+
+        {/* Course Modules Section */}
+        <Card className="mb-8 animate-slide-up" data-testid="modules-section">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <ListOrdered className="h-5 w-5 text-primary" />
+              Course Modules
+              {modules.length > 0 && (
+                <Badge variant="secondary" className="ml-2">
+                  {modules.length} modules
+                </Badge>
+              )}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            {modules.length > 0 ? (
+              <Accordion type="single" collapsible className="w-full">
+                {modules.map((module, index) => (
+                  <AccordionItem 
+                    key={module.module_id} 
+                    value={module.module_id}
+                    data-testid={`module-item-${index}`}
+                  >
+                    <AccordionTrigger className="hover:no-underline">
+                      <div className="flex items-center gap-4 text-left">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary font-semibold text-sm">
+                          {module.order || index + 1}
+                        </span>
+                        <div>
+                          <div className="font-semibold">{module.title}</div>
+                          <div className="text-sm text-muted-foreground flex items-center gap-2 mt-1">
+                            {module.duration_hours && (
+                              <span className="flex items-center gap-1">
+                                <Clock className="h-3 w-3" />
+                                {module.duration_hours}h
+                              </span>
+                            )}
+                            {module.topics && module.topics.length > 0 && (
+                              <span>• {module.topics.length} topics</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent>
+                      <div className="pl-12 space-y-4">
+                        {module.description && (
+                          <p className="text-muted-foreground">{module.description}</p>
+                        )}
+                        {module.topics && module.topics.length > 0 && (
+                          <div>
+                            <h4 className="font-medium mb-2">Topics Covered:</h4>
+                            <ul className="space-y-2">
+                              {module.topics.map((topic, topicIdx) => (
+                                <li 
+                                  key={topicIdx} 
+                                  className="flex items-center gap-2 text-sm"
+                                  data-testid={`topic-${index}-${topicIdx}`}
+                                >
+                                  <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />
+                                  <span>{topic}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            ) : (
+              <div className="text-center py-8 text-muted-foreground">
+                <ListOrdered className="h-10 w-10 mx-auto mb-3 opacity-50" />
+                <p>No modules available yet</p>
+                <p className="text-sm mt-2">
+                  Course content is being prepared
+                </p>
+              </div>
+            )}
+          </CardContent>
+        </Card>
 
         {/* Course Summary */}
         <Card className="mb-8 animate-slide-up">
@@ -208,10 +317,10 @@ export default function CourseDetail() {
           </CardContent>
         </Card>
 
-        {/* Chapters (if available) */}
+        {/* Legacy Chapters (if available) */}
         {content?.chapters && content.chapters.length > 0 && (
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">Course Chapters</h2>
+            <h2 className="text-xl font-bold mb-4">Additional Chapters</h2>
             <div className="space-y-3">
               {content.chapters.map((chapter, index) => (
                 <Card key={index} className="card-hover">
