@@ -148,6 +148,73 @@ class UGUniversityAPITester:
         # Test logout without session
         self.run_test("Logout (No Session)", "POST", "auth/logout", 200)
 
+    def test_content_generation_endpoints(self, course_id):
+        """Test content generation system endpoints"""
+        print("\n=== TESTING CONTENT GENERATION ENDPOINTS ===")
+        
+        if not course_id:
+            print("⚠️  No course ID available, skipping content generation tests")
+            return
+        
+        # Test course status endpoint
+        success, status = self.run_test("Get Course Status", "GET", f"courses/{course_id}/status", 200)
+        if success:
+            print(f"   Course status: {status.get('status', 'unknown')}")
+            print(f"   Has summary: {status.get('has_summary', False)}")
+            print(f"   Questions count: {status.get('questions_count', 0)}")
+            print(f"   Scripts count: {status.get('scripts_count', 0)}")
+        
+        # Test course questions endpoint
+        success, questions_data = self.run_test("Get Course Questions", "GET", f"courses/{course_id}/questions?limit=50", 200)
+        if success:
+            questions = questions_data.get('questions', [])
+            print(f"   Found {len(questions)} questions")
+            if questions:
+                # Test difficulty breakdown
+                difficulties = {}
+                for q in questions:
+                    diff = q.get('difficulty', 'unknown')
+                    difficulties[diff] = difficulties.get(diff, 0) + 1
+                print(f"   Difficulty breakdown: {difficulties}")
+                
+                # Test first question structure
+                first_q = questions[0]
+                required_fields = ['question_id', 'question', 'option_a', 'option_b', 'option_c', 'option_d', 'correct_answer', 'explanation']
+                missing_fields = [field for field in required_fields if field not in first_q]
+                if missing_fields:
+                    print(f"   ⚠️  Missing question fields: {missing_fields}")
+                else:
+                    print(f"   ✅ Question structure complete")
+        
+        # Test course scripts endpoint
+        success, scripts = self.run_test("Get Course Scripts", "GET", f"courses/{course_id}/scripts", 200)
+        if success and scripts:
+            print(f"   Found {len(scripts)} module scripts")
+            for script in scripts[:3]:  # Show first 3
+                duration = script.get('estimated_duration_minutes', 0)
+                word_count = script.get('word_count', 0)
+                print(f"     - Module {script.get('module_id', 'unknown')}: {duration}min, {word_count} words")
+        
+        # Test course modules endpoint
+        success, modules = self.run_test("Get Course Modules", "GET", f"courses/{course_id}/modules", 200)
+        if success and modules:
+            print(f"   Found {len(modules)} modules")
+            for module in modules[:3]:  # Show first 3
+                print(f"     - {module.get('title', 'Untitled')}: {module.get('duration_hours', 0)}h")
+        
+        # Test content generation queue status
+        success, queue_status = self.run_test("Get Queue Status", "GET", "content/queue-status", 200)
+        if success:
+            print(f"   Queue status: {queue_status}")
+        
+        # Test content generation logs
+        success, logs = self.run_test("Get Generation Logs", "GET", f"courses/{course_id}/logs", 200)
+        if success:
+            logs_data = logs.get('logs', [])
+            print(f"   Found {len(logs_data)} generation log entries")
+        
+        return course_id
+
     def test_ai_chat_endpoint(self):
         """Test AI chat endpoint"""
         print("\n=== TESTING AI CHAT ENDPOINT ===")
