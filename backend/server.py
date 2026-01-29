@@ -798,7 +798,277 @@ async def seed_database():
             )
             modules_count += 1
     
-    return {"message": "Database seeded successfully", "courses_count": len(courses_data), "modules_count": modules_count}
+    # ==================== SEED MCQ QUESTIONS, SUMMARIES & SCRIPTS ====================
+    
+    # Sample MCQ questions for different subjects
+    mcq_templates = {
+        "General Biology": [
+            {"question": "Which organelle is responsible for ATP production in eukaryotic cells?", "option_a": "Nucleus", "option_b": "Mitochondria", "option_c": "Ribosome", "option_d": "Golgi apparatus", "correct_answer": "B", "explanation": "Mitochondria are the 'powerhouse of the cell' where oxidative phosphorylation produces ATP through the electron transport chain.", "difficulty": "easy"},
+            {"question": "What is the primary function of the rough endoplasmic reticulum?", "option_a": "Lipid synthesis", "option_b": "Protein synthesis and modification", "option_c": "DNA replication", "option_d": "Cell division", "correct_answer": "B", "explanation": "The rough ER is studded with ribosomes and is the site of protein synthesis for secreted and membrane proteins.", "difficulty": "easy"},
+            {"question": "Which phase of the cell cycle is characterized by DNA replication?", "option_a": "G1 phase", "option_b": "S phase", "option_c": "G2 phase", "option_d": "M phase", "correct_answer": "B", "explanation": "The S (Synthesis) phase is when DNA replication occurs, resulting in chromosome duplication before cell division.", "difficulty": "medium"},
+            {"question": "In Mendelian genetics, what ratio is expected in the F2 generation of a monohybrid cross?", "option_a": "1:1", "option_b": "2:1", "option_c": "3:1", "option_d": "1:2:1", "correct_answer": "C", "explanation": "The classic 3:1 phenotypic ratio in F2 results from self-crossing F1 heterozygotes (Aa x Aa → 3 dominant : 1 recessive).", "difficulty": "medium"},
+            {"question": "Which type of RNA carries amino acids to the ribosome during translation?", "option_a": "mRNA", "option_b": "tRNA", "option_c": "rRNA", "option_d": "snRNA", "correct_answer": "B", "explanation": "Transfer RNA (tRNA) has an anticodon that pairs with mRNA codons and carries specific amino acids for protein synthesis.", "difficulty": "easy"},
+            {"question": "What is the function of telomeres?", "option_a": "Initiate DNA replication", "option_b": "Protect chromosome ends from degradation", "option_c": "Control gene expression", "option_d": "Facilitate crossing over", "correct_answer": "B", "explanation": "Telomeres are repetitive DNA sequences at chromosome ends that protect against degradation and fusion with other chromosomes.", "difficulty": "medium"},
+            {"question": "Which enzyme unwinds the DNA double helix during replication?", "option_a": "DNA polymerase", "option_b": "Helicase", "option_c": "Ligase", "option_d": "Primase", "correct_answer": "B", "explanation": "Helicase breaks hydrogen bonds between base pairs, separating the two DNA strands to create replication forks.", "difficulty": "medium"},
+            {"question": "What is apoptosis?", "option_a": "Uncontrolled cell growth", "option_b": "Cell migration", "option_c": "Programmed cell death", "option_d": "Cell fusion", "correct_answer": "C", "explanation": "Apoptosis is controlled cell suicide, essential for development, tissue homeostasis, and eliminating damaged cells.", "difficulty": "easy"},
+        ],
+        "General Chemistry": [
+            {"question": "What is the atomic number of carbon?", "option_a": "4", "option_b": "6", "option_c": "8", "option_d": "12", "correct_answer": "B", "explanation": "Carbon has 6 protons in its nucleus, giving it an atomic number of 6. The atomic mass of 12 includes both protons and neutrons.", "difficulty": "easy"},
+            {"question": "Which type of bond involves the sharing of electrons?", "option_a": "Ionic bond", "option_b": "Covalent bond", "option_c": "Hydrogen bond", "option_d": "Van der Waals bond", "correct_answer": "B", "explanation": "Covalent bonds form when atoms share electron pairs, as opposed to ionic bonds where electrons are transferred.", "difficulty": "easy"},
+            {"question": "What is the pH of a neutral solution at 25°C?", "option_a": "0", "option_b": "5", "option_c": "7", "option_d": "14", "correct_answer": "C", "explanation": "At 25°C, neutral pH is 7 where [H+] = [OH-] = 10^-7 M. Below 7 is acidic, above 7 is basic.", "difficulty": "easy"},
+            {"question": "According to the octet rule, how many valence electrons does a stable atom typically have?", "option_a": "2", "option_b": "4", "option_c": "6", "option_d": "8", "correct_answer": "D", "explanation": "The octet rule states that atoms tend to gain, lose, or share electrons to achieve 8 valence electrons (like noble gases).", "difficulty": "easy"},
+            {"question": "What type of reaction occurs when an acid reacts with a base?", "option_a": "Oxidation", "option_b": "Reduction", "option_c": "Neutralization", "option_d": "Hydrolysis", "correct_answer": "C", "explanation": "Neutralization reactions occur between acids and bases, producing water and a salt (e.g., HCl + NaOH → NaCl + H2O).", "difficulty": "medium"},
+            {"question": "Which element has the highest electronegativity?", "option_a": "Oxygen", "option_b": "Fluorine", "option_c": "Chlorine", "option_d": "Nitrogen", "correct_answer": "B", "explanation": "Fluorine is the most electronegative element (4.0 on Pauling scale) due to its small size and high nuclear charge.", "difficulty": "medium"},
+            {"question": "What is the molar mass of water (H2O)?", "option_a": "16 g/mol", "option_b": "18 g/mol", "option_c": "20 g/mol", "option_d": "32 g/mol", "correct_answer": "B", "explanation": "H2O = 2(1) + 16 = 18 g/mol. This is calculated from atomic masses: H=1, O=16.", "difficulty": "easy"},
+            {"question": "In a redox reaction, what happens to a substance that is oxidized?", "option_a": "Gains electrons", "option_b": "Loses electrons", "option_c": "Gains protons", "option_d": "Loses protons", "correct_answer": "B", "explanation": "Oxidation Is Loss (OIL) - a substance being oxidized loses electrons and its oxidation state increases.", "difficulty": "medium"},
+        ],
+        "Physiology": [
+            {"question": "What is the normal resting heart rate for adults?", "option_a": "40-50 bpm", "option_b": "60-100 bpm", "option_c": "100-120 bpm", "option_d": "120-140 bpm", "correct_answer": "B", "explanation": "Normal adult resting heart rate is 60-100 beats per minute. Athletes may have lower rates due to conditioning.", "difficulty": "easy"},
+            {"question": "Which part of the brain controls breathing?", "option_a": "Cerebrum", "option_b": "Cerebellum", "option_c": "Medulla oblongata", "option_d": "Hypothalamus", "correct_answer": "C", "explanation": "The medulla oblongata contains respiratory centers that control the rate and depth of breathing.", "difficulty": "medium"},
+            {"question": "What is the primary function of hemoglobin?", "option_a": "Blood clotting", "option_b": "Oxygen transport", "option_c": "Fighting infection", "option_d": "Nutrient absorption", "correct_answer": "B", "explanation": "Hemoglobin in red blood cells binds oxygen in the lungs and releases it in tissues, enabling aerobic metabolism.", "difficulty": "easy"},
+            {"question": "Which hormone regulates blood glucose levels by promoting glucose uptake?", "option_a": "Glucagon", "option_b": "Insulin", "option_c": "Cortisol", "option_d": "Epinephrine", "correct_answer": "B", "explanation": "Insulin, secreted by pancreatic beta cells, lowers blood glucose by promoting cellular uptake and glycogen storage.", "difficulty": "easy"},
+            {"question": "What is the functional unit of the kidney?", "option_a": "Alveolus", "option_b": "Nephron", "option_c": "Hepatocyte", "option_d": "Neuron", "correct_answer": "B", "explanation": "The nephron filters blood and produces urine. Each kidney contains about 1 million nephrons.", "difficulty": "easy"},
+            {"question": "Which phase of the cardiac cycle represents ventricular contraction?", "option_a": "Diastole", "option_b": "Systole", "option_c": "Isovolumic relaxation", "option_d": "Atrial kick", "correct_answer": "B", "explanation": "Systole is the phase of ventricular contraction when blood is ejected into the aorta and pulmonary artery.", "difficulty": "medium"},
+            {"question": "What neurotransmitter is released at the neuromuscular junction?", "option_a": "Dopamine", "option_b": "Serotonin", "option_c": "Acetylcholine", "option_d": "GABA", "correct_answer": "C", "explanation": "Acetylcholine is released from motor neurons and binds to nicotinic receptors on muscle fibers, causing contraction.", "difficulty": "medium"},
+            {"question": "Where does gas exchange occur in the lungs?", "option_a": "Bronchi", "option_b": "Bronchioles", "option_c": "Alveoli", "option_d": "Trachea", "correct_answer": "C", "explanation": "Alveoli are thin-walled air sacs where O2 diffuses into blood and CO2 diffuses out, facilitated by surfactant.", "difficulty": "easy"},
+        ],
+        "Pharmacology I": [
+            {"question": "What does the term 'bioavailability' refer to?", "option_a": "Drug potency", "option_b": "Fraction of drug reaching systemic circulation", "option_c": "Drug half-life", "option_d": "Drug toxicity", "correct_answer": "B", "explanation": "Bioavailability (F) is the fraction of administered drug that reaches systemic circulation unchanged. IV drugs have F=100%.", "difficulty": "medium"},
+            {"question": "Which route of administration provides 100% bioavailability?", "option_a": "Oral", "option_b": "Subcutaneous", "option_c": "Intravenous", "option_d": "Intramuscular", "correct_answer": "C", "explanation": "Intravenous administration bypasses absorption barriers, delivering 100% of the drug directly to systemic circulation.", "difficulty": "easy"},
+            {"question": "What is the primary organ responsible for drug metabolism?", "option_a": "Kidney", "option_b": "Liver", "option_c": "Lungs", "option_d": "Intestine", "correct_answer": "B", "explanation": "The liver is the primary site of drug metabolism, containing cytochrome P450 enzymes that biotransform drugs.", "difficulty": "easy"},
+            {"question": "What does a drug's half-life (t½) represent?", "option_a": "Time to reach maximum effect", "option_b": "Time for plasma concentration to decrease by 50%", "option_c": "Duration of drug action", "option_d": "Time to complete elimination", "correct_answer": "B", "explanation": "Half-life is the time required for plasma drug concentration to decrease by 50%. It determines dosing frequency.", "difficulty": "medium"},
+            {"question": "Which type of drug-receptor interaction produces no biological response?", "option_a": "Agonist", "option_b": "Partial agonist", "option_c": "Antagonist", "option_d": "Inverse agonist", "correct_answer": "C", "explanation": "Antagonists bind receptors without activating them, blocking the action of endogenous ligands or agonist drugs.", "difficulty": "medium"},
+            {"question": "What is first-pass metabolism?", "option_a": "Drug absorption in stomach", "option_b": "Drug metabolism before reaching systemic circulation", "option_c": "Drug excretion by kidneys", "option_d": "Drug distribution to tissues", "correct_answer": "B", "explanation": "First-pass metabolism occurs when orally administered drugs are metabolized by liver/gut before reaching systemic circulation.", "difficulty": "medium"},
+            {"question": "Which cytochrome P450 enzyme is responsible for metabolizing most drugs?", "option_a": "CYP1A2", "option_b": "CYP2D6", "option_c": "CYP3A4", "option_d": "CYP2C9", "correct_answer": "C", "explanation": "CYP3A4 metabolizes approximately 50% of all drugs. It's the most abundant CYP enzyme in liver and intestine.", "difficulty": "hard"},
+            {"question": "What is an idiosyncratic drug reaction?", "option_a": "Dose-dependent toxicity", "option_b": "Predictable side effect", "option_c": "Unpredictable adverse reaction", "option_d": "Drug-drug interaction", "correct_answer": "C", "explanation": "Idiosyncratic reactions are unpredictable, not dose-dependent, and often due to genetic or immunological factors.", "difficulty": "hard"},
+        ],
+    }
+    
+    # Generate MCQ questions for courses
+    mcq_count = 0
+    for course in courses_data[:20]:  # First 20 courses get full MCQs
+        course_id = course["external_id"]
+        course_name = course["course_name"]
+        
+        # Find matching template or use generic
+        template_questions = mcq_templates.get(course_name, mcq_templates.get("General Biology", []))
+        
+        questions_to_insert = []
+        for idx in range(min(25, len(template_questions) * 3)):  # Up to 25 questions per course
+            base_q = template_questions[idx % len(template_questions)].copy()
+            base_q["question_id"] = f"q_{course_id}_{idx:03d}"
+            base_q["course_id"] = course_id
+            base_q["topic"] = course_name
+            base_q["created_at"] = datetime.now(timezone.utc).isoformat()
+            questions_to_insert.append(base_q)
+        
+        if questions_to_insert:
+            await db.mcq_questions.delete_many({"course_id": course_id})
+            await db.mcq_questions.insert_many(questions_to_insert)
+            mcq_count += len(questions_to_insert)
+    
+    # Generate course summaries
+    summaries = {
+        "General Biology": """## Learning Objectives
+By the end of this course, students will be able to:
+- Understand the fundamental principles of cell biology
+- Describe the structure and function of cellular organelles
+- Explain the mechanisms of DNA replication and gene expression
+- Apply knowledge of genetics to clinical scenarios
+
+## Course Overview
+This foundational course introduces students to the cellular and molecular basis of life. Beginning with cell structure and organelle function, we explore how cells maintain homeostasis, communicate with their environment, and reproduce.
+
+### Cell Structure and Function
+Cells are the basic units of life. Eukaryotic cells, found in animals and plants, contain membrane-bound organelles including the nucleus (genetic material), mitochondria (energy production), endoplasmic reticulum (protein/lipid synthesis), and Golgi apparatus (protein modification and sorting).
+
+### Genetics and Heredity
+The principles of Mendelian inheritance form the basis of understanding genetic disorders. DNA replication ensures faithful transmission of genetic information, while transcription and translation convert genetic code into functional proteins.
+
+### Clinical Applications
+Understanding cell biology is essential for comprehending disease mechanisms, drug actions, and diagnostic techniques in medicine and dentistry.
+
+## Key Takeaways
+- Cell structure determines function
+- DNA → RNA → Protein (Central Dogma)
+- Genetic principles explain inheritance patterns
+- Cell biology underlies all medical sciences""",
+        
+        "Physiology": """## Learning Objectives
+Upon completion, students will be able to:
+- Describe the physiological basis of major organ system functions
+- Explain homeostatic mechanisms and feedback loops
+- Interpret physiological parameters in clinical contexts
+- Apply physiological principles to patient care
+
+## Course Overview
+Human physiology examines how the body's systems work together to maintain homeostasis. This course covers cardiovascular, respiratory, renal, nervous, and endocrine physiology with emphasis on clinical correlations.
+
+### Cardiovascular Physiology
+The heart generates pressure to circulate blood, delivering oxygen and nutrients while removing waste. Understanding cardiac output, blood pressure regulation, and ECG interpretation is fundamental to clinical practice.
+
+### Respiratory Physiology
+Gas exchange in the alveoli depends on ventilation-perfusion matching. The respiratory system also plays crucial roles in acid-base balance and host defense.
+
+### Renal Physiology
+The kidneys regulate fluid balance, electrolytes, and blood pressure through filtration, reabsorption, and secretion. Understanding nephron function is essential for managing fluid therapy and medications.
+
+## Key Takeaways
+- Homeostasis maintains internal stability
+- Feedback mechanisms regulate physiological parameters
+- Organ systems are interconnected
+- Physiological knowledge informs clinical decisions"""
+    }
+    
+    for course in courses_data:
+        course_id = course["external_id"]
+        course_name = course["course_name"]
+        
+        summary = summaries.get(course_name)
+        if not summary:
+            # Generate generic summary
+            summary = f"""## {course_name}
+
+### Learning Objectives
+- Master the fundamental concepts of {course_name.lower()}
+- Apply theoretical knowledge to clinical scenarios
+- Develop critical thinking skills in the subject area
+
+### Course Overview
+This course provides comprehensive coverage of {course_name.lower()}, establishing a strong foundation for advanced studies and clinical practice.
+
+{course.get('course_description', '')}
+
+### Key Takeaways
+- Strong foundation in {course_name.lower()}
+- Clinical relevance and applications
+- Preparation for advanced courses"""
+        
+        content = {
+            "course_id": course_id,
+            "summary": summary,
+            "sources": [
+                {"topic": course_name, "type": "textbook", "concepts": ["Core concepts", "Clinical applications"]},
+                {"topic": f"{course_name} research", "type": "literature", "concepts": ["Recent advances", "Evidence-based practice"]}
+            ],
+            "status": "published",
+            "generated_at": datetime.now(timezone.utc).isoformat()
+        }
+        await db.course_content.update_one({"course_id": course_id}, {"$set": content}, upsert=True)
+    
+    # Generate module scripts
+    script_template = """# {module_title}
+
+[INTRODUCTION]
+Welcome to this module on {module_title}. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.
+
+[PAUSE]
+
+## Learning Objectives
+By the end of this session, you'll be able to:
+- Define and explain core terminology related to {module_title}
+- Identify key principles and their clinical applications
+- Apply this knowledge to practical scenarios
+
+[PAUSE]
+
+## Section 1: Fundamentals
+
+Let's begin with the basic concepts. {topic_1} is essential because it forms the foundation of our understanding.
+
+[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.
+
+In clinical settings, you'll encounter these principles daily. For example, when assessing patients, knowledge of {topic_1} helps you interpret findings accurately.
+
+[PAUSE]
+
+## Section 2: Clinical Applications
+
+Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of {topic_2} guides your diagnostic approach.
+
+The key steps in clinical application include:
+1. Assessment based on foundational knowledge
+2. Integration of findings
+3. Evidence-based decision making
+
+[EMPHASIS] Clinical reasoning depends on solid foundational understanding.
+
+[PAUSE]
+
+## Section 3: Advanced Concepts
+
+Building on our foundation, let's examine {topic_3}. These advanced concepts connect what we've learned to more complex clinical scenarios.
+
+Healthcare professionals must integrate multiple concepts when managing patient care. This requires:
+- Strong foundational knowledge
+- Critical thinking skills
+- Continuous learning mindset
+
+[PAUSE]
+
+## Summary
+
+Today we covered:
+- Core concepts of {module_title}
+- Clinical applications and relevance
+- Advanced topics for deeper understanding
+
+[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.
+
+In our next module, we'll build on these concepts as we explore more advanced topics.
+
+Thank you for your attention. Keep reviewing these materials and don't hesitate to ask questions!
+
+[END]"""
+
+    scripts_count = 0
+    for course in courses_data[:20]:  # First 20 courses get scripts
+        course_id = course["external_id"]
+        course_modules = await db.modules.find({"courseId": course_id}, {"_id": 0}).to_list(10)
+        
+        for module in course_modules:
+            topics = module.get("topics", ["Core concepts", "Applications", "Advanced topics"])
+            script_text = script_template.format(
+                module_title=module["title"],
+                topic_1=topics[0] if len(topics) > 0 else "fundamental concepts",
+                topic_2=topics[1] if len(topics) > 1 else "clinical applications",
+                topic_3=topics[2] if len(topics) > 2 else "advanced topics"
+            )
+            
+            word_count = len(script_text.split())
+            script = {
+                "script_id": f"script_{module['module_id']}",
+                "module_id": module["module_id"],
+                "course_id": course_id,
+                "script_text": script_text,
+                "word_count": word_count,
+                "estimated_duration_minutes": round(word_count / 150, 1),
+                "status": "published",
+                "created_at": datetime.now(timezone.utc).isoformat()
+            }
+            await db.module_scripts.update_one({"module_id": module["module_id"]}, {"$set": script}, upsert=True)
+            scripts_count += 1
+    
+    # Set content status for seeded courses
+    for course in courses_data[:20]:
+        await db.content_status.update_one(
+            {"course_id": course["external_id"]},
+            {"$set": {
+                "course_id": course["external_id"],
+                "status": "published",
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "published_at": datetime.now(timezone.utc).isoformat()
+            }},
+            upsert=True
+        )
+    
+    return {
+        "message": "Database seeded successfully", 
+        "courses_count": len(courses_data), 
+        "modules_count": modules_count,
+        "mcq_count": mcq_count,
+        "scripts_count": scripts_count
+    }
 
 # ==================== ROOT AND STATUS ====================
 
