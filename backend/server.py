@@ -369,6 +369,138 @@ async def get_course_modules(external_id: str):
     modules.sort(key=lambda x: x.get("order", 0))
     return modules
 
+@api_router.get("/courses/{external_id}/status")
+async def get_course_content_status(external_id: str):
+    """Get content generation status for a course"""
+    from content_generator import ContentGenerator
+    generator = ContentGenerator(db)
+    status = await generator.get_content_status(external_id)
+    
+    # Also get counts
+    questions_count = await db.mcq_questions.count_documents({"course_id": external_id})
+    scripts_count = await db.module_scripts.count_documents({"course_id": external_id})
+    content = await db.course_content.find_one({"course_id": external_id}, {"_id": 0})
+    
+    return {
+        **status,
+        "has_summary": bool(content and content.get("summary")),
+        "questions_count": questions_count,
+        "scripts_count": scripts_count
+    }
+
+@api_router.get("/courses/{external_id}/questions")
+async def get_course_questions(external_id: str, limit: int = 50, offset: int = 0, difficulty: Optional[str] = None):
+    """Get MCQ questions for a course"""
+    query = {"course_id": external_id}
+    if difficulty:
+        query["difficulty"] = difficulty
+    
+    total = await db.mcq_questions.count_documents(query)
+    questions = await db.mcq_questions.find(query, {"_id": 0}).skip(offset).limit(limit).to_list(limit)
+    
+    return {
+        "total": total,
+        "offset": offset,
+        "limit": limit,
+        "questions": questions
+    }
+
+@api_router.get("/courses/{external_id}/scripts")
+async def get_course_scripts(external_id: str):
+    """Get all module scripts for a course"""
+    scripts = await db.module_scripts.find({"course_id": external_id}, {"_id": 0}).to_list(100)
+    return scripts
+
+@api_router.get("/modules/{module_id}/script")
+async def get_module_script(module_id: str):
+    """Get script for a specific module"""
+    script = await db.module_scripts.find_one({"module_id": module_id}, {"_id": 0})
+    if not script:
+        return {"module_id": module_id, "status": "pending", "script_text": None}
+    return script
+
+@api_router.get("/courses/{external_id}/logs")
+async def get_generation_logs(external_id: str):
+    """Get content generation logs for a course"""
+    from content_generator import ContentGenerator
+    generator = ContentGenerator(db)
+    logs = await generator.get_generation_logs(external_id)
+    return {"course_id": external_id, "logs": logs}
+
+# ==================== CONTENT GENERATION ROUTES ====================
+
+@api_router.post("/content/generate")
+async def generate_content(request: GenerateContentRequest, background_tasks: BackgroundTasks):
+    """Start content generation for a course (async)"""
+    from content_generator import ContentGenerationQueue
+    
+    course = await db.courses.find_one({"external_id": request.course_id}, {"_id": 0})
+    if not course:
+        raise HTTPException(status_code=404, detail="Course not found")
+    
+    queue = ContentGenerationQueue(db)
+    task = await queue.enqueue(request.course_id)
+    
+    # Start processing in background
+    background_tasks.add_task(queue.process_queue)
+    
+    return {"message": "Content generation queued", "task": task}
+
+@api_router.post("/content/generate-sync/{course_id}")
+async def generate_content_sync(course_id: str):
+    """Generate content for a course synchronously (for testing)"""
+    from content_generator import ContentGenerator
+    
+    course = await db.courses.find_one({"external_id": course_id}, {"_id": 0})
+    if not course:
+        raise HTTPException(status_code=404, detail="Course not found")
+    
+    generator = ContentGenerator(db)
+    result = await generator.generate_course_content(course_id)
+    return result
+
+@api_router.post("/content/publish/{course_id}")
+async def publish_content(course_id: str):
+    """Publish reviewed content"""
+    from content_generator import ContentGenerator
+    generator = ContentGenerator(db)
+    success = await generator.publish_content(course_id)
+    if not success:
+        raise HTTPException(status_code=400, detail="Content not ready for publishing or already published")
+    return {"message": "Content published", "course_id": course_id}
+
+@api_router.get("/content/queue-status")
+async def get_queue_status():
+    """Get content generation queue status"""
+    from content_generator import ContentGenerationQueue
+    queue = ContentGenerationQueue(db)
+    return await queue.get_queue_status()
+
+@api_router.post("/content/generate-all")
+async def generate_all_content(background_tasks: BackgroundTasks, limit: int = 5):
+    """Queue content generation for all courses without content"""
+    from content_generator import ContentGenerationQueue, ContentStatus
+    
+    # Find courses without generated content
+    all_courses = await db.courses.find({}, {"_id": 0, "external_id": 1}).to_list(1000)
+    
+    queued = []
+    queue = ContentGenerationQueue(db)
+    
+    for course in all_courses[:limit]:
+        course_id = course["external_id"]
+        status = await db.content_status.find_one({"course_id": course_id})
+        
+        if not status or status.get("status") == ContentStatus.PENDING:
+            task = await queue.enqueue(course_id)
+            queued.append(course_id)
+    
+    # Start processing
+    if queued:
+        background_tasks.add_task(queue.process_queue)
+    
+    return {"message": f"Queued {len(queued)} courses for content generation", "courses": queued}
+
 # ==================== AI CHAT ROUTES ====================
 
 @api_router.post("/chat", response_model=ChatResponse)
