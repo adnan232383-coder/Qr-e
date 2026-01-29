@@ -571,6 +571,97 @@ async def generate_course_videos(course_id: str, background_tasks: BackgroundTas
     
     return {"message": f"Queued {len(queued)} videos for generation", "modules": queued}
 
+@api_router.post("/content/generate-mcq/{course_id}")
+async def generate_mcq_for_course(course_id: str, count: int = 200):
+    """Generate MCQ questions for a course using AI"""
+    from emergentintegrations.llm.chat import LlmChat, UserMessage
+    import json
+    
+    course = await db.courses.find_one({"external_id": course_id}, {"_id": 0})
+    if not course:
+        raise HTTPException(status_code=404, detail="Course not found")
+    
+    api_key = os.environ.get("EMERGENT_LLM_KEY")
+    if not api_key:
+        raise HTTPException(status_code=500, detail="AI service not configured")
+    
+    course_name = course["course_name"]
+    description = course.get("course_description", "")
+    
+    questions = []
+    batch_size = 25
+    batches = (count + batch_size - 1) // batch_size
+    
+    for batch_num in range(batches):
+        remaining = min(batch_size, count - len(questions))
+        if remaining <= 0:
+            break
+        
+        try:
+            chat = LlmChat(
+                api_key=api_key,
+                session_id=f"mcq_{uuid.uuid4().hex[:8]}",
+                system_message="""You are a medical education expert creating high-quality MCQ questions.
+Create questions suitable for medical/pharmacy board exam preparation.
+Always return valid JSON array."""
+            ).with_model("openai", "gpt-5.2")
+            
+            prompt = f"""Generate {remaining} multiple-choice questions for:
+Course: {course_name}
+Description: {description}
+Batch: {batch_num + 1}/{batches}
+
+For each question provide:
+1. question: The question text
+2. option_a, option_b, option_c, option_d: Four answer options
+3. correct_answer: The correct option letter (A, B, C, or D)
+4. explanation: Detailed explanation (2-3 sentences)
+5. difficulty: easy, medium, or hard
+
+Format as JSON array ONLY, no other text:
+[{{"question": "...", "option_a": "...", "option_b": "...", "option_c": "...", "option_d": "...", "correct_answer": "A", "explanation": "...", "difficulty": "medium"}}]
+
+Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
+Cover different aspects of {course_name}."""
+            
+            response = await chat.send_message(UserMessage(text=prompt))
+            
+            # Parse JSON response
+            json_start = response.find('[')
+            json_end = response.rfind(']') + 1
+            if json_start >= 0 and json_end > json_start:
+                batch_questions = json.loads(response[json_start:json_end])
+                for q in batch_questions:
+                    q["question_id"] = f"q_{course_id}_{len(questions):03d}"
+                    q["course_id"] = course_id
+                    q["topic"] = course_name
+                    q["created_at"] = datetime.now(timezone.utc).isoformat()
+                    questions.append(q)
+                    
+            logger.info(f"Generated batch {batch_num + 1}/{batches} for {course_id}: {len(batch_questions)} questions")
+            
+        except Exception as e:
+            logger.error(f"Failed to generate MCQ batch {batch_num}: {e}")
+            continue
+    
+    if questions:
+        # Save to database
+        await db.mcq_questions.delete_many({"course_id": course_id})
+        await db.mcq_questions.insert_many(questions)
+        
+        # Update content status
+        await db.content_status.update_one(
+            {"course_id": course_id},
+            {"$set": {"has_mcq": True, "mcq_count": len(questions), "updated_at": datetime.now(timezone.utc).isoformat()}},
+            upsert=True
+        )
+    
+    return {
+        "message": f"Generated {len(questions)} MCQ questions for {course_name}",
+        "course_id": course_id,
+        "questions_count": len(questions)
+    }
+
 # ==================== AI CHAT ROUTES ====================
 
 @api_router.post("/chat", response_model=ChatResponse)
