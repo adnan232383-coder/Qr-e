@@ -327,6 +327,15 @@ async def get_course_content(external_id: str):
         return {"course_id": external_id, "summary": None, "chapters": None}
     return content
 
+@api_router.get("/courses/{external_id}/modules", response_model=List[Module])
+async def get_course_modules(external_id: str):
+    """Get all modules for a course by courseId"""
+    # Query modules by courseId (string match with course external_id)
+    modules = await db.modules.find({"courseId": external_id}, {"_id": 0}).to_list(100)
+    # Sort by order
+    modules.sort(key=lambda x: x.get("order", 0))
+    return modules
+
 # ==================== AI CHAT ROUTES ====================
 
 @api_router.post("/chat", response_model=ChatResponse)
