@@ -260,6 +260,7 @@ def main():
     major_id, year_id, course_id = tester.test_catalog_endpoints()
     tester.test_auth_endpoints()
     tester.test_ai_chat_endpoint()
+    tester.test_content_generation_endpoints(course_id)
     tester.test_error_cases()
     
     # Print summary
