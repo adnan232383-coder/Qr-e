@@ -639,6 +639,8 @@ Vary difficulty: 30% easy, 50% medium, 20% hard."""
                                 questions.append(q)
                         
                         logger.info(f"Generated batch {batch_num+1}/{batches} for {course_id}")
+                        # Add small delay between batches to allow API to respond
+                        await asyncio.sleep(0.5)
                     except Exception as e:
                         logger.error(f"Batch error: {e}")
                         continue
@@ -653,6 +655,9 @@ Vary difficulty: 30% easy, 50% medium, 20% hard."""
                     {"$set": {"completed": completed, "last_course": course_id}}
                 )
                 logger.info(f"Completed MCQ for {course_id}: {len(questions)} questions ({completed}/{len(courses)})")
+                
+                # Add delay between courses to allow API to respond
+                await asyncio.sleep(1)
                 
             except Exception as e:
                 logger.error(f"Course error {course_id}: {e}")
