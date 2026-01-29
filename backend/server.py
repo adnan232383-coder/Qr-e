@@ -571,6 +571,181 @@ async def generate_course_videos(course_id: str, background_tasks: BackgroundTas
     
     return {"message": f"Queued {len(queued)} videos for generation", "modules": queued}
 
+@api_router.post("/content/generate-all-mcq")
+async def generate_all_mcq(background_tasks: BackgroundTasks, count_per_course: int = 200):
+    """Generate MCQ for all courses in background"""
+    courses = await db.courses.find({}, {"_id": 0, "external_id": 1, "course_name": 1}).to_list(100)
+    
+    # Store task in database
+    task_id = f"bulk_mcq_{uuid.uuid4().hex[:8]}"
+    await db.bulk_tasks.insert_one({
+        "task_id": task_id,
+        "type": "mcq_generation",
+        "total_courses": len(courses),
+        "completed": 0,
+        "status": "running",
+        "started_at": datetime.now(timezone.utc).isoformat()
+    })
+    
+    async def generate_all():
+        from emergentintegrations.llm.chat import LlmChat, UserMessage
+        import json
+        
+        api_key = os.environ.get("EMERGENT_LLM_KEY")
+        completed = 0
+        
+        for course in courses:
+            course_id = course["external_id"]
+            course_name = course["course_name"]
+            
+            try:
+                # Check if already has enough questions
+                existing = await db.mcq_questions.count_documents({"course_id": course_id})
+                if existing >= count_per_course:
+                    completed += 1
+                    continue
+                
+                questions = []
+                batch_size = 25
+                batches = (count_per_course + batch_size - 1) // batch_size
+                
+                for batch_num in range(batches):
+                    remaining = min(batch_size, count_per_course - len(questions))
+                    if remaining <= 0:
+                        break
+                    
+                    try:
+                        chat = LlmChat(
+                            api_key=api_key,
+                            session_id=f"mcq_{uuid.uuid4().hex[:8]}",
+                            system_message="You are a medical education expert creating MCQ questions. Return only valid JSON array."
+                        ).with_model("openai", "gpt-5.2")
+                        
+                        prompt = f"""Generate {remaining} MCQ for: {course_name}
+Batch {batch_num + 1}/{batches}. Format as JSON array only:
+[{{"question":"...","option_a":"...","option_b":"...","option_c":"...","option_d":"...","correct_answer":"A/B/C/D","explanation":"...","difficulty":"easy/medium/hard"}}]
+Vary difficulty: 30% easy, 50% medium, 20% hard."""
+                        
+                        response = await chat.send_message(UserMessage(text=prompt))
+                        json_start = response.find('[')
+                        json_end = response.rfind(']') + 1
+                        if json_start >= 0 and json_end > json_start:
+                            batch_q = json.loads(response[json_start:json_end])
+                            for q in batch_q:
+                                q["question_id"] = f"q_{course_id}_{len(questions):03d}"
+                                q["course_id"] = course_id
+                                q["topic"] = course_name
+                                q["created_at"] = datetime.now(timezone.utc).isoformat()
+                                questions.append(q)
+                        
+                        logger.info(f"Generated batch {batch_num+1}/{batches} for {course_id}")
+                    except Exception as e:
+                        logger.error(f"Batch error: {e}")
+                        continue
+                
+                if questions:
+                    await db.mcq_questions.delete_many({"course_id": course_id})
+                    await db.mcq_questions.insert_many(questions)
+                
+                completed += 1
+                await db.bulk_tasks.update_one(
+                    {"task_id": task_id},
+                    {"$set": {"completed": completed, "last_course": course_id}}
+                )
+                logger.info(f"Completed MCQ for {course_id}: {len(questions)} questions ({completed}/{len(courses)})")
+                
+            except Exception as e:
+                logger.error(f"Course error {course_id}: {e}")
+                continue
+        
+        await db.bulk_tasks.update_one(
+            {"task_id": task_id},
+            {"$set": {"status": "completed", "completed_at": datetime.now(timezone.utc).isoformat()}}
+        )
+    
+    background_tasks.add_task(generate_all)
+    return {"message": "MCQ generation started for all courses", "task_id": task_id, "total_courses": len(courses)}
+
+@api_router.post("/video/generate-all")
+async def generate_all_videos(background_tasks: BackgroundTasks):
+    """Generate videos for all modules in background"""
+    from video_generator import VideoGenerationQueue
+    
+    modules = await db.modules.find({}, {"_id": 0, "module_id": 1}).to_list(300)
+    
+    task_id = f"bulk_video_{uuid.uuid4().hex[:8]}"
+    await db.bulk_tasks.insert_one({
+        "task_id": task_id,
+        "type": "video_generation",
+        "total_modules": len(modules),
+        "queued": 0,
+        "status": "running",
+        "started_at": datetime.now(timezone.utc).isoformat()
+    })
+    
+    queue = VideoGenerationQueue(db)
+    queued_count = 0
+    
+    for module in modules:
+        module_id = module["module_id"]
+        script = await db.module_scripts.find_one({"module_id": module_id})
+        if script:
+            await queue.enqueue(module_id)
+            queued_count += 1
+    
+    await db.bulk_tasks.update_one(
+        {"task_id": task_id},
+        {"$set": {"queued": queued_count}}
+    )
+    
+    background_tasks.add_task(queue.process_queue)
+    
+    return {"message": f"Video generation started", "task_id": task_id, "queued": queued_count}
+
+@api_router.get("/bulk-tasks/{task_id}")
+async def get_bulk_task_status(task_id: str):
+    """Get status of a bulk task"""
+    task = await db.bulk_tasks.find_one({"task_id": task_id}, {"_id": 0})
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found")
+    return task
+
+@api_router.get("/generation-progress")
+async def get_generation_progress():
+    """Get overall generation progress"""
+    total_courses = await db.courses.count_documents({})
+    total_modules = await db.modules.count_documents({})
+    
+    # MCQ progress
+    mcq_by_course = await db.mcq_questions.aggregate([
+        {"$group": {"_id": "$course_id", "count": {"$sum": 1}}}
+    ]).to_list(100)
+    courses_with_mcq = len([c for c in mcq_by_course if c["count"] >= 200])
+    total_mcq = sum(c["count"] for c in mcq_by_course)
+    
+    # Video progress
+    videos_completed = await db.module_videos.count_documents({"status": "completed"})
+    
+    # Scripts progress
+    scripts_count = await db.module_scripts.count_documents({})
+    
+    return {
+        "mcq": {
+            "total_questions": total_mcq,
+            "courses_with_200_mcq": courses_with_mcq,
+            "total_courses": total_courses,
+            "target": total_courses * 200
+        },
+        "videos": {
+            "completed": videos_completed,
+            "total_modules": total_modules
+        },
+        "scripts": {
+            "completed": scripts_count,
+            "total_modules": total_modules
+        }
+    }
+
 @api_router.post("/content/generate-mcq/{course_id}")
 async def generate_mcq_for_course(course_id: str, count: int = 200):
     """Generate MCQ questions for a course using AI"""
