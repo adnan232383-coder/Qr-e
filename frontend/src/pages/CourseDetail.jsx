@@ -535,16 +535,40 @@ export default function CourseDetail() {
 
           {/* Quiz Tab */}
           <TabsContent value="quiz">
-            {!quizMode ? (
+            {questions.length === 0 ? (
+              <Card className="border-dashed border-2 border-primary/30 bg-primary/5">
+                <CardContent className="p-6 text-center">
+                  <HelpCircle className="h-12 w-12 mx-auto mb-4 text-primary/60" />
+                  <h3 className="text-xl font-semibold mb-2">No Quiz Questions Yet</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Generate 200 MCQ questions with AI for this course
+                  </p>
+                  <Button onClick={generateMCQ} disabled={generatingMCQ} data-testid="generate-mcq-btn">
+                    {generatingMCQ ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <HelpCircle className="h-4 w-4 mr-2" />}
+                    Generate 200 MCQ Questions
+                  </Button>
+                </CardContent>
+              </Card>
+            ) : !quizMode ? (
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <HelpCircle className="h-5 w-5 text-primary" />
-                    Practice Quiz
-                  </CardTitle>
-                  <CardDescription>
-                    Test your knowledge with {questions.length} multiple-choice questions
-                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <CardTitle className="flex items-center gap-2">
+                        <HelpCircle className="h-5 w-5 text-primary" />
+                        Practice Quiz
+                      </CardTitle>
+                      <CardDescription>
+                        Test your knowledge with {questions.length} multiple-choice questions
+                      </CardDescription>
+                    </div>
+                    {questions.length < 200 && (
+                      <Button variant="outline" onClick={generateMCQ} disabled={generatingMCQ} size="sm">
+                        {generatingMCQ ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <RefreshCw className="h-4 w-4 mr-2" />}
+                        Generate More
+                      </Button>
+                    )}
+                  </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid grid-cols-3 gap-4 text-center">
