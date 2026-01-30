@@ -573,104 +573,26 @@ async def generate_course_videos(course_id: str, background_tasks: BackgroundTas
     return {"message": f"Queued {len(queued)} videos for generation", "modules": queued}
 
 @api_router.post("/content/generate-all-mcq")
-async def generate_all_mcq(background_tasks: BackgroundTasks, count_per_course: int = 200):
-    """Generate MCQ for all courses in background"""
-    courses = await db.courses.find({}, {"_id": 0, "external_id": 1, "course_name": 1}).to_list(100)
+async def generate_all_mcq(count_per_course: int = 200):
+    """
+    Generate MCQ for all courses using non-blocking job runner.
+    Uses ProcessPoolExecutor to prevent API blocking.
+    """
+    from job_runner import get_job_runner, JobConfig
     
-    # Store task in database
-    task_id = f"bulk_mcq_{uuid.uuid4().hex[:8]}"
-    await db.bulk_tasks.insert_one({
-        "task_id": task_id,
-        "type": "mcq_generation",
-        "total_courses": len(courses),
-        "completed": 0,
-        "status": "running",
-        "started_at": datetime.now(timezone.utc).isoformat()
-    })
+    # Configure the job runner
+    runner = get_job_runner(db)
+    runner.config.questions_per_course = count_per_course
     
-    async def generate_all():
-        from emergentintegrations.llm.chat import LlmChat, UserMessage
-        import json
-        
-        api_key = os.environ.get("EMERGENT_LLM_KEY")
-        completed = 0
-        
-        for course in courses:
-            course_id = course["external_id"]
-            course_name = course["course_name"]
-            
-            try:
-                # Check if already has enough questions
-                existing = await db.mcq_questions.count_documents({"course_id": course_id})
-                if existing >= count_per_course:
-                    completed += 1
-                    continue
-                
-                questions = []
-                batch_size = 25
-                batches = (count_per_course + batch_size - 1) // batch_size
-                
-                for batch_num in range(batches):
-                    remaining = min(batch_size, count_per_course - len(questions))
-                    if remaining <= 0:
-                        break
-                    
-                    try:
-                        chat = LlmChat(
-                            api_key=api_key,
-                            session_id=f"mcq_{uuid.uuid4().hex[:8]}",
-                            system_message="You are a medical education expert creating MCQ questions. Return only valid JSON array."
-                        ).with_model("openai", "gpt-5.2")
-                        
-                        prompt = f"""Generate {remaining} MCQ for: {course_name}
-Batch {batch_num + 1}/{batches}. Format as JSON array only:
-[{{"question":"...","option_a":"...","option_b":"...","option_c":"...","option_d":"...","correct_answer":"A/B/C/D","explanation":"...","difficulty":"easy/medium/hard"}}]
-Vary difficulty: 30% easy, 50% medium, 20% hard."""
-                        
-                        response = await chat.send_message(UserMessage(text=prompt))
-                        json_start = response.find('[')
-                        json_end = response.rfind(']') + 1
-                        if json_start >= 0 and json_end > json_start:
-                            batch_q = json.loads(response[json_start:json_end])
-                            for q in batch_q:
-                                q["question_id"] = f"q_{course_id}_{len(questions):03d}"
-                                q["course_id"] = course_id
-                                q["topic"] = course_name
-                                q["created_at"] = datetime.now(timezone.utc).isoformat()
-                                questions.append(q)
-                        
-                        logger.info(f"Generated batch {batch_num+1}/{batches} for {course_id}")
-                        # Add small delay between batches to allow API to respond
-                        await asyncio.sleep(0.5)
-                    except Exception as e:
-                        logger.error(f"Batch error: {e}")
-                        continue
-                
-                if questions:
-                    await db.mcq_questions.delete_many({"course_id": course_id})
-                    await db.mcq_questions.insert_many(questions)
-                
-                completed += 1
-                await db.bulk_tasks.update_one(
-                    {"task_id": task_id},
-                    {"$set": {"completed": completed, "last_course": course_id}}
-                )
-                logger.info(f"Completed MCQ for {course_id}: {len(questions)} questions ({completed}/{len(courses)})")
-                
-                # Add delay between courses to allow API to respond
-                await asyncio.sleep(1)
-                
-            except Exception as e:
-                logger.error(f"Course error {course_id}: {e}")
-                continue
-        
-        await db.bulk_tasks.update_one(
-            {"task_id": task_id},
-            {"$set": {"status": "completed", "completed_at": datetime.now(timezone.utc).isoformat()}}
-        )
+    # Start the bulk MCQ generation job
+    job = await runner.start_mcq_generation()
     
-    background_tasks.add_task(generate_all)
-    return {"message": "MCQ generation started for all courses", "task_id": task_id, "total_courses": len(courses)}
+    return {
+        "message": "MCQ generation started for all courses",
+        "job_id": job["job_id"],
+        "status": job["status"],
+        "created_at": job["created_at"]
+    }
 
 @api_router.post("/video/generate-all")
 async def generate_all_videos(background_tasks: BackgroundTasks):
