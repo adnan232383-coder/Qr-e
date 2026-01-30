@@ -335,7 +335,7 @@ export default function GenerationProgress() {
                 </div>
                 <Button 
                   onClick={startMCQGeneration} 
-                  disabled={generating || (currentJob?.status === "running")}
+                  disabled={generating || activeJobs.some(j => j.job_type === 'bulk_mcq')}
                   variant={mcqProgress >= 100 ? "outline" : "default"}
                   data-testid="start-mcq-button"
                 >
