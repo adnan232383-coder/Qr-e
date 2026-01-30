@@ -82,8 +82,9 @@ class JobLockManager:
     
     async def acquire(self, resource_id: str, job_id: str, timeout_minutes: int = 60) -> bool:
         """Try to acquire a lock for a resource"""
+        from datetime import timedelta
         now = datetime.now(timezone.utc)
-        expire_at = now.isoformat()
+        locked_until = now + timedelta(minutes=timeout_minutes)
         
         # Try to acquire or update existing lock
         result = await self._collection.update_one(
@@ -99,7 +100,7 @@ class JobLockManager:
                     "resource_id": resource_id,
                     "job_id": job_id,
                     "locked_at": now.isoformat(),
-                    "locked_until": (now.replace(minute=now.minute + timeout_minutes)).isoformat()
+                    "locked_until": locked_until.isoformat()
                 }
             },
             upsert=False
@@ -114,7 +115,7 @@ class JobLockManager:
                 "resource_id": resource_id,
                 "job_id": job_id,
                 "locked_at": now.isoformat(),
-                "locked_until": (now.replace(minute=now.minute + timeout_minutes)).isoformat()
+                "locked_until": locked_until.isoformat()
             })
             return True
         except Exception:
