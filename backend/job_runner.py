@@ -699,12 +699,33 @@ Cover different aspects of {course_name}."""
                         
                         logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
                     else:
+                        await self.decision_logger.log(
+                            component="content_generator",
+                            chosen_option="skip_malformed_batch",
+                            reason="LLM response did not contain valid JSON array",
+                            context={"course_id": course_id, "batch_num": batch_num},
+                            job_id=job_id
+                        )
                         logger.warning(f"[{course_id}] Batch {batch_num + 1} - failed to parse JSON")
                         
             except asyncio.TimeoutError:
+                await self.decision_logger.log(
+                    component="content_generator",
+                    chosen_option="timeout_batch",
+                    reason=f"Batch timed out after 180s, proceeding to next batch",
+                    context={"course_id": course_id, "batch_num": batch_num, "timeout_seconds": 180},
+                    job_id=job_id
+                )
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} timed out")
                     
             except Exception as e:
+                await self.decision_logger.log(
+                    component="content_generator",
+                    chosen_option="skip_failed_batch",
+                    reason=f"Batch failed with error, proceeding to next: {str(e)[:100]}",
+                    context={"course_id": course_id, "batch_num": batch_num, "error": str(e)[:200]},
+                    job_id=job_id
+                )
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
                 # Skip retries for now - let it proceed to next batch
             
