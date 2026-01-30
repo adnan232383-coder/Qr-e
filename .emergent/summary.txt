@@ -1,0 +1,165 @@
+<analysis>**original_problem_statement:** 
+The user wants to build a full-stack UG University Assistant application for the University of Georgia, Tbilisi, focusing on Dentistry and Pharmacy majors.
+
+**PRODUCT REQUIREMENTS:**
+- **Phase 1 (MVP - Mostly Complete):**
+    - A full academic catalog browser: Major → Year → Semester → Course → Modules.
+    - User authentication via Emergent-managed Google OAuth.
+    - A course detail page showing a course summary.
+    - An AI study assistant chat widget (using GPT-5.2).
+    - A clean, professional, responsive UI with a light/dark theme.
+
+- **Phase 2 (In Progress):**
+    - **Automatic Content Generation:** For all 90 courses, the system must generate:
+        - A detailed course summary.
+        - **200 MCQ questions** per course, including difficulty, correct answers, and explanations.
+        - An avatar video script for each of the 270 modules.
+    - **Video Generation:** Generate an avatar video from each script using Sora 2.
+    - **Content Lifecycle:** All generated content must follow a  →  →  status flow, managed via an admin panel.
+    - **Student Progress Tracking:** (Future task) Track student completion of modules and quizzes.
+
+The user has confirmed the budget is available and has repeatedly requested to start the **full, bulk generation** of all content immediately.
+
+**User's preferred language**: The user communicates in Arabic, Hebrew, and English. The next agent MUST be prepared to respond in any of these languages, with a focus on **Arabic and Hebrew** for recent detailed requests.
+
+**what currently exists?**
+A functional full-stack application (FastAPI + React + MongoDB) with the MVP features completed. This includes Google OAuth, a full course catalog browser, and a course detail page that displays basic information. The backend has API endpoints to fetch data and trigger content generation. The frontend includes a UI for browsing, a quiz interface, and a basic admin page () to view generation status. The database is seeded with the basic academic structure and a small amount of initial content (480 MCQs, 60 scripts).
+
+**Last working item**:
+- **Last item agent was working on:** The agent was attempting to initiate the user's top-priority request: the bulk generation of ~18,000 MCQ questions for all 90 courses.
+- **Status:** **BLOCKED**
+- **Agent Testing Done:** N
+- **Which testing method agent to use?** backend testing agent
+- **User Testing Done:** N
+
+**All Pending/In progress Issue list**:
+- **Issue 1: Backend becomes unresponsive during bulk content generation (P0)**
+
+  - **Issue Detail:**
+     - **Attempted fixes:** The agent implemented  in  as a FastAPI . However, this approach still monopolizes the Python asyncio event loop, causing the entire API server to hang and become unresponsive to any other requests (including frontend data fetching and progress checks). The agent's fix of adding  was insufficient. Restarting the server was the only way to recover, but this terminated the generation process.
+     - **Next debug checklist:**
+        1. **Refactor the generation task:** The task must be moved out of the main FastAPI process to prevent blocking.
+        2. **Recommended Solution:** Implement a proper task queue.
+             - **Option A (Simpler):** Use Python's  to run the entire generation loop for a course in a separate process.
+             - **Option B (More Robust):** Integrate a library like  or .
+        3. **File to modify:** . The  endpoint should be modified to dispatch jobs to the new background worker system instead of running the logic directly.
+     - **Why fix this issue and what will be achieved with the fix?** This is the single most critical blocker. Fixing it will unblock all content generation tasks, fulfilling the user's primary requirement and making the application stable.
+     - **Status:** **BLOCKED**
+     - **Is recurring issue?** Y
+     - **Should Test frontend/backend/both after fix?** Backend. Verify that the API remains responsive while generation is in progress.
+     - **Blocked on other issue:** None. This is the root issue.
+
+**In progress Task List**:
+- **Task 1: Complete bulk generation of ~18,000 MCQ questions (P0)**
+  - **Where to resume:** Once Pending Issue 1 is resolved, trigger the bulk generation process again by calling the  endpoint. Monitor the progress via the database or the  page.
+  - **What will be achieved with this?** All 90 courses will be populated with ~200 high-quality MCQ questions, completing a major user requirement.
+  - **Status:** **BLOCKED**
+  - **Should Test frontend/backend/both after fix?** Both.
+  - **Blocked on something:** Blocked on Issue 1: Backend becomes unresponsive.
+
+**Upcoming and Future Tasks**
+- **Upcoming Tasks:**
+    - **(P1) Generate All Avatar Scripts:** Once MCQs are done, trigger the generation of scripts for all 270 modules.
+    - **(P1) Generate All Avatar Videos:** After scripts are generated, trigger video generation for all 270 modules using the Sora 2 integration.
+- **Future Tasks:**
+    - **(P2) Build Full Admin Panel:** Create a UI for administrators to review, approve (), or reject the auto-generated content (MCQs, scripts, videos).
+    - **(P2) Implement Student Progress Tracking:** Develop the database schema, APIs, and UI to track which modules and quizzes a student has completed.
+
+**Completed work in this session**
+- **MVP Application:** Built the core full-stack application.
+- **Authentication:** Integrated Google OAuth.
+- **Catalog Browsing:** Implemented the full UI and APIs for browsing majors, years, semesters, and courses.
+- **Module Display Fix:** Resolved a critical bug where modules were not being displayed on the course detail page by creating a new collection and API.
+- **Content Generation Framework:** Established the backend and frontend infrastructure for generating, storing, and displaying course summaries, MCQs (in a quiz format), and avatar scripts.
+- **Bulk Generation Logic:** Created the initial (but flawed) backend logic and API endpoints to trigger bulk generation of content for all courses.
+- **Admin Progress Page:** Created  to provide visibility into ongoing generation tasks.
+
+**Earlier issues found/mentioned but not fixed**
+None. All previously identified minor UI bugs were addressed.
+
+**Known issue recurrence from previous fork**
+N/A
+
+**Code Architecture**
+
+
+**Key Technical Concepts**
+- **Frontend:** React, Tailwind CSS, Shadcn/UI
+- **Backend:** FastAPI, Motor (async MongoDB driver)
+- **Database:** MongoDB
+- **AI Integrations:** GPT-5.2 (for text), Sora 2 (for video) via Emergent LLM Key.
+- **Authentication:** Emergent-managed Google OAuth.
+
+**key DB schema**
+- : Stores user profile information from Google OAuth.
+- : Contains the static course catalog data.
+- : Stores module information for each course.
+- : Stores generated course summaries and tracks content status (, , etc.).
+- : Stores all generated MCQ questions.
+- : Stores generated avatar video scripts.
+- : To store links and status for generated videos.
+- : Tracks the state of bulk generation tasks.
+
+**changes in tech stack**
+- The project migrated from the user's initial PostgreSQL schema to MongoDB to better suit the document-oriented nature of the content.
+
+**All files of reference**
+- : The core backend file containing all APIs and the **critically flawed** background task implementation that needs immediate refactoring.
+- : Contains the logic for generating MCQs and summaries.
+- : The primary UI for displaying all course content.
+- : The UI for monitoring the bulk generation.
+- : Contains the frontend routing, including the  route.
+
+**Areas that need refactoring**:
+- **:** The content generation functions (, ) must be refactored to run in a non-blocking manner, using a separate process or a task queue to prevent the main API server from freezing. The file itself is over 900 lines and should be broken down into smaller, more manageable FastAPI routers.
+
+**key api endpoints**
+- : Triggers the bulk MCQ generation. **(This is the endpoint associated with the critical blocking issue).**
+- : Fetches the current status of generation tasks.
+- : Retrieves all data for a single course page.
+- : Retrieves MCQ questions for a course.
+
+**Critical Info for New Agent**
+- Your **number one priority** is to fix the backend's blocking behavior during bulk content generation. The current implementation in  freezes the entire application. You must refactor this to use a non-blocking background process (e.g.,  or a task queue library) before attempting to run the generation again.
+- The user has been patient but is very keen to see the content generation completed. They have explicitly approved the start of the full generation process and confirmed the budget is sufficient.
+- The user communicates in Hebrew, Arabic, and English. Be prepared to understand and respond in their language of choice. Your next response should likely be in Arabic or Hebrew, acknowledging the start of the task.
+
+**documents and test reports created in this job**
+- 
+- 
+- 
+
+**Last 10 User Messages and any pending HUMAN messages**
+10. Run the generation in the background. Is my credit enough? (Arabic) - **User wants background processing.**
+9. View is unavailable (Hebrew) - **Reporting the UI is down due to backend freezing.**
+8. Why am I waiting? (Arabic) - **Expressing impatience with delays.**
+7. Yes (Hebrew) - **Confirming to start a task.**
+6. Hello, I have lost touch with the progress... Please keep me updated. (English) - **User is feeling lost and needs clear communication.**
+5. Provides a detailed project brief and asks for timeline/pricing. (Hebrew) - **User wants a clear plan.**
+4. Asks agent to continue. (Hebrew)
+3. Asks for a project status update. (Arabic)
+2. Start (Hebrew) - **Giving the command to begin.**
+1. Yes (Hebrew) - **Final confirmation to start generating all content.**
+
+**Project Health Check:**
+- **Broken:**
+  - The core feature of bulk content generation is non-functional and critically breaks the application's stability by freezing the backend server.
+- **Mocked:**
+  - None.
+
+**3rd Party Integrations**
+- **OpenAI GPT-5.2** (Text Generation) — uses Emergent LLM Key.
+- **OpenAI Sora 2** (Video Generation) — uses Emergent LLM Key.
+- **Emergent-managed Google Auth** (Authentication).
+
+**Testing status**
+- **Testing agent used after significant changes:** YES
+- **Troubleshoot agent used after agent stuck in loop:** NO
+- **Test files created:** None
+- **Known regressions:** Triggering bulk content generation makes the entire backend unresponsive, a major regression from a stable state.
+
+**Credentials to test flow:**
+N/A (Uses Google OAuth).
+
+**What agent forgot to execute**
+The agent correctly identified that the background task was blocking the server's main event loop but failed to implement a proper non-blocking solution. Instead of moving to a robust fix like a process pool or task queue, the agent got stuck in a cycle of re-trying the flawed approach, which repeatedly failed and required server restarts, losing all generation progress.</analysis>
