@@ -59,14 +59,15 @@ export default function GenerationProgress() {
   const [mcqJobProgress, setMcqJobProgress] = useState(null);
   const [loading, setLoading] = useState(true);
   const [generating, setGenerating] = useState(false);
-  const [currentJob, setCurrentJob] = useState(null);
+  const [activeJobs, setActiveJobs] = useState([]);
   const [autoRefresh, setAutoRefresh] = useState(true);
 
   const fetchProgress = useCallback(async () => {
     try {
-      const [progressRes, mcqRes] = await Promise.all([
+      const [progressRes, mcqRes, jobsRes] = await Promise.all([
         fetch(`${API}/generation-progress`),
-        fetch(`${API}/admin/mcq/progress`)
+        fetch(`${API}/admin/mcq/progress`),
+        fetch(`${API}/admin/jobs`)
       ]);
       
       if (progressRes.ok) {
@@ -76,7 +77,12 @@ export default function GenerationProgress() {
       if (mcqRes.ok) {
         const mcqData = await mcqRes.json();
         setMcqJobProgress(mcqData);
-        setCurrentJob(mcqData.current_job);
+      }
+      
+      if (jobsRes.ok) {
+        const jobsData = await jobsRes.json();
+        const running = jobsData.recent_jobs?.filter(j => j.status === 'running') || [];
+        setActiveJobs(running);
       }
     } catch (e) {
       console.error("Error fetching progress:", e);
