@@ -980,7 +980,7 @@ Format with clear section headers."""
         try:
             response = await asyncio.wait_for(
                 asyncio.to_thread(generate_script_sync),
-                timeout=180
+                timeout=300  # 5 minute timeout (OpenAI high latency)
             )
             
             if response:
