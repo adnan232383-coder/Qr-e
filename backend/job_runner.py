@@ -270,6 +270,7 @@ class JobRunner:
         self._executor: Optional[ProcessPoolExecutor] = None
         self._running_jobs: Dict[str, Future] = {}
         self._shutdown = False
+        self.decision_logger = get_decision_logger(db)
         
         # Get MongoDB connection info for subprocess
         self.mongo_url = os.environ.get('MONGO_URL')
