@@ -380,7 +380,7 @@ export default function GenerationProgress() {
                 </div>
                 <Button 
                   onClick={startScriptGeneration} 
-                  disabled={generating || (currentJob?.status === "running" && currentJob?.job_type?.includes("script"))}
+                  disabled={generating || activeJobs.some(j => j.job_type === 'bulk_script')}
                   variant={scriptProgress >= 100 ? "outline" : "default"}
                   data-testid="start-scripts-button"
                 >
