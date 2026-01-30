@@ -456,6 +456,10 @@ class JobRunner:
                 await self._run_single_mcq_generation(job)
             elif job_type == JobType.BULK_MCQ:
                 await self._run_bulk_mcq_generation(job)
+            elif job_type == JobType.BULK_SCRIPT:
+                await self._run_bulk_script_generation(job)
+            elif job_type == JobType.SCRIPT_GENERATION:
+                await self._run_single_script_generation(job)
             else:
                 raise ValueError(f"Unknown job type: {job_type}")
             
