@@ -804,6 +804,234 @@ Cover different aspects of {course_name}."""
             "recent_jobs": recent_jobs
         }
     
+    async def start_script_generation(self, course_id: Optional[str] = None) -> Dict:
+        """Start script generation for a single course or all courses."""
+        if course_id:
+            course = await self.db.courses.find_one({"external_id": course_id}, {"_id": 0})
+            if not course:
+                raise ValueError(f"Course not found: {course_id}")
+            
+            job = await self.create_job(
+                JobType.SCRIPT_GENERATION,
+                {"course_id": course_id, "course_name": course["course_name"]},
+                resource_id=f"script_{course_id}"
+            )
+        else:
+            courses = await self.db.courses.find({}, {"_id": 0, "external_id": 1}).to_list(100)
+            job = await self.create_job(
+                JobType.BULK_SCRIPT,
+                {"course_ids": [c["external_id"] for c in courses]},
+                resource_id="bulk_script_all"
+            )
+        
+        asyncio.create_task(self._process_job(job["job_id"]))
+        return job
+    
+    async def _run_bulk_script_generation(self, job: Dict):
+        """Generate scripts for all modules across all courses"""
+        job_id = job["job_id"]
+        course_ids = job["params"]["course_ids"]
+        
+        # Get all modules
+        all_modules = await self.db.modules.find(
+            {"courseId": {"$in": course_ids}},
+            {"_id": 0}
+        ).to_list(500)
+        
+        progress = JobProgress(total=len(all_modules))
+        await self.update_job_progress(job_id, progress)
+        
+        await self.decision_logger.log(
+            component="job_runner",
+            chosen_option="start_bulk_script",
+            reason=f"Starting script generation for {len(all_modules)} modules",
+            context={"total_modules": len(all_modules), "courses": len(course_ids)},
+            job_id=job_id
+        )
+        
+        for i, module in enumerate(all_modules):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            current_job = await self.get_job(job_id)
+            if current_job and current_job["status"] == JobStatus.CANCELLED:
+                raise asyncio.CancelledError()
+            
+            module_id = module.get("module_id")
+            module_title = module.get("title", module_id)
+            progress.current_item = f"Processing: {module_title}"
+            await self.update_job_progress(job_id, progress)
+            
+            # Check if script already exists
+            existing = await self.db.module_scripts.find_one({"module_id": module_id})
+            if existing:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="skip_module_script",
+                    reason="Script already exists for module",
+                    context={"module_id": module_id},
+                    job_id=job_id
+                )
+                progress.completed = i + 1
+                await self.update_job_progress(job_id, progress)
+                continue
+            
+            try:
+                await self._generate_module_script(job_id, module)
+                progress.completed = i + 1
+            except Exception as e:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="mark_module_failed",
+                    reason=f"Script generation failed: {str(e)[:100]}",
+                    context={"module_id": module_id, "error": str(e)[:200]},
+                    job_id=job_id
+                )
+                logger.error(f"Failed to generate script for {module_id}: {e}")
+                progress.failed += 1
+            
+            await self.update_job_progress(job_id, progress)
+            await asyncio.sleep(1)
+        
+        logger.info(f"Bulk script generation completed: {progress.completed}/{progress.total}")
+    
+    async def _run_single_script_generation(self, job: Dict):
+        """Generate scripts for a single course's modules"""
+        job_id = job["job_id"]
+        course_id = job["params"]["course_id"]
+        
+        modules = await self.db.modules.find(
+            {"courseId": course_id},
+            {"_id": 0}
+        ).to_list(50)
+        
+        progress = JobProgress(total=len(modules))
+        
+        for i, module in enumerate(modules):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            progress.current_item = module.get("title", module.get("module_id"))
+            await self.update_job_progress(job_id, progress)
+            
+            existing = await self.db.module_scripts.find_one({"module_id": module["module_id"]})
+            if not existing:
+                await self._generate_module_script(job_id, module)
+            
+            progress.completed = i + 1
+            await self.update_job_progress(job_id, progress)
+    
+    async def _generate_module_script(self, job_id: str, module: Dict):
+        """Generate script for a single module using thread pool"""
+        import json as json_module
+        
+        module_id = module.get("module_id")
+        module_title = module.get("title", module_id)
+        course_id = module.get("courseId")
+        topics = module.get("topics", [])
+        description = module.get("description", "")
+        
+        # Get course name for context
+        course = await self.db.courses.find_one({"external_id": course_id}, {"_id": 0, "course_name": 1})
+        course_name = course.get("course_name", course_id) if course else course_id
+        
+        def generate_script_sync() -> str:
+            from emergentintegrations.llm.chat import LlmChat, UserMessage
+            import asyncio as async_lib
+            
+            chat = LlmChat(
+                api_key=self.api_key,
+                session_id=f"script_{module_id}",
+                system_message="""You are an expert medical educator creating video lecture scripts.
+Write engaging, educational scripts suitable for text-to-speech avatar presentation.
+Target duration: 12 minutes (~1800 words)."""
+            ).with_model("openai", "gpt-5.2")
+            
+            topics_str = ", ".join(topics) if topics else "General topics"
+            
+            prompt = f"""Create a video lecture script for:
+Course: {course_name}
+Module: {module_title}
+Description: {description}
+Topics: {topics_str}
+Target Duration: 12 minutes (approximately 1800 words)
+
+Script Requirements:
+1. Start with introduction and learning objectives
+2. Present content in logical sections with transitions
+3. Include clinical examples and case scenarios
+4. Use conversational but professional tone
+5. Add periodic summaries and key points
+6. End with conclusion and key takeaways
+7. Include [PAUSE] markers for visual transitions
+8. Include [EMPHASIS] markers for key terms
+
+Format with clear section headers."""
+            
+            loop = async_lib.new_event_loop()
+            try:
+                async_lib.set_event_loop(loop)
+                return loop.run_until_complete(chat.send_message(UserMessage(text=prompt)))
+            finally:
+                loop.close()
+        
+        await self.rate_limiter.wait()
+        
+        try:
+            response = await asyncio.wait_for(
+                asyncio.to_thread(generate_script_sync),
+                timeout=180
+            )
+            
+            if response:
+                word_count = len(response.split())
+                duration_minutes = round(word_count / 150, 1)
+                
+                script_doc = {
+                    "script_id": f"script_{uuid.uuid4().hex[:12]}",
+                    "module_id": module_id,
+                    "course_id": course_id,
+                    "script_text": response,
+                    "word_count": word_count,
+                    "estimated_duration_minutes": duration_minutes,
+                    "status": "reviewed",
+                    "created_at": datetime.now(timezone.utc).isoformat()
+                }
+                
+                await self.db.module_scripts.update_one(
+                    {"module_id": module_id},
+                    {"$set": script_doc},
+                    upsert=True
+                )
+                
+                await self.decision_logger.log(
+                    component="content_generator",
+                    chosen_option="save_script",
+                    reason=f"Generated {word_count} word script (~{duration_minutes} min)",
+                    context={"module_id": module_id, "word_count": word_count},
+                    job_id=job_id
+                )
+                logger.info(f"[{module_id}] Generated script: {word_count} words")
+                
+        except asyncio.TimeoutError:
+            await self.decision_logger.log(
+                component="content_generator",
+                chosen_option="timeout_script",
+                reason="Script generation timed out after 180s",
+                context={"module_id": module_id},
+                job_id=job_id
+            )
+            raise
+        except Exception as e:
+            await self.decision_logger.log(
+                component="content_generator",
+                chosen_option="failed_script",
+                reason=f"Script generation failed: {str(e)[:100]}",
+                context={"module_id": module_id},
+                job_id=job_id
+            )
+            raise
+    
     async def shutdown(self):
         """Graceful shutdown"""
         self._shutdown = True
