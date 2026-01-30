@@ -142,6 +142,31 @@ export default function GenerationProgress() {
     }
   };
 
+  const startScriptGeneration = async () => {
+    setGenerating(true);
+    try {
+      const res = await fetch(`${API}/admin/scripts/start`, {
+        method: "POST"
+      });
+      if (res.ok) {
+        const data = await res.json();
+        toast.success("Script generation started!", {
+          description: `Job ID: ${data.job?.job_id?.substring(0, 12)}...`
+        });
+        fetchProgress();
+      } else {
+        const error = await res.json();
+        toast.error("Failed to start script generation", {
+          description: error.detail || "Unknown error"
+        });
+      }
+    } catch (e) {
+      toast.error("Error starting script generation");
+    } finally {
+      setGenerating(false);
+    }
+  };
+
   const startVideoGeneration = async () => {
     setGenerating(true);
     try {
