@@ -542,7 +542,8 @@ class JobRunner:
                 raise asyncio.CancelledError()
             
             course_name = course_map.get(course_id, course_id)
-            progress.current_item = course_name
+            progress.current_item = f"Processing: {course_name}"
+            await self.update_job_progress(job_id, progress)  # Update immediately
             
             # Check existing questions
             existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
