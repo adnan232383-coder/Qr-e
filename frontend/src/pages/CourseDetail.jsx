@@ -372,6 +372,27 @@ export default function CourseDetail() {
           </Card>
         )}
 
+        {/* Failed Status - Allow Regenerate */}
+        {contentStatus?.status === "failed" && (
+          <Card className="mb-8 border-red-500/50 bg-red-500/5">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-4">
+                <AlertCircle className="h-8 w-8 text-red-500" />
+                <div className="flex-1">
+                  <h3 className="font-semibold text-red-600">Content Generation Failed</h3>
+                  <p className="text-sm text-muted-foreground">
+                    {contentStatus.error || "An error occurred during content generation. You can try again."}
+                  </p>
+                </div>
+                <Button onClick={generateContent} disabled={generating} data-testid="regenerate-content-btn">
+                  {generating ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <RefreshCw className="h-4 w-4 mr-2" />}
+                  Try Again
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
         {/* Generating Status */}
         {isGenerating && (
           <Card className="mb-8 border-yellow-500/50 bg-yellow-500/5">
