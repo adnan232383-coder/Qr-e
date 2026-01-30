@@ -306,6 +306,13 @@ class JobRunner:
             }, {"_id": 0})
             
             if existing:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="return_existing_job",
+                    reason=f"Active job already exists for resource {resource_id}",
+                    context={"existing_job_id": existing['job_id'], "resource_id": resource_id},
+                    job_id=existing['job_id']
+                )
                 logger.info(f"Found existing job {existing['job_id']} for resource {resource_id}")
                 return existing
         
@@ -325,6 +332,14 @@ class JobRunner:
         }
         
         await self.db.jobs.insert_one(job)
+        
+        await self.decision_logger.log(
+            component="job_runner",
+            chosen_option="create_new_job",
+            reason=f"No existing job for resource, creating new {job_type} job",
+            context={"job_type": str(job_type), "resource_id": resource_id},
+            job_id=job_id
+        )
         logger.info(f"Created job {job_id} of type {job_type}")
         
         # Return without _id
