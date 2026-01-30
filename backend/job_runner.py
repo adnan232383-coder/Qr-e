@@ -576,24 +576,17 @@ class JobRunner:
         
         all_questions = []
         
-        for batch_num in range(total_batches):
-            if self._shutdown:
-                raise asyncio.CancelledError()
-            
-            # Rate limiting
-            await self.rate_limiter.wait()
-            
-            # Generate batch using async LLM call
-            try:
-                chat = LlmChat(
-                    api_key=self.api_key,
-                    session_id=f"mcq_{course_id}_{batch_num}",
-                    system_message="""You are a medical education expert creating high-quality MCQ questions.
+        async def generate_batch_with_timeout(batch_num: int, timeout_seconds: int = 120):
+            """Generate a single batch with timeout to prevent blocking"""
+            chat = LlmChat(
+                api_key=self.api_key,
+                session_id=f"mcq_{course_id}_{batch_num}",
+                system_message="""You are a medical education expert creating high-quality MCQ questions.
 Create questions suitable for medical/pharmacy board exam preparation.
 Always return valid JSON array only, no other text."""
-                ).with_model("openai", "gpt-5.2")
-                
-                prompt = f"""Generate {batch_size} multiple-choice questions for:
+            ).with_model("openai", "gpt-5.2")
+            
+            prompt = f"""Generate {batch_size} multiple-choice questions for:
 Course: {course_name}
 Batch: {batch_num + 1}/{total_batches}
 
@@ -610,26 +603,50 @@ Format as JSON array ONLY, no other text:
 Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
 Cover different aspects of {course_name}."""
 
-                response = await chat.send_message(UserMessage(text=prompt))
+            # Run with timeout
+            try:
+                response = await asyncio.wait_for(
+                    chat.send_message(UserMessage(text=prompt)),
+                    timeout=timeout_seconds
+                )
+                return response
+            except asyncio.TimeoutError:
+                logger.warning(f"[{course_id}] Batch {batch_num + 1} timed out after {timeout_seconds}s")
+                return None
+        
+        for batch_num in range(total_batches):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            # Yield control frequently to keep server responsive
+            await asyncio.sleep(0)
+            
+            # Rate limiting
+            await self.rate_limiter.wait()
+            
+            # Generate batch with timeout
+            try:
+                response = await generate_batch_with_timeout(batch_num)
                 
-                # Parse JSON from response
-                json_start = response.find('[')
-                json_end = response.rfind(']') + 1
-                
-                if json_start >= 0 and json_end > json_start:
-                    questions = json_module.loads(response[json_start:json_end])
+                if response:
+                    # Parse JSON from response
+                    json_start = response.find('[')
+                    json_end = response.rfind(']') + 1
                     
-                    # Add metadata to each question
-                    for i, q in enumerate(questions):
-                        q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
-                        q["course_id"] = course_id
-                        q["topic"] = course_name
-                        q["created_at"] = datetime.now(timezone.utc).isoformat()
-                        all_questions.append(q)
-                    
-                    logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
-                else:
-                    logger.warning(f"[{course_id}] Batch {batch_num + 1} - failed to parse JSON")
+                    if json_start >= 0 and json_end > json_start:
+                        questions = json_module.loads(response[json_start:json_end])
+                        
+                        # Add metadata to each question
+                        for i, q in enumerate(questions):
+                            q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
+                            q["course_id"] = course_id
+                            q["topic"] = course_name
+                            q["created_at"] = datetime.now(timezone.utc).isoformat()
+                            all_questions.append(q)
+                        
+                        logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
+                    else:
+                        logger.warning(f"[{course_id}] Batch {batch_num + 1} - failed to parse JSON")
                     
             except Exception as e:
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
