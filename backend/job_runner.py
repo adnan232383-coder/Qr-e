@@ -1,0 +1,709 @@
+"""
+Job Runner System - Modular Background Task Processing
+Uses ProcessPoolExecutor for non-blocking execution.
+Designed for easy migration to Celery/ARQ later.
+
+Features:
+- Status tracking (queued/running/done/failed)
+- Progress updates
+- Idempotency checks
+- Retries with exponential backoff
+- Rate limiting
+- Per-course/job locking
+"""
+
+import os
+import uuid
+import asyncio
+import logging
+import json
+import time
+from datetime import datetime, timezone
+from typing import Dict, Any, Optional, List, Callable
+from dataclasses import dataclass, asdict
+from enum import Enum
+from concurrent.futures import ProcessPoolExecutor, Future
+from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
+from functools import partial
+
+logger = logging.getLogger(__name__)
+
+
+class JobStatus(str, Enum):
+    QUEUED = "queued"
+    RUNNING = "running"
+    DONE = "done"
+    FAILED = "failed"
+    CANCELLED = "cancelled"
+
+
+class JobType(str, Enum):
+    MCQ_GENERATION = "mcq_generation"
+    SCRIPT_GENERATION = "script_generation"
+    VIDEO_GENERATION = "video_generation"
+    BULK_MCQ = "bulk_mcq"
+    BULK_SCRIPT = "bulk_script"
+    BULK_VIDEO = "bulk_video"
+
+
+@dataclass
+class JobConfig:
+    """Configuration for job execution"""
+    max_retries: int = 3
+    retry_base_delay: float = 2.0  # seconds
+    retry_max_delay: float = 60.0  # seconds
+    rate_limit_per_minute: int = 30  # API calls per minute
+    batch_size: int = 25
+    questions_per_course: int = 200
+
+
+@dataclass
+class JobProgress:
+    """Progress tracking for a job"""
+    total: int = 0
+    completed: int = 0
+    failed: int = 0
+    current_item: str = ""
+    last_update: str = ""
+    
+    @property
+    def percentage(self) -> float:
+        if self.total == 0:
+            return 0.0
+        return (self.completed / self.total) * 100
+
+
+class JobLockManager:
+    """Manages per-course/job locks to prevent concurrent runs"""
+    
+    def __init__(self, db: AsyncIOMotorDatabase):
+        self.db = db
+        self._collection = db.job_locks
+    
+    async def acquire(self, resource_id: str, job_id: str, timeout_minutes: int = 60) -> bool:
+        """Try to acquire a lock for a resource"""
+        now = datetime.now(timezone.utc)
+        expire_at = now.isoformat()
+        
+        # Try to acquire or update existing lock
+        result = await self._collection.update_one(
+            {
+                "resource_id": resource_id,
+                "$or": [
+                    {"locked_until": {"$lt": now.isoformat()}},  # Lock expired
+                    {"job_id": job_id}  # Same job
+                ]
+            },
+            {
+                "$set": {
+                    "resource_id": resource_id,
+                    "job_id": job_id,
+                    "locked_at": now.isoformat(),
+                    "locked_until": (now.replace(minute=now.minute + timeout_minutes)).isoformat()
+                }
+            },
+            upsert=False
+        )
+        
+        if result.modified_count > 0:
+            return True
+        
+        # Try insert if no existing lock
+        try:
+            await self._collection.insert_one({
+                "resource_id": resource_id,
+                "job_id": job_id,
+                "locked_at": now.isoformat(),
+                "locked_until": (now.replace(minute=now.minute + timeout_minutes)).isoformat()
+            })
+            return True
+        except Exception:
+            return False
+    
+    async def release(self, resource_id: str, job_id: str):
+        """Release a lock"""
+        await self._collection.delete_one({
+            "resource_id": resource_id,
+            "job_id": job_id
+        })
+    
+    async def is_locked(self, resource_id: str) -> bool:
+        """Check if a resource is locked"""
+        now = datetime.now(timezone.utc).isoformat()
+        lock = await self._collection.find_one({
+            "resource_id": resource_id,
+            "locked_until": {"$gt": now}
+        })
+        return lock is not None
+    
+    async def get_lock_info(self, resource_id: str) -> Optional[Dict]:
+        """Get lock info for a resource"""
+        return await self._collection.find_one(
+            {"resource_id": resource_id},
+            {"_id": 0}
+        )
+
+
+class RateLimiter:
+    """Simple rate limiter for API calls"""
+    
+    def __init__(self, calls_per_minute: int = 30):
+        self.calls_per_minute = calls_per_minute
+        self.interval = 60.0 / calls_per_minute
+        self.last_call = 0.0
+        self._lock = asyncio.Lock()
+    
+    async def wait(self):
+        """Wait if needed to respect rate limit"""
+        async with self._lock:
+            now = time.time()
+            time_since_last = now - self.last_call
+            if time_since_last < self.interval:
+                await asyncio.sleep(self.interval - time_since_last)
+            self.last_call = time.time()
+
+
+# Synchronous worker functions (run in separate process)
+def _generate_mcq_batch_sync(
+    mongo_url: str,
+    db_name: str,
+    api_key: str,
+    course_id: str,
+    course_name: str,
+    batch_num: int,
+    batch_size: int,
+    total_batches: int
+) -> Dict[str, Any]:
+    """
+    Synchronous MCQ batch generation - runs in separate process.
+    Returns generated questions or error info.
+    """
+    import json as json_module
+    from emergentintegrations.llm.chat import LlmChat, UserMessage
+    from pymongo import MongoClient
+    
+    try:
+        # Connect to MongoDB (sync client for subprocess)
+        client = MongoClient(mongo_url)
+        db = client[db_name]
+        
+        chat = LlmChat(
+            api_key=api_key,
+            session_id=f"mcq_{course_id}_{batch_num}",
+            system_message="""You are a medical education expert creating high-quality MCQ questions.
+Create questions suitable for medical/pharmacy board exam preparation.
+Always return valid JSON array only, no other text."""
+        ).with_model("openai", "gpt-5.2")
+        
+        prompt = f"""Generate {batch_size} multiple-choice questions for:
+Course: {course_name}
+Batch: {batch_num + 1}/{total_batches}
+
+For each question provide:
+1. question: The question text
+2. option_a, option_b, option_c, option_d: Four answer options
+3. correct_answer: The correct option letter (A, B, C, or D)
+4. explanation: Detailed explanation (2-3 sentences)
+5. difficulty: easy, medium, or hard
+
+Format as JSON array ONLY, no other text:
+[{{"question": "...", "option_a": "...", "option_b": "...", "option_c": "...", "option_d": "...", "correct_answer": "A", "explanation": "...", "difficulty": "medium"}}]
+
+Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
+Cover different aspects of {course_name}."""
+
+        # Use sync version
+        import asyncio
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        response = loop.run_until_complete(chat.send_message(UserMessage(text=prompt)))
+        loop.close()
+        
+        # Parse JSON from response
+        json_start = response.find('[')
+        json_end = response.rfind(']') + 1
+        
+        if json_start >= 0 and json_end > json_start:
+            questions = json_module.loads(response[json_start:json_end])
+            
+            # Add metadata to each question
+            for i, q in enumerate(questions):
+                q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
+                q["course_id"] = course_id
+                q["topic"] = course_name
+                q["created_at"] = datetime.now(timezone.utc).isoformat()
+            
+            return {
+                "success": True,
+                "questions": questions,
+                "count": len(questions)
+            }
+        else:
+            return {
+                "success": False,
+                "error": "Failed to parse JSON from response",
+                "questions": []
+            }
+            
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e),
+            "questions": []
+        }
+
+
+class JobRunner:
+    """
+    Main job runner class that manages background task execution.
+    Uses ProcessPoolExecutor for non-blocking execution.
+    """
+    
+    def __init__(self, db: AsyncIOMotorDatabase, config: Optional[JobConfig] = None):
+        self.db = db
+        self.config = config or JobConfig()
+        self.lock_manager = JobLockManager(db)
+        self.rate_limiter = RateLimiter(self.config.rate_limit_per_minute)
+        self._executor: Optional[ProcessPoolExecutor] = None
+        self._running_jobs: Dict[str, Future] = {}
+        self._shutdown = False
+        
+        # Get MongoDB connection info for subprocess
+        self.mongo_url = os.environ.get('MONGO_URL')
+        self.db_name = os.environ.get('DB_NAME')
+        self.api_key = os.environ.get('EMERGENT_LLM_KEY')
+    
+    @property
+    def executor(self) -> ProcessPoolExecutor:
+        """Lazy-initialize the process pool"""
+        if self._executor is None:
+            # Use max 4 workers to avoid overwhelming the system
+            self._executor = ProcessPoolExecutor(max_workers=4)
+        return self._executor
+    
+    async def create_job(
+        self,
+        job_type: JobType,
+        params: Dict[str, Any],
+        resource_id: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Create a new job with idempotency check.
+        Returns existing job if one is already running for the resource.
+        """
+        job_id = f"job_{uuid.uuid4().hex[:12]}"
+        now = datetime.now(timezone.utc)
+        
+        # Idempotency check - if resource has an active job, return it
+        if resource_id:
+            existing = await self.db.jobs.find_one({
+                "resource_id": resource_id,
+                "status": {"$in": [JobStatus.QUEUED, JobStatus.RUNNING]}
+            }, {"_id": 0})
+            
+            if existing:
+                logger.info(f"Found existing job {existing['job_id']} for resource {resource_id}")
+                return existing
+        
+        job = {
+            "job_id": job_id,
+            "job_type": job_type,
+            "resource_id": resource_id,
+            "params": params,
+            "status": JobStatus.QUEUED,
+            "progress": asdict(JobProgress()),
+            "retries": 0,
+            "error": None,
+            "created_at": now.isoformat(),
+            "started_at": None,
+            "completed_at": None,
+            "updated_at": now.isoformat()
+        }
+        
+        await self.db.jobs.insert_one(job)
+        logger.info(f"Created job {job_id} of type {job_type}")
+        
+        # Return without _id
+        del job["_id"]
+        return job
+    
+    async def get_job(self, job_id: str) -> Optional[Dict]:
+        """Get job by ID"""
+        return await self.db.jobs.find_one({"job_id": job_id}, {"_id": 0})
+    
+    async def get_jobs_by_type(self, job_type: JobType, status: Optional[JobStatus] = None) -> List[Dict]:
+        """Get all jobs of a type, optionally filtered by status"""
+        query = {"job_type": job_type}
+        if status:
+            query["status"] = status
+        return await self.db.jobs.find(query, {"_id": 0}).to_list(1000)
+    
+    async def update_job_status(self, job_id: str, status: JobStatus, error: Optional[str] = None):
+        """Update job status"""
+        update = {
+            "status": status,
+            "updated_at": datetime.now(timezone.utc).isoformat()
+        }
+        
+        if status == JobStatus.RUNNING:
+            update["started_at"] = datetime.now(timezone.utc).isoformat()
+        elif status in [JobStatus.DONE, JobStatus.FAILED, JobStatus.CANCELLED]:
+            update["completed_at"] = datetime.now(timezone.utc).isoformat()
+        
+        if error:
+            update["error"] = error
+        
+        await self.db.jobs.update_one({"job_id": job_id}, {"$set": update})
+    
+    async def update_job_progress(self, job_id: str, progress: JobProgress):
+        """Update job progress"""
+        progress.last_update = datetime.now(timezone.utc).isoformat()
+        await self.db.jobs.update_one(
+            {"job_id": job_id},
+            {"$set": {"progress": asdict(progress), "updated_at": progress.last_update}}
+        )
+    
+    async def cancel_job(self, job_id: str) -> bool:
+        """Cancel a job if it's queued or running"""
+        job = await self.get_job(job_id)
+        if not job:
+            return False
+        
+        if job["status"] not in [JobStatus.QUEUED, JobStatus.RUNNING]:
+            return False
+        
+        # Release lock if exists
+        if job.get("resource_id"):
+            await self.lock_manager.release(job["resource_id"], job_id)
+        
+        await self.update_job_status(job_id, JobStatus.CANCELLED)
+        
+        # Cancel future if running
+        if job_id in self._running_jobs:
+            self._running_jobs[job_id].cancel()
+            del self._running_jobs[job_id]
+        
+        logger.info(f"Cancelled job {job_id}")
+        return True
+    
+    async def start_mcq_generation(self, course_id: Optional[str] = None) -> Dict:
+        """
+        Start MCQ generation for a single course or all courses.
+        Returns the created job info.
+        """
+        if course_id:
+            # Single course
+            course = await self.db.courses.find_one({"external_id": course_id}, {"_id": 0})
+            if not course:
+                raise ValueError(f"Course not found: {course_id}")
+            
+            job = await self.create_job(
+                JobType.MCQ_GENERATION,
+                {"course_id": course_id, "course_name": course["course_name"]},
+                resource_id=f"mcq_{course_id}"
+            )
+        else:
+            # All courses - bulk job
+            courses = await self.db.courses.find({}, {"_id": 0, "external_id": 1}).to_list(100)
+            job = await self.create_job(
+                JobType.BULK_MCQ,
+                {"course_ids": [c["external_id"] for c in courses]},
+                resource_id="bulk_mcq_all"
+            )
+        
+        # Start processing in background
+        asyncio.create_task(self._process_job(job["job_id"]))
+        return job
+    
+    async def _process_job(self, job_id: str):
+        """Process a job based on its type"""
+        job = await self.get_job(job_id)
+        if not job or job["status"] != JobStatus.QUEUED:
+            return
+        
+        job_type = job["job_type"]
+        
+        try:
+            # Try to acquire lock
+            resource_id = job.get("resource_id")
+            if resource_id and not await self.lock_manager.acquire(resource_id, job_id):
+                logger.warning(f"Could not acquire lock for {resource_id}")
+                await self.update_job_status(job_id, JobStatus.FAILED, "Resource is locked by another job")
+                return
+            
+            await self.update_job_status(job_id, JobStatus.RUNNING)
+            
+            if job_type == JobType.MCQ_GENERATION:
+                await self._run_single_mcq_generation(job)
+            elif job_type == JobType.BULK_MCQ:
+                await self._run_bulk_mcq_generation(job)
+            else:
+                raise ValueError(f"Unknown job type: {job_type}")
+            
+            await self.update_job_status(job_id, JobStatus.DONE)
+            logger.info(f"Job {job_id} completed successfully")
+            
+        except asyncio.CancelledError:
+            await self.update_job_status(job_id, JobStatus.CANCELLED)
+            logger.info(f"Job {job_id} was cancelled")
+        except Exception as e:
+            logger.error(f"Job {job_id} failed: {e}")
+            await self._handle_job_failure(job, str(e))
+        finally:
+            # Release lock
+            resource_id = job.get("resource_id")
+            if resource_id:
+                await self.lock_manager.release(resource_id, job_id)
+    
+    async def _run_single_mcq_generation(self, job: Dict):
+        """Generate MCQ for a single course"""
+        job_id = job["job_id"]
+        course_id = job["params"]["course_id"]
+        course_name = job["params"]["course_name"]
+        
+        # Check existing questions
+        existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+        if existing_count >= self.config.questions_per_course:
+            logger.info(f"Course {course_id} already has {existing_count} questions, skipping")
+            return
+        
+        batch_size = self.config.batch_size
+        total_needed = self.config.questions_per_course
+        total_batches = (total_needed + batch_size - 1) // batch_size
+        
+        progress = JobProgress(total=total_batches, current_item=course_name)
+        all_questions = []
+        
+        for batch_num in range(total_batches):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            # Rate limiting
+            await self.rate_limiter.wait()
+            
+            # Run batch generation in process pool
+            loop = asyncio.get_event_loop()
+            result = await loop.run_in_executor(
+                self.executor,
+                partial(
+                    _generate_mcq_batch_sync,
+                    self.mongo_url,
+                    self.db_name,
+                    self.api_key,
+                    course_id,
+                    course_name,
+                    batch_num,
+                    batch_size,
+                    total_batches
+                )
+            )
+            
+            if result["success"]:
+                all_questions.extend(result["questions"])
+                progress.completed = batch_num + 1
+                logger.info(f"Batch {batch_num + 1}/{total_batches} completed for {course_id}")
+            else:
+                progress.failed += 1
+                logger.warning(f"Batch {batch_num + 1} failed: {result.get('error')}")
+            
+            await self.update_job_progress(job_id, progress)
+        
+        # Save all questions to database
+        if all_questions:
+            await self.db.mcq_questions.delete_many({"course_id": course_id})
+            await self.db.mcq_questions.insert_many(all_questions)
+            logger.info(f"Saved {len(all_questions)} questions for {course_id}")
+    
+    async def _run_bulk_mcq_generation(self, job: Dict):
+        """Generate MCQ for all courses"""
+        job_id = job["job_id"]
+        course_ids = job["params"]["course_ids"]
+        
+        # Get course details
+        courses = await self.db.courses.find(
+            {"external_id": {"$in": course_ids}},
+            {"_id": 0, "external_id": 1, "course_name": 1}
+        ).to_list(100)
+        
+        course_map = {c["external_id"]: c["course_name"] for c in courses}
+        
+        progress = JobProgress(total=len(course_ids))
+        
+        for i, course_id in enumerate(course_ids):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            # Check if cancelled
+            current_job = await self.get_job(job_id)
+            if current_job and current_job["status"] == JobStatus.CANCELLED:
+                raise asyncio.CancelledError()
+            
+            course_name = course_map.get(course_id, course_id)
+            progress.current_item = course_name
+            
+            # Check existing questions
+            existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+            if existing_count >= self.config.questions_per_course:
+                logger.info(f"Course {course_id} already has {existing_count} questions, skipping")
+                progress.completed = i + 1
+                await self.update_job_progress(job_id, progress)
+                continue
+            
+            # Generate for this course
+            try:
+                await self._generate_mcq_for_course(job_id, course_id, course_name)
+                progress.completed = i + 1
+            except Exception as e:
+                logger.error(f"Failed to generate MCQ for {course_id}: {e}")
+                progress.failed += 1
+            
+            await self.update_job_progress(job_id, progress)
+            
+            # Small delay between courses
+            await asyncio.sleep(1)
+        
+        logger.info(f"Bulk MCQ generation completed: {progress.completed}/{progress.total}")
+    
+    async def _generate_mcq_for_course(self, job_id: str, course_id: str, course_name: str):
+        """Generate MCQ questions for a single course within bulk job"""
+        batch_size = self.config.batch_size
+        total_needed = self.config.questions_per_course
+        total_batches = (total_needed + batch_size - 1) // batch_size
+        
+        all_questions = []
+        
+        for batch_num in range(total_batches):
+            if self._shutdown:
+                raise asyncio.CancelledError()
+            
+            # Rate limiting
+            await self.rate_limiter.wait()
+            
+            # Run batch generation in process pool
+            loop = asyncio.get_event_loop()
+            result = await loop.run_in_executor(
+                self.executor,
+                partial(
+                    _generate_mcq_batch_sync,
+                    self.mongo_url,
+                    self.db_name,
+                    self.api_key,
+                    course_id,
+                    course_name,
+                    batch_num,
+                    batch_size,
+                    total_batches
+                )
+            )
+            
+            if result["success"]:
+                all_questions.extend(result["questions"])
+                logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(result['questions'])} questions")
+            else:
+                logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {result.get('error')}")
+                # Retry logic with backoff
+                for retry in range(self.config.max_retries):
+                    delay = min(
+                        self.config.retry_base_delay * (2 ** retry),
+                        self.config.retry_max_delay
+                    )
+                    await asyncio.sleep(delay)
+                    
+                    result = await loop.run_in_executor(
+                        self.executor,
+                        partial(
+                            _generate_mcq_batch_sync,
+                            self.mongo_url,
+                            self.db_name,
+                            self.api_key,
+                            course_id,
+                            course_name,
+                            batch_num,
+                            batch_size,
+                            total_batches
+                        )
+                    )
+                    
+                    if result["success"]:
+                        all_questions.extend(result["questions"])
+                        break
+        
+        # Save questions
+        if all_questions:
+            await self.db.mcq_questions.delete_many({"course_id": course_id})
+            await self.db.mcq_questions.insert_many(all_questions)
+            logger.info(f"Saved {len(all_questions)} questions for {course_id}")
+    
+    async def _handle_job_failure(self, job: Dict, error: str):
+        """Handle job failure with retry logic"""
+        job_id = job["job_id"]
+        retries = job.get("retries", 0)
+        
+        if retries < self.config.max_retries:
+            # Schedule retry with exponential backoff
+            delay = min(
+                self.config.retry_base_delay * (2 ** retries),
+                self.config.retry_max_delay
+            )
+            
+            await self.db.jobs.update_one(
+                {"job_id": job_id},
+                {
+                    "$set": {
+                        "status": JobStatus.QUEUED,
+                        "retries": retries + 1,
+                        "error": f"Retry {retries + 1}: {error}",
+                        "updated_at": datetime.now(timezone.utc).isoformat()
+                    }
+                }
+            )
+            
+            logger.info(f"Scheduling retry {retries + 1} for job {job_id} in {delay}s")
+            await asyncio.sleep(delay)
+            asyncio.create_task(self._process_job(job_id))
+        else:
+            # Max retries exceeded
+            await self.update_job_status(job_id, JobStatus.FAILED, error)
+            logger.error(f"Job {job_id} failed after {retries} retries: {error}")
+    
+    async def get_all_jobs_status(self) -> Dict:
+        """Get status summary of all jobs"""
+        pipeline = [
+            {"$group": {"_id": "$status", "count": {"$sum": 1}}}
+        ]
+        result = await self.db.jobs.aggregate(pipeline).to_list(10)
+        
+        status_counts = {s: 0 for s in JobStatus}
+        for r in result:
+            if r["_id"] in JobStatus.__members__.values():
+                status_counts[r["_id"]] = r["count"]
+        
+        # Get recent jobs
+        recent_jobs = await self.db.jobs.find(
+            {},
+            {"_id": 0}
+        ).sort("updated_at", -1).limit(10).to_list(10)
+        
+        return {
+            "summary": status_counts,
+            "recent_jobs": recent_jobs
+        }
+    
+    async def shutdown(self):
+        """Graceful shutdown"""
+        self._shutdown = True
+        if self._executor:
+            self._executor.shutdown(wait=False)
+            self._executor = None
+
+
+# Singleton instance
+_job_runner: Optional[JobRunner] = None
+
+
+def get_job_runner(db: AsyncIOMotorDatabase) -> JobRunner:
+    """Get or create the global job runner instance"""
+    global _job_runner
+    if _job_runner is None:
+        _job_runner = JobRunner(db)
+    return _job_runner
