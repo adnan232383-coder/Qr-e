@@ -682,7 +682,7 @@ Cover different aspects of {course_name}."""
             try:
                 response = await asyncio.wait_for(
                     asyncio.to_thread(generate_batch_sync, batch_num),
-                    timeout=180  # 3 minute timeout per batch
+                    timeout=300  # 5 minute timeout per batch (OpenAI high latency)
                 )
                 
                 if response:
