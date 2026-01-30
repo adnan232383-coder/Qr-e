@@ -10,6 +10,7 @@ Features:
 - Retries with exponential backoff
 - Rate limiting
 - Per-course/job locking
+- Decision logging for autonomous choices
 """
 
 import os
@@ -25,6 +26,7 @@ from enum import Enum
 from concurrent.futures import ProcessPoolExecutor, Future
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 from functools import partial
+from decision_logger import get_decision_logger
 
 logger = logging.getLogger(__name__)
 
