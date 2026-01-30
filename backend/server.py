@@ -750,6 +750,45 @@ async def get_decision_log(limit: int = 50, component: Optional[str] = None, job
     
     return {"decisions": decisions, "count": len(decisions)}
 
+@api_router.post("/admin/scripts/start")
+async def admin_start_script_generation(course_id: Optional[str] = None):
+    """Start script generation for one or all courses"""
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    
+    try:
+        job = await runner.start_script_generation(course_id)
+        return {
+            "message": f"Script generation started" + (f" for course {course_id}" if course_id else " for all modules"),
+            "job": job
+        }
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+@api_router.get("/admin/scripts/progress")
+async def get_script_generation_progress():
+    """Get detailed progress of script generation"""
+    from job_runner import get_job_runner, JobType, JobStatus
+    runner = get_job_runner(db)
+    
+    bulk_jobs = await runner.get_jobs_by_type(JobType.BULK_SCRIPT)
+    single_jobs = await runner.get_jobs_by_type(JobType.SCRIPT_GENERATION)
+    
+    running = [j for j in bulk_jobs + single_jobs if j["status"] == JobStatus.RUNNING]
+    
+    total_modules = await db.modules.count_documents({})
+    scripts_count = await db.module_scripts.count_documents({})
+    
+    return {
+        "overall": {
+            "total_scripts": scripts_count,
+            "total_modules": total_modules,
+            "percentage": (scripts_count / total_modules * 100) if total_modules > 0 else 0
+        },
+        "current_job": running[0] if running else None,
+        "recent_jobs": sorted(bulk_jobs + single_jobs, key=lambda x: x.get("updated_at", ""), reverse=True)[:10]
+    }
+
 @api_router.get("/generation-progress")
 async def get_generation_progress():
     """Get overall generation progress"""
