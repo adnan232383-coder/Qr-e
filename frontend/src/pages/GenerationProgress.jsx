@@ -268,64 +268,54 @@ export default function GenerationProgress() {
         </div>
 
         <div className="grid gap-6">
-          {/* Current Job Status */}
-          {currentJob && (
-            <Card className="border-blue-500/30 bg-blue-500/5" data-testid="current-job-card">
+          {/* Active Jobs Status - Show all running jobs */}
+          {activeJobs.length > 0 && (
+            <Card className="border-blue-500/30 bg-blue-500/5" data-testid="active-jobs-card">
               <CardHeader>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="p-2 rounded-lg bg-blue-500/20">
-                      <Activity className="h-6 w-6 text-blue-500 animate-pulse" />
-                    </div>
-                    <div>
-                      <CardTitle className="flex items-center gap-2">
-                        Active Job
-                        <JobStatusBadge status={currentJob.status} />
-                      </CardTitle>
-                      <CardDescription>
-                        {currentJob.job_type === "bulk_mcq" ? "Bulk MCQ Generation" : currentJob.job_type}
-                        {" • "}Job ID: {currentJob.job_id?.substring(0, 12)}...
-                      </CardDescription>
-                    </div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-blue-500/20">
+                    <Activity className="h-6 w-6 text-blue-500 animate-pulse" />
                   </div>
-                  {(currentJob.status === "running" || currentJob.status === "queued") && (
-                    <Button 
-                      variant="destructive" 
-                      size="sm" 
-                      onClick={() => cancelJob(currentJob.job_id)}
-                      data-testid="cancel-job-button"
-                    >
-                      <Square className="h-4 w-4 mr-2" />
-                      Cancel
-                    </Button>
-                  )}
+                  <div>
+                    <CardTitle className="flex items-center gap-2">
+                      Active Jobs
+                      <Badge variant="outline" className="bg-blue-500/10 text-blue-600">
+                        {activeJobs.length} running
+                      </Badge>
+                    </CardTitle>
+                    <CardDescription>
+                      Content generation in progress
+                    </CardDescription>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex items-center justify-between text-sm">
-                  <span>
-                    {currentJob.progress?.completed || 0} / {currentJob.progress?.total || 0} courses
-                  </span>
-                  <span className="font-medium">{jobProgress.toFixed(1)}%</span>
-                </div>
-                <Progress value={jobProgress} className="h-3" />
-                <div className="flex items-center justify-between text-sm text-muted-foreground">
-                  <span className="flex items-center gap-1">
-                    {currentJob.progress?.current_item && (
-                      <>Processing: <strong>{currentJob.progress.current_item}</strong></>
-                    )}
-                  </span>
-                  {currentJob.progress?.failed > 0 && (
-                    <span className="text-red-500">
-                      {currentJob.progress.failed} failed
-                    </span>
-                  )}
-                </div>
-                {currentJob.error && (
-                  <div className="p-3 bg-red-500/10 rounded-lg text-red-600 text-sm">
-                    Error: {currentJob.error}
+                {activeJobs.map((job) => (
+                  <div key={job.job_id} className="p-4 rounded-lg bg-background/50 border space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <JobStatusBadge status={job.status} />
+                        <span className="font-medium">{getJobLabel(job.job_type)}</span>
+                      </div>
+                      <Button 
+                        variant="destructive" 
+                        size="sm" 
+                        onClick={() => cancelJob(job.job_id)}
+                      >
+                        <Square className="h-3 w-3 mr-1" />
+                        Cancel
+                      </Button>
+                    </div>
+                    <div className="flex items-center justify-between text-sm">
+                      <span>{job.progress?.completed || 0} / {job.progress?.total || 0}</span>
+                      <span className="font-medium">{getJobProgress(job).toFixed(1)}%</span>
+                    </div>
+                    <Progress value={getJobProgress(job)} className="h-2" />
+                    <div className="text-xs text-muted-foreground truncate">
+                      {job.progress?.current_item || `Job ID: ${job.job_id?.substring(0, 12)}...`}
+                    </div>
                   </div>
-                )}
+                ))}
               </CardContent>
             </Card>
           )}
