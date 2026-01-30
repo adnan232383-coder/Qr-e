@@ -203,10 +203,22 @@ export default function GenerationProgress() {
   const mcqProgress = progress?.mcq ? (progress.mcq.total_questions / progress.mcq.target) * 100 : 0;
   const videoProgress = progress?.videos ? (progress.videos.completed / progress.videos.total_modules) * 100 : 0;
   const scriptProgress = progress?.scripts ? (progress.scripts.completed / progress.scripts.total_modules) * 100 : 0;
-  
-  const jobProgress = currentJob?.progress?.total > 0 
-    ? (currentJob.progress.completed / currentJob.progress.total) * 100 
-    : 0;
+
+  const getJobProgress = (job) => {
+    if (!job?.progress?.total) return 0;
+    return (job.progress.completed / job.progress.total) * 100;
+  };
+
+  const getJobLabel = (jobType) => {
+    const labels = {
+      'bulk_mcq': 'MCQ Generation',
+      'bulk_script': 'Script Generation',
+      'bulk_video': 'Video Generation',
+      'mcq_generation': 'MCQ (Single)',
+      'script_generation': 'Script (Single)'
+    };
+    return labels[jobType] || jobType;
+  };
 
   return (
     <div className="min-h-screen bg-background" data-testid="generation-progress-page">
