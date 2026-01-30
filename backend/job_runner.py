@@ -550,6 +550,14 @@ class JobRunner:
         progress = JobProgress(total=len(course_ids))
         await self.update_job_progress(job_id, progress)
         
+        await self.decision_logger.log(
+            component="job_runner",
+            chosen_option="start_bulk_mcq",
+            reason=f"Starting bulk MCQ generation for {len(course_ids)} courses",
+            context={"total_courses": len(course_ids), "questions_per_course": self.config.questions_per_course},
+            job_id=job_id
+        )
+        
         for i, course_id in enumerate(course_ids):
             if self._shutdown:
                 raise asyncio.CancelledError()
@@ -566,6 +574,13 @@ class JobRunner:
             # Check existing questions
             existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
             if existing_count >= self.config.questions_per_course:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="skip_course",
+                    reason=f"Course already has {existing_count} questions (target: {self.config.questions_per_course})",
+                    context={"course_id": course_id, "existing_count": existing_count},
+                    job_id=job_id
+                )
                 logger.info(f"Course {course_id} already has {existing_count} questions, skipping")
                 progress.completed = i + 1
                 await self.update_job_progress(job_id, progress)
@@ -573,9 +588,23 @@ class JobRunner:
             
             # Generate for this course
             try:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="generate_course_mcq",
+                    reason=f"Course needs MCQ generation (has {existing_count}, need {self.config.questions_per_course})",
+                    context={"course_id": course_id, "course_name": course_name, "existing_count": existing_count},
+                    job_id=job_id
+                )
                 await self._generate_mcq_for_course(job_id, course_id, course_name)
                 progress.completed = i + 1
             except Exception as e:
+                await self.decision_logger.log(
+                    component="job_runner",
+                    chosen_option="mark_course_failed",
+                    reason=f"Course generation failed: {str(e)[:100]}",
+                    context={"course_id": course_id, "error": str(e)[:200]},
+                    job_id=job_id
+                )
                 logger.error(f"Failed to generate MCQ for {course_id}: {e}")
                 progress.failed += 1
             
