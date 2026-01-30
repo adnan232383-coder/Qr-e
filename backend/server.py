@@ -12,6 +12,7 @@ from typing import List, Optional, Dict, Any
 import uuid
 from datetime import datetime, timezone, timedelta
 import httpx
+from contextlib import asynccontextmanager
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
@@ -21,18 +22,34 @@ mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
-# Create the main app
-app = FastAPI(title="UG University Assistant API")
-
-# Create a router with the /api prefix
-api_router = APIRouter(prefix="/api")
-
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Startup and shutdown events"""
+    # Startup: Resume any interrupted jobs
+    from job_runner import init_job_runner
+    logger.info("Starting server - checking for interrupted jobs...")
+    await init_job_runner(db)
+    yield
+    # Shutdown
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    await runner.shutdown()
+    logger.info("Server shutdown complete")
+
+
+# Create the main app with lifespan
+app = FastAPI(title="UG University Assistant API", lifespan=lifespan)
+
+# Create a router with the /api prefix
+api_router = APIRouter(prefix="/api")
 
 # ==================== MODELS ====================
 
