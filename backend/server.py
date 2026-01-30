@@ -737,6 +737,19 @@ async def get_mcq_generation_progress():
         "recent_jobs": sorted(bulk_jobs + single_jobs, key=lambda x: x.get("updated_at", ""), reverse=True)[:10]
     }
 
+@api_router.get("/admin/decisions")
+async def get_decision_log(limit: int = 50, component: Optional[str] = None, job_id: Optional[str] = None):
+    """Get decision log entries for audit/debugging"""
+    from decision_logger import get_decision_logger
+    dl = get_decision_logger(db)
+    
+    if job_id:
+        decisions = await dl.get_by_job(job_id)
+    else:
+        decisions = await dl.get_recent(limit=limit, component=component)
+    
+    return {"decisions": decisions, "count": len(decisions)}
+
 @api_router.get("/generation-progress")
 async def get_generation_progress():
     """Get overall generation progress"""
