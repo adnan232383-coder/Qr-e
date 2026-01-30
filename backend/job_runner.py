@@ -567,6 +567,9 @@ class JobRunner:
     
     async def _generate_mcq_for_course(self, job_id: str, course_id: str, course_name: str):
         """Generate MCQ questions for a single course within bulk job"""
+        from emergentintegrations.llm.chat import LlmChat, UserMessage
+        import json as json_module
+        
         batch_size = self.config.batch_size
         total_needed = self.config.questions_per_course
         total_batches = (total_needed + batch_size - 1) // batch_size
@@ -580,29 +583,57 @@ class JobRunner:
             # Rate limiting
             await self.rate_limiter.wait()
             
-            # Run batch generation in process pool
-            loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(
-                self.executor,
-                partial(
-                    _generate_mcq_batch_sync,
-                    self.mongo_url,
-                    self.db_name,
-                    self.api_key,
-                    course_id,
-                    course_name,
-                    batch_num,
-                    batch_size,
-                    total_batches
-                )
-            )
-            
-            if result["success"]:
-                all_questions.extend(result["questions"])
-                logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(result['questions'])} questions")
-            else:
-                logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {result.get('error')}")
-                # Retry logic with backoff
+            # Generate batch using async LLM call
+            try:
+                chat = LlmChat(
+                    api_key=self.api_key,
+                    session_id=f"mcq_{course_id}_{batch_num}",
+                    system_message="""You are a medical education expert creating high-quality MCQ questions.
+Create questions suitable for medical/pharmacy board exam preparation.
+Always return valid JSON array only, no other text."""
+                ).with_model("openai", "gpt-5.2")
+                
+                prompt = f"""Generate {batch_size} multiple-choice questions for:
+Course: {course_name}
+Batch: {batch_num + 1}/{total_batches}
+
+For each question provide:
+1. question: The question text
+2. option_a, option_b, option_c, option_d: Four answer options
+3. correct_answer: The correct option letter (A, B, C, or D)
+4. explanation: Detailed explanation (2-3 sentences)
+5. difficulty: easy, medium, or hard
+
+Format as JSON array ONLY, no other text:
+[{{"question": "...", "option_a": "...", "option_b": "...", "option_c": "...", "option_d": "...", "correct_answer": "A", "explanation": "...", "difficulty": "medium"}}]
+
+Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
+Cover different aspects of {course_name}."""
+
+                response = await chat.send_message(UserMessage(text=prompt))
+                
+                # Parse JSON from response
+                json_start = response.find('[')
+                json_end = response.rfind(']') + 1
+                
+                if json_start >= 0 and json_end > json_start:
+                    questions = json_module.loads(response[json_start:json_end])
+                    
+                    # Add metadata to each question
+                    for i, q in enumerate(questions):
+                        q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
+                        q["course_id"] = course_id
+                        q["topic"] = course_name
+                        q["created_at"] = datetime.now(timezone.utc).isoformat()
+                        all_questions.append(q)
+                    
+                    logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
+                else:
+                    logger.warning(f"[{course_id}] Batch {batch_num + 1} - failed to parse JSON")
+                    
+            except Exception as e:
+                logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
+                # Retry with backoff
                 for retry in range(self.config.max_retries):
                     delay = min(
                         self.config.retry_base_delay * (2 ** retry),
@@ -610,24 +641,31 @@ class JobRunner:
                     )
                     await asyncio.sleep(delay)
                     
-                    result = await loop.run_in_executor(
-                        self.executor,
-                        partial(
-                            _generate_mcq_batch_sync,
-                            self.mongo_url,
-                            self.db_name,
-                            self.api_key,
-                            course_id,
-                            course_name,
-                            batch_num,
-                            batch_size,
-                            total_batches
-                        )
-                    )
-                    
-                    if result["success"]:
-                        all_questions.extend(result["questions"])
-                        break
+                    try:
+                        chat = LlmChat(
+                            api_key=self.api_key,
+                            session_id=f"mcq_{course_id}_{batch_num}_retry{retry}",
+                            system_message="You are a medical education expert. Return valid JSON array only."
+                        ).with_model("openai", "gpt-5.2")
+                        
+                        response = await chat.send_message(UserMessage(text=prompt))
+                        json_start = response.find('[')
+                        json_end = response.rfind(']') + 1
+                        
+                        if json_start >= 0 and json_end > json_start:
+                            questions = json_module.loads(response[json_start:json_end])
+                            for i, q in enumerate(questions):
+                                q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
+                                q["course_id"] = course_id
+                                q["topic"] = course_name
+                                q["created_at"] = datetime.now(timezone.utc).isoformat()
+                                all_questions.append(q)
+                            break
+                    except Exception:
+                        continue
+            
+            # Yield control to allow other async tasks (including API responses)
+            await asyncio.sleep(0.1)
         
         # Save questions
         if all_questions:
