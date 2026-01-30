@@ -638,6 +638,88 @@ async def get_bulk_task_status(task_id: str):
         raise HTTPException(status_code=404, detail="Task not found")
     return task
 
+# ==================== JOB RUNNER ADMIN ROUTES ====================
+
+@api_router.get("/admin/jobs")
+async def get_all_jobs():
+    """Get status of all jobs in the system"""
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    return await runner.get_all_jobs_status()
+
+@api_router.get("/admin/jobs/{job_id}")
+async def get_job_status(job_id: str):
+    """Get detailed status of a specific job"""
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    job = await runner.get_job(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    return job
+
+@api_router.post("/admin/jobs/{job_id}/cancel")
+async def cancel_job(job_id: str):
+    """Cancel a running or queued job"""
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    success = await runner.cancel_job(job_id)
+    if not success:
+        raise HTTPException(status_code=400, detail="Cannot cancel job - either not found or already completed")
+    return {"message": f"Job {job_id} cancelled", "job_id": job_id}
+
+@api_router.post("/admin/mcq/start")
+async def admin_start_mcq_generation(course_id: Optional[str] = None, questions_per_course: int = 200):
+    """
+    Admin endpoint to start MCQ generation.
+    - If course_id provided: generates for single course
+    - If no course_id: generates for all courses (bulk)
+    """
+    from job_runner import get_job_runner
+    runner = get_job_runner(db)
+    runner.config.questions_per_course = questions_per_course
+    
+    try:
+        job = await runner.start_mcq_generation(course_id)
+        return {
+            "message": f"MCQ generation started" + (f" for course {course_id}" if course_id else " for all courses"),
+            "job": job
+        }
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+@api_router.get("/admin/mcq/progress")
+async def get_mcq_generation_progress():
+    """Get detailed progress of MCQ generation jobs"""
+    from job_runner import get_job_runner, JobType, JobStatus
+    runner = get_job_runner(db)
+    
+    # Get all MCQ-related jobs
+    bulk_jobs = await runner.get_jobs_by_type(JobType.BULK_MCQ)
+    single_jobs = await runner.get_jobs_by_type(JobType.MCQ_GENERATION)
+    
+    # Get current running job
+    running = [j for j in bulk_jobs + single_jobs if j["status"] == JobStatus.RUNNING]
+    
+    # Get overall MCQ stats
+    total_courses = await db.courses.count_documents({})
+    mcq_by_course = await db.mcq_questions.aggregate([
+        {"$group": {"_id": "$course_id", "count": {"$sum": 1}}}
+    ]).to_list(100)
+    courses_with_mcq = len([c for c in mcq_by_course if c["count"] >= 200])
+    total_mcq = sum(c["count"] for c in mcq_by_course)
+    
+    return {
+        "overall": {
+            "total_questions": total_mcq,
+            "courses_complete": courses_with_mcq,
+            "total_courses": total_courses,
+            "target_questions": total_courses * 200,
+            "percentage": (courses_with_mcq / total_courses * 100) if total_courses > 0 else 0
+        },
+        "current_job": running[0] if running else None,
+        "recent_jobs": sorted(bulk_jobs + single_jobs, key=lambda x: x.get("updated_at", ""), reverse=True)[:10]
+    }
+
 @api_router.get("/generation-progress")
 async def get_generation_progress():
     """Get overall generation progress"""
