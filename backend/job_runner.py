@@ -567,7 +567,6 @@ class JobRunner:
     
     async def _generate_mcq_for_course(self, job_id: str, course_id: str, course_name: str):
         """Generate MCQ questions for a single course within bulk job"""
-        from emergentintegrations.llm.chat import LlmChat, UserMessage
         import json as json_module
         
         batch_size = self.config.batch_size
@@ -576,8 +575,11 @@ class JobRunner:
         
         all_questions = []
         
-        async def generate_batch_with_timeout(batch_num: int, timeout_seconds: int = 120):
-            """Generate a single batch with timeout to prevent blocking"""
+        def generate_batch_sync(batch_num: int) -> str:
+            """Synchronous batch generation - runs in thread to avoid blocking event loop"""
+            from emergentintegrations.llm.chat import LlmChat, UserMessage
+            import asyncio as async_lib
+            
             chat = LlmChat(
                 api_key=self.api_key,
                 session_id=f"mcq_{course_id}_{batch_num}",
@@ -603,16 +605,14 @@ Format as JSON array ONLY, no other text:
 Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
 Cover different aspects of {course_name}."""
 
-            # Run with timeout
+            # Run async send_message in new event loop
+            loop = async_lib.new_event_loop()
             try:
-                response = await asyncio.wait_for(
-                    chat.send_message(UserMessage(text=prompt)),
-                    timeout=timeout_seconds
-                )
+                async_lib.set_event_loop(loop)
+                response = loop.run_until_complete(chat.send_message(UserMessage(text=prompt)))
                 return response
-            except asyncio.TimeoutError:
-                logger.warning(f"[{course_id}] Batch {batch_num + 1} timed out after {timeout_seconds}s")
-                return None
+            finally:
+                loop.close()
         
         for batch_num in range(total_batches):
             if self._shutdown:
@@ -624,9 +624,12 @@ Cover different aspects of {course_name}."""
             # Rate limiting
             await self.rate_limiter.wait()
             
-            # Generate batch with timeout
+            # Generate batch in thread pool with timeout to prevent blocking
             try:
-                response = await generate_batch_with_timeout(batch_num)
+                response = await asyncio.wait_for(
+                    asyncio.to_thread(generate_batch_sync, batch_num),
+                    timeout=180  # 3 minute timeout per batch
+                )
                 
                 if response:
                     # Parse JSON from response
@@ -647,6 +650,9 @@ Cover different aspects of {course_name}."""
                         logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
                     else:
                         logger.warning(f"[{course_id}] Batch {batch_num + 1} - failed to parse JSON")
+                        
+            except asyncio.TimeoutError:
+                logger.warning(f"[{course_id}] Batch {batch_num + 1} timed out")
                     
             except Exception as e:
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
