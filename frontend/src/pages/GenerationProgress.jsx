@@ -360,14 +360,29 @@ export default function GenerationProgress() {
           {/* Scripts Progress */}
           <Card data-testid="scripts-progress-card">
             <CardHeader>
-              <div className="flex items-center gap-3">
-                <div className="p-2 rounded-lg bg-purple-500/10">
-                  <FileText className="h-6 w-6 text-purple-500" />
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-purple-500/10">
+                    <FileText className="h-6 w-6 text-purple-500" />
+                  </div>
+                  <div>
+                    <CardTitle>Module Scripts</CardTitle>
+                    <CardDescription>Avatar video scripts (~12 min each)</CardDescription>
+                  </div>
                 </div>
-                <div>
-                  <CardTitle>Module Scripts</CardTitle>
-                  <CardDescription>Avatar video scripts (~12 min each)</CardDescription>
-                </div>
+                <Button 
+                  onClick={startScriptGeneration} 
+                  disabled={generating || (currentJob?.status === "running" && currentJob?.job_type?.includes("script"))}
+                  variant={scriptProgress >= 100 ? "outline" : "default"}
+                  data-testid="start-scripts-button"
+                >
+                  {generating ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Play className="h-4 w-4 mr-2" />
+                  )}
+                  {scriptProgress >= 100 ? "Regenerate" : "Start Generation"}
+                </Button>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
