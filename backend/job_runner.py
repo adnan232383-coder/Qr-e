@@ -734,6 +734,33 @@ Cover different aspects of {course_name}."""
         if self._executor:
             self._executor.shutdown(wait=False)
             self._executor = None
+    
+    async def resume_running_jobs(self):
+        """Resume any jobs that were running when server restarted"""
+        running_jobs = await self.db.jobs.find(
+            {"status": {"$in": [JobStatus.RUNNING, JobStatus.QUEUED]}},
+            {"_id": 0}
+        ).to_list(100)
+        
+        for job in running_jobs:
+            job_id = job["job_id"]
+            logger.info(f"Resuming job {job_id} (was {job['status']})")
+            
+            # Reset status to queued for clean restart
+            await self.db.jobs.update_one(
+                {"job_id": job_id},
+                {"$set": {"status": JobStatus.QUEUED}}
+            )
+            
+            # Release any locks
+            if job.get("resource_id"):
+                await self.lock_manager.release(job["resource_id"], job_id)
+            
+            # Restart the job
+            asyncio.create_task(self._process_job(job_id))
+        
+        if running_jobs:
+            logger.info(f"Resumed {len(running_jobs)} jobs")
 
 
 # Singleton instance
@@ -746,3 +773,10 @@ def get_job_runner(db: AsyncIOMotorDatabase) -> JobRunner:
     if _job_runner is None:
         _job_runner = JobRunner(db)
     return _job_runner
+
+
+async def init_job_runner(db: AsyncIOMotorDatabase):
+    """Initialize job runner and resume any interrupted jobs"""
+    runner = get_job_runner(db)
+    await runner.resume_running_jobs()
+    return runner
