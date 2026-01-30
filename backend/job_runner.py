@@ -528,7 +528,9 @@ class JobRunner:
         
         course_map = {c["external_id"]: c["course_name"] for c in courses}
         
+        # Initialize progress with total
         progress = JobProgress(total=len(course_ids))
+        await self.update_job_progress(job_id, progress)
         
         for i, course_id in enumerate(course_ids):
             if self._shutdown:
