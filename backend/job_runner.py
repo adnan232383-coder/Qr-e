@@ -656,36 +656,7 @@ Cover different aspects of {course_name}."""
                     
             except Exception as e:
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
-                # Retry with backoff
-                for retry in range(self.config.max_retries):
-                    delay = min(
-                        self.config.retry_base_delay * (2 ** retry),
-                        self.config.retry_max_delay
-                    )
-                    await asyncio.sleep(delay)
-                    
-                    try:
-                        chat = LlmChat(
-                            api_key=self.api_key,
-                            session_id=f"mcq_{course_id}_{batch_num}_retry{retry}",
-                            system_message="You are a medical education expert. Return valid JSON array only."
-                        ).with_model("openai", "gpt-5.2")
-                        
-                        response = await chat.send_message(UserMessage(text=prompt))
-                        json_start = response.find('[')
-                        json_end = response.rfind(']') + 1
-                        
-                        if json_start >= 0 and json_end > json_start:
-                            questions = json_module.loads(response[json_start:json_end])
-                            for i, q in enumerate(questions):
-                                q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
-                                q["course_id"] = course_id
-                                q["topic"] = course_name
-                                q["created_at"] = datetime.now(timezone.utc).isoformat()
-                                all_questions.append(q)
-                            break
-                    except Exception:
-                        continue
+                # Skip retries for now - let it proceed to next batch
             
             # Yield control to allow other async tasks (including API responses)
             await asyncio.sleep(0.1)
