@@ -736,6 +736,13 @@ Cover different aspects of {course_name}."""
         if all_questions:
             await self.db.mcq_questions.delete_many({"course_id": course_id})
             await self.db.mcq_questions.insert_many(all_questions)
+            await self.decision_logger.log(
+                component="content_generator",
+                chosen_option="save_questions",
+                reason=f"Completed generation, saving {len(all_questions)} questions for course",
+                context={"course_id": course_id, "questions_saved": len(all_questions), "batches_completed": total_batches},
+                job_id=job_id
+            )
             logger.info(f"Saved {len(all_questions)} questions for {course_id}")
     
     async def _handle_job_failure(self, job: Dict, error: str):
