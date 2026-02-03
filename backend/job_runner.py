@@ -620,14 +620,19 @@ class JobRunner:
         logger.info(f"Bulk MCQ generation completed: {progress.completed}/{progress.total}")
     
     async def _generate_mcq_for_course(self, job_id: str, course_id: str, course_name: str):
-        """Generate MCQ questions for a single course within bulk job"""
+        """Generate MCQ questions for a single course within bulk job - saves after each batch"""
         import json as json_module
         
         batch_size = self.config.batch_size
         total_needed = self.config.questions_per_course
         total_batches = (total_needed + batch_size - 1) // batch_size
         
-        all_questions = []
+        # Check how many questions already exist for this course
+        existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+        start_batch = existing_count // batch_size  # Resume from where we left off
+        
+        if start_batch > 0:
+            logger.info(f"[{course_id}] Resuming from batch {start_batch + 1}/{total_batches} ({existing_count} questions exist)")
         
         def generate_batch_sync(batch_num: int) -> str:
             """Synchronous batch generation - runs in thread to avoid blocking event loop"""
@@ -668,7 +673,7 @@ Cover different aspects of {course_name}."""
             finally:
                 loop.close()
         
-        for batch_num in range(total_batches):
+        for batch_num in range(start_batch, total_batches):
             if self._shutdown:
                 raise asyncio.CancelledError()
             
@@ -699,9 +704,11 @@ Cover different aspects of {course_name}."""
                             q["course_id"] = course_id
                             q["topic"] = course_name
                             q["created_at"] = datetime.now(timezone.utc).isoformat()
-                            all_questions.append(q)
                         
-                        logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: {len(questions)} questions")
+                        # SAVE IMMEDIATELY after each batch
+                        if questions:
+                            await self.db.mcq_questions.insert_many(questions)
+                            logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: SAVED {len(questions)} questions")
                     else:
                         await self.decision_logger.log(
                             component="content_generator",
@@ -716,8 +723,8 @@ Cover different aspects of {course_name}."""
                 await self.decision_logger.log(
                     component="content_generator",
                     chosen_option="timeout_batch",
-                    reason=f"Batch timed out after 180s, proceeding to next batch",
-                    context={"course_id": course_id, "batch_num": batch_num, "timeout_seconds": 180},
+                    reason=f"Batch timed out after 300s, proceeding to next batch",
+                    context={"course_id": course_id, "batch_num": batch_num, "timeout_seconds": 300},
                     job_id=job_id
                 )
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} timed out")
@@ -731,23 +738,20 @@ Cover different aspects of {course_name}."""
                     job_id=job_id
                 )
                 logger.warning(f"[{course_id}] Batch {batch_num + 1} failed: {e}")
-                # Skip retries for now - let it proceed to next batch
             
             # Yield control to allow other async tasks (including API responses)
             await asyncio.sleep(0.1)
         
-        # Save questions
-        if all_questions:
-            await self.db.mcq_questions.delete_many({"course_id": course_id})
-            await self.db.mcq_questions.insert_many(all_questions)
-            await self.decision_logger.log(
-                component="content_generator",
-                chosen_option="save_questions",
-                reason=f"Completed generation, saving {len(all_questions)} questions for course",
-                context={"course_id": course_id, "questions_saved": len(all_questions), "batches_completed": total_batches},
-                job_id=job_id
-            )
-            logger.info(f"Saved {len(all_questions)} questions for {course_id}")
+        # Log completion
+        final_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+        await self.decision_logger.log(
+            component="content_generator",
+            chosen_option="course_mcq_complete",
+            reason=f"Course MCQ generation complete",
+            context={"course_id": course_id, "total_questions": final_count},
+            job_id=job_id
+        )
+        logger.info(f"[{course_id}] Complete: {final_count} questions total")
     
     async def _handle_job_failure(self, job: Dict, error: str):
         """Handle job failure with retry logic"""
