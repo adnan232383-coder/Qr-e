@@ -620,19 +620,49 @@ class JobRunner:
         logger.info(f"Bulk MCQ generation completed: {progress.completed}/{progress.total}")
     
     async def _generate_mcq_for_course(self, job_id: str, course_id: str, course_name: str):
-        """Generate MCQ questions for a single course within bulk job - saves after each batch"""
+        """Generate MCQ questions for a single course - saves after EACH batch with idempotent upserts"""
         import json as json_module
+        import hashlib
         
         batch_size = self.config.batch_size
         total_needed = self.config.questions_per_course
         total_batches = (total_needed + batch_size - 1) // batch_size
         
-        # Check how many questions already exist for this course
-        existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
-        start_batch = existing_count // batch_size  # Resume from where we left off
+        # Check which batches are already complete by counting questions per batch
+        existing_batches = set()
+        for b in range(total_batches):
+            batch_count = await self.db.mcq_questions.count_documents({
+                "course_id": course_id,
+                "batch_index": b
+            })
+            if batch_count >= batch_size - 5:  # Allow some tolerance
+                existing_batches.add(b)
+        
+        start_batch = 0
+        for b in range(total_batches):
+            if b not in existing_batches:
+                start_batch = b
+                break
+        else:
+            # All batches complete
+            logger.info(f"[{course_id}] All {total_batches} batches already complete")
+            return
         
         if start_batch > 0:
-            logger.info(f"[{course_id}] Resuming from batch {start_batch + 1}/{total_batches} ({existing_count} questions exist)")
+            logger.info(f"[{course_id}] Resuming from batch {start_batch + 1}/{total_batches} (batches {list(existing_batches)} exist)")
+        
+        # Update progress tracker
+        await self.db.bulk_tasks.update_one(
+            {"job_id": job_id},
+            {"$set": {
+                "current_course_id": course_id,
+                "current_course_name": course_name,
+                "current_batch_index": start_batch,
+                "total_batches": total_batches,
+                "last_saved_at": datetime.now(timezone.utc).isoformat()
+            }},
+            upsert=True
+        )
         
         def generate_batch_sync(batch_num: int) -> str:
             """Synchronous batch generation - runs in thread to avoid blocking event loop"""
@@ -664,7 +694,6 @@ Format as JSON array ONLY, no other text:
 Create clinically relevant questions. Vary difficulty: 30% easy, 50% medium, 20% hard.
 Cover different aspects of {course_name}."""
 
-            # Run async send_message in new event loop
             loop = async_lib.new_event_loop()
             try:
                 async_lib.set_event_loop(loop)
@@ -677,7 +706,22 @@ Cover different aspects of {course_name}."""
             if self._shutdown:
                 raise asyncio.CancelledError()
             
+            # Skip if batch already exists
+            if batch_num in existing_batches:
+                logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches} already exists, skipping")
+                continue
+            
+            # Update progress tracker
+            await self.db.bulk_tasks.update_one(
+                {"job_id": job_id},
+                {"$set": {
+                    "current_batch_index": batch_num,
+                    "last_saved_at": datetime.now(timezone.utc).isoformat()
+                }}
+            )
+            
             # Yield control frequently to keep server responsive
+            await asyncio.sleep(0)
             await asyncio.sleep(0)
             
             # Rate limiting
