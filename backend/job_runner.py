@@ -742,17 +742,38 @@ Cover different aspects of {course_name}."""
                     if json_start >= 0 and json_end > json_start:
                         questions = json_module.loads(response[json_start:json_end])
                         
-                        # Add metadata to each question
+                        # Add metadata with unique key for idempotent upserts
                         for i, q in enumerate(questions):
-                            q["question_id"] = f"q_{course_id}_{batch_num:02d}_{i:03d}"
+                            unique_id = f"q_{course_id}_b{batch_num:02d}_i{i:03d}"
+                            q["question_id"] = unique_id
                             q["course_id"] = course_id
+                            q["batch_index"] = batch_num
+                            q["question_index"] = i
                             q["topic"] = course_name
                             q["created_at"] = datetime.now(timezone.utc).isoformat()
                         
-                        # SAVE IMMEDIATELY after each batch
-                        if questions:
-                            await self.db.mcq_questions.insert_many(questions)
-                            logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: SAVED {len(questions)} questions")
+                        # UPSERT each question to avoid duplicates on retry
+                        saved_count = 0
+                        for q in questions:
+                            await self.db.mcq_questions.update_one(
+                                {"question_id": q["question_id"]},
+                                {"$set": q},
+                                upsert=True
+                            )
+                            saved_count += 1
+                        
+                        # Update progress in bulk_tasks
+                        total_questions = await self.db.mcq_questions.count_documents({"course_id": course_id})
+                        await self.db.bulk_tasks.update_one(
+                            {"job_id": job_id},
+                            {"$set": {
+                                "current_batch_index": batch_num,
+                                "completed_questions_count": total_questions,
+                                "last_saved_at": datetime.now(timezone.utc).isoformat()
+                            }}
+                        )
+                        
+                        logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: SAVED {saved_count} questions (total: {total_questions})")
                     else:
                         await self.decision_logger.log(
                             component="content_generator",
