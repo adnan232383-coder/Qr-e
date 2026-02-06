@@ -743,6 +743,8 @@ Cover different aspects of {course_name}."""
                         questions = json_module.loads(response[json_start:json_end])
                         
                         # Add metadata with unique key for idempotent upserts
+                        # AND shuffle options to ensure uniform distribution
+                        import random as rnd
                         for i, q in enumerate(questions):
                             unique_id = f"q_{course_id}_b{batch_num:02d}_i{i:03d}"
                             q["question_id"] = unique_id
@@ -751,6 +753,17 @@ Cover different aspects of {course_name}."""
                             q["question_index"] = i
                             q["topic"] = course_name
                             q["created_at"] = datetime.now(timezone.utc).isoformat()
+                            
+                            # Shuffle options to avoid answer clustering
+                            opts = [q.get("option_a"), q.get("option_b"), q.get("option_c"), q.get("option_d")]
+                            correct_letter = q.get("correct_answer", "A").upper()
+                            if correct_letter in ['A','B','C','D'] and all(opts):
+                                correct_idx = {'A':0,'B':1,'C':2,'D':3}[correct_letter]
+                                correct_text = opts[correct_idx]
+                                rnd.shuffle(opts)
+                                new_idx = opts.index(correct_text)
+                                q["option_a"], q["option_b"], q["option_c"], q["option_d"] = opts
+                                q["correct_answer"] = ['A','B','C','D'][new_idx]
                         
                         # UPSERT each question to avoid duplicates on retry
                         saved_count = 0
