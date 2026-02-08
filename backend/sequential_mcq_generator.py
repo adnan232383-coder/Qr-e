@@ -190,21 +190,23 @@ class SequentialMCQGenerator:
         return is_valid
     
     async def _generate_batch(self, job_id: str, course_id: str, course_name: str, batch_num: int, total_batches: int):
-        """Generate a single batch of MCQ questions"""
-        from emergentintegrations.llm.chat import LlmChat, UserMessage
+        """Generate a single batch of MCQ questions - runs LLM call in separate thread"""
         
-        for retry in range(MAX_RETRIES_PER_BATCH):
-            try:
-                chat = LlmChat(
-                    api_key=self.api_key,
-                    session_id=f"mcq_{course_id}_{batch_num}_{retry}",
-                    system_message="""You are a medical education expert creating high-quality MCQ questions.
+        def generate_sync():
+            """Synchronous LLM call to run in thread"""
+            from emergentintegrations.llm.chat import LlmChat, UserMessage
+            import asyncio as aio
+            
+            chat = LlmChat(
+                api_key=self.api_key,
+                session_id=f"mcq_{course_id}_{batch_num}",
+                system_message="""You are a medical education expert creating high-quality MCQ questions.
 Create questions suitable for medical/dental/pharmacy board exam preparation.
 IMPORTANT: Distribute correct answers EVENLY across A, B, C, D (about 6-7 of each per batch).
 Always return valid JSON array only, no other text."""
-                ).with_model("openai", "gpt-5.2")
-                
-                prompt = f"""Generate {BATCH_SIZE} multiple-choice questions for:
+            ).with_model("openai", "gpt-5.2")
+            
+            prompt = f"""Generate {BATCH_SIZE} multiple-choice questions for:
 Course: {course_name}
 Batch: {batch_num + 1}/{total_batches}
 
@@ -227,9 +229,20 @@ Format as JSON array ONLY:
 Vary difficulty: 30% easy, 50% medium, 20% hard.
 Make questions clinically relevant for {course_name}."""
 
+            # Run async in new event loop
+            loop = aio.new_event_loop()
+            try:
+                aio.set_event_loop(loop)
+                return loop.run_until_complete(chat.send_message(UserMessage(text=prompt)))
+            finally:
+                loop.close()
+        
+        for retry in range(MAX_RETRIES_PER_BATCH):
+            try:
+                # Run in thread to not block event loop
                 response = await asyncio.wait_for(
-                    chat.send_message(UserMessage(text=prompt)),
-                    timeout=180
+                    asyncio.to_thread(generate_sync),
+                    timeout=300  # 5 min timeout
                 )
                 
                 # Parse JSON
