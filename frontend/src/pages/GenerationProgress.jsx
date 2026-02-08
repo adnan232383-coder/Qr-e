@@ -342,6 +342,81 @@ export default function GenerationProgress() {
             </Card>
           )}
 
+          {/* Sequential MCQ Progress - NEW */}
+          {sequentialStatus?.job && (
+            <Card className="border-emerald-500/30 bg-emerald-500/5" data-testid="sequential-mcq-card">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="p-2 rounded-lg bg-emerald-500/20">
+                      <Activity className="h-6 w-6 text-emerald-500 animate-pulse" />
+                    </div>
+                    <div>
+                      <CardTitle className="flex items-center gap-2">
+                        Sequential MCQ Generation
+                        <JobStatusBadge status={sequentialStatus.job.status} />
+                      </CardTitle>
+                      <CardDescription>
+                        Course-by-course with quality verification
+                      </CardDescription>
+                    </div>
+                  </div>
+                  {sequentialStatus.job.status === 'running' && (
+                    <Button variant="destructive" size="sm" onClick={cancelSequentialJob}>
+                      <Square className="h-3 w-3 mr-1" />
+                      Cancel
+                    </Button>
+                  )}
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {/* Current Course */}
+                {sequentialStatus.job.current_course && (
+                  <div className="p-3 rounded-lg bg-background/50 border">
+                    <div className="text-sm text-muted-foreground mb-1">Currently Processing:</div>
+                    <div className="font-medium">{sequentialStatus.job.current_course}</div>
+                  </div>
+                )}
+                
+                {/* Progress */}
+                <div className="flex items-center justify-between text-sm">
+                  <span>
+                    {sequentialStatus.job.completed_courses || 0} / {sequentialStatus.job.total_courses || 92} courses verified
+                  </span>
+                  <span className="font-medium">
+                    {((sequentialStatus.job.completed_courses || 0) / (sequentialStatus.job.total_courses || 92) * 100).toFixed(1)}%
+                  </span>
+                </div>
+                <Progress 
+                  value={(sequentialStatus.job.completed_courses || 0) / (sequentialStatus.job.total_courses || 92) * 100} 
+                  className="h-2" 
+                />
+                
+                {/* Verification Stats */}
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                  <div className="p-3 rounded-lg bg-green-500/10 border border-green-500/30">
+                    <div className="font-medium text-green-600">
+                      {sequentialStatus.verified_courses_detail?.length || 0} Verified
+                    </div>
+                    <div className="text-xs text-muted-foreground">Balanced distribution</div>
+                  </div>
+                  <div className="p-3 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
+                    <div className="font-medium text-yellow-600">
+                      {sequentialStatus.unverified_courses_detail?.length || 0} Unbalanced
+                    </div>
+                    <div className="text-xs text-muted-foreground">Needs redistribution</div>
+                  </div>
+                </div>
+                
+                {/* Total Questions */}
+                <div className="flex items-center justify-between text-sm pt-2 border-t">
+                  <span>Total MCQ Questions:</span>
+                  <span className="font-bold text-lg">{sequentialStatus.total_mcq?.toLocaleString() || 0}</span>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
           {/* MCQ Progress */}
           <Card data-testid="mcq-progress-card">
             <CardHeader>
