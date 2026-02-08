@@ -871,8 +871,14 @@ async def get_sequential_mcq_status():
 async def cancel_sequential_mcq():
     """Cancel sequential MCQ generation"""
     from sequential_mcq_generator import get_sequential_generator
+    from email_notifier import get_email_scheduler
+    
     generator = get_sequential_generator(db)
     generator.cancel()
+    
+    # Stop email notifications
+    scheduler = get_email_scheduler(db)
+    await scheduler.stop()
     
     # Also update job status
     await db.jobs.update_many(
@@ -881,6 +887,32 @@ async def cancel_sequential_mcq():
     )
     
     return {"message": "Sequential MCQ generation cancelled"}
+
+@api_router.post("/admin/email/send-now")
+async def send_progress_email_now():
+    """Send a progress email immediately"""
+    from email_notifier import send_progress_email
+    success = await send_progress_email(db)
+    if success:
+        return {"message": "Email sent successfully"}
+    else:
+        raise HTTPException(status_code=500, detail="Failed to send email - check RESEND_API_KEY")
+
+@api_router.post("/admin/email/start-notifications")
+async def start_email_notifications():
+    """Start email notifications every 2 hours"""
+    from email_notifier import get_email_scheduler
+    scheduler = get_email_scheduler(db)
+    await scheduler.start()
+    return {"message": "Email notifications started - sending every 2 hours to adnan232383@gmail.com"}
+
+@api_router.post("/admin/email/stop-notifications")
+async def stop_email_notifications():
+    """Stop email notifications"""
+    from email_notifier import get_email_scheduler
+    scheduler = get_email_scheduler(db)
+    await scheduler.stop()
+    return {"message": "Email notifications stopped"}
 
 @api_router.post("/admin/verify-course/{course_id}")
 async def verify_single_course(course_id: str):
