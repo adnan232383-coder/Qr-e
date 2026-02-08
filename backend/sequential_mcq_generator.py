@@ -204,7 +204,7 @@ class SequentialMCQGenerator:
 Create questions suitable for medical/dental/pharmacy board exam preparation.
 IMPORTANT: Distribute correct answers EVENLY across A, B, C, D (about 6-7 of each per batch).
 Always return valid JSON array only, no other text."""
-            ).with_model("openai", "gpt-5.2")
+            ).with_model("google", "gemini-2.0-flash")
             
             prompt = f"""Generate {BATCH_SIZE} multiple-choice questions for:
 Course: {course_name}
