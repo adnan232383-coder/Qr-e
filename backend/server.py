@@ -932,6 +932,82 @@ async def verify_single_course(course_id: str):
         "message": "Course verified and balanced" if is_valid else "Course needs more questions or redistribution"
     }
 
+# ==================== FULL COURSE PIPELINE ====================
+
+@api_router.post("/admin/full-course/{course_id}")
+async def run_full_course_pipeline(course_id: str):
+    """
+    Run complete pipeline for a single course:
+    1. Generate 200 MCQ questions
+    2. Verify quality
+    3. Generate avatar scripts
+    4. Generate avatar videos with Sora 2
+    """
+    from full_course_pipeline import get_pipeline
+    pipeline = get_pipeline(db)
+    
+    # Run in background
+    async def run_pipeline():
+        result = await pipeline.process_single_course(course_id)
+        await db.pipeline_results.update_one(
+            {"course_id": course_id},
+            {"$set": result},
+            upsert=True
+        )
+    
+    asyncio.create_task(run_pipeline())
+    
+    return {
+        "message": f"Full pipeline started for course {course_id}",
+        "course_id": course_id,
+        "steps": ["MCQ Generation", "Quality Verification", "Script Generation", "Video Generation"]
+    }
+
+@api_router.get("/admin/full-course/{course_id}/status")
+async def get_full_course_status(course_id: str):
+    """Get status of full course pipeline"""
+    course = await db.courses.find_one({"external_id": course_id}, {"_id": 0})
+    if not course:
+        raise HTTPException(status_code=404, detail="Course not found")
+    
+    # Get counts
+    mcq_count = await db.mcq_questions.count_documents({"course_id": course_id})
+    modules = await db.modules.find({"courseId": course_id}, {"_id": 0, "module_id": 1}).to_list(20)
+    script_count = await db.module_scripts.count_documents({"course_id": course_id})
+    video_count = await db.module_videos.count_documents({"course_id": course_id, "status": "completed"})
+    
+    # Get distribution
+    dist = await db.mcq_questions.aggregate([
+        {"$match": {"course_id": course_id}},
+        {"$group": {"_id": "$correct_answer", "count": {"$sum": 1}}}
+    ]).to_list(10)
+    
+    distribution = {}
+    for d in dist:
+        if mcq_count > 0:
+            distribution[d["_id"]] = round((d["count"] / mcq_count) * 100, 1)
+    
+    return {
+        "course_id": course_id,
+        "course_name": course["course_name"],
+        "mcq": {
+            "count": mcq_count,
+            "target": 200,
+            "complete": mcq_count >= 200,
+            "distribution": distribution
+        },
+        "scripts": {
+            "count": script_count,
+            "target": len(modules),
+            "complete": script_count >= len(modules)
+        },
+        "videos": {
+            "count": video_count,
+            "target": len(modules),
+            "complete": video_count >= len(modules)
+        }
+    }
+
 @api_router.get("/generation-progress")
 async def get_generation_progress():
     """Get overall generation progress"""
