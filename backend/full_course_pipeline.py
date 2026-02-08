@@ -181,6 +181,23 @@ Format as JSON array:
             "verified": is_valid
         }
     
+    async def _reshuffle_all(self, course_id: str):
+        """Reshuffle all questions for better distribution"""
+        questions = await self.db.mcq_questions.find({"course_id": course_id}).to_list(300)
+        for q in questions:
+            shuffled = self._shuffle_options(q)
+            await self.db.mcq_questions.update_one(
+                {"_id": q["_id"]},
+                {"$set": {
+                    "option_a": shuffled["option_a"],
+                    "option_b": shuffled["option_b"],
+                    "option_c": shuffled["option_c"],
+                    "option_d": shuffled["option_d"],
+                    "correct_answer": shuffled["correct_answer"]
+                }}
+            )
+        logger.info(f"[{course_id}] Reshuffled {len(questions)} questions")
+    
     def _shuffle_options(self, q: Dict) -> Dict:
         """Shuffle answer options"""
         opts = [q.get("option_a"), q.get("option_b"), q.get("option_c"), q.get("option_d")]
