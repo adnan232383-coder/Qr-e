@@ -102,7 +102,7 @@ class FullCoursePipeline:
                 system_message="""You are a medical education expert creating MCQ questions.
 CRITICAL: Distribute correct answers EVENLY - about 6-7 each for A, B, C, D per batch.
 Return valid JSON array only."""
-            ).with_model("google", "gemini-2.0-flash")
+            ).with_model("openai", "gpt-4o-mini")
             
             prompt = f"""Generate {BATCH_SIZE} MCQ questions for: {course_name}
 Batch {batch_num + 1}/{total_batches}
