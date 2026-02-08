@@ -65,10 +65,11 @@ export default function GenerationProgress() {
 
   const fetchProgress = useCallback(async () => {
     try {
-      const [progressRes, mcqRes, jobsRes] = await Promise.all([
+      const [progressRes, mcqRes, jobsRes, seqRes] = await Promise.all([
         fetch(`${API}/generation-progress`),
         fetch(`${API}/admin/mcq/progress`),
-        fetch(`${API}/admin/jobs`)
+        fetch(`${API}/admin/jobs`),
+        fetch(`${API}/admin/sequential-mcq/status`)
       ]);
       
       if (progressRes.ok) {
@@ -84,6 +85,10 @@ export default function GenerationProgress() {
         const jobsData = await jobsRes.json();
         const running = jobsData.recent_jobs?.filter(j => j.status === 'running') || [];
         setActiveJobs(running);
+      }
+      
+      if (seqRes.ok) {
+        setSequentialStatus(await seqRes.json());
       }
     } catch (e) {
       console.error("Error fetching progress:", e);
