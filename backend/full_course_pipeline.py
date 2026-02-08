@@ -306,7 +306,7 @@ Include:
     
     async def _generate_videos(self, course_id: str) -> Dict:
         """Generate avatar videos with Sora 2"""
-        from emergentintegrations.llm.video import generate_video
+        from emergentintegrations.llm.openai.video_generation import OpenAIVideoGeneration
         
         scripts = await self.db.module_scripts.find(
             {"course_id": course_id},
@@ -323,33 +323,54 @@ Include:
                 generated += 1
                 continue
             
-            # Get first 500 chars of script for video prompt
-            script_text = script.get("script_text", "")[:500]
+            # Get first 300 chars of script for video prompt
+            script_text = script.get("script_text", "")[:300]
             
             try:
-                logger.info(f"[{module_id}] Generating video...")
+                logger.info(f"[{module_id}] Generating video with Sora 2...")
                 
-                # Generate video with Sora 2
-                video_url = await generate_video(
-                    api_key=self.api_key,
-                    prompt=f"Educational medical lecture video. Professional presenter explaining: {script_text}",
-                    duration=10  # 10 seconds for demo
+                # Generate video in thread
+                def gen_video_sync():
+                    video_gen = OpenAIVideoGeneration(api_key=self.api_key)
+                    prompt = f"Educational medical lecture. Professional doctor in white coat explaining: {script_text}"
+                    
+                    video_bytes = video_gen.text_to_video(
+                        prompt=prompt,
+                        model="sora-2",
+                        size="1280x720",
+                        duration=4,  # 4 seconds for demo
+                        max_wait_time=600
+                    )
+                    
+                    if video_bytes:
+                        output_path = f"/app/backend/videos/{module_id}.mp4"
+                        os.makedirs("/app/backend/videos", exist_ok=True)
+                        video_gen.save_video(video_bytes, output_path)
+                        return output_path
+                    return None
+                
+                video_path = await asyncio.wait_for(
+                    asyncio.to_thread(gen_video_sync),
+                    timeout=700
                 )
                 
-                await self.db.module_videos.update_one(
-                    {"module_id": module_id},
-                    {"$set": {
-                        "video_id": f"video_{uuid.uuid4().hex[:8]}",
-                        "module_id": module_id,
-                        "course_id": course_id,
-                        "video_url": video_url,
-                        "status": "completed",
-                        "created_at": datetime.now(timezone.utc).isoformat()
-                    }},
-                    upsert=True
-                )
-                generated += 1
-                logger.info(f"[{module_id}] Video generated: {video_url}")
+                if video_path:
+                    await self.db.module_videos.update_one(
+                        {"module_id": module_id},
+                        {"$set": {
+                            "video_id": f"video_{uuid.uuid4().hex[:8]}",
+                            "module_id": module_id,
+                            "course_id": course_id,
+                            "video_path": video_path,
+                            "status": "completed",
+                            "created_at": datetime.now(timezone.utc).isoformat()
+                        }},
+                        upsert=True
+                    )
+                    generated += 1
+                    logger.info(f"[{module_id}] Video saved: {video_path}")
+                else:
+                    raise Exception("Video generation returned None")
                 
             except Exception as e:
                 logger.warning(f"[{module_id}] Video error: {e}")
