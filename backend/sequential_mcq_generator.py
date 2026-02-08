@@ -282,18 +282,15 @@ Make questions clinically relevant for {course_name}."""
                         # Shuffle options for random distribution
                         q = self._shuffle_options(q)
                         
-                        q["question_id"] = f"q_{course_id}_b{batch_num:02d}_i{i:03d}"
+                        # Use UUID for unique question_id
+                        q["question_id"] = f"q_{course_id}_{uuid.uuid4().hex[:8]}"
                         q["course_id"] = course_id
                         q["batch_index"] = batch_num
                         q["topic"] = course_name
                         q["created_at"] = datetime.now(timezone.utc).isoformat()
                         
-                        # Upsert to avoid duplicates
-                        await self.db.mcq_questions.update_one(
-                            {"question_id": q["question_id"]},
-                            {"$set": q},
-                            upsert=True
-                        )
+                        # Insert (not upsert) to ensure uniqueness
+                        await self.db.mcq_questions.insert_one(q)
                         saved += 1
                     
                     log_msg = f"[{course_id}] Batch {batch_num + 1}/{total_batches}: Saved {saved} questions"
