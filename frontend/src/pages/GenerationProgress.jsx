@@ -109,15 +109,15 @@ export default function GenerationProgress() {
   const startMCQGeneration = async () => {
     setGenerating(true);
     try {
-      const res = await fetch(`${API}/admin/mcq/start?questions_per_course=200`, {
+      // Use the new sequential generator
+      const res = await fetch(`${API}/admin/sequential-mcq/start`, {
         method: "POST"
       });
       if (res.ok) {
         const data = await res.json();
-        toast.success("MCQ generation started!", {
-          description: `Job ID: ${data.job?.job_id?.substring(0, 12)}...`
+        toast.success("Sequential MCQ generation started!", {
+          description: `Processing ${data.total_courses} courses one by one with verification`
         });
-        setCurrentJob(data.job);
         fetchProgress();
       } else {
         const error = await res.json();
@@ -131,6 +131,22 @@ export default function GenerationProgress() {
       });
     } finally {
       setGenerating(false);
+    }
+  };
+
+  const cancelSequentialJob = async () => {
+    try {
+      const res = await fetch(`${API}/admin/sequential-mcq/cancel`, {
+        method: "POST"
+      });
+      if (res.ok) {
+        toast.success("Sequential MCQ generation cancelled");
+        fetchProgress();
+      } else {
+        toast.error("Failed to cancel");
+      }
+    } catch (e) {
+      toast.error("Error cancelling");
     }
   };
 
