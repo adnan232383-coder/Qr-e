@@ -791,6 +791,38 @@ async def get_script_generation_progress():
 
 # ==================== SEQUENTIAL MCQ GENERATOR (NEW) ====================
 
+@api_router.post("/admin/simple-mcq/start")
+async def start_simple_mcq():
+    """Start simple MCQ generation - ensures 200 per course before moving on"""
+    from simple_mcq_generator import get_simple_generator
+    generator = get_simple_generator(db)
+    
+    # Run in background
+    asyncio.create_task(generator.generate_all_courses())
+    
+    return {"status": "started", "message": "Simple MCQ generator started"}
+
+@api_router.get("/admin/simple-mcq/status")
+async def get_simple_mcq_status():
+    """Get simple MCQ status"""
+    job = await db.jobs.find_one({"job_type": "simple_mcq"}, sort=[("started_at", -1)])
+    
+    # Count courses with 200+
+    pipeline = [
+        {"$group": {"_id": "$course_id", "count": {"$sum": 1}}},
+        {"$match": {"count": {"$gte": 200}}}
+    ]
+    completed = await db.mcq_questions.aggregate(pipeline).to_list(100)
+    
+    total_mcq = await db.mcq_questions.count_documents({})
+    
+    return {
+        "job": job,
+        "courses_with_200": len(completed),
+        "total_mcq": total_mcq,
+        "completed_courses": [c["_id"] for c in completed]
+    }
+
 @api_router.post("/admin/sequential-mcq/start")
 async def start_sequential_mcq(send_emails: bool = True):
     """
