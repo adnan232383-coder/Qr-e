@@ -789,6 +789,108 @@ async def get_script_generation_progress():
         "recent_jobs": sorted(bulk_jobs + single_jobs, key=lambda x: x.get("updated_at", ""), reverse=True)[:10]
     }
 
+# ==================== SEQUENTIAL MCQ GENERATOR (NEW) ====================
+
+@api_router.post("/admin/sequential-mcq/start")
+async def start_sequential_mcq():
+    """
+    Start sequential MCQ generation - processes ONE course at a time:
+    1. Generate all 200 questions for a course
+    2. Verify quality (answer distribution balanced)
+    3. Only after verification passes, move to next course
+    """
+    from sequential_mcq_generator import get_sequential_generator
+    generator = get_sequential_generator(db)
+    result = await generator.start_sequential_generation()
+    return result
+
+@api_router.get("/admin/sequential-mcq/status")
+async def get_sequential_mcq_status():
+    """Get status of sequential MCQ generation"""
+    from sequential_mcq_generator import get_sequential_generator
+    generator = get_sequential_generator(db)
+    status = await generator.get_status()
+    
+    # Add distribution stats per course
+    pipeline = [
+        {"$group": {
+            "_id": {"course": "$course_id", "answer": "$correct_answer"},
+            "count": {"$sum": 1}
+        }}
+    ]
+    dist_raw = await db.mcq_questions.aggregate(pipeline).to_list(500)
+    
+    # Organize by course
+    course_stats = {}
+    for item in dist_raw:
+        course = item["_id"]["course"]
+        answer = item["_id"]["answer"]
+        if course not in course_stats:
+            course_stats[course] = {"total": 0, "A": 0, "B": 0, "C": 0, "D": 0}
+        course_stats[course][answer] = item["count"]
+        course_stats[course]["total"] += item["count"]
+    
+    # Calculate percentages and verify status
+    verified_courses = []
+    unverified_courses = []
+    
+    for course_id, stats in course_stats.items():
+        total = stats["total"]
+        if total >= 200:
+            dist = {
+                "course_id": course_id,
+                "total": total,
+                "A": round(stats["A"] / total * 100, 1),
+                "B": round(stats["B"] / total * 100, 1),
+                "C": round(stats["C"] / total * 100, 1),
+                "D": round(stats["D"] / total * 100, 1)
+            }
+            # Check if balanced (20-30% each)
+            is_balanced = all(20 <= dist[l] <= 30 for l in ["A", "B", "C", "D"])
+            dist["balanced"] = is_balanced
+            if is_balanced:
+                verified_courses.append(dist)
+            else:
+                unverified_courses.append(dist)
+    
+    status["verified_courses_detail"] = verified_courses
+    status["unverified_courses_detail"] = unverified_courses
+    
+    return status
+
+@api_router.post("/admin/sequential-mcq/cancel")
+async def cancel_sequential_mcq():
+    """Cancel sequential MCQ generation"""
+    from sequential_mcq_generator import get_sequential_generator
+    generator = get_sequential_generator(db)
+    generator.cancel()
+    
+    # Also update job status
+    await db.jobs.update_many(
+        {"job_type": "sequential_mcq", "status": "running"},
+        {"$set": {"status": "cancelled", "updated_at": datetime.now(timezone.utc).isoformat()}}
+    )
+    
+    return {"message": "Sequential MCQ generation cancelled"}
+
+@api_router.post("/admin/verify-course/{course_id}")
+async def verify_single_course(course_id: str):
+    """Verify and fix distribution for a single course"""
+    from sequential_mcq_generator import get_sequential_generator
+    generator = get_sequential_generator(db)
+    
+    course = await db.courses.find_one({"external_id": course_id})
+    if not course:
+        raise HTTPException(status_code=404, detail="Course not found")
+    
+    is_valid = await generator._verify_course_quality(course_id, course["course_name"])
+    
+    return {
+        "course_id": course_id,
+        "verified": is_valid,
+        "message": "Course verified and balanced" if is_valid else "Course needs more questions or redistribution"
+    }
+
 @api_router.get("/generation-progress")
 async def get_generation_progress():
     """Get overall generation progress"""
