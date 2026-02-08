@@ -57,6 +57,7 @@ export default function GenerationProgress() {
   const { theme, toggleTheme } = useTheme();
   const [progress, setProgress] = useState(null);
   const [mcqJobProgress, setMcqJobProgress] = useState(null);
+  const [sequentialStatus, setSequentialStatus] = useState(null);
   const [loading, setLoading] = useState(true);
   const [generating, setGenerating] = useState(false);
   const [activeJobs, setActiveJobs] = useState([]);
