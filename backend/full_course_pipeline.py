@@ -233,7 +233,7 @@ Format as JSON array:
                     api_key=self.api_key,
                     session_id=f"script_{module_id}",
                     system_message="Create a 12-minute educational video script for medical students."
-                ).with_model("google", "gemini-2.0-flash")
+                ).with_model("openai", "gpt-4o-mini")
                 
                 prompt = f"""Create a video lecture script for:
 Course: {course_name}
