@@ -792,7 +792,7 @@ async def get_script_generation_progress():
 # ==================== SEQUENTIAL MCQ GENERATOR (NEW) ====================
 
 @api_router.post("/admin/sequential-mcq/start")
-async def start_sequential_mcq():
+async def start_sequential_mcq(send_emails: bool = True):
     """
     Start sequential MCQ generation - processes ONE course at a time:
     1. Generate all 200 questions for a course
@@ -800,8 +800,17 @@ async def start_sequential_mcq():
     3. Only after verification passes, move to next course
     """
     from sequential_mcq_generator import get_sequential_generator
+    from email_notifier import get_email_scheduler
+    
     generator = get_sequential_generator(db)
     result = await generator.start_sequential_generation()
+    
+    # Start email notifications if requested
+    if send_emails:
+        scheduler = get_email_scheduler(db)
+        await scheduler.start()
+        result["email_notifications"] = "enabled"
+    
     return result
 
 @api_router.get("/admin/sequential-mcq/status")
