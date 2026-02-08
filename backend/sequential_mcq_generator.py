@@ -254,11 +254,23 @@ Make questions clinically relevant for {course_name}."""
                     
                     # Process and shuffle each question
                     saved = 0
+                    skipped_duplicates = 0
+                    
                     for i, q in enumerate(questions):
-                        # Shuffle options for additional randomness
+                        # Check for duplicate question text
+                        existing = await self.db.mcq_questions.find_one({
+                            "course_id": course_id,
+                            "question": q.get("question")
+                        })
+                        
+                        if existing:
+                            skipped_duplicates += 1
+                            continue  # Skip duplicate
+                        
+                        # Shuffle options for random distribution
                         q = self._shuffle_options(q)
                         
-                        q["question_id"] = f"q_{course_id}_b{batch_num:02d}_i{i:03d}_r{retry}"
+                        q["question_id"] = f"q_{course_id}_b{batch_num:02d}_i{i:03d}"
                         q["course_id"] = course_id
                         q["batch_index"] = batch_num
                         q["topic"] = course_name
@@ -272,7 +284,10 @@ Make questions clinically relevant for {course_name}."""
                         )
                         saved += 1
                     
-                    logger.info(f"[{course_id}] Batch {batch_num + 1}/{total_batches}: Saved {saved} questions")
+                    log_msg = f"[{course_id}] Batch {batch_num + 1}/{total_batches}: Saved {saved} questions"
+                    if skipped_duplicates > 0:
+                        log_msg += f" (skipped {skipped_duplicates} duplicates)"
+                    logger.info(log_msg)
                     return  # Success
                     
             except asyncio.TimeoutError:
