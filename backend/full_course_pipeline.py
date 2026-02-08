@@ -126,7 +126,7 @@ Format as JSON array:
             finally:
                 loop.close()
         
-        for batch_num in range(total_batches):
+        for batch_num in range(start_batch, start_batch + batches_needed):
             if self._shutdown:
                 break
             
