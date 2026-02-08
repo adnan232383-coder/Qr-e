@@ -75,7 +75,7 @@ class FullCoursePipeline:
         return result
     
     async def _generate_mcq(self, course_id: str, course_name: str) -> Dict:
-        """Generate and verify MCQ questions"""
+        """Generate and verify MCQ questions - COMPLETES missing, doesn't delete"""
         from emergentintegrations.llm.chat import LlmChat, UserMessage
         
         # Check existing
@@ -86,11 +86,18 @@ class FullCoursePipeline:
             is_valid = await self._verify_distribution(course_id)
             if is_valid:
                 return {"success": True, "count": existing, "message": "Already complete"}
+            else:
+                # Fix distribution by reshuffling
+                await self._reshuffle_all(course_id)
+                return {"success": True, "count": existing, "message": "Reshuffled for balance"}
         
-        # Delete existing and regenerate
-        await self.db.mcq_questions.delete_many({"course_id": course_id})
+        # Calculate how many more needed
+        needed = QUESTIONS_PER_COURSE - existing
+        batches_needed = (needed + BATCH_SIZE - 1) // BATCH_SIZE
+        start_batch = existing // BATCH_SIZE
         
-        total_batches = (QUESTIONS_PER_COURSE + BATCH_SIZE - 1) // BATCH_SIZE
+        logger.info(f"[{course_id}] Have {existing}, need {needed} more questions")
+        
         total_saved = 0
         
         def generate_sync(batch_num: int) -> str:
