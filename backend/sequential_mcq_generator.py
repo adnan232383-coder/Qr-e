@@ -159,10 +159,14 @@ class SequentialMCQGenerator:
                 if is_valid:
                     return True
         
-        # Generate questions in batches
+        # Generate questions in batches - START FROM EXISTING COUNT
+        existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+        start_batch = existing_count // BATCH_SIZE
         total_batches = (QUESTIONS_PER_COURSE + BATCH_SIZE - 1) // BATCH_SIZE
         
-        for batch_num in range(total_batches):
+        logger.info(f"[{course_id}] Have {existing_count} questions, starting from batch {start_batch}")
+        
+        for batch_num in range(start_batch, total_batches):
             if self._shutdown:
                 return False
             
