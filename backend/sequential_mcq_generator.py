@@ -161,25 +161,30 @@ class SequentialMCQGenerator:
         
         # Generate questions in batches - START FROM EXISTING COUNT
         existing_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
-        start_batch = existing_count // BATCH_SIZE
-        total_batches = (QUESTIONS_PER_COURSE + BATCH_SIZE - 1) // BATCH_SIZE
         
-        logger.info(f"[{course_id}] Have {existing_count} questions, starting from batch {start_batch}")
+        # Keep generating until we have enough
+        max_attempts = 15  # Prevent infinite loop
+        attempt = 0
         
-        for batch_num in range(start_batch, total_batches):
-            if self._shutdown:
-                return False
-            
-            # Check current count
+        while attempt < max_attempts:
             current_count = await self.db.mcq_questions.count_documents({"course_id": course_id})
+            
             if current_count >= QUESTIONS_PER_COURSE:
                 break
             
-            # Generate batch
-            await self._generate_batch(job_id, course_id, course_name, batch_num, total_batches)
+            if self._shutdown:
+                return False
             
-            # Small delay between batches
+            needed = QUESTIONS_PER_COURSE - current_count
+            batch_num = current_count // BATCH_SIZE
+            
+            logger.info(f"[{course_id}] Have {current_count}, need {needed} more (batch {batch_num})")
+            
+            # Generate batch
+            await self._generate_batch(job_id, course_id, course_name, batch_num, 8)
+            
             await asyncio.sleep(0.5)
+            attempt += 1
         
         # Final verification
         is_valid = await self._verify_course_quality(course_id, course_name)
