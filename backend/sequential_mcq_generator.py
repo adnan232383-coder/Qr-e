@@ -152,9 +152,12 @@ class SequentialMCQGenerator:
                 return True
             else:
                 # Has questions but distribution is bad - need to regenerate
-                logger.warning(f"⚠️ {course_name}: Has {existing_count} questions but failed verification - regenerating")
-                await self.db.mcq_questions.delete_many({"course_id": course_id})
-                existing_count = 0
+                logger.warning(f"⚠️ {course_name}: Has {existing_count} questions but failed verification - reshuffling")
+                # Reshuffle instead of deleting
+                await self._fix_distribution(course_id, course_name)
+                is_valid = await self._verify_distribution_only(course_id, course_name)
+                if is_valid:
+                    return True
         
         # Generate questions in batches
         total_batches = (QUESTIONS_PER_COURSE + BATCH_SIZE - 1) // BATCH_SIZE
