@@ -95,8 +95,9 @@ class FullCoursePipeline:
         needed = QUESTIONS_PER_COURSE - existing
         batches_needed = (needed + BATCH_SIZE - 1) // BATCH_SIZE
         start_batch = existing // BATCH_SIZE
+        total_batches = start_batch + batches_needed
         
-        logger.info(f"[{course_id}] Have {existing}, need {needed} more questions")
+        logger.info(f"[{course_id}] Have {existing}, need {needed} more questions ({batches_needed} batches)")
         
         total_saved = 0
         
@@ -112,7 +113,6 @@ Return valid JSON array only."""
             ).with_model("openai", "gpt-4o-mini")
             
             prompt = f"""Generate {BATCH_SIZE} MCQ questions for: {course_name}
-Batch {batch_num + 1}/{total_batches}
 
 IMPORTANT: Distribute correct answers evenly (6-7 each for A, B, C, D)
 
@@ -126,7 +126,7 @@ Format as JSON array:
             finally:
                 loop.close()
         
-        for batch_num in range(start_batch, start_batch + batches_needed):
+        for batch_num in range(start_batch, total_batches):
             if self._shutdown:
                 break
             
