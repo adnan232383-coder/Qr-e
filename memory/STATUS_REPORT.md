@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://ugacademy.preview.emergentagent.com |
-| Admin Panel | https://ugacademy.preview.emergentagent.com/admin/progress |
-| API Docs | https://ugacademy.preview.emergentagent.com/api/docs |
+| Frontend | https://course-assistant-ug.preview.emergentagent.com |
+| Admin Panel | https://course-assistant-ug.preview.emergentagent.com/admin/progress |
+| API Docs | https://course-assistant-ug.preview.emergentagent.com/api/docs |
 
 ---
 
