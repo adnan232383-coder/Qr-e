@@ -1,452 +1,452 @@
 [
   {
-    "question": "A 4-year-old child presents with abrupt onset of high fever, difficulty breathing, and a preference for sitting in the 'tripod position'. What is the most appropriate next step in management?",
-    "option_a": "Obtain a lateral neck X-ray",
-    "option_b": "Perform an oral exam with a tongue depressor to visualize the pharynx",
-    "option_c": "Maintain a calm environment and prepare for emergency airway management in the OR",
-    "option_d": "Administer nebulized racemic epinephrine",
-    "correct_answer": "C",
-    "explanation": "This classic presentation of epiglottitis is a medical emergency. Any agitation, including oral exams or X-rays, can trigger complete airway obstruction. Airway stabilization is the priority."
+    "question": "A 3-year-old child presents with a large, smooth abdominal mass that does not cross the midline. Hematuria is present. What is the most likely diagnosis?",
+    "option_a": "Neuroblastoma",
+    "option_b": "Wilms Tumor (Nephroblastoma)",
+    "option_c": "Polycystic Kidney Disease",
+    "option_d": "Teratoma",
+    "correct_answer": "B",
+    "explanation": "Wilms tumor is the most common renal malignancy in children and typically presents as a smooth mass that stays on one side, unlike neuroblastoma which often crosses the midline."
   },
   {
-    "question": "Which of the following is the most common cause of neonatal sepsis in a term infant within the first 24 hours of life?",
-    "option_a": "Listeria monocytogenes",
-    "option_b": "Group B Streptococcus (GBS)",
+    "question": "Which of the following is the most common cause of Congenital Adrenal Hyperplasia (CAH)?",
+    "option_a": "11-beta-hydroxylase deficiency",
+    "option_b": "21-hydroxylase deficiency",
+    "option_c": "17-alpha-hydroxylase deficiency",
+    "option_d": "3-beta-hydroxysteroid dehydrogenase deficiency",
+    "correct_answer": "B",
+    "explanation": "21-hydroxylase deficiency accounts for about 95% of CAH cases, leading to salt-wasting and virilization due to cortisol and aldosterone deficiency."
+  },
+  {
+    "question": "A 5-year-old boy has difficulty rising from the floor and uses his hands to 'walk up' his legs to stand upright. What is this sign called, and what does it suggest?",
+    "option_a": "Trendelenburg sign; Hip dysplasia",
+    "option_b": "Gower's sign; Duchenne Muscular Dystrophy",
+    "option_c": "Kernig's sign; Meningitis",
+    "option_d": "Ortolani's sign; Hip dislocation",
+    "correct_answer": "B",
+    "explanation": "Gower's sign indicates proximal muscle weakness, which is a hallmark clinical finding in Duchenne Muscular Dystrophy."
+  },
+  {
+    "question": "A newborn infant presents with ambiguous genitalia and severe hyponatremia and hyperkalemia on day 10 of life. What is the most likely diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Salt-wasting Congenital Adrenal Hyperplasia",
+    "option_c": "Androgen Insensitivity Syndrome",
+    "option_d": "Klinefelter Syndrome",
+    "correct_answer": "B",
+    "explanation": "Salt-wasting CAH presents with adrenal crisis (electrolyte imbalance) and virilization in females due to excess androgens."
+  },
+  {
+    "question": "What is the most common clinical manifestation of 'Juvenile Idiopathic Arthritis' (JIA) - Oligoarticular type?",
+    "option_a": "Symmetric involvement of small joints",
+    "option_b": "Involvement of four or fewer large joints (e.g., knee, ankle)",
+    "option_c": "High spiking fevers and salmon-colored rash",
+    "option_d": "Permanent blindness in all cases",
+    "correct_answer": "B",
+    "explanation": "Oligoarticular JIA affects ≤4 joints, usually large ones like the knee, and is associated with a risk of chronic uveitis."
+  },
+  {
+    "question": "A child presents with a 'barking' cough, stridor, and a 'steeple sign' on a frontal neck X-ray. What is the most appropriate initial treatment for moderate symptoms?",
+    "option_a": "Intravenous antibiotics",
+    "option_b": "Dexamethasone and nebulized Epinephrine",
+    "option_c": "Salbutamol nebulizer",
+    "option_d": "Chest tube insertion",
+    "correct_answer": "B",
+    "explanation": "Croup is a viral inflammatory condition of the upper airway; steroids reduce edema, and epinephrine provides rapid temporary relief of stridor."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Acute Epiglottitis' in an unimmunized child?",
+    "option_a": "Streptococcus pneumoniae",
+    "option_b": "Haemophilus influenzae type b (Hib)",
     "option_c": "Staphylococcus aureus",
-    "option_d": "Haemophilus influenzae",
+    "option_d": "Parainfluenza virus",
     "correct_answer": "B",
-    "explanation": "GBS is the leading cause of early-onset neonatal sepsis and meningitis, typically transmitted vertically during birth."
+    "explanation": "Hib was the leading cause before the vaccine; it remains the most common cause in unimmunized populations."
   },
   {
-    "question": "Using the Holiday-Segar formula, what is the daily maintenance fluid requirement for a child weighing 25 kg?",
-    "option_a": "1200 mL",
-    "option_b": "1500 mL",
-    "option_c": "1600 mL",
-    "option_d": "2000 mL",
-    "correct_answer": "C",
-    "explanation": "Calculation: 100 mL/kg for the first 10 kg (1000) + 50 mL/kg for the next 10 kg (500) + 20 mL/kg for the remaining 5 kg (100) = 1600 mL."
-  },
-  {
-    "question": "A 2-year-old child presents with a 'barking' cough and inspiratory stridor that improves when the child is taken into the cool night air. What is the most likely diagnosis?",
-    "option_a": "Epiglottitis",
-    "option_b": "Laryngotracheobronchitis (Croup)",
-    "option_c": "Bacterial tracheitis",
-    "option_d": "Foreign body aspiration",
+    "question": "A 10-year-old child presents with sudden onset of severe polyuria, polydipsia, and weight loss. Blood glucose is 450 mg/dL. What is the next most important test to rule out an emergency?",
+    "option_a": "HbA1c",
+    "option_b": "Urine ketones and blood pH (ABG/VBG)",
+    "option_c": "Oral glucose tolerance test",
+    "option_d": "C-peptide level",
     "correct_answer": "B",
-    "explanation": "Croup is characterized by subglottic swelling, causing the classic seal-like bark and stridor, often resolving with cool air or steam."
+    "explanation": "The primary concern is Diabetic Ketoacidosis (DKA), which must be identified by checking for metabolic acidosis and ketosis."
   },
   {
-    "question": "Which of the following is an 'Acyanotic' heart defect characterized by a harsh holosystolic murmur at the left lower sternal border?",
-    "option_a": "Atrial Septal Defect (ASD)",
-    "option_b": "Ventricular Septal Defect (VSD)",
-    "option_c": "Tetralogy of Fallot",
-    "option_d": "Coarctation of the Aorta",
+    "question": "What is the characteristic clinical finding in 'Reye Syndrome'?",
+    "option_a": "Chronic liver cirrhosis",
+    "option_b": "Acute encephalopathy and fatty liver infiltration following aspirin use for a viral illness",
+    "option_c": "Persistent high fever and rash",
+    "option_d": "Kidney failure after a strep infection",
     "correct_answer": "B",
-    "explanation": "VSD is the most common congenital heart defect; the holosystolic murmur is caused by blood shunting from the left to the right ventricle."
+    "explanation": "Reye Syndrome is associated with aspirin use in children during influenza or varicella infections."
   },
   {
-    "question": "A 10-month-old infant is brought to the clinic because he is not yet pulling to stand or crawling. He can sit well without support and transfers objects from hand to hand. What is the correct assessment?",
-    "option_a": "Global developmental delay",
-    "option_b": "Motor delay requiring immediate referral",
-    "option_c": "Normal development; these milestones typically occur by 9-12 months",
-    "option_d": "Autism spectrum disorder",
-    "correct_answer": "C",
-    "explanation": "Milestones have ranges. While many crawl at 9 months, pulling to stand and crawling often emerge between 9 and 10 months. Since he sits and has good fine motor skills, he is currently within normal limits."
-  },
-  {
-    "question": "Which of the following is the hallmark finding in 'Minimal Change Disease' (Nephrotic Syndrome)?",
-    "option_a": "Gross hematuria",
-    "option_b": "Severe hypertension",
-    "option_c": "Heavy proteinuria (>3.5g/day or >40mg/m2/hr) and generalized edema",
-    "option_d": "Red blood cell casts",
-    "correct_answer": "C",
-    "explanation": "Minimal change disease is the most common cause of childhood nephrotic syndrome, defined by massive protein loss, hypoalbuminemia, and resulting edema."
-  },
-  {
-    "question": "A 3-year-old presents with sudden onset of colicky abdominal pain, vomiting, and a 'sausage-shaped' mass in the right upper quadrant. What is the first-line treatment?",
-    "option_a": "Emergency laparotomy",
-    "option_b": "Air or Contrast enema reduction",
-    "option_c": "Oral laxatives",
-    "option_d": "Antibiotics and observation",
+    "question": "A child is able to use a spoon well, jump with both feet, and has a vocabulary of about 200 words. What is the most likely age?",
+    "option_a": "12 months",
+    "option_b": "2 years",
+    "option_c": "4 years",
+    "option_d": "5 years",
     "correct_answer": "B",
-    "explanation": "This is intussusception. Non-operative reduction using air or liquid contrast enema is successful in 80-90% of cases."
+    "explanation": "Jumping with both feet and 2-word phrases/200 words are classic 24-month (2-year) milestones."
   },
   {
-    "question": "Which of the following is a classic finding in a child with 'Celiac Disease'?",
-    "option_a": "Bloody diarrhea",
-    "option_b": "Weight gain and tall stature",
-    "option_c": "Villous atrophy on duodenal biopsy and positive Anti-TTG antibodies",
-    "option_d": "Elevated sweat chloride",
-    "correct_answer": "C",
-    "explanation": "Celiac disease is an immune-mediated enteropathy triggered by gluten, leading to characteristic biopsy changes and specific autoantibodies."
-  },
-  {
-    "question": "A newborn has failed to pass meconium within the first 48 hours and has abdominal distension. A rectal biopsy shows an absence of ganglion cells. What is the diagnosis?",
-    "option_a": "Meconium ileus",
-    "option_b": "Hirschsprung Disease",
-    "option_c": "Duodenal atresia",
-    "option_d": "Intussusception",
+    "question": "Which of the following is the primary risk of 'Kernicterus' in a neonate?",
+    "option_a": "Permanent liver damage",
+    "option_b": "Irreversible brain damage due to bilirubin deposition in the basal ganglia",
+    "option_c": "Chronic heart failure",
+    "option_d": "Severe iron deficiency",
     "correct_answer": "B",
-    "explanation": "Hirschsprung disease is caused by the failure of neural crest cells to migrate to the distal colon, resulting in a functional obstruction."
+    "explanation": "High levels of unconjugated bilirubin cross the blood-brain barrier and are toxic to neural tissue."
   },
   {
-    "question": "Which congenital heart disease is classically associated with 'Rib Notching' on chest X-ray in older children?",
-    "option_a": "PDA",
+    "question": "In a child with suspected 'Iron Poisoning', what is the specific antidote?",
+    "option_a": "N-acetylcysteine",
+    "option_b": "Deferoxamine",
+    "option_c": "Naloxone",
+    "option_d": "Atropine",
+    "correct_answer": "B",
+    "explanation": "Deferoxamine is a chelating agent that binds free iron and allows for its excretion in the urine."
+  },
+  {
+    "question": "Which of the following describes 'Scarlet Fever'?",
+    "option_a": "A viral infection with Koplik spots",
+    "option_b": "A complication of Group A Strep pharyngitis with a sandpaper rash and strawberry tongue",
+    "option_c": "A type of heart murmur",
+    "option_d": "A chronic joint disease",
+    "correct_answer": "B",
+    "explanation": "Scarlet fever is caused by erythrogenic toxins from Streptococcus pyogenes."
+  },
+  {
+    "question": "What is the 'Rule of 9s' estimate for a toddler's head compared to an adult?",
+    "option_a": "The head is smaller (9%)",
+    "option_b": "The head is larger (approximately 18%)",
+    "option_c": "It is the same (9%)",
+    "option_d": "The head is not counted",
+    "correct_answer": "B",
+    "explanation": "In young children, the head occupies a larger percentage of total body surface area (~18%) while the legs are smaller."
+  },
+  {
+    "question": "A child presents with a 'currant jelly' stool and episodic crying. What is the most likely diagnosis?",
+    "option_a": "Meckel's Diverticulum",
+    "option_b": "Intussusception",
+    "option_c": "Pyloric Stenosis",
+    "option_d": "Appendicitis",
+    "correct_answer": "B",
+    "explanation": "Intussusception presents with the classic triad of colicky pain, vomiting, and currant jelly (bloody/mucoid) stools."
+  },
+  {
+    "question": "Which congenital heart disease presents with 'narrowing of the aortic arch' and higher blood pressure in the arms than the legs?",
+    "option_a": "VSD",
     "option_b": "Coarctation of the Aorta",
-    "option_c": "Transposition of the Great Arteries",
-    "option_d": "Tricuspid atresia",
+    "option_c": "Tetralogy of Fallot",
+    "option_d": "PDA",
     "correct_answer": "B",
-    "explanation": "Increased collateral blood flow through intercostal arteries to bypass the coarctation causes pressure erosion of the ribs."
+    "explanation": "The obstruction in the aorta leads to decreased perfusion of the lower body and hypertension in the upper body."
   },
   {
-    "question": "What is the most common cause of acute 'Post-streptococcal Glomerulonephritis' (PSGN)?",
-    "option_a": "Group B Strep skin infection",
-    "option_b": "Group A Strep (S. pyogenes) pharyngitis or impetigo",
-    "option_c": "Staph aureus abscess",
-    "option_d": "E. coli UTI",
+    "question": "What is the primary treatment for 'Minimal Change Disease'?",
+    "option_a": "Cyclophosphamide",
+    "option_b": "Corticosteroids (Prednisone)",
+    "option_c": "Antibiotics",
+    "option_d": "Surgery",
     "correct_answer": "B",
-    "explanation": "PSGN is an immune-complex mediated nephritic syndrome occurring 1-3 weeks after a Group A Strep infection."
+    "explanation": "Minimal Change Disease is the most common cause of nephrotic syndrome in children and is usually highly responsive to steroids."
   },
   {
-    "question": "A 6-month-old infant with failure to thrive and recurrent pneumonia has a positive sweat chloride test. Which vitamin supplementations are essential for this patient?",
-    "option_a": "Vitamin C and B complex",
-    "option_b": "Vitamins A, D, E, and K",
-    "option_c": "Iron and Calcium",
-    "option_d": "Vitamin B12",
+    "question": "Which of the following is true for 'Meconium Ileus'?",
+    "option_a": "It is diagnostic of Pyloric Stenosis",
+    "option_b": "It is a presentation of Cystic Fibrosis in the newborn",
+    "option_c": "It occurs only in preterm infants",
+    "option_d": "It is caused by a virus",
     "correct_answer": "B",
-    "explanation": "Cystic Fibrosis causes pancreatic insufficiency, leading to the malabsorption of fat-soluble vitamins (A, D, E, K)."
+    "explanation": "Abnormally thick meconium causes obstruction in the terminal ileum and is a hallmark early sign of CF."
   },
   {
-    "question": "At what age should the 'Moro reflex' typically disappear in a healthy infant?",
-    "option_a": "1 month",
-    "option_b": "3-6 months",
-    "option_c": "9 months",
-    "option_d": "12 months",
-    "correct_answer": "B",
-    "explanation": "Primitive reflexes like the Moro and Rooting reflexes generally disappear by 4-6 months as the central nervous system matures."
-  },
-  {
-    "question": "Which of the following is a classic symptom of 'Pyloric Stenosis' in a 4-week-old infant?",
-    "option_a": "Bilious vomiting",
-    "option_b": "Non-bilious, projectile vomiting immediately after feeding",
-    "option_c": "Severe diarrhea",
-    "option_d": "High fever",
-    "correct_answer": "B",
-    "explanation": "Hypertrophy of the pylorus blocks the gastric outlet, leading to forceful, non-bilious vomiting (since the obstruction is proximal to the bile duct entrance)."
-  },
-  {
-    "question": "A child presents with high fever, a 'strawberry tongue', and a bright red, fine rash that feels like sandpaper. Diagnosis?",
-    "option_a": "Kawasaki Disease",
-    "option_b": "Scarlet Fever",
-    "option_c": "Measles",
-    "option_d": "Hand-foot-mouth disease",
-    "correct_answer": "B",
-    "explanation": "Scarlet fever, caused by Group A Streptococcus erythrogenic toxin, is defined by these specific findings."
-  },
-  {
-    "question": "What is the primary treatment for 'Kawasaki Disease' to prevent coronary artery aneurysms?",
-    "option_a": "High-dose Penicillin",
-    "option_b": "Intravenous Immunoglobulin (IVIG) and high-dose Aspirin",
-    "option_c": "Corticosteroids",
-    "option_d": "Acyclovir",
-    "correct_answer": "B",
-    "explanation": "IVIG administered within the first 10 days of fever significantly reduces the risk of developing coronary abnormalities."
-  },
-  {
-    "question": "A 1-year-old child presents with a 'continuous, machinery-like' murmur. What is the most likely diagnosis?",
-    "option_a": "ASD",
-    "option_b": "PDA (Patent Ductus Arteriosus)",
-    "option_c": "VSD",
-    "option_d": "Coarctation of the aorta",
-    "correct_answer": "B",
-    "explanation": "PDA creates a continuous shunt from the aorta to the pulmonary artery throughout both systole and diastole."
-  },
-  {
-    "question": "In the setting of 'Pediatric Resuscitation', what is the correct compression-to-ventilation ratio for two rescuers?",
-    "option_a": "30:2",
-    "option_b": "15:2",
-    "option_c": "5:1",
-    "option_d": "3:1",
-    "correct_answer": "B",
-    "explanation": "For children and infants, the two-rescuer ratio is 15:2 to provide more frequent ventilations. Single rescuer remains 30:2."
-  },
-  {
-    "question": "Which of the following is a 'Red Flag' in child development that warrants immediate evaluation?",
-    "option_a": "Not walking by 12 months",
-    "option_b": "Loss of previously acquired language or social skills at any age",
-    "option_c": "Not being toilet trained by 2 years",
-    "option_d": "Stranger anxiety at 9 months",
-    "correct_answer": "B",
-    "explanation": "Regression (loss of milestones) is a major indicator of potential neurological or metabolic disorders, or autism."
-  },
-  {
-    "question": "A newborn with 'scaphoid abdomen' and severe respiratory distress likely has which condition?",
-    "option_a": "Tracheoesophageal fistula",
-    "option_b": "Congenital Diaphragmatic Hernia",
-    "option_c": "Pyloric stenosis",
-    "option_d": "Gastroschisis",
-    "correct_answer": "B",
-    "explanation": "Abdominal contents migrate into the chest cavity, leaving the abdomen 'hollow' (scaphoid) and compressing the lungs."
-  },
-  {
-    "question": "Which virus is responsible for 'Fifth Disease' (Erythema Infectiosum)?",
-    "option_a": "HHV-6",
-    "option_b": "Parvovirus B19",
-    "option_c": "Measles virus",
-    "option_d": "Coxsackie A virus",
-    "correct_answer": "B",
-    "explanation": "Parvovirus B19 causes the classic 'slapped-cheek' facial appearance followed by a lacy body rash."
-  },
-  {
-    "question": "What is the management of choice for a pediatric patient with 'Nursemaid's Elbow' (Radial head subluxation)?",
-    "option_a": "Long-arm casting for 2 weeks",
-    "option_b": "Hyperpronation or supination-flexion reduction maneuvers",
-    "option_c": "Open surgical reduction",
-    "option_d": "Corticosteroid injection",
-    "correct_answer": "B",
-    "explanation": "Nursemaid's elbow is a common injury in toddlers; it can be quickly reduced in the office without imaging if the history is classic."
-  },
-  {
-    "question": "Which of the following is true regarding 'Febrile Seizures'?",
-    "option_a": "They always lead to adult epilepsy",
-    "option_b": "They are usually associated with a rapid rise in temperature and occur between 6 months and 5 years of age",
-    "option_c": "They require long-term anti-epileptic therapy",
-    "option_d": "They occur without fever",
-    "correct_answer": "B",
-    "explanation": "Simple febrile seizures are benign, common, and do not significantly increase the risk of future epilepsy."
-  },
-  {
-    "question": "A 'double-bubble' sign on neonatal abdominal X-ray is classic for which condition?",
-    "option_a": "Intussusception",
-    "option_b": "Duodenal Atresia",
-    "option_c": "Pyloric stenosis",
-    "option_d": "Malrotation",
-    "correct_answer": "B",
-    "explanation": "The two bubbles are the gas-filled stomach and proximal duodenum, separated by the atretic (blocked) segment."
-  },
-  {
-    "question": "A 15-year-old female presents with primary amenorrhea, short stature, and a webbed neck. What is the most likely karyotype?",
+    "question": "A 15-year-old girl with primary amenorrhea has a webbed neck and low-set ears. What is the expected chromosomal finding?",
     "option_a": "47, XXY",
     "option_b": "45, X (Turner Syndrome)",
-    "option_c": "47, XXX",
+    "option_c": "Trisomy 21",
     "option_d": "46, XX",
     "correct_answer": "B",
-    "explanation": "Turner syndrome (monosomy X) presents with these characteristic physical features and streak ovaries."
+    "explanation": "Turner Syndrome is defined by the loss of one X chromosome, causing short stature and streak ovaries."
   },
   {
-    "question": "Which of the following is the treatment for 'Meconium Ileus' in a stable patient with Cystic Fibrosis?",
-    "option_a": "Emergency bowel resection",
-    "option_b": "Gastrografin (hyperosmolar) enema",
-    "option_c": "Wait for spontaneous passage",
-    "option_d": "Phototherapy",
+    "question": "What is the classic triad of 'Congenital Toxoplasmosis'?",
+    "option_a": "Deafness, Cataracts, Heart defects",
+    "option_b": "Chorioretinitis, Hydrocephalus, Intracranial calcifications",
+    "option_c": "Snuffles, Saddle nose, Hutchinson teeth",
+    "option_d": "Jaundice, Splenomegaly, Rash",
     "correct_answer": "B",
-    "explanation": "The hyperosmolar enema helps draw fluid into the bowel to soften the thick, inspissated meconium and relieve the obstruction."
+    "explanation": "These three findings are pathognomonic for toxoplasmosis infection acquired in utero."
   },
   {
-    "question": "What is the most common cause of 'Bronchiolitis' in children?",
-    "option_a": "Influenza",
-    "option_b": "RSV (Respiratory Syncytial Virus)",
-    "option_c": "Bordetella pertussis",
-    "option_d": "Mycoplasma",
+    "question": "Which antibiotic is contraindicated in children under 8 years of age because it can cause permanent tooth discoloration?",
+    "option_a": "Amoxicillin",
+    "option_b": "Tetracyclines (e.g., Doxycycline)",
+    "option_c": "Azithromycin",
+    "option_d": "Cefotaxime",
     "correct_answer": "B",
-    "explanation": "RSV is the leading cause of viral lower respiratory tract infections in infants."
+    "explanation": "Tetracyclines deposit in developing teeth and bones, leading to permanent yellow-brown staining."
   },
   {
-    "question": "A child presents with 'cola-colored' urine, periorbital edema, and hypertension. Which lab finding is most likely?",
-    "option_a": "Elevated C3 and C4",
-    "option_b": "Low C3 complement levels",
-    "option_c": "Positive sweat test",
-    "option_d": "High serum albumin",
+    "question": "What is the 'first-line' treatment for an infant with 'Acute Otitis Media' and severe symptoms?",
+    "option_a": "Ciprofloxacin",
+    "option_b": "High-dose Amoxicillin",
+    "option_c": "Topical steroids",
+    "option_d": "Myringotomy only",
     "correct_answer": "B",
-    "explanation": "Consumption of complement (low C3) is a hallmark of post-streptococcal glomerulonephritis."
+    "explanation": "Amoxicillin is the standard first-line treatment for bacterial middle ear infections in children."
   },
   {
-    "question": "At what age should a child typically be able to copy a square and use scissors?",
-    "option_a": "2 years",
-    "option_b": "3 years",
-    "option_c": "4 years",
-    "option_d": "5 years",
-    "correct_answer": "C",
-    "explanation": "Fine motor milestones for a 4-year-old include copying a square, using scissors, and drawing a person with 3 parts."
-  },
-  {
-    "question": "Which congenital infection presents with 'snuffles', a desquamating rash on the palms and soles, and 'Hutchinson teeth' later in life?",
-    "option_a": "Toxoplasmosis",
-    "option_b": "Congenital Syphilis",
-    "option_c": "Rubella",
-    "option_d": "CMV",
+    "question": "Which of the following is a symptom of 'Vitamin D' deficiency (Rickets) in a child?",
+    "option_a": "Night blindness",
+    "option_b": "Craniotabes (softening of skull bones) and bowing of the legs",
+    "option_c": "Scurvy",
+    "option_d": "Hypercalcemia",
     "correct_answer": "B",
-    "explanation": "Syphilis is the correct answer; snuffles (bloody nasal discharge) is a classic early neonatal sign."
+    "explanation": "Vitamin D is essential for bone mineralization; deficiency causes soft bones and deformities."
   },
   {
-    "question": "What is the primary risk factor for 'Retinopathy of Prematurity' (ROP)?",
-    "option_a": "High birth weight",
-    "option_b": "Prematurity and excessive oxygen therapy",
-    "option_c": "Maternal diabetes",
-    "option_d": "Vitamin A toxicity",
+    "question": "At what age should a child double their birth weight?",
+    "option_a": "2 months",
+    "option_b": "4-5 months",
+    "option_c": "12 months",
+    "option_d": "2 years",
     "correct_answer": "B",
-    "explanation": "Oxygen toxicity in the immature retina leads to abnormal vessel proliferation."
+    "explanation": "Infants typically double their weight by 5 months and triple it by 1 year."
   },
   {
-    "question": "Which of the following describes 'Tet spells' in Tetralogy of Fallot?",
-    "option_a": "Hypercyanotic episodes during crying or feeding, improved by squatting",
-    "option_b": "Seizures due to high fever",
-    "option_c": "Periods of high blood pressure",
-    "option_d": "Sudden loss of hearing",
+    "question": "Which of the following is a classic finding in 'Pyloric Stenosis'?",
+    "option_a": "Bilious vomiting",
+    "option_b": "Non-bilious projectile vomiting and an 'olive' mass in the abdomen",
+    "option_c": "Chronic diarrhea",
+    "option_d": "High fever",
+    "correct_answer": "B",
+    "explanation": "The hypertrophy of the pyloric muscle causes a physical obstruction at the stomach outlet."
+  },
+  {
+    "question": "A 10-year-old child presents with 'joint pain' and a 'target-like' rash after a hiking trip. Diagnosis?",
+    "option_a": "Rheumatic Fever",
+    "option_b": "Lyme Disease",
+    "option_c": "Kawasaki Disease",
+    "option_d": "Scarlet Fever",
+    "correct_answer": "B",
+    "explanation": "Erythema migrans (the target rash) is the hallmark sign of early Lyme disease."
+  },
+  {
+    "question": "Which chromosome is affected in 'Down Syndrome'?",
+    "option_a": "Trisomy 13",
+    "option_b": "Trisomy 21",
+    "option_c": "Trisomy 18",
+    "option_d": "45, X",
+    "correct_answer": "B",
+    "explanation": "Down Syndrome is caused by an extra copy of chromosome 21."
+  },
+  {
+    "question": "What is the primary treatment for 'Bronchiolitis' caused by RSV in a healthy 6-month-old?",
+    "option_a": "Antibiotics and steroids",
+    "option_b": "Supportive care (hydration and oxygen if needed)",
+    "option_c": "Intubation for all cases",
+    "option_d": "Inhaled Albuterol for everyone",
+    "correct_answer": "B",
+    "explanation": "Bronchiolitis is viral; management is primarily supportive as bronchodilators and steroids have not shown benefit for most cases."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Kawasaki Disease'?",
+    "option_a": "High fever for >5 days, conjunctivitis, and 'strawberry tongue'",
+    "option_b": "Chronic flaccid paralysis",
+    "option_c": "Painless joint swelling",
+    "option_d": "Low blood sugar",
     "correct_answer": "A",
-    "explanation": "Squatting (or knees-to-chest) increases systemic vascular resistance, reducing the right-to-left shunt and improving oxygenation."
+    "explanation": "Kawasaki is a systemic vasculitis involving specific clinical criteria including prolonged fever and mucosal changes."
   },
   {
-    "question": "What is the most common cause of 'Infection-related' death in neonates?",
-    "option_a": "Viral influenza",
-    "option_b": "Bacterial Sepsis",
-    "option_c": "Candida",
-    "option_d": "Toxoplasmosis",
+    "question": "What is the recommended age for the first dose of the 'MMR' vaccine?",
+    "option_a": "Birth",
+    "option_b": "12-15 months",
+    "option_c": "4-6 years",
+    "option_d": "2 months",
     "correct_answer": "B",
-    "explanation": "Early and late-onset sepsis remain major causes of neonatal mortality worldwide."
+    "explanation": "Live vaccines like MMR are given after 1 year to avoid interference from maternal antibodies."
   },
   {
-    "question": "A child is able to climb stairs alternating feet, ride a tricycle, and has a vocabulary of about 1000 words. Approximate age?",
-    "option_a": "2 years",
-    "option_b": "3 years",
-    "option_c": "4 years",
-    "option_d": "5 years",
+    "question": "Which of the following is a symptom of 'Post-streptococcal Glomerulonephritis'?",
+    "option_a": "Massive proteinuria only",
+    "option_b": "Edema, hypertension, and 'cola-colored' urine (hematuria)",
+    "option_c": "Chronic diarrhea",
+    "option_d": "High fever",
     "correct_answer": "B",
-    "explanation": "Riding a tricycle is a specific 3-year-old milestone."
+    "explanation": "PSGN is a nephritic syndrome that occurs after a Group A Strep infection."
+  },
+  {
+    "question": "A child presents with 'slapped-cheek' rash. Which virus is responsible?",
+    "option_a": "Measles",
+    "option_b": "Parvovirus B19",
+    "option_c": "Rubella",
+    "option_d": "HHV-6",
+    "correct_answer": "B",
+    "explanation": "Parvovirus B19 causes Erythema Infectiosum (Fifth Disease)."
+  },
+  {
+    "question": "What is the treatment for 'Pinworm' (Enterobius vermicularis)?",
+    "option_a": "Metronidazole",
+    "option_b": "Albendazole or Pyrantel pamoate",
+    "option_c": "Penicillin",
+    "option_d": "Permethrin",
+    "correct_answer": "B",
+    "explanation": "A single dose of albendazole followed by a second dose in 2 weeks is the standard therapy."
+  },
+  {
+    "question": "Which congenital condition presents with 'Macroglossia' and 'Omphalocele' and carries a high risk of Wilms tumor?",
+    "option_a": "Down Syndrome",
+    "option_b": "Beckwith-Wiedemann Syndrome",
+    "option_c": "Turner Syndrome",
+    "option_d": "Marfan Syndrome",
+    "correct_answer": "B",
+    "explanation": "This overgrowth syndrome involves macroglossia and increased risk for embryonal tumors."
+  },
+  {
+    "question": "What does a GCS score of 8 or less usually indicate in a child with head trauma?",
+    "option_a": "Mild concussion",
+    "option_b": "Severe brain injury; the patient likely needs intubation to protect the airway",
+    "option_c": "Normal response",
+    "option_d": "The child is just sleepy",
+    "correct_answer": "B",
+    "explanation": "A score of 8 or less signifies coma and requires definitive airway management."
   },
   {
     "question": "Which chromosome deletion is associated with 'DiGeorge Syndrome'?",
     "option_a": "5p deletion",
     "option_b": "22q11.2 deletion",
-    "option_c": "Trisomy 18",
-    "option_d": "15q deletion",
+    "option_c": "15q deletion",
+    "option_d": "Trisomy 18",
     "correct_answer": "B",
-    "explanation": "DiGeorge syndrome (CATCH-22) involves thymic aplasia, hypocalcemia, and cardiac defects."
+    "explanation": "DiGeorge Syndrome (CATCH-22) results from a microdeletion on chromosome 22."
   },
   {
-    "question": "Which of the following is an early symptom of 'Vitamin A' deficiency?",
-    "option_a": "Bowed legs",
-    "option_b": "Night blindness (Nyctalopia)",
-    "option_c": "Gingival bleeding",
-    "option_d": "Tachycardia",
+    "question": "A child is able to roll over, reach for objects, and sit with support. Approximate age?",
+    "option_a": "2 months",
+    "option_b": "4 months",
+    "option_c": "6 months",
+    "option_d": "9 months",
     "correct_answer": "B",
-    "explanation": "Vitamin A is essential for the function of rhodopsin in the retina; its loss leads to poor vision in low light."
+    "explanation": "Reaching and rolling are 4-month milestones; sitting with support is also characteristic."
   },
   {
-    "question": "What is the 'first-line' treatment for an infant with 'Infantile Spasms' (West Syndrome)?",
-    "option_a": "Phenobarbital",
-    "option_b": "ACTH or Vigabatrin",
-    "option_c": "Diazepam",
-    "option_d": "Ketogenic diet",
-    "correct_answer": "B",
-    "explanation": "ACTH is highly effective for stopping these specific seizures and improving the EEG pattern (hypsarrhythmia)."
-  },
-  {
-    "question": "Which of the following is true for 'G6PD deficiency' in children?",
-    "option_a": "It causes chronic iron deficiency",
-    "option_b": "It is an X-linked disorder causing hemolytic anemia triggered by oxidative stress (e.g., fava beans)",
-    "option_c": "It leads to pancreatic failure",
-    "option_d": "It is a form of leukemia",
-    "correct_answer": "B",
-    "explanation": "Lack of G6PD enzyme makes RBCs vulnerable to oxidative damage."
-  },
-  {
-    "question": "What is the 'Rule of 10' used for in pediatric plastic surgery?",
-    "option_a": "Burn surface area",
-    "option_b": "Timing of cleft lip repair (10 weeks, 10 lbs, 10 g hemoglobin)",
-    "option_c": "GCS score for head injury",
-    "option_d": "Maintenance fluid calculation",
-    "correct_answer": "B",
-    "explanation": "These are the traditional criteria to ensure an infant is stable enough for cleft lip surgery."
-  },
-  {
-    "question": "A child presents with 'Target' lesions on the skin after a Mycoplasma infection. Diagnosis?",
-    "option_a": "Impetigo",
-    "option_b": "Erythema Multiforme",
-    "option_c": "Urticaria",
-    "option_d": "Scarlet fever",
-    "correct_answer": "B",
-    "explanation": "Erythema multiforme is a reactive skin condition often triggered by infections like Mycoplasma or HSV."
-  },
-  {
-    "question": "Which type of fracture involves a 'crush' injury to the growth plate (Physis)?",
-    "option_a": "Salter-Harris Type I",
-    "option_b": "Salter-Harris Type V",
-    "option_c": "Salter-Harris Type II",
-    "option_d": "Greenstick fracture",
-    "correct_answer": "B",
-    "explanation": "Type V is a compression injury of the physis and has the worst prognosis for future bone growth."
-  },
-  {
-    "question": "What is the definitive treatment for 'Epiglottitis'?",
+    "question": "What is the primary treatment for 'Septic Shock' in a child?",
     "option_a": "Oral fluids",
-    "option_b": "Securing the airway and IV antibiotics (e.g., Ceftriaxone)",
-    "option_c": "Steroids only",
-    "option_d": "Bronchoscopy",
+    "option_b": "Aggressive IV fluid resuscitation (20 mL/kg boluses) and antibiotics",
+    "option_c": "Wait for blood cultures",
+    "option_d": "Steroids only",
     "correct_answer": "B",
-    "explanation": "Antibiotics target H. influenzae type b, the most common (though decreasing) cause."
+    "explanation": "Early fluid boluses and prompt broad-spectrum antibiotics are critical for survival in sepsis."
   },
   {
-    "question": "Which congenital condition presents with 'Macroglossia, Omphalocele, and Neonatal Hypoglycemia'?",
-    "option_a": "Down Syndrome",
-    "option_b": "Beckwith-Wiedemann Syndrome",
-    "option_c": "Turner Syndrome",
-    "option_d": "DiGeorge Syndrome",
-    "correct_answer": "B",
-    "explanation": "This overgrowth syndrome also carries an increased risk of Wilms tumor and hepatoblastoma."
-  },
-  {
-    "question": "What does 'APGAR' stand for?",
-    "option_a": "Appearance, Pulse, Grimace, Activity, Respiration",
-    "option_b": "Airway, Pulse, Gravity, Alertness, Reflex",
-    "option_c": "Age, Pressure, Growth, Appetite, Reaction",
-    "option_d": "Appearance, Pressure, Girth, Activity, Respiration",
+    "question": "Which of the following is true for 'Febrile Seizures'?",
+    "option_a": "They are usually benign and do not require daily anticonvulsant therapy",
+    "option_b": "They always lead to permanent brain damage",
+    "option_c": "They only occur in teenagers",
+    "option_d": "They occur without fever",
     "correct_answer": "A",
-    "explanation": "It is a standardized assessment of newborn transition at 1 and 5 minutes of life."
+    "explanation": "Simple febrile seizures are brief and common in children 6 months to 5 years, with an excellent prognosis."
   },
   {
-    "question": "Which of the following is the most common cause of 'Croup'?",
-    "option_a": "RSV",
-    "option_b": "Parainfluenza Virus",
-    "option_c": "H. influenzae",
-    "option_d": "Adenovirus",
+    "question": "A child presents with 'honey-colored' crusts on the face. Diagnosis?",
+    "option_a": "Cellulitis",
+    "option_b": "Impetigo",
+    "option_c": "Acne",
+    "option_d": "Fungal infection",
     "correct_answer": "B",
-    "explanation": "Parainfluenza type 1 is responsible for most seasonal outbreaks of Croup."
+    "explanation": "Impetigo is a superficial bacterial infection, classic for its golden-colored crusts."
   },
   {
-    "question": "A child presents with 'Paroxysmal' coughing fits followed by an inspiratory 'whoop'. Diagnosis?",
-    "option_a": "Asthma",
-    "option_b": "Pertussis",
-    "option_c": "Croup",
-    "option_d": "Foreign body",
+    "question": "What is the primary management for 'Moderate' dehydration in a child who can drink?",
+    "option_a": "IV bolus immediately",
+    "option_b": "Oral Rehydration Therapy (ORT)",
+    "option_c": "Clear water only",
+    "option_d": "Apple juice",
     "correct_answer": "B",
-    "explanation": "Bordetella pertussis causes these classic stages of cough."
+    "explanation": "ORT is the preferred treatment for mild-to-moderate dehydration in the absence of severe vomiting."
   },
   {
-    "question": "Which of the following is true for 'Milk protein allergy' in infants?",
-    "option_a": "It causes immediate weight gain",
-    "option_b": "It often presents with blood-streaked stools in an otherwise healthy infant",
-    "option_c": "It is treated with high-dose steroids",
-    "option_d": "It requires a sweat test",
+    "question": "Which of the following is a 'Cyanotic' heart defect?",
+    "option_a": "ASD",
+    "option_b": "Tetralogy of Fallot",
+    "option_c": "PDA",
+    "option_d": "VSD",
     "correct_answer": "B",
-    "explanation": "Eosinophilic proctocolitis due to milk/soy protein is a common cause of benign rectal bleeding in infants."
+    "explanation": "ToF involves a right-to-left shunt that leads to low systemic oxygen saturation."
   },
   {
-    "question": "What is the primary treatment for 'Hemolytic Uremic Syndrome' (HUS)?",
+    "question": "A child is able to climb stairs with alternating feet, copy a circle, and use 3-4 word sentences. Approximate age?",
+    "option_a": "2 years",
+    "option_b": "3 years",
+    "option_c": "4 years",
+    "option_d": "5 years",
+    "correct_answer": "B",
+    "explanation": "Riding a tricycle and copying a circle are hallmark 3-year-old milestones."
+  },
+  {
+    "question": "What is the 'Gold Standard' for the diagnosis of Cystic Fibrosis?",
+    "option_a": "Chest X-ray",
+    "option_b": "Sweat Chloride Test",
+    "option_c": "Sputum culture",
+    "option_d": "Fecal fat analysis",
+    "correct_answer": "B",
+    "explanation": "A high concentration of chloride in sweat confirms the diagnosis of CF."
+  },
+  {
+    "question": "Which of the following is characteristic of 'Nursemaid's Elbow'?",
+    "option_a": "Complete fracture of the radius",
+    "option_b": "Radial head subluxation, often after a pull on the arm",
+    "option_c": "Dislocation of the shoulder",
+    "option_d": "Septic arthritis",
+    "correct_answer": "B",
+    "explanation": "A sudden tug on a child's extended arm can cause the annular ligament to slip over the radial head."
+  },
+  {
+    "question": "A child presents with fever, parotitis (swollen jaw), and orchitis. Which virus?",
+    "option_a": "Measles",
+    "option_b": "Mumps",
+    "option_c": "Rubella",
+    "option_d": "Influenza",
+    "correct_answer": "B",
+    "explanation": "Mumps is a paramyxovirus that classically targets the parotid and salivary glands."
+  },
+  {
+    "question": "What is the definitive treatment for 'Testicular Torsion'?",
     "option_a": "Antibiotics",
-    "option_b": "Supportive care, including fluid management and dialysis if needed",
-    "option_c": "Aspirin",
-    "option_d": "IVIG",
+    "option_b": "Emergency surgical detorsion and orchiopexy",
+    "option_c": "Manual reduction only",
+    "option_d": "Observation",
     "correct_answer": "B",
-    "explanation": "Antibiotics are generally avoided as they may increase toxin release from the dying E. coli."
+    "explanation": "Torsion is a surgical emergency; the testicle must be untwisted within hours to avoid infarction."
   },
   {
-    "question": "Which vaccine is given to prevent 'Meningitis' caused by a specific encapsulated Gram-negative rod?",
-    "option_a": "PCV13",
-    "option_b": "Hib (Haemophilus influenzae type b)",
-    "option_c": "MMR",
-    "option_d": "Dtap",
+    "question": "Which congenital infection presents with 'snuffles' and a peeling rash on the palms and soles?",
+    "option_a": "Toxoplasmosis",
+    "option_b": "Congenital Syphilis",
+    "option_c": "Rubella",
+    "option_d": "CMV",
     "correct_answer": "B",
-    "explanation": "The Hib vaccine has nearly eliminated what was once the leading cause of childhood meningitis."
+    "explanation": "Early congenital syphilis presents with 'snuffles' (bloody rhinitis) and specific skin findings."
+  },
+  {
+    "question": "At what age should a child double their birth length?",
+    "option_a": "1 year",
+    "option_b": "4 years",
+    "option_c": "7 years",
+    "option_d": "10 years",
+    "correct_answer": "B",
+    "explanation": "Children typically reach double their birth height by 4 years of age."
+  },
+  {
+    "question": "Which of the following is true regarding 'Apgar scores'?",
+    "option_a": "They predict long-term neurological outcome",
+    "option_b": "They assess a newborn's immediate adjustment to extrauterine life",
+    "option_c": "They are only done once",
+    "option_d": "A score of 3 is normal",
+    "correct_answer": "B",
+    "explanation": "The Apgar score is a rapid screening tool performed at 1 and 5 minutes post-delivery."
   }
 ]
