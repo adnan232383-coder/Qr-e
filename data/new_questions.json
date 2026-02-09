@@ -1,452 +1,452 @@
 [
   {
-    "question": "A 68-year-old male presents with sudden onset of right-sided weakness and aphasia. Symptoms started 2 hours ago. Non-contrast Head CT is normal. What is the most appropriate next step in management?",
-    "option_a": "Start Aspirin 325 mg",
-    "option_b": "Evaluate for intravenous Alteplase (tPA) administration",
-    "option_c": "Perform a lumbar puncture to rule out SAH",
-    "option_d": "Repeat CT in 24 hours",
+    "question": "A 72-year-old male with atrial fibrillation presents with sudden onset of 'locked-in' syndrome. He is conscious and can move his eyes vertically, but all other motor functions are lost. Where is the most likely site of the lesion?",
+    "option_a": "Midbrain",
+    "option_b": "Pons (specifically the ventral pons)",
+    "option_c": "Medulla",
+    "option_d": "Internal capsule",
     "correct_answer": "B",
-    "explanation": "A normal CT rules out hemorrhage in an acute stroke. Since the patient is within the 3-4.5 hour window, IV thrombolysis is the treatment of choice if there are no contraindications."
+    "explanation": "Locked-in syndrome is caused by a lesion in the ventral pons, typically from a basilar artery stroke, sparing the reticular activating system and vertical eye movement centers."
   },
   {
-    "question": "Which of the following is the hallmark clinical feature of Parkinson's disease?",
-    "option_a": "Choreiform movements",
-    "option_b": "Resting 'pill-rolling' tremor, bradykinesia, and rigidity",
-    "option_c": "Intentional tremor and scanning speech",
-    "option_d": "Sudden drop attacks",
+    "question": "Which of the following is the most characteristic clinical feature of 'Dementia with Lewy Bodies' (DLB) that helps distinguish it from Alzheimer's disease?",
+    "option_a": "Sudden onset of memory loss",
+    "option_b": "Fluctuating cognition and detailed visual hallucinations",
+    "option_c": "Profound aphasia early in the course",
+    "option_d": "Unilateral resting tremor only",
     "correct_answer": "B",
-    "explanation": "Parkinsonism is defined by the triad of resting tremor, slowness of movement (bradykinesia), and lead-pipe or cogwheel rigidity."
+    "explanation": "Fluctuating alertness, visual hallucinations, and spontaneous parkinsonism are the core clinical features of DLB."
   },
   {
-    "question": "A 25-year-old female presents with episodic unilateral, throbbing headaches associated with nausea and photophobia. She mentions seeing 'flashing lights' before the pain starts. Diagnosis?",
-    "option_a": "Cluster headache",
-    "option_b": "Migraine with aura",
-    "option_c": "Tension-type headache",
-    "option_d": "Trigeminal neuralgia",
+    "question": "A 30-year-old female presents with episodic 'double vision' that is worse at the end of the day. On examination, she has an adduction deficit in the left eye and nystagmus in the right eye on rightward gaze. This finding is known as:",
+    "option_a": "Left CN III palsy",
+    "option_b": "Internuclear Ophthalmoplegia (INO) due to a Left Medial Longitudinal Fasciculus (MLF) lesion",
+    "option_c": "Left CN VI palsy",
+    "option_d": "Graves' ophthalmopathy",
     "correct_answer": "B",
-    "explanation": "Unilateral throbbing pain with nausea and sensory symptoms (aura) is the classic presentation of a migraine."
+    "explanation": "INO is characterized by impaired adduction of the ipsilateral eye and nystagmus of the abducting eye, classic for a lesion in the MLF, often seen in MS."
   },
   {
-    "question": "A patient presents with a 'blown pupil' (fixed and dilated) on the right side following a head injury. Which cranial nerve is likely being compressed?",
-    "option_a": "CN II",
-    "option_b": "CN III (Oculomotor)",
-    "option_c": "CN IV",
-    "option_d": "CN VI",
-    "correct_answer": "B",
-    "explanation": "Uncal herniation compresses CN III, paralyzing the parasympathetic fibers that control pupillary constriction."
-  },
-  {
-    "question": "Which of the following describes 'Status Epilepticus'?",
-    "option_a": "A seizure lasting more than 30 seconds",
-    "option_b": "A seizure lasting more than 5 minutes, or recurrent seizures without recovery in between",
-    "option_c": "A seizure followed by a long post-ictal period",
-    "option_d": "Any seizure involving loss of consciousness",
-    "correct_answer": "B",
-    "explanation": "Status epilepticus is a neurological emergency requiring aggressive intervention to prevent permanent brain damage."
-  },
-  {
-    "question": "What is the most common cause of 'Dementia' in the elderly population?",
-    "option_a": "Vascular dementia",
-    "option_b": "Alzheimer's Disease",
-    "option_c": "Lewy Body dementia",
-    "option_d": "Frontotemporal dementia",
-    "correct_answer": "B",
-    "explanation": "Alzheimer's accounts for approximately 60-80% of all dementia cases."
-  },
-  {
-    "question": "A patient presents with 'ascending' muscle weakness and loss of deep tendon reflexes following a diarrheal illness. What is the most likely diagnosis?",
-    "option_a": "Multiple Sclerosis",
-    "option_b": "Guillain-Barré Syndrome (GBS)",
-    "option_c": "Myasthenia Gravis",
-    "option_d": "Amyotrophic Lateral Sclerosis (ALS)",
-    "correct_answer": "B",
-    "explanation": "GBS is an acute post-infectious polyneuropathy characterized by ascending paralysis and areflexia."
-  },
-  {
-    "question": "Which of the following CSF findings is highly suggestive of Multiple Sclerosis (MS)?",
-    "option_a": "Low glucose and high protein",
-    "option_b": "Oligoclonal bands (IgG) and increased IgG index",
-    "option_c": "Presence of red blood cells",
-    "option_d": "High neutrophils",
-    "correct_answer": "B",
-    "explanation": "Oligoclonal bands represent intrathecal immunoglobulin production, a characteristic finding in MS."
-  },
-  {
-    "question": "A 70-year-old male presents with the 'worst headache of his life'. Non-contrast Head CT shows hyperdensity in the basal cisterns. Diagnosis?",
-    "option_a": "Ischemic stroke",
-    "option_b": "Subarachnoid Hemorrhage (SAH)",
-    "option_c": "Epidural hematoma",
-    "option_d": "Brain tumor",
-    "correct_answer": "B",
-    "explanation": "The 'thunderclap' headache and white (blood) in the cisterns/sulci are diagnostic for SAH, usually from a ruptured aneurysm."
-  },
-  {
-    "question": "What is the first-line pharmacological treatment for an acute 'Cluster Headache'?",
-    "option_a": "Propranolol",
-    "option_b": "100% High-flow Oxygen or subcutaneous Sumatriptan",
-    "option_c": "Aspirin",
-    "option_d": "Amitriptyline",
-    "correct_answer": "B",
-    "explanation": "Oxygen is highly effective for aborting cluster attacks, which are characterized by severe orbital pain."
-  },
-  {
-    "question": "Which cranial nerve is affected in 'Bell's Palsy', causing unilateral facial drooping that involves the forehead?",
-    "option_a": "CN V",
-    "option_b": "CN VII (Facial)",
-    "option_c": "CN III",
-    "option_d": "CN XII",
-    "correct_answer": "B",
-    "explanation": "A lower motor neuron lesion of the facial nerve affects all muscles of facial expression on one side, including the forehead."
-  },
-  {
-    "question": "A patient presents with 'fluctuating' muscle weakness that worsens with repetitive use and improves with rest. Ptosis is noted. What is the suspected pathology?",
-    "option_a": "Myelin destruction",
-    "option_b": "Autoantibodies against acetylcholine receptors at the neuromuscular junction",
-    "option_c": "Degeneration of upper motor neurons",
-    "option_d": "Peripheral nerve inflammation",
-    "correct_answer": "B",
-    "explanation": "This describes Myasthenia Gravis, where antibodies block or destroy ACh receptors."
-  },
-  {
-    "question": "Which of the following is a symptom of 'Wernicke's Encephalopathy'?",
-    "option_a": "Hypertension and fever",
-    "option_b": "Ophthalmoplegia, Ataxia, and Confusion",
-    "option_c": "Severe diarrhea and rash",
-    "option_d": "Sudden loss of hearing",
-    "correct_answer": "B",
-    "explanation": "Wernicke's is caused by thiamine (B1) deficiency, classic in alcohol use disorder."
-  },
-  {
-    "question": "A patient has a 'right-sided' homonymous hemianopsia. Where is the most likely site of the lesion?",
-    "option_a": "Right optic nerve",
-    "option_b": "Left optic tract",
-    "option_c": "Optic chiasm",
-    "option_d": "Left optic nerve",
-    "correct_answer": "B",
-    "explanation": "A lesion of the optic tract causes loss of vision in the opposite visual field of both eyes."
-  },
-  {
-    "question": "Which of the following is the definitive diagnostic test for 'Amyotrophic Lateral Sclerosis' (ALS)?",
-    "option_a": "Muscle biopsy",
-    "option_b": "Clinical diagnosis based on upper and lower motor neuron signs",
-    "option_c": "Genetic testing only",
-    "option_d": "Brain MRI",
-    "correct_answer": "B",
-    "explanation": "ALS is diagnosed clinically when there is evidence of progressive degeneration of both UMNs (spasticity/reflexes) and LMNs (atrophy/fasciculations)."
-  },
-  {
-    "question": "A patient with 'L-Dopa' induced dyskinesia is treated for Parkinson's. What is the mechanism of L-Dopa?",
-    "option_a": "Direct dopamine receptor agonist",
-    "option_b": "Precursor of dopamine that crosses the blood-brain barrier",
-    "option_c": "Inhibition of MAO-B",
-    "option_d": "Anticholinergic action",
-    "correct_answer": "B",
-    "explanation": "Dopamine itself cannot cross the BBB; Levodopa is transported into the brain and converted to dopamine."
-  },
-  {
-    "question": "Which form of 'Dementia' is characterized by early personality changes, disinhibition, and language dysfunction?",
-    "option_a": "Alzheimer's",
-    "option_b": "Frontotemporal Dementia (Pick's disease)",
-    "option_c": "Vascular dementia",
-    "option_d": "Creutzfeldt-Jakob",
-    "correct_answer": "B",
-    "explanation": "Frontal and temporal lobe atrophy leads to behavioral and executive dysfunction before memory loss."
-  },
-  {
-    "question": "A patient presents with 'scanning speech', 'intention tremor', and 'nystagmus' (Charcot's neurologic triad). This is classic for:",
-    "option_a": "Stroke",
-    "option_b": "Multiple Sclerosis",
-    "option_c": "Parkinson's",
-    "option_d": "ALS",
-    "correct_answer": "B",
-    "explanation": "This triad reflects cerebellar and brainstem involvement in MS."
-  },
-  {
-    "question": "What is the most appropriate first-line drug for a patient with 'Absence Seizures'?",
-    "option_a": "Phenytoin",
-    "option_b": "Ethosuximide",
-    "option_c": "Carbamazepine",
-    "option_d": "Diazepam",
-    "correct_answer": "B",
-    "explanation": "Ethosuximide is specific for absence (petit mal) seizures in children."
-  },
-  {
-    "question": "Which nerve is being tested when assessing the 'Gag Reflex'?",
-    "option_a": "CN VII and CN VIII",
-    "option_b": "CN IX (Glossopharyngeal) and CN X (Vagus)",
-    "option_c": "CN V and CN VII",
-    "option_d": "CN XII only",
-    "correct_answer": "B",
-    "explanation": "CN IX provides the sensory limb and CN X provides the motor limb of the gag reflex."
-  },
-  {
-    "question": "A patient with 'Bitemporal Hemianopsia' (loss of outer visual fields) most likely has a lesion at the:",
-    "option_a": "Left optic nerve",
-    "option_b": "Optic chiasm (e.g., Pituitary tumor)",
-    "option_c": "Right occipital lobe",
-    "option_d": "Left lateral geniculate nucleus",
-    "correct_answer": "B",
-    "explanation": "Pressure on the central optic chiasm affects the decussating fibers from the nasal retinas."
-  },
-  {
-    "question": "Which of the following is true regarding 'Essential Tremor'?",
-    "option_a": "It is a resting tremor",
-    "option_b": "It is a postural/action tremor that often improves with alcohol",
-    "option_c": "It is always associated with dementia",
-    "option_d": "It only occurs in one hand",
-    "correct_answer": "B",
-    "explanation": "Unlike Parkinson's, essential tremor occurs during movement or maintaining a posture."
-  },
-  {
-    "question": "What is the 'Gold Standard' for diagnosing a 'Brain Abscess'?",
-    "option_a": "Blood cultures",
-    "option_b": "Contrast-enhanced MRI",
-    "option_c": "Lumbar puncture",
-    "option_d": "Electroencephalogram (EEG)",
-    "correct_answer": "B",
-    "explanation": "MRI shows a characteristic ring-enhancing lesion with central necrosis and surrounding edema."
-  },
-  {
-    "question": "A patient presents with 'Ptosis', 'Miosis', and 'Anhidrosis'. What is the name of this triad?",
-    "option_a": "Cushing's triad",
-    "option_b": "Horner's Syndrome",
-    "option_c": "Wernicke's triad",
-    "option_d": "Virchow's triad",
-    "correct_answer": "B",
-    "explanation": "Horner's syndrome results from a disruption of the sympathetic pathway to the eye."
-  },
-  {
-    "question": "Which part of the brain is responsible for 'Expressive Aphasia' (Broca's Aphasia)?",
-    "option_a": "Superior temporal gyrus",
-    "option_b": "Inferior frontal gyrus of the dominant hemisphere",
-    "option_c": "Occipital lobe",
-    "option_d": "Postcentral gyrus",
-    "correct_answer": "B",
-    "explanation": "Broca's area is involved in speech production; damage results in slow, effortful speech."
-  },
-  {
-    "question": "What is the classic EEG finding in 'Creutzfeldt-Jakob Disease'?",
-    "option_a": "3 Hz spike-and-wave",
-    "option_b": "Periodic sharp wave complexes",
-    "option_c": "Diffuse slowing only",
-    "option_d": "Normal activity",
-    "correct_answer": "B",
-    "explanation": "Periodic complexes are highly characteristic of this rapidly progressive prion disease."
-  },
-  {
-    "question": "Which of the following is a 'Lower Motor Neuron' sign?",
-    "option_a": "Hyperreflexia",
-    "option_b": "Muscle atrophy and fasciculations",
-    "option_c": "Spasticity",
-    "option_d": "Babinski sign (upgoing toe)",
-    "correct_answer": "B",
-    "explanation": "LMN signs indicate damage to the motor neurons in the spinal cord or peripheral nerves."
-  },
-  {
-    "question": "In a patient with suspected 'Meningitis', a positive Kernig's sign is described as:",
-    "option_a": "Neck pain when the hips are flexed",
-    "option_b": "Resistance and pain when extending the knee with the hip flexed",
-    "option_c": "Involuntary flexion of the hips when the neck is flexed",
-    "option_d": "Dilation of the pupils",
-    "correct_answer": "B",
-    "explanation": "This maneuver stretches the inflamed meninges, causing pain and resistance."
-  },
-  {
-    "question": "Which of the following is the most common cause of 'Intracerebral Hemorrhage'?",
-    "option_a": "Trauma",
-    "option_b": "Chronic hypertension",
-    "option_c": "Amyloid angiopathy",
-    "option_d": "Ruptured aneurysm",
-    "correct_answer": "B",
-    "explanation": "Long-standing high blood pressure leads to the rupture of small deep-penetrating arteries (Charcot-Bouchard aneurysms)."
-  },
-  {
-    "question": "What is the definitive treatment for 'Temporal Arteritis' (Giant Cell Arteritis) to prevent blindness?",
-    "option_a": "Aspirin",
-    "option_b": "High-dose Corticosteroids",
-    "option_c": "Surgery",
-    "option_d": "Antibiotics",
-    "correct_answer": "B",
-    "explanation": "Immediate steroids are required to prevent ischemic optic neuropathy."
-  },
-  {
-    "question": "Which neurotransmitter is primarily depleted in 'Alzheimer's Disease'?",
-    "option_a": "Dopamine",
-    "option_b": "Acetylcholine",
-    "option_c": "Serotonin",
-    "option_d": "GABA",
-    "correct_answer": "B",
-    "explanation": "Loss of cholinergic neurons in the nucleus basalis of Meynert is a key feature, which is why AChE inhibitors are used in treatment."
-  },
-  {
-    "question": "A patient with 'Huntington's Disease' presents with chorea and cognitive decline. What is the genetic basis?",
-    "option_a": "Trisomy 21",
-    "option_b": "CAG repeat expansion in the HTT gene",
-    "option_c": "X-linked recessive",
-    "option_d": "Point mutation in p53",
-    "correct_answer": "B",
-    "explanation": "Huntington's is an autosomal dominant trinucleotide repeat disorder."
-  },
-  {
-    "question": "Which of the following describes 'Lhermitte's sign' in Multiple Sclerosis?",
-    "option_a": "Double vision",
-    "option_b": "An electric-shock sensation down the spine upon neck flexion",
-    "option_c": "Sudden loss of balance",
-    "option_d": "Difficulty swallowing",
-    "correct_answer": "B",
-    "explanation": "This sign indicates cervical spinal cord involvement (demyelination)."
-  },
-  {
-    "question": "A patient presents with a 'stepping gait' due to foot drop. Which nerve is likely injured?",
-    "option_a": "Femoral nerve",
-    "option_b": "Common Peroneal (Fibular) nerve",
-    "option_c": "Tibial nerve",
-    "option_d": "Obturator nerve",
-    "correct_answer": "B",
-    "explanation": "The common peroneal nerve supplies the dorsiflexors of the foot."
-  },
-  {
-    "question": "What is the 'Gold Standard' imaging for evaluating 'Cerebral Venous Sinus Thrombosis'?",
-    "option_a": "Non-contrast CT",
-    "option_b": "MRV (Magnetic Resonance Venography) or CTV",
-    "option_c": "Carotid Ultrasound",
-    "option_d": "Abdominal CT",
-    "correct_answer": "B",
-    "explanation": "Venography is required to visualize the filling defects in the dural sinuses."
-  },
-  {
-    "question": "Which of the following is true regarding 'Normal Pressure Hydrocephalus' (NPH)?",
-    "option_a": "It presents with the triad: Gait disturbance, Dementia, and Urinary Incontinence",
-    "option_b": "The opening pressure on LP is extremely high",
-    "option_c": "It only occurs in children",
-    "option_d": "It is caused by a brain tumor",
-    "correct_answer": "A",
-    "explanation": "Mnemonic: 'Wet, Wacky, and Wobbly'."
-  },
-  {
-    "question": "Which artery is most likely involved in a stroke presenting with 'contralateral leg' weakness more than arm/face weakness?",
-    "option_a": "Middle Cerebral Artery (MCA)",
-    "option_b": "Anterior Cerebral Artery (ACA)",
-    "option_c": "Posterior Cerebral Artery (PCA)",
-    "option_d": "Basilar Artery",
-    "correct_answer": "B",
-    "explanation": "The ACA supplies the medial aspect of the motor cortex, where the leg representation is located."
-  },
-  {
-    "question": "A patient presents with 'painless' weakness of the hands, fasciculations, and hyperreflexia. No sensory loss is noted. Diagnosis?",
-    "option_a": "Peripheral neuropathy",
-    "option_b": "Amyotrophic Lateral Sclerosis (ALS)",
-    "option_c": "Stroke",
-    "option_d": "MS",
-    "correct_answer": "B",
-    "explanation": "Combined UMN (hyperreflexia) and LMN (fasciculations) signs without sensory involvement is classic for ALS."
-  },
-  {
-    "question": "What is the primary medication used for 'Relapse' prevention in Relapsing-Remitting Multiple Sclerosis?",
-    "option_a": "Intravenous steroids",
-    "option_b": "Interferon-beta or Glatiramer acetate",
-    "option_c": "Dopamine",
-    "option_d": "Aspirin",
-    "correct_answer": "B",
-    "explanation": "Disease-modifying therapies (DMTs) are used to reduce the frequency of MS relapses."
-  },
-  {
-    "question": "Which of the following is a classic finding in 'Tabes Dorsalis' (Tertiary Syphilis)?",
-    "option_a": "Hyperreflexia",
-    "option_b": "Loss of vibration and position sense with Argyll Robertson pupils",
-    "option_c": "Chorea",
-    "option_d": "Muscle hypertrophy",
-    "correct_answer": "B",
-    "explanation": "Degeneration of the dorsal columns leads to sensory ataxia and impaired proprioception."
-  },
-  {
-    "question": "What is the mechanism of action of 'Sumatriptan' in migraine treatment?",
-    "option_a": "Beta-blocker",
-    "option_b": "5-HT 1B/1D receptor agonist (vasoconstriction)",
-    "option_c": "Calcium channel blocker",
-    "option_d": "Dopamine antagonist",
-    "correct_answer": "B",
-    "explanation": "Triptans cause selective vasoconstriction of cranial vessels and inhibit proinflammatory neuropeptide release."
-  },
-  {
-    "question": "A patient presents with 'double vision' that is worse when looking down (e.g., walking down stairs). Which cranial nerve is affected?",
-    "option_a": "CN III",
-    "option_b": "CN IV (Trochlear)",
-    "option_c": "CN VI",
-    "option_d": "CN II",
-    "correct_answer": "B",
-    "explanation": "CN IV supplies the superior oblique muscle, which depresses and intorts the eye."
-  },
-  {
-    "question": "Which of the following describes 'Todd's Paralysis'?",
-    "option_a": "Permanent paralysis after a stroke",
-    "option_b": "Transient focal neurological deficit (like hemiparesis) following a seizure",
-    "option_c": "A type of muscular dystrophy",
-    "option_d": "Sleep paralysis",
-    "correct_answer": "B",
-    "explanation": "Todd's paralysis usually lasts for minutes to hours and resolves completely."
-  },
-  {
-    "question": "What is the treatment of choice for 'Trigeminal Neuralgia'?",
-    "option_a": "Morphine",
+    "question": "What is the medication of choice for the prevention of 'Trigeminal Neuralgia' recurrences?",
+    "option_a": "Gabapentin",
     "option_b": "Carbamazepine",
-    "option_c": "High-flow oxygen",
-    "option_d": "Aspirin",
+    "option_c": "Amitriptyline",
+    "option_d": "Sumatriptan",
     "correct_answer": "B",
-    "explanation": "Carbamazepine is highly effective for the paroxysmal 'electric shock' pain of CN V neuralgia."
+    "explanation": "Carbamazepine is the first-line gold standard for treating the sharp, electric-shock pain of trigeminal neuralgia."
   },
   {
-    "question": "In a patient with 'Myasthenia Gravis', a 'Myasthenic Crisis' is primarily characterized by:",
-    "option_a": "Severe headache",
-    "option_b": "Respiratory failure due to diaphragm weakness",
-    "option_c": "Uncontrollable tremors",
-    "option_d": "High fever",
+    "question": "A patient presents with a 'cape-like' loss of pain and temperature sensation across the shoulders and arms, but touch and vibration sense are preserved. What is the suspected condition?",
+    "option_a": "Brown-Séquard syndrome",
+    "option_b": "Syringomyelia",
+    "option_c": "Central cord syndrome",
+    "option_d": "Multiple Sclerosis",
     "correct_answer": "B",
-    "explanation": "Crisis requires urgent intubation and treatment with IVIG or Plasmapheresis."
+    "explanation": "A syrinx in the cervical spinal cord interrupts the decussating spinothalamic fibers, causing a dissociated sensory loss in a 'cape' distribution."
   },
   {
-    "question": "Which anatomical structure is the primary site of damage in 'Multiple Sclerosis'?",
-    "option_a": "The axon itself",
-    "option_b": "The myelin sheath in the CNS",
-    "option_c": "The cell body of the neuron",
-    "option_d": "The muscle fiber",
+    "question": "Which of the following is an absolute contraindication to performing a lumbar puncture?",
+    "option_a": "Fever and neck stiffness",
+    "option_b": "Evidence of a space-occupying lesion with mass effect on CT",
+    "option_c": "Suspected subarachnoid hemorrhage with a negative CT",
+    "option_d": "Known history of multiple sclerosis",
     "correct_answer": "B",
-    "explanation": "MS is an autoimmune inflammatory disease that causes focal demyelination."
+    "explanation": "A lumbar puncture in the presence of increased intracranial pressure and mass effect can precipitate fatal brain herniation."
   },
   {
-    "question": "A patient presents with 'painless' loss of vision in one eye and an 'Afferent Pupillary Defect' (Marcus Gunn pupil). Diagnosis?",
-    "option_a": "Cataract",
-    "option_b": "Optic Neuritis",
-    "option_c": "Glaucoma",
-    "option_d": "Retinal detachment",
+    "question": "What is the most appropriate first-line treatment for a patient with an acute exacerbation (relapse) of Multiple Sclerosis?",
+    "option_a": "Interferon-beta",
+    "option_b": "High-dose intravenous Methylprednisolone",
+    "option_c": "Plasmapheresis",
+    "option_d": "Cyclophosphamide",
     "correct_answer": "B",
-    "explanation": "Optic neuritis is often the first manifestation of Multiple Sclerosis."
+    "explanation": "IV steroids accelerate recovery from an acute relapse by reducing inflammation and edema, though they do not change long-term outcomes."
   },
   {
-    "question": "What is the primary diagnostic find in 'Lambert-Eaton Myasthenic Syndrome'?",
-    "option_a": "Antibodies against postsynaptic ACh receptors",
-    "option_b": "Antibodies against presynaptic voltage-gated calcium channels",
-    "option_c": "Muscle fiber necrosis",
-    "option_d": "Brain atrophy",
-    "correct_answer": "B",
-    "explanation": "Often paraneoplastic (e.g., small cell lung cancer), LEMS causes weakness that improves with exercise."
+    "question": "A patient presents with sudden onset of severe vertigo, nausea, hoarseness, and loss of pain/temperature on the right side of the face and left side of the body. Where is the stroke located?",
+    "option_a": "Right Lateral Medulla (Wallenberg Syndrome)",
+    "option_b": "Left Pons",
+    "option_c": "Right Midbrain",
+    "option_d": "Left Thalamus",
+    "correct_answer": "A",
+    "explanation": "Wallenberg syndrome (usually from PICA occlusion) causes crossed sensory loss, cerebellar signs, and cranial nerve (IX, X) deficits."
   },
   {
-    "question": "Which of the following is true for 'Generalized Tonic-Clonic Seizures'?",
-    "option_a": "The patient remains conscious",
-    "option_b": "Involves sudden loss of consciousness, muscle rigidity (tonic), followed by rhythmic jerking (clonic)",
-    "option_c": "Only involves the hand",
-    "option_d": "Always lasts more than 1 hour",
+    "question": "Which anti-epileptic drug is notorious for causing 'Gingival Hyperplasia' and 'Hirsutism'?",
+    "option_a": "Valproic acid",
+    "option_b": "Phenytoin",
+    "option_c": "Levetiracetam",
+    "option_d": "Ethosuximide",
     "correct_answer": "B",
-    "explanation": "This is the classic 'grand mal' seizure pattern."
+    "explanation": "Chronic phenytoin use is associated with gum overgrowth, hair growth, and coarsening of facial features."
   },
   {
-    "question": "The 'Dix-Hallpike maneuver' is used to diagnose which condition?",
-    "option_a": "Stroke",
-    "option_b": "Benign Paroxysmal Positional Vertigo (BPPV)",
-    "option_c": "Multiple Sclerosis",
+    "question": "A 55-year-old male presents with rapidly progressive cognitive decline and startle myoclonus. CSF testing for the 14-3-3 protein is positive. Diagnosis?",
+    "option_a": "Alzheimer's",
+    "option_b": "Creutzfeldt-Jakob Disease (CJD)",
+    "option_c": "Vascular dementia",
+    "option_d": "Normal Pressure Hydrocephalus",
+    "correct_answer": "B",
+    "explanation": "Rapidly progressive dementia, myoclonus, and the 14-3-3 protein marker are hallmarks of the prion disease CJD."
+  },
+  {
+    "question": "Which of the following describes 'Kernig's sign'?",
+    "option_a": "Neck flexion causes spontaneous hip flexion",
+    "option_b": "Pain and resistance when extending the knee while the hip is flexed to 90 degrees",
+    "option_c": "Pain on tapping the facial nerve",
+    "option_d": "Dilation of pupils on neck extension",
+    "correct_answer": "B",
+    "explanation": "Kernig's sign is a clinical test for meningeal irritation, such as in meningitis or subarachnoid hemorrhage."
+  },
+  {
+    "question": "What is the primary mechanism of action of 'Donepezil' in the treatment of Alzheimer's disease?",
+    "option_a": "NMDA receptor antagonist",
+    "option_b": "Acetylcholinesterase inhibitor",
+    "option_c": "Dopamine agonist",
+    "option_d": "MAO-B inhibitor",
+    "correct_answer": "B",
+    "explanation": "Donepezil increases the concentration of acetylcholine in the synaptic cleft by preventing its breakdown."
+  },
+  {
+    "question": "A patient with 'Brown-Séquard Syndrome' at the T10 level will have which of the following findings?",
+    "option_a": "Contralateral loss of vibration and position sense",
+    "option_b": "Ipsilateral loss of motor function and contralateral loss of pain/temperature",
+    "option_c": "Bilateral loss of all sensation",
+    "option_d": "Complete paralysis of the arms",
+    "correct_answer": "B",
+    "explanation": "Hemisection of the spinal cord results in ipsilateral motor and dorsal column loss, and contralateral spinothalamic loss below the lesion."
+  },
+  {
+    "question": "Which neurotransmitter is primarily lost in the striatum of a patient with 'Huntington's Disease'?",
+    "option_a": "Dopamine",
+    "option_b": "GABA",
+    "option_c": "Acetylcholine",
+    "option_d": "Norepinephrine",
+    "correct_answer": "B",
+    "explanation": "Loss of GABAergic inhibitory neurons in the caudate and putamen leads to the characteristic chorea of Huntington's."
+  },
+  {
+    "question": "Which of the following is true regarding 'Myasthenic Crisis' compared to 'Cholinergic Crisis'?",
+    "option_a": "Myasthenic crisis improves with Edrophonium (Tensilon)",
+    "option_b": "Cholinergic crisis improves with more pyridostigmine",
+    "option_c": "They are clinically identical and cannot be differentiated",
+    "option_d": "Neither involves respiratory failure",
+    "correct_answer": "A",
+    "explanation": "A myasthenic crisis is caused by insufficient ACh; the Tensilon test (though rarely used now) provides temporary improvement."
+  },
+  {
+    "question": "A patient with 'Subacute Combined Degeneration' of the spinal cord most likely has a deficiency in which vitamin?",
+    "option_a": "Vitamin B1 (Thiamine)",
+    "option_b": "Vitamin B12 (Cobalamin)",
+    "option_c": "Vitamin B6",
+    "option_d": "Vitamin E",
+    "correct_answer": "B",
+    "explanation": "B12 deficiency causes demyelination of the dorsal columns and lateral corticospinal tracts."
+  },
+  {
+    "question": "What is the triad of symptoms in 'Normal Pressure Hydrocephalus'?",
+    "option_a": "Headache, vomiting, papilledema",
+    "option_b": "Gait ataxia, urinary incontinence, and dementia",
+    "option_c": "Tremor, rigidity, bradykinesia",
+    "option_d": "Fever, rash, stiff neck",
+    "correct_answer": "B",
+    "explanation": "Classically described as 'Wet, Wacky, and Wobbly'."
+  },
+  {
+    "question": "A patient presents with sudden, unilateral, severe facial pain triggered by chewing or cold wind. The pain lasts a few seconds and feels like an electric shock. Diagnosis?",
+    "option_a": "Cluster headache",
+    "option_b": "Trigeminal Neuralgia",
+    "option_c": "Temporal arteritis",
+    "option_d": "Bell's palsy",
+    "correct_answer": "B",
+    "explanation": "Trigeminal neuralgia involves paroxysms of severe pain in the distribution of CN V."
+  },
+  {
+    "question": "Which part of the brain is damaged in a patient with 'Wernicke's Aphasia'?",
+    "option_a": "Inferior frontal gyrus",
+    "option_b": "Superior temporal gyrus (dominant hemisphere)",
+    "option_c": "Occipital lobe",
+    "option_d": "Cerebellum",
+    "correct_answer": "B",
+    "explanation": "Wernicke's area is responsible for language comprehension; damage leads to 'word salad' (fluent but nonsensical speech)."
+  },
+  {
+    "question": "A 40-year-old male smoker presents with daily, strictly unilateral headaches behind the eye, associated with ptosis and lacrimation. Each episode lasts 45 minutes. Diagnosis?",
+    "option_a": "Migraine",
+    "option_b": "Cluster Headache",
+    "option_c": "Tension headache",
     "option_d": "Brain tumor",
     "correct_answer": "B",
-    "explanation": "The maneuver triggers characteristic nystagmus and vertigo in patients with canalolithiasis."
+    "explanation": "Cluster headaches are severe, orbital, unilateral, and associated with autonomic symptoms (Horner-like)."
+  },
+  {
+    "question": "Which neurological condition is associated with a 'step-wise' decline in cognitive function?",
+    "option_a": "Alzheimer's",
+    "option_b": "Vascular Dementia",
+    "option_c": "Parkinson's",
+    "option_d": "Depression",
+    "correct_answer": "B",
+    "explanation": "Vascular dementia decline often follows a series of small, cumulative infarcts (multi-infarct dementia)."
+  },
+  {
+    "question": "What is the definitive diagnostic find in 'Multiple Sclerosis' according to the McDonald Criteria?",
+    "option_a": "A single white matter lesion",
+    "option_b": "Dissemination in time and space (lesions in different locations and at different times)",
+    "option_c": "A positive blood culture",
+    "option_d": "Muscle biopsy showing inflammation",
+    "correct_answer": "B",
+    "explanation": "MS requires evidence of more than one demyelinating event in different areas of the CNS."
+  },
+  {
+    "question": "A patient presents with an 'Argyll Robertson Pupil'. This pupil is characterized by:",
+    "option_a": "No reaction to light but constricts with accommodation",
+    "option_b": "Constricts with light but no accommodation",
+    "option_c": "Permanently dilated",
+    "option_d": "Permanently constricted",
+    "correct_answer": "A",
+    "explanation": "Classic for neurosyphilis, the 'prostitute's pupil' accommodates but does not react."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Wilson's Disease'?",
+    "option_a": "Cherry-red spot on the macula",
+    "option_b": "Kayser-Fleischer rings in the cornea",
+    "option_c": "Cataracts",
+    "option_d": "Papilledema",
+    "correct_answer": "B",
+    "explanation": "Copper deposition in Descemet's membrane of the cornea creates these characteristic golden-brown rings."
+  },
+  {
+    "question": "What is the most common cause of 'Cerebral Embolism' leading to an ischemic stroke?",
+    "option_a": "Carotid artery plaque",
+    "option_b": "Atrial Fibrillation",
+    "option_c": "Endocarditis",
+    "option_d": "DVT",
+    "correct_answer": "B",
+    "explanation": "AFib causes stasis in the left atrium, allowing for clot formation that can embolize to the brain."
+  },
+  {
+    "question": "A patient presents with 'ptosis', 'diplopia', and muscle weakness that improves with an ice pack. Diagnosis?",
+    "option_a": "Eaton-Lambert",
+    "option_b": "Myasthenia Gravis",
+    "option_c": "Botulism",
+    "option_d": "Stroke",
+    "correct_answer": "B",
+    "explanation": "The 'ice pack test' improves neuromuscular transmission in Myasthenia Gravis by inhibiting acetylcholinesterase."
+  },
+  {
+    "question": "Which nerve is being tested when asking a patient to stick out their tongue?",
+    "option_a": "CN VII",
+    "option_b": "CN XII (Hypoglossal)",
+    "option_c": "CN X",
+    "option_d": "CN IX",
+    "correct_answer": "B",
+    "explanation": "CN XII provides motor innervation to the tongue; a lesion causes deviation toward the side of the lesion."
+  },
+  {
+    "question": "A patient has a 'left-sided' homonymous hemianopsia. This indicates a lesion in the:",
+    "option_a": "Left optic nerve",
+    "option_b": "Right optic tract",
+    "option_c": "Optic chiasm",
+    "option_d": "Right lateral geniculate nucleus",
+    "correct_answer": "B",
+    "explanation": "A lesion posterior to the chiasm on the right affects the left visual field of both eyes."
+  },
+  {
+    "question": "What is the treatment of choice for 'Absence Seizures' in children?",
+    "option_a": "Valproic acid",
+    "option_b": "Ethosuximide",
+    "option_c": "Phenobarbital",
+    "option_d": "Phenytoin",
+    "correct_answer": "B",
+    "explanation": "Ethosuximide is the first-line and most specific drug for absence (petit mal) epilepsy."
+  },
+  {
+    "question": "Which of the following is true for 'L-Dopa' treatment in Parkinson's?",
+    "option_a": "It is always combined with Carbidopa to prevent peripheral conversion to dopamine",
+    "option_b": "It is a permanent cure",
+    "option_c": "It has no side effects",
+    "option_d": "It can be taken with a high-protein meal for best absorption",
+    "correct_answer": "A",
+    "explanation": "Carbidopa inhibits DOPA decarboxylase only in the periphery, increasing the amount of L-Dopa reaching the brain."
+  },
+  {
+    "question": "A patient presents with headache, high fever, and photophobia. Brudzinski's sign is positive. What is the next most important diagnostic step?",
+    "option_a": "Head CT",
+    "option_b": "Lumbar puncture and CSF analysis",
+    "option_c": "Blood cultures",
+    "option_d": "MRI",
+    "correct_answer": "B",
+    "explanation": "CSF analysis is essential to confirm meningitis and identify the causative organism (bacterial vs viral)."
+  },
+  {
+    "question": "Which anatomical structure is responsible for the 'resting tremor' in Parkinson's disease?",
+    "option_a": "Cerebellum",
+    "option_b": "Basal Ganglia (specifically the Substantia Nigra)",
+    "option_c": "Motor Cortex",
+    "option_d": "Thalamus",
+    "correct_answer": "B",
+    "explanation": "Degeneration of dopaminergic neurons in the substantia nigra pars compacta is the primary pathology."
+  },
+  {
+    "question": "A patient with 'Tic Douloureux' has which of the following?",
+    "option_a": "Severe facial spasms",
+    "option_b": "Trigeminal Neuralgia",
+    "option_c": "Bells Palsy",
+    "option_d": "Migraine",
+    "correct_answer": "B",
+    "explanation": "Tic douloureux is the historical name for trigeminal neuralgia."
+  },
+  {
+    "question": "Which of the following describes 'Astereognosis'?",
+    "option_a": "Inability to speak",
+    "option_b": "Inability to recognize objects by touch",
+    "option_c": "Inability to walk",
+    "option_d": "Inability to see one half of the visual field",
+    "correct_answer": "B",
+    "explanation": "This indicates a lesion in the parietal lobe, specifically the somatosensory association cortex."
+  },
+  {
+    "question": "What is the primary medication used to treat an 'Acute Migraine' in the ER?",
+    "option_a": "Propranolol",
+    "option_b": "Triptans (e.g., Sumatriptan) or IV NSAIDs/antiemetics",
+    "option_c": "Antibiotics",
+    "option_d": "Dopamine",
+    "correct_answer": "B",
+    "explanation": "Abortive therapy focuses on serotonergic agonists or anti-inflammatory drugs."
+  },
+  {
+    "question": "A patient on 'Warfarin' presents with sudden, severe headache and vomiting. INR is 4.5. Head CT shows a large lobar hemorrhage. What is the immediate treatment to reverse anticoagulation?",
+    "option_a": "Vitamin K only",
+    "option_b": "Prothrombin Complex Concentrate (PCC) and Vitamin K",
+    "option_c": "Heparin",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "PCC provides rapid reversal of coagulation factors, while Vitamin K provides a sustained effect."
+  },
+  {
+    "question": "Which of the following is true regarding 'Frontotemporal Dementia'?",
+    "option_a": "Memory loss is the first symptom",
+    "option_b": "Personality changes and disinhibition occur early",
+    "option_c": "It is caused by strokes",
+    "option_d": "It only occurs in patients over 90",
+    "correct_answer": "B",
+    "explanation": "Unlike Alzheimer's, behavioral symptoms often precede significant memory deficits in Pick's disease."
+  },
+  {
+    "question": "A patient presents with 'scanning speech', 'intention tremor', and 'nystagmus'. This is known as:",
+    "option_a": "Cushing's triad",
+    "option_b": "Charcot's Neurologic Triad",
+    "option_c": "Wernicke's triad",
+    "option_d": "Beck's triad",
+    "correct_answer": "B",
+    "explanation": "This triad is highly suggestive of Multiple Sclerosis."
+  },
+  {
+    "question": "Which of the following is an 'Upper Motor Neuron' sign?",
+    "option_a": "Fasciculations",
+    "option_b": "Hyperreflexia and spasticity",
+    "option_c": "Muscle atrophy",
+    "option_d": "Areflexia",
+    "correct_answer": "B",
+    "explanation": "UMN lesions remove the inhibitory control of the spinal cord, leading to increased reflexes and muscle tone."
+  },
+  {
+    "question": "The 'Babinski Sign' (dorsiflexion of the big toe) is normal in which population?",
+    "option_a": "Adults over 70",
+    "option_b": "Infants under age 1-2",
+    "option_c": "Pregnant women",
+    "option_d": "It is never normal",
+    "correct_answer": "B",
+    "explanation": "Due to incomplete myelination of the corticospinal tracts, a positive Babinski is normal in very young children."
+  },
+  {
+    "question": "A patient presents with 'painless' loss of vision in one eye and 'shades coming down'. No other symptoms. Diagnosis?",
+    "option_a": "Optic neuritis",
+    "option_b": "Amaurosis Fugax",
+    "option_c": "Glaucoma",
+    "option_d": "Stroke",
+    "correct_answer": "B",
+    "explanation": "Transient monocular vision loss is often a TIA involving the retinal artery."
+  },
+  {
+    "question": "Which of the following is a classic EEG finding for 'Petit Mal' (Absence) seizures?",
+    "option_a": "3 Hz spike-and-wave complexes",
+    "option_b": "Periodic sharp waves",
+    "option_c": "Focal spikes",
+    "option_d": "Flat line",
+    "correct_answer": "A",
+    "explanation": "This generalized EEG pattern is diagnostic for childhood absence epilepsy."
+  },
+  {
+    "question": "What is the primary side effect of the anti-epileptic drug 'Valproic Acid'?",
+    "option_a": "Kidney stones",
+    "option_b": "Hepatotoxicity and weight gain",
+    "option_c": "Insomnia",
+    "option_d": "Tendon rupture",
+    "correct_answer": "B",
+    "explanation": "Valproate carries risks of liver damage, weight gain, and is highly teratogenic."
+  },
+  {
+    "question": "Which anatomical landmark separates the 'Upper' from 'Lower' motor neurons?",
+    "option_a": "The brainstem",
+    "option_b": "The anterior horn of the spinal cord",
+    "option_c": "The motor cortex",
+    "option_d": "The muscle",
+    "correct_answer": "B",
+    "explanation": "The synapse in the anterior horn is the point of transition from UMN to LMN."
+  },
+  {
+    "question": "A patient has a 'shuffling gait' and 'masked facies'. Which neurotransmitter is lacking?",
+    "option_a": "Acetylcholine",
+    "option_b": "Dopamine",
+    "option_c": "Serotonin",
+    "option_d": "Glutamate",
+    "correct_answer": "B",
+    "explanation": "These are core signs of Parkinson's disease due to dopamine deficiency."
+  },
+  {
+    "question": "Which of the following describes 'Romberg's Sign'?",
+    "option_a": "The patient falls when standing with eyes closed",
+    "option_b": "The patient falls when standing with eyes open",
+    "option_c": "Tremor when reaching for an object",
+    "option_d": "Weakness of the hands",
+    "correct_answer": "A",
+    "explanation": "A positive Romberg indicates a loss of proprioception (dorsal column disease), not cerebellar disease."
+  },
+  {
+    "question": "What is the first-line treatment for 'Status Epilepticus' in the hospital setting?",
+    "option_a": "Phenytoin",
+    "option_b": "Benzodiazepines (e.g., Lorazepam)",
+    "option_c": "Valproate",
+    "option_d": "Propofol",
+    "correct_answer": "B",
+    "explanation": "Benzodiazepines are the fastest-acting drugs to stop an ongoing seizure."
+  },
+  {
+    "question": "Which of the following is true regarding 'Myasthenia Gravis'?",
+    "option_a": "Weakness is worse in the morning",
+    "option_b": "Weakness is worse with activity and improves with rest",
+    "option_c": "It causes permanent muscle atrophy",
+    "option_d": "It only affects the legs",
+    "correct_answer": "B",
+    "explanation": "Fatigability is the hallmark; ACh receptors are blocked or degraded as the day progresses."
+  },
+  {
+    "question": "A patient with 'Bell's Palsy' cannot close their right eye. Which nerve is affected?",
+    "option_a": "Right CN III",
+    "option_b": "Right CN VII (Facial)",
+    "option_c": "Right CN V",
+    "option_d": "Left CN VII",
+    "correct_answer": "B",
+    "explanation": "CN VII supplies the orbicularis oculi muscle, which is responsible for closing the eyelid."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Cushing's Triad' in a patient with increased ICP?",
+    "option_a": "Tachycardia and hypotension",
+    "option_b": "Bradycardia, hypertension, and irregular respirations",
+    "option_c": "Fever and rash",
+    "option_d": "Hypoglycemia",
+    "correct_answer": "B",
+    "explanation": "Cushing's triad is a physiological indicator of impending brain herniation."
   }
 ]
