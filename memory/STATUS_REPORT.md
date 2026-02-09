@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://med-qbank-import.preview.emergentagent.com |
-| Admin Panel | https://med-qbank-import.preview.emergentagent.com/admin/progress |
-| API Docs | https://med-qbank-import.preview.emergentagent.com/api/docs |
+| Frontend | https://mcq-medical-db.preview.emergentagent.com |
+| Admin Panel | https://mcq-medical-db.preview.emergentagent.com/admin/progress |
+| API Docs | https://mcq-medical-db.preview.emergentagent.com/api/docs |
 
 ---
 
