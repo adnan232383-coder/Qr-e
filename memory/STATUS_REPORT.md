@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://doctor-prep-app.preview.emergentagent.com |
-| Admin Panel | https://doctor-prep-app.preview.emergentagent.com/admin/progress |
-| API Docs | https://doctor-prep-app.preview.emergentagent.com/api/docs |
+| Frontend | https://question-bank-import-1.preview.emergentagent.com |
+| Admin Panel | https://question-bank-import-1.preview.emergentagent.com/admin/progress |
+| API Docs | https://question-bank-import-1.preview.emergentagent.com/api/docs |
 
 ---
 
