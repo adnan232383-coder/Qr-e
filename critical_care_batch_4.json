@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 45-year-old female is found unconscious after an intentional overdose of an unknown substance. Her ABG shows a high anion gap metabolic acidosis and a high osmolar gap. Physical exam reveals optic disc hyperemia. What is the most likely toxin?",
+    "option_a": "Ethylene glycol",
+    "option_b": "Methanol",
+    "option_c": "Isopropanol",
+    "option_d": "Ethanol",
+    "correct_answer": "B",
+    "explanation": "Methanol metabolism produces formic acid, which is toxic to the optic nerve and causes the classic 'snowstorm' vision and optic disc changes."
+  },
+  {
+    "question": "Which of the following is a mandatory prerequisite before performing a clinical 'Apnea Test' for the determination of brain death?",
+    "option_a": "The patient must be hypothermic (< 32°C)",
+    "option_b": "The patient must be normothermic (core temp ≥ 36.5°C) and hemodynamically stable",
+    "option_c": "The patient must have a PaCO2 of 60 mmHg before starting",
+    "option_d": "The patient must be on high doses of sedatives",
+    "correct_answer": "B",
+    "explanation": "Brain death exams require the absence of confounding factors like hypothermia, hypotension, or drug effects that could mimic brain death."
+  },
+  {
+    "question": "A patient in the ICU has a GCS of 6 (E2, V2, M2). What is the most appropriate next step regarding the airway?",
+    "option_a": "Observe with a non-rebreather mask",
+    "option_b": "Endotracheal intubation for airway protection",
+    "option_c": "Oral airway and suctioning only",
+    "option_d": "Wait for the family's permission",
+    "correct_answer": "B",
+    "explanation": "A GCS ≤ 8 typically indicates an inability to protect the airway, requiring definitive management with intubation."
+  },
+  {
+    "question": "What does the 'APACHE II' score primarily predict in the ICU setting?",
+    "option_a": "Risk of long-term disability",
+    "option_b": "In-hospital mortality based on the first 24 hours of admission",
+    "option_c": "Success of extubation",
+    "option_d": "Type of bacteria causing sepsis",
+    "correct_answer": "B",
+    "explanation": "APACHE II is a severity-of-disease classification system used to predict the probability of death for ICU patients."
+  },
+  {
+    "question": "Which of the following is true regarding 'Withdrawing' vs. 'Withholding' life-sustaining treatment?",
+    "option_a": "Withdrawing is legally and ethically worse than withholding",
+    "option_b": "There is no ethical or legal distinction between the two in modern medical ethics",
+    "option_c": "Only a judge can decide to withdraw a ventilator",
+    "option_d": "Withholding is always illegal",
+    "correct_answer": "B",
+    "explanation": "Clinically and ethically, if a treatment is no longer beneficial or goes against a patient's wishes, stopping it (withdrawing) is considered equivalent to not starting it (withholding)."
+  },
+  {
+    "question": "A patient with severe 'Tricyclic Antidepressant' (TCA) overdose has a QRS duration of 140 ms. What is the pharmacological goal of treatment?",
+    "option_a": "To lower the blood pH to 7.0",
+    "option_b": "To maintain a serum pH of 7.45 - 7.55 using Sodium Bicarbonate",
+    "option_c": "To decrease heart rate to 50 bpm",
+    "option_d": "To increase potassium levels",
+    "correct_answer": "B",
+    "explanation": "Alkalinization and increased sodium concentration help overcome the TCA-induced blockade of fast sodium channels in the heart."
+  },
+  {
+    "question": "Which of the following describes the 'Doll's Eyes' (Oculocephalic) reflex in a brain-dead patient?",
+    "option_a": "The eyes move in the opposite direction of the head turn",
+    "option_b": "The eyes remain fixed in the mid-position (Negative reflex)",
+    "option_c": "The eyes blink rapidly",
+    "option_d": "The pupils dilate",
+    "correct_answer": "B",
+    "explanation": "The absence of the oculocephalic reflex (eyes move with the head like they are painted on) indicates brainstem dysfunction."
+  },
+  {
+    "question": "What is the medication of choice for 'Hypertensive Emergency' with acute aortic dissection?",
+    "option_a": "Hydralazine only",
+    "option_b": "Esmolol followed by Nitroprusside (to avoid reflex tachycardia)",
+    "option_c": "High-dose Aspirin",
+    "option_d": "Oral Lisinopril",
+    "correct_answer": "B",
+    "explanation": "In dissection, it is critical to lower both blood pressure AND the heart rate (dP/dt) to reduce shearing forces on the aortic wall."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Amniotic Fluid Embolism'?",
+    "option_a": "Gradual weight gain",
+    "option_b": "Sudden cardiovascular collapse, DIC, and respiratory failure during or shortly after labor",
+    "option_c": "High fever for 1 week",
+    "option_d": "Itching on the palms",
+    "correct_answer": "B",
+    "explanation": "AFE is a rare but catastrophic 'anaphylactoid syndrome' of pregnancy with extremely high mortality."
+  },
+  {
+    "question": "In 'Hyperkalemic Cardiac Arrest', what is the first drug that should be given during ACLS?",
+    "option_a": "Insulin",
+    "option_b": "Calcium Chloride or Gluconate",
+    "option_c": "Bicarbonate",
+    "option_d": "Albuterol",
+    "correct_answer": "B",
+    "explanation": "Calcium is the only agent that provides immediate stabilization of the cardiac myocyte membrane."
+  },
+  {
+    "question": "What is the significance of 'Hyperchloremia' (Cl- > 110 mEq/L) in a critically ill patient?",
+    "option_a": "It indicates a viral infection",
+    "option_b": "It is associated with an increased risk of Acute Kidney Injury and metabolic acidosis",
+    "option_c": "It makes the patient feel very energetic",
+    "option_d": "It is a normal finding with any IV fluid",
+    "correct_answer": "B",
+    "explanation": "Excess chloride, often from Normal Saline, causes renal afferent arteriolar vasoconstriction and reduces GFR."
+  },
+  {
+    "question": "A patient presents with 'lead-pipe' rigidity, high fever, and altered mental status. They take Haloperidol. What is the drug of choice for muscle relaxation in this condition?",
+    "option_a": "Succinylcholine",
+    "option_b": "Dantrolene or Bromocriptine",
+    "option_c": "Morphine",
+    "option_d": "Naloxone",
+    "correct_answer": "B",
+    "explanation": "This is Neuroleptic Malignant Syndrome (NMS); Dantrolene acts directly on muscle to reduce heat production and rigidity."
+  },
+  {
+    "question": "Which of the following is true regarding 'Liver Failure' and 'Cerebral Edema'?",
+    "option_a": "It never happens",
+    "option_b": "Hyperammonemia leads to astrocyte swelling and increased ICP (Grade IV encephalopathy)",
+    "option_c": "It is treated with high-dose steroids",
+    "option_d": "It is only seen in alcoholic cirrhosis",
+    "correct_answer": "B",
+    "explanation": "In acute liver failure, the accumulation of ammonia is a primary driver of life-threatening intracranial hypertension."
+  },
+  {
+    "question": "What is the first-line treatment for 'Hypocalcemia' causing tetany or prolonged QTc?",
+    "option_a": "Oral Calcium tablets",
+    "option_b": "Intravenous Calcium Gluconate (10%)",
+    "option_c": "Vitamin D only",
+    "option_d": "Potassium",
+    "correct_answer": "B",
+    "explanation": "Symptomatic hypocalcemia is an emergency requiring rapid ionized calcium replacement."
+  },
+  {
+    "question": "Which of the following is a sign of 'Failure' of a Spontaneous Breathing Trial (SBT)?",
+    "option_a": "RR < 20",
+    "option_b": "Agitation, Diaphoresis, or a Rapid Shallow Breathing Index (RSBI) > 105",
+    "option_c": "SpO2 of 98%",
+    "option_d": "Heart rate of 80 bpm",
+    "correct_answer": "B",
+    "explanation": "The RSBI (RR / Tidal Volume in Liters) is a highly predictive tool; a high ratio suggests the patient cannot sustain independent breathing."
+  },
+  {
+    "question": "A patient has a 'basilar skull fracture'. Which of the following is a physical exam sign of this injury?",
+    "option_a": "Strawberry tongue",
+    "option_b": "Battle's sign (post-auricular ecchymosis) or Raccoon eyes",
+    "option_c": "Target rash",
+    "option_d": "Butterfly rash",
+    "correct_answer": "B",
+    "explanation": "Bruising over the mastoid process or around the orbits indicates internal bleeding from the skull base."
+  },
+  {
+    "question": "What is the 'Gold Standard' for diagnosing 'Brain Death' when a clinical exam cannot be completed (e.g., severe facial trauma)?",
+    "option_a": "Head CT",
+    "option_b": "Cerebral Angiography or Nuclear Medicine flow study",
+    "option_c": "Lumbar puncture",
+    "option_d": "Chest X-ray",
+    "correct_answer": "B",
+    "explanation": "Confirmatory tests must demonstrate the total absence of cerebral blood flow."
+  },
+  {
+    "question": "In the management of 'Septic Shock', which of the following is the 'second-line' vasopressor added to Norepinephrine?",
+    "option_a": "Dopamine",
+    "option_b": "Vasopressin (0.03 units/min)",
+    "option_c": "Esmolol",
+    "option_d": "Lisinopril",
+    "correct_answer": "B",
+    "explanation": "Adding vasopressin allows for a reduction in the norepinephrine dose, potentially reducing catecholamine-related side effects."
+  },
+  {
+    "question": "Which of the following describes 'Secondary Brain Injury'?",
+    "option_a": "The injury occurring at the moment of impact",
+    "option_b": "Damage caused by subsequent hypoxia, hypotension, or edema after the initial trauma",
+    "option_c": "A second hit to the head",
+    "option_d": "A psychiatric complication",
+    "correct_answer": "B",
+    "explanation": "ICU care for TBI focuses almost entirely on preventing secondary injury by optimizing oxygen and perfusion."
+  },
+  {
+    "question": "What is the primary treatment for 'Refractory' status epilepticus (not responding to benzos and fosphenytoin)?",
+    "option_a": "Aspirin",
+    "option_b": "General anesthesia (Propofol, Midazolam, or Pentobarbital infusion)",
+    "option_c": "Wait and see",
+    "option_d": "Oral valproate",
+    "correct_answer": "B",
+    "explanation": "Continuous infusions of anesthetics are required to suppress brain activity and stop the seizures, often requiring EEG monitoring."
+  },
+  {
+    "question": "A patient with 'Flail Chest' segment is in respiratory distress. What is the most effective way to stabilize the chest wall?",
+    "option_a": "Internal splinting via positive pressure ventilation (Mechanical ventilation)",
+    "option_b": "External tape and bandages",
+    "option_c": "Lying the patient on their side",
+    "option_d": "Morphine only",
+    "correct_answer": "A",
+    "explanation": "Mechanical ventilation provides internal stabilization by expanding the lungs and chest wall uniformly."
+  },
+  {
+    "question": "Which of the following is true for 'Central Venous Oxygen Saturation' (ScvO2) in Cardiogenic Shock?",
+    "option_a": "It is usually high (> 80%)",
+    "option_b": "It is typically low (< 60%) because tissues are extracting more oxygen from slow-moving blood",
+    "option_c": "It is always normal",
+    "option_d": "It cannot be measured",
+    "correct_answer": "B",
+    "explanation": "Low cardiac output leads to increased oxygen extraction and a drop in venous saturation."
+  },
+  {
+    "question": "What is the primary risk of 'Hyperoxia' (excessively high PaO2) in a post-cardiac arrest patient?",
+    "option_a": "Improved brain recovery",
+    "option_b": "Production of reactive oxygen species (free radicals) causing further brain damage",
+    "option_c": "Increased appetite",
+    "option_d": "Stronger bones",
+    "correct_answer": "B",
+    "explanation": "Targeting normoxia (SpO2 92-98%) is preferred over 100% oxygen to limit oxidative stress after reperfusion."
+  },
+  {
+    "question": "Which of the following is a classic symptom of 'Carbon Monoxide' (CO) poisoning?",
+    "option_a": "Cyanosis (blue skin)",
+    "option_b": "Headache, nausea, and 'cherry-red' mucous membranes (in severe/late cases)",
+    "option_c": "Strong smell of bitter almonds",
+    "option_d": "Loss of hearing",
+    "correct_answer": "B",
+    "explanation": "Carboxyhemoglobin gives the blood a bright red color, though the patient is severely hypoxic at the cellular level."
+  },
+  {
+    "question": "What is the specific antidote for 'Cyanide' poisoning (found in smoke inhalation)?",
+    "option_a": "Atropine",
+    "option_b": "Hydroxocobalamin",
+    "option_c": "Naloxone",
+    "option_d": "Vitamin K",
+    "correct_answer": "B",
+    "explanation": "Hydroxocobalamin binds cyanide and is the preferred treatment because it does not compromise oxygen-carrying capacity."
+  },
+  {
+    "question": "A patient in the ICU develops 'acute' abdominal pain, distension, and metabolic acidosis. Bowel sounds are absent. Diagnosis?",
+    "option_a": "Simple constipation",
+    "option_b": "Mesenteric Ischemia (Bowel Infarction)",
+    "option_c": "Gastric reflux",
+    "option_d": "Urinary tract infection",
+    "correct_answer": "B",
+    "explanation": "Critical illness and low-flow states (shock) put patients at high risk for non-occlusive mesenteric ischemia."
+  },
+  {
+    "question": "Which of the following describes the 'Surviving Sepsis' 1-hour bundle recommendation for fluids?",
+    "option_a": "5 mL/kg",
+    "option_b": "30 mL/kg of crystalloid for hypotension or lactate ≥ 4 mmol/L",
+    "option_c": "100 mL/kg for everyone",
+    "option_d": "No fluids, only vasopressors",
+    "correct_answer": "B",
+    "explanation": "Rapid fluid resuscitation is the cornerstone of early management in septic hypoperfusion."
+  },
+  {
+    "question": "What is the definitive treatment for 'Tension Pneumothorax' after initial needle decompression?",
+    "option_a": "Wait for 2 days",
+    "option_b": "Insertion of a Chest Tube (Tube Thoracostomy)",
+    "option_c": "Giving 100% Oxygen only",
+    "option_d": "Antibiotics",
+    "correct_answer": "B",
+    "explanation": "The chest tube provides definitive evacuation of the air and allows the lung to re-expand."
+  },
+  {
+    "question": "Which electrolyte abnormality is the most dangerous complication of 'Succinylcholine' use in a patient with a massive burn or crush injury?",
+    "option_a": "Hyponatremia",
+    "option_b": "Hyperkalemia",
+    "option_c": "Hypocalcemia",
+    "option_d": "Hypermagnesemia",
+    "correct_answer": "B",
+    "explanation": "Succinylcholine causes a release of intracellular potassium; in patients with upregulated receptors (burns/denervation), this can trigger fatal cardiac arrest."
+  },
+  {
+    "question": "What is the primary medication used to treat 'Cerebral Edema' in a patient with a brain tumor (Vasogenic edema)?",
+    "option_a": "Mannitol",
+    "option_b": "Dexamethasone (Corticosteroids)",
+    "option_c": "Furosemide",
+    "option_d": "Insulin",
+    "correct_answer": "B",
+    "explanation": "Steroids help restore the blood-brain barrier integrity in vasogenic edema (common in tumors), but are NOT recommended for cytotoxic edema (ischemic stroke)."
+  },
+  {
+    "question": "Which of the following describes 'Beck's Triad' for Cardiac Tamponade?",
+    "option_a": "Hypertension, Bradycardia, Irregular breathing",
+    "option_b": "Hypotension, Distended neck veins, and Muffled heart sounds",
+    "option_c": "Fever, Cough, Sputum",
+    "option_d": "Pain, Swelling, Redness",
+    "correct_answer": "B",
+    "explanation": "These signs reflect the inability of the heart to fill and pump against the external pressure of the pericardial fluid."
+  },
+  {
+    "question": "What is the first-line treatment for 'Hyperosmolar Hyperglycemic State' (HHS) once the diagnosis is made?",
+    "option_a": "IV Insulin bolus",
+    "option_b": "Aggressive fluid resuscitation with Normal Saline",
+    "option_c": "Oral glucose",
+    "option_d": "Bicarbonate infusion",
+    "correct_answer": "B",
+    "explanation": "Fluid deficit in HHS is often 6-10 liters; restoring volume is more critical and safer than rapid insulin administration."
+  },
+  {
+    "question": "Which of the following is true for 'Veno-Venous' (V-V) ECMO?",
+    "option_a": "It supports the heart only",
+    "option_b": "It provides gas exchange (Oxygenation/CO2 removal) for the lungs but no circulatory support",
+    "option_c": "It is used for kidney failure",
+    "option_d": "It replaces the liver",
+    "correct_answer": "B",
+    "explanation": "V-V ECMO is used in severe refractory ARDS where the heart is functioning but the lungs are failing."
+  },
+  {
+    "question": "In 'ABG' interpretation, what does a 'Low Bicarbonate' (HCO3-) with a low pH indicate?",
+    "option_a": "Respiratory Acidosis",
+    "option_b": "Metabolic Acidosis",
+    "option_c": "Metabolic Alkalosis",
+    "option_d": "Normal",
+    "correct_answer": "B",
+    "explanation": "A primary drop in bicarbonate is the defining feature of metabolic acidosis."
+  },
+  {
+    "question": "What is the purpose of 'Targeted Temperature Management' (TTM) after cardiac arrest?",
+    "option_a": "To treat a fever",
+    "option_b": "To provide neuroprotection by reducing cerebral metabolic rate and inflammation (32-36°C)",
+    "option_c": "To make the patient sleep better",
+    "option_d": "To stop bleeding",
+    "correct_answer": "B",
+    "explanation": "TTM is one of the few interventions shown to improve neurological outcomes in post-arrest patients."
+  },
+  {
+    "question": "Which of the following describes 'Auto-PEEP' (Intrinsic PEEP)?",
+    "option_a": "High pressure from the ventilator",
+    "option_b": "Incomplete expiration leading to gas trapping and positive pressure in the lungs at the end of the cycle",
+    "option_c": "A machine error",
+    "option_d": "Normal breathing",
+    "correct_answer": "B",
+    "explanation": "Common in COPD and asthma, auto-PEEP can increase work of breathing and cause hemodynamic collapse."
+  },
+  {
+    "question": "A patient presents with 'painless' upper GI bleeding and has a history of 'cirrhosis'. What is the most likely source?",
+    "option_a": "Peptic ulcer",
+    "option_b": "Esophageal Varices",
+    "option_c": "Mallory-Weiss tear",
+    "option_d": "Gastritis",
+    "correct_answer": "B",
+    "explanation": "Portal hypertension leads to the formation of fragile varices that can bleed massively."
+  },
+  {
+    "question": "What is the primary treatment for 'Esophageal Variceal' bleeding?",
+    "option_a": "Aspirin",
+    "option_b": "Endoscopic Variceal Ligation (Banding) and Octreotide",
+    "option_c": "Steroids",
+    "option_d": "Proton Pump Inhibitors only",
+    "correct_answer": "B",
+    "explanation": "Octreotide reduces splanchnic blood flow, and banding provides mechanical control of the bleed."
+  },
+  {
+    "question": "Which of the following is true for 'Pneumocystis jirovecii' pneumonia (PCP) in the ICU?",
+    "option_a": "It is treated with Penicillin",
+    "option_b": "It is an opportunistic infection in immunocompromised patients, treated with TMP-SMX",
+    "option_c": "It is a viral infection",
+    "option_d": "It only affects the liver",
+    "correct_answer": "B",
+    "explanation": "PCP causes severe hypoxemic respiratory failure, often requiring ICU-level care."
+  },
+  {
+    "question": "What is the 'Rule of 100' for organ donation suitability?",
+    "option_a": "Wait 100 hours",
+    "option_b": "SBP > 100, Urine output > 100 mL/hr, PaO2 > 100 mmHg",
+    "option_c": "Age must be 100",
+    "option_d": "Weight must be 100 kg",
+    "correct_answer": "B",
+    "explanation": "These are general hemodynamic and oxygenation targets used to maintain organ viability in a brain-dead donor."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Thiamine' (Vitamin B1) deficiency in the ICU?",
+    "option_a": "Improved cognition",
+    "option_b": "Wernicke Encephalopathy (Confusion, Ataxia, Ophthalmoplegia)",
+    "option_c": "Rash",
+    "option_d": "Yellow skin",
+    "correct_answer": "B",
+    "explanation": "Thiamine is critical for glucose metabolism; deficiency is common in alcoholics and those with severe malnutrition."
+  },
+  {
+    "question": "What is the 'first-line' medication for 'Bradycardia' in ACLS if the patient is symptomatic?",
+    "option_a": "Epinephrine",
+    "option_b": "Atropine (1 mg)",
+    "option_c": "Dopamine",
+    "option_d": "Lidocaine",
+    "correct_answer": "B",
+    "explanation": "Atropine blocks the vagal influence on the SA node, increasing the heart rate."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' survey in trauma?",
+    "option_a": "Managing life-threats",
+    "option_b": "A complete head-to-toe examination performed once the patient is stabilized",
+    "option_c": "Looking for the wallet",
+    "option_d": "Checking only the blood pressure",
+    "correct_answer": "B",
+    "explanation": "The secondary survey aims to catch injuries like small fractures or lacerations that were not immediately life-threatening."
+  },
+  {
+    "question": "Which of the following is true for 'Central Venous Pressure' (CVP)?",
+    "option_a": "A high CVP always means the patient is volume overloaded",
+    "option_b": "It is an estimate of right atrial pressure",
+    "option_c": "It is the best way to measure output",
+    "option_d": "It should be 30 mmHg",
+    "correct_answer": "B",
+    "explanation": "CVP reflects the pressure of blood entering the heart, providing clues about volume status and right heart function."
+  },
+  {
+    "question": "What is the 'target' Mean Arterial Pressure (MAP) during 'Post-Resuscitation' care?",
+    "option_a": "50 mmHg",
+    "option_b": "At least 65 mmHg (often higher to ensure cerebral perfusion)",
+    "option_c": "120 mmHg",
+    "option_d": "30 mmHg",
+    "correct_answer": "B",
+    "explanation": "Optimizing blood pressure is key to preventing further brain damage after cardiac arrest."
+  },
+  {
+    "question": "Which of the following is a sign of 'Magnesium' toxicity?",
+    "option_a": "Hyperactive reflexes",
+    "option_b": "Loss of deep tendon reflexes and respiratory depression",
+    "option_c": "Tachycardia",
+    "option_d": "Hypoglycemia",
+    "correct_answer": "B",
+    "explanation": "Magnesium toxicity causes neuromuscular blockade, starting with the loss of reflexes."
+  },
+  {
+    "question": "Which of the following describes 'Ethylene Glycol' poisoning on urinalysis?",
+    "option_a": "Bacteria",
+    "option_b": "Calcium oxalate crystals (envelope-shaped)",
+    "option_c": "Sugar",
+    "option_d": "Red blood cells",
+    "correct_answer": "B",
+    "explanation": "Oxalic acid, a metabolite of ethylene glycol, binds calcium to form these characteristic crystals."
+  },
+  {
+    "question": "What is the clinical use of 'Prone Positioning' in the ICU?",
+    "option_a": "To treat broken legs",
+    "option_b": "To improve oxygenation and reduce mortality in severe ARDS",
+    "option_c": "To prevent kidney stones",
+    "option_d": "To help the patient sleep",
+    "correct_answer": "B",
+    "explanation": "Lying the patient on their stomach helps 'recruit' dorsal lung units that are collapsed when lying on the back."
+  },
+  {
+    "question": "Which of the following is true regarding 'Liver Failure' and 'Coagulopathy'?",
+    "option_a": "The liver only makes white blood cells",
+    "option_b": "The liver synthesizes almost all clotting factors; its failure leads to a high INR",
+    "option_c": "It is treated with more aspirin",
+    "option_d": "Vitamin K is the only cure",
+    "correct_answer": "B",
+    "explanation": "A rising PT/INR is one of the earliest and most sensitive markers of declining liver synthetic function."
+  },
+  {
+    "question": "What does a 'High Lactate' clearing to 'Normal' within 6 hours indicate?",
+    "option_a": "The patient is dying",
+    "option_b": "Good response to resuscitation and improved prognosis",
+    "option_c": "The lab is working better",
+    "option_d": "Dehydration",
+    "correct_answer": "B",
+    "explanation": "Lactate clearance is a strong predictor of clinical improvement in shock."
+  }
+]
