@@ -9,458 +9,458 @@ load_dotenv()
 
 questions_data = [
   {
-    "question": "Which antibiotic class inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs)?",
-    "option_a": "Aminoglycosides",
-    "option_b": "Beta-lactams",
-    "option_c": "Fluoroquinolones",
-    "option_d": "Macrolides",
+    "question": "What is the most common cause of small bowel obstruction (SBO) in developed countries?",
+    "option_a": "Hernias",
+    "option_b": "Postoperative adhesions",
+    "option_c": "Malignancy",
+    "option_d": "Crohn's disease",
     "correct_answer": "B",
-    "explanation": "Beta-lactams (penicillins, cephalosporins, carbapenems) inhibit cell wall synthesis by binding to PBPs."
+    "explanation": "Adhesions from prior abdominal surgeries account for approximately 60-70% of SBO cases."
   },
   {
-    "question": "Which organism is the most common cause of Uncomplicated Urinary Tract Infection (UTI)?",
-    "option_a": "Escherichia coli",
-    "option_b": "Pseudomonas aeruginosa",
-    "option_c": "Staphylococcus aureus",
-    "option_d": "Proteus mirabilis",
-    "correct_answer": "A",
-    "explanation": "E. coli is responsible for 80-90% of community-acquired uncomplicated UTIs."
-  },
-  {
-    "question": "What is the primary mechanism of action of Vancomycin?",
-    "option_a": "Inhibits protein synthesis at 30S subunit",
-    "option_b": "Inhibits cell wall synthesis by binding D-Ala-D-Ala",
-    "option_c": "Inhibits DNA gyrase",
-    "option_d": "Damages cell membrane",
+    "question": "A patient presents with colicky abdominal pain, distension, and high-pitched 'tinkling' bowel sounds. An X-ray shows dilated loops of small bowel with a 'step-ladder' appearance. What is the most likely diagnosis?",
+    "option_a": "Paralytic ileus",
+    "option_b": "Mechanical small bowel obstruction",
+    "option_c": "Acute pancreatitis",
+    "option_d": "Large bowel obstruction",
     "correct_answer": "B",
-    "explanation": "Vancomycin binds to the D-Ala-D-Ala terminal of the peptidoglycan precursor, blocking cell wall cross-linking."
+    "explanation": "Colicky pain, distension, and specific X-ray findings are classic for mechanical SBO; ileus usually presents with absent bowel sounds."
   },
   {
-    "question": "A 24-year-old female presents with dysuria and frequency. Which drug is a first-line agent for uncomplicated cystitis?",
-    "option_a": "Nitrofurantoin",
-    "option_b": "Moxifloxacin",
-    "option_c": "Vancomycin",
-    "option_d": "Clindamycin",
-    "correct_answer": "A",
-    "explanation": "Nitrofurantoin (or TMP-SMX) is first-line for uncomplicated cystitis due to high urinary concentration."
-  },
-  {
-    "question": "Which adverse effect is classically associated with Vancomycin infusion?",
-    "option_a": "Red Man Syndrome",
-    "option_b": "Tendinopathy",
-    "option_c": "Gray Baby Syndrome",
-    "option_d": "Discolored teeth",
-    "correct_answer": "A",
-    "explanation": "Red Man Syndrome is a histamine-mediated reaction to rapid Vancomycin infusion."
-  },
-  {
-    "question": "Methicillin-Resistant Staphylococcus aureus (MRSA) is resistant to beta-lactams due to:",
-    "option_a": "Production of Beta-lactamase",
-    "option_b": "Alteration of PBP to PBP2a",
-    "option_c": "Efflux pumps",
-    "option_d": "Thickened cell wall",
+    "question": "What is the most common cause of large bowel obstruction (LBO)?",
+    "option_a": "Volvulus",
+    "option_b": "Colorectal cancer",
+    "option_c": "Diverticulitis",
+    "option_d": "Fecal impaction",
     "correct_answer": "B",
-    "explanation": "The mecA gene encodes PBP2a, which has low affinity for beta-lactams."
+    "explanation": "Malignancy is the leading cause of LBO in adults, followed by diverticulitis and volvulus."
   },
   {
-    "question": "Which antibiotic is active against Pseudomonas aeruginosa?",
-    "option_a": "Ceftriaxone",
-    "option_b": "Cefepime",
-    "option_c": "Amoxicillin",
-    "option_d": "Erythromycin",
+    "question": "A 70-year-old male presents with sudden, massive abdominal distension. X-ray shows a 'coffee bean' sign. What is the most likely diagnosis?",
+    "option_a": "Cecal volvulus",
+    "option_b": "Sigmoid volvulus",
+    "option_c": "Small bowel obstruction",
+    "option_d": "Intussusception",
     "correct_answer": "B",
-    "explanation": "Cefepime (4th gen cephalosporin) has potent anti-pseudomonal activity."
+    "explanation": "Sigmoid volvulus classically appears as a massive, smooth, bent inner-tube or 'coffee bean' shape on plain film."
   },
   {
-    "question": "Which biochemical test differentiates Staphylococcus aureus (positive) from Coagulase-Negative Staphylococci (negative)?",
-    "option_a": "Catalase test",
-    "option_b": "Coagulase test",
-    "option_c": "Oxidase test",
-    "option_d": "Urease test",
+    "question": "What is the initial management for a patient with a non-strangulated small bowel obstruction?",
+    "option_a": "Immediate laparotomy",
+    "option_b": "Nasogastric (NG) tube decompression, IV fluids, and observation",
+    "option_c": "Barium enema",
+    "option_d": "Oral laxatives",
     "correct_answer": "B",
-    "explanation": "The coagulase test is the definitive test to identify S. aureus."
+    "explanation": "Many simple SBOs (especially due to adhesions) resolve with 'drip and suck' conservative management."
   },
   {
-    "question": "Which antifungal agent targets Ergosterol synthesis?",
-    "option_a": "Fluconazole",
-    "option_b": "Caspofungin",
-    "option_c": "Flucytosine",
-    "option_d": "Amphotericin B",
-    "correct_answer": "A",
-    "explanation": "Azoles (Fluconazole) inhibit 14-alpha-demethylase, preventing ergosterol synthesis."
-  },
-  {
-    "question": "Which drug is the treatment of choice for Syphilis (Treponema pallidum)?",
-    "option_a": "Penicillin G",
-    "option_b": "Ciprofloxacin",
-    "option_c": "Gentamicin",
-    "option_d": "Trimethoprim",
-    "correct_answer": "A",
-    "explanation": "Penicillin G is the gold standard for all stages of Syphilis."
-  },
-  {
-    "question": "Aminoglycosides (e.g., Gentamicin) are known for which toxicities?",
-    "option_a": "Nephrotoxicity and Ototoxicity",
-    "option_b": "Hepatotoxicity",
-    "option_c": "Pulmonary fibrosis",
-    "option_d": "Bone marrow suppression",
-    "correct_answer": "A",
-    "explanation": "Aminoglycosides can cause kidney damage (ATN) and hearing loss/vestibular damage."
-  },
-  {
-    "question": "Clostridium difficile infection is most commonly associated with prior use of:",
-    "option_a": "Clindamycin",
-    "option_b": "Gentamicin",
-    "option_c": "Doxycycline",
-    "option_d": "Metronidazole",
-    "correct_answer": "A",
-    "explanation": "Clindamycin (and fluoroquinolones/cephalosporins) suppresses gut flora, allowing C. diff overgrowth."
-  },
-  {
-    "question": "Which bacteria is an acid-fast bacillus?",
-    "option_a": "Mycobacterium tuberculosis",
-    "option_b": "Staphylococcus epidermidis",
-    "option_c": "E. coli",
-    "option_d": "Streptococcus pneumoniae",
-    "correct_answer": "A",
-    "explanation": "Mycobacteria have mycolic acid in their cell walls, retaining the acid-fast stain."
-  },
-  {
-    "question": "Metronidazole is effective against:",
-    "option_a": "Aerobic Gram-negatives",
-    "option_b": "Anaerobes and Protozoa",
-    "option_c": "Fungi",
-    "option_d": "Viruses",
+    "question": "Which of the following is a sign of strangulated bowel obstruction requiring urgent surgery?",
+    "option_a": "Tinkling bowel sounds",
+    "option_b": "Fever, leukocytosis, and localized tenderness",
+    "option_c": "History of prior surgery",
+    "option_d": "Minimal abdominal distension",
     "correct_answer": "B",
-    "explanation": "Metronidazole targets anaerobes (Bacteroides, Clostridium) and protozoa (Giardia, Trichomonas)."
+    "explanation": "Systemic inflammatory signs (fever, high WBC) and peritoneal signs suggest ischemia or infarction of the trapped bowel segment."
   },
   {
-    "question": "Tetracyclines should be avoided in children and pregnant women because:",
-    "option_a": "They cause cartilage damage",
-    "option_b": "They deposit in teeth and bones",
-    "option_c": "They cause gray baby syndrome",
-    "option_d": "They cause hemolysis",
+    "question": "Ogilvie's syndrome (acute colonic pseudo-obstruction) is most commonly seen in:",
+    "option_a": "Young healthy athletes",
+    "option_b": "Elderly, hospitalized, or severely ill patients",
+    "option_c": "Pregnant women in the first trimester",
+    "option_d": "Infants with Hirschsprung's disease",
     "correct_answer": "B",
-    "explanation": "Tetracyclines chelate calcium and cause permanent tooth discoloration and bone growth inhibition."
+    "explanation": "It is a functional obstruction caused by autonomic imbalance, often triggered by surgery, trauma, or severe infection."
   },
   {
-    "question": "Which antibiotic inhibits DNA gyrase and Topoisomerase IV?",
-    "option_a": "Ciprofloxacin (Fluoroquinolones)",
-    "option_b": "Azithromycin (Macrolides)",
-    "option_c": "Doxycycline (Tetracyclines)",
-    "option_d": "Rifampin",
+    "question": "What is the most common benign breast mass in women under the age of 30?",
+    "option_a": "Breast cyst",
+    "option_b": "Fibroadenoma",
+    "option_c": "Intraductal papilloma",
+    "option_d": "Fat necrosis",
+    "correct_answer": "B",
+    "explanation": "Fibroadenomas are highly mobile, rubbery, firm, and non-tender masses common in young women."
+  },
+  {
+    "question": "A 45-year-old female presents with spontaneous, bloody nipple discharge from a single duct. There is no palpable mass. What is the most likely diagnosis?",
+    "option_a": "Fibrocystic change",
+    "option_b": "Intraductal papilloma",
+    "option_c": "Invasive ductal carcinoma",
+    "option_d": "Mastitis",
+    "correct_answer": "B",
+    "explanation": "Intraductal papilloma is the most common cause of spontaneous bloody nipple discharge."
+  },
+  {
+    "question": "Which of the following is the 'Triple Assessment' used for evaluating a breast lump?",
+    "option_a": "Clinical exam, Mammography/Ultrasound, and Biopsy (FNA/Core)",
+    "option_b": "Mammography, CT scan, and MRI",
+    "option_c": "Blood tests, Clinical exam, and Ultrasound",
+    "option_d": "Clinical exam, Breast self-exam, and Genetic testing",
     "correct_answer": "A",
-    "explanation": "Fluoroquinolones inhibit bacterial DNA replication by targeting DNA gyrase."
+    "explanation": "The combination of these three modalities ensures near 100% diagnostic accuracy for breast cancer."
   },
   {
-    "question": "Which organism causes 'Lyme Disease'?",
-    "option_a": "Borrelia burgdorferi",
-    "option_b": "Rickettsia rickettsii",
-    "option_c": "Treponema pallidum",
-    "option_d": "Leptospira interrogans",
-    "correct_answer": "A",
-    "explanation": "Borrelia burgdorferi, a spirochete transmitted by Ixodes ticks, causes Lyme disease."
+    "question": "A 50-year-old female has a mammogram showing clustered microcalcifications. Biopsy reveals malignant cells that have not invaded the basement membrane. Diagnosis?",
+    "option_a": "Invasive ductal carcinoma",
+    "option_b": "Ductal carcinoma in situ (DCIS)",
+    "option_c": "Lobular carcinoma in situ (LCIS)",
+    "option_d": "Phyllodes tumor",
+    "correct_answer": "B",
+    "explanation": "DCIS is a non-invasive cancer confined to the ducts, often detected by calcifications on mammography."
   },
   {
-    "question": "Which test is used to confirm the presence of Inducible Clindamycin Resistance in Staph aureus?",
-    "option_a": "D-test",
-    "option_b": "E-test",
-    "option_c": "Catalase test",
-    "option_d": "Coagulase test",
-    "correct_answer": "A",
-    "explanation": "The D-test detects inducible resistance to clindamycin in erythromycin-resistant strains."
+    "question": "Which molecular subtype of breast cancer is known for being the most aggressive and lacking ER, PR, and HER2 expression?",
+    "option_a": "Luminal A",
+    "option_b": "Triple-Negative Breast Cancer",
+    "option_c": "HER2-enriched",
+    "option_d": "Luminal B",
+    "correct_answer": "B",
+    "explanation": "Triple-negative cancers do not respond to hormonal therapy or Trastuzumab and have a higher risk of recurrence."
   },
   {
-    "question": "Which antiviral is a neuraminidase inhibitor used for Influenza?",
-    "option_a": "Oseltamivir",
-    "option_b": "Acyclovir",
-    "option_c": "Ribavirin",
-    "option_d": "Sofosbuvir",
-    "correct_answer": "A",
-    "explanation": "Oseltamivir (Tamiflu) inhibits viral neuraminidase, preventing release of new virions."
+    "question": "What is the primary management for a lactational breast abscess?",
+    "option_a": "Stop breastfeeding immediately",
+    "option_b": "Incision and drainage (or needle aspiration) plus antibiotics",
+    "option_c": "Antibiotics alone",
+    "option_d": "Mastectomy",
+    "correct_answer": "B",
+    "explanation": "Abscesses require drainage; patients are encouraged to continue breastfeeding or pumping to prevent further stasis."
   },
   {
-    "question": "Which of the following is a Carbapenem?",
-    "option_a": "Meropenem",
-    "option_b": "Ceftazidime",
-    "option_c": "Piperacillin",
-    "option_d": "Aztreonam",
-    "correct_answer": "A",
-    "explanation": "Meropenem, Imipenem, and Ertapenem are Carbapenems."
+    "question": "Which of the following describes Paget's disease of the breast?",
+    "option_a": "A benign fungal infection of the nipple",
+    "option_b": "Eczematous changes of the nipple associated with underlying DCIS or invasive cancer",
+    "option_c": "A type of benign cyst",
+    "option_d": "Fat necrosis after trauma",
+    "correct_answer": "B",
+    "explanation": "Any 'eczema' of the nipple that does not respond to topical steroids must be biopsied to rule out Paget's disease."
   },
   {
-    "question": "Linezolid is active against which resistant pathogens?",
-    "option_a": "MRSA and VRE",
-    "option_b": "Pseudomonas and Acinetobacter",
-    "option_c": "ESBL E. coli",
-    "option_d": "Anaerobes only",
-    "correct_answer": "A",
-    "explanation": "Linezolid is an oxazolidinone used for resistant Gram-positives like MRSA and VRE."
+    "question": "Sentinel lymph node biopsy is performed in breast cancer to:",
+    "option_a": "Cure the cancer",
+    "option_b": "Identify the first node(s) draining the tumor to determine if full axillary dissection is needed",
+    "option_c": "Remove all infected tissue",
+    "option_d": "Inject chemotherapy directly into the arm",
+    "correct_answer": "B",
+    "explanation": "If the sentinel node is negative, the rest of the axillary nodes are likely negative, sparing the patient from lymphedema."
   },
   {
-    "question": "What is the vector for Plasmodium (Malaria)?",
-    "option_a": "Anopheles mosquito",
-    "option_b": "Aedes mosquito",
-    "option_c": "Culex mosquito",
-    "option_d": "Tick",
-    "correct_answer": "A",
-    "explanation": "Female Anopheles mosquitoes transmit the malaria parasite."
+    "question": "What is the most common histological type of thyroid cancer?",
+    "option_a": "Follicular carcinoma",
+    "option_b": "Papillary carcinoma",
+    "option_c": "Medullary carcinoma",
+    "option_d": "Anaplastic carcinoma",
+    "correct_answer": "B",
+    "explanation": "Papillary thyroid cancer accounts for over 80% of cases and generally has an excellent prognosis."
   },
   {
-    "question": "Which antibiotic causes 'Gray Baby Syndrome' in neonates?",
-    "option_a": "Chloramphenicol",
-    "option_b": "Gentamicin",
-    "option_c": "Sulfonamides",
-    "option_d": "Tetracycline",
-    "correct_answer": "A",
-    "explanation": "Neonates lack the enzyme to metabolize Chloramphenicol, leading to toxicity."
+    "question": "Psammoma bodies are a characteristic microscopic finding in which thyroid malignancy?",
+    "option_a": "Follicular",
+    "option_b": "Papillary",
+    "option_c": "Medullary",
+    "option_d": "Anaplastic",
+    "correct_answer": "B",
+    "explanation": "These are laminated calcium deposits typically seen in papillary thyroid cancer."
   },
   {
-    "question": "Macrolides (e.g., Erythromycin) bind to which ribosomal subunit?",
-    "option_a": "50S",
-    "option_b": "30S",
-    "option_c": "40S",
-    "option_d": "60S",
-    "correct_answer": "A",
-    "explanation": "Macrolides inhibit protein synthesis by binding to the 50S ribosomal subunit."
+    "question": "Which thyroid cancer arises from the parafollicular C-cells and secretes calcitonin?",
+    "option_a": "Papillary",
+    "option_b": "Medullary",
+    "option_c": "Follicular",
+    "option_d": "Hürthle cell",
+    "correct_answer": "B",
+    "explanation": "Medullary thyroid cancer can be sporadic or part of MEN 2A/2B syndromes; calcitonin is used as a tumor marker."
   },
   {
-    "question": "Which bacterium is the most common cause of 'Traveler's Diarrhea'?",
-    "option_a": "Enterotoxigenic E. coli (ETEC)",
-    "option_b": "Shigella",
-    "option_c": "Salmonella",
-    "option_d": "Vibrio cholerae",
-    "correct_answer": "A",
-    "explanation": "ETEC is the leading cause of traveler's diarrhea."
+    "question": "A patient undergoes a total thyroidectomy and develops a 'hoarse voice' postoperatively. Damage to which nerve is suspected?",
+    "option_a": "Superior laryngeal nerve",
+    "option_b": "Recurrent laryngeal nerve",
+    "option_c": "Vagus nerve",
+    "option_d": "Hypoglossal nerve",
+    "correct_answer": "B",
+    "explanation": "The recurrent laryngeal nerve innervates the intrinsic muscles of the larynx; injury causes vocal cord paralysis."
   },
   {
-    "question": "A patient with a Penicillin allergy (anaphylaxis) requires treatment for Syphilis. What is the alternative?",
-    "option_a": "Doxycycline",
-    "option_b": "Amoxicillin",
-    "option_c": "Cephalexin",
-    "option_d": "Meropenem",
-    "correct_answer": "A",
-    "explanation": "Doxycycline is the preferred alternative for Syphilis in penicillin-allergic patients."
+    "question": "What is the most common cause of 'Primary' Hyperparathyroidism?",
+    "option_a": "Parathyroid hyperplasia",
+    "option_b": "Solitary parathyroid adenoma",
+    "option_c": "Parathyroid carcinoma",
+    "option_d": "Vitamin D deficiency",
+    "correct_answer": "B",
+    "explanation": "A single benign adenoma is responsible for about 85-90% of cases of primary hyperparathyroidism."
   },
   {
-    "question": "Which drug interaction is a major concern with Warfarin and Ciprofloxacin?",
-    "option_a": "Increased INR (Bleeding)",
-    "option_b": "Decreased INR (Clotting)",
-    "option_c": "Hyperkalemia",
-    "option_d": "Seizures",
-    "correct_answer": "A",
-    "explanation": "Ciprofloxacin inhibits CYP enzymes and kills gut flora, significantly increasing Warfarin effect (INR)."
+    "question": "In the postoperative period following total thyroidectomy, a patient complains of tingling around the mouth (perioral paresthesia). What is the likely cause?",
+    "option_a": "Hypokalemia",
+    "option_b": "Hypocalcemia due to accidental parathyroid removal or injury",
+    "option_c": "Hypercalcemia",
+    "option_d": "Nerve damage only",
+    "correct_answer": "B",
+    "explanation": "Hypocalcemia is a common temporary or permanent complication after thyroid surgery due to parathyroid gland dysfunction."
   },
   {
-    "question": "Which organism causes 'Whooping Cough'?",
-    "option_a": "Bordetella pertussis",
-    "option_b": "Haemophilus influenzae",
-    "option_c": "Legionella pneumophila",
-    "option_d": "Streptococcus pneumoniae",
-    "correct_answer": "A",
-    "explanation": "Bordetella pertussis is the causative agent of Pertussis."
+    "question": "Which of the following is true regarding Follicular Thyroid Carcinoma?",
+    "option_a": "It is easily diagnosed by Fine Needle Aspiration (FNA)",
+    "option_b": "It requires histological evidence of capsular or vascular invasion for diagnosis",
+    "option_c": "It always spreads via lymphatics",
+    "option_d": "It is the most aggressive thyroid cancer",
+    "correct_answer": "B",
+    "explanation": "FNA cannot distinguish between follicular adenoma and carcinoma because it only looks at individual cells, not the capsule."
   },
   {
-    "question": "Amphotericin B is known for which dose-limiting toxicity?",
-    "option_a": "Nephrotoxicity",
-    "option_b": "Hepatotoxicity",
-    "option_c": "Ototoxicity",
-    "option_d": "Cardiotoxicity",
-    "correct_answer": "A",
-    "explanation": "Amphotericin B causes renal vasoconstriction and tubular damage (Nephrotoxicity)."
+    "question": "What is the 'Gold Standard' diagnostic test for a thyroid nodule?",
+    "option_a": "CT scan",
+    "option_b": "Fine Needle Aspiration Biopsy (FNAB)",
+    "option_c": "Thyroid Ultrasound",
+    "option_d": "Serum Thyroglobulin",
+    "correct_answer": "B",
+    "explanation": "FNAB is the most cost-effective and accurate way to determine if a nodule is malignant."
   },
   {
-    "question": "Which Hepatitis virus is a DNA virus?",
-    "option_a": "Hepatitis B",
-    "option_b": "Hepatitis A",
-    "option_c": "Hepatitis C",
-    "option_d": "Hepatitis E",
-    "correct_answer": "A",
-    "explanation": "HBV is a DNA virus; HAV, HCV, HDV, HEV are RNA viruses."
+    "question": "Anaplastic thyroid carcinoma is characterized by:",
+    "option_a": "Slow growth and excellent prognosis",
+    "option_b": "Rapid growth, local invasion, and very poor prognosis",
+    "option_c": "Occurring primarily in teenagers",
+    "option_d": "Responding well to radioactive iodine",
+    "correct_answer": "B",
+    "explanation": "Anaplastic cancer is one of the most lethal malignancies in humans, often presenting as a rapidly enlarging neck mass."
   },
   {
-    "question": "Which Gram-positive rod causes Anthrax?",
-    "option_a": "Bacillus anthracis",
-    "option_b": "Clostridium tetani",
-    "option_c": "Listeria monocytogenes",
-    "option_d": "Corynebacterium diphtheriae",
-    "correct_answer": "A",
-    "explanation": "Bacillus anthracis is the spore-forming rod that causes Anthrax."
+    "question": "A patient with MEN 2A syndrome will likely have which combination of conditions?",
+    "option_a": "Pituitary adenoma, Parathyroid hyperplasia, Pancreatic tumors",
+    "option_b": "Medullary thyroid cancer, Pheochromocytoma, Parathyroid hyperplasia",
+    "option_c": "Papillary thyroid cancer, Adrenal adenoma",
+    "option_d": "Thyroid storm and hypertension",
+    "correct_answer": "B",
+    "explanation": "MEN 2A is an autosomal dominant syndrome linked to the RET proto-oncogene."
   },
   {
-    "question": "Trimethoprim inhibits which enzyme in the folate pathway?",
-    "option_a": "Dihydrofolate reductase (DHFR)",
-    "option_b": "Dihydropteroate synthase",
-    "option_c": "DNA gyrase",
-    "option_d": "Beta-lactamase",
-    "correct_answer": "A",
-    "explanation": "Trimethoprim inhibits DHFR, preventing folate reduction."
+    "question": "What is the primary role of the 'Frozen Section' during surgery?",
+    "option_a": "To replace the final pathology report",
+    "option_b": "To provide immediate intraoperative diagnosis and guide the extent of surgery",
+    "option_c": "To check for the presence of bacteria",
+    "option_d": "To store the tissue for years",
+    "correct_answer": "B",
+    "explanation": "Frozen sections allow the surgeon to know if margins are clear or if a mass is malignant while the patient is still on the table."
   },
   {
-    "question": "Which antibiotic is inactivated by lung surfactant (cannot use for pneumonia)?",
-    "option_a": "Daptomycin",
-    "option_b": "Vancomycin",
-    "option_c": "Linezolid",
-    "option_d": "Levofloxacin",
-    "correct_answer": "A",
-    "explanation": "Daptomycin binds to pulmonary surfactant, making it ineffective for lung infections."
+    "question": "In oncology, 'Adjuvant' therapy refers to:",
+    "option_a": "Treatment given before surgery to shrink a tumor",
+    "option_b": "Treatment given after the primary surgical resection to eliminate micro-metastases",
+    "option_c": "Treatment for end-stage patients only",
+    "option_d": "Surgical removal of the tumor",
+    "correct_answer": "B",
+    "explanation": "Adjuvant therapy (chemo, radiation, or hormone therapy) aims to reduce the risk of recurrence."
   },
   {
-    "question": "Which class of drugs covers 'Atypical' bacteria (Legionella, Mycoplasma, Chlamydia)?",
-    "option_a": "Macrolides and Fluoroquinolones",
-    "option_b": "Beta-lactams",
-    "option_c": "Aminoglycosides",
-    "option_d": "Glycopeptides",
-    "correct_answer": "A",
-    "explanation": "Atypicals lack a cell wall or are intracellular; Macrolides/Quinolones are effective."
+    "question": "What does 'Neoadjuvant' therapy mean?",
+    "option_a": "Treatment after surgery",
+    "option_b": "Treatment given before the main treatment (usually surgery) to reduce tumor size",
+    "option_c": "Palliative care",
+    "option_d": "Immunotherapy only",
+    "correct_answer": "B",
+    "explanation": "Commonly used in breast and rectal cancers to make the tumor more amenable to complete resection."
   },
   {
-    "question": "Extended-Spectrum Beta-Lactamases (ESBLs) are typically treated with:",
-    "option_a": "Carbapenems",
-    "option_b": "Cephalosporins",
-    "option_c": "Penicillin",
-    "option_d": "Azithromycin",
-    "correct_answer": "A",
-    "explanation": "Carbapenems are the drug of choice for serious ESBL infections."
+    "question": "A 'curative' resection in surgical oncology requires:",
+    "option_a": "Leaving some tumor behind to avoid bleeding",
+    "option_b": "Negative margins (R0 resection) and appropriate lymphadenectomy",
+    "option_c": "Only removing the visible part of the tumor",
+    "option_d": "Chemotherapy during the operation",
+    "correct_answer": "B",
+    "explanation": "R0 resection means no microscopic tumor remains at the surgical margins."
   },
   {
-    "question": "Which worm infection is diagnosed by the 'Scotch tape test'?",
-    "option_a": "Enterobius vermicularis (Pinworm)",
-    "option_b": "Ascaris lumbricoides",
-    "option_c": "Taenia solium",
-    "option_d": "Hookworm",
-    "correct_answer": "A",
-    "explanation": "Pinworm eggs are collected from the perianal area using tape."
+    "question": "What is the purpose of 'Palliative Surgery'?",
+    "option_a": "To cure the patient of cancer",
+    "option_b": "To relieve symptoms (e.g., bypass an obstruction) and improve quality of life in incurable patients",
+    "option_c": "To perform a full transplant",
+    "option_d": "To lower the cost of treatment",
+    "correct_answer": "B",
+    "explanation": "Palliative surgery focuses on comfort and function rather than longevity or cure."
   },
   {
-    "question": "Which bacteria appears as 'Gram-negative diplococci'?",
-    "option_a": "Neisseria meningitidis",
-    "option_b": "Streptococcus pneumoniae",
-    "option_c": "E. coli",
-    "option_d": "Staphylococcus aureus",
-    "correct_answer": "A",
-    "explanation": "Neisseria species are characteristic Gram-negative diplococci."
+    "question": "Which of the following is a classic sign of 'Thyroid Storm'?",
+    "option_a": "Bradycardia and hypothermia",
+    "option_b": "Tachycardia, high fever, and agitation",
+    "option_c": "Weight gain and lethargy",
+    "option_d": "Normal vital signs with a large goiter",
+    "correct_answer": "B",
+    "explanation": "Thyroid storm is a life-threatening hypermetabolic state caused by excessive thyroid hormones, often triggered by stress or surgery."
   },
   {
-    "question": "Which drug is used for prophylaxis of close contacts of Meningococcal Meningitis?",
-    "option_a": "Rifampin",
-    "option_b": "Amoxicillin",
-    "option_c": "Gentamicin",
-    "option_d": "Clindamycin",
-    "correct_answer": "A",
-    "explanation": "Rifampin (or Ciprofloxacin/Ceftriaxone) clears nasopharyngeal carriage."
+    "question": "During surgery, the 'Ligation' of a vessel means:",
+    "option_a": "Cutting the vessel",
+    "option_b": "Tying off the vessel to stop blood flow",
+    "option_c": "Repairing a hole in the vessel",
+    "option_d": "Inserting a stent",
+    "correct_answer": "B",
+    "explanation": "Ligation with sutures or clips is a fundamental surgical technique for hemostasis."
   },
   {
-    "question": "What is the mechanism of resistance in Vancomycin-Resistant Enterococcus (VRE)?",
-    "option_a": "D-Ala-D-Ala changed to D-Ala-D-Lac",
-    "option_b": "Beta-lactamase production",
-    "option_c": "Porin loss",
-    "option_d": "Ribosomal methylation",
-    "correct_answer": "A",
-    "explanation": "Alteration of the target site from D-Ala-D-Ala to D-Ala-D-Lac prevents Vancomycin binding."
+    "question": "What is the most common electrolyte complication of a massive blood transfusion?",
+    "option_a": "Hypercalcemia",
+    "option_b": "Hypocalcemia (due to citrate binding)",
+    "option_c": "Hypernatremia",
+    "option_d": "Hypokalemia",
+    "correct_answer": "B",
+    "explanation": "Citrate used as an anticoagulant in stored blood binds to the patient's ionized calcium."
   },
   {
-    "question": "Fidaxomicin is primarily used to treat:",
-    "option_a": "Clostridium difficile infection",
-    "option_b": "MRSA pneumonia",
-    "option_c": "VRE bacteremia",
-    "option_d": "Pseudomonas UTI",
-    "correct_answer": "A",
-    "explanation": "Fidaxomicin is a macrocyclic antibiotic with a narrow spectrum for C. diff."
+    "question": "A patient with a retrosternal goiter is most likely to complain of:",
+    "option_a": "Pain in the feet",
+    "option_b": "Dyspnea and dysphagia due to tracheal and esophageal compression",
+    "option_c": "Diarrhea",
+    "option_d": "Loss of hearing",
+    "correct_answer": "B",
+    "explanation": "Retrosternal goiters grow into the narrow thoracic inlet, compressing nearby structures."
   },
   {
-    "question": "Which antibiotic can cause tendon rupture (black box warning)?",
-    "option_a": "Ciprofloxacin",
-    "option_b": "Amoxicillin",
-    "option_c": "Doxycycline",
-    "option_d": "Azithromycin",
-    "correct_answer": "A",
-    "explanation": "Fluoroquinolones carry a risk of tendonitis and tendon rupture."
+    "question": "What is the management of choice for a 'Toxic Multinodular Goiter'?",
+    "option_a": "Wait and watch",
+    "option_b": "Total or near-total thyroidectomy or Radioactive Iodine",
+    "option_c": "Antibiotics",
+    "option_d": "Beta-blockers only",
+    "correct_answer": "B",
+    "explanation": "Definitive treatment is required to resolve the hyperthyroidism caused by multiple autonomous nodules."
   },
   {
-    "question": "Which organism is associated with 'Hot Tub Folliculitis'?",
-    "option_a": "Pseudomonas aeruginosa",
+    "question": "In a patient with small bowel obstruction, what does the finding of 'pneumatosis intestinalis' (gas in the bowel wall) on CT indicate?",
+    "option_a": "Early healing",
+    "option_b": "Intestinal ischemia or necrosis",
+    "option_c": "Normal bowel gas",
+    "option_d": "Good response to NG tube",
+    "correct_answer": "B",
+    "explanation": "Pneumatosis is a worrisome sign of bowel wall compromise and often leads to emergent surgery."
+  },
+  {
+    "question": "What is a 'Sistrunk Procedure' used for?",
+    "option_a": "Appendectomy",
+    "option_b": "Excision of a thyroglossal duct cyst",
+    "option_c": "Hernia repair",
+    "option_d": "Gallbladder removal",
+    "correct_answer": "B",
+    "explanation": "This procedure involves removing the cyst along with the mid-portion of the hyoid bone to prevent recurrence."
+  },
+  {
+    "question": "A patient with high serum calcium and high PTH has a Sestamibi scan showing a 'hot spot' in the neck. Diagnosis?",
+    "option_a": "Thyroid cancer",
+    "option_b": "Parathyroid adenoma",
+    "option_c": "Lymph node metastasis",
+    "option_d": "Salivary gland tumor",
+    "correct_answer": "B",
+    "explanation": "Sestamibi is a specialized nuclear medicine scan used to localize hyperfunctioning parathyroid tissue."
+  },
+  {
+    "question": "Which of the following is true about 'Phyllodes tumors' of the breast?",
+    "option_a": "They are always benign",
+    "option_b": "They are leaf-like stromal tumors that can be benign, borderline, or malignant",
+    "option_c": "They are treated with hormonal therapy",
+    "option_d": "They occur only in men",
+    "correct_answer": "B",
+    "explanation": "Phyllodes tumors grow rapidly and require wide local excision with clear margins to prevent recurrence."
+  },
+  {
+    "question": "What is the most common cause of 'Mastitis' in breastfeeding women?",
+    "option_a": "E. coli",
     "option_b": "Staphylococcus aureus",
     "option_c": "Streptococcus pyogenes",
-    "option_d": "E. coli",
-    "correct_answer": "A",
-    "explanation": "Pseudomonas survives in hot water and causes skin infections."
+    "option_d": "Candida",
+    "correct_answer": "B",
+    "explanation": "Bacteria from the infant's oropharynx enter through nipple cracks/fissures."
   },
   {
-    "question": "Which antifungal is an Echinocandin (inhibits glucan synthase)?",
-    "option_a": "Caspofungin",
-    "option_b": "Fluconazole",
-    "option_c": "Amphotericin B",
-    "option_d": "Flucytosine",
-    "correct_answer": "A",
-    "explanation": "Caspofungin inhibits the synthesis of beta-(1,3)-D-glucan in the fungal cell wall."
+    "question": "In the TNM staging for cancer, what does the 'M' represent?",
+    "option_a": "Margins",
+    "option_b": "Distant metastasis",
+    "option_c": "Muscle invasion",
+    "option_d": "Malignancy grade",
+    "correct_answer": "B",
+    "explanation": "M0 means no distant spread, M1 means distant metastases are present."
   },
   {
-    "question": "Which organism causes 'Gas Gangrene'?",
-    "option_a": "Clostridium perfringens",
-    "option_b": "Staphylococcus aureus",
-    "option_c": "Pseudomonas aeruginosa",
-    "option_d": "Bacteroides fragilis",
-    "correct_answer": "A",
-    "explanation": "C. perfringens produces toxins that cause myonecrosis and gas production."
+    "question": "Which of the following is an absolute contraindication to 'Breast-Conserving Surgery' (Lumpectomy)?",
+    "option_a": "Patient age over 60",
+    "option_b": "Multicentric disease in different quadrants of the breast",
+    "option_c": "Tumor size of 1 cm",
+    "option_d": "History of hypertension",
+    "correct_answer": "B",
+    "explanation": "Multiple primary tumors in different areas of the breast generally require a mastectomy."
   },
   {
-    "question": "Aztreonam is a Monobactam active primarily against:",
-    "option_a": "Gram-negative aerobes",
-    "option_b": "Gram-positives",
-    "option_c": "Anaerobes",
-    "option_d": "Fungi",
-    "correct_answer": "A",
-    "explanation": "Aztreonam has activity only against Gram-negative aerobic bacteria."
+    "question": "A patient with breast cancer has a biopsy showing cells in a 'single-file' (indian file) pattern. What is the histological type?",
+    "option_a": "Invasive Ductal Carcinoma",
+    "option_b": "Invasive Lobular Carcinoma",
+    "option_c": "Medullary Carcinoma",
+    "option_d": "Mucinous Carcinoma",
+    "correct_answer": "B",
+    "explanation": "The loss of E-cadherin in lobular carcinoma causes cells to lose adhesion and form single-file lines."
   },
   {
-    "question": "Which drug is effective for Methicillin-Sensitive Staph Aureus (MSSA) but not MRSA?",
-    "option_a": "Nafcillin",
-    "option_b": "Vancomycin",
-    "option_c": "Linezolid",
-    "option_d": "Daptomycin",
-    "correct_answer": "A",
-    "explanation": "Nafcillin/Oxacillin are anti-staphylococcal penicillins active against MSSA."
+    "question": "Which clinical sign involves retraction of the breast skin, suggesting an underlying malignancy?",
+    "option_a": "Peau d'orange",
+    "option_b": "Skin dimpling (tethering to Cooper's ligaments)",
+    "option_c": "Erythema",
+    "option_d": "Ulceration",
+    "correct_answer": "B",
+    "explanation": "Infiltration of the suspensory ligaments (Cooper's) by a tumor leads to skin retraction or dimpling."
   },
   {
-    "question": "Which parasite causes Chagas Disease?",
-    "option_a": "Trypanosoma cruzi",
-    "option_b": "Trypanosoma brucei",
-    "option_c": "Leishmania donovani",
-    "option_d": "Plasmodium falciparum",
-    "correct_answer": "A",
-    "explanation": "Trypanosoma cruzi causes American Trypanosomiasis (Chagas)."
+    "question": "What is the significance of the 'BI-RADS' system in mammography?",
+    "option_a": "It calculates the cost of the exam",
+    "option_b": "It provides a standardized score for the risk of malignancy (0 to 6)",
+    "option_c": "It identifies the patient's blood type",
+    "option_d": "It is a type of ultrasound probe",
+    "correct_answer": "B",
+    "explanation": "BI-RADS 4 and 5 indicate a high suspicion of cancer and usually require a biopsy."
   },
   {
-    "question": "Which antibiotic is associated with 'Red-Orange' discoloration of tears and urine?",
-    "option_a": "Rifampin",
-    "option_b": "Isoniazid",
-    "option_c": "Ethambutol",
-    "option_d": "Pyrazinamide",
-    "correct_answer": "A",
-    "explanation": "Rifampin is a dye-like drug that colors body fluids red-orange."
+    "question": "During a thyroidectomy, damage to the External Branch of the Superior Laryngeal Nerve results in:",
+    "option_a": "Total loss of voice",
+    "option_b": "Inability to create high-pitched sounds (voice fatigue)",
+    "option_c": "Aspiration",
+    "option_d": "Difficulty swallowing only",
+    "correct_answer": "B",
+    "explanation": "This nerve supplies the cricothyroid muscle, which tenses the vocal cords; damage is common in professional singers."
   },
   {
-    "question": "Helicobacter pylori treatment typically involves:",
-    "option_a": "PPI + Clarithromycin + Amoxicillin",
-    "option_b": "Vancomycin alone",
-    "option_c": "Ciprofloxacin alone",
-    "option_d": "Doxycycline alone",
-    "correct_answer": "A",
-    "explanation": "Triple therapy (PPI + 2 antibiotics) is standard for H. pylori eradication."
+    "question": "Which of the following is a symptom of 'Hypercalcemia'?",
+    "option_a": "Diarrhea",
+    "option_b": "Constipation, kidney stones, and bone pain",
+    "option_c": "Muscle twitching",
+    "option_d": "Hypotension",
+    "correct_answer": "B",
+    "explanation": "Mnemonic: 'Stones, Bones, Abdominal Groans, and Psychic Moans'."
   },
   {
-    "question": "Which class of antibiotics works by inhibiting protein synthesis at the 30S subunit?",
-    "option_a": "Tetracyclines",
-    "option_b": "Macrolides",
-    "option_c": "Cephalosporins",
-    "option_d": "Fluoroquinolones",
-    "correct_answer": "A",
-    "explanation": "Tetracyclines (and Aminoglycosides) target the 30S ribosomal subunit."
+    "question": "Which surgical procedure is used for a patient with 'Toxic Diffuse Goiter' (Graves') who fails medical therapy?",
+    "option_a": "Isthmusectomy",
+    "option_b": "Total or Subtotal thyroidectomy",
+    "option_c": "Parathyroidectomy",
+    "option_d": "Whipple procedure",
+    "correct_answer": "B",
+    "explanation": "Surgery provides a rapid and definitive cure for the hyperthyroid state."
+  },
+  {
+    "question": "What is the most common cause of 'Lower GI Bleeding' in an adult over 60?",
+    "option_a": "Hemorrhoids",
+    "option_b": "Diverticulosis",
+    "option_c": "Angiodysplasia",
+    "option_d": "Colon cancer",
+    "correct_answer": "B",
+    "explanation": "Diverticulosis causes painless, often brisk hematochezia in the elderly."
+  },
+  {
+    "question": "Which procedure involves removing the entire breast, axillary lymph nodes, and the pectoral fascia, but spares the pectoral muscles?",
+    "option_a": "Radical Mastectomy",
+    "option_b": "Modified Radical Mastectomy",
+    "option_c": "Simple Mastectomy",
+    "option_d": "Lumpectomy",
+    "correct_answer": "B",
+    "explanation": "The Modified Radical Mastectomy is the standard oncologic procedure when breast conservation is not feasible."
   }
 ]
 
-COURSE_ID = "UG_PHARM_Y3_S2_C07"
+COURSE_ID = "NVU_MD_Y3_S1_C25"
 
 async def main():
     client = AsyncIOMotorClient(os.environ["MONGO_URL"])
