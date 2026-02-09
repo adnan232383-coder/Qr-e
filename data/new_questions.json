@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is the most significant risk factor for the development of Clostridioides difficile infection (CDI) in a hospitalized patient?",
+    "option_a": "Physical contact with an infected person",
+    "option_b": "Recent use of broad-spectrum antibiotics",
+    "option_c": "Use of proton pump inhibitors (PPIs)",
+    "option_d": "Advanced age (>65 years)",
+    "correct_answer": "B",
+    "explanation": "Antibiotic use (especially clindamycin, fluoroquinolones, and 3rd gen cephalosporins) disrupts the normal gut flora, allowing C. diff to overgrow and produce toxins."
+  },
+  {
+    "question": "Which of the following defines 'Septic Shock' according to the Sepsis-3 criteria?",
+    "option_a": "Sepsis with a need for vasopressors to maintain MAP ≥ 65 mmHg and serum lactate > 2 mmol/L despite adequate fluid resuscitation",
+    "option_b": "Sepsis with a systolic blood pressure < 90 mmHg",
+    "option_c": "Any infection requiring intensive care unit (ICU) admission",
+    "option_d": "Bacteremia associated with a fever > 39°C",
+    "correct_answer": "A",
+    "explanation": "Septic shock is a subset of sepsis with profound circulatory and cellular/metabolic abnormalities, identified by vasopressor requirement and high lactate."
+  },
+  {
+    "question": "Which organism is the most common cause of Catheter-Associated Urinary Tract Infections (CAUTI)?",
+    "option_a": "Enterococcus faecalis",
+    "option_b": "Escherichia coli",
+    "option_c": "Pseudomonas aeruginosa",
+    "option_d": "Klebsiella pneumoniae",
+    "correct_answer": "B",
+    "explanation": "E. coli remains the leading pathogen for both community-acquired and hospital-acquired UTIs."
+  },
+  {
+    "question": "The 'ESKAPE' pathogens are a group of bacteria known for their high levels of antibiotic resistance. Which of the following is NOT part of this group?",
+    "option_a": "Enterococcus faecium",
+    "option_b": "Streptococcus pyogenes",
+    "option_c": "Klebsiella pneumoniae",
+    "option_d": "Acinetobacter baumannii",
+    "correct_answer": "B",
+    "explanation": "ESKAPE stands for: Enterococcus faecium, Staphylococcus aureus, Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa, and Enterobacter species."
+  },
+  {
+    "question": "What is the primary mechanism of resistance in Vancomycin-Resistant Enterococci (VRE)?",
+    "option_a": "Production of beta-lactamases",
+    "option_b": "Alteration of the cell wall precursor from D-Ala-D-Ala to D-Ala-D-Lac",
+    "option_c": "Active efflux of the drug",
+    "option_d": "Mutation in DNA gyrase",
+    "correct_answer": "B",
+    "explanation": "By changing the terminal amino acid, the bacteria prevent vancomycin from binding to the peptidoglycan precursor."
+  },
+  {
+    "question": "In a patient with a suspected central line-associated bloodstream infection (CLABSI), what is the definitive way to confirm the diagnosis?",
+    "option_a": "A single positive blood culture from the line",
+    "option_b": "Paired blood cultures (one from the line, one from a peripheral vein) showing the same organism",
+    "option_c": "Fever and a red insertion site",
+    "option_d": "Leukocytosis with a left shift",
+    "correct_answer": "B",
+    "explanation": "Diagnosis is confirmed when the same organism is isolated from both cultures, often with the line culture becoming positive significantly earlier than the peripheral one."
+  },
+  {
+    "question": "Which of the following is an example of an 'Inactivated' (Killed) vaccine?",
+    "option_a": "MMR",
+    "option_b": "Hepatitis A",
+    "option_c": "Varicella",
+    "option_d": "Yellow Fever",
+    "correct_answer": "B",
+    "explanation": "The Hepatitis A vaccine is an inactivated virus, while the others listed are live-attenuated vaccines."
+  },
+  {
+    "question": "A healthcare worker is stuck by a needle used on a patient with chronic Hepatitis B (HBsAg positive). The worker has never been vaccinated. What is the next step?",
+    "option_a": "Wait for 6 months and test for HBsAg",
+    "option_b": "Administer both the Hepatitis B vaccine and Hepatitis B Immune Globulin (HBIG) immediately",
+    "option_c": "Administer the vaccine only",
+    "option_d": "Start Lamivudine treatment",
+    "correct_answer": "B",
+    "explanation": "Unvaccinated individuals exposed to HBV require passive-active immunization (HBIG for immediate protection and the vaccine for long-term immunity)."
+  },
+  {
+    "question": "What is the drug of choice for the treatment of infections caused by Extended-Spectrum Beta-Lactamase (ESBL) producing Enterobacteriaceae?",
+    "option_a": "Ceftriaxone",
+    "option_b": "Carbapenems (e.g., Meropenem)",
+    "option_c": "Piperacillin-Tazobactam",
+    "option_d": "Ciprofloxacin",
+    "correct_answer": "B",
+    "explanation": "ESBLs hydrolyze most penicillins and cephalosporins. Carbapenems are the most reliable agents for treating serious ESBL infections."
+  },
+  {
+    "question": "Which of the following is true regarding 'Live Attenuated' vaccines?",
+    "option_a": "They are safe for all pregnant women",
+    "option_b": "They provide long-lasting immunity, often with a single dose",
+    "option_c": "They require frequent boosters every 2 years",
+    "option_d": "They can never revert to a virulent form",
+    "correct_answer": "B",
+    "explanation": "Live vaccines mimic natural infection, providing strong and durable immunity, but are contraindicated in immunocompromised or pregnant patients."
+  },
+  {
+    "question": "A patient is diagnosed with 'Ventilator-Associated Pneumonia' (VAP). Which organism is a frequent multi-drug resistant (MDR) culprit in this setting?",
+    "option_a": "Streptococcus pneumoniae",
+    "option_b": "Pseudomonas aeruginosa",
+    "option_c": "Haemophilus influenzae",
+    "option_d": "Moraxella catarrhalis",
+    "correct_answer": "B",
+    "explanation": "Pseudomonas and MRSA are the most common MDR pathogens associated with VAP in the hospital environment."
+  },
+  {
+    "question": "What does the 'Sepsis Six' bundle include to be completed within the first hour of recognition?",
+    "option_a": "Oxygen, IV fluids, Antibiotics, Blood cultures, Hemoglobin check, and Urine output monitoring",
+    "option_b": "Steroids, Insulin, Vasopressors, X-ray, Surgery, and Cultures",
+    "option_c": "Intubation, CT scan, Heparin, Aspirin, Fluids, and Fever control",
+    "option_d": "Only Antibiotics and Fluids",
+    "correct_answer": "A",
+    "explanation": "The Sepsis Six is a practical tool: Give O2, fluids, and IV antibiotics; Take cultures, Hb, and check urine output."
+  },
+  {
+    "question": "Which antibiotic is known for causing 'Red Man Syndrome' if infused too rapidly?",
+    "option_a": "Daptomycin",
+    "option_b": "Vancomycin",
+    "option_c": "Linezolid",
+    "option_d": "Gentamicin",
+    "correct_answer": "B",
+    "explanation": "Rapid infusion of vancomycin causes direct histamine release from mast cells, leading to flushing and pruritus of the upper body."
+  },
+  {
+    "question": "A patient with a deep puncture wound from a dog bite has no record of tetanus vaccination. What should be administered?",
+    "option_a": "Tetanus toxoid vaccine (Tdap) only",
+    "option_b": "Tetanus Immune Globulin (TIG) and Tetanus toxoid vaccine (Tdap)",
+    "option_c": "Antibiotics only",
+    "option_d": "Nothing if the dog looks healthy",
+    "correct_answer": "B",
+    "explanation": "For 'dirty' wounds in an individual with unknown or incomplete vaccination (<3 doses), both the vaccine and TIG are required."
+  },
+  {
+    "question": "What is the primary mechanism of action of 'Carbapenems'?",
+    "option_a": "Inhibition of the 50S ribosome",
+    "option_b": "Inhibition of cell wall synthesis by binding to PBPs",
+    "option_c": "Inhibition of DNA synthesis",
+    "option_d": "Disruption of the fungal cell membrane",
+    "correct_answer": "B",
+    "explanation": "Carbapenems are broad-spectrum beta-lactams that prevent bacterial cell wall formation."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Post-Polio Syndrome'?",
+    "option_a": "Acute high fever and rash",
+    "option_b": "New onset of muscle weakness and fatigue decades after the initial infection",
+    "option_c": "Immediate paralysis",
+    "option_d": "Chronic diarrhea",
+    "correct_answer": "B",
+    "explanation": "Post-polio syndrome affects survivors 15-40 years after recovery from the acute paralytic disease."
+  },
+  {
+    "question": "Which bacterial component is the primary inducer of Septic Shock in Gram-negative infections?",
+    "option_a": "Exotoxin A",
+    "option_b": "Lipopolysaccharide (LPS / Endotoxin)",
+    "option_c": "Teichoic acid",
+    "option_d": "Flagellin",
+    "correct_answer": "B",
+    "explanation": "LPS in the outer membrane of Gram-negative bacteria triggers a massive release of cytokines (cytokine storm), leading to vasodilation and shock."
+  },
+  {
+    "question": "A patient has a positive blood culture for 'MRSA'. Which of the following drugs would be INEFFECTIVE?",
+    "option_a": "Daptomycin",
+    "option_b": "Ceftriaxone",
+    "option_c": "Linezolid",
+    "option_d": "Tigecycline",
+    "correct_answer": "B",
+    "explanation": "MRSA is resistant to all current beta-lactams (including ceftriaxone), except for the 5th generation cephalosporin Ceftaroline."
+  },
+  {
+    "question": "Which of the following is true for the 'Procalcitonin' (PCT) lab test?",
+    "option_a": "It is specific for viral infections",
+    "option_b": "Levels rise significantly in response to bacterial infections and help guide antibiotic therapy",
+    "option_c": "It is used to monitor blood sugar",
+    "option_d": "It only rises in fungal infections",
+    "correct_answer": "B",
+    "explanation": "PCT is a biomarker for bacterial sepsis; its level can help distinguish bacterial from viral causes and assist in deciding when to stop antibiotics."
+  },
+  {
+    "question": "What is the recommended management for a 'Healthcare Worker' who was exposed to HIV via a deep needlestick from a known HIV-positive patient?",
+    "option_a": "Wait for the worker to test positive before treatment",
+    "option_b": "Start Post-Exposure Prophylaxis (PEP) with a 3-drug regimen as soon as possible (ideally within 2 hours)",
+    "option_c": "Start Zidovudine monotherapy",
+    "option_d": "Administer a vaccine immediately",
+    "correct_answer": "B",
+    "explanation": "PEP should be started immediately and continued for 28 days to prevent viral integration and infection."
+  },
+  {
+    "question": "Which of the following describes 'Collateral Damage' in antibiotic therapy?",
+    "option_a": "Allergic reactions to the drug",
+    "option_b": "Ecological adverse effects like the selection of drug-resistant organisms and C. diff infection",
+    "option_c": "High cost of the medication",
+    "option_d": "Damage to the liver by the drug",
+    "correct_answer": "B",
+    "explanation": "Collateral damage refers to the unintended impact of antibiotics on the host's microbiome and the promotion of resistance."
+  },
+  {
+    "question": "A patient with a history of travel to an area with endemic Rabies is bitten by a wild bat. What is the management?",
+    "option_a": "Observe the bat for 10 days",
+    "option_b": "Immediate post-exposure prophylaxis (HRIG and 4 doses of vaccine)",
+    "option_c": "Antibiotics only",
+    "option_d": "No treatment unless the patient feels sick",
+    "correct_answer": "B",
+    "explanation": "Bat bites are often unnoticed or minimal; any direct contact with a bat in an endemic area is an indication for full Rabies PEP."
+  },
+  {
+    "question": "What is the primary mechanism of action of 'Aminoglycosides'?",
+    "option_a": "Inhibition of the 50S ribosomal subunit",
+    "option_b": "Irreversible inhibition of the 30S ribosomal subunit causing mRNA misreading",
+    "option_c": "Inhibition of RNA polymerase",
+    "option_d": "Blockade of cell wall synthesis",
+    "correct_answer": "B",
+    "explanation": "Aminoglycosides (e.g., Amikacin) are bactericidal protein synthesis inhibitors."
+  },
+  {
+    "question": "Which infection is a major concern in patients receiving 'Total Parenteral Nutrition' (TPN) via a central line?",
+    "option_a": "Influenza",
+    "option_b": "Candidemia (Fungal bloodstream infection)",
+    "option_c": "Giardiasis",
+    "option_d": "Tetanus",
+    "correct_answer": "B",
+    "explanation": "The high glucose content of TPN and the presence of a central venous catheter are significant risk factors for Candida infections."
+  },
+  {
+    "question": "Which of the following is a 'Hard' clinical sign of Necrotizing Fasciitis?",
+    "option_a": "Fever",
+    "option_b": "Pain out of proportion to skin findings and 'dishwater' discharge",
+    "option_c": "Mild redness of the skin",
+    "option_d": "Normal blood pressure",
+    "correct_answer": "B",
+    "explanation": "Extreme pain and systemic toxicity in the absence of obvious severe skin damage are early indicators of this surgical emergency."
+  },
+  {
+    "question": "What is the mechanism of resistance for 'CRE' (Carbapenem-Resistant Enterobacteriaceae)?",
+    "option_a": "Mutations in RNA polymerase",
+    "option_b": "Production of carbapenemase enzymes (e.g., KPC, NDM-1) that hydrolyze the antibiotic",
+    "option_c": "Thickening of the cell wall",
+    "option_d": "Active efflux of glucose",
+    "correct_answer": "B",
+    "explanation": "Carbapenemases are enzymes that break down almost all beta-lactam antibiotics, leaving very few treatment options."
+  },
+  {
+    "question": "Which of the following is true for 'Surgical Site Infections' (SSI)?",
+    "option_a": "They only involve the skin",
+    "option_b": "They are defined as occurring within 30 days of surgery (or 1 year with an implant)",
+    "option_c": "They are always caused by viruses",
+    "option_d": "Antibiotics are never used for SSIs",
+    "correct_answer": "B",
+    "explanation": "SSIs can be superficial, deep (fascia/muscle), or involving an organ/space."
+  },
+  {
+    "question": "What is the first-line treatment for a patient in 'Septic Shock' whose blood pressure does not respond to fluid resuscitation?",
+    "option_a": "Dopamine",
+    "option_b": "Norepinephrine",
+    "option_c": "Epinephrine",
+    "option_d": "Vasopressin",
+    "correct_answer": "B",
+    "explanation": "Norepinephrine is the first-choice vasopressor recommended by the Surviving Sepsis Campaign."
+  },
+  {
+    "question": "Which vaccine is recommended for all adults over age 65 to prevent invasive disease?",
+    "option_a": "MMR",
+    "option_b": "Pneumococcal vaccine (PPSV23 and/or PCV15/20)",
+    "option_c": "BCG",
+    "option_d": "Rotavirus",
+    "correct_answer": "B",
+    "explanation": "The pneumococcal vaccine reduces the risk of pneumonia and meningitis in the elderly."
+  },
+  {
+    "question": "Which class of antibiotics is associated with 'Ototoxicity' and 'Nephrotoxicity'?",
+    "option_a": "Macrolides",
+    "option_b": "Aminoglycosides",
+    "option_c": "Penicillins",
+    "option_d": "Tetracyclines",
+    "correct_answer": "B",
+    "explanation": "Gentamicin, Amikacin, and Tobramycin require careful serum level monitoring to avoid hearing loss and renal failure."
+  },
+  {
+    "question": "A patient with 'Splenectomy' (asplenia) is at highest risk for infection from which group of organisms?",
+    "option_a": "Anaerobes",
+    "option_b": "Encapsulated bacteria (e.g., S. pneumoniae, H. influenzae, N. meningitidis)",
+    "option_c": "Viruses",
+    "option_d": "Fungi",
+    "correct_answer": "B",
+    "explanation": "The spleen is essential for clearing opsonized encapsulated bacteria from the blood; asplenic patients require specific vaccinations."
+  },
+  {
+    "question": "What is the primary mechanism of action of 'Daptomycin'?",
+    "option_a": "Inhibition of the 30S ribosome",
+    "option_b": "Insertion into the cell membrane causing rapid depolarization and ion leakage",
+    "option_c": "Blocking of RNA synthesis",
+    "option_d": "Interference with folic acid synthesis",
+    "correct_answer": "B",
+    "explanation": "Daptomycin is a lipopeptide bactericidal agent effective against resistant Gram-positive bacteria like MRSA and VRE."
+  },
+  {
+    "question": "Which infection is a common complication of 'Neutropenia' (Absolute Neutrophil Count < 500)?",
+    "option_a": "Lyme disease",
+    "option_b": "Invasive Aspergillosis or Pseudomonas bacteremia",
+    "option_c": "Pinworm infection",
+    "option_d": "Hepatitis A",
+    "correct_answer": "B",
+    "explanation": "Neutropenic patients lack the primary defense against environmental molds and Gram-negative bacilli."
+  },
+  {
+    "question": "Which of the following is true for 'Antimicrobial Stewardship' programs?",
+    "option_a": "They aim to use the most expensive drugs possible",
+    "option_b": "They aim to optimize clinical outcomes while minimizing unintended consequences of antimicrobial use",
+    "option_c": "They promote the use of broad-spectrum drugs for every patient",
+    "option_d": "They are only for community pharmacies",
+    "correct_answer": "B",
+    "explanation": "Stewardship involves giving the right drug, at the right dose, for the right duration."
+  },
+  {
+    "question": "A patient presents with 'Fever' and 'Hypotension' after receiving a blood transfusion. What is the most likely infectious cause?",
+    "option_a": "Viral Hepatitis",
+    "option_b": "Bacterial contamination of the blood product (e.g., Yersinia or S. aureus)",
+    "option_c": "Malaria",
+    "option_d": "HIV",
+    "correct_answer": "B",
+    "explanation": "While rare, bacterial contamination can cause rapid-onset septic transfusion reactions."
+  },
+  {
+    "question": "What is the standard treatment for 'Lyme Disease' in a patient with early localized Erythema Migrans?",
+    "option_a": "Ceftriaxone IV for 30 days",
+    "option_b": "Oral Doxycycline for 10-14 days",
+    "option_c": "Amoxicillin-Clavulanate",
+    "option_d": "Azithromycin",
+    "correct_answer": "B",
+    "explanation": "Doxycycline is highly effective for early stage Lyme disease; IV therapy is reserved for neurological or cardiac manifestations."
+  },
+  {
+    "question": "Which of the following is an 'Indication' for starting a patient on 'Linezolid'?",
+    "option_a": "Severe Pseudomonas infection",
+    "option_b": "Vancomycin-Resistant Enterococci (VRE) or MRSA pneumonia",
+    "option_c": "Uncomplicated UTI",
+    "option_d": "Fungal meningitis",
+    "correct_answer": "B",
+    "explanation": "Linezolid is an oxazolidinone with excellent Gram-positive activity, particularly against resistant strains."
+  },
+  {
+    "question": "Which antibiotic is associated with a risk of 'Serotonin Syndrome' if used with SSRIs?",
+    "option_a": "Vancomycin",
+    "option_b": "Linezolid",
+    "option_c": "Clindamycin",
+    "option_d": "Ciprofloxacin",
+    "correct_answer": "B",
+    "explanation": "Linezolid is a weak monoamine oxidase inhibitor (MAOI) and can cause toxic serotonin levels when combined with serotonergic drugs."
+  },
+  {
+    "question": "A patient with chronic 'Diabetes' develops a foot ulcer. Which group of organisms is most likely involved in a deep, foul-smelling infection?",
+    "option_a": "Purely viruses",
+    "option_b": "Polymicrobial (Aerobic Gram-positives, Gram-negatives, and Anaerobes)",
+    "option_c": "Strictly S. aureus",
+    "option_d": "Fungi only",
+    "correct_answer": "B",
+    "explanation": "Diabetic foot infections are typically complex and require broad-spectrum empiric coverage."
+  },
+  {
+    "question": "What is the significance of a 'Negative' MRSA nasal swab in a patient with pneumonia?",
+    "option_a": "It has a high negative predictive value, meaning MRSA is very unlikely the cause of the pneumonia",
+    "option_b": "It means the patient has a viral infection",
+    "option_c": "It is a useless test",
+    "option_d": "The patient must be isolated anyway",
+    "correct_answer": "A",
+    "explanation": "The nasal swab for MRSA is an excellent screening tool for de-escalating (stopping) anti-MRSA therapy like vancomycin."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Toxic Shock Syndrome' (TSS)?",
+    "option_a": "Bradycardia and constipation",
+    "option_b": "Fever, hypotension, and a diffuse desquamating erythroderma (rash)",
+    "option_c": "Joint swelling only",
+    "option_d": "Normal blood pressure with a localized abscess",
+    "correct_answer": "B",
+    "explanation": "TSS is a superantigen-mediated disease causing rapid multisystem failure."
+  },
+  {
+    "question": "What is the first step in the management of 'Sepsis-induced' hypoperfusion (lactate > 4)?",
+    "option_a": "Wait for BP to drop",
+    "option_b": "Aggressive fluid resuscitation with at least 30 mL/kg of crystalloid",
+    "option_c": "Immediate surgery",
+    "option_d": "Oral fluids only",
+    "correct_answer": "B",
+    "explanation": "Early, rapid fluid administration is critical to restoring tissue perfusion in septic patients."
+  },
+  {
+    "question": "Which antibiotic class works by inhibiting DNA Gyrase (Topoisomerase)?",
+    "option_a": "Fluoroquinolones",
+    "option_b": "Sulfonamides",
+    "option_c": "Macrolides",
+    "option_d": "Aminoglycosides",
+    "correct_answer": "A",
+    "explanation": "Fluoroquinolones (e.g., Levofloxacin) prevent bacterial DNA from unwinding for replication."
+  },
+  {
+    "question": "Which of the following is true for 'Nosocomial' (Hospital-Acquired) Pneumonia?",
+    "option_a": "It occurs within 2 hours of admission",
+    "option_b": "It occurs 48 hours or more after admission and was not present at the time of admission",
+    "option_c": "It is always caused by the flu",
+    "option_d": "It is only seen in children",
+    "correct_answer": "B",
+    "explanation": "HAP is a leading cause of morbidity in hospitalized patients and often involves more resistant pathogens."
+  },
+  {
+    "question": "A patient with 'Cystic Fibrosis' is colonized with a mucoid, blue-green pigment-producing bacterium. What is it?",
+    "option_a": "S. aureus",
+    "option_b": "Pseudomonas aeruginosa",
+    "option_c": "H. influenzae",
+    "option_d": "E. coli",
+    "correct_answer": "B",
+    "explanation": "Pseudomonas is notorious for its ability to form biofilms and produce pigments like pyocyanin."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Zoster Sine Herpete'?",
+    "option_a": "Generalized itchy blisters",
+    "option_b": "Dermatomal pain without a visible rash",
+    "option_c": "Severe diarrhea",
+    "option_d": "High fever and stiff neck",
+    "correct_answer": "B",
+    "explanation": "This is a variant of Shingles where the virus reactivates and causes nerve pain but no skin lesions appear."
+  },
+  {
+    "question": "What is the primary role of 'Beta-lactamase Inhibitors' (e.g., Clavulanic acid, Tazobactam)?",
+    "option_a": "To kill the bacteria directly",
+    "option_b": "To protect the partner beta-lactam antibiotic from degradation by bacterial enzymes",
+    "option_c": "To reduce side effects",
+    "option_d": "To treat viral infections",
+    "correct_answer": "B",
+    "explanation": "They bind irreversibly to beta-lactamases, allowing the antibiotic to reach its target (PBP)."
+  },
+  {
+    "question": "Which of the following is an indication for the 'Influenza' vaccine?",
+    "option_a": "Only for people over age 80",
+    "option_b": "For everyone 6 months of age and older, annually",
+    "option_c": "Once every 10 years",
+    "option_d": "Only for healthcare workers",
+    "correct_answer": "B",
+    "explanation": "Annual vaccination is recommended because the virus changes every year (antigenic drift)."
+  },
+  {
+    "question": "Which bacterial structure is the target of 'Polymyxins' (e.g., Colistin)?",
+    "option_a": "Ribosomes",
+    "option_b": "Outer membrane of Gram-negative bacteria",
+    "option_c": "Cell wall of Gram-positives",
+    "option_d": "DNA",
+    "correct_answer": "B",
+    "explanation": "Polymyxins act like detergents, disrupting the LPS and phospholipids of the outer membrane."
+  },
+  {
+    "question": "In a patient with 'Secondary Peritonitis' due to a bowel perforation, which organism must the empiric antibiotic regimen always cover?",
+    "option_a": "S. pneumoniae",
+    "option_b": "Bacteroides fragilis (Anaerobes)",
+    "option_c": "Mycoplasma",
+    "option_d": "Legionella",
+    "correct_answer": "B",
+    "explanation": "Bowel flora consists heavily of Gram-negative rods and anaerobes like B. fragilis, which are the primary drivers of intra-abdominal abscesses."
+  }
+]

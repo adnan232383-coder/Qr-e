@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://med-course-import.preview.emergentagent.com |
-| Admin Panel | https://med-course-import.preview.emergentagent.com/admin/progress |
-| API Docs | https://med-course-import.preview.emergentagent.com/api/docs |
+| Frontend | https://course-populator.preview.emergentagent.com |
+| Admin Panel | https://course-populator.preview.emergentagent.com/admin/progress |
+| API Docs | https://course-populator.preview.emergentagent.com/api/docs |
 
 ---
 
