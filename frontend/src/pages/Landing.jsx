@@ -15,7 +15,9 @@ import {
   Pill,
   Users,
   Globe,
-  Award
+  Award,
+  Building2,
+  Heart
 } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
@@ -25,11 +27,11 @@ export default function Landing() {
   const navigate = useNavigate();
   const { theme, toggleTheme } = useTheme();
   const { user, login, isAuthenticated } = useAuth();
-  const [majors, setMajors] = useState([]);
+  const [universities, setUniversities] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchMajors();
+    fetchUniversities();
     seedDatabase();
   }, []);
 
@@ -41,15 +43,15 @@ export default function Landing() {
     }
   };
 
-  const fetchMajors = async () => {
+  const fetchUniversities = async () => {
     try {
-      const response = await fetch(`${API}/majors`);
+      const response = await fetch(`${API}/universities`);
       if (response.ok) {
         const data = await response.json();
-        setMajors(data);
+        setUniversities(data);
       }
     } catch (e) {
-      console.error("Error fetching majors:", e);
+      console.error("Error fetching universities:", e);
     } finally {
       setLoading(false);
     }
