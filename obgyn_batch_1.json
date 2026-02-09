@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 24-year-old G1P0 at 32 weeks gestation presents with sudden onset painless vaginal bleeding. Ultrasound reveals the placenta completely covering the internal os. What is the most appropriate management?",
+    "option_a": "Immediate vaginal delivery",
+    "option_b": "Cesarean delivery at 36-37 weeks (or earlier if bleeding is unstable)",
+    "option_c": "Manual cervical examination to assess dilation",
+    "option_d": "Amniotomy to control bleeding",
+    "correct_answer": "B",
+    "explanation": "Placenta previa requires delivery via Cesarean section because the placenta obstructs the birth canal. Digital cervical exams are strictly contraindicated as they can trigger massive hemorrhage."
+  },
+  {
+    "question": "Which of the following is the most common cause of postpartum hemorrhage?",
+    "option_a": "Retained products of conception",
+    "option_b": "Uterine atony",
+    "option_c": "Genital tract lacerations",
+    "option_d": "Coagulopathy",
+    "correct_answer": "B",
+    "explanation": "Uterine atony (failure of the uterus to contract effectively after delivery) accounts for approximately 70-80% of postpartum hemorrhage cases."
+  },
+  {
+    "question": "A 30-year-old female presents with severe pelvic pain and a positive pregnancy test. Ultrasound shows an empty uterus and a complex mass in the right adnexa. What is the next most appropriate step?",
+    "option_a": "Wait for 1 week and repeat ultrasound",
+    "option_b": "Surgical exploration (Laparoscopy) or Methotrexate therapy",
+    "option_c": "Start oral progesterone",
+    "option_d": "Perform a D&C",
+    "correct_answer": "B",
+    "explanation": "Suspected ectopic pregnancy is a medical/surgical emergency. Management depends on the patient's stability and hCG levels."
+  },
+  {
+    "question": "What is the hallmark clinical triad of Preeclampsia?",
+    "option_a": "Fever, jaundice, and RUQ pain",
+    "option_b": "Hypertension, proteinuria, and edema (though edema is no longer a diagnostic requirement)",
+    "option_c": "Bradycardia, hypotension, and headache",
+    "option_d": "Anemia, thrombocytopenia, and rash",
+    "correct_answer": "B",
+    "explanation": "Preeclampsia is defined by new-onset hypertension (≥140/90) and proteinuria after 20 weeks of gestation."
+  },
+  {
+    "question": "Which of the following is an absolute contraindication to the use of Combined Oral Contraceptives (COCs)?",
+    "option_a": "History of irregular periods",
+    "option_b": "History of Deep Vein Thrombosis (DVT) or Pulmonary Embolism (PE)",
+    "option_c": "Age 25 and smoking 5 cigarettes a day",
+    "option_d": "Controlled hypertension",
+    "correct_answer": "B",
+    "explanation": "Estrogen increases the risk of thromboembolism. COCs are contraindicated in women with a history of VTE or smokers over 35."
+  },
+  {
+    "question": "A patient at 38 weeks gestation presents with painful vaginal bleeding, a firm/tender uterus, and fetal distress on the monitor. Diagnosis?",
+    "option_a": "Placenta previa",
+    "option_b": "Placental abruption",
+    "option_c": "Vasa previa",
+    "option_d": "Uterine rupture",
+    "correct_answer": "B",
+    "explanation": "Placental abruption is the premature separation of the placenta, classically causing painful bleeding and 'board-like' uterine tenderness."
+  },
+  {
+    "question": "In the management of Eclampsia, what is the first-line medication to prevent further seizures?",
+    "option_a": "Diazepam",
+    "option_b": "Magnesium Sulfate",
+    "option_c": "Phenytoin",
+    "option_d": "Lorazepam",
+    "correct_answer": "B",
+    "explanation": "Magnesium sulfate is superior to anticonvulsants for the prevention and treatment of eclamptic seizures."
+  },
+  {
+    "question": "Which organism is the most common cause of Pelvic Inflammatory Disease (PID)?",
+    "option_a": "Staphylococcus aureus",
+    "option_b": "Chlamydia trachomatis and Neisseria gonorrhoeae",
+    "option_c": "E. coli",
+    "option_d": "Gardnerella vaginalis",
+    "correct_answer": "B",
+    "explanation": "Most PID cases are polymicrobial, but sexually transmitted Chlamydia and Gonorrhea are the primary initiators of infection."
+  },
+  {
+    "question": "A 50-year-old female presents with postmenopausal bleeding. What is the most critical diagnostic test to perform?",
+    "option_a": "Transvaginal ultrasound only",
+    "option_b": "Endometrial biopsy",
+    "option_c": "Pap smear",
+    "option_d": "Serum CA-125",
+    "correct_answer": "B",
+    "explanation": "Postmenopausal bleeding is considered endometrial cancer until proven otherwise; tissue sampling is mandatory."
+  },
+  {
+    "question": "Which of the following is true regarding 'HELLP Syndrome'?",
+    "option_a": "It involves High Epinephrine, Low Lipids, and Pain",
+    "option_b": "It involves Hemolysis, Elevated Liver enzymes, and Low Platelets",
+    "option_c": "It is a mild form of morning sickness",
+    "option_d": "It only occurs in the first trimester",
+    "correct_answer": "B",
+    "explanation": "HELLP syndrome is a severe variant of preeclampsia with high maternal and fetal morbidity."
+  },
+  {
+    "question": "At what gestational age is the 'Glucose Challenge Test' typically performed for gestational diabetes screening?",
+    "option_a": "10-12 weeks",
+    "option_b": "24-28 weeks",
+    "option_c": "32-34 weeks",
+    "option_d": "At the first prenatal visit for everyone",
+    "correct_answer": "B",
+    "explanation": "Screening for GDM is done at 24-28 weeks unless the patient has significant risk factors requiring earlier testing."
+  },
+  {
+    "question": "A 'Snowstorm appearance' on ultrasound in a patient with an unusually large uterus and high hCG levels is classic for:",
+    "option_a": "Twin pregnancy",
+    "option_b": "Hydatidiform mole (Molar pregnancy)",
+    "option_c": "Uterine fibroids",
+    "option_d": "Ectopic pregnancy",
+    "correct_answer": "B",
+    "explanation": "Gestational trophoblastic disease (molar pregnancy) creates a characteristic cystic pattern on ultrasound."
+  },
+  {
+    "question": "Which of the following is the drug of choice for 'Group B Strep' (GBS) prophylaxis during labor?",
+    "option_a": "Vancomycin",
+    "option_b": "Penicillin G (or Ampicillin)",
+    "option_c": "Gentamicin",
+    "option_d": "Azithromycin",
+    "correct_answer": "B",
+    "explanation": "Intravenous Penicillin is the standard for preventing neonatal GBS sepsis."
+  },
+  {
+    "question": "A patient presents with a 'fishy' vaginal odor and 'clue cells' on a saline wet mount. Diagnosis?",
+    "option_a": "Trichomoniasis",
+    "option_b": "Bacterial Vaginosis (BV)",
+    "option_c": "Candidiasis",
+    "option_d": "Gonorrhea",
+    "correct_answer": "B",
+    "explanation": "BV is caused by a shift in vaginal flora (loss of Lactobacilli and overgrowth of anaerobes like Gardnerella)."
+  },
+  {
+    "question": "What is the primary medication used to 'induce labor' by ripening the cervix?",
+    "option_a": "Oxytocin",
+    "option_b": "Prostaglandins (e.g., Misoprostol or Dinoprostone)",
+    "option_c": "Terbutaline",
+    "option_d": "Magnesium",
+    "correct_answer": "B",
+    "explanation": "Prostaglandins are used for cervical ripening (the initial phase), while Oxytocin is used for contractions."
+  },
+  {
+    "question": "A 16-year-old presents with primary amenorrhea and a blind-ending vagina. Genetic testing shows a 46,XY karyotype. Most likely diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Androgen Insensitivity Syndrome (AIS)",
+    "option_c": "Müllerian Agenesis",
+    "option_d": "Polycystic Ovary Syndrome",
+    "correct_answer": "B",
+    "explanation": "AIS involves a male genotype with a female phenotype due to lack of response to androgens."
+  },
+  {
+    "question": "Which of the following describes 'Active Management' of the third stage of labor to prevent hemorrhage?",
+    "option_a": "Manual removal of the placenta immediately",
+    "option_b": "Uterotonic administration (Oxytocin), controlled cord traction, and uterine massage",
+    "option_c": "Waiting 60 minutes for the placenta to detach on its own",
+    "option_d": "Immediate D&C after delivery",
+    "correct_answer": "B",
+    "explanation": "Active management significantly reduces the risk of postpartum hemorrhage."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Ectopic Pregnancy' rupture?",
+    "option_a": "High fever",
+    "option_b": "Shoulder pain (Kehr's sign) and hypotension",
+    "option_c": "Chronic constipation",
+    "option_d": "Increased appetite",
+    "correct_answer": "B",
+    "explanation": "Blood in the peritoneum irritates the diaphragm, causing referred pain to the shoulder."
+  },
+  {
+    "question": "What is the standard treatment for 'Trichomonas vaginalis'?",
+    "option_a": "Fluconazole",
+    "option_b": "Metronidazole (for both the patient and partner)",
+    "option_c": "Amoxicillin",
+    "option_d": "Clindamycin cream",
+    "correct_answer": "B",
+    "explanation": "Trichomoniasis is a sexually transmitted infection requiring partner treatment to prevent re-infection."
+  },
+  {
+    "question": "In a pregnant patient with 'Syphilis' who is allergic to Penicillin, what is the management?",
+    "option_a": "Give Doxycycline",
+    "option_b": "Perform Penicillin desensitization followed by IM Penicillin G",
+    "option_c": "Give Azithromycin",
+    "option_d": "No treatment is possible",
+    "correct_answer": "B",
+    "explanation": "Penicillin is the only effective treatment for preventing congenital syphilis; desensitization is required if an allergy exists."
+  },
+  {
+    "question": "Which of the following is true for 'Lochia Rubra'?",
+    "option_a": "It is a sign of infection",
+    "option_b": "It is the normal red postpartum vaginal discharge for the first 3-4 days",
+    "option_c": "It only occurs after a C-section",
+    "option_d": "It lasts for 6 months",
+    "correct_answer": "B",
+    "explanation": "Lochia rubra (red), serosa (pink/brown), and alba (white) are the normal stages of postpartum discharge."
+  },
+  {
+    "question": "Which fetal heart rate pattern is associated with 'Uteroplacental Insufficiency'?",
+    "option_a": "Early decelerations",
+    "option_b": "Late decelerations",
+    "option_c": "Variable decelerations",
+    "option_d": "Accelerations",
+    "correct_answer": "B",
+    "explanation": "Late decelerations (dipping after the peak of a contraction) are an ominous sign of fetal hypoxia."
+  },
+  {
+    "question": "What is the primary risk of 'Vasa Previa'?",
+    "option_a": "Maternal stroke",
+    "option_b": "Fetal exsanguination (rapid bleeding) upon rupture of membranes",
+    "option_c": "Kidney failure",
+    "option_d": "Diabetes",
+    "correct_answer": "B",
+    "explanation": "In vasa previa, fetal vessels cross the internal os; if membranes rupture, these vessels can tear, leading to rapid fetal death."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Polycystic Ovary Syndrome' (PCOS)?",
+    "option_a": "Low levels of testosterone",
+    "option_b": "Hirsutism, irregular periods, and insulin resistance",
+    "option_c": "Excessive vaginal bleeding",
+    "option_d": "High fever",
+    "correct_answer": "B",
+    "explanation": "PCOS is a complex endocrine disorder involving androgen excess and ovulatory dysfunction."
+  },
+  {
+    "question": "A patient at 30 weeks gestation has preterm premature rupture of membranes (PPROM). What is the primary reason for administering 'Betamethasone'?",
+    "option_a": "To stop contractions",
+    "option_b": "To accelerate fetal lung maturity and reduce the risk of RDS",
+    "option_c": "To treat infection",
+    "option_d": "To increase maternal blood pressure",
+    "correct_answer": "B",
+    "explanation": "Antenatal corticosteroids significantly reduce neonatal morbidity from RDS, intraventricular hemorrhage, and necrotizing enterocolitis."
+  },
+  {
+    "question": "What is the 'Gold Standard' imaging for the diagnosis of endometriosis?",
+    "option_a": "Pelvic Ultrasound",
+    "option_b": "Laparoscopy with direct visualization and biopsy",
+    "option_c": "MRI",
+    "option_d": "CT Scan",
+    "correct_answer": "B",
+    "explanation": "Endometriosis is a surgical diagnosis; while imaging can suggest it, laparoscopy is required for confirmation."
+  },
+  {
+    "question": "Which of the following describes 'Bishop Score'?",
+    "option_a": "A score to assess newborn health",
+    "option_b": "A score to predict the success of labor induction based on cervical status",
+    "option_c": "A measurement of pelvic size",
+    "option_d": "A psychiatric assessment",
+    "correct_answer": "B",
+    "explanation": "The Bishop score assesses cervical dilation, effacement, consistency, position, and fetal station."
+  },
+  {
+    "question": "A patient presents with a 'strawberry cervix' and motile organisms on wet mount. Diagnosis?",
+    "option_a": "Candida",
+    "option_b": "Trichomoniasis",
+    "option_c": "BV",
+    "option_d": "Chlamydia",
+    "correct_answer": "B",
+    "explanation": "Trichomonas vaginalis is the causative protozoan, leading to the characteristic punctate hemorrhages on the cervix."
+  },
+  {
+    "question": "What is the primary management for a 'Third-degree' perineal laceration during delivery?",
+    "option_a": "Wait for spontaneous healing",
+    "option_b": "Surgical repair in the delivery room or OR",
+    "option_c": "Antibiotics only",
+    "option_d": "Application of ice packs only",
+    "correct_answer": "B",
+    "explanation": "A third-degree tear involves the anal sphincter and requires meticulous surgical repair to prevent fecal incontinence."
+  },
+  {
+    "question": "Which hormone is responsible for the 'maintenance of the corpus luteum' in early pregnancy?",
+    "option_a": "Estrogen",
+    "option_b": "Human Chorionic Gonadotropin (hCG)",
+    "option_c": "Progesterone",
+    "option_d": "LH",
+    "correct_answer": "B",
+    "explanation": "hCG, produced by the trophoblast, mimics LH to keep the corpus luteum producing progesterone until the placenta takes over."
+  },
+  {
+    "question": "Which of the following is true for 'Intrahepatic Cholestasis of Pregnancy'?",
+    "option_a": "It involves a rash on the abdomen",
+    "option_b": "It presents with severe itching (pruritus), especially on the palms and soles, in the third trimester",
+    "option_c": "It is benign for the fetus",
+    "option_d": "It is treated with antibiotics",
+    "correct_answer": "B",
+    "explanation": "Cholestasis of pregnancy carries a risk of sudden fetal demise; it is managed with ursodeoxycholic acid and early delivery."
+  },
+  {
+    "question": "In the 'Apgar' score, what does a score of 4 indicate at 1 minute?",
+    "option_a": "Normal adjustment",
+    "option_b": "Moderate distress requiring resuscitation and monitoring",
+    "option_c": "Dead baby",
+    "option_d": "Healthy baby",
+    "correct_answer": "B",
+    "explanation": "Apgar scores 4-6 indicate a need for some intervention (oxygen, stimulation)."
+  },
+  {
+    "question": "Which of the following is the treatment for 'Candidiasis' (Yeast infection)?",
+    "option_a": "Metronidazole",
+    "option_b": "Fluconazole or topical clotrimazole",
+    "option_c": "Penicillin",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "Antifungals are the treatment for yeast infections, which present with 'cottage cheese' discharge and itching."
+  },
+  {
+    "question": "What is the significance of 'Sinusoidal' fetal heart rate pattern?",
+    "option_a": "Fetal sleep cycle",
+    "option_b": "Severe fetal anemia or hypoxia (Emergency)",
+    "option_c": "Normal finding during pushing",
+    "option_d": "Reaction to maternal exercise",
+    "correct_answer": "B",
+    "explanation": "A sinusoidal pattern is a rare but critical sign of severe fetal compromise."
+  },
+  {
+    "question": "Which of the following is true regarding 'Placenta Accreta'?",
+    "option_a": "The placenta detaches early",
+    "option_b": "The placenta invades the myometrium (uterine muscle) and fails to detach after birth",
+    "option_c": "It is treated with oral medications",
+    "option_d": "It only occurs in first pregnancies",
+    "correct_answer": "B",
+    "explanation": "Placenta accreta is a major cause of life-threatening postpartum hemorrhage and often requires a hysterectomy."
+  },
+  {
+    "question": "A patient has severe 'dysmenorrhea' and 'dyspareunia'. Exam shows a 'fixed' retroverted uterus. Diagnosis?",
+    "option_a": "PCOS",
+    "option_b": "Endometriosis",
+    "option_c": "Uterine fibroids",
+    "option_d": "Ovarian cyst",
+    "correct_answer": "B",
+    "explanation": "These are classic symptoms and signs of endometriosis causing pelvic adhesions."
+  },
+  {
+    "question": "Which of the following is the most common benign tumor of the uterus?",
+    "option_a": "Teratoma",
+    "option_b": "Leiomyoma (Fibroid)",
+    "option_c": "Endometrial polyp",
+    "option_d": "Adenomyosis",
+    "correct_answer": "B",
+    "explanation": "Uterine fibroids are extremely common and can cause heavy bleeding and bulk symptoms."
+  },
+  {
+    "question": "What is the recommended age to begin 'Pap smear' screening for cervical cancer in most guidelines?",
+    "option_a": "Age 13",
+    "option_b": "Age 21",
+    "option_c": "At the start of sexual activity for everyone",
+    "option_d": "Age 35",
+    "correct_answer": "B",
+    "explanation": "Screening starts at 21 regardless of sexual activity age, because HPV-related cancer takes years to develop and screening too early leads to over-treatment of benign lesions."
+  },
+  {
+    "question": "Which of the following is true for 'Mastitis' in a breastfeeding mother?",
+    "option_a": "Breastfeeding should be stopped immediately",
+    "option_b": "Breastfeeding should continue to ensure adequate drainage",
+    "option_c": "It is always treated with surgery",
+    "option_d": "It is caused by a virus",
+    "correct_answer": "B",
+    "explanation": "Continued milk removal is essential for treating mastitis; if an abscess forms, drainage may be necessary."
+  },
+  {
+    "question": "What is the definitive treatment for 'Eclampsia'?",
+    "option_a": "Magnesium Sulfate forever",
+    "option_b": "Delivery of the fetus and placenta",
+    "option_c": "Strict bed rest for 9 months",
+    "option_d": "Insulin",
+    "correct_answer": "B",
+    "explanation": "Preeclampsia/Eclampsia is a disease of the placenta; delivery is the only 'cure'."
+  },
+  {
+    "question": "Which of the following describes 'Adenomyosis'?",
+    "option_a": "Cancer of the uterus",
+    "option_b": "The presence of endometrial tissue within the myometrium",
+    "option_c": "A cyst on the ovary",
+    "option_d": "Thinning of the vaginal wall",
+    "correct_answer": "B",
+    "explanation": "Adenomyosis causes a symmetrically enlarged, 'boggy' uterus and heavy, painful periods."
+  },
+  {
+    "question": "Which hormone is measured in home 'Pregnancy Tests'?",
+    "option_a": "Progesterone",
+    "option_b": "hCG",
+    "option_c": "Estrogen",
+    "option_d": "FSH",
+    "correct_answer": "B",
+    "explanation": "hCG is unique to pregnancy and detectable in urine shortly after implantation."
+  },
+  {
+    "question": "A patient has 'Amenorrhea', 'Anosmia' (loss of smell), and 'low FSH/LH'. Diagnosis?",
+    "option_a": "Sheehan Syndrome",
+    "option_b": "Kallmann Syndrome",
+    "option_c": "PCOS",
+    "option_d": "Menopause",
+    "correct_answer": "B",
+    "explanation": "Kallmann syndrome is a form of hypogonadotropic hypogonadism due to failure of GnRH neurons to migrate."
+  },
+  {
+    "question": "What is the primary risk of 'Shoulder Dystocia' during delivery?",
+    "option_a": "Fetal blindness",
+    "option_b": "Erb's Palsy (Brachial plexus injury) and fetal hypoxia",
+    "option_c": "Maternal hip fracture",
+    "option_d": "Diabetes",
+    "correct_answer": "B",
+    "explanation": "The impacted shoulder can stretch the brachial plexus, leading to permanent nerve damage."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' amenorrhea?",
+    "option_a": "Never having a period by age 15",
+    "option_b": "The absence of periods for 3-6 months in a woman who previously had them",
+    "option_c": "Having periods only twice a year",
+    "option_d": "Painful periods",
+    "correct_answer": "B",
+    "explanation": "Pregnancy is the most common cause of secondary amenorrhea."
+  },
+  {
+    "question": "Which procedure is used to sample 'amniotic fluid' for genetic testing?",
+    "option_a": "CVS",
+    "option_b": "Amniocentesis",
+    "option_c": "Pap smear",
+    "option_d": "Colposcopy",
+    "correct_answer": "B",
+    "explanation": "Amniocentesis is typically performed after 15 weeks gestation."
+  },
+  {
+    "question": "A patient has 'Clue cells' on microscopy. What is the treatment?",
+    "option_a": "Fluconazole",
+    "option_b": "Metronidazole",
+    "option_c": "Acyclovir",
+    "option_d": "Ciprofloxacin",
+    "correct_answer": "B",
+    "explanation": "Metronidazole is the treatment for Bacterial Vaginosis."
+  },
+  {
+    "question": "What is 'Cervical Effacement'?",
+    "option_a": "Opening of the cervix",
+    "option_b": "Thinning and shortening of the cervix",
+    "option_c": "Hardening of the cervix",
+    "option_d": "Cancer of the cervix",
+    "correct_answer": "B",
+    "explanation": "Effacement is measured in percentage (0-100%) during labor."
+  },
+  {
+    "question": "Which of the following is true for 'Erb's Palsy'?",
+    "option_a": "It involves the lower roots of the brachial plexus",
+    "option_b": "It involves the upper roots (C5-C6), resulting in a 'waiter's tip' position",
+    "option_c": "It is a leg injury",
+    "option_d": "It causes blindness",
+    "correct_answer": "B",
+    "explanation": "Commonly seen after difficult deliveries with shoulder dystocia."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Endometritis' postpartum?",
+    "option_a": "Sudden weight loss",
+    "option_b": "Fever, uterine tenderness, and foul-smelling lochia",
+    "option_c": "High blood pressure",
+    "option_d": "Clear vaginal discharge",
+    "correct_answer": "B",
+    "explanation": "Postpartum endometritis is an infection of the uterine lining, common after C-sections."
+  }
+]
