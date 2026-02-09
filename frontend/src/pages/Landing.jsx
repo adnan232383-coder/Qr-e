@@ -253,6 +253,18 @@ export default function Landing() {
             <Card className="border-border/50 card-hover">
               <CardContent className="p-6">
                 <div className="p-3 rounded-xl bg-accent w-fit mb-4">
+                  <Award className="h-6 w-6 text-accent-foreground" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">MCQ Practice</h3>
+                <p className="text-muted-foreground">
+                  Practice with thousands of multiple choice questions for each course
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="border-border/50 card-hover">
+              <CardContent className="p-6">
+                <div className="p-3 rounded-xl bg-accent w-fit mb-4">
                   <MessageSquare className="h-6 w-6 text-accent-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">AI Study Assistant</h3>
@@ -261,61 +273,6 @@ export default function Landing() {
                 </p>
               </CardContent>
             </Card>
-            
-            <Card className="border-border/50 card-hover">
-              <CardContent className="p-6">
-                <div className="p-3 rounded-xl bg-accent w-fit mb-4">
-                  <Award className="h-6 w-6 text-accent-foreground" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Course Summaries</h3>
-                <p className="text-muted-foreground">
-                  Access comprehensive summaries for each course to aid your studies
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* University Info */}
-      <section className="py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-                University of Georgia, Tbilisi
-              </h2>
-              <p className="text-muted-foreground mb-6 text-lg">
-                International private university offering English-taught programs for international students, focused on health and applied sciences.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Globe className="h-5 w-5 text-primary" />
-                  <span>English-taught programs</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Users className="h-5 w-5 text-primary" />
-                  <span>International student community</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Award className="h-5 w-5 text-primary" />
-                  <span>Accredited medical education</span>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-video rounded-2xl overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1761405973526-c2ce51b8a9c5?crop=entropy&cs=srgb&fm=jpg&q=85"
-                  alt="University of Georgia"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border border-border">
-                <div className="text-2xl font-bold text-primary">Tbilisi</div>
-                <div className="text-sm text-muted-foreground">Georgia</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -326,10 +283,10 @@ export default function Landing() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <GraduationCap className="h-5 w-5 text-primary" />
-              <span className="font-medium">UG University Assistant</span>
+              <span className="font-medium">Medical Studies Platform</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Supporting students at University of Georgia, Tbilisi
+              Supporting medical students worldwide
             </p>
           </div>
         </div>
