@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 45-year-old male presents with severe right upper quadrant pain, fever, and jaundice. Labs show elevated bilirubin and WBC. What is the most likely diagnosis?",
+    "option_a": "Acute cholecystitis",
+    "option_b": "Ascending cholangitis",
+    "option_c": "Hepatitis",
+    "option_d": "Pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Charcot's triad (fever, jaundice, RUQ pain) is classic for ascending cholangitis, indicating infection of the biliary tree."
+  },
+  {
+    "question": "Which of the following is the most critical factor in the healing of a primary surgical incision?",
+    "option_a": "Patient age",
+    "option_b": "Adequate blood supply and oxygen tension",
+    "option_c": "Vitamin E supplementation",
+    "option_d": "Use of silk sutures",
+    "correct_answer": "B",
+    "explanation": "Oxygen is essential for collagen synthesis and neutrophil function; poor perfusion is the leading cause of wound failure."
+  },
+  {
+    "question": "A 60-year-old patient 3 days post-laparotomy develops sudden serosanguinous discharge from the wound. This is highly suggestive of:",
+    "option_a": "Superficial wound infection",
+    "option_b": "Wound dehiscence (Evisceration)",
+    "option_c": "Normal healing process",
+    "option_d": "Hematoma drainage",
+    "correct_answer": "B",
+    "explanation": "Serosanguinous drainage ('salmon-pink' fluid) is a classic herald of underlying fascial dehiscence."
+  },
+  {
+    "question": "What is the most appropriate initial fluid for resuscitation in a patient with Class III hemorrhagic shock?",
+    "option_a": "Dextrose 5% in water",
+    "option_b": "Lactated Ringer's or Normal Saline",
+    "option_c": "Albumin 5%",
+    "option_d": "Fresh Frozen Plasma alone",
+    "correct_answer": "B",
+    "explanation": "Isotonic crystalloids are the first-line choice for volume expansion in trauma and hemorrhage."
+  },
+  {
+    "question": "Which electrolyte abnormality is most commonly associated with a large-volume small bowel obstruction due to vomiting?",
+    "option_a": "Hyperkalemic metabolic acidosis",
+    "option_b": "Hypokalemic, hypochloremic metabolic alkalosis",
+    "option_c": "Hypernatremic metabolic alkalosis",
+    "option_d": "Hyponatremic metabolic acidosis",
+    "correct_answer": "B",
+    "explanation": "Vomiting causes loss of H+, Cl-, and K+, leading to a classic metabolic alkalosis pattern."
+  },
+  {
+    "question": "An elderly patient with a history of heart failure is scheduled for an elective hernia repair. Which preoperative test is most essential to assess cardiac risk?",
+    "option_a": "Chest X-ray",
+    "option_b": "Electrocardiogram (ECG)",
+    "option_c": "Pulmonary function test",
+    "option_d": "Serum amylase",
+    "correct_answer": "B",
+    "explanation": "Preoperative ECG is mandatory in patients with known cardiovascular disease to identify rhythm issues or previous silent infarctions."
+  },
+  {
+    "question": "Which type of shock is characterized by low systemic vascular resistance and high cardiac output (initially)?",
+    "option_a": "Hypovolemic shock",
+    "option_b": "Septic shock",
+    "option_c": "Cardiogenic shock",
+    "option_d": "Neurogenic shock",
+    "correct_answer": "B",
+    "explanation": "Septic shock is a distributive shock where peripheral vasodilation lowers resistance, and cardiac output often increases to compensate (warm shock)."
+  },
+  {
+    "question": "A patient becomes acutely hypotensive, tachycardic, and develops hives immediately after the administration of intravenous antibiotics. What is the diagnosis?",
+    "option_a": "Septic shock",
+    "option_b": "Anaphylactic shock",
+    "option_c": "Cardiogenic shock",
+    "option_d": "Vasovagal syncope",
+    "correct_answer": "B",
+    "explanation": "Rapid onset of hypotension and cutaneous signs (hives) following an allergen exposure is diagnostic of anaphylaxis."
+  },
+  {
+    "question": "What is the primary treatment for a patient in neurogenic shock following a high spinal cord injury?",
+    "option_a": "Aggressive fluid resuscitation only",
+    "option_b": "Fluid resuscitation followed by vasopressors",
+    "option_c": "Intravenous Beta-blockers",
+    "option_d": "Immediate surgery",
+    "correct_answer": "B",
+    "explanation": "Neurogenic shock requires volume expansion, but because of lost sympathetic tone, vasopressors (like phenylephrine or norepinephrine) are often necessary."
+  },
+  {
+    "question": "Which wound classification describes an elective cholecystectomy where the biliary tract is entered without significant spillage?",
+    "option_a": "Clean",
+    "option_b": "Clean-contaminated",
+    "option_c": "Contaminated",
+    "option_d": "Dirty",
+    "correct_answer": "B",
+    "explanation": "Entering a hollow viscus (GI, respiratory, or urinary tract) under controlled conditions makes the wound clean-contaminated."
+  },
+  {
+    "question": "A 'Dirty' surgical wound is best exemplified by:",
+    "option_a": "A hernia repair with mesh",
+    "option_b": "A perforated colon with purulent peritonitis",
+    "option_c": "A thyroidectomy",
+    "option_d": "A gastric bypass",
+    "correct_answer": "B",
+    "explanation": "Dirty wounds are those with pre-existing infection, perforated viscera, or traumatic wounds with retained necrotic tissue."
+  },
+  {
+    "question": "Which Vitamin is essential for the cross-linking of collagen fibers during wound healing?",
+    "option_a": "Vitamin A",
+    "option_b": "Vitamin C",
+    "option_c": "Vitamin D",
+    "option_d": "Vitamin K",
+    "correct_answer": "B",
+    "explanation": "Vitamin C is a cofactor for prolyl and lysyl hydroxylase, which are required for collagen stabilization. Deficiency leads to Scurvy and wound breakdown."
+  },
+  {
+    "question": "The 'Lethal Triad' in a trauma/surgical patient consists of:",
+    "option_a": "Hypertension, Bradycardia, Irregular breathing",
+    "option_b": "Acidosis, Coagulopathy, Hypothermia",
+    "option_c": "Fever, Tachycardia, Hypotension",
+    "option_d": "Pain, Jaundice, Palpable mass",
+    "correct_answer": "B",
+    "explanation": "The lethal triad describes the physiological cycle that leads to death in severely injured or bleeding patients."
+  },
+  {
+    "question": "Which preoperative medication should typically be discontinued 7-10 days before a major surgery?",
+    "option_a": "Lisinopril",
+    "option_b": "Aspirin",
+    "option_c": "Metformin",
+    "option_d": "Metoprolol",
+    "correct_answer": "B",
+    "explanation": "Aspirin irreversibly inhibits platelets, increasing the risk of surgical bleeding; it takes about 7-10 days for new platelets to be produced."
+  },
+  {
+    "question": "What is the most common cause of postoperative fever in the first 24-48 hours?",
+    "option_a": "Wound infection",
+    "option_b": "Atelectasis (Pulmonary)",
+    "option_c": "Urinary tract infection",
+    "option_d": "Deep vein thrombosis",
+    "correct_answer": "B",
+    "explanation": "Early postoperative fever is most frequently due to lung collapse (atelectasis) or cytokine release from tissue trauma."
+  },
+  {
+    "question": "Which surgical suture is absorbable?",
+    "option_a": "Silk",
+    "option_b": "Vicryl (Polyglactin 910)",
+    "option_c": "Prolene (Polypropylene)",
+    "option_d": "Nylon",
+    "correct_answer": "B",
+    "explanation": "Vicryl is a synthetic absorbable suture. Prolene, Nylon, and Silk are non-absorbable."
+  },
+  {
+    "question": "A patient with severe crush injuries is at high risk for which electrolyte imbalance?",
+    "option_a": "Hypokalemia",
+    "option_b": "Hyperkalemia",
+    "option_c": "Hypercalcemia",
+    "option_d": "Hyponatremia",
+    "correct_answer": "B",
+    "explanation": "Muscle cell lysis (rhabdomyolysis) releases large amounts of intracellular potassium into the bloodstream."
+  },
+  {
+    "question": "Which of the following is a classic sign of hypocalcemia (e.g., after thyroid surgery)?",
+    "option_a": "Tachycardia",
+    "option_b": "Chvostek's sign",
+    "option_c": "Hypertension",
+    "option_d": "Polyuria",
+    "correct_answer": "B",
+    "explanation": "Tapping on the facial nerve causing facial twitching (Chvostek's) is a sign of neuromuscular irritability due to low calcium."
+  },
+  {
+    "question": "What is the primary objective of 'Damage Control Surgery'?",
+    "option_a": "Definitive anatomical reconstruction",
+    "option_b": "Physiological restoration (stopping bleeding and contamination)",
+    "option_c": "Aesthetic wound closure",
+    "option_d": "Laparoscopic exploration",
+    "correct_answer": "B",
+    "explanation": "Damage control focuses on managing the 'lethal triad' by performing the minimum necessary to save life before sending the patient to the ICU."
+  },
+  {
+    "question": "In a patient with hyperkalemia and ECG changes (peaked T waves), what is the first medication to administer?",
+    "option_a": "Insulin and Glucose",
+    "option_b": "Calcium gluconate",
+    "option_c": "Sodium bicarbonate",
+    "option_d": "Furosemide",
+    "correct_answer": "B",
+    "explanation": "Calcium gluconate stabilizes the cardiac cell membrane to prevent lethal arrhythmias."
+  },
+  {
+    "question": "A patient presents with tachycardia, hypotension, and muffled heart sounds. This suggests:",
+    "option_a": "Tension pneumothorax",
+    "option_b": "Cardiac tamponade",
+    "option_c": "Massive hemothorax",
+    "option_d": "Hypovolemic shock",
+    "correct_answer": "B",
+    "explanation": "These are components of Beck's triad, indicating an obstructive shock due to fluid in the pericardial sac."
+  },
+  {
+    "question": "Which of the following is the 'gold standard' for assessing a patient's volume status?",
+    "option_a": "Blood pressure",
+    "option_b": "Urine output",
+    "option_c": "Heart rate",
+    "option_d": "Skin turgor",
+    "correct_answer": "B",
+    "explanation": "Monitoring hourly urine output (Goal: 0.5 mL/kg/hr) is the most reliable clinical indicator of adequate organ perfusion."
+  },
+  {
+    "question": "During preoperative assessment, a Mallampati Score of IV indicates:",
+    "option_a": "Easy intubation",
+    "option_b": "Potentially difficult airway/intubation",
+    "option_c": "Normal lung function",
+    "option_d": "Good cardiac reserve",
+    "correct_answer": "B",
+    "explanation": "Mallampati IV (soft palate not visible) is a strong predictor of a difficult airway during anesthesia."
+  },
+  {
+    "question": "What is the most effective method to prevent postoperative Deep Vein Thrombosis (DVT)?",
+    "option_a": "Aspirin 81 mg",
+    "option_b": "Early ambulation and Low Molecular Weight Heparin (LMWH)",
+    "option_c": "Prolonged bed rest",
+    "option_d": "Intravenous fluids",
+    "correct_answer": "B",
+    "explanation": "Early mobilization and pharmacological prophylaxis are the cornerstones of DVT prevention in surgical patients."
+  },
+  {
+    "question": "Which hormone is primarily responsible for the 'catabolic' response to surgical stress?",
+    "option_a": "Insulin",
+    "option_b": "Cortisol",
+    "option_c": "Estrogen",
+    "option_d": "Melatonin",
+    "correct_answer": "B",
+    "explanation": "Cortisol, along with catecholamines and glucagon, drives the metabolic response to injury, including hyperglycemia and proteolysis."
+  },
+  {
+    "question": "A patient in the ICU has a pH of 7.25 and a PaCO2 of 55 mmHg. This represents:",
+    "option_a": "Metabolic acidosis",
+    "option_b": "Respiratory acidosis",
+    "option_c": "Respiratory alkalosis",
+    "option_d": "Metabolic alkalosis",
+    "correct_answer": "B",
+    "explanation": "A low pH (<7.35) and a high CO2 (>45) indicate respiratory failure/acidosis."
+  },
+  {
+    "question": "Which of the following is an early sign of local anesthetic toxicity?",
+    "option_a": "Seizures",
+    "option_b": "Perioral numbness or metallic taste",
+    "option_c": "Cardiac arrest",
+    "option_d": "Bradycardia",
+    "correct_answer": "B",
+    "explanation": "CNS symptoms like a metallic taste or numbness around the mouth often precede more severe neuro and cardiac toxicity."
+  },
+  {
+    "question": "The 'Rule of Nines' is used to estimate:",
+    "option_a": "Surgical risk",
+    "option_b": "Burned body surface area",
+    "option_c": "Fluid deficit",
+    "option_d": "Antibiotic dosage",
+    "correct_answer": "B",
+    "explanation": "The Rule of Nines is a rapid method to estimate the Total Body Surface Area (TBSA) affected by burns."
+  },
+  {
+    "question": "What is the most appropriate initial treatment for a patient with a tension pneumothorax?",
+    "option_a": "Obtain an urgent chest X-ray",
+    "option_b": "Immediate needle decompression",
+    "option_c": "Endotracheal intubation",
+    "option_d": "Antibiotics",
+    "correct_answer": "B",
+    "explanation": "Tension pneumothorax is a clinical diagnosis. Waiting for an X-ray is life-threatening; immediate decompression is required."
+  },
+  {
+    "question": "Which electrolyte should be checked immediately in a patient with ileus who is not responding to standard care?",
+    "option_a": "Sodium",
+    "option_b": "Potassium",
+    "option_c": "Chloride",
+    "option_d": "Bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Hypokalemia is a frequent cause of adynamic ileus (lack of bowel motility)."
+  },
+  {
+    "question": "In surgical nutrition, what is the 'gold standard' route for feeding a patient with a functional GI tract?",
+    "option_a": "Total Parenteral Nutrition (TPN)",
+    "option_b": "Enteral nutrition (Oral/Tube feeding)",
+    "option_c": "Intravenous dextrose only",
+    "option_d": "Clear liquid diet forever",
+    "correct_answer": "B",
+    "explanation": "Enteral feeding is safer, cheaper, and helps maintain the gut mucosal barrier compared to TPN."
+  },
+  {
+    "question": "Hypertrophic scars differ from keloids because hypertrophic scars:",
+    "option_a": "Extend beyond the original wound borders",
+    "option_b": "Remain within the original wound borders",
+    "option_c": "Occur only in children",
+    "option_d": "Are never painful",
+    "correct_answer": "B",
+    "explanation": "Hypertrophic scars stay within the margins of the injury, while keloids grow invasively beyond the original boundaries."
+  },
+  {
+    "question": "Which of the following is a symptom of fat embolism syndrome after a long bone fracture?",
+    "option_a": "Bradycardia",
+    "option_b": "Petechial rash, dyspnea, and confusion",
+    "option_c": "Hypothermia",
+    "option_d": "Hypertension",
+    "correct_answer": "B",
+    "explanation": "Fat embolism presents with the triad of respiratory distress, neurological changes, and a classic petechial rash (usually axillary/chest)."
+  },
+  {
+    "question": "A patient with a traumatic brain injury and a GCS of 7 should be:",
+    "option_a": "Observed in the ER",
+    "option_b": "Intubated immediately",
+    "option_c": "Discharged with follow-up",
+    "option_d": "Sent for an abdominal X-ray",
+    "correct_answer": "B",
+    "explanation": "GCS < 8 generally requires securing the airway ('GCS of 8, intubate')."
+  },
+  {
+    "question": "What is the most appropriate treatment for 'Surgical Site Infection' involving only the skin and subcutaneous tissue (cellulitis)?",
+    "option_a": "Immediate re-operation",
+    "option_b": "Antibiotics and potentially opening the incision",
+    "option_c": "Observation only",
+    "option_d": "Parenteral nutrition",
+    "correct_answer": "B",
+    "explanation": "Superficial infections often require drainage (opening the skin) and appropriate antibiotic coverage."
+  },
+  {
+    "question": "Which phase of wound healing involves the deposition of collagen and angiogenesis?",
+    "option_a": "Inflammatory phase",
+    "option_b": "Proliferative phase",
+    "option_c": "Remodeling phase",
+    "option_d": "Hemostasis phase",
+    "correct_answer": "B",
+    "explanation": "The proliferative phase (days 3-21) is characterized by fibroblasts producing collagen and the formation of granulation tissue."
+  },
+  {
+    "question": "A patient has a high-output enterocutaneous fistula. Which complication is most likely?",
+    "option_a": "Hypervolemia",
+    "option_b": "Malnutrition and electrolyte depletion",
+    "option_c": "Hypothyroidism",
+    "option_d": "Brain tumor",
+    "correct_answer": "B",
+    "explanation": "High-output fistulas lead to massive losses of fluid, electrolytes, and nutrients."
+  },
+  {
+    "question": "What is the primary cause of cardiogenic shock in the postoperative period?",
+    "option_a": "Hemorrhage",
+    "option_b": "Acute Myocardial Infarction",
+    "option_c": "Tension pneumothorax",
+    "option_d": "Sepsis",
+    "correct_answer": "B",
+    "explanation": "While hemorrhage is common, cardiogenic shock is specifically due to pump failure, most often from an MI."
+  },
+  {
+    "question": "Which of the following is a component of the 'Primary Survey' in ATLS?",
+    "option_a": "Detailed family history",
+    "option_b": "Exposure and Environmental control",
+    "option_c": "Full skeletal X-ray series",
+    "option_d": "Rectal manometry",
+    "correct_answer": "B",
+    "explanation": "The ABCDEs include Airway, Breathing, Circulation, Disability, and Exposure."
+  },
+  {
+    "question": "What is the mechanism of action of Heparin in preventing DVT?",
+    "option_a": "Inhibition of Vitamin K",
+    "option_b": "Activation of Antithrombin III",
+    "option_c": "Inhibition of platelet aggregation",
+    "option_d": "Direct destruction of existing clots",
+    "correct_answer": "B",
+    "explanation": "Heparin increases the activity of antithrombin III, which inactivates thrombin and Factor Xa."
+  },
+  {
+    "question": "A patient with a pH of 7.50, low PaCO2, and normal Bicarbonate has:",
+    "option_a": "Metabolic alkalosis",
+    "option_b": "Respiratory alkalosis",
+    "option_c": "Respiratory acidosis",
+    "option_d": "Normal acid-base status",
+    "correct_answer": "B",
+    "explanation": "High pH (>7.45) with low CO2 (<35) indicates alkalosis due to hyperventilation."
+  },
+  {
+    "question": "Which screening tool is most commonly used for malnutrition in surgical patients?",
+    "option_a": "Body Mass Index (BMI) only",
+    "option_b": "Subjective Global Assessment (SGA) or Nutritional Risk Screening (NRS)",
+    "option_c": "Random glucose level",
+    "option_d": "Liver biopsy",
+    "correct_answer": "B",
+    "explanation": "SGA and NRS are validated tools to assess clinical signs of malnutrition and weight loss history."
+  },
+  {
+    "question": "When should prophylactic antibiotics be administered for an elective surgery?",
+    "option_a": "24 hours before",
+    "option_b": "Within 60 minutes before the incision",
+    "option_c": "Immediately after the surgery ends",
+    "option_d": "Only if pus is seen during the operation",
+    "correct_answer": "B",
+    "explanation": "To be effective, peak tissue levels of antibiotics must be present at the time of the first incision."
+  },
+  {
+    "question": "What is the 'lethal' dose of local lidocaine (with epinephrine) for a 70 kg adult?",
+    "option_a": "1 mg/kg",
+    "option_b": "7 mg/kg",
+    "option_c": "20 mg/kg",
+    "option_d": "100 mg/kg",
+    "correct_answer": "B",
+    "explanation": "The maximum recommended dose of lidocaine with epinephrine is approximately 7 mg/kg."
+  },
+  {
+    "question": "Which clinical sign is part of 'Virchow's triad' for thrombosis?",
+    "option_a": "Hypotension",
+    "option_b": "Endothelial injury",
+    "option_c": "Hypokalemia",
+    "option_d": "Fever",
+    "correct_answer": "B",
+    "explanation": "Virchow's triad includes: Endothelial injury, Stasis of blood flow, and Hypercoagulability."
+  },
+  {
+    "question": "Which of the following describes the 'SIRS' (Systemic Inflammatory Response Syndrome) criteria?",
+    "option_a": "Low BP and high lactate only",
+    "option_b": "Two or more of: Temp >38 or <36, HR >90, RR >20, WBC >12,000 or <4,000",
+    "option_c": "Positive blood culture only",
+    "option_d": "Severe abdominal pain",
+    "correct_answer": "B",
+    "explanation": "SIRS is a clinical response to a variety of severe clinical insults (infectious or non-infectious)."
+  },
+  {
+    "question": "A patient with suspected pulmonary embolism should undergo which definitive diagnostic test?",
+    "option_a": "Chest X-ray",
+    "option_b": "CT Pulmonary Angiogram (CTPA)",
+    "option_c": "ECG",
+    "option_d": "D-dimer only",
+    "correct_answer": "B",
+    "explanation": "CTPA is currently the standard of care for diagnosing PE in the clinical setting."
+  },
+  {
+    "question": "What is the management for a small (2 cm) hematoma under a surgical incision without signs of infection?",
+    "option_a": "Immediate re-operation",
+    "option_b": "Observation and local heat",
+    "option_c": "High-dose intravenous antibiotics",
+    "option_d": "Parenteral nutrition",
+    "correct_answer": "B",
+    "explanation": "Small, stable hematomas usually resolve spontaneously and don't require intervention unless they grow or become infected."
+  },
+  {
+    "question": "Which of the following is true about 'Incisional Hernias'?",
+    "option_a": "They occur most commonly within the first 24 hours post-op",
+    "option_b": "They are a result of failure of fascial healing",
+    "option_c": "They never occur in laparoscopic surgery",
+    "option_d": "They always require emergency surgery",
+    "correct_answer": "B",
+    "explanation": "Incisional hernias result from a breakdown of the surgical repair of the abdominal wall layers."
+  },
+  {
+    "question": "Which electrolyte is primarily lost in high-output gastric suctioning?",
+    "option_a": "Calcium",
+    "option_b": "Chloride",
+    "option_c": "Magnesium",
+    "option_d": "Phosphate",
+    "correct_answer": "B",
+    "explanation": "Gastric juice is rich in HCl (hydrochloric acid); loss leads to hypochloremia."
+  }
+]
