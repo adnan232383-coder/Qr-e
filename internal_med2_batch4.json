@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 40-year-old male presents with painful, flaccid blisters on his trunk and oral mucosa. A skin biopsy shows intraepidermal cleavage and 'acantholysis'. Nikolsky sign is positive. Which autoantibody is responsible?",
+    "option_a": "Anti-hemidesmosome",
+    "option_b": "Anti-desmoglein 1 and 3",
+    "option_c": "Anti-centromere",
+    "option_d": "Anti-histone",
+    "correct_answer": "B",
+    "explanation": "Pemphigus vulgaris is characterized by antibodies against desmoglein, leading to loss of cell-to-cell adhesion (acantholysis) and flaccid blisters that involve mucous membranes."
+  },
+  {
+    "question": "A 70-year-old female presents with tense, itchy blisters on her limbs. Nikolsky sign is negative. Skin biopsy reveals subepidermal blisters with linear IgG deposits along the basement membrane. Diagnosis?",
+    "option_a": "Pemphigus Vulgaris",
+    "option_b": "Bullous Pemphigoid",
+    "option_c": "Dermatitis Herpetiformis",
+    "option_d": "Erythema Multiforme",
+    "correct_answer": "B",
+    "explanation": "Bullous Pemphigoid involves autoantibodies against hemidesmosomes, resulting in deep, tense blisters that do not rupture easily."
+  },
+  {
+    "question": "A patient presents with a 'target-shaped' rash (erythema multiforme) following a recurrent lip sore. Which virus is most likely associated with this trigger?",
+    "option_a": "Hepatitis B",
+    "option_b": "Herpes Simplex Virus (HSV)",
+    "option_c": "Influenza",
+    "option_d": "Varicella Zoster",
+    "correct_answer": "B",
+    "explanation": "HSV infection is the most common precipitating factor for Erythema Multiforme, a hypersensitivity reaction."
+  },
+  {
+    "question": "A 25-year-old male with a history of Celiac disease presents with extremely pruritic, grouped vesicles on his elbows and knees. What is the characteristic biopsy finding?",
+    "option_a": "IgG at the basement membrane",
+    "option_b": "Granular IgA deposits in the dermal papillae",
+    "option_c": "Eosinophilic infiltrate only",
+    "option_d": "Epidermal necrosis",
+    "correct_answer": "B",
+    "explanation": "Dermatitis herpetiformis is the cutaneous hallmark of gluten sensitivity, showing granular IgA deposits on immunofluorescence."
+  },
+  {
+    "question": "A 50-year-old patient presents with thick, silvery scales on the extensor surfaces of his elbows. Scraping the scale results in pinpoint bleeding. What is this sign called?",
+    "option_a": "Koebner phenomenon",
+    "option_b": "Auspitz sign",
+    "option_c": "Nikolsky sign",
+    "option_d": "Asboe-Hansen sign",
+    "correct_answer": "B",
+    "explanation": "The Auspitz sign is characteristic of psoriasis and occurs due to the thinning of the epidermis over elongated dermal papillae."
+  },
+  {
+    "question": "A patient presents with a severe skin reaction involving fever and detachment of <10% of the body surface area after starting Allopurinol. Diagnosis?",
+    "option_a": "Toxic Epidermal Necrolysis (TEN)",
+    "option_b": "Stevens-Johnson Syndrome (SJS)",
+    "option_c": "Staphylococcal Scalded Skin Syndrome",
+    "option_d": "Erythema Nodosum",
+    "correct_answer": "B",
+    "explanation": "SJS and TEN are a spectrum of severe drug reactions; SJS involves <10% of BSA, while TEN involves >30%."
+  },
+  {
+    "question": "Which of the following is a classic cutaneous manifestation of Sarcoidosis?",
+    "option_a": "Butterfly rash",
+    "option_b": "Lupus pernio (purplish plaques on the nose and cheeks)",
+    "option_c": "Heliotrope rash",
+    "option_d": "Acanthosis nigricans",
+    "correct_answer": "B",
+    "explanation": "Lupus pernio is a highly specific skin finding for sarcoidosis, characterized by chronic violaceous lesions on the face."
+  },
+  {
+    "question": "A patient with systemic lupus erythematosus (SLE) presents with painful, red nodules on her shins. This finding is known as:",
+    "option_a": "Erythema Multiforme",
+    "option_b": "Erythema Nodosum",
+    "option_c": "Livedo Reticularis",
+    "option_d": "Pyoderma Gangrenosum",
+    "correct_answer": "B",
+    "explanation": "Erythema nodosum is a form of panniculitis often associated with systemic diseases like SLE, Sarcoidosis, and IBD."
+  },
+  {
+    "question": "A patient presents with a rapidly growing, deep, painful ulcer with 'undermined' purplish borders on the leg. He has a history of Ulcerative Colitis. Diagnosis?",
+    "option_a": "Cellulitis",
+    "option_b": "Pyoderma Gangrenosum",
+    "option_c": "Ecthyma Gangrenosum",
+    "option_d": "Venous Stasis Ulcer",
+    "correct_answer": "B",
+    "explanation": "Pyoderma gangrenosum is a neutrophilic dermatosis strongly associated with IBD and rheumatoid arthritis."
+  },
+  {
+    "question": "A 45-year-old obese female presents with dark, velvety hyperpigmentation in the axillae and neck. Which underlying condition is most commonly associated with this?",
+    "option_a": "Adrenal Insufficiency",
+    "option_b": "Insulin Resistance (Diabetes/Metabolic Syndrome)",
+    "option_c": "Hypothyroidism",
+    "option_d": "Vitamin B12 deficiency",
+    "correct_answer": "B",
+    "explanation": "Acanthosis nigricans is a reactive skin change associated with hyperinsulinemia, though rapid onset can signal internal malignancy."
+  },
+  {
+    "question": "A 5-year-old child presents with recurrent bacterial infections. Labs reveal a defect in the CD40 ligand on T-cells. Which immunoglobulin profile is expected?",
+    "option_a": "Low IgG, Low IgM, Low IgA",
+    "option_b": "High IgM, Low IgG, Low IgA",
+    "option_c": "High IgE, Low IgG",
+    "option_d": "Absent IgA, normal others",
+    "correct_answer": "B",
+    "explanation": "Hyper-IgM syndrome results from a failure of B-cell class switching due to a T-cell defect (CD40L)."
+  },
+  {
+    "question": "Which of the following is the most common primary immunodeficiency, often presenting with recurrent respiratory and GI infections (Giardia)?",
+    "option_a": "DiGeorge Syndrome",
+    "option_b": "Common Variable Immunodeficiency (CVID)",
+    "option_c": "Bruton's Agammaglobulinemia",
+    "option_d": "Severe Combined Immunodeficiency (SCID)",
+    "correct_answer": "B",
+    "explanation": "CVID presents in late childhood or early adulthood with low IgG and IgA levels and impaired antibody response to vaccines."
+  },
+  {
+    "question": "A newborn male presents with tetany (hypocalcemia), a heart defect, and low T-cell counts. Which embryological structure failed to develop properly?",
+    "option_a": "1st and 2nd pharyngeal pouches",
+    "option_b": "3rd and 4th pharyngeal pouches",
+    "option_c": "Neural tube",
+    "option_d": "Thyroid diverticulum",
+    "correct_answer": "B",
+    "explanation": "DiGeorge Syndrome (22q11 deletion) involves maldevelopment of the 3rd and 4th pouches, leading to thymic and parathyroid hypoplasia."
+  },
+  {
+    "question": "Which type of hypersensitivity reaction is responsible for acute hemolytic transfusion reactions?",
+    "option_a": "Type I (IgE-mediated)",
+    "option_b": "Type II (Antibody-mediated cytotoxic)",
+    "option_c": "Type III (Immune complex-mediated)",
+    "option_d": "Type IV (Cell-mediated)",
+    "correct_answer": "B",
+    "explanation": "In acute hemolysis, preformed antibodies (IgM or IgG) bind to donor RBC antigens, leading to complement activation and cell destruction."
+  },
+  {
+    "question": "A patient develops a rash, joint pain, and fever 10 days after receiving a foreign serum (e.g., antivenom). This is an example of:",
+    "option_a": "Anaphylaxis",
+    "option_b": "Serum Sickness (Type III Hypersensitivity)",
+    "option_c": "Contact Dermatitis",
+    "option_d": "Goodpasture Syndrome",
+    "correct_answer": "B",
+    "explanation": "Serum sickness occurs when circulating immune complexes deposit in small vessels throughout the body."
+  },
+  {
+    "question": "A patient with a positive PPD skin test for Tuberculosis demonstrates which type of hypersensitivity?",
+    "option_a": "Type I",
+    "option_b": "Type IV (Delayed-type)",
+    "option_c": "Type III",
+    "option_d": "Type II",
+    "correct_answer": "B",
+    "explanation": "Type IV reactions are mediated by sensitized T-cells and take 48-72 hours to manifest."
+  },
+  {
+    "question": "A 30-year-old female presents with sudden facial swelling (angioedema) without hives. She recently started a medication for hypertension. Which drug is the likely culprit?",
+    "option_a": "Amlodipine",
+    "option_b": "Lisinopril (ACE inhibitor)",
+    "option_c": "Hydrochlorothiazide",
+    "option_d": "Metoprolol",
+    "correct_answer": "B",
+    "explanation": "ACE inhibitors can cause bradykinin-mediated angioedema, which characteristically occurs without urticaria."
+  },
+  {
+    "question": "What is the primary treatment for a patient in septic shock whose blood pressure is not responding to adequate fluid resuscitation?",
+    "option_a": "Aggressive IV fluids (another 5 liters)",
+    "option_b": "Vasopressors (e.g., Norepinephrine)",
+    "option_c": "Intravenous Digoxin",
+    "option_d": "High-dose Aspirin",
+    "correct_answer": "B",
+    "explanation": "Septic shock is defined by the need for vasopressors to maintain a MAP ≥ 65 mmHg despite adequate fluid resuscitation."
+  },
+  {
+    "question": "Which of the following is an AIDS-defining illness in a patient with HIV?",
+    "option_a": "Oral candidiasis (thrush)",
+    "option_b": "Esophageal candidiasis",
+    "option_c": "Herpes Zoster (shingles)",
+    "option_d": "Community-acquired pneumonia",
+    "correct_answer": "B",
+    "explanation": "While oral thrush is common in HIV, esophageal involvement indicates a higher level of immunosuppression and is an AIDS-defining condition."
+  },
+  {
+    "question": "In a patient with suspected Bacterial Endocarditis, which finding is an 'immunologic' phenomenon rather than a vascular one?",
+    "option_a": "Janeway lesions",
+    "option_b": "Roth spots",
+    "option_c": "Splinter hemorrhages",
+    "option_d": "Systemic emboli",
+    "correct_answer": "B",
+    "explanation": "Roth spots (retinal hemorrhages) and Osler nodes are immunologic; Janeway lesions and splinter hemorrhages are vascular/embolic."
+  },
+  {
+    "question": "Which antibiotic is the drug of choice for a patient with suspected Meningococcal Meningitis (N. meningitidis)?",
+    "option_a": "Vancomycin",
+    "option_b": "Ceftriaxone",
+    "option_c": "Gentamicin",
+    "option_d": "Ciprofloxacin",
+    "correct_answer": "B",
+    "explanation": "Third-generation cephalosporins like ceftriaxone have excellent CSF penetration and are highly effective against Neisseria."
+  },
+  {
+    "question": "A patient with fever, weight loss, and night sweats has a chest X-ray showing upper lobe cavitary lesions. What is the most appropriate initial diagnostic test?",
+    "option_a": "Bronchoscopy",
+    "option_b": "Sputum AFB smear and NAAT/PCR",
+    "option_c": "Surgical lung biopsy",
+    "option_d": "Serum ACE level",
+    "correct_answer": "B",
+    "explanation": "Acid-fast bacilli (AFB) smear and PCR of the sputum are the standard initial tests for suspected active Tuberculosis."
+  },
+  {
+    "question": "What is the hallmark cell found in the blood smear of a patient with Infectious Mononucleosis (EBV)?",
+    "option_a": "Auer rod-containing myeloblasts",
+    "option_b": "Atypical (Reactive) Lymphocytes",
+    "option_c": "Reed-Sternberg cells",
+    "option_d": "Smudge cells",
+    "correct_answer": "B",
+    "explanation": "Atypical lymphocytes are CD8+ T-cells reacting to the EBV-infected B-cells."
+  },
+  {
+    "question": "A patient undergoing chemotherapy develops a fever (38.5°C) and has an Absolute Neutrophil Count (ANC) of 400. What is the first priority?",
+    "option_a": "Wait for blood culture results",
+    "option_b": "Start empiric broad-spectrum IV antibiotics (e.g., Cefepime)",
+    "option_c": "Administer oral Ibuprofen",
+    "option_d": "Discharge home with follow-up",
+    "correct_answer": "B",
+    "explanation": "Neutropenic fever is a medical emergency. Empiric antibiotics must be started immediately to cover Pseudomonas and other Gram-negatives."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Superior Vena Cava Syndrome' caused by a lung mass?",
+    "option_a": "Lower extremity edema",
+    "option_b": "Facial plethora and dilated neck veins",
+    "option_c": "Bradycardia",
+    "option_d": "Jaundice",
+    "correct_answer": "B",
+    "explanation": "SVC syndrome results from obstruction of blood flow from the head, neck, and upper limbs to the right atrium."
+  },
+  {
+    "question": "A 60-year-old smoker presents with weight loss and a new cough. Lab results show a serum calcium of 12.5 mg/dL. Which type of lung cancer is most likely?",
+    "option_a": "Small Cell Carcinoma",
+    "option_b": "Squamous Cell Carcinoma",
+    "option_c": "Adenocarcinoma",
+    "option_d": "Large Cell Carcinoma",
+    "correct_answer": "B",
+    "explanation": "Squamous cell carcinoma is the most common lung cancer to produce Parathyroid Hormone-related Protein (PTHrP), causing hypercalcemia."
+  },
+  {
+    "question": "A patient with breast cancer develops sudden, severe back pain and lower extremity weakness. What is the next best step?",
+    "option_a": "Oral NSAIDs",
+    "option_b": "High-dose Dexamethasone and urgent Spinal MRI",
+    "option_c": "Physical therapy consultation",
+    "option_d": "Bone marrow biopsy",
+    "correct_answer": "B",
+    "explanation": "Spinal cord compression is an oncologic emergency requiring steroids to reduce edema and rapid decompression."
+  },
+  {
+    "question": "Which cancer is associated with the highest risk of developing Tumor Lysis Syndrome following chemotherapy?",
+    "option_a": "Prostate Cancer",
+    "option_b": "High-grade Lymphomas and Acute Leukemias",
+    "option_c": "Breast Cancer",
+    "option_d": "Colon Cancer",
+    "correct_answer": "B",
+    "explanation": "Malignancies with high cell turnover and large tumor burdens are most prone to rapid lysis and electrolyte imbalances."
+  },
+  {
+    "question": "What is the term for the autoimmune destruction of melanocytes resulting in white patches on the skin?",
+    "option_a": "Albinism",
+    "option_b": "Vitiligo",
+    "option_c": "Tinea Versicolor",
+    "option_d": "Pityriasis Alba",
+    "correct_answer": "B",
+    "explanation": "Vitiligo is an acquired autoimmune condition, unlike albinism which is genetic."
+  },
+  {
+    "question": "A patient presents with 'heliotrope rash' (purple discoloration of eyelids) and proximal muscle weakness. Diagnosis?",
+    "option_a": "Systemic Lupus Erythematosus",
+    "option_b": "Dermatomyositis",
+    "option_c": "Scleroderma",
+    "option_d": "Polymyalgia Rheumatica",
+    "correct_answer": "B",
+    "explanation": "Dermatomyositis involves characteristic skin findings along with inflammatory myopathy."
+  },
+  {
+    "question": "Which antibody is most likely to be positive in a patient with 'limited' cutaneous systemic sclerosis (CREST syndrome)?",
+    "option_a": "Anti-Scl-70 (Topoisomerase I)",
+    "option_b": "Anti-centromere",
+    "option_c": "Anti-dsDNA",
+    "option_d": "Anti-CCP",
+    "correct_answer": "B",
+    "explanation": "Anti-centromere antibodies are highly specific for the limited form of scleroderma (CREST)."
+  },
+  {
+    "question": "A patient with Rheumatoid Arthritis presents with symmetrical joint swelling in the hands. Which joint is classically SPARED in RA?",
+    "option_a": "MCP joints",
+    "option_b": "PIP joints",
+    "option_c": "DIP joints",
+    "option_d": "Wrist joints",
+    "correct_answer": "C",
+    "explanation": "RA typically affects small joints symmetrically but usually spares the distal interphalangeal (DIP) joints, which are more commonly involved in osteoarthritis."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in Multiple Sclerosis?",
+    "option_a": "Resting tremor",
+    "option_b": "Internuclear Ophthalmoplegia (INO)",
+    "option_c": "Symmetrical ascending paralysis",
+    "option_d": "Choreiform movements",
+    "correct_answer": "B",
+    "explanation": "INO, caused by a lesion in the medial longitudinal fasciculus (MLF), is a classic demyelinating sign in MS."
+  },
+  {
+    "question": "What is the most common cause of a 'lacunar' stroke in an elderly patient?",
+    "option_a": "Atrial Fibrillation",
+    "option_b": "Lipohyalinosis of small penetrating arteries due to Chronic Hypertension",
+    "option_c": "Carotid artery dissection",
+    "option_d": "Venous sinus thrombosis",
+    "correct_answer": "B",
+    "explanation": "Lacunar strokes occur in deep brain structures and are primarily caused by the effects of long-standing hypertension on small vessels."
+  },
+  {
+    "question": "A patient with Parkinson's disease is started on Levodopa. Which common side effect is often described as 'involuntary writhing movements'?",
+    "option_a": "Bradykinesia",
+    "option_b": "Dyskinesia",
+    "option_c": "Akathisia",
+    "option_d": "Aphasia",
+    "correct_answer": "B",
+    "explanation": "Levodopa-induced dyskinesias are a common late complication of chronic therapy."
+  },
+  {
+    "question": "A 30-year-old female presents with episodic double vision and drooping eyelids that worsen in the evening. Diagnosis?",
+    "option_a": "Multiple Sclerosis",
+    "option_b": "Myasthenia Gravis",
+    "option_c": "Graves' disease",
+    "option_d": "Cataracts",
+    "correct_answer": "B",
+    "explanation": "MG is caused by autoantibodies against acetylcholine receptors, leading to fatigable muscle weakness."
+  },
+  {
+    "question": "Which of the following is a paraneoplastic syndrome associated with Small Cell Lung Cancer?",
+    "option_a": "Hypercalcemia",
+    "option_b": "Lambert-Eaton Myasthenic Syndrome",
+    "option_c": "Hypertrophic Osteoarthropathy",
+    "option_d": "Migratory thrombophlebitis",
+    "correct_answer": "B",
+    "explanation": "LEMS is caused by antibodies against presynaptic voltage-gated calcium channels, often associated with SCLC."
+  },
+  {
+    "question": "In the management of Giant Cell Arteritis, why must high-dose steroids be started immediately?",
+    "option_a": "To prevent renal failure",
+    "option_b": "To prevent permanent vision loss (blindness)",
+    "option_c": "To stop the headache only",
+    "option_d": "To treat a co-existing infection",
+    "correct_answer": "B",
+    "explanation": "Ischemic optic neuropathy is a catastrophic and irreversible complication of untreated temporal arteritis."
+  },
+  {
+    "question": "A patient with Ankylosing Spondylitis will classically have which finding on a pelvic X-ray?",
+    "option_a": "Osteophytes",
+    "option_b": "Sacroiliitis (joint fusion/blurring)",
+    "option_c": "Hip fracture",
+    "option_d": "Bone cysts",
+    "correct_answer": "B",
+    "explanation": "Inflammation and subsequent fusion of the sacroiliac joints is the hallmark of spondyloarthropathies."
+  },
+  {
+    "question": "What is the clinical triad for 'Reactive Arthritis' (formerly Reiter's Syndrome)?",
+    "option_a": "Fever, rash, joint pain",
+    "option_b": "Urethritis, Conjunctivitis, and Arthritis",
+    "option_c": "Diarrhea, dementia, dermatitis",
+    "option_d": "Headache, tachycardia, sweating",
+    "correct_answer": "B",
+    "explanation": "Known as 'Can't see, can't pee, can't climb a tree', this syndrome follows a mucosal infection (e.g., Chlamydia)."
+  },
+  {
+    "question": "Which of the following is a feature of 'Lower Motor Neuron' (LMN) lesions?",
+    "option_a": "Spasticity",
+    "option_b": "Muscle fasciculations and atrophy",
+    "option_c": "Hyperreflexia",
+    "option_d": "Positive Babinski sign",
+    "correct_answer": "B",
+    "explanation": "LMN lesions (e.g., polio, peripheral nerve injury) cause flaccid paralysis and visible muscle twitching (fasciculations)."
+  },
+  {
+    "question": "A patient presents with a 'rest tremor', rigidity, and postural instability. Which area of the brain is undergoing degeneration?",
+    "option_a": "Hippocampus",
+    "option_b": "Substantia Nigra",
+    "option_c": "Cerebellum",
+    "option_d": "Amygdala",
+    "correct_answer": "B",
+    "explanation": "The loss of dopaminergic neurons in the substantia nigra pars compacta is the pathology of Parkinson's."
+  },
+  {
+    "question": "A patient with a history of intravenous drug use presents with high fever and a new heart murmur. Blood cultures are positive for S. aureus. Diagnosis?",
+    "option_a": "Rheumatic Fever",
+    "option_b": "Infective Endocarditis",
+    "option_c": "Myocarditis",
+    "option_d": "Pericarditis",
+    "correct_answer": "B",
+    "explanation": "S. aureus endocarditis is common in IV drug users, often affecting the tricuspid valve."
+  },
+  {
+    "question": "What is the primary medication used for the reversal of anticoagulation in a patient on Warfarin with life-threatening bleeding?",
+    "option_a": "Protamine sulfate",
+    "option_b": "Prothrombin Complex Concentrate (PCC) and Vitamin K",
+    "option_c": "Aspirin",
+    "option_d": "Low molecular weight heparin",
+    "correct_answer": "B",
+    "explanation": "PCC provides rapid replacement of clotting factors while Vitamin K allows for the synthesis of new ones."
+  },
+  {
+    "question": "Which of the following describes the mechanism of action of 'Imatinib' in Chronic Myeloid Leukemia (CML)?",
+    "option_a": "Binds to DNA and prevents replication",
+    "option_b": "Inhibits the BCR-ABL tyrosine kinase protein",
+    "option_c": "Antagonist of estrogen receptors",
+    "option_d": "Blocks the VEGF receptor",
+    "correct_answer": "B",
+    "explanation": "Imatinib is a targeted therapy that specifically inhibits the fusion protein responsible for CML cell proliferation."
+  },
+  {
+    "question": "A patient presents with a 'B-cell' malignancy characterized by painless lymphadenopathy and Reed-Sternberg cells on biopsy. Diagnosis?",
+    "option_a": "Burkitt Lymphoma",
+    "option_b": "Hodgkin Lymphoma",
+    "option_c": "Multiple Myeloma",
+    "option_d": "Chronic Lymphocytic Leukemia",
+    "correct_answer": "B",
+    "explanation": "Reed-Sternberg cells ('owl's eyes') are the pathognomonic hallmark of Hodgkin's disease."
+  },
+  {
+    "question": "Which metabolic disturbance is part of the 'CRAB' criteria for Multiple Myeloma?",
+    "option_a": "Hypocalcemia",
+    "option_b": "Hypercalcemia",
+    "option_c": "Hyponatremia",
+    "option_d": "Hypokalemia",
+    "correct_answer": "B",
+    "explanation": "CRAB stands for Calcium (high), Renal failure, Anemia, and Bone lesions."
+  },
+  {
+    "question": "A patient presents with an irregularly irregular heart rhythm and sudden-onset weakness in the right arm and leg. What is the most likely source of the stroke?",
+    "option_a": "Carotid plaque",
+    "option_b": "Left Atrial Appendage (thrombus from AFib)",
+    "option_c": "Right ventricle",
+    "option_d": "Aorta",
+    "correct_answer": "B",
+    "explanation": "Atrial fibrillation allows for blood stasis in the left atrium, increasing the risk of cardioembolic stroke."
+  },
+  {
+    "question": "What is the goal of Evidence-Based Medicine (EBM) in clinical practice?",
+    "option_a": "To minimize patient input in decision making",
+    "option_b": "To integrate clinical expertise with the best available external clinical evidence",
+    "option_c": "To use only drugs that have been available for over 20 years",
+    "option_d": "To rely solely on expert opinion",
+    "correct_answer": "B",
+    "explanation": "EBM is the conscientious use of current best evidence in making decisions about the care of individual patients."
+  },
+  {
+    "question": "Which hormone is elevated in 'Primary' Hyperparathyroidism?",
+    "option_a": "TSH",
+    "option_b": "Parathyroid Hormone (PTH)",
+    "option_c": "Insulin",
+    "option_d": "Cortisol",
+    "correct_answer": "B",
+    "explanation": "Primary hyperparathyroidism involves autonomous PTH production, leading to hypercalcemia."
+  }
+]
