@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 62-year-old female presents with a 'bulge' in her vagina and a sensation of pelvic heaviness that worsens by the end of the day. She has given birth to four children. What is the most likely diagnosis?",
+    "option_a": "Endometrial cancer",
+    "option_b": "Pelvic Organ Prolapse (POP)",
+    "option_c": "Ovarian cyst",
+    "option_d": "Uterine fibroid",
+    "correct_answer": "B",
+    "explanation": "Pelvic organ prolapse is common in multiparous postmenopausal women due to the weakening of pelvic floor muscles and connective tissue."
+  },
+  {
+    "question": "Which of the following is the 'first-line' conservative management for Stress Urinary Incontinence?",
+    "option_a": "Sling surgery",
+    "option_b": "Pelvic floor muscle training (Kegel exercises)",
+    "option_c": "Anticholinergic medications",
+    "option_d": "Chronic catheterization",
+    "correct_answer": "B",
+    "explanation": "Pelvic floor exercises strengthen the levator ani and urethral sphincter, providing better support during increases in intra-abdominal pressure."
+  },
+  {
+    "question": "A 15-year-old girl presents with primary amenorrhea and cyclic monthly pelvic pain. On exam, a bulging, bluish membrane is seen at the vaginal introitus. Diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Imperforate Hymen",
+    "option_c": "PCOS",
+    "option_d": "Pregnancy",
+    "correct_answer": "B",
+    "explanation": "The hymen lacks an opening, leading to the accumulation of menstrual blood in the vagina (hematocolpos), which appears as a blue bulge."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' infertility?",
+    "option_a": "Inability to conceive after 1 year with no prior pregnancies",
+    "option_b": "Inability to conceive after 1 year in a woman who has had at least one prior pregnancy",
+    "option_c": "Inability to have twins",
+    "option_d": "Infertility caused by a virus",
+    "correct_answer": "B",
+    "explanation": "Secondary infertility applies to couples who have successfully conceived in the past but are currently unable to do so."
+  },
+  {
+    "question": "A patient with 'Abnormal Uterine Bleeding' (AUB) is evaluated using the PALM-COEIN classification. What does the 'P' stand for?",
+    "option_a": "Pregnancy",
+    "option_b": "Polyp",
+    "option_c": "Pain",
+    "option_d": "Progesterone",
+    "correct_answer": "B",
+    "explanation": "The PALM-COEIN system categorizes causes of AUB into structural (Polyp, Adenomyosis, Leiomyoma, Malignancy) and non-structural causes."
+  },
+  {
+    "question": "Which of the following is true for 'Lichen Planus' of the vulva?",
+    "option_a": "It is a bacterial infection",
+    "option_b": "It is an inflammatory condition that can involve the vagina and mouth (erosive type)",
+    "option_c": "It is treated with antifungal cream",
+    "option_d": "It only affects teenagers",
+    "correct_answer": "B",
+    "explanation": "Lichen planus often presents with painful erosions and 'Wickham striae' (white lacy lines)."
+  },
+  {
+    "question": "What is the primary medication used for 'Medical Abortion' (up to 10 weeks gestation)?",
+    "option_a": "Methotrexate only",
+    "option_b": "Mifepristone followed by Misoprostol",
+    "option_c": "Oxytocin",
+    "option_d": "High-dose Estrogen",
+    "correct_answer": "B",
+    "explanation": "Mifepristone blocks progesterone to end the pregnancy, and Misoprostol causes uterine contractions to expel the contents."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Cervical Cancer' that has spread locally?",
+    "option_a": "Weight gain",
+    "option_b": "Post-coital bleeding and malodorous vaginal discharge",
+    "option_c": "High fever",
+    "option_d": "Breast tenderness",
+    "correct_answer": "B",
+    "explanation": "Bleeding after intercourse is a major red flag for cervical malignancy and requires urgent colposcopy."
+  },
+  {
+    "question": "What is the primary risk of 'Breech' presentation during a vaginal delivery?",
+    "option_a": "Fetal blindness",
+    "option_b": "Head entrapment and umbilical cord prolapse",
+    "option_c": "Maternal liver failure",
+    "option_d": "Excessive fetal hair",
+    "correct_answer": "B",
+    "explanation": "The fetal head is the largest part; if the body delivers first, the head may get stuck in a cervix that isn't fully dilated."
+  },
+  {
+    "question": "Which of the following describes 'Sheehan Syndrome' pathology?",
+    "option_a": "Ischemic necrosis of the anterior pituitary",
+    "option_b": "Infection of the ovaries",
+    "option_c": "Autoimmune destruction of the uterus",
+    "option_d": "High levels of prolactin",
+    "correct_answer": "A",
+    "explanation": "It occurs due to severe blood loss during or after childbirth, leading to a lack of pituitary hormones."
+  },
+  {
+    "question": "What is the 'first-line' treatment for 'Urinary Tract Infection' (UTI) in a pregnant patient?",
+    "option_a": "Ciprofloxacin",
+    "option_b": "Nitrofurantoin or Cephalexin",
+    "option_c": "Doxycycline",
+    "option_d": "Waiting for it to resolve on its own",
+    "correct_answer": "B",
+    "explanation": "Nitrofurantoin is safe and effective in pregnancy, except during the very last days of the third trimester (due to risk of neonatal hemolysis)."
+  },
+  {
+    "question": "Which of the following is true for 'Gestational Hypertension'?",
+    "option_a": "It involves high protein in the urine",
+    "option_b": "It is new-onset hypertension after 20 weeks without proteinuria or end-organ damage",
+    "option_c": "It is diagnosed before pregnancy",
+    "option_d": "It only occurs in the first trimester",
+    "correct_answer": "B",
+    "explanation": "If proteinuria or other 'severe features' develop, the diagnosis changes to preeclampsia."
+  },
+  {
+    "question": "What is the 'Gold Standard' for assessing 'tubal patency'?",
+    "option_a": "Hysterosalpingogram (HSG)",
+    "option_b": "Laparoscopy with chromotubation",
+    "option_c": "Pelvic CT",
+    "option_d": "Blood test",
+    "correct_answer": "B",
+    "explanation": "Injecting dye into the uterus and seeing it spill from the tubes during laparoscopy is the most definitive test."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Placenta Increta'?",
+    "option_a": "The placenta is attached only to the decidua",
+    "option_b": "The placenta invades into the myometrium",
+    "option_c": "The placenta invades through the myometrium into the bladder",
+    "option_d": "The placenta is normal",
+    "correct_answer": "B",
+    "explanation": "Accreta (attachment), Increta (invasion into muscle), and Percreta (invasion through muscle) are the three degrees of placental attachment disorders."
+  },
+  {
+    "question": "A patient presents with 'primary amenorrhea' and a 'short stature'. Karyotype is 45,X. Diagnosis?",
+    "option_a": "Down Syndrome",
+    "option_b": "Turner Syndrome",
+    "option_c": "Klinefelter Syndrome",
+    "option_d": "PCOS",
+    "correct_answer": "B",
+    "explanation": "Turner syndrome leads to 'streak ovaries' and a lack of secondary sexual characteristics."
+  },
+  {
+    "question": "Which of the following is true for 'Bacterial Vaginosis' (BV) in pregnancy?",
+    "option_a": "It has no risks",
+    "option_b": "It is associated with an increased risk of preterm labor and PPROM",
+    "option_c": "It is treated with Fluconazole",
+    "option_d": "It causes high fever",
+    "correct_answer": "B",
+    "explanation": "Treatment of symptomatic BV in pregnancy is important to reduce obstetric complications."
+  },
+  {
+    "question": "What is the primary reason for 'delayed cord clamping' (60 seconds) in term infants?",
+    "option_a": "To make the mother more comfortable",
+    "option_b": "To increase infant iron stores and hemoglobin levels",
+    "option_c": "To prevent jaundice",
+    "option_d": "To speed up the delivery of the placenta",
+    "correct_answer": "B",
+    "explanation": "Delayed clamping allows for a physiological 'placental transfusion' to the newborn."
+  },
+  {
+    "question": "A patient with 'Endometritis' after a C-section should be treated with which combination of IV antibiotics?",
+    "option_a": "Penicillin only",
+    "option_b": "Clindamycin and Gentamicin",
+    "option_c": "Ciprofloxacin and Metronidazole",
+    "option_d": "Vancomycin",
+    "correct_answer": "B",
+    "explanation": "This regimen provides broad-spectrum coverage, including against anaerobes (Clindamycin) and Gram-negatives (Gentamicin)."
+  },
+  {
+    "question": "Which of the following describes 'Asherman Syndrome' on a Hysterosalpingogram?",
+    "option_a": "A large uterus",
+    "option_b": "Irregular 'filling defects' indicating intrauterine adhesions",
+    "option_c": "Fluid in the fallopian tubes",
+    "option_d": "A normal cavity",
+    "correct_answer": "B",
+    "explanation": "Scarring of the endometrial lining prevents the dye from filling the uterus uniformly."
+  },
+  {
+    "question": "What is the primary risk of 'Vaginal Breech' delivery for the mother?",
+    "option_a": "Heart failure",
+    "option_b": "Increased risk of severe perineal lacerations",
+    "option_c": "Diabetes",
+    "option_d": "No risk",
+    "correct_answer": "B",
+    "explanation": "Maneuvers to deliver the breech can lead to maternal trauma."
+  },
+  {
+    "question": "Which of the following is an ultrasound finding of 'Placenta Previa'?",
+    "option_a": "The placenta is high in the fundus",
+    "option_b": "The lower edge of the placenta is within 2 cm of or covering the internal os",
+    "option_c": "The placenta is detached",
+    "option_d": "The placenta is missing",
+    "correct_answer": "B",
+    "explanation": "Ultrasound is the definitive way to locate the placenta safely."
+  },
+  {
+    "question": "A patient has 'Strawberry Spots' on the vaginal walls and cervix. What is the organism?",
+    "option_a": "Yeast",
+    "option_b": "Trichomonas vaginalis",
+    "option_c": "Gardnerella",
+    "option_d": "HSV",
+    "correct_answer": "B",
+    "explanation": "The 'strawberry cervix' is pathognomonic for trichomoniasis."
+  },
+  {
+    "question": "What is the primary risk of 'Ovarian Hyperstimulation Syndrome' (OHSS)?",
+    "option_a": "Improved fertility",
+    "option_b": "Vascular leak leading to ascites, pleural effusion, and hemoconcentration",
+    "option_c": "Low blood sugar",
+    "option_d": "Hair loss",
+    "correct_answer": "B",
+    "explanation": "OHSS is a potentially fatal complication of fertility drugs (hCG and gonadotropins)."
+  },
+  {
+    "question": "Which of the following is true for 'Vulvar Lichen Planus'?",
+    "option_a": "It is always painless",
+    "option_b": "It can lead to vaginal scarring and stenosis (narrowing)",
+    "option_c": "It is caused by a virus",
+    "option_d": "It is only seen in pregnant women",
+    "correct_answer": "B",
+    "explanation": "Erosive lichen planus is a chronic autoimmune condition that can cause significant anatomical distortion."
+  },
+  {
+    "question": "What is the management for a 'Post-term' pregnancy (42 weeks) with a favorable Bishop score?",
+    "option_a": "Wait for another week",
+    "option_b": "Induction of labor",
+    "option_c": "Cesarean section for everyone",
+    "option_d": "Oral fluids only",
+    "correct_answer": "B",
+    "explanation": "Because of the risks of post-maturity, delivery is usually recommended by 41-42 weeks."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Twin-to-Twin Transfusion Syndrome' (TTTS)?",
+    "option_a": "One twin is much larger with polyhydramnios, and the other is smaller with oligohydramnios",
+    "option_b": "Both twins are the same size",
+    "option_c": "One twin is missing",
+    "option_d": "Both twins have low blood pressure",
+    "correct_answer": "A",
+    "explanation": "TTTS occurs in monochorionic twins due to abnormal vascular connections in the placenta."
+  },
+  {
+    "question": "What is the first-line antibiotic for 'Mastitis' in a non-allergic patient?",
+    "option_a": "Ciprofloxacin",
+    "option_b": "Dicloxacillin or Cephalexin",
+    "option_c": "Metronidazole",
+    "option_d": "Vancomycin",
+    "correct_answer": "B",
+    "explanation": "Treatment targets the most common organism, Staphylococcus aureus."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' syphilis clinical features?",
+    "option_a": "Painless chancre only",
+    "option_b": "Generalized lymphadenopathy and a rash on palms/soles",
+    "option_c": "Heart failure",
+    "option_d": "Stroke",
+    "correct_answer": "B",
+    "explanation": "Secondary syphilis involves systemic dissemination and dermatological manifestations."
+  },
+  {
+    "question": "A patient presents with 'Amenorrhea' and 'Galactorrhea'. Which test should be ordered first?",
+    "option_a": "Brain CT",
+    "option_b": "Serum Prolactin and TSH",
+    "option_c": "Pelvic X-ray",
+    "option_d": "Urinalysis",
+    "correct_answer": "B",
+    "explanation": "Hyperprolactinemia (often caused by a pituitary adenoma or hypothyroidism) is a common cause of these symptoms."
+  },
+  {
+    "question": "Which of the following is true for 'Vaginal Atrophy'?",
+    "option_a": "It involves a thick vaginal lining",
+    "option_b": "It is caused by estrogen deficiency and is treated with topical estrogen",
+    "option_c": "It only occurs in young girls",
+    "option_d": "It is a sign of cancer",
+    "correct_answer": "B",
+    "explanation": "Commonly seen after menopause, leading to dryness and painful intercourse."
+  },
+  {
+    "question": "What is the 'Rule of 10' in HCG levels in a normal pregnancy?",
+    "option_a": "It triples every 10 days",
+    "option_b": "It should roughly double every 48 hours (or 1.5-2 days) in the early first trimester",
+    "option_c": "It stays the same for 10 months",
+    "option_d": "It drops by 10% every day",
+    "correct_answer": "B",
+    "explanation": "Inadequate rise of hCG is concerning for an ectopic pregnancy or failing intrauterine pregnancy."
+  },
+  {
+    "question": "Which of the following describes 'Fitz-Hugh-Curtis Syndrome' on laparoscopy?",
+    "option_a": "Ovarian cysts",
+    "option_b": "'Violin-string' adhesions between the liver capsule and the abdominal wall",
+    "option_c": "Blood in the uterus",
+    "option_d": "A normal liver",
+    "correct_answer": "B",
+    "explanation": "This is a complication of PID, often caused by Chlamydia."
+  },
+  {
+    "question": "What is the primary treatment for 'PCOS' in a woman who is NOT trying to get pregnant and has irregular periods?",
+    "option_a": "Clomiphene",
+    "option_b": "Combined Oral Contraceptives (COCs)",
+    "option_c": "Metformin only",
+    "option_d": "Surgery",
+    "correct_answer": "B",
+    "explanation": "COCs regulate the cycle, protect the endometrium, and help reduce hirsutism by lowering androgens."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Uterine Atony'?",
+    "option_a": "A firm, contracted uterus",
+    "option_b": "A soft, 'boggy' uterus that is difficult to palpate",
+    "option_c": "A small uterus",
+    "option_d": "A missing uterus",
+    "correct_answer": "B",
+    "explanation": "Failure of the muscle to contract leads to open vessels and heavy bleeding."
+  },
+  {
+    "question": "What is the primary risk of 'Multiple Gestations' (Twins, Triplets)?",
+    "option_a": "Post-term labor",
+    "option_b": "Preterm labor and low birth weight",
+    "option_c": "Low maternal blood pressure",
+    "option_d": "Decreased risk of preeclampsia",
+    "correct_answer": "B",
+    "explanation": "The uterine distension in multiple pregnancies is a major trigger for preterm birth."
+  },
+  {
+    "question": "Which of the following is true regarding 'Atypical Squamous Cells of Undetermined Significance' (ASC-US) on a Pap smear?",
+    "option_a": "It always means the patient has cancer",
+    "option_b": "In women >25, the next step is typically 'HPV testing' (reflex testing)",
+    "option_c": "Immediate hysterectomy is required",
+    "option_d": "No follow-up is needed",
+    "correct_answer": "B",
+    "explanation": "ASC-US is an borderline result; if HPV is negative, the risk of CIN 3 is very low."
+  },
+  {
+    "question": "What is the primary treatment for 'Vulvar Candidiasis'?",
+    "option_a": "Antibiotics",
+    "option_b": "Topical or oral Antifungals (e.g., Clotrimazole or Fluconazole)",
+    "option_c": "Steroids",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "Yeast infections are fungal and require antifungal therapy."
+  },
+  {
+    "question": "Which of the following describes 'Cervical Ripening'?",
+    "option_a": "Closing of the cervix",
+    "option_b": "The biochemical softening and effacement of the cervix before labor",
+    "option_c": "The birth of the baby",
+    "option_d": "The healing of a tear",
+    "correct_answer": "B",
+    "explanation": "Prostaglandins are often used medically to induce this process."
+  },
+  {
+    "question": "What is the primary risk of 'Macrosomia' (fetal weight > 4000-4500g)?",
+    "option_a": "Shoulder dystocia and birth trauma",
+    "option_b": "Preterm birth",
+    "option_c": "Fetal blindness",
+    "option_d": "Low maternal blood pressure",
+    "correct_answer": "A",
+    "explanation": "Larger babies are more likely to have their shoulders impacted behind the pubic bone during delivery."
+  },
+  {
+    "question": "Which of the following is true for 'Chorioamnionitis'?",
+    "option_a": "It is a viral infection",
+    "option_b": "It involves maternal fever, fetal tachycardia, and foul-smelling amniotic fluid",
+    "option_c": "It is treated with steroids only",
+    "option_d": "It has no effect on the neonate",
+    "correct_answer": "B",
+    "explanation": "It is a serious bacterial infection of the membranes and amniotic fluid requiring delivery and IV antibiotics."
+  },
+  {
+    "question": "Which hormone is responsible for 'milk let-down' (ejection)?",
+    "option_a": "Prolactin",
+    "option_b": "Oxytocin",
+    "option_c": "Estrogen",
+    "option_d": "Progesterone",
+    "correct_answer": "B",
+    "explanation": "Prolactin produces the milk, while Oxytocin causes the muscle cells in the breast to contract and eject it."
+  },
+  {
+    "question": "What is the definitive treatment for 'Adenomyosis' in a patient who has completed childbearing?",
+    "option_a": "Birth control pills",
+    "option_b": "Hysterectomy",
+    "option_c": "Antibiotics",
+    "option_d": "Uterine massage",
+    "correct_answer": "B",
+    "explanation": "Hysterectomy is the only curative treatment for symptomatic adenomyosis."
+  },
+  {
+    "question": "Which of the following describes 'Condyloma Acuminata'?",
+    "option_a": "Syphilitic rash",
+    "option_b": "Genital warts caused by HPV 6 and 11",
+    "option_c": "Cervical cancer",
+    "option_d": "Bacterial infection",
+    "correct_answer": "B",
+    "explanation": "These are benign but highly contagious warts usually transmitted sexually."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Uterine Rupture'?",
+    "option_a": "Increased contractions",
+    "option_b": "Sudden loss of fetal station and severe abdominal pain",
+    "option_c": "Normal vital signs",
+    "option_d": "Decreased heart rate only",
+    "correct_answer": "B",
+    "explanation": "A baby that was 'low' in the pelvis suddenly moves back up after the uterus tears."
+  },
+  {
+    "question": "What is the significance of a 'Positive' Fern Test?",
+    "option_a": "The patient is not pregnant",
+    "option_b": "It indicates the rupture of membranes (amniotic fluid crystallizes into a fern pattern)",
+    "option_c": "The patient has a yeast infection",
+    "option_d": "It is a test for cervical cancer",
+    "correct_answer": "B",
+    "explanation": "Fern testing is a bedside tool for confirming the leakage of amniotic fluid."
+  },
+  {
+    "question": "Which of the following is true for 'Ovarian Cancer' screening?",
+    "option_a": "It is done annually for all women with Pap smears",
+    "option_b": "There is no effective screening for average-risk asymptomatic women",
+    "option_c": "A blood test for CA-125 is 100% accurate",
+    "option_d": "Ultrasound is always performed at every checkup",
+    "correct_answer": "B",
+    "explanation": "Ovarian cancer is often 'silent' because we lack a reliable screening tool to detect it early."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Amenorrhea' in an adolescent girl who is a high-performance athlete?",
+    "option_a": "Ovarian cancer",
+    "option_b": "Functional Hypothalamic Amenorrhea (due to low energy availability)",
+    "option_c": "PCOS",
+    "option_d": "Pregnancy",
+    "correct_answer": "B",
+    "explanation": "Stress and low body fat can shut down the hypothalamic-pituitary-ovarian axis."
+  },
+  {
+    "question": "What is the primary medication for 'Postpartum Depression' (PPD) that is not responsive to therapy?",
+    "option_a": "Haloperidol",
+    "option_b": "SSRIs (e.g., Sertraline or Paroxetine)",
+    "option_c": "Benzodiazepines",
+    "option_d": "Lithium",
+    "correct_answer": "B",
+    "explanation": "Sertraline is often preferred if the mother is breastfeeding due to low transmission in milk."
+  },
+  {
+    "question": "Which of the following describes 'Luteal Phase' of the menstrual cycle?",
+    "option_a": "The time before ovulation",
+    "option_b": "The time after ovulation, dominated by progesterone production from the corpus luteum",
+    "option_c": "The time of the period",
+    "option_d": "None of the above",
+    "correct_answer": "B",
+    "explanation": "The luteal phase is consistently 14 days long in most women."
+  },
+  {
+    "question": "What is the primary treatment for 'Gestational Diabetes' if diet and exercise fail?",
+    "option_a": "Metformin only",
+    "option_b": "Insulin (the preferred therapy in many guidelines)",
+    "option_c": "High-sugar diet",
+    "option_d": "Weight loss surgery",
+    "correct_answer": "B",
+    "explanation": "Insulin does not cross the placenta and provides precise control of blood glucose."
+  }
+]
