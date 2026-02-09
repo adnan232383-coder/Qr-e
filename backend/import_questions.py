@@ -9,10 +9,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load questions from JSON file
-with open('/app/obgyn_batch_3.json', 'r', encoding='utf-8') as f:
+with open('/app/critical_care_batch_1.json', 'r', encoding='utf-8') as f:
     questions_data = json.load(f)
 
-COURSE_ID = "NVU_MD_Y4_S1_C34"
+COURSE_ID = "NVU_MD_Y5_S1_C50"
 
 async def main():
     client = AsyncIOMotorClient(os.environ["MONGO_URL"])
