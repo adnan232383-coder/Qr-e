@@ -196,6 +196,92 @@ export default function Landing() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Navigate your medical education with AI-powered course summaries, MCQ practice, and an intelligent study assistant across multiple universities.
             </p>
+            
+            {/* Search Box */}
+            <div className="max-w-xl mx-auto mb-8" ref={searchRef}>
+              <div className="relative">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                <Input
+                  type="text"
+                  placeholder="Search courses or universities..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full h-14 pl-12 pr-12 text-lg rounded-full border-2 focus:border-primary"
+                  data-testid="search-input"
+                />
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery("")}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                  >
+                    <X className="h-5 w-5" />
+                  </button>
+                )}
+              </div>
+              
+              {/* Search Results Dropdown */}
+              {showResults && (searchResults.universities.length > 0 || searchResults.courses.length > 0) && (
+                <div className="absolute left-0 right-0 mt-2 mx-auto max-w-xl bg-card border border-border rounded-2xl shadow-lg overflow-hidden z-50">
+                  {/* Universities Results */}
+                  {searchResults.universities.length > 0 && (
+                    <div className="p-2">
+                      <div className="px-3 py-2 text-xs font-semibold text-muted-foreground uppercase">
+                        Universities
+                      </div>
+                      {searchResults.universities.map((uni) => (
+                        <button
+                          key={uni.external_id}
+                          onClick={() => {
+                            navigate(`/university/${uni.external_id}`);
+                            setShowResults(false);
+                            setSearchQuery("");
+                          }}
+                          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent text-left transition-colors"
+                          data-testid={`search-result-uni-${uni.external_id}`}
+                        >
+                          <Building2 className="h-5 w-5 text-primary" />
+                          <div>
+                            <div className="font-medium">{uni.name}</div>
+                            <div className="text-sm text-muted-foreground">{uni.city}, {uni.country}</div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  
+                  {/* Courses Results */}
+                  {searchResults.courses.length > 0 && (
+                    <div className="p-2 border-t border-border">
+                      <div className="px-3 py-2 text-xs font-semibold text-muted-foreground uppercase">
+                        Courses
+                      </div>
+                      {searchResults.courses.map((course) => (
+                        <button
+                          key={course.external_id}
+                          onClick={() => {
+                            navigate(`/course/${course.external_id}`);
+                            setShowResults(false);
+                            setSearchQuery("");
+                          }}
+                          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent text-left transition-colors"
+                          data-testid={`search-result-course-${course.external_id}`}
+                        >
+                          <BookOpen className="h-5 w-5 text-primary" />
+                          <div>
+                            <div className="font-medium">{course.course_name}</div>
+                            <div className="text-sm text-muted-foreground">
+                              {course.university === "UG" ? "University of Georgia" : "New Vision University"}
+                              {course.mcq_count > 0 && ` • ${course.mcq_count} MCQs`}
+                            </div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
