@@ -846,7 +846,12 @@ async def stop_simple_mcq():
 @api_router.get("/admin/simple-mcq/status")
 async def get_simple_mcq_status():
     """Get simple MCQ status"""
-    job = await db.jobs.find_one({"job_type": "simple_mcq"}, {"_id": 0}, sort=[("started_at", -1)])
+    # Find most recent job by started_at
+    jobs = await db.jobs.find(
+        {"job_type": "simple_mcq"}, 
+        {"_id": 0}
+    ).sort("started_at", -1).limit(1).to_list(1)
+    job = jobs[0] if jobs else None
     
     # Count courses with 200+
     pipeline = [
