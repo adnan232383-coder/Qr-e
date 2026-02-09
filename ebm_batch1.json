@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is the primary goal of Evidence-Based Medicine (EBM)?",
+    "option_a": "To replace clinical experience with statistical data",
+    "option_b": "To integrate the best research evidence with clinical expertise and patient values",
+    "option_c": "To ensure that only randomized controlled trials are used in practice",
+    "option_d": "To reduce the cost of medical treatments for the hospital",
+    "correct_answer": "B",
+    "explanation": "EBM is defined as the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients, integrated with clinical expertise and patient preferences."
+  },
+  {
+    "question": "In the PICO framework for formulating a clinical question, what does the 'I' stand for?",
+    "option_a": "Investigation",
+    "option_b": "Intervention",
+    "option_c": "Indication",
+    "option_d": "Incidence",
+    "correct_answer": "B",
+    "explanation": "PICO stands for Patient/Population, Intervention, Comparison, and Outcome."
+  },
+  {
+    "question": "Which study design is considered the 'gold standard' for evaluating the efficacy of a new pharmacological treatment?",
+    "option_a": "Case-control study",
+    "option_b": "Cohort study",
+    "option_c": "Randomized Controlled Trial (RCT)",
+    "option_d": "Case series",
+    "correct_answer": "C",
+    "explanation": "RCTs minimize bias through randomization and are the strongest design for determining the efficacy of interventions."
+  },
+  {
+    "question": "Which of the following sits at the very top of the Hierarchy of Evidence?",
+    "option_a": "Randomized Controlled Trials",
+    "option_b": "Systematic Reviews and Meta-analyses",
+    "option_c": "Cohort Studies",
+    "option_d": "Expert Opinion",
+    "correct_answer": "B",
+    "explanation": "Systematic reviews and meta-analyses synthesize data from multiple high-quality studies, providing the highest level of evidence."
+  },
+  {
+    "question": "A study aims to determine the cause of a rare disease by comparing patients who have the disease with those who do not. Which study design is this?",
+    "option_a": "Prospective Cohort study",
+    "option_b": "Case-control study",
+    "option_c": "Cross-sectional study",
+    "option_d": "Randomized Controlled Trial",
+    "correct_answer": "B",
+    "explanation": "Case-control studies are retrospective and ideal for studying rare diseases or outcomes by looking back at exposure history."
+  },
+  {
+    "question": "What is the definition of 'Sensitivity' in a diagnostic test?",
+    "option_a": "The ability of a test to correctly identify those without the disease",
+    "option_b": "The ability of a test to correctly identify those with the disease",
+    "option_c": "The proportion of positive tests that are true positives",
+    "option_d": "The consistency of the test results over time",
+    "correct_answer": "B",
+    "explanation": "Sensitivity is the 'True Positive Rate'—the probability that the test is positive given that the patient actually has the disease."
+  },
+  {
+    "question": "What is the definition of 'Specificity' in a diagnostic test?",
+    "option_a": "The ability of a test to correctly identify those with the disease",
+    "option_b": "The ability of a test to correctly identify those without the disease",
+    "option_c": "The proportion of negative tests that are true negatives",
+    "option_d": "The probability that a patient with a negative test is healthy",
+    "correct_answer": "B",
+    "explanation": "Specificity is the 'True Negative Rate'—the probability that the test is negative given that the patient does not have the disease."
+  },
+  {
+    "question": "Which measure is calculated as 1 / Absolute Risk Reduction (ARR)?",
+    "option_a": "Relative Risk (RR)",
+    "option_b": "Number Needed to Treat (NNT)",
+    "option_c": "Odds Ratio (OR)",
+    "option_d": "Number Needed to Harm (NNH)",
+    "correct_answer": "B",
+    "explanation": "NNT represents the number of patients who need to receive an intervention to prevent one additional bad outcome."
+  },
+  {
+    "question": "In a study, the risk of a complication is 10% in the control group and 5% in the treatment group. What is the Absolute Risk Reduction (ARR)?",
+    "option_a": "50%",
+    "option_b": "5%",
+    "option_c": "2%",
+    "option_d": "15%",
+    "correct_answer": "B",
+    "explanation": "ARR = Risk in control (0.10) - Risk in treatment (0.05) = 0.05 or 5%."
+  },
+  {
+    "question": "Based on the previous question (ARR = 5%), what is the Number Needed to Treat (NNT)?",
+    "option_a": "5",
+    "option_b": "10",
+    "option_c": "20",
+    "option_d": "50",
+    "correct_answer": "C",
+    "explanation": "NNT = 1 / ARR = 1 / 0.05 = 20."
+  },
+  {
+    "question": "Which of the following is a potential disadvantage of a Case-control study?",
+    "option_a": "It is very expensive to perform",
+    "option_b": "It is prone to recall bias",
+    "option_c": "It takes a long time to complete (years of follow-up)",
+    "option_d": "It is unethical for rare diseases",
+    "correct_answer": "B",
+    "explanation": "Because case-control studies rely on past data or patient memory, they are highly susceptible to recall bias."
+  },
+  {
+    "question": "What is the main purpose of 'Randomization' in an RCT?",
+    "option_a": "To ensure the study is double-blinded",
+    "option_b": "To distribute known and unknown confounding variables equally between groups",
+    "option_c": "To increase the sample size of the study",
+    "option_d": "To make the study easier to publish",
+    "correct_answer": "B",
+    "explanation": "Randomization helps ensure that the only difference between the groups is the intervention, reducing selection bias."
+  },
+  {
+    "question": "A 'Double-blind' study means that:",
+    "option_a": "Both the researcher and the patient's family are unaware of the treatment",
+    "option_b": "Both the patient and the physician/investigator are unaware of the treatment assignment",
+    "option_c": "The study uses two different placebo groups",
+    "option_d": "The study results are checked by two independent statisticians",
+    "correct_answer": "B",
+    "explanation": "Double-blinding prevents both performance bias (from the patient) and detection bias (from the investigator)."
+  },
+  {
+    "question": "Which statistical value indicates the probability that the observed result occurred by chance alone?",
+    "option_a": "Confidence Interval",
+    "option_b": "p-value",
+    "option_c": "Standard Deviation",
+    "option_d": "Z-score",
+    "correct_answer": "B",
+    "explanation": "A p-value (typically < 0.05) suggests that the result is statistically significant and unlikely to be due to chance."
+  },
+  {
+    "question": "If a diagnostic test has very high sensitivity, a negative result is most useful for:",
+    "option_a": "Ruling in a diagnosis",
+    "option_b": "Ruling out a diagnosis (SnNout)",
+    "option_c": "Confirming the need for surgery",
+    "option_d": "Determining the prognosis",
+    "correct_answer": "B",
+    "explanation": "SnNout: High Sensitivity, Negative result, Rules Out. If the test is very sensitive and comes back negative, you can be very confident the patient doesn't have the disease."
+  },
+  {
+    "question": "If a diagnostic test has very high specificity, a positive result is most useful for:",
+    "option_a": "Ruling in a diagnosis (SpPIn)",
+    "option_b": "Ruling out a diagnosis",
+    "option_c": "Screening a large healthy population",
+    "option_d": "Reducing the cost of follow-up",
+    "correct_answer": "A",
+    "explanation": "SpPIn: High Specificity, Positive result, Rules In. A highly specific test rarely gives false positives, so a positive result is very reliable."
+  },
+  {
+    "question": "Which type of bias occurs when the patients who volunteer for a study are different from those who do not?",
+    "option_a": "Selection bias",
+    "option_b": "Measurement bias",
+    "option_c": "Publication bias",
+    "option_d": "Confounding bias",
+    "correct_answer": "A",
+    "explanation": "Selection bias occurs when the study population does not accurately represent the target population."
+  },
+  {
+    "question": "What does a 95% Confidence Interval (CI) represent?",
+    "option_a": "That 95% of the patients were cured",
+    "option_b": "The range within which we are 95% certain the true population value lies",
+    "option_c": "The probability that the study is 95% accurate",
+    "option_d": "The percentage of investigators who agree with the result",
+    "correct_answer": "B",
+    "explanation": "The CI provides an estimate of the precision of the study results."
+  },
+  {
+    "question": "Which study type follows a group of people over time to see who develops a disease based on their initial exposure?",
+    "option_a": "Cross-sectional study",
+    "option_b": "Case-control study",
+    "option_c": "Cohort study",
+    "option_d": "Systematic review",
+    "correct_answer": "C",
+    "explanation": "Cohort studies are observational and follow exposed vs. unexposed groups forward in time (prospective) or through records (retrospective) to observe outcomes."
+  },
+  {
+    "question": "What is 'Intention-to-Treat' (ITT) analysis?",
+    "option_a": "Analyzing only the patients who completed the full treatment protocol",
+    "option_b": "Analyzing patients in the groups to which they were originally randomized, regardless of whether they completed the treatment",
+    "option_c": "Analyzing only patients who showed improvement",
+    "option_d": "A preliminary analysis before the study ends",
+    "correct_answer": "B",
+    "explanation": "ITT analysis preserves the benefits of randomization and reflects real-world clinical practice where patients may drop out or be non-compliant."
+  },
+  {
+    "question": "What is the definition of 'Prevalence'?",
+    "option_a": "The number of new cases of a disease in a specific period",
+    "option_b": "The total number of existing cases of a disease in a population at a specific point in time",
+    "option_c": "The risk of dying from a disease",
+    "option_d": "The speed at which a disease spreads",
+    "correct_answer": "B",
+    "explanation": "Prevalence is a 'snapshot' of the total disease burden in a population."
+  },
+  {
+    "question": "What is the definition of 'Incidence'?",
+    "option_a": "The total number of cases in a population",
+    "option_b": "The number of new cases of a disease occurring in a population over a specific period",
+    "option_c": "The probability that a test is positive",
+    "option_d": "The severity of a disease",
+    "correct_answer": "B",
+    "explanation": "Incidence measures the rate of new occurrences of a disease."
+  },
+  {
+    "question": "Which of the following describes 'Confounding'?",
+    "option_a": "A mistake made by the researcher in data entry",
+    "option_b": "A situation where the relationship between an exposure and outcome is distorted by a third variable",
+    "option_c": "The loss of patients during follow-up",
+    "option_d": "When a study is not blinded",
+    "correct_answer": "B",
+    "explanation": "A confounder is a variable associated with both the exposure and the outcome, making it look like the exposure caused the outcome (e.g., smoking in a study of coffee and lung cancer)."
+  },
+  {
+    "question": "A study with a small sample size that fails to find a difference that actually exists is said to have a:",
+    "option_a": "Type I error (Alpha)",
+    "option_b": "Type II error (Beta)",
+    "option_c": "High statistical power",
+    "option_d": "Low p-value",
+    "correct_answer": "B",
+    "explanation": "Type II error occurs when you 'miss' a real difference (false negative). Power = 1 - Beta."
+  },
+  {
+    "question": "What is a 'Type I error'?",
+    "option_a": "Failing to find a difference that exists",
+    "option_b": "Finding a difference that does not actually exist (False positive)",
+    "option_c": "A bias in patient selection",
+    "option_d": "A mistake in the study's bibliography",
+    "correct_answer": "B",
+    "explanation": "Type I error occurs when the null hypothesis is rejected when it is actually true (Alpha)."
+  },
+  {
+    "question": "In a meta-analysis, what is the purpose of a 'Forest Plot'?",
+    "option_a": "To show the geography of where the studies were conducted",
+    "option_b": "To graphically represent the results of individual studies and the overall pooled estimate",
+    "option_c": "To track the cost of the research",
+    "option_d": "To list the names of all the authors",
+    "correct_answer": "B",
+    "explanation": "A Forest Plot allows for a quick visual assessment of the individual study effects and their confidence intervals."
+  },
+  {
+    "question": "Which of the following is an example of a 'Surrogate Endpoint'?",
+    "option_a": "Death",
+    "option_b": "Myocardial infarction",
+    "option_c": "Reduction in serum cholesterol levels",
+    "option_d": "Quality of life score",
+    "correct_answer": "C",
+    "explanation": "A surrogate endpoint is a laboratory measure or physical sign used as a substitute for a clinically meaningful endpoint (like death or stroke)."
+  },
+  {
+    "question": "What is 'External Validity' (Generalizability)?",
+    "option_a": "The degree to which the study results are true for the people inside the study",
+    "option_b": "The extent to which the study results can be applied to other populations or real-world settings",
+    "option_c": "The accuracy of the lab equipment used",
+    "option_d": "The number of citations the study receives",
+    "correct_answer": "B",
+    "explanation": "External validity asks: 'Can I apply these results to my specific patient?'"
+  },
+  {
+    "question": "What is 'Internal Validity'?",
+    "option_a": "The degree to which the results of a study are correct for the sample of people being studied",
+    "option_b": "The ability to apply the results to patients in other countries",
+    "option_c": "The cost-effectiveness of the study",
+    "option_d": "The length of the study's abstract",
+    "correct_answer": "A",
+    "explanation": "Internal validity is ensured by minimizing bias and errors within the study design and execution."
+  },
+  {
+    "question": "Which type of review uses explicit, systematic methods to minimize bias in the selection and appraisal of studies?",
+    "option_a": "Narrative review",
+    "option_b": "Systematic review",
+    "option_c": "Case report",
+    "option_d": "Expert editorial",
+    "correct_answer": "B",
+    "explanation": "Systematic reviews follow a strict protocol to find and summarize all available high-quality evidence on a topic."
+  },
+  {
+    "question": "What is the primary difference between a Systematic Review and a Meta-analysis?",
+    "option_a": "They are the same thing",
+    "option_b": "A meta-analysis uses statistical methods to combine the data from multiple studies into a single quantitative estimate",
+    "option_c": "Systematic reviews are only done by surgeons",
+    "option_d": "Meta-analyses are always prospective",
+    "correct_answer": "B",
+    "explanation": "A meta-analysis is essentially the mathematical component of a systematic review."
+  },
+  {
+    "question": "Which database is the most widely used for searching medical literature and EBM resources?",
+    "option_a": "Wikipedia",
+    "option_b": "PubMed/MEDLINE",
+    "option_c": "Facebook",
+    "option_d": "The New York Times",
+    "correct_answer": "B",
+    "explanation": "PubMed is the primary resource for accessing peer-reviewed biomedical literature."
+  },
+  {
+    "question": "A study reports an Odds Ratio (OR) of 1.0 for the association between a drug and a side effect. What does this mean?",
+    "option_a": "The drug is highly dangerous",
+    "option_b": "There is no association between the drug and the side effect",
+    "option_c": "The drug prevents the side effect",
+    "option_d": "The study is invalid",
+    "correct_answer": "B",
+    "explanation": "An OR or RR of 1.0 (the 'null value') indicates that the odds or risk are the same in both groups."
+  },
+  {
+    "question": "In a study comparing two drugs, if the 95% Confidence Interval for the Relative Risk is (0.85 to 1.20), the result is:",
+    "option_a": "Statistically significant",
+    "option_b": "Not statistically significant",
+    "option_c": "Highly reliable",
+    "option_d": "A Type I error",
+    "correct_answer": "B",
+    "explanation": "If a CI for a ratio (RR or OR) includes the value 1.0, it means the result is not statistically significant."
+  },
+  {
+    "question": "What is the 'Absolute Risk'?",
+    "option_a": "The risk in the treatment group divided by the risk in the control group",
+    "option_b": "The probability of an event occurring in a given population",
+    "option_c": "The difference between two risks",
+    "option_d": "The risk of dying from any cause",
+    "correct_answer": "B",
+    "explanation": "Absolute risk is the simple probability of an event happening."
+  },
+  {
+    "question": "Which of the following is a component of 'Clinical Expertise' in EBM?",
+    "option_a": "Reading every journal article every day",
+    "option_b": "The physician's cumulative experience, education, and clinical skills",
+    "option_c": "The ability to perform complex surgery",
+    "option_d": "Following the hospital's budget strictly",
+    "correct_answer": "B",
+    "explanation": "Clinical expertise allows the doctor to determine if the research evidence applies to a specific patient's situation."
+  },
+  {
+    "question": "What is the first step in the five-step process of Evidence-Based Medicine?",
+    "option_a": "Appraise the evidence",
+    "option_b": "Formulate an answerable clinical question",
+    "option_c": "Apply the evidence to the patient",
+    "option_d": "Acquire the evidence",
+    "correct_answer": "B",
+    "explanation": "The 5 steps are: Ask, Acquire, Appraise, Apply, and Assess."
+  },
+  {
+    "question": "What does 'Number Needed to Harm' (NNH) measure?",
+    "option_a": "The number of patients who were injured by the doctor",
+    "option_b": "The number of patients who need to receive an intervention for one additional person to experience an adverse effect",
+    "option_c": "The total number of side effects recorded",
+    "option_d": "The risk of malpractice",
+    "correct_answer": "B",
+    "explanation": "NNH is a measure of the safety of an intervention."
+  },
+  {
+    "question": "Which of the following is considered 'Secondary' evidence?",
+    "option_a": "A single RCT",
+    "option_b": "A Case-control study",
+    "option_c": "A Clinical Practice Guideline",
+    "option_d": "A laboratory experiment",
+    "correct_answer": "C",
+    "explanation": "Secondary evidence (like guidelines or systematic reviews) summarizes and evaluates primary studies."
+  },
+  {
+    "question": "In EBM, 'Patient Values' refers to:",
+    "option_a": "The patient's ability to pay for treatment",
+    "option_b": "The unique preferences, concerns, and expectations each patient brings to a clinical encounter",
+    "option_c": "The patient's blood pressure readings",
+    "option_d": "The patient's level of education",
+    "correct_answer": "B",
+    "explanation": "EBM is patient-centered; the evidence must be weighed against what the patient actually wants and values."
+  },
+  {
+    "question": "What is 'Publication Bias'?",
+    "option_a": "When a journal refuses to publish studies from certain countries",
+    "option_b": "The tendency for journals to publish positive results rather than negative or inconclusive results",
+    "option_c": "A bias against older authors",
+    "option_d": "When an author publishes too many articles",
+    "correct_answer": "B",
+    "explanation": "Publication bias can distort the body of evidence by making interventions seem more effective than they really are."
+  },
+  {
+    "question": "Which study design is best for determining the prevalence of a condition in a community?",
+    "option_a": "RCT",
+    "option_b": "Cohort study",
+    "option_c": "Cross-sectional study",
+    "option_d": "Case report",
+    "correct_answer": "C",
+    "explanation": "Cross-sectional studies (surveys) look at a population at one specific time point."
+  },
+  {
+    "question": "In a diagnostic test evaluation, what is the 'Gold Standard'?",
+    "option_a": "The most expensive test available",
+    "option_b": "The best currently available diagnostic test (or procedure) that is used as a reference",
+    "option_c": "A test that is 100% specific",
+    "option_d": "The test most patients prefer",
+    "correct_answer": "B",
+    "explanation": "New tests are always compared against the 'gold standard' to calculate sensitivity and specificity."
+  },
+  {
+    "question": "Which study design is best for investigating an outbreak of food poisoning?",
+    "option_a": "RCT",
+    "option_b": "Case-control study",
+    "option_c": "Meta-analysis",
+    "option_d": "Animal study",
+    "correct_answer": "B",
+    "explanation": "Comparing people who got sick (cases) with those who didn't (controls) to see what they ate is the classic epidemiologic approach."
+  },
+  {
+    "question": "What is the 'Likelihood Ratio' (LR) of a diagnostic test?",
+    "option_a": "The probability of a positive test",
+    "option_b": "A measure that combines sensitivity and specificity to tell us how much a test result changes the probability of disease",
+    "option_c": "The cost per diagnosis",
+    "option_d": "The ratio of nurses to doctors",
+    "correct_answer": "B",
+    "explanation": "LR+ tells us how much more likely a positive result is in a diseased person compared to a healthy one."
+  },
+  {
+    "question": "A Positive Predictive Value (PPV) of 90% means:",
+    "option_a": "90% of people with the disease will test positive",
+    "option_b": "If a patient tests positive, there is a 90% probability they actually have the disease",
+    "option_c": "The test is 90% accurate",
+    "option_d": "The test is positive 90% of the time",
+    "correct_answer": "B",
+    "explanation": "Predictive values (PPV and NPV) are highly dependent on the prevalence of the disease in the population."
+  },
+  {
+    "question": "What is 'Attrition Bias'?",
+    "option_a": "Bias caused by the researcher's attitude",
+    "option_b": "Bias introduced by patients dropping out of a study (loss to follow-up)",
+    "option_c": "Bias in the way the results are written",
+    "option_d": "Bias from using an old database",
+    "correct_answer": "B",
+    "explanation": "If more sick patients drop out of the treatment group than the control group, the treatment will look better than it is."
+  },
+  {
+    "question": "In clinical trials, what is a 'Placebo'?",
+    "option_a": "The active drug being tested",
+    "option_b": "An inactive substance or procedure designed to look like the real treatment",
+    "option_c": "A type of statistical analysis",
+    "option_d": "The doctor who administers the drug",
+    "correct_answer": "B",
+    "explanation": "Placebos are used to control for the psychological 'placebo effect' and ensure blinding."
+  },
+  {
+    "question": "Which of the following is true about 'Expert Opinion' in EBM?",
+    "option_a": "It is the most reliable form of evidence",
+    "option_b": "It is considered the lowest level of clinical evidence",
+    "option_c": "It is no longer allowed in modern medicine",
+    "option_d": "It is always biased",
+    "correct_answer": "B",
+    "explanation": "While valuable, expert opinion is at the bottom of the hierarchy because it is not based on systematic research."
+  },
+  {
+    "question": "A study reports a Relative Risk (RR) of 0.70 for a new drug compared to placebo. What is the Relative Risk Reduction (RRR)?",
+    "option_a": "70%",
+    "option_b": "30%",
+    "option_c": "130%",
+    "option_d": "0.3%",
+    "correct_answer": "B",
+    "explanation": "RRR = 1 - RR. So, 1 - 0.70 = 0.30 or 30% reduction in risk."
+  }
+]
