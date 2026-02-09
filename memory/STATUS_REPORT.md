@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://knowledge-base-166.preview.emergentagent.com |
-| Admin Panel | https://knowledge-base-166.preview.emergentagent.com/admin/progress |
-| API Docs | https://knowledge-base-166.preview.emergentagent.com/api/docs |
+| Frontend | https://doctor-prep-app.preview.emergentagent.com |
+| Admin Panel | https://doctor-prep-app.preview.emergentagent.com/admin/progress |
+| API Docs | https://doctor-prep-app.preview.emergentagent.com/api/docs |
 
 ---
 
