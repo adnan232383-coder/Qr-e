@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 45-year-old female presents with progressive weight gain, moon facies, and purple striae on her abdomen. Low-dose dexamethasone suppression test fails to suppress cortisol. ACTH levels are high. High-dose dexamethasone test results in 50% suppression of cortisol. What is the most likely source of excess cortisol?",
+    "option_a": "Adrenal adenoma",
+    "option_b": "Pituitary adenoma (Cushing's Disease)",
+    "option_c": "Ectopic ACTH production (e.g., Small cell lung cancer)",
+    "option_d": "Exogenous steroid use",
+    "correct_answer": "B",
+    "explanation": "Suppression of cortisol with high-dose but not low-dose dexamethasone is characteristic of a pituitary source (Cushing's Disease). Ectopic and adrenal sources typically do not suppress with high doses."
+  },
+  {
+    "question": "A 30-year-old male presents with polyuria and extreme thirst. His serum sodium is 148 mEq/L and urine osmolality is 150 mOsm/kg. After administration of desmopressin, the urine osmolality increases to 600 mOsm/kg. What is the diagnosis?",
+    "option_a": "Nephrogenic Diabetes Insipidus",
+    "option_b": "Central Diabetes Insipidus",
+    "option_c": "Primary Polydipsia",
+    "option_d": "SIADH",
+    "correct_answer": "B",
+    "explanation": "The ability to concentrate urine in response to exogenous ADH (desmopressin) confirms a deficiency in endogenous ADH production, diagnostic of Central DI."
+  },
+  {
+    "question": "A 60-year-old male with a history of chronic hepatitis B presents with weight loss and right upper quadrant pain. Labs reveal an Alpha-fetoprotein (AFP) of 800 ng/mL. What is the most likely diagnosis?",
+    "option_a": "Liver Cirrhosis",
+    "option_b": "Hepatocellular Carcinoma",
+    "option_c": "Cholangiocarcinoma",
+    "option_d": "Hepatic Hemangioma",
+    "correct_answer": "B",
+    "explanation": "Significantly elevated AFP in the setting of chronic HBV and RUQ pain is highly suggestive of Hepatocellular Carcinoma."
+  },
+  {
+    "question": "A patient with Chronic Kidney Disease presents with persistent pruritus, bone pain, and spontaneous fractures. Labs show High PTH, High Phosphate, and Low Calcium. What is the diagnosis?",
+    "option_a": "Primary Hyperparathyroidism",
+    "option_b": "Secondary Hyperparathyroidism",
+    "option_c": "Tertiary Hyperparathyroidism",
+    "option_d": "Hypoparathyroidism",
+    "correct_answer": "B",
+    "explanation": "Secondary hyperparathyroidism in CKD is caused by phosphate retention and decreased 1,25-dihydroxyvitamin D, both of which stimulate the parathyroid glands."
+  },
+  {
+    "question": "A 52-year-old male presents with sudden severe epigastric pain radiating to the back. Serum lipase is 5 times the upper limit of normal. CT shows pancreatic edema. He does not drink alcohol. What is the most likely cause?",
+    "option_a": "Hypercalcemia",
+    "option_b": "Gallstones",
+    "option_c": "Hypertriglyceridemia",
+    "option_d": "Autoimmune pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Gallstones are the most common cause of non-alcoholic acute pancreatitis, often due to obstruction of the common biliopancreatic duct."
+  },
+  {
+    "question": "Which of the following is the hallmark finding on endoscopy for a patient with Crohn's Disease?",
+    "option_a": "Continuous mucosal inflammation starting from the rectum",
+    "option_b": "Skip lesions and cobblestoning",
+    "option_c": "Pseudopolyps only",
+    "option_d": "Loss of haustra (lead pipe sign)",
+    "correct_answer": "B",
+    "explanation": "Crohn's Disease is characterized by transmural, discontinuous 'skip lesions' and a mucosal appearance resembling cobblestones."
+  },
+  {
+    "question": "A 40-year-old female presents with anxiety, palpitations, and heat intolerance. TSH is suppressed (<0.01) and Free T4 is elevated. Radioactive iodine uptake shows diffuse, symmetric increased uptake. Diagnosis?",
+    "option_a": "Toxic Multinodular Goiter",
+    "option_b": "Graves' Disease",
+    "option_c": "Subacute Thyroiditis",
+    "option_d": "Hashimoto's Thyroiditis",
+    "correct_answer": "B",
+    "explanation": "Graves' Disease is an autoimmune condition caused by TSH-receptor antibodies, leading to diffuse glandular overactivity."
+  },
+  {
+    "question": "In a patient with suspected primary hyperaldosteronism (Conn's Syndrome), which of the following lab profiles is expected?",
+    "option_a": "Hypertension, Hyperkalemia, High Renin",
+    "option_b": "Hypertension, Hypokalemia, Low Renin",
+    "option_c": "Hypotension, Hyperkalemia, Low Renin",
+    "option_d": "Hypertension, Hypokalemia, High Renin",
+    "correct_answer": "B",
+    "explanation": "Autonomous aldosterone production leads to sodium retention (hypertension) and potassium wasting, which suppresses renin via negative feedback."
+  },
+  {
+    "question": "A patient with cirrhosis develops worsening confusion and a 'flapping' tremor of the hands (asterixis). What is the first-line pharmacological treatment?",
+    "option_a": "Spironolactone",
+    "option_b": "Lactulose",
+    "option_c": "Propranolol",
+    "option_d": "Furosemide",
+    "correct_answer": "B",
+    "explanation": "Lactulose is used to reduce ammonia levels by converting it to non-absorbable ammonium in the gut and increasing its excretion."
+  },
+  {
+    "question": "Which of the following is the most common cause of Nephrotic Syndrome in adults, particularly in those with a history of intravenous drug use or HIV?",
+    "option_a": "Minimal Change Disease",
+    "option_b": "Focal Segmental Glomerulosclerosis (FSGS)",
+    "option_c": "Membranous Nephropathy",
+    "option_d": "IgA Nephropathy",
+    "correct_answer": "B",
+    "explanation": "FSGS is a leading cause of nephrotic syndrome in adults and is strongly associated with HIV infection and heroin use."
+  },
+  {
+    "question": "A 35-year-old male with long-standing GERD undergoes endoscopy. Biopsy shows replacement of squamous epithelium with columnar epithelium and goblet cells. This is known as:",
+    "option_a": "Squamous Cell Carcinoma",
+    "option_b": "Barrett's Esophagus",
+    "option_c": "Esophageal Varices",
+    "option_d": "Achalasia",
+    "correct_answer": "B",
+    "explanation": "Barrett's Esophagus is an intestinal metaplasia caused by chronic acid exposure, significantly increasing the risk of adenocarcinoma."
+  },
+  {
+    "question": "A patient presents with acute kidney injury. Urinalysis shows 'muddy brown' granular casts. What is the most likely diagnosis?",
+    "option_a": "Acute Glomerulonephritis",
+    "option_b": "Acute Tubular Necrosis (ATN)",
+    "option_c": "Prerenal Azotemia",
+    "option_d": "Interstitial Nephritis",
+    "correct_answer": "B",
+    "explanation": "Muddy brown casts are pathognomonic for ATN, indicating necrotic tubular epithelial cells."
+  },
+  {
+    "question": "Which of the following describes the mechanism of Primary Biliary Cholangitis (PBC)?",
+    "option_a": "Viral destruction of hepatocytes",
+    "option_b": "Autoimmune destruction of small intrahepatic bile ducts",
+    "option_c": "Obstruction of the common bile duct by stones",
+    "option_d": "Obliteration of extrahepatic bile ducts",
+    "correct_answer": "B",
+    "explanation": "PBC is an autoimmune disease primarily affecting middle-aged women, characterized by positive anti-mitochondrial antibodies (AMA)."
+  },
+  {
+    "question": "A 70-year-old patient with Chronic Kidney Disease (eGFR 25) presents with profound weakness. ECG shows peaked T-waves and a widened QRS. What is the first-line treatment to stabilize the heart?",
+    "option_a": "Insulin and Glucose",
+    "option_b": "Calcium Gluconate",
+    "option_c": "Sodium Bicarbonate",
+    "option_d": "Hemodialysis",
+    "correct_answer": "B",
+    "explanation": "In severe hyperkalemia with ECG changes, IV Calcium is the most critical first step to stabilize the cardiac membrane and prevent arrhythmias."
+  },
+  {
+    "question": "A patient presents with recurrent, severe peptic ulcers and watery diarrhea. Gastrin levels are extremely high (>1000 pg/mL). Diagnosis?",
+    "option_a": "H. pylori infection",
+    "option_b": "Zollinger-Ellison Syndrome (Gastrinoma)",
+    "option_c": "Celiac Disease",
+    "option_d": "VIPoma",
+    "correct_answer": "B",
+    "explanation": "Gastrinomas (often in the pancreas) cause hypersecretion of gastric acid, leading to refractory ulcers."
+  },
+  {
+    "question": "Which of the following is a symptom of primary adrenal insufficiency (Addison's Disease) that distinguishes it from secondary adrenal insufficiency?",
+    "option_a": "Fatigue",
+    "option_b": "Hyperpigmentation of skin and mucous membranes",
+    "option_c": "Hypotension",
+    "option_d": "Weight loss",
+    "correct_answer": "B",
+    "explanation": "In primary disease, the lack of cortisol leads to high ACTH and POMC levels, which contain melanocyte-stimulating hormone (MSH) activity."
+  },
+  {
+    "question": "A 50-year-old male with a history of heavy alcohol use presents with hematemesis. Exam shows spider angiomata and caput medusae. What is the most likely source of bleeding?",
+    "option_a": "Mallory-Weiss tear",
+    "option_b": "Esophageal varices",
+    "option_c": "Peptic ulcer disease",
+    "option_d": "Gastric cancer",
+    "correct_answer": "B",
+    "explanation": "Variceal bleeding is a life-threatening complication of portal hypertension in cirrhotic patients."
+  },
+  {
+    "question": "What is the clinical triad for the diagnosis of Hemochromatosis?",
+    "option_a": "Jaundice, Ascites, Fever",
+    "option_b": "Diabetes Mellitus, Cirrhosis, and Bronze Skin Pigmentation",
+    "option_c": "Anemia, Renal failure, Bone pain",
+    "option_d": "Headache, Tachycardia, Sweating",
+    "correct_answer": "B",
+    "explanation": "Known as 'Bronze Diabetes', hemochromatosis is an iron-overload disorder."
+  },
+  {
+    "question": "Which electrolyte abnormality is most commonly associated with the Syndrome of Inappropriate ADH (SIADH)?",
+    "option_a": "Hypernatremia",
+    "option_b": "Hyponatremia (Euvolemic)",
+    "option_c": "Hypokalemia",
+    "option_d": "Hypercalcemia",
+    "correct_answer": "B",
+    "explanation": "SIADH causes excessive water reabsorption, leading to a dilutional, euvolemic hyponatremia."
+  },
+  {
+    "question": "A 40-year-old female presents with chronic fatigue and a painful, enlarged thyroid after a viral illness. Her ESR is high. Diagnosis?",
+    "option_a": "Hashimoto's Thyroiditis",
+    "option_b": "De Quervain's (Subacute) Thyroiditis",
+    "option_c": "Graves' Disease",
+    "option_d": "Riedel's Thyroiditis",
+    "correct_answer": "B",
+    "explanation": "Subacute thyroiditis is typically post-viral and is unique for causing a very tender/painful thyroid gland."
+  },
+  {
+    "question": "Which of the following is a classic finding in IgA Nephropathy (Berger's Disease)?",
+    "option_a": "Massive proteinuria 2 weeks after a sore throat",
+    "option_b": "Gross hematuria occurring concurrently with a respiratory infection",
+    "option_c": "Hemoptysis and hematuria",
+    "option_d": "Normal renal function with low C3 levels",
+    "correct_answer": "B",
+    "explanation": "IgA Nephropathy classically presents as 'synpharyngitic' hematuria, occurring 1-2 days after an upper respiratory infection."
+  },
+  {
+    "question": "A patient with cirrhosis presents with abdominal distension. Paracentesis shows a SAAG (Serum-Ascites Albumin Gradient) of 1.2 g/dL. This indicates:",
+    "option_a": "Malignancy",
+    "option_b": "Portal Hypertension",
+    "option_c": "Tuberculosis",
+    "option_d": "Nephrotic syndrome",
+    "correct_answer": "B",
+    "explanation": "A SAAG score of ≥ 1.1 g/dL is 97% predictive of portal hypertension as the cause of ascites."
+  },
+  {
+    "question": "Which of the following is the most sensitive marker for the diagnosis of Myxedema Coma?",
+    "option_a": "Free T4",
+    "option_b": "TSH",
+    "option_c": "Cortisol",
+    "option_d": "Antithyroid antibodies",
+    "correct_answer": "B",
+    "explanation": "In primary hypothyroidism leading to myxedema coma, the TSH will be severely elevated (secondary/tertiary causes will have low TSH)."
+  },
+  {
+    "question": "A patient presents with symptoms of hypoglycemia. Labs show low blood glucose, high insulin, and high C-peptide. Diagnosis?",
+    "option_a": "Exogenous insulin administration",
+    "option_b": "Insulinoma",
+    "option_c": "Sulfonylurea overdose",
+    "option_d": "Liver failure",
+    "correct_answer": "B",
+    "explanation": "An insulinoma is a tumor that secretes both insulin and its byproduct, C-peptide. Exogenous insulin lacks C-peptide."
+  },
+  {
+    "question": "What is the most common cause of Chronic Kidney Disease (CKD) in the Western world?",
+    "option_a": "Polycystic Kidney Disease",
+    "option_b": "Diabetes Mellitus",
+    "option_c": "Chronic Glomerulonephritis",
+    "option_d": "Chronic Pyelonephritis",
+    "correct_answer": "B",
+    "explanation": "Diabetic nephropathy is the leading cause of ESRD and CKD globally."
+  },
+  {
+    "question": "A patient with suspected primary hyperparathyroidism has an elevated calcium. Which other lab value would support the diagnosis?",
+    "option_a": "Elevated Phosphate",
+    "option_b": "Low Phosphate",
+    "option_c": "High Vitamin D",
+    "option_d": "Shortened QT interval only",
+    "correct_answer": "B",
+    "explanation": "PTH promotes calcium reabsorption but also increases phosphate excretion in the proximal tubule, leading to low serum phosphate."
+  },
+  {
+    "question": "A 30-year-old male presents with sudden onset of 'cola-colored' urine and hypertension two weeks after a skin infection. Diagnosis?",
+    "option_a": "IgA Nephropathy",
+    "option_b": "Post-Streptococcal Glomerulonephritis (PSGN)",
+    "option_c": "Minimal Change Disease",
+    "option_d": "Wegener's Granulomatosis",
+    "correct_answer": "B",
+    "explanation": "PSGN presents with nephritic syndrome approximately 10-21 days after a group A strep infection (throat or skin)."
+  },
+  {
+    "question": "In a patient with Acute Kidney Injury, a FeNa (Fractional Excretion of Sodium) < 1% suggests which etiology?",
+    "option_a": "Acute Tubular Necrosis",
+    "option_b": "Prerenal Azotemia",
+    "option_c": "Interstitial Nephritis",
+    "option_d": "Postrenal Obstruction",
+    "correct_answer": "B",
+    "explanation": "A low FeNa indicates that the tubules are still functional and attempting to conserve sodium, typical of renal hypoperfusion (prerenal)."
+  },
+  {
+    "question": "A 55-year-old male with long-standing Ulcerative Colitis is at significantly increased risk for which hepatobiliary disease?",
+    "option_a": "Primary Biliary Cholangitis",
+    "option_b": "Primary Sclerosing Cholangitis (PSC)",
+    "option_c": "Choledocholithiasis",
+    "option_d": "Hepatitis C",
+    "correct_answer": "B",
+    "explanation": "PSC is strongly associated with IBD, particularly Ulcerative Colitis, and is characterized by a 'beaded' appearance of bile ducts on imaging."
+  },
+  {
+    "question": "A patient with Type 1 Diabetes is brought to the ER confused and vomiting. Blood sugar is 450 mg/dL, pH is 7.2, and ketones are positive in the urine. What is the most appropriate initial fluid?",
+    "option_a": "D5W",
+    "option_b": "Normal Saline (0.9% NaCl)",
+    "option_c": "0.45% NaCl",
+    "option_d": "Lactated Ringer's",
+    "correct_answer": "B",
+    "explanation": "Immediate volume expansion with isotonic saline is the first priority in DKA management."
+  },
+  {
+    "question": "What is the clinical triad for the diagnosis of Whipple's Disease?",
+    "option_a": "Diarrhea, Dementia, Dermatitis",
+    "option_b": "Weight loss, Abdominal pain, and Migratory large joint polyarthritis",
+    "option_c": "Fever, Jaundice, RUQ pain",
+    "option_d": "Cough, Dyspnea, Hemoptysis",
+    "correct_answer": "B",
+    "explanation": "Whipple's Disease is a systemic infection (T. whipplei) often presenting with malabsorption and arthritis."
+  },
+  {
+    "question": "A 60-year-old female presents with severe diarrhea that is greasy and difficult to flush. She has a history of chronic pancreatitis. What is the cause?",
+    "option_a": "Bacterial overgrowth",
+    "option_b": "Exocrine pancreatic insufficiency (Steatorrhea)",
+    "option_c": "Lactose intolerance",
+    "option_d": "Celiac disease",
+    "correct_answer": "B",
+    "explanation": "Destruction of pancreatic acinar cells leads to a lack of lipase and other enzymes, causing malabsorption of fats."
+  },
+  {
+    "question": "Which of the following is the most appropriate screening test for Acromegaly?",
+    "option_a": "Random Growth Hormone (GH) level",
+    "option_b": "Insulin-like Growth Factor-1 (IGF-1) level",
+    "option_c": "Dexamethasone suppression test",
+    "option_d": "Thyroglobulin level",
+    "correct_answer": "B",
+    "explanation": "GH secretion is pulsatile, making random levels unreliable. IGF-1 levels are stable and reflect overall GH activity."
+  },
+  {
+    "question": "A patient presents with refractory hypertension and hypokalemia. Imaging shows a 2-cm mass on the right adrenal gland. Diagnosis?",
+    "option_a": "Pheochromocytoma",
+    "option_b": "Conn's Syndrome (Aldosteronoma)",
+    "option_c": "Cushing's Syndrome",
+    "option_d": "Addison's Disease",
+    "correct_answer": "B",
+    "explanation": "An adrenal adenoma secreting aldosterone is the classic cause of primary hyperaldosteronism."
+  },
+  {
+    "question": "What is the most sensitive test to distinguish between type 1 and type 2 diabetes in an adult presenting with hyperglycemia?",
+    "option_a": "Hemoglobin A1c",
+    "option_b": "C-peptide and Glutamic Acid Decarboxylase (GAD) antibodies",
+    "option_c": "Fasting insulin level",
+    "option_d": "Oral glucose tolerance test",
+    "correct_answer": "B",
+    "explanation": "Low C-peptide and positive autoantibodies point toward Type 1 (autoimmune) diabetes."
+  },
+  {
+    "question": "A patient with cirrhosis develops acute hematemesis. Which medication should be given to reduce portal pressure acutely?",
+    "option_a": "Lactulose",
+    "option_b": "Octreotide",
+    "option_c": "Vitamin K",
+    "option_d": "Spironolactone",
+    "correct_answer": "B",
+    "explanation": "Octreotide causes splanchnic vasoconstriction, which lowers portal venous pressure and helps control variceal bleeding."
+  },
+  {
+    "question": "A patient presents with generalized edema and proteinuria of 4.5 g/24h. Biopsy shows thickened basement membranes with subepithelial 'spikes'. Diagnosis?",
+    "option_a": "Minimal Change Disease",
+    "option_b": "Membranous Nephropathy",
+    "option_c": "FSGS",
+    "option_d": "Diabetic Nephropathy",
+    "correct_answer": "B",
+    "explanation": "Membranous nephropathy is a common cause of nephrotic syndrome in adults, characterized by these classic biopsy findings."
+  },
+  {
+    "question": "A 50-year-old male presents with episodes of facial flushing, wheezing, and diarrhea. Diagnosis?",
+    "option_a": "Pheochromocytoma",
+    "option_b": "Carcinoid Syndrome",
+    "option_c": "Zollinger-Ellison Syndrome",
+    "option_d": "VIPoma",
+    "correct_answer": "B",
+    "explanation": "Carcinoid syndrome results from the release of serotonin and other substances, usually from metastatic neuroendocrine tumors."
+  },
+  {
+    "question": "A patient with advanced CKD has a hemoglobin of 8.0 g/dL (normocytic). What is the primary cause?",
+    "option_a": "Iron deficiency",
+    "option_b": "Erythropoietin (EPO) deficiency",
+    "option_c": "Bone marrow suppression from urea",
+    "option_d": "Chronic blood loss during dialysis",
+    "correct_answer": "B",
+    "explanation": "The kidneys produce EPO; as they fail, production drops, leading to normocytic anemia of chronic kidney disease."
+  },
+  {
+    "question": "Which of the following is a symptom of Pheochromocytoma?",
+    "option_a": "Weight gain and bradycardia",
+    "option_b": "Paroxysmal headache, palpitations, and sweating",
+    "option_c": "Hypotension and diarrhea",
+    "option_d": "Polyuria and polydipsia",
+    "correct_answer": "B",
+    "explanation": "The classic triad of symptoms results from excess catecholamine release."
+  },
+  {
+    "question": "A 22-year-old female presents with chronic bloody diarrhea. Colonoscopy shows uniform mucosal inflammation limited to the colon. Diagnosis?",
+    "option_a": "Crohn's Disease",
+    "option_b": "Ulcerative Colitis",
+    "option_c": "Infectious Colitis",
+    "option_d": "Diverticulitis",
+    "correct_answer": "B",
+    "explanation": "Ulcerative colitis involves the mucosa only and always starts in the rectum, moving proximally in a continuous fashion."
+  },
+  {
+    "question": "A patient presents with massive hematuria and flank pain. Imaging shows multiple large cysts in both kidneys. What extra-renal complication is most concerning?",
+    "option_a": "Liver failure",
+    "option_b": "Berry aneurysm rupture",
+    "option_c": "Pulmonary fibrosis",
+    "option_d": "Pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) is associated with cerebral berry aneurysms, which can lead to subarachnoid hemorrhage."
+  },
+  {
+    "question": "Which of the following describes 'Courvoisier's sign'?",
+    "option_a": "Painful gallbladder in cholecystitis",
+    "option_b": "A palpable, non-tender gallbladder in a jaundiced patient",
+    "option_c": "Splenomegaly in portal hypertension",
+    "option_d": "Ascites in heart failure",
+    "correct_answer": "B",
+    "explanation": "This sign is highly suggestive of a malignant obstruction of the common bile duct, most often from pancreatic head cancer."
+  },
+  {
+    "question": "What is the gold standard for the diagnosis of H. pylori infection?",
+    "option_a": "Serology (Antibodies)",
+    "option_b": "Urea Breath Test",
+    "option_c": "Stool Antigen Test",
+    "option_d": "Endoscopic biopsy and Urease test (CLO test)",
+    "correct_answer": "D",
+    "explanation": "Direct visualization and biopsy during endoscopy provide the highest diagnostic certainty."
+  },
+  {
+    "question": "A patient with diabetes has a glucose of 850 mg/dL, pH of 7.4, and no ketones. What is the diagnosis?",
+    "option_a": "Diabetic Ketoacidosis",
+    "option_b": "Hyperosmolar Hyperglycemic State (HHS)",
+    "option_c": "Lactic Acidosis",
+    "option_d": "Primary Polydipsia",
+    "correct_answer": "B",
+    "explanation": "HHS typically occurs in Type 2 diabetics and is characterized by extreme hyperglycemia without ketoacidosis."
+  },
+  {
+    "question": "A 40-year-old male smoker with epigastric pain that improves with food and returns 2-3 hours later most likely has:",
+    "option_a": "Gastric ulcer",
+    "option_b": "Duodenal ulcer",
+    "option_c": "GERD",
+    "option_d": "Acute Pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Duodenal ulcers are classically relieved by eating, whereas gastric ulcers are often worsened by eating."
+  },
+  {
+    "question": "Which of the following is the hallmark of restrictive lung disease on spirometry?",
+    "option_a": "FEV1/FVC < 0.7",
+    "option_b": "Decreased Total Lung Capacity (TLC)",
+    "option_c": "Increased Residual Volume",
+    "option_d": "Increased FVC",
+    "correct_answer": "B",
+    "explanation": "Restrictive diseases (like fibrosis) are defined by reduced lung volumes, whereas obstructive diseases show reduced flow rates."
+  },
+  {
+    "question": "A patient with hyperthyroidism is given Propylthiouracil (PTU). What serious side effect should be monitored?",
+    "option_a": "Nephrotoxicity",
+    "option_b": "Hepatotoxicity",
+    "option_c": "Osteoporosis",
+    "option_d": "Hypertension",
+    "correct_answer": "B",
+    "explanation": "PTU carries a black box warning for severe liver injury and failure."
+  },
+  {
+    "question": "In a patient with SIADH, what is the expected urine osmolality?",
+    "option_a": "Very low (<100 mOsm/kg)",
+    "option_b": "Inappropriately high (concentrated) in the presence of low serum osmolality",
+    "option_c": "Same as serum osmolality",
+    "option_d": "Variable depending on thirst",
+    "correct_answer": "B",
+    "explanation": "SIADH causes the body to retain water, making the urine more concentrated than it should be given the dilute blood."
+  },
+  {
+    "question": "A patient with chronic alcoholism presents with macrocytic anemia and hypersegmented neutrophils. Which deficiency is most likely?",
+    "option_a": "Iron",
+    "option_b": "Folate",
+    "option_c": "Vitamin B6",
+    "option_d": "Copper",
+    "correct_answer": "B",
+    "explanation": "Alcoholics are at high risk for folate deficiency due to poor nutrition and interference with absorption."
+  }
+]
