@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://question-bank-import-1.preview.emergentagent.com |
-| Admin Panel | https://question-bank-import-1.preview.emergentagent.com/admin/progress |
-| API Docs | https://question-bank-import-1.preview.emergentagent.com/api/docs |
+| Frontend | https://mcq-database-tool.preview.emergentagent.com |
+| Admin Panel | https://mcq-database-tool.preview.emergentagent.com/admin/progress |
+| API Docs | https://mcq-database-tool.preview.emergentagent.com/api/docs |
 
 ---
 
