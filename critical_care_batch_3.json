@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 30-year-old male is brought to the trauma bay after a high-speed motor vehicle accident. He is hypotensive (BP 80/40) and tachycardic (HR 130). A FAST exam is positive for free fluid in the RUQ. What is the most appropriate next step in management?",
+    "option_a": "Immediate CT scan of the abdomen",
+    "option_b": "Immediate transfer to the Operating Room for exploratory laparotomy",
+    "option_c": "Start a maintenance infusion of D5W",
+    "option_d": "Perform a diagnostic peritoneal lavage (DPL)",
+    "correct_answer": "B",
+    "explanation": "A hemodynamically unstable patient with a positive FAST exam for hemoperitoneum requires immediate surgical intervention to control hemorrhage."
+  },
+  {
+    "question": "Which of the following is an absolute indication for starting 'Continuous Renal Replacement Therapy' (CRRT) in the ICU (mnemonic AEIOU)?",
+    "option_a": "Mild peripheral edema",
+    "option_b": "Refractory hyperkalemia (K+ > 6.5 mEq/L) or symptomatic uremia",
+    "option_c": "Normal creatinine with low urine output",
+    "option_d": "Mild metabolic alkalosis",
+    "correct_answer": "B",
+    "explanation": "Indications for urgent dialysis/CRRT include Acidosis, Electrolyte imbalances (especially K+), Ingestions (toxins), Overload (fluid), and Uremia."
+  },
+  {
+    "question": "A patient is diagnosed with 'Salicylate (Aspirin) Toxicity'. What is the primary goal of administering intravenous Sodium Bicarbonate?",
+    "option_a": "To treat metabolic alkalosis",
+    "option_b": "To promote 'Urinary Alkalinization' and enhance salicylate excretion",
+    "option_c": "To stop the patient from breathing too fast",
+    "option_d": "To increase the heart rate",
+    "correct_answer": "B",
+    "explanation": "Alkalinizing the urine (pH 7.5-8.5) traps salicylate in its ionized form, preventing reabsorption and facilitating its clearance by the kidneys."
+  },
+  {
+    "question": "Which type of 'Extracorporeal Membrane Oxygenation' (ECMO) provides both respiratory and circulatory support?",
+    "option_a": "Veno-Venous (V-V) ECMO",
+    "option_b": "Veno-Arterial (V-A) ECMO",
+    "option_c": "Only CPAP",
+    "option_d": "Dialysis",
+    "correct_answer": "B",
+    "explanation": "V-A ECMO bypasses both the heart and lungs, providing hemodynamic support in cases of cardiogenic shock or cardiac arrest."
+  },
+  {
+    "question": "In the management of 'Severe Traumatic Brain Injury', which of the following describes the 'Monroe-Kellie Doctrine'?",
+    "option_a": "Blood pressure is always high",
+    "option_b": "The total volume of the intracranial contents (brain, blood, CSF) must remain constant; an increase in one requires a decrease in others to prevent high ICP",
+    "option_c": "The heart stops if the brain is hurt",
+    "option_d": "Oxygen is not needed for the brain",
+    "correct_answer": "B",
+    "explanation": "Because the skull is rigid, any new mass (like a hematoma) or edema will rapidly increase ICP unless CSF or venous blood is displaced."
+  },
+  {
+    "question": "A patient with 'Septic Shock' is receiving high doses of Norepinephrine. You notice that the 'Pulse Pressure Variation' (PPV) is 15%. What does this suggest?",
+    "option_a": "The patient is volume-overloaded",
+    "option_b": "The patient is likely to be 'Fluid Responsive' and may benefit from more volume",
+    "option_c": "The patient has a heart attack",
+    "option_d": "The monitor is broken",
+    "correct_answer": "B",
+    "explanation": "A PPV > 12-13% in a mechanically ventilated patient is a dynamic indicator that the heart is sensitive to preload and stroke volume will increase with a fluid bolus."
+  },
+  {
+    "question": "Which of the following is the 'first-line' treatment for a 'Tricyclic Antidepressant' (TCA) overdose causing QRS widening?",
+    "option_a": "Naloxone",
+    "option_b": "Sodium Bicarbonate (IV boluses)",
+    "option_c": "Atropine",
+    "option_d": "Activated charcoal only",
+    "correct_answer": "B",
+    "explanation": "Sodium Bicarbonate increases the extracellular sodium concentration and pH, which helps alleviate the sodium-channel blockade caused by TCAs."
+  },
+  {
+    "question": "What is the primary management for 'Beta-Blocker Toxicity' when fluids and atropine fail?",
+    "option_a": "Epinephrine only",
+    "option_b": "High-dose Insulin Euglycemic Therapy (HIET) and Glucagon",
+    "option_c": "Aspirin",
+    "option_d": "Hemodialysis",
+    "correct_answer": "B",
+    "explanation": "HIET improves myocardial metabolic efficiency and contractility, while glucagon bypasses beta-receptors to increase cAMP."
+  },
+  {
+    "question": "In 'Advance Cardiac Life Support' (ACLS), which rhythm is considered 'Shockable'?",
+    "option_a": "Asystole",
+    "option_b": "Pulseless Ventricular Tachycardia (pVT) and Ventricular Fibrillation (VF)",
+    "option_c": "Pulseless Electrical Activity (PEA)",
+    "option_d": "Normal Sinus Rhythm",
+    "correct_answer": "B",
+    "explanation": "VF and pVT require immediate defibrillation to restore a functional rhythm."
+  },
+  {
+    "question": "A patient in the ICU has a serum Sodium of 115 mEq/L. What is the greatest risk of correcting this 'too rapidly'?",
+    "option_a": "Cerebral edema",
+    "option_b": "Osmotic Demyelination Syndrome (Central Pontine Myelinolysis)",
+    "option_c": "Seizures",
+    "option_d": "Acute Kidney Injury",
+    "correct_answer": "B",
+    "explanation": "Rapid rise in sodium causes water to leave brain cells, leading to irreversible damage to the myelin sheath, especially in the pons."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Serotonin Syndrome' that differentiates it from 'NMS'?",
+    "option_a": "Fever",
+    "option_b": "Hyperreflexia and Myoclonus",
+    "option_c": "Muscle rigidity",
+    "option_d": "High blood pressure",
+    "correct_answer": "B",
+    "explanation": "While both have fever and autonomic instability, Serotonin Syndrome features 'hyper' neuromuscular activity (clonus), whereas NMS features 'lead-pipe' rigidity."
+  },
+  {
+    "question": "What is the 'target' Cerebral Perfusion Pressure (CPP) for most patients with a head injury?",
+    "option_a": "40 - 50 mmHg",
+    "option_b": "60 - 70 mmHg",
+    "option_c": "90 - 100 mmHg",
+    "option_d": "As high as possible",
+    "correct_answer": "B",
+    "explanation": "CPP (MAP - ICP) needs to be maintained in this range to ensure adequate brain oxygenation while avoiding excessive pressure that can worsen edema."
+  },
+  {
+    "question": "A patient with 'Acetaminophen' (Paracetamol) overdose should be treated with N-acetylcysteine (NAC) based on which tool?",
+    "option_a": "Winter's formula",
+    "option_b": "Rumack-Matthew Nomogram",
+    "option_c": "GCS scale",
+    "option_d": "SOFA score",
+    "correct_answer": "B",
+    "explanation": "The nomogram uses the serum concentration and the time since ingestion to determine the risk of hepatotoxicity and the need for treatment."
+  },
+  {
+    "question": "Which of the following describes 'Distributive Shock'?",
+    "option_a": "Blood loss",
+    "option_b": "Pathological vasodilation leading to low SVR and relative hypovolemia",
+    "option_c": "Heart failure",
+    "option_d": "Blocked artery",
+    "correct_answer": "B",
+    "explanation": "Septic, Anaphylactic, and Neurogenic shocks are all types of distributive shock where the problem is 'container' size rather than 'content'."
+  },
+  {
+    "question": "What is the clinical use of 'Neuromuscular Blocking Agents' (like Cisatracurium) in severe ARDS?",
+    "option_a": "To treat pain",
+    "option_b": "To ensure 'Ventilator-Patient Synchrony' and reduce oxygen consumption",
+    "option_c": "To treat infection",
+    "option_d": "To wake the patient up",
+    "correct_answer": "B",
+    "explanation": "Paralysis can prevent patient-triggered breaths that may damage the lungs ('double-triggering') and improve gas exchange in severe refractory cases."
+  },
+  {
+    "question": "A patient has a large 'Flail Chest' segment after trauma. What is the hallmark clinical finding?",
+    "option_a": "Wheezing",
+    "option_b": "Paradoxical chest wall movement (moves in during inspiration, out during expiration)",
+    "option_c": "High blood pressure",
+    "option_d": "Absence of pain",
+    "correct_answer": "B",
+    "explanation": "Multiple rib fractures in two or more places create a floating segment that moves opposite to the rest of the thoracic cage."
+  },
+  {
+    "question": "What is the specific antidote for 'Digoxin' toxicity?",
+    "option_a": "Atropine only",
+    "option_b": "Digoxin-Specific Antibody Fragments (DigiFab)",
+    "option_c": "Calcium Chloride",
+    "option_d": "Naloxone",
+    "correct_answer": "B",
+    "explanation": "DigiFab binds free digoxin in the blood, reversing cardiac arrhythmias and life-threatening hyperkalemia associated with toxicity."
+  },
+  {
+    "question": "Which of the following is true for 'Lactate Clearance' in sepsis?",
+    "option_a": "It means the kidneys are failing",
+    "option_b": "A decrease of >10% in lactate within the first few hours is associated with improved survival",
+    "option_c": "Lactate should never be measured twice",
+    "option_d": "Clearance is only possible with dialysis",
+    "correct_answer": "B",
+    "explanation": "Serial lactate monitoring is a powerful tool to assess the response to resuscitation."
+  },
+  {
+    "question": "Which 'Electrolyte' must be corrected before 'Potassium' can be successfully replaced in a patient with refractory hypokalemia?",
+    "option_a": "Sodium",
+    "option_b": "Magnesium",
+    "option_c": "Chloride",
+    "option_d": "Calcium",
+    "correct_answer": "B",
+    "explanation": "Magnesium is a co-factor for the K+ channels in the kidney; without it, the kidneys will continue to 'leak' potassium regardless of the dose given."
+  },
+  {
+    "question": "A patient presents with 'muffled heart sounds', 'JVD', and 'hypotension'. On ultrasound, the heart is 'swinging' in fluid. Diagnosis?",
+    "option_a": "Pneumonia",
+    "option_b": "Cardiac Tamponade",
+    "option_c": "Myocardial Infarction",
+    "option_d": "Pulmonary Embolism",
+    "correct_answer": "B",
+    "explanation": "This obstructive shock requires urgent pericardiocentesis to relieve the pressure on the heart chambers."
+  },
+  {
+    "question": "Which of the following is an 'Early' sign of 'Malignant Hyperthermia' during anesthesia?",
+    "option_a": "High fever",
+    "option_b": "Abrupt rise in End-Tidal CO2 (ETCO2) and masseter muscle rigidity",
+    "option_c": "Low blood pressure",
+    "option_d": "Rash",
+    "correct_answer": "B",
+    "explanation": "Hypermetabolism leads to rapid CO2 production before the core temperature significantly rises."
+  },
+  {
+    "question": "What is the primary treatment for 'Malignant Hyperthermia'?",
+    "option_a": "Ice packs only",
+    "option_b": "Dantrolene Sodium",
+    "option_c": "Aspirin",
+    "option_d": "Penicillin",
+    "correct_answer": "B",
+    "explanation": "Dantrolene inhibits the release of calcium from the sarcoplasmic reticulum, stopping the muscle hypermetabolism."
+  },
+  {
+    "question": "Which of the following describes 'Secondary Survey' in trauma?",
+    "option_a": "Checking for ABCs",
+    "option_b": "A thorough head-to-toe examination performed only AFTER the patient is stabilized",
+    "option_c": "Taking the patient to the morgue",
+    "option_d": "Checking only the blood pressure",
+    "correct_answer": "B",
+    "explanation": "The secondary survey aims to identify all 'non-lethal' but significant injuries once life-threats are managed."
+  },
+  {
+    "question": "What is the risk of giving '100% Oxygen' to a patient with 'COPD' and chronic hypercapnia?",
+    "option_a": "They will get too much energy",
+    "option_b": "Loss of the hypoxic respiratory drive, leading to worsening hypercapnia and narcosis",
+    "option_c": "Stroke",
+    "option_d": "Kidney failure",
+    "correct_answer": "B",
+    "explanation": "Over-oxygenating these patients can blunt their drive to breathe and worsen V/Q mismatch, causing dangerous rises in CO2."
+  },
+  {
+    "question": "Which of the following is true for 'Central Venous Saturation' (ScvO2)?",
+    "option_a": "A low ScvO2 (<70%) indicates that oxygen delivery is not meeting tissue demand",
+    "option_b": "It is measured in the finger",
+    "option_c": "It is only high in healthy people",
+    "option_d": "It is always 100%",
+    "correct_answer": "A",
+    "explanation": "ScvO2 is a surrogate for the adequacy of global oxygen delivery (DO2)."
+  },
+  {
+    "question": "A patient with 'massive' pulmonary embolism is in shock. What is the most appropriate definitive management?",
+    "option_a": "Aspirin",
+    "option_b": "Thrombolysis (e.g., tPA) or Surgical Embolectomy",
+    "option_c": "Subcutaneous heparin",
+    "option_d": "Compression stockings",
+    "correct_answer": "B",
+    "explanation": "Systemic thrombolysis is indicated in 'massive' PE (hemodynamic instability) to rapidly dissolve the clot and restore RV function."
+  },
+  {
+    "question": "Which of the following findings on an 'ABG' is consistent with 'Compensation' for Chronic Respiratory Acidosis?",
+    "option_a": "Low bicarbonate",
+    "option_b": "Elevated bicarbonate (HCO3-)",
+    "option_c": "Normal pH",
+    "option_d": "Low CO2",
+    "correct_answer": "B",
+    "explanation": "The kidneys retain bicarbonate over 3-5 days to buffer the high CO2 levels in chronic lung disease."
+  },
+  {
+    "question": "What does 'Shock Index' (Heart Rate / Systolic BP) indicate?",
+    "option_a": "Blood sugar",
+    "option_b": "Early predictor of hemorrhage or occult shock (Normal < 0.7)",
+    "option_c": "Risk of infection",
+    "option_d": "Depth of coma",
+    "correct_answer": "B",
+    "explanation": "A SI > 0.9 is associated with increased transfusion requirements and mortality in trauma."
+  },
+  {
+    "question": "Which of the following is a classic clinical sign of 'Organophosphate Poisoning' (mnemonic DUMBELS)?",
+    "option_a": "Dry mouth and constipation",
+    "option_b": "Diarrhea, Urination, Miosis, Bradycardia, Emesis, Lacrimation, Salivation",
+    "option_c": "Tachycardia and hypertension",
+    "option_d": "Extreme thirst",
+    "correct_answer": "B",
+    "explanation": "Excessive acetylcholine due to cholinesterase inhibition leads to a cholinergic crisis."
+  },
+  {
+    "question": "What is the specific antidote for 'Organophosphate' poisoning to treat the bradycardia and secretions?",
+    "option_a": "Atropine",
+    "option_b": "Pralidoxime (2-PAM)",
+    "option_c": "Both Atropine and Pralidoxime",
+    "option_d": "Naloxone",
+    "correct_answer": "C",
+    "explanation": "Atropine treats the symptoms (muscarinic), while Pralidoxime helps 'reactivate' the enzyme (nicotinic effects)."
+  },
+  {
+    "question": "Which of the following is true regarding 'Enteral Nutrition' in the ICU?",
+    "option_a": "It should be avoided at all costs",
+    "option_b": "It is preferred over Parenteral Nutrition (TPN) as it maintains gut integrity and reduces infection risk",
+    "option_c": "It is only for patients who can walk",
+    "option_d": "It causes immediate heart failure",
+    "correct_answer": "B",
+    "explanation": "Early enteral feeding (within 24-48 hours) is the standard of care for critically ill patients."
+  },
+  {
+    "question": "A patient has a 'tension pneumothorax' and a 'needle decompression' is performed. Where is the correct landmark (modern guidelines)?",
+    "option_a": "5th Intercostal space, anterior axillary line",
+    "option_b": "2nd Intercostal space, mid-clavicular line (or 5th space AAL)",
+    "option_c": "In the neck",
+    "option_d": "In the abdomen",
+    "correct_answer": "B",
+    "explanation": "Both are acceptable, but the 4th/5th space is increasingly preferred to ensure the needle reaches the pleural space through a thinner wall."
+  },
+  {
+    "question": "What is the mechanism of action of 'Vasopressin' in septic shock?",
+    "option_a": "Beta-1 receptor stimulation",
+    "option_b": "V1 receptor stimulation causing peripheral vasoconstriction",
+    "option_c": "Alpha-1 blockade",
+    "option_d": "Increasing urine output",
+    "correct_answer": "B",
+    "explanation": "Vasopressin is often added to Norepinephrine as a 'sparing agent' to maintain BP in refractory shock."
+  },
+  {
+    "question": "Which of the following describes 'Neurogenic Shock' hemodynamics?",
+    "option_a": "High CO and high SVR",
+    "option_b": "Low BP and Low HR (relative bradycardia)",
+    "option_c": "High BP and low HR",
+    "option_d": "Normal vitals",
+    "correct_answer": "B",
+    "explanation": "The loss of sympathetic input to the heart and vessels prevents the expected tachycardia despite hypotension."
+  },
+  {
+    "question": "In 'Cyanide poisoning', what is the color of the blood in the veins typically?",
+    "option_a": "Dark blue",
+    "option_b": "Bright red (Arterialized)",
+    "option_c": "Black",
+    "option_d": "Yellow",
+    "correct_answer": "B",
+    "explanation": "Cyanide inhibits mitochondrial oxygen use; the oxygen stays in the blood, making venous blood look bright red like arterial blood."
+  },
+  {
+    "question": "Which of the following is true for 'Thoracic Aortic Dissection'?",
+    "option_a": "It causes painless weight loss",
+    "option_b": "It presents with 'tearing' chest pain radiating to the back and a pulse deficit",
+    "option_c": "It is treated with high-dose steroids",
+    "option_d": "It only occurs in children",
+    "correct_answer": "B",
+    "explanation": "A sudden, severe pain and difference in BP between arms are major clinical clues."
+  },
+  {
+    "question": "What is the primary medication used to treat 'Hypercalcemia' in the ICU?",
+    "option_a": "Calcium gluconate",
+    "option_b": "Aggressive fluid resuscitation with Normal Saline and Bisphosphonates",
+    "option_c": "Vitamin D",
+    "option_d": "Potassium",
+    "correct_answer": "B",
+    "explanation": "Fluids promote urinary calcium excretion, and bisphosphonates (like Zoledronic acid) inhibit bone resorption."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Hypocalcemia'?",
+    "option_a": "Muscle weakness",
+    "option_b": "Chvostek sign (facial twitching) and Trousseau sign (carpal spasm)",
+    "option_c": "Extreme happiness",
+    "option_d": "High blood sugar",
+    "correct_answer": "B",
+    "explanation": "Low calcium increases neuromuscular excitability."
+  },
+  {
+    "question": "In a 'Ventilator Bundle', what is the purpose of 'Daily Sedation Interruption' (Sedation Vacation)?",
+    "option_a": "To wake the patient up for breakfast",
+    "option_b": "To assess neurological status and reduce the duration of mechanical ventilation",
+    "option_c": "To save money on drugs",
+    "option_d": "To increase the heart rate",
+    "correct_answer": "B",
+    "explanation": "Regularly stopping sedation helps identify if a patient is ready for weaning and prevents drug accumulation."
+  },
+  {
+    "question": "What is the treatment for 'Ethylene Glycol' (Antifreeze) poisoning?",
+    "option_a": "Atropine",
+    "option_b": "Fomepizole or Ethanol and potentially dialysis",
+    "option_c": "Naloxone",
+    "option_d": "Vitamin C",
+    "correct_answer": "B",
+    "explanation": "Fomepizole inhibits alcohol dehydrogenase, preventing the formation of toxic metabolites (glycolic/oxalic acid)."
+  },
+  {
+    "question": "Which of the following describes 'Anion Gap' calculation?",
+    "option_a": "Na - (Cl + HCO3)",
+    "option_b": "K + Na",
+    "option_c": "Glucose / Urea",
+    "option_d": "Height x Weight",
+    "correct_answer": "A",
+    "explanation": "This determines if there is an excess of unmeasured anions in the blood."
+  },
+  {
+    "question": "Which of the following is a classic symptom of 'Carbon Monoxide' poisoning?",
+    "option_a": "Blue skin (cyanosis)",
+    "option_b": "Headache, dizziness, and 'cherry-red' skin appearance",
+    "option_c": "High fever",
+    "option_d": "Severe thirst",
+    "correct_answer": "B",
+    "explanation": "CO binds to hemoglobin with much higher affinity than oxygen, leading to tissue hypoxia."
+  },
+  {
+    "question": "What is the primary treatment for 'Carbon Monoxide' poisoning?",
+    "option_a": "Aspirin",
+    "option_b": "100% Oxygen (Hyperbaric oxygen if severe)",
+    "option_c": "Antibiotics",
+    "option_d": "Wait and watch",
+    "correct_answer": "B",
+    "explanation": "High concentrations of oxygen compete with CO for the hemoglobin binding sites."
+  },
+  {
+    "question": "Which of the following is true for 'Vasoactive' drugs during CPR?",
+    "option_a": "They should never be used",
+    "option_b": "Epinephrine (1 mg every 3-5 min) is given to improve coronary and cerebral perfusion",
+    "option_c": "Only Aspirin is given",
+    "option_d": "They are given only if the patient is awake",
+    "correct_answer": "B",
+    "explanation": "Epinephrine is the cornerstone of ACLS for all arrest rhythms."
+  },
+  {
+    "question": "A patient with 'Acute Pancreatitis' is at high risk for which respiratory complication?",
+    "option_a": "Asthma",
+    "option_b": "ARDS (due to systemic release of inflammatory enzymes)",
+    "option_c": "Flu",
+    "option_d": "Lung cancer",
+    "correct_answer": "B",
+    "explanation": "Systemic inflammation in pancreatitis often leads to lung injury."
+  },
+  {
+    "question": "What is the medication of choice for 'Severe Agitation' in the ICU that is not responding to non-pharmacological measures?",
+    "option_a": "Benzodiazepines (if not alcohol withdrawal)",
+    "option_b": "Dexmedetomidine or Atypical Antipsychotics",
+    "option_c": "Morphine only",
+    "option_d": "Dopamine",
+    "correct_answer": "B",
+    "explanation": "Benzodiazepines often worsen delirium in the elderly; newer agents are preferred."
+  },
+  {
+    "question": "Which of the following is true regarding 'Transfusion Reactions'?",
+    "option_a": "They always happen 2 days later",
+    "option_b": "Acute Hemolytic Reaction (ABO incompatibility) is a medical emergency presenting with fever, flank pain, and shock",
+    "option_c": "They are always mild",
+    "option_d": "No treatment is ever needed",
+    "correct_answer": "B",
+    "explanation": "ABO incompatibility leads to rapid complement-mediated lysis of donor RBCs."
+  },
+  {
+    "question": "In 'Refeeding Syndrome', which electrolyte 'drops' fastest besides Phosphorus?",
+    "option_a": "Sodium",
+    "option_b": "Potassium and Magnesium",
+    "option_c": "Chloride",
+    "option_d": "Calcium only",
+    "correct_answer": "B",
+    "explanation": "The shift from catabolism to anabolism draws multiple electrolytes into the cells."
+  },
+  {
+    "question": "What is the primary clinical indicator for 'Extubation' readiness?",
+    "option_a": "The patient is sleeping",
+    "option_b": "A successful Spontaneous Breathing Trial (SBT) and adequate mental status/gag reflex",
+    "option_c": "Normal blood pressure",
+    "option_d": "The family wants the tube out",
+    "correct_answer": "B",
+    "explanation": "Objective data from an SBT is the best predictor of extubation success."
+  },
+  {
+    "question": "Which of the following describes 'Cushing's Reflex' in increased ICP?",
+    "option_a": "Hypotension and tachycardia",
+    "option_b": "Hypertension, Bradycardia, and Irregular respirations",
+    "option_c": "High fever",
+    "option_d": "Diarrhea",
+    "correct_answer": "B",
+    "explanation": "This physiological response is an attempt to maintain cerebral perfusion against high intracranial pressure."
+  }
+]
