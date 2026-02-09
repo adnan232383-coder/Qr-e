@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A screening program for lung cancer identifies tumors earlier than symptoms would have, but the actual date of death for these patients remains unchanged. The apparent increase in survival time is an example of:",
+    "option_a": "Length-time bias",
+    "option_b": "Lead-time bias",
+    "option_c": "Selection bias",
+    "option_d": "Recall bias",
+    "correct_answer": "B",
+    "explanation": "Lead-time bias occurs when early detection is mistaken for increased survival, even though the natural history of the disease is not altered."
+  },
+  {
+    "question": "A study finds that a new screening test for prostate cancer disproportionately identifies slow-growing, indolent tumors while missing fast-growing ones. This results in an overestimation of the test's benefit, known as:",
+    "option_a": "Lead-time bias",
+    "option_b": "Length-time bias",
+    "option_c": "Observer bias",
+    "option_d": "Late-look bias",
+    "correct_answer": "B",
+    "explanation": "Length-time bias happens because screening is more likely to detect slow-progressing cases with a long asymptomatic period than rapidly progressing cases."
+  },
+  {
+    "question": "In a Case-control study of a disease with a very low prevalence, which measure of association is the most appropriate to report?",
+    "option_a": "Relative Risk (RR)",
+    "option_b": "Odds Ratio (OR)",
+    "option_c": "Attributable Risk",
+    "option_d": "Absolute Risk Reduction",
+    "correct_answer": "B",
+    "explanation": "Odds Ratios are used in case-control studies because the incidence (and thus RR) cannot be directly calculated since the number of people at risk is unknown."
+  },
+  {
+    "question": "Which of the following describes a 'Composite Endpoint' in a clinical trial?",
+    "option_a": "An endpoint that only measures mortality",
+    "option_b": "A single outcome measure that combines multiple clinical events (e.g., stroke, MI, and death)",
+    "option_c": "An endpoint measured at multiple points in time",
+    "option_d": "An endpoint that is only used in Phase I trials",
+    "correct_answer": "B",
+    "explanation": "Composite endpoints increase the power of a study by capturing more events, but they can be misleading if the components differ greatly in clinical importance."
+  },
+  {
+    "question": "If a study has a Power of 0.80 (80%), what is the probability of committing a Type II (Beta) error?",
+    "option_a": "80%",
+    "option_b": "20%",
+    "option_c": "5%",
+    "option_d": "0%",
+    "correct_answer": "B",
+    "explanation": "Power = 1 - Beta. Therefore, if Power is 80%, the Beta (Type II error) probability is 20%."
+  },
+  {
+    "question": "A clinical trial compares two antihypertensive drugs. Drug A reduces the risk of stroke from 4% to 2%. What is the Relative Risk Reduction (RRR)?",
+    "option_a": "2%",
+    "option_b": "50%",
+    "option_c": "100%",
+    "option_d": "0.5%",
+    "correct_answer": "B",
+    "explanation": "RRR = (Control Risk - Treatment Risk) / Control Risk. (0.04 - 0.02) / 0.04 = 0.5 or 50%."
+  },
+  {
+    "question": "Using the data from the previous question (Control Risk 4%, Treatment Risk 2%), what is the Absolute Risk Reduction (ARR)?",
+    "option_a": "2%",
+    "option_b": "50%",
+    "option_c": "0.02%",
+    "option_d": "8%",
+    "correct_answer": "A",
+    "explanation": "ARR = Control Risk - Treatment Risk. 0.04 - 0.02 = 0.02 or 2%."
+  },
+  {
+    "question": "In a normal (Gaussian) distribution, approximately what percentage of data points fall within two standard deviations of the mean?",
+    "option_a": "68%",
+    "option_b": "95%",
+    "option_c": "99.7%",
+    "option_d": "50%",
+    "correct_answer": "B",
+    "explanation": "In a normal distribution, 68% falls within 1 SD, 95% within 2 SD, and 99.7% within 3 SD."
+  },
+  {
+    "question": "Which of the following is true about a 'Non-inferiority' trial?",
+    "option_a": "It aims to prove that a new drug is significantly better than the standard care",
+    "option_b": "It aims to prove that a new drug is not significantly worse than the standard care by more than a pre-specified margin",
+    "option_c": "It is only used when no placebo is available",
+    "option_d": "It requires a smaller sample size than a superiority trial",
+    "correct_answer": "B",
+    "explanation": "Non-inferiority trials are often used when a new treatment might have other advantages (like fewer side effects or lower cost) but isn't expected to be more effective than existing ones."
+  },
+  {
+    "question": "What does a 'Likelihood Ratio for a Negative test' (LR-) of 0.1 indicate?",
+    "option_a": "A positive result strongly rules in the disease",
+    "option_b": "A negative result significantly decreases the probability of the disease",
+    "option_c": "The test is useless",
+    "option_d": "The test has 100% sensitivity",
+    "correct_answer": "B",
+    "explanation": "An LR- closer to 0 is better. An LR- of 0.1 means the post-test probability is much lower, effectively ruling out the disease."
+  },
+  {
+    "question": "What is the primary purpose of a 'Post-hoc' analysis?",
+    "option_a": "To plan the study design before data collection",
+    "option_b": "To look for patterns or differences in the data that were not pre-specified in the original protocol",
+    "option_c": "To ensure double-blinding",
+    "option_d": "To calculate the final p-value of the primary endpoint",
+    "correct_answer": "B",
+    "explanation": "Post-hoc analyses are 'hypothesis-generating' and should be interpreted with caution because they increase the risk of finding false positive results (Type I error)."
+  },
+  {
+    "question": "A study concludes that a new drug is effective (p=0.03), but later it is found that the drug actually has no effect. This is an example of:",
+    "option_a": "Type I error",
+    "option_b": "Type II error",
+    "option_c": "Confounding",
+    "option_d": "High power",
+    "correct_answer": "A",
+    "explanation": "Type I error is the rejection of a true null hypothesis (a 'false alarm')."
+  },
+  {
+    "question": "Which of the following factors increases the 'Power' of a study?",
+    "option_a": "Decreasing the sample size",
+    "option_b": "Increasing the sample size",
+    "option_c": "Increasing the probability of a Type I error",
+    "option_d": "Decreasing the alpha level",
+    "correct_answer": "B",
+    "explanation": "A larger sample size reduces the standard error and increases the likelihood of detecting a real effect if it exists."
+  },
+  {
+    "question": "In EBM, what is 'Critical Appraisal'?",
+    "option_a": "Summarizing the author's biography",
+    "option_b": "Systematically evaluating research for its validity, results, and relevance to clinical practice",
+    "option_c": "Memorizing the p-values of major trials",
+    "option_d": "Refusing to use any new medical technology",
+    "correct_answer": "B",
+    "explanation": "Critical appraisal helps clinicians decide which evidence is trustworthy and applicable to their patients."
+  },
+  {
+    "question": "A researcher is studying the effect of a new educational program on hospital hygiene. The staff knows they are being observed and therefore wash their hands more often than usual. This is called:",
+    "option_a": "Recall bias",
+    "option_b": "Hawthorne effect",
+    "option_c": "Lead-time bias",
+    "option_d": "Observer bias",
+    "correct_answer": "B",
+    "explanation": "The Hawthorne effect occurs when individuals modify their behavior because they are aware they are being watched."
+  },
+  {
+    "question": "Which of the following is a measure of 'Precision' for a point estimate in a study?",
+    "option_a": "The mean",
+    "option_b": "The p-value",
+    "option_c": "The Confidence Interval (CI)",
+    "option_d": "The sample size",
+    "correct_answer": "C",
+    "explanation": "A narrower CI indicates a more precise estimate of the true population value."
+  },
+  {
+    "question": "What is 'Detection Bias'?",
+    "option_a": "When patients drop out of a study",
+    "option_b": "When outcomes are assessed differently between the treatment and control groups",
+    "option_c": "When the researcher chooses their favorite patients for the study",
+    "option_d": "When a test is too sensitive",
+    "correct_answer": "B",
+    "explanation": "Detection bias (or ascertainment bias) is minimized by blinding the investigators who are measuring the outcomes."
+  },
+  {
+    "question": "Which study design is considered 'retrospective' by definition?",
+    "option_a": "RCT",
+    "option_b": "Prospective Cohort study",
+    "option_c": "Case-control study",
+    "option_d": "Cross-sectional study",
+    "correct_answer": "C",
+    "explanation": "Case-control studies start with the outcome (disease) and look back in time to identify previous exposures."
+  },
+  {
+    "question": "What is the 'Null Hypothesis' (H0)?",
+    "option_a": "The hypothesis that there is no difference between the groups being compared",
+    "option_b": "The hypothesis that the researcher is correct",
+    "option_c": "The hypothesis that the new drug is dangerous",
+    "option_d": "The hypothesis used for qualitative research",
+    "correct_answer": "A",
+    "explanation": "Statistical tests are designed to determine if there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis."
+  },
+  {
+    "question": "If the p-value of a study is 0.01, it means:",
+    "option_a": "There is a 1% chance the result is true",
+    "option_b": "There is a 1% probability that the observed result (or more extreme) would occur if the null hypothesis were true",
+    "option_c": "The drug is 99% effective",
+    "option_d": "The study has 1% bias",
+    "correct_answer": "B",
+    "explanation": "The p-value measures the strength of evidence against the null hypothesis."
+  },
+  {
+    "question": "Which of the following is true regarding a 95% Confidence Interval for a Mean that includes the value zero?",
+    "option_a": "The result is statistically significant",
+    "option_b": "The result is NOT statistically significant",
+    "option_c": "The mean must be zero",
+    "option_d": "The study is invalid",
+    "correct_answer": "B",
+    "explanation": "When comparing means (differences), if the interval contains 0, it means we cannot rule out that there is no difference between the groups."
+  },
+  {
+    "question": "What is 'Allocation Concealment'?",
+    "option_a": "Hiding the results of the study from the public",
+    "option_b": "Preventing investigators from knowing which treatment a participant will receive before they are enrolled in the study",
+    "option_c": "Using a placebo",
+    "option_d": "Only allowing certain doctors to see the data",
+    "correct_answer": "B",
+    "explanation": "Allocation concealment prevents selection bias by ensuring that enrollment is not influenced by knowing the upcoming treatment assignment."
+  },
+  {
+    "question": "Which of the following defines 'Measurement Bias'?",
+    "option_a": "Using a sample that is too small",
+    "option_b": "Information is gathered in an inaccurate or inconsistent manner",
+    "option_c": "When researchers publish only good results",
+    "option_d": "Losing track of patients",
+    "correct_answer": "B",
+    "explanation": "Common examples include faulty equipment (e.g., an uncalibrated scale) or leading questions by an interviewer."
+  },
+  {
+    "question": "In a study, 'Statistical Significance' differs from 'Clinical Significance' because:",
+    "option_a": "Clinical significance only matters for surgery",
+    "option_b": "Statistical significance refers to the mathematical probability of a result, while clinical significance refers to the actual importance of the effect on patient health",
+    "option_c": "They are the same thing",
+    "option_d": "Only researchers care about statistical significance",
+    "correct_answer": "B",
+    "explanation": "A result can be statistically significant (p < 0.05) due to a large sample size, even if the actual benefit to the patient is tiny and unimportant."
+  },
+  {
+    "question": "What is the 'Median' of a data set?",
+    "option_a": "The mathematical average",
+    "option_b": "The middle value when the data are arranged in order",
+    "option_c": "The value that appears most frequently",
+    "option_d": "The difference between the highest and lowest value",
+    "correct_answer": "B",
+    "explanation": "The median is a better measure of central tendency than the mean for skewed data distributions."
+  },
+  {
+    "question": "What is the 'Mode' of a data set?",
+    "option_a": "The mathematical average",
+    "option_b": "The middle value",
+    "option_c": "The value that appears most frequently",
+    "option_d": "The highest value",
+    "correct_answer": "C",
+    "explanation": "The mode represents the most common data point."
+  },
+  {
+    "question": "Which of the following represents 'Standard Deviation' (SD)?",
+    "option_a": "The probability of error",
+    "option_b": "A measure of how much the individual data points vary from the mean",
+    "option_c": "The precision of the mean estimate",
+    "option_d": "The total number of case reports",
+    "correct_answer": "B",
+    "explanation": "SD describes the spread or variability within a single sample."
+  },
+  {
+    "question": "What is 'Standard Error' (SE)?",
+    "option_a": "The measure of data variability in a sample",
+    "option_b": "The measure of how much the sample mean is likely to vary from the true population mean",
+    "option_c": "A calculation error",
+    "option_d": "The percentage of patients who died",
+    "correct_answer": "B",
+    "explanation": "SE is used to calculate confidence intervals and reflects the precision of the estimated population mean."
+  },
+  {
+    "question": "A 'Skewed' distribution is one where:",
+    "option_a": "The mean, median, and mode are all identical",
+    "option_b": "The data are not symmetrical around the mean",
+    "option_c": "The sample size is too small",
+    "option_d": "There are no outliers",
+    "correct_answer": "B",
+    "explanation": "In a positively skewed distribution, the tail is on the right; in a negatively skewed one, the tail is on the left."
+  },
+  {
+    "question": "Which of the following is a potential source of 'Recall Bias'?",
+    "option_a": "A doctor forgetting to write a prescription",
+    "option_b": "Patients with a disease being more likely to remember past exposures than healthy controls",
+    "option_c": "A researcher forgetting where they stored the data",
+    "option_d": "The loss of medical records in a fire",
+    "correct_answer": "B",
+    "explanation": "Recall bias is a major concern in case-control studies."
+  },
+  {
+    "question": "What is 'Observer Bias'?",
+    "option_a": "When patients feel better just because someone is watching them",
+    "option_b": "When a researcher's expectations influence how they record the data",
+    "option_c": "When a study is published in a low-quality journal",
+    "option_d": "When a sample is not randomized",
+    "correct_answer": "B",
+    "explanation": "Blinding the observers helps prevent this type of systematic error."
+  },
+  {
+    "question": "In clinical research, 'Reliability' (or Reproducibility) refers to:",
+    "option_a": "Whether the test measures what it is supposed to measure",
+    "option_b": "The consistency of a measure when repeated under the same conditions",
+    "option_c": "The cost of the test",
+    "option_d": "The speed of the test",
+    "correct_answer": "B",
+    "explanation": "A reliable test gives the same result if you perform it again."
+  },
+  {
+    "question": "In clinical research, 'Validity' (or Accuracy) refers to:",
+    "option_a": "How many times a test can be repeated",
+    "option_b": "The degree to which a test or study accurately reflects or assesses the specific concept it is intended to measure",
+    "option_c": "The number of patients in the study",
+    "option_d": "Whether the results were published in English",
+    "correct_answer": "B",
+    "explanation": "A valid test is 'true'—it targets the right outcome correctly."
+  },
+  {
+    "question": "A 'Negative Likelihood Ratio' (LR-) of 1.0 means:",
+    "option_a": "The test is very good at ruling out disease",
+    "option_b": "The test provides no useful information for ruling out disease",
+    "option_c": "The test is 100% accurate",
+    "option_d": "The patient definitely has the disease",
+    "correct_answer": "B",
+    "explanation": "An LR of 1.0 (either positive or negative) means the test does not change the pre-test probability at all."
+  },
+  {
+    "question": "What is 'Number Needed to Treat' (NNT) for a drug that has no effect compared to placebo?",
+    "option_a": "1",
+    "option_b": "0",
+    "option_c": "Infinity",
+    "option_d": "100",
+    "correct_answer": "C",
+    "explanation": "If a drug has no effect (ARR = 0), NNT = 1 / 0, which is theoretically infinity."
+  },
+  {
+    "question": "Which of the following is true for an 'Observational' study?",
+    "option_a": "The researcher assigns the exposure/intervention",
+    "option_b": "The researcher does not interfere and only records data on existing exposures/outcomes",
+    "option_c": "It is always randomized",
+    "option_d": "It is only done in laboratory animals",
+    "correct_answer": "B",
+    "explanation": "Observational studies (Cohort, Case-control, Cross-sectional) occur without the researcher's active intervention."
+  },
+  {
+    "question": "What is the primary benefit of a 'Systematic Review' over a standard Narrative Review?",
+    "option_a": "It is shorter and easier to read",
+    "option_b": "It uses a structured and transparent process to minimize bias in study selection and evaluation",
+    "option_c": "It is written by the world's leading expert",
+    "option_d": "It focuses only on the most famous studies",
+    "correct_answer": "B",
+    "explanation": "Systematic reviews provide a more objective and comprehensive overview of the evidence."
+  },
+  {
+    "question": "In a study about exercise and heart disease, it is found that exercisers also smoke less. If the study doesn't account for smoking, smoking is a:",
+    "option_a": "Bias",
+    "option_b": "Confounder",
+    "option_c": "Placebo",
+    "option_d": "Surrogate",
+    "correct_answer": "B",
+    "explanation": "Smoking is a confounder because it is related to both exercise (the exposure) and heart disease (the outcome)."
+  },
+  {
+    "question": "What is 'Subgroup Analysis'?",
+    "option_a": "Studying only the doctors in a clinical trial",
+    "option_b": "Breaking down the main study population into smaller groups to see if the treatment effect differs among them (e.g., by age or gender)",
+    "option_c": "Doing the study twice",
+    "option_d": "Analyzing only the first 10 patients",
+    "correct_answer": "B",
+    "explanation": "Subgroup analysis must be interpreted cautiously, especially if it was not pre-planned, as it increases the risk of 'false discovery'."
+  },
+  {
+    "question": "Which of the following is considered 'Gray Literature'?",
+    "option_a": "Articles published in the New England Journal of Medicine",
+    "option_b": "Information produced outside of traditional commercial or academic publishing (e.g., government reports, theses, conference abstracts)",
+    "option_c": "Studies that are over 50 years old",
+    "option_d": "Books with no pictures",
+    "correct_answer": "B",
+    "explanation": "Including gray literature in a systematic review helps reduce publication bias."
+  },
+  {
+    "question": "What is 'Crossover' in a clinical trial?",
+    "option_a": "When the researcher becomes the patient",
+    "option_b": "A design where participants receive each of the treatments being compared in a sequence",
+    "option_c": "When a study is moved to another hospital",
+    "option_d": "When patients refuse to participate",
+    "correct_answer": "B",
+    "explanation": "Crossover trials allow participants to act as their own controls, which reduces variability."
+  },
+  {
+    "question": "A 'p-value' of 0.001 is considered:",
+    "option_a": "Not significant",
+    "option_b": "Strong evidence against the null hypothesis",
+    "option_c": "Indication of a very small effect size",
+    "option_d": "Evidence of significant bias",
+    "correct_answer": "B",
+    "explanation": "The smaller the p-value, the more unlikely it is that the results occurred by chance alone."
+  },
+  {
+    "question": "What does a 'Reference Standard' mean in the context of diagnostic studies?",
+    "option_a": "The average cost of the test",
+    "option_b": "The best available method for determining if the disease is present (The Gold Standard)",
+    "option_c": "A list of normal values for blood tests",
+    "option_d": "The standard textbooks of medicine",
+    "correct_answer": "B",
+    "explanation": "Every new test must be compared to a reference standard to determine its diagnostic accuracy."
+  },
+  {
+    "question": "What is 'Lead-time'?",
+    "option_a": "The time it takes for a drug to expire",
+    "option_b": "The period between detection of a disease by screening and the time when it would have been diagnosed symptomatically",
+    "option_c": "The duration of a clinical trial",
+    "option_d": "The time spent reading a medical journal",
+    "correct_answer": "B",
+    "explanation": "If screening detects a disease early but doesn't change the outcome, the patient just knows they have the disease for longer."
+  },
+  {
+    "question": "In a study where the outcome is 'Mortality', what is the most appropriate way to handle patients who are still alive at the end of the study?",
+    "option_a": "Assume they will die the next day",
+    "option_b": "Remove them from the analysis",
+    "option_c": "Censor them (use survival analysis/Kaplan-Meier)",
+    "option_d": "Include them as having achieved the outcome",
+    "correct_answer": "C",
+    "explanation": "Censoring allows the researcher to use the information from the time the patient was in the study without making assumptions about their future."
+  },
+  {
+    "question": "What is the primary objective of 'Phase III' clinical trials?",
+    "option_a": "To test for safety in a small group of healthy volunteers",
+    "option_b": "To determine the optimal dosage in sick patients",
+    "option_c": "To compare a new treatment with the standard treatment in a large population to confirm efficacy and monitor side effects",
+    "option_d": "To monitor for long-term rare adverse effects after the drug is on the market",
+    "correct_answer": "C",
+    "explanation": "Phase III trials provide the primary evidence for regulatory approval of a new drug."
+  },
+  {
+    "question": "What is a 'Cohort'?",
+    "option_a": "A type of statistic",
+    "option_b": "A group of people with a common characteristic or experience, followed over time",
+    "option_c": "A person who performs data entry",
+    "option_d": "A specialized laboratory tool",
+    "correct_answer": "B",
+    "explanation": "Cohort studies observe how these groups differ in their future outcomes."
+  },
+  {
+    "question": "Which of the following is true about 'Incidence'?",
+    "option_a": "It includes all people who have a disease at a given time",
+    "option_b": "It only measures new cases that occur in a disease-free population during a specific time period",
+    "option_c": "It is the same as prevalence for chronic diseases",
+    "option_d": "It is measured using a cross-sectional study",
+    "correct_answer": "B",
+    "explanation": "Incidence is a measure of risk or the speed of disease occurrence."
+  },
+  {
+    "question": "What is the 'Absolute Risk Increase' (ARI)?",
+    "option_a": "The ratio of risk in the exposed group to the unexposed group",
+    "option_b": "The absolute difference in risk between the treatment group and the control group when the treatment group has a higher risk of a bad outcome",
+    "option_c": "The probability that a patient will survive for 5 years",
+    "option_d": "The total number of patients who were harmed",
+    "correct_answer": "B",
+    "explanation": "ARI is the counterpart to ARR, used when an intervention (like a drug side effect) increases the risk of an event."
+  },
+  {
+    "question": "Which of the following describes 'Heterogeneity' in a meta-analysis?",
+    "option_a": "When all studies show exactly the same result",
+    "option_b": "When there is significant variation in the results between the individual studies being combined",
+    "option_c": "When the studies are all from the same country",
+    "option_d": "When the studies use the same sample size",
+    "correct_answer": "B",
+    "explanation": "High heterogeneity may mean that it is inappropriate to combine the study results into a single pooled estimate."
+  }
+]
