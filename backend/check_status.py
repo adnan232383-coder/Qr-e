@@ -1,6 +1,16 @@
-from server import get_db
+from motor.motor_asyncio import AsyncIOMotorClient
+import os
+import asyncio
+from dotenv import load_dotenv
 
-db = get_db()
+load_dotenv()
+
+mongo_url = os.environ['MONGO_URL']
+client = AsyncIOMotorClient(mongo_url)
+db = client[os.environ['DB_NAME']]
+
+async def main():
+    global db
 
 # Get all courses with question counts
 courses = list(db.courses.find({}, {"_id": 0, "university": 1, "name": 1, "course_id": 1}))
