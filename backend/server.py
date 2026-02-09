@@ -352,13 +352,32 @@ async def get_years(major_id: str):
     return years
 
 @api_router.get("/courses", response_model=List[Course])
-async def get_courses(year_id: str, semester: Optional[int] = None):
-    """Get all courses for a year, optionally filtered by semester"""
-    query = {"year_id": year_id}
+async def get_courses(year_id: Optional[str] = None, semester: Optional[int] = None, university_id: Optional[str] = None):
+    """Get all courses, filtered by year_id, semester, or university_id"""
+    query = {}
+    if year_id:
+        query["year_id"] = year_id
     if semester:
         query["semester"] = semester
+    if university_id:
+        query["university_id"] = university_id
     
-    courses = await db.courses.find(query, {"_id": 0}).to_list(100)
+    courses = await db.courses.find(query, {"_id": 0}).to_list(200)
+    return courses
+
+@api_router.get("/courses/by-university/{university_id}")
+async def get_courses_by_university(university_id: str):
+    """Get all courses for a university"""
+    courses = await db.courses.find(
+        {"university_id": university_id}, 
+        {"_id": 0}
+    ).sort([("program", 1), ("year", 1), ("semester", 1)]).to_list(200)
+    
+    # Add MCQ count for each course
+    for course in courses:
+        mcq_count = await db.mcq_questions.count_documents({"course_id": course["external_id"]})
+        course["mcq_count"] = mcq_count
+    
     return courses
 
 @api_router.get("/courses/{external_id}", response_model=Course)
