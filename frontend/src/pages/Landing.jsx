@@ -57,16 +57,16 @@ export default function Landing() {
     }
   };
 
-  const getMajorIcon = (name) => {
-    if (name.toLowerCase().includes("dent")) return Stethoscope;
-    if (name.toLowerCase().includes("pharm")) return Pill;
-    return BookOpen;
+  const getUniversityIcon = (name) => {
+    if (name.toLowerCase().includes("georgia")) return Building2;
+    if (name.toLowerCase().includes("vision")) return Heart;
+    return GraduationCap;
   };
 
-  const getMajorColor = (name) => {
-    if (name.toLowerCase().includes("dent")) return "text-sky-500";
-    if (name.toLowerCase().includes("pharm")) return "text-emerald-500";
-    return "text-primary";
+  const getUniversityColor = (id) => {
+    if (id === "UG_TBILISI") return "from-sky-500/20 to-blue-500/10";
+    if (id === "NVU") return "from-emerald-500/20 to-teal-500/10";
+    return "from-primary/20 to-accent/10";
   };
 
   return (
@@ -77,7 +77,7 @@ export default function Landing() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
               <GraduationCap className="h-8 w-8 text-primary" />
-              <span className="text-xl font-semibold">UG Assistant</span>
+              <span className="text-xl font-semibold">Medical Studies</span>
             </div>
             
             <div className="flex items-center gap-4">
@@ -123,20 +123,21 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center max-w-3xl mx-auto animate-fade-in">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6" style={{ letterSpacing: '-0.02em' }}>
-              Your Academic Journey at{" "}
-              <span className="text-primary">University of Georgia</span>
+              Your{" "}
+              <span className="text-primary">Medical Education</span>
+              {" "}Journey
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Navigate your medical education with AI-powered course summaries, comprehensive catalogs, and an intelligent study assistant.
+              Navigate your medical education with AI-powered course summaries, MCQ practice, and an intelligent study assistant across multiple universities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                onClick={() => document.getElementById('majors')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('universities')?.scrollIntoView({ behavior: 'smooth' })}
                 data-testid="explore-courses-btn"
                 className="rounded-full h-12 px-8"
               >
-                Explore Courses
+                Choose University
                 <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
@@ -158,16 +159,16 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <div className="text-3xl font-bold text-primary">90+</div>
+              <div className="text-3xl font-bold text-primary">160+</div>
               <div className="text-sm text-muted-foreground mt-1">Courses</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="text-3xl font-bold text-primary">2</div>
-              <div className="text-sm text-muted-foreground mt-1">Programs</div>
+              <div className="text-sm text-muted-foreground mt-1">Universities</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="text-3xl font-bold text-primary">5+4</div>
-              <div className="text-sm text-muted-foreground mt-1">Years Curriculum</div>
+              <div className="text-3xl font-bold text-primary">15K+</div>
+              <div className="text-sm text-muted-foreground mt-1">MCQ Questions</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <div className="text-3xl font-bold text-primary">AI</div>
@@ -177,56 +178,47 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Majors Section */}
-      <section id="majors" className="py-16 lg:py-24">
+      {/* Universities Section */}
+      <section id="universities" className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Choose Your Program</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Choose Your University</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Explore comprehensive course catalogs for our medical programs
+              Select your university to explore courses and start practicing
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto stagger-children">
-            {majors.map((major) => {
-              const Icon = getMajorIcon(major.name);
-              const colorClass = getMajorColor(major.name);
-              const isDentistry = major.name.toLowerCase().includes("dent");
+            {universities.map((uni) => {
+              const Icon = getUniversityIcon(uni.name);
+              const gradientClass = getUniversityColor(uni.external_id);
               
               return (
                 <Card
-                  key={major.external_id}
-                  className={`group cursor-pointer overflow-hidden transition-all duration-300 hover:border-primary/50 card-hover ${
-                    isDentistry ? 'dentistry-gradient' : 'pharmacy-gradient'
-                  }`}
-                  onClick={() => navigate(`/catalog/${major.external_id}`)}
-                  data-testid={`major-card-${major.external_id}`}
+                  key={uni.external_id}
+                  className={`group cursor-pointer overflow-hidden transition-all duration-300 hover:border-primary/50 card-hover bg-gradient-to-br ${gradientClass}`}
+                  onClick={() => navigate(`/university/${uni.external_id}`)}
+                  data-testid={`university-card-${uni.external_id}`}
                 >
                   <CardContent className="p-8">
                     <div className="flex items-start gap-4">
-                      <div className={`p-3 rounded-xl bg-background ${colorClass}`}>
+                      <div className="p-3 rounded-xl bg-background text-primary">
                         <Icon className="h-8 w-8" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-2xl font-bold mb-2">{major.name}</h3>
-                        <p className="text-muted-foreground mb-4">
-                          {major.degree} Program • {major.years} Years
+                        <h3 className="text-2xl font-bold mb-2">{uni.name}</h3>
+                        <p className="text-muted-foreground mb-2">
+                          {uni.city}, {uni.country}
+                        </p>
+                        <p className="text-sm text-muted-foreground mb-4">
+                          {uni.description?.substring(0, 100)}...
                         </p>
                         <div className="flex items-center text-sm text-primary font-medium group-hover:gap-2 transition-all">
-                          View Curriculum
+                          Explore Courses
                           <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </div>
                     </div>
-                    {major.image_url && (
-                      <div className="mt-6 rounded-lg overflow-hidden aspect-video">
-                        <img
-                          src={major.image_url}
-                          alt={major.name}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                      </div>
-                    )}
                   </CardContent>
                 </Card>
               );
