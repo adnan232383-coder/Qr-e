@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load questions from JSON file
-with open('/app/critical_care_batch_3.json', 'r', encoding='utf-8') as f:
+with open('/app/critical_care_batch_4.json', 'r', encoding='utf-8') as f:
     questions_data = json.load(f)
 
 COURSE_ID = "NVU_MD_Y5_S1_C50"
