@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 65-year-old male is admitted to the ICU with severe sepsis. His blood pressure is 85/40 mmHg despite 3 liters of crystalloid resuscitation. His Central Venous Pressure (CVP) is 12 mmHg. What is the next most appropriate step?",
+    "option_a": "Administer another 2 liters of Normal Saline",
+    "option_b": "Initiate vasopressor therapy with Norepinephrine",
+    "option_c": "Start Dobutamine infusion",
+    "option_d": "Perform an urgent echo and wait for results",
+    "correct_answer": "B",
+    "explanation": "This patient is in septic shock (refractory hypotension despite adequate fluid resuscitation). Norepinephrine is the first-line vasopressor of choice to maintain a Mean Arterial Pressure (MAP) ≥ 65 mmHg."
+  },
+  {
+    "question": "Which of the following is a requirement for the diagnosis of ARDS according to the Berlin Criteria?",
+    "option_a": "Onset within 1 month of a known clinical insult",
+    "option_b": "Bilateral opacities on chest imaging not fully explained by effusions or collapse",
+    "option_c": "Pulmonary artery wedge pressure (PAWP) > 18 mmHg",
+    "option_d": "PaO2/FiO2 ratio > 300 mmHg",
+    "correct_answer": "B",
+    "explanation": "ARDS is characterized by acute onset (within 1 week), bilateral opacities on imaging, and respiratory failure not fully explained by heart failure or fluid overload."
+  },
+  {
+    "question": "A patient on mechanical ventilation has the following arterial blood gas (ABG) results: pH 7.25, PaCO2 60 mmHg, HCO3 26 mEq/L. What is the acid-base disturbance?",
+    "option_a": "Metabolic Acidosis",
+    "option_b": "Respiratory Acidosis",
+    "option_c": "Metabolic Alkalosis",
+    "option_d": "Respiratory Alkalosis",
+    "correct_answer": "B",
+    "explanation": "A low pH with a high PaCO2 indicates a primary respiratory acidosis, typically due to alveolar hypoventilation."
+  },
+  {
+    "question": "What is the primary hemodynamic goal in the management of 'Cardiogenic Shock'?",
+    "option_a": "Massive fluid resuscitation to increase preload",
+    "option_b": "Improving cardiac output while reducing afterload and avoiding fluid overload",
+    "option_c": "Maintaining a heart rate > 120 bpm",
+    "option_d": "Decreasing systemic vascular resistance to zero",
+    "correct_answer": "B",
+    "explanation": "In cardiogenic shock, the 'pump' is failing. Management involves inotropes (like Dobutamine) and vasopressors if needed, while carefully managing fluids to avoid pulmonary edema."
+  },
+  {
+    "question": "Which of the following describes 'Permissive Hypercapnia' in mechanical ventilation for ARDS?",
+    "option_a": "Aiming for a PaCO2 of 35 mmHg at all costs",
+    "option_b": "Allowing PaCO2 to rise to limit plateau pressures and prevent ventilator-induced lung injury (VILI)",
+    "option_c": "Using high tidal volumes to wash out CO2",
+    "option_d": "Sedating the patient so they don't breathe at all",
+    "correct_answer": "B",
+    "explanation": "Low tidal volume ventilation (6 mL/kg) is lung-protective but often leads to high CO2; this is tolerated as long as the pH remains above a reasonable threshold (usually >7.20)."
+  },
+  {
+    "question": "A patient in the ICU has a pulmonary artery catheter. The readings show a low Cardiac Index, a high Pulmonary Artery Wedge Pressure (PAWP), and a high Systemic Vascular Resistance (SVR). Diagnosis?",
+    "option_a": "Septic Shock",
+    "option_b": "Cardiogenic Shock",
+    "option_c": "Hypovolemic Shock",
+    "option_d": "Anaphylactic Shock",
+    "correct_answer": "B",
+    "explanation": "High PAWP (indicating left-sided 'back-up') and low output with compensatory high SVR is the classic hemodynamic profile of heart failure/cardiogenic shock."
+  },
+  {
+    "question": "What is the specific antidote for 'Cyanide Poisoning', which can occur during high-dose Sodium Nitroprusside infusion?",
+    "option_a": "N-acetylcysteine",
+    "option_b": "Hydroxocobalamin (Vitamin B12a)",
+    "option_c": "Flumazenil",
+    "option_d": "Atropine",
+    "correct_answer": "B",
+    "explanation": "Hydroxocobalamin binds cyanide to form nontoxic cyanocobalamin, which is excreted in the urine."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Indirect' lung injury leading to ARDS?",
+    "option_a": "Pneumonia",
+    "option_b": "Sepsis",
+    "option_c": "Aspiration of gastric contents",
+    "option_d": "Near-drowning",
+    "correct_answer": "B",
+    "explanation": "While pneumonia and aspiration are direct injuries, systemic sepsis is the leading cause of indirect lung injury and subsequent ARDS."
+  },
+  {
+    "question": "In a patient with 'Anion Gap' Metabolic Acidosis, which of the following is a potential cause (mnemonic MUDPILES)?",
+    "option_a": "Diarrhea",
+    "option_b": "Diabetic Ketoacidosis (DKA)",
+    "option_c": "Renal Tubular Acidosis",
+    "option_d": "Normal Saline infusion",
+    "correct_answer": "B",
+    "explanation": "DKA causes the accumulation of ketoacids (unmeasured anions), which increases the anion gap."
+  },
+  {
+    "question": "What is the primary mechanism of 'Hypovolemic Shock'?",
+    "option_a": "Pump failure",
+    "option_b": "Decreased intravascular volume leading to reduced preload and stroke volume",
+    "option_c": "Widespread vasodilation",
+    "option_d": "Obstruction of blood flow",
+    "correct_answer": "B",
+    "explanation": "Loss of blood or fluids reduces the return of blood to the heart, leading to a drop in cardiac output."
+  },
+  {
+    "question": "Which of the following is a characteristic finding in 'Early' (Hyperdynamic) Septic Shock?",
+    "option_a": "Cold, clammy skin",
+    "option_b": "Increased Cardiac Output and decreased Systemic Vascular Resistance (SVR)",
+    "option_c": "Very high SVR",
+    "option_d": "Bradycardia",
+    "correct_answer": "B",
+    "explanation": "Vasodilation (low SVR) and a compensatory increase in cardiac output cause the classic 'warm shock' seen early in sepsis."
+  },
+  {
+    "question": "Which mode of mechanical ventilation provides a set tidal volume for every breath, regardless of the patient's effort?",
+    "option_a": "Pressure Support Ventilation (PSV)",
+    "option_b": "Volume Assist-Control (A/C)",
+    "option_c": "CPAP",
+    "option_d": "BIPAP",
+    "correct_answer": "B",
+    "explanation": "In Assist-Control volume ventilation, the ventilator delivers a pre-set volume for both machine-triggered and patient-triggered breaths."
+  },
+  {
+    "question": "A patient with a suspected 'Tension Pneumothorax' is hypotensive and has absent breath sounds on the right. What is the immediate life-saving step?",
+    "option_a": "Obtain an urgent chest X-ray",
+    "option_b": "Needle thoracostomy (decompression) followed by a chest tube",
+    "option_c": "Intubate the patient",
+    "option_d": "Give a fluid bolus",
+    "correct_answer": "B",
+    "explanation": "Tension pneumothorax is a clinical diagnosis; waiting for an X-ray can be fatal. Immediate decompression is required."
+  },
+  {
+    "question": "What does 'PEEP' (Positive End-Expiratory Pressure) primarily help to prevent during mechanical ventilation?",
+    "option_a": "High blood pressure",
+    "option_b": "Alveolar collapse (atelectasis) and improve oxygenation",
+    "option_c": "Ventilator-associated pneumonia",
+    "option_d": "Patient agitation",
+    "correct_answer": "B",
+    "explanation": "PEEP keeps the alveoli open at the end of expiration, increasing the functional residual capacity and surface area for gas exchange."
+  },
+  {
+    "question": "Which of the following is an 'Obstructive' cause of shock?",
+    "option_a": "Myocardial Infarction",
+    "option_b": "Massive Pulmonary Embolism",
+    "option_c": "Severe hemorrhage",
+    "option_d": "Anaphylaxis",
+    "correct_answer": "B",
+    "explanation": "Obstructive shock occurs when physical obstruction to blood flow (like a large PE or cardiac tamponade) reduces cardiac output."
+  },
+  {
+    "question": "A patient has a PaO2/FiO2 ratio of 150 mmHg while on PEEP of 10 cmH2O. According to the Berlin Criteria, how is this ARDS categorized?",
+    "option_a": "Mild",
+    "option_b": "Moderate",
+    "option_c": "Severe",
+    "option_d": "Not ARDS",
+    "correct_answer": "B",
+    "explanation": "Mild: 200-300 mmHg. Moderate: 100-200 mmHg. Severe: <100 mmHg."
+  },
+  {
+    "question": "What is the first-line treatment for a patient in 'Anaphylactic Shock'?",
+    "option_a": "Intravenous Diphenhydramine (Antihistamine)",
+    "option_b": "Intramuscular or Intravenous Epinephrine",
+    "option_c": "Methylprednisolone (Steroid)",
+    "option_d": "Albuterol nebulizer",
+    "correct_answer": "B",
+    "explanation": "Epinephrine is the only medication that reverses the upper airway obstruction and vascular collapse of anaphylaxis."
+  },
+  {
+    "question": "Which value on a 'Central Venous Catheter' (CVC) is a rough estimate of right atrial pressure and intravascular volume status?",
+    "option_a": "Systolic BP",
+    "option_b": "Central Venous Pressure (CVP)",
+    "option_c": "Lactate",
+    "option_d": "Mixed venous oxygen saturation",
+    "correct_answer": "B",
+    "explanation": "CVP reflects the pressure of blood in the thoracic vena cava and is used as a guide (though imperfect) for fluid resuscitation."
+  },
+  {
+    "question": "A patient on a ventilator has a sudden increase in 'Peak Inspiratory Pressure' (PIP), but the 'Plateau Pressure' remains unchanged. What is the most likely cause?",
+    "option_a": "Pneumothorax",
+    "option_b": "Airway obstruction (e.g., mucus plug or biting the tube)",
+    "option_c": "ARDS worsening",
+    "option_d": "Pulmonary edema",
+    "correct_answer": "B",
+    "explanation": "An increase in PIP with a stable plateau pressure indicates an increase in airway resistance (not a decrease in lung compliance)."
+  },
+  {
+    "question": "Which electrolyte abnormality is most commonly associated with 'Refeeding Syndrome' in critically ill patients?",
+    "option_a": "Hyperkalemia",
+    "option_b": "Hypophosphatemia",
+    "option_c": "Hypercalcemia",
+    "option_d": "Hypernatremia",
+    "correct_answer": "B",
+    "explanation": "Insulin release during the reintroduction of nutrition causes a massive shift of phosphorus into cells, leading to dangerous systemic depletion."
+  },
+  {
+    "question": "In the management of 'Status Asthmaticus', which of the following is a sign of 'impending respiratory failure'?",
+    "option_a": "Wheezing",
+    "option_b": "A 'silent chest' (absent breath sounds) and a normal or rising PaCO2",
+    "option_c": "Tachycardia",
+    "option_d": "Use of accessory muscles",
+    "correct_answer": "B",
+    "explanation": "In severe asthma, a rising PaCO2 indicates the patient is tiring out and can no longer maintain the necessary minute ventilation."
+  },
+  {
+    "question": "What is the primary benefit of 'Prone Positioning' in patients with severe ARDS?",
+    "option_a": "It makes it easier to clean the patient",
+    "option_b": "It improves ventilation-perfusion (V/Q) matching and recruits dorsal lung regions",
+    "option_c": "It prevents pressure ulcers on the back",
+    "option_d": "It reduces the need for sedation",
+    "correct_answer": "B",
+    "explanation": "Proning redistributes lung stress and improves oxygenation, often reducing mortality in severe cases."
+  },
+  {
+    "question": "Which of the following is the 'Gold Standard' for diagnosing a 'Pulmonary Embolism' in a hemodynamically unstable patient?",
+    "option_a": "D-dimer",
+    "option_b": "CT Angiography (CTPA) or Bedside Echo if too unstable for CT",
+    "option_c": "Chest X-ray",
+    "option_d": "Venous Doppler of the legs",
+    "correct_answer": "B",
+    "explanation": "CTPA is definitive, but a bedside echo showing right ventricular strain is often used when the patient is too unstable for transport."
+  },
+  {
+    "question": "A patient has a pH of 7.50 and a PaCO2 of 25 mmHg. This is:",
+    "option_a": "Metabolic Acidosis",
+    "option_b": "Respiratory Alkalosis",
+    "option_c": "Metabolic Alkalosis",
+    "option_d": "Normal",
+    "correct_answer": "B",
+    "explanation": "High pH (alkalemia) and low CO2 (hypocapnia) indicates a primary respiratory alkalosis, often from hyperventilation."
+  },
+  {
+    "question": "What is the primary clinical use of 'Intra-Aortic Balloon Pump' (IABP)?",
+    "option_a": "To treat sepsis",
+    "option_b": "To provide mechanical support in cardiogenic shock by increasing coronary perfusion and decreasing afterload",
+    "option_c": "To stop internal bleeding",
+    "option_d": "To oxygenate the blood outside the body",
+    "correct_answer": "B",
+    "explanation": "The IABP inflates during diastole (augmenting coronary flow) and deflates during systole (reducing the work of the heart)."
+  },
+  {
+    "question": "Which of the following is true for 'Vasoactive-Inotropic Score' (VIS)?",
+    "option_a": "It measures blood sugar",
+    "option_b": "It is a standardized way to quantify the amount of cardiovascular support a patient is receiving",
+    "option_c": "It is used to assess depth of sedation",
+    "option_d": "It predicts the risk of pneumonia",
+    "correct_answer": "B",
+    "explanation": "VIS sums the doses of all vasopressors and inotropes; higher scores correlate with increased mortality."
+  },
+  {
+    "question": "A patient presents with 'muffled heart sounds', 'distended neck veins', and 'hypotension'. What is this triad called?",
+    "option_a": "Virchow's Triad",
+    "option_b": "Beck's Triad (Cardiac Tamponade)",
+    "option_c": "Cushing's Triad",
+    "option_d": "Charcot's Triad",
+    "correct_answer": "B",
+    "explanation": "Beck's triad is highly suggestive of cardiac tamponade, an obstructive cause of shock requiring urgent drainage."
+  },
+  {
+    "question": "What is the 'target' Mean Arterial Pressure (MAP) for most patients in septic shock according to the Surviving Sepsis Campaign?",
+    "option_a": "50 mmHg",
+    "option_b": "65 mmHg",
+    "option_c": "90 mmHg",
+    "option_d": "120 mmHg",
+    "correct_answer": "B",
+    "explanation": "A MAP of 65 mmHg is generally sufficient for adequate tissue perfusion while minimizing the side effects of vasopressors."
+  },
+  {
+    "question": "Which of the following is a classic clinical sign of 'Hyperkalemia' on an ECG?",
+    "option_a": "Prominent U waves",
+    "option_b": "Peaked T waves and widened QRS complexes",
+    "option_c": "ST-segment elevation in all leads",
+    "option_d": "Shortened PR interval",
+    "correct_answer": "B",
+    "explanation": "Potassium > 5.5 mEq/L can lead to peaked T waves, followed by progressive conduction delays and eventually cardiac arrest."
+  },
+  {
+    "question": "In 'Hypovolemic Shock', what happens to the 'Mixed Venous Oxygen Saturation' (SvO2)?",
+    "option_a": "It increases",
+    "option_b": "It decreases",
+    "option_c": "It stays the same",
+    "option_d": "It is not affected",
+    "correct_answer": "B",
+    "explanation": "When cardiac output is low, the tissues extract a higher percentage of oxygen from the available blood, leading to a low SvO2 (usually <60-70%)."
+  },
+  {
+    "question": "What is the primary complication of 'Aggressive Normal Saline' resuscitation in large volumes?",
+    "option_a": "Metabolic alkalosis",
+    "option_b": "Hyperchloremic metabolic acidosis",
+    "option_c": "Hypokalemia",
+    "option_d": "Liver failure",
+    "correct_answer": "B",
+    "explanation": "The high chloride content of Normal Saline (154 mEq/L) can cause a non-anion gap metabolic acidosis."
+  },
+  {
+    "question": "Which of the following is true for 'Propofol Infusion Syndrome' (PRIS)?",
+    "option_a": "It only occurs in children",
+    "option_b": "It involves severe metabolic acidosis, rhabdomyolysis, and cardiac failure during high-dose infusion",
+    "option_c": "It is treated with more propofol",
+    "option_d": "It causes a bright red rash",
+    "correct_answer": "B",
+    "explanation": "PRIS is a rare but fatal complication of long-term or high-dose propofol use in the ICU."
+  },
+  {
+    "question": "A patient with severe 'Brain Injury' has an ICP of 25 mmHg. Which of the following is a 'Tier 1' intervention to lower ICP?",
+    "option_a": "Hypertonic saline or Mannitol and head elevation",
+    "option_b": "Decompressive craniectomy",
+    "option_c": "Barbiturate coma",
+    "option_d": "Hypothermia",
+    "correct_answer": "A",
+    "explanation": "Osmotic therapy and optimizing venous drainage (head at 30 degrees) are early interventions for intracranial hypertension."
+  },
+  {
+    "question": "What does a 'High Lactate' level (>2 mmol/L) typically indicate in a critically ill patient?",
+    "option_a": "The patient is eating too much sugar",
+    "option_b": "Anaerobic metabolism due to tissue hypoperfusion or impaired oxygen utilization",
+    "option_c": "Normal response to stress",
+    "option_d": "Kidney stones",
+    "correct_answer": "B",
+    "explanation": "Lactate is a key biomarker for shock severity and adequacy of resuscitation."
+  },
+  {
+    "question": "Which of the following describes 'Fractional Excretion of Sodium' (FeNa) in Pre-renal Acute Kidney Injury?",
+    "option_a": "FeNa > 2%",
+    "option_b": "FeNa < 1%",
+    "option_c": "FeNa is zero",
+    "option_d": "FeNa is 100%",
+    "correct_answer": "B",
+    "explanation": "In pre-renal states, the kidneys are structurally intact and aggressively reabsorb sodium to restore volume, leading to a low FeNa."
+  },
+  {
+    "question": "What is the primary treatment for 'Central Diabetes Insipidus' in the ICU?",
+    "option_a": "Insulin",
+    "option_b": "Desmopressin (dDAVP)",
+    "option_c": "Diuretics",
+    "option_d": "Normal Saline",
+    "correct_answer": "B",
+    "explanation": "Central DI is a lack of ADH; dDAVP replaces the missing hormone to reduce polyuria and stabilize sodium."
+  },
+  {
+    "question": "A patient has a PaO2 of 50 mmHg on a Room Air (FiO2 0.21). What is the calculated P/F ratio?",
+    "option_a": "150",
+    "option_b": "238",
+    "option_c": "100",
+    "option_d": "400",
+    "correct_answer": "B",
+    "explanation": "Calculation: 50 / 0.21 = 238 mmHg."
+  },
+  {
+    "question": "Which drug is used to reverse 'Heparin' in the event of life-threatening bleeding?",
+    "option_a": "Vitamin K",
+    "option_b": "Protamine Sulfate",
+    "option_c": "PCC",
+    "option_d": "Idarucizumab",
+    "correct_answer": "B",
+    "explanation": "Protamine is a positively charged protein that binds to and neutralizes negatively charged heparin."
+  },
+  {
+    "question": "Which of the following is true regarding 'Ventilator-Associated Pneumonia' (VAP) prevention?",
+    "option_a": "Keeping the patient flat at all times",
+    "option_b": "Regular oral care with chlorhexidine and semi-recumbent positioning (30-45 degrees)",
+    "option_c": "Daily routine chest X-rays",
+    "option_d": "Prophylactic antibiotics for everyone",
+    "correct_answer": "B",
+    "explanation": "VAP bundles focus on reducing aspiration and oral bacterial colonization."
+  },
+  {
+    "question": "A patient presents with 'painless' lower GI bleeding and is hypotensive. What is the 'first' priority?",
+    "option_a": "Urgent Colonoscopy",
+    "option_b": "Large-bore IV access and aggressive fluid resuscitation",
+    "option_c": "Start an Octreotide drip",
+    "option_d": "Abdominal CT",
+    "correct_answer": "B",
+    "explanation": "Circulatory stabilization (ABC) always precedes definitive diagnostic testing in hemorrhagic shock."
+  },
+  {
+    "question": "Which of the following describes 'Multiple Organ Dysfunction Syndrome' (MODS)?",
+    "option_a": "When one organ stops working",
+    "option_b": "The progressive failure of two or more organ systems in an acutely ill patient",
+    "option_c": "Chronic kidney disease",
+    "option_d": "A psychiatric disorder",
+    "correct_answer": "B",
+    "explanation": "MODS is the end result of a severe systemic inflammatory response."
+  },
+  {
+    "question": "What is the 'Gold Standard' for monitoring 'Cardiac Output' in a complex ICU patient?",
+    "option_a": "Pulse palpation",
+    "option_b": "Thermodilution via a Pulmonary Artery (Swan-Ganz) Catheter",
+    "option_c": "Chest X-ray",
+    "option_d": "Urine output",
+    "correct_answer": "B",
+    "explanation": "PA catheters allow for direct measurement of pressures and calculation of flow and resistance."
+  },
+  {
+    "question": "In 'Respiratory Alkalosis', what happens to the 'Ionized Calcium' levels?",
+    "option_a": "They increase",
+    "option_b": "They decrease (leading to tetany/numbness)",
+    "option_c": "They stay the same",
+    "option_d": "Calcium disappears",
+    "correct_answer": "B",
+    "explanation": "High pH causes hydrogen ions to detach from albumin, leaving more room for calcium to bind, thus lowering the free (active) ionized calcium."
+  },
+  {
+    "question": "Which of the following is a classic sign of 'Opioid Toxicity'?",
+    "option_a": "Dilated pupils",
+    "option_b": "Pinpoint pupils (miosis), respiratory depression, and decreased level of consciousness",
+    "option_c": "High fever",
+    "option_d": "Hypertension",
+    "correct_answer": "B",
+    "explanation": "Miosis is a hallmark sign, though it may be absent with certain opioids like meperidine."
+  },
+  {
+    "question": "What is the primary management for 'Hypermagnesemia' causing ECG changes?",
+    "option_a": "Wait for it to pass",
+    "option_b": "IV Calcium and potentially dialysis",
+    "option_c": "More magnesium",
+    "option_d": "Sodium Bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Calcium antagonizes the cardiac effects of magnesium, similar to its use in hyperkalemia."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Cerebral Salt Wasting'?",
+    "option_a": "Hypernatremia",
+    "option_b": "Hyponatremia and severe polyuria in the setting of brain injury",
+    "option_c": "High blood pressure",
+    "option_d": "Weight gain",
+    "correct_answer": "B",
+    "explanation": "Unlike SIADH, CSW involves volume depletion and excessive urinary sodium loss."
+  },
+  {
+    "question": "What is the 'PaO2' goal for a patient with a 'Severe Traumatic Brain Injury'?",
+    "option_a": "At least 60 mmHg",
+    "option_b": "At least 100 mmHg to ensure adequate cerebral oxygen delivery",
+    "option_c": "30 mmHg",
+    "option_d": "Normal room air is fine",
+    "correct_answer": "B",
+    "explanation": "Avoiding hypoxia is critical to preventing secondary brain injury."
+  },
+  {
+    "question": "Which of the following is true regarding 'Low-Dose' Dopamine (0.5-2 mcg/kg/min)?",
+    "option_a": "It is the best way to prevent renal failure",
+    "option_b": "It is no longer recommended for 'renal protection' in the ICU",
+    "option_c": "It causes massive hypertension",
+    "option_d": "It stops all bleeding",
+    "correct_answer": "B",
+    "explanation": "While it increases renal blood flow, clinical trials have shown it does not prevent or treat AKI."
+  },
+  {
+    "question": "In 'Cardiogenic Shock', what happens to the 'Systemic Vascular Resistance' (SVR)?",
+    "option_a": "It decreases",
+    "option_b": "It increases (compensatory vasoconstriction)",
+    "option_c": "It stays the same",
+    "option_d": "SVR is zero",
+    "correct_answer": "B",
+    "explanation": "The body tries to maintain blood pressure by constricting peripheral vessels in response to low cardiac output."
+  },
+  {
+    "question": "Which of the following is the 'first-line' vasopressor for 'Anaphylactic Shock' when IM epinephrine is insufficient?",
+    "option_a": "Norepinephrine",
+    "option_b": "Epinephrine infusion",
+    "option_c": "Vasopressin",
+    "option_d": "Dopamine",
+    "correct_answer": "B",
+    "explanation": "Epinephrine provides both the alpha-1 (vasoconstriction) and beta-2 (bronchodilation) effects needed."
+  }
+]
