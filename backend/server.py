@@ -811,15 +811,37 @@ async def get_script_generation_progress():
 # ==================== SEQUENTIAL MCQ GENERATOR (NEW) ====================
 
 @api_router.post("/admin/simple-mcq/start")
-async def start_simple_mcq():
-    """Start simple MCQ generation - ensures 200 per course before moving on"""
+async def start_simple_mcq(university: str = "UG"):
+    """Start simple MCQ generation - ensures 200 per course before moving on.
+    university: 'UG' for University of Georgia only, 'NVU' for NVU, or None for default (UG + NVU non-Medicine)
+    """
     from simple_mcq_generator import get_simple_generator
     generator = get_simple_generator(db)
     
-    # Run in background
-    asyncio.create_task(generator.generate_all_courses())
+    # Stop any existing generation
+    generator.stop()
+    await asyncio.sleep(1)
+    generator._stop = False
     
-    return {"status": "started", "message": "Simple MCQ generator started"}
+    # Run in background with filter
+    asyncio.create_task(generator.generate_all_courses(university_filter=university if university != "ALL" else None))
+    
+    return {"status": "started", "message": f"Simple MCQ generator started for {university} courses"}
+
+@api_router.post("/admin/simple-mcq/stop")
+async def stop_simple_mcq():
+    """Stop MCQ generation"""
+    from simple_mcq_generator import get_simple_generator
+    generator = get_simple_generator(db)
+    generator.stop()
+    
+    # Update job status
+    await db.jobs.update_many(
+        {"job_type": "simple_mcq", "status": "running"},
+        {"$set": {"status": "stopped", "updated_at": datetime.now(timezone.utc).isoformat()}}
+    )
+    
+    return {"status": "stopped", "message": "MCQ generation stopped"}
 
 @api_router.get("/admin/simple-mcq/status")
 async def get_simple_mcq_status():
