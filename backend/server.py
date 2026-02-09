@@ -824,14 +824,14 @@ async def start_simple_mcq():
 @api_router.get("/admin/simple-mcq/status")
 async def get_simple_mcq_status():
     """Get simple MCQ status"""
-    job = await db.jobs.find_one({"job_type": "simple_mcq"}, sort=[("started_at", -1)])
+    job = await db.jobs.find_one({"job_type": "simple_mcq"}, {"_id": 0}, sort=[("started_at", -1)])
     
     # Count courses with 200+
     pipeline = [
         {"$group": {"_id": "$course_id", "count": {"$sum": 1}}},
         {"$match": {"count": {"$gte": 200}}}
     ]
-    completed = await db.mcq_questions.aggregate(pipeline).to_list(100)
+    completed = await db.mcq_questions.aggregate(pipeline).to_list(200)
     
     total_mcq = await db.mcq_questions.count_documents({})
     
