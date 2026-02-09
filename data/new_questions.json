@@ -1,452 +1,452 @@
 [
   {
-    "question": "A 3-year-old child presents with a large, smooth abdominal mass that does not cross the midline. Hematuria is present. What is the most likely diagnosis?",
-    "option_a": "Neuroblastoma",
-    "option_b": "Wilms Tumor (Nephroblastoma)",
-    "option_c": "Polycystic Kidney Disease",
-    "option_d": "Teratoma",
+    "question": "A 68-year-old male presents with sudden onset of right-sided weakness and aphasia. Symptoms started 2 hours ago. Non-contrast Head CT is normal. What is the most appropriate next step in management?",
+    "option_a": "Start Aspirin 325 mg",
+    "option_b": "Evaluate for intravenous Alteplase (tPA) administration",
+    "option_c": "Perform a lumbar puncture to rule out SAH",
+    "option_d": "Repeat CT in 24 hours",
     "correct_answer": "B",
-    "explanation": "Wilms tumor is the most common renal malignancy in children and typically presents as a smooth mass that stays on one side, unlike neuroblastoma which often crosses the midline."
+    "explanation": "A normal CT rules out hemorrhage in an acute stroke. Since the patient is within the 3-4.5 hour window, IV thrombolysis is the treatment of choice if there are no contraindications."
   },
   {
-    "question": "Which of the following is the most common cause of Congenital Adrenal Hyperplasia (CAH)?",
-    "option_a": "11-beta-hydroxylase deficiency",
-    "option_b": "21-hydroxylase deficiency",
-    "option_c": "17-alpha-hydroxylase deficiency",
-    "option_d": "3-beta-hydroxysteroid dehydrogenase deficiency",
+    "question": "Which of the following is the hallmark clinical feature of Parkinson's disease?",
+    "option_a": "Choreiform movements",
+    "option_b": "Resting 'pill-rolling' tremor, bradykinesia, and rigidity",
+    "option_c": "Intentional tremor and scanning speech",
+    "option_d": "Sudden drop attacks",
     "correct_answer": "B",
-    "explanation": "21-hydroxylase deficiency accounts for about 95% of CAH cases, leading to salt-wasting and virilization due to cortisol and aldosterone deficiency."
+    "explanation": "Parkinsonism is defined by the triad of resting tremor, slowness of movement (bradykinesia), and lead-pipe or cogwheel rigidity."
   },
   {
-    "question": "A 5-year-old boy has difficulty rising from the floor and uses his hands to 'walk up' his legs to stand upright. What is this sign called, and what does it suggest?",
-    "option_a": "Trendelenburg sign; Hip dysplasia",
-    "option_b": "Gower's sign; Duchenne Muscular Dystrophy",
-    "option_c": "Kernig's sign; Meningitis",
-    "option_d": "Ortolani's sign; Hip dislocation",
+    "question": "A 25-year-old female presents with episodic unilateral, throbbing headaches associated with nausea and photophobia. She mentions seeing 'flashing lights' before the pain starts. Diagnosis?",
+    "option_a": "Cluster headache",
+    "option_b": "Migraine with aura",
+    "option_c": "Tension-type headache",
+    "option_d": "Trigeminal neuralgia",
     "correct_answer": "B",
-    "explanation": "Gower's sign indicates proximal muscle weakness, which is a hallmark clinical finding in Duchenne Muscular Dystrophy."
+    "explanation": "Unilateral throbbing pain with nausea and sensory symptoms (aura) is the classic presentation of a migraine."
   },
   {
-    "question": "A newborn infant presents with ambiguous genitalia and severe hyponatremia and hyperkalemia on day 10 of life. What is the most likely diagnosis?",
-    "option_a": "Turner Syndrome",
-    "option_b": "Salt-wasting Congenital Adrenal Hyperplasia",
-    "option_c": "Androgen Insensitivity Syndrome",
-    "option_d": "Klinefelter Syndrome",
+    "question": "A patient presents with a 'blown pupil' (fixed and dilated) on the right side following a head injury. Which cranial nerve is likely being compressed?",
+    "option_a": "CN II",
+    "option_b": "CN III (Oculomotor)",
+    "option_c": "CN IV",
+    "option_d": "CN VI",
     "correct_answer": "B",
-    "explanation": "Salt-wasting CAH presents with adrenal crisis (electrolyte imbalance) and virilization in females due to excess androgens."
+    "explanation": "Uncal herniation compresses CN III, paralyzing the parasympathetic fibers that control pupillary constriction."
   },
   {
-    "question": "What is the most common clinical manifestation of 'Juvenile Idiopathic Arthritis' (JIA) - Oligoarticular type?",
-    "option_a": "Symmetric involvement of small joints",
-    "option_b": "Involvement of four or fewer large joints (e.g., knee, ankle)",
-    "option_c": "High spiking fevers and salmon-colored rash",
-    "option_d": "Permanent blindness in all cases",
+    "question": "Which of the following describes 'Status Epilepticus'?",
+    "option_a": "A seizure lasting more than 30 seconds",
+    "option_b": "A seizure lasting more than 5 minutes, or recurrent seizures without recovery in between",
+    "option_c": "A seizure followed by a long post-ictal period",
+    "option_d": "Any seizure involving loss of consciousness",
     "correct_answer": "B",
-    "explanation": "Oligoarticular JIA affects ≤4 joints, usually large ones like the knee, and is associated with a risk of chronic uveitis."
+    "explanation": "Status epilepticus is a neurological emergency requiring aggressive intervention to prevent permanent brain damage."
   },
   {
-    "question": "A child presents with a 'barking' cough, stridor, and a 'steeple sign' on a frontal neck X-ray. What is the most appropriate initial treatment for moderate symptoms?",
-    "option_a": "Intravenous antibiotics",
-    "option_b": "Dexamethasone and nebulized Epinephrine",
-    "option_c": "Salbutamol nebulizer",
-    "option_d": "Chest tube insertion",
+    "question": "What is the most common cause of 'Dementia' in the elderly population?",
+    "option_a": "Vascular dementia",
+    "option_b": "Alzheimer's Disease",
+    "option_c": "Lewy Body dementia",
+    "option_d": "Frontotemporal dementia",
     "correct_answer": "B",
-    "explanation": "Croup is a viral inflammatory condition of the upper airway; steroids reduce edema, and epinephrine provides rapid temporary relief of stridor."
+    "explanation": "Alzheimer's accounts for approximately 60-80% of all dementia cases."
   },
   {
-    "question": "Which of the following is the most common cause of 'Acute Epiglottitis' in an unimmunized child?",
-    "option_a": "Streptococcus pneumoniae",
-    "option_b": "Haemophilus influenzae type b (Hib)",
-    "option_c": "Staphylococcus aureus",
-    "option_d": "Parainfluenza virus",
+    "question": "A patient presents with 'ascending' muscle weakness and loss of deep tendon reflexes following a diarrheal illness. What is the most likely diagnosis?",
+    "option_a": "Multiple Sclerosis",
+    "option_b": "Guillain-Barré Syndrome (GBS)",
+    "option_c": "Myasthenia Gravis",
+    "option_d": "Amyotrophic Lateral Sclerosis (ALS)",
     "correct_answer": "B",
-    "explanation": "Hib was the leading cause before the vaccine; it remains the most common cause in unimmunized populations."
+    "explanation": "GBS is an acute post-infectious polyneuropathy characterized by ascending paralysis and areflexia."
   },
   {
-    "question": "A 10-year-old child presents with sudden onset of severe polyuria, polydipsia, and weight loss. Blood glucose is 450 mg/dL. What is the next most important test to rule out an emergency?",
-    "option_a": "HbA1c",
-    "option_b": "Urine ketones and blood pH (ABG/VBG)",
-    "option_c": "Oral glucose tolerance test",
-    "option_d": "C-peptide level",
+    "question": "Which of the following CSF findings is highly suggestive of Multiple Sclerosis (MS)?",
+    "option_a": "Low glucose and high protein",
+    "option_b": "Oligoclonal bands (IgG) and increased IgG index",
+    "option_c": "Presence of red blood cells",
+    "option_d": "High neutrophils",
     "correct_answer": "B",
-    "explanation": "The primary concern is Diabetic Ketoacidosis (DKA), which must be identified by checking for metabolic acidosis and ketosis."
+    "explanation": "Oligoclonal bands represent intrathecal immunoglobulin production, a characteristic finding in MS."
   },
   {
-    "question": "What is the characteristic clinical finding in 'Reye Syndrome'?",
-    "option_a": "Chronic liver cirrhosis",
-    "option_b": "Acute encephalopathy and fatty liver infiltration following aspirin use for a viral illness",
-    "option_c": "Persistent high fever and rash",
-    "option_d": "Kidney failure after a strep infection",
+    "question": "A 70-year-old male presents with the 'worst headache of his life'. Non-contrast Head CT shows hyperdensity in the basal cisterns. Diagnosis?",
+    "option_a": "Ischemic stroke",
+    "option_b": "Subarachnoid Hemorrhage (SAH)",
+    "option_c": "Epidural hematoma",
+    "option_d": "Brain tumor",
     "correct_answer": "B",
-    "explanation": "Reye Syndrome is associated with aspirin use in children during influenza or varicella infections."
+    "explanation": "The 'thunderclap' headache and white (blood) in the cisterns/sulci are diagnostic for SAH, usually from a ruptured aneurysm."
   },
   {
-    "question": "A child is able to use a spoon well, jump with both feet, and has a vocabulary of about 200 words. What is the most likely age?",
-    "option_a": "12 months",
-    "option_b": "2 years",
-    "option_c": "4 years",
-    "option_d": "5 years",
+    "question": "What is the first-line pharmacological treatment for an acute 'Cluster Headache'?",
+    "option_a": "Propranolol",
+    "option_b": "100% High-flow Oxygen or subcutaneous Sumatriptan",
+    "option_c": "Aspirin",
+    "option_d": "Amitriptyline",
     "correct_answer": "B",
-    "explanation": "Jumping with both feet and 2-word phrases/200 words are classic 24-month (2-year) milestones."
+    "explanation": "Oxygen is highly effective for aborting cluster attacks, which are characterized by severe orbital pain."
   },
   {
-    "question": "Which of the following is the primary risk of 'Kernicterus' in a neonate?",
-    "option_a": "Permanent liver damage",
-    "option_b": "Irreversible brain damage due to bilirubin deposition in the basal ganglia",
-    "option_c": "Chronic heart failure",
-    "option_d": "Severe iron deficiency",
+    "question": "Which cranial nerve is affected in 'Bell's Palsy', causing unilateral facial drooping that involves the forehead?",
+    "option_a": "CN V",
+    "option_b": "CN VII (Facial)",
+    "option_c": "CN III",
+    "option_d": "CN XII",
     "correct_answer": "B",
-    "explanation": "High levels of unconjugated bilirubin cross the blood-brain barrier and are toxic to neural tissue."
+    "explanation": "A lower motor neuron lesion of the facial nerve affects all muscles of facial expression on one side, including the forehead."
   },
   {
-    "question": "In a child with suspected 'Iron Poisoning', what is the specific antidote?",
-    "option_a": "N-acetylcysteine",
-    "option_b": "Deferoxamine",
-    "option_c": "Naloxone",
-    "option_d": "Atropine",
+    "question": "A patient presents with 'fluctuating' muscle weakness that worsens with repetitive use and improves with rest. Ptosis is noted. What is the suspected pathology?",
+    "option_a": "Myelin destruction",
+    "option_b": "Autoantibodies against acetylcholine receptors at the neuromuscular junction",
+    "option_c": "Degeneration of upper motor neurons",
+    "option_d": "Peripheral nerve inflammation",
     "correct_answer": "B",
-    "explanation": "Deferoxamine is a chelating agent that binds free iron and allows for its excretion in the urine."
+    "explanation": "This describes Myasthenia Gravis, where antibodies block or destroy ACh receptors."
   },
   {
-    "question": "Which of the following describes 'Scarlet Fever'?",
-    "option_a": "A viral infection with Koplik spots",
-    "option_b": "A complication of Group A Strep pharyngitis with a sandpaper rash and strawberry tongue",
-    "option_c": "A type of heart murmur",
-    "option_d": "A chronic joint disease",
+    "question": "Which of the following is a symptom of 'Wernicke's Encephalopathy'?",
+    "option_a": "Hypertension and fever",
+    "option_b": "Ophthalmoplegia, Ataxia, and Confusion",
+    "option_c": "Severe diarrhea and rash",
+    "option_d": "Sudden loss of hearing",
     "correct_answer": "B",
-    "explanation": "Scarlet fever is caused by erythrogenic toxins from Streptococcus pyogenes."
+    "explanation": "Wernicke's is caused by thiamine (B1) deficiency, classic in alcohol use disorder."
   },
   {
-    "question": "What is the 'Rule of 9s' estimate for a toddler's head compared to an adult?",
-    "option_a": "The head is smaller (9%)",
-    "option_b": "The head is larger (approximately 18%)",
-    "option_c": "It is the same (9%)",
-    "option_d": "The head is not counted",
+    "question": "A patient has a 'right-sided' homonymous hemianopsia. Where is the most likely site of the lesion?",
+    "option_a": "Right optic nerve",
+    "option_b": "Left optic tract",
+    "option_c": "Optic chiasm",
+    "option_d": "Left optic nerve",
     "correct_answer": "B",
-    "explanation": "In young children, the head occupies a larger percentage of total body surface area (~18%) while the legs are smaller."
+    "explanation": "A lesion of the optic tract causes loss of vision in the opposite visual field of both eyes."
   },
   {
-    "question": "A child presents with a 'currant jelly' stool and episodic crying. What is the most likely diagnosis?",
-    "option_a": "Meckel's Diverticulum",
-    "option_b": "Intussusception",
-    "option_c": "Pyloric Stenosis",
-    "option_d": "Appendicitis",
+    "question": "Which of the following is the definitive diagnostic test for 'Amyotrophic Lateral Sclerosis' (ALS)?",
+    "option_a": "Muscle biopsy",
+    "option_b": "Clinical diagnosis based on upper and lower motor neuron signs",
+    "option_c": "Genetic testing only",
+    "option_d": "Brain MRI",
     "correct_answer": "B",
-    "explanation": "Intussusception presents with the classic triad of colicky pain, vomiting, and currant jelly (bloody/mucoid) stools."
+    "explanation": "ALS is diagnosed clinically when there is evidence of progressive degeneration of both UMNs (spasticity/reflexes) and LMNs (atrophy/fasciculations)."
   },
   {
-    "question": "Which congenital heart disease presents with 'narrowing of the aortic arch' and higher blood pressure in the arms than the legs?",
-    "option_a": "VSD",
-    "option_b": "Coarctation of the Aorta",
-    "option_c": "Tetralogy of Fallot",
-    "option_d": "PDA",
+    "question": "A patient with 'L-Dopa' induced dyskinesia is treated for Parkinson's. What is the mechanism of L-Dopa?",
+    "option_a": "Direct dopamine receptor agonist",
+    "option_b": "Precursor of dopamine that crosses the blood-brain barrier",
+    "option_c": "Inhibition of MAO-B",
+    "option_d": "Anticholinergic action",
     "correct_answer": "B",
-    "explanation": "The obstruction in the aorta leads to decreased perfusion of the lower body and hypertension in the upper body."
+    "explanation": "Dopamine itself cannot cross the BBB; Levodopa is transported into the brain and converted to dopamine."
   },
   {
-    "question": "What is the primary treatment for 'Minimal Change Disease'?",
-    "option_a": "Cyclophosphamide",
-    "option_b": "Corticosteroids (Prednisone)",
-    "option_c": "Antibiotics",
-    "option_d": "Surgery",
+    "question": "Which form of 'Dementia' is characterized by early personality changes, disinhibition, and language dysfunction?",
+    "option_a": "Alzheimer's",
+    "option_b": "Frontotemporal Dementia (Pick's disease)",
+    "option_c": "Vascular dementia",
+    "option_d": "Creutzfeldt-Jakob",
     "correct_answer": "B",
-    "explanation": "Minimal Change Disease is the most common cause of nephrotic syndrome in children and is usually highly responsive to steroids."
+    "explanation": "Frontal and temporal lobe atrophy leads to behavioral and executive dysfunction before memory loss."
   },
   {
-    "question": "Which of the following is true for 'Meconium Ileus'?",
-    "option_a": "It is diagnostic of Pyloric Stenosis",
-    "option_b": "It is a presentation of Cystic Fibrosis in the newborn",
-    "option_c": "It occurs only in preterm infants",
-    "option_d": "It is caused by a virus",
+    "question": "A patient presents with 'scanning speech', 'intention tremor', and 'nystagmus' (Charcot's neurologic triad). This is classic for:",
+    "option_a": "Stroke",
+    "option_b": "Multiple Sclerosis",
+    "option_c": "Parkinson's",
+    "option_d": "ALS",
     "correct_answer": "B",
-    "explanation": "Abnormally thick meconium causes obstruction in the terminal ileum and is a hallmark early sign of CF."
+    "explanation": "This triad reflects cerebellar and brainstem involvement in MS."
   },
   {
-    "question": "A 15-year-old girl with primary amenorrhea has a webbed neck and low-set ears. What is the expected chromosomal finding?",
-    "option_a": "47, XXY",
-    "option_b": "45, X (Turner Syndrome)",
-    "option_c": "Trisomy 21",
-    "option_d": "46, XX",
+    "question": "What is the most appropriate first-line drug for a patient with 'Absence Seizures'?",
+    "option_a": "Phenytoin",
+    "option_b": "Ethosuximide",
+    "option_c": "Carbamazepine",
+    "option_d": "Diazepam",
     "correct_answer": "B",
-    "explanation": "Turner Syndrome is defined by the loss of one X chromosome, causing short stature and streak ovaries."
+    "explanation": "Ethosuximide is specific for absence (petit mal) seizures in children."
   },
   {
-    "question": "What is the classic triad of 'Congenital Toxoplasmosis'?",
-    "option_a": "Deafness, Cataracts, Heart defects",
-    "option_b": "Chorioretinitis, Hydrocephalus, Intracranial calcifications",
-    "option_c": "Snuffles, Saddle nose, Hutchinson teeth",
-    "option_d": "Jaundice, Splenomegaly, Rash",
+    "question": "Which nerve is being tested when assessing the 'Gag Reflex'?",
+    "option_a": "CN VII and CN VIII",
+    "option_b": "CN IX (Glossopharyngeal) and CN X (Vagus)",
+    "option_c": "CN V and CN VII",
+    "option_d": "CN XII only",
     "correct_answer": "B",
-    "explanation": "These three findings are pathognomonic for toxoplasmosis infection acquired in utero."
+    "explanation": "CN IX provides the sensory limb and CN X provides the motor limb of the gag reflex."
   },
   {
-    "question": "Which antibiotic is contraindicated in children under 8 years of age because it can cause permanent tooth discoloration?",
-    "option_a": "Amoxicillin",
-    "option_b": "Tetracyclines (e.g., Doxycycline)",
-    "option_c": "Azithromycin",
-    "option_d": "Cefotaxime",
+    "question": "A patient with 'Bitemporal Hemianopsia' (loss of outer visual fields) most likely has a lesion at the:",
+    "option_a": "Left optic nerve",
+    "option_b": "Optic chiasm (e.g., Pituitary tumor)",
+    "option_c": "Right occipital lobe",
+    "option_d": "Left lateral geniculate nucleus",
     "correct_answer": "B",
-    "explanation": "Tetracyclines deposit in developing teeth and bones, leading to permanent yellow-brown staining."
+    "explanation": "Pressure on the central optic chiasm affects the decussating fibers from the nasal retinas."
   },
   {
-    "question": "What is the 'first-line' treatment for an infant with 'Acute Otitis Media' and severe symptoms?",
-    "option_a": "Ciprofloxacin",
-    "option_b": "High-dose Amoxicillin",
-    "option_c": "Topical steroids",
-    "option_d": "Myringotomy only",
+    "question": "Which of the following is true regarding 'Essential Tremor'?",
+    "option_a": "It is a resting tremor",
+    "option_b": "It is a postural/action tremor that often improves with alcohol",
+    "option_c": "It is always associated with dementia",
+    "option_d": "It only occurs in one hand",
     "correct_answer": "B",
-    "explanation": "Amoxicillin is the standard first-line treatment for bacterial middle ear infections in children."
+    "explanation": "Unlike Parkinson's, essential tremor occurs during movement or maintaining a posture."
   },
   {
-    "question": "Which of the following is a symptom of 'Vitamin D' deficiency (Rickets) in a child?",
-    "option_a": "Night blindness",
-    "option_b": "Craniotabes (softening of skull bones) and bowing of the legs",
-    "option_c": "Scurvy",
-    "option_d": "Hypercalcemia",
+    "question": "What is the 'Gold Standard' for diagnosing a 'Brain Abscess'?",
+    "option_a": "Blood cultures",
+    "option_b": "Contrast-enhanced MRI",
+    "option_c": "Lumbar puncture",
+    "option_d": "Electroencephalogram (EEG)",
     "correct_answer": "B",
-    "explanation": "Vitamin D is essential for bone mineralization; deficiency causes soft bones and deformities."
+    "explanation": "MRI shows a characteristic ring-enhancing lesion with central necrosis and surrounding edema."
   },
   {
-    "question": "At what age should a child double their birth weight?",
-    "option_a": "2 months",
-    "option_b": "4-5 months",
-    "option_c": "12 months",
-    "option_d": "2 years",
+    "question": "A patient presents with 'Ptosis', 'Miosis', and 'Anhidrosis'. What is the name of this triad?",
+    "option_a": "Cushing's triad",
+    "option_b": "Horner's Syndrome",
+    "option_c": "Wernicke's triad",
+    "option_d": "Virchow's triad",
     "correct_answer": "B",
-    "explanation": "Infants typically double their weight by 5 months and triple it by 1 year."
+    "explanation": "Horner's syndrome results from a disruption of the sympathetic pathway to the eye."
   },
   {
-    "question": "Which of the following is a classic finding in 'Pyloric Stenosis'?",
-    "option_a": "Bilious vomiting",
-    "option_b": "Non-bilious projectile vomiting and an 'olive' mass in the abdomen",
-    "option_c": "Chronic diarrhea",
+    "question": "Which part of the brain is responsible for 'Expressive Aphasia' (Broca's Aphasia)?",
+    "option_a": "Superior temporal gyrus",
+    "option_b": "Inferior frontal gyrus of the dominant hemisphere",
+    "option_c": "Occipital lobe",
+    "option_d": "Postcentral gyrus",
+    "correct_answer": "B",
+    "explanation": "Broca's area is involved in speech production; damage results in slow, effortful speech."
+  },
+  {
+    "question": "What is the classic EEG finding in 'Creutzfeldt-Jakob Disease'?",
+    "option_a": "3 Hz spike-and-wave",
+    "option_b": "Periodic sharp wave complexes",
+    "option_c": "Diffuse slowing only",
+    "option_d": "Normal activity",
+    "correct_answer": "B",
+    "explanation": "Periodic complexes are highly characteristic of this rapidly progressive prion disease."
+  },
+  {
+    "question": "Which of the following is a 'Lower Motor Neuron' sign?",
+    "option_a": "Hyperreflexia",
+    "option_b": "Muscle atrophy and fasciculations",
+    "option_c": "Spasticity",
+    "option_d": "Babinski sign (upgoing toe)",
+    "correct_answer": "B",
+    "explanation": "LMN signs indicate damage to the motor neurons in the spinal cord or peripheral nerves."
+  },
+  {
+    "question": "In a patient with suspected 'Meningitis', a positive Kernig's sign is described as:",
+    "option_a": "Neck pain when the hips are flexed",
+    "option_b": "Resistance and pain when extending the knee with the hip flexed",
+    "option_c": "Involuntary flexion of the hips when the neck is flexed",
+    "option_d": "Dilation of the pupils",
+    "correct_answer": "B",
+    "explanation": "This maneuver stretches the inflamed meninges, causing pain and resistance."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Intracerebral Hemorrhage'?",
+    "option_a": "Trauma",
+    "option_b": "Chronic hypertension",
+    "option_c": "Amyloid angiopathy",
+    "option_d": "Ruptured aneurysm",
+    "correct_answer": "B",
+    "explanation": "Long-standing high blood pressure leads to the rupture of small deep-penetrating arteries (Charcot-Bouchard aneurysms)."
+  },
+  {
+    "question": "What is the definitive treatment for 'Temporal Arteritis' (Giant Cell Arteritis) to prevent blindness?",
+    "option_a": "Aspirin",
+    "option_b": "High-dose Corticosteroids",
+    "option_c": "Surgery",
+    "option_d": "Antibiotics",
+    "correct_answer": "B",
+    "explanation": "Immediate steroids are required to prevent ischemic optic neuropathy."
+  },
+  {
+    "question": "Which neurotransmitter is primarily depleted in 'Alzheimer's Disease'?",
+    "option_a": "Dopamine",
+    "option_b": "Acetylcholine",
+    "option_c": "Serotonin",
+    "option_d": "GABA",
+    "correct_answer": "B",
+    "explanation": "Loss of cholinergic neurons in the nucleus basalis of Meynert is a key feature, which is why AChE inhibitors are used in treatment."
+  },
+  {
+    "question": "A patient with 'Huntington's Disease' presents with chorea and cognitive decline. What is the genetic basis?",
+    "option_a": "Trisomy 21",
+    "option_b": "CAG repeat expansion in the HTT gene",
+    "option_c": "X-linked recessive",
+    "option_d": "Point mutation in p53",
+    "correct_answer": "B",
+    "explanation": "Huntington's is an autosomal dominant trinucleotide repeat disorder."
+  },
+  {
+    "question": "Which of the following describes 'Lhermitte's sign' in Multiple Sclerosis?",
+    "option_a": "Double vision",
+    "option_b": "An electric-shock sensation down the spine upon neck flexion",
+    "option_c": "Sudden loss of balance",
+    "option_d": "Difficulty swallowing",
+    "correct_answer": "B",
+    "explanation": "This sign indicates cervical spinal cord involvement (demyelination)."
+  },
+  {
+    "question": "A patient presents with a 'stepping gait' due to foot drop. Which nerve is likely injured?",
+    "option_a": "Femoral nerve",
+    "option_b": "Common Peroneal (Fibular) nerve",
+    "option_c": "Tibial nerve",
+    "option_d": "Obturator nerve",
+    "correct_answer": "B",
+    "explanation": "The common peroneal nerve supplies the dorsiflexors of the foot."
+  },
+  {
+    "question": "What is the 'Gold Standard' imaging for evaluating 'Cerebral Venous Sinus Thrombosis'?",
+    "option_a": "Non-contrast CT",
+    "option_b": "MRV (Magnetic Resonance Venography) or CTV",
+    "option_c": "Carotid Ultrasound",
+    "option_d": "Abdominal CT",
+    "correct_answer": "B",
+    "explanation": "Venography is required to visualize the filling defects in the dural sinuses."
+  },
+  {
+    "question": "Which of the following is true regarding 'Normal Pressure Hydrocephalus' (NPH)?",
+    "option_a": "It presents with the triad: Gait disturbance, Dementia, and Urinary Incontinence",
+    "option_b": "The opening pressure on LP is extremely high",
+    "option_c": "It only occurs in children",
+    "option_d": "It is caused by a brain tumor",
+    "correct_answer": "A",
+    "explanation": "Mnemonic: 'Wet, Wacky, and Wobbly'."
+  },
+  {
+    "question": "Which artery is most likely involved in a stroke presenting with 'contralateral leg' weakness more than arm/face weakness?",
+    "option_a": "Middle Cerebral Artery (MCA)",
+    "option_b": "Anterior Cerebral Artery (ACA)",
+    "option_c": "Posterior Cerebral Artery (PCA)",
+    "option_d": "Basilar Artery",
+    "correct_answer": "B",
+    "explanation": "The ACA supplies the medial aspect of the motor cortex, where the leg representation is located."
+  },
+  {
+    "question": "A patient presents with 'painless' weakness of the hands, fasciculations, and hyperreflexia. No sensory loss is noted. Diagnosis?",
+    "option_a": "Peripheral neuropathy",
+    "option_b": "Amyotrophic Lateral Sclerosis (ALS)",
+    "option_c": "Stroke",
+    "option_d": "MS",
+    "correct_answer": "B",
+    "explanation": "Combined UMN (hyperreflexia) and LMN (fasciculations) signs without sensory involvement is classic for ALS."
+  },
+  {
+    "question": "What is the primary medication used for 'Relapse' prevention in Relapsing-Remitting Multiple Sclerosis?",
+    "option_a": "Intravenous steroids",
+    "option_b": "Interferon-beta or Glatiramer acetate",
+    "option_c": "Dopamine",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Disease-modifying therapies (DMTs) are used to reduce the frequency of MS relapses."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Tabes Dorsalis' (Tertiary Syphilis)?",
+    "option_a": "Hyperreflexia",
+    "option_b": "Loss of vibration and position sense with Argyll Robertson pupils",
+    "option_c": "Chorea",
+    "option_d": "Muscle hypertrophy",
+    "correct_answer": "B",
+    "explanation": "Degeneration of the dorsal columns leads to sensory ataxia and impaired proprioception."
+  },
+  {
+    "question": "What is the mechanism of action of 'Sumatriptan' in migraine treatment?",
+    "option_a": "Beta-blocker",
+    "option_b": "5-HT 1B/1D receptor agonist (vasoconstriction)",
+    "option_c": "Calcium channel blocker",
+    "option_d": "Dopamine antagonist",
+    "correct_answer": "B",
+    "explanation": "Triptans cause selective vasoconstriction of cranial vessels and inhibit proinflammatory neuropeptide release."
+  },
+  {
+    "question": "A patient presents with 'double vision' that is worse when looking down (e.g., walking down stairs). Which cranial nerve is affected?",
+    "option_a": "CN III",
+    "option_b": "CN IV (Trochlear)",
+    "option_c": "CN VI",
+    "option_d": "CN II",
+    "correct_answer": "B",
+    "explanation": "CN IV supplies the superior oblique muscle, which depresses and intorts the eye."
+  },
+  {
+    "question": "Which of the following describes 'Todd's Paralysis'?",
+    "option_a": "Permanent paralysis after a stroke",
+    "option_b": "Transient focal neurological deficit (like hemiparesis) following a seizure",
+    "option_c": "A type of muscular dystrophy",
+    "option_d": "Sleep paralysis",
+    "correct_answer": "B",
+    "explanation": "Todd's paralysis usually lasts for minutes to hours and resolves completely."
+  },
+  {
+    "question": "What is the treatment of choice for 'Trigeminal Neuralgia'?",
+    "option_a": "Morphine",
+    "option_b": "Carbamazepine",
+    "option_c": "High-flow oxygen",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Carbamazepine is highly effective for the paroxysmal 'electric shock' pain of CN V neuralgia."
+  },
+  {
+    "question": "In a patient with 'Myasthenia Gravis', a 'Myasthenic Crisis' is primarily characterized by:",
+    "option_a": "Severe headache",
+    "option_b": "Respiratory failure due to diaphragm weakness",
+    "option_c": "Uncontrollable tremors",
     "option_d": "High fever",
     "correct_answer": "B",
-    "explanation": "The hypertrophy of the pyloric muscle causes a physical obstruction at the stomach outlet."
+    "explanation": "Crisis requires urgent intubation and treatment with IVIG or Plasmapheresis."
   },
   {
-    "question": "A 10-year-old child presents with 'joint pain' and a 'target-like' rash after a hiking trip. Diagnosis?",
-    "option_a": "Rheumatic Fever",
-    "option_b": "Lyme Disease",
-    "option_c": "Kawasaki Disease",
-    "option_d": "Scarlet Fever",
+    "question": "Which anatomical structure is the primary site of damage in 'Multiple Sclerosis'?",
+    "option_a": "The axon itself",
+    "option_b": "The myelin sheath in the CNS",
+    "option_c": "The cell body of the neuron",
+    "option_d": "The muscle fiber",
     "correct_answer": "B",
-    "explanation": "Erythema migrans (the target rash) is the hallmark sign of early Lyme disease."
+    "explanation": "MS is an autoimmune inflammatory disease that causes focal demyelination."
   },
   {
-    "question": "Which chromosome is affected in 'Down Syndrome'?",
-    "option_a": "Trisomy 13",
-    "option_b": "Trisomy 21",
-    "option_c": "Trisomy 18",
-    "option_d": "45, X",
+    "question": "A patient presents with 'painless' loss of vision in one eye and an 'Afferent Pupillary Defect' (Marcus Gunn pupil). Diagnosis?",
+    "option_a": "Cataract",
+    "option_b": "Optic Neuritis",
+    "option_c": "Glaucoma",
+    "option_d": "Retinal detachment",
     "correct_answer": "B",
-    "explanation": "Down Syndrome is caused by an extra copy of chromosome 21."
+    "explanation": "Optic neuritis is often the first manifestation of Multiple Sclerosis."
   },
   {
-    "question": "What is the primary treatment for 'Bronchiolitis' caused by RSV in a healthy 6-month-old?",
-    "option_a": "Antibiotics and steroids",
-    "option_b": "Supportive care (hydration and oxygen if needed)",
-    "option_c": "Intubation for all cases",
-    "option_d": "Inhaled Albuterol for everyone",
+    "question": "What is the primary diagnostic find in 'Lambert-Eaton Myasthenic Syndrome'?",
+    "option_a": "Antibodies against postsynaptic ACh receptors",
+    "option_b": "Antibodies against presynaptic voltage-gated calcium channels",
+    "option_c": "Muscle fiber necrosis",
+    "option_d": "Brain atrophy",
     "correct_answer": "B",
-    "explanation": "Bronchiolitis is viral; management is primarily supportive as bronchodilators and steroids have not shown benefit for most cases."
+    "explanation": "Often paraneoplastic (e.g., small cell lung cancer), LEMS causes weakness that improves with exercise."
   },
   {
-    "question": "Which of the following is a classic finding in 'Kawasaki Disease'?",
-    "option_a": "High fever for >5 days, conjunctivitis, and 'strawberry tongue'",
-    "option_b": "Chronic flaccid paralysis",
-    "option_c": "Painless joint swelling",
-    "option_d": "Low blood sugar",
-    "correct_answer": "A",
-    "explanation": "Kawasaki is a systemic vasculitis involving specific clinical criteria including prolonged fever and mucosal changes."
-  },
-  {
-    "question": "What is the recommended age for the first dose of the 'MMR' vaccine?",
-    "option_a": "Birth",
-    "option_b": "12-15 months",
-    "option_c": "4-6 years",
-    "option_d": "2 months",
+    "question": "Which of the following is true for 'Generalized Tonic-Clonic Seizures'?",
+    "option_a": "The patient remains conscious",
+    "option_b": "Involves sudden loss of consciousness, muscle rigidity (tonic), followed by rhythmic jerking (clonic)",
+    "option_c": "Only involves the hand",
+    "option_d": "Always lasts more than 1 hour",
     "correct_answer": "B",
-    "explanation": "Live vaccines like MMR are given after 1 year to avoid interference from maternal antibodies."
+    "explanation": "This is the classic 'grand mal' seizure pattern."
   },
   {
-    "question": "Which of the following is a symptom of 'Post-streptococcal Glomerulonephritis'?",
-    "option_a": "Massive proteinuria only",
-    "option_b": "Edema, hypertension, and 'cola-colored' urine (hematuria)",
-    "option_c": "Chronic diarrhea",
-    "option_d": "High fever",
+    "question": "The 'Dix-Hallpike maneuver' is used to diagnose which condition?",
+    "option_a": "Stroke",
+    "option_b": "Benign Paroxysmal Positional Vertigo (BPPV)",
+    "option_c": "Multiple Sclerosis",
+    "option_d": "Brain tumor",
     "correct_answer": "B",
-    "explanation": "PSGN is a nephritic syndrome that occurs after a Group A Strep infection."
-  },
-  {
-    "question": "A child presents with 'slapped-cheek' rash. Which virus is responsible?",
-    "option_a": "Measles",
-    "option_b": "Parvovirus B19",
-    "option_c": "Rubella",
-    "option_d": "HHV-6",
-    "correct_answer": "B",
-    "explanation": "Parvovirus B19 causes Erythema Infectiosum (Fifth Disease)."
-  },
-  {
-    "question": "What is the treatment for 'Pinworm' (Enterobius vermicularis)?",
-    "option_a": "Metronidazole",
-    "option_b": "Albendazole or Pyrantel pamoate",
-    "option_c": "Penicillin",
-    "option_d": "Permethrin",
-    "correct_answer": "B",
-    "explanation": "A single dose of albendazole followed by a second dose in 2 weeks is the standard therapy."
-  },
-  {
-    "question": "Which congenital condition presents with 'Macroglossia' and 'Omphalocele' and carries a high risk of Wilms tumor?",
-    "option_a": "Down Syndrome",
-    "option_b": "Beckwith-Wiedemann Syndrome",
-    "option_c": "Turner Syndrome",
-    "option_d": "Marfan Syndrome",
-    "correct_answer": "B",
-    "explanation": "This overgrowth syndrome involves macroglossia and increased risk for embryonal tumors."
-  },
-  {
-    "question": "What does a GCS score of 8 or less usually indicate in a child with head trauma?",
-    "option_a": "Mild concussion",
-    "option_b": "Severe brain injury; the patient likely needs intubation to protect the airway",
-    "option_c": "Normal response",
-    "option_d": "The child is just sleepy",
-    "correct_answer": "B",
-    "explanation": "A score of 8 or less signifies coma and requires definitive airway management."
-  },
-  {
-    "question": "Which chromosome deletion is associated with 'DiGeorge Syndrome'?",
-    "option_a": "5p deletion",
-    "option_b": "22q11.2 deletion",
-    "option_c": "15q deletion",
-    "option_d": "Trisomy 18",
-    "correct_answer": "B",
-    "explanation": "DiGeorge Syndrome (CATCH-22) results from a microdeletion on chromosome 22."
-  },
-  {
-    "question": "A child is able to roll over, reach for objects, and sit with support. Approximate age?",
-    "option_a": "2 months",
-    "option_b": "4 months",
-    "option_c": "6 months",
-    "option_d": "9 months",
-    "correct_answer": "B",
-    "explanation": "Reaching and rolling are 4-month milestones; sitting with support is also characteristic."
-  },
-  {
-    "question": "What is the primary treatment for 'Septic Shock' in a child?",
-    "option_a": "Oral fluids",
-    "option_b": "Aggressive IV fluid resuscitation (20 mL/kg boluses) and antibiotics",
-    "option_c": "Wait for blood cultures",
-    "option_d": "Steroids only",
-    "correct_answer": "B",
-    "explanation": "Early fluid boluses and prompt broad-spectrum antibiotics are critical for survival in sepsis."
-  },
-  {
-    "question": "Which of the following is true for 'Febrile Seizures'?",
-    "option_a": "They are usually benign and do not require daily anticonvulsant therapy",
-    "option_b": "They always lead to permanent brain damage",
-    "option_c": "They only occur in teenagers",
-    "option_d": "They occur without fever",
-    "correct_answer": "A",
-    "explanation": "Simple febrile seizures are brief and common in children 6 months to 5 years, with an excellent prognosis."
-  },
-  {
-    "question": "A child presents with 'honey-colored' crusts on the face. Diagnosis?",
-    "option_a": "Cellulitis",
-    "option_b": "Impetigo",
-    "option_c": "Acne",
-    "option_d": "Fungal infection",
-    "correct_answer": "B",
-    "explanation": "Impetigo is a superficial bacterial infection, classic for its golden-colored crusts."
-  },
-  {
-    "question": "What is the primary management for 'Moderate' dehydration in a child who can drink?",
-    "option_a": "IV bolus immediately",
-    "option_b": "Oral Rehydration Therapy (ORT)",
-    "option_c": "Clear water only",
-    "option_d": "Apple juice",
-    "correct_answer": "B",
-    "explanation": "ORT is the preferred treatment for mild-to-moderate dehydration in the absence of severe vomiting."
-  },
-  {
-    "question": "Which of the following is a 'Cyanotic' heart defect?",
-    "option_a": "ASD",
-    "option_b": "Tetralogy of Fallot",
-    "option_c": "PDA",
-    "option_d": "VSD",
-    "correct_answer": "B",
-    "explanation": "ToF involves a right-to-left shunt that leads to low systemic oxygen saturation."
-  },
-  {
-    "question": "A child is able to climb stairs with alternating feet, copy a circle, and use 3-4 word sentences. Approximate age?",
-    "option_a": "2 years",
-    "option_b": "3 years",
-    "option_c": "4 years",
-    "option_d": "5 years",
-    "correct_answer": "B",
-    "explanation": "Riding a tricycle and copying a circle are hallmark 3-year-old milestones."
-  },
-  {
-    "question": "What is the 'Gold Standard' for the diagnosis of Cystic Fibrosis?",
-    "option_a": "Chest X-ray",
-    "option_b": "Sweat Chloride Test",
-    "option_c": "Sputum culture",
-    "option_d": "Fecal fat analysis",
-    "correct_answer": "B",
-    "explanation": "A high concentration of chloride in sweat confirms the diagnosis of CF."
-  },
-  {
-    "question": "Which of the following is characteristic of 'Nursemaid's Elbow'?",
-    "option_a": "Complete fracture of the radius",
-    "option_b": "Radial head subluxation, often after a pull on the arm",
-    "option_c": "Dislocation of the shoulder",
-    "option_d": "Septic arthritis",
-    "correct_answer": "B",
-    "explanation": "A sudden tug on a child's extended arm can cause the annular ligament to slip over the radial head."
-  },
-  {
-    "question": "A child presents with fever, parotitis (swollen jaw), and orchitis. Which virus?",
-    "option_a": "Measles",
-    "option_b": "Mumps",
-    "option_c": "Rubella",
-    "option_d": "Influenza",
-    "correct_answer": "B",
-    "explanation": "Mumps is a paramyxovirus that classically targets the parotid and salivary glands."
-  },
-  {
-    "question": "What is the definitive treatment for 'Testicular Torsion'?",
-    "option_a": "Antibiotics",
-    "option_b": "Emergency surgical detorsion and orchiopexy",
-    "option_c": "Manual reduction only",
-    "option_d": "Observation",
-    "correct_answer": "B",
-    "explanation": "Torsion is a surgical emergency; the testicle must be untwisted within hours to avoid infarction."
-  },
-  {
-    "question": "Which congenital infection presents with 'snuffles' and a peeling rash on the palms and soles?",
-    "option_a": "Toxoplasmosis",
-    "option_b": "Congenital Syphilis",
-    "option_c": "Rubella",
-    "option_d": "CMV",
-    "correct_answer": "B",
-    "explanation": "Early congenital syphilis presents with 'snuffles' (bloody rhinitis) and specific skin findings."
-  },
-  {
-    "question": "At what age should a child double their birth length?",
-    "option_a": "1 year",
-    "option_b": "4 years",
-    "option_c": "7 years",
-    "option_d": "10 years",
-    "correct_answer": "B",
-    "explanation": "Children typically reach double their birth height by 4 years of age."
-  },
-  {
-    "question": "Which of the following is true regarding 'Apgar scores'?",
-    "option_a": "They predict long-term neurological outcome",
-    "option_b": "They assess a newborn's immediate adjustment to extrauterine life",
-    "option_c": "They are only done once",
-    "option_d": "A score of 3 is normal",
-    "correct_answer": "B",
-    "explanation": "The Apgar score is a rapid screening tool performed at 1 and 5 minutes post-delivery."
+    "explanation": "The maneuver triggers characteristic nystagmus and vertigo in patients with canalolithiasis."
   }
 ]
