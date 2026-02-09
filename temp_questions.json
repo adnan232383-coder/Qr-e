@@ -1,0 +1,902 @@
+[
+  {
+    "question": "A 2-year-old child is brought to the ER with severe diarrhea and vomiting. He is lethargic, has sunken eyes, and a capillary refill time of 4 seconds. What is the most appropriate initial fluid bolus?",
+    "option_a": "10 mL/kg of D5W",
+    "option_b": "20 mL/kg of Normal Saline",
+    "option_c": "50 mL/kg of Lactated Ringer's",
+    "option_d": "10 mL/kg of 0.45% Saline",
+    "correct_answer": "B",
+    "explanation": "Severe dehydration in children requires rapid volume expansion with an isotonic crystalloid bolus of 20 mL/kg."
+  },
+  {
+    "question": "A 32-week pregnant female presents with sudden, painful vaginal bleeding and a rigid, tender uterus. What is the most likely diagnosis?",
+    "option_a": "Placenta previa",
+    "option_b": "Placental abruption",
+    "option_c": "Uterine rupture",
+    "option_d": "Vasa previa",
+    "correct_answer": "B",
+    "explanation": "Placental abruption classically presents with painful vaginal bleeding and uterine tenderness, whereas placenta previa is usually painless."
+  },
+  {
+    "question": "A patient is brought in after an intentional overdose of Amitriptyline (a TCA). The ECG shows a QRS duration of 140 ms. What is the first-line treatment to prevent arrhythmias?",
+    "option_a": "Lidocaine",
+    "option_b": "Sodium Bicarbonate IV",
+    "option_c": "Amiodarone",
+    "option_d": "Magnesium Sulfate",
+    "correct_answer": "B",
+    "explanation": "Sodium bicarbonate is used in TCA overdose to increase serum pH and extracellular sodium, which helps stabilize the cardiac sodium channels and narrow the QRS."
+  },
+  {
+    "question": "Which of the following is the most sensitive imaging modality for diagnosing pediatric intussusception?",
+    "option_a": "Abdominal X-ray",
+    "option_b": "Abdominal Ultrasound",
+    "option_c": "CT Abdomen",
+    "option_d": "Diagnostic Laparoscopy",
+    "correct_answer": "B",
+    "explanation": "Ultrasound is the study of choice for intussusception, often showing the 'target' or 'doughnut' sign."
+  },
+  {
+    "question": "A patient presents with a 'currant jelly' stool and intermittent colicky abdominal pain. What is the most likely diagnosis?",
+    "option_a": "Appendicitis",
+    "option_b": "Intussusception",
+    "option_c": "Pyloric stenosis",
+    "option_d": "Meckel's diverticulum",
+    "correct_answer": "B",
+    "explanation": "Intussusception in children typically presents with a triad of colicky pain, a palpable 'sausage-shaped' mass, and currant jelly stools (late sign)."
+  },
+  {
+    "question": "A 60-year-old male with a history of heart failure presents with narrow-complex tachycardia at a rate of 180 bpm. He is hemodynamically stable. Vagal maneuvers fail. What is the next step?",
+    "option_a": "Amiodarone 150 mg IV",
+    "option_b": "Adenosine 6 mg rapid IV push",
+    "option_c": "Synchronized cardioversion 50 J",
+    "option_d": "Digoxin IV",
+    "correct_answer": "B",
+    "explanation": "Adenosine is the first-line pharmacological treatment for stable paroxysmal supraventricular tachycardia (PSVT)."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Cocaine-induced Chest Pain'?",
+    "option_a": "Bradycardia",
+    "option_b": "Coronary vasospasm and hypertension",
+    "option_c": "Hypotension",
+    "option_d": "Sedation",
+    "correct_answer": "B",
+    "explanation": "Cocaine is a sympathomimetic that causes vasoconstriction, tachycardia, and hypertension, potentially leading to myocardial ischemia."
+  },
+  {
+    "question": "A patient is brought in after being found submerged in a cold lake. After ABCs are secured, what is the most important prognostic factor in drowning?",
+    "option_a": "The temperature of the water",
+    "option_b": "The duration of hypoxia",
+    "option_c": "Whether it was fresh or salt water",
+    "option_d": "The patient's age",
+    "correct_answer": "B",
+    "explanation": "The severity and duration of hypoxia are the most critical determinants of outcome in drowning victims."
+  },
+  {
+    "question": "A 19-year-old female presents with fever, headache, and a non-blanching petechial rash. What is the most likely organism?",
+    "option_a": "Streptococcus pneumoniae",
+    "option_b": "Neisseria meningitidis",
+    "option_c": "Haemophilus influenzae",
+    "option_d": "Listeria monocytogenes",
+    "correct_answer": "B",
+    "explanation": "Meningococcal meningitis (Neisseria meningitidis) is classically associated with a rapid onset and a petechial or purpuric rash."
+  },
+  {
+    "question": "What is the primary medication used to treat an overdose of Calcium Channel Blockers that is refractory to fluids and calcium?",
+    "option_a": "Glucagon",
+    "option_b": "High-dose Insulin and Glucose (HIET)",
+    "option_c": "Naloxone",
+    "option_d": "Atropine",
+    "correct_answer": "B",
+    "explanation": "High-dose insulin euglycemic therapy (HIET) is an effective treatment for both beta-blocker and CCB toxicity by improving cardiac carbohydrate metabolism."
+  },
+  {
+    "question": "A victim of a lightning strike is found in respiratory arrest but with a pulse. What is the name of the temporary lower extremity paralysis and mottled skin seen in lightning victims?",
+    "option_a": "Brown-Séquard syndrome",
+    "option_b": "Keraunoparalysis",
+    "option_c": "Lichtenberg figures",
+    "option_d": "Spinal shock",
+    "correct_answer": "B",
+    "explanation": "Keraunoparalysis is a transient paralysis (often with sensory loss and vasospasm) unique to lightning strike injuries."
+  },
+  {
+    "question": "During the management of a pregnant patient in cardiac arrest, what is the recommended action for the uterus if it is at or above the umbilicus?",
+    "option_a": "Perform a C-section after 20 minutes of CPR",
+    "option_b": "Manual left uterine displacement",
+    "option_c": "Place the patient in a full left lateral decubitus position",
+    "option_d": "Increase the depth of compressions to 4 inches",
+    "correct_answer": "B",
+    "explanation": "Left uterine displacement (LUD) relieves aortocaval compression, which is vital to improving venous return during CPR in pregnancy."
+  },
+  {
+    "question": "A patient with chronic alcoholism is brought in with severe vomiting followed by hematemesis. Endoscopy shows a mucosal tear at the gastroesophageal junction. Diagnosis?",
+    "option_a": "Boerhaave syndrome",
+    "option_b": "Mallory-Weiss tear",
+    "option_c": "Esophageal varices",
+    "option_d": "Peptic ulcer",
+    "correct_answer": "B",
+    "explanation": "A Mallory-Weiss tear is a longitudinal mucosal laceration at the GE junction caused by forceful retching or vomiting."
+  },
+  {
+    "question": "Which of the following is an indication for immediate surgical intervention in a patient with a traumatic epidural hematoma?",
+    "option_a": "GCS of 15",
+    "option_b": "Hematoma volume > 30 cm³ or midline shift > 5 mm",
+    "option_c": "Small hematoma in a conscious patient",
+    "option_d": "Patient refusal of treatment",
+    "correct_answer": "B",
+    "explanation": "Large epidural hematomas or those causing significant midline shift require urgent surgical evacuation to prevent herniation."
+  },
+  {
+    "question": "A patient presents with a 'blown pupil' (fixed and dilated) after a head injury. Which cranial nerve is being compressed?",
+    "option_a": "CN II",
+    "option_b": "CN III",
+    "option_c": "CN IV",
+    "option_d": "CN VI",
+    "correct_answer": "B",
+    "explanation": "The oculomotor nerve (CN III) is compressed against the tentorium during uncal herniation, leading to an ipsilateral dilated pupil."
+  },
+  {
+    "question": "What is the most appropriate treatment for a patient with 'Torsades de Pointes' who is hemodynamically stable?",
+    "option_a": "Amiodarone",
+    "option_b": "Magnesium Sulfate IV",
+    "option_c": "Lidocaine",
+    "option_d": "Synchronized cardioversion",
+    "correct_answer": "B",
+    "explanation": "IV Magnesium is the treatment of choice for Torsades de Pointes, even in patients with normal magnesium levels."
+  },
+  {
+    "question": "A patient presents after a dive into shallow water with 'spinal shock'. Which of the following is characteristic of the end of the spinal shock phase?",
+    "option_a": "Loss of all reflexes",
+    "option_b": "Return of the bulbocavernosus reflex",
+    "option_c": "Permanent paralysis",
+    "option_d": "Hypotension",
+    "correct_answer": "B",
+    "explanation": "Spinal shock is the initial period of reflex loss. The return of the bulbocavernosus reflex signals the end of the spinal shock phase."
+  },
+  {
+    "question": "Which of the following is a classic sign of 'Carbon Monoxide' poisoning on a Brain MRI?",
+    "option_a": "Midbrain atrophy",
+    "option_b": "Globus pallidus necrosis",
+    "option_c": "Cerebellar hemorrhage",
+    "option_d": "Temporal lobe lesions",
+    "correct_answer": "B",
+    "explanation": "Bilateral necrosis of the globus pallidus is a classic (though not always present) neuroimaging finding in CO poisoning."
+  },
+  {
+    "question": "A patient presents with acute urinary retention and lower extremity weakness after a fall. Exam shows 'saddle anesthesia'. What is the most likely diagnosis?",
+    "option_a": "Conus medullaris syndrome",
+    "option_b": "Cauda equina syndrome",
+    "option_c": "Herniated disc without nerve compression",
+    "option_d": "Hip fracture",
+    "correct_answer": "B",
+    "explanation": "Cauda equina syndrome is a surgical emergency characterized by saddle anesthesia, bowel/bladder dysfunction, and lower motor neuron signs."
+  },
+  {
+    "question": "What is the first-line treatment for a patient with symptomatic Hypermagnesemia (usually from excessive antacid/laxative use)?",
+    "option_a": "Furosemide",
+    "option_b": "Intravenous Calcium Gluconate",
+    "option_c": "Hemodialysis",
+    "option_d": "Normal Saline bolus",
+    "correct_answer": "B",
+    "explanation": "Calcium antagonizes the neuromuscular effects of magnesium and is used for immediate stabilization."
+  },
+  {
+    "question": "In the setting of a major trauma, what is the 'minimum' GCS score a patient can receive?",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "3",
+    "option_d": "5",
+    "correct_answer": "C",
+    "explanation": "The GCS ranges from 3 (minimum) to 15 (maximum). Each category (Eyes, Verbal, Motor) has a minimum score of 1."
+  },
+  {
+    "question": "A patient is brought in with a 'mid-shaft humerus fracture'. He is unable to extend his wrist. Which nerve is likely injured?",
+    "option_a": "Median nerve",
+    "option_b": "Radial nerve",
+    "option_c": "Ulnar nerve",
+    "option_d": "Axillary nerve",
+    "correct_answer": "B",
+    "explanation": "The radial nerve is frequently injured in mid-shaft humerus fractures as it wraps around the spiral groove."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'upper airway obstruction' in an unconscious patient?",
+    "option_a": "Foreign body",
+    "option_b": "The tongue falling back",
+    "option_c": "Laryngospasm",
+    "option_d": "Vocal cord paralysis",
+    "correct_answer": "B",
+    "explanation": "In an unconscious patient, loss of muscle tone allows the tongue to fall back and obstruct the oropharynx."
+  },
+  {
+    "question": "A patient presents with painful, blistering burns over both legs (anterior and posterior). What is the burn depth?",
+    "option_a": "Superficial (1st degree)",
+    "option_b": "Partial-thickness (2nd degree)",
+    "option_c": "Full-thickness (3rd degree)",
+    "option_d": "Deep tissue injury",
+    "correct_answer": "B",
+    "explanation": "Partial-thickness burns involve the epidermis and part of the dermis, typically presenting with pain and blisters."
+  },
+  {
+    "question": "A 6-year-old child is brought to the ER with a 'cherry-red' epiglottis seen on lateral X-ray. What is this sign called?",
+    "option_a": "Steeple sign",
+    "option_b": "Thumbprint sign",
+    "option_c": "Deep sulcus sign",
+    "option_d": "Westermark sign",
+    "correct_answer": "B",
+    "explanation": "The 'thumbprint sign' on a lateral neck X-ray represents the swollen epiglottis in acute epiglottitis."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Iron Overdose' in a child?",
+    "option_a": "Constipation",
+    "option_b": "Hematemesis and abdominal pain",
+    "option_c": "Hyperactivity",
+    "option_d": "Skin rash",
+    "correct_answer": "B",
+    "explanation": "Acute iron toxicity causes severe gastrointestinal irritation, leading to vomiting, diarrhea, and hematemesis."
+  },
+  {
+    "question": "A patient presents with 'pitting edema' and JVD after a traumatic chest injury. ECG shows electrical alternans. Diagnosis?",
+    "option_a": "Tension pneumothorax",
+    "option_b": "Cardiac tamponade",
+    "option_c": "Flail chest",
+    "option_d": "Pulmonary contusion",
+    "correct_answer": "B",
+    "explanation": "Cardiac tamponade causes JVD and hypotension; electrical alternans is a classic ECG finding in large effusions."
+  },
+  {
+    "question": "What is the treatment for a symptomatic 'Black Widow' spider bite?",
+    "option_a": "Wide excision of the bite site",
+    "option_b": "Pain control and Benzodiazepines (for muscle spasms)",
+    "option_c": "Broad-spectrum antibiotics",
+    "option_d": "Topical steroids",
+    "correct_answer": "B",
+    "explanation": "Black widow venom (latrotoxin) causes painful muscle spasms and systemic symptoms, managed with analgesics and muscle relaxants."
+  },
+  {
+    "question": "A 25-year-old male is brought to the ER after an intentional ingestion of 'antifreeze'. He is found to have a high anion gap metabolic acidosis. What is the preferred antidote?",
+    "option_a": "N-acetylcysteine",
+    "option_b": "Fomepizole or Ethanol",
+    "option_c": "Hydroxocobalamin",
+    "option_d": "Atropine",
+    "correct_answer": "B",
+    "explanation": "Fomepizole inhibits alcohol dehydrogenase, preventing the formation of toxic metabolites from ethylene glycol (antifreeze)."
+  },
+  {
+    "question": "Which of the following is the most sensitive physical exam finding for 'Aortic Dissection'?",
+    "option_a": "Diastolic murmur",
+    "option_b": "Sudden onset of severe, tearing chest pain",
+    "option_c": "Stroke symptoms",
+    "option_d": "Absent peripheral pulses",
+    "correct_answer": "B",
+    "explanation": "Sudden, severe pain (the 'rip' or 'tear') is present in over 90% of patients with acute aortic dissection."
+  },
+  {
+    "question": "A patient with a history of heart failure presents with palpitations. The ECG shows 'Torsades de Pointes'. Which medication is most likely to have caused this?",
+    "option_a": "Lisinopril",
+    "option_b": "Sotalol (or other QT-prolonging drugs)",
+    "option_c": "Metformin",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Many antiarrhythmics (Class IA and III) can prolong the QT interval, predisposing patients to Torsades de Pointes."
+  },
+  {
+    "question": "What is the first step in the management of a patient with a 'chemical' inhalation injury from a fire?",
+    "option_a": "Perform a bronchoscopy",
+    "option_b": "Administer 100% humidified oxygen",
+    "option_c": "Start IV antibiotics",
+    "option_d": "Obtain a chest CT",
+    "correct_answer": "B",
+    "explanation": "Securing oxygenation and monitoring the airway are the immediate priorities in inhalation injury."
+  },
+  {
+    "question": "A patient presents with a 'low' glucose level and altered mental status. After administering D50, the patient does not wake up. What is the most likely reason?",
+    "option_a": "The dose was too small",
+    "option_b": "The patient has a co-existing condition (e.g., stroke or overdose)",
+    "option_c": "Glucose does not work for altered mental status",
+    "option_d": "The patient is faking it",
+    "correct_answer": "B",
+    "explanation": "Hypoglycemia is easily reversed; if symptoms persist after blood sugar is normalized, another cause for the altered state must be investigated."
+  },
+  {
+    "question": "Which of the following is an early sign of 'Sepsis' in an elderly patient?",
+    "option_a": "High fever",
+    "option_b": "Altered mental status or confusion",
+    "option_c": "High blood pressure",
+    "option_d": "Severe pain",
+    "correct_answer": "B",
+    "explanation": "Elderly patients may not mount a fever and often present with subtle signs like confusion or 'not acting themselves' early in sepsis."
+  },
+  {
+    "question": "What is the hallmark of 'Anaphylactic Shock'?",
+    "option_a": "Bradycardia and hypertension",
+    "option_b": "Tachycardia, hypotension, and respiratory distress",
+    "option_c": "Hypertension and warm skin",
+    "option_d": "Fever and chills",
+    "correct_answer": "B",
+    "explanation": "Anaphylaxis is a distributive shock characterized by systemic vasodilation, fluid shift (edema), and often bronchospasm."
+  },
+  {
+    "question": "A patient is brought in with a 'stab wound' to the right lower quadrant of the abdomen. He is hemodynamically stable. What is the next best step?",
+    "option_a": "Immediate surgery",
+    "option_b": "CT Abdomen/Pelvis with contrast",
+    "option_c": "Discharge home",
+    "option_d": "Observation only",
+    "correct_answer": "B",
+    "explanation": "In stable patients with penetrating abdominal trauma, imaging (usually CT) is used to determine the need for surgical exploration."
+  },
+  {
+    "question": "Which of the following is a classic sign of 'Increased Intracranial Pressure' in a child?",
+    "option_a": "Bulging fontanelle",
+    "option_b": "Sunken eyes",
+    "option_c": "Rapid breathing",
+    "option_d": "Increased appetite",
+    "correct_answer": "A",
+    "explanation": "In infants with open fontanelles, a bulge is a direct indicator of increased pressure."
+  },
+  {
+    "question": "A patient presents with 'pitting edema' in the lower extremities and crackles in the lungs. BP is 200/110. Diagnosis?",
+    "option_a": "Hypertensive Emergency with pulmonary edema",
+    "option_b": "Simple Hypertension",
+    "option_c": "Pneumonia",
+    "option_d": "Asthma",
+    "correct_answer": "A",
+    "explanation": "Very high BP with evidence of acute end-organ damage (heart failure/pulmonary edema) defines a hypertensive emergency."
+  },
+  {
+    "question": "What is the treatment for a patient with a 'Brown Recluse' spider bite?",
+    "option_a": "Antivenom",
+    "option_b": "Wound care and observation",
+    "option_c": "Immediate surgical debridement",
+    "option_d": "Heparin",
+    "correct_answer": "B",
+    "explanation": "Most brown recluse bites are managed with supportive care; routine early excision is not recommended."
+  },
+  {
+    "question": "A patient is brought in with 'Hyperthermia' (Temp 41°C) after a workout. He is confused. What is the first priority?",
+    "option_a": "Administer Aspirin",
+    "option_b": "Rapid cooling (e.g., cold water immersion)",
+    "option_c": "Give IV fluids only",
+    "option_d": "Obtain an MRI",
+    "correct_answer": "B",
+    "explanation": "Heat stroke requires immediate aggressive cooling to prevent permanent organ damage and death."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Status Epilepticus'?",
+    "option_a": "Brain tumor",
+    "option_b": "Anti-epileptic drug non-compliance or withdrawal",
+    "option_c": "Alcohol use",
+    "option_d": "Stroke",
+    "correct_answer": "B",
+    "explanation": "Sudden cessation of seizure medications is the most frequent trigger for status epilepticus."
+  },
+  {
+    "question": "What is the primary treatment for 'Anaphylaxis' in the ER?",
+    "option_a": "Steroids",
+    "option_b": "Epinephrine",
+    "option_c": "Antihistamines",
+    "option_d": "IV Fluids",
+    "correct_answer": "B",
+    "explanation": "Epinephrine is the only life-saving medication for anaphylaxis; other meds are adjuncts."
+  },
+  {
+    "question": "A patient presents with 'pinpoint pupils' and 'respiratory depression'. What is the most likely substance?",
+    "option_a": "Cocaine",
+    "option_b": "Heroin (Opioids)",
+    "option_c": "Methamphetamine",
+    "option_d": "LSD",
+    "correct_answer": "B",
+    "explanation": "The opioid triad consists of pinpoint pupils, respiratory depression, and depressed mental status."
+  },
+  {
+    "question": "A patient is brought in with a 'fractured pelvis' after a fall. What is the most immediate life-threatening complication?",
+    "option_a": "Infection",
+    "option_b": "Hemorrhagic shock (internal bleeding)",
+    "option_c": "Nerve damage",
+    "option_d": "Skin breakdown",
+    "correct_answer": "B",
+    "explanation": "Pelvic fractures can cause massive venous or arterial bleeding into the retroperitoneal space."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Placental Abruption'?",
+    "option_a": "Painless bright red bleeding",
+    "option_b": "Dark red bleeding and abdominal pain",
+    "option_c": "No bleeding at all",
+    "option_d": "Watery discharge",
+    "correct_answer": "B",
+    "explanation": "Pain is the distinguishing feature of abruption compared to other causes of late-pregnancy bleeding."
+  },
+  {
+    "question": "A patient is brought in after an 'Electrical' injury. He has a small burn on his hand and another on his foot. What is the concern?",
+    "option_a": "Only the skin is burned",
+    "option_b": "Deep tissue damage along the path of the current",
+    "option_c": "The patient is fine",
+    "option_d": "The skin will heal fast",
+    "correct_answer": "B",
+    "explanation": "Electrical current travels through the body, often causing significant deep muscle and nerve damage between entry and exit points."
+  },
+  {
+    "question": "What is the 'treatment of choice' for a patient with a tension pneumothorax?",
+    "option_a": "Chest X-ray first",
+    "option_b": "Immediate needle decompression",
+    "option_c": "Intubation",
+    "option_d": "Sedation",
+    "correct_answer": "B",
+    "explanation": "Tension pneumothorax is a clinical emergency requiring immediate relief before definitive chest tube insertion."
+  },
+  {
+    "question": "A patient presents with 'tearing' chest pain radiating to the back. BP is 80/40. What is the concern?",
+    "option_a": "Myocardial infarction",
+    "option_b": "Aortic dissection with rupture or tamponade",
+    "option_c": "Pneumonia",
+    "option_d": "Esophageal spasm",
+    "correct_answer": "B",
+    "explanation": "Hypotension in the setting of aortic dissection is a grave sign, indicating rupture into the pericardium or pleura."
+  },
+  {
+    "question": "Which of the following describes 'Status Epilepticus'?",
+    "option_a": "A single brief seizure",
+    "option_b": "A seizure lasting > 5 minutes or recurrent seizures without return to baseline",
+    "option_c": "A seizure that only affects one limb",
+    "option_d": "Fainting",
+    "correct_answer": "B",
+    "explanation": "Current definitions recognize 5 minutes as the threshold where irreversible damage may begin and spontaneous termination is unlikely."
+  },
+  {
+    "question": "A patient presents with 'drooling' and a 'tripod' position. What is the next best step?",
+    "option_a": "Inspect the throat with a tongue depressor",
+    "option_b": "Keep the patient calm and prepare for expert airway management",
+    "option_c": "Start an IV immediately",
+    "option_d": "Perform an X-ray in the radiology suite",
+    "correct_answer": "B",
+    "explanation": "In suspected epiglottitis, any agitation or invasive exam can trigger complete airway obstruction."
+  },
+  {
+    "question": "A patient is brought to the ER after being found in an alley during a winter night. His core temperature is 27°C (80.6°F). He is in cardiac arrest. Which of the following is true regarding resuscitation?",
+    "option_a": "Defibrillation and ACLS drugs are likely to be effective at this temperature.",
+    "option_b": "The heart may be unresponsive to drugs and pacing until the patient is rewarmed to >30°C.",
+    "option_c": "CPR should not be started until the core temperature is 32°C.",
+    "option_d": "Passive rewarming is sufficient for this patient.",
+    "correct_answer": "B",
+    "explanation": "In severe hypothermia (<30°C), the heart is often refractory to defibrillation and medications. Efforts should focus on active internal rewarming."
+  },
+  {
+    "question": "A 4-year-old child presents with a sudden high fever and a single generalized tonic-clonic seizure lasting 2 minutes. The child is now back to baseline. What is the most likely diagnosis?",
+    "option_a": "Complex febrile seizure",
+    "option_b": "Simple febrile seizure",
+    "option_c": "Meningitis",
+    "option_d": "Epilepsy",
+    "correct_answer": "B",
+    "explanation": "A simple febrile seizure is generalized, lasts less than 15 minutes, and occurs once in a 24-hour period in a child with a fever but no CNS infection."
+  },
+  {
+    "question": "A 28-year-old female at 36 weeks gestation is brought to the ER after a seizure. Her BP is 170/110 mmHg. What is the priority treatment for seizure control and prevention of recurrence?",
+    "option_a": "Phenytoin",
+    "option_b": "Magnesium Sulfate",
+    "option_c": "Lorazepam",
+    "option_d": "Valproic acid",
+    "correct_answer": "B",
+    "explanation": "Magnesium sulfate is the gold standard for treating and preventing seizures in Eclampsia."
+  },
+  {
+    "question": "A patient presents after a high-voltage electrical injury. His urine is dark reddish-brown, but there are no RBCs on microscopy. What is the most likely cause?",
+    "option_a": "Hematuria",
+    "option_b": "Myoglobinuria due to rhabdomyolysis",
+    "option_c": "Bilirubinuria",
+    "option_d": "Drug-induced discoloration",
+    "correct_answer": "B",
+    "explanation": "Extensive muscle damage from electrical current releases myoglobin, which causes a positive dipstick for blood without intact RBCs."
+  },
+  {
+    "question": "Which of the following is a sign of severe dehydration in a pediatric patient?",
+    "option_a": "Capillary refill of 2 seconds",
+    "option_b": "Moist mucous membranes",
+    "option_c": "Sunken fontanelle and absence of tears",
+    "option_d": "Normal urine output",
+    "correct_answer": "C",
+    "explanation": "Clinical signs of severe dehydration in infants include a sunken fontanelle, lethargy, dry membranes, and lack of tear production."
+  },
+  {
+    "question": "A patient presents with 'underwater' drowning. After initial stabilization, he develops progressive hypoxia and bilateral infiltrates on CXR. What is the primary pathophysiology?",
+    "option_a": "Infection/Pneumonia",
+    "option_b": "Non-cardiogenic pulmonary edema (ARDS)",
+    "option_c": "Heart failure",
+    "option_d": "Pulmonary embolism",
+    "correct_answer": "B",
+    "explanation": "Drowning causes surfactant washout and alveolar-capillary membrane damage, leading to ARDS."
+  },
+  {
+    "question": "A 30-year-old male presents with a penetrating injury to the right side of the spinal cord. He has loss of motor function on the right and loss of pain/temp sensation on the left. Diagnosis?",
+    "option_a": "Central cord syndrome",
+    "option_b": "Brown-Séquard syndrome",
+    "option_c": "Anterior cord syndrome",
+    "option_d": "Cauda equina syndrome",
+    "correct_answer": "B",
+    "explanation": "Brown-Séquard is a hemisection of the spinal cord causing ipsilateral motor loss and contralateral pain/temperature loss."
+  },
+  {
+    "question": "A patient with suspected Salicylate poisoning has a high anion gap metabolic acidosis and a primary respiratory alkalosis. This is known as:",
+    "option_a": "Metabolic compensation",
+    "option_b": "A mixed acid-base disorder",
+    "option_c": "Normal response",
+    "option_d": "Respiratory failure",
+    "correct_answer": "B",
+    "explanation": "Salicylates directly stimulate the respiratory center (causing alkalosis) and interfere with metabolism (causing AG acidosis)."
+  },
+  {
+    "question": "What is the management of choice for a patient with a 'prolapsed umbilical cord' during labor in the ER?",
+    "option_a": "Immediate vaginal delivery",
+    "option_b": "Manual elevation of the fetal head and emergency C-section",
+    "option_c": "Push the cord back into the uterus",
+    "option_d": "Place the patient in Trendelenburg and wait",
+    "correct_answer": "B",
+    "explanation": "Pressure must be kept off the cord by manually elevating the presenting part until a C-section can be performed."
+  },
+  {
+    "question": "A patient presents with headache, vomiting, and bradycardia after a head injury. You suspect increased ICP. What is the most appropriate initial pharmacological intervention?",
+    "option_a": "Nitroprusside",
+    "option_b": "Mannitol or Hypertonic Saline",
+    "option_c": "Furosemide",
+    "option_d": "D5W IV",
+    "correct_answer": "B",
+    "explanation": "Osmotic agents like Mannitol create an osmotic gradient to pull fluid out of the brain tissue and lower ICP."
+  },
+  {
+    "question": "What is the primary treatment for 'frostbite' of the fingers in the emergency department?",
+    "option_a": "Rubbing the fingers to generate heat",
+    "option_b": "Rapid rewarming in a warm water bath (37-39°C)",
+    "option_c": "Rewarming with a hair dryer",
+    "option_d": "Immediate amputation",
+    "correct_answer": "B",
+    "explanation": "Rapid rewarming in circulating warm water is the standard treatment. Rubbing can cause further tissue damage."
+  },
+  {
+    "question": "A patient presents with severe hyperkalemia and ECG changes. After giving Calcium, what is the fastest way to temporarily shift potassium into the cells?",
+    "option_a": "Furosemide",
+    "option_b": "Insulin (with Glucose) and Beta-agonists (Albuterol)",
+    "option_c": "Sodium bicarbonate",
+    "option_d": "Kayexalate",
+    "correct_answer": "B",
+    "explanation": "Insulin and Albuterol stimulate the Na+/K+ ATPase pump, causing rapid intracellular K+ shift."
+  },
+  {
+    "question": "Which of the following is a 'Hard Sign' of vascular injury in a penetrating extremity trauma requiring immediate surgery?",
+    "option_a": "Small hematoma",
+    "option_b": "Pulsatile hemorrhage or thrill",
+    "option_c": "History of bleeding at the scene",
+    "option_d": "Diminished pulses",
+    "correct_answer": "B",
+    "explanation": "Hard signs (pulsatile bleeding, thrill, bruit, expanding hematoma, absent pulse) indicate a high likelihood of major vascular injury."
+  },
+  {
+    "question": "What is the 'lethal dose' of Acetaminophen in an average adult?",
+    "option_a": "2-3 grams",
+    "option_b": "7.5-10 grams",
+    "option_c": "15-20 grams",
+    "option_d": "50 grams",
+    "correct_answer": "B",
+    "explanation": "Doses >7.5-10g are generally considered toxic and potentially lethal without NAC treatment."
+  },
+  {
+    "question": "A trauma patient has a BP of 80/40 and a HR of 130. Based on ATLS classification, what class of hemorrhagic shock is this?",
+    "option_a": "Class I",
+    "option_b": "Class II",
+    "option_c": "Class III",
+    "option_d": "Class IV",
+    "correct_answer": "C",
+    "explanation": "Class III shock is defined by a significant drop in BP and marked tachycardia (loss of 30-40% blood volume)."
+  },
+  {
+    "question": "Which of the following is the most common cause of cardiogenic shock?",
+    "option_a": "Cardiac tamponade",
+    "option_b": "Acute Myocardial Infarction with LV failure",
+    "option_c": "Pulmonary embolism",
+    "option_d": "Aortic dissection",
+    "correct_answer": "B",
+    "explanation": "Severe loss of ventricular contractility due to MI is the leading cause of cardiogenic shock."
+  },
+  {
+    "question": "A patient presents after a bee sting with wheezing and BP 70/30. Epinephrine is given IM but the patient is on a Beta-blocker and doesn't respond. What is the next drug of choice?",
+    "option_a": "Norepinephrine",
+    "option_b": "Glucagon",
+    "option_c": "Diphenhydramine",
+    "option_d": "Hydrocortisone",
+    "correct_answer": "B",
+    "explanation": "Glucagon has inotropic and chronotropic effects that bypass beta-receptors, making it useful in beta-blocked patients with anaphylaxis."
+  },
+  {
+    "question": "A patient presents with a 'seatbelt sign' (ecchymosis across the abdomen) after a MVA. What injury should you be most concerned about?",
+    "option_a": "Diaphragm rupture",
+    "option_b": "Hollow viscus injury (e.g., bowel perforation)",
+    "option_c": "Spleen laceration only",
+    "option_d": "Rib fractures",
+    "correct_answer": "B",
+    "explanation": "The seatbelt sign is highly associated with internal injuries, especially to the bowel and mesentery."
+  },
+  {
+    "question": "Which maneuver is used to resolve 'Shoulder Dystocia' by hyperflexing the mother's hips against her abdomen?",
+    "option_a": "Zavanelli maneuver",
+    "option_b": "McRoberts maneuver",
+    "option_c": "Leopold maneuver",
+    "option_d": "Heimlich maneuver",
+    "correct_answer": "B",
+    "explanation": "The McRoberts maneuver flattens the sacrum and rotates the symphysis pubis cephalad, often freeing the impacted shoulder."
+  },
+  {
+    "question": "A patient with a suspected stroke has a GCS of 6. What is the most immediate priority?",
+    "option_a": "Non-contrast CT head",
+    "option_b": "Endotracheal intubation",
+    "option_c": "Starting tPA",
+    "option_d": "Checking blood glucose",
+    "correct_answer": "B",
+    "explanation": "A GCS < 8 generally requires securing the airway to prevent aspiration and ensure ventilation."
+  },
+  {
+    "question": "What is the classic finding on an ECG for a patient with 'Wolff-Parkinson-White' (WPW) syndrome?",
+    "option_a": "Long PR interval",
+    "option_b": "Delta wave and shortened PR interval",
+    "option_c": "ST elevation in V1-V3",
+    "option_d": "Narrow QRS and no P waves",
+    "correct_answer": "B",
+    "explanation": "WPW is characterized by an accessory pathway (Bundle of Kent) leading to early ventricular activation (delta wave)."
+  },
+  {
+    "question": "A patient is brought to the ER with 'Tinnitus' and vomiting after an overdose. He is hyperventilating. Which drug did he likely take?",
+    "option_a": "Acetaminophen",
+    "option_b": "Aspirin (Salicylates)",
+    "option_c": "Ibuprofen",
+    "option_d": "Iron",
+    "correct_answer": "B",
+    "explanation": "Tinnitus is a classic early sign of salicylate toxicity."
+  },
+  {
+    "question": "Which of the following is the most sensitive test for identifying small amounts of 'intraperitoneal fluid' in trauma?",
+    "option_a": "Abdominal X-ray",
+    "option_b": "FAST exam",
+    "option_c": "CT Abdomen/Pelvis",
+    "option_d": "Diagnostic Peritoneal Lavage (DPL)",
+    "correct_answer": "C",
+    "explanation": "While FAST is fast, CT is the gold standard for identifying and quantifying free fluid and specific organ injuries in stable patients."
+  },
+  {
+    "question": "A 10-year-old is brought in after a fall. He is holding his arm, and you notice a 'fat pad sign' on the elbow X-ray. What does this indicate?",
+    "option_a": "Soft tissue bruise",
+    "option_b": "Occult fracture (often supracondylar)",
+    "option_c": "Normal anatomy in children",
+    "option_d": "Dislocation",
+    "correct_answer": "B",
+    "explanation": "A posterior fat pad sign or an enlarged anterior fat pad (sail sign) suggests a joint effusion, usually due to an intra-articular fracture."
+  },
+  {
+    "question": "What is the management for a patient who is 'shaking and sweating' 48 hours after their last drink of alcohol, with visual hallucinations?",
+    "option_a": "Antipsychotics",
+    "option_b": "Benzodiazepines (e.g., Diazepam or Lorazepam)",
+    "option_c": "Metoprolol",
+    "option_d": "Observation only",
+    "correct_answer": "B",
+    "explanation": "Delirium Tremens (DTs) is a medical emergency treated with high-dose benzodiazepines to prevent cardiovascular collapse and seizures."
+  },
+  {
+    "question": "In the START triage system, what color tag is given to a patient who is not breathing after repositioning the airway?",
+    "option_a": "Red",
+    "option_b": "Black",
+    "option_c": "Yellow",
+    "option_d": "Green",
+    "correct_answer": "B",
+    "explanation": "In mass casualty incidents, patients who are apneic despite airway opening are tagged as deceased (Black)."
+  },
+  {
+    "question": "A patient presents with acute, severe 'tearing' abdominal pain and a pulsatile mass. BP is 85/50. What is the most likely diagnosis?",
+    "option_a": "Renal colic",
+    "option_b": "Ruptured Abdominal Aortic Aneurysm (AAA)",
+    "option_c": "Small bowel obstruction",
+    "option_d": "Splenic rupture",
+    "correct_answer": "B",
+    "explanation": "The triad of pain, hypotension, and a pulsatile mass is classic for AAA rupture."
+  },
+  {
+    "question": "Which of the following is the drug of choice for a patient in 'Anaphylactic Shock'?",
+    "option_a": "IV Diphenhydramine",
+    "option_b": "IM Epinephrine",
+    "option_c": "Nebulized Albuterol",
+    "option_d": "IV Methylprednisolone",
+    "correct_answer": "B",
+    "explanation": "IM Epinephrine (in the mid-outer thigh) is the first-line treatment for anaphylaxis."
+  },
+  {
+    "question": "What is the purpose of the 'secondary survey' in a trauma patient?",
+    "option_a": "To identify life-threatening airway issues",
+    "option_b": "A thorough head-to-toe evaluation to identify all injuries",
+    "option_c": "To decide if the patient needs an IV",
+    "option_d": "To perform a FAST exam",
+    "correct_answer": "B",
+    "explanation": "The secondary survey is only done after the primary survey (ABCDE) is finished and life-threats are addressed."
+  },
+  {
+    "question": "A patient presents with sudden 'painless' vaginal bleeding in the third trimester. What is the most likely diagnosis?",
+    "option_a": "Placental abruption",
+    "option_b": "Placenta previa",
+    "option_c": "Uterine rupture",
+    "option_d": "Bloody show",
+    "correct_answer": "B",
+    "explanation": "Painless bleeding is characteristic of placenta previa; painful bleeding suggests abruption."
+  },
+  {
+    "question": "What is the initial energy setting for 'synchronized cardioversion' of stable monomorphic Ventricular Tachycardia?",
+    "option_a": "50-100 Joules",
+    "option_b": "100-200 Joules",
+    "option_c": "360 Joules",
+    "option_d": "10 Joules",
+    "correct_answer": "B",
+    "explanation": "Monomorphic VT usually responds well to synchronized shocks starting at 100 J."
+  },
+  {
+    "question": "A 12-year-old has a GCS of 15 and a minor head injury. He has had one episode of vomiting but no loss of consciousness. According to PECARN, what is the next step?",
+    "option_a": "Immediate Head CT",
+    "option_b": "Observation for 4-6 hours or clinician discretion",
+    "option_c": "Discharge home immediately",
+    "option_d": "Admission for MRI",
+    "correct_answer": "B",
+    "explanation": "Isolated minor symptoms in older children allow for observation rather than immediate radiation exposure from a CT."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Digoxin' toxicity?",
+    "option_a": "Bright red skin",
+    "option_b": "Yellow-green halos in vision and bradycardia",
+    "option_c": "Tachycardia and hypertension",
+    "option_d": "Dry mouth",
+    "correct_answer": "B",
+    "explanation": "Visual disturbances (xanthopsia) and arrhythmias/bradycardia are classic signs of digoxin overdose."
+  },
+  {
+    "question": "A patient has a 'mid-shaft femur fracture'. What is the estimated blood loss from this injury?",
+    "option_a": "100-200 mL",
+    "option_b": "500-1000 mL",
+    "option_c": "1000-1500 mL",
+    "option_d": "Over 3 liters",
+    "correct_answer": "C",
+    "explanation": "A femur fracture can lead to significant internal hemorrhage, often up to 1.5 liters."
+  },
+  {
+    "question": "A patient presents with 'hypotension, JVD, and muffled heart sounds'. What is this triad called?",
+    "option_a": "Cushing's triad",
+    "option_b": "Beck's triad",
+    "option_c": "Virchow's triad",
+    "option_d": "Charcot's triad",
+    "correct_answer": "B",
+    "explanation": "Beck's triad is diagnostic for cardiac tamponade."
+  },
+  {
+    "question": "What is the definitive management for 'Tension Pneumothorax'?",
+    "option_a": "Needle decompression followed by tube thoracostomy (chest tube)",
+    "option_b": "Needle decompression only",
+    "option_c": "Incentive spirometry",
+    "option_d": "Wait for CT confirmation",
+    "correct_answer": "A",
+    "explanation": "Needle decompression is a temporary life-saving measure; a chest tube is required for definitive care."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Lower GI Bleeding' in an elderly patient?",
+    "option_a": "Colon cancer",
+    "option_b": "Diverticulosis",
+    "option_c": "Hemorrhoids",
+    "option_d": "IBD",
+    "correct_answer": "B",
+    "explanation": "Diverticulosis is the most common cause of brisk, painless lower GI bleeding in the elderly."
+  },
+  {
+    "question": "A victim of a house fire has a 'cherry red' skin color and altered mental status. What is the most likely poisoning?",
+    "option_a": "Cyanide",
+    "option_b": "Carbon Monoxide",
+    "option_c": "Lead",
+    "option_d": "Arsenic",
+    "correct_answer": "B",
+    "explanation": "Carboxyhemoglobin gives the skin a cherry-red appearance, though this is often a post-mortem finding."
+  },
+  {
+    "question": "What is the drug of choice for 'Organophosphate' poisoning?",
+    "option_a": "Atropine and Pralidoxime (2-PAM)",
+    "option_b": "Naloxone",
+    "option_c": "N-acetylcysteine",
+    "option_d": "Flumazenil",
+    "correct_answer": "A",
+    "explanation": "Atropine dries secretions, and Pralidoxime regenerates the acetylcholinesterase enzyme."
+  },
+  {
+    "question": "A patient with a 'distal radius fracture' has a dinner-fork deformity. What is this fracture called?",
+    "option_a": "Smith fracture",
+    "option_b": "Colles fracture",
+    "option_c": "Jones fracture",
+    "option_d": "Boxer's fracture",
+    "correct_answer": "B",
+    "explanation": "A Colles fracture is a distal radius fracture with dorsal displacement of the distal fragment."
+  },
+  {
+    "question": "In a patient with 'Hypovolemic Shock', what is the earliest physiological sign?",
+    "option_a": "Hypotension",
+    "option_b": "Tachycardia",
+    "option_c": "Decreased urine output",
+    "option_d": "Confusion",
+    "correct_answer": "B",
+    "explanation": "The body compensates for low volume by increasing heart rate to maintain cardiac output."
+  },
+  {
+    "question": "What is the goal for 'door-to-needle' time for fibrinolysis in a STEMI patient if PCI is not available?",
+    "option_a": "30 minutes",
+    "option_b": "60 minutes",
+    "option_c": "90 minutes",
+    "option_d": "120 minutes",
+    "correct_answer": "A",
+    "explanation": "National guidelines recommend a door-to-needle time of <30 minutes."
+  },
+  {
+    "question": "Which of the following describes 'Pulsus Paradoxus'?",
+    "option_a": "Heart rate increases with inspiration",
+    "option_b": "Systolic BP drops >10 mmHg during inspiration",
+    "option_c": "Irregular pulse",
+    "option_d": "Strong and weak pulses alternating",
+    "correct_answer": "B",
+    "explanation": "Seen in tamponade, severe asthma, and COPD."
+  },
+  {
+    "question": "A patient presents with 'pinpoint pupils, coma, and respiratory depression'. What is the antidote?",
+    "option_a": "Naloxone",
+    "option_b": "Flumazenil",
+    "option_c": "Atropine",
+    "option_d": "Epinephrine",
+    "correct_answer": "A",
+    "explanation": "Classic opioid toxidrome responding to Naloxone."
+  },
+  {
+    "question": "What is the primary treatment for 'Heat Stroke'?",
+    "option_a": "Oral rehydration",
+    "option_b": "Rapid evaporative or immersive cooling",
+    "option_c": "Antipyretics like Aspirin",
+    "option_d": "Wait for the temperature to drop naturally",
+    "correct_answer": "B",
+    "explanation": "Active cooling is mandatory to prevent brain and organ damage."
+  },
+  {
+    "question": "A child presents with a 'seal-like' barking cough. What is the most likely diagnosis?",
+    "option_a": "Asthma",
+    "option_b": "Croup",
+    "option_c": "Epiglottitis",
+    "option_d": "Bronchiolitis",
+    "correct_answer": "B",
+    "explanation": "Laryngotracheobronchitis (Croup) causes the classic barking cough."
+  },
+  {
+    "question": "A patient with a head injury has a period of loss of consciousness, followed by a 'lucid interval', and then rapid decline. Diagnosis?",
+    "option_a": "Subdural hematoma",
+    "option_b": "Epidural hematoma",
+    "option_c": "Subarachnoid hemorrhage",
+    "option_d": "Concussion",
+    "correct_answer": "B",
+    "explanation": "Classic presentation of an arterial bleed (Middle Meningeal Artery) in the epidural space."
+  },
+  {
+    "question": "Which of the following is a sign of 'Increased Intracranial Pressure'?",
+    "option_a": "Pinpoint pupils",
+    "option_b": "Cushing's triad (HTN, bradycardia, irregular respirations)",
+    "option_c": "Hypotension and tachycardia",
+    "option_d": "Fever",
+    "correct_answer": "B",
+    "explanation": "Cushing's reflex is a late sign of brain herniation."
+  },
+  {
+    "question": "What is the first step in managing an 'open' fracture in the ER?",
+    "option_a": "Immediate casting",
+    "option_b": "Antibiotics, Tetanus prophylaxis, and sterile dressing",
+    "option_c": "Surgery within 1 hour",
+    "option_d": "Checking for pulses only",
+    "correct_answer": "B",
+    "explanation": "Early infection control is vital for open fractures."
+  },
+  {
+    "question": "A patient presents with sudden eye pain, 'halos' around lights, and a hazy cornea. Diagnosis?",
+    "option_a": "Conjunctivitis",
+    "option_b": "Acute angle-closure glaucoma",
+    "option_c": "Corneal abrasion",
+    "option_d": "Retinal detachment",
+    "correct_answer": "B",
+    "explanation": "Ophthalmological emergency requiring immediate IOP lowering."
+  }
+]
