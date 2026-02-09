@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 class UGUniversityAPITester:
-    def __init__(self, base_url="https://course-populator.preview.emergentagent.com"):
+    def __init__(self, base_url="https://med-qbank-import.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.session_token = None
