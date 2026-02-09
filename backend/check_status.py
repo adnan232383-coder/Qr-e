@@ -11,7 +11,7 @@ db = client[os.environ['DB_NAME']]
 
 async def main():
     # Get all courses with question counts
-    courses = await db.courses.find({}, {"_id": 0, "university": 1, "name": 1, "external_id": 1}).to_list(500)
+    courses = await db.courses.find({}, {"_id": 0}).to_list(500)
 
     # Get question counts per course
     pipeline = [
@@ -25,10 +25,15 @@ async def main():
 
     for course in courses:
         course_id = course.get("external_id", "")
+        university_id = course.get("university_id", "")
         count = question_counts.get(course_id, 0)
-        course_info = {"name": course.get("name", ""), "course_id": course_id, "questions": count}
+        course_info = {
+            "name": course.get("course_name", ""),
+            "course_id": course_id,
+            "questions": count
+        }
         
-        if course.get("university") == "NVU":
+        if "NVU" in university_id:
             nvu_courses.append(course_info)
         else:
             ug_courses.append(course_info)
@@ -42,7 +47,6 @@ async def main():
     print("=" * 60)
     nvu_total = 0
     nvu_empty = 0
-    nvu_filled = []
     nvu_empty_list = []
     for c in nvu_courses:
         name = c["name"]
@@ -53,8 +57,6 @@ async def main():
         if questions == 0:
             nvu_empty += 1
             nvu_empty_list.append(name)
-        else:
-            nvu_filled.append(name)
 
     print(f"\nסה\"כ NVU: {len(nvu_courses)} קורסים, {nvu_total} שאלות, {nvu_empty} ריקים")
 
@@ -63,7 +65,6 @@ async def main():
     print("=" * 60)
     ug_total = 0
     ug_empty = 0
-    ug_filled = []
     ug_empty_list = []
     for c in ug_courses:
         name = c["name"]
@@ -74,8 +75,6 @@ async def main():
         if questions == 0:
             ug_empty += 1
             ug_empty_list.append(name)
-        else:
-            ug_filled.append(name)
 
     print(f"\nסה\"כ UG: {len(ug_courses)} קורסים, {ug_total} שאלות, {ug_empty} ריקים")
 
@@ -87,11 +86,19 @@ async def main():
     print(f"קורסים עם שאלות: {len(nvu_courses) + len(ug_courses) - nvu_empty - ug_empty}")
     print(f"קורסים ריקים: {nvu_empty + ug_empty}")
 
-    print("\n" + "=" * 60)
-    print("📋 קורסים ריקים של NVU (הבאים בתור)")
-    print("=" * 60)
-    for i, name in enumerate(nvu_empty_list, 1):
-        print(f"{i}. {name}")
+    if nvu_empty_list:
+        print("\n" + "=" * 60)
+        print("📋 קורסים ריקים של NVU (הבאים בתור)")
+        print("=" * 60)
+        for i, name in enumerate(nvu_empty_list, 1):
+            print(f"{i}. {name}")
+
+    if ug_empty_list:
+        print("\n" + "=" * 60)
+        print("📋 קורסים ריקים של UG")
+        print("=" * 60)
+        for i, name in enumerate(ug_empty_list, 1):
+            print(f"{i}. {name}")
 
 if __name__ == "__main__":
     asyncio.run(main())
