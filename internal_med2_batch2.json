@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 45-year-old male with a history of IV drug use presents with a fever and a new holosystolic murmur at the lower left sternal border. Echocardiogram reveals a 1.2 cm vegetation on the tricuspid valve. What is the most likely causative organism?",
+    "option_a": "Streptococcus viridans",
+    "option_b": "Staphylococcus aureus",
+    "option_c": "Enterococcus faecalis",
+    "option_d": "Coxiella burnetii",
+    "correct_answer": "B",
+    "explanation": "Staphylococcus aureus is the most common cause of acute infective endocarditis, particularly in the setting of intravenous drug use where right-sided involvement (tricuspid valve) is frequent."
+  },
+  {
+    "question": "A 30-year-old HIV-positive patient with a CD4 count of 45 cells/mm³ presents with a headache and confusion. A head CT shows multiple ring-enhancing lesions. What is the first-line treatment for the most likely diagnosis?",
+    "option_a": "Trimethoprim-Sulfamethoxazole",
+    "option_b": "Pyrimethamine and Sulfadiazine",
+    "option_c": "Fluconazole",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "Multiple ring-enhancing lesions in an AIDS patient are highly suggestive of Toxoplasmosis, which is treated with pyrimethamine and sulfadiazine."
+  },
+  {
+    "question": "Which of the following is a 'major' Duke criterion for the diagnosis of infective endocarditis?",
+    "option_a": "Fever > 38.0°C",
+    "option_b": "Immunologic phenomena (e.g., Osler nodes)",
+    "option_c": "Positive blood cultures from at least two separate sets for typical organisms",
+    "option_d": "Vascular phenomena (e.g., Janeway lesions)",
+    "correct_answer": "C",
+    "explanation": "Major Duke criteria include typical blood cultures, evidence of endocardial involvement (e.g., vegetation on echo), or a single positive culture for Coxiella burnetii."
+  },
+  {
+    "question": "A 65-year-old male with a 50-pack-year smoking history presents with a cough and hypercalcemia. A chest X-ray shows a central lung mass. Which histological type of lung cancer is most likely?",
+    "option_a": "Adenocarcinoma",
+    "option_b": "Squamous Cell Carcinoma",
+    "option_c": "Small Cell Carcinoma",
+    "option_d": "Large Cell Carcinoma",
+    "correct_answer": "B",
+    "explanation": "Squamous cell carcinoma is typically centrally located and is known for paraneoplastic production of PTHrP, leading to hypercalcemia."
+  },
+  {
+    "question": "A patient with fever and night sweats has a lymph node biopsy showing large, multinucleated cells with prominent nucleoli resembling 'owl's eyes'. What is the diagnosis?",
+    "option_a": "Non-Hodgkin Lymphoma",
+    "option_b": "Hodgkin Lymphoma",
+    "option_c": "Chronic Lymphocytic Leukemia",
+    "option_d": "Sarcoidosis",
+    "correct_answer": "B",
+    "explanation": "Reed-Sternberg cells ('owl's eyes') are the pathognomonic histological finding for Hodgkin Lymphoma."
+  },
+  {
+    "question": "Which of the following paraneoplastic syndromes is most specifically associated with Small Cell Lung Cancer (SCLC)?",
+    "option_a": "Hypercalcemia",
+    "option_b": "Ectopic ACTH production (Cushing Syndrome)",
+    "option_c": "Hypertrophic Osteoarthropathy",
+    "option_d": "Migratory Thrombophlebitis",
+    "correct_answer": "B",
+    "explanation": "SCLC is a neuroendocrine tumor often associated with SIADH and ectopic ACTH production."
+  },
+  {
+    "question": "A 25-year-old male presents with a high fever, severe headache, and a non-blanching petechial rash on his trunk. Lumbar puncture reveals a high opening pressure and neutrophils. What is the most likely pathogen?",
+    "option_a": "Streptococcus pneumoniae",
+    "option_b": "Neisseria meningitidis",
+    "option_c": "Haemophilus influenzae",
+    "option_d": "Listeria monocytogenes",
+    "correct_answer": "B",
+    "explanation": "Meningococcal meningitis (N. meningitidis) is classically associated with a rapid onset and a petechial/purpuric rash."
+  },
+  {
+    "question": "In a patient with suspected bacterial meningitis, which CSF finding is most characteristic?",
+    "option_a": "Low protein, high glucose",
+    "option_b": "High protein, low glucose, high PMNs",
+    "option_c": "Normal protein, low glucose, high lymphocytes",
+    "option_d": "High protein, normal glucose",
+    "correct_answer": "B",
+    "explanation": "Bacterial meningitis typically presents with elevated protein, decreased glucose (consumed by bacteria), and a neutrophilic pleocytosis."
+  },
+  {
+    "question": "Which of the following is the screening method of choice for breast cancer in a 55-year-old woman with average risk?",
+    "option_a": "Breast Ultrasound every year",
+    "option_b": "Annual Mammography",
+    "option_c": "Breast MRI every 2 years",
+    "option_d": "Clinical breast exam only",
+    "correct_answer": "B",
+    "explanation": "Annual or biennial mammography is the standard screening tool for detecting early-stage breast cancer in postmenopausal women."
+  },
+  {
+    "question": "A 60-year-old woman presents with weight loss and a new-onset thrombophlebitis that seems to migrate from one location to another (Trousseau sign). Which malignancy should be suspected?",
+    "option_a": "Breast Cancer",
+    "option_b": "Pancreatic Cancer",
+    "option_c": "Ovarian Cancer",
+    "option_d": "Renal Cell Carcinoma",
+    "correct_answer": "B",
+    "explanation": "Migratory thrombophlebitis (Trousseau syndrome) is a classic paraneoplastic sign of visceral malignancy, most notably pancreatic adenocarcinoma."
+  },
+  {
+    "question": "A patient with pulmonary tuberculosis is started on the RIPE regimen. He later complains of numbness and tingling in his hands and feet. Which medication is likely responsible?",
+    "option_a": "Rifampin",
+    "option_b": "Isoniazid",
+    "option_c": "Pyrazinamide",
+    "option_d": "Ethambutol",
+    "correct_answer": "B",
+    "explanation": "Isoniazid (INH) causes peripheral neuropathy by depleting Vitamin B6 (pyridoxine). Supplementation is usually provided to prevent this."
+  },
+  {
+    "question": "Which of the following markers is used to monitor for the recurrence of Colorectal Cancer after surgical resection?",
+    "option_a": "AFP",
+    "option_b": "CEA",
+    "option_c": "CA 19-9",
+    "option_d": "PSA",
+    "correct_answer": "B",
+    "explanation": "Carcinoembryonic Antigen (CEA) is not used for initial diagnosis but is highly useful for monitoring treatment response and detecting recurrence in CRC."
+  },
+  {
+    "question": "A 19-year-old college student presents with fatigue, sore throat, and generalized lymphadenopathy. A peripheral smear shows 'atypical' lymphocytes. What is the most likely diagnosis?",
+    "option_a": "Acute Myeloid Leukemia",
+    "option_b": "Infectious Mononucleosis (EBV)",
+    "option_c": "Streptococcal Pharyngitis",
+    "option_d": "Cat Scratch Disease",
+    "correct_answer": "B",
+    "explanation": "Infectious mononucleosis, caused by EBV, presents with the triad of fever, pharyngitis, and lymphadenopathy, with characteristic reactive (atypical) T-cells."
+  },
+  {
+    "question": "A patient with Chronic Myeloid Leukemia (CML) is found to have a t(9;22) translocation. Which protein product is the target of modern therapy (e.g., Imatinib)?",
+    "option_a": "p53",
+    "option_b": "BCR-ABL tyrosine kinase",
+    "option_c": "HER2/neu",
+    "option_d": "c-myc",
+    "correct_answer": "B",
+    "explanation": "The Philadelphia chromosome creates the BCR-ABL fusion gene, a constitutively active tyrosine kinase that drives CML cell proliferation."
+  },
+  {
+    "question": "A patient with a CD4 count of 150 cells/mm³ should receive prophylaxis against which opportunistic infection?",
+    "option_a": "Mycobacterium avium complex (MAC)",
+    "option_b": "Pneumocystis jirovecii (PCP)",
+    "option_c": "Cytomegalovirus (CMV)",
+    "option_d": "Histoplasmosis",
+    "correct_answer": "B",
+    "explanation": "PCP prophylaxis (usually with TMP-SMX) is mandatory when the CD4 count drops below 200 cells/mm³."
+  },
+  {
+    "question": "Which of the following is a side effect of Ethambutol used in TB treatment?",
+    "option_a": "Hepatotoxicity",
+    "option_b": "Optic Neuritis",
+    "option_c": "Red-orange discoloration of urine",
+    "option_d": "Hyperuricemia",
+    "correct_answer": "B",
+    "explanation": "Ethambutol can cause dose-dependent retrobulbar neuritis, leading to decreased visual acuity and loss of red-green color discrimination."
+  },
+  {
+    "question": "Which type of cancer is associated with the highest risk of superior vena cava (SVC) syndrome?",
+    "option_a": "Esophageal Cancer",
+    "option_b": "Lung Cancer",
+    "option_c": "Thyroid Cancer",
+    "option_d": "Breast Cancer",
+    "correct_answer": "B",
+    "explanation": "SVC syndrome is most commonly caused by external compression from a lung malignancy (especially SCLC) or lymphoma."
+  },
+  {
+    "question": "What is the most sensitive test for the diagnosis of latent tuberculosis infection?",
+    "option_a": "Chest X-ray",
+    "option_b": "Interferon-Gamma Release Assay (IGRA)",
+    "option_c": "Sputum Culture",
+    "option_d": "Ziehl-Neelsen stain",
+    "correct_answer": "B",
+    "explanation": "IGRA and the Tuberculin Skin Test (TST) are used to detect latent infection; culture and CXR are used for active disease."
+  },
+  {
+    "question": "A 55-year-old woman with breast cancer develops sudden back pain and lower extremity weakness. What is the most immediate priority?",
+    "option_a": "Physical therapy",
+    "option_b": "High-dose Dexamethasone and urgent MRI",
+    "option_c": "Start Chemotherapy",
+    "option_d": "Bone scan",
+    "correct_answer": "B",
+    "explanation": "This clinical picture suggests malignant spinal cord compression, an oncologic emergency requiring steroids to reduce edema and rapid imaging."
+  },
+  {
+    "question": "Which of the following is a classic feature of Multiple Myeloma?",
+    "option_a": "Lytic bone lesions and hypercalcemia",
+    "option_b": "Blastic bone lesions",
+    "option_c": "Low serum total protein",
+    "option_d": "Polycythemia",
+    "correct_answer": "A",
+    "explanation": "Multiple myeloma is characterized by clonal plasma cell proliferation, resulting in 'punched-out' lytic lesions, hypercalcemia, renal failure, and anemia."
+  },
+  {
+    "question": "Tumor Lysis Syndrome is characterized by which of the following metabolic disturbances?",
+    "option_a": "Hyperkalemia, Hyperuricemia, and Hypocalcemia",
+    "option_b": "Hypokalemia, Hypouricemia, and Hypercalcemia",
+    "option_c": "Hypernatremia and Hypercalcemia",
+    "option_d": "Hypophosphatemia",
+    "correct_answer": "A",
+    "explanation": "Rapid cell breakdown releases potassium, phosphorus (which binds calcium, causing hypocalcemia), and nucleic acids (converted to uric acid)."
+  },
+  {
+    "question": "Which viral infection is most strongly associated with the development of Nasopharyngeal Carcinoma and Burkitt Lymphoma?",
+    "option_a": "Human Papillomavirus (HPV)",
+    "option_b": "Epstein-Barr Virus (EBV)",
+    "option_c": "Hepatitis C Virus (HCV)",
+    "option_d": "Human T-cell Lymphotropic Virus (HTLV-1)",
+    "correct_answer": "B",
+    "explanation": "EBV is oncogenic and is linked to several malignancies, including Burkitt's, certain Hodgkin's subtypes, and nasopharyngeal cancer."
+  },
+  {
+    "question": "What is the clinical triad for the diagnosis of a lung abscess?",
+    "option_a": "Fever, hemoptysis, and weight loss",
+    "option_b": "Fever, cough with foul-smelling sputum, and cavitary lesion on imaging",
+    "option_c": "Pleuritic chest pain, dyspnea, and tachycardia",
+    "option_d": "Wheezing, night sweats, and hilar adenopathy",
+    "correct_answer": "B",
+    "explanation": "Lung abscesses often result from aspiration of oral anaerobes, leading to necrotic cavitation and characteristic foul-smelling sputum."
+  },
+  {
+    "question": "In a patient with HIV, which organism is the most common cause of painful swallowing (odynophagia)?",
+    "option_a": "Herpes Simplex Virus",
+    "option_b": "Candida albicans",
+    "option_c": "Cytomegalovirus",
+    "option_d": "Cryptosporidium",
+    "correct_answer": "B",
+    "explanation": "Esophageal candidiasis is a common AIDS-defining illness and the most frequent cause of dysphagia/odynophagia in this population."
+  },
+  {
+    "question": "A 50-year-old male smoker with lung cancer presents with facial swelling, blue-tinged skin, and distended neck veins. Diagnosis?",
+    "option_a": "Congestive Heart Failure",
+    "option_b": "Superior Vena Cava Syndrome",
+    "option_c": "Pulmonary Embolism",
+    "option_d": "Tension Pneumothorax",
+    "correct_answer": "B",
+    "explanation": "SVC syndrome results from obstruction of blood flow through the SVC, causing venous congestion in the head, neck, and upper extremities."
+  },
+  {
+    "question": "Which of the following is the drug of choice for the treatment of Lyme disease in an adult (early stage)?",
+    "option_a": "Penicillin V",
+    "option_b": "Doxycycline",
+    "option_c": "Ciprofloxacin",
+    "option_d": "Gentamicin",
+    "correct_answer": "B",
+    "explanation": "Doxycycline is the preferred treatment for early localized Lyme disease (Erythema migrans)."
+  },
+  {
+    "question": "A 70-year-old patient with iron deficiency anemia and a change in bowel habits should undergo which of the following?",
+    "option_a": "Iron supplementation only",
+    "option_b": "Colonoscopy to rule out malignancy",
+    "option_c": "Abdominal Ultrasound",
+    "option_d": "Barium swallow",
+    "correct_answer": "B",
+    "explanation": "Iron deficiency anemia in an older patient is colon cancer until proven otherwise."
+  },
+  {
+    "question": "Which chemotherapy side effect is specifically associated with Doxorubicin?",
+    "option_a": "Hemorrhagic cystitis",
+    "option_b": "Cardiotoxicity (dilated cardiomyopathy)",
+    "option_c": "Peripheral neuropathy",
+    "option_d": "Pulmonary fibrosis",
+    "correct_answer": "B",
+    "explanation": "Anthracyclines like doxorubicin are known for cumulative, dose-related damage to the myocardium."
+  },
+  {
+    "question": "Hemorrhagic cystitis is a well-known side effect of which chemotherapy agent?",
+    "option_a": "Vincristine",
+    "option_b": "Cyclophosphamide",
+    "option_c": "Cisplatin",
+    "option_d": "Methotrexate",
+    "correct_answer": "B",
+    "explanation": "Cyclophosphamide metabolites (acrolein) irritate the bladder lining. This can be prevented with hydration and Mesna."
+  },
+  {
+    "question": "Which of the following defines 'Neutropenic Fever' in an oncology patient?",
+    "option_a": "ANC < 1500 and Temp > 37.5°C",
+    "option_b": "ANC < 500 and a single oral Temp > 38.3°C",
+    "option_c": "WBC < 4000 and Temp > 38.0°C",
+    "option_d": "ANC < 1000 and presence of a cough",
+    "correct_answer": "B",
+    "explanation": "Neutropenic fever is a medical emergency requiring immediate empiric broad-spectrum antibiotics to cover Gram-negative organisms like Pseudomonas."
+  },
+  {
+    "question": "A patient with sepsis has a blood pressure of 80/40 mmHg that does not improve after 2 liters of IV fluid. What is the diagnosis?",
+    "option_a": "Severe Sepsis",
+    "option_b": "Septic Shock",
+    "option_c": "Systemic Inflammatory Response Syndrome",
+    "option_d": "Hypovolemic Shock",
+    "correct_answer": "B",
+    "explanation": "Septic shock is defined as sepsis with persistent hypotension requiring vasopressors despite adequate fluid resuscitation."
+  },
+  {
+    "question": "Which of the following screening tests is recommended for lung cancer in high-risk smokers?",
+    "option_a": "Sputum cytology",
+    "option_b": "Annual Low-Dose CT (LDCT)",
+    "option_c": "Chest X-ray every 6 months",
+    "option_d": "Bronchoscopy",
+    "correct_answer": "B",
+    "explanation": "Annual LDCT is the only evidence-based screening method proven to reduce lung cancer mortality in heavy smokers."
+  },
+  {
+    "question": "A patient with metastatic prostate cancer is started on hormonal therapy. What is the most common target for this therapy?",
+    "option_a": "Estrogen receptors",
+    "option_b": "Androgen deprivation (testosterone)",
+    "option_c": "HER2 receptors",
+    "option_d": "VEGF",
+    "correct_answer": "B",
+    "explanation": "Prostate cancer is typically androgen-dependent. Therapy focuses on lowering testosterone levels or blocking androgen receptors."
+  },
+  {
+    "question": "Which bacteria is the most common cause of 'Surgical Site Infections'?",
+    "option_a": "Escherichia coli",
+    "option_b": "Staphylococcus aureus",
+    "option_c": "Pseudomonas aeruginosa",
+    "option_d": "Bacteroides fragilis",
+    "correct_answer": "B",
+    "explanation": "S. aureus (including MRSA) is the most common pathogen isolated from skin and soft tissue surgical infections."
+  },
+  {
+    "question": "A patient presents with a painless, hard nodule in the testis. What is the first-line diagnostic imaging?",
+    "option_a": "CT Pelvis",
+    "option_b": "Scrotal Ultrasound",
+    "option_c": "MRI Testis",
+    "option_d": "PET scan",
+    "correct_answer": "B",
+    "explanation": "Ultrasound is highly accurate in differentiating solid masses (malignant suspicion) from cystic lesions (hydrocele/spermatocele)."
+  },
+  {
+    "question": "Which of the following is a clinical sign of chronic liver disease that suggests a poor prognosis due to coagulopathy?",
+    "option_a": "Spider angiomata",
+    "option_b": "Prolonged Prothrombin Time (PT/INR)",
+    "option_c": "Palmar erythema",
+    "option_d": "Splenomegaly",
+    "correct_answer": "B",
+    "explanation": "The liver synthesizes clotting factors. A prolonged PT that does not correct with Vitamin K indicates significant liver synthetic dysfunction."
+  },
+  {
+    "question": "A patient with fever and back pain has blood cultures positive for Streptococcus bovis. What is the most important next step?",
+    "option_a": "Echocardiogram and Colonoscopy",
+    "option_b": "Renal biopsy",
+    "option_c": "Bone scan",
+    "option_d": "Skin biopsy",
+    "correct_answer": "A",
+    "explanation": "S. bovis (S. gallolyticus) bacteremia is strongly associated with both endocarditis and colorectal malignancy."
+  },
+  {
+    "question": "Which of the following laboratory findings is most characteristic of Chronic Lymphocytic Leukemia (CLL)?",
+    "option_a": "Auer rods on blood smear",
+    "option_b": "Absolute lymphocytosis with 'smudge cells'",
+    "option_c": "High levels of blast cells (>20%)",
+    "option_d": "Low hemoglobin and high platelets",
+    "correct_answer": "B",
+    "explanation": "CLL involves a proliferation of mature-appearing B-lymphocytes that are fragile and rupture during slide preparation, creating smudge cells."
+  },
+  {
+    "question": "What is the most effective way to prevent the transmission of many hospital-acquired (nosocomial) infections?",
+    "option_a": "Wearing gloves at all times",
+    "option_b": "Hand hygiene (washing or alcohol rub)",
+    "option_c": "Prophylactic antibiotics for all patients",
+    "option_d": "Negative pressure rooms for everyone",
+    "correct_answer": "B",
+    "explanation": "Hand hygiene is the single most important measure to prevent the spread of pathogens in healthcare settings."
+  },
+  {
+    "question": "In a patient with suspected malaria, what is the 'gold standard' for diagnosis?",
+    "option_a": "PCR",
+    "option_b": "Thick and thin blood smears with Giemsa stain",
+    "option_c": "Rapid Antigen Test",
+    "option_d": "Serology for antibodies",
+    "correct_answer": "B",
+    "explanation": "Microscopy allows for both the identification of the species and the quantification of the parasite density (parasitemia)."
+  },
+  {
+    "question": "Which of the following is a feature of 'Tumor Lysis Syndrome'?",
+    "option_a": "Hypokalemia",
+    "option_b": "Hypocalcemia",
+    "option_c": "Hypouricemia",
+    "option_d": "Hypophosphatemia",
+    "correct_answer": "B",
+    "explanation": "Hyperphosphatemia occurs due to cell lysis; the phosphate then binds serum calcium, leading to secondary hypocalcemia."
+  },
+  {
+    "question": "A patient with HIV presents with a purple, non-blanching skin lesion. Biopsy reveals spindle cells and vascular spaces. Diagnosis?",
+    "option_a": "Bacillary Angiomatosis",
+    "option_b": "Kaposi Sarcoma",
+    "option_c": "Melanoma",
+    "option_d": "Hemangioma",
+    "correct_answer": "B",
+    "explanation": "Kaposi sarcoma is caused by HHV-8 and is a common vascular tumor in patients with advanced HIV."
+  },
+  {
+    "question": "Which cancer has the highest mortality rate among both men and women?",
+    "option_a": "Colorectal Cancer",
+    "option_b": "Lung Cancer",
+    "option_c": "Pancreatic Cancer",
+    "option_d": "Breast/Prostate Cancer",
+    "correct_answer": "B",
+    "explanation": "While breast and prostate cancers are more common, lung cancer causes the most cancer-related deaths worldwide."
+  },
+  {
+    "question": "A patient develops a 'Target-shaped' rash (Erythema Migrans) after a hike. This is the hallmark of:",
+    "option_a": "Secondary Syphilis",
+    "option_b": "Lyme Disease",
+    "option_c": "Rocky Mountain Spotted Fever",
+    "option_d": "Erythema Multiforme",
+    "correct_answer": "B",
+    "explanation": "Erythema migrans is the classic early sign of infection with Borrelia burgdorferi."
+  },
+  {
+    "question": "Which hormone is typically used as a marker to detect Medullary Thyroid Carcinoma?",
+    "option_a": "TSH",
+    "option_b": "Calcitonin",
+    "option_c": "Thyroglobulin",
+    "option_d": "Parathyroid Hormone",
+    "correct_answer": "B",
+    "explanation": "Medullary thyroid cancer arises from parafollicular C-cells, which secrete calcitonin."
+  },
+  {
+    "question": "A 40-year-old female presents with a new, rapidly growing breast mass that is red, warm, and has an 'orange peel' (peau d'orange) texture. Diagnosis?",
+    "option_a": "Breast Abscess",
+    "option_b": "Inflammatory Breast Cancer",
+    "option_c": "Fibroadenoma",
+    "option_d": "Fat necrosis",
+    "correct_answer": "B",
+    "explanation": "Peau d'orange skin changes result from lymphovascular invasion and are characteristic of aggressive inflammatory breast cancer."
+  },
+  {
+    "question": "Which lab abnormality is characteristic of primary adrenal insufficiency (Addison's disease) following a chronic infection like TB?",
+    "option_a": "Hypernatremia and hypokalemia",
+    "option_b": "Hyponatremia and hyperkalemia",
+    "option_c": "Hyperglycemia",
+    "option_d": "Metabolic alkalosis",
+    "correct_answer": "B",
+    "explanation": "Loss of aldosterone leads to renal sodium wasting and potassium retention."
+  },
+  {
+    "question": "A patient with a history of alcohol use disorder presents with a high fever, foul-smelling sputum, and a cavitary lesion with an air-fluid level on CXR. Diagnosis?",
+    "option_a": "Tuberculosis",
+    "option_b": "Lung Abscess",
+    "option_c": "Aspergilloma",
+    "option_d": "Pneumothorax",
+    "correct_answer": "B",
+    "explanation": "The presence of an air-fluid level in a pulmonary cavity is classic for a lung abscess, often caused by aspirated anaerobes."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in primary hyperparathyroidism (often associated with MEN syndromes)?",
+    "option_a": "Chvostek sign",
+    "option_b": "Stones, bones, abdominal groans, and psychic moans",
+    "option_c": "Moon facies",
+    "option_d": "Exophthalmos",
+    "correct_answer": "B",
+    "explanation": "This mnemonic summarizes the symptoms of hypercalcemia: renal stones, bone pain, constipation/ulcers, and depression/delirium."
+  },
+  {
+    "question": "In the setting of sepsis, which marker is most useful for assessing tissue hypoperfusion and monitoring the adequacy of resuscitation?",
+    "option_a": "White blood cell count",
+    "option_b": "Serum Lactate",
+    "option_c": "C-reactive protein (CRP)",
+    "option_d": "Erythrocyte sedimentation rate (ESR)",
+    "correct_answer": "B",
+    "explanation": "Elevated lactate indicates anaerobic metabolism due to inadequate oxygen delivery to tissues. Clearing lactate is a goal of resuscitation."
+  }
+]
