@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
 import { useTheme } from "@/context/ThemeContext";
 import { useAuth } from "@/context/AuthContext";
 import { 
@@ -17,7 +18,9 @@ import {
   Globe,
   Award,
   Building2,
-  Heart
+  Heart,
+  Search,
+  X
 } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
@@ -28,12 +31,52 @@ export default function Landing() {
   const { theme, toggleTheme } = useTheme();
   const { user, login, isAuthenticated } = useAuth();
   const [universities, setUniversities] = useState([]);
+  const [allCourses, setAllCourses] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState({ universities: [], courses: [] });
+  const [showResults, setShowResults] = useState(false);
+  const searchRef = useRef(null);
 
   useEffect(() => {
     fetchUniversities();
+    fetchAllCourses();
     seedDatabase();
   }, []);
+
+  // Close search results when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowResults(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Search filter
+  useEffect(() => {
+    if (searchQuery.trim() === "") {
+      setSearchResults({ universities: [], courses: [] });
+      setShowResults(false);
+      return;
+    }
+
+    const query = searchQuery.toLowerCase();
+    
+    const filteredUniversities = universities.filter(u => 
+      u.name.toLowerCase().includes(query) || 
+      u.city?.toLowerCase().includes(query)
+    );
+    
+    const filteredCourses = allCourses.filter(c => 
+      c.course_name.toLowerCase().includes(query)
+    ).slice(0, 10); // Limit to 10 results
+
+    setSearchResults({ universities: filteredUniversities, courses: filteredCourses });
+    setShowResults(true);
+  }, [searchQuery, universities, allCourses]);
 
   const seedDatabase = async () => {
     try {
@@ -54,6 +97,29 @@ export default function Landing() {
       console.error("Error fetching universities:", e);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const fetchAllCourses = async () => {
+    try {
+      // Fetch courses from both universities
+      const [ugRes, nvuRes] = await Promise.all([
+        fetch(`${API}/courses/by-university/UG_TBILISI`),
+        fetch(`${API}/courses/by-university/NVU`)
+      ]);
+      
+      let courses = [];
+      if (ugRes.ok) {
+        const ugCourses = await ugRes.json();
+        courses = [...courses, ...ugCourses.map(c => ({ ...c, university: "UG" }))];
+      }
+      if (nvuRes.ok) {
+        const nvuCourses = await nvuRes.json();
+        courses = [...courses, ...nvuCourses.map(c => ({ ...c, university: "NVU" }))];
+      }
+      setAllCourses(courses);
+    } catch (e) {
+      console.error("Error fetching courses:", e);
     }
   };
 
