@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 40-year-old female is intubated for ARDS. To minimize Ventilator-Induced Lung Injury (VILI), what is the recommended target for 'Plateau Pressure'?",
+    "option_a": "< 20 cmH2O",
+    "option_b": "< 30 cmH2O",
+    "option_c": "< 40 cmH2O",
+    "option_d": "< 50 cmH2O",
+    "correct_answer": "B",
+    "explanation": "Keeping the plateau pressure (static pressure in the small airways) below 30 cmH2O is a core component of lung-protective ventilation to prevent barotrauma and volutrauma."
+  },
+  {
+    "question": "Which of the following is the most sensitive early indicator of 'Inadequate Tissue Perfusion' in a patient who appears clinically stable?",
+    "option_a": "Mean Arterial Pressure (MAP)",
+    "option_b": "Serum Lactate and Central Venous Oxygen Saturation (ScvO2)",
+    "option_c": "Heart Rate",
+    "option_d": "Urine Output",
+    "correct_answer": "B",
+    "explanation": "Lactate and ScvO2 reflect the balance between oxygen delivery and demand at the cellular level, often changing before macro-hemodynamic parameters like blood pressure drop."
+  },
+  {
+    "question": "A patient in the ICU develops sudden severe hypoxemia. The ventilator shows a high 'Peak Pressure' and a high 'Plateau Pressure'. What is the most likely cause?",
+    "option_a": "Secretions in the ETT",
+    "option_b": "Pneumothorax or worsening Pulmonary Edema",
+    "option_c": "Patient biting the tube",
+    "option_d": "Kinked ventilator tubing",
+    "correct_answer": "B",
+    "explanation": "An increase in both peak and plateau pressures indicates a decrease in lung compliance (the lungs are 'stiffer'), suggesting a parenchymal or pleural problem."
+  },
+  {
+    "question": "According to the Sepsis-3 definitions, 'Sepsis' is defined as:",
+    "option_a": "SIRS criteria + suspected infection",
+    "option_b": "Life-threatening organ dysfunction caused by a dysregulated host response to infection (SOFA score increase ≥ 2)",
+    "option_c": "Bacteremia confirmed by blood cultures",
+    "option_d": "Fever > 38.3°C and hypotension",
+    "correct_answer": "B",
+    "explanation": "Sepsis-3 moved away from the SIRS criteria, focusing instead on organ dysfunction as measured by an increase in the Sequential Organ Failure Assessment (SOFA) score."
+  },
+  {
+    "question": "What is the primary physiological effect of 'Positive End-Expiratory Pressure' (PEEP)?",
+    "option_a": "Decreasing intracranial pressure",
+    "option_b": "Increasing Functional Residual Capacity (FRC) and preventing alveolar collapse",
+    "option_c": "Decreasing the heart rate",
+    "option_d": "Increasing the respiratory rate",
+    "correct_answer": "B",
+    "explanation": "PEEP recruits collapsed alveoli and keeps them open at the end of expiration, improving the surface area available for gas exchange."
+  },
+  {
+    "question": "Which of the following is a classic hemodynamic finding in 'Neurogenic Shock'?",
+    "option_a": "Tachycardia and Hypertension",
+    "option_b": "Bradycardia and Hypotension",
+    "option_c": "Tachycardia and Hypotension",
+    "option_d": "High SVR and low CO",
+    "correct_answer": "B",
+    "explanation": "Loss of sympathetic tone (usually from spinal cord injury) leads to massive vasodilation (hypotension) and an inability to mount a compensatory tachycardia (bradycardia)."
+  },
+  {
+    "question": "In a patient with 'Metabolic Alkalosis' and a low urinary chloride (< 20 mEq/L), what is the most likely cause?",
+    "option_a": "Diuretic use",
+    "option_b": "Vomiting or nasogastric suction",
+    "option_c": "Hyperaldosteronism",
+    "option_d": "Renal failure",
+    "correct_answer": "B",
+    "explanation": "Loss of gastric HCl leads to a chloride-responsive metabolic alkalosis; the low urinary chloride indicates the body is trying to conserve Cl-."
+  },
+  {
+    "question": "What is the 'first-line' vasopressor for a patient in 'Distributive Shock' (e.g., Septic Shock)?",
+    "option_a": "Dopamine",
+    "option_b": "Norepinephrine",
+    "option_c": "Epinephrine",
+    "option_d": "Phenylephrine",
+    "correct_answer": "B",
+    "explanation": "Norepinephrine is the preferred agent due to its potent alpha-1 activity (vasoconstriction) and modest beta-1 activity, with a lower risk of arrhythmias compared to dopamine."
+  },
+  {
+    "question": "Which of the following is true regarding 'Rapid Sequence Induction' (RSI) in the ICU?",
+    "option_a": "It is always done without pre-oxygenation",
+    "option_b": "It involves the administration of a sedative and a neuromuscular blocker in quick succession",
+    "option_c": "It is safer than an awake intubation for a difficult airway",
+    "option_d": "Succinylcholine is the only muscle relaxant allowed",
+    "correct_answer": "B",
+    "explanation": "RSI aims to minimize the time the airway is unprotected, reducing the risk of gastric aspiration in patients who have not fasted."
+  },
+  {
+    "question": "A patient with 'Severe Hyperkalemia' (K+ = 7.2) shows widened QRS complexes on the monitor. What is the most immediate priority?",
+    "option_a": "Give Insulin and D50",
+    "option_b": "Administer IV Calcium Gluconate (or Chloride)",
+    "option_c": "Perform urgent Hemodialysis",
+    "option_d": "Give Sodium Polystyrene Sulfonate (Kayexalate)",
+    "correct_answer": "B",
+    "explanation": "Calcium does not lower potassium but stabilizes the cardiac membrane to prevent fatal arrhythmias while other treatments take effect."
+  },
+  {
+    "question": "Which mode of ventilation allows the patient to breathe spontaneously at a baseline level of pressure, while 'stacking' ventilator breaths if needed?",
+    "option_a": "Assist-Control (A/C)",
+    "option_b": "Synchronized Intermittent Mandatory Ventilation (SIMV)",
+    "option_c": "Pressure Support (PSV)",
+    "option_d": "CPAP",
+    "correct_answer": "B",
+    "explanation": "SIMV delivers a set number of breaths but allows the patient to take extra spontaneous breaths between the machine breaths."
+  },
+  {
+    "question": "Which of the following describes 'Fractional Excretion of Urea' (FeUrea)?",
+    "option_a": "It is used only in diabetic patients",
+    "option_b": "It is a more reliable marker of Pre-renal AKI in patients receiving diuretics",
+    "option_c": "It is always 100% in renal failure",
+    "option_d": "It cannot be measured in the ICU",
+    "correct_answer": "B",
+    "explanation": "Since diuretics affect sodium handling, FeNa may be falsely high. Urea handling is less affected, making FeUrea (<35%) a better indicator of pre-renal status."
+  },
+  {
+    "question": "What is the primary risk of using 'Etomidate' as an induction agent for intubation in a septic patient?",
+    "option_a": "Severe hypertension",
+    "option_b": "Transient adrenal suppression",
+    "option_c": "Malignant hyperthermia",
+    "option_d": "Kidney failure",
+    "correct_answer": "B",
+    "explanation": "Etomidate inhibits 11-beta-hydroxylase, which can lead to a temporary drop in cortisol production, a concern in critically ill patients with sepsis."
+  },
+  {
+    "question": "A patient with a 'Subarachnoid Hemorrhage' (SAH) is at risk for 'Vasospasm'. When is the peak incidence for this complication?",
+    "option_a": "Within the first 24 hours",
+    "option_b": "Between day 3 and day 14",
+    "option_c": "After 1 month",
+    "option_d": "Only if they have a fever",
+    "correct_answer": "B",
+    "explanation": "Delayed cerebral ischemia due to vasospasm is a major cause of morbidity in SAH patients, peaking around 1 week post-bleed."
+  },
+  {
+    "question": "Which medication is the 'antidote' for the anticoagulant effects of 'Heparin'?",
+    "option_a": "Vitamin K",
+    "option_b": "Protamine Sulfate",
+    "option_c": "Idarucizumab",
+    "option_d": "Andexanet alfa",
+    "correct_answer": "B",
+    "explanation": "Protamine sulfate is a highly alkaline protein that binds to acidic heparin, forming a stable, inactive complex."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Disseminated Intravascular Coagulation' (DIC)?",
+    "option_a": "Elevated Platelets and low PT",
+    "option_b": "Low Platelets, prolonged PT/PTT, and elevated D-dimer",
+    "option_c": "High Fibrinogen",
+    "option_d": "Normal labs with clinical bleeding",
+    "correct_answer": "B",
+    "explanation": "DIC involves the systemic consumption of clotting factors and platelets, leading to both microvascular thrombosis and clinical hemorrhage."
+  },
+  {
+    "question": "What is the 'target' blood glucose level for most ICU patients according to the Surviving Sepsis guidelines?",
+    "option_a": "70 - 110 mg/dL",
+    "option_b": "140 - 180 mg/dL",
+    "option_c": "200 - 250 mg/dL",
+    "option_d": "As low as possible",
+    "correct_answer": "B",
+    "explanation": "Moderate glycemic control (140-180) is preferred over intensive control (80-110), as the latter increases the risk of dangerous hypoglycemia."
+  },
+  {
+    "question": "A patient has a PaO2 of 60 mmHg while breathing 100% Oxygen (FiO2 1.0). What is the P/F ratio?",
+    "option_a": "300",
+    "option_b": "60",
+    "option_c": "100",
+    "option_d": "400",
+    "correct_answer": "B",
+    "explanation": "Calculation: 60 / 1.0 = 60. A P/F ratio < 100 indicates severe ARDS."
+  },
+  {
+    "question": "Which of the following is true regarding 'Nimodipine' in the management of SAH?",
+    "option_a": "It is used to treat hypertension",
+    "option_b": "It is a calcium channel blocker used specifically to improve neurological outcomes and reduce vasospasm-related injury",
+    "option_c": "It is given via IV only",
+    "option_d": "It is an antibiotic",
+    "correct_answer": "B",
+    "explanation": "Nimodipine is given orally for 21 days to all SAH patients to provide neuroprotection against ischemic deficits."
+  },
+  {
+    "question": "What does a 'High' Mixed Venous Oxygen Saturation (SvO2 > 80%) often indicate in a septic patient?",
+    "option_a": "The patient is improving",
+    "option_b": "Impaired oxygen extraction at the cellular level (Mitochondrial dysfunction)",
+    "option_c": "Excellent tissue perfusion",
+    "option_d": "The heart is pumping too much blood",
+    "correct_answer": "B",
+    "explanation": "In late-stage distributive shock, tissues may lose the ability to extract oxygen despite adequate delivery, leading to an abnormally high SvO2."
+  },
+  {
+    "question": "Which of the following is the 'Gold Standard' for measuring 'Intracranial Pressure' (ICP)?",
+    "option_a": "Head CT",
+    "option_b": "External Ventricular Drain (EVD)",
+    "option_c": "Lumbar puncture",
+    "option_d": "Ophthalmoscopy",
+    "correct_answer": "B",
+    "explanation": "An EVD allows for both the most accurate measurement of ICP and the therapeutic drainage of CSF to lower pressure."
+  },
+  {
+    "question": "What is the primary mechanism of action of 'Dobutamine'?",
+    "option_a": "Pure Alpha-1 agonist",
+    "option_b": "Potent Beta-1 agonist with mild Beta-2/Alpha-1 activity (Inotrope)",
+    "option_c": "V2 receptor agonist",
+    "option_d": "GABA agonist",
+    "correct_answer": "B",
+    "explanation": "Dobutamine increases cardiac contractility and is used primarily in cardiogenic shock or low-output states."
+  },
+  {
+    "question": "Which of the following is a classic clinical sign of 'Fat Embolism Syndrome' following a long bone fracture?",
+    "option_a": "High blood pressure",
+    "option_b": "The triad of: Respiratory distress, Neurological changes, and Petichial rash",
+    "option_c": "Severe diarrhea",
+    "option_d": "Muscle stiffness",
+    "correct_answer": "B",
+    "explanation": "Fat emboli trigger a systemic inflammatory response, classically presenting with this triad 24-72 hours after injury."
+  },
+  {
+    "question": "In the 'ABG' analysis, what is the 'Winter's Formula' used for?",
+    "option_a": "To calculate the anion gap",
+    "option_b": "To determine the expected respiratory compensation in metabolic acidosis",
+    "option_c": "To calculate the PaO2",
+    "option_d": "To determine the dose of bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Expected PCO2 = (1.5 x HCO3-) + 8 (+/- 2). If the actual PCO2 is higher than expected, there is a concomitant respiratory acidosis."
+  },
+  {
+    "question": "A patient on 'Warfarin' requires emergency surgery. What is the fastest way to reverse the INR?",
+    "option_a": "Oral Vitamin K",
+    "option_b": "Prothrombin Complex Concentrate (PCC) and IV Vitamin K",
+    "option_c": "Fresh Frozen Plasma (FFP) only",
+    "option_d": "Stopping the drug for 5 days",
+    "correct_answer": "B",
+    "explanation": "PCC provides rapid replacement of clotting factors II, VII, IX, and X, much faster and with less volume than FFP."
+  },
+  {
+    "question": "Which of the following describes 'Transfusion-Related Acute Lung Injury' (TRALI)?",
+    "option_a": "Fluid overload from too many units",
+    "option_b": "Acute hypoxemia and bilateral pulmonary edema occurring within 6 hours of transfusion (Immune-mediated)",
+    "option_c": "A viral infection from the blood",
+    "option_d": "A rash and itching during transfusion",
+    "correct_answer": "B",
+    "explanation": "TRALI is caused by antibodies in the donor plasma attacking the recipient's pulmonary endothelium."
+  },
+  {
+    "question": "What is the medication of choice for 'Sedation' in a patient with hemodynamic instability, as it has minimal effect on blood pressure?",
+    "option_a": "Propofol",
+    "option_b": "Dexmedetomidine or Fentanyl",
+    "option_c": "Midazolam",
+    "option_d": "High-dose Morphine",
+    "correct_answer": "B",
+    "explanation": "Unlike Propofol and Benzodiazepines, Dexmedetomidine (an alpha-2 agonist) and Fentanyl have more stable hemodynamic profiles."
+  },
+  {
+    "question": "Which of the following is true for 'Central Venous Pressure' (CVP) as a marker of fluid responsiveness?",
+    "option_a": "A high CVP always means the patient is volume overloaded",
+    "option_b": "A single static CVP value is a poor predictor of fluid responsiveness",
+    "option_c": "It is the best measurement in the ICU",
+    "option_d": "CVP should be 0 in all patients",
+    "correct_answer": "B",
+    "explanation": "Dynamic markers (like stroke volume variation or passive leg raise) are much more accurate than static CVP readings for determining if a patient needs more fluid."
+  },
+  {
+    "question": "What is the primary treatment for 'Hepatorenal Syndrome' (HRS)?",
+    "option_a": "Aggressive Diuretics",
+    "option_b": "Terlipressin (or Midodrine/Octreotide) and Albumin",
+    "option_c": "Hemodialysis only",
+    "option_d": "High-protein diet",
+    "correct_answer": "B",
+    "explanation": "Vasoactive drugs aim to reverse the splanchnic vasodilation and improve renal perfusion in patients with advanced liver disease."
+  },
+  {
+    "question": "In a patient with 'Chronic Obstructive Pulmonary Disease' (COPD) on a ventilator, what is the risk of a high 'Respiratory Rate'?",
+    "option_a": "Hyperventilation",
+    "option_b": "Auto-PEEP (Intrinsic PEEP) and air trapping",
+    "option_c": "Too much oxygen",
+    "option_d": "Laryngeal edema",
+    "correct_answer": "B",
+    "explanation": "Short expiratory times prevent the patient from fully exhaling, leading to gas trapping and increased intrathoracic pressure (Auto-PEEP), which can cause hypotension."
+  },
+  {
+    "question": "Which electrolyte is primarily involved in the 'QTc Prolongation' and risk of 'Torsades de Pointes'?",
+    "option_a": "Sodium",
+    "option_b": "Magnesium and Potassium (Hypomagnesemia/Hypokalemia)",
+    "option_c": "Chloride",
+    "option_d": "Bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Low levels of magnesium and potassium delay ventricular repolarization, increasing the risk of fatal ventricular arrhythmias."
+  },
+  {
+    "question": "Which of the following is the 'first-line' treatment for 'Status Epilepticus' in the ICU?",
+    "option_a": "Phenytoin",
+    "option_b": "Benzodiazepines (e.g., Lorazepam or Midazolam)",
+    "option_c": "Propofol",
+    "option_d": "Valproate",
+    "correct_answer": "B",
+    "explanation": "Benzodiazepines are the fastest acting to stop the ongoing seizure activity."
+  },
+  {
+    "question": "What is the primary side effect of 'Norepinephrine' related to the peripheral circulation?",
+    "option_a": "Profound vasodilation",
+    "option_b": "Digital or mesenteric ischemia (due to excessive vasoconstriction)",
+    "option_c": "Bradycardia",
+    "option_d": "Hypotension",
+    "correct_answer": "B",
+    "explanation": "While necessary to maintain MAP, high doses of vasopressors can compromise blood flow to the fingers, toes, and intestines."
+  },
+  {
+    "question": "Which of the following is characteristic of 'Anaphylactic Shock'?",
+    "option_a": "High SVR and high CO",
+    "option_b": "Low SVR, low CVP, and high CO (early)",
+    "option_c": "High CVP and low CO",
+    "option_d": "Pinpoint pupils",
+    "correct_answer": "B",
+    "explanation": "Widespread vasodilation and increased capillary permeability lead to distributive shock."
+  },
+  {
+    "question": "What is the significance of 'Pulsus Paradoxus'?",
+    "option_a": "It indicates a heart attack",
+    "option_b": "A drop in systolic BP > 10 mmHg during inspiration, classic for Cardiac Tamponade or Severe Asthma",
+    "option_c": "A heart rate that changes with breathing",
+    "option_d": "High fever with a low pulse",
+    "correct_answer": "B",
+    "explanation": "Exaggerated inspiratory drop in BP is a hallmark of conditions that limit cardiac filling or increase intrathoracic pressure changes."
+  },
+  {
+    "question": "Which of the following describes 'Shock Liver' (Ischemic Hepatitis)?",
+    "option_a": "Chronic cirrhosis",
+    "option_b": "Rapid and massive elevation of ALT/AST (often >1000) following a period of hypotension",
+    "option_c": "Hepatitis B infection",
+    "option_d": "Gallstones",
+    "correct_answer": "B",
+    "explanation": "The liver is highly sensitive to drops in perfusion, resulting in acute centrilobular necrosis and enzyme leakage."
+  },
+  {
+    "question": "In 'Hyperosmolar Hyperglycemic State' (HHS), what is the primary goal of management?",
+    "option_a": "Aggressive insulin boluses",
+    "option_b": "Aggressive fluid resuscitation with isotonic crystalloids",
+    "option_c": "Immediate bicarbonate infusion",
+    "option_d": "Bed rest only",
+    "correct_answer": "B",
+    "explanation": "Patients with HHS are profoundly dehydrated; fluid replacement is the absolute priority to restore circulation and lower glucose concentration."
+  },
+  {
+    "question": "Which of the following is an 'In-Line' filter required for when administering 'Amiodarone' or 'Lorazepam' infusions?",
+    "option_a": "To prevent bacterial growth",
+    "option_b": "To prevent the infusion of particulates or crystals",
+    "option_c": "To measure the flow rate",
+    "option_d": "To stop the drug if it is too strong",
+    "correct_answer": "B",
+    "explanation": "Some ICU medications are prone to precipitation and require specific filters to protect the patient."
+  },
+  {
+    "question": "Which of the following is true for 'Delirium' in the ICU?",
+    "option_a": "It is a normal and harmless finding",
+    "option_b": "It is associated with increased mortality and longer hospital stays",
+    "option_c": "It is always 'hyperactive' (agitated)",
+    "option_d": "It can be cured with a single pill",
+    "correct_answer": "B",
+    "explanation": "Delirium (especially the hypoactive type) is a frequent and serious complication of critical illness."
+  },
+  {
+    "question": "What is the recommended treatment for 'Bicarbonate-Responsive' Metabolic Acidosis (e.g., pH < 7.1)?",
+    "option_a": "Treat the underlying cause (e.g., fluids, insulin, dialysis)",
+    "option_b": "Give 10 vials of bicarbonate immediately to everyone",
+    "option_c": "Hyperventilate the patient",
+    "option_d": "Give antibiotics",
+    "correct_answer": "A",
+    "explanation": "Bicarbonate administration is controversial and usually reserved for extreme cases; the focus must be on reversing the primary pathology."
+  },
+  {
+    "question": "Which of the following describes 'Acute Respiratory Failure' Type 1?",
+    "option_a": "Hypercapnic failure (High CO2)",
+    "option_b": "Hypoxemic failure (Low O2 with normal or low CO2)",
+    "option_c": "Metabolic failure",
+    "option_d": "Kidney failure",
+    "correct_answer": "B",
+    "explanation": "Type 1 failure is due to V/Q mismatch or shunting (e.g., pneumonia, edema)."
+  },
+  {
+    "question": "What is the definitive treatment for 'Abdominal Compartment Syndrome'?",
+    "option_a": "Diuretics",
+    "option_b": "Decompressive Laparotomy",
+    "option_c": "Morphine",
+    "option_d": "Prone positioning",
+    "correct_answer": "B",
+    "explanation": "When intra-abdominal pressure > 20 mmHg causes organ dysfunction, surgical opening of the abdomen is required."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Adrenal Crisis' in the ICU?",
+    "option_a": "Hypertension and Hyperglycemia",
+    "option_b": "Refractory hypotension, Hyponatremia, and Hyperkalemia",
+    "option_c": "High blood sugar and low potassium",
+    "option_d": "High fever and rash",
+    "correct_answer": "B",
+    "explanation": "Lack of cortisol and aldosterone leads to vascular collapse and electrolyte imbalances."
+  },
+  {
+    "question": "What is the purpose of the 'Spontaneous Breathing Trial' (SBT)?",
+    "option_a": "To see if the patient can hold their breath",
+    "option_b": "To assess a patient's readiness for extubation",
+    "option_c": "To treat pneumonia",
+    "option_d": "To train the diaphragm",
+    "correct_answer": "B",
+    "explanation": "An SBT determines if the patient can maintain adequate gas exchange and airway protection without mechanical support."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Thyroid Storm' in a hospitalized patient?",
+    "option_a": "Too much sleep",
+    "option_b": "Acute stress (e.g., infection, surgery, or trauma) in a patient with underlying hyperthyroidism",
+    "option_c": "Eating too much salt",
+    "option_d": "A viral cold",
+    "correct_answer": "B",
+    "explanation": "Thyroid storm is a hypermetabolic emergency presenting with fever, tachycardia, and delirium."
+  },
+  {
+    "question": "What is the medication of choice for 'Beta-Blocker Overdose'?",
+    "option_a": "Atropine only",
+    "option_b": "Glucagon (High-dose)",
+    "option_c": "Insulin only",
+    "option_d": "Epinephrine only",
+    "correct_answer": "B",
+    "explanation": "Glucagon stimulates cAMP production via a pathway independent of the beta-receptor, increasing heart rate and contractility."
+  },
+  {
+    "question": "Which of the following describes 'Anion Gap'?",
+    "option_a": "Sodium - (Chloride + Bicarbonate)",
+    "option_b": "Potassium + Sodium",
+    "option_c": "Chloride - Bicarbonate",
+    "option_d": "Albumin level",
+    "correct_answer": "A",
+    "explanation": "It helps differentiate the causes of metabolic acidosis by identifying the presence of unmeasured anions."
+  },
+  {
+    "question": "What is the 'Gold Standard' for diagnosing a 'Cerebral Aneurysm' in the ICU?",
+    "option_a": "Non-contrast CT",
+    "option_b": "Digital Subtraction Angiography (DSA)",
+    "option_c": "MRI",
+    "option_d": "EEG",
+    "correct_answer": "B",
+    "explanation": "Catheter angiography (DSA) provides the most detailed visualization of the cerebrovascular anatomy."
+  },
+  {
+    "question": "Which of the following is true for 'Propofol' as a sedative?",
+    "option_a": "It provides excellent pain relief",
+    "option_b": "It provides rapid-onset, short-duration sedation but no analgesia",
+    "option_c": "It is safe to use in all cases of hypotension",
+    "option_d": "It lasts for 24 hours after stopping",
+    "correct_answer": "B",
+    "explanation": "Propofol is a sedative-hypnotic; it does not treat pain, so it must be combined with an analgesic if pain is present."
+  },
+  {
+    "question": "In 'Septic Shock', what is the significance of a 'Persistent High Lactate' despite treatment?",
+    "option_a": "The lab made a mistake",
+    "option_b": "Strong predictor of poor outcome and mortality",
+    "option_c": "Normal healing process",
+    "option_d": "The patient is drinking too much fluid",
+    "correct_answer": "B",
+    "explanation": "Lack of 'lactate clearance' indicates ongoing tissue distress and inadequate resuscitation."
+  }
+]
