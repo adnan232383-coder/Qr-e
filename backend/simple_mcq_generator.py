@@ -23,11 +23,22 @@ class SimpleMCQGenerator:
         self.api_key = os.environ.get('EMERGENT_LLM_KEY')
         self._stop = False
     
-    async def generate_all_courses(self):
-        """Generate MCQ for all courses, one by one"""
+    async def generate_all_courses(self, university_filter: str = None):
+        """Generate MCQ for courses. If university_filter is set, only process those courses."""
+        # Default: only UG courses (skip NVU Medicine - user provides those manually)
+        query = {}
+        if university_filter:
+            query["external_id"] = {"$regex": f"^{university_filter}"}
+        else:
+            # By default, generate for UG only (skip NVU Medicine)
+            query["$or"] = [
+                {"external_id": {"$regex": "^UG_"}},
+                {"university_id": "NVU", "program": {"$in": ["Dentistry", "Pharmacy"]}}
+            ]
+        
         courses = await self.db.courses.find(
-            {}, {"_id": 0, "external_id": 1, "course_name": 1}
-        ).sort("external_id", 1).to_list(100)
+            query, {"_id": 0, "external_id": 1, "course_name": 1, "university_id": 1, "program": 1}
+        ).sort("external_id", 1).to_list(200)
         
         job_id = f"simple_mcq_{uuid.uuid4().hex[:8]}"
         await self.db.jobs.insert_one({
