@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 24-year-old male presents with periumbilical pain that has shifted to the right lower quadrant over the last 12 hours. He has anorexia and a low-grade fever. What is the most likely diagnosis?",
+    "option_a": "Acute cholecystitis",
+    "option_b": "Acute appendicitis",
+    "option_c": "Diverticulitis",
+    "option_d": "Perforated peptic ulcer",
+    "correct_answer": "B",
+    "explanation": "The classic migration of pain from the periumbilical area to the RLQ (McBurney's point) is highly characteristic of acute appendicitis."
+  },
+  {
+    "question": "Which physical exam sign involves pain in the Right Lower Quadrant (RLQ) when the Left Lower Quadrant (LLQ) is palpated?",
+    "option_a": "Psoas sign",
+    "option_b": "Obturator sign",
+    "option_c": "Rovsing's sign",
+    "option_d": "Murphy's sign",
+    "correct_answer": "C",
+    "explanation": "Rovsing's sign is a sign of peritoneal irritation where pressure on the LLQ causes referred pain in the RLQ."
+  },
+  {
+    "question": "An 80-year-old female presents with symptoms of small bowel obstruction and a palpable mass just below the inguinal ligament, medial to the femoral vein. What is the diagnosis?",
+    "option_a": "Direct inguinal hernia",
+    "option_b": "Indirect inguinal hernia",
+    "option_c": "Femoral hernia",
+    "option_d": "Obturator hernia",
+    "correct_answer": "C",
+    "explanation": "Femoral hernias occur through the femoral canal, below the inguinal ligament, and have a high risk of strangulation, especially in elderly women."
+  },
+  {
+    "question": "Which of the following describes a 'Richter's hernia'?",
+    "option_a": "A hernia containing a Meckel's diverticulum",
+    "option_b": "Only part of the circumference of the bowel wall is trapped in the hernia orifice",
+    "option_c": "A hernia with two loops of bowel in the sac",
+    "option_d": "A hernia through the linea alba",
+    "correct_answer": "B",
+    "explanation": "In a Richter's hernia, only a portion of the anti-mesenteric border of the bowel is incarcerated, which can lead to localized necrosis without signs of complete obstruction."
+  },
+  {
+    "question": "The boundaries of Hesselbach's Triangle include the inguinal ligament, the lateral border of the rectus abdominis, and the:",
+    "option_a": "Femoral artery",
+    "option_b": "Inferior epigastric vessels",
+    "option_c": "Spermatic cord",
+    "option_d": "Internal oblique muscle",
+    "correct_answer": "B",
+    "explanation": "Direct inguinal hernias occur within Hesselbach's triangle, which is medially bounded by the rectus, laterally by the inferior epigastrics, and inferiorly by the inguinal ligament."
+  },
+  {
+    "question": "A 30-year-old pregnant woman in her second trimester presents with RLQ pain. Which statement is true regarding appendicitis in pregnancy?",
+    "option_a": "The appendix moves upward and laterally as the uterus grows",
+    "option_b": "Appendicitis is less common in pregnant women",
+    "option_c": "Laparoscopy is strictly contraindicated",
+    "option_d": "White blood cell count is a definitive diagnostic tool",
+    "correct_answer": "A",
+    "explanation": "As the uterus enlarges, the appendix is displaced superiorly, which can make the clinical presentation atypical in later pregnancy."
+  },
+  {
+    "question": "Secondary peritonitis is most commonly caused by:",
+    "option_a": "Spontaneous bacterial infection in cirrhosis",
+    "option_b": "Perforation of a hollow viscus (e.g., perforated ulcer or appendix)",
+    "option_c": "Hematogenous spread of Tuberculosis",
+    "option_d": "Chronic peritoneal dialysis",
+    "correct_answer": "B",
+    "explanation": "Secondary peritonitis results from an intra-abdominal source of contamination, such as a perforated organ or an infected surgical site."
+  },
+  {
+    "question": "A patient presents with 'board-like' abdominal rigidity and free air under the diaphragm on an upright chest X-ray. What is the next step?",
+    "option_a": "CT scan of the abdomen with oral contrast",
+    "option_b": "Emergent exploratory laparotomy",
+    "option_c": "Nasogastric tube insertion and observation",
+    "option_d": "Barium enema",
+    "correct_answer": "B",
+    "explanation": "Pneumoperitoneum (free air) in the setting of peritonitis indicates a perforated viscus and is a surgical emergency."
+  },
+  {
+    "question": "Which type of inguinal hernia is most common in infants and children?",
+    "option_a": "Direct inguinal hernia",
+    "option_b": "Indirect inguinal hernia",
+    "option_c": "Femoral hernia",
+    "option_d": "Umbilical hernia",
+    "correct_answer": "B",
+    "explanation": "Indirect hernias result from a patent processus vaginalis and are the most common type in the pediatric population."
+  },
+  {
+    "question": "A hernia that cannot be reduced back into the abdominal cavity but has a normal blood supply is called:",
+    "option_a": "Reducible",
+    "option_b": "Incarcerated",
+    "option_c": "Strangulated",
+    "option_d": "Incisional",
+    "correct_answer": "B",
+    "explanation": "Incarceration means the hernia is 'stuck'. If the blood supply is compromised, it becomes 'strangulated'."
+  },
+  {
+    "question": "Which imaging modality is the most sensitive for diagnosing acute appendicitis in a non-pregnant adult?",
+    "option_a": "Abdominal Ultrasound",
+    "option_b": "CT scan of the abdomen with IV contrast",
+    "option_c": "Plain abdominal X-ray",
+    "option_d": "MRI",
+    "correct_answer": "B",
+    "explanation": "CT has a high sensitivity and specificity for identifying an inflamed appendix and associated complications like abscesses."
+  },
+  {
+    "question": "A 50-year-old male with a long history of a bulge in the groin presents with sudden pain, nausea, and a tender, purple-colored mass in the scrotum. Diagnosis?",
+    "option_a": "Hydrocele",
+    "option_b": "Strangulated indirect inguinal hernia",
+    "option_c": "Varicocele",
+    "option_d": "Testicular torsion",
+    "correct_answer": "B",
+    "explanation": "The sudden onset of pain in a known hernia, accompanied by systemic symptoms and skin color changes, indicates strangulation."
+  },
+  {
+    "question": "Which of the following is a component of the Alvarado Score for appendicitis?",
+    "option_a": "Jaundice",
+    "option_b": "Migration of pain",
+    "option_c": "Diarrhea",
+    "option_d": "Weight loss",
+    "correct_answer": "B",
+    "explanation": "The Alvarado score (MANTRELS) includes Migration of pain, Anorexia, Nausea/vomiting, Tenderness in RLQ, Rebound tenderness, Elevated temperature, Leukocytosis, and Shift to the left."
+  },
+  {
+    "question": "In the surgical repair of an inguinal hernia (Lichtenstein repair), what is typically used to reinforce the abdominal wall?",
+    "option_a": "Autologous skin graft",
+    "option_b": "Synthetic mesh (e.g., Polypropylene)",
+    "option_c": "Absorbable sutures only",
+    "option_d": "Steel plates",
+    "correct_answer": "B",
+    "explanation": "The use of tension-free mesh has significantly reduced the recurrence rate of inguinal hernias."
+  },
+  {
+    "question": "What is 'Littre's Hernia'?",
+    "option_a": "A hernia through the obturator foramen",
+    "option_b": "A hernia sac containing a Meckel's diverticulum",
+    "option_c": "A hernia in the lumbar region",
+    "option_d": "An umbilical hernia in a cirrhotic patient",
+    "correct_answer": "B",
+    "explanation": "Littre's hernia is a specific eponym for a hernia containing Meckel's diverticulum."
+  },
+  {
+    "question": "Spontaneous Bacterial Peritonitis (SBP) is most commonly associated with:",
+    "option_a": "Perforated diverticulitis",
+    "option_b": "Liver Cirrhosis and Ascites",
+    "option_c": "Blunt abdominal trauma",
+    "option_d": "Appendiceal rupture",
+    "correct_answer": "B",
+    "explanation": "SBP (primary peritonitis) is an infection of ascitic fluid without an evident intra-abdominal surgically treatable source."
+  },
+  {
+    "question": "An 'Amyand's Hernia' involves the presence of which organ within the inguinal hernia sac?",
+    "option_a": "The ovary",
+    "option_b": "The appendix",
+    "option_c": "The bladder",
+    "option_d": "The gallbladder",
+    "correct_answer": "B",
+    "explanation": "Amyand's hernia refers to an inguinal hernia sac that contains the appendix (which may or may not be inflamed)."
+  },
+  {
+    "question": "Which nerve is at risk during an open inguinal hernia repair and causes numbness in the scrotum or labia majora if injured?",
+    "option_a": "Femoral nerve",
+    "option_b": "Ilioinguinal nerve",
+    "option_c": "Obturator nerve",
+    "option_d": "Vagus nerve",
+    "correct_answer": "B",
+    "explanation": "The ilioinguinal nerve travels through the inguinal canal and provides sensation to the upper medial thigh and external genitalia."
+  },
+  {
+    "question": "What is the most common cause of 'Acute Abdomen' in the general population?",
+    "option_a": "Acute cholecystitis",
+    "option_b": "Nonspecific abdominal pain",
+    "option_c": "Acute appendicitis",
+    "option_d": "Intestinal obstruction",
+    "correct_answer": "B",
+    "explanation": "While appendicitis is the most common condition requiring surgery, 'nonspecific abdominal pain' is the most frequent diagnosis overall in ER presentations."
+  },
+  {
+    "question": "During appendectomy, the most important landmark used to identify the base of the appendix is:",
+    "option_a": "The ileocecal valve",
+    "option_b": "The convergence of the taeniae coli",
+    "option_c": "The right ureter",
+    "option_d": "The gallbladder",
+    "correct_answer": "B",
+    "explanation": "The three taeniae coli of the cecum converge at the base of the appendix, allowing the surgeon to locate it reliably."
+  },
+  {
+    "question": "A patient has a hernia that disappears when they lie down. This hernia is described as:",
+    "option_a": "Incarcerated",
+    "option_b": "Reducible",
+    "option_c": "Strangulated",
+    "option_d": "Sliding",
+    "correct_answer": "B",
+    "explanation": "Reducible hernias can be returned to their original anatomical compartment manually or spontaneously."
+  },
+  {
+    "question": "Which type of peritonitis is caused by 'Chemical' irritation rather than bacteria (initially)?",
+    "option_a": "Spontaneous bacterial peritonitis",
+    "option_b": "Perforated peptic ulcer (gastric juice)",
+    "option_c": "Tuberculous peritonitis",
+    "option_d": "Pelvic inflammatory disease",
+    "correct_answer": "B",
+    "explanation": "In the first few hours of a perforated ulcer, the peritonitis is chemical (due to sterile acid). Bacterial infection follows later."
+  },
+  {
+    "question": "A direct inguinal hernia is located:",
+    "option_a": "Lateral to the inferior epigastric vessels",
+    "option_b": "Medial to the inferior epigastric vessels",
+    "option_c": "Within the femoral canal",
+    "option_d": "Above the umbilicus",
+    "correct_answer": "B",
+    "explanation": "Direct hernias push directly through the abdominal wall (Hesselbach's triangle), medial to the vessels."
+  },
+  {
+    "question": "An indirect inguinal hernia is located:",
+    "option_a": "Lateral to the inferior epigastric vessels",
+    "option_b": "Medial to the inferior epigastric vessels",
+    "option_c": "Through the rectus sheath",
+    "option_d": "Below the pectineal ligament",
+    "correct_answer": "A",
+    "explanation": "Indirect hernias enter the internal inguinal ring, which is lateral to the inferior epigastric artery."
+  },
+  {
+    "question": "Strangulation of a hernia is most likely to occur in which type of hernia?",
+    "option_a": "Large, chronic inguinal hernia",
+    "option_b": "Small-necked femoral hernia",
+    "option_c": "Reducible umbilical hernia",
+    "option_d": "Direct inguinal hernia",
+    "correct_answer": "B",
+    "explanation": "Femoral hernias have a rigid, narrow neck (lacunar ligament), making them very prone to strangulation."
+  },
+  {
+    "question": "Which of the following is a sign of peritonitis on physical exam?",
+    "option_a": "Borborygmi (hyperactive bowel sounds)",
+    "option_b": "Rebound tenderness (Blumberg's sign)",
+    "option_c": "Soft, non-tender abdomen",
+    "option_d": "Bradycardia",
+    "correct_answer": "B",
+    "explanation": "Rebound tenderness indicates inflammation of the parietal peritoneum."
+  },
+  {
+    "question": "An 'Epigastric hernia' occurs through a defect in the:",
+    "option_a": "Inguinal canal",
+    "option_b": "Linea alba",
+    "option_c": "Umbilicus",
+    "option_d": "Petit's triangle",
+    "correct_answer": "B",
+    "explanation": "Epigastric hernias occur in the midline between the xiphoid process and the umbilicus."
+  },
+  {
+    "question": "A 70-year-old male with COPD has a recurring groin bulge when he coughs. It does not go into the scrotum. What is the most likely type?",
+    "option_a": "Indirect inguinal hernia",
+    "option_b": "Direct inguinal hernia",
+    "option_c": "Femoral hernia",
+    "option_d": "Obturator hernia",
+    "correct_answer": "B",
+    "explanation": "Direct hernias are often acquired due to weakness in the abdominal wall fascia, common in older patients with chronic increased intra-abdominal pressure (like coughing)."
+  },
+  {
+    "question": "What is the management of an uncomplicated umbilical hernia in a 2-year-old child?",
+    "option_a": "Immediate surgical repair",
+    "option_b": "Observation, as most close spontaneously by age 4-5",
+    "option_c": "Taping a coin over the umbilicus",
+    "option_d": "Injection of sclerotherapy",
+    "correct_answer": "B",
+    "explanation": "Most congenital umbilical hernias resolve as the abdominal wall muscles strengthen."
+  },
+  {
+    "question": "Which clinical sign is tested by having the patient extend their right hip against resistance?",
+    "option_a": "Rovsing's sign",
+    "option_b": "Psoas sign",
+    "option_c": "Obturator sign",
+    "option_d": "Kehr's sign",
+    "correct_answer": "B",
+    "explanation": "The psoas sign indicates an inflamed retrocecal appendix irritating the psoas muscle."
+  },
+  {
+    "question": "The 'Obturator sign' is performed by:",
+    "option_a": "Extending the right hip",
+    "option_b": "Internal rotation of the flexed right hip",
+    "option_c": "Pressing on the left side of the abdomen",
+    "option_d": "Having the patient jump on one foot",
+    "correct_answer": "B",
+    "explanation": "Pain on internal rotation of the flexed hip suggests an inflamed appendix located deep in the pelvis."
+  },
+  {
+    "question": "What is the primary cause of appendicitis?",
+    "option_a": "Viral infection of the bowel",
+    "option_b": "Obstruction of the appendiceal lumen (e.g., by a fecalith)",
+    "option_c": "Eating too many seeds",
+    "option_d": "Excessive exercise",
+    "correct_answer": "B",
+    "explanation": "Lumen obstruction leads to mucus accumulation, bacterial overgrowth, and subsequent inflammation and ischemia."
+  },
+  {
+    "question": "A patient with an incisional hernia is asymptomatic. The best management is:",
+    "option_a": "Mandatory surgery to prevent strangulation",
+    "option_b": "Elective repair if the hernia affects quality of life",
+    "option_c": "Wait until it becomes strangulated",
+    "option_d": "Radiation therapy",
+    "correct_answer": "B",
+    "explanation": "Asymptomatic incisional hernias can be observed, but repair is often recommended because they tend to enlarge over time."
+  },
+  {
+    "question": "In a 'Sliding Hernia', which of the following forms part of the wall of the hernia sac?",
+    "option_a": "Omentum",
+    "option_b": "A retroperitoneal organ (e.g., Cecum or Bladder)",
+    "option_c": "Peritoneum only",
+    "option_d": "Skin",
+    "correct_answer": "B",
+    "explanation": "A sliding hernia is one where an abdominal organ drags its peritoneal attachment along, forming a portion of the sac wall."
+  },
+  {
+    "question": "Which type of hernia is most common in females compared to males (relative incidence)?",
+    "option_a": "Direct inguinal hernia",
+    "option_b": "Femoral hernia",
+    "option_c": "Incisional hernia",
+    "option_d": "Lumbar hernia",
+    "correct_answer": "B",
+    "explanation": "While inguinal hernias are more common in women than femoral ones, femoral hernias are overwhelmingly more frequent in women than in men."
+  },
+  {
+    "question": "Which structure forms the roof of the inguinal canal?",
+    "option_a": "Inguinal ligament",
+    "option_b": "Internal oblique and transversus abdominis muscles (conjoint tendon)",
+    "option_c": "Transversalis fascia",
+    "option_d": "External oblique aponeurosis",
+    "correct_answer": "B",
+    "explanation": "The fibers of the internal oblique and transversus abdominis form the superior boundary of the canal."
+  },
+  {
+    "question": "A 'Pantaloon Hernia' describes:",
+    "option_a": "A hernia in both groins",
+    "option_b": "Concurrent direct and indirect inguinal hernias on the same side",
+    "option_c": "A hernia that cannot be repaired",
+    "option_d": "A hernia containing the sigmoid colon",
+    "correct_answer": "B",
+    "explanation": "The two hernia sacs straddle the inferior epigastric vessels like a pair of pants."
+  },
+  {
+    "question": "The most common organism isolated in primary peritonitis (SBP) is:",
+    "option_a": "E. coli",
+    "option_b": "Bacteroides fragilis",
+    "option_c": "Staphylococcus aureus",
+    "option_d": "Clostridium difficile",
+    "correct_answer": "A",
+    "explanation": "Gram-negative enteric organisms, particularly E. coli and Klebsiella, are the most frequent causes of SBP."
+  },
+  {
+    "question": "Which of the following is true for an 'Incarcerated' hernia?",
+    "option_a": "It is always a surgical emergency",
+    "option_b": "It is irreducible but not necessarily ischemic",
+    "option_c": "It is always painless",
+    "option_d": "It results from an infection",
+    "correct_answer": "B",
+    "explanation": "Incarceration means the contents cannot be reduced. If symptoms of obstruction or strangulation appear, it becomes an emergency."
+  },
+  {
+    "question": "The 'Petit's triangle' is a site for which type of hernia?",
+    "option_a": "Obturator hernia",
+    "option_b": "Inferior lumbar hernia",
+    "option_c": "Epigastric hernia",
+    "option_d": "Spigelian hernia",
+    "correct_answer": "B",
+    "explanation": "Lumbar hernias are rare and occur through the superior (Grynfeltt-Lesshaft) or inferior (Petit) lumbar triangles."
+  },
+  {
+    "question": "A Spigelian hernia occurs through the:",
+    "option_a": "Inguinal canal",
+    "option_b": "Linea semilunaris",
+    "option_c": "Umbilical ring",
+    "option_d": "Obturator foramen",
+    "correct_answer": "B",
+    "explanation": "These hernias occur at the lateral border of the rectus muscle, where the layers of the abdominal wall meet."
+  },
+  {
+    "question": "Which statement about laparoscopic appendectomy is true?",
+    "option_a": "It has a higher risk of wound infection than open surgery",
+    "option_b": "It is associated with less postoperative pain and faster recovery",
+    "option_c": "It is impossible to perform in obese patients",
+    "option_d": "It should never be used if the appendix is ruptured",
+    "correct_answer": "B",
+    "explanation": "Laparoscopy offers significant advantages in terms of pain, hospital stay, and visualization of other pelvic organs."
+  },
+  {
+    "question": "What is the management of a periappendiceal abscess found on CT scan in a stable patient?",
+    "option_a": "Immediate open appendectomy",
+    "option_b": "Percutaneous drainage and IV antibiotics (Interval appendectomy later)",
+    "option_c": "Oral antibiotics only",
+    "option_d": "Manual massage of the RLQ",
+    "correct_answer": "B",
+    "explanation": "Conservative management with drainage is often safer in the acute phase of a walled-off abscess."
+  },
+  {
+    "question": "Which nerve is responsible for the 'Cremasteric reflex'?",
+    "option_a": "Iliohypogastric nerve",
+    "option_b": "Genitofemoral nerve",
+    "option_c": "Obturator nerve",
+    "option_d": "Pudendal nerve",
+    "correct_answer": "B",
+    "explanation": "The femoral branch provides sensation, and the genital branch provides the motor response for the reflex."
+  },
+  {
+    "question": "An obturator hernia classically presents with pain on the medial thigh, known as:",
+    "option_a": "Howship-Romberg sign",
+    "option_b": "Grey Turner's sign",
+    "option_c": "Cullen's sign",
+    "option_d": "McBurney's sign",
+    "correct_answer": "A",
+    "explanation": "Compression of the obturator nerve by the hernia causes pain radiating down the inner thigh to the knee."
+  },
+  {
+    "question": "What is the 'Gold Standard' treatment for an inguinal hernia in an adult male?",
+    "option_a": "Wait and see",
+    "option_b": "Surgical repair (Open or Laparoscopic) with mesh",
+    "option_c": "Wearing a truss (belt) for life",
+    "option_d": "Weight loss only",
+    "correct_answer": "B",
+    "explanation": "Surgery is the definitive treatment for symptomatic or high-risk hernias."
+  },
+  {
+    "question": "Chronic peritonitis is most often caused by:",
+    "option_a": "E. coli",
+    "option_b": "Mycobacterium tuberculosis",
+    "option_c": "Bacteroides",
+    "option_d": "Staph. epidermidis",
+    "correct_answer": "B",
+    "explanation": "Tuberculous peritonitis is a chronic inflammatory process often presenting with 'doughy' abdomen and ascites."
+  },
+  {
+    "question": "In a patient with 'Situs Inversus', appendicitis pain would be located in the:",
+    "option_a": "RLQ",
+    "option_b": "LLQ",
+    "option_c": "RUQ",
+    "option_d": "Epigastrium",
+    "correct_answer": "B",
+    "explanation": "Since all organs are mirrored, the appendix is located on the left side."
+  },
+  {
+    "question": "Which of the following describes 'Peritoneal signs'?",
+    "option_a": "Guarding, rigidity, and rebound tenderness",
+    "option_b": "Nausea, vomiting, and diarrhea",
+    "option_c": "Headache and fever",
+    "option_d": "Jaundice and dark urine",
+    "correct_answer": "A",
+    "explanation": "These signs indicate inflammation of the parietal peritoneum and often necessitate surgery."
+  },
+  {
+    "question": "A 40-year-old female presents with acute peritonitis. She had a sudden 'pop' while weightlifting. What is the most likely cause?",
+    "option_a": "Spontaneous SBP",
+    "option_b": "Ruptured ectopic pregnancy or ruptured cyst",
+    "option_c": "Appendicitis",
+    "option_d": "Colon cancer",
+    "correct_answer": "B",
+    "explanation": "Sudden onset of pelvic/abdominal pain in a female of childbearing age should always raise suspicion of GYN-related emergencies."
+  }
+]
