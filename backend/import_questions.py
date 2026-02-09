@@ -907,7 +907,7 @@ _old_data = [
   }
 ]
 
-COURSE_ID = "NVU_MD_Y3_S1_C25"
+COURSE_ID = "NVU_MD_Y4_S1_C36"
 
 async def main():
     client = AsyncIOMotorClient(os.environ["MONGO_URL"])
