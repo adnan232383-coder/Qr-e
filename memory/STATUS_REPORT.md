@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://course-assistant-ug.preview.emergentagent.com |
-| Admin Panel | https://course-assistant-ug.preview.emergentagent.com/admin/progress |
-| API Docs | https://course-assistant-ug.preview.emergentagent.com/api/docs |
+| Frontend | https://knowledge-base-166.preview.emergentagent.com |
+| Admin Panel | https://knowledge-base-166.preview.emergentagent.com/admin/progress |
+| API Docs | https://knowledge-base-166.preview.emergentagent.com/api/docs |
 
 ---
 

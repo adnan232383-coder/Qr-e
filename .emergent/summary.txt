@@ -1,165 +1,259 @@
-<analysis>**original_problem_statement:**
-The user wants to build a full-stack UG University Assistant application for the University of Georgia, Tbilisi, focusing on Dentistry and Pharmacy majors.
+<analysis>An analysis of the conversation history has been done to create a summary of the work completed and to identify the next steps.
+
+**original_problem_statement:**
+
+The user's primary goal is to generate a large number of Multiple-Choice Questions (MCQs) for courses across two universities: University of Georgia (UG) and New Vision University (NVU).
 
 **PRODUCT REQUIREMENTS:**
-- **Phase 1 (MVP - Completed):**
-    - A full academic catalog browser.
-    - User authentication via Emergent-managed Google OAuth.
-    - A course detail page showing a course summary.
-    - An AI study assistant chat widget.
-    - A clean, professional, responsive UI with a light/dark theme.
 
-- **Phase 2 (In Progress):**
-    - **Automatic Content Generation:** For all 92 courses, the system must generate:
-        - A detailed course summary (DONE).
-        - **200 MCQ questions** per course (IN PROGRESS).
-        - An avatar video script for each of the 270 modules (DONE).
-    - **Video Generation:** Generate an avatar video from each script using Sora 2 (PAUSED).
-    - **Content Lifecycle:** All generated content must follow a  →  →  status flow, managed via an admin panel.
-    - **Student Progress Tracking:** (Future task).
+1.  **MCQ Generation Process:**
+    *   Generate questions for one course at a time.
+    *   Each course must have at least 200 MCQs.
+    *   Move to the next course only after the current one is successfully completed.
 
-**User's preferred language**: The user communicates in Arabic, Hebrew, and English. The next agent MUST be prepared to respond in any of these languages, with a focus on **Hebrew and Arabic** for recent detailed requests.
+2.  **Quality Assurance:**
+    *   **No Duplicates:** The system must prevent the creation of identical questions within the same course.
+    *   **Balanced Answers:** The distribution of the correct answer choice (A, B, C, D) should be reasonably even (e.g., 20-30% for each).
+
+3.  **Content Scope:**
+    *   **University of Georgia (UG):** Generate MCQs for all 92 courses.
+    *   **New Vision University (NVU):**
+        *   The user will manually create and provide JSON files containing MCQs for the 50 Medicine courses.
+        *   The agent is responsible for generating MCQs for the 9 Pharmacy courses.
+        *   The agent is responsible for generating MCQs for the 12 Dentistry courses.
+    *   **Avatars/Videos:** This feature is explicitly postponed until all MCQ generation is complete.
+
+**User's preferred language**: Hebrew. The next agent MUST respond in Hebrew.
 
 **what currently exists?**
-A functional full-stack application (FastAPI + React + MongoDB) with a robust, non-blocking background job system () that handles content generation without freezing the server. This system supports job queuing, status tracking, auto-resume on restart, and incremental progress saving to prevent data loss.
 
-All 270 avatar scripts and 90 course summaries are generated. Bulk MCQ generation is currently running. An admin panel at  provides real-time visibility into job status. A critical fix to randomize MCQ answer options has been implemented and applied to all existing questions. The course catalog has been expanded to 92 courses after the user provided a JSON file with 2 new pharmacy courses and 571 questions, which have been successfully imported.
+*   A web application using React (frontend), FastAPI (backend), and MongoDB (database).
+*   The database contains course structures for two universities: **University of Georgia (UG)** with 92 courses and **New Vision University (NVU)** with 71 courses (50 Medicine, 12 Dentistry, 9 Pharmacy).
+*   A sequential MCQ generator () is in place to process courses one by one, including quality checks for uniqueness and answer distribution.
+*   The frontend includes an admin dashboard () and supports viewing different universities, including a dedicated page for NVU courses.
+*   MCQ generation for all 9 NVU Pharmacy courses has been completed.
+*   MCQ generation for the 92 UG courses is in progress but has been unstable.
 
 **Last working item**:
-- **Last item agent was working on:** The agent was about to analyze two screenshots uploaded by the user to help them identify the most up-to-date development fork. The user is confused and worried about duplicate work across different forks.
-- **Status:** USER VERIFICATION PENDING
-- **Agent Testing Done:** N/A
-- **Which testing method agent to use?**  to inspect the user's screenshots, then communicate the findings.
+- **Last item agent was working:** The agent had just implemented the UI to display courses from the newly added New Vision University (NVU). Immediately after, the user started providing the promised MCQ data for an NVU Medicine course by pasting a JSON file into the chat. The agent's next logical step is to import this user-provided data.
+- **Status:** NOT STARTED
+- **Agent Testing Done:** N
+- **Which testing method agent to use?** The agent will need to write and use an import script. After importing, verification should be done by querying the database directly using .
 - **User Testing Done:** N
 
 **All Pending/In progress Issue list**:
-- **Issue 1: User confusion about multiple active forks (P0)**
-  - **Issue Detail:**
-     - **Description:** The user is lost between multiple development forks and is concerned about duplicate work and costs. They have provided two screenshots to help the agent identify the most advanced session.
-     - **Next debug checklist:**
-        1. Use the  to view the two uploaded screenshots:  and .
-        2. Extract the  and  counts from each screenshot.
-        3. Compare the counts from the screenshots with this fork's current progress (MCQ: ~854, Scripts: 270).
-        4. Advise the user on which fork is the most advanced and recommend they consolidate all future work there.
-     - **Why fix this issue and what will be achieved with the fix?** This is a critical blocker for user confidence. Resolving this will prevent wasted development effort and redundant costs.
-     - **Status:** IN PROGRESS
-     - **Is recurring issue?** Y
-     - **Should Test frontend/backend/both after fix?** N/A
-     - **Blocked on other issue:** None
+
+-   **Issue 1: MCQ Generation for UG courses is unstable (P0, HIGHEST PRIORITY)**
+-   **Issue 2: Frontend displays inconsistent data (P1)**
+
+**Issues Detail:**
+
+-   **Issue 1: MCQ Generation for UG courses is unstable**
+    -   **Description:** The background job for generating MCQs for the 92 UG courses fails frequently. The agent has restarted it multiple times, but it doesn't seem to make consistent progress, getting stuck or crashing without completing all courses. This has been a persistent problem throughout the session.
+    -   **Attempted fixes:** The agent identified and stopped a conflicting old job runner, created a more robust generator (), and restarted the process. However, the failures continued, suggesting underlying issues like server timeouts, resource exhaustion, or other unidentified conflicts.
+    -   **Next debug checklist:**
+        1.  Verify if the  process is currently running.
+        2.  Thoroughly examine the server logs () for any errors (e.g., timeouts, memory issues, API errors from OpenAI) that occur when the job fails.
+        3.  Confirm that no other conflicting scripts (like the old  or ) are being triggered.
+        4.  Verify the exact number of UG courses that are genuinely complete (200+ quality questions in the DB) and restart the job from the next incomplete course.
+    -   **Why fix this issue and what will be achieved with the fix?** This is a core requirement. Fixing it will complete the content generation for the 92 UG courses.
+    -   **Status:** IN PROGRESS
+    -   **Is recurring issue?** Y
+    -   **Should Test backend/backend/both after fix?** Backend.
+    -   **Blocked on other issue:** None.
+
+-   **Issue 2: Frontend displays inconsistent data**
+    -   **Description:** The user has repeatedly reported discrepancies between the data shown in the UI and the actual state. For example, a course is reported as complete but the UI shows only 24 questions, or the quiz page shows fewer questions than the total count displayed on the course page.
+    -   **Attempted fixes:** The agent has tried rebuilding the frontend, clearing cache, fixing API endpoints, and adding missing  fields to questions.
+    -   **Next debug checklist:**
+        1.  This issue is almost certainly a symptom of Issue 1. When the generation job fails or data gets deleted, the frontend reflects this inconsistency.
+        2.  Once Issue 1 is resolved and the data in the database is stable and correct, re-verify all relevant API endpoints (, ) to ensure they return the correct data.
+        3.  Test the UI again thoroughly after confirming data integrity.
+    -   **Why fix this issue and what will be achieved with the fix?** Provides the user with a reliable and accurate view of the system's progress and content.
+    -   **Status:** BLOCKED
+    -   **Is recurring issue?** Y
+    -   **Should Test frontend/backend/both after fix?** Both.
+    -   **Blocked on other issue:** Issue 1: MCQ Generation for UG courses is unstable.
 
 **In progress Task List**:
-- **Task 1: Bulk MCQ Generation (P0 - ONGOING)**
-  - **Where to resume:** A  generation job is actively running in the background, processing the 92 courses. The system saves progress after each batch of 25 questions, so it is resilient to restarts.
-  - **What will be achieved with this?** All 92 courses will be populated with ~200 MCQ questions each, for a total of ~18,400.
-  - **Status:** IN PROGRESS
-  - **Should Test frontend/backend/both after fix?** Backend.
-  - **Blocked on something:** No, but progress is slow due to external OpenAI API latency.
+
+-   **Task 1: Complete MCQ generation for all 92 UG courses (P0)**
+    -   **Where to resume:** This task is directly tied to **Issue 1**. The  job needs to be stabilized and monitored until it successfully processes all 90 remaining courses. The last reliable status indicated 24 courses were done, but this should be re-verified directly from the DB.
+    -   **What will be achieved with this?** Completion of all MCQ content for the University of Georgia.
+    -   **Status:** IN PROGRESS
+    -   **Should Test backend/backend/both after fix?** Backend.
+    -   **Blocked on something:** Blocked on the instability of the generation job (see Issue 1).
 
 **Upcoming and Future Tasks**
-- **Upcoming Tasks:**
-    - **(P1) Video Generation:** Generate avatar videos for all 270 completed scripts. This task is explicitly **PAUSED** by the user. Do not start it without a direct command.
-- **Future Tasks:**
-    - **(P2) Build Full Admin Panel:** Create a UI for administrators to review, approve (), or reject the auto-generated content.
-    - **(P2) Implement Student Progress Tracking:** Develop the database schema, APIs, and UI to track which modules and quizzes a student has completed.
+
+**Upcoming Tasks:**
+
+-   **(P0) Implement a mechanism to import user-provided MCQ JSON files for NVU Medicine.** The user has started providing these files. The agent needs to create a script or an API endpoint (e.g., ) to parse these files and save the questions to the database.
+-   **(P1) Generate MCQs for NVU Dentistry.** Start the MCQ generation process for the 12 NVU Dentistry courses once the UG generation is stable.
+-   **(P2) Manually import the 25 MCQs provided by the user in the last messages** for the NVU Medicine course. This will be the first test of the new import mechanism.
+
+**Future Tasks:**
+
+-   **(P0) Avatar & Video Generation:** Implement video generation for course modules using Sora 2. This task has been explicitly postponed by the user until all MCQ generation work is finished.
 
 **Completed work in this session**
-- **Fixed Backend Blocking:** Replaced the flawed  with a robust, non-blocking job runner () using , solving the server-freezing issue.
-- **Implemented Job Management System:** Created a resilient system for background jobs with status tracking, auto-resume, job locking, and progress monitoring via an enhanced Admin UI ().
-- **Enabled Incremental Progress Saving:** Modified the MCQ generation job to save results after each batch (25 questions), preventing data loss from server restarts.
-- **Fixed MCQ Answer Bias:** Implemented a mandatory fix to shuffle answer options for all MCQs (new and existing) to ensure academic integrity. Ran a migration to fix all previously generated questions.
-- **Completed Script Generation:** Successfully generated all 270 avatar scripts, including retrying and fixing 9 failed ones.
-- **Imported User Content:** Integrated 2 new pharmacy courses and 571 MCQs from a user-provided JSON file.
-- **Implemented Decision Logging:** Added a  utility and a corresponding API endpoint () to track the agent's autonomous choices.
+
+-   **New University Added:** Successfully added New Vision University (NVU) by importing course structures from user-provided files (, , ).
+-   **NVU Pharmacy MCQs Generated:** Successfully generated a total of 3,474 MCQs for all 9 NVU Pharmacy courses.
+-   **Robust MCQ Generator Created:** Developed  to handle course generation one-by-one with quality checks for uniqueness and answer distribution.
+-   **Frontend Multi-University Support:** Updated the UI to support multiple universities, adding a university selection/catalog page ().
+-   **Critical Bug Fixes:**
+    -   Resolved a major bug where two conflicting background jobs were running simultaneously, causing data to be deleted.
+    -   Fixed the MCQ generator logic to use UUIDs for , preventing new questions from overwriting existing ones.
+    -   Corrected the generator to ensure it completes 200 questions before moving to the next course.
+    -   Resolved a React DOM error () caused by browser extensions by adding a patch to .
 
 **Earlier issues found/mentioned but not fixed**
-None.
+
+The main unfixed issue is the recurring failure of the UG MCQ generation job, which is detailed in the **All Pending/In progress Issue list**.
 
 **Known issue recurrence from previous fork**
+
 N/A
 
 **Code Architecture**
 
 
+
 **Key Technical Concepts**
-- **Frontend:** React, Tailwind CSS, Shadcn/UI
-- **Backend:** FastAPI, Motor (async MongoDB driver)
-- **Database:** MongoDB
-- **Background Processing:** A custom job runner in  uses  to run I/O-bound LLM calls in a separate thread, preventing the main FastAPI event loop from blocking.
-- **AI Integrations:** GPT-5.2 (for text), Sora 2 (for video) via Emergent LLM Key.
-- **Authentication:** Emergent-managed Google OAuth.
+
+-   **Backend:** FastAPI (Python)
+-   **Frontend:** React
+-   **Database:** MongoDB
+-   **Asynchronous Tasks:** Using Python's  library within FastAPI to run long-running LLM generation jobs in the background without blocking the server.
+-   **LLM Integration:** Using usage: openai [-h] [-v] [-b API_BASE] [-k API_KEY] [-p PROXY [PROXY ...]]
+              [-o ORGANIZATION] [-t {openai,azure}]
+              [--api-version API_VERSION] [--azure-endpoint AZURE_ENDPOINT]
+              [--azure-ad-token AZURE_AD_TOKEN] [-V]
+              {api,tools,migrate,grit} ...
+
+positional arguments:
+  {api,tools,migrate,grit}
+    api                 Direct API calls
+    tools               Client side tools for convenience
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         Set verbosity.
+  -b API_BASE, --api-base API_BASE
+                        What API base url to use.
+  -k API_KEY, --api-key API_KEY
+                        What API key to use.
+  -p PROXY [PROXY ...], --proxy PROXY [PROXY ...]
+                        What proxy to use.
+  -o ORGANIZATION, --organization ORGANIZATION
+                        Which organization to run as (will use your default
+                        organization if not specified)
+  -t {openai,azure}, --api-type {openai,azure}
+                        The backend API to call, must be `openai` or `azure`
+  --api-version API_VERSION
+                        The Azure API version, e.g.
+                        'https://learn.microsoft.com/en-us/azure/ai-
+                        services/openai/reference#rest-api-versioning'
+  --azure-endpoint AZURE_ENDPOINT
+                        The Azure endpoint, e.g.
+                        'https://endpoint.openai.azure.com'
+  --azure-ad-token AZURE_AD_TOKEN
+                        A token from Azure Active Directory,
+                        https://www.microsoft.com/en-
+                        us/security/business/identity-access/microsoft-entra-
+                        id
+  -V, --version         show program's version number and exit library ( model) for content generation via the Emergent LLM Key.
 
 **key DB schema**
-- : Stores the 92 courses in the catalog.
-- : Stores all generated MCQs. The schema now supports shuffled options and a .
-- : Stores the 270 generated avatar video scripts.
-- : Tracks status, progress, and metadata of background tasks.
-- : Manages resource locking to prevent concurrent job runs on the same item.
-- : Stores autonomous decisions made by the agent.
+
+-   **universities**: 
+-   **courses**: 
+-   **modules**: 
+-   **mcq_questions**: 
+-   **generation_status**: (A single document in a collection) 
 
 **changes in tech stack**
-The core stack is unchanged. The main architectural evolution is the custom  system for robust background processing.
+
+-   The agent attempted to switch the LLM to **Google Gemini Flash** for better speed but reverted to **OpenAI GPT-4o-mini** as Gemini was incompatible with the available Emergent LLM Key.
 
 **All files of reference**
-- : The heart of the non-blocking background task system.
-- : Integrates the job runner and defines API endpoints.
-- : The React component for the admin dashboard.
-- : A status report file created for the user.
-- : The decision logging utility.
+
+-   : **Primary file for the main task.** This is the correct generator to use and debug for the UG course generation.
+-   : Contains all API endpoints. Will need modification to add the MCQ import functionality.
+-   : The new page created to display NVU courses.
+-   : The dashboard where the user tracks progress.
+-   : An older, buggy generator. **It should not be used** and is a potential source of conflicts.
 
 **Areas that need refactoring**:
--  is still a large monolithic file. It could be broken down into smaller, domain-specific FastAPI routers for better maintainability.
+
+The existence of two different generator files ( and the older ) is a risk. The older, buggy file should be deleted or clearly marked as deprecated to prevent accidental use.
 
 **key api endpoints**
-- : Starts the bulk MCQ generation job.
-- : Starts the bulk script generation job.
-- : Cancels a running job.
-- : Fetches progress for the admin dashboard.
-- : Retrieves the log of autonomous decisions.
+
+-   : Starts the main MCQ generation job.
+-   : Gets the live status of the generation job.
+-   : Lists all available universities.
+-   : Lists all courses for a given university.
+-   : Retrieves all MCQs for a specific course.
+-   : Provides aggregated stats for the admin dashboard.
 
 **Critical Info for New Agent**
-- **FULL AUTONOMY GRANTED:** The user has given Standing Authorization () for the agent to proceed without asking questions, except for legal, compliance, or major cost issues. You must make decisions and execute autonomously.
-- **IMMEDIATE PRIORITY:** Your first task is to resolve the user's confusion about multiple forks. Analyze the two screenshots they uploaded (, ), compare them to this fork's progress, and advise the user on which fork is the most advanced.
-- **USER-DEFINED RULES:**
-    - **No New Jobs Automatically:** Do not start any new generation jobs (like video generation) unless explicitly commanded. The existing MCQ job should continue.
-    - **Single Job Execution:** The user requested NO parallel jobs. Currently, only the MCQ job is running, which complies. Do not start another job in parallel.
-    - **On Timeout, Wait:** If a job or command times out, wait and retry; do not immediately restart services.
-- **MCQ Generation is Active:** The  job is running in the background and is designed to be resilient to restarts. Monitor its progress.
-- **Video Generation is PAUSED:** The user has explicitly instructed to pause video generation. Do not start it.
-- **Budget Monitoring:** The Emergent LLM Key has a history of hitting its limit. Auto Top-up is active, but you must monitor for any hard budget failures and notify the user if they occur.
+
+-   You **MUST** communicate with the user in **Hebrew**.
+-   The highest priority is to stabilize the **MCQ generation for UG courses**. Use  for this. Do not use the older generator.
+-   The second priority is to implement a way to **import the JSON files** with MCQs that the user is providing for NVU Medicine. The user has already sent the first file.
+-   The **avatar/video generation feature is on hold**. Do not work on it.
+-   The user has repeatedly experienced data inconsistencies. Always verify data directly in the MongoDB database before confirming completion of a task to the user.
 
 **documents and test reports created in this job**
--  (updated)
-- 
+
+The user has uploaded several artifacts that were used to populate the database:
+
+-   
+-   
+-   
+-    (A sample file for format validation)
 
 **Last 10 User Messages and any pending HUMAN messages**
-1. User asked for the link to the most updated agent fork. (Pending analysis)
-2. User expressed confusion and concern about duplicate work across forks.
-3. User asked if the agent is aware of other forks.
-4. User confirmed a desire to consolidate work into a single, most-advanced fork.
-5. User asked about the status of 10 courses that were to be handled by a different agent.
-6. User provided explicit Standing Authorization () for full autonomy.
-7. User requested that the agent run the MCQ answer-shuffling migration immediately.
-8. User provided a JSON file with 2 new courses and 571 questions and asked for them to be imported.
-9. User reported a critical bug: MCQ answers were not randomized and were academically unacceptable.
-10. User provided final, strict rules for agent autonomy, including a  instruction.
+
+1.  **User:** Asks if my attempts are delaying other courses. (Status: Addressed)
+2.  **User:** Reports a discrepancy between the total questions and questions in the quiz. (Status: Unresolved, linked to data instability)
+3.  **User:** Postpones all avatar work. (Status: Acknowledged)
+4.  **User:** Asks to add a new university (NVU). (Status: Completed)
+5.  **User:** Specifies the faculties for NVU. (Status: Completed)
+6.  **User:** Asks about file format for upload. (Status: Addressed)
+7.  **User:** Uploads . (Status: Completed)
+8.  **User:** Uploads . (Status: Completed)
+9.  **User:** Uploads . (Status: Completed)
+10. **User:** Re-iterates not to interrupt the UG generation. (Status: Acknowledged)
+
+**Pending Human Input:**
+The user has pasted a JSON payload containing 25 MCQs twice (, ). This is the first batch of manually created questions for an NVU Medicine course. This file needs to be imported into the database as the user's next step.
 
 **Project Health Check:**
-- **Broken:** None.
-- **Mocked:** None.
+
+-   **Broken:** The background MCQ generation for UG courses is highly unstable and is the root cause of most user-facing issues. This is the most critical point of failure in the project.
+-   **Mocked:** N/A.
 
 **3rd Party Integrations**
-- **OpenAI GPT-5.2** (Text Generation) — uses Emergent LLM Key.
-- **OpenAI Sora 2** (Video Generation) — uses Emergent LLM Key.
-- **Emergent-managed Google Auth** (Authentication).
+
+-   **OpenAI GPT-4o-mini:** Used for MCQ generation. Uses Emergent LLM Key.
+-   **OpenAI Sora 2:** Was configured for video generation, but this task is postponed. Uses Emergent LLM Key.
+-   **Google Gemini Flash:** The agent attempted to use this model, but it requires a User-provided API Key and is not compatible with the Emergent LLM Key.
 
 **Testing status**
-- **Testing agent used after significant changes:** NO
-- **Troubleshoot agent used after agent stuck in loop:** NO
-- **Test files created:** None
-- **Known regressions:** None.
+
+-   **Testing agent used:** NO
+-   **Troubleshoot agent used:** NO
+-   **Test files created:** None.
+-   **Known regressions:** The number of MCQs for a given course has been observed to decrease after generation, indicating that a rogue process was deleting or overwriting data. While one such conflict was found and fixed, the continued instability suggests the problem may not be fully resolved.
 
 **Credentials to test flow:**
-N/A (Uses Google OAuth).
+
+N/A
 
 **What agent forgot to execute**
-The agent was in the middle of addressing the user's critical confusion about which fork to use. The previous session ended just after the user uploaded screenshots for comparison. This task must be completed first.</analysis>
+
+-   The agent did not create the necessary import functionality to handle the user-provided JSON files for NVU Medicine, even after agreeing to the plan. The user has now started sending these files, and there is no mechanism to process them.
+-   The agent did not prioritize stabilizing the failing UG generation job before starting new, parallel generation jobs (like NVU Pharmacy), potentially straining system resources and contributing to the instability.</analysis>
