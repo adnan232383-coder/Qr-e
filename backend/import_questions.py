@@ -7,7 +7,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-questions_data = [
+import json
+
+# Load questions from JSON file
+with open('/app/psychiatry_batch_2.json', 'r', encoding='utf-8') as f:
+    questions_data = json.load(f)
+
+_old_data = [
   {
     "question": "A 52-year-old female presents with a 2 cm firm breast mass. Mammography shows a spiculed lesion with microcalcifications. What is the next most appropriate step in diagnosis?",
     "option_a": "Repeat mammography in 6 months",
