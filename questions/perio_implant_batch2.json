@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is the primary objective of the 'Modified Widman Flap' (MWF) procedure?",
+    "option_a": "Pocket elimination by removing the pocket wall",
+    "option_b": "To provide improved access for meticulous root debridement and ensure close adaptation of healthy tissue to the roots",
+    "option_c": "To increase the width of the attached gingiva",
+    "option_d": "To reposition the gingiva apically",
+    "correct_answer": "B",
+    "explanation": "Unlike the gingivectomy, the MWF is a conservative procedure designed to facilitate root cleaning and healing by primary intention, rather than purely eliminating pockets through excision."
+  },
+  {
+    "question": "A patient requires a 'Free Gingival Graft' (FGG) on the mandibular incisors. What is the primary clinical goal of this surgery?",
+    "option_a": "To cover a deep root recession completely",
+    "option_b": "To increase the width of keratinized and attached gingiva and deepen the vestibule",
+    "option_c": "To regrow bone in an infrabony defect",
+    "option_d": "To treat a periodontal abscess",
+    "correct_answer": "B",
+    "explanation": "FGGs are highly predictable for increasing the zone of keratinized tissue, although they are less esthetic than connective tissue grafts (CTG) for root coverage."
+  },
+  {
+    "question": "Which of the following describes the biological mechanism of 'Guided Tissue Regeneration' (GTR)?",
+    "option_a": "Applying acid to the root to kill bacteria",
+    "option_b": "Using a barrier membrane to physically exclude fast-growing epithelial cells, allowing slower-growing PDL and bone cells to repopulate the root surface",
+    "option_c": "Giving the patient high doses of antibiotics",
+    "option_d": "Suturing the flap very tightly",
+    "correct_answer": "B",
+    "explanation": "GTR aims for true regeneration (new cementum, PDL, and bone) by selecting which cell types have access to the healing site."
+  },
+  {
+    "question": "Which periodontal surgical technique is best suited for 'Pocket Elimination' in an area with adequate attached gingiva?",
+    "option_a": "Modified Widman Flap",
+    "option_b": "Gingivectomy (External Bevel)",
+    "option_c": "Connective tissue graft",
+    "option_d": "Subepithelial graft",
+    "correct_answer": "B",
+    "explanation": "A gingivectomy removes the soft tissue pocket wall. It is indicated when there is a large amount of gingiva and no bone loss (pseudopockets)."
+  },
+  {
+    "question": "A 55-year-old male with a history of Periodontitis and 'Atherosclerotic Cardiovascular Disease' (ASCVD) is being treated. What is the currently accepted scientific link between these two conditions?",
+    "option_a": "There is no link",
+    "option_b": "Periodontal pathogens and systemic inflammation (e.g., C-reactive protein) may contribute to the formation and instability of arterial plaques",
+    "option_c": "Brushing teeth causes heart attacks",
+    "option_d": "Heart disease causes gum disease",
+    "correct_answer": "B",
+    "explanation": "Chronic periodontal infection releases bacteria (bacteremia) and inflammatory mediators into the bloodstream, which is an independent risk factor for ASCVD."
+  },
+  {
+    "question": "Which of the following is an 'Autograft'?",
+    "option_a": "Bone from a human cadaver",
+    "option_b": "Bone harvested from the patient's own body (e.g., mandibular ramus or chin)",
+    "option_c": "Bone from a cow",
+    "option_d": "Synthetic ceramic material",
+    "correct_answer": "B",
+    "explanation": "Autografts are the gold standard for bone grafting because they provide live osteoblasts (osteogenic), growth factors (osteoinductive), and a scaffold (osteoconductive)."
+  },
+  {
+    "question": "In 'Miller's Classification' of gingival recession, a Class III defect is characterized by:",
+    "option_a": "Recession not reaching the mucogingival junction",
+    "option_b": "Recession reaching or extending beyond the MGJ with loss of interproximal bone or soft tissue",
+    "option_c": "Recession beyond the MGJ with no bone loss",
+    "option_d": "Complete root coverage is 100% predictable",
+    "correct_answer": "B",
+    "explanation": "In Class III, full root coverage is usually not possible due to the loss of interproximal supporting structures."
+  },
+  {
+    "question": "Which medication is used in 'Host Modulation Therapy' at a sub-antimicrobial dose (20mg twice daily) to inhibit collagenase (MMP-8) in periodontitis patients?",
+    "option_a": "Amoxicillin",
+    "option_b": "Doxycycline (Periostat)",
+    "option_c": "Metronidazole",
+    "option_d": "Chlorhexidine",
+    "correct_answer": "B",
+    "explanation": "Low-dose doxycycline inhibits the enzymes that break down the periodontal ligament without killing bacteria or causing resistance."
+  },
+  {
+    "question": "Which of the following is a 'Non-resorbable' suture material often used in periodontal surgery for its high strength and low tissue reaction?",
+    "option_a": "Plain Gut",
+    "option_b": "Polytetrafluoroethylene (PTFE)",
+    "option_c": "Chromic Gut",
+    "option_d": "Vicryl",
+    "correct_answer": "B",
+    "explanation": "PTFE is non-resorbable and highly biocompatible, making it ideal for GTR and implant procedures."
+  },
+  {
+    "question": "What is the primary contraindication for an 'Apically Positioned Flap' (APF)?",
+    "option_a": "Presence of deep pockets",
+    "option_b": "Esthetic concerns in the maxillary anterior region (causes tooth lengthening)",
+    "option_c": "Lack of bone support",
+    "option_d": "High plaque index",
+    "correct_answer": "B",
+    "explanation": "APF reduces pockets but exposes the roots, which is undesirable in the 'smile zone' due to poor esthetics and potential sensitivity."
+  },
+  {
+    "question": "Which cells are responsible for 'Secondary' osseointegration, where new bone is formed onto the implant surface after the initial mechanical fit?",
+    "option_a": "Fibroblasts",
+    "option_b": "Osteoblasts",
+    "option_c": "Macrophage",
+    "option_d": "Epithelial cells",
+    "correct_answer": "B",
+    "explanation": "Osteoblasts are bone-forming cells that lay down the mineralized matrix directly on the titanium oxide layer of the implant."
+  },
+  {
+    "question": "Which of the following describes 'Distraction Osteogenesis' in the jaw?",
+    "option_a": "A simple tooth extraction",
+    "option_b": "A process of making a surgical cut in the bone and slowly separating the segments to grow new bone and soft tissue in the gap",
+    "option_c": "Using a laser to clean pockets",
+    "option_d": "Applying pressure to the teeth",
+    "correct_answer": "B",
+    "explanation": "Distraction is used to gain significant vertical bone height or correct major skeletal discrepancies."
+  },
+  {
+    "question": "What is 'Primary Intention' healing in periodontal surgery?",
+    "option_a": "The wound is left open to heal from the bottom up",
+    "option_b": "The flap edges are closely adapted and sutured to cover the wound completely",
+    "option_c": "Healing using a laser",
+    "option_d": "Healing without blood",
+    "correct_answer": "B",
+    "explanation": "Primary intention healing results in less pain, faster recovery, and minimal scarring."
+  },
+  {
+    "question": "Which anatomical structure is the primary concern when performing a 'Sinus Lift' (Lateral Window) procedure in the posterior maxilla?",
+    "option_a": "The lingual nerve",
+    "option_b": "The Schneiderian membrane (lining of the maxillary sinus)",
+    "option_c": "The parotid duct",
+    "option_d": "The mental foramen",
+    "correct_answer": "B",
+    "explanation": "The membrane must be carefully detached and elevated to create space for the bone graft without perforation."
+  },
+  {
+    "question": "What is the clinical significance of 'Biotype' (Phenotype) in periodontology?",
+    "option_a": "It determines the color of the teeth",
+    "option_b": "Thin biotypes are more prone to gingival recession and less resistant to surgical trauma than thick biotypes",
+    "option_c": "It has no clinical meaning",
+    "option_d": "It only matters for older patients",
+    "correct_answer": "B",
+    "explanation": "A 'thick-flat' biotype is more robust; a 'thin-scalloped' biotype requires very gentle tissue handling."
+  },
+  {
+    "question": "In bone grafting, 'Osteoinduction' refers to:",
+    "option_a": "The material acting as a simple scaffold",
+    "option_b": "The recruitment and stimulation of undifferentiated mesenchymal cells to differentiate into osteoblasts (e.g., via BMPs)",
+    "option_c": "The presence of live bone cells in the graft",
+    "option_d": "The material dissolving quickly",
+    "correct_answer": "B",
+    "explanation": "Osteoinduction is a chemical process where growth factors 'induce' new bone formation."
+  },
+  {
+    "question": "A 'Vertical' (crestal) bone loss pattern is typically associated with:",
+    "option_a": "Gingivitis only",
+    "option_b": "Infrabony pockets (the defect is apical to the alveolar crest)",
+    "option_c": "Normal health",
+    "option_d": "Horizontal bone loss",
+    "correct_answer": "B",
+    "explanation": "Vertical defects are often treatable with regenerative procedures (GTR/Grafting), unlike generalized horizontal loss."
+  },
+  {
+    "question": "What is the primary function of 'Periodontal Dressing' (e.g., Coe-Pak) after surgery?",
+    "option_a": "To speed up bone growth",
+    "option_b": "To protect the surgical site from trauma and increase patient comfort during the first week of healing",
+    "option_c": "To replace the need for sutures",
+    "option_d": "To bleach the teeth",
+    "correct_answer": "B",
+    "explanation": "Dressing acts as a 'band-aid' but does not inherently improve the final biological outcome."
+  },
+  {
+    "question": "Which of the following is true for 'Immediate' Implant placement (Type 1)?",
+    "option_a": "It is done 6 months after extraction",
+    "option_b": "The implant is placed into the extraction socket during the same surgical appointment",
+    "option_c": "It is only for molars",
+    "option_d": "It never requires a bone graft",
+    "correct_answer": "B",
+    "explanation": "Immediate placement reduces the number of surgeries but requires a high level of primary stability and often 'gap-filling' with bone graft."
+  },
+  {
+    "question": "What is 'Curettage' in a surgical context (Gingival Curettage)?",
+    "option_a": "Polishing the teeth",
+    "option_b": "Surgical removal of the inflamed soft tissue lining of the periodontal pocket",
+    "option_c": "Cutting the bone",
+    "option_d": "A type of filling",
+    "correct_answer": "B",
+    "explanation": "Gingival curettage is now rarely performed as a separate procedure, as it provides no additional benefit over SRP alone."
+  },
+  {
+    "question": "Which surgical instrument is used for making the 'Initial' incision in a flap procedure?",
+    "option_a": "Gracey curette",
+    "option_b": "#15 or #15C scalpel blade",
+    "option_c": "Periosteal elevator",
+    "option_d": "Hemostat",
+    "correct_answer": "B",
+    "explanation": "The #15C is a standard small blade for precise periodontal surgery."
+  },
+  {
+    "question": "A patient with 'Periodontitis' has a higher risk of which 'Pregnancy' complication?",
+    "option_a": "Gestational diabetes only",
+    "option_b": "Preterm birth and Low Birth Weight (LBW)",
+    "option_c": "Twin pregnancy",
+    "option_d": "Post-term delivery",
+    "correct_answer": "B",
+    "explanation": "Systemic inflammatory mediators (Prostaglandins, Cytokines) triggered by oral infection may cross the placenta and induce early labor."
+  },
+  {
+    "question": "Which type of 'Flap' maintains the blood supply from the base of the flap?",
+    "option_a": "Free graft",
+    "option_b": "Pedicle Flap (e.g., Laterally Positioned Flap)",
+    "option_c": "Abrasive flap",
+    "option_d": "None of the above",
+    "correct_answer": "B",
+    "explanation": "Pedicle flaps remain attached at their base, ensuring a continuous vascular supply to the tissue."
+  },
+  {
+    "question": "What is the definition of 'Osseous Resection' (Ostectomy)?",
+    "option_a": "Adding bone",
+    "option_b": "Removal of tooth-supporting bone to reshape the alveolar process and eliminate pockets",
+    "option_c": "Cleaning the roots",
+    "option_d": "Removing the gums only",
+    "correct_answer": "B",
+    "explanation": "Ostectomy involves removing supporting bone; Osteoplasty involves reshaping non-supporting bone."
+  },
+  {
+    "question": "Which of the following is an 'Osteoconductive' material?",
+    "option_a": "Patient's own bone",
+    "option_b": "Bio-Oss (Bovine Xenograft) or Hydroxyapatite",
+    "option_c": "Platelet-Rich Plasma (PRP)",
+    "option_d": "Saliva",
+    "correct_answer": "B",
+    "explanation": "Osteoconductive materials act as a passive scaffold for the patient's own bone cells to grow onto."
+  },
+  {
+    "question": "In 'Connective Tissue Grafts' (CTG), where is the 'Donor' tissue usually harvested from?",
+    "option_a": "The tongue",
+    "option_b": "The hard palate (subepithelial connective tissue)",
+    "option_c": "The buccal mucosa",
+    "option_d": "The floor of the mouth",
+    "correct_answer": "B",
+    "explanation": "The palate provides a rich source of dense connective tissue for esthetic root coverage procedures."
+  },
+  {
+    "question": "What is the primary risk of 'Scaling' deep into a furcation area using a standard thick scaler?",
+    "option_a": "Making the tooth whiter",
+    "option_b": "Cracking the root or missing the fine details of the furcation roof",
+    "option_c": "Improving the patient's breath",
+    "option_d": "Curing the disease instantly",
+    "correct_answer": "B",
+    "explanation": "Furcations are anatomically complex; specialized mini-Gracey curettes or ultrasonic tips are needed for effective debridement."
+  },
+  {
+    "question": "A patient presents with a 'Periodontal Abscess'. What is the first line of treatment in the acute phase?",
+    "option_a": "Immediate surgery",
+    "option_b": "Drainage of the abscess (through the pocket or incision) and thorough scaling",
+    "option_c": "Long-term vitamins",
+    "option_d": "Tooth extraction for everyone",
+    "correct_answer": "B",
+    "explanation": "Relieving the pressure through drainage is essential for pain relief and preventing further bone loss."
+  },
+  {
+    "question": "Which 'Laser' type is commonly used for soft tissue procedures like gingivectomy or frenectomy?",
+    "option_a": "CO2 or Diode laser",
+    "option_b": "X-ray laser",
+    "option_c": "Ultrasound",
+    "option_d": "None of the above",
+    "correct_answer": "A",
+    "explanation": "CO2 and Diode lasers are highly absorbed by water and hemoglobin, making them excellent for bloodless soft tissue cutting."
+  },
+  {
+    "question": "What is the definition of 'Bio-integration' of an implant?",
+    "option_a": "Metal glue",
+    "option_b": "A direct biochemical bond between the implant surface and the bone (seen with bioactive coatings like hydroxyapatite)",
+    "option_c": "Gum growth",
+    "option_d": "Infection",
+    "correct_answer": "B",
+    "explanation": "Bio-integration is a Step beyond mechanical osseointegration, involving a chemical interface."
+  },
+  {
+    "question": "Which periodontal condition is strongly associated with 'Stress' and 'Smoking' and causes rapid destruction of the papillae?",
+    "option_a": "Chronic gingivitis",
+    "option_b": "Necrotizing Gingivitis (NG)",
+    "option_c": "Pregnancy gingivitis",
+    "option_d": "Occlusal trauma",
+    "correct_answer": "B",
+    "explanation": "NG (formerly ANUG) is a painful, rapid-onset infection driven by host stress and specific bacteria."
+  },
+  {
+    "question": "What is the primary advantage of 'Internal Bevel' incision over 'External Bevel' in flap surgery?",
+    "option_a": "It is less painful",
+    "option_b": "It allows for the preservation of the outer gingival surface and primary closure of the flap",
+    "option_c": "It removes less plaque",
+    "option_d": "It is faster",
+    "correct_answer": "B",
+    "explanation": "Internal bevel incisions are the standard for flap surgery because they allow the clinician to save the keratinized tissue and cover the bone."
+  },
+  {
+    "question": "Which factor is the most important for the success of a 'Bone Graft' in a vertical defect?",
+    "option_a": "The brand of the graft",
+    "option_b": "Stability of the clot/graft and space maintenance (often using a membrane)",
+    "option_c": "Using no sutures",
+    "option_d": "Patient's hair color",
+    "correct_answer": "B",
+    "explanation": "If the graft moves or is compressed by the soft tissues, it will fail to turn into bone."
+  },
+  {
+    "question": "What is 'Creeping Attachment' after a gingival graft?",
+    "option_a": "The graft falling off",
+    "option_b": "The gradual coronal migration of the gingival margin onto the root surface during the months following a graft",
+    "option_c": "Infection of the graft",
+    "option_d": "Bone loss",
+    "correct_answer": "B",
+    "explanation": "Creeping attachment is a positive outcome where root coverage improves even after the initial healing phase."
+  },
+  {
+    "question": "Which of the following is true for 'Peri-implantitis' management?",
+    "option_a": "It can be cured with simple mouthwash",
+    "option_b": "It usually requires surgical intervention to decontaminate the implant surface and regenerate lost bone",
+    "option_c": "The implant should always be removed immediately",
+    "option_d": "It only happens in the maxilla",
+    "correct_answer": "B",
+    "explanation": "Peri-implantitis is difficult to treat non-surgically because the 'threads' of the implant harbor bacteria."
+  },
+  {
+    "question": "What is the primary indicator for 'Mucogingival Surgery'?",
+    "option_a": "Teeth are too white",
+    "option_b": "Correction of defects in morphology, position, or amount of gingiva (e.g., lack of attached gingiva or recession)",
+    "option_c": "Curing heart disease",
+    "option_d": "Scaling the teeth",
+    "correct_answer": "B",
+    "explanation": "Mucogingival procedures aim to create a healthy functional and esthetic environment for the teeth and implants."
+  },
+  {
+    "question": "Which 'Growth Factor' is commonly used in periodontal regeneration to stimulate cell migration and proliferation?",
+    "option_a": "Insulin",
+    "option_b": "Platelet-Derived Growth Factor (PDGF)",
+    "option_c": "Estrogen",
+    "option_d": "Vitamin D",
+    "correct_answer": "B",
+    "explanation": "PDGF (e.g., Gem21S) is a potent mediator of tissue healing and regeneration."
+  },
+  {
+    "question": "What is 'Fremitus' in a clinical periodontal exam?",
+    "option_a": "Bad breath",
+    "option_b": "Palpable vibration or movement of a tooth when the patient is in functional occlusion (biting)",
+    "option_c": "Bleeding gums",
+    "option_d": "Calculus on the root",
+    "correct_answer": "B",
+    "explanation": "Fremitus is a clinical sign of occlusal trauma."
+  },
+  {
+    "question": "In 'Guided Bone Regeneration' (GBR), the 'Barrier Membrane' is placed between:",
+    "option_a": "The tooth and the bone",
+    "option_b": "The bone graft and the overlying gingival flap",
+    "option_c": "The tongue and the teeth",
+    "option_d": "The lips and the gums",
+    "correct_answer": "B",
+    "explanation": "The membrane prevents gingival connective tissue from 'invading' the graft site, giving the bone time to mature."
+  },
+  {
+    "question": "Which of the following describes 'Biological Width' violating restorations?",
+    "option_a": "They are too white",
+    "option_b": "They cause persistent bleeding, localized bone loss, and recession as the body attempts to re-establish the biological space",
+    "option_c": "They are only found in children",
+    "option_d": "They improve periodontal health",
+    "correct_answer": "B",
+    "explanation": "Margins placed too deep into the sulcus trigger an inflammatory response."
+  },
+  {
+    "question": "What is the primary risk of 'Power' (Sonic/Ultrasonic) scaling in a patient with a 'Cardiac Pacemaker'?",
+    "option_a": "The scaler will break",
+    "option_b": "Possible electromagnetic interference (though modern shielded pacemakers have very low risk)",
+    "option_c": "The patient will lose their hearing",
+    "option_d": "Whiter teeth",
+    "correct_answer": "B",
+    "explanation": "Older unshielded devices can be affected by the magnetostrictive units; piezoelectric units are safer."
+  },
+  {
+    "question": "Which of the following is true for 'Scaling' around a Titanium implant?",
+    "option_a": "Standard stainless steel scalers should be used",
+    "option_b": "Plastic, carbon fiber, or titanium-tipped scalers should be used to avoid scratching the implant surface",
+    "option_c": "No scaling is ever needed",
+    "option_d": "Scaling causes the implant to fall out",
+    "correct_answer": "B",
+    "explanation": "Scratching the implant creates a rough surface that attracts more plaque."
+  },
+  {
+    "question": "The 'Infrabony' defect that offers the best potential for regeneration is:",
+    "option_a": "One-walled defect",
+    "option_b": "Three-walled defect (the graft is surrounded by more bony walls)",
+    "option_c": "Horizontal bone loss",
+    "option_d": "A flat ridge",
+    "correct_answer": "B",
+    "explanation": "The more bony walls remain, the better the blood supply and stability for the regenerative material."
+  },
+  {
+    "question": "What is 'Root Planing'?",
+    "option_a": "Bleaching the root",
+    "option_b": "The process of smoothing the root surface to remove embedded calculus and toxified cementum",
+    "option_c": "Extracting the root",
+    "option_d": "Adding bone to the root",
+    "correct_answer": "B",
+    "explanation": "Root planing leaves a smooth, clean surface that is conducive to soft tissue reattachment."
+  },
+  {
+    "question": "Which 'Classification' refers to the severity of 'Gingival Overgrowth'?",
+    "option_a": "Angle's classification",
+    "option_b": "The GO (Gingival Overgrowth) index (Grade 0 to 3)",
+    "option_c": "Kennedy classification",
+    "option_d": "ASA classification",
+    "correct_answer": "B",
+    "explanation": "Grading is based on the extent of the papillae and the clinical crown covered by tissue."
+  },
+  {
+    "question": "In 'Tetracycline' therapy for periodontitis, what is a unique beneficial side effect?",
+    "option_a": "It makes the teeth white",
+    "option_b": "Anti-collagenase activity (inhibiting host-mediated destruction)",
+    "option_c": "It improves vision",
+    "option_d": "It causes weight gain",
+    "correct_answer": "B",
+    "explanation": "Tetracyclines are unique because they are both antibiotic and host-modulating."
+  },
+  {
+    "question": "What is the standard 'Wait Time' after SRP before performing a 'Re-evaluation' of the periodontal status?",
+    "option_a": "1 day",
+    "option_b": "4-6 weeks (to allow for tissue healing and maturation)",
+    "option_c": "1 year",
+    "option_d": "10 minutes",
+    "correct_answer": "B",
+    "explanation": "Re-evaluating too early will show false positive inflammation from the procedure itself."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' healing?",
+    "option_a": "Immediate closure with stitches",
+    "option_b": "The wound is left open and fills with granulation tissue (e.g., after a gingivectomy)",
+    "option_c": "Healing that takes 1 second",
+    "option_d": "Healing without a blood clot",
+    "correct_answer": "B",
+    "explanation": "Secondary intention takes longer and involves more tissue contraction/scarring."
+  },
+  {
+    "question": "What is the primary function of 'Enamel Matrix Derivative' (Emdogain) in periodontal surgery?",
+    "option_a": "To stop bleeding",
+    "option_b": "To mimic the process of natural tooth development and promote the formation of new cementum, PDL, and bone",
+    "option_c": "To glue a crown",
+    "option_d": "To clean the tongue",
+    "correct_answer": "B",
+    "explanation": "Emdogain is a 'biologic' material that triggers a regenerative cascade."
+  },
+  {
+    "question": "Which of the following is a sign of 'Failure' of a dental implant during the healing phase?",
+    "option_a": "Slight redness of the gum",
+    "option_b": "Clinical mobility of the implant",
+    "option_c": "The patient likes the taste",
+    "option_d": "Increased biting force",
+    "correct_answer": "B",
+    "explanation": "A successful implant must be totally immobile; any movement indicates a lack of osseointegration."
+  }
+]
