@@ -1,0 +1,470 @@
+[
+  {
+    "question": "A 3-week-old neonate presents with fever, irritability, and poor feeding. A lumbar puncture is performed, and the CSF shows 500 WBCs (80% neutrophils), low glucose, and high protein. Gram stain shows Gram-positive bacilli. What is the most likely pathogen?",
+    "option_a": "Group B Streptococcus",
+    "option_b": "Listeria monocytogenes",
+    "option_c": "Escherichia coli",
+    "option_d": "Streptococcus pneumoniae",
+    "correct_answer": "B",
+    "explanation": "Listeria is a common cause of neonatal meningitis and is characterized by Gram-positive bacilli. Ampicillin must be added to the empiric regimen to cover it."
+  },
+  {
+    "question": "A 5-year-old child presents with a fever, sore throat, and a 'sandpaper' texture rash that started on the trunk and spread to the extremities. He has a 'strawberry tongue'. What is the treatment of choice?",
+    "option_a": "Acyclovir",
+    "option_b": "Penicillin V or Amoxicillin",
+    "option_c": "Topical steroids",
+    "option_d": "Observation only",
+    "correct_answer": "B",
+    "explanation": "Scarlet fever is caused by Group A Streptococcus. Antibiotics are necessary to prevent complications like rheumatic fever."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Neonatal Jaundice' appearing within the first 24 hours of life?",
+    "option_a": "Breast milk jaundice",
+    "option_b": "Physiological jaundice",
+    "option_c": "Hemolytic disease (e.g., ABO or Rh incompatibility)",
+    "option_d": "Biliary atresia",
+    "correct_answer": "C",
+    "explanation": "Jaundice in the first 24 hours is always pathological and usually indicates hemolysis or congenital infection."
+  },
+  {
+    "question": "A 4-year-old presents with itchy, erythematous plaques in the flexural folds (antecubital and popliteal fossae). He has a history of asthma. What is the diagnosis?",
+    "option_a": "Psoriasis",
+    "option_b": "Atopic Dermatitis (Eczema)",
+    "option_c": "Seborrheic dermatitis",
+    "option_d": "Scabies",
+    "correct_answer": "B",
+    "explanation": "Atopic dermatitis is part of the 'atopic triad' (asthma, allergic rhinitis, eczema) and characteristically involves flexural surfaces in older children."
+  },
+  {
+    "question": "A 2-year-old child is brought to the ER after ingesting an unknown amount of his grandmother's 'iron pills'. He is currently vomiting and has abdominal pain. What is the specific antidote for iron toxicity?",
+    "option_a": "N-acetylcysteine",
+    "option_b": "Deferoxamine",
+    "option_c": "Atropine",
+    "option_d": "Succimer",
+    "correct_answer": "B",
+    "explanation": "Deferoxamine is a chelating agent that binds free iron and allows it to be excreted in the urine."
+  },
+  {
+    "question": "Which of the following findings on an X-ray is highly suggestive of 'Non-accidental Trauma' (Child Abuse)?",
+    "option_a": "Greenstick fracture of the radius",
+    "option_b": "Metaphyseal corner (bucket-handle) fractures",
+    "option_c": "Clavicular fracture in a neonate",
+    "option_d": "Simple spiral fracture of the tibia in a walking toddler",
+    "correct_answer": "B",
+    "explanation": "Metaphyseal fractures and posterior rib fractures are highly specific for child abuse due to the forces involved in shaking or pulling."
+  },
+  {
+    "question": "A 6-month-old infant presents with a 'greasy' yellow scale on the scalp (cradle cap). What is the most likely diagnosis?",
+    "option_a": "Atopic dermatitis",
+    "option_b": "Seborrheic dermatitis",
+    "option_c": "Tinea capitis",
+    "option_d": "Psoriasis",
+    "correct_answer": "B",
+    "explanation": "Seborrheic dermatitis is common in infants and is managed with mild shampoos or mineral oil."
+  },
+  {
+    "question": "A child with 'Hemophilia A' (Factor VIII deficiency) will typically show which of the following laboratory patterns?",
+    "option_a": "Prolonged PT, normal PTT",
+    "option_b": "Normal PT, prolonged PTT",
+    "option_c": "Prolonged bleeding time, normal PTT",
+    "option_d": "Low platelet count",
+    "correct_answer": "B",
+    "explanation": "Factor VIII is part of the intrinsic pathway; therefore, only the PTT is prolonged."
+  },
+  {
+    "question": "Which of the following is an absolute contraindication to the MMR vaccine?",
+    "option_a": "Mild cold or low-grade fever",
+    "option_b": "History of anaphylaxis to neomycin or gelatin",
+    "option_c": "Household contact who is pregnant",
+    "option_d": "Penicillin allergy",
+    "correct_answer": "B",
+    "explanation": "MMR contains gelatin and neomycin; a history of severe allergic reaction to these components is a contraindication."
+  },
+  {
+    "question": "A 10-year-old girl presents with a 'butterfly rash' on her face, joint pain, and proteinuria. What is the most specific antibody for the diagnosis of SLE?",
+    "option_a": "ANA (Anti-nuclear antibody)",
+    "option_b": "Anti-dsDNA or Anti-Smith",
+    "option_c": "Anti-histone",
+    "option_d": "RF (Rheumatoid factor)",
+    "correct_answer": "B",
+    "explanation": "While ANA is sensitive, Anti-Smith and Anti-dsDNA are highly specific for systemic lupus erythematosus."
+  },
+  {
+    "question": "What is the primary treatment for 'Idiopathic Thrombocytopenic Purpura' (ITP) in a child with a platelet count of 15,000 and no active bleeding?",
+    "option_a": "Platelet transfusion",
+    "option_b": "Observation and avoiding contact sports",
+    "option_c": "Splenectomy",
+    "option_d": "Chemotherapy",
+    "correct_answer": "B",
+    "explanation": "In children, most cases of ITP are self-limiting; if there is no significant bleeding, observation is the preferred initial management."
+  },
+  {
+    "question": "A neonate born to a mother with Hepatitis B (HBsAg positive) should receive which of the following within 12 hours of birth?",
+    "option_a": "Hepatitis B vaccine only",
+    "option_b": "Hepatitis B vaccine and Hepatitis B Immune Globulin (HBIG)",
+    "option_c": "HBIG only",
+    "option_d": "No treatment until 2 months of age",
+    "correct_answer": "B",
+    "explanation": "The combination of vaccine and passive immunity (HBIG) provides >95% protection against vertical transmission."
+  },
+  {
+    "question": "A 12-year-old boy presents with sudden onset of severe scrotal pain and a 'high-riding' testis. The cremasteric reflex is absent. What is the next step?",
+    "option_a": "Urinalysis and antibiotics",
+    "option_b": "Urgent surgical exploration",
+    "option_c": "Abdominal X-ray",
+    "option_d": "Observation for 24 hours",
+    "correct_answer": "B",
+    "explanation": "Testicular torsion is a surgical emergency. Delaying treatment beyond 6 hours significantly reduces the chance of saving the testis."
+  },
+  {
+    "question": "Which of the following is true for 'Hand, Foot, and Mouth Disease'?",
+    "option_a": "It is caused by Coxsackievirus A16",
+    "option_b": "It is treated with Penicillin",
+    "option_c": "It is a bacterial infection",
+    "option_d": "It only occurs in adults",
+    "correct_answer": "A",
+    "explanation": "HFMD is a common viral illness in children characterized by oral ulcers and a vesicular rash on the hands and feet."
+  },
+  {
+    "question": "A child presents with a 'honey-colored' crusting lesion around the nose and mouth. What is the most likely pathogen?",
+    "option_a": "Herpes Simplex Virus",
+    "option_b": "Staphylococcus aureus or Streptococcus pyogenes",
+    "option_c": "Candida albicans",
+    "option_d": "Human Papillomavirus",
+    "correct_answer": "B",
+    "explanation": "This is the classic description of Impetigo, a superficial bacterial skin infection."
+  },
+  {
+    "question": "What is the medication of choice for 'Lead Poisoning' in a child with a venous lead level of 50 µg/dL?",
+    "option_a": "Oral Succimer (DMSA)",
+    "option_b": "IV Calcium Gluconate",
+    "option_c": "Activated charcoal",
+    "option_d": "Aspirin",
+    "correct_answer": "A",
+    "explanation": "Chelation with Succimer is indicated for lead levels between 45-69 µg/dL."
+  },
+  {
+    "question": "A 3-year-old child presents with a high fever for 3 days. As the fever breaks, a pink maculopapular rash appears on the trunk. Diagnosis?",
+    "option_a": "Measles",
+    "option_b": "Roseola Infantum (Exanthema Subitum)",
+    "option_c": "Rubella",
+    "option_d": "Varicella",
+    "correct_answer": "B",
+    "explanation": "Roseola (HHV-6) typically features a fever that resolves just as the rash develops."
+  },
+  {
+    "question": "Which of the following describes 'Legg-Calvé-Perthes Disease'?",
+    "option_a": "Slippage of the femoral head",
+    "option_b": "Avascular necrosis of the femoral head in a 4-8 year old child",
+    "option_c": "Infection of the hip joint",
+    "option_d": "A type of bone cancer",
+    "correct_answer": "B",
+    "explanation": "Perthes disease presents with an insidious limp and hip pain in younger children (unlike SCFE which is in adolescents)."
+  },
+  {
+    "question": "A 13-year-old obese male presents with a painful limp and the right leg is held in external rotation. Diagnosis?",
+    "option_a": "Legg-Calvé-Perthes Disease",
+    "option_b": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "option_c": "Septic arthritis",
+    "option_d": "Transient synovitis",
+    "correct_answer": "B",
+    "explanation": "SCFE is common in overweight adolescents and requires urgent surgical pinning."
+  },
+  {
+    "question": "What is the primary management for 'Neonatal Respiratory Distress Syndrome' in a premature infant?",
+    "option_a": "Broad-spectrum antibiotics",
+    "option_b": "Surfactant administration and CPAP",
+    "option_c": "D5W infusion",
+    "option_d": "High-dose aspirin",
+    "correct_answer": "B",
+    "explanation": "RDS is caused by surfactant deficiency; replacement therapy and pressure support are the cornerstones of care."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Juvenile Idiopathic Arthritis' (JIA)?",
+    "option_a": "Joint pain that is worse at night",
+    "option_b": "Morning stiffness that improves with activity",
+    "option_c": "Sudden onset of high fever and redness in one joint",
+    "option_d": "Painless joints",
+    "correct_answer": "B",
+    "explanation": "Inflammatory arthritis like JIA typically causes 'Gelling' or morning stiffness."
+  },
+  {
+    "question": "A child presents with a 'paroxysmal cough' followed by a loud inspiratory 'whoop'. What is the causative agent?",
+    "option_a": "Mycoplasma pneumoniae",
+    "option_b": "Bordetella pertussis",
+    "option_c": "RSV",
+    "option_d": "Parainfluenza virus",
+    "correct_answer": "B",
+    "explanation": "Whooping cough (Pertussis) is characterized by these distinct coughing fits."
+  },
+  {
+    "question": "What is the recommended age for the first dose of the 'Inactivated Polio Vaccine' (IPV)?",
+    "option_a": "Birth",
+    "option_b": "2 months",
+    "option_c": "12 months",
+    "option_d": "4 years",
+    "correct_answer": "B",
+    "explanation": "IPV is given at 2, 4, 6-18 months and 4-6 years."
+  },
+  {
+    "question": "A neonate has a total bilirubin of 18 mg/dL at 48 hours of life. What is the most appropriate next step?",
+    "option_a": "Immediate exchange transfusion",
+    "option_b": "Initiate phototherapy",
+    "option_c": "Discharge home with follow-up in 1 week",
+    "option_d": "Stop breastfeeding permanently",
+    "correct_answer": "B",
+    "explanation": "High levels of unconjugated bilirubin require phototherapy to prevent kernicterus."
+  },
+  {
+    "question": "Which of the following is true regarding 'Kawasaki Disease'?",
+    "option_a": "It is a small-vessel vasculitis",
+    "option_b": "Diagnosis is based on clinical criteria including fever for ≥5 days",
+    "option_c": "It is treated with steroids as first-line",
+    "option_d": "It only occurs in teenagers",
+    "correct_answer": "B",
+    "explanation": "Kawasaki is a medium-vessel vasculitis and requires 5 days of fever plus 4 out of 5 other signs (conjunctivitis, rash, lymphadenopathy, oral changes, extremity changes)."
+  },
+  {
+    "question": "A child presents with 'painless' rectal bleeding. A Technetium-99m pertechnetate scan is positive. Diagnosis?",
+    "option_a": "Intussusception",
+    "option_b": "Meckel's Diverticulum",
+    "option_c": "Anal fissure",
+    "option_d": "IBD",
+    "correct_answer": "B",
+    "explanation": "The 'Meckel's scan' detects ectopic gastric mucosa which is the cause of bleeding in Meckel's diverticulum."
+  },
+  {
+    "question": "What is the antidote for 'Acetaminophen' (Paracetamol) overdose?",
+    "option_a": "Flumazenil",
+    "option_b": "N-acetylcysteine (NAC)",
+    "option_c": "Naloxone",
+    "option_d": "Physostigmine",
+    "correct_answer": "B",
+    "explanation": "NAC restores glutathione stores to detoxify the toxic metabolite NAPQI."
+  },
+  {
+    "question": "Which of the following describes 'Croup'?",
+    "option_a": "High-pitched inspiratory wheeze",
+    "option_b": "Barking cough and inspiratory stridor",
+    "option_c": "Muffled voice and drooling",
+    "option_d": "Productive cough and rales",
+    "correct_answer": "B",
+    "explanation": "Croup is subglottic inflammation typically caused by parainfluenza virus."
+  },
+  {
+    "question": "What is the primary screening tool for 'Developmental Dysplasia of the Hip' (DDH) in a 2-week-old infant?",
+    "option_a": "Pelvic X-ray",
+    "option_b": "Physical exam (Barlow and Ortolani maneuvers)",
+    "option_c": "Abdominal ultrasound",
+    "option_d": "MRI",
+    "correct_answer": "B",
+    "explanation": "Physical examination is the most important screening tool in early infancy."
+  },
+  {
+    "question": "A child presents with 'target' lesions on the skin after starting a course of antibiotics. Diagnosis?",
+    "option_a": "Urticaria",
+    "option_b": "Erythema Multiforme",
+    "option_c": "Psoriasis",
+    "option_d": "Impetigo",
+    "correct_answer": "B",
+    "explanation": "Erythema multiforme is a hypersensitivity reaction often triggered by infections (like HSV) or drugs."
+  },
+  {
+    "question": "Which of the following is a classic clinical feature of 'Cystic Fibrosis' in a neonate?",
+    "option_a": "Excessive weight gain",
+    "option_b": "Meconium ileus",
+    "option_c": "Hypertonia",
+    "option_d": "Macrocephaly",
+    "correct_answer": "B",
+    "explanation": "Meconium ileus (failure to pass meconium) is highly suggestive of CF in the newborn."
+  },
+  {
+    "question": "What is the medication of choice for 'Anaphylaxis' in a pediatric patient?",
+    "option_a": "Oral Diphenhydramine",
+    "option_b": "IM Epinephrine (1:1000)",
+    "option_c": "IV Corticosteroids only",
+    "option_d": "Albuterol nebulizer",
+    "correct_answer": "B",
+    "explanation": "Epinephrine is the first-line and only life-saving treatment for anaphylaxis."
+  },
+  {
+    "question": "A 10-year-old child presents with arthritis and a 'bull's-eye' rash. Diagnosis?",
+    "option_a": "Rheumatic fever",
+    "option_b": "Lyme Disease",
+    "option_c": "JIA",
+    "option_d": "HSP",
+    "correct_answer": "B",
+    "explanation": "Erythema migrans (the bull's-eye rash) is pathognomonic for early Lyme disease."
+  },
+  {
+    "question": "Which of the following is true for 'Wilms Tumor'?",
+    "option_a": "It often crosses the midline",
+    "option_b": "It is the most common renal tumor in children",
+    "option_c": "It is always found in adults",
+    "option_d": "It is a benign tumor",
+    "correct_answer": "B",
+    "explanation": "Wilms tumor (nephroblastoma) usually presents as an asymptomatic abdominal mass."
+  },
+  {
+    "question": "What is the significance of the 'Double Bubble' sign on X-ray?",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Duodenal atresia",
+    "option_c": "Intussusception",
+    "option_d": "Pneumothorax",
+    "correct_answer": "B",
+    "explanation": "This sign represents air in the stomach and the proximal duodenum, indicating obstruction."
+  },
+  {
+    "question": "Which of the following describes 'Minimal Change Disease'?",
+    "option_a": "Gross hematuria",
+    "option_b": "The most common cause of nephrotic syndrome in children",
+    "option_c": "High blood pressure is the main symptom",
+    "option_d": "Associated with hearing loss",
+    "correct_answer": "B",
+    "explanation": "MCD features massive proteinuria and edema and is highly steroid-responsive."
+  },
+  {
+    "question": "A child presents with 'strawberry tongue' and high fever. Which of the following is NOT a criterion for Kawasaki Disease?",
+    "option_a": "Bilateral conjunctival injection",
+    "option_b": "Splenomegaly",
+    "option_c": "Polymorphous rash",
+    "option_d": "Cervical lymphadenopathy",
+    "correct_answer": "B",
+    "explanation": "Splenomegaly is not part of the diagnostic criteria for Kawasaki disease."
+  },
+  {
+    "question": "What is the primary treatment for 'Septic Arthritis' in a child?",
+    "option_a": "Aspirin",
+    "option_b": "Joint drainage and IV antibiotics",
+    "option_c": "Physical therapy only",
+    "option_d": "Wait for results first",
+    "correct_answer": "B",
+    "explanation": "Septic arthritis is a medical emergency requiring urgent drainage to prevent joint destruction."
+  },
+  {
+    "question": "Which of the following describes 'Turner Syndrome' (45,X)?",
+    "option_a": "Tall stature",
+    "option_b": "Short stature, webbed neck, and primary amenorrhea",
+    "option_c": "High risk of testicular cancer",
+    "option_d": "Excellent fertility",
+    "correct_answer": "B",
+    "explanation": "Turner syndrome affects females and involves the absence of one X chromosome."
+  },
+  {
+    "question": "Which vaccine is given at 'Birth' to all infants in most countries?",
+    "option_a": "MMR",
+    "option_b": "Hepatitis B",
+    "option_c": "Influenza",
+    "option_d": "DPT",
+    "correct_answer": "B",
+    "explanation": "Hepatitis B is the first vaccine in the series, usually given within 24 hours of birth."
+  },
+  {
+    "question": "A child presents with 'slapped cheek' appearance. What is the cause?",
+    "option_a": "Parvovirus B19",
+    "option_b": "Streptococcus",
+    "option_c": "Measles virus",
+    "option_d": "HHV-6",
+    "correct_answer": "A",
+    "explanation": "This is Erythema Infectiosum (Fifth Disease)."
+  },
+  {
+    "question": "What is the primary risk of 'Bilirubin' toxicity (Kernicterus)?",
+    "option_a": "Permanent brain damage",
+    "option_b": "Liver cirrhosis",
+    "option_c": "Kidney failure",
+    "option_d": "Hearing improvement",
+    "correct_answer": "A",
+    "explanation": "Unconjugated bilirubin can cross the blood-brain barrier and deposit in the basal ganglia."
+  },
+  {
+    "question": "Which of the following is true for 'Henoch-Schönlein Purpura'?",
+    "option_a": "It involves a low platelet count",
+    "option_b": "It is an IgA-mediated vasculitis",
+    "option_c": "It is treated with broad-spectrum antibiotics",
+    "option_d": "It only affects the heart",
+    "correct_answer": "B",
+    "explanation": "HSP features palpable purpura, abdominal pain, and arthritis with normal platelets."
+  },
+  {
+    "question": "What is the 'Gold Standard' for diagnosing 'Vesicoureteral Reflux'?",
+    "option_a": "Renal ultrasound",
+    "option_b": "Voiding Cystourethrogram (VCUG)",
+    "option_c": "Urinalysis",
+    "option_d": "CT scan",
+    "correct_answer": "B",
+    "explanation": "VCUG allows for the visualization of urine refluxing from the bladder into the ureters."
+  },
+  {
+    "question": "A neonate born at 39 weeks gestation has failed to pass meconium by 48 hours. Digital rectal exam results in an explosive release of stool. Diagnosis?",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Hirschsprung Disease",
+    "option_c": "Intussusception",
+    "option_d": "Imperforate anus",
+    "correct_answer": "B",
+    "explanation": "The 'squirt sign' or explosive stool release is classic for Hirschsprung."
+  },
+  {
+    "question": "What is the primary medication for 'Pneumocystis jirovecii' prophylaxis in a child with HIV?",
+    "option_a": "Acyclovir",
+    "option_b": "Trimethoprim-Sulfamethoxazole (TMP-SMX)",
+    "option_c": "Fluconazole",
+    "option_d": "Amoxicillin",
+    "correct_answer": "B",
+    "explanation": "TMP-SMX is the drug of choice for both treatment and prevention of PCP."
+  },
+  {
+    "question": "Which of the following describes 'Fragile X Syndrome'?",
+    "option_a": "The most common inherited cause of intellectual disability",
+    "option_b": "A chromosome 21 defect",
+    "option_c": "Affects only females",
+    "option_d": "Associated with short stature",
+    "correct_answer": "A",
+    "explanation": "Fragile X involves a CGG repeat expansion on the X chromosome."
+  },
+  {
+    "question": "What is the 'first-line' treatment for 'Epiglottitis'?",
+    "option_a": "Intubation in the Operating Room and IV antibiotics",
+    "option_b": "Cough syrup",
+    "option_c": "Oral amoxicillin at home",
+    "option_d": "Observation only",
+    "correct_answer": "A",
+    "explanation": "Securing the airway is the absolute priority in suspected epiglottitis."
+  },
+  {
+    "question": "Which of the following is true for 'Osteogenesis Imperfecta'?",
+    "option_a": "Characterized by 'brittle bones' and blue sclera",
+    "option_b": "Caused by Vitamin C deficiency",
+    "option_c": "A bacterial infection of the bone",
+    "option_d": "Only affects the skin",
+    "correct_answer": "A",
+    "explanation": "OI is a genetic disorder of type 1 collagen."
+  },
+  {
+    "question": "A child presents with 'joint swelling' and 'fever' after a sore throat. Which Jones criterion is present?",
+    "option_a": "Polyarthritis",
+    "option_b": "Chorea",
+    "option_c": "Erythema marginatum",
+    "option_d": "All of the above",
+    "correct_answer": "A",
+    "explanation": "Polyarthritis is a common major criterion for Rheumatic Fever."
+  },
+  {
+    "question": "What is the treatment for 'Pinworms' in a 4-year-old?",
+    "option_a": "Oral Albendazole or Pyrantel pamoate",
+    "option_b": "Topical steroids",
+    "option_c": "Antibiotics",
+    "option_d": "Surgical removal",
+    "correct_answer": "A",
+    "explanation": "A single dose followed by a repeat dose in 2 weeks is the standard therapy."
+  },
+  {
+    "question": "Which of the following describes 'Wiskott-Aldrich Syndrome'?",
+    "option_a": "Thrombocytopenia, eczema, and recurrent infections",
+    "option_b": "Obesity and short stature",
+    "option_c": "Blindness and deafness",
+    "option_d": "High fever and rash",
+    "correct_answer": "A",
+    "explanation": "This is an X-linked recessive immunodeficiency."
+  }
+]
