@@ -1,0 +1,443 @@
+[
+  {
+    "question": "A 58-year-old man with a history of type 2 diabetes presents with chest pressure radiating to the left arm for 2 hours. ECG shows ST-segment elevation in leads V1-V4. Troponin I is elevated. What is the most appropriate immediate management?",
+    "option_a": "Administer thrombolytics within 30 minutes",
+    "option_b": "Schedule stress test for the next day",
+    "option_c": "Start heparin infusion and observe",
+    "option_d": "Emergent percutaneous coronary intervention (PCI)",
+    "correct_answer": "D",
+    "explanation": "STEMI requires emergent reperfusion therapy. Primary PCI is preferred over thrombolytics when available within 120 minutes of first medical contact. Door-to-balloon time goal is <90 minutes."
+  },
+  {
+    "question": "A 72-year-old woman presents with progressive dyspnea and bilateral leg edema. Physical exam reveals elevated JVP, bilateral crackles, and S3 gallop. BNP is 1200 pg/mL. Echocardiogram shows EF of 25%. Which medication has proven mortality benefit in this condition?",
+    "option_a": "Amlodipine",
+    "option_b": "Carvedilol",
+    "option_c": "Diltiazem",
+    "option_d": "Hydralazine monotherapy",
+    "correct_answer": "B",
+    "explanation": "Beta-blockers (carvedilol, metoprolol succinate, bisoprolol) have proven mortality benefit in HFrEF. Calcium channel blockers like amlodipine and diltiazem do not improve mortality and diltiazem can worsen HFrEF."
+  },
+  {
+    "question": "A 45-year-old man with hypertension presents with sudden severe headache and confusion. BP is 220/140 mmHg with papilledema on fundoscopy. CT head is negative for hemorrhage. What is the target BP reduction in the first hour?",
+    "option_a": "Reduce MAP by no more than 25%",
+    "option_b": "Achieve BP <120/80 mmHg immediately",
+    "option_c": "Reduce BP to 140/90 mmHg within 30 minutes",
+    "option_d": "No BP reduction until MRI is performed",
+    "correct_answer": "A",
+    "explanation": "In hypertensive emergency, the goal is to reduce MAP by no more than 25% in the first hour to prevent hypoperfusion. Rapid reduction can cause watershed infarcts. IV labetalol or nicardipine are preferred agents."
+  },
+  {
+    "question": "A 67-year-old smoker presents with worsening dyspnea and productive cough for 3 days. He uses albuterol and tiotropium daily. SpO2 is 86% on room air, with diffuse wheezes and prolonged expiration. ABG shows pH 7.32, PaCO2 55, PaO2 52. What is the most appropriate oxygen therapy?",
+    "option_a": "High-flow nasal cannula at 60 L/min FiO2 100%",
+    "option_b": "Non-rebreather mask at 15 L/min",
+    "option_c": "Venturi mask titrated to SpO2 88-92%",
+    "option_d": "Room air with close monitoring",
+    "correct_answer": "C",
+    "explanation": "In COPD exacerbation with hypercapnia, oxygen should be titrated to SpO2 88-92% to avoid suppressing hypoxic respiratory drive. High-flow oxygen can worsen hypercapnia through the Haldane effect and reduced respiratory drive."
+  },
+  {
+    "question": "A 35-year-old woman presents with palpitations, heat intolerance, weight loss, and tremor. TSH is <0.01 mIU/L, free T4 is 4.2 ng/dL (normal 0.8-1.8). Physical exam reveals diffuse goiter and proptosis. What is the most appropriate initial treatment?",
+    "option_a": "Propylthiouracil (PTU)",
+    "option_b": "Methimazole",
+    "option_c": "Radioactive iodine ablation",
+    "option_d": "Immediate thyroidectomy",
+    "correct_answer": "B",
+    "explanation": "Methimazole is first-line antithyroid drug for Graves' disease due to once-daily dosing and lower risk of hepatotoxicity compared to PTU. PTU is preferred only in first trimester pregnancy and thyroid storm."
+  },
+  {
+    "question": "A 52-year-old man with type 2 diabetes has HbA1c of 8.5% on metformin 2000 mg daily. He has established ASCVD with prior MI. Which additional agent provides the greatest cardiovascular benefit?",
+    "option_a": "Glipizide",
+    "option_b": "Empagliflozin",
+    "option_c": "Pioglitazone",
+    "option_d": "Sitagliptin",
+    "correct_answer": "B",
+    "explanation": "SGLT2 inhibitors (empagliflozin, canagliflozin) and GLP-1 receptor agonists have proven cardiovascular mortality benefit in patients with established ASCVD. The EMPA-REG OUTCOME trial showed 38% reduction in cardiovascular death."
+  },
+  {
+    "question": "A 28-year-old woman presents with joint pain, malar rash, and oral ulcers. Labs show ANA 1:640, anti-dsDNA positive, low C3 and C4. Urinalysis shows proteinuria 2+ and RBC casts. What is the most appropriate next step?",
+    "option_a": "Start hydroxychloroquine only",
+    "option_b": "Renal biopsy",
+    "option_c": "High-dose oral prednisone without further workup",
+    "option_d": "Repeat urinalysis in 2 weeks",
+    "correct_answer": "B",
+    "explanation": "Active urinary sediment with RBC casts and proteinuria suggests lupus nephritis. Renal biopsy is essential to classify the nephritis (Class I-VI) and guide treatment intensity. Treatment varies significantly by histological class."
+  },
+  {
+    "question": "A 64-year-old man with atrial fibrillation has a CHA2DS2-VASc score of 4. He has history of recent GI bleeding 8 weeks ago, now resolved. What is the most appropriate anticoagulation strategy?",
+    "option_a": "Aspirin 325 mg daily indefinitely",
+    "option_b": "No anticoagulation due to bleeding history",
+    "option_c": "Apixaban with PPI and close monitoring",
+    "option_d": "Left atrial appendage closure only",
+    "correct_answer": "C",
+    "explanation": "With CHA2DS2-VASc of 4, stroke risk outweighs bleeding risk in most cases. After GI bleeding resolves (typically 4-8 weeks), anticoagulation should be resumed. DOACs with PPI reduce GI bleeding risk compared to warfarin."
+  },
+  {
+    "question": "A 55-year-old woman with rheumatoid arthritis on methotrexate presents with dry cough and progressive dyspnea over 3 months. HRCT shows bilateral reticular opacities with honeycombing predominantly at the bases. What is the most likely diagnosis?",
+    "option_a": "Methotrexate pneumonitis",
+    "option_b": "Usual interstitial pneumonia (UIP)",
+    "option_c": "Organizing pneumonia",
+    "option_d": "Pulmonary alveolar proteinosis",
+    "correct_answer": "B",
+    "explanation": "Bilateral basal reticular opacities with honeycombing on HRCT is the classic UIP pattern. RA-ILD commonly presents as UIP. Methotrexate pneumonitis typically causes diffuse ground-glass opacities and is acute/subacute."
+  },
+  {
+    "question": "A 48-year-old man with alcoholic cirrhosis presents with confusion and asterixis. Ammonia level is 120 μmol/L. He had a large GI bleed 2 days ago. What is the most appropriate initial treatment?",
+    "option_a": "Oral neomycin only",
+    "option_b": "Lactulose titrated to 2-3 bowel movements daily",
+    "option_c": "Protein-restricted diet",
+    "option_d": "Flumazenil",
+    "correct_answer": "B",
+    "explanation": "Lactulose is first-line treatment for hepatic encephalopathy. It acidifies colonic contents, converting NH3 to non-absorbable NH4+ and promotes its excretion. Target is 2-3 soft bowel movements daily. Protein restriction is no longer recommended."
+  },
+  {
+    "question": "A 38-year-old woman presents with fatigue, constipation, and cold intolerance. TSH is 45 mIU/L, free T4 is 0.3 ng/dL. Anti-TPO antibodies are positive. What is the most appropriate treatment?",
+    "option_a": "Levothyroxine 1.6 mcg/kg/day",
+    "option_b": "Liothyronine (T3) alone",
+    "option_c": "Combined T4/T3 therapy",
+    "option_d": "Desiccated thyroid extract",
+    "correct_answer": "A",
+    "explanation": "Levothyroxine monotherapy at 1.6 mcg/kg/day is standard treatment for primary hypothyroidism. Hashimoto's thyroiditis (confirmed by anti-TPO) is the most common cause. T3 combinations lack evidence of superiority."
+  },
+  {
+    "question": "A 62-year-old man presents with new-onset ascites. Paracentesis shows SAAG of 1.8 g/dL, total protein 1.5 g/dL, and WBC 450/mm³ with 60% PMNs. What is the most appropriate next step?",
+    "option_a": "Start IV cefotaxime empirically",
+    "option_b": "Wait for culture results before treatment",
+    "option_c": "Therapeutic paracentesis only",
+    "option_d": "Start oral fluoroquinolone prophylaxis",
+    "correct_answer": "A",
+    "explanation": "PMN count >250/mm³ in ascitic fluid indicates spontaneous bacterial peritonitis (SBP) and requires immediate empiric antibiotics (cefotaxime or ceftriaxone). Do not wait for cultures. Albumin should be given to prevent hepatorenal syndrome."
+  },
+  {
+    "question": "A 70-year-old woman with COPD presents with sudden dyspnea and pleuritic chest pain. D-dimer is elevated, and CT-PA shows bilateral pulmonary emboli. BP is 85/50 mmHg despite fluid resuscitation. What is the most appropriate treatment?",
+    "option_a": "Unfractionated heparin infusion",
+    "option_b": "Systemic thrombolysis with alteplase",
+    "option_c": "Inferior vena cava filter placement",
+    "option_d": "Apixaban loading dose",
+    "correct_answer": "B",
+    "explanation": "Massive PE with hemodynamic instability (hypotension) is an indication for systemic thrombolysis. Alteplase improves pulmonary perfusion and right ventricular function. Catheter-directed therapy is an alternative if thrombolysis is contraindicated."
+  },
+  {
+    "question": "A 54-year-old man with newly diagnosed type 2 diabetes has BMI 34 kg/m². Creatinine is 1.1 mg/dL, no proteinuria. What is the most appropriate initial pharmacotherapy?",
+    "option_a": "Insulin glargine",
+    "option_b": "Metformin",
+    "option_c": "Glipizide",
+    "option_d": "Acarbose",
+    "correct_answer": "B",
+    "explanation": "Metformin remains first-line therapy for type 2 diabetes. It reduces hepatic glucose production, improves insulin sensitivity, promotes modest weight loss, and has established cardiovascular safety. It's contraindicated if eGFR <30."
+  },
+  {
+    "question": "A 42-year-old woman presents with episodic headaches, palpitations, and diaphoresis. BP during an episode is 210/120 mmHg. 24-hour urine shows elevated metanephrines and catecholamines. CT abdomen reveals a 4-cm right adrenal mass. What is the next step before surgery?",
+    "option_a": "Start phenoxybenzamine alpha-blockade",
+    "option_b": "Immediate adrenalectomy",
+    "option_c": "Start propranolol beta-blockade",
+    "option_d": "Adrenal biopsy",
+    "correct_answer": "A",
+    "explanation": "Pheochromocytoma requires alpha-blockade (phenoxybenzamine or doxazosin) for 10-14 days before surgery to prevent intraoperative hypertensive crisis. Beta-blockers alone can cause unopposed alpha-stimulation and worsen hypertension."
+  },
+  {
+    "question": "A 29-year-old man presents with acute knee monoarthritis. Synovial fluid shows negatively birefringent needle-shaped crystals. Serum uric acid is 9.2 mg/dL. What is the most appropriate acute treatment?",
+    "option_a": "Allopurinol 300 mg daily",
+    "option_b": "Colchicine and NSAIDs",
+    "option_c": "Probenecid",
+    "option_d": "Febuxostat",
+    "correct_answer": "B",
+    "explanation": "Acute gout should be treated with anti-inflammatory agents (NSAIDs, colchicine, or corticosteroids). Urate-lowering therapy should not be initiated during acute attacks as it can prolong or worsen the flare."
+  },
+  {
+    "question": "A 65-year-old man with chronic kidney disease stage 4 presents with fatigue. Hemoglobin is 8.5 g/dL, MCV 88 fL, reticulocyte count low. Iron studies show low serum iron, low TIBC, high ferritin. What is the most likely cause of anemia?",
+    "option_a": "Iron deficiency anemia",
+    "option_b": "Anemia of chronic kidney disease",
+    "option_c": "B12 deficiency",
+    "option_d": "Hemolytic anemia",
+    "correct_answer": "B",
+    "explanation": "CKD anemia is due to decreased erythropoietin production and functional iron deficiency. The iron profile (low iron, low TIBC, high ferritin) indicates anemia of chronic disease pattern. Treatment includes ESAs and IV iron."
+  },
+  {
+    "question": "A 78-year-old woman falls and sustains a hip fracture. She has no history of trauma. DEXA shows T-score of -3.2 at the femoral neck. What medication reduces both vertebral and hip fracture risk?",
+    "option_a": "Calcitonin nasal spray",
+    "option_b": "Alendronate",
+    "option_c": "Raloxifene",
+    "option_d": "Vitamin D 400 IU daily alone",
+    "correct_answer": "B",
+    "explanation": "Bisphosphonates (alendronate, risedronate, zoledronic acid) reduce both vertebral and hip fractures. Raloxifene only reduces vertebral fractures. Calcitonin has minimal efficacy. Adequate calcium/vitamin D should accompany treatment."
+  },
+  {
+    "question": "A 56-year-old man with well-controlled HIV (CD4 550, undetectable viral load) presents with progressive dyspnea. CXR shows bilateral interstitial infiltrates. Induced sputum is negative for PCP. HRCT shows ground-glass opacities. Bronchoscopy with BAL shows foamy alveolar macrophages. What is the diagnosis?",
+    "option_a": "Pneumocystis jirovecii pneumonia",
+    "option_b": "Pulmonary alveolar proteinosis",
+    "option_c": "Cytomegalovirus pneumonia",
+    "option_d": "Lymphocytic interstitial pneumonia",
+    "correct_answer": "B",
+    "explanation": "Foamy alveolar macrophages on BAL with ground-glass opacities suggest pulmonary alveolar proteinosis (PAP). While PCP also shows ground-glass, the negative sputum and BAL findings with foamy macrophages point to PAP. Treatment is whole lung lavage."
+  },
+  {
+    "question": "A 44-year-old woman presents with progressive proximal muscle weakness over 4 months. CK is 5000 U/L. EMG shows myopathic pattern. She also has mechanic's hands and Gottron papules. What antibody is most associated with interstitial lung disease in this condition?",
+    "option_a": "Anti-Jo-1",
+    "option_b": "Anti-Mi-2",
+    "option_c": "Anti-SRP",
+    "option_d": "Anti-MDA5",
+    "correct_answer": "A",
+    "explanation": "Anti-Jo-1 (anti-histidyl-tRNA synthetase) is the most common antisynthetase antibody associated with dermatomyositis/polymyositis and strongly correlates with ILD, mechanic's hands, and arthritis (antisynthetase syndrome)."
+  },
+  {
+    "question": "A 33-year-old man presents with severe epigastric pain radiating to the back, nausea, and vomiting. Lipase is 1500 U/L. Abdominal CT shows pancreatic inflammation without necrosis. On day 3, he develops fever, tachycardia, and WBC 18,000. What is the most appropriate next step?",
+    "option_a": "Start empiric antibiotics immediately",
+    "option_b": "Repeat CT to evaluate for infected necrosis",
+    "option_c": "Emergent surgical debridement",
+    "option_d": "ERCP with sphincterotomy",
+    "correct_answer": "B",
+    "explanation": "Fever and leukocytosis in acute pancreatitis raise concern for infected necrosis, which requires repeat imaging. Prophylactic antibiotics are not indicated in acute pancreatitis. Infected necrosis requires antibiotics and possible drainage."
+  },
+  {
+    "question": "A 71-year-old woman with persistent atrial fibrillation has been on warfarin for 3 years. She is scheduled for elective hip replacement. INR is 2.5. What is the recommended bridging strategy?",
+    "option_a": "Stop warfarin 5 days before, bridge with LMWH",
+    "option_b": "Continue warfarin through surgery",
+    "option_c": "Stop warfarin 5 days before, no bridging needed",
+    "option_d": "Give vitamin K and proceed with surgery",
+    "correct_answer": "C",
+    "explanation": "BRIDGE trial showed no benefit of heparin bridging for AF patients on warfarin undergoing elective procedures, with increased bleeding risk. For most AF patients, stop warfarin 5 days prior without bridging, resume post-operatively."
+  },
+  {
+    "question": "A 60-year-old man with hepatitis C cirrhosis undergoes screening endoscopy showing large esophageal varices without red wale signs. He has never bled. What is the most appropriate primary prophylaxis?",
+    "option_a": "Propranolol titrated to heart rate 55-60 bpm",
+    "option_b": "Isosorbide mononitrate alone",
+    "option_c": "Prophylactic band ligation only if beta-blockers fail",
+    "option_d": "No prophylaxis until first bleed",
+    "correct_answer": "A",
+    "explanation": "Non-selective beta-blockers (propranolol, nadolol) or endoscopic band ligation are both acceptable for primary prophylaxis of large varices. Beta-blockers reduce portal pressure and prevent first variceal bleed. Target HR 55-60 bpm."
+  },
+  {
+    "question": "A 58-year-old woman presents with symmetric polyarthritis of small joints, morning stiffness lasting 2 hours, and subcutaneous nodules at the elbows. RF and anti-CCP are positive. What is the most appropriate initial DMARD?",
+    "option_a": "Hydroxychloroquine",
+    "option_b": "Methotrexate",
+    "option_c": "Sulfasalazine",
+    "option_d": "Prednisone monotherapy",
+    "correct_answer": "B",
+    "explanation": "Methotrexate is the anchor DMARD for rheumatoid arthritis. It should be initiated early to prevent joint destruction. It can be combined with short-term glucocorticoids for symptom control while awaiting DMARD effect (6-12 weeks)."
+  },
+  {
+    "question": "A 49-year-old man with chronic hepatitis B (HBsAg+, HBeAg+, HBV DNA 10^7 IU/mL, ALT 120 U/L) has no cirrhosis on imaging. What is the most appropriate antiviral therapy?",
+    "option_a": "Interferon-alpha for 48 weeks",
+    "option_b": "Entecavir or tenofovir indefinitely",
+    "option_c": "Lamivudine for 12 months",
+    "option_d": "No treatment, monitor only",
+    "correct_answer": "B",
+    "explanation": "High HBV DNA with elevated ALT indicates active hepatitis requiring treatment. Entecavir or tenofovir are first-line due to high potency and high barrier to resistance. Lamivudine has high resistance rates. Treatment is typically long-term."
+  },
+  {
+    "question": "A 34-year-old woman presents with episodic vertigo lasting hours, associated with tinnitus, hearing loss, and aural fullness in the left ear. Audiometry shows low-frequency sensorineural hearing loss. What is the most likely diagnosis?",
+    "option_a": "Benign paroxysmal positional vertigo",
+    "option_b": "Meniere's disease",
+    "option_c": "Vestibular neuritis",
+    "option_d": "Acoustic neuroma",
+    "correct_answer": "B",
+    "explanation": "Meniere's disease presents with the classic triad: episodic vertigo (minutes to hours), fluctuating sensorineural hearing loss (initially low-frequency), and tinnitus with aural fullness. BPPV causes brief episodes triggered by position changes."
+  },
+  {
+    "question": "A 68-year-old man with ischemic cardiomyopathy (EF 30%) and NYHA class III symptoms is on optimal medical therapy including sacubitril-valsartan, carvedilol, and spironolactone. ECG shows LBBB with QRS 160 ms. What additional intervention improves mortality?",
+    "option_a": "Add digoxin",
+    "option_b": "Cardiac resynchronization therapy (CRT)",
+    "option_c": "Upgrade to heart transplant evaluation only",
+    "option_d": "Add ivabradine",
+    "correct_answer": "B",
+    "explanation": "CRT is indicated in HFrEF (EF ≤35%), NYHA II-IV symptoms despite optimal therapy, with LBBB and QRS ≥150 ms. CRT improves symptoms, reduces hospitalizations, and decreases mortality. LBBB patients benefit most."
+  },
+  {
+    "question": "A 52-year-old woman with obesity (BMI 38) and type 2 diabetes is started on semaglutide. After 4 weeks, she reports severe nausea and 2 episodes of vomiting. What is the most appropriate management?",
+    "option_a": "Discontinue semaglutide permanently",
+    "option_b": "Reduce dose and titrate more slowly",
+    "option_c": "Add metoclopramide and continue same dose",
+    "option_d": "Switch to insulin",
+    "correct_answer": "B",
+    "explanation": "GI side effects (nausea, vomiting) are common with GLP-1 agonists, especially during titration. Management includes slower dose escalation, smaller meals, and avoiding high-fat foods. Most patients tolerate with slower titration."
+  },
+  {
+    "question": "A 40-year-old man presents with recurrent deep vein thrombosis. He has no family history. Testing reveals lupus anticoagulant positive on two occasions 12 weeks apart. What is the most appropriate long-term anticoagulation?",
+    "option_a": "Warfarin with target INR 2-3",
+    "option_b": "Rivaroxaban",
+    "option_c": "Aspirin alone",
+    "option_d": "Low-molecular-weight heparin for 6 months only",
+    "correct_answer": "A",
+    "explanation": "Antiphospholipid syndrome with thrombosis requires long-term anticoagulation. Warfarin is preferred over DOACs based on trials showing higher thrombosis recurrence with DOACs in APS, particularly in triple-positive patients."
+  },
+  {
+    "question": "A 66-year-old man with stage 3b CKD (eGFR 38) has BP consistently 150/95 mmHg on amlodipine 10 mg. Urinalysis shows proteinuria 1.5 g/day. What is the most appropriate additional antihypertensive?",
+    "option_a": "Hydrochlorothiazide",
+    "option_b": "Lisinopril",
+    "option_c": "Metoprolol",
+    "option_d": "Clonidine",
+    "correct_answer": "B",
+    "explanation": "ACE inhibitors (or ARBs) are first-line in CKD with proteinuria due to renoprotective effects (reducing intraglomerular pressure and proteinuria). Monitor potassium and creatinine after initiation. Thiazides less effective at low GFR."
+  },
+  {
+    "question": "A 73-year-old man presents with macrocytic anemia (Hgb 9.2, MCV 112). B12 is low at 95 pg/mL. Peripheral smear shows hypersegmented neutrophils. He has history of gastrectomy 10 years ago. What is the most appropriate treatment?",
+    "option_a": "Oral cyanocobalamin 1000 mcg daily",
+    "option_b": "Intramuscular cyanocobalamin",
+    "option_c": "Folate supplementation",
+    "option_d": "Iron supplementation",
+    "correct_answer": "B",
+    "explanation": "Post-gastrectomy patients lack intrinsic factor required for B12 absorption in terminal ileum. Intramuscular B12 bypasses the absorption defect. High-dose oral B12 may work via passive diffusion but IM is more reliable in this setting."
+  },
+  {
+    "question": "A 45-year-old woman presents with fatigue, weight gain, and constipation. Labs show TSH 8.5 mIU/L with normal free T4. Anti-TPO antibodies are positive. She is asymptomatic otherwise. What is the most appropriate management?",
+    "option_a": "Start levothyroxine immediately",
+    "option_b": "Repeat TSH in 6-12 weeks before deciding",
+    "option_c": "No treatment needed, monitor annually",
+    "option_d": "Radioactive iodine uptake scan",
+    "correct_answer": "A",
+    "explanation": "Subclinical hypothyroidism with TSH >7-10 mIU/L, especially with symptoms (fatigue, constipation) and positive TPO antibodies (indicating Hashimoto's), warrants levothyroxine therapy. Lower TSH levels may warrant monitoring."
+  },
+  {
+    "question": "A 55-year-old man with alcoholic liver disease presents with progressive abdominal distension. Paracentesis shows SAAG 1.5 g/dL, total protein 1.0 g/dL. What is the most appropriate long-term management of his ascites?",
+    "option_a": "Therapeutic paracentesis only when symptomatic",
+    "option_b": "Sodium restriction and spironolactone",
+    "option_c": "Furosemide monotherapy",
+    "option_d": "Albumin infusions weekly",
+    "correct_answer": "B",
+    "explanation": "First-line management of cirrhotic ascites is sodium restriction (2g/day) and diuretics. Spironolactone is preferred (antagonizes aldosterone excess). Furosemide can be added. Typical ratio is spironolactone 100mg: furosemide 40mg."
+  },
+  {
+    "question": "A 38-year-old woman with SLE on hydroxychloroquine presents with new malar rash, arthritis, and fatigue. Labs show anti-dsDNA rising and C3/C4 falling. Creatinine and urinalysis are normal. What is the most appropriate next step?",
+    "option_a": "Continue current therapy, reassess in 3 months",
+    "option_b": "Add low-dose prednisone and consider azathioprine",
+    "option_c": "Start cyclophosphamide",
+    "option_d": "Renal biopsy",
+    "correct_answer": "B",
+    "explanation": "Rising anti-dsDNA with falling complements indicates increased disease activity. Without renal involvement, moderate-intensity immunosuppression (steroids + steroid-sparing agent) is appropriate. Cyclophosphamide is reserved for severe organ involvement."
+  },
+  {
+    "question": "A 61-year-old man with COPD (FEV1 45% predicted) has had 3 exacerbations in the past year despite LAMA/LABA combination. What additional therapy is most appropriate?",
+    "option_a": "Add inhaled corticosteroid",
+    "option_b": "Switch to LAMA monotherapy",
+    "option_c": "Add theophylline",
+    "option_d": "Add oral prednisone daily",
+    "correct_answer": "A",
+    "explanation": "Frequent exacerbations (≥2/year) despite dual bronchodilation warrant addition of ICS (triple therapy: ICS/LAMA/LABA). Blood eosinophil count >300 cells/μL predicts better ICS response. Avoid long-term oral steroids."
+  },
+  {
+    "question": "A 47-year-old man presents with acute gouty arthritis of the first MTP joint. He cannot take NSAIDs due to CKD stage 4. What is the most appropriate acute treatment?",
+    "option_a": "Colchicine 0.5 mg twice daily",
+    "option_b": "Prednisone 30-40 mg daily for 5-7 days",
+    "option_c": "Allopurinol 100 mg daily",
+    "option_d": "Intra-articular hyaluronic acid",
+    "correct_answer": "B",
+    "explanation": "In patients who cannot tolerate NSAIDs, glucocorticoids (oral, intra-articular, or IM) are effective for acute gout. Colchicine requires dose adjustment in CKD and may be less preferred. Allopurinol should not be started during acute attacks."
+  },
+  {
+    "question": "A 59-year-old woman with type 2 diabetes (HbA1c 7.8%) develops stage 3b CKD (eGFR 35). She is on metformin 1000 mg twice daily. What is the most appropriate adjustment?",
+    "option_a": "Stop metformin immediately",
+    "option_b": "Reduce metformin to 1000 mg daily",
+    "option_c": "Continue current dose with frequent monitoring",
+    "option_d": "Switch to glyburide",
+    "correct_answer": "B",
+    "explanation": "Metformin dose should be reduced when eGFR falls below 45 (max 1000mg/day) and stopped when eGFR <30 due to lactic acidosis risk. Glyburide is contraindicated in CKD due to prolonged hypoglycemia from active metabolites."
+  },
+  {
+    "question": "A 72-year-old woman with heart failure (EF 35%) presents with syncope. ECG shows sinus rhythm with no acute changes. She had an episode of sustained monomorphic ventricular tachycardia captured on monitor. What is the most appropriate intervention?",
+    "option_a": "Start amiodarone and observe",
+    "option_b": "Implantable cardioverter-defibrillator (ICD)",
+    "option_c": "Catheter ablation first",
+    "option_d": "Increase beta-blocker dose",
+    "correct_answer": "B",
+    "explanation": "Sustained VT with structural heart disease (EF 35%) is a Class I indication for secondary prevention ICD. Antiarrhythmics alone do not provide survival benefit. Ablation may be considered adjunctively for recurrent VT despite ICD."
+  },
+  {
+    "question": "A 50-year-old man with new diagnosis of community-acquired pneumonia has CURB-65 score of 1 (confusion absent, urea normal, RR 22, BP normal, age 50). SpO2 is 94% on room air. What is the most appropriate disposition?",
+    "option_a": "ICU admission",
+    "option_b": "Hospital ward admission",
+    "option_c": "Outpatient treatment",
+    "option_d": "Observation unit for 24 hours",
+    "correct_answer": "C",
+    "explanation": "CURB-65 score 0-1 indicates low mortality risk, suitable for outpatient treatment with oral antibiotics. Score 2 suggests hospital admission consideration. Score 3-5 indicates severe pneumonia requiring hospitalization or ICU."
+  },
+  {
+    "question": "A 46-year-old woman presents with sudden severe headache, neck stiffness, and photophobia. CT head is negative for hemorrhage. What is the most appropriate next step?",
+    "option_a": "Reassure and discharge with analgesics",
+    "option_b": "Lumbar puncture",
+    "option_c": "MRI brain with contrast",
+    "option_d": "Start empiric antibiotics without LP",
+    "correct_answer": "B",
+    "explanation": "Classic presentation of subarachnoid hemorrhage (thunderclap headache, meningismus). CT misses ~5% of SAH in first 12 hours. Lumbar puncture showing xanthochromia or elevated RBCs not clearing is diagnostic. CTA follows if LP positive."
+  },
+  {
+    "question": "A 63-year-old man with type 2 diabetes and hypertension has urine albumin-to-creatinine ratio of 350 mg/g on two separate occasions. eGFR is 55. He is on lisinopril 20 mg. What additional therapy provides renal protection?",
+    "option_a": "Add amlodipine",
+    "option_b": "Add finerenone",
+    "option_c": "Double the lisinopril dose",
+    "option_d": "Switch lisinopril to ARB",
+    "correct_answer": "B",
+    "explanation": "Finerenone (non-steroidal MRA) in FIDELIO-DKD trial showed significant reduction in CKD progression and cardiovascular events in diabetic nephropathy patients already on ACE/ARB. It's now guideline-recommended adjunctive therapy."
+  },
+  {
+    "question": "A 54-year-old woman presents with dysphagia to solids and liquids equally. Barium swallow shows dilated esophagus with bird-beak narrowing at the LES. Manometry shows absent peristalsis and incomplete LES relaxation. What is the first-line treatment?",
+    "option_a": "Proton pump inhibitor",
+    "option_b": "Pneumatic dilation or Heller myotomy",
+    "option_c": "Botulinum toxin injection",
+    "option_d": "Nifedipine before meals",
+    "correct_answer": "B",
+    "explanation": "Achalasia is best treated with pneumatic dilation or laparoscopic Heller myotomy, both with similar efficacy. Botulinum toxin is reserved for poor surgical candidates (short duration of effect). PPIs don't address the motility disorder."
+  },
+  {
+    "question": "A 68-year-old man on warfarin for mechanical aortic valve presents with INR of 8.5 without bleeding. What is the most appropriate management?",
+    "option_a": "Hold warfarin, give vitamin K 10 mg IV",
+    "option_b": "Hold warfarin, give vitamin K 2.5-5 mg orally",
+    "option_c": "Hold warfarin only, recheck INR in 24-48 hours",
+    "option_d": "Give fresh frozen plasma",
+    "correct_answer": "B",
+    "explanation": "INR >8 without bleeding: hold warfarin and give oral vitamin K (2.5-5mg). IV vitamin K risks anaphylaxis and over-correction. For mechanical valves, avoid over-correction as this increases thrombosis risk. FFP reserved for active bleeding."
+  },
+  {
+    "question": "A 39-year-old woman with Crohn's disease on adalimumab presents with new perianal pain and drainage. Exam shows a fluctuant area lateral to the anus. MRI confirms perianal abscess without fistula. What is the most appropriate management?",
+    "option_a": "Increase adalimumab dose",
+    "option_b": "Incision and drainage plus antibiotics",
+    "option_c": "IV antibiotics alone",
+    "option_d": "Add methotrexate",
+    "correct_answer": "B",
+    "explanation": "Perianal abscess requires surgical drainage regardless of Crohn's disease status. Antibiotics (metronidazole, ciprofloxacin) are adjunctive. After acute infection resolves, reassess for fistula and optimize Crohn's therapy."
+  },
+  {
+    "question": "A 56-year-old man with no cardiac history presents with atypical chest pain. Exercise stress test shows 1 mm horizontal ST depression in leads II, III, aVF at peak exercise, resolving in recovery. Pre-test probability for CAD is intermediate. What is the next step?",
+    "option_a": "Medical management for stable angina",
+    "option_b": "Coronary CT angiography or stress imaging",
+    "option_c": "Immediate cardiac catheterization",
+    "option_d": "Repeat stress test in 6 months",
+    "correct_answer": "B",
+    "explanation": "Intermediate pre-test probability with positive stress ECG warrants further risk stratification with anatomic (CCTA) or functional imaging (stress echo, nuclear). This helps identify candidates for invasive angiography."
+  },
+  {
+    "question": "A 44-year-old woman presents with episodic flushing, diarrhea, and wheezing. She has hepatomegaly. 24-hour urine 5-HIAA is elevated. CT shows liver lesions and a 2-cm ileal mass. Echocardiogram shows tricuspid regurgitation. What is the diagnosis?",
+    "option_a": "Systemic mastocytosis",
+    "option_b": "Carcinoid syndrome",
+    "option_c": "Pheochromocytoma",
+    "option_d": "VIPoma",
+    "correct_answer": "B",
+    "explanation": "Carcinoid syndrome occurs when serotonin from neuroendocrine tumors reaches systemic circulation (hepatic metastases bypass portal metabolism). Classic triad: flushing, diarrhea, right-sided heart disease. Elevated 5-HIAA confirms diagnosis."
+  },
+  {
+    "question": "A 70-year-old woman with osteoporosis on alendronate for 7 years has new mid-thigh pain without trauma. X-ray shows lateral cortical thickening of the femoral shaft. What is the most likely diagnosis?",
+    "option_a": "Metastatic bone disease",
+    "option_b": "Atypical femoral fracture",
+    "option_c": "Osteomalacia",
+    "option_d": "Paget's disease",
+    "correct_answer": "B",
+    "explanation": "Long-term bisphosphonate use (>5 years) is associated with atypical femoral fractures. Prodromal thigh pain and lateral cortical thickening are warning signs. Management: stop bisphosphonate, consider teriparatide, and surgical fixation if complete fracture."
+  },
+  {
+    "question": "A 52-year-old man with diabetes presents with right-sided facial weakness, ear pain, and purulent otorrhea. Exam shows granulation tissue in the external auditory canal. He is afebrile. What is the most appropriate treatment?",
+    "option_a": "Oral amoxicillin-clavulanate for 10 days",
+    "option_b": "IV anti-pseudomonal antibiotics for 6-8 weeks",
+    "option_c": "Topical ciprofloxacin drops only",
+    "option_d": "Urgent mastoidectomy",
+    "correct_answer": "B",
+    "explanation": "Malignant (necrotizing) otitis externa in diabetics is a serious Pseudomonas infection that can invade skull base causing cranial neuropathies. Requires prolonged IV anti-pseudomonal therapy (ciprofloxacin or ceftazidime). Mortality is significant if untreated."
+  },
+  {
+    "question": "A 58-year-old man with alcoholic cirrhosis develops acute confusion. Physical exam shows no asterixis, febrile to 38.5°C, and tender abdomen. Paracentesis shows WBC 800/mm³ with 70% PMNs. Blood cultures are pending. What is the most appropriate empiric antibiotic?",
+    "option_a": "Oral ciprofloxacin",
+    "option_b": "IV ceftriaxone",
+    "option_c": "IV vancomycin plus piperacillin-tazobactam",
+    "option_d": "IV metronidazole",
+    "correct_answer": "B",
+    "explanation": "SBP (ascitic PMN >250/mm³) requires IV third-generation cephalosporin (cefotaxime or ceftriaxone) covering enteric gram-negatives. Broader coverage with vancomycin or piperacillin-tazobactam is reserved for healthcare-associated or recent antibiotic exposure."
+  }
+]
