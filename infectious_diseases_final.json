@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 32-year-old male with HIV (CD4 count 85 cells/mm³) presents with progressive exertional dyspnea, non-productive cough, and low-grade fever. Chest X-ray shows bilateral interstitial infiltrates. What is the first-line treatment for the most likely pathogen?",
+    "option_a": "Ceftriaxone and Azithromycin",
+    "option_b": "Trimethoprim-Sulfamethoxazole (TMP-SMX)",
+    "option_c": "Fluconazole",
+    "option_d": "Ganciclovir",
+    "correct_answer": "B",
+    "explanation": "Pneumocystis jirovecii pneumonia (PCP) is a classic opportunistic infection when CD4 < 200. High-dose TMP-SMX is the preferred treatment."
+  },
+  {
+    "question": "A 65-year-old female is admitted with a high fever, hypotension, and confusion. Her lactate is 4.2 mmol/L. After initial fluid resuscitation of 30 mL/kg, her MAP is 55 mmHg. What is the next immediate step according to Sepsis-3 guidelines?",
+    "option_a": "Administer another 2 liters of saline",
+    "option_b": "Start vasopressors (Norepinephrine) to maintain MAP ≥ 65 mmHg",
+    "option_c": "Wait for blood culture results before acting",
+    "option_d": "Administer intravenous Vitamin C",
+    "correct_answer": "B",
+    "explanation": "Septic shock is defined by persistent hypotension requiring vasopressors to maintain MAP ≥ 65 mmHg and a lactate > 2 mmol/L despite adequate fluid resuscitation."
+  },
+  {
+    "question": "Which of the following antibiotics works by inhibiting the 30S ribosomal subunit?",
+    "option_a": "Penicillin",
+    "option_b": "Gentamicin (Aminoglycoside)",
+    "option_c": "Ciprofloxacin",
+    "option_d": "Vancomycin",
+    "correct_answer": "B",
+    "explanation": "Aminoglycosides and Tetracyclines target the 30S subunit, while Macrolides and Clindamycin target the 50S subunit."
+  },
+  {
+    "question": "A 24-year-old traveler returns from Nigeria with high fever, chills, and headache. Blood smear shows ring-form trophozoites within red blood cells. What is the most appropriate management for suspected P. falciparum infection?",
+    "option_a": "Chloroquine",
+    "option_b": "Artemisinin-based combination therapy (ACT)",
+    "option_c": "Doxycycline alone",
+    "option_d": "Metronidazole",
+    "correct_answer": "B",
+    "explanation": "Due to widespread resistance, ACT is the first-line treatment for uncomplicated P. falciparum malaria worldwide."
+  },
+  {
+    "question": "A patient presents with a painless ulcer (chancre) on the genitals and inguinal lymphadenopathy. Rapid Plasma Reagin (RPR) is positive. What is the treatment of choice?",
+    "option_a": "Ceftriaxone 250mg IM once",
+    "option_b": "Benzathine Penicillin G 2.4 million units IM once",
+    "option_c": "Doxycycline 100mg for 30 days",
+    "option_d": "Azithromycin 2g orally",
+    "correct_answer": "B",
+    "explanation": "Primary syphilis is treated with a single dose of long-acting intramuscular Penicillin G."
+  },
+  {
+    "question": "A 70-year-old hospitalized patient develops profuse watery diarrhea and abdominal cramping 10 days after finishing a course of Clindamycin. What is the most sensitive initial diagnostic test for the suspected pathogen?",
+    "option_a": "Stool culture for Salmonella",
+    "option_b": "C. difficile toxin PCR or Enzyme Immunoassay (EIA)",
+    "option_c": "Abdominal X-ray",
+    "option_d": "Colonoscopy",
+    "correct_answer": "B",
+    "explanation": "Clostridium difficile infection (CDI) is often triggered by antibiotic use. PCR for the toxin gene or EIA for the toxin are standard diagnostic tests."
+  },
+  {
+    "question": "Which of the following is a classic clinical feature of 'Secondary Syphilis'?",
+    "option_a": "Dementia and tabes dorsalis",
+    "option_b": "A diffuse maculopapular rash including the palms and soles",
+    "option_c": "A single painless ulcer",
+    "option_d": "Aortic aneurysm",
+    "correct_answer": "B",
+    "explanation": "Secondary syphilis occurs weeks to months after the chancre heals and typically involves a systemic rash and lymphadenopathy."
+  },
+  {
+    "question": "A patient with suspected pulmonary tuberculosis has a positive sputum smear for Acid-Fast Bacilli (AFB). Which four-drug regimen is standard for initial treatment?",
+    "option_a": "Isoniazid, Rifampin, Penicillin, Ethambutol",
+    "option_b": "Isoniazid, Rifampin, Pyrazinamide, Ethambutol",
+    "option_c": "Rifampin, Streptomycin, Doxycycline, Ciprofloxacin",
+    "option_d": "Isoniazid, Ethambutol, Levofloxacin, Amikacin",
+    "correct_answer": "B",
+    "explanation": "The standard RIPE regimen is used for the 2-month intensive phase of TB treatment."
+  },
+  {
+    "question": "A 19-year-old student presents with fever, sore throat, and significant posterior cervical lymphadenopathy. A Monospot test is positive. What complication should he be warned about?",
+    "option_a": "Acute renal failure",
+    "option_b": "Splenic rupture (avoid contact sports)",
+    "option_c": "Permanent hearing loss",
+    "option_d": "Vision loss",
+    "correct_answer": "B",
+    "explanation": "Infectious mononucleosis (EBV) often causes splenomegaly, increasing the risk of traumatic rupture during the acute phase."
+  },
+  {
+    "question": "Which of the following antifungal agents works by binding to ergosterol and forming pores in the fungal cell membrane?",
+    "option_a": "Fluconazole",
+    "option_b": "Amphotericin B",
+    "option_c": "Caspofungin",
+    "option_d": "Terbinafine",
+    "correct_answer": "B",
+    "explanation": "Polyenes (Amphotericin B, Nystatin) bind ergosterol, while Azoles (Fluconazole) inhibit its synthesis."
+  },
+  {
+    "question": "A 25-year-old female presents with dysuria and frequency. Urine culture grows E. coli (>10^5 CFU/mL) sensitive to all agents. She is not pregnant and has no systemic symptoms. What is the most appropriate short-course treatment?",
+    "option_a": "Ciprofloxacin for 7 days",
+    "option_b": "Nitrofurantoin for 5 days or Fosfomycin (single dose)",
+    "option_c": "Intravenous Ceftriaxone",
+    "option_d": "Amoxicillin for 10 days",
+    "correct_answer": "B",
+    "explanation": "For uncomplicated cystitis, Nitrofurantoin or Fosfomycin are first-line to preserve fluoroquinolones for more serious infections."
+  },
+  {
+    "question": "What is the primary mechanism of resistance in Methicillin-resistant Staphylococcus aureus (MRSA)?",
+    "option_a": "Production of beta-lactamase enzyme",
+    "option_b": "Alteration of the penicillin-binding protein (PBP2a)",
+    "option_c": "Efflux pumps",
+    "option_d": "Thickening of the cell wall",
+    "correct_answer": "B",
+    "explanation": "The mecA gene encodes PBP2a, which has low affinity for almost all beta-lactam antibiotics."
+  },
+  {
+    "question": "A 50-year-old male with a history of alcohol use disorder presents with high fever, 'currant jelly' sputum, and a right upper lobe infiltrate on X-ray. Pathogen?",
+    "option_a": "Mycoplasma pneumoniae",
+    "option_b": "Klebsiella pneumoniae",
+    "option_c": "Streptococcus pneumoniae",
+    "option_d": "Legionella pneumophila",
+    "correct_answer": "B",
+    "explanation": "Klebsiella is a common cause of severe necrotizing pneumonia in debilitated patients, often characterized by thick, bloody (currant jelly) sputum."
+  },
+  {
+    "question": "Which of the following is the preferred screening test for chronic Hepatitis C infection?",
+    "option_a": "HCV RNA by PCR",
+    "option_b": "HCV Antibody (anti-HCV)",
+    "option_c": "Liver biopsy",
+    "option_d": "ALT/AST levels",
+    "correct_answer": "B",
+    "explanation": "Screening begins with the antibody; if positive, an HCV RNA test is performed to confirm current active infection."
+  },
+  {
+    "question": "A patient with bacterial meningitis is started on Ceftriaxone and Vancomycin. Why should Dexamethasone be administered before or with the first dose of antibiotics?",
+    "option_a": "To treat underlying adrenal insufficiency",
+    "option_b": "To reduce the inflammatory response to bacterial lysis, decreasing neurological complications (e.g., deafness)",
+    "option_c": "To increase the penetration of antibiotics into the CSF",
+    "option_d": "To prevent an allergic reaction to Vancomycin",
+    "correct_answer": "B",
+    "explanation": "Steroids reduce meningeal inflammation triggered by antibiotic-induced bacterial death, particularly in S. pneumoniae meningitis."
+  },
+  {
+    "question": "A 30-year-old hiker in Connecticut presents with a 'bull's-eye' rash (erythema migrans), fatigue, and joint aches. What is the first-line treatment?",
+    "option_a": "Azithromycin",
+    "option_b": "Doxycycline",
+    "option_c": "Penicillin V",
+    "option_d": "Vancomycin",
+    "correct_answer": "B",
+    "explanation": "Doxycycline is the standard treatment for early localized Lyme disease."
+  },
+  {
+    "question": "Which type of 'Herpes' virus is the most common cause of sporadic viral encephalitis in adults, usually involving the temporal lobes?",
+    "option_a": "Varicella-Zoster Virus (VZV)",
+    "option_b": "Herpes Simplex Virus-1 (HSV-1)",
+    "option_c": "Cytomegalovirus (CMV)",
+    "option_d": "Epstein-Barr Virus (EBV)",
+    "correct_answer": "B",
+    "explanation": "HSV-1 encephalitis is a medical emergency requiring prompt acyclovir therapy to prevent severe brain damage."
+  },
+  {
+    "question": "A patient with neutropenia (Absolute Neutrophil Count < 500) develops a fever. Which of the following is the most important immediate action?",
+    "option_a": "Wait for blood cultures before starting antibiotics",
+    "option_b": "Empiric broad-spectrum anti-pseudomonal antibiotics (e.g., Cefepime or Piperacillin-Tazobactam)",
+    "option_c": "Give oral Acetaminophen and reassess in 4 hours",
+    "option_d": "Start oral Amoxicillin",
+    "correct_answer": "B",
+    "explanation": "Febrile neutropenia is an emergency; prompt IV antibiotics covering Pseudomonas and other gram-negatives are mandatory."
+  },
+  {
+    "question": "Which of the following is true regarding 'Herpes Zoster' (Shingles)?",
+    "option_a": "It is caused by a primary infection with HSV-2",
+    "option_b": "It is due to the reactivation of latent Varicella-Zoster Virus in the sensory ganglia",
+    "option_c": "It always crosses the midline",
+    "option_d": "It is not contagious to people who haven't had chickenpox",
+    "correct_answer": "B",
+    "explanation": "Shingles is a dermatomal reactivation of the chickenpox virus."
+  },
+  {
+    "question": "A 40-year-old IV drug user presents with fever and a new heart murmur. Transthoracic echo shows a 1cm vegetation on the tricuspid valve. Pathogen?",
+    "option_a": "Viridans group streptococci",
+    "option_b": "Staphylococcus aureus",
+    "option_c": "Streptococcus bovis",
+    "option_d": "Coxiella burnetii",
+    "correct_answer": "B",
+    "explanation": "S. aureus is the most common cause of acute endocarditis, especially involving the right side of the heart in IV drug users."
+  },
+  {
+    "question": "What is the drug of choice for treating 'Giardiasis' (foul-smelling, fatty diarrhea after drinking stream water)?",
+    "option_a": "Ciprofloxacin",
+    "option_b": "Metronidazole (or Tinidazole)",
+    "option_c": "Albendazole",
+    "option_d": "Doxycycline",
+    "correct_answer": "B",
+    "explanation": "Metronidazole effectively targets the Giardia lamblia trophozoites."
+  },
+  {
+    "question": "A patient with a history of rheumatic heart disease undergoes a dental extraction. He later develops subacute endocarditis. Which organism is most likely responsible?",
+    "option_a": "Staphylococcus epidermidis",
+    "option_b": "Viridans group streptococci",
+    "option_c": "Enterococcus faecalis",
+    "option_d": "E. coli",
+    "correct_answer": "B",
+    "explanation": "Viridans strep (like S. mutans) are normal oral flora and a leading cause of subacute endocarditis on previously damaged valves."
+  },
+  {
+    "question": "Which of the following is the 'gold standard' for the diagnosis of Malaria?",
+    "option_a": "Rapid Diagnostic Test (RDT)",
+    "option_b": "Thick and thin blood smears with Giemsa stain",
+    "option_c": "PCR for Plasmodium DNA",
+    "option_d": "Antibody titers",
+    "correct_answer": "B",
+    "explanation": "Microscopy allows for both the identification of the species and the calculation of the parasite density."
+  },
+  {
+    "question": "What is the primary risk of using 'Vancomycin' that requires monitoring of serum trough levels?",
+    "option_a": "Liver failure",
+    "option_b": "Nephrotoxicity (kidney damage)",
+    "option_c": "Seizures",
+    "option_d": "Tendon rupture",
+    "correct_answer": "B",
+    "explanation": "Vancomycin can be nephrotoxic, especially when combined with other agents like aminoglycosides or Piperacillin-Tazobactam."
+  },
+  {
+    "question": "A 20-year-old female presents with high fever, hypotension, a diffuse 'sunburn-like' rash, and multi-organ involvement during her menstrual period. Diagnosis?",
+    "option_a": "Scarlet fever",
+    "option_b": "Toxic Shock Syndrome (TSS)",
+    "option_c": "Meningococcemia",
+    "option_d": "Leptospirosis",
+    "correct_answer": "B",
+    "explanation": "Staphylococcal TSS is caused by the TSST-1 superantigen, often associated with tampon use."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Botulism' poisoning?",
+    "option_a": "Spastic paralysis and lockjaw",
+    "option_b": "Descending flaccid paralysis and diplopia (double vision)",
+    "option_c": "High fever and rash",
+    "option_d": "Ascending muscle weakness",
+    "correct_answer": "B",
+    "explanation": "Botulinum toxin prevents acetylcholine release, leading to a symmetric descending paralysis starting with the cranial nerves."
+  },
+  {
+    "question": "A patient with 'Cat Scratch Disease' (Bartonella henselae) typically presents with:",
+    "option_a": "Profound diarrhea",
+    "option_b": "Regional lymphadenopathy and a small papule at the site of the scratch",
+    "option_c": "Generalized seizures",
+    "option_d": "Jaundice",
+    "correct_answer": "B",
+    "explanation": "Bartonella causes a localized infection of the skin and draining lymph nodes."
+  },
+  {
+    "question": "Which of the following drugs is the first-line treatment for 'Rocky Mountain Spotted Fever' in both adults and children?",
+    "option_a": "Amoxicillin",
+    "option_b": "Doxycycline",
+    "option_c": "Chloramphenicol",
+    "option_d": "Ciprofloxacin",
+    "correct_answer": "B",
+    "explanation": "Doxycycline is mandatory for RMSF regardless of age, as the benefits far outweigh the risks of tooth staining in children."
+  },
+  {
+    "question": "What is the characteristic appearance of 'Cryptococcus neoformans' on an India Ink stain of CSF?",
+    "option_a": "Gram-negative rods",
+    "option_b": "Encapsulated yeast with a clear halo",
+    "option_c": "Hyphae with 45-degree branching",
+    "option_d": "Intracellular gram-positive cocci",
+    "correct_answer": "B",
+    "explanation": "The large polysaccharide capsule of Cryptococcus does not take up the ink, creating a visible halo."
+  },
+  {
+    "question": "A patient on 'Ethambutol' for tuberculosis treatment should have regular monitoring for which side effect?",
+    "option_a": "Peripheral neuropathy",
+    "option_b": "Optic neuritis (decreased visual acuity/red-green color blindness)",
+    "option_c": "Hepatotoxicity",
+    "option_d": "Hyperuricemia",
+    "correct_answer": "B",
+    "explanation": "Ethambutol's primary toxicity is ocular; Pyrazinamide causes hyperuricemia, and Isoniazid causes neuropathy."
+  },
+  {
+    "question": "Which of the following is true for 'Leptospirosis'?",
+    "option_a": "It is transmitted by mosquito bites",
+    "option_b": "It is transmitted through contact with water contaminated by infected animal urine (e.g., rats, dogs)",
+    "option_c": "It is a viral infection",
+    "option_d": "It only affects the lungs",
+    "correct_answer": "B",
+    "explanation": "Leptospira is a spirochete that can lead to Weil's disease (jaundice, renal failure, hemorrhage)."
+  },
+  {
+    "question": "What is the standard preventive treatment for someone exposed to 'Rabies' who has never been vaccinated?",
+    "option_a": "A 10-day course of antibiotics",
+    "option_b": "Rabies vaccine series and Rabies Immune Globulin (RIG) at the site of the wound",
+    "option_c": "Wait for symptoms to appear before treating",
+    "option_d": "Vitamin C injections",
+    "correct_answer": "B",
+    "explanation": "Post-exposure prophylaxis (PEP) must be started immediately, as rabies is virtually 100% fatal once symptoms begin."
+  },
+  {
+    "question": "Which antibiotic is known for causing 'Red Man Syndrome' if infused too rapidly?",
+    "option_a": "Penicillin",
+    "option_b": "Vancomycin",
+    "option_c": "Ceftriaxone",
+    "option_d": "Doxycycline",
+    "correct_answer": "B",
+    "explanation": "Red Man Syndrome is a non-immunologic histamine release triggered by rapid vancomycin infusion; it is managed by slowing the rate."
+  },
+  {
+    "question": "A patient presents with 'rice water' diarrhea and severe dehydration after eating raw shellfish. Pathogen?",
+    "option_a": "Salmonella typhi",
+    "option_b": "Vibrio cholerae",
+    "option_c": "Shigella dysenteriae",
+    "option_d": "Campylobacter jejuni",
+    "correct_answer": "B",
+    "explanation": "The cholera toxin causes massive secretory diarrhea, leading to rapid and fatal dehydration if not replaced with fluids."
+  },
+  {
+    "question": "Which of the following describes 'Osteomyelitis' following a puncture wound through a sneakers sole?",
+    "option_a": "Staphylococcus aureus is the only cause",
+    "option_b": "Pseudomonas aeruginosa is a common and unique pathogen",
+    "option_c": "It is always viral",
+    "option_d": "It does not require treatment",
+    "correct_answer": "B",
+    "explanation": "The moist environment within sneakers can harbor Pseudomonas, which is then inoculated deep into the bone during a puncture."
+  },
+  {
+    "question": "What is the significance of the 'HACEK' group of organisms?",
+    "option_a": "They cause typical pneumonia",
+    "option_b": "They are fastidious gram-negative bacteria that cause culture-negative endocarditis",
+    "option_c": "They are the main causes of UTIs",
+    "option_d": "They are resistant to all antibiotics",
+    "correct_answer": "B",
+    "explanation": "HACEK (Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella) require special media and long incubation to grow."
+  },
+  {
+    "question": "A 25-year-old male presents with 'swollen joints', 'conjunctivitis', and 'urethritis' (Reiter's syndrome). Which infection often precedes this?",
+    "option_a": "Hepatitis B",
+    "option_b": "Chlamydia trachomatis or enteric infections (e.g., Salmonella)",
+    "option_c": "Streptococcus pyogenes",
+    "option_d": "Influenza",
+    "correct_answer": "B",
+    "explanation": "Reactive arthritis follows certain urogenital or gastrointestinal infections."
+  },
+  {
+    "question": "Which of the following is true regarding 'Latent TB Infection' (LTBI)?",
+    "option_a": "The patient is contagious and has a cough",
+    "option_b": "The patient has no symptoms and is not contagious, but has a positive skin/blood test",
+    "option_c": "The chest X-ray shows active cavities",
+    "option_d": "Treatment is not required",
+    "correct_answer": "B",
+    "explanation": "LTBI treatment (e.g., with Isoniazid or Rifampin) is used to prevent the development of active, contagious disease."
+  },
+  {
+    "question": "What is the hallmark finding of 'Dengue Fever' ('Breakbone Fever') in the acute phase?",
+    "option_a": "Profound leukocytosis",
+    "option_b": "Severe bone/joint pain and thrombocytopenia",
+    "option_c": "Chronic fatigue for years",
+    "option_d": "Cerebral edema",
+    "correct_answer": "B",
+    "explanation": "Dengue is a flavivirus transmitted by Aedes mosquitoes, characterized by intense pain and risk of hemorrhagic fever."
+  },
+  {
+    "question": "A patient with 'Aspergilloma' (fungal ball) will typically show what finding on a chest CT?",
+    "option_a": "Diffuse ground glass opacities",
+    "option_b": "A solid mass within a pre-existing lung cavity with an 'air crescent' sign",
+    "option_c": "Large pleural effusion",
+    "option_d": "Atelectasis of the lower lobe",
+    "correct_answer": "B",
+    "explanation": "Aspergillus colonizes old TB or sarcoid cavities, forming a mobile mass of hyphae."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Necrotizing Fasciitis' (Type II)?",
+    "option_a": "Group A Streptococcus (S. pyogenes)",
+    "option_b": "E. coli",
+    "option_c": "Clostridium perfringens",
+    "option_d": "Bacteroides fragilis",
+    "correct_answer": "A",
+    "explanation": "Monomicrobial necrotizing fasciitis is most frequently caused by the 'flesh-eating' Group A Strep."
+  },
+  {
+    "question": "What is the primary medication for 'Toxoplasmosis' in an immunocompromised patient?",
+    "option_a": "Metronidazole",
+    "option_b": "Pyrimethamine and Sulfadiazine (plus Leucovorin)",
+    "option_c": "Fluconazole",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "This combination targets the folate synthesis of the parasite."
+  },
+  {
+    "question": "A 40-year-old male presents with 'painless' jaundice and dark urine. He recently returned from a 1-month trip to rural India where he ate local food. Diagnosis?",
+    "option_a": "Hepatitis B",
+    "option_b": "Hepatitis A or E",
+    "option_c": "Alcoholic hepatitis",
+    "option_d": "Autoimmune hepatitis",
+    "correct_answer": "B",
+    "explanation": "Hepatitis A and E are transmitted via the fecal-oral route and are common in areas with poor sanitation."
+  },
+  {
+    "question": "Which of the following is true for 'Gonorrhea' treatment according to the latest guidelines?",
+    "option_a": "Ciprofloxacin 500mg once",
+    "option_b": "Ceftriaxone 500mg IM (single dose)",
+    "option_c": "Amoxicillin for 7 days",
+    "option_d": "Penicillin G",
+    "correct_answer": "B",
+    "explanation": "Due to high resistance levels, high-dose Ceftriaxone monotherapy is now the standard for uncomplicated gonorrhea."
+  },
+  {
+    "question": "A patient with 'Splenectomy' should be vaccinated against which group of organisms?",
+    "option_a": "Gram-negative rods",
+    "option_b": "Encapsulated bacteria (S. pneumoniae, H. influenzae, N. meningitidis)",
+    "option_c": "Viruses only",
+    "option_d": "Fungi",
+    "correct_answer": "B",
+    "explanation": "The spleen is essential for clearing opsonized encapsulated bacteria from the bloodstream."
+  },
+  {
+    "question": "What is the mechanism of action of 'Acyclovir'?",
+    "option_a": "Inhibition of cell wall synthesis",
+    "option_b": "Inhibition of viral DNA polymerase (via thymidine kinase activation)",
+    "option_c": "RNA cleavage",
+    "option_d": "Blocking viral entry",
+    "correct_answer": "B",
+    "explanation": "Acyclovir is a prodrug that is only activated by viral enzymes, making it highly specific for infected cells."
+  },
+  {
+    "question": "A patient presents with 'night sweats', 'weight loss', and 'hemoptysis'. What is the most important infection control measure?",
+    "option_a": "Standard precautions",
+    "option_b": "Airborne precautions (Negative pressure room and N95 mask)",
+    "option_c": "Droplet precautions (Surgical mask)",
+    "option_d": "Contact precautions",
+    "correct_answer": "B",
+    "explanation": "Tuberculosis is transmitted via tiny aerosolized droplets that remain suspended in the air."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Community-Acquired Pneumonia'?",
+    "option_a": "Mycoplasma pneumoniae",
+    "option_b": "Streptococcus pneumoniae",
+    "option_c": "Haemophilus influenzae",
+    "option_d": "Legionella",
+    "correct_answer": "B",
+    "explanation": "S. pneumoniae (pneumococcus) remains the most frequent pathogen in CAP."
+  },
+  {
+    "question": "What is the specific antidote for 'Isoniazid'-induced seizures or neurotoxicity?",
+    "option_a": "Thiamine",
+    "option_b": "Pyridoxine (Vitamin B6)",
+    "option_c": "Folic acid",
+    "option_d": "Naloxone",
+    "correct_answer": "B",
+    "explanation": "Isoniazid depletes B6, which is a cofactor for the synthesis of GABA; replacing B6 restores GABA levels."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Listeriosis' in a pregnant woman?",
+    "option_a": "Severe pneumonia",
+    "option_b": "Flu-like illness that can lead to fetal loss or neonatal meningitis",
+    "option_c": "Intense itching",
+    "option_d": "Blindness",
+    "correct_answer": "B",
+    "explanation": "Listeria is a foodborne pathogen found in unpasteurized dairy and deli meats."
+  }
+]
