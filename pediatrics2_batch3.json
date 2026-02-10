@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 2-day-old neonate presents with progressive cyanosis that does not improve with supplemental oxygen (failed hyperoxic test). A chest X-ray shows a narrow mediastinum and a globular heart, often described as an 'egg-on-a-string'. What is the most likely diagnosis?",
+    "option_a": "Tetralogy of Fallot",
+    "option_b": "Transposition of the Great Arteries (TGA)",
+    "option_c": "Total Anomalous Pulmonary Venous Return (TAPVR)",
+    "option_d": "Tricuspid Atresia",
+    "correct_answer": "B",
+    "explanation": "TGA is the most common cyanotic heart defect presenting in the immediate newborn period. The 'egg-on-a-string' appearance is due to the narrow thymus/mediastinum and the parallel arrangement of the great vessels."
+  },
+  {
+    "question": "A 4-week-old male infant presents with non-bilious, projectile vomiting after every feeding. On physical exam, a small, firm, mobile mass is palpable in the right epigastrium. What electrolyte abnormality is most expected?",
+    "option_a": "Hyperchloremic metabolic acidosis",
+    "option_b": "Hypochloremic, hypokalemic metabolic alkalosis",
+    "option_c": "Hyponatremic metabolic acidosis",
+    "option_d": "Hyperkalemic metabolic alkalosis",
+    "correct_answer": "B",
+    "explanation": "Hypertrophic Pyloric Stenosis causes loss of gastric hydrochloric acid and potassium through vomiting, leading to a classic metabolic alkalosis with paradoxical aciduria."
+  },
+  {
+    "question": "A 5-year-old boy presents with periorbital edema, tea-colored urine, and a blood pressure of 140/90 mmHg. He had a sore throat two weeks ago that resolved without treatment. What is the most likely finding on laboratory evaluation?",
+    "option_a": "Elevated serum C3 and C4",
+    "option_b": "Low serum C3 and elevated Antistreptolysin O (ASO) titer",
+    "option_c": "Normal C3 and high IgA levels",
+    "option_d": "Positive ANCA antibodies",
+    "correct_answer": "B",
+    "explanation": "Post-streptococcal glomerulonephritis (PSGN) follows a group A strep infection. Low C3 levels reflect the activation of the alternative complement pathway."
+  },
+  {
+    "question": "Which of the following is the most common 'malignant' abdominal tumor in a 3-year-old child, typically presenting as a smooth, firm mass that does NOT cross the midline?",
+    "option_a": "Neuroblastoma",
+    "option_b": "Wilms Tumor (Nephroblastoma)",
+    "option_c": "Hepatoblastoma",
+    "option_d": "Teratoma",
+    "correct_answer": "B",
+    "explanation": "Wilms tumor is the most common renal malignancy in children. Unlike neuroblastoma, it is usually intra-renal and rarely crosses the midline."
+  },
+  {
+    "question": "A 10-month-old infant is brought to the ER with paroxysms of severe abdominal pain where he draws his knees to his chest. Between episodes, he is lethargic. A 'currant jelly' stool is noted. What is the first-line diagnostic and therapeutic step?",
+    "option_a": "Abdominal CT scan",
+    "option_b": "Air or Contrast Enema (Intussusception reduction)",
+    "option_c": "Immediate exploratory laparotomy",
+    "option_d": "Oral rehydration and observation",
+    "correct_answer": "B",
+    "explanation": "Intussusception is the telescoping of the bowel. Radiologic reduction (air or hydrostatic) is both diagnostic ('target sign' on US) and therapeutic in stable patients."
+  },
+  {
+    "question": "Which of the following is an absolute requirement for the diagnosis of 'Minimal Change Disease' in a child with nephrotic syndrome?",
+    "option_a": "Macroscopic hematuria",
+    "option_b": "Effacement of podocyte foot processes on electron microscopy",
+    "option_c": "Thickening of the glomerular basement membrane",
+    "option_d": "Presence of IgG deposits on immunofluorescence",
+    "correct_answer": "B",
+    "explanation": "Minimal Change Disease (MCD) appears normal under light microscopy but shows foot process effacement under electron microscopy."
+  },
+  {
+    "question": "A neonate born at 31 weeks gestation develops tachypnea, grunting, and nasal flaring shortly after birth. Chest X-ray shows diffuse ground-glass opacities and air bronchograms. What is the primary cause?",
+    "option_a": "Infection with Group B Streptococcus",
+    "option_b": "Surfactant deficiency (Respiratory Distress Syndrome)",
+    "option_c": "Meconium aspiration",
+    "option_d": "Congenital diaphragmatic hernia",
+    "correct_answer": "B",
+    "explanation": "RDS is common in premature infants due to lack of surfactant, which increases surface tension and leads to alveolar collapse."
+  },
+  {
+    "question": "A 4-year-old girl with a high fever for 6 days presents with bilateral non-exudative conjunctivitis, 'strawberry tongue', and edema of the hands. What is the most important complication to screen for?",
+    "option_a": "Acute renal failure",
+    "option_b": "Coronary artery aneurysms",
+    "option_c": "Splenic rupture",
+    "option_d": "Hearing loss",
+    "correct_answer": "B",
+    "explanation": "These are clinical features of Kawasaki Disease, a vasculitis where coronary artery involvement is the most critical and potentially life-threatening complication."
+  },
+  {
+    "question": "Which of the following is the most common type of leukemia in the pediatric population?",
+    "option_a": "Acute Myeloid Leukemia (AML)",
+    "option_b": "Acute Lymphoblastic Leukemia (ALL)",
+    "option_c": "Chronic Myeloid Leukemia (CML)",
+    "option_d": "Juvenile Myelomonocytic Leukemia (JMML)",
+    "correct_answer": "B",
+    "explanation": "ALL accounts for approximately 75-80% of all pediatric leukemia cases, with a peak incidence between ages 2 and 5."
+  },
+  {
+    "question": "A newborn with Down Syndrome presents with bilious vomiting and a 'Double Bubble' sign on abdominal X-ray. What is the most likely diagnosis?",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Duodenal Atresia",
+    "option_c": "Malrotation with Volvulus",
+    "option_d": "Hirschsprung disease",
+    "correct_answer": "B",
+    "explanation": "Duodenal atresia is strongly associated with Trisomy 21 and results in a classic 'double bubble' representing the stomach and the proximal duodenum."
+  },
+  {
+    "question": "In a child with suspected 'Cystic Fibrosis', which sweat chloride result is considered diagnostic?",
+    "option_a": "< 20 mEq/L",
+    "option_b": "> 60 mEq/L",
+    "option_c": "Exactly 40 mEq/L",
+    "option_d": "Any level above 10 mEq/L",
+    "correct_answer": "B",
+    "explanation": "A sweat chloride concentration of 60 mEq/L or greater on two separate occasions is diagnostic for Cystic Fibrosis."
+  },
+  {
+    "question": "Which chromosome is affected in 'Turner Syndrome', and what is the typical karyotype?",
+    "option_a": "Trisomy 21 (47,XX+21)",
+    "option_b": "Monosomy X (45,X)",
+    "option_c": "47,XXY",
+    "option_d": "47,XYY",
+    "correct_answer": "B",
+    "explanation": "Turner syndrome affects females and involves the partial or complete absence of the second X chromosome."
+  },
+  {
+    "question": "A 14-year-old boy presents with progressive pain in his distal femur that is worse at night. X-ray shows a 'sunburst' periosteal reaction and a Codman triangle. Diagnosis?",
+    "option_a": "Ewing sarcoma",
+    "option_b": "Osteosarcoma",
+    "option_c": "Osteoid osteoma",
+    "option_d": "Osteomyelitis",
+    "correct_answer": "B",
+    "explanation": "Osteosarcoma is the most common primary bone malignancy in adolescents, classically showing the sunburst pattern on imaging."
+  },
+  {
+    "question": "Which of the following is true regarding 'Simple Febrile Seizures'?",
+    "option_a": "They last longer than 15 minutes",
+    "option_b": "They are generalized and occur once in a 24-hour period",
+    "option_c": "They require long-term anti-epileptic therapy",
+    "option_d": "They are always focal",
+    "correct_answer": "B",
+    "explanation": "Simple febrile seizures are benign, generalized seizures associated with a fever in children ages 6 months to 5 years, with a short duration and no recurrence within the same illness."
+  },
+  {
+    "question": "A 3-year-old child presents with a 'barking' cough and inspiratory stridor. Neck X-ray shows subglottic narrowing (Steeple Sign). Diagnosis?",
+    "option_a": "Epiglottitis",
+    "option_b": "Croup (Laryngotracheobronchitis)",
+    "option_c": "Foreign body aspiration",
+    "option_d": "Bacterial tracheitis",
+    "correct_answer": "B",
+    "explanation": "Croup is most commonly caused by parainfluenza virus and presents with a seal-like bark and the classic steeple sign."
+  },
+  {
+    "question": "A neonate with 'Ambiguous Genitalia' is found to have hyponatremia, hyperkalemia, and low blood pressure (salt-wasting crisis). What is the most likely enzyme deficiency?",
+    "option_a": "11-beta-hydroxylase",
+    "option_b": "21-hydroxylase",
+    "option_c": "17-alpha-hydroxylase",
+    "option_d": "Aromatase",
+    "correct_answer": "B",
+    "explanation": "21-hydroxylase deficiency is the most common cause of Congenital Adrenal Hyperplasia (CAH), causing mineralocorticoid deficiency and androgen excess."
+  },
+  {
+    "question": "What is the most common congenital heart defect worldwide?",
+    "option_a": "Atrial Septal Defect (ASD)",
+    "option_b": "Ventricular Septal Defect (VSD)",
+    "option_c": "Patent Ductus Arteriosus (PDA)",
+    "option_d": "Coarctation of the Aorta",
+    "correct_answer": "B",
+    "explanation": "VSD is the most frequent congenital cardiac malformation, though many small ones close spontaneously."
+  },
+  {
+    "question": "A 6-year-old child with a recent viral illness presents with a purpuric rash on the lower extremities, abdominal pain, and arthritis. Platelet count is normal. Diagnosis?",
+    "option_a": "Immune Thrombocytopenic Purpura (ITP)",
+    "option_b": "Henoch-Schönlein Purpura (HSP)",
+    "option_c": "Hemolytic Uremic Syndrome (HUS)",
+    "option_d": "Kawasaki Disease",
+    "correct_answer": "B",
+    "explanation": "HSP is an IgA-mediated vasculitis. The key differentiator from ITP is the normal platelet count and the associated systemic symptoms."
+  },
+  {
+    "question": "A patient with 'Sickle Cell Anemia' develops a sudden drop in hemoglobin and a very low reticulocyte count following a Parvovirus B19 infection. This is known as:",
+    "option_a": "Vaso-occlusive crisis",
+    "option_b": "Aplastic crisis",
+    "option_c": "Splenic sequestration crisis",
+    "option_d": "Hyperhemolytic crisis",
+    "correct_answer": "B",
+    "explanation": "Parvovirus B19 infects erythroid precursors; in patients with short RBC lifespans like Sickle Cell, this leads to a temporary but life-threatening cessation of red cell production."
+  },
+  {
+    "question": "Which of the following describes the characteristic 'Machinery-like' murmur of a Patent Ductus Arteriosus (PDA)?",
+    "option_a": "Holosystolic murmur at the left lower sternal border",
+    "option_b": "Continuous murmur heard best at the left infraclavicular area",
+    "option_c": "Ejection systolic murmur with a fixed split S2",
+    "option_d": "Diastolic rumbling murmur at the apex",
+    "correct_answer": "B",
+    "explanation": "The PDA connects the aorta and pulmonary artery, maintaining a pressure gradient throughout both systole and diastole."
+  },
+  {
+    "question": "A 2-year-old child who has not yet begun to walk and uses Gower's maneuver to stand up most likely has:",
+    "option_a": "Cerebral Palsy",
+    "option_b": "Duchenne Muscular Dystrophy",
+    "option_c": "Down Syndrome",
+    "option_d": "Spinal Muscular Atrophy",
+    "correct_answer": "B",
+    "explanation": "Gower's sign (using hands to 'walk up' the legs) indicates proximal muscle weakness, characteristic of Duchenne's."
+  },
+  {
+    "question": "At what age should a healthy infant typically be able to sit without support?",
+    "option_a": "2 months",
+    "option_b": "6 months",
+    "option_c": "10 months",
+    "option_d": "12 months",
+    "correct_answer": "B",
+    "explanation": "Sitting unsupported is a major 6-month gross motor milestone."
+  },
+  {
+    "question": "A 15-year-old female presents with primary amenorrhea, short stature, and a webbed neck. What is the expected cardiac finding?",
+    "option_a": "Tetralogy of Fallot",
+    "option_b": "Coarctation of the Aorta (or Bicuspid Aortic Valve)",
+    "option_c": "Ebstein's anomaly",
+    "option_d": "Mitral valve prolapse",
+    "correct_answer": "B",
+    "explanation": "Coarctation of the aorta is found in about 10-20% of patients with Turner syndrome."
+  },
+  {
+    "question": "Which of the following is true regarding 'Neuroblastoma'?",
+    "option_a": "It often originates in the kidney",
+    "option_b": "It is a neural crest tumor that frequently crosses the midline and causes opsoclonus-myoclonus syndrome",
+    "option_c": "It is easily cured with surgery alone in all cases",
+    "option_d": "It only occurs in children over 10",
+    "correct_answer": "B",
+    "explanation": "Neuroblastoma is the most common extracranial solid tumor of childhood and often arises in the adrenal medulla."
+  },
+  {
+    "question": "A neonate with failure to pass meconium within 48 hours and a 'squirt sign' on digital rectal exam should be evaluated for:",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Hirschsprung Disease",
+    "option_c": "Duodenal atresia",
+    "option_d": "Intussusception",
+    "correct_answer": "B",
+    "explanation": "Hirschsprung is caused by aganglionosis of the distal colon, leading to a functional obstruction."
+  },
+  {
+    "question": "What is the primary treatment for a 'PDA' in a premature infant with respiratory distress?",
+    "option_a": "Prostaglandin E1",
+    "option_b": "Indomethacin or Ibuprofen (NSAIDs)",
+    "option_c": "Digoxin",
+    "option_d": "Epinephrine",
+    "correct_answer": "B",
+    "explanation": "NSAIDs inhibit prostaglandin synthesis, which promotes the closure of the ductus arteriosus."
+  },
+  {
+    "question": "A 4-year-old presents with fever, sore throat, and a 'muffled voice'. On exam, he is drooling and sitting in a 'tripod' position. What is the most appropriate next step?",
+    "option_a": "Examine the throat with a tongue depressor",
+    "option_b": "Urgent consultation for airway management in the Operating Room",
+    "option_c": "Start oral antibiotics",
+    "option_d": "Obtain a neck X-ray and wait for results",
+    "correct_answer": "B",
+    "explanation": "This is a classic presentation of Epiglottitis. Direct examination can trigger laryngospasm; airway protection is the priority."
+  },
+  {
+    "question": "A 7-year-old child presents with polyuria, polydipsia, and weight loss. Fingerstick glucose is 450 mg/dL. What is the most likely pathogenesis?",
+    "option_a": "Insulin resistance due to obesity",
+    "option_b": "Autoimmune destruction of pancreatic beta cells",
+    "option_c": "Excessive cortisol production",
+    "option_d": "Pituitary deficiency",
+    "correct_answer": "B",
+    "explanation": "This is Type 1 Diabetes Mellitus, the most common form of diabetes in children."
+  },
+  {
+    "question": "Which of the following findings on a peripheral blood smear is classic for 'Sickle Cell Disease' in a patient with functional asplenia?",
+    "option_a": "Target cells and Howell-Jolly bodies",
+    "option_b": "Schistocytes",
+    "option_c": "Spherocytes",
+    "option_d": "Bite cells",
+    "correct_answer": "A",
+    "explanation": "Howell-Jolly bodies are nuclear remnants normally removed by the spleen; their presence indicates the spleen is not functioning."
+  },
+  {
+    "question": "A newborn is noted to have 'sun-setting' eyes, an enlarged head circumference, and a bulging fontanelle. Diagnosis?",
+    "option_a": "Down Syndrome",
+    "option_b": "Hydrocephalus",
+    "option_c": "Microcephaly",
+    "option_d": "Craniosynostosis",
+    "correct_answer": "B",
+    "explanation": "Increased intracranial pressure in an infant causes the 'sun-setting' eye sign (downward deviation of the eyes)."
+  },
+  {
+    "question": "What is the primary medication used for the maintenance treatment of 'Nephrotic Syndrome' in children (Minimal Change Disease)?",
+    "option_a": "Cyclophosphamide",
+    "option_b": "Prednisone (Corticosteroids)",
+    "option_c": "Lisinopril",
+    "option_d": "Furosemide",
+    "correct_answer": "B",
+    "explanation": "MCD is highly steroid-responsive, and a course of Prednisone is the standard first-line treatment."
+  },
+  {
+    "question": "A 12-year-old boy presents with a 'limp' and hip pain. He is obese and his foot is externally rotated during gait. Diagnosis?",
+    "option_a": "Legg-Calvé-Perthes Disease",
+    "option_b": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "option_c": "Developmental Dysplasia of the Hip",
+    "option_d": "Septic Arthritis",
+    "correct_answer": "B",
+    "explanation": "SCFE typically occurs in obese adolescents during growth spurts; it is a surgical emergency to prevent avascular necrosis."
+  },
+  {
+    "question": "Which genetic syndrome is characterized by a deletion on chromosome 7 and a 'cocktail party' personality?",
+    "option_a": "Prader-Willi Syndrome",
+    "option_b": "Williams Syndrome",
+    "option_c": "Angelman Syndrome",
+    "option_d": "Fragile X Syndrome",
+    "correct_answer": "B",
+    "explanation": "Williams syndrome features elfin facies, hypercalcemia, supravalvular aortic stenosis, and extreme friendliness."
+  },
+  {
+    "question": "A child presents with 'joint pain', 'fever', and a 'new heart murmur' after a strep throat infection. Which of the following is a major 'Jones' criterion for Rheumatic Fever?",
+    "option_a": "Fever",
+    "option_b": "Polyarthritis",
+    "option_c": "Elevated ESR",
+    "option_d": "Arthralgia",
+    "correct_answer": "B",
+    "explanation": "Jones Major Criteria: Carditis, Polyarthritis, Chorea, Erythema marginatum, Subcutaneous nodules."
+  },
+  {
+    "question": "A 14-year-old male presents with gynecomastia, tall stature, and small, firm testes. Karyotype is 47,XXY. Diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Klinefelter Syndrome",
+    "option_c": "Fragile X Syndrome",
+    "option_d": "Marfan Syndrome",
+    "correct_answer": "B",
+    "explanation": "Klinefelter syndrome is the most common cause of primary hypogonadism in males."
+  },
+  {
+    "question": "What is the specific screening test for 'Phenylketonuria' (PKU) performed on newborns?",
+    "option_a": "Urinalysis",
+    "option_b": "Heel-prick blood test (Guthrie test or tandem mass spectrometry)",
+    "option_c": "Brain MRI",
+    "option_d": "Genetic testing for chromosome 21",
+    "correct_answer": "B",
+    "explanation": "Early detection and dietary restriction of phenylalanine are essential to prevent severe intellectual disability."
+  },
+  {
+    "question": "A patient with 'Bruton's Agammaglobulinemia' (X-linked) will typically present after age 6 months with:",
+    "option_a": "Recurrent viral infections only",
+    "option_b": "Recurrent sinopulmonary infections with encapsulated bacteria (e.g., S. pneumoniae)",
+    "option_c": "Autoimmune skin disorders only",
+    "option_d": "Pneumocystis jirovecii pneumonia",
+    "correct_answer": "B",
+    "explanation": "Loss of B-cell maturation leads to a total lack of antibodies. Symptoms appear after maternal IgG wanes."
+  },
+  {
+    "question": "Which of the following is true for 'Vesicoureteral Reflux' (VUR) in children?",
+    "option_a": "It always resolves by age 1",
+    "option_b": "It increases the risk of recurrent UTIs and renal scarring",
+    "option_c": "It is caused by eating too much salt",
+    "option_d": "It only occurs in girls",
+    "correct_answer": "B",
+    "explanation": "VUR is the retrograde flow of urine from the bladder to the ureters, which predisposes to pyelonephritis."
+  },
+  {
+    "question": "A 2-year-old child presents with bowing of the legs (genu varum) and a 'rachitic rosary' (palpable nodules at the costochondral junctions). Diagnosis?",
+    "option_a": "Osteogenesis Imperfecta",
+    "option_b": "Rickets (Vitamin D deficiency)",
+    "option_c": "Scurvy",
+    "option_d": "Achondroplasia",
+    "correct_answer": "B",
+    "explanation": "Rickets is due to defective mineralization of the bone matrix, usually from Vitamin D or Calcium deficiency."
+  },
+  {
+    "question": "A neonate presents with a 'scaphoid' (sunken) abdomen and severe respiratory distress at birth. Bowel sounds are heard in the chest. Diagnosis?",
+    "option_a": "Omphalocele",
+    "option_b": "Congenital Diaphragmatic Hernia (CDH)",
+    "option_c": "Gastroschisis",
+    "option_d": "TE Fistula",
+    "correct_answer": "B",
+    "explanation": "The displacement of abdominal organs into the thoracic cavity leaves the abdomen flat and compresses the lungs."
+  },
+  {
+    "question": "Which of the following describes 'Gastroschisis' vs 'Omphalocele'?",
+    "option_a": "Omphalocele is never covered by a membrane",
+    "option_b": "Gastroschisis occurs to the right of the umbilicus and has no sac",
+    "option_c": "Omphalocele is always a simple muscle weakness",
+    "option_d": "Gastroschisis is associated with Trisomy 21",
+    "correct_answer": "B",
+    "explanation": "Gastroschisis involves exposed bowel with no peritoneal covering, whereas Omphalocele occurs at the umbilical cord insertion and is covered by a sac."
+  },
+  {
+    "question": "What is the primary treatment for 'Infantile Hemangiomas' that obstruct vision?",
+    "option_a": "Surgery",
+    "option_b": "Oral Propranolol",
+    "option_c": "Antibiotics",
+    "option_d": "Wait and watch",
+    "correct_answer": "B",
+    "explanation": "Beta-blockers have become the first-line treatment for problematic infantile hemangiomas."
+  },
+  {
+    "question": "A 5-year-old presents with a 'slapped-cheek' appearance on his face and a lacy rash on his body. Diagnosis?",
+    "option_a": "Measles",
+    "option_b": "Erythema Infectiosum (Fifth Disease)",
+    "option_c": "Rubella",
+    "option_d": "Roseola",
+    "correct_answer": "B",
+    "explanation": "Fifth disease is caused by Parvovirus B19 and is a common, mild viral exanthem of childhood."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Fragile X Syndrome' in males?",
+    "option_a": "Short stature and webbed neck",
+    "option_b": "Macroorchidism (large testes) and long face with large ears",
+    "option_c": "Severe obesity",
+    "option_d": "Very small jaw",
+    "correct_answer": "B",
+    "explanation": "Fragile X is the most common inherited cause of intellectual disability."
+  },
+  {
+    "question": "What is the management of choice for 'Nocturnal Enuresis' in an 8-year-old after behavioral counseling fails?",
+    "option_a": "Desmopressin only",
+    "option_b": "Enuresis (Bed-wetting) Alarm",
+    "option_c": "Antibiotics",
+    "option_d": "Surgery",
+    "correct_answer": "B",
+    "explanation": "Bed-wetting alarms are the most effective long-term treatment with the lowest relapse rate."
+  },
+  {
+    "question": "A child presents with arthritis and a 'bull's-eye' rash (erythema migrans). Diagnosis?",
+    "option_a": "Juvenile Idiopathic Arthritis",
+    "option_b": "Lyme Disease",
+    "option_c": "Rheumatic Fever",
+    "option_d": "Kawasaki Disease",
+    "correct_answer": "B",
+    "explanation": "Lyme disease is caused by the tick-borne spirochete Borrelia burgdorferi."
+  },
+  {
+    "question": "What is the most common cause of 'Acute Scrotum' in an adolescent male (12-18 years)?",
+    "option_a": "Epididymitis",
+    "option_b": "Testicular Torsion",
+    "option_c": "Varicocele",
+    "option_d": "Hydrocele",
+    "correct_answer": "B",
+    "explanation": "Testicular torsion is a surgical emergency; it involves twisting of the spermatic cord and loss of blood supply."
+  },
+  {
+    "question": "Which of the following is true for 'Prader-Willi Syndrome'?",
+    "option_a": "It involves deletion of the maternal chromosome 15",
+    "option_b": "It involves deletion of the paternal chromosome 15, causing hypotonia then hyperphagia/obesity",
+    "option_c": "It is the same as Angelman Syndrome",
+    "option_d": "It only occurs in girls",
+    "correct_answer": "B",
+    "explanation": "Deletion of the paternal allele leads to Prader-Willi; deletion of the maternal allele leads to Angelman ('Happy Puppet')."
+  },
+  {
+    "question": "A neonate with 'Meconium Ileus' (blockage of the small intestine by thick meconium) is highly likely to have which underlying disease?",
+    "option_a": "Hirschsprung disease",
+    "option_b": "Cystic Fibrosis",
+    "option_c": "Down syndrome",
+    "option_d": "Pyloric stenosis",
+    "correct_answer": "B",
+    "explanation": "Meconium ileus is pathognomonic for Cystic Fibrosis in the newborn period."
+  },
+  {
+    "question": "Which bone tumor is characterized by an 'onion-skin' periosteal reaction and usually occurs in the diaphysis of long bones?",
+    "option_a": "Osteosarcoma",
+    "option_b": "Ewing Sarcoma",
+    "option_c": "Osteoid osteoma",
+    "option_d": "Chondrosarcoma",
+    "correct_answer": "B",
+    "explanation": "Ewing Sarcoma is a small blue round cell tumor with a characteristic 'onion-skin' appearance on X-ray."
+  }
+]
