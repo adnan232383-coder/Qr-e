@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 45-year-old patient presents with generalized clinical attachment loss (CAL). Radiographs show bone loss extending to the middle third of the root, and the patient has lost 3 teeth due to periodontitis. According to the 2017 World Workshop Classification, what is the 'Stage' of this patient's periodontitis?",
+    "option_a": "Stage I",
+    "option_b": "Stage II",
+    "option_c": "Stage III",
+    "option_d": "Stage IV",
+    "correct_answer": "C",
+    "explanation": "Stage III periodontitis is characterized by CAL ≥ 5 mm, radiographic bone loss extending to the middle third of the root, and ≤ 4 teeth lost due to periodontitis."
+  },
+  {
+    "question": "Which of the following bacteria is considered a member of the 'Red Complex', historically associated with deep periodontal pockets and active disease?",
+    "option_a": "Aggregatibacter actinomycetemcomitans",
+    "option_b": "Porphyromonas gingivalis",
+    "option_c": "Prevotella intermedia",
+    "option_d": "Streptococcus sanguis",
+    "correct_answer": "B",
+    "explanation": "The 'Red Complex' consists of P. gingivalis, Treponema denticola, and Tannerella forsythia. These are late colonizers strongly linked to periodontal destruction."
+  },
+  {
+    "question": "What is the primary objective of 'Scaling and Root Planing' (SRP) in the treatment of chronic periodontitis?",
+    "option_a": "To make the teeth whiter",
+    "option_b": "To remove subgingival biofilm and calculus and create a biocompatible root surface",
+    "option_c": "To surgically remove the gingival pocket wall",
+    "option_d": "To increase the width of the attached gingiva",
+    "correct_answer": "B",
+    "explanation": "SRP aims to eliminate the bacterial triggers (biofilm and calculus) and toxins embedded in the cementum, allowing the tissue to heal and reattach."
+  },
+  {
+    "question": "A patient presents with a 'Glickman Class II' furcation involvement on the mandibular first molar. Which of the following describes this finding?",
+    "option_a": "Incipient bone loss in the furcation area",
+    "option_b": "Partial bone loss (cul-de-sac) where the probe enters the furcation but does not pass through to the other side",
+    "option_c": "Total bone loss with the probe passing completely through the furcation",
+    "option_d": "The furcation is clearly visible clinically due to recession",
+    "correct_answer": "B",
+    "explanation": "Class II is a partial or 'blind' furcation involvement. Class III is a through-and-through lesion covered by gingiva."
+  },
+  {
+    "question": "Which component of the periodontium consists of specialized connective tissue fibers that attach the cementum of the tooth to the alveolar bone?",
+    "option_a": "Gingival sulcus",
+    "option_b": "Periodontal Ligament (PDL)",
+    "option_c": "Junctional epithelium",
+    "option_d": "Mucogingival junction",
+    "correct_answer": "B",
+    "explanation": "The PDL fibers (primarily Type I collagen) suspend the tooth in the socket and help dissipate occlusal forces."
+  },
+  {
+    "question": "A patient with 'Grade C' periodontitis is likely to show which of the following characteristics?",
+    "option_a": "Slow rate of bone loss over years",
+    "option_b": "Rapid progression of bone loss and/or high levels of localized destruction relative to plaque levels",
+    "option_c": "Excellent response to standard hygiene",
+    "option_d": "No history of smoking",
+    "correct_answer": "B",
+    "explanation": "Grade C indicates a rapid rate of progression and is often associated with risk factors like heavy smoking or uncontrolled diabetes."
+  },
+  {
+    "question": "What is the hallmark clinical sign of 'Gingivitis' that distinguishes it from 'Periodontitis'?",
+    "option_a": "Pocket depth > 6mm",
+    "option_b": "Bleeding on probing (BOP) without clinical attachment loss (CAL)",
+    "option_c": "Radiographic bone loss",
+    "option_d": "Tooth mobility",
+    "correct_answer": "B",
+    "explanation": "Gingivitis is limited to the soft tissues (inflammation) and is reversible; periodontitis involves the irreversible loss of supporting bone and attachment."
+  },
+  {
+    "question": "Which of the following is the most significant 'systemic' risk factor for the development and progression of periodontal disease?",
+    "option_a": "Vitamin C deficiency",
+    "option_b": "Diabetes Mellitus (especially if uncontrolled)",
+    "option_c": "High blood pressure",
+    "option_d": "Lactose intolerance",
+    "correct_answer": "B",
+    "explanation": "Uncontrolled diabetes alters host response, increases inflammation, and impairs healing, creating a bidirectional relationship with periodontitis."
+  },
+  {
+    "question": "In periodontal probing, what is the 'Biological Width' (Supracrestal Attached Tissues)?",
+    "option_a": "The distance from the gingival margin to the bottom of the sulcus",
+    "option_b": "The combined dimension of the junctional epithelium and connective tissue attachment (approx. 2.04 mm)",
+    "option_c": "The thickness of the buccal bone",
+    "option_d": "The width of the keratinized gingiva",
+    "correct_answer": "B",
+    "explanation": "Respecting this biological dimension is critical during restorative procedures to prevent chronic inflammation and bone loss."
+  },
+  {
+    "question": "Which instrument is specifically designed for subgingival scaling and root planing of the mesial surfaces of posterior teeth?",
+    "option_a": "Gracey 1/2",
+    "option_b": "Gracey 11/12",
+    "option_c": "Gracey 13/14",
+    "option_d": "Sickle scaler",
+    "correct_answer": "B",
+    "explanation": "Gracey 11/12 is used for mesial surfaces of posterior teeth; 13/14 is used for distal surfaces."
+  },
+  {
+    "question": "What is the primary cause of tooth mobility in a patient with 'secondary' occlusal trauma?",
+    "option_a": "Excessive biting force on a healthy periodontium",
+    "option_b": "Normal or excessive biting force on a tooth with reduced bone support (reduced periodontium)",
+    "option_c": "A viral infection",
+    "option_d": "Lack of brushing",
+    "correct_answer": "B",
+    "explanation": "Secondary occlusal trauma occurs when the remaining attachment is insufficient to withstand even normal functional forces."
+  },
+  {
+    "question": "During the 'Initial Healing' phase after SRP, the reduction in pocket depth is primarily achieved by:",
+    "option_a": "Formation of new bone",
+    "option_b": "Long Junctional Epithelium formation and gingival recession/shrinkage",
+    "option_c": "Regeneration of PDL fibers",
+    "option_d": "Creation of new cementum",
+    "correct_answer": "B",
+    "explanation": "Healing after non-surgical therapy is a repair process (not regeneration), resulting in a long junctional epithelium attachment and reduced tissue edema."
+  },
+  {
+    "question": "A patient presents with 'Necrotizing Periodontitis' (NP). What are the classic clinical features?",
+    "option_a": "Slow bone loss and no pain",
+    "option_b": "Interdental papilla necrosis ('punched-out'), severe pain, and bleeding",
+    "option_c": "Whiter gums",
+    "option_d": "Only occurs in children",
+    "correct_answer": "B",
+    "explanation": "Necrotizing diseases (NUG/NUP) are painful, rapid, and often linked to stress, poor nutrition, or immunosuppression (e.g., HIV)."
+  },
+  {
+    "question": "Which of the following describes 'Peri-implant Mucositis'?",
+    "option_a": "Bone loss around an implant",
+    "option_b": "Reversible inflammation of the soft tissues surrounding a functional implant, with no bone loss",
+    "option_c": "Fracture of the implant",
+    "option_d": "Normal healing",
+    "correct_answer": "B",
+    "explanation": "Peri-implant mucositis is the equivalent of gingivitis around an implant; if bone loss occurs, it is called peri-implantitis."
+  },
+  {
+    "question": "What is the most effective way to monitor the 'Stability' of a periodontal patient during maintenance visits?",
+    "option_a": "Asking if they brush",
+    "option_b": "Checking for 'Bleeding on Probing' (BOP) and changes in Clinical Attachment Level (CAL)",
+    "option_c": "Counting the number of fillings",
+    "option_d": "Taking an MRI",
+    "correct_answer": "B",
+    "explanation": "Absence of BOP is a high predictor of stability, while an increase in CAL indicates active disease progression."
+  },
+  {
+    "question": "Which fibers of the gingival connective tissue extend from the cementum just apical to the junctional epithelium and fan out into the free gingiva?",
+    "option_a": "Circular fibers",
+    "option_b": "Dentogingival fibers",
+    "option_c": "Transeptal fibers",
+    "option_d": "Alveologingival fibers",
+    "correct_answer": "B",
+    "explanation": "Dentogingival fibers are the most numerous group and provide support to the free gingiva."
+  },
+  {
+    "question": "In the 'Specific Plaque Hypothesis', disease is attributed to:",
+    "option_a": "The total amount of plaque regardless of composition",
+    "option_b": "The presence of specific pathogenic bacteria in the biofilm",
+    "option_c": "The patient's diet only",
+    "option_d": "Lack of saliva",
+    "correct_answer": "B",
+    "explanation": "This hypothesis suggests that only a few specific species (like P. gingivalis) are responsible for periodontal destruction."
+  },
+  {
+    "question": "What is the significance of 'Smoking' in the clinical presentation of periodontitis?",
+    "option_a": "Smokers bleed more during probing",
+    "option_b": "Smokers often show 'suppressed' bleeding on probing due to nicotine-induced vasoconstriction",
+    "option_c": "Smoking prevents bone loss",
+    "option_d": "Smoking has no effect",
+    "correct_answer": "B",
+    "explanation": "Smoking masks inflammation (reduced BOP), making the disease appear less severe than it actually is, while accelerating bone loss."
+  },
+  {
+    "question": "Which of the following is true for 'Attached Gingiva'?",
+    "option_a": "It is movable",
+    "option_b": "It is keratinized and firmly bound to the underlying periosteum",
+    "option_c": "It is found only on the palate",
+    "option_d": "It is absent in health",
+    "correct_answer": "B",
+    "explanation": "A sufficient width of attached gingiva is important for maintaining health around teeth and implants by resisting mechanical trauma."
+  },
+  {
+    "question": "A patient has a 6 mm pocket on the distal of tooth #3. The gingival margin is 2 mm coronal to the CEJ. What is the Clinical Attachment Level (CAL)?",
+    "option_a": "8 mm",
+    "option_b": "4 mm",
+    "option_c": "6 mm",
+    "option_d": "2 mm",
+    "correct_answer": "B",
+    "explanation": "CAL = Probing Depth minus (distance from GM to CEJ). 6mm - 2mm = 4mm."
+  },
+  {
+    "question": "Which periodontal fibers are most responsible for 'Orthodontic Relapse' (teeth moving back) after braces are removed?",
+    "option_a": "Horizontal fibers",
+    "option_b": "Supracrestal circumferential and transeptal fibers",
+    "option_c": "Apical fibers",
+    "option_d": "Oblique fibers",
+    "correct_answer": "B",
+    "explanation": "These fibers are stretched during movement and take a long time to remodel, pulling the teeth toward their original positions."
+  },
+  {
+    "question": "What is 'Quorum Sensing' in a dental biofilm?",
+    "option_a": "Bacteria dying",
+    "option_b": "Chemical communication between bacteria to coordinate gene expression and behavior",
+    "option_c": "Brushing the teeth",
+    "option_d": "The flow of saliva",
+    "correct_answer": "B",
+    "explanation": "Quorum sensing allows the biofilm community to act as a unit, increasing its resistance to antibiotics and the host immune system."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Pregnancy-associated Gingivitis'?",
+    "option_a": "Painless bone loss",
+    "option_b": "Exaggerated inflammatory response to minimal plaque due to hormonal changes (progesterone/estrogen)",
+    "option_c": "Increased risk of lung cancer",
+    "option_d": "Dry mouth",
+    "correct_answer": "B",
+    "explanation": "Increased hormones alter vascular permeability and the composition of subgingival flora (e.g., P. intermedia)."
+  },
+  {
+    "question": "Which cell type is the 'First Responder' to arrive at the site of periodontal inflammation in the gingival sulcus?",
+    "option_a": "Plasma cells",
+    "option_b": "Neutrophils (PMNs)",
+    "option_c": "Macrophages",
+    "option_d": "T-lymphocytes",
+    "correct_answer": "B",
+    "explanation": "PMNs migrate from the blood vessels through the junctional epithelium into the sulcus as the primary defense against plaque."
+  },
+  {
+    "question": "What is the definition of 'Suprabony' pocket?",
+    "option_a": "The bottom of the pocket is apical to the alveolar crest",
+    "option_b": "The bottom of the pocket is coronal to the alveolar crest",
+    "option_c": "There is no bone left",
+    "option_d": "The pocket is inside the tooth",
+    "correct_answer": "B",
+    "explanation": "Suprabony pockets are associated with horizontal bone loss; infrabony (intrabony) pockets are associated with vertical/angular bone loss."
+  },
+  {
+    "question": "Which 'Curette' is used specifically for the 'Anterior' teeth?",
+    "option_a": "Gracey 1/2 or 3/4",
+    "option_b": "Gracey 11/12",
+    "option_c": "Gracey 13/14",
+    "option_d": "Gracey 17/18",
+    "correct_answer": "A",
+    "explanation": "The Gracey 1/2 is designed with a slight shank angle for easy access to the flat surfaces of incisors and canines."
+  },
+  {
+    "question": "What is the primary mineral component of 'Dental Calculus'?",
+    "option_a": "Sugar",
+    "option_b": "Calcium Phosphate (Hydroxyapatite)",
+    "option_c": "Protein",
+    "option_d": "Starch",
+    "correct_answer": "B",
+    "explanation": "Calculus is mineralized plaque, consisting primarily of inorganic calcium phosphate salts."
+  },
+  {
+    "question": "A patient presents with 'recession' that extends to the mucogingival junction but has no loss of interdental bone. According to Miller's classification, this is:",
+    "option_a": "Class I",
+    "option_b": "Class II",
+    "option_c": "Class III",
+    "option_d": "Class IV",
+    "correct_answer": "B",
+    "explanation": "Miller Class II involves recession to or beyond the MGJ but without loss of interproximal bone or soft tissue."
+  },
+  {
+    "question": "Which of the following is true for 'Chlorhexidine' (CHX) gluconate mouthwash?",
+    "option_a": "It should be used for 5 years",
+    "option_b": "It is the 'gold standard' anti-plaque agent due to its substantivity (prolonged release)",
+    "option_c": "It has no side effects",
+    "option_d": "It replaces mechanical brushing",
+    "correct_answer": "B",
+    "explanation": "CHX is highly effective but should be used short-term due to side effects like tooth staining and altered taste."
+  },
+  {
+    "question": "A 'Pseudopocket' is defined by:",
+    "option_a": "Bone loss",
+    "option_b": "Gingival enlargement (overgrowth) without migration of the junctional epithelium",
+    "option_c": "Tooth fracture",
+    "option_d": "Recession",
+    "correct_answer": "B",
+    "explanation": "A pseudopocket occurs when the gingival margin moves coronally (due to inflammation or drugs), creating a deep measurement without attachment loss."
+  },
+  {
+    "question": "Which 'Periodontal Ligament' fibers are the most numerous and resist vertical pressure on the tooth?",
+    "option_a": "Horizontal fibers",
+    "option_b": "Oblique fibers",
+    "option_c": "Apical fibers",
+    "option_d": "Alveolar crest fibers",
+    "correct_answer": "B",
+    "explanation": "Oblique fibers are the largest group and are oriented diagonally to withstand occlusal forces."
+  },
+  {
+    "question": "The 'Acquired Pellicle' forms on the tooth surface within:",
+    "option_a": "Hours after brushing",
+    "option_b": "Seconds after brushing (from salivary glycoproteins)",
+    "option_c": "Days",
+    "option_d": "Only when eating",
+    "correct_answer": "B",
+    "explanation": "The pellicle is a thin, acellular film that provides the initial site for bacterial attachment."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Aggressive' (now Stage III/IV, Grade C) periodontitis in a young adult?",
+    "option_a": "Massive amounts of plaque and calculus",
+    "option_b": "Rapid bone loss, often localized to first molars and incisors, with relatively little plaque",
+    "option_c": "Slow progression",
+    "option_d": "Only affects people over 70",
+    "correct_answer": "B",
+    "explanation": "Historically known as Localized Juvenile Periodontitis, it features severe bone loss that is disproportionate to the amount of visible plaque."
+  },
+  {
+    "question": "What is the 'Gold Standard' for measuring periodontal disease progression in clinical research?",
+    "option_a": "Patient's pain level",
+    "option_b": "Clinical Attachment Level (CAL) measurements over time",
+    "option_c": "The color of the gums",
+    "option_d": "Saliva volume",
+    "correct_answer": "B",
+    "explanation": "CAL is the most reliable indicator of whether a tooth is losing its supporting structures."
+  },
+  {
+    "question": "Which factor makes 'Subgingival' plaque more pathogenic than 'Supragingival' plaque?",
+    "option_a": "It is easier to clean",
+    "option_b": "It is dominated by Gram-negative, anaerobic, and motile bacteria",
+    "option_c": "It contains more sugar",
+    "option_d": "It is whiter in color",
+    "correct_answer": "B",
+    "explanation": "The anaerobic environment of the pocket favors the growth of aggressive pathogens."
+  },
+  {
+    "question": "A patient on 'Nifedipine' (Calcium channel blocker) presents with generalized gingival overgrowth. What is the management?",
+    "option_a": "Stop all medications immediately",
+    "option_b": "Physician consultation for drug substitution and improved oral hygiene/SRP",
+    "option_c": "Bleaching",
+    "option_d": "Veneers",
+    "correct_answer": "B",
+    "explanation": "Drug-induced gingival enlargement (caused by CCBs, Cyclosporine, or Phenytoin) is managed by switching drugs and controlling plaque."
+  },
+  {
+    "question": "What is the primary role of 'Cementum' in the periodontium?",
+    "option_a": "To protect the pulp",
+    "option_b": "To provide a medium for the attachment of PDL fibers to the root",
+    "option_c": "To make the tooth look shiny",
+    "option_d": "To detect hot and cold",
+    "correct_answer": "B",
+    "explanation": "Cementum is a bone-like tissue that coats the root and serves as the anchor for the PDL."
+  },
+  {
+    "question": "In the 2017 classification, 'Grading' of periodontitis aims to indicate:",
+    "option_a": "The severity of current damage",
+    "option_b": "The risk of future progression and the potential impact on systemic health",
+    "option_c": "The color of the tooth",
+    "option_d": "The cost of treatment",
+    "correct_answer": "B",
+    "explanation": "Grading (A, B, C) looks at the 'rate' of disease and the influence of factors like smoking and diabetes."
+  },
+  {
+    "question": "Which of the following describes 'Biological Width' invasion?",
+    "option_a": "The filling is too small",
+    "option_b": "A restoration margin placed too close to the alveolar crest (usually <2mm), causing bone resorption",
+    "option_c": "Brushing too hard",
+    "option_d": "Having a deep sulcus",
+    "correct_answer": "B",
+    "explanation": "Invasive margins trigger a chronic inflammatory response as the body tries to create space for the connective tissue attachment."
+  },
+  {
+    "question": "What is the 'Dixon's' or 'Nabers' probe used for?",
+    "option_a": "Measuring pocket depth in a straight line",
+    "option_b": "Detecting and measuring furcation involvements (curved probe)",
+    "option_c": "Checking for caries",
+    "option_d": "Removing calculus",
+    "correct_answer": "B",
+    "explanation": "The curved design of the Nabers probe allows it to navigate into the furcation area of multi-rooted teeth."
+  },
+  {
+    "question": "Which of the following is an 'Endotoxin' found in the cell walls of Gram-negative bacteria that triggers a strong host immune response?",
+    "option_a": "Collagenase",
+    "option_b": "Lipopolysaccharide (LPS)",
+    "option_c": "Hyaluronidase",
+    "option_d": "Exotoxin A",
+    "correct_answer": "B",
+    "explanation": "LPS is a potent stimulator of macrophages and bone-resorbing cytokines (e.g., IL-1, TNF-alpha)."
+  },
+  {
+    "question": "What is the primary indicator of a 'successful' outcome after SRP in a 5 mm pocket?",
+    "option_a": "The patient feels no pain",
+    "option_b": "Reduction in Probing Depth and absence of Bleeding on Probing (BOP)",
+    "option_c": "The teeth are whiter",
+    "option_d": "There is more calculus",
+    "correct_answer": "B",
+    "explanation": "Stable probing depths and no bleeding are the clinical markers of periodontal health."
+  },
+  {
+    "question": "Which of the following is true for 'Peri-implantitis'?",
+    "option_a": "It is always painless",
+    "option_b": "It involves inflammatory bone loss around an integrated implant and is harder to treat than periodontitis",
+    "option_c": "It is caused by the metal",
+    "option_d": "It only happens in smokers",
+    "correct_answer": "B",
+    "explanation": "Peri-implantitis is a serious threat to implant longevity and often requires surgical intervention."
+  },
+  {
+    "question": "What is the role of 'Osteoclasts' in periodontal disease?",
+    "option_a": "To build new bone",
+    "option_b": "To resorb (destroy) bone in response to inflammatory signals",
+    "option_c": "To kill bacteria",
+    "option_d": "To form cementum",
+    "correct_answer": "B",
+    "explanation": "In chronic periodontitis, high levels of cytokines activate osteoclasts, leading to alveolar bone loss."
+  },
+  {
+    "question": "A 'Bony Crater' is a type of vertical bone defect characterized by:",
+    "option_a": "One-walled defect",
+    "option_b": "Two-walled defect (loss of interdental bone between buccal and lingual plates)",
+    "option_c": "Three-walled defect",
+    "option_d": "Horizontal bone loss",
+    "correct_answer": "B",
+    "explanation": "Bony craters are the most common interproximal bone defects in periodontitis."
+  },
+  {
+    "question": "What is 'Substantivity' in the context of Chlorhexidine?",
+    "option_a": "The ability to kill all bacteria",
+    "option_b": "The ability of an agent to bind to oral surfaces and be released slowly over time",
+    "option_c": "The price of the mouthwash",
+    "option_d": "The bad taste",
+    "correct_answer": "B",
+    "explanation": "CHX stays active in the mouth for up to 12 hours due to its binding properties."
+  },
+  {
+    "question": "Which of the following describes 'Primary' occlusal trauma?",
+    "option_a": "Normal force on a weak tooth",
+    "option_b": "Excessive occlusal force (e.g., a high filling or bruxism) on a healthy periodontium",
+    "option_c": "Lack of brushing",
+    "option_d": "A deep pocket",
+    "correct_answer": "B",
+    "explanation": "In primary trauma, the supporting structures are normal, but the forces are injurious."
+  },
+  {
+    "question": "What is the significance of the 'Mucogingival Junction' (MGJ)?",
+    "option_a": "It is where the tooth meets the gum",
+    "option_b": "The line separating the attached gingiva from the alveolar mucosa",
+    "option_c": "It is only found on the tongue",
+    "option_d": "It is always red",
+    "correct_answer": "B",
+    "explanation": "The MGJ is a stable landmark; the alveolar mucosa beyond it is non-keratinized and loose."
+  },
+  {
+    "question": "Which 'Curette' has two cutting edges and can be used in all areas of the mouth?",
+    "option_a": "Gracey curette",
+    "option_b": "Universal curette (e.g., Columbia or Barnhart)",
+    "option_c": "Sickle scaler",
+    "option_d": "Hoe scaler",
+    "correct_answer": "B",
+    "explanation": "Universal curettes are versatile, unlike Gracey curettes which are area-specific."
+  },
+  {
+    "question": "What is the definition of 'Biofilm'?",
+    "option_a": "A single layer of bacteria",
+    "option_b": "A complex, organized community of microorganisms attached to a surface and embedded in an extracellular matrix",
+    "option_c": "Sterile saliva",
+    "option_d": "Food debris",
+    "correct_answer": "B",
+    "explanation": "The biofilm structure protects bacteria from host defenses and antimicrobial agents."
+  }
+]
