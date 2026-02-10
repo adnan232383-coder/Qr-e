@@ -1,0 +1,1806 @@
+{
+  "course_name": "Organic Chemistry (Intro)",
+  "course_code": "UG_DENT_Y1_S2_C06",
+  "questions": [
+    {
+      "question": "Which statement best describes Functional groups?",
+      "option_a": "Attraction between H and electronegative atoms",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "D",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Functional groups is MOST associated with:",
+      "option_a": "Oxidation-reduction (organic)",
+      "option_b": "Enantiomers can differ in biologic activity.",
+      "option_c": "SN1 vs SN2",
+      "option_d": "Examples include alcohols, amines, carboxylic acids.",
+      "correct_answer": "D",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "Which statement best describes Isomerism?",
+      "option_a": "Same formula but different structure",
+      "option_b": "E1 vs E2",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Isomerism is MOST associated with:",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Includes constitutional and stereoisomers.",
+      "option_d": "Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "C",
+      "explanation": "Isomerism: Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "Which statement best describes Chirality?",
+      "option_a": "Non-superimposable mirror images (enantiomers)",
+      "option_b": "Examples include alcohols, amines, carboxylic acids.",
+      "option_c": "Enantiomers can differ in biologic activity.",
+      "option_d": "Different elimination mechanisms forming alkenes",
+      "correct_answer": "A",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Chirality is MOST associated with:",
+      "option_a": "Attacks electrophilic centers in reactions.",
+      "option_b": "Enantiomers can differ in biologic activity.",
+      "option_c": "Characteristic group of atoms determining reactivity",
+      "option_d": "Important in metabolism and synthesis.",
+      "correct_answer": "B",
+      "explanation": "Chirality: Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "Which statement best describes Acid-base concepts?",
+      "option_a": "E2 is concerted; E1 involves carbocation.",
+      "option_b": "Brønsted acids donate H+, bases accept H+",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Acid-base concepts is MOST associated with:",
+      "option_a": "Electron-rich species donating an electron pair",
+      "option_b": "Electron-poor species accepting an electron pair",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "Isomerism",
+      "correct_answer": "C",
+      "explanation": "Acid-base concepts: pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "Which statement best describes Nucleophile?",
+      "option_a": "Electrophile",
+      "option_b": "E2 is concerted; E1 involves carbocation.",
+      "option_c": "Same formula but different structure",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Nucleophile is MOST associated with:",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Electron-rich species donating an electron pair",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "C",
+      "explanation": "Nucleophile: Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "Which statement best describes Electrophile?",
+      "option_a": "Electron-poor species accepting an electron pair",
+      "option_b": "Different elimination mechanisms forming alkenes",
+      "option_c": "Electrophile",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Electrophile is MOST associated with:",
+      "option_a": "Electron-rich species donating an electron pair",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Includes constitutional and stereoisomers.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "Which statement best describes SN1 vs SN2?",
+      "option_a": "Electron-rich species donating an electron pair",
+      "option_b": "Different substitution mechanisms",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Important in metabolism and synthesis.",
+      "correct_answer": "B",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), SN1 vs SN2 is MOST associated with:",
+      "option_a": "SN1 vs SN2",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Electrophile",
+      "option_d": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "correct_answer": "D",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "Which statement best describes E1 vs E2?",
+      "option_a": "Different elimination mechanisms forming alkenes",
+      "option_b": "Characteristic group of atoms determining reactivity",
+      "option_c": "Electrophile",
+      "option_d": "Chirality",
+      "correct_answer": "A",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), E1 vs E2 is MOST associated with:",
+      "option_a": "Isomerism",
+      "option_b": "Includes constitutional and stereoisomers.",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "C",
+      "explanation": "E1 vs E2: E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "Which statement best describes Hydrogen bonding?",
+      "option_a": "Attraction between H and electronegative atoms",
+      "option_b": "Examples include alcohols, amines, carboxylic acids.",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "Includes constitutional and stereoisomers.",
+      "correct_answer": "A",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Hydrogen bonding is MOST associated with:",
+      "option_a": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_b": "Chirality",
+      "option_c": "Nucleophile",
+      "option_d": "Influences boiling point and solubility.",
+      "correct_answer": "D",
+      "explanation": "Hydrogen bonding: Influences boiling point and solubility."
+    },
+    {
+      "question": "Which statement best describes Oxidation-reduction (organic)?",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Isomerism",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "E2 is concerted; E1 involves carbocation.",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "In Organic Chemistry (Intro), Oxidation-reduction (organic) is MOST associated with:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Important in metabolism and synthesis.",
+      "option_c": "Different substitution mechanisms",
+      "option_d": "Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "B",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 21) The best example of E1 vs E2 is:",
+      "option_a": "Isomerism",
+      "option_b": "Chirality",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "correct_answer": "C",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 22) A key clinical relevance of E1 vs E2 is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 23) The best example of E1 vs E2 is:",
+      "option_a": "Same formula but different structure",
+      "option_b": "Attraction between H and electronegative atoms",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "C",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 24) Which pairing is correct?",
+      "option_a": "Functional groups — Characteristic group of atoms determining reactivity",
+      "option_b": "Nucleophile — Characteristic group of atoms determining reactivity",
+      "option_c": "Functional groups — Different substitution mechanisms",
+      "option_d": "Nucleophile — Electron-poor species accepting an electron pair",
+      "correct_answer": "A",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 25) A key clinical relevance of Functional groups is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 26) Which option is TRUE regarding SN1 vs SN2?",
+      "option_a": "Different substitution mechanisms",
+      "option_b": "Isomerism",
+      "option_c": "Nucleophile",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "A",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 27) Which pairing is correct?",
+      "option_a": "Chirality — Characteristic group of atoms determining reactivity",
+      "option_b": "Isomerism — Same formula but different structure",
+      "option_c": "Isomerism — Characteristic group of atoms determining reactivity",
+      "option_d": "Functional groups — Same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Isomerism: Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 28) The best example of Chirality is:",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Chirality",
+      "option_c": "Enantiomers can differ in biologic activity.",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "C",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 29) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Important in metabolism and synthesis.",
+      "option_c": "Isomerism",
+      "option_d": "Functional groups",
+      "correct_answer": "B",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 30) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Attraction between H and electronegative atoms",
+      "option_b": "Hydrogen bonding — Characteristic group of atoms determining reactivity",
+      "option_c": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "Electrophile — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "C",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 31) The best example of Electrophile is:",
+      "option_a": "Nucleophile",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Functional groups",
+      "option_d": "Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 32) A key clinical relevance of Isomerism is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 33) Which pairing is correct?",
+      "option_a": "Chirality — Characteristic group of atoms determining reactivity",
+      "option_b": "Nucleophile — Electron-rich species donating an electron pair",
+      "option_c": "SN1 vs SN2 — Electron-rich species donating an electron pair",
+      "option_d": "Oxidation-reduction (organic) — Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "B",
+      "explanation": "Nucleophile: Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 34) A key clinical relevance of Electrophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 35) Which pairing is correct?",
+      "option_a": "Oxidation-reduction (organic) — Electron-poor species accepting an electron pair",
+      "option_b": "Chirality — Electron-rich species donating an electron pair",
+      "option_c": "Oxidation-reduction (organic) — Non-superimposable mirror images (enantiomers)",
+      "option_d": "SN1 vs SN2 — Different substitution mechanisms",
+      "correct_answer": "D",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 36) A key clinical relevance of Hydrogen bonding is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 37) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Brønsted acids donate H+, bases accept H+",
+      "option_d": "Oxidation-reduction (organic)",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 38) A key clinical relevance of Chirality is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 39) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "Same formula but different structure",
+      "option_b": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Brønsted acids donate H+, bases accept H+",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 40) Which option is TRUE regarding Functional groups?",
+      "option_a": "Electrophile",
+      "option_b": "E1 vs E2",
+      "option_c": "Acid-base concepts",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "D",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 41) A key clinical relevance of Functional groups is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 42) The best example of Isomerism is:",
+      "option_a": "Different substitution mechanisms",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Includes constitutional and stereoisomers.",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 43) Which pairing is correct?",
+      "option_a": "Functional groups — Same formula but different structure",
+      "option_b": "Isomerism — Same formula but different structure",
+      "option_c": "SN1 vs SN2 — Non-superimposable mirror images (enantiomers)",
+      "option_d": "SN1 vs SN2 — Different elimination mechanisms forming alkenes",
+      "correct_answer": "B",
+      "explanation": "Isomerism: Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 44) A key clinical relevance of Nucleophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 45) Which option is TRUE regarding Oxidation-reduction (organic)?",
+      "option_a": "Attacks electrophilic centers in reactions.",
+      "option_b": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Electrophile",
+      "correct_answer": "B",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 46) A key clinical relevance of Chirality is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 47) A key clinical relevance of Hydrogen bonding is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 48) The best example of Acid-base concepts is:",
+      "option_a": "Isomerism",
+      "option_b": "E2 is concerted; E1 involves carbocation.",
+      "option_c": "Non-superimposable mirror images (enantiomers)",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "D",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 49) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Different substitution mechanisms",
+      "option_b": "Hydrogen bonding — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "SN1 vs SN2 — Different elimination mechanisms forming alkenes",
+      "option_d": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "D",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 50) Which option is TRUE regarding Functional groups?",
+      "option_a": "Includes constitutional and stereoisomers.",
+      "option_b": "Electron-poor species accepting an electron pair",
+      "option_c": "E1 vs E2",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "D",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 51) A key clinical relevance of Electrophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 52) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "Attacks electrophilic centers in reactions.",
+      "option_b": "Electron-poor species accepting an electron pair",
+      "option_c": "Attraction between H and electronegative atoms",
+      "option_d": "Electrophile",
+      "correct_answer": "C",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 53) Which option is TRUE regarding Functional groups?",
+      "option_a": "Includes constitutional and stereoisomers.",
+      "option_b": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Characteristic group of atoms determining reactivity",
+      "option_d": "Electron-poor species accepting an electron pair",
+      "correct_answer": "C",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 54) Which pairing is correct?",
+      "option_a": "Electrophile — Different substitution mechanisms",
+      "option_b": "Functional groups — Same formula but different structure",
+      "option_c": "Chirality — Non-superimposable mirror images (enantiomers)",
+      "option_d": "Acid-base concepts — Same formula but different structure",
+      "correct_answer": "C",
+      "explanation": "Chirality: Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 55) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "Isomerism",
+      "option_c": "Different elimination mechanisms forming alkenes",
+      "option_d": "E2 is concerted; E1 involves carbocation.",
+      "correct_answer": "C",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 56) Which option is TRUE regarding Isomerism?",
+      "option_a": "Same formula but different structure",
+      "option_b": "Electrophile",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "Oxidation-reduction (organic)",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 57) A key clinical relevance of Electrophile is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 58) The best example of Acid-base concepts is:",
+      "option_a": "Includes constitutional and stereoisomers.",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 59) A key clinical relevance of Chirality is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 60) Which option is TRUE regarding Isomerism?",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Isomerism",
+      "option_c": "Same formula but different structure",
+      "option_d": "SN1 vs SN2",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 61) Which pairing is correct?",
+      "option_a": "Oxidation-reduction (organic) — Attraction between H and electronegative atoms",
+      "option_b": "Functional groups — Same formula but different structure",
+      "option_c": "Isomerism — Non-superimposable mirror images (enantiomers)",
+      "option_d": "Nucleophile — Electron-rich species donating an electron pair",
+      "correct_answer": "D",
+      "explanation": "Nucleophile: Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 62) The best example of Functional groups is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Functional groups",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 63) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Attacks electrophilic centers in reactions.",
+      "option_b": "Different elimination mechanisms forming alkenes",
+      "option_c": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "B",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 64) A key clinical relevance of Nucleophile is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 65) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Attraction between H and electronegative atoms",
+      "option_b": "Nucleophile — Electron-rich species donating an electron pair",
+      "option_c": "Functional groups — Non-superimposable mirror images (enantiomers)",
+      "option_d": "Hydrogen bonding — Different elimination mechanisms forming alkenes",
+      "correct_answer": "B",
+      "explanation": "Nucleophile: Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 66) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Enantiomers can differ in biologic activity.",
+      "option_c": "Different substitution mechanisms",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 67) The best example of SN1 vs SN2 is:",
+      "option_a": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_b": "Oxidation-reduction (organic)",
+      "option_c": "Brønsted acids donate H+, bases accept H+",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 68) A key clinical relevance of Nucleophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 69) A key clinical relevance of Chirality is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 70) Which option is TRUE regarding Functional groups?",
+      "option_a": "Chirality",
+      "option_b": "Characteristic group of atoms determining reactivity",
+      "option_c": "Different elimination mechanisms forming alkenes",
+      "option_d": "Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "B",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 71) Which option is TRUE regarding Functional groups?",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Important in metabolism and synthesis.",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "Same formula but different structure",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 72) Which option is TRUE regarding Functional groups?",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Acid-base concepts",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 73) Which pairing is correct?",
+      "option_a": "Functional groups — Different substitution mechanisms",
+      "option_b": "Electrophile — Characteristic group of atoms determining reactivity",
+      "option_c": "Isomerism — Characteristic group of atoms determining reactivity",
+      "option_d": "SN1 vs SN2 — Different substitution mechanisms",
+      "correct_answer": "D",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 74) The best example of Acid-base concepts is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "E1 vs E2",
+      "option_c": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "D",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 75) The best example of Acid-base concepts is:",
+      "option_a": "Includes constitutional and stereoisomers.",
+      "option_b": "Attraction between H and electronegative atoms",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "D",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 76) Which pairing is correct?",
+      "option_a": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Electrophile — Same formula but different structure",
+      "option_c": "Functional groups — Characteristic group of atoms determining reactivity",
+      "option_d": "Acid-base concepts — Electron-rich species donating an electron pair",
+      "correct_answer": "C",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 77) Which pairing is correct?",
+      "option_a": "Functional groups — Non-superimposable mirror images (enantiomers)",
+      "option_b": "Acid-base concepts — Electron-rich species donating an electron pair",
+      "option_c": "E1 vs E2 — Different elimination mechanisms forming alkenes",
+      "option_d": "Acid-base concepts — Characteristic group of atoms determining reactivity",
+      "correct_answer": "C",
+      "explanation": "E1 vs E2: E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 78) Which pairing is correct?",
+      "option_a": "Nucleophile — Different substitution mechanisms",
+      "option_b": "Isomerism — Same formula but different structure",
+      "option_c": "E1 vs E2 — Different substitution mechanisms",
+      "option_d": "Hydrogen bonding — Attraction between H and electronegative atoms",
+      "correct_answer": "D",
+      "explanation": "Hydrogen bonding: Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 79) A key clinical relevance of Nucleophile is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 80) Which option is TRUE regarding Isomerism?",
+      "option_a": "Same formula but different structure",
+      "option_b": "Nucleophile",
+      "option_c": "Examples include alcohols, amines, carboxylic acids.",
+      "option_d": "E2 is concerted; E1 involves carbocation.",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 81) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Nucleophile",
+      "option_b": "Includes constitutional and stereoisomers.",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "Oxidation-reduction (organic)",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 82) A key clinical relevance of Isomerism is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 83) A key clinical relevance of Isomerism is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 84) A key clinical relevance of Electrophile is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 85) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Electrophile",
+      "option_b": "Different elimination mechanisms forming alkenes",
+      "option_c": "Attraction between H and electronegative atoms",
+      "option_d": "E1 vs E2",
+      "correct_answer": "B",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 86) Which pairing is correct?",
+      "option_a": "Isomerism — Same formula but different structure",
+      "option_b": "Functional groups — Electron-rich species donating an electron pair",
+      "option_c": "Nucleophile — Brønsted acids donate H+, bases accept H+",
+      "option_d": "Electrophile — Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "A",
+      "explanation": "Isomerism: Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 87) Which pairing is correct?",
+      "option_a": "Electrophile — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Electrophile — Attraction between H and electronegative atoms",
+      "option_c": "Acid-base concepts — Different elimination mechanisms forming alkenes",
+      "option_d": "E1 vs E2 — Different elimination mechanisms forming alkenes",
+      "correct_answer": "D",
+      "explanation": "E1 vs E2: E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 88) The best example of Nucleophile is:",
+      "option_a": "Non-superimposable mirror images (enantiomers)",
+      "option_b": "Includes constitutional and stereoisomers.",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "SN1 vs SN2",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 89) Which option is TRUE regarding Electrophile?",
+      "option_a": "Electron-poor species accepting an electron pair",
+      "option_b": "E1 vs E2",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 90) Which pairing is correct?",
+      "option_a": "Functional groups — Characteristic group of atoms determining reactivity",
+      "option_b": "Chirality — Electron-rich species donating an electron pair",
+      "option_c": "SN1 vs SN2 — Electron-poor species accepting an electron pair",
+      "option_d": "Functional groups — Different elimination mechanisms forming alkenes",
+      "correct_answer": "A",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 91) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Brønsted acids donate H+, bases accept H+",
+      "option_b": "Different elimination mechanisms forming alkenes",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "Electrophile",
+      "correct_answer": "B",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 92) The best example of Isomerism is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Chirality",
+      "option_c": "SN1 vs SN2",
+      "option_d": "Includes constitutional and stereoisomers.",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 93) Which pairing is correct?",
+      "option_a": "Chirality — Electron-poor species accepting an electron pair",
+      "option_b": "Chirality — Non-superimposable mirror images (enantiomers)",
+      "option_c": "Isomerism — Non-superimposable mirror images (enantiomers)",
+      "option_d": "Hydrogen bonding — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "B",
+      "explanation": "Chirality: Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 94) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "Electrophile",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "Oxidation-reduction (organic)",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 95) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Non-superimposable mirror images (enantiomers)",
+      "option_b": "SN1 vs SN2 — Electron-rich species donating an electron pair",
+      "option_c": "Functional groups — Characteristic group of atoms determining reactivity",
+      "option_d": "Nucleophile — Electron-poor species accepting an electron pair",
+      "correct_answer": "C",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 96) Which pairing is correct?",
+      "option_a": "Isomerism — Non-superimposable mirror images (enantiomers)",
+      "option_b": "Isomerism — Characteristic group of atoms determining reactivity",
+      "option_c": "Chirality — Non-superimposable mirror images (enantiomers)",
+      "option_d": "SN1 vs SN2 — Electron-rich species donating an electron pair",
+      "correct_answer": "C",
+      "explanation": "Chirality: Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 97) Which pairing is correct?",
+      "option_a": "Chirality — Same formula but different structure",
+      "option_b": "Nucleophile — Characteristic group of atoms determining reactivity",
+      "option_c": "Electrophile — Electron-poor species accepting an electron pair",
+      "option_d": "Acid-base concepts — Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "D",
+      "explanation": "Acid-base concepts: pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 98) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_c": "Characteristic group of atoms determining reactivity",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 99) A key clinical relevance of E1 vs E2 is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 100) The best example of Electrophile is:",
+      "option_a": "Non-superimposable mirror images (enantiomers)",
+      "option_b": "Examples include alcohols, amines, carboxylic acids.",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Functional groups",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 101) A key clinical relevance of Hydrogen bonding is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 102) The best example of Electrophile is:",
+      "option_a": "Enantiomers can differ in biologic activity.",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "Acid-base concepts",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 103) The best example of Hydrogen bonding is:",
+      "option_a": "E2 is concerted; E1 involves carbocation.",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "B",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 104) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Different substitution mechanisms",
+      "option_b": "Electrophile — Electron-poor species accepting an electron pair",
+      "option_c": "Acid-base concepts — Non-superimposable mirror images (enantiomers)",
+      "option_d": "E1 vs E2 — Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 105) The best example of Functional groups is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Acid-base concepts",
+      "option_c": "E1 vs E2",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 106) The best example of SN1 vs SN2 is:",
+      "option_a": "Chirality",
+      "option_b": "Acid-base concepts",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "correct_answer": "D",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 107) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Brønsted acids donate H+, bases accept H+",
+      "option_b": "Oxidation-reduction (organic) — Characteristic group of atoms determining reactivity",
+      "option_c": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "Chirality — Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "C",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 108) A key clinical relevance of E1 vs E2 is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 109) The best example of Functional groups is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_c": "Oxidation-reduction (organic)",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 110) The best example of E1 vs E2 is:",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "E2 is concerted; E1 involves carbocation.",
+      "option_c": "Isomerism",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "B",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 111) Which option is TRUE regarding Isomerism?",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Electrophile",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "Same formula but different structure",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 112) A key clinical relevance of Functional groups is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 113) Which option is TRUE regarding SN1 vs SN2?",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Different substitution mechanisms",
+      "option_c": "Includes constitutional and stereoisomers.",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "B",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 114) A key clinical relevance of Nucleophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 115) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Same formula but different structure",
+      "option_b": "Electrophile — Different elimination mechanisms forming alkenes",
+      "option_c": "Electrophile — Electron-poor species accepting an electron pair",
+      "option_d": "Hydrogen bonding — Electron-poor species accepting an electron pair",
+      "correct_answer": "C",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 116) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Isomerism",
+      "option_b": "Examples include alcohols, amines, carboxylic acids.",
+      "option_c": "Attraction between H and electronegative atoms",
+      "option_d": "Different elimination mechanisms forming alkenes",
+      "correct_answer": "D",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 117) The best example of Functional groups is:",
+      "option_a": "Brønsted acids donate H+, bases accept H+",
+      "option_b": "Examples include alcohols, amines, carboxylic acids.",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Includes constitutional and stereoisomers.",
+      "correct_answer": "B",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 118) The best example of Hydrogen bonding is:",
+      "option_a": "Attacks electrophilic centers in reactions.",
+      "option_b": "Different elimination mechanisms forming alkenes",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "C",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 119) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Brønsted acids donate H+, bases accept H+",
+      "option_c": "Different substitution mechanisms",
+      "option_d": "Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 120) The best example of Chirality is:",
+      "option_a": "Includes constitutional and stereoisomers.",
+      "option_b": "Enantiomers can differ in biologic activity.",
+      "option_c": "Different elimination mechanisms forming alkenes",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "B",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 121) The best example of Hydrogen bonding is:",
+      "option_a": "Same formula but different structure",
+      "option_b": "SN1 vs SN2",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "Electrophile",
+      "correct_answer": "C",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 122) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Different substitution mechanisms",
+      "option_b": "E1 vs E2 — Non-superimposable mirror images (enantiomers)",
+      "option_c": "Oxidation-reduction (organic) — Brønsted acids donate H+, bases accept H+",
+      "option_d": "Hydrogen bonding — Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "A",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 123) The best example of Electrophile is:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "E2 is concerted; E1 involves carbocation.",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 124) The best example of Acid-base concepts is:",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Oxidation-reduction (organic)",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "Electron-poor species accepting an electron pair",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 125) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "Enantiomers can differ in biologic activity.",
+      "option_b": "Brønsted acids donate H+, bases accept H+",
+      "option_c": "Nucleophile",
+      "option_d": "Isomerism",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 126) Which pairing is correct?",
+      "option_a": "Hydrogen bonding — Brønsted acids donate H+, bases accept H+",
+      "option_b": "Nucleophile — Brønsted acids donate H+, bases accept H+",
+      "option_c": "Electrophile — Electron-poor species accepting an electron pair",
+      "option_d": "Isomerism — Same formula but different structure",
+      "correct_answer": "C",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 127) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Brønsted acids donate H+, bases accept H+",
+      "option_b": "E1 vs E2 — Non-superimposable mirror images (enantiomers)",
+      "option_c": "E1 vs E2 — Brønsted acids donate H+, bases accept H+",
+      "option_d": "Functional groups — Characteristic group of atoms determining reactivity",
+      "correct_answer": "D",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 128) The best example of Functional groups is:",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Examples include alcohols, amines, carboxylic acids.",
+      "option_d": "Different elimination mechanisms forming alkenes",
+      "correct_answer": "C",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 129) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Enantiomers can differ in biologic activity.",
+      "option_b": "Oxidation-reduction (organic)",
+      "option_c": "Electron-rich species donating an electron pair",
+      "option_d": "Different substitution mechanisms",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 130) A key clinical relevance of Electrophile is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 131) The best example of Acid-base concepts is:",
+      "option_a": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "Different substitution mechanisms",
+      "option_d": "E1 vs E2",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 132) The best example of Hydrogen bonding is:",
+      "option_a": "Influences boiling point and solubility.",
+      "option_b": "Attraction between H and electronegative atoms",
+      "option_c": "Same formula but different structure",
+      "option_d": "SN1 vs SN2",
+      "correct_answer": "A",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 133) Which pairing is correct?",
+      "option_a": "Nucleophile — Non-superimposable mirror images (enantiomers)",
+      "option_b": "Isomerism — Characteristic group of atoms determining reactivity",
+      "option_c": "Hydrogen bonding — Attraction between H and electronegative atoms",
+      "option_d": "E1 vs E2 — Different substitution mechanisms",
+      "correct_answer": "C",
+      "explanation": "Hydrogen bonding: Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 134) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Non-superimposable mirror images (enantiomers)",
+      "option_b": "Isomerism — Electron-rich species donating an electron pair",
+      "option_c": "Functional groups — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "SN1 vs SN2 — Different substitution mechanisms",
+      "correct_answer": "D",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 135) A key clinical relevance of E1 vs E2 is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 136) The best example of Hydrogen bonding is:",
+      "option_a": "E1 vs E2",
+      "option_b": "Attacks electrophilic centers in reactions.",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "Electrophile",
+      "correct_answer": "C",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 137) The best example of Chirality is:",
+      "option_a": "Different elimination mechanisms forming alkenes",
+      "option_b": "Characteristic group of atoms determining reactivity",
+      "option_c": "Non-superimposable mirror images (enantiomers)",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 138) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "Oxidation-reduction (organic)",
+      "option_b": "Chirality",
+      "option_c": "Acid-base concepts",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "D",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 139) The best example of Hydrogen bonding is:",
+      "option_a": "Isomerism",
+      "option_b": "E1 vs E2",
+      "option_c": "Acid-base concepts",
+      "option_d": "Influences boiling point and solubility.",
+      "correct_answer": "D",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 140) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Brønsted acids donate H+, bases accept H+",
+      "option_b": "Acid-base concepts — Brønsted acids donate H+, bases accept H+",
+      "option_c": "E1 vs E2 — Attraction between H and electronegative atoms",
+      "option_d": "Chirality — Attraction between H and electronegative atoms",
+      "correct_answer": "B",
+      "explanation": "Acid-base concepts: pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 141) Which pairing is correct?",
+      "option_a": "Nucleophile — Characteristic group of atoms determining reactivity",
+      "option_b": "Electrophile — Different elimination mechanisms forming alkenes",
+      "option_c": "Functional groups — Different elimination mechanisms forming alkenes",
+      "option_d": "Electrophile — Electron-poor species accepting an electron pair",
+      "correct_answer": "D",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 142) Which pairing is correct?",
+      "option_a": "Functional groups — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Electrophile — Different substitution mechanisms",
+      "option_c": "Isomerism — Same formula but different structure",
+      "option_d": "Functional groups — Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "C",
+      "explanation": "Isomerism: Includes constitutional and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 143) The best example of Hydrogen bonding is:",
+      "option_a": "Electrophile",
+      "option_b": "Influences boiling point and solubility.",
+      "option_c": "Includes constitutional and stereoisomers.",
+      "option_d": "Oxidation-reduction (organic)",
+      "correct_answer": "B",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 144) The best example of Functional groups is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Electron-rich species donating an electron pair",
+      "option_c": "Different substitution mechanisms",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 145) Which pairing is correct?",
+      "option_a": "Acid-base concepts — Brønsted acids donate H+, bases accept H+",
+      "option_b": "Hydrogen bonding — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Hydrogen bonding — Characteristic group of atoms determining reactivity",
+      "option_d": "Nucleophile — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "A",
+      "explanation": "Acid-base concepts: pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 146) A key clinical relevance of Oxidation-reduction (organic) is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 147) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "E2 is concerted; E1 involves carbocation.",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "Brønsted acids donate H+, bases accept H+",
+      "option_d": "Examples include alcohols, amines, carboxylic acids.",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 148) Which pairing is correct?",
+      "option_a": "SN1 vs SN2 — Different substitution mechanisms",
+      "option_b": "Oxidation-reduction (organic) — Brønsted acids donate H+, bases accept H+",
+      "option_c": "Acid-base concepts — Electron-rich species donating an electron pair",
+      "option_d": "Isomerism — Electron-poor species accepting an electron pair",
+      "correct_answer": "A",
+      "explanation": "SN1 vs SN2: SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 149) Which option is TRUE regarding Chirality?",
+      "option_a": "Different substitution mechanisms",
+      "option_b": "Non-superimposable mirror images (enantiomers)",
+      "option_c": "Acid-base concepts",
+      "option_d": "Chirality",
+      "correct_answer": "B",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 150) The best example of Nucleophile is:",
+      "option_a": "Same formula but different structure",
+      "option_b": "Nucleophile",
+      "option_c": "E1 vs E2",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 151) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Attraction between H and electronegative atoms",
+      "option_c": "Functional groups",
+      "option_d": "Acid-base concepts",
+      "correct_answer": "B",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 152) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "Brønsted acids donate H+, bases accept H+",
+      "option_b": "Isomerism",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "Electron-rich species donating an electron pair",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 153) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Different substitution mechanisms",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "Electron-rich species donating an electron pair",
+      "option_d": "Attraction between H and electronegative atoms",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 154) The best example of Functional groups is:",
+      "option_a": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_b": "Different substitution mechanisms",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "Examples include alcohols, amines, carboxylic acids.",
+      "correct_answer": "D",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 155) Which pairing is correct?",
+      "option_a": "Chirality — Characteristic group of atoms determining reactivity",
+      "option_b": "Electrophile — Electron-poor species accepting an electron pair",
+      "option_c": "Acid-base concepts — Electron-poor species accepting an electron pair",
+      "option_d": "SN1 vs SN2 — Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 156) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Important in metabolism and synthesis.",
+      "option_b": "Characteristic group of atoms determining reactivity",
+      "option_c": "Brønsted acids donate H+, bases accept H+",
+      "option_d": "Electrophile",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 157) The best example of Chirality is:",
+      "option_a": "Different substitution mechanisms",
+      "option_b": "SN1 vs SN2",
+      "option_c": "Oxidation-reduction (organic)",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 158) Which option is TRUE regarding Electrophile?",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Includes constitutional and stereoisomers.",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 159) Which option is TRUE regarding E1 vs E2?",
+      "option_a": "Electrophile",
+      "option_b": "Electron-rich species donating an electron pair",
+      "option_c": "Different elimination mechanisms forming alkenes",
+      "option_d": "Electron-poor species accepting an electron pair",
+      "correct_answer": "C",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 160) A key clinical relevance of Electrophile is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 161) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Attraction between H and electronegative atoms",
+      "option_b": "Chirality",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 162) The best example of Nucleophile is:",
+      "option_a": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_b": "Electron-rich species donating an electron pair",
+      "option_c": "Isomerism",
+      "option_d": "Attacks electrophilic centers in reactions.",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 163) Which option is TRUE regarding Acid-base concepts?",
+      "option_a": "Electron-poor species accepting an electron pair",
+      "option_b": "Brønsted acids donate H+, bases accept H+",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 164) A key clinical relevance of Chirality is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 165) Which option is TRUE regarding SN1 vs SN2?",
+      "option_a": "Electrophile",
+      "option_b": "E1 vs E2",
+      "option_c": "Attacks electrophilic centers in reactions.",
+      "option_d": "Different substitution mechanisms",
+      "correct_answer": "D",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 166) Which pairing is correct?",
+      "option_a": "Nucleophile — Characteristic group of atoms determining reactivity",
+      "option_b": "Acid-base concepts — Brønsted acids donate H+, bases accept H+",
+      "option_c": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "E1 vs E2 — Electron-poor species accepting an electron pair",
+      "correct_answer": "B",
+      "explanation": "Acid-base concepts: pKa indicates acid strength; lower pKa = stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 167) Which option is TRUE regarding Oxidation-reduction (organic)?",
+      "option_a": "E1 vs E2",
+      "option_b": "Nucleophile",
+      "option_c": "E2 is concerted; E1 involves carbocation.",
+      "option_d": "Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 168) A key clinical relevance of Isomerism is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 169) A key clinical relevance of Isomerism is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 170) The best example of Oxidation-reduction (organic) is:",
+      "option_a": "Non-superimposable mirror images (enantiomers)",
+      "option_b": "Acid-base concepts",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "SN1 vs SN2",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 171) A key clinical relevance of Isomerism is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 172) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Electron-rich species donating an electron pair",
+      "option_b": "Nucleophile — Different substitution mechanisms",
+      "option_c": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "Oxidation-reduction (organic) — Different elimination mechanisms forming alkenes",
+      "correct_answer": "C",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 173) A key clinical relevance of Hydrogen bonding is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 174) A key clinical relevance of SN1 vs SN2 is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 175) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_b": "Acid-base concepts",
+      "option_c": "Attraction between H and electronegative atoms",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "C",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 176) The best example of E1 vs E2 is:",
+      "option_a": "E1 vs E2",
+      "option_b": "E2 is concerted; E1 involves carbocation.",
+      "option_c": "Same formula but different structure",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "B",
+      "explanation": "E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 177) Which option is TRUE regarding Electrophile?",
+      "option_a": "E1 vs E2",
+      "option_b": "Electron-poor species accepting an electron pair",
+      "option_c": "Hydrogen bonding",
+      "option_d": "E2 is concerted; E1 involves carbocation.",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 178) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Electron-poor species accepting an electron pair",
+      "option_b": "Oxidation-reduction (organic) — Different elimination mechanisms forming alkenes",
+      "option_c": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_d": "Chirality — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "C",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 179) Which option is TRUE regarding Chirality?",
+      "option_a": "Same formula but different structure",
+      "option_b": "E1 vs E2",
+      "option_c": "Electron-rich species donating an electron pair",
+      "option_d": "Non-superimposable mirror images (enantiomers)",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 180) Which pairing is correct?",
+      "option_a": "E1 vs E2 — Different elimination mechanisms forming alkenes",
+      "option_b": "Electrophile — Different elimination mechanisms forming alkenes",
+      "option_c": "Functional groups — Non-superimposable mirror images (enantiomers)",
+      "option_d": "Chirality — Oxidation increases bonds to heteroatoms or decreases H",
+      "correct_answer": "A",
+      "explanation": "E1 vs E2: E2 is concerted; E1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 181) Which pairing is correct?",
+      "option_a": "Nucleophile — Different elimination mechanisms forming alkenes",
+      "option_b": "Nucleophile — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Functional groups — Characteristic group of atoms determining reactivity",
+      "option_d": "Hydrogen bonding — Different substitution mechanisms",
+      "correct_answer": "C",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 182) Which option is TRUE regarding Chirality?",
+      "option_a": "Brønsted acids donate H+, bases accept H+",
+      "option_b": "Chirality",
+      "option_c": "Non-superimposable mirror images (enantiomers)",
+      "option_d": "Isomerism",
+      "correct_answer": "C",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 183) A key clinical relevance of Chirality is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 184) A key clinical relevance of Electrophile is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 185) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "Attraction between H and electronegative atoms",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Characteristic group of atoms determining reactivity",
+      "option_d": "Electron-poor species accepting an electron pair",
+      "correct_answer": "A",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 186) The best example of Chirality is:",
+      "option_a": "Enantiomers can differ in biologic activity.",
+      "option_b": "Includes constitutional and stereoisomers.",
+      "option_c": "Important in metabolism and synthesis.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Enantiomers can differ in biologic activity."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 187) Which pairing is correct?",
+      "option_a": "Oxidation-reduction (organic) — Brønsted acids donate H+, bases accept H+",
+      "option_b": "Oxidation-reduction (organic) — Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "SN1 vs SN2 — Brønsted acids donate H+, bases accept H+",
+      "option_d": "Nucleophile — Brønsted acids donate H+, bases accept H+",
+      "correct_answer": "B",
+      "explanation": "Oxidation-reduction (organic): Important in metabolism and synthesis."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 188) The best example of Electrophile is:",
+      "option_a": "Hydrogen bonding",
+      "option_b": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Acid-base concepts",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 189) The best example of Hydrogen bonding is:",
+      "option_a": "Influences boiling point and solubility.",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "E1 vs E2",
+      "option_d": "SN1 vs SN2",
+      "correct_answer": "A",
+      "explanation": "Influences boiling point and solubility."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 190) Which option is TRUE regarding Electrophile?",
+      "option_a": "Different elimination mechanisms forming alkenes",
+      "option_b": "SN2 is one-step with inversion; SN1 involves carbocation.",
+      "option_c": "Electron-poor species accepting an electron pair",
+      "option_d": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 191) Which option is TRUE regarding SN1 vs SN2?",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Different substitution mechanisms",
+      "option_c": "Influences boiling point and solubility.",
+      "option_d": "E1 vs E2",
+      "correct_answer": "B",
+      "explanation": "SN2 is one-step with inversion; SN1 involves carbocation."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 192) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Oxidation increases bonds to heteroatoms or decreases H",
+      "option_c": "Electron-rich species donating an electron pair",
+      "option_d": "Influences boiling point and solubility.",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophilic centers in reactions."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 193) Which option is TRUE regarding Electrophile?",
+      "option_a": "Characteristic group of atoms determining reactivity",
+      "option_b": "Electron-poor species accepting an electron pair",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Enantiomers can differ in biologic activity.",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 194) A key clinical relevance of E1 vs E2 is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 195) A key clinical relevance of Oxidation-reduction (organic) is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 196) Which pairing is correct?",
+      "option_a": "Oxidation-reduction (organic) — Different elimination mechanisms forming alkenes",
+      "option_b": "E1 vs E2 — Same formula but different structure",
+      "option_c": "Hydrogen bonding — Different substitution mechanisms",
+      "option_d": "Functional groups — Characteristic group of atoms determining reactivity",
+      "correct_answer": "D",
+      "explanation": "Functional groups: Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 197) The best example of Functional groups is:",
+      "option_a": "Examples include alcohols, amines, carboxylic acids.",
+      "option_b": "Nucleophile",
+      "option_c": "Functional groups",
+      "option_d": "Different elimination mechanisms forming alkenes",
+      "correct_answer": "A",
+      "explanation": "Examples include alcohols, amines, carboxylic acids."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 198) A key clinical relevance of SN1 vs SN2 is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 199) A key clinical relevance of Hydrogen bonding is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Organic Chemistry (Intro) Item 200) The best example of Acid-base concepts is:",
+      "option_a": "Nucleophile",
+      "option_b": "Acid-base concepts",
+      "option_c": "pKa indicates acid strength; lower pKa = stronger acid.",
+      "option_d": "Characteristic group of atoms determining reactivity",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa = stronger acid."
+    }
+  ]
+}
