@@ -1,0 +1,434 @@
+[
+  {
+    "question": "A 58-year-old man with chronic alcohol use presents with ascites and confusion. Serum sodium is 118 mEq/L, and he is euvolemic. Urine sodium is 45 mEq/L, urine osmolality 520 mOsm/kg. What is the most appropriate treatment for his hyponatremia?",
+    "option_a": "3% hypertonic saline bolus",
+    "option_b": "Fluid restriction to 1-1.5 L/day",
+    "option_c": "Normal saline infusion",
+    "option_d": "Demeclocycline",
+    "correct_answer": "B",
+    "explanation": "Euvolemic hyponatremia with concentrated urine and elevated urine sodium suggests SIADH (common in liver disease). First-line treatment is fluid restriction. Correct sodium slowly (<8-10 mEq/L per 24 hours) to prevent osmotic demyelination syndrome."
+  },
+  {
+    "question": "A 45-year-old woman presents with progressive weakness over 6 months. She has difficulty getting up from a chair and climbing stairs. Deep tendon reflexes are intact. CK is normal. EMG shows myopathic pattern. She takes atorvastatin 80 mg daily. What is the most likely diagnosis?",
+    "option_a": "Statin-induced rhabdomyolysis",
+    "option_b": "Immune-mediated necrotizing myopathy (anti-HMGCR)",
+    "option_c": "Polymyositis",
+    "option_d": "Inclusion body myositis",
+    "correct_answer": "B",
+    "explanation": "Anti-HMGCR myopathy is an immune-mediated necrotizing myopathy associated with statin exposure. Unlike typical statin myopathy, it persists after statin discontinuation, has normal or mildly elevated CK, and requires immunosuppressive treatment."
+  },
+  {
+    "question": "A 72-year-old man with prosthetic aortic valve replacement 3 years ago presents with fever, weight loss, and fatigue for 2 months. Blood cultures grow Cutibacterium (formerly Propionibacterium) acnes. TEE shows vegetation on the prosthetic valve. What is the most appropriate management?",
+    "option_a": "IV antibiotics for 6 weeks, then reassess",
+    "option_b": "IV antibiotics plus early surgical valve replacement",
+    "option_c": "Oral antibiotics for 3 months",
+    "option_d": "Repeat blood cultures before starting treatment",
+    "correct_answer": "B",
+    "explanation": "Prosthetic valve endocarditis (PVE), especially with difficult-to-treat organisms like C. acnes, generally requires combined medical and surgical therapy. Early surgery improves outcomes in PVE with persistent infection or valve dysfunction."
+  },
+  {
+    "question": "A 35-year-old woman presents with recurrent episodes of severe abdominal pain, peripheral neuropathy, and confusion. During attacks, her urine turns dark red-brown upon standing. What is the most appropriate diagnostic test?",
+    "option_a": "Serum porphobilinogen and aminolevulinic acid",
+    "option_b": "Urine porphobilinogen",
+    "option_c": "Serum ferritin",
+    "option_d": "Hemoglobin electrophoresis",
+    "correct_answer": "B",
+    "explanation": "Acute intermittent porphyria presents with neurovisceral attacks (abdominal pain, neuropathy, psychiatric symptoms) and urine that darkens on light exposure. Urine porphobilinogen (PBG) is elevated during attacks. Treatment includes IV hemin and glucose loading."
+  },
+  {
+    "question": "A 68-year-old man with severe COPD (FEV1 28% predicted) on maximal medical therapy has resting hypoxemia (PaO2 52 mmHg on room air). What intervention has proven mortality benefit?",
+    "option_a": "Nocturnal oxygen only",
+    "option_b": "Continuous long-term oxygen therapy (≥15 hours/day)",
+    "option_c": "Intermittent oxygen during exertion only",
+    "option_d": "Pulmonary rehabilitation alone",
+    "correct_answer": "B",
+    "explanation": "Long-term oxygen therapy (LTOT) for ≥15 hours/day improves survival in COPD patients with severe resting hypoxemia (PaO2 ≤55 mmHg, or ≤59 with cor pulmonale/polycythemia). NOTT and MRC trials demonstrated mortality benefit."
+  },
+  {
+    "question": "A 55-year-old woman with type 2 diabetes presents with right facial pain, bloody nasal discharge, and fever. She was recently hospitalized for DKA. Nasal endoscopy reveals black necrotic tissue on the middle turbinate. CT shows sinus opacification with bone erosion. What is the first priority?",
+    "option_a": "IV broad-spectrum antibiotics",
+    "option_b": "Emergent surgical debridement plus IV amphotericin B",
+    "option_c": "Biopsy and culture before any treatment",
+    "option_d": "Hyperbaric oxygen therapy",
+    "correct_answer": "B",
+    "explanation": "Rhinocerebral mucormycosis is a fulminant angioinvasive fungal infection requiring emergent surgical debridement plus IV amphotericin B. Black eschar indicates tissue necrosis from vascular invasion. Delays in treatment increase mortality significantly."
+  },
+  {
+    "question": "A 40-year-old man with HIV (CD4 45 cells/μL) presents with headache and visual changes. MRI brain shows multiple ring-enhancing lesions with surrounding edema. Toxoplasma IgG is positive. What is the most appropriate next step?",
+    "option_a": "Brain biopsy",
+    "option_b": "Empiric treatment for toxoplasmosis with pyrimethamine and sulfadiazine",
+    "option_c": "Start antiretroviral therapy immediately",
+    "option_d": "Lumbar puncture for CSF analysis",
+    "correct_answer": "B",
+    "explanation": "In AIDS patients with ring-enhancing brain lesions and positive toxoplasma serology, empiric treatment for CNS toxoplasmosis is standard. Clinical and radiographic response is expected in 2 weeks. Brain biopsy is reserved for treatment failure."
+  },
+  {
+    "question": "A 62-year-old woman with long-standing rheumatoid arthritis presents with paresthesias in her hands bilaterally, worse at night. Tinel and Phalen signs are positive. Nerve conduction studies confirm median nerve entrapment at the wrist. What is the most likely cause in this patient?",
+    "option_a": "Cervical radiculopathy",
+    "option_b": "Carpal tunnel syndrome from synovitis",
+    "option_c": "Diabetic neuropathy",
+    "option_d": "Vasculitic neuropathy",
+    "correct_answer": "B",
+    "explanation": "Carpal tunnel syndrome is common in RA due to synovial inflammation and tenosynovitis compressing the median nerve. Conservative management includes wrist splinting and local corticosteroid injection. Surgical release may be needed."
+  },
+  {
+    "question": "A 50-year-old man with liver cirrhosis presents with sudden onset severe abdominal pain and distension. Paracentesis shows cloudy fluid with WBC 5200/mm³ (85% PMN), protein 3.2 g/dL, and LDH higher than serum. What does this suggest?",
+    "option_a": "Spontaneous bacterial peritonitis",
+    "option_b": "Secondary bacterial peritonitis (bowel perforation)",
+    "option_c": "Tuberculous peritonitis",
+    "option_d": "Malignant ascites",
+    "correct_answer": "B",
+    "explanation": "Secondary peritonitis (from perforation) differs from SBP by having very high PMN count, ascitic protein >1 g/dL, LDH greater than serum, glucose <50 mg/dL, and multiple organisms. Requires surgical exploration, not just antibiotics."
+  },
+  {
+    "question": "A 38-year-old man presents with episodic severe headaches with autonomic features (lacrimation, nasal congestion, ptosis) lasting 45-90 minutes, occurring 3-4 times daily for the past 3 weeks. What is the most effective abortive treatment?",
+    "option_a": "Oral sumatriptan",
+    "option_b": "High-flow oxygen (100% at 12-15 L/min)",
+    "option_c": "IV ketorolac",
+    "option_d": "Oral prednisone",
+    "correct_answer": "B",
+    "explanation": "Cluster headache attacks are best aborted with high-flow oxygen (100% via non-rebreather mask) or subcutaneous/intranasal sumatriptan. Oral triptans are too slow. Verapamil is the first-line preventive during cluster periods."
+  },
+  {
+    "question": "A 65-year-old woman with metastatic breast cancer presents with confusion and lethargy. Labs show sodium 128 mEq/L, potassium 5.8 mEq/L, glucose 65 mg/dL. Morning cortisol is 2 μg/dL. What is the underlying etiology?",
+    "option_a": "Hypopituitarism from brain metastases",
+    "option_b": "Adrenal insufficiency from adrenal metastases",
+    "option_c": "Syndrome of inappropriate ADH secretion",
+    "option_d": "Tumor lysis syndrome",
+    "correct_answer": "B",
+    "explanation": "Primary adrenal insufficiency (Addison's disease) presents with hyponatremia, hyperkalemia, and hypoglycemia due to loss of both cortisol and aldosterone. Adrenal metastases (breast, lung) can cause bilateral adrenal destruction. SIADH causes hyponatremia but not hyperkalemia."
+  },
+  {
+    "question": "A 29-year-old woman with SLE presents with acute pleuritic chest pain and dyspnea. ECG shows sinus tachycardia with diffuse ST elevation. Troponin is mildly elevated. Echo shows moderate pericardial effusion with early tamponade physiology. What is the most appropriate immediate management?",
+    "option_a": "High-dose aspirin and colchicine",
+    "option_b": "Pericardiocentesis",
+    "option_c": "IV pulse methylprednisolone",
+    "option_d": "Emergent cardiac surgery",
+    "correct_answer": "B",
+    "explanation": "Pericardial effusion with tamponade physiology requires urgent pericardiocentesis regardless of etiology. This stabilizes the patient. SLE pericarditis is then treated with corticosteroids. NSAIDs may be added but are insufficient for tamponade."
+  },
+  {
+    "question": "A 52-year-old man with diabetes and hypertension presents with progressive bilateral leg swelling and foamy urine. Labs show creatinine 1.8 mg/dL, albumin 2.1 g/dL, and 24-hour urine protein 8.5 g. Kidney biopsy shows nodular glomerulosclerosis. What is the diagnosis?",
+    "option_a": "Focal segmental glomerulosclerosis",
+    "option_b": "Diabetic nephropathy (Kimmelstiel-Wilson nodules)",
+    "option_c": "Membranous nephropathy",
+    "option_d": "IgA nephropathy",
+    "correct_answer": "B",
+    "explanation": "Nodular glomerulosclerosis (Kimmelstiel-Wilson nodules) is pathognomonic for diabetic nephropathy. Nephrotic-range proteinuria in a diabetic with retinopathy usually doesn't require biopsy, but nodular pattern confirms diabetic kidney disease."
+  },
+  {
+    "question": "A 60-year-old man with newly diagnosed lung adenocarcinoma presents with facial swelling, neck vein distension, and arm edema. CT shows a mass compressing the superior vena cava. What is the initial management priority?",
+    "option_a": "Emergent thoracotomy",
+    "option_b": "Tissue diagnosis then radiation or stenting",
+    "option_c": "Immediate chemotherapy without biopsy",
+    "option_d": "Anticoagulation alone",
+    "correct_answer": "B",
+    "explanation": "SVC syndrome from malignancy requires tissue diagnosis before treatment when possible, as treatment differs by tumor type. Endovascular stenting provides rapid relief of symptoms. Radiation is used for NSCLC; chemotherapy for SCLC or lymphoma."
+  },
+  {
+    "question": "A 47-year-old woman presents with symmetrical proximal muscle weakness, dysphagia, and a rash over her knuckles and eyelids. Anti-Mi-2 antibody is positive. What is the prognosis associated with this antibody?",
+    "option_a": "High risk of interstitial lung disease",
+    "option_b": "Classic dermatomyositis with good treatment response",
+    "option_c": "Rapidly progressive refractory disease",
+    "option_d": "High risk of malignancy",
+    "correct_answer": "B",
+    "explanation": "Anti-Mi-2 antibodies are associated with 'classic' dermatomyositis (V-sign, shawl sign, Gottron's papules) and generally predict good response to immunosuppressive therapy and favorable prognosis. Anti-Jo-1 is associated with ILD."
+  },
+  {
+    "question": "A 70-year-old man with atrial fibrillation on apixaban undergoes colonoscopy with polypectomy. He is scheduled for elective hip replacement in 2 weeks. What is the appropriate perioperative anticoagulation management?",
+    "option_a": "Stop apixaban 24 hours before surgery, no bridging",
+    "option_b": "Stop apixaban 48-72 hours before surgery, no bridging",
+    "option_c": "Continue apixaban through surgery",
+    "option_d": "Stop apixaban 5 days before, bridge with LMWH",
+    "correct_answer": "B",
+    "explanation": "For high-bleeding-risk procedures like hip replacement, DOACs should be held 48-72 hours (2-3 half-lives). Bridging is NOT recommended for most AF patients on DOACs given rapid onset/offset. Resume 48-72 hours post-op when hemostasis achieved."
+  },
+  {
+    "question": "A 33-year-old man presents with recurrent sinopulmonary infections since childhood. He has bronchiectasis on CT. Immunoglobulin levels show IgG 180 mg/dL (normal 700-1600), IgA <5 mg/dL, IgM 25 mg/dL. B cells are present but reduced. What is the diagnosis?",
+    "option_a": "X-linked agammaglobulinemia",
+    "option_b": "Common variable immunodeficiency (CVID)",
+    "option_c": "Selective IgA deficiency",
+    "option_d": "Hyper-IgM syndrome",
+    "correct_answer": "B",
+    "explanation": "CVID presents in adolescence/adulthood with recurrent infections and low IgG with low IgA and/or IgM, unlike X-linked agammaglobulinemia which has absent B cells and presents in infancy. Treatment is lifelong IVIG replacement."
+  },
+  {
+    "question": "A 56-year-old man with ESRD on hemodialysis presents with severe bone pain and proximal muscle weakness. Labs show calcium 8.5 mg/dL, phosphorus 8.2 mg/dL, PTH 1200 pg/mL, and aluminum level is normal. X-rays show subperiosteal bone resorption of the phalanges. What is the diagnosis?",
+    "option_a": "Adynamic bone disease",
+    "option_b": "Osteitis fibrosa cystica (severe secondary hyperparathyroidism)",
+    "option_c": "Aluminum bone disease",
+    "option_d": "Osteomalacia",
+    "correct_answer": "B",
+    "explanation": "Severe secondary hyperparathyroidism in ESRD causes osteitis fibrosa cystica with high-turnover bone disease. Subperiosteal bone resorption (especially radial aspect of middle phalanges) is characteristic. May require parathyroidectomy if refractory to medical therapy."
+  },
+  {
+    "question": "A 48-year-old woman with no significant history presents with painless jaundice, dark urine, and clay-colored stools. MRCP shows a 2-cm mass at the head of pancreas with biliary and pancreatic duct dilation (double duct sign). CA 19-9 is elevated. What is the next step?",
+    "option_a": "ERCP with stenting and biopsy",
+    "option_b": "Surgical evaluation for Whipple procedure",
+    "option_c": "CT-guided biopsy of the mass",
+    "option_d": "Chemotherapy without tissue diagnosis",
+    "correct_answer": "B",
+    "explanation": "Resectable pancreatic head mass with classic presentation should proceed directly to surgical evaluation (Whipple procedure) if patient is a surgical candidate. Preoperative biopsy is not required and may cause tumor seeding. ERCP for palliation if unresectable."
+  },
+  {
+    "question": "A 65-year-old man with ischemic cardiomyopathy (EF 20%) on optimal medical therapy presents with refractory angina despite maximal anti-anginal medications. Coronary angiography shows diffuse three-vessel disease not amenable to revascularization. What device therapy may help?",
+    "option_a": "Intra-aortic balloon pump",
+    "option_b": "Enhanced external counterpulsation (EECP)",
+    "option_c": "Left ventricular assist device",
+    "option_d": "Implantable cardioverter-defibrillator alone",
+    "correct_answer": "B",
+    "explanation": "Enhanced external counterpulsation (EECP) can reduce angina frequency in patients with refractory angina who are not candidates for revascularization. It promotes collateral circulation. LVAD is for advanced HF, not primarily for angina."
+  },
+  {
+    "question": "A 42-year-old woman presents with diarrhea, flushing, and wheezing. She has hepatomegaly. 24-hour urine 5-HIAA is elevated. CT shows liver metastases and a small bowel mass. Echocardiogram shows thickened, retracted tricuspid valve leaflets with severe regurgitation. What causes the cardiac findings?",
+    "option_a": "Direct tumor invasion",
+    "option_b": "Serotonin-induced fibrosis of right heart valves",
+    "option_c": "Coronary artery embolization",
+    "option_d": "Paraneoplastic antibody-mediated damage",
+    "correct_answer": "B",
+    "explanation": "Carcinoid heart disease results from serotonin (5-HT) exposure causing fibrosis of right-sided heart valves (tricuspid, pulmonic). Left-sided valves are protected by pulmonary metabolism of serotonin. Somatostatin analogs can slow progression."
+  },
+  {
+    "question": "A 55-year-old man with chronic hepatitis C achieves sustained virologic response (SVR) after direct-acting antiviral therapy. His cirrhosis was Child-Pugh A. What surveillance is still required?",
+    "option_a": "No further follow-up needed after SVR",
+    "option_b": "Continued HCC surveillance with ultrasound every 6 months",
+    "option_c": "Annual liver biopsy",
+    "option_d": "HCV RNA testing every 3 months indefinitely",
+    "correct_answer": "B",
+    "explanation": "Patients with cirrhosis remain at risk for HCC even after SVR and require lifelong surveillance (ultrasound ± AFP every 6 months). SVR does not eliminate pre-existing cirrhosis or HCC risk, though it reduces progression and mortality."
+  },
+  {
+    "question": "A 28-year-old man presents with bilateral hilar lymphadenopathy and erythema nodosum. He has no respiratory symptoms. ACE level is elevated. Biopsy of a skin nodule shows non-caseating granulomas. What is the most appropriate management?",
+    "option_a": "Immediate high-dose prednisone",
+    "option_b": "Observation with NSAIDs for symptom control",
+    "option_c": "Methotrexate initiation",
+    "option_d": "Anti-TB therapy empirically",
+    "correct_answer": "B",
+    "explanation": "Löfgren syndrome (bilateral hilar adenopathy + erythema nodosum ± arthritis) is an acute, self-limited form of sarcoidosis with excellent prognosis (>90% spontaneous remission). Treatment is symptomatic with NSAIDs. Corticosteroids reserved for organ-threatening disease."
+  },
+  {
+    "question": "A 60-year-old woman with breast cancer on tamoxifen presents with calf swelling and pain. Ultrasound confirms DVT. She has no prior VTE history. What is the most appropriate anticoagulation strategy?",
+    "option_a": "Warfarin for 3 months",
+    "option_b": "LMWH for duration of cancer treatment",
+    "option_c": "Apixaban or rivaroxaban",
+    "option_d": "Aspirin alone",
+    "correct_answer": "C",
+    "explanation": "For cancer-associated VTE, DOACs (edoxaban, rivaroxaban, apixaban) are now preferred over LMWH for most patients based on recent trials showing similar efficacy with improved convenience. LMWH still preferred for GI/GU malignancies due to bleeding risk."
+  },
+  {
+    "question": "A 75-year-old man with Parkinson's disease on levodopa/carbidopa develops visual hallucinations and paranoid delusions. His motor symptoms are well controlled. What is the most appropriate medication to manage his psychosis?",
+    "option_a": "Haloperidol",
+    "option_b": "Pimavanserin or quetiapine",
+    "option_c": "Risperidone",
+    "option_d": "Olanzapine",
+    "correct_answer": "B",
+    "explanation": "Parkinson's disease psychosis requires antipsychotics with minimal D2 blockade to avoid worsening motor symptoms. Pimavanserin (5-HT2A inverse agonist, FDA-approved for PD psychosis) or quetiapine are preferred. Typical antipsychotics and most atypicals worsen parkinsonism."
+  },
+  {
+    "question": "A 52-year-old man presents with chronic diarrhea, migratory arthritis, and cognitive decline. Small bowel biopsy shows foamy macrophages with PAS-positive inclusions. Electron microscopy reveals bacilliform organisms. What is the recommended treatment duration?",
+    "option_a": "2 weeks IV followed by 3 months oral therapy",
+    "option_b": "2 weeks IV ceftriaxone followed by 12 months oral TMP-SMX",
+    "option_c": "6 weeks IV antibiotics only",
+    "option_d": "Lifelong suppressive therapy",
+    "correct_answer": "B",
+    "explanation": "Whipple disease (Tropheryma whipplei) requires prolonged treatment: 2 weeks IV ceftriaxone for CNS penetration, followed by 12 months oral TMP-SMX. CNS involvement may require longer therapy. Relapse is common with shorter courses."
+  },
+  {
+    "question": "A 44-year-old woman presents with symmetric small joint polyarthritis, morning stiffness, and positive anti-CCP antibody. She wishes to become pregnant. Which DMARD is safest to continue during pregnancy?",
+    "option_a": "Methotrexate",
+    "option_b": "Hydroxychloroquine",
+    "option_c": "Leflunomide",
+    "option_d": "Mycophenolate mofetil",
+    "correct_answer": "B",
+    "explanation": "Hydroxychloroquine is safe in pregnancy and breastfeeding. Methotrexate and leflunomide are teratogenic and must be stopped (leflunomide requires washout). Sulfasalazine and low-dose prednisone are also acceptable in pregnancy."
+  },
+  {
+    "question": "A 68-year-old man on hemodialysis for 8 years develops shoulder pain and carpal tunnel syndrome bilaterally. X-rays show cystic lesions in the carpal bones and humeral head. What is the likely diagnosis?",
+    "option_a": "Calcium pyrophosphate deposition disease",
+    "option_b": "Dialysis-related amyloidosis (β2-microglobulin)",
+    "option_c": "Hyperparathyroidism bone disease",
+    "option_d": "Septic arthritis",
+    "correct_answer": "B",
+    "explanation": "Dialysis-related amyloidosis from β2-microglobulin accumulation causes carpal tunnel syndrome, destructive arthropathy, and bone cysts, typically after >5 years of dialysis. High-flux membranes and kidney transplantation can halt progression."
+  },
+  {
+    "question": "A 30-year-old woman with recurrent miscarriages and history of DVT tests positive for lupus anticoagulant, anticardiolipin antibodies, and anti-β2-glycoprotein I on two occasions 14 weeks apart. She is not currently pregnant. What is the recommended long-term anticoagulation?",
+    "option_a": "Aspirin alone",
+    "option_b": "Warfarin with target INR 2-3",
+    "option_c": "Rivaroxaban",
+    "option_d": "No anticoagulation until next pregnancy",
+    "correct_answer": "B",
+    "explanation": "Triple-positive antiphospholipid syndrome (all three antibody types positive) with thrombosis requires lifelong warfarin (INR 2-3). DOACs are associated with higher thrombosis recurrence in APS patients, especially triple-positive, per TRAPS trial."
+  },
+  {
+    "question": "A 58-year-old man with alcoholic cirrhosis develops confusion and asterixis. Serum ammonia is 180 μmol/L. He is started on lactulose but remains encephalopathic after 48 hours with 4 bowel movements daily. What should be added?",
+    "option_a": "Neomycin",
+    "option_b": "Rifaximin",
+    "option_c": "Metronidazole",
+    "option_d": "Increase lactulose to 8 bowel movements daily",
+    "correct_answer": "B",
+    "explanation": "Rifaximin added to lactulose reduces hepatic encephalopathy recurrence and improves response in patients not adequately controlled on lactulose alone. It's preferred over neomycin due to better safety profile (minimal systemic absorption)."
+  },
+  {
+    "question": "A 45-year-old man presents with progressive exertional dyspnea. He has no smoking history. Alpha-1 antitrypsin level is low, and genotype shows PiZZ. HRCT shows panlobular emphysema with lower lobe predominance. What additional organ should be evaluated?",
+    "option_a": "Kidney (for nephropathy)",
+    "option_b": "Liver (for cirrhosis)",
+    "option_c": "Heart (for cardiomyopathy)",
+    "option_d": "Pancreas (for pancreatitis)",
+    "correct_answer": "B",
+    "explanation": "Alpha-1 antitrypsin deficiency (PiZZ genotype) causes both lung disease (panlobular emphysema) and liver disease (cirrhosis from accumulated misfolded protein in hepatocytes). Liver disease can occur in childhood or adulthood. Augmentation therapy is available for lung disease."
+  },
+  {
+    "question": "A 39-year-old woman with Graves' disease prefers definitive treatment over long-term antithyroid drugs. She has moderate orbitopathy with proptosis. What is the preferred definitive therapy?",
+    "option_a": "Radioactive iodine ablation",
+    "option_b": "Total thyroidectomy",
+    "option_c": "Higher dose methimazole indefinitely",
+    "option_d": "Orbital radiation first",
+    "correct_answer": "B",
+    "explanation": "In Graves' disease with moderate-to-severe orbitopathy, thyroidectomy is preferred over radioactive iodine, which can worsen eye disease. If RAI is chosen, concurrent corticosteroids are needed. Thyroidectomy provides rapid, reliable cure."
+  },
+  {
+    "question": "A 72-year-old man with heart failure (EF 30%) and atrial fibrillation has heart rate of 110 bpm despite maximum tolerated beta-blocker dose. He is already on digoxin 0.125 mg daily with digoxin level 0.9 ng/mL. What is the next step for rate control?",
+    "option_a": "Increase digoxin dose",
+    "option_b": "Add diltiazem",
+    "option_c": "AV nodal ablation with pacemaker",
+    "option_d": "Catheter ablation for rhythm control",
+    "correct_answer": "C",
+    "explanation": "In HFrEF, non-dihydropyridine calcium channel blockers (diltiazem, verapamil) are contraindicated due to negative inotropy. When beta-blocker and digoxin are maximized without rate control, AV nodal ablation with permanent pacing ('ablate and pace') is an option."
+  },
+  {
+    "question": "A 25-year-old man presents with acute scrotal pain and swelling. Urinalysis shows pyuria. Ultrasound reveals increased blood flow to the left epididymis. NAAT for Chlamydia and gonorrhea is pending. What is the most appropriate empiric treatment?",
+    "option_a": "Ceftriaxone 500 mg IM once plus doxycycline 100 mg BID for 10 days",
+    "option_b": "Ciprofloxacin 500 mg BID for 14 days",
+    "option_c": "Azithromycin 1g single dose only",
+    "option_d": "TMP-SMX for 10 days",
+    "correct_answer": "A",
+    "explanation": "Acute epididymitis in sexually active men under 35 is usually caused by Chlamydia trachomatis and/or Neisseria gonorrhoeae. Treatment is ceftriaxone (gonorrhea) plus doxycycline (chlamydia). Sexual partners need treatment."
+  },
+  {
+    "question": "A 63-year-old woman on long-term PPI therapy for GERD presents with hip fracture after minimal trauma. DEXA shows T-score -2.8 at the hip. Labs show low magnesium. What adverse effects are associated with chronic PPI use?",
+    "option_a": "Hypercalcemia and vitamin D toxicity",
+    "option_b": "Osteoporosis, hypomagnesemia, and increased C. difficile risk",
+    "option_c": "Hyperkalemia and metabolic acidosis",
+    "option_d": "Iron overload and hemochromatosis",
+    "correct_answer": "B",
+    "explanation": "Long-term PPI use is associated with increased fracture risk, hypomagnesemia, vitamin B12 deficiency, C. difficile infection, and possible kidney disease. PPIs should be used at lowest effective dose for shortest duration. Deprescribing should be considered."
+  },
+  {
+    "question": "A 50-year-old man with no cardiac history collapses during a marathon. Bystander CPR is initiated. Rhythm shows ventricular fibrillation. He is defibrillated with ROSC. Post-arrest ECG shows no ST elevation. Echocardiogram shows normal EF. Coronary angiogram is normal. What is the next diagnostic step?",
+    "option_a": "Repeat echocardiogram in 6 weeks",
+    "option_b": "Electrophysiology study and genetic testing",
+    "option_c": "Cardiac MRI only",
+    "option_d": "Exercise stress test",
+    "correct_answer": "B",
+    "explanation": "Sudden cardiac arrest with VF, normal coronaries, and normal EF suggests primary arrhythmia syndrome (Brugada, long QT, CPVT, or idiopathic VF). EP study, drug challenge (ajmaline/procainamide for Brugada), and genetic testing are indicated. ICD is usually implanted."
+  },
+  {
+    "question": "A 35-year-old woman presents with right upper quadrant pain and fever. Ultrasound shows dilated common bile duct (12 mm) with stones. Labs show WBC 18,000, total bilirubin 6 mg/dL, and ALP 450 U/L. BP is 85/55 mmHg despite fluids. What is the most urgent intervention?",
+    "option_a": "Laparoscopic cholecystectomy",
+    "option_b": "ERCP with biliary decompression",
+    "option_c": "CT abdomen for further evaluation",
+    "option_d": "Percutaneous cholecystostomy",
+    "correct_answer": "B",
+    "explanation": "Acute cholangitis with septic shock (Charcot's triad + hypotension = Reynolds' pentad) requires urgent biliary decompression, preferably ERCP with sphincterotomy and stone extraction. This is a medical emergency; cholecystectomy can wait until stabilized."
+  },
+  {
+    "question": "A 42-year-old woman with multiple sclerosis on natalizumab for 3 years develops progressive cognitive decline and hemiparesis over weeks. MRI shows a large non-enhancing white matter lesion. JC virus PCR in CSF is positive. What is the diagnosis and initial management?",
+    "option_a": "MS relapse - high-dose IV steroids",
+    "option_b": "Progressive multifocal leukoencephalopathy (PML) - discontinue natalizumab and plasmapheresis",
+    "option_c": "CNS lymphoma - brain biopsy",
+    "option_d": "Stroke - antiplatelet therapy",
+    "correct_answer": "B",
+    "explanation": "PML is caused by JC virus reactivation in immunosuppressed patients, including those on natalizumab (anti-α4 integrin). Treatment: stop natalizumab immediately and plasmapheresis to accelerate drug clearance. IRIS may occur with immune reconstitution."
+  },
+  {
+    "question": "A 58-year-old man with heart failure (EF 25%) and LBBB (QRS 165 ms) undergoes CRT-D implantation. At 6-month follow-up, he reports significant improvement in symptoms. Echo now shows EF 45%. What term describes this response?",
+    "option_a": "Partial response",
+    "option_b": "Super-response to CRT",
+    "option_c": "Appropriate ICD function",
+    "option_d": "Reverse remodeling without clinical benefit",
+    "correct_answer": "B",
+    "explanation": "CRT super-responders have dramatic improvement in EF (often normalizing) and symptoms. LBBB with wide QRS (≥150 ms) predicts best response. About 30% of CRT patients are super-responders. Some may have recovery sufficient to consider deactivating ICD therapy."
+  },
+  {
+    "question": "A 66-year-old man with myelodysplastic syndrome receives a blood transfusion. Six hours later, he develops fever, rigors, and dark urine. Labs show hemoglobin drop from 8.2 to 6.1 g/dL, elevated LDH, low haptoglobin, and positive direct antiglobulin test. What is the most likely diagnosis?",
+    "option_a": "Febrile non-hemolytic transfusion reaction",
+    "option_b": "Acute hemolytic transfusion reaction",
+    "option_c": "Delayed hemolytic transfusion reaction",
+    "option_d": "Transfusion-related acute lung injury",
+    "correct_answer": "B",
+    "explanation": "Acute hemolytic transfusion reaction (usually ABO incompatibility) presents within hours with fever, hypotension, hemoglobinuria, and intravascular hemolysis (elevated LDH, low haptoglobin). Treatment: stop transfusion immediately, IV fluids, monitor for DIC and renal failure."
+  },
+  {
+    "question": "A 70-year-old woman with type 2 diabetes has estimated GFR that has declined from 45 to 28 mL/min/1.73m² over 2 years despite ACE inhibitor therapy. Urine albumin-to-creatinine ratio is 1800 mg/g. She is on maximum lisinopril. What additional therapy slows CKD progression?",
+    "option_a": "Add ARB to ACE inhibitor (dual blockade)",
+    "option_b": "Add SGLT2 inhibitor (dapagliflozin)",
+    "option_c": "Switch ACE inhibitor to calcium channel blocker",
+    "option_d": "Add thiazide diuretic for BP control",
+    "correct_answer": "B",
+    "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) slow CKD progression independent of diabetes control (DAPA-CKD, CREDENCE trials). They reduce proteinuria, slow GFR decline, and reduce cardiovascular events. Can be used down to eGFR 20-25. Dual RAAS blockade increases AKI and hyperkalemia."
+  },
+  {
+    "question": "A 48-year-old man with HIV on antiretroviral therapy presents with worsening nephrotic syndrome. Kidney biopsy shows collapsing focal segmental glomerulosclerosis. His viral load is undetectable and CD4 count is 450. What is the most likely cause?",
+    "option_a": "HIV-associated nephropathy despite viral suppression",
+    "option_b": "APOL1-associated FSGS",
+    "option_c": "Tenofovir nephrotoxicity",
+    "option_d": "Immune complex disease",
+    "correct_answer": "B",
+    "explanation": "Collapsing FSGS in HIV patients, especially those of African descent, is often related to APOL1 gene variants rather than direct HIV effect (HIVAN typically improves with ART). APOL1-associated nephropathy can progress despite viral suppression."
+  },
+  {
+    "question": "A 55-year-old man with history of unprovoked VTE on warfarin for 2 years wants to know if he can stop anticoagulation. D-dimer measured 1 month after stopping warfarin trial is elevated. What does this indicate?",
+    "option_a": "Active thrombosis requiring immediate imaging",
+    "option_b": "High risk of VTE recurrence - resume anticoagulation",
+    "option_c": "Laboratory error - repeat in 3 months",
+    "option_d": "No clinical significance if asymptomatic",
+    "correct_answer": "B",
+    "explanation": "Elevated D-dimer after stopping anticoagulation (measured 1 month post-discontinuation) predicts higher VTE recurrence risk and favors resuming indefinite anticoagulation. The PROLONG study validated D-dimer for guiding extended anticoagulation duration."
+  },
+  {
+    "question": "A 62-year-old woman with longstanding type 1 diabetes presents with nausea, bloating, and early satiety. Upper endoscopy is normal. Gastric emptying study shows 70% retention at 4 hours. She has failed metoclopramide due to side effects. What is the next pharmacological option?",
+    "option_a": "Ondansetron",
+    "option_b": "Erythromycin",
+    "option_c": "Prochlorperazine",
+    "option_d": "Omeprazole",
+    "correct_answer": "B",
+    "explanation": "Erythromycin (motilin receptor agonist) is a second-line prokinetic for gastroparesis when metoclopramide fails or is contraindicated. However, tachyphylaxis develops, limiting long-term use. Domperidone, GES (gastric electrical stimulation), and pyloric interventions are other options."
+  },
+  {
+    "question": "A 34-year-old man presents with sudden severe headache, neck stiffness, and photophobia. CT head is negative. LP shows opening pressure 28 cm H2O, RBC 12,000 in tube 1 and 11,500 in tube 4, xanthochromia present. What is the diagnosis?",
+    "option_a": "Traumatic tap",
+    "option_b": "Subarachnoid hemorrhage",
+    "option_c": "Viral meningitis",
+    "option_d": "Migraine headache",
+    "correct_answer": "B",
+    "explanation": "Subarachnoid hemorrhage is confirmed by non-clearing RBCs between tube 1 and 4 (traumatic tap would clear) plus xanthochromia (bilirubin from RBC breakdown, present >6-12 hours after bleed). CT misses 5-10% of SAH. CTA or angiography needed to find aneurysm."
+  },
+  {
+    "question": "A 67-year-old man with heart failure and CKD stage 4 is hospitalized for volume overload. Despite IV furosemide 80 mg every 8 hours, urine output remains low. Creatinine is rising. What strategy may improve diuresis?",
+    "option_a": "Switch to oral furosemide",
+    "option_b": "Add metolazone (sequential nephron blockade)",
+    "option_c": "Discontinue diuretics and start dialysis immediately",
+    "option_d": "Add spironolactone",
+    "correct_answer": "B",
+    "explanation": "Diuretic resistance in cardiorenal syndrome can be overcome with sequential nephron blockade: adding a thiazide-type diuretic (metolazone) to loop diuretic blocks sodium reabsorption at distal tubule, synergistically increasing diuresis. Monitor closely for electrolyte depletion."
+  },
+  {
+    "question": "A 45-year-old woman with autoimmune hepatitis on azathioprine develops severe bone marrow suppression. Genetic testing reveals TPMT deficiency. What is the mechanism of this adverse effect?",
+    "option_a": "Increased drug absorption",
+    "option_b": "Impaired metabolism leading to toxic metabolite accumulation",
+    "option_c": "Enhanced renal excretion",
+    "option_d": "Drug-drug interaction with prednisone",
+    "correct_answer": "B",
+    "explanation": "TPMT (thiopurine methyltransferase) metabolizes azathioprine/6-MP. TPMT deficiency causes accumulation of cytotoxic thioguanine nucleotides, leading to severe myelosuppression. TPMT genotyping before starting thiopurines allows dose adjustment or alternative therapy."
+  },
+  {
+    "question": "A 59-year-old man with recent mechanical mitral valve replacement develops a new diastolic murmur and fever. TEE shows a paravalvular abscess. Blood cultures grow Staphylococcus aureus. What is the definitive management?",
+    "option_a": "6 weeks IV antibiotics with close monitoring",
+    "option_b": "Urgent surgical intervention plus prolonged antibiotics",
+    "option_c": "Percutaneous abscess drainage",
+    "option_d": "Oral antibiotics after initial IV course",
+    "correct_answer": "B",
+    "explanation": "Prosthetic valve endocarditis with paravalvular abscess is a Class I indication for surgery regardless of hemodynamic status. S. aureus PVE has high mortality without surgery. Antibiotics alone cannot eradicate infection in abscess cavity."
+  }
+]
