@@ -1,0 +1,407 @@
+[
+  {
+    "question": "A 35-year-old woman has a thyroid nodule. Fine needle aspiration shows follicular cells. Which thyroid hormone is primarily responsible for metabolic effects in target tissues?",
+    "option_a": "T4 (thyroxine)",
+    "option_b": "T3 (triiodothyronine)",
+    "option_c": "Reverse T3",
+    "option_d": "Thyroglobulin",
+    "correct_answer": "B",
+    "explanation": "T3 is the active thyroid hormone with 3-5x greater affinity for nuclear receptors than T4. Most T3 is produced by peripheral conversion of T4 by deiodinases. T4 serves mainly as a prohormone reservoir."
+  },
+  {
+    "question": "What is the physiological role of cortisol in the stress response?",
+    "option_a": "Decrease blood glucose",
+    "option_b": "Increase gluconeogenesis and provide anti-inflammatory effects",
+    "option_c": "Decrease protein catabolism",
+    "option_d": "Increase insulin sensitivity",
+    "correct_answer": "B",
+    "explanation": "Cortisol mobilizes energy substrates by promoting gluconeogenesis, protein catabolism, and lipolysis. It also has anti-inflammatory and immunosuppressive effects. Chronic excess causes Cushing syndrome."
+  },
+  {
+    "question": "Which cells in the pancreatic islets produce insulin?",
+    "option_a": "Alpha cells",
+    "option_b": "Beta cells",
+    "option_c": "Delta cells",
+    "option_d": "PP cells",
+    "correct_answer": "B",
+    "explanation": "Beta cells comprise 60-80% of islet mass and produce insulin. Alpha cells produce glucagon, delta cells produce somatostatin, and PP cells produce pancreatic polypeptide."
+  },
+  {
+    "question": "A patient has elevated blood glucose. Insulin acts on target cells by binding to which type of receptor?",
+    "option_a": "G protein-coupled receptor",
+    "option_b": "Ligand-gated ion channel",
+    "option_c": "Receptor tyrosine kinase",
+    "option_d": "Nuclear receptor",
+    "correct_answer": "C",
+    "explanation": "Insulin binds to a receptor tyrosine kinase, causing autophosphorylation and activation of downstream signaling cascades including PI3K/Akt pathway. This promotes GLUT4 translocation and glucose uptake."
+  },
+  {
+    "question": "During exercise, what happens to blood flow to skeletal muscle?",
+    "option_a": "Decreases due to vasoconstriction",
+    "option_b": "Increases due to local metabolic vasodilation",
+    "option_c": "Remains unchanged",
+    "option_d": "Decreases due to sympathetic activation",
+    "correct_answer": "B",
+    "explanation": "Local metabolic factors (adenosine, K+, CO2, lactate, decreased O2) override sympathetic vasoconstriction in exercising muscle, causing vasodilation and increased blood flow up to 20x resting levels."
+  },
+  {
+    "question": "What is the primary determinant of systemic vascular resistance?",
+    "option_a": "Large arteries",
+    "option_b": "Arterioles",
+    "option_c": "Capillaries",
+    "option_d": "Veins",
+    "correct_answer": "B",
+    "explanation": "Arterioles are the major resistance vessels due to their muscular walls and ability to change diameter. Small changes in arteriolar radius dramatically affect resistance (R ∝ 1/r⁴, Poiseuille's law)."
+  },
+  {
+    "question": "A patient has orthostatic hypotension. Which baroreceptor reflex normally prevents this?",
+    "option_a": "Chemoreceptor reflex",
+    "option_b": "Carotid sinus baroreceptor reflex",
+    "option_c": "Bainbridge reflex",
+    "option_d": "Cushing reflex",
+    "correct_answer": "B",
+    "explanation": "Standing decreases venous return and BP. Carotid sinus and aortic arch baroreceptors detect decreased stretch, reducing vagal tone and increasing sympathetic outflow to raise HR, contractility, and vascular resistance."
+  },
+  {
+    "question": "What is the function of the lymphatic system regarding fluid balance?",
+    "option_a": "Increases capillary filtration",
+    "option_b": "Returns filtered fluid and proteins to the circulation",
+    "option_c": "Produces plasma proteins",
+    "option_d": "Regulates blood pressure directly",
+    "correct_answer": "B",
+    "explanation": "About 3L/day of fluid filtered at capillaries is returned via lymphatics. Lymphatics also return proteins that leak into interstitium. Lymphatic obstruction causes lymphedema due to protein-rich fluid accumulation."
+  },
+  {
+    "question": "In the pulmonary circulation, hypoxia causes:",
+    "option_a": "Vasodilation (same as systemic circulation)",
+    "option_b": "Vasoconstriction (hypoxic pulmonary vasoconstriction)",
+    "option_c": "No change in vascular tone",
+    "option_d": "Increased surfactant production",
+    "correct_answer": "B",
+    "explanation": "Hypoxic pulmonary vasoconstriction (HPV) is unique to pulmonary vessels. It redirects blood away from poorly ventilated alveoli to better-ventilated regions, optimizing V/Q matching. Systemic vessels dilate with hypoxia."
+  },
+  {
+    "question": "What is the Henderson-Hasselbalch equation for the bicarbonate buffer system?",
+    "option_a": "pH = pKa + log([HCO3-]/[CO2])",
+    "option_b": "pH = pKa - log([HCO3-]/[CO2])",
+    "option_c": "pH = [HCO3-] × [CO2]",
+    "option_d": "pH = pKa × ([HCO3-]/[CO2])",
+    "correct_answer": "A",
+    "explanation": "pH = 6.1 + log([HCO3-]/(0.03 × PCO2)). Normal values: pH 7.4, HCO3- 24 mEq/L, PCO2 40 mmHg. This equation is fundamental for understanding acid-base disorders."
+  },
+  {
+    "question": "A patient is hyperventilating. What effect does this have on blood pH?",
+    "option_a": "Decreases pH (acidosis)",
+    "option_b": "Increases pH (alkalosis)",
+    "option_c": "No effect on pH",
+    "option_d": "Increases PCO2",
+    "correct_answer": "B",
+    "explanation": "Hyperventilation decreases PCO2 (hypocapnia), shifting CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3- to the left, reducing H+ concentration and increasing pH (respiratory alkalosis)."
+  },
+  {
+    "question": "Which buffer system is most important for extracellular fluid pH regulation?",
+    "option_a": "Phosphate buffer",
+    "option_b": "Protein buffer",
+    "option_c": "Bicarbonate buffer",
+    "option_d": "Ammonia buffer",
+    "correct_answer": "C",
+    "explanation": "The bicarbonate buffer system is the most important ECF buffer because: 1) High concentration of HCO3-, 2) CO2 is volatile and regulated by lungs, 3) HCO3- is regulated by kidneys. This allows independent regulation of both components."
+  },
+  {
+    "question": "During prolonged fasting, which organ primarily provides glucose through gluconeogenesis?",
+    "option_a": "Skeletal muscle",
+    "option_b": "Brain",
+    "option_c": "Liver",
+    "option_d": "Adipose tissue",
+    "correct_answer": "C",
+    "explanation": "The liver is the primary gluconeogenic organ, using substrates like lactate, glycerol, and amino acids. Kidneys contribute during prolonged fasting. Muscle lacks glucose-6-phosphatase and cannot release free glucose."
+  },
+  {
+    "question": "What happens to insulin secretion when blood glucose rises after a meal?",
+    "option_a": "Insulin secretion decreases",
+    "option_b": "Insulin secretion increases in a biphasic pattern",
+    "option_c": "Insulin secretion is unaffected",
+    "option_d": "Only glucagon secretion changes",
+    "correct_answer": "B",
+    "explanation": "Glucose enters beta cells via GLUT2, increases ATP/ADP ratio, closes K-ATP channels, depolarizes cell, opens Ca2+ channels, and triggers insulin exocytosis. First phase (pre-formed) is rapid; second phase (newly synthesized) is sustained."
+  },
+  {
+    "question": "A patient presents with tetany. Which electrolyte abnormality is most likely?",
+    "option_a": "Hyperkalemia",
+    "option_b": "Hypocalcemia",
+    "option_c": "Hypernatremia",
+    "option_d": "Hypomagnesemia alone",
+    "correct_answer": "B",
+    "explanation": "Hypocalcemia increases neuronal excitability by lowering threshold for action potential generation. Classic signs include Chvostek's (facial twitching) and Trousseau's (carpopedal spasm) signs. Causes include hypoparathyroidism and vitamin D deficiency."
+  },
+  {
+    "question": "Where is most of the body's calcium stored?",
+    "option_a": "Intracellular fluid",
+    "option_b": "Blood plasma",
+    "option_c": "Bone (hydroxyapatite)",
+    "option_d": "Skeletal muscle",
+    "correct_answer": "C",
+    "explanation": "99% of body calcium is in bone as hydroxyapatite crystite. Only 1% is in ECF, with ~50% ionized (active), ~40% protein-bound (mostly albumin), and ~10% complexed with anions."
+  },
+  {
+    "question": "What is the effect of growth hormone on linear bone growth?",
+    "option_a": "Direct stimulation of chondrocytes",
+    "option_b": "Indirect stimulation via IGF-1 (somatomedin C)",
+    "option_c": "Inhibition of epiphyseal plates",
+    "option_d": "No effect on bone growth",
+    "correct_answer": "B",
+    "explanation": "GH stimulates hepatic IGF-1 production, which promotes chondrocyte proliferation at growth plates. GH also has direct lipolytic and anti-insulin effects. IGF-1 mediates most growth-promoting effects."
+  },
+  {
+    "question": "In the menstrual cycle, which hormone surge triggers ovulation?",
+    "option_a": "FSH",
+    "option_b": "LH",
+    "option_c": "Estrogen",
+    "option_d": "Progesterone",
+    "correct_answer": "B",
+    "explanation": "Rising estrogen from the dominant follicle triggers positive feedback at hypothalamus/pituitary, causing LH surge. LH surge triggers ovulation ~36 hours later and luteinization of remaining follicular cells (corpus luteum formation)."
+  },
+  {
+    "question": "What is the primary function of Sertoli cells in the testes?",
+    "option_a": "Testosterone production",
+    "option_b": "Sperm production",
+    "option_c": "Support and nourishment of developing sperm",
+    "option_d": "LH secretion",
+    "correct_answer": "C",
+    "explanation": "Sertoli cells form the blood-testis barrier, provide structural/nutritional support for spermatogenesis, secrete inhibin (FSH feedback), and produce androgen-binding protein. Leydig cells produce testosterone."
+  },
+  {
+    "question": "A patient has amenorrhea with elevated FSH and LH. Where is the problem located?",
+    "option_a": "Hypothalamus",
+    "option_b": "Anterior pituitary",
+    "option_c": "Ovaries (primary ovarian failure)",
+    "option_d": "Uterus",
+    "correct_answer": "C",
+    "explanation": "Elevated gonadotropins (FSH, LH) with amenorrhea indicates primary gonadal failure - the ovaries are not responding to stimulation. Lack of negative feedback causes high FSH/LH. Causes include menopause, Turner syndrome, premature ovarian failure."
+  },
+  {
+    "question": "What is the glomerular filtration rate (GFR) in a healthy adult?",
+    "option_a": "50 mL/min",
+    "option_b": "125 mL/min",
+    "option_c": "250 mL/min",
+    "option_d": "500 mL/min",
+    "correct_answer": "B",
+    "explanation": "Normal GFR is approximately 125 mL/min or 180 L/day. This means the entire plasma volume is filtered ~60 times daily. GFR declines with age (~1 mL/min/year after age 30)."
+  },
+  {
+    "question": "Which forces favor glomerular filtration?",
+    "option_a": "Bowman's capsule hydrostatic pressure",
+    "option_b": "Glomerular capillary oncotic pressure",
+    "option_c": "Glomerular capillary hydrostatic pressure",
+    "option_d": "Tubular fluid oncotic pressure",
+    "correct_answer": "C",
+    "explanation": "Glomerular capillary hydrostatic pressure (~60 mmHg) favors filtration. Opposing forces: Bowman's capsule hydrostatic pressure (~15 mmHg) and glomerular oncotic pressure (~28 mmHg). Net filtration pressure ≈ 17 mmHg."
+  },
+  {
+    "question": "A substance has a clearance greater than GFR. What does this indicate?",
+    "option_a": "The substance is only filtered",
+    "option_b": "The substance is filtered and reabsorbed",
+    "option_c": "The substance is filtered and secreted",
+    "option_d": "The substance is protein-bound",
+    "correct_answer": "C",
+    "explanation": "Clearance > GFR indicates net secretion (e.g., PAH, organic acids). Clearance = GFR means filtration only (inulin, creatinine). Clearance < GFR indicates net reabsorption (glucose, amino acids, Na+)."
+  },
+  {
+    "question": "What effect does sympathetic stimulation have on the GI tract?",
+    "option_a": "Increases motility and secretion",
+    "option_b": "Decreases motility and secretion",
+    "option_c": "Increases motility but decreases secretion",
+    "option_d": "No effect on GI function",
+    "correct_answer": "B",
+    "explanation": "Sympathetic activation ('fight or flight') inhibits GI function by decreasing motility, secretion, and blood flow while contracting sphincters. Parasympathetic activation promotes digestion ('rest and digest')."
+  },
+  {
+    "question": "Which phase of gastric secretion is mediated by the vagus nerve?",
+    "option_a": "Intestinal phase",
+    "option_b": "Gastric phase",
+    "option_c": "Cephalic phase",
+    "option_d": "All phases equally",
+    "correct_answer": "C",
+    "explanation": "The cephalic phase (30% of total secretion) is mediated by vagal stimulation in response to sight, smell, taste, or thought of food. The vagus releases ACh directly on parietal cells and stimulates gastrin release from G cells."
+  },
+  {
+    "question": "What is the function of cholecystokinin (CCK)?",
+    "option_a": "Stimulates gastric acid secretion",
+    "option_b": "Stimulates gallbladder contraction and pancreatic enzyme secretion",
+    "option_c": "Inhibits pancreatic secretion",
+    "option_d": "Stimulates gastric emptying",
+    "correct_answer": "B",
+    "explanation": "CCK is released from I cells in response to fatty acids and amino acids in the duodenum. It causes gallbladder contraction, sphincter of Oddi relaxation, pancreatic enzyme secretion, and inhibits gastric emptying."
+  },
+  {
+    "question": "Where does most water absorption occur in the GI tract?",
+    "option_a": "Stomach",
+    "option_b": "Small intestine",
+    "option_c": "Large intestine",
+    "option_d": "Esophagus",
+    "correct_answer": "B",
+    "explanation": "Of ~9L fluid entering the GI tract daily (2L ingested, 7L secreted), the small intestine absorbs ~7.5L. The colon absorbs ~1.4L. Only ~100mL is lost in feces normally."
+  },
+  {
+    "question": "What is the migrating motor complex (MMC) in the GI tract?",
+    "option_a": "Peristalsis during eating",
+    "option_b": "Cyclic pattern of contractions during fasting that sweeps debris",
+    "option_c": "Vomiting reflex",
+    "option_d": "Mass movements in colon",
+    "correct_answer": "B",
+    "explanation": "The MMC is a cyclic pattern of contractions (~90 min cycles) during fasting that sweeps undigested material and bacteria from stomach through small intestine. Motilin regulates MMC. Feeding interrupts MMC."
+  },
+  {
+    "question": "A patient has steatorrhea. Which vitamin deficiency is most likely?",
+    "option_a": "Vitamin C",
+    "option_b": "Vitamin B12",
+    "option_c": "Fat-soluble vitamins (A, D, E, K)",
+    "option_d": "Vitamin B6",
+    "correct_answer": "C",
+    "explanation": "Steatorrhea (fat malabsorption) causes deficiency of fat-soluble vitamins A, D, E, K. Causes include pancreatic insufficiency, bile salt deficiency, and celiac disease. These vitamins require micelle formation for absorption."
+  },
+  {
+    "question": "Which area of the brain controls the vomiting reflex?",
+    "option_a": "Cerebellum",
+    "option_b": "Area postrema and nucleus tractus solitarius",
+    "option_c": "Prefrontal cortex",
+    "option_d": "Hypothalamus only",
+    "correct_answer": "B",
+    "explanation": "The vomiting center in the medulla receives input from area postrema (chemoreceptor trigger zone, outside BBB), vestibular system, vagal afferents from GI tract, and higher centers. Coordinates the complex vomiting reflex."
+  },
+  {
+    "question": "What is the primary neurotransmitter of the parasympathetic nervous system?",
+    "option_a": "Norepinephrine",
+    "option_b": "Epinephrine",
+    "option_c": "Acetylcholine",
+    "option_d": "Dopamine",
+    "correct_answer": "C",
+    "explanation": "Acetylcholine is released at all parasympathetic nerve endings (preganglionic and postganglionic). It acts on nicotinic receptors (ganglia) and muscarinic receptors (effector organs). Sympathetic postganglionic neurons release norepinephrine."
+  },
+  {
+    "question": "Which receptors mediate the cardiac effects of sympathetic stimulation?",
+    "option_a": "Alpha-1 receptors",
+    "option_b": "Beta-1 receptors",
+    "option_c": "Beta-2 receptors",
+    "option_d": "Muscarinic receptors",
+    "correct_answer": "B",
+    "explanation": "Beta-1 receptors in the heart increase heart rate (chronotropy), contractility (inotropy), conduction velocity (dromotropy), and relaxation rate (lusitropy). Beta-blockers target these receptors to reduce cardiac workload."
+  },
+  {
+    "question": "A patient has a lesion affecting the corticospinal tract above the decussation. Where will weakness occur?",
+    "option_a": "Ipsilateral side",
+    "option_b": "Contralateral side",
+    "option_c": "Both sides equally",
+    "option_d": "No motor deficit",
+    "correct_answer": "B",
+    "explanation": "The corticospinal tract crosses (decussates) at the medullary pyramids. Lesions above the decussation cause contralateral weakness; lesions below cause ipsilateral weakness. This is the basis of 'crossed findings' in stroke localization."
+  },
+  {
+    "question": "What is the function of the cerebellum?",
+    "option_a": "Initiation of voluntary movement",
+    "option_b": "Coordination, balance, and motor learning",
+    "option_c": "Conscious perception of sensation",
+    "option_d": "Regulation of emotions",
+    "correct_answer": "B",
+    "explanation": "The cerebellum coordinates movement timing, posture, and balance without initiating movement (that's motor cortex). Cerebellar lesions cause ataxia, dysmetria, intention tremor, and dysdiadochokinesia. It also plays a role in motor learning."
+  },
+  {
+    "question": "Which structure connects the two cerebral hemispheres?",
+    "option_a": "Internal capsule",
+    "option_b": "Corpus callosum",
+    "option_c": "Thalamus",
+    "option_d": "Basal ganglia",
+    "correct_answer": "B",
+    "explanation": "The corpus callosum is the largest white matter commissure connecting homologous cortical areas of both hemispheres. Lesions (as in split-brain surgery) prevent interhemispheric communication."
+  },
+  {
+    "question": "What type of sensory information does the dorsal column pathway carry?",
+    "option_a": "Pain and temperature",
+    "option_b": "Fine touch, vibration, and proprioception",
+    "option_c": "Crude touch only",
+    "option_d": "Motor commands",
+    "correct_answer": "B",
+    "explanation": "The dorsal column-medial lemniscus pathway carries fine touch, vibration, and proprioception. It crosses in the medulla. The spinothalamic tract carries pain, temperature, and crude touch, crossing in the spinal cord."
+  },
+  {
+    "question": "A patient cannot abduct the eye. Which cranial nerve is affected?",
+    "option_a": "Oculomotor (CN III)",
+    "option_b": "Trochlear (CN IV)",
+    "option_c": "Abducens (CN VI)",
+    "option_d": "Trigeminal (CN V)",
+    "correct_answer": "C",
+    "explanation": "CN VI (abducens) innervates the lateral rectus, which abducts the eye. CN VI palsy causes inability to abduct, with the eye deviated medially (esotropia) and horizontal diplopia worst on lateral gaze to the affected side."
+  },
+  {
+    "question": "What is the function of the hypothalamus?",
+    "option_a": "Voluntary motor control",
+    "option_b": "Homeostatic regulation (temperature, hunger, thirst, circadian rhythm)",
+    "option_c": "Language processing",
+    "option_d": "Visual processing",
+    "correct_answer": "B",
+    "explanation": "The hypothalamus is the master regulator of homeostasis, controlling body temperature, hunger/satiety, thirst, circadian rhythms, and the autonomic nervous system. It also controls pituitary hormone release."
+  },
+  {
+    "question": "Where is cerebrospinal fluid (CSF) primarily produced?",
+    "option_a": "Arachnoid granulations",
+    "option_b": "Choroid plexus",
+    "option_c": "Cerebral cortex",
+    "option_d": "Spinal cord",
+    "correct_answer": "B",
+    "explanation": "CSF is produced by choroid plexus in the lateral, third, and fourth ventricles (~500 mL/day). It flows through the ventricular system and subarachnoid space, then is absorbed by arachnoid granulations into venous sinuses."
+  },
+  {
+    "question": "What is the blood-brain barrier composed of?",
+    "option_a": "Loose endothelial cells",
+    "option_b": "Tight junctions between endothelial cells, basement membrane, astrocyte foot processes",
+    "option_c": "Ependymal cells only",
+    "option_d": "Microglia",
+    "correct_answer": "B",
+    "explanation": "The BBB consists of continuous endothelium with tight junctions, basement membrane, and astrocyte end-feet. It restricts passage of most substances, protecting the brain. Lipophilic and small molecules cross more easily."
+  },
+  {
+    "question": "A patient has loss of pain and temperature sensation on one side and loss of motor function on the other. Where is the lesion?",
+    "option_a": "Cerebral cortex",
+    "option_b": "Spinal cord hemisection (Brown-Séquard syndrome)",
+    "option_c": "Peripheral nerve",
+    "option_d": "Medulla",
+    "correct_answer": "B",
+    "explanation": "Brown-Séquard syndrome (spinal cord hemisection) causes ipsilateral motor loss and proprioception loss (corticospinal and dorsal columns don't cross until brainstem) with contralateral pain/temperature loss (spinothalamic tract crosses in cord)."
+  },
+  {
+    "question": "Which part of the autonomic nervous system is responsible for 'fight or flight' response?",
+    "option_a": "Parasympathetic",
+    "option_b": "Sympathetic",
+    "option_c": "Enteric",
+    "option_d": "Somatic",
+    "correct_answer": "B",
+    "explanation": "The sympathetic system prepares the body for stress: increases HR, BP, bronchodilation, pupil dilation, and mobilizes glucose while decreasing digestion. Preganglionic fibers originate from T1-L2 spinal cord."
+  },
+  {
+    "question": "A patient taking a beta-blocker has bradycardia. Why?",
+    "option_a": "Decreased vagal tone",
+    "option_b": "Blocked beta-1 receptors reduce sympathetic drive to the heart",
+    "option_c": "Direct stimulation of SA node",
+    "option_d": "Increased afterload",
+    "correct_answer": "B",
+    "explanation": "Beta-1 blockers reduce sympathetic stimulation of the SA node, decreasing heart rate. They also reduce contractility and AV node conduction. This is therapeutic in hypertension, heart failure, and arrhythmias."
+  },
+  {
+    "question": "During deep sleep, which stage shows the highest threshold for arousal?",
+    "option_a": "Stage N1",
+    "option_b": "Stage N2",
+    "option_c": "Stage N3 (slow-wave sleep)",
+    "option_d": "REM sleep",
+    "correct_answer": "C",
+    "explanation": "Stage N3 (slow-wave or deep sleep) has the highest arousal threshold. It's characterized by delta waves on EEG and is important for physical restoration. Growth hormone is primarily secreted during N3."
+  },
+  {
+    "question": "What characterizes REM sleep?",
+    "option_a": "Slow wave activity on EEG",
+    "option_b": "Muscle atonia, dreaming, and desynchronized EEG",
+    "option_c": "Sleep spindles",
+    "option_d": "K complexes",
+    "correct_answer": "B",
+    "explanation": "REM sleep features rapid eye movements, vivid dreaming, muscle atonia (prevents acting out dreams), and desynchronized low-amplitude EEG similar to waking. REM is important for memory consolidation."
+  }
+]
