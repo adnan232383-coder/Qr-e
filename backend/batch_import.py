@@ -8,16 +8,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Course mappings
-COURSES = {
-    'mcq_pack/OBGYN_II_50_Emergent.json': 'NVU_MD_Y4_S2_C35',  # OB/GYN II
-    'mcq_pack/Psychiatry_Part_1_50_Emergent.json': 'NVU_MD_Y4_S1_C31',  # Psychiatry
-    'mcq_pack/Psychiatry_Part_2_50_Emergent.json': 'NVU_MD_Y4_S1_C31',  # Psychiatry
-    'mcq_pack/Radiology_50_Emergent.json': 'NVU_MD_Y3_S1_C27',  # Radiology
-    'mcq_pack/Infectious_Diseases_50_Emergent.json': 'NVU_MD_Y3_S2_C28',  # Infectious Diseases
-    'mcq_pack/OBGYN_I_50_Emergent.json': 'NVU_MD_Y4_S1_C32',  # OB/GYN I
-}
-
 async def import_questions(file_path, course_id, course_name):
     # Load questions from JSON file
     with open(file_path, 'r') as f:
@@ -35,21 +25,39 @@ async def import_questions(file_path, course_id, course_name):
     current_count = await db.mcq_questions.count_documents({"course_id": course_id})
     print(f"Current questions in DB: {current_count}")
     
-    # Prepare questions for insertion
+    # Prepare questions for insertion - handle new format
     questions_to_insert = []
     for q in questions_data:
-        question_doc = {
-            "question_id": f"q_{uuid.uuid4().hex[:12]}",
-            "course_id": course_id,
-            "question": q["question"],
-            "option_a": q["option_a"],
-            "option_b": q["option_b"],
-            "option_c": q["option_c"],
-            "option_d": q["option_d"],
-            "correct_answer": q["correct_answer"],
-            "explanation": q["explanation"],
-            "created_at": datetime.now(timezone.utc).isoformat()
-        }
+        # Handle both formats
+        if 'options' in q:
+            # New format with options dict
+            options = q['options']
+            question_doc = {
+                "question_id": f"q_{uuid.uuid4().hex[:12]}",
+                "course_id": course_id,
+                "question": q["question"],
+                "option_a": options.get("A", ""),
+                "option_b": options.get("B", ""),
+                "option_c": options.get("C", ""),
+                "option_d": options.get("D", ""),
+                "correct_answer": q["correct_answer"],
+                "explanation": q.get("explanation", ""),
+                "created_at": datetime.now(timezone.utc).isoformat()
+            }
+        else:
+            # Old format with option_a, option_b, etc.
+            question_doc = {
+                "question_id": f"q_{uuid.uuid4().hex[:12]}",
+                "course_id": course_id,
+                "question": q["question"],
+                "option_a": q["option_a"],
+                "option_b": q["option_b"],
+                "option_c": q["option_c"],
+                "option_d": q["option_d"],
+                "correct_answer": q["correct_answer"],
+                "explanation": q.get("explanation", ""),
+                "created_at": datetime.now(timezone.utc).isoformat()
+            }
         questions_to_insert.append(question_doc)
     
     # Insert questions
@@ -71,12 +79,12 @@ async def import_questions(file_path, course_id, course_name):
 
 async def main():
     imports = [
-        ('mcq_pack/OBGYN_II_50_Emergent.json', 'NVU_MD_Y4_S2_C35', 'OB/GYN II'),
-        ('mcq_pack/Psychiatry_Part_1_50_Emergent.json', 'NVU_MD_Y4_S1_C31', 'Psychiatry (Part 1)'),
-        ('mcq_pack/Psychiatry_Part_2_50_Emergent.json', 'NVU_MD_Y4_S1_C31', 'Psychiatry (Part 2)'),
-        ('mcq_pack/Radiology_50_Emergent.json', 'NVU_MD_Y3_S1_C27', 'Radiology'),
-        ('mcq_pack/Infectious_Diseases_50_Emergent.json', 'NVU_MD_Y3_S2_C28', 'Infectious Diseases'),
-        ('mcq_pack/OBGYN_I_50_Emergent.json', 'NVU_MD_Y4_S1_C32', 'OB/GYN I'),
+        ('/app/mcq_pack/OBGYN_II_50_Emergent.json', 'NVU_MD_Y4_S2_C35', 'OB/GYN II'),
+        ('/app/mcq_pack/Psychiatry_Part_1_50_Emergent.json', 'NVU_MD_Y4_S1_C31', 'Psychiatry (Part 1)'),
+        ('/app/mcq_pack/Psychiatry_Part_2_50_Emergent.json', 'NVU_MD_Y4_S1_C31', 'Psychiatry (Part 2)'),
+        ('/app/mcq_pack/Radiology_50_Emergent.json', 'NVU_MD_Y3_S1_C27', 'Radiology'),
+        ('/app/mcq_pack/Infectious_Diseases_50_Emergent.json', 'NVU_MD_Y3_S2_C28', 'Infectious Diseases'),
+        ('/app/mcq_pack/OBGYN_I_50_Emergent.json', 'NVU_MD_Y4_S1_C32', 'OB/GYN I'),
     ]
     
     print("=" * 60)
@@ -84,7 +92,7 @@ async def main():
     print("=" * 60)
     
     for file_path, course_id, course_name in imports:
-        await import_questions(f'/app/{file_path}', course_id, course_name)
+        await import_questions(file_path, course_id, course_name)
     
     print("\n" + "=" * 60)
     print("🎉 BATCH IMPORT COMPLETE!")
