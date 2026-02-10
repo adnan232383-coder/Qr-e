@@ -1,0 +1,1806 @@
+{
+  "course_name": "General Chemistry",
+  "course_code": "UG_DENT_Y1_S1_C02",
+  "questions": [
+    {
+      "question": "Which statement best describes Atomic structure?",
+      "option_a": "Acids and bases",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Dynamic balance of forward and reverse reactions",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "D",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "In General Chemistry, Atomic structure is MOST associated with:",
+      "option_a": "Periodic trends",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Redox reactions",
+      "option_d": "Electron configuration drives chemical behavior.",
+      "correct_answer": "D",
+      "explanation": "Atomic structure: Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "Which statement best describes Periodic trends?",
+      "option_a": "Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Useful for understanding partial pressures and respiration basics.",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Proton donors/acceptors; pH scale",
+      "correct_answer": "A",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "In General Chemistry, Periodic trends is MOST associated with:",
+      "option_a": "Catalysts increase rate without changing equilibrium.",
+      "option_b": "Chemical bonding",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "D",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "Which statement best describes Chemical bonding?",
+      "option_a": "Electron transfer causing oxidation/reduction",
+      "option_b": "Redox reactions",
+      "option_c": "Solubility affected by temperature and polarity.",
+      "option_d": "Ionic, covalent, and metallic bonding",
+      "correct_answer": "D",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "In General Chemistry, Chemical bonding is MOST associated with:",
+      "option_a": "Bond type affects properties like solubility and melting point.",
+      "option_b": "Moles and molarity",
+      "option_c": "Ionic, covalent, and metallic bonding",
+      "option_d": "Molarity = moles/L; used in solution preparation.",
+      "correct_answer": "A",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "Which statement best describes Moles and molarity?",
+      "option_a": "Solute dissolved in solvent",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "C",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "In General Chemistry, Moles and molarity is MOST associated with:",
+      "option_a": "Molarity = moles/L; used in solution preparation.",
+      "option_b": "Gas laws",
+      "option_c": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Useful for understanding partial pressures and respiration basics.",
+      "correct_answer": "A",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "Which statement best describes Acids and bases?",
+      "option_a": "Le Châtelier predicts shift with changes.",
+      "option_b": "Proton donors/acceptors; pH scale",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Gas laws",
+      "correct_answer": "B",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "In General Chemistry, Acids and bases is MOST associated with:",
+      "option_a": "Redox reactions",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Buffers resist pH change; relevant to oral environment.",
+      "correct_answer": "D",
+      "explanation": "Acids and bases: Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "Which statement best describes Redox reactions?",
+      "option_a": "Redox reactions",
+      "option_b": "Electron configuration drives chemical behavior.",
+      "option_c": "Proton donors/acceptors; pH scale",
+      "option_d": "Electron transfer causing oxidation/reduction",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "In General Chemistry, Redox reactions is MOST associated with:",
+      "option_a": "Important in metabolism and corrosion.",
+      "option_b": "Atomic structure",
+      "option_c": "Solutions",
+      "option_d": "Chemical bonding",
+      "correct_answer": "A",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "Which statement best describes Solutions?",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Solute dissolved in solvent",
+      "option_c": "Solutions",
+      "option_d": "Periodic trends",
+      "correct_answer": "B",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "In General Chemistry, Solutions is MOST associated with:",
+      "option_a": "Moles and molarity",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Solubility affected by temperature and polarity.",
+      "correct_answer": "D",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "Which statement best describes Gas laws?",
+      "option_a": "Relationships between P, V, T, n",
+      "option_b": "Quantifying amount of substance and concentration",
+      "option_c": "Dynamic balance of forward and reverse reactions",
+      "option_d": "Solutions",
+      "correct_answer": "A",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "In General Chemistry, Gas laws is MOST associated with:",
+      "option_a": "Equilibrium",
+      "option_b": "Catalysts increase rate without changing equilibrium.",
+      "option_c": "Useful for understanding partial pressures and respiration basics.",
+      "option_d": "Bond type affects properties like solubility and melting point.",
+      "correct_answer": "C",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "Which statement best describes Equilibrium?",
+      "option_a": "Periodic trends",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Catalysts increase rate without changing equilibrium.",
+      "option_d": "Solutions",
+      "correct_answer": "B",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "In General Chemistry, Equilibrium is MOST associated with:",
+      "option_a": "Buffers resist pH change; relevant to oral environment.",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Kinetics (rate)",
+      "option_d": "Le Châtelier predicts shift with changes.",
+      "correct_answer": "D",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "Which statement best describes Kinetics (rate)?",
+      "option_a": "Solubility affected by temperature and polarity.",
+      "option_b": "Speed of reactions and factors affecting it",
+      "option_c": "Solutions",
+      "option_d": "Electron configuration drives chemical behavior.",
+      "correct_answer": "B",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "In General Chemistry, Kinetics (rate) is MOST associated with:",
+      "option_a": "Relationships between P, V, T, n",
+      "option_b": "Redox reactions",
+      "option_c": "Catalysts increase rate without changing equilibrium.",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "C",
+      "explanation": "Kinetics (rate): Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 21) The best example of Solutions is:",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Trends predict bonding and reactivity.",
+      "option_c": "Atomic structure",
+      "option_d": "Solubility affected by temperature and polarity.",
+      "correct_answer": "D",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 22) A key point for dental practice regarding Chemical bonding is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 23) Which option is TRUE regarding Kinetics (rate)?",
+      "option_a": "Redox reactions",
+      "option_b": "Kinetics (rate)",
+      "option_c": "Relationships between P, V, T, n",
+      "option_d": "Speed of reactions and factors affecting it",
+      "correct_answer": "D",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 24) The best example of Atomic structure is:",
+      "option_a": "Electron configuration drives chemical behavior.",
+      "option_b": "Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Moles and molarity",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "A",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 25) Which option is TRUE regarding Acids and bases?",
+      "option_a": "Solutions",
+      "option_b": "Proton donors/acceptors; pH scale",
+      "option_c": "Redox reactions",
+      "option_d": "Electron configuration drives chemical behavior.",
+      "correct_answer": "B",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 26) The best example of Equilibrium is:",
+      "option_a": "Chemical bonding",
+      "option_b": "Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Dynamic balance of forward and reverse reactions",
+      "option_d": "Le Châtelier predicts shift with changes.",
+      "correct_answer": "D",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 27) A key point for dental practice regarding Periodic trends is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 28) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 29) The best example of Chemical bonding is:",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Periodic trends",
+      "option_c": "Kinetics (rate)",
+      "option_d": "Bond type affects properties like solubility and melting point.",
+      "correct_answer": "D",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 30) A key point for dental practice regarding Chemical bonding is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 31) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Important in metabolism and corrosion.",
+      "option_b": "Electron transfer causing oxidation/reduction",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Acids and bases",
+      "correct_answer": "C",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 32) The best example of Solutions is:",
+      "option_a": "Speed of reactions and factors affecting it",
+      "option_b": "Kinetics (rate)",
+      "option_c": "Solubility affected by temperature and polarity.",
+      "option_d": "Chemical bonding",
+      "correct_answer": "C",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 33) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 34) Which pairing is correct?",
+      "option_a": "Kinetics (rate) — Electron transfer causing oxidation/reduction",
+      "option_b": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Solutions — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Kinetics (rate) — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "B",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 35) The best example of Gas laws is:",
+      "option_a": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Useful for understanding partial pressures and respiration basics.",
+      "option_d": "Redox reactions",
+      "correct_answer": "C",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 36) Which option is TRUE regarding Equilibrium?",
+      "option_a": "Solutions",
+      "option_b": "Kinetics (rate)",
+      "option_c": "Dynamic balance of forward and reverse reactions",
+      "option_d": "Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "C",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 37) Which pairing is correct?",
+      "option_a": "Kinetics (rate) — Ionic, covalent, and metallic bonding",
+      "option_b": "Periodic trends — Dynamic balance of forward and reverse reactions",
+      "option_c": "Chemical bonding — Dynamic balance of forward and reverse reactions",
+      "option_d": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "correct_answer": "D",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 38) Which pairing is correct?",
+      "option_a": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_b": "Moles and molarity — Speed of reactions and factors affecting it",
+      "option_c": "Gas laws — Dynamic balance of forward and reverse reactions",
+      "option_d": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "A",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 39) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Catalysts increase rate without changing equilibrium.",
+      "option_b": "Quantifying amount of substance and concentration",
+      "option_c": "Molarity = moles/L; used in solution preparation.",
+      "option_d": "Speed of reactions and factors affecting it",
+      "correct_answer": "B",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 40) Which pairing is correct?",
+      "option_a": "Periodic trends — Ionic, covalent, and metallic bonding",
+      "option_b": "Moles and molarity — Ionic, covalent, and metallic bonding",
+      "option_c": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_d": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "correct_answer": "C",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 41) A key point for dental practice regarding Kinetics (rate) is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 42) Which pairing is correct?",
+      "option_a": "Atomic structure — Electron transfer causing oxidation/reduction",
+      "option_b": "Gas laws — Relationships between P, V, T, n",
+      "option_c": "Acids and bases — Quantifying amount of substance and concentration",
+      "option_d": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "correct_answer": "B",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 43) Which pairing is correct?",
+      "option_a": "Chemical bonding — Relationships between P, V, T, n",
+      "option_b": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "option_c": "Chemical bonding — Electron transfer causing oxidation/reduction",
+      "option_d": "Equilibrium — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "B",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 44) Which pairing is correct?",
+      "option_a": "Chemical bonding — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Solutions — Dynamic balance of forward and reverse reactions",
+      "option_c": "Moles and molarity — Electron transfer causing oxidation/reduction",
+      "option_d": "Moles and molarity — Quantifying amount of substance and concentration",
+      "correct_answer": "D",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 45) A key point for dental practice regarding Redox reactions is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 46) The best example of Periodic trends is:",
+      "option_a": "Atomic structure",
+      "option_b": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Moles and molarity",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "D",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 47) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Acids and bases",
+      "option_b": "Speed of reactions and factors affecting it",
+      "option_c": "Periodic trends",
+      "option_d": "Electron transfer causing oxidation/reduction",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 48) Which pairing is correct?",
+      "option_a": "Gas laws — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Redox reactions — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Solutions — Solute dissolved in solvent",
+      "option_d": "Moles and molarity — Quantifying amount of substance and concentration",
+      "correct_answer": "D",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 49) Which pairing is correct?",
+      "option_a": "Redox reactions — Speed of reactions and factors affecting it",
+      "option_b": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "option_c": "Kinetics (rate) — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Chemical bonding — Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "B",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 50) A key point for dental practice regarding Atomic structure is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 51) Which pairing is correct?",
+      "option_a": "Atomic structure — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Atomic structure — Proton donors/acceptors; pH scale",
+      "option_c": "Atomic structure — Speed of reactions and factors affecting it",
+      "option_d": "Equilibrium — Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "A",
+      "explanation": "Atomic structure: Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 52) A key point for dental practice regarding Kinetics (rate) is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 53) Which pairing is correct?",
+      "option_a": "Redox reactions — Solute dissolved in solvent",
+      "option_b": "Redox reactions — Quantifying amount of substance and concentration",
+      "option_c": "Solutions — Dynamic balance of forward and reverse reactions",
+      "option_d": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "D",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 54) The best example of Kinetics (rate) is:",
+      "option_a": "Dynamic balance of forward and reverse reactions",
+      "option_b": "Catalysts increase rate without changing equilibrium.",
+      "option_c": "Redox reactions",
+      "option_d": "Molarity = moles/L; used in solution preparation.",
+      "correct_answer": "B",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 55) The best example of Moles and molarity is:",
+      "option_a": "Redox reactions",
+      "option_b": "Speed of reactions and factors affecting it",
+      "option_c": "Molarity = moles/L; used in solution preparation.",
+      "option_d": "Proton donors/acceptors; pH scale",
+      "correct_answer": "C",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 56) Which option is TRUE regarding Chemical bonding?",
+      "option_a": "Kinetics (rate)",
+      "option_b": "Ionic, covalent, and metallic bonding",
+      "option_c": "Trends predict bonding and reactivity.",
+      "option_d": "Relationships between P, V, T, n",
+      "correct_answer": "B",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 57) The best example of Gas laws is:",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Periodic trends",
+      "option_d": "Useful for understanding partial pressures and respiration basics.",
+      "correct_answer": "D",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 58) A key point for dental practice regarding Chemical bonding is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 59) Which pairing is correct?",
+      "option_a": "Solutions — Solute dissolved in solvent",
+      "option_b": "Chemical bonding — Relationships between P, V, T, n",
+      "option_c": "Atomic structure — Speed of reactions and factors affecting it",
+      "option_d": "Equilibrium — Speed of reactions and factors affecting it",
+      "correct_answer": "A",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 60) Which option is TRUE regarding Kinetics (rate)?",
+      "option_a": "Speed of reactions and factors affecting it",
+      "option_b": "Moles and molarity",
+      "option_c": "Ionic, covalent, and metallic bonding",
+      "option_d": "Dynamic balance of forward and reverse reactions",
+      "correct_answer": "A",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 61) The best example of Redox reactions is:",
+      "option_a": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Ionic, covalent, and metallic bonding",
+      "option_d": "Redox reactions",
+      "correct_answer": "B",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 62) Which pairing is correct?",
+      "option_a": "Moles and molarity — Solute dissolved in solvent",
+      "option_b": "Chemical bonding — Speed of reactions and factors affecting it",
+      "option_c": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_d": "Kinetics (rate) — Electron transfer causing oxidation/reduction",
+      "correct_answer": "C",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 63) The best example of Kinetics (rate) is:",
+      "option_a": "Gas laws",
+      "option_b": "Catalysts increase rate without changing equilibrium.",
+      "option_c": "Equilibrium",
+      "option_d": "Moles and molarity",
+      "correct_answer": "B",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 64) Which option is TRUE regarding Acids and bases?",
+      "option_a": "Redox reactions",
+      "option_b": "Proton donors/acceptors; pH scale",
+      "option_c": "Solute dissolved in solvent",
+      "option_d": "Kinetics (rate)",
+      "correct_answer": "B",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 65) A key point for dental practice regarding Kinetics (rate) is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 66) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Electron transfer causing oxidation/reduction",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "C",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 67) Which pairing is correct?",
+      "option_a": "Acids and bases — Speed of reactions and factors affecting it",
+      "option_b": "Moles and molarity — Dynamic balance of forward and reverse reactions",
+      "option_c": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "option_d": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "D",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 68) Which pairing is correct?",
+      "option_a": "Gas laws — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Solutions — Speed of reactions and factors affecting it",
+      "option_c": "Chemical bonding — Quantifying amount of substance and concentration",
+      "option_d": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "correct_answer": "D",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 69) Which pairing is correct?",
+      "option_a": "Redox reactions — Relationships between P, V, T, n",
+      "option_b": "Chemical bonding — Dynamic balance of forward and reverse reactions",
+      "option_c": "Equilibrium — Speed of reactions and factors affecting it",
+      "option_d": "Gas laws — Relationships between P, V, T, n",
+      "correct_answer": "D",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 70) Which pairing is correct?",
+      "option_a": "Periodic trends — Solute dissolved in solvent",
+      "option_b": "Equilibrium — Quantifying amount of substance and concentration",
+      "option_c": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Moles and molarity — Electron transfer causing oxidation/reduction",
+      "correct_answer": "C",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 71) The best example of Atomic structure is:",
+      "option_a": "Gas laws",
+      "option_b": "Electron configuration drives chemical behavior.",
+      "option_c": "Useful for understanding partial pressures and respiration basics.",
+      "option_d": "Acids and bases",
+      "correct_answer": "B",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 72) The best example of Gas laws is:",
+      "option_a": "Solubility affected by temperature and polarity.",
+      "option_b": "Molarity = moles/L; used in solution preparation.",
+      "option_c": "Speed of reactions and factors affecting it",
+      "option_d": "Useful for understanding partial pressures and respiration basics.",
+      "correct_answer": "D",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 73) The best example of Acids and bases is:",
+      "option_a": "Buffers resist pH change; relevant to oral environment.",
+      "option_b": "Equilibrium",
+      "option_c": "Dynamic balance of forward and reverse reactions",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 74) Which option is TRUE regarding Chemical bonding?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Moles and molarity",
+      "option_c": "Solute dissolved in solvent",
+      "option_d": "Atomic structure",
+      "correct_answer": "A",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 75) A key point for dental practice regarding Acids and bases is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 76) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Quantifying amount of substance and concentration",
+      "option_b": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Periodic trends",
+      "correct_answer": "A",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 77) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Electron transfer causing oxidation/reduction",
+      "option_b": "Speed of reactions and factors affecting it",
+      "option_c": "Bond type affects properties like solubility and melting point.",
+      "option_d": "Acids and bases",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 78) A key point for dental practice regarding Periodic trends is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 79) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Atomic structure",
+      "option_b": "Moles and molarity",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 80) A key point for dental practice regarding Chemical bonding is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 81) Which option is TRUE regarding Gas laws?",
+      "option_a": "Relationships between P, V, T, n",
+      "option_b": "Redox reactions",
+      "option_c": "Periodic trends",
+      "option_d": "Electron configuration drives chemical behavior.",
+      "correct_answer": "A",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 82) A key point for dental practice regarding Kinetics (rate) is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 83) Which option is TRUE regarding Gas laws?",
+      "option_a": "Redox reactions",
+      "option_b": "Molarity = moles/L; used in solution preparation.",
+      "option_c": "Relationships between P, V, T, n",
+      "option_d": "Catalysts increase rate without changing equilibrium.",
+      "correct_answer": "C",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 84) A key point for dental practice regarding Periodic trends is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 85) The best example of Gas laws is:",
+      "option_a": "Useful for understanding partial pressures and respiration basics.",
+      "option_b": "Chemical bonding",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Ionic, covalent, and metallic bonding",
+      "correct_answer": "A",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 86) Which pairing is correct?",
+      "option_a": "Redox reactions — Dynamic balance of forward and reverse reactions",
+      "option_b": "Equilibrium — Solute dissolved in solvent",
+      "option_c": "Solutions — Solute dissolved in solvent",
+      "option_d": "Moles and molarity — Relationships between P, V, T, n",
+      "correct_answer": "C",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 87) Which pairing is correct?",
+      "option_a": "Solutions — Solute dissolved in solvent",
+      "option_b": "Atomic structure — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Redox reactions — Solute dissolved in solvent",
+      "option_d": "Acids and bases — Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 88) Which pairing is correct?",
+      "option_a": "Moles and molarity — Proton donors/acceptors; pH scale",
+      "option_b": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "option_c": "Moles and molarity — Relationships between P, V, T, n",
+      "option_d": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "correct_answer": "D",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 89) Which option is TRUE regarding Chemical bonding?",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Atomic structure",
+      "option_d": "Ionic, covalent, and metallic bonding",
+      "correct_answer": "D",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 90) Which pairing is correct?",
+      "option_a": "Atomic structure — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Gas laws — Electron transfer causing oxidation/reduction",
+      "option_c": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "option_d": "Chemical bonding — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "C",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 91) Which pairing is correct?",
+      "option_a": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Chemical bonding — Speed of reactions and factors affecting it",
+      "option_c": "Gas laws — Dynamic balance of forward and reverse reactions",
+      "option_d": "Equilibrium — Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 92) Which pairing is correct?",
+      "option_a": "Atomic structure — Solute dissolved in solvent",
+      "option_b": "Atomic structure — Solute dissolved in solvent",
+      "option_c": "Solutions — Solute dissolved in solvent",
+      "option_d": "Periodic trends — Dynamic balance of forward and reverse reactions",
+      "correct_answer": "C",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 93) Which pairing is correct?",
+      "option_a": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_b": "Equilibrium — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Gas laws — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Acids and bases — Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 94) Which pairing is correct?",
+      "option_a": "Solutions — Quantifying amount of substance and concentration",
+      "option_b": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_c": "Moles and molarity — Speed of reactions and factors affecting it",
+      "option_d": "Equilibrium — Quantifying amount of substance and concentration",
+      "correct_answer": "B",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 95) Which pairing is correct?",
+      "option_a": "Acids and bases — Proton donors/acceptors; pH scale",
+      "option_b": "Atomic structure — Proton donors/acceptors; pH scale",
+      "option_c": "Acids and bases — Solute dissolved in solvent",
+      "option_d": "Kinetics (rate) — Relationships between P, V, T, n",
+      "correct_answer": "A",
+      "explanation": "Acids and bases: Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 96) Which option is TRUE regarding Equilibrium?",
+      "option_a": "Atomic structure",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Redox reactions",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "B",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 97) The best example of Redox reactions is:",
+      "option_a": "Quantifying amount of substance and concentration",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Acids and bases",
+      "option_d": "Solubility affected by temperature and polarity.",
+      "correct_answer": "B",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 98) Which pairing is correct?",
+      "option_a": "Atomic structure — Speed of reactions and factors affecting it",
+      "option_b": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Acids and bases — Relationships between P, V, T, n",
+      "correct_answer": "B",
+      "explanation": "Periodic trends: Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 99) Which option is TRUE regarding Periodic trends?",
+      "option_a": "Gas laws",
+      "option_b": "Equilibrium",
+      "option_c": "Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Le Châtelier predicts shift with changes.",
+      "correct_answer": "C",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 100) Which pairing is correct?",
+      "option_a": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_b": "Acids and bases — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Equilibrium — Ionic, covalent, and metallic bonding",
+      "option_d": "Atomic structure — Relationships between P, V, T, n",
+      "correct_answer": "A",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 101) A key point for dental practice regarding Moles and molarity is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 102) A key point for dental practice regarding Redox reactions is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 103) A key point for dental practice regarding Moles and molarity is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 104) Which option is TRUE regarding Equilibrium?",
+      "option_a": "Buffers resist pH change; relevant to oral environment.",
+      "option_b": "Equilibrium",
+      "option_c": "Solutions",
+      "option_d": "Dynamic balance of forward and reverse reactions",
+      "correct_answer": "D",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 105) Which pairing is correct?",
+      "option_a": "Equilibrium — Electron transfer causing oxidation/reduction",
+      "option_b": "Atomic structure — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Moles and molarity — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Equilibrium — Electron transfer causing oxidation/reduction",
+      "correct_answer": "B",
+      "explanation": "Atomic structure: Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 106) The best example of Redox reactions is:",
+      "option_a": "Electron configuration drives chemical behavior.",
+      "option_b": "Moles and molarity",
+      "option_c": "Important in metabolism and corrosion.",
+      "option_d": "Equilibrium",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 107) A key point for dental practice regarding Solutions is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 108) The best example of Atomic structure is:",
+      "option_a": "Electron configuration drives chemical behavior.",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Redox reactions",
+      "option_d": "Le Châtelier predicts shift with changes.",
+      "correct_answer": "A",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 109) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Moles and molarity",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 110) Which option is TRUE regarding Chemical bonding?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Moles and molarity",
+      "option_c": "Chemical bonding",
+      "option_d": "Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "A",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 111) The best example of Acids and bases is:",
+      "option_a": "Bond type affects properties like solubility and melting point.",
+      "option_b": "Molarity = moles/L; used in solution preparation.",
+      "option_c": "Buffers resist pH change; relevant to oral environment.",
+      "option_d": "Ionic, covalent, and metallic bonding",
+      "correct_answer": "C",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 112) Which option is TRUE regarding Kinetics (rate)?",
+      "option_a": "Speed of reactions and factors affecting it",
+      "option_b": "Gas laws",
+      "option_c": "Moles and molarity",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "A",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 113) A key point for dental practice regarding Moles and molarity is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 114) Which pairing is correct?",
+      "option_a": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_b": "Kinetics (rate) — Relationships between P, V, T, n",
+      "option_c": "Periodic trends — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Moles and molarity — Speed of reactions and factors affecting it",
+      "correct_answer": "A",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 115) Which pairing is correct?",
+      "option_a": "Chemical bonding — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Solutions — Solute dissolved in solvent",
+      "option_c": "Chemical bonding — Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Kinetics (rate) — Proton donors/acceptors; pH scale",
+      "correct_answer": "B",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 116) Which pairing is correct?",
+      "option_a": "Kinetics (rate) — Solute dissolved in solvent",
+      "option_b": "Atomic structure — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Gas laws — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "correct_answer": "D",
+      "explanation": "Kinetics (rate): Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 117) The best example of Gas laws is:",
+      "option_a": "Useful for understanding partial pressures and respiration basics.",
+      "option_b": "Acids and bases",
+      "option_c": "Moles and molarity",
+      "option_d": "Atomic structure",
+      "correct_answer": "A",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 118) Which pairing is correct?",
+      "option_a": "Solutions — Solute dissolved in solvent",
+      "option_b": "Gas laws — Speed of reactions and factors affecting it",
+      "option_c": "Atomic structure — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Chemical bonding — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "A",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 119) Which option is TRUE regarding Periodic trends?",
+      "option_a": "Chemical bonding",
+      "option_b": "Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Atomic structure",
+      "option_d": "Moles and molarity",
+      "correct_answer": "B",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 120) The best example of Atomic structure is:",
+      "option_a": "Electron configuration drives chemical behavior.",
+      "option_b": "Solutions",
+      "option_c": "Chemical bonding",
+      "option_d": "Le Châtelier predicts shift with changes.",
+      "correct_answer": "A",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 121) A key point for dental practice regarding Periodic trends is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 122) The best example of Kinetics (rate) is:",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Gas laws",
+      "option_c": "Acids and bases",
+      "option_d": "Catalysts increase rate without changing equilibrium.",
+      "correct_answer": "D",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 123) Which pairing is correct?",
+      "option_a": "Solutions — Quantifying amount of substance and concentration",
+      "option_b": "Moles and molarity — Ionic, covalent, and metallic bonding",
+      "option_c": "Equilibrium — Proton donors/acceptors; pH scale",
+      "option_d": "Gas laws — Relationships between P, V, T, n",
+      "correct_answer": "D",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 124) The best example of Equilibrium is:",
+      "option_a": "Solubility affected by temperature and polarity.",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Useful for understanding partial pressures and respiration basics.",
+      "option_d": "Atomic structure",
+      "correct_answer": "B",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 125) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 126) Which pairing is correct?",
+      "option_a": "Moles and molarity — Dynamic balance of forward and reverse reactions",
+      "option_b": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_c": "Acids and bases — Ionic, covalent, and metallic bonding",
+      "option_d": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "correct_answer": "B",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 127) Which pairing is correct?",
+      "option_a": "Gas laws — Relationships between P, V, T, n",
+      "option_b": "Acids and bases — Relationships between P, V, T, n",
+      "option_c": "Redox reactions — Dynamic balance of forward and reverse reactions",
+      "option_d": "Acids and bases — Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 128) Which option is TRUE regarding Periodic trends?",
+      "option_a": "Useful for understanding partial pressures and respiration basics.",
+      "option_b": "Proton donors/acceptors; pH scale",
+      "option_c": "Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Solubility affected by temperature and polarity.",
+      "correct_answer": "C",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 129) Which pairing is correct?",
+      "option_a": "Equilibrium — Speed of reactions and factors affecting it",
+      "option_b": "Atomic structure — Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Kinetics (rate) — Ionic, covalent, and metallic bonding",
+      "option_d": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "correct_answer": "D",
+      "explanation": "Kinetics (rate): Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 130) The best example of Gas laws is:",
+      "option_a": "Useful for understanding partial pressures and respiration basics.",
+      "option_b": "Quantifying amount of substance and concentration",
+      "option_c": "Le Châtelier predicts shift with changes.",
+      "option_d": "Molarity = moles/L; used in solution preparation.",
+      "correct_answer": "A",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 131) Which option is TRUE regarding Equilibrium?",
+      "option_a": "Periodic trends",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Proton donors/acceptors; pH scale",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "B",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 132) The best example of Chemical bonding is:",
+      "option_a": "Equilibrium",
+      "option_b": "Bond type affects properties like solubility and melting point.",
+      "option_c": "Speed of reactions and factors affecting it",
+      "option_d": "Gas laws",
+      "correct_answer": "B",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 133) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Periodic trends",
+      "option_b": "Gas laws",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 134) A key point for dental practice regarding Gas laws is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 135) A key point for dental practice regarding Chemical bonding is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 136) A key point for dental practice regarding Periodic trends is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 137) Which pairing is correct?",
+      "option_a": "Equilibrium — Quantifying amount of substance and concentration",
+      "option_b": "Moles and molarity — Ionic, covalent, and metallic bonding",
+      "option_c": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "option_d": "Acids and bases — Electron transfer causing oxidation/reduction",
+      "correct_answer": "C",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 138) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Buffers resist pH change; relevant to oral environment.",
+      "option_b": "Solute dissolved in solvent",
+      "option_c": "Trends predict bonding and reactivity.",
+      "option_d": "Electron transfer causing oxidation/reduction",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 139) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Solubility affected by temperature and polarity.",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "D",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 140) The best example of Equilibrium is:",
+      "option_a": "Le Châtelier predicts shift with changes.",
+      "option_b": "Molarity = moles/L; used in solution preparation.",
+      "option_c": "Redox reactions",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "A",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 141) Which option is TRUE regarding Atomic structure?",
+      "option_a": "Molarity = moles/L; used in solution preparation.",
+      "option_b": "Useful for understanding partial pressures and respiration basics.",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "D",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 142) Which pairing is correct?",
+      "option_a": "Equilibrium — Speed of reactions and factors affecting it",
+      "option_b": "Kinetics (rate) — Dynamic balance of forward and reverse reactions",
+      "option_c": "Periodic trends — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "correct_answer": "D",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 143) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Electron transfer causing oxidation/reduction",
+      "option_b": "Moles and molarity",
+      "option_c": "Quantifying amount of substance and concentration",
+      "option_d": "Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 144) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Electron transfer causing oxidation/reduction",
+      "option_b": "Redox reactions",
+      "option_c": "Buffers resist pH change; relevant to oral environment.",
+      "option_d": "Gas laws",
+      "correct_answer": "A",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 145) The best example of Atomic structure is:",
+      "option_a": "Electron configuration drives chemical behavior.",
+      "option_b": "Proton donors/acceptors; pH scale",
+      "option_c": "Le Châtelier predicts shift with changes.",
+      "option_d": "Equilibrium",
+      "correct_answer": "A",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 146) A key point for dental practice regarding Gas laws is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 147) The best example of Atomic structure is:",
+      "option_a": "Relationships between P, V, T, n",
+      "option_b": "Electron configuration drives chemical behavior.",
+      "option_c": "Le Châtelier predicts shift with changes.",
+      "option_d": "Dynamic balance of forward and reverse reactions",
+      "correct_answer": "B",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 148) Which option is TRUE regarding Equilibrium?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Relationships between P, V, T, n",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Dynamic balance of forward and reverse reactions",
+      "correct_answer": "D",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 149) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 150) Which pairing is correct?",
+      "option_a": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "option_b": "Redox reactions — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Atomic structure — Solute dissolved in solvent",
+      "option_d": "Gas laws — Solute dissolved in solvent",
+      "correct_answer": "A",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 151) Which pairing is correct?",
+      "option_a": "Chemical bonding — Quantifying amount of substance and concentration",
+      "option_b": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "option_c": "Periodic trends — Quantifying amount of substance and concentration",
+      "option_d": "Kinetics (rate) — Quantifying amount of substance and concentration",
+      "correct_answer": "B",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 152) Which pairing is correct?",
+      "option_a": "Redox reactions — Dynamic balance of forward and reverse reactions",
+      "option_b": "Acids and bases — Proton donors/acceptors; pH scale",
+      "option_c": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_d": "Kinetics (rate) — Proton donors/acceptors; pH scale",
+      "correct_answer": "B",
+      "explanation": "Acids and bases: Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 153) The best example of Periodic trends is:",
+      "option_a": "Solutions",
+      "option_b": "Trends predict bonding and reactivity.",
+      "option_c": "Moles and molarity",
+      "option_d": "Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "B",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 154) Which pairing is correct?",
+      "option_a": "Equilibrium — Electron transfer causing oxidation/reduction",
+      "option_b": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "option_c": "Moles and molarity — Speed of reactions and factors affecting it",
+      "option_d": "Atomic structure — Electron transfer causing oxidation/reduction",
+      "correct_answer": "B",
+      "explanation": "Kinetics (rate): Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 155) Which pairing is correct?",
+      "option_a": "Gas laws — Ionic, covalent, and metallic bonding",
+      "option_b": "Redox reactions — Ionic, covalent, and metallic bonding",
+      "option_c": "Chemical bonding — Ionic, covalent, and metallic bonding",
+      "option_d": "Equilibrium — Relationships between P, V, T, n",
+      "correct_answer": "C",
+      "explanation": "Chemical bonding: Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 156) A key point for dental practice regarding Atomic structure is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 157) Which pairing is correct?",
+      "option_a": "Chemical bonding — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Moles and molarity — Proton donors/acceptors; pH scale",
+      "option_c": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_d": "Periodic trends — Relationships between P, V, T, n",
+      "correct_answer": "C",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 158) Which option is TRUE regarding Solutions?",
+      "option_a": "Molarity = moles/L; used in solution preparation.",
+      "option_b": "Speed of reactions and factors affecting it",
+      "option_c": "Trends predict bonding and reactivity.",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "D",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 159) Which pairing is correct?",
+      "option_a": "Redox reactions — Proton donors/acceptors; pH scale",
+      "option_b": "Chemical bonding — Dynamic balance of forward and reverse reactions",
+      "option_c": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_d": "Chemical bonding — Solute dissolved in solvent",
+      "correct_answer": "C",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 160) The best example of Redox reactions is:",
+      "option_a": "Trends predict bonding and reactivity.",
+      "option_b": "Solute dissolved in solvent",
+      "option_c": "Bond type affects properties like solubility and melting point.",
+      "option_d": "Important in metabolism and corrosion.",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 161) Which option is TRUE regarding Chemical bonding?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Electron transfer causing oxidation/reduction",
+      "option_c": "Solubility affected by temperature and polarity.",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "A",
+      "explanation": "Bond type affects properties like solubility and melting point."
+    },
+    {
+      "question": "(General Chemistry Item 162) A key point for dental practice regarding Atomic structure is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 163) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 164) Which option is TRUE regarding Periodic trends?",
+      "option_a": "Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Ionic, covalent, and metallic bonding",
+      "option_d": "Kinetics (rate)",
+      "correct_answer": "A",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 165) Which pairing is correct?",
+      "option_a": "Moles and molarity — Relationships between P, V, T, n",
+      "option_b": "Solutions — Solute dissolved in solvent",
+      "option_c": "Moles and molarity — Electron transfer causing oxidation/reduction",
+      "option_d": "Kinetics (rate) — Speed of reactions and factors affecting it",
+      "correct_answer": "D",
+      "explanation": "Kinetics (rate): Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 166) Which option is TRUE regarding Gas laws?",
+      "option_a": "Gas laws",
+      "option_b": "Molarity = moles/L; used in solution preparation.",
+      "option_c": "Relationships between P, V, T, n",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "C",
+      "explanation": "Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 167) Which pairing is correct?",
+      "option_a": "Atomic structure — Ionic, covalent, and metallic bonding",
+      "option_b": "Equilibrium — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_c": "Solutions — Quantifying amount of substance and concentration",
+      "option_d": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "correct_answer": "D",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 168) Which pairing is correct?",
+      "option_a": "Gas laws — Patterns in electronegativity, radius, ionization energy",
+      "option_b": "Equilibrium — Solute dissolved in solvent",
+      "option_c": "Redox reactions — Electron transfer causing oxidation/reduction",
+      "option_d": "Kinetics (rate) — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "C",
+      "explanation": "Redox reactions: Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 169) A key point for dental practice regarding Moles and molarity is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 170) A key point for dental practice regarding Moles and molarity is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 171) The best example of Acids and bases is:",
+      "option_a": "Solutions",
+      "option_b": "Buffers resist pH change; relevant to oral environment.",
+      "option_c": "Ionic, covalent, and metallic bonding",
+      "option_d": "Electron transfer causing oxidation/reduction",
+      "correct_answer": "B",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 172) The best example of Periodic trends is:",
+      "option_a": "Equilibrium",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Trends predict bonding and reactivity.",
+      "option_d": "Solutions",
+      "correct_answer": "C",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 173) Which pairing is correct?",
+      "option_a": "Redox reactions — Proton donors/acceptors; pH scale",
+      "option_b": "Moles and molarity — Proton donors/acceptors; pH scale",
+      "option_c": "Acids and bases — Speed of reactions and factors affecting it",
+      "option_d": "Gas laws — Relationships between P, V, T, n",
+      "correct_answer": "D",
+      "explanation": "Gas laws: Useful for understanding partial pressures and respiration basics."
+    },
+    {
+      "question": "(General Chemistry Item 174) A key point for dental practice regarding Solutions is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 175) Which pairing is correct?",
+      "option_a": "Atomic structure — Ionic, covalent, and metallic bonding",
+      "option_b": "Moles and molarity — Quantifying amount of substance and concentration",
+      "option_c": "Equilibrium — Speed of reactions and factors affecting it",
+      "option_d": "Periodic trends — Electron transfer causing oxidation/reduction",
+      "correct_answer": "B",
+      "explanation": "Moles and molarity: Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 176) The best example of Redox reactions is:",
+      "option_a": "Moles and molarity",
+      "option_b": "Equilibrium",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Important in metabolism and corrosion.",
+      "correct_answer": "D",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 177) A key point for dental practice regarding Acids and bases is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 178) The best example of Acids and bases is:",
+      "option_a": "Important in metabolism and corrosion.",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Relationships between P, V, T, n",
+      "option_d": "Buffers resist pH change; relevant to oral environment.",
+      "correct_answer": "D",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 179) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Quantifying amount of substance and concentration",
+      "option_c": "Electron transfer causing oxidation/reduction",
+      "option_d": "Kinetics (rate)",
+      "correct_answer": "C",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 180) The best example of Equilibrium is:",
+      "option_a": "Molarity = moles/L; used in solution preparation.",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Chemical bonding",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "B",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 181) Which option is TRUE regarding Solutions?",
+      "option_a": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Solute dissolved in solvent",
+      "option_c": "Buffers resist pH change; relevant to oral environment.",
+      "option_d": "Useful for understanding partial pressures and respiration basics.",
+      "correct_answer": "B",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 182) A key point for dental practice regarding Kinetics (rate) is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 183) Which pairing is correct?",
+      "option_a": "Acids and bases — Relationships between P, V, T, n",
+      "option_b": "Equilibrium — Dynamic balance of forward and reverse reactions",
+      "option_c": "Equilibrium — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Solutions — Proton donors/acceptors; pH scale",
+      "correct_answer": "B",
+      "explanation": "Equilibrium: Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 184) Which option is TRUE regarding Atomic structure?",
+      "option_a": "Important in metabolism and corrosion.",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Trends predict bonding and reactivity.",
+      "option_d": "Protons/neutrons in nucleus; electrons in orbitals",
+      "correct_answer": "D",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 185) A key point for dental practice regarding Acids and bases is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 186) A key point for dental practice regarding Solutions is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 187) Which option is TRUE regarding Moles and molarity?",
+      "option_a": "Solubility affected by temperature and polarity.",
+      "option_b": "Electron transfer causing oxidation/reduction",
+      "option_c": "Patterns in electronegativity, radius, ionization energy",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "D",
+      "explanation": "Molarity = moles/L; used in solution preparation."
+    },
+    {
+      "question": "(General Chemistry Item 188) Which option is TRUE regarding Redox reactions?",
+      "option_a": "Trends predict bonding and reactivity.",
+      "option_b": "Electron transfer causing oxidation/reduction",
+      "option_c": "Redox reactions",
+      "option_d": "Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "B",
+      "explanation": "Important in metabolism and corrosion."
+    },
+    {
+      "question": "(General Chemistry Item 189) Which pairing is correct?",
+      "option_a": "Acids and bases — Proton donors/acceptors; pH scale",
+      "option_b": "Moles and molarity — Proton donors/acceptors; pH scale",
+      "option_c": "Gas laws — Speed of reactions and factors affecting it",
+      "option_d": "Moles and molarity — Electron transfer causing oxidation/reduction",
+      "correct_answer": "A",
+      "explanation": "Acids and bases: Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 190) Which pairing is correct?",
+      "option_a": "Atomic structure — Protons/neutrons in nucleus; electrons in orbitals",
+      "option_b": "Solutions — Relationships between P, V, T, n",
+      "option_c": "Moles and molarity — Solute dissolved in solvent",
+      "option_d": "Solutions — Patterns in electronegativity, radius, ionization energy",
+      "correct_answer": "A",
+      "explanation": "Atomic structure: Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 191) Which option is TRUE regarding Acids and bases?",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Redox reactions",
+      "option_c": "Kinetics (rate)",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "A",
+      "explanation": "Buffers resist pH change; relevant to oral environment."
+    },
+    {
+      "question": "(General Chemistry Item 192) The best example of Equilibrium is:",
+      "option_a": "Le Châtelier predicts shift with changes.",
+      "option_b": "Patterns in electronegativity, radius, ionization energy",
+      "option_c": "Solubility affected by temperature and polarity.",
+      "option_d": "Atomic structure",
+      "correct_answer": "A",
+      "explanation": "Le Châtelier predicts shift with changes."
+    },
+    {
+      "question": "(General Chemistry Item 193) The best example of Periodic trends is:",
+      "option_a": "Proton donors/acceptors; pH scale",
+      "option_b": "Le Châtelier predicts shift with changes.",
+      "option_c": "Relationships between P, V, T, n",
+      "option_d": "Trends predict bonding and reactivity.",
+      "correct_answer": "D",
+      "explanation": "Trends predict bonding and reactivity."
+    },
+    {
+      "question": "(General Chemistry Item 194) Which option is TRUE regarding Solutions?",
+      "option_a": "Redox reactions",
+      "option_b": "Kinetics (rate)",
+      "option_c": "Electron configuration drives chemical behavior.",
+      "option_d": "Solute dissolved in solvent",
+      "correct_answer": "D",
+      "explanation": "Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 195) Which option is TRUE regarding Atomic structure?",
+      "option_a": "Ionic, covalent, and metallic bonding",
+      "option_b": "Important in metabolism and corrosion.",
+      "option_c": "Protons/neutrons in nucleus; electrons in orbitals",
+      "option_d": "Quantifying amount of substance and concentration",
+      "correct_answer": "C",
+      "explanation": "Electron configuration drives chemical behavior."
+    },
+    {
+      "question": "(General Chemistry Item 196) A key point for dental practice regarding Solutions is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 197) Which option is TRUE regarding Kinetics (rate)?",
+      "option_a": "Bond type affects properties like solubility and melting point.",
+      "option_b": "Dynamic balance of forward and reverse reactions",
+      "option_c": "Periodic trends",
+      "option_d": "Speed of reactions and factors affecting it",
+      "correct_answer": "D",
+      "explanation": "Catalysts increase rate without changing equilibrium."
+    },
+    {
+      "question": "(General Chemistry Item 198) A key point for dental practice regarding Solutions is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(General Chemistry Item 199) Which pairing is correct?",
+      "option_a": "Solutions — Solute dissolved in solvent",
+      "option_b": "Solutions — Relationships between P, V, T, n",
+      "option_c": "Redox reactions — Ionic, covalent, and metallic bonding",
+      "option_d": "Kinetics (rate) — Electron transfer causing oxidation/reduction",
+      "correct_answer": "A",
+      "explanation": "Solutions: Solubility affected by temperature and polarity."
+    },
+    {
+      "question": "(General Chemistry Item 200) A key point for dental practice regarding Equilibrium is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    }
+  ]
+}

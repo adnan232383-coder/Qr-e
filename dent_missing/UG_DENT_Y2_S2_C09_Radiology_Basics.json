@@ -1,0 +1,1806 @@
+{
+  "course_name": "Radiology (Basics)",
+  "course_code": "UG_DENT_Y2_S2_C09",
+  "questions": [
+    {
+      "question": "Which statement best describes Intraoral radiographs?",
+      "option_a": "Intraoral radiographs",
+      "option_b": "Contrast and density",
+      "option_c": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_d": "Periapical, bitewing, occlusal views",
+      "correct_answer": "D",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "In Radiology (Basics), Intraoral radiographs is MOST associated with:",
+      "option_a": "kVp affects contrast; mA/time affects density.",
+      "option_b": "Paralleling technique",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Bitewing radiograph",
+      "correct_answer": "C",
+      "explanation": "Intraoral radiographs: Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "Which statement best describes Bitewing radiograph?",
+      "option_a": "Best for detecting interproximal caries and crestal bone",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "Contrast and density",
+      "option_d": "Digital radiography",
+      "correct_answer": "A",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "In Radiology (Basics), Bitewing radiograph is MOST associated with:",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Radiation protection",
+      "option_c": "Shows crowns and alveolar crest.",
+      "option_d": "Bitewing radiograph",
+      "correct_answer": "C",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "Which statement best describes Periapical radiograph?",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "Paralleling technique",
+      "option_d": "3D imaging using cone-beam CT",
+      "correct_answer": "B",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "In Radiology (Basics), Periapical radiograph is MOST associated with:",
+      "option_a": "Best for detecting interproximal caries and crestal bone",
+      "option_b": "Sensors capture images electronically",
+      "option_c": "Used for endodontic and apical pathology evaluation.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "C",
+      "explanation": "Periapical radiograph: Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "Which statement best describes Paralleling technique?",
+      "option_a": "More distortion risk; used when paralleling not possible.",
+      "option_b": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Image qualities affecting visibility of structures",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "B",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "In Radiology (Basics), Paralleling technique is MOST associated with:",
+      "option_a": "Bitewing radiograph",
+      "option_b": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "Periapical, bitewing, occlusal views",
+      "correct_answer": "C",
+      "explanation": "Paralleling technique: Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "Which statement best describes Bisecting angle technique?",
+      "option_a": "Bisecting angle technique",
+      "option_b": "Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Radiographic artifacts",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "B",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "In Radiology (Basics), Bisecting angle technique is MOST associated with:",
+      "option_a": "Bitewing radiograph",
+      "option_b": "More distortion risk; used when paralleling not possible.",
+      "option_c": "CBCT basics",
+      "option_d": "Sensors capture images electronically",
+      "correct_answer": "B",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "Which statement best describes Radiation protection?",
+      "option_a": "Minimize exposure using time, distance, shielding",
+      "option_b": "Paralleling technique",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "A",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "In Radiology (Basics), Radiation protection is MOST associated with:",
+      "option_a": "Lead apron/collar and collimation reduce dose.",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Contrast and density",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "A",
+      "explanation": "Radiation protection: Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "Which statement best describes Digital radiography?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Reduces distortion; standard for periapicals.",
+      "option_c": "Bisecting angle technique",
+      "option_d": "Sensors capture images electronically",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "In Radiology (Basics), Digital radiography is MOST associated with:",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Intraoral radiographs",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "A",
+      "explanation": "Digital radiography: Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "Which statement best describes Radiographic artifacts?",
+      "option_a": "Reduces distortion; standard for periapicals.",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Errors causing image defects",
+      "correct_answer": "D",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "In Radiology (Basics), Radiographic artifacts is MOST associated with:",
+      "option_a": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Lead apron/collar and collimation reduce dose.",
+      "option_c": "Causes include movement, bending, processing errors, cone cut.",
+      "option_d": "Contrast and density",
+      "correct_answer": "C",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "Which statement best describes Contrast and density?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "Causes include movement, bending, processing errors, cone cut.",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "B",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "In Radiology (Basics), Contrast and density is MOST associated with:",
+      "option_a": "Lead apron/collar and collimation reduce dose.",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Contrast and density",
+      "correct_answer": "B",
+      "explanation": "Contrast and density: kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "Which statement best describes CBCT basics?",
+      "option_a": "Intraoral radiographs",
+      "option_b": "Radiation protection",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "C",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "In Radiology (Basics), CBCT basics is MOST associated with:",
+      "option_a": "Radiation protection",
+      "option_b": "Causes include movement, bending, processing errors, cone cut.",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "C",
+      "explanation": "CBCT basics: Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 21) Which option is TRUE regarding CBCT basics?",
+      "option_a": "Minimize exposure using time, distance, shielding",
+      "option_b": "Periapical radiograph",
+      "option_c": "Image qualities affecting visibility of structures",
+      "option_d": "3D imaging using cone-beam CT",
+      "correct_answer": "D",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 22) The best example of Contrast and density is:",
+      "option_a": "Intraoral radiographs",
+      "option_b": "Radiation protection",
+      "option_c": "Bitewing radiograph",
+      "option_d": "kVp affects contrast; mA/time affects density.",
+      "correct_answer": "D",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 23) The best example of Digital radiography is:",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Periapical radiograph",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Contrast and density",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 24) Which pairing is correct?",
+      "option_a": "Bisecting angle technique — Shows entire tooth and periapical area",
+      "option_b": "Intraoral radiographs — Periapical, bitewing, occlusal views",
+      "option_c": "CBCT basics — 3D imaging using cone-beam CT",
+      "option_d": "Bisecting angle technique — Periapical, bitewing, occlusal views",
+      "correct_answer": "B",
+      "explanation": "Intraoral radiographs: Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 25) Which pairing is correct?",
+      "option_a": "Periapical radiograph — Errors causing image defects",
+      "option_b": "Periapical radiograph — Minimize exposure using time, distance, shielding",
+      "option_c": "CBCT basics — 3D imaging using cone-beam CT",
+      "option_d": "Intraoral radiographs — 3D imaging using cone-beam CT",
+      "correct_answer": "C",
+      "explanation": "CBCT basics: Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 26) The best example of Paralleling technique is:",
+      "option_a": "Digital radiography",
+      "option_b": "Causes include movement, bending, processing errors, cone cut.",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 27) The best example of Paralleling technique is:",
+      "option_a": "Reduces distortion; standard for periapicals.",
+      "option_b": "Contrast and density",
+      "option_c": "Digital radiography",
+      "option_d": "Image qualities affecting visibility of structures",
+      "correct_answer": "A",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 28) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Minimize exposure using time, distance, shielding",
+      "option_b": "More distortion risk; used when paralleling not possible.",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "A",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 29) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Errors causing image defects",
+      "option_c": "Periapical, bitewing, occlusal views",
+      "option_d": "Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 30) The best example of Radiation protection is:",
+      "option_a": "Shows crowns and alveolar crest.",
+      "option_b": "Lead apron/collar and collimation reduce dose.",
+      "option_c": "Bitewing radiograph",
+      "option_d": "Paralleling technique",
+      "correct_answer": "B",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 31) The best example of Digital radiography is:",
+      "option_a": "Lead apron/collar and collimation reduce dose.",
+      "option_b": "CBCT basics",
+      "option_c": "Paralleling technique",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 32) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Periapical, bitewing, occlusal views",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 33) Which option is TRUE regarding Periapical radiograph?",
+      "option_a": "Shows entire tooth and periapical area",
+      "option_b": "Contrast and density",
+      "option_c": "CBCT basics",
+      "option_d": "Bitewing radiograph",
+      "correct_answer": "A",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 34) A key point for dental practice regarding CBCT basics is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 35) Which option is TRUE regarding Contrast and density?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Periapical radiograph",
+      "option_c": "Contrast and density",
+      "option_d": "More distortion risk; used when paralleling not possible.",
+      "correct_answer": "A",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 36) The best example of Digital radiography is:",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Errors causing image defects",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 37) The best example of Intraoral radiographs is:",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Bitewing radiograph",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "A",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 38) Which option is TRUE regarding Intraoral radiographs?",
+      "option_a": "Intraoral radiographs",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Used for endodontic and apical pathology evaluation.",
+      "option_d": "Image qualities affecting visibility of structures",
+      "correct_answer": "B",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 39) A key point for dental practice regarding Bisecting angle technique is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 40) Which pairing is correct?",
+      "option_a": "CBCT basics — 3D imaging using cone-beam CT",
+      "option_b": "Radiation protection — Periapical, bitewing, occlusal views",
+      "option_c": "Digital radiography — Errors causing image defects",
+      "option_d": "Radiation protection — Image qualities affecting visibility of structures",
+      "correct_answer": "A",
+      "explanation": "CBCT basics: Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 41) A key point for dental practice regarding Digital radiography is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 42) A key point for dental practice regarding Radiation protection is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 43) A key point for dental practice regarding Digital radiography is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 44) The best example of Bitewing radiograph is:",
+      "option_a": "CBCT basics",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "Shows entire tooth and periapical area",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "B",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 45) The best example of Digital radiography is:",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Intraoral radiographs",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 46) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Digital radiography",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "Bisecting angle technique",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 47) Which pairing is correct?",
+      "option_a": "CBCT basics — 3D imaging using cone-beam CT",
+      "option_b": "CBCT basics — Minimize exposure using time, distance, shielding",
+      "option_c": "Bisecting angle technique — Best for detecting interproximal caries and crestal bone",
+      "option_d": "Intraoral radiographs — Sensors capture images electronically",
+      "correct_answer": "A",
+      "explanation": "CBCT basics: Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 48) The best example of Digital radiography is:",
+      "option_a": "Lead apron/collar and collimation reduce dose.",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_d": "More distortion risk; used when paralleling not possible.",
+      "correct_answer": "C",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 49) A key point for dental practice regarding Paralleling technique is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 50) The best example of Bitewing radiograph is:",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "CBCT basics",
+      "option_d": "Used for endodontic and apical pathology evaluation.",
+      "correct_answer": "B",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 51) Which pairing is correct?",
+      "option_a": "Digital radiography — Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Radiographic artifacts — Errors causing image defects",
+      "option_c": "Periapical radiograph — Shows entire tooth and periapical area",
+      "option_d": "Paralleling technique — Errors causing image defects",
+      "correct_answer": "B",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 52) Which pairing is correct?",
+      "option_a": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Radiographic artifacts — Image qualities affecting visibility of structures",
+      "option_c": "Bisecting angle technique — Errors causing image defects",
+      "option_d": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "A",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 53) Which pairing is correct?",
+      "option_a": "Digital radiography — Errors causing image defects",
+      "option_b": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Bisecting angle technique — Sensors capture images electronically",
+      "option_d": "Radiation protection — Periapical, bitewing, occlusal views",
+      "correct_answer": "B",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 54) Which pairing is correct?",
+      "option_a": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Intraoral radiographs — Image qualities affecting visibility of structures",
+      "option_c": "Bitewing radiograph — Image qualities affecting visibility of structures",
+      "option_d": "CBCT basics — Sensors capture images electronically",
+      "correct_answer": "A",
+      "explanation": "Paralleling technique: Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 55) A key point for dental practice regarding Bitewing radiograph is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 56) The best example of Periapical radiograph is:",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Bisecting angle technique",
+      "option_d": "Used for endodontic and apical pathology evaluation.",
+      "correct_answer": "D",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 57) Which pairing is correct?",
+      "option_a": "Intraoral radiographs — Shows entire tooth and periapical area",
+      "option_b": "Radiographic artifacts — Errors causing image defects",
+      "option_c": "Digital radiography — Errors causing image defects",
+      "option_d": "Bisecting angle technique — Errors causing image defects",
+      "correct_answer": "B",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 58) Which option is TRUE regarding Contrast and density?",
+      "option_a": "kVp affects contrast; mA/time affects density.",
+      "option_b": "Bisecting angle technique",
+      "option_c": "Sensors capture images electronically",
+      "option_d": "Image qualities affecting visibility of structures",
+      "correct_answer": "D",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 59) A key point for dental practice regarding Bisecting angle technique is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 60) A key point for dental practice regarding Paralleling technique is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 61) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Lead apron/collar and collimation reduce dose.",
+      "option_b": "Sensors capture images electronically",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "B",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 62) The best example of Intraoral radiographs is:",
+      "option_a": "Bisecting angle technique",
+      "option_b": "Used for endodontic and apical pathology evaluation.",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Intraoral radiographs",
+      "correct_answer": "C",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 63) A key point for dental practice regarding Intraoral radiographs is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 64) The best example of Bisecting angle technique is:",
+      "option_a": "More distortion risk; used when paralleling not possible.",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "Image qualities affecting visibility of structures",
+      "option_d": "Digital radiography",
+      "correct_answer": "A",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 65) The best example of Paralleling technique is:",
+      "option_a": "Bisecting angle technique",
+      "option_b": "Best for detecting interproximal caries and crestal bone",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "Intraoral radiographs",
+      "correct_answer": "C",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 66) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Errors causing image defects",
+      "option_b": "Used for endodontic and apical pathology evaluation.",
+      "option_c": "Sensors capture images electronically",
+      "option_d": "Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "C",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 67) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Shows crowns and alveolar crest.",
+      "option_b": "Minimize exposure using time, distance, shielding",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Paralleling technique",
+      "correct_answer": "B",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 68) The best example of Paralleling technique is:",
+      "option_a": "Radiographic artifacts",
+      "option_b": "Contrast and density",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 69) A key point for dental practice regarding Intraoral radiographs is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 70) A key point for dental practice regarding Contrast and density is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 71) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_b": "Digital radiography — Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Radiographic artifacts — Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "A",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 72) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_c": "Intraoral radiographs",
+      "option_d": "More distortion risk; used when paralleling not possible.",
+      "correct_answer": "A",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 73) The best example of Intraoral radiographs is:",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "C",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 74) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Digital radiography",
+      "option_b": "Errors causing image defects",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Periapical, bitewing, occlusal views",
+      "correct_answer": "B",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 75) A key point for dental practice regarding Bisecting angle technique is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 76) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "CBCT basics",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "A",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 77) The best example of Paralleling technique is:",
+      "option_a": "CBCT basics",
+      "option_b": "Best for detecting interproximal caries and crestal bone",
+      "option_c": "Used for endodontic and apical pathology evaluation.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 78) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Digital radiography",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Sensors capture images electronically",
+      "correct_answer": "C",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 79) Which option is TRUE regarding Contrast and density?",
+      "option_a": "More distortion risk; used when paralleling not possible.",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "Radiation protection",
+      "option_d": "Used for endodontic and apical pathology evaluation.",
+      "correct_answer": "B",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 80) A key point for dental practice regarding Contrast and density is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 81) A key point for dental practice regarding Contrast and density is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 82) A key point for dental practice regarding Bitewing radiograph is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 83) The best example of Periapical radiograph is:",
+      "option_a": "Digital radiography",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Used for endodontic and apical pathology evaluation.",
+      "correct_answer": "D",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 84) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Reduces distortion; standard for periapicals.",
+      "option_b": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_c": "Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Image qualities affecting visibility of structures",
+      "correct_answer": "C",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 85) A key point for dental practice regarding Radiation protection is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 86) The best example of Bisecting angle technique is:",
+      "option_a": "More distortion risk; used when paralleling not possible.",
+      "option_b": "Image qualities affecting visibility of structures",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "correct_answer": "A",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 87) A key point for dental practice regarding Radiographic artifacts is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 88) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Minimize exposure using time, distance, shielding",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "kVp affects contrast; mA/time affects density.",
+      "correct_answer": "B",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 89) A key point for dental practice regarding Periapical radiograph is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 90) The best example of Bitewing radiograph is:",
+      "option_a": "Shows crowns and alveolar crest.",
+      "option_b": "Digital radiography",
+      "option_c": "Minimize exposure using time, distance, shielding",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "A",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 91) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Periapical radiograph",
+      "option_b": "Errors causing image defects",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Radiation protection",
+      "correct_answer": "B",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 92) The best example of CBCT basics is:",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_d": "Minimize exposure using time, distance, shielding",
+      "correct_answer": "C",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 93) The best example of Bitewing radiograph is:",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "Bisecting angle technique",
+      "option_d": "Periapical radiograph",
+      "correct_answer": "B",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 94) A key point for dental practice regarding Intraoral radiographs is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 95) A key point for dental practice regarding CBCT basics is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 96) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "3D imaging using cone-beam CT",
+      "option_b": "Bisecting angle technique",
+      "option_c": "Digital radiography",
+      "option_d": "Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 97) A key point for dental practice regarding Radiation protection is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 98) Which pairing is correct?",
+      "option_a": "Contrast and density — Errors causing image defects",
+      "option_b": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Digital radiography — Minimize exposure using time, distance, shielding",
+      "option_d": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "B",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 99) A key point for dental practice regarding Radiation protection is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 100) A key point for dental practice regarding Bisecting angle technique is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 101) A key point for dental practice regarding CBCT basics is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 102) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "Causes include movement, bending, processing errors, cone cut.",
+      "option_b": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Used for endodontic and apical pathology evaluation.",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "B",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 103) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Errors causing image defects",
+      "option_b": "Contrast and density",
+      "option_c": "Reduces distortion; standard for periapicals.",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "A",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 104) The best example of Radiation protection is:",
+      "option_a": "Radiation protection",
+      "option_b": "Lead apron/collar and collimation reduce dose.",
+      "option_c": "More distortion risk; used when paralleling not possible.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "B",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 105) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Radiographic artifacts",
+      "option_b": "Bisecting angle technique",
+      "option_c": "More distortion risk; used when paralleling not possible.",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "D",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 106) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Minimize exposure using time, distance, shielding",
+      "option_b": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "A",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 107) The best example of Digital radiography is:",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Causes include movement, bending, processing errors, cone cut.",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Radiographic artifacts",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 108) Which option is TRUE regarding Periapical radiograph?",
+      "option_a": "kVp affects contrast; mA/time affects density.",
+      "option_b": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_c": "Shows crowns and alveolar crest.",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "D",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 109) A key point for dental practice regarding Bisecting angle technique is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 110) Which option is TRUE regarding Contrast and density?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Paralleling technique",
+      "option_c": "Periapical radiograph",
+      "option_d": "Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "A",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 111) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Intraoral radiographs",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "D",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 112) The best example of Intraoral radiographs is:",
+      "option_a": "Radiographic artifacts",
+      "option_b": "More distortion risk; used when paralleling not possible.",
+      "option_c": "Periapical radiograph",
+      "option_d": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "correct_answer": "D",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 113) Which pairing is correct?",
+      "option_a": "Intraoral radiographs — Periapical, bitewing, occlusal views",
+      "option_b": "Radiographic artifacts — Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Periapical radiograph — Shows entire tooth and periapical area",
+      "correct_answer": "C",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 114) Which option is TRUE regarding Intraoral radiographs?",
+      "option_a": "Used for endodontic and apical pathology evaluation.",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Sensors capture images electronically",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "B",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 115) The best example of Radiation protection is:",
+      "option_a": "Paralleling technique",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "Minimize exposure using time, distance, shielding",
+      "correct_answer": "C",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 116) The best example of Digital radiography is:",
+      "option_a": "Errors causing image defects",
+      "option_b": "Contrast and density",
+      "option_c": "Periapical radiograph",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 117) The best example of Intraoral radiographs is:",
+      "option_a": "CBCT basics",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Intraoral radiographs",
+      "correct_answer": "C",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 118) A key point for dental practice regarding Digital radiography is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 119) A key point for dental practice regarding Periapical radiograph is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 120) A key point for dental practice regarding Bitewing radiograph is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 121) A key point for dental practice regarding CBCT basics is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 122) Which pairing is correct?",
+      "option_a": "Bisecting angle technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Radiographic artifacts — Errors causing image defects",
+      "option_c": "Radiographic artifacts — Best for detecting interproximal caries and crestal bone",
+      "option_d": "Contrast and density — Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "B",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 123) Which option is TRUE regarding Contrast and density?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "3D imaging using cone-beam CT",
+      "option_c": "Radiographic artifacts",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "A",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 124) A key point for dental practice regarding Bitewing radiograph is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 125) Which pairing is correct?",
+      "option_a": "Digital radiography — Sensors capture images electronically",
+      "option_b": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_c": "Contrast and density — Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Periapical radiograph — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "A",
+      "explanation": "Digital radiography: Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 126) Which pairing is correct?",
+      "option_a": "Paralleling technique — Errors causing image defects",
+      "option_b": "Radiographic artifacts — Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Radiation protection — Sensors capture images electronically",
+      "option_d": "Contrast and density — Image qualities affecting visibility of structures",
+      "correct_answer": "D",
+      "explanation": "Contrast and density: kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 127) Which option is TRUE regarding CBCT basics?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Paralleling technique",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "Intraoral radiographs",
+      "correct_answer": "C",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 128) A key point for dental practice regarding Contrast and density is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 129) The best example of Bitewing radiograph is:",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "Periapical, bitewing, occlusal views",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "B",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 130) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "3D imaging using cone-beam CT",
+      "option_b": "Errors causing image defects",
+      "option_c": "More distortion risk; used when paralleling not possible.",
+      "option_d": "Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 131) A key point for dental practice regarding Radiation protection is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 132) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Sensors capture images electronically",
+      "option_c": "Radiation protection",
+      "option_d": "Minimize exposure using time, distance, shielding",
+      "correct_answer": "D",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 133) Which option is TRUE regarding Periapical radiograph?",
+      "option_a": "Causes include movement, bending, processing errors, cone cut.",
+      "option_b": "Reduces distortion; standard for periapicals.",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "D",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 134) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Radiographic artifacts",
+      "option_b": "Errors causing image defects",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "B",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 135) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — Image qualities affecting visibility of structures",
+      "option_b": "Intraoral radiographs — Beam perpendicular to bisector between tooth and receptor",
+      "option_c": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_d": "CBCT basics — 3D imaging using cone-beam CT",
+      "correct_answer": "C",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 136) The best example of Radiation protection is:",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Contrast and density",
+      "option_c": "Intraoral radiographs",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "D",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 137) The best example of Paralleling technique is:",
+      "option_a": "Best for detecting interproximal caries and crestal bone",
+      "option_b": "Reduces distortion; standard for periapicals.",
+      "option_c": "Causes include movement, bending, processing errors, cone cut.",
+      "option_d": "3D imaging using cone-beam CT",
+      "correct_answer": "B",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 138) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_b": "Radiation protection — Sensors capture images electronically",
+      "option_c": "Bisecting angle technique — Minimize exposure using time, distance, shielding",
+      "option_d": "Radiation protection — Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "A",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 139) Which option is TRUE regarding Intraoral radiographs?",
+      "option_a": "Radiation protection",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Used for endodontic and apical pathology evaluation.",
+      "option_d": "Periapical, bitewing, occlusal views",
+      "correct_answer": "D",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 140) Which option is TRUE regarding CBCT basics?",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Best for detecting interproximal caries and crestal bone",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "CBCT basics",
+      "correct_answer": "C",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 141) The best example of CBCT basics is:",
+      "option_a": "Periapical radiograph",
+      "option_b": "Paralleling technique",
+      "option_c": "Digital radiography",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "D",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 142) Which option is TRUE regarding CBCT basics?",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Used for endodontic and apical pathology evaluation.",
+      "option_c": "Contrast and density",
+      "option_d": "3D imaging using cone-beam CT",
+      "correct_answer": "D",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 143) The best example of Intraoral radiographs is:",
+      "option_a": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_b": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_c": "Periapical radiograph",
+      "option_d": "Bisecting angle technique",
+      "correct_answer": "B",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    },
+    {
+      "question": "(Radiology (Basics) Item 144) Which pairing is correct?",
+      "option_a": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Bitewing radiograph — Image qualities affecting visibility of structures",
+      "option_c": "Radiographic artifacts — Errors causing image defects",
+      "option_d": "Bisecting angle technique — Minimize exposure using time, distance, shielding",
+      "correct_answer": "C",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 145) Which pairing is correct?",
+      "option_a": "Contrast and density — Image qualities affecting visibility of structures",
+      "option_b": "Bisecting angle technique — 3D imaging using cone-beam CT",
+      "option_c": "Intraoral radiographs — Film/sensor parallel to long axis; beam perpendicular",
+      "option_d": "Periapical radiograph — Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "A",
+      "explanation": "Contrast and density: kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 146) The best example of Radiation protection is:",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "Shows crowns and alveolar crest.",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "D",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 147) Which pairing is correct?",
+      "option_a": "Radiographic artifacts — Errors causing image defects",
+      "option_b": "Radiographic artifacts — Sensors capture images electronically",
+      "option_c": "Radiographic artifacts — Shows entire tooth and periapical area",
+      "option_d": "Intraoral radiographs — Minimize exposure using time, distance, shielding",
+      "correct_answer": "A",
+      "explanation": "Radiographic artifacts: Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 148) A key point for dental practice regarding Periapical radiograph is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 149) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_c": "Shows entire tooth and periapical area",
+      "option_d": "Errors causing image defects",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 150) A key point for dental practice regarding Paralleling technique is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 151) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Bitewing radiograph — Shows entire tooth and periapical area",
+      "option_c": "Bisecting angle technique — Best for detecting interproximal caries and crestal bone",
+      "option_d": "Digital radiography — Sensors capture images electronically",
+      "correct_answer": "D",
+      "explanation": "Digital radiography: Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 152) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Errors causing image defects",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "B",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 153) The best example of Radiation protection is:",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "kVp affects contrast; mA/time affects density.",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "3D imaging using cone-beam CT",
+      "correct_answer": "C",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 154) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "Shows crowns and alveolar crest.",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_d": "Paralleling technique",
+      "correct_answer": "C",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 155) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Shows crowns and alveolar crest.",
+      "option_b": "Minimize exposure using time, distance, shielding",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Paralleling technique",
+      "correct_answer": "B",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 156) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_b": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Digital radiography — Periapical, bitewing, occlusal views",
+      "option_d": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "A",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 157) Which pairing is correct?",
+      "option_a": "Paralleling technique — Periapical, bitewing, occlusal views",
+      "option_b": "Contrast and density — Errors causing image defects",
+      "option_c": "Periapical radiograph — Shows entire tooth and periapical area",
+      "option_d": "Bitewing radiograph — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "C",
+      "explanation": "Periapical radiograph: Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 158) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Best for detecting interproximal caries and crestal bone",
+      "option_d": "Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "B",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 159) Which pairing is correct?",
+      "option_a": "Contrast and density — Shows entire tooth and periapical area",
+      "option_b": "Intraoral radiographs — Periapical, bitewing, occlusal views",
+      "option_c": "Digital radiography — Shows entire tooth and periapical area",
+      "option_d": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "D",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 160) Which pairing is correct?",
+      "option_a": "Intraoral radiographs — Sensors capture images electronically",
+      "option_b": "Radiographic artifacts — Periapical, bitewing, occlusal views",
+      "option_c": "Radiation protection — Minimize exposure using time, distance, shielding",
+      "option_d": "Bisecting angle technique — Errors causing image defects",
+      "correct_answer": "C",
+      "explanation": "Radiation protection: Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 161) The best example of Paralleling technique is:",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Bitewing radiograph",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 162) The best example of CBCT basics is:",
+      "option_a": "Bisecting angle technique",
+      "option_b": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_c": "Causes include movement, bending, processing errors, cone cut.",
+      "option_d": "CBCT basics",
+      "correct_answer": "B",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 163) Which option is TRUE regarding Paralleling technique?",
+      "option_a": "Reduces distortion; standard for periapicals.",
+      "option_b": "Paralleling technique",
+      "option_c": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_d": "Best for detecting interproximal caries and crestal bone",
+      "correct_answer": "C",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 164) The best example of Radiation protection is:",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Radiation protection",
+      "option_c": "Lead apron/collar and collimation reduce dose.",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "C",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 165) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_b": "Lead apron/collar and collimation reduce dose.",
+      "option_c": "Sensors capture images electronically",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "C",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 166) Which option is TRUE regarding Periapical radiograph?",
+      "option_a": "Best for detecting interproximal caries and crestal bone",
+      "option_b": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_c": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_d": "Shows entire tooth and periapical area",
+      "correct_answer": "D",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 167) A key point for dental practice regarding Radiographic artifacts is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 168) The best example of Paralleling technique is:",
+      "option_a": "Periapical, bitewing, occlusal views",
+      "option_b": "Shows crowns and alveolar crest.",
+      "option_c": "Radiation protection",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 169) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Radiographic artifacts",
+      "option_c": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "A",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 170) The best example of Digital radiography is:",
+      "option_a": "Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "Lower dose and immediate viewing; requires infection control barriers.",
+      "correct_answer": "D",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 171) A key point for dental practice regarding Digital radiography is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 172) The best example of Periapical radiograph is:",
+      "option_a": "Used for endodontic and apical pathology evaluation.",
+      "option_b": "Periapical, bitewing, occlusal views",
+      "option_c": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "option_d": "Periapical radiograph",
+      "correct_answer": "A",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 173) Which pairing is correct?",
+      "option_a": "Radiographic artifacts — 3D imaging using cone-beam CT",
+      "option_b": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_c": "Paralleling technique — 3D imaging using cone-beam CT",
+      "option_d": "Digital radiography — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "B",
+      "explanation": "Paralleling technique: Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 174) The best example of Paralleling technique is:",
+      "option_a": "Digital radiography",
+      "option_b": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "option_c": "Causes include movement, bending, processing errors, cone cut.",
+      "option_d": "Reduces distortion; standard for periapicals.",
+      "correct_answer": "D",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 175) Which option is TRUE regarding Radiographic artifacts?",
+      "option_a": "Errors causing image defects",
+      "option_b": "Bitewing radiograph",
+      "option_c": "Shows entire tooth and periapical area",
+      "option_d": "Film/sensor parallel to long axis; beam perpendicular",
+      "correct_answer": "A",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 176) The best example of Periapical radiograph is:",
+      "option_a": "Used for endodontic and apical pathology evaluation.",
+      "option_b": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_c": "Shows crowns and alveolar crest.",
+      "option_d": "Minimize exposure using time, distance, shielding",
+      "correct_answer": "A",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 177) Which pairing is correct?",
+      "option_a": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "option_b": "Radiation protection — Sensors capture images electronically",
+      "option_c": "Periapical radiograph — 3D imaging using cone-beam CT",
+      "option_d": "Contrast and density — Shows entire tooth and periapical area",
+      "correct_answer": "A",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 178) A key point for dental practice regarding Paralleling technique is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It guarantees zero complications.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 179) Which option is TRUE regarding Radiation protection?",
+      "option_a": "Minimize exposure using time, distance, shielding",
+      "option_b": "Periapical radiograph",
+      "option_c": "Radiographic artifacts",
+      "option_d": "Shows crowns and alveolar crest.",
+      "correct_answer": "A",
+      "explanation": "Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 180) A key point for dental practice regarding CBCT basics is:",
+      "option_a": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_b": "It is unrelated to dentistry.",
+      "option_c": "It eliminates the need for clinical assessment.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "A",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 181) The best example of Paralleling technique is:",
+      "option_a": "Contrast and density",
+      "option_b": "Reduces distortion; standard for periapicals.",
+      "option_c": "Digital radiography",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "B",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 182) A key point for dental practice regarding Bitewing radiograph is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 183) The best example of Bitewing radiograph is:",
+      "option_a": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_b": "Radiographic artifacts",
+      "option_c": "Shows crowns and alveolar crest.",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "C",
+      "explanation": "Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 184) Which option is TRUE regarding Periapical radiograph?",
+      "option_a": "Causes include movement, bending, processing errors, cone cut.",
+      "option_b": "Periapical radiograph",
+      "option_c": "Shows entire tooth and periapical area",
+      "option_d": "Shows crowns and alveolar crest.",
+      "correct_answer": "C",
+      "explanation": "Used for endodontic and apical pathology evaluation."
+    },
+    {
+      "question": "(Radiology (Basics) Item 185) The best example of Radiographic artifacts is:",
+      "option_a": "Radiographic artifacts",
+      "option_b": "Bitewing radiograph",
+      "option_c": "Lower dose and immediate viewing; requires infection control barriers.",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "D",
+      "explanation": "Causes include movement, bending, processing errors, cone cut."
+    },
+    {
+      "question": "(Radiology (Basics) Item 186) Which option is TRUE regarding CBCT basics?",
+      "option_a": "Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "3D imaging using cone-beam CT",
+      "option_c": "Image qualities affecting visibility of structures",
+      "option_d": "Higher dose than intraoral; used for implant planning and complex cases.",
+      "correct_answer": "B",
+      "explanation": "Higher dose than intraoral; used for implant planning and complex cases."
+    },
+    {
+      "question": "(Radiology (Basics) Item 187) A key point for dental practice regarding Radiographic artifacts is:",
+      "option_a": "It eliminates the need for clinical assessment.",
+      "option_b": "It guarantees zero complications.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It is unrelated to dentistry.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 188) A key point for dental practice regarding Digital radiography is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It eliminates the need for clinical assessment.",
+      "correct_answer": "B",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 189) Which pairing is correct?",
+      "option_a": "Bitewing radiograph — 3D imaging using cone-beam CT",
+      "option_b": "CBCT basics — Shows entire tooth and periapical area",
+      "option_c": "Digital radiography — Sensors capture images electronically",
+      "option_d": "Bisecting angle technique — Beam perpendicular to bisector between tooth and receptor",
+      "correct_answer": "D",
+      "explanation": "Bisecting angle technique: More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 190) A key point for dental practice regarding Paralleling technique is:",
+      "option_a": "It is unrelated to dentistry.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "option_d": "It guarantees zero complications.",
+      "correct_answer": "C",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 191) Which option is TRUE regarding Contrast and density?",
+      "option_a": "Image qualities affecting visibility of structures",
+      "option_b": "Errors causing image defects",
+      "option_c": "kVp affects contrast; mA/time affects density.",
+      "option_d": "Causes include movement, bending, processing errors, cone cut.",
+      "correct_answer": "A",
+      "explanation": "kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 192) The best example of Paralleling technique is:",
+      "option_a": "Reduces distortion; standard for periapicals.",
+      "option_b": "Shows entire tooth and periapical area",
+      "option_c": "3D imaging using cone-beam CT",
+      "option_d": "Lead apron/collar and collimation reduce dose.",
+      "correct_answer": "A",
+      "explanation": "Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 193) A key point for dental practice regarding Intraoral radiographs is:",
+      "option_a": "It guarantees zero complications.",
+      "option_b": "It eliminates the need for clinical assessment.",
+      "option_c": "It is unrelated to dentistry.",
+      "option_d": "It helps reduce patient risk or improve treatment outcomes in dental settings.",
+      "correct_answer": "D",
+      "explanation": "Foundational knowledge supports safe dental care."
+    },
+    {
+      "question": "(Radiology (Basics) Item 194) Which pairing is correct?",
+      "option_a": "Digital radiography — Periapical, bitewing, occlusal views",
+      "option_b": "Intraoral radiographs — Minimize exposure using time, distance, shielding",
+      "option_c": "Radiation protection — Minimize exposure using time, distance, shielding",
+      "option_d": "Bisecting angle technique — Image qualities affecting visibility of structures",
+      "correct_answer": "C",
+      "explanation": "Radiation protection: Lead apron/collar and collimation reduce dose."
+    },
+    {
+      "question": "(Radiology (Basics) Item 195) Which pairing is correct?",
+      "option_a": "Radiation protection — Errors causing image defects",
+      "option_b": "Radiation protection — Errors causing image defects",
+      "option_c": "Paralleling technique — Film/sensor parallel to long axis; beam perpendicular",
+      "option_d": "CBCT basics — Errors causing image defects",
+      "correct_answer": "C",
+      "explanation": "Paralleling technique: Reduces distortion; standard for periapicals."
+    },
+    {
+      "question": "(Radiology (Basics) Item 196) Which option is TRUE regarding Digital radiography?",
+      "option_a": "Contrast and density",
+      "option_b": "Sensors capture images electronically",
+      "option_c": "Periapical, bitewing, occlusal views",
+      "option_d": "Digital radiography",
+      "correct_answer": "B",
+      "explanation": "Lower dose and immediate viewing; requires infection control barriers."
+    },
+    {
+      "question": "(Radiology (Basics) Item 197) Which option is TRUE regarding Bisecting angle technique?",
+      "option_a": "Sensors capture images electronically",
+      "option_b": "Lead apron/collar and collimation reduce dose.",
+      "option_c": "Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Used for caries, bone levels, apices; correct technique reduces retakes.",
+      "correct_answer": "C",
+      "explanation": "More distortion risk; used when paralleling not possible."
+    },
+    {
+      "question": "(Radiology (Basics) Item 198) Which pairing is correct?",
+      "option_a": "Radiographic artifacts — Film/sensor parallel to long axis; beam perpendicular",
+      "option_b": "Contrast and density — Image qualities affecting visibility of structures",
+      "option_c": "Contrast and density — Beam perpendicular to bisector between tooth and receptor",
+      "option_d": "Contrast and density — 3D imaging using cone-beam CT",
+      "correct_answer": "B",
+      "explanation": "Contrast and density: kVp affects contrast; mA/time affects density."
+    },
+    {
+      "question": "(Radiology (Basics) Item 199) Which pairing is correct?",
+      "option_a": "CBCT basics — Shows entire tooth and periapical area",
+      "option_b": "Bitewing radiograph — Best for detecting interproximal caries and crestal bone",
+      "option_c": "Radiographic artifacts — Sensors capture images electronically",
+      "option_d": "Radiographic artifacts — Image qualities affecting visibility of structures",
+      "correct_answer": "B",
+      "explanation": "Bitewing radiograph: Shows crowns and alveolar crest."
+    },
+    {
+      "question": "(Radiology (Basics) Item 200) Which option is TRUE regarding Intraoral radiographs?",
+      "option_a": "Digital radiography",
+      "option_b": "Radiation protection",
+      "option_c": "Periapical, bitewing, occlusal views",
+      "option_d": "kVp affects contrast; mA/time affects density.",
+      "correct_answer": "C",
+      "explanation": "Used for caries, bone levels, apices; correct technique reduces retakes."
+    }
+  ]
+}
