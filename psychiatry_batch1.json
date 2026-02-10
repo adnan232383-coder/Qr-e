@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 24-year-old male is brought to the clinic by his parents because he has become increasingly isolated over the past 7 months. He claims that the 'government is broadcasting his thoughts' through the television and has been hearing voices when no one is around. He stopped attending university and rarely leaves his room. What is the most likely diagnosis?",
+    "option_a": "Schizotypal Personality Disorder",
+    "option_b": "Schizophreniform Disorder",
+    "option_c": "Schizophrenia",
+    "option_d": "Brief Psychotic Disorder",
+    "correct_answer": "C",
+    "explanation": "Schizophrenia requires symptoms (including delusions, hallucinations, or disorganized speech) lasting at least 6 months, with at least 1 month of active-phase symptoms."
+  },
+  {
+    "question": "Which of the following electrolyte abnormalities is a classic side effect of Lithium therapy, requiring monitoring of fluid intake and kidney function?",
+    "option_a": "Hypernatremia due to Nephrogenic Diabetes Insipidus",
+    "option_b": "Hypokalemia",
+    "option_c": "Hypercalcemia",
+    "option_d": "Hyponatremia",
+    "correct_answer": "A",
+    "explanation": "Lithium can antagonize the action of ADH in the kidneys, leading to polyuria, polydipsia, and potentially hypernatremia if fluid intake is insufficient."
+  },
+  {
+    "question": "A 32-year-old female presents with a 2-week history of intense energy, decreased need for sleep (3 hours/night), rapid speech, and excessive spending on luxury items she cannot afford. She has no history of depression. What is the diagnosis?",
+    "option_a": "Bipolar II Disorder",
+    "option_b": "Cyclothymic Disorder",
+    "option_c": "Bipolar I Disorder",
+    "option_d": "Major Depressive Disorder with psychotic features",
+    "correct_answer": "C",
+    "explanation": "A single manic episode (lasting at least 1 week and causing functional impairment) is sufficient for a diagnosis of Bipolar I Disorder."
+  },
+  {
+    "question": "What is the primary mechanism of action of First-Generation (Typical) Antipsychotics like Haloperidol?",
+    "option_a": "5-HT2A receptor antagonism",
+    "option_b": "Dopamine D2 receptor antagonism",
+    "option_c": "GABA receptor agonism",
+    "option_d": "Norepinephrine reuptake inhibition",
+    "correct_answer": "B",
+    "explanation": "Typical antipsychotics work primarily by blocking D2 receptors in the mesolimbic pathway, which reduces positive symptoms of psychosis."
+  },
+  {
+    "question": "A patient on Fluoxetine for depression is started on Linezolid for an infection. He develops high fever, muscle rigidity, shivering, and hyperreflexia. What is the most likely diagnosis?",
+    "option_a": "Neuroleptic Malignant Syndrome (NMS)",
+    "option_b": "Serotonin Syndrome",
+    "option_c": "Anticholinergic toxicity",
+    "option_d": "Tyramine crisis",
+    "correct_answer": "B",
+    "explanation": "Linezolid has MAOI activity; when combined with an SSRI, it can lead to excess serotonin. Hyperreflexia and myoclonus help differentiate this from NMS."
+  },
+  {
+    "question": "Which personality disorder is characterized by a pervasive pattern of 'splitting' (viewing people as all good or all bad), unstable relationships, and self-harming behavior?",
+    "option_a": "Narcissistic Personality Disorder",
+    "option_b": "Borderline Personality Disorder",
+    "option_c": "Histrionic Personality Disorder",
+    "option_d": "Antisocial Personality Disorder",
+    "correct_answer": "B",
+    "explanation": "Borderline Personality Disorder involves emotional instability, identity disturbance, and chronic feelings of emptiness."
+  },
+  {
+    "question": "A patient presents with recurring, intrusive thoughts about contamination and spends 4 hours a day washing his hands until they bleed. What is the first-line pharmacological treatment?",
+    "option_a": "Haloperidol",
+    "option_b": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+    "option_c": "Alprazolam",
+    "option_d": "Lithium",
+    "correct_answer": "B",
+    "explanation": "High-dose SSRIs, combined with Exposure and Response Prevention (ERP) therapy, are the gold standard for OCD."
+  },
+  {
+    "question": "Which of the following is a 'Negative' symptom of Schizophrenia?",
+    "option_a": "Auditory hallucinations",
+    "option_b": "Delusions of grandeur",
+    "option_c": "Alogia (poverty of speech)",
+    "option_d": "Disorganized behavior",
+    "correct_answer": "C",
+    "explanation": "Negative symptoms involve a loss of normal function, such as alogia, anhedonia, avolition, and flat affect."
+  },
+  {
+    "question": "A patient with a long history of alcohol use disorder presents with confusion, ophthalmoplegia (eye movement paralysis), and ataxia. What should be administered immediately?",
+    "option_a": "Intravenous Glucose followed by Thiamine",
+    "option_b": "Intravenous Thiamine followed by Glucose",
+    "option_c": "Naloxone",
+    "option_d": "Haloperidol",
+    "correct_answer": "B",
+    "explanation": "This is Wernicke's Encephalopathy. Thiamine MUST be given before glucose to prevent precipitating irreversible brain damage (Korsakoff syndrome)."
+  },
+  {
+    "question": "Which of the following antidepressants is uniquely associated with a 'lower' risk of sexual dysfunction and is often used to treat smoking cessation?",
+    "option_a": "Sertraline",
+    "option_b": "Venlafaxine",
+    "option_c": "Bupropion",
+    "option_d": "Paroxetine",
+    "correct_answer": "C",
+    "explanation": "Bupropion is a norepinephrine-dopamine reuptake inhibitor (NDRI) and lacks the serotonergic effects that cause sexual side effects."
+  },
+  {
+    "question": "What is the most effective treatment for 'Treatment-Resistant' Schizophrenia, despite its risk of agranulocytosis?",
+    "option_a": "Risperidone",
+    "option_b": "Clozapine",
+    "option_c": "Olanzapine",
+    "option_d": "Quetiapine",
+    "correct_answer": "B",
+    "explanation": "Clozapine is reserved for resistant cases but requires weekly blood monitoring for low white blood cell counts."
+  },
+  {
+    "question": "A 45-year-old male is convinced that his wife has been replaced by an identical 'imposter'. This specific delusion is known as:",
+    "option_a": "Fregoli syndrome",
+    "option_b": "Capgras syndrome",
+    "option_c": "Cotard syndrome",
+    "option_d": "Erotomania",
+    "correct_answer": "B",
+    "explanation": "Capgras is the 'delusion of doubles', common in both psychiatric and neurological conditions."
+  },
+  {
+    "question": "Which symptom is characteristic of 'Neuroleptic Malignant Syndrome' (NMS)?",
+    "option_a": "Hyperreflexia and dilated pupils",
+    "option_b": "Lead-pipe muscle rigidity and elevated Creatine Kinase (CK)",
+    "option_c": "Rash and joint pain",
+    "option_d": "Hypothermia",
+    "correct_answer": "B",
+    "explanation": "NMS is a life-threatening reaction to antipsychotics, featuring rigidity, fever, and autonomic instability."
+  },
+  {
+    "question": "A 19-year-old female presents with a BMI of 16.5, an intense fear of gaining weight, and fine hair (lanugo) on her back. She believes she is 'fat'. What is the diagnosis?",
+    "option_a": "Bulimia Nervosa",
+    "option_b": "Anorexia Nervosa",
+    "option_c": "Binge Eating Disorder",
+    "option_d": "Avoidant/Restrictive Food Intake Disorder",
+    "correct_answer": "B",
+    "explanation": "Anorexia is defined by low body weight, intense fear of weight gain, and distorted body image."
+  },
+  {
+    "question": "Which defense mechanism involves attributing one's own unacceptable feelings or impulses to someone else?",
+    "option_a": "Reaction formation",
+    "option_b": "Projection",
+    "option_c": "Sublimation",
+    "option_d": "Displacement",
+    "correct_answer": "B",
+    "explanation": "In projection, the person 'projects' their internal state (e.g., 'I hate my boss') onto others ('My boss hates me')."
+  },
+  {
+    "question": "A patient with Bipolar I Disorder develops 'coarse tremors', vomiting, and diarrhea. His lithium level is found to be 2.5 mEq/L. This is considered:",
+    "option_a": "Within therapeutic range",
+    "option_b": "Early signs of Lithium toxicity",
+    "option_c": "Severe Lithium toxicity",
+    "option_d": "Normal side effects",
+    "correct_answer": "C",
+    "explanation": "The therapeutic window for lithium is narrow (0.6-1.2 mEq/L). Levels above 1.5-2.0 indicate significant toxicity."
+  },
+  {
+    "question": "Which of the following medications is used to maintain sobriety in alcoholics by causing a severe physical reaction (nausea/vomiting) if alcohol is consumed?",
+    "option_a": "Naltrexone",
+    "option_b": "Disulfiram",
+    "option_c": "Acamprosate",
+    "option_d": "Diazepam",
+    "correct_answer": "B",
+    "explanation": "Disulfiram inhibits acetaldehyde dehydrogenase, leading to toxic buildup of acetaldehyde when alcohol is ingested."
+  },
+  {
+    "question": "What is the primary risk of using 'MAOIs' (Monoamine Oxidase Inhibitors) with tyramine-rich foods like aged cheese or wine?",
+    "option_a": "Serotonin syndrome",
+    "option_b": "Hypertensive crisis",
+    "option_c": "Severe hypoglycemia",
+    "option_d": "Liver failure",
+    "correct_answer": "B",
+    "explanation": "Tyramine displaces norepinephrine from vesicles; if MAO is inhibited, norepinephrine levels soar, causing dangerous hypertension."
+  },
+  {
+    "question": "Which personality disorder belongs to 'Cluster A' (Odd/Eccentric)?",
+    "option_a": "Borderline Personality Disorder",
+    "option_b": "Schizoid Personality Disorder",
+    "option_c": "Avoidant Personality Disorder",
+    "option_d": "Histrionic Personality Disorder",
+    "correct_answer": "B",
+    "explanation": "Cluster A includes Paranoid, Schizoid, and Schizotypal personality disorders."
+  },
+  {
+    "question": "A 10-year-old child presents with 'defiant', 'argumentative' behavior toward authority figures but does NOT violate the law or rights of others. Diagnosis?",
+    "option_a": "Conduct Disorder",
+    "option_b": "Oppositional Defiant Disorder (ODD)",
+    "option_c": "ADHD",
+    "option_d": "Autism Spectrum Disorder",
+    "correct_answer": "B",
+    "explanation": "ODD involves irritability and defiance without the aggression or theft seen in Conduct Disorder."
+  },
+  {
+    "question": "Which neurotransmitter is primarily enhanced by 'Benzodiazepines'?",
+    "option_a": "Serotonin",
+    "option_b": "GABA",
+    "option_c": "Dopamine",
+    "option_d": "Glutamate",
+    "correct_answer": "B",
+    "explanation": "Benzodiazepines increase the frequency of chloride channel opening at the GABA-A receptor."
+  },
+  {
+    "question": "A patient on Risperidone develops a 'shuffling gait', 'masked facies', and 'pill-rolling tremor'. This is known as:",
+    "option_a": "Akathisia",
+    "option_b": "Pseudoparkinsonism",
+    "option_c": "Acute dystonia",
+    "option_d": "Tardive dyskinesia",
+    "correct_answer": "B",
+    "explanation": "This is an extrapyramidal side effect caused by D2 blockade in the nigrostriatal pathway."
+  },
+  {
+    "question": "What is the preferred first-line pharmacological treatment for Panic Disorder?",
+    "option_a": "Haloperidol",
+    "option_b": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+    "option_c": "Lithium",
+    "option_d": "Buspirone",
+    "correct_answer": "B",
+    "explanation": "SSRIs are the treatment of choice for long-term management of panic disorder."
+  },
+  {
+    "question": "Which defense mechanism involves 'channeling' unacceptable impulses into socially useful activities (e.g., an aggressive person becoming a boxer)?",
+    "option_a": "Projection",
+    "option_b": "Sublimation",
+    "option_c": "Displacement",
+    "option_d": "Rationalization",
+    "correct_answer": "B",
+    "explanation": "Sublimation is considered a 'mature' defense mechanism."
+  },
+  {
+    "question": "A patient presents with a persistent belief for 2 months that a famous actor is in love with her, despite never meeting him. Her social functioning is otherwise normal. Diagnosis?",
+    "option_a": "Schizophrenia",
+    "option_b": "Delusional Disorder (Erotomanic type)",
+    "option_c": "Schizotypal Personality Disorder",
+    "option_d": "Obsessive-Compulsive Disorder",
+    "correct_answer": "B",
+    "explanation": "Delusional Disorder involve non-bizarre delusions for at least 1 month without the other symptoms of schizophrenia."
+  },
+  {
+    "question": "Which 'Atypical' antipsychotic is least likely to cause weight gain and metabolic syndrome?",
+    "option_a": "Olanzapine",
+    "option_b": "Ziprasidone (or Aripiprazole)",
+    "option_c": "Quetiapine",
+    "option_d": "Clozapine",
+    "correct_answer": "B",
+    "explanation": "Olanzapine and Clozapine are the highest risk for weight gain; Ziprasidone and Aripiprazole are weight-neutral."
+  },
+  {
+    "question": "What is the primary treatment for 'Catatonia'?",
+    "option_a": "Haloperidol",
+    "option_b": "Benzodiazepines (e.g., Lorazepam) or ECT",
+    "option_c": "Fluoxetine",
+    "option_d": "Lithium",
+    "correct_answer": "B",
+    "explanation": "The 'Lorazepam challenge' is both diagnostic and therapeutic for catatonia."
+  },
+  {
+    "question": "A patient with 'Narcissistic Personality Disorder' typically presents with:",
+    "option_a": "Fear of being alone",
+    "option_b": "Grandiosity, need for admiration, and lack of empathy",
+    "option_c": "Magical thinking",
+    "option_d": "Strict adherence to rules",
+    "correct_answer": "B",
+    "explanation": "Narcissism is centered on self-importance and a sense of entitlement."
+  },
+  {
+    "question": "Which 'Cluster' of personality disorders is characterized by 'Anxious/Fearful' behaviors?",
+    "option_a": "Cluster A",
+    "option_b": "Cluster B",
+    "option_c": "Cluster C",
+    "option_d": "Cluster D",
+    "correct_answer": "C",
+    "explanation": "Cluster C includes Avoidant, Dependent, and Obsessive-Compulsive Personality Disorders."
+  },
+  {
+    "question": "A 15-year-old male with a history of theft, truancy, and animal cruelty is most likely to be diagnosed with:",
+    "option_a": "Oppositional Defiant Disorder",
+    "option_b": "Conduct Disorder",
+    "option_c": "Antisocial Personality Disorder",
+    "option_d": "ADHD",
+    "correct_answer": "B",
+    "explanation": "Conduct Disorder is the pediatric precursor to Antisocial Personality Disorder (which requires the patient to be at least 18)."
+  },
+  {
+    "question": "Which of the following is true regarding 'Electroconvulsive Therapy' (ECT)?",
+    "option_a": "It is only used for mild anxiety",
+    "option_b": "It is highly effective for severe, treatment-resistant depression and catatonia",
+    "option_c": "It causes total, permanent memory loss in everyone",
+    "option_d": "It is no longer used in modern medicine",
+    "correct_answer": "B",
+    "explanation": "ECT is a safe, effective, and evidence-based procedure for severe mood disorders."
+  },
+  {
+    "question": "A patient on Phenelzine (MAOI) eats a pizza with aged cheese and develops a severe headache and BP 210/120. Management?",
+    "option_a": "Give more MAOI",
+    "option_b": "Intravenous Phentolamine or Labetalol",
+    "option_c": "Hydrate with normal saline only",
+    "option_d": "Give an SSRI",
+    "correct_answer": "B",
+    "explanation": "Hypertensive crisis from tyramine requires rapid blood pressure management with alpha-blockers or other anti-hypertensives."
+  },
+  {
+    "question": "Which personality disorder involves a pattern of 'social inhibition', feelings of inadequacy, and hypersensitivity to negative evaluation?",
+    "option_a": "Schizoid Personality Disorder",
+    "option_b": "Avoidant Personality Disorder",
+    "option_c": "Histrionic Personality Disorder",
+    "option_d": "Dependent Personality Disorder",
+    "correct_answer": "B",
+    "explanation": "Avoidant individuals crave social contact but are paralyzed by the fear of rejection."
+  },
+  {
+    "question": "A patient with MDD complains of weight gain and sexual dysfunction on Sertraline. Which medication could be added or switched to reduce these side effects?",
+    "option_a": "Paroxetine",
+    "option_b": "Bupropion",
+    "option_c": "Amitriptyline",
+    "option_d": "Risperidone",
+    "correct_answer": "B",
+    "explanation": "Bupropion does not affect serotonin and is not associated with sexual dysfunction or weight gain."
+  },
+  {
+    "question": "Which of the following describes 'Avolition'?",
+    "option_a": "Loss of memory",
+    "option_b": "Lack of motivation or ability to initiate goal-directed activities",
+    "option_c": "Hearing voices",
+    "option_d": "Fast heart rate",
+    "correct_answer": "B",
+    "explanation": "Avolition is a hallmark negative symptom of schizophrenia."
+  },
+  {
+    "question": "A patient with 'Schizoaffective Disorder' differs from 'Schizophrenia' because:",
+    "option_a": "They have more hallucinations",
+    "option_b": "They have a concurrent Mood Disorder with psychosis occurring for ≥2 weeks in the absence of mood symptoms",
+    "option_c": "They are never violent",
+    "option_d": "It only lasts for 1 month",
+    "correct_answer": "B",
+    "explanation": "This distinguishes it from MDD with psychotic features, where psychosis occurs ONLY during the mood episode."
+  },
+  {
+    "question": "What is the medication of choice for 'Social Anxiety Disorder' (Performance type, like giving a speech)?",
+    "option_a": "Sertraline",
+    "option_b": "Propranolol (Beta-blocker)",
+    "option_c": "Haloperidol",
+    "option_d": "Lithium",
+    "correct_answer": "B",
+    "explanation": "Beta-blockers manage the physical symptoms of anxiety (tachycardia, tremor) without causing sedation."
+  },
+  {
+    "question": "A patient on Chlorpromazine develops 'abnormal, involuntary movements' of the tongue and smacking of the lips after 2 years of use. Diagnosis?",
+    "option_a": "Acute dystonia",
+    "option_b": "Tardive Dyskinesia",
+    "option_c": "Akathisia",
+    "option_d": "Pseudoparkinsonism",
+    "correct_answer": "B",
+    "explanation": "Tardive dyskinesia is a late-onset, potentially irreversible side effect of long-term dopamine blockade."
+  },
+  {
+    "question": "Which of the following is true for 'Dysthymia' (Persistent Depressive Disorder)?",
+    "option_a": "Symptoms last for at least 1 month",
+    "option_b": "Depressed mood for most of the day, more days than not, for at least 2 years",
+    "option_c": "It is a medical emergency",
+    "option_d": "It involves manic episodes",
+    "correct_answer": "B",
+    "explanation": "Dysthymia is a chronic, lower-grade depression."
+  },
+  {
+    "question": "What is the primary treatment for 'Generalised Anxiety Disorder' (GAD)?",
+    "option_a": "Antipsychotics",
+    "option_b": "SSRIs and Cognitive Behavioral Therapy (CBT)",
+    "option_c": "Benzodiazepines for long-term use",
+    "option_d": "Lithium",
+    "correct_answer": "B",
+    "explanation": "CBT and SSRIs are the first-line evidence-based treatments for chronic anxiety."
+  },
+  {
+    "question": "A patient with 'Histrionic Personality Disorder' typically presents with:",
+    "option_a": "Paranoia",
+    "option_b": "Excessive emotionality and attention-seeking behavior",
+    "option_c": "Perfectionism",
+    "option_d": "Extreme shyness",
+    "correct_answer": "B",
+    "explanation": "Cluster B personalities are dramatic; histrionic individuals are uncomfortable when not the center of attention."
+  },
+  {
+    "question": "Which neurotransmitter is targeted by 'SNRIs' (e.g., Venlafaxine, Duloxetine)?",
+    "option_a": "Serotonin only",
+    "option_b": "Serotonin and Norepinephrine",
+    "option_c": "Dopamine only",
+    "option_d": "Glutamate",
+    "correct_answer": "B",
+    "explanation": "SNRIs increase the synaptic levels of both these neurotransmitters."
+  },
+  {
+    "question": "A patient presents with a belief that 'coded messages' are being sent to him via billboard advertisements. This is a:",
+    "option_a": "Delusion of grandeur",
+    "option_b": "Delusion of reference",
+    "option_c": "Hallucination",
+    "option_d": "Illusion",
+    "correct_answer": "B",
+    "explanation": "Delusions of reference involve believing that neutral environmental events have special, personal meaning."
+  },
+  {
+    "question": "What is the antidote for 'Benzodiazepine' overdose?",
+    "option_a": "Naloxone",
+    "option_b": "Flumazenil",
+    "option_c": "Physostigmine",
+    "option_d": "Atropine",
+    "correct_answer": "B",
+    "explanation": "Flumazenil is a competitive antagonist at the benzodiazepine receptor."
+  },
+  {
+    "question": "A patient with 'Antisocial Personality Disorder' must be at least how old to receive the diagnosis?",
+    "option_a": "13",
+    "option_b": "18",
+    "option_c": "21",
+    "option_d": "30",
+    "correct_answer": "B",
+    "explanation": "Diagnosis requires evidence of Conduct Disorder before age 15, but the individual must be 18."
+  },
+  {
+    "question": "Which of the following describes 'Anhedonia'?",
+    "option_a": "Difficulty sleeping",
+    "option_b": "Inability to feel pleasure in previously enjoyed activities",
+    "option_c": "Excessive appetite",
+    "option_d": "Muscle stiffness",
+    "correct_answer": "B",
+    "explanation": "Anhedonia is one of the two core symptoms required for MDD."
+  },
+  {
+    "question": "What is the primary side effect of 'Quetiapine' that often leads to its use in low doses for sleep?",
+    "option_a": "Hypertension",
+    "option_b": "Sedation (via H1 antagonism)",
+    "option_c": "Insomnia",
+    "option_d": "Diarrhea",
+    "correct_answer": "B",
+    "explanation": "Quetiapine is a potent H1-receptor blocker, causing significant drowsiness."
+  },
+  {
+    "question": "A patient presents with 'poverty of thought content' and 'flat affect'. These are categorized as:",
+    "option_a": "Positive symptoms",
+    "option_b": "Negative symptoms",
+    "option_c": "Manic symptoms",
+    "option_d": "Anxiety symptoms",
+    "correct_answer": "B",
+    "explanation": "Negative symptoms reflect a deficit in normal emotional and cognitive function."
+  },
+  {
+    "question": "What is the risk of using 'Tricyclic Antidepressants' (TCAs) in an overdose?",
+    "option_a": "Liver failure only",
+    "option_b": "Cardiotoxicity (QRS widening and arrhythmias)",
+    "option_c": "Hearing loss",
+    "option_d": "Weight loss",
+    "correct_answer": "B",
+    "explanation": "TCAs block cardiac sodium channels; the 3 C's of TCA overdose are Coma, Convulsions, and Cardiotoxicity."
+  },
+  {
+    "question": "Which of the following describes 'Waxy Flexibility'?",
+    "option_a": "Hypertension",
+    "option_b": "Maintaining a posture for long periods after being moved by an examiner (Catatonia)",
+    "option_c": "Seizures",
+    "option_d": "Fast heart rate",
+    "correct_answer": "B",
+    "explanation": "This is a psychomotor feature seen in catatonic schizophrenia or mood disorders with catatonia."
+  }
+]
