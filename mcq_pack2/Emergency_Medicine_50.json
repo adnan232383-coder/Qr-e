@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Emergency Medicine (Q01): In the emergency department, a patient scenario suggests airway management. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in airway management",
+    "option_b": "Most appropriate immediate action consistent with airway management",
+    "option_c": "Management appropriate for a different emergency rather than airway management",
+    "option_d": "Option that misses a critical stabilization priority in airway management",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for airway management. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q02): In the emergency department, a patient scenario suggests anaphylaxis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in anaphylaxis",
+    "option_b": "Management appropriate for a different emergency rather than anaphylaxis",
+    "option_c": "Delayed or non-urgent step that is unsafe in anaphylaxis",
+    "option_d": "Most appropriate immediate action consistent with anaphylaxis",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for anaphylaxis. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q03): In the emergency department, a patient scenario suggests asthma exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in asthma exacerbation",
+    "option_b": "Most appropriate immediate action consistent with asthma exacerbation",
+    "option_c": "Delayed or non-urgent step that is unsafe in asthma exacerbation",
+    "option_d": "Management appropriate for a different emergency rather than asthma exacerbation",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for asthma exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q04): In the emergency department, a patient scenario suggests COPD exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than COPD exacerbation",
+    "option_b": "Option that misses a critical stabilization priority in COPD exacerbation",
+    "option_c": "Most appropriate immediate action consistent with COPD exacerbation",
+    "option_d": "Delayed or non-urgent step that is unsafe in COPD exacerbation",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for COPD exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q05): In the emergency department, a patient scenario suggests acute coronary syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in acute coronary syndrome",
+    "option_b": "Most appropriate immediate action consistent with acute coronary syndrome",
+    "option_c": "Management appropriate for a different emergency rather than acute coronary syndrome",
+    "option_d": "Option that misses a critical stabilization priority in acute coronary syndrome",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for acute coronary syndrome. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q06): In the emergency department, a patient scenario suggests cardiac arrest. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in cardiac arrest",
+    "option_b": "Management appropriate for a different emergency rather than cardiac arrest",
+    "option_c": "Option that misses a critical stabilization priority in cardiac arrest",
+    "option_d": "Most appropriate immediate action consistent with cardiac arrest",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for cardiac arrest. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q07): In the emergency department, a patient scenario suggests tachyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in tachyarrhythmia",
+    "option_b": "Option that misses a critical stabilization priority in tachyarrhythmia",
+    "option_c": "Most appropriate immediate action consistent with tachyarrhythmia",
+    "option_d": "Management appropriate for a different emergency rather than tachyarrhythmia",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for tachyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q08): In the emergency department, a patient scenario suggests bradyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with bradyarrhythmia",
+    "option_b": "Management appropriate for a different emergency rather than bradyarrhythmia",
+    "option_c": "Delayed or non-urgent step that is unsafe in bradyarrhythmia",
+    "option_d": "Option that misses a critical stabilization priority in bradyarrhythmia",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for bradyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q09): In the emergency department, a patient scenario suggests septic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with septic shock",
+    "option_b": "Management appropriate for a different emergency rather than septic shock",
+    "option_c": "Option that misses a critical stabilization priority in septic shock",
+    "option_d": "Delayed or non-urgent step that is unsafe in septic shock",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for septic shock. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q10): In the emergency department, a patient scenario suggests hemorrhagic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with hemorrhagic shock",
+    "option_b": "Option that misses a critical stabilization priority in hemorrhagic shock",
+    "option_c": "Delayed or non-urgent step that is unsafe in hemorrhagic shock",
+    "option_d": "Management appropriate for a different emergency rather than hemorrhagic shock",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for hemorrhagic shock. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q11): In the emergency department, a patient scenario suggests stroke thrombolysis eligibility. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in stroke thrombolysis eligibility",
+    "option_b": "Option that misses a critical stabilization priority in stroke thrombolysis eligibility",
+    "option_c": "Most appropriate immediate action consistent with stroke thrombolysis eligibility",
+    "option_d": "Management appropriate for a different emergency rather than stroke thrombolysis eligibility",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for stroke thrombolysis eligibility. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q12): In the emergency department, a patient scenario suggests status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in status epilepticus",
+    "option_b": "Option that misses a critical stabilization priority in status epilepticus",
+    "option_c": "Most appropriate immediate action consistent with status epilepticus",
+    "option_d": "Management appropriate for a different emergency rather than status epilepticus",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for status epilepticus. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q13): In the emergency department, a patient scenario suggests trauma primary survey. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with trauma primary survey",
+    "option_b": "Option that misses a critical stabilization priority in trauma primary survey",
+    "option_c": "Management appropriate for a different emergency rather than trauma primary survey",
+    "option_d": "Delayed or non-urgent step that is unsafe in trauma primary survey",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for trauma primary survey. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q14): In the emergency department, a patient scenario suggests tension pneumothorax. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than tension pneumothorax",
+    "option_b": "Delayed or non-urgent step that is unsafe in tension pneumothorax",
+    "option_c": "Most appropriate immediate action consistent with tension pneumothorax",
+    "option_d": "Option that misses a critical stabilization priority in tension pneumothorax",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for tension pneumothorax. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q15): In the emergency department, a patient scenario suggests pulmonary embolism. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in pulmonary embolism",
+    "option_b": "Most appropriate immediate action consistent with pulmonary embolism",
+    "option_c": "Option that misses a critical stabilization priority in pulmonary embolism",
+    "option_d": "Management appropriate for a different emergency rather than pulmonary embolism",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for pulmonary embolism. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q16): In the emergency department, a patient scenario suggests DKA. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with DKA",
+    "option_b": "Option that misses a critical stabilization priority in DKA",
+    "option_c": "Delayed or non-urgent step that is unsafe in DKA",
+    "option_d": "Management appropriate for a different emergency rather than DKA",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for DKA. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q17): In the emergency department, a patient scenario suggests hypoglycemia. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with hypoglycemia",
+    "option_b": "Management appropriate for a different emergency rather than hypoglycemia",
+    "option_c": "Delayed or non-urgent step that is unsafe in hypoglycemia",
+    "option_d": "Option that misses a critical stabilization priority in hypoglycemia",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for hypoglycemia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q18): In the emergency department, a patient scenario suggests upper GI bleed. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with upper GI bleed",
+    "option_b": "Delayed or non-urgent step that is unsafe in upper GI bleed",
+    "option_c": "Management appropriate for a different emergency rather than upper GI bleed",
+    "option_d": "Option that misses a critical stabilization priority in upper GI bleed",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for upper GI bleed. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q19): In the emergency department, a patient scenario suggests toxic overdose. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with toxic overdose",
+    "option_b": "Option that misses a critical stabilization priority in toxic overdose",
+    "option_c": "Management appropriate for a different emergency rather than toxic overdose",
+    "option_d": "Delayed or non-urgent step that is unsafe in toxic overdose",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for toxic overdose. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q20): In the emergency department, a patient scenario suggests heat stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in heat stroke",
+    "option_b": "Management appropriate for a different emergency rather than heat stroke",
+    "option_c": "Most appropriate immediate action consistent with heat stroke",
+    "option_d": "Option that misses a critical stabilization priority in heat stroke",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for heat stroke. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q21): In the emergency department, a patient scenario suggests airway management. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with airway management",
+    "option_b": "Delayed or non-urgent step that is unsafe in airway management",
+    "option_c": "Option that misses a critical stabilization priority in airway management",
+    "option_d": "Management appropriate for a different emergency rather than airway management",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for airway management. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q22): In the emergency department, a patient scenario suggests anaphylaxis. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than anaphylaxis",
+    "option_b": "Delayed or non-urgent step that is unsafe in anaphylaxis",
+    "option_c": "Most appropriate immediate action consistent with anaphylaxis",
+    "option_d": "Option that misses a critical stabilization priority in anaphylaxis",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for anaphylaxis. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q23): In the emergency department, a patient scenario suggests asthma exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in asthma exacerbation",
+    "option_b": "Management appropriate for a different emergency rather than asthma exacerbation",
+    "option_c": "Option that misses a critical stabilization priority in asthma exacerbation",
+    "option_d": "Most appropriate immediate action consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for asthma exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q24): In the emergency department, a patient scenario suggests COPD exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in COPD exacerbation",
+    "option_b": "Delayed or non-urgent step that is unsafe in COPD exacerbation",
+    "option_c": "Management appropriate for a different emergency rather than COPD exacerbation",
+    "option_d": "Most appropriate immediate action consistent with COPD exacerbation",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for COPD exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q25): In the emergency department, a patient scenario suggests acute coronary syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in acute coronary syndrome",
+    "option_b": "Management appropriate for a different emergency rather than acute coronary syndrome",
+    "option_c": "Delayed or non-urgent step that is unsafe in acute coronary syndrome",
+    "option_d": "Most appropriate immediate action consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for acute coronary syndrome. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q26): In the emergency department, a patient scenario suggests cardiac arrest. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than cardiac arrest",
+    "option_b": "Delayed or non-urgent step that is unsafe in cardiac arrest",
+    "option_c": "Most appropriate immediate action consistent with cardiac arrest",
+    "option_d": "Option that misses a critical stabilization priority in cardiac arrest",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for cardiac arrest. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q27): In the emergency department, a patient scenario suggests tachyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in tachyarrhythmia",
+    "option_b": "Most appropriate immediate action consistent with tachyarrhythmia",
+    "option_c": "Management appropriate for a different emergency rather than tachyarrhythmia",
+    "option_d": "Option that misses a critical stabilization priority in tachyarrhythmia",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for tachyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q28): In the emergency department, a patient scenario suggests bradyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with bradyarrhythmia",
+    "option_b": "Delayed or non-urgent step that is unsafe in bradyarrhythmia",
+    "option_c": "Option that misses a critical stabilization priority in bradyarrhythmia",
+    "option_d": "Management appropriate for a different emergency rather than bradyarrhythmia",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for bradyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q29): In the emergency department, a patient scenario suggests septic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with septic shock",
+    "option_b": "Delayed or non-urgent step that is unsafe in septic shock",
+    "option_c": "Option that misses a critical stabilization priority in septic shock",
+    "option_d": "Management appropriate for a different emergency rather than septic shock",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for septic shock. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q30): In the emergency department, a patient scenario suggests hemorrhagic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than hemorrhagic shock",
+    "option_b": "Most appropriate immediate action consistent with hemorrhagic shock",
+    "option_c": "Delayed or non-urgent step that is unsafe in hemorrhagic shock",
+    "option_d": "Option that misses a critical stabilization priority in hemorrhagic shock",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for hemorrhagic shock. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q31): In the emergency department, a patient scenario suggests stroke thrombolysis eligibility. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in stroke thrombolysis eligibility",
+    "option_b": "Management appropriate for a different emergency rather than stroke thrombolysis eligibility",
+    "option_c": "Most appropriate immediate action consistent with stroke thrombolysis eligibility",
+    "option_d": "Delayed or non-urgent step that is unsafe in stroke thrombolysis eligibility",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for stroke thrombolysis eligibility. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q32): In the emergency department, a patient scenario suggests status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in status epilepticus",
+    "option_b": "Most appropriate immediate action consistent with status epilepticus",
+    "option_c": "Delayed or non-urgent step that is unsafe in status epilepticus",
+    "option_d": "Management appropriate for a different emergency rather than status epilepticus",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for status epilepticus. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q33): In the emergency department, a patient scenario suggests trauma primary survey. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than trauma primary survey",
+    "option_b": "Option that misses a critical stabilization priority in trauma primary survey",
+    "option_c": "Most appropriate immediate action consistent with trauma primary survey",
+    "option_d": "Delayed or non-urgent step that is unsafe in trauma primary survey",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for trauma primary survey. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q34): In the emergency department, a patient scenario suggests tension pneumothorax. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in tension pneumothorax",
+    "option_b": "Most appropriate immediate action consistent with tension pneumothorax",
+    "option_c": "Option that misses a critical stabilization priority in tension pneumothorax",
+    "option_d": "Management appropriate for a different emergency rather than tension pneumothorax",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for tension pneumothorax. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q35): In the emergency department, a patient scenario suggests pulmonary embolism. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in pulmonary embolism",
+    "option_b": "Delayed or non-urgent step that is unsafe in pulmonary embolism",
+    "option_c": "Management appropriate for a different emergency rather than pulmonary embolism",
+    "option_d": "Most appropriate immediate action consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for pulmonary embolism. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q36): In the emergency department, a patient scenario suggests DKA. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than DKA",
+    "option_b": "Delayed or non-urgent step that is unsafe in DKA",
+    "option_c": "Option that misses a critical stabilization priority in DKA",
+    "option_d": "Most appropriate immediate action consistent with DKA",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for DKA. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q37): In the emergency department, a patient scenario suggests hypoglycemia. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than hypoglycemia",
+    "option_b": "Most appropriate immediate action consistent with hypoglycemia",
+    "option_c": "Option that misses a critical stabilization priority in hypoglycemia",
+    "option_d": "Delayed or non-urgent step that is unsafe in hypoglycemia",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for hypoglycemia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q38): In the emergency department, a patient scenario suggests upper GI bleed. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in upper GI bleed",
+    "option_b": "Option that misses a critical stabilization priority in upper GI bleed",
+    "option_c": "Management appropriate for a different emergency rather than upper GI bleed",
+    "option_d": "Most appropriate immediate action consistent with upper GI bleed",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for upper GI bleed. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q39): In the emergency department, a patient scenario suggests toxic overdose. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in toxic overdose",
+    "option_b": "Management appropriate for a different emergency rather than toxic overdose",
+    "option_c": "Option that misses a critical stabilization priority in toxic overdose",
+    "option_d": "Most appropriate immediate action consistent with toxic overdose",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for toxic overdose. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q40): In the emergency department, a patient scenario suggests heat stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than heat stroke",
+    "option_b": "Delayed or non-urgent step that is unsafe in heat stroke",
+    "option_c": "Most appropriate immediate action consistent with heat stroke",
+    "option_d": "Option that misses a critical stabilization priority in heat stroke",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for heat stroke. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q41): In the emergency department, a patient scenario suggests airway management. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than airway management",
+    "option_b": "Most appropriate immediate action consistent with airway management",
+    "option_c": "Delayed or non-urgent step that is unsafe in airway management",
+    "option_d": "Option that misses a critical stabilization priority in airway management",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for airway management. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q42): In the emergency department, a patient scenario suggests anaphylaxis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a critical stabilization priority in anaphylaxis",
+    "option_b": "Most appropriate immediate action consistent with anaphylaxis",
+    "option_c": "Delayed or non-urgent step that is unsafe in anaphylaxis",
+    "option_d": "Management appropriate for a different emergency rather than anaphylaxis",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for anaphylaxis. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q43): In the emergency department, a patient scenario suggests asthma exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in asthma exacerbation",
+    "option_b": "Management appropriate for a different emergency rather than asthma exacerbation",
+    "option_c": "Option that misses a critical stabilization priority in asthma exacerbation",
+    "option_d": "Most appropriate immediate action consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for asthma exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q44): In the emergency department, a patient scenario suggests COPD exacerbation. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with COPD exacerbation",
+    "option_b": "Delayed or non-urgent step that is unsafe in COPD exacerbation",
+    "option_c": "Management appropriate for a different emergency rather than COPD exacerbation",
+    "option_d": "Option that misses a critical stabilization priority in COPD exacerbation",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for COPD exacerbation. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q45): In the emergency department, a patient scenario suggests acute coronary syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in acute coronary syndrome",
+    "option_b": "Most appropriate immediate action consistent with acute coronary syndrome",
+    "option_c": "Management appropriate for a different emergency rather than acute coronary syndrome",
+    "option_d": "Option that misses a critical stabilization priority in acute coronary syndrome",
+    "correct_answer": "B",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for acute coronary syndrome. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q46): In the emergency department, a patient scenario suggests cardiac arrest. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than cardiac arrest",
+    "option_b": "Delayed or non-urgent step that is unsafe in cardiac arrest",
+    "option_c": "Most appropriate immediate action consistent with cardiac arrest",
+    "option_d": "Option that misses a critical stabilization priority in cardiac arrest",
+    "correct_answer": "C",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for cardiac arrest. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q47): In the emergency department, a patient scenario suggests tachyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than tachyarrhythmia",
+    "option_b": "Delayed or non-urgent step that is unsafe in tachyarrhythmia",
+    "option_c": "Option that misses a critical stabilization priority in tachyarrhythmia",
+    "option_d": "Most appropriate immediate action consistent with tachyarrhythmia",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for tachyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q48): In the emergency department, a patient scenario suggests bradyarrhythmia. What is the best immediate management or diagnosis?",
+    "option_a": "Management appropriate for a different emergency rather than bradyarrhythmia",
+    "option_b": "Delayed or non-urgent step that is unsafe in bradyarrhythmia",
+    "option_c": "Option that misses a critical stabilization priority in bradyarrhythmia",
+    "option_d": "Most appropriate immediate action consistent with bradyarrhythmia",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for bradyarrhythmia. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q49): In the emergency department, a patient scenario suggests septic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate immediate action consistent with septic shock",
+    "option_b": "Option that misses a critical stabilization priority in septic shock",
+    "option_c": "Delayed or non-urgent step that is unsafe in septic shock",
+    "option_d": "Management appropriate for a different emergency rather than septic shock",
+    "correct_answer": "A",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for septic shock. Distractors reflect common mistakes in emergency care."
+  },
+  {
+    "question": "Emergency Medicine (Q50): In the emergency department, a patient scenario suggests hemorrhagic shock. What is the best immediate management or diagnosis?",
+    "option_a": "Delayed or non-urgent step that is unsafe in hemorrhagic shock",
+    "option_b": "Management appropriate for a different emergency rather than hemorrhagic shock",
+    "option_c": "Option that misses a critical stabilization priority in hemorrhagic shock",
+    "option_d": "Most appropriate immediate action consistent with hemorrhagic shock",
+    "correct_answer": "D",
+    "explanation": "Correct choice prioritizes ABCs and time-critical management for hemorrhagic shock. Distractors reflect common mistakes in emergency care."
+  }
+]

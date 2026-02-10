@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Neurology (Q01): A patient presents with neurologic findings concerning for acute ischemic stroke. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for acute ischemic stroke",
+    "option_b": "Option that contradicts hallmark features of acute ischemic stroke",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not acute ischemic stroke",
+    "option_d": "Management that delays time-critical care in acute ischemic stroke",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for acute ischemic stroke. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q02): A patient presents with neurologic findings concerning for intracerebral hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not intracerebral hemorrhage",
+    "option_b": "Management that delays time-critical care in intracerebral hemorrhage",
+    "option_c": "Most appropriate diagnosis/management for intracerebral hemorrhage",
+    "option_d": "Option that contradicts hallmark features of intracerebral hemorrhage",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for intracerebral hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q03): A patient presents with neurologic findings concerning for TIA. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not TIA",
+    "option_b": "Management that delays time-critical care in TIA",
+    "option_c": "Most appropriate diagnosis/management for TIA",
+    "option_d": "Option that contradicts hallmark features of TIA",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for TIA. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q04): A patient presents with neurologic findings concerning for status epilepticus. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for status epilepticus",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not status epilepticus",
+    "option_c": "Option that contradicts hallmark features of status epilepticus",
+    "option_d": "Management that delays time-critical care in status epilepticus",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for status epilepticus. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q05): A patient presents with neurologic findings concerning for migraine. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in migraine",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not migraine",
+    "option_c": "Option that contradicts hallmark features of migraine",
+    "option_d": "Most appropriate diagnosis/management for migraine",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for migraine. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q06): A patient presents with neurologic findings concerning for subarachnoid hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not subarachnoid hemorrhage",
+    "option_b": "Management that delays time-critical care in subarachnoid hemorrhage",
+    "option_c": "Most appropriate diagnosis/management for subarachnoid hemorrhage",
+    "option_d": "Option that contradicts hallmark features of subarachnoid hemorrhage",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for subarachnoid hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q07): A patient presents with neurologic findings concerning for meningitis. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for meningitis",
+    "option_b": "Option that contradicts hallmark features of meningitis",
+    "option_c": "Management that delays time-critical care in meningitis",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not meningitis",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for meningitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q08): A patient presents with neurologic findings concerning for encephalitis. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for encephalitis",
+    "option_b": "Option that contradicts hallmark features of encephalitis",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not encephalitis",
+    "option_d": "Management that delays time-critical care in encephalitis",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for encephalitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q09): A patient presents with neurologic findings concerning for multiple sclerosis. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for multiple sclerosis",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not multiple sclerosis",
+    "option_c": "Management that delays time-critical care in multiple sclerosis",
+    "option_d": "Option that contradicts hallmark features of multiple sclerosis",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for multiple sclerosis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q10): A patient presents with neurologic findings concerning for Guillain-Barré syndrome. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not Guillain-Barré syndrome",
+    "option_b": "Option that contradicts hallmark features of Guillain-Barré syndrome",
+    "option_c": "Most appropriate diagnosis/management for Guillain-Barré syndrome",
+    "option_d": "Management that delays time-critical care in Guillain-Barré syndrome",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for Guillain-Barré syndrome. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q11): A patient presents with neurologic findings concerning for Parkinson disease. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of Parkinson disease",
+    "option_b": "Management that delays time-critical care in Parkinson disease",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not Parkinson disease",
+    "option_d": "Most appropriate diagnosis/management for Parkinson disease",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for Parkinson disease. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q12): A patient presents with neurologic findings concerning for essential tremor. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for essential tremor",
+    "option_b": "Option that contradicts hallmark features of essential tremor",
+    "option_c": "Management that delays time-critical care in essential tremor",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not essential tremor",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for essential tremor. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q13): A patient presents with neurologic findings concerning for myasthenia gravis. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not myasthenia gravis",
+    "option_b": "Management that delays time-critical care in myasthenia gravis",
+    "option_c": "Option that contradicts hallmark features of myasthenia gravis",
+    "option_d": "Most appropriate diagnosis/management for myasthenia gravis",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for myasthenia gravis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q14): A patient presents with neurologic findings concerning for ALS. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in ALS",
+    "option_b": "Most appropriate diagnosis/management for ALS",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not ALS",
+    "option_d": "Option that contradicts hallmark features of ALS",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for ALS. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q15): A patient presents with neurologic findings concerning for peripheral neuropathy. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for peripheral neuropathy",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not peripheral neuropathy",
+    "option_c": "Management that delays time-critical care in peripheral neuropathy",
+    "option_d": "Option that contradicts hallmark features of peripheral neuropathy",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for peripheral neuropathy. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q16): A patient presents with neurologic findings concerning for spinal cord compression. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for spinal cord compression",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not spinal cord compression",
+    "option_c": "Management that delays time-critical care in spinal cord compression",
+    "option_d": "Option that contradicts hallmark features of spinal cord compression",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for spinal cord compression. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q17): A patient presents with neurologic findings concerning for cauda equina syndrome. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in cauda equina syndrome",
+    "option_b": "Most appropriate diagnosis/management for cauda equina syndrome",
+    "option_c": "Option that contradicts hallmark features of cauda equina syndrome",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not cauda equina syndrome",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for cauda equina syndrome. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q18): A patient presents with neurologic findings concerning for delirium vs dementia. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for delirium vs dementia",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not delirium vs dementia",
+    "option_c": "Option that contradicts hallmark features of delirium vs dementia",
+    "option_d": "Management that delays time-critical care in delirium vs dementia",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for delirium vs dementia. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q19): A patient presents with neurologic findings concerning for brain tumor red flags. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of brain tumor red flags",
+    "option_b": "Most appropriate diagnosis/management for brain tumor red flags",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not brain tumor red flags",
+    "option_d": "Management that delays time-critical care in brain tumor red flags",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for brain tumor red flags. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q20): A patient presents with neurologic findings concerning for vertigo evaluation. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in vertigo evaluation",
+    "option_b": "Option that contradicts hallmark features of vertigo evaluation",
+    "option_c": "Most appropriate diagnosis/management for vertigo evaluation",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not vertigo evaluation",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for vertigo evaluation. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q21): A patient presents with neurologic findings concerning for acute ischemic stroke. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for acute ischemic stroke",
+    "option_b": "Management that delays time-critical care in acute ischemic stroke",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not acute ischemic stroke",
+    "option_d": "Option that contradicts hallmark features of acute ischemic stroke",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for acute ischemic stroke. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q22): A patient presents with neurologic findings concerning for intracerebral hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not intracerebral hemorrhage",
+    "option_b": "Management that delays time-critical care in intracerebral hemorrhage",
+    "option_c": "Most appropriate diagnosis/management for intracerebral hemorrhage",
+    "option_d": "Option that contradicts hallmark features of intracerebral hemorrhage",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for intracerebral hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q23): A patient presents with neurologic findings concerning for TIA. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of TIA",
+    "option_b": "Most appropriate diagnosis/management for TIA",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not TIA",
+    "option_d": "Management that delays time-critical care in TIA",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for TIA. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q24): A patient presents with neurologic findings concerning for status epilepticus. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in status epilepticus",
+    "option_b": "Most appropriate diagnosis/management for status epilepticus",
+    "option_c": "Option that contradicts hallmark features of status epilepticus",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not status epilepticus",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for status epilepticus. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q25): A patient presents with neurologic findings concerning for migraine. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in migraine",
+    "option_b": "Option that contradicts hallmark features of migraine",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not migraine",
+    "option_d": "Most appropriate diagnosis/management for migraine",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for migraine. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q26): A patient presents with neurologic findings concerning for subarachnoid hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of subarachnoid hemorrhage",
+    "option_b": "Management that delays time-critical care in subarachnoid hemorrhage",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not subarachnoid hemorrhage",
+    "option_d": "Most appropriate diagnosis/management for subarachnoid hemorrhage",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for subarachnoid hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q27): A patient presents with neurologic findings concerning for meningitis. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for meningitis",
+    "option_b": "Option that contradicts hallmark features of meningitis",
+    "option_c": "Management that delays time-critical care in meningitis",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not meningitis",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for meningitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q28): A patient presents with neurologic findings concerning for encephalitis. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of encephalitis",
+    "option_b": "Most appropriate diagnosis/management for encephalitis",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not encephalitis",
+    "option_d": "Management that delays time-critical care in encephalitis",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for encephalitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q29): A patient presents with neurologic findings concerning for multiple sclerosis. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of multiple sclerosis",
+    "option_b": "Management that delays time-critical care in multiple sclerosis",
+    "option_c": "Most appropriate diagnosis/management for multiple sclerosis",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not multiple sclerosis",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for multiple sclerosis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q30): A patient presents with neurologic findings concerning for Guillain-Barré syndrome. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not Guillain-Barré syndrome",
+    "option_b": "Management that delays time-critical care in Guillain-Barré syndrome",
+    "option_c": "Option that contradicts hallmark features of Guillain-Barré syndrome",
+    "option_d": "Most appropriate diagnosis/management for Guillain-Barré syndrome",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for Guillain-Barré syndrome. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q31): A patient presents with neurologic findings concerning for Parkinson disease. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not Parkinson disease",
+    "option_b": "Management that delays time-critical care in Parkinson disease",
+    "option_c": "Option that contradicts hallmark features of Parkinson disease",
+    "option_d": "Most appropriate diagnosis/management for Parkinson disease",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for Parkinson disease. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q32): A patient presents with neurologic findings concerning for essential tremor. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in essential tremor",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not essential tremor",
+    "option_c": "Most appropriate diagnosis/management for essential tremor",
+    "option_d": "Option that contradicts hallmark features of essential tremor",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for essential tremor. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q33): A patient presents with neurologic findings concerning for myasthenia gravis. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not myasthenia gravis",
+    "option_b": "Option that contradicts hallmark features of myasthenia gravis",
+    "option_c": "Most appropriate diagnosis/management for myasthenia gravis",
+    "option_d": "Management that delays time-critical care in myasthenia gravis",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for myasthenia gravis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q34): A patient presents with neurologic findings concerning for ALS. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in ALS",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not ALS",
+    "option_c": "Option that contradicts hallmark features of ALS",
+    "option_d": "Most appropriate diagnosis/management for ALS",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for ALS. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q35): A patient presents with neurologic findings concerning for peripheral neuropathy. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of peripheral neuropathy",
+    "option_b": "Most appropriate diagnosis/management for peripheral neuropathy",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not peripheral neuropathy",
+    "option_d": "Management that delays time-critical care in peripheral neuropathy",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for peripheral neuropathy. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q36): A patient presents with neurologic findings concerning for spinal cord compression. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of spinal cord compression",
+    "option_b": "Most appropriate diagnosis/management for spinal cord compression",
+    "option_c": "Management that delays time-critical care in spinal cord compression",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not spinal cord compression",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for spinal cord compression. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q37): A patient presents with neurologic findings concerning for cauda equina syndrome. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not cauda equina syndrome",
+    "option_b": "Most appropriate diagnosis/management for cauda equina syndrome",
+    "option_c": "Option that contradicts hallmark features of cauda equina syndrome",
+    "option_d": "Management that delays time-critical care in cauda equina syndrome",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for cauda equina syndrome. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q38): A patient presents with neurologic findings concerning for delirium vs dementia. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not delirium vs dementia",
+    "option_b": "Option that contradicts hallmark features of delirium vs dementia",
+    "option_c": "Management that delays time-critical care in delirium vs dementia",
+    "option_d": "Most appropriate diagnosis/management for delirium vs dementia",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for delirium vs dementia. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q39): A patient presents with neurologic findings concerning for brain tumor red flags. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not brain tumor red flags",
+    "option_b": "Management that delays time-critical care in brain tumor red flags",
+    "option_c": "Option that contradicts hallmark features of brain tumor red flags",
+    "option_d": "Most appropriate diagnosis/management for brain tumor red flags",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for brain tumor red flags. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q40): A patient presents with neurologic findings concerning for vertigo evaluation. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not vertigo evaluation",
+    "option_b": "Option that contradicts hallmark features of vertigo evaluation",
+    "option_c": "Management that delays time-critical care in vertigo evaluation",
+    "option_d": "Most appropriate diagnosis/management for vertigo evaluation",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for vertigo evaluation. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q41): A patient presents with neurologic findings concerning for acute ischemic stroke. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in acute ischemic stroke",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not acute ischemic stroke",
+    "option_c": "Most appropriate diagnosis/management for acute ischemic stroke",
+    "option_d": "Option that contradicts hallmark features of acute ischemic stroke",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for acute ischemic stroke. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q42): A patient presents with neurologic findings concerning for intracerebral hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not intracerebral hemorrhage",
+    "option_b": "Most appropriate diagnosis/management for intracerebral hemorrhage",
+    "option_c": "Management that delays time-critical care in intracerebral hemorrhage",
+    "option_d": "Option that contradicts hallmark features of intracerebral hemorrhage",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for intracerebral hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q43): A patient presents with neurologic findings concerning for TIA. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in TIA",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not TIA",
+    "option_c": "Option that contradicts hallmark features of TIA",
+    "option_d": "Most appropriate diagnosis/management for TIA",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for TIA. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q44): A patient presents with neurologic findings concerning for status epilepticus. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not status epilepticus",
+    "option_b": "Option that contradicts hallmark features of status epilepticus",
+    "option_c": "Management that delays time-critical care in status epilepticus",
+    "option_d": "Most appropriate diagnosis/management for status epilepticus",
+    "correct_answer": "D",
+    "explanation": "The correct option follows standard neurologic localization/management for status epilepticus. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q45): A patient presents with neurologic findings concerning for migraine. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in migraine",
+    "option_b": "Diagnosis/step that fits a different neurologic condition, not migraine",
+    "option_c": "Most appropriate diagnosis/management for migraine",
+    "option_d": "Option that contradicts hallmark features of migraine",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for migraine. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q46): A patient presents with neurologic findings concerning for subarachnoid hemorrhage. What is the best next step or diagnosis?",
+    "option_a": "Most appropriate diagnosis/management for subarachnoid hemorrhage",
+    "option_b": "Option that contradicts hallmark features of subarachnoid hemorrhage",
+    "option_c": "Diagnosis/step that fits a different neurologic condition, not subarachnoid hemorrhage",
+    "option_d": "Management that delays time-critical care in subarachnoid hemorrhage",
+    "correct_answer": "A",
+    "explanation": "The correct option follows standard neurologic localization/management for subarachnoid hemorrhage. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q47): A patient presents with neurologic findings concerning for meningitis. What is the best next step or diagnosis?",
+    "option_a": "Management that delays time-critical care in meningitis",
+    "option_b": "Option that contradicts hallmark features of meningitis",
+    "option_c": "Most appropriate diagnosis/management for meningitis",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not meningitis",
+    "correct_answer": "C",
+    "explanation": "The correct option follows standard neurologic localization/management for meningitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q48): A patient presents with neurologic findings concerning for encephalitis. What is the best next step or diagnosis?",
+    "option_a": "Option that contradicts hallmark features of encephalitis",
+    "option_b": "Most appropriate diagnosis/management for encephalitis",
+    "option_c": "Management that delays time-critical care in encephalitis",
+    "option_d": "Diagnosis/step that fits a different neurologic condition, not encephalitis",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for encephalitis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q49): A patient presents with neurologic findings concerning for multiple sclerosis. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not multiple sclerosis",
+    "option_b": "Most appropriate diagnosis/management for multiple sclerosis",
+    "option_c": "Management that delays time-critical care in multiple sclerosis",
+    "option_d": "Option that contradicts hallmark features of multiple sclerosis",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for multiple sclerosis. Distractors represent common confusions or unsafe delays."
+  },
+  {
+    "question": "Neurology (Q50): A patient presents with neurologic findings concerning for Guillain-Barré syndrome. What is the best next step or diagnosis?",
+    "option_a": "Diagnosis/step that fits a different neurologic condition, not Guillain-Barré syndrome",
+    "option_b": "Most appropriate diagnosis/management for Guillain-Barré syndrome",
+    "option_c": "Option that contradicts hallmark features of Guillain-Barré syndrome",
+    "option_d": "Management that delays time-critical care in Guillain-Barré syndrome",
+    "correct_answer": "B",
+    "explanation": "The correct option follows standard neurologic localization/management for Guillain-Barré syndrome. Distractors represent common confusions or unsafe delays."
+  }
+]

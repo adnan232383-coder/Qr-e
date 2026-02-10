@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 24-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to community-acquired pneumonia? (Q001)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for community-acquired pneumonia",
+    "option_c": "Best answer aligned with community-acquired pneumonia",
+    "option_d": "Option that increases resistance risk in community-acquired pneumonia",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for community-acquired pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 18-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to meningitis workup? (Q002)",
+    "option_a": "Best answer aligned with meningitis workup",
+    "option_b": "Incorrect pathogen/therapy for meningitis workup",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Option that increases resistance risk in meningitis workup",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for meningitis workup. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 62-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to sepsis bundles? (Q003)",
+    "option_a": "Option that increases resistance risk in sepsis bundles",
+    "option_b": "Best answer aligned with sepsis bundles",
+    "option_c": "Incorrect pathogen/therapy for sepsis bundles",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for sepsis bundles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to tuberculosis diagnosis? (Q004)",
+    "option_a": "Best answer aligned with tuberculosis diagnosis",
+    "option_b": "Incorrect pathogen/therapy for tuberculosis diagnosis",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Option that increases resistance risk in tuberculosis diagnosis",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for tuberculosis diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to HIV opportunistic infections? (Q005)",
+    "option_a": "Option that increases resistance risk in HIV opportunistic infections",
+    "option_b": "Best answer aligned with HIV opportunistic infections",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for HIV opportunistic infections",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for HIV opportunistic infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 62-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to hospital-acquired infections? (Q006)",
+    "option_a": "Best answer aligned with hospital-acquired infections",
+    "option_b": "Option that increases resistance risk in hospital-acquired infections",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for hospital-acquired infections",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for hospital-acquired infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to endocarditis in IV drug use? (Q007)",
+    "option_a": "Option that increases resistance risk in endocarditis in IV drug use",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Best answer aligned with endocarditis in IV drug use",
+    "option_d": "Incorrect pathogen/therapy for endocarditis in IV drug use",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for endocarditis in IV drug use. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to UTI/pyelonephritis? (Q008)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for UTI/pyelonephritis",
+    "option_c": "Best answer aligned with UTI/pyelonephritis",
+    "option_d": "Option that increases resistance risk in UTI/pyelonephritis",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for UTI/pyelonephritis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 28-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to cellulitis vs nec fasc? (Q009)",
+    "option_a": "Best answer aligned with cellulitis vs nec fasc",
+    "option_b": "Incorrect pathogen/therapy for cellulitis vs nec fasc",
+    "option_c": "Option that increases resistance risk in cellulitis vs nec fasc",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for cellulitis vs nec fasc. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 28-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to antibiotic resistance mechanisms? (Q010)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for antibiotic resistance mechanisms",
+    "option_c": "Best answer aligned with antibiotic resistance mechanisms",
+    "option_d": "Option that increases resistance risk in antibiotic resistance mechanisms",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for antibiotic resistance mechanisms. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 62-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to Clostridioides difficile? (Q011)",
+    "option_a": "Incorrect pathogen/therapy for Clostridioides difficile",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Best answer aligned with Clostridioides difficile",
+    "option_d": "Option that increases resistance risk in Clostridioides difficile",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for Clostridioides difficile. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to STIs management? (Q012)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for STIs management",
+    "option_c": "Best answer aligned with STIs management",
+    "option_d": "Option that increases resistance risk in STIs management",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for STIs management. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 22-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to malaria diagnosis? (Q013)",
+    "option_a": "Best answer aligned with malaria diagnosis",
+    "option_b": "Option that increases resistance risk in malaria diagnosis",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for malaria diagnosis",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for malaria diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 55-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to fungal pneumonia? (Q014)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for fungal pneumonia",
+    "option_c": "Option that increases resistance risk in fungal pneumonia",
+    "option_d": "Best answer aligned with fungal pneumonia",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for fungal pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to viral hepatitis? (Q015)",
+    "option_a": "Option that increases resistance risk in viral hepatitis",
+    "option_b": "Incorrect pathogen/therapy for viral hepatitis",
+    "option_c": "Best answer aligned with viral hepatitis",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for viral hepatitis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 32-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to community-acquired pneumonia? (Q016)",
+    "option_a": "Best answer aligned with community-acquired pneumonia",
+    "option_b": "Incorrect pathogen/therapy for community-acquired pneumonia",
+    "option_c": "Option that increases resistance risk in community-acquired pneumonia",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for community-acquired pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 24-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to meningitis workup? (Q017)",
+    "option_a": "Incorrect pathogen/therapy for meningitis workup",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Option that increases resistance risk in meningitis workup",
+    "option_d": "Best answer aligned with meningitis workup",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for meningitis workup. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to sepsis bundles? (Q018)",
+    "option_a": "Incorrect pathogen/therapy for sepsis bundles",
+    "option_b": "Option that increases resistance risk in sepsis bundles",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Best answer aligned with sepsis bundles",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for sepsis bundles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 62-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to tuberculosis diagnosis? (Q019)",
+    "option_a": "Best answer aligned with tuberculosis diagnosis",
+    "option_b": "Option that increases resistance risk in tuberculosis diagnosis",
+    "option_c": "Incorrect pathogen/therapy for tuberculosis diagnosis",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for tuberculosis diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 24-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to HIV opportunistic infections? (Q020)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for HIV opportunistic infections",
+    "option_c": "Option that increases resistance risk in HIV opportunistic infections",
+    "option_d": "Best answer aligned with HIV opportunistic infections",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for HIV opportunistic infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to hospital-acquired infections? (Q021)",
+    "option_a": "Option that increases resistance risk in hospital-acquired infections",
+    "option_b": "Best answer aligned with hospital-acquired infections",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for hospital-acquired infections",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for hospital-acquired infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 18-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to endocarditis in IV drug use? (Q022)",
+    "option_a": "Option that increases resistance risk in endocarditis in IV drug use",
+    "option_b": "Best answer aligned with endocarditis in IV drug use",
+    "option_c": "Incorrect pathogen/therapy for endocarditis in IV drug use",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for endocarditis in IV drug use. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 28-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to UTI/pyelonephritis? (Q023)",
+    "option_a": "Option that increases resistance risk in UTI/pyelonephritis",
+    "option_b": "Incorrect pathogen/therapy for UTI/pyelonephritis",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Best answer aligned with UTI/pyelonephritis",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for UTI/pyelonephritis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to cellulitis vs nec fasc? (Q024)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for cellulitis vs nec fasc",
+    "option_c": "Best answer aligned with cellulitis vs nec fasc",
+    "option_d": "Option that increases resistance risk in cellulitis vs nec fasc",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for cellulitis vs nec fasc. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 22-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to antibiotic resistance mechanisms? (Q025)",
+    "option_a": "Best answer aligned with antibiotic resistance mechanisms",
+    "option_b": "Option that increases resistance risk in antibiotic resistance mechanisms",
+    "option_c": "Incorrect pathogen/therapy for antibiotic resistance mechanisms",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for antibiotic resistance mechanisms. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 68-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to Clostridioides difficile? (Q026)",
+    "option_a": "Option that increases resistance risk in Clostridioides difficile",
+    "option_b": "Best answer aligned with Clostridioides difficile",
+    "option_c": "Incorrect pathogen/therapy for Clostridioides difficile",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for Clostridioides difficile. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 55-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to STIs management? (Q027)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for STIs management",
+    "option_c": "Best answer aligned with STIs management",
+    "option_d": "Option that increases resistance risk in STIs management",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for STIs management. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 35-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to malaria diagnosis? (Q028)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Best answer aligned with malaria diagnosis",
+    "option_c": "Option that increases resistance risk in malaria diagnosis",
+    "option_d": "Incorrect pathogen/therapy for malaria diagnosis",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for malaria diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 68-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to fungal pneumonia? (Q029)",
+    "option_a": "Best answer aligned with fungal pneumonia",
+    "option_b": "Incorrect pathogen/therapy for fungal pneumonia",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Option that increases resistance risk in fungal pneumonia",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for fungal pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 24-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to viral hepatitis? (Q030)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for viral hepatitis",
+    "option_c": "Option that increases resistance risk in viral hepatitis",
+    "option_d": "Best answer aligned with viral hepatitis",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for viral hepatitis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 35-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to community-acquired pneumonia? (Q031)",
+    "option_a": "Option that increases resistance risk in community-acquired pneumonia",
+    "option_b": "Best answer aligned with community-acquired pneumonia",
+    "option_c": "Incorrect pathogen/therapy for community-acquired pneumonia",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for community-acquired pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 24-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to meningitis workup? (Q032)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for meningitis workup",
+    "option_c": "Option that increases resistance risk in meningitis workup",
+    "option_d": "Best answer aligned with meningitis workup",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for meningitis workup. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to sepsis bundles? (Q033)",
+    "option_a": "Best answer aligned with sepsis bundles",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Option that increases resistance risk in sepsis bundles",
+    "option_d": "Incorrect pathogen/therapy for sepsis bundles",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for sepsis bundles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 32-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to tuberculosis diagnosis? (Q034)",
+    "option_a": "Incorrect pathogen/therapy for tuberculosis diagnosis",
+    "option_b": "Best answer aligned with tuberculosis diagnosis",
+    "option_c": "Option that increases resistance risk in tuberculosis diagnosis",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for tuberculosis diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 28-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to HIV opportunistic infections? (Q035)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Incorrect pathogen/therapy for HIV opportunistic infections",
+    "option_c": "Option that increases resistance risk in HIV opportunistic infections",
+    "option_d": "Best answer aligned with HIV opportunistic infections",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for HIV opportunistic infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to hospital-acquired infections? (Q036)",
+    "option_a": "Option that increases resistance risk in hospital-acquired infections",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Best answer aligned with hospital-acquired infections",
+    "option_d": "Incorrect pathogen/therapy for hospital-acquired infections",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for hospital-acquired infections. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 72-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to endocarditis in IV drug use? (Q037)",
+    "option_a": "Option that increases resistance risk in endocarditis in IV drug use",
+    "option_b": "Best answer aligned with endocarditis in IV drug use",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for endocarditis in IV drug use",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for endocarditis in IV drug use. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to UTI/pyelonephritis? (Q038)",
+    "option_a": "Management appropriate for a different infection",
+    "option_b": "Option that increases resistance risk in UTI/pyelonephritis",
+    "option_c": "Best answer aligned with UTI/pyelonephritis",
+    "option_d": "Incorrect pathogen/therapy for UTI/pyelonephritis",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for UTI/pyelonephritis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 68-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to cellulitis vs nec fasc? (Q039)",
+    "option_a": "Incorrect pathogen/therapy for cellulitis vs nec fasc",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Option that increases resistance risk in cellulitis vs nec fasc",
+    "option_d": "Best answer aligned with cellulitis vs nec fasc",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for cellulitis vs nec fasc. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 18-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to antibiotic resistance mechanisms? (Q040)",
+    "option_a": "Option that increases resistance risk in antibiotic resistance mechanisms",
+    "option_b": "Best answer aligned with antibiotic resistance mechanisms",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for antibiotic resistance mechanisms",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for antibiotic resistance mechanisms. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 22-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to Clostridioides difficile? (Q041)",
+    "option_a": "Option that increases resistance risk in Clostridioides difficile",
+    "option_b": "Incorrect pathogen/therapy for Clostridioides difficile",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Best answer aligned with Clostridioides difficile",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for Clostridioides difficile. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 35-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to STIs management? (Q042)",
+    "option_a": "Best answer aligned with STIs management",
+    "option_b": "Option that increases resistance risk in STIs management",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for STIs management",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for STIs management. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 35-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to malaria diagnosis? (Q043)",
+    "option_a": "Incorrect pathogen/therapy for malaria diagnosis",
+    "option_b": "Best answer aligned with malaria diagnosis",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Option that increases resistance risk in malaria diagnosis",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for malaria diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 22-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to fungal pneumonia? (Q044)",
+    "option_a": "Option that increases resistance risk in fungal pneumonia",
+    "option_b": "Best answer aligned with fungal pneumonia",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Incorrect pathogen/therapy for fungal pneumonia",
+    "correct_answer": "B",
+    "explanation": "The correct option aligns with core reasoning for fungal pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 18-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to viral hepatitis? (Q045)",
+    "option_a": "Incorrect pathogen/therapy for viral hepatitis",
+    "option_b": "Option that increases resistance risk in viral hepatitis",
+    "option_c": "Management appropriate for a different infection",
+    "option_d": "Best answer aligned with viral hepatitis",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for viral hepatitis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 28-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to community-acquired pneumonia? (Q046)",
+    "option_a": "Incorrect pathogen/therapy for community-acquired pneumonia",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Best answer aligned with community-acquired pneumonia",
+    "option_d": "Option that increases resistance risk in community-acquired pneumonia",
+    "correct_answer": "C",
+    "explanation": "The correct option aligns with core reasoning for community-acquired pneumonia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 24-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to meningitis workup? (Q047)",
+    "option_a": "Best answer aligned with meningitis workup",
+    "option_b": "Option that increases resistance risk in meningitis workup",
+    "option_c": "Incorrect pathogen/therapy for meningitis workup",
+    "option_d": "Management appropriate for a different infection",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for meningitis workup. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 45-year-old man presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to sepsis bundles? (Q048)",
+    "option_a": "Best answer aligned with sepsis bundles",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Incorrect pathogen/therapy for sepsis bundles",
+    "option_d": "Option that increases resistance risk in sepsis bundles",
+    "correct_answer": "A",
+    "explanation": "The correct option aligns with core reasoning for sepsis bundles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 55-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to tuberculosis diagnosis? (Q049)",
+    "option_a": "Option that increases resistance risk in tuberculosis diagnosis",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Incorrect pathogen/therapy for tuberculosis diagnosis",
+    "option_d": "Best answer aligned with tuberculosis diagnosis",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for tuberculosis diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "question": "A 35-year-old woman presents with fever and systemic symptoms. Which is the most likely diagnosis or best next step related to HIV opportunistic infections? (Q050)",
+    "option_a": "Incorrect pathogen/therapy for HIV opportunistic infections",
+    "option_b": "Management appropriate for a different infection",
+    "option_c": "Option that increases resistance risk in HIV opportunistic infections",
+    "option_d": "Best answer aligned with HIV opportunistic infections",
+    "correct_answer": "D",
+    "explanation": "The correct option aligns with core reasoning for HIV opportunistic infections. Distractors reflect common alternatives and pitfalls."
+  }
+]

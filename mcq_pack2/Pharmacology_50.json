@@ -1,0 +1,452 @@
+[
+  {
+    "question": "[Pharmacology I - 01A] Which term matches: What the body does to a drug?",
+    "option_a": "Pharmacokinetics",
+    "option_b": "Drug price regulation",
+    "option_c": "Placebo effect",
+    "option_d": "What the drug does to the body",
+    "correct_answer": "A",
+    "explanation": "Includes absorption, distribution, metabolism, excretion."
+  },
+  {
+    "question": "[Pharmacology I - 01B] Which concept is most related to: Pharmacokinetics?",
+    "option_a": "Placebo effect",
+    "option_b": "Pharmacokinetics",
+    "option_c": "What the drug does to the body",
+    "option_d": "Drug price regulation",
+    "correct_answer": "B",
+    "explanation": "Includes absorption, distribution, metabolism, excretion."
+  },
+  {
+    "question": "[Pharmacology I - 01C] What best explains 'Pharmacokinetics'?",
+    "option_a": "It describes tumor invasion.",
+    "option_b": "Includes absorption, distribution, metabolism, excretion.",
+    "option_c": "It occurs only in kidney failure.",
+    "option_d": "It is unrelated to dosing.",
+    "correct_answer": "B",
+    "explanation": "This is the principle behind Pharmacokinetics."
+  },
+  {
+    "question": "[Pharmacology I - 01D] A vignette illustrating 'Pharmacokinetics' would show:",
+    "option_a": "Pure inflammation without medication.",
+    "option_b": "Absence of drug administration.",
+    "option_c": "What the body does to a drug",
+    "option_d": "Spread of malignancy.",
+    "correct_answer": "C",
+    "explanation": "This reflects the definition of Pharmacokinetics."
+  },
+  {
+    "question": "[Pharmacology I - 02A] Which term matches: What the drug does to the body?",
+    "option_a": "Pharmacodynamics",
+    "option_b": "Drug absorption rate",
+    "option_c": "Drug marketing",
+    "option_d": "Renal elimination only",
+    "correct_answer": "A",
+    "explanation": "Mechanism of action and effect."
+  },
+  {
+    "question": "[Pharmacology I - 02B] Which concept is most related to: Pharmacodynamics?",
+    "option_a": "Drug absorption rate",
+    "option_b": "Renal elimination only",
+    "option_c": "Drug marketing",
+    "option_d": "Pharmacodynamics",
+    "correct_answer": "D",
+    "explanation": "Mechanism of action and effect."
+  },
+  {
+    "question": "[Pharmacology I - 02C] What best explains 'Pharmacodynamics'?",
+    "option_a": "It is unrelated to dosing.",
+    "option_b": "Mechanism of action and effect.",
+    "option_c": "It occurs only in kidney failure.",
+    "option_d": "It describes tumor invasion.",
+    "correct_answer": "B",
+    "explanation": "This is the principle behind Pharmacodynamics."
+  },
+  {
+    "question": "[Pharmacology I - 02D] A vignette illustrating 'Pharmacodynamics' would show:",
+    "option_a": "What the drug does to the body",
+    "option_b": "Spread of malignancy.",
+    "option_c": "Absence of drug administration.",
+    "option_d": "Pure inflammation without medication.",
+    "correct_answer": "A",
+    "explanation": "This reflects the definition of Pharmacodynamics."
+  },
+  {
+    "question": "[Pharmacology I - 03A] Which term matches: Fraction of administered dose reaching systemic circulation?",
+    "option_a": "Volume of distribution",
+    "option_b": "Drug half-life",
+    "option_c": "Bioavailability",
+    "option_d": "Therapeutic index",
+    "correct_answer": "C",
+    "explanation": "Important for oral drugs."
+  },
+  {
+    "question": "[Pharmacology I - 03B] Which concept is most related to: Bioavailability?",
+    "option_a": "Drug half-life",
+    "option_b": "Bioavailability",
+    "option_c": "Volume of distribution",
+    "option_d": "Therapeutic index",
+    "correct_answer": "B",
+    "explanation": "Important for oral drugs."
+  },
+  {
+    "question": "[Pharmacology I - 03C] What best explains 'Bioavailability'?",
+    "option_a": "It describes tumor invasion.",
+    "option_b": "It is unrelated to dosing.",
+    "option_c": "Important for oral drugs.",
+    "option_d": "It occurs only in kidney failure.",
+    "correct_answer": "C",
+    "explanation": "This is the principle behind Bioavailability."
+  },
+  {
+    "question": "[Pharmacology I - 03D] A vignette illustrating 'Bioavailability' would show:",
+    "option_a": "Spread of malignancy.",
+    "option_b": "Absence of drug administration.",
+    "option_c": "Pure inflammation without medication.",
+    "option_d": "Fraction of administered dose reaching systemic circulation",
+    "correct_answer": "D",
+    "explanation": "This reflects the definition of Bioavailability."
+  },
+  {
+    "question": "[Pharmacology I - 04A] Which term matches: Time required for plasma concentration to decrease by 50%?",
+    "option_a": "Drug potency",
+    "option_b": "Time to peak effect",
+    "option_c": "Half-life",
+    "option_d": "Receptor affinity",
+    "correct_answer": "C",
+    "explanation": "Determines dosing interval."
+  },
+  {
+    "question": "[Pharmacology I - 04B] Which concept is most related to: Half-life?",
+    "option_a": "Drug potency",
+    "option_b": "Half-life",
+    "option_c": "Time to peak effect",
+    "option_d": "Receptor affinity",
+    "correct_answer": "B",
+    "explanation": "Determines dosing interval."
+  },
+  {
+    "question": "[Pharmacology I - 04C] What best explains 'Half-life'?",
+    "option_a": "It is unrelated to dosing.",
+    "option_b": "Determines dosing interval.",
+    "option_c": "It occurs only in kidney failure.",
+    "option_d": "It describes tumor invasion.",
+    "correct_answer": "B",
+    "explanation": "This is the principle behind Half-life."
+  },
+  {
+    "question": "[Pharmacology I - 04D] A vignette illustrating 'Half-life' would show:",
+    "option_a": "Spread of malignancy.",
+    "option_b": "Absence of drug administration.",
+    "option_c": "Time required for plasma concentration to decrease by 50%",
+    "option_d": "Pure inflammation without medication.",
+    "correct_answer": "C",
+    "explanation": "This reflects the definition of Half-life."
+  },
+  {
+    "question": "[Pharmacology I - 05A] Which term matches: Condition where drug input equals elimination?",
+    "option_a": "Allergy",
+    "option_b": "Toxic accumulation",
+    "option_c": "Steady state",
+    "option_d": "First dose only",
+    "correct_answer": "C",
+    "explanation": "Usually after 4–5 half-lives."
+  },
+  {
+    "question": "[Pharmacology I - 05B] Which concept is most related to: Steady state?",
+    "option_a": "Allergy",
+    "option_b": "First dose only",
+    "option_c": "Toxic accumulation",
+    "option_d": "Steady state",
+    "correct_answer": "D",
+    "explanation": "Usually after 4–5 half-lives."
+  },
+  {
+    "question": "[Pharmacology I - 05C] What best explains 'Steady state'?",
+    "option_a": "It occurs only in kidney failure.",
+    "option_b": "It describes tumor invasion.",
+    "option_c": "Usually after 4–5 half-lives.",
+    "option_d": "It is unrelated to dosing.",
+    "correct_answer": "C",
+    "explanation": "This is the principle behind Steady state."
+  },
+  {
+    "question": "[Pharmacology I - 05D] A vignette illustrating 'Steady state' would show:",
+    "option_a": "Condition where drug input equals elimination",
+    "option_b": "Pure inflammation without medication.",
+    "option_c": "Absence of drug administration.",
+    "option_d": "Spread of malignancy.",
+    "correct_answer": "A",
+    "explanation": "This reflects the definition of Steady state."
+  },
+  {
+    "question": "[Pharmacology I - 06A] Which term matches: Initial higher dose to rapidly reach therapeutic level?",
+    "option_a": "Loading dose",
+    "option_b": "Placebo",
+    "option_c": "Dose reduction for toxicity",
+    "option_d": "Maintenance dose",
+    "correct_answer": "A",
+    "explanation": "Used when immediate effect needed."
+  },
+  {
+    "question": "[Pharmacology I - 06B] Which concept is most related to: Loading dose?",
+    "option_a": "Loading dose",
+    "option_b": "Maintenance dose",
+    "option_c": "Dose reduction for toxicity",
+    "option_d": "Placebo",
+    "correct_answer": "A",
+    "explanation": "Used when immediate effect needed."
+  },
+  {
+    "question": "[Pharmacology I - 06C] What best explains 'Loading dose'?",
+    "option_a": "It occurs only in kidney failure.",
+    "option_b": "Used when immediate effect needed.",
+    "option_c": "It describes tumor invasion.",
+    "option_d": "It is unrelated to dosing.",
+    "correct_answer": "B",
+    "explanation": "This is the principle behind Loading dose."
+  },
+  {
+    "question": "[Pharmacology I - 06D] A vignette illustrating 'Loading dose' would show:",
+    "option_a": "Absence of drug administration.",
+    "option_b": "Spread of malignancy.",
+    "option_c": "Pure inflammation without medication.",
+    "option_d": "Initial higher dose to rapidly reach therapeutic level",
+    "correct_answer": "D",
+    "explanation": "This reflects the definition of Loading dose."
+  },
+  {
+    "question": "[Pharmacology I - 07A] Which term matches: Dose needed to maintain steady-state concentration?",
+    "option_a": "Overdose",
+    "option_b": "Loading bolus",
+    "option_c": "First ever dose",
+    "option_d": "Maintenance dose",
+    "correct_answer": "D",
+    "explanation": "Balances elimination."
+  },
+  {
+    "question": "[Pharmacology I - 07B] Which concept is most related to: Maintenance dose?",
+    "option_a": "Maintenance dose",
+    "option_b": "Loading bolus",
+    "option_c": "Overdose",
+    "option_d": "First ever dose",
+    "correct_answer": "A",
+    "explanation": "Balances elimination."
+  },
+  {
+    "question": "[Pharmacology I - 07C] What best explains 'Maintenance dose'?",
+    "option_a": "It describes tumor invasion.",
+    "option_b": "It occurs only in kidney failure.",
+    "option_c": "It is unrelated to dosing.",
+    "option_d": "Balances elimination.",
+    "correct_answer": "D",
+    "explanation": "This is the principle behind Maintenance dose."
+  },
+  {
+    "question": "[Pharmacology I - 07D] A vignette illustrating 'Maintenance dose' would show:",
+    "option_a": "Dose needed to maintain steady-state concentration",
+    "option_b": "Pure inflammation without medication.",
+    "option_c": "Spread of malignancy.",
+    "option_d": "Absence of drug administration.",
+    "correct_answer": "A",
+    "explanation": "This reflects the definition of Maintenance dose."
+  },
+  {
+    "question": "[Pharmacology I - 08A] Which term matches: Drug metabolism in liver before reaching systemic circulation?",
+    "option_a": "Renal excretion",
+    "option_b": "Protein binding",
+    "option_c": "First-pass metabolism",
+    "option_d": "Pulmonary absorption",
+    "correct_answer": "C",
+    "explanation": "Reduces oral bioavailability."
+  },
+  {
+    "question": "[Pharmacology I - 08B] Which concept is most related to: First-pass metabolism?",
+    "option_a": "Protein binding",
+    "option_b": "Pulmonary absorption",
+    "option_c": "First-pass metabolism",
+    "option_d": "Renal excretion",
+    "correct_answer": "C",
+    "explanation": "Reduces oral bioavailability."
+  },
+  {
+    "question": "[Pharmacology I - 08C] What best explains 'First-pass metabolism'?",
+    "option_a": "It occurs only in kidney failure.",
+    "option_b": "Reduces oral bioavailability.",
+    "option_c": "It describes tumor invasion.",
+    "option_d": "It is unrelated to dosing.",
+    "correct_answer": "B",
+    "explanation": "This is the principle behind First-pass metabolism."
+  },
+  {
+    "question": "[Pharmacology I - 08D] A vignette illustrating 'First-pass metabolism' would show:",
+    "option_a": "Spread of malignancy.",
+    "option_b": "Pure inflammation without medication.",
+    "option_c": "Absence of drug administration.",
+    "option_d": "Drug metabolism in liver before reaching systemic circulation",
+    "correct_answer": "D",
+    "explanation": "This reflects the definition of First-pass metabolism."
+  },
+  {
+    "question": "[Pharmacology I - 09A] Which term matches: Theoretical volume relating amount of drug to plasma concentration?",
+    "option_a": "Clearance",
+    "option_b": "Bioavailability",
+    "option_c": "Volume of distribution",
+    "option_d": "Half-life",
+    "correct_answer": "C",
+    "explanation": "Indicates tissue distribution."
+  },
+  {
+    "question": "[Pharmacology I - 09B] Which concept is most related to: Volume of distribution?",
+    "option_a": "Volume of distribution",
+    "option_b": "Half-life",
+    "option_c": "Clearance",
+    "option_d": "Bioavailability",
+    "correct_answer": "A",
+    "explanation": "Indicates tissue distribution."
+  },
+  {
+    "question": "[Pharmacology I - 09C] What best explains 'Volume of distribution'?",
+    "option_a": "It is unrelated to dosing.",
+    "option_b": "It occurs only in kidney failure.",
+    "option_c": "Indicates tissue distribution.",
+    "option_d": "It describes tumor invasion.",
+    "correct_answer": "C",
+    "explanation": "This is the principle behind Volume of distribution."
+  },
+  {
+    "question": "[Pharmacology I - 09D] A vignette illustrating 'Volume of distribution' would show:",
+    "option_a": "Pure inflammation without medication.",
+    "option_b": "Absence of drug administration.",
+    "option_c": "Spread of malignancy.",
+    "option_d": "Theoretical volume relating amount of drug to plasma concentration",
+    "correct_answer": "D",
+    "explanation": "This reflects the definition of Volume of distribution."
+  },
+  {
+    "question": "[Pharmacology I - 10A] Which term matches: Volume of plasma cleared of drug per unit time?",
+    "option_a": "Drug potency",
+    "option_b": "Receptor binding",
+    "option_c": "Clearance",
+    "option_d": "Toxicity",
+    "correct_answer": "C",
+    "explanation": "Major determinant of steady state."
+  },
+  {
+    "question": "[Pharmacology I - 10B] Which concept is most related to: Clearance?",
+    "option_a": "Toxicity",
+    "option_b": "Drug potency",
+    "option_c": "Receptor binding",
+    "option_d": "Clearance",
+    "correct_answer": "D",
+    "explanation": "Major determinant of steady state."
+  },
+  {
+    "question": "[Pharmacology I - 10C] What best explains 'Clearance'?",
+    "option_a": "It occurs only in kidney failure.",
+    "option_b": "It is unrelated to dosing.",
+    "option_c": "It describes tumor invasion.",
+    "option_d": "Major determinant of steady state.",
+    "correct_answer": "D",
+    "explanation": "This is the principle behind Clearance."
+  },
+  {
+    "question": "[Pharmacology I - 10D] A vignette illustrating 'Clearance' would show:",
+    "option_a": "Absence of drug administration.",
+    "option_b": "Volume of plasma cleared of drug per unit time",
+    "option_c": "Pure inflammation without medication.",
+    "option_d": "Spread of malignancy.",
+    "correct_answer": "B",
+    "explanation": "This reflects the definition of Clearance."
+  },
+  {
+    "question": "[Pharmacology I - 11A] Which term matches: Substance that activates a receptor?",
+    "option_a": "Blocks receptor",
+    "option_b": "Agonist",
+    "option_c": "Has no effect",
+    "option_d": "Destroys receptor",
+    "correct_answer": "B",
+    "explanation": "Produces biological response."
+  },
+  {
+    "question": "[Pharmacology I - 11B] Which concept is most related to: Agonist?",
+    "option_a": "Agonist",
+    "option_b": "Has no effect",
+    "option_c": "Destroys receptor",
+    "option_d": "Blocks receptor",
+    "correct_answer": "A",
+    "explanation": "Produces biological response."
+  },
+  {
+    "question": "[Pharmacology I - 11C] What best explains 'Agonist'?",
+    "option_a": "It occurs only in kidney failure.",
+    "option_b": "It is unrelated to dosing.",
+    "option_c": "It describes tumor invasion.",
+    "option_d": "Produces biological response.",
+    "correct_answer": "D",
+    "explanation": "This is the principle behind Agonist."
+  },
+  {
+    "question": "[Pharmacology I - 11D] A vignette illustrating 'Agonist' would show:",
+    "option_a": "Spread of malignancy.",
+    "option_b": "Absence of drug administration.",
+    "option_c": "Substance that activates a receptor",
+    "option_d": "Pure inflammation without medication.",
+    "correct_answer": "C",
+    "explanation": "This reflects the definition of Agonist."
+  },
+  {
+    "question": "[Pharmacology I - 12A] Which term matches: Substance that blocks receptor activation?",
+    "option_a": "Increases potency",
+    "option_b": "Stimulates receptor",
+    "option_c": "Antagonist",
+    "option_d": "Enhances efficacy",
+    "correct_answer": "C",
+    "explanation": "Prevents agonist effect."
+  },
+  {
+    "question": "[Pharmacology I - 12B] Which concept is most related to: Antagonist?",
+    "option_a": "Antagonist",
+    "option_b": "Enhances efficacy",
+    "option_c": "Stimulates receptor",
+    "option_d": "Increases potency",
+    "correct_answer": "A",
+    "explanation": "Prevents agonist effect."
+  },
+  {
+    "question": "[Pharmacology I - 12C] What best explains 'Antagonist'?",
+    "option_a": "It is unrelated to dosing.",
+    "option_b": "It describes tumor invasion.",
+    "option_c": "Prevents agonist effect.",
+    "option_d": "It occurs only in kidney failure.",
+    "correct_answer": "C",
+    "explanation": "This is the principle behind Antagonist."
+  },
+  {
+    "question": "[Pharmacology I - 12D] A vignette illustrating 'Antagonist' would show:",
+    "option_a": "Pure inflammation without medication.",
+    "option_b": "Substance that blocks receptor activation",
+    "option_c": "Absence of drug administration.",
+    "option_d": "Spread of malignancy.",
+    "correct_answer": "B",
+    "explanation": "This reflects the definition of Antagonist."
+  },
+  {
+    "question": "[Pharmacology I - 13A] Which term matches: Activates receptor but with lower maximal effect?",
+    "option_a": "No intrinsic activity",
+    "option_b": "Partial agonist",
+    "option_c": "Full agonist",
+    "option_d": "Inverse agonist",
+    "correct_answer": "B",
+    "explanation": "Competes with full agonists."
+  },
+  {
+    "question": "[Pharmacology I - 13B] Which concept is most related to: Partial agonist?",
+    "option_a": "Inverse agonist",
+    "option_b": "Full agonist",
+    "option_c": "No intrinsic activity",
+    "option_d": "Partial agonist",
+    "correct_answer": "D",
+    "explanation": "Competes with full agonists."
+  }
+]

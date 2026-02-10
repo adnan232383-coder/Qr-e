@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Internal Medicine I (Q01): A patient presents with features suggestive of acute coronary syndrome. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not acute coronary syndrome",
+    "option_b": "Most appropriate diagnosis/management consistent with acute coronary syndrome",
+    "option_c": "Delay or incorrect step that would worsen outcomes in acute coronary syndrome",
+    "option_d": "Option that misses the key diagnostic criterion for acute coronary syndrome",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute coronary syndrome. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q02): A patient presents with features suggestive of heart failure exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with heart failure exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for heart failure exacerbation",
+    "option_c": "Management appropriate for a different condition, not heart failure exacerbation",
+    "option_d": "Delay or incorrect step that would worsen outcomes in heart failure exacerbation",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for heart failure exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q03): A patient presents with features suggestive of atrial fibrillation. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with atrial fibrillation",
+    "option_b": "Management appropriate for a different condition, not atrial fibrillation",
+    "option_c": "Option that misses the key diagnostic criterion for atrial fibrillation",
+    "option_d": "Delay or incorrect step that would worsen outcomes in atrial fibrillation",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for atrial fibrillation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q04): A patient presents with features suggestive of hypertensive emergency. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not hypertensive emergency",
+    "option_b": "Option that misses the key diagnostic criterion for hypertensive emergency",
+    "option_c": "Delay or incorrect step that would worsen outcomes in hypertensive emergency",
+    "option_d": "Most appropriate diagnosis/management consistent with hypertensive emergency",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypertensive emergency. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q05): A patient presents with features suggestive of COPD exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for COPD exacerbation",
+    "option_b": "Delay or incorrect step that would worsen outcomes in COPD exacerbation",
+    "option_c": "Management appropriate for a different condition, not COPD exacerbation",
+    "option_d": "Most appropriate diagnosis/management consistent with COPD exacerbation",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for COPD exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q06): A patient presents with features suggestive of asthma exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in asthma exacerbation",
+    "option_b": "Most appropriate diagnosis/management consistent with asthma exacerbation",
+    "option_c": "Option that misses the key diagnostic criterion for asthma exacerbation",
+    "option_d": "Management appropriate for a different condition, not asthma exacerbation",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for asthma exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q07): A patient presents with features suggestive of community-acquired pneumonia. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not community-acquired pneumonia",
+    "option_b": "Most appropriate diagnosis/management consistent with community-acquired pneumonia",
+    "option_c": "Option that misses the key diagnostic criterion for community-acquired pneumonia",
+    "option_d": "Delay or incorrect step that would worsen outcomes in community-acquired pneumonia",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for community-acquired pneumonia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q08): A patient presents with features suggestive of pulmonary embolism. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not pulmonary embolism",
+    "option_b": "Delay or incorrect step that would worsen outcomes in pulmonary embolism",
+    "option_c": "Option that misses the key diagnostic criterion for pulmonary embolism",
+    "option_d": "Most appropriate diagnosis/management consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for pulmonary embolism. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q09): A patient presents with features suggestive of diabetic ketoacidosis. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with diabetic ketoacidosis",
+    "option_b": "Option that misses the key diagnostic criterion for diabetic ketoacidosis",
+    "option_c": "Management appropriate for a different condition, not diabetic ketoacidosis",
+    "option_d": "Delay or incorrect step that would worsen outcomes in diabetic ketoacidosis",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for diabetic ketoacidosis. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q10): A patient presents with features suggestive of hypoglycemia. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in hypoglycemia",
+    "option_b": "Option that misses the key diagnostic criterion for hypoglycemia",
+    "option_c": "Most appropriate diagnosis/management consistent with hypoglycemia",
+    "option_d": "Management appropriate for a different condition, not hypoglycemia",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypoglycemia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q11): A patient presents with features suggestive of acute kidney injury. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with acute kidney injury",
+    "option_b": "Option that misses the key diagnostic criterion for acute kidney injury",
+    "option_c": "Management appropriate for a different condition, not acute kidney injury",
+    "option_d": "Delay or incorrect step that would worsen outcomes in acute kidney injury",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute kidney injury. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q12): A patient presents with features suggestive of chronic kidney disease staging. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with chronic kidney disease staging",
+    "option_b": "Option that misses the key diagnostic criterion for chronic kidney disease staging",
+    "option_c": "Delay or incorrect step that would worsen outcomes in chronic kidney disease staging",
+    "option_d": "Management appropriate for a different condition, not chronic kidney disease staging",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for chronic kidney disease staging. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q13): A patient presents with features suggestive of upper GI bleed. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not upper GI bleed",
+    "option_b": "Most appropriate diagnosis/management consistent with upper GI bleed",
+    "option_c": "Option that misses the key diagnostic criterion for upper GI bleed",
+    "option_d": "Delay or incorrect step that would worsen outcomes in upper GI bleed",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for upper GI bleed. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q14): A patient presents with features suggestive of acute pancreatitis. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for acute pancreatitis",
+    "option_b": "Delay or incorrect step that would worsen outcomes in acute pancreatitis",
+    "option_c": "Management appropriate for a different condition, not acute pancreatitis",
+    "option_d": "Most appropriate diagnosis/management consistent with acute pancreatitis",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute pancreatitis. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q15): A patient presents with features suggestive of cirrhosis complications. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with cirrhosis complications",
+    "option_b": "Delay or incorrect step that would worsen outcomes in cirrhosis complications",
+    "option_c": "Management appropriate for a different condition, not cirrhosis complications",
+    "option_d": "Option that misses the key diagnostic criterion for cirrhosis complications",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for cirrhosis complications. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q16): A patient presents with features suggestive of ischemic stroke. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with ischemic stroke",
+    "option_b": "Delay or incorrect step that would worsen outcomes in ischemic stroke",
+    "option_c": "Option that misses the key diagnostic criterion for ischemic stroke",
+    "option_d": "Management appropriate for a different condition, not ischemic stroke",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for ischemic stroke. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q17): A patient presents with features suggestive of sepsis recognition. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not sepsis recognition",
+    "option_b": "Option that misses the key diagnostic criterion for sepsis recognition",
+    "option_c": "Delay or incorrect step that would worsen outcomes in sepsis recognition",
+    "option_d": "Most appropriate diagnosis/management consistent with sepsis recognition",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for sepsis recognition. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q18): A patient presents with features suggestive of anemia workup. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not anemia workup",
+    "option_b": "Delay or incorrect step that would worsen outcomes in anemia workup",
+    "option_c": "Option that misses the key diagnostic criterion for anemia workup",
+    "option_d": "Most appropriate diagnosis/management consistent with anemia workup",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for anemia workup. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q19): A patient presents with features suggestive of thyroid storm. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for thyroid storm",
+    "option_b": "Management appropriate for a different condition, not thyroid storm",
+    "option_c": "Most appropriate diagnosis/management consistent with thyroid storm",
+    "option_d": "Delay or incorrect step that would worsen outcomes in thyroid storm",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for thyroid storm. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q20): A patient presents with features suggestive of hyperkalemia. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with hyperkalemia",
+    "option_b": "Delay or incorrect step that would worsen outcomes in hyperkalemia",
+    "option_c": "Option that misses the key diagnostic criterion for hyperkalemia",
+    "option_d": "Management appropriate for a different condition, not hyperkalemia",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hyperkalemia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q21): A patient presents with features suggestive of acute coronary syndrome. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for acute coronary syndrome",
+    "option_b": "Management appropriate for a different condition, not acute coronary syndrome",
+    "option_c": "Most appropriate diagnosis/management consistent with acute coronary syndrome",
+    "option_d": "Delay or incorrect step that would worsen outcomes in acute coronary syndrome",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute coronary syndrome. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q22): A patient presents with features suggestive of heart failure exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with heart failure exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for heart failure exacerbation",
+    "option_c": "Management appropriate for a different condition, not heart failure exacerbation",
+    "option_d": "Delay or incorrect step that would worsen outcomes in heart failure exacerbation",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for heart failure exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q23): A patient presents with features suggestive of atrial fibrillation. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for atrial fibrillation",
+    "option_b": "Delay or incorrect step that would worsen outcomes in atrial fibrillation",
+    "option_c": "Most appropriate diagnosis/management consistent with atrial fibrillation",
+    "option_d": "Management appropriate for a different condition, not atrial fibrillation",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for atrial fibrillation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q24): A patient presents with features suggestive of hypertensive emergency. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in hypertensive emergency",
+    "option_b": "Most appropriate diagnosis/management consistent with hypertensive emergency",
+    "option_c": "Option that misses the key diagnostic criterion for hypertensive emergency",
+    "option_d": "Management appropriate for a different condition, not hypertensive emergency",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypertensive emergency. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q25): A patient presents with features suggestive of COPD exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in COPD exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for COPD exacerbation",
+    "option_c": "Most appropriate diagnosis/management consistent with COPD exacerbation",
+    "option_d": "Management appropriate for a different condition, not COPD exacerbation",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for COPD exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q26): A patient presents with features suggestive of asthma exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with asthma exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for asthma exacerbation",
+    "option_c": "Management appropriate for a different condition, not asthma exacerbation",
+    "option_d": "Delay or incorrect step that would worsen outcomes in asthma exacerbation",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for asthma exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q27): A patient presents with features suggestive of community-acquired pneumonia. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for community-acquired pneumonia",
+    "option_b": "Management appropriate for a different condition, not community-acquired pneumonia",
+    "option_c": "Most appropriate diagnosis/management consistent with community-acquired pneumonia",
+    "option_d": "Delay or incorrect step that would worsen outcomes in community-acquired pneumonia",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for community-acquired pneumonia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q28): A patient presents with features suggestive of pulmonary embolism. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for pulmonary embolism",
+    "option_b": "Management appropriate for a different condition, not pulmonary embolism",
+    "option_c": "Most appropriate diagnosis/management consistent with pulmonary embolism",
+    "option_d": "Delay or incorrect step that would worsen outcomes in pulmonary embolism",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for pulmonary embolism. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q29): A patient presents with features suggestive of diabetic ketoacidosis. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not diabetic ketoacidosis",
+    "option_b": "Most appropriate diagnosis/management consistent with diabetic ketoacidosis",
+    "option_c": "Delay or incorrect step that would worsen outcomes in diabetic ketoacidosis",
+    "option_d": "Option that misses the key diagnostic criterion for diabetic ketoacidosis",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for diabetic ketoacidosis. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q30): A patient presents with features suggestive of hypoglycemia. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not hypoglycemia",
+    "option_b": "Delay or incorrect step that would worsen outcomes in hypoglycemia",
+    "option_c": "Most appropriate diagnosis/management consistent with hypoglycemia",
+    "option_d": "Option that misses the key diagnostic criterion for hypoglycemia",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypoglycemia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q31): A patient presents with features suggestive of acute kidney injury. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for acute kidney injury",
+    "option_b": "Most appropriate diagnosis/management consistent with acute kidney injury",
+    "option_c": "Delay or incorrect step that would worsen outcomes in acute kidney injury",
+    "option_d": "Management appropriate for a different condition, not acute kidney injury",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute kidney injury. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q32): A patient presents with features suggestive of chronic kidney disease staging. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for chronic kidney disease staging",
+    "option_b": "Delay or incorrect step that would worsen outcomes in chronic kidney disease staging",
+    "option_c": "Most appropriate diagnosis/management consistent with chronic kidney disease staging",
+    "option_d": "Management appropriate for a different condition, not chronic kidney disease staging",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for chronic kidney disease staging. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q33): A patient presents with features suggestive of upper GI bleed. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not upper GI bleed",
+    "option_b": "Most appropriate diagnosis/management consistent with upper GI bleed",
+    "option_c": "Delay or incorrect step that would worsen outcomes in upper GI bleed",
+    "option_d": "Option that misses the key diagnostic criterion for upper GI bleed",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for upper GI bleed. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q34): A patient presents with features suggestive of acute pancreatitis. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in acute pancreatitis",
+    "option_b": "Option that misses the key diagnostic criterion for acute pancreatitis",
+    "option_c": "Most appropriate diagnosis/management consistent with acute pancreatitis",
+    "option_d": "Management appropriate for a different condition, not acute pancreatitis",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute pancreatitis. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q35): A patient presents with features suggestive of cirrhosis complications. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in cirrhosis complications",
+    "option_b": "Management appropriate for a different condition, not cirrhosis complications",
+    "option_c": "Option that misses the key diagnostic criterion for cirrhosis complications",
+    "option_d": "Most appropriate diagnosis/management consistent with cirrhosis complications",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for cirrhosis complications. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q36): A patient presents with features suggestive of ischemic stroke. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with ischemic stroke",
+    "option_b": "Management appropriate for a different condition, not ischemic stroke",
+    "option_c": "Option that misses the key diagnostic criterion for ischemic stroke",
+    "option_d": "Delay or incorrect step that would worsen outcomes in ischemic stroke",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for ischemic stroke. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q37): A patient presents with features suggestive of sepsis recognition. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for sepsis recognition",
+    "option_b": "Delay or incorrect step that would worsen outcomes in sepsis recognition",
+    "option_c": "Management appropriate for a different condition, not sepsis recognition",
+    "option_d": "Most appropriate diagnosis/management consistent with sepsis recognition",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for sepsis recognition. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q38): A patient presents with features suggestive of anemia workup. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for anemia workup",
+    "option_b": "Most appropriate diagnosis/management consistent with anemia workup",
+    "option_c": "Management appropriate for a different condition, not anemia workup",
+    "option_d": "Delay or incorrect step that would worsen outcomes in anemia workup",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for anemia workup. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q39): A patient presents with features suggestive of thyroid storm. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in thyroid storm",
+    "option_b": "Most appropriate diagnosis/management consistent with thyroid storm",
+    "option_c": "Management appropriate for a different condition, not thyroid storm",
+    "option_d": "Option that misses the key diagnostic criterion for thyroid storm",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for thyroid storm. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q40): A patient presents with features suggestive of hyperkalemia. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for hyperkalemia",
+    "option_b": "Management appropriate for a different condition, not hyperkalemia",
+    "option_c": "Most appropriate diagnosis/management consistent with hyperkalemia",
+    "option_d": "Delay or incorrect step that would worsen outcomes in hyperkalemia",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hyperkalemia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q41): A patient presents with features suggestive of acute coronary syndrome. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not acute coronary syndrome",
+    "option_b": "Option that misses the key diagnostic criterion for acute coronary syndrome",
+    "option_c": "Delay or incorrect step that would worsen outcomes in acute coronary syndrome",
+    "option_d": "Most appropriate diagnosis/management consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for acute coronary syndrome. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q42): A patient presents with features suggestive of heart failure exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in heart failure exacerbation",
+    "option_b": "Most appropriate diagnosis/management consistent with heart failure exacerbation",
+    "option_c": "Management appropriate for a different condition, not heart failure exacerbation",
+    "option_d": "Option that misses the key diagnostic criterion for heart failure exacerbation",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for heart failure exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q43): A patient presents with features suggestive of atrial fibrillation. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with atrial fibrillation",
+    "option_b": "Delay or incorrect step that would worsen outcomes in atrial fibrillation",
+    "option_c": "Option that misses the key diagnostic criterion for atrial fibrillation",
+    "option_d": "Management appropriate for a different condition, not atrial fibrillation",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for atrial fibrillation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q44): A patient presents with features suggestive of hypertensive emergency. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in hypertensive emergency",
+    "option_b": "Option that misses the key diagnostic criterion for hypertensive emergency",
+    "option_c": "Most appropriate diagnosis/management consistent with hypertensive emergency",
+    "option_d": "Management appropriate for a different condition, not hypertensive emergency",
+    "correct_answer": "C",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypertensive emergency. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q45): A patient presents with features suggestive of COPD exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in COPD exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for COPD exacerbation",
+    "option_c": "Management appropriate for a different condition, not COPD exacerbation",
+    "option_d": "Most appropriate diagnosis/management consistent with COPD exacerbation",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for COPD exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q46): A patient presents with features suggestive of asthma exacerbation. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not asthma exacerbation",
+    "option_b": "Option that misses the key diagnostic criterion for asthma exacerbation",
+    "option_c": "Delay or incorrect step that would worsen outcomes in asthma exacerbation",
+    "option_d": "Most appropriate diagnosis/management consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for asthma exacerbation. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q47): A patient presents with features suggestive of community-acquired pneumonia. What is the best next step or most likely diagnosis?",
+    "option_a": "Option that misses the key diagnostic criterion for community-acquired pneumonia",
+    "option_b": "Most appropriate diagnosis/management consistent with community-acquired pneumonia",
+    "option_c": "Delay or incorrect step that would worsen outcomes in community-acquired pneumonia",
+    "option_d": "Management appropriate for a different condition, not community-acquired pneumonia",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for community-acquired pneumonia. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q48): A patient presents with features suggestive of pulmonary embolism. What is the best next step or most likely diagnosis?",
+    "option_a": "Management appropriate for a different condition, not pulmonary embolism",
+    "option_b": "Delay or incorrect step that would worsen outcomes in pulmonary embolism",
+    "option_c": "Option that misses the key diagnostic criterion for pulmonary embolism",
+    "option_d": "Most appropriate diagnosis/management consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for pulmonary embolism. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q49): A patient presents with features suggestive of diabetic ketoacidosis. What is the best next step or most likely diagnosis?",
+    "option_a": "Most appropriate diagnosis/management consistent with diabetic ketoacidosis",
+    "option_b": "Delay or incorrect step that would worsen outcomes in diabetic ketoacidosis",
+    "option_c": "Option that misses the key diagnostic criterion for diabetic ketoacidosis",
+    "option_d": "Management appropriate for a different condition, not diabetic ketoacidosis",
+    "correct_answer": "A",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for diabetic ketoacidosis. Distractors represent common pitfalls or look-alike conditions."
+  },
+  {
+    "question": "Internal Medicine I (Q50): A patient presents with features suggestive of hypoglycemia. What is the best next step or most likely diagnosis?",
+    "option_a": "Delay or incorrect step that would worsen outcomes in hypoglycemia",
+    "option_b": "Most appropriate diagnosis/management consistent with hypoglycemia",
+    "option_c": "Management appropriate for a different condition, not hypoglycemia",
+    "option_d": "Option that misses the key diagnostic criterion for hypoglycemia",
+    "correct_answer": "B",
+    "explanation": "The correct answer reflects standard internal medicine reasoning for hypoglycemia. Distractors represent common pitfalls or look-alike conditions."
+  }
+]
