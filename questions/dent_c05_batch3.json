@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 65-year-old male with End-Stage Renal Disease (ESRD) on hemodialysis requires a surgical extraction. When is the best time to perform the procedure?",
+    "option_a": "Immediately before his dialysis session",
+    "option_b": "On the day after dialysis (to ensure heparin is cleared and metabolic state is optimal)",
+    "option_c": "During the dialysis session",
+    "option_d": "Dialysis timing does not matter",
+    "correct_answer": "B",
+    "explanation": "Dialysis patients receive heparin during the session, which increases bleeding risk. The day after dialysis is the safest window as the blood is 'clean' and the heparin effect has worn off."
+  },
+  {
+    "question": "Which of the following is the most common malignant tumor of the minor salivary glands, often presenting as a slow-growing mass on the hard palate?",
+    "option_a": "Pleomorphic adenoma",
+    "option_b": "Adenoid Cystic Carcinoma",
+    "option_c": "Warthin tumor",
+    "option_d": "Squamous cell carcinoma",
+    "correct_answer": "B",
+    "explanation": "Adenoid cystic carcinoma is notorious for perineural invasion and is the most frequent malignancy involving the minor salivary glands."
+  },
+  {
+    "question": "A patient presents with a 'Panfacial' fracture following a high-velocity motor vehicle accident. What is the priority in the definitive surgical planning?",
+    "option_a": "Fixing the nose first",
+    "option_b": "Restoring the 'occlusal unit' and working 'from bottom to top' and 'outside to inside'",
+    "option_c": "Suturing skin lacerations",
+    "option_d": "Fixing the frontal bone only",
+    "correct_answer": "B",
+    "explanation": "In complex facial trauma, establishing the correct bite (occlusion) provides a stable foundation to build the rest of the facial skeleton."
+  },
+  {
+    "question": "What is the primary pharmacological action of 'Pentoxifylline' and 'Tocopherol' (PENTO protocol) in the management of Osteoradionecrosis (ORN)?",
+    "option_a": "Killing bacteria",
+    "option_b": "Increasing tissue oxygenation and reducing fibrosis through antioxidant and blood-flow enhancing effects",
+    "option_c": "Numbing the bone",
+    "option_d": "Inducing sleep",
+    "correct_answer": "B",
+    "explanation": "This protocol is increasingly used to treat the fibro-atrophic process of ORN by improving microcirculation and reversing radiation-induced damage."
+  },
+  {
+    "question": "A 22-year-old female undergoes a 'Le Fort I' osteotomy. Two days later, she complains of a 'salty taste' and clear fluid dripping from her nose when she leans forward. Diagnosis?",
+    "option_a": "Normal postoperative bleeding",
+    "option_b": "Cerebrospinal Fluid (CSF) Rhinorrhea",
+    "option_c": "Acute sinusitis",
+    "option_d": "Allergic rhinitis",
+    "correct_answer": "B",
+    "explanation": "Clear fluid that increases with leaning (halo sign) suggests a tear in the dura mater near the skull base, a rare but serious complication of midface surgery."
+  },
+  {
+    "question": "Which of the following is true for 'Vascularized Free Flaps' (e.g., Fibula Free Flap) in jaw reconstruction?",
+    "option_a": "They do not require a blood supply",
+    "option_b": "They are the 'Gold Standard' for large defects as they bring their own blood supply, allowing for better healing and future implants",
+    "option_c": "They are only used for children",
+    "option_d": "They always fail",
+    "correct_answer": "B",
+    "explanation": "Free flaps use microsurgery to connect vessels from the graft to the neck, ensuring the bone remains alive and robust."
+  },
+  {
+    "question": "What is the characteristic 'trigger' for a paroxysm of pain in 'Glossopharyngeal Neuralgia'?",
+    "option_a": "Touching the chin",
+    "option_b": "Swallowing, talking, or coughing (triggering the tonsillar/pharyngeal area)",
+    "option_c": "Brushing the teeth",
+    "option_d": "Sunlight exposure",
+    "correct_answer": "B",
+    "explanation": "Similar to trigeminal neuralgia but involves the distribution of CN IX (ear and throat)."
+  },
+  {
+    "question": "In the TNM staging of oral cancer, what does 'T2' represent?",
+    "option_a": "Tumor < 2 cm",
+    "option_b": "Tumor > 2 cm but ≤ 4 cm",
+    "option_c": "Tumor > 4 cm",
+    "option_d": "Tumor invading deep structures",
+    "correct_answer": "B",
+    "explanation": "T1 is ≤ 2 cm, T2 is 2-4 cm, and T3 is > 4 cm."
+  },
+  {
+    "question": "Which of the following describes the 'Schneiderian Membrane'?",
+    "option_a": "The lining of the oral cavity",
+    "option_b": "The respiratory epithelial lining of the maxillary sinus",
+    "option_c": "A membrane used in brain surgery",
+    "option_d": "The skin of the cheek",
+    "correct_answer": "B",
+    "explanation": "This membrane must be carefully elevated during a 'Sinus Lift' procedure to place bone graft for implants."
+  },
+  {
+    "question": "A patient with 'Severe Liver Cirrhosis' (Child-Pugh Class C) requires an extraction. Which lab value is most critical to check before surgery?",
+    "option_a": "Blood glucose",
+    "option_b": "PT/INR and Platelet count (due to decreased clotting factor production and hypersplenism)",
+    "option_c": "Serum amylase",
+    "option_d": "Thyroid stimulating hormone",
+    "correct_answer": "B",
+    "explanation": "The liver produces most clotting factors; cirrhosis leads to coagulopathy and often low platelets, making bleeding the primary surgical risk."
+  },
+  {
+    "question": "What is the primary purpose of 'Neck Dissection' in a patient with a T2N0 Squamous Cell Carcinoma of the tongue?",
+    "option_a": "To make the neck look thinner",
+    "option_b": "To remove occult (hidden) micrometastases in the lymph nodes",
+    "option_c": "To treat a thyroid problem",
+    "option_d": "To increase blood flow to the brain",
+    "correct_answer": "B",
+    "explanation": "Elective neck dissection is often performed because tongue cancers have a high rate of 'unseen' spread to regional nodes even if they feel normal."
+  },
+  {
+    "question": "Which complication involves the 'sweating and flushing' of the cheek during eating following parotid surgery?",
+    "option_a": "Bell's palsy",
+    "option_b": "Frey's Syndrome (Auriculotemporal syndrome)",
+    "option_c": "Ludwig's angina",
+    "option_d": "Trigeminal neuralgia",
+    "correct_answer": "B",
+    "explanation": "Misdirected regrowth of autonomic nerve fibers (parasympathetic to sympathetic) causes sweat glands to activate instead of salivary glands."
+  },
+  {
+    "question": "Which of the following is an indication for 'Vertical Subsigmoid Osteotomy' (IVRO) instead of BSSO?",
+    "option_a": "When the patient wants a faster recovery",
+    "option_b": "To minimize the risk of IAN injury in a patient requiring mandibular setback",
+    "option_c": "To increase the height of the jaw",
+    "option_d": "It is never used",
+    "correct_answer": "B",
+    "explanation": "IVRO is performed posterior to the mandibular foramen, virtually eliminating the risk of permanent lip numbness."
+  },
+  {
+    "question": "A patient with 'Eagle's Syndrome' experiences neck pain and difficulty swallowing. What is the anatomical cause?",
+    "option_a": "A broken nose",
+    "option_b": "Elongation of the styloid process or calcification of the stylohyoid ligament",
+    "option_c": "Missing wisdom teeth",
+    "option_d": "A salivary stone",
+    "correct_answer": "B",
+    "explanation": "The elongated styloid process can compress the carotid arteries or irritate nearby nerves (CN IX, X)."
+  },
+  {
+    "question": "What is the medication of choice for 'Angioedema' caused by an ACE inhibitor that involves the airway?",
+    "option_a": "Aspirin",
+    "option_b": "Epinephrine, Steroids, and potentially Icatibant or Fresh Frozen Plasma",
+    "option_c": "Amoxicillin",
+    "option_d": "Sugar water",
+    "correct_answer": "B",
+    "explanation": "ACE-I induced angioedema is bradykinin-mediated and can be life-threatening; standard allergy treatments like antihistamines often fail."
+  },
+  {
+    "question": "Which 'Implant' complication is characterized by 'painless' loss of bone support and bleeding upon probing?",
+    "option_a": "Normal healing",
+    "option_b": "Peri-implantitis",
+    "option_c": "Tooth decay",
+    "option_d": "Nerve damage",
+    "correct_answer": "B",
+    "explanation": "Peri-implantitis is the inflammatory destruction of the bone around an integrated implant, similar to periodontitis."
+  },
+  {
+    "question": "What is the 'Gold Standard' diagnostic imaging for a suspected 'Midface' fracture (Le Fort I, II, or III)?",
+    "option_a": "Panoramic X-ray",
+    "option_b": "Computed Tomography (CT) with 3D reconstruction",
+    "option_c": "Periapical X-ray",
+    "option_d": "Ultrasound",
+    "correct_answer": "B",
+    "explanation": "CT provides the necessary detail to see complex fractures of the thin facial bones and orbits."
+  },
+  {
+    "question": "A patient presents with 'painless' blue-black pigmentation of the gingiva. Biopsy reveals a 'Malignant Melanoma'. What is the prognosis for oral melanoma?",
+    "option_a": "Excellent",
+    "option_b": "Poor (often diagnosed late and highly aggressive)",
+    "option_c": "It is not a real disease",
+    "option_d": "Same as a freckle",
+    "correct_answer": "B",
+    "explanation": "Oral melanoma is rare but much more deadly than skin melanoma due to early vertical growth and metastasis."
+  },
+  {
+    "question": "Which of the following is true for 'Arthroscopy' of the TMJ?",
+    "option_a": "It involves a large open incision",
+    "option_b": "It is a minimally invasive procedure using a camera to visualize and treat joint disorders",
+    "option_c": "It is only for diagnosis, never treatment",
+    "option_d": "It is done with a laser only",
+    "correct_answer": "B",
+    "explanation": "Arthroscopy allows for lysis of adhesions and lavage of the joint space with minimal morbidity."
+  },
+  {
+    "question": "Which anatomical structure is responsible for the 'limited opening' in a patient with a 'Disc Displacement without Reduction'?",
+    "option_a": "The tongue",
+    "option_b": "The displaced disc acts as a mechanical 'doorstop' preventing the condyle from gliding forward",
+    "option_c": "The masseter muscle is too big",
+    "option_d": "The teeth are too long",
+    "correct_answer": "B",
+    "explanation": "This is often called a 'closed lock', where the disc stays anterior to the condyle throughout the range of motion."
+  },
+  {
+    "question": "What is the primary risk of 'Distraction Osteogenesis' in the mandible?",
+    "option_a": "Weight gain",
+    "option_b": "Infection and nerve injury during device placement or activation",
+    "option_c": "Improved breathing",
+    "option_d": "Whiter teeth",
+    "correct_answer": "B",
+    "explanation": "Distraction involves slowly 'stretching' a bone cut to grow new bone, but requires strict compliance and carries surgical risks."
+  },
+  {
+    "question": "A patient presents with 'recurrent' episodes of high fever, painful swelling of the parotid, and pus. No stone is seen on X-ray. Diagnosis?",
+    "option_a": "Mumps",
+    "option_b": "Chronic Recurrent Sialadenitis",
+    "option_c": "Cancer",
+    "option_d": "Teething",
+    "correct_answer": "B",
+    "explanation": "Recurrent infections can lead to permanent damage of the gland's ductal system, often requiring surgical removal of the gland."
+  },
+  {
+    "question": "Which antibiotic is most commonly associated with 'Pseudomembranous Colitis' (C. diff infection)?",
+    "option_a": "Penicillin",
+    "option_b": "Clindamycin",
+    "option_c": "Metronidazole",
+    "option_d": "Nystatin",
+    "correct_answer": "B",
+    "explanation": "While many antibiotics can cause it, Clindamycin is classically linked to this severe gastrointestinal complication."
+  },
+  {
+    "question": "What is the 'first-line' surgical approach for a 'Zygomatic Arch' fracture that is causing trismus (impinging on the coronoid process)?",
+    "option_a": "Wait for 1 year",
+    "option_b": "Gilles approach or Keen approach (elevation of the arch)",
+    "option_c": "Total arch resection",
+    "option_d": "Removing the coronoid process",
+    "correct_answer": "B",
+    "explanation": "These are indirect approaches to 'pop' the arch back into position without a large facial scar."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding of 'Myofascial Pain' in the orofacial region?",
+    "option_a": "Numbness of the lip",
+    "option_b": "Trigger points in the muscles of mastication that refer pain to other areas (e.g., teeth or ears)",
+    "option_c": "Swelling of the gums",
+    "option_d": "Fever",
+    "correct_answer": "B",
+    "explanation": "Muscle-related TMD involves localized tenderness and referred pain patterns."
+  },
+  {
+    "question": "Which nerve is evaluated by the 'Blink Reflex' test?",
+    "option_a": "CN V (sensory) and CN VII (motor)",
+    "option_b": "CN II and CN III",
+    "option_c": "CN XII",
+    "option_d": "CN IX",
+    "correct_answer": "A",
+    "explanation": "Touching the cornea (V1) should result in closing the eye (VII)."
+  },
+  {
+    "question": "What is the definitive treatment for 'Squamous Cell Carcinoma' of the lower lip?",
+    "option_a": "Antibiotics",
+    "option_b": "Surgical excision with wide margins (e.g., Wedge resection)",
+    "option_c": "Observation",
+    "option_d": "Tooth extraction",
+    "correct_answer": "B",
+    "explanation": "Lip cancer is highly curable with surgery if caught early, as it often metastasizes slowly to the submental/submandibular nodes."
+  },
+  {
+    "question": "Which of the following describes 'Emphysema' following a dental procedure?",
+    "option_a": "A lung disease only",
+    "option_b": "Air forced into the soft tissues (often via high-speed air handpiece), causing swelling and crepitus",
+    "option_c": "Severe bleeding",
+    "option_d": "Loss of vision",
+    "correct_answer": "B",
+    "explanation": "Surgical emphysema requires monitoring and usually prophylactic antibiotics to prevent infection from contaminated air."
+  },
+  {
+    "question": "What is the 'Rule of 50' in local anesthesia for an average 70 kg adult?",
+    "option_a": "Give 50 injections",
+    "option_b": "The maximum dose of Lidocaine 2% with 1:100k epi is roughly 11-13 cartridges (not 50)",
+    "option_c": "Wait 50 minutes",
+    "option_d": "None of the above",
+    "correct_answer": "B",
+    "explanation": "Dosing must be based on mg/kg; for Lidocaine, the limit is 7 mg/kg with epinephrine."
+  },
+  {
+    "question": "Which 'Biopsy' result showing 'In-situ' carcinoma means:",
+    "option_a": "The cancer has spread to the liver",
+    "option_b": "Malignant cells are present but have not invaded through the basement membrane",
+    "option_c": "The lesion is benign",
+    "option_d": "The test was wrong",
+    "correct_answer": "B",
+    "explanation": "Carcinoma in-situ is pre-invasive and has a 100% cure rate if fully excised."
+  },
+  {
+    "question": "What is the purpose of 'Bone Morphogenetic Protein' (BMP) in oral surgery?",
+    "option_a": "To stop pain",
+    "option_b": "To induce new bone formation in defects without the need for an autograft",
+    "option_c": "To clean the teeth",
+    "option_d": "To treat mumps",
+    "correct_answer": "B",
+    "explanation": "BMP-2 is a growth factor used to stimulate stem cells to become osteoblasts."
+  },
+  {
+    "question": "A patient with 'Thrombocytopenia' (Platelets < 20,000/µL) requires surgery. What is the risk?",
+    "option_a": "Infection",
+    "option_b": "Spontaneous bleeding and severe postoperative hemorrhage",
+    "option_c": "Numbness",
+    "option_d": "High blood pressure",
+    "correct_answer": "B",
+    "explanation": "Platelet counts below 50,000 usually require transfusion before major surgery; below 20,000 is high risk for spontaneous bleeding."
+  },
+  {
+    "question": "Which space infection can cause 'Proptosis' (bulging eye) and 'Ophthalmoplegia'?",
+    "option_a": "Submental space",
+    "option_b": "Cavernous Sinus Thrombosis (often following a midface or canine space infection)",
+    "option_c": "Buccal space",
+    "option_d": "Pterygomandibular space",
+    "correct_answer": "B",
+    "explanation": "This is a life-threatening emergency where infection travels via the ophthalmic veins to the brain."
+  },
+  {
+    "question": "What is the definitive treatment for 'Arteriovenous Malformation' (AVM) of the jaw?",
+    "option_a": "Simple extraction",
+    "option_b": "Preoperative embolization followed by surgical resection",
+    "option_c": "Aspirin",
+    "option_d": "Nothing",
+    "correct_answer": "B",
+    "explanation": "AVMs are high-flow vascular lesions that can cause massive bleeding; they must be 'plugged' before surgery."
+  },
+  {
+    "question": "Which of the following describes 'Pell and Gregory Class 3' impaction?",
+    "option_a": "The tooth is in the ramus of the mandible",
+    "option_b": "The tooth is completely buried in the ramus bone (most difficult access)",
+    "option_c": "The tooth is above the occlusal plane",
+    "option_d": "The tooth is missing",
+    "correct_answer": "B",
+    "explanation": "Class 3 impactions require significant bone removal from the ramus."
+  },
+  {
+    "question": "A patient with 'Severe Asthma' who uses a steroid inhaler is at risk for which oral complication?",
+    "option_a": "Hairy leukoplakia",
+    "option_b": "Oral Candidiasis (Thrush)",
+    "option_c": "Bone loss",
+    "option_d": "Excessive saliva",
+    "correct_answer": "B",
+    "explanation": "Local immunosuppression from the steroid allows yeast to overgrow; patients should rinse after use."
+  },
+  {
+    "question": "What is the primary treatment for 'Mandibular Ankylosis'?",
+    "option_a": "Antibiotics",
+    "option_b": "Gap arthroplasty or joint reconstruction",
+    "option_c": "Painkillers only",
+    "option_d": "Soft diet",
+    "correct_answer": "B",
+    "explanation": "Ankylosis (fusion of the joint) is a mechanical blockage requiring surgical removal of the bone/fibrous bridge."
+  },
+  {
+    "question": "Which 'Local Anesthetic' is known for its high lipid solubility and long duration (up to 8-10 hours)?",
+    "option_a": "Lidocaine",
+    "option_b": "Bupivacaine (Marcaine)",
+    "option_c": "Mepivacaine",
+    "option_d": "Articaine",
+    "correct_answer": "B",
+    "explanation": "Bupivacaine is often used for long procedures or to provide extended postoperative pain relief."
+  },
+  {
+    "question": "Which of the following is true for 'Lefort III' fracture?",
+    "option_a": "Involves the nose only",
+    "option_b": "The entire facial skeleton is detached from the skull (Craniofacial dysjunction)",
+    "option_c": "Involves the mandible",
+    "option_d": "Is always unilateral",
+    "correct_answer": "B",
+    "explanation": "This fracture passes through the zygomatic arches and orbits, making the entire face mobile."
+  },
+  {
+    "question": "What is the management of a 'Displaced' fracture of the 'Edentulous' mandible?",
+    "option_a": "Intermaxillary fixation using the patient's dentures (Gunning splints) or rigid internal fixation with plates",
+    "option_b": "No treatment; it will heal on its own",
+    "option_c": "Tooth extraction",
+    "option_d": "Wait for teeth to grow back",
+    "correct_answer": "A",
+    "explanation": "Without teeth to guide occlusion, dentures or plates are used to maintain the correct jaw relationship."
+  },
+  {
+    "question": "Which nerve is evaluated by asking the patient to 'stick out their tongue'?",
+    "option_a": "Trigeminal (CN V)",
+    "option_b": "Hypoglossal (CN XII)",
+    "option_c": "Facial (CN VII)",
+    "option_d": "Vagus (CN X)",
+    "correct_answer": "B",
+    "explanation": "The hypoglossal nerve provides motor supply to the tongue muscles; injury causes deviation to the weak side."
+  },
+  {
+    "question": "What is the primary sign of 'Oxygen' toxicity?",
+    "option_a": "Dry skin",
+    "option_b": "Seizures and pulmonary irritation (only at very high/prolonged levels)",
+    "option_c": "Increased hair growth",
+    "option_d": "Improved vision",
+    "correct_answer": "B",
+    "explanation": "Excessive oxygen for long periods can damage cells via free radical formation."
+  },
+  {
+    "question": "Which of the following describes 'Hypercementosis'?",
+    "option_a": "Excessive enamel formation",
+    "option_b": "Excessive cementum on the roots (common in Paget's disease or chronic irritation)",
+    "option_c": "A type of bone cancer",
+    "option_d": "Soft teeth",
+    "correct_answer": "B",
+    "explanation": "Hypercementosis can make extractions significantly more difficult due to the bulbous root shape."
+  },
+  {
+    "question": "What is the treatment for 'Ludwig's Angina'?",
+    "option_a": "Wait for it to resolve",
+    "option_b": "Airway maintenance, high-dose IV antibiotics, and surgical decompression of the spaces",
+    "option_c": "Ice packs only",
+    "option_d": "Oral amoxicillin at home",
+    "correct_answer": "B",
+    "explanation": "Ludwig's is a medical emergency that requires aggressive hospital management."
+  },
+  {
+    "question": "Which of the following is true for 'Biopsy' of a suspected Hemangioma?",
+    "option_a": "Always do an incisional biopsy first",
+    "option_b": "Aspirate with a needle first to rule out a high-flow vascular lesion (danger of hemorrhage)",
+    "option_c": "Do it in the dental chair with no backup",
+    "option_d": "Melanoma first",
+    "correct_answer": "B",
+    "explanation": "Cutting into a vascular lesion without knowing the flow rate can lead to uncontrollable bleeding."
+  },
+  {
+    "question": "What is the purpose of 'Cryotherapy' in the management of 'Ameloblastoma'?",
+    "option_a": "To freeze the patient",
+    "option_b": "To kill residual tumor cells in the bone margins using liquid nitrogen after curettage",
+    "option_c": "To stop bleeding",
+    "option_d": "To treat a cold",
+    "correct_answer": "B",
+    "explanation": "Cryosurgery reduces the recurrence rate of aggressive benign tumors."
+  },
+  {
+    "question": "Which anatomical structure must be protected during a 'Submandibular' approach (Risdon incision)?",
+    "option_a": "The lingual nerve",
+    "option_b": "The Marginal Mandibular branch of the Facial Nerve",
+    "option_c": "The parotid duct",
+    "option_d": "The carotid artery",
+    "correct_answer": "B",
+    "explanation": "This nerve branch runs along the lower border of the mandible and innervates the muscles of the lower lip; its injury causes a 'crooked' smile."
+  },
+  {
+    "question": "Which of the following is a classic finding of 'Condylar' hyperplasia?",
+    "option_a": "Smaller jaw",
+    "option_b": "Asymmetric facial growth with the chin deviating to the 'opposite' side",
+    "option_c": "Pain in the teeth",
+    "option_d": "Loss of hearing",
+    "correct_answer": "B",
+    "explanation": "Overgrowth on one side pushes the entire mandible toward the healthy side."
+  },
+  {
+    "question": "What is the 'definitive' management for a small 'Squamous Cell Carcinoma' (Stage I) of the tongue?",
+    "option_a": "Chemotherapy only",
+    "option_b": "Wide surgical excision (Partial Glossectomy) with a clear margin",
+    "option_c": "Saltwater rinses",
+    "option_d": "Antibiotics",
+    "correct_answer": "B",
+    "explanation": "Early stage oral cancer is primarily managed with surgery."
+  },
+  {
+    "question": "A patient on 'Heparin' for an acute DVT needs an emergency procedure. What is the antidote to reverse the heparin effect?",
+    "option_a": "Vitamin K",
+    "option_b": "Protamine Sulfate",
+    "option_c": "Fresh Frozen Plasma",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Protamine sulfate rapidly neutralizes the anticoagulant effect of heparin."
+  }
+]
