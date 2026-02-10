@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Pharmacology (Q001): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for pharmacokinetics",
+    "option_b": "Option appropriate for a different condition than pharmacokinetics",
+    "option_c": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "option_d": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q002): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in drug interactions",
+    "option_b": "Option that misses a key diagnostic clue for drug interactions",
+    "option_c": "Option appropriate for a different condition than drug interactions",
+    "option_d": "Correct pharmacology principle/choice for drug interactions",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q003): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in cholinergic agents",
+    "option_b": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_c": "Option appropriate for a different condition than cholinergic agents",
+    "option_d": "Option that misses a key diagnostic clue for cholinergic agents",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q004): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for adrenergic agents",
+    "option_b": "Option appropriate for a different condition than adrenergic agents",
+    "option_c": "Option that is contraindicated or unsafe in adrenergic agents",
+    "option_d": "Option that misses a key diagnostic clue for adrenergic agents",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q005): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for beta-blockers",
+    "option_b": "Option that misses a key diagnostic clue for beta-blockers",
+    "option_c": "Option that is contraindicated or unsafe in beta-blockers",
+    "option_d": "Option appropriate for a different condition than beta-blockers",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q006): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "option_b": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "option_c": "Option appropriate for a different condition than ACE inhibitors",
+    "option_d": "Correct pharmacology principle/choice for ACE inhibitors",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q007): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for ARBs",
+    "option_b": "Option that is contraindicated or unsafe in ARBs",
+    "option_c": "Option appropriate for a different condition than ARBs",
+    "option_d": "Option that misses a key diagnostic clue for ARBs",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q008): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than calcium channel blockers",
+    "option_b": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "option_c": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "option_d": "Correct pharmacology principle/choice for calcium channel blockers",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q009): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than diuretics",
+    "option_b": "Option that misses a key diagnostic clue for diuretics",
+    "option_c": "Correct pharmacology principle/choice for diuretics",
+    "option_d": "Option that is contraindicated or unsafe in diuretics",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q010): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "option_b": "Correct pharmacology principle/choice for antiarrhythmics",
+    "option_c": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "option_d": "Option appropriate for a different condition than antiarrhythmics",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q011): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for penicillins",
+    "option_b": "Option that is contraindicated or unsafe in penicillins",
+    "option_c": "Option that misses a key diagnostic clue for penicillins",
+    "option_d": "Option appropriate for a different condition than penicillins",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q012): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for cephalosporins",
+    "option_b": "Correct pharmacology principle/choice for cephalosporins",
+    "option_c": "Option that is contraindicated or unsafe in cephalosporins",
+    "option_d": "Option appropriate for a different condition than cephalosporins",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q013): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "option_b": "Correct pharmacology principle/choice for fluoroquinolones",
+    "option_c": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_d": "Option appropriate for a different condition than fluoroquinolones",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q014): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for aminoglycosides",
+    "option_b": "Option appropriate for a different condition than aminoglycosides",
+    "option_c": "Option that is contraindicated or unsafe in aminoglycosides",
+    "option_d": "Correct pharmacology principle/choice for aminoglycosides",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q015): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than macrolides",
+    "option_b": "Correct pharmacology principle/choice for macrolides",
+    "option_c": "Option that misses a key diagnostic clue for macrolides",
+    "option_d": "Option that is contraindicated or unsafe in macrolides",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q016): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in vancomycin",
+    "option_b": "Correct pharmacology principle/choice for vancomycin",
+    "option_c": "Option that misses a key diagnostic clue for vancomycin",
+    "option_d": "Option appropriate for a different condition than vancomycin",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q017): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for warfarin interactions",
+    "option_b": "Correct pharmacology principle/choice for warfarin interactions",
+    "option_c": "Option appropriate for a different condition than warfarin interactions",
+    "option_d": "Option that is contraindicated or unsafe in warfarin interactions",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q018): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than heparin",
+    "option_b": "Option that misses a key diagnostic clue for heparin",
+    "option_c": "Option that is contraindicated or unsafe in heparin",
+    "option_d": "Correct pharmacology principle/choice for heparin",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q019): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in DOACs",
+    "option_b": "Option appropriate for a different condition than DOACs",
+    "option_c": "Option that misses a key diagnostic clue for DOACs",
+    "option_d": "Correct pharmacology principle/choice for DOACs",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q020): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_b": "Correct pharmacology principle/choice for NSAIDs",
+    "option_c": "Option that is contraindicated or unsafe in NSAIDs",
+    "option_d": "Option appropriate for a different condition than NSAIDs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q021): A medication-related scenario involves opioids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in opioids",
+    "option_b": "Correct pharmacology principle/choice for opioids",
+    "option_c": "Option that misses a key diagnostic clue for opioids",
+    "option_d": "Option appropriate for a different condition than opioids",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioids at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q022): A medication-related scenario involves antidiabetics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antidiabetics",
+    "option_b": "Option that misses a key diagnostic clue for antidiabetics",
+    "option_c": "Option appropriate for a different condition than antidiabetics",
+    "option_d": "Correct pharmacology principle/choice for antidiabetics",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidiabetics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q023): A medication-related scenario involves corticosteroids. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for corticosteroids",
+    "option_b": "Option appropriate for a different condition than corticosteroids",
+    "option_c": "Option that is contraindicated or unsafe in corticosteroids",
+    "option_d": "Correct pharmacology principle/choice for corticosteroids",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for corticosteroids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q024): A medication-related scenario involves chemotherapy toxicity. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in chemotherapy toxicity",
+    "option_b": "Correct pharmacology principle/choice for chemotherapy toxicity",
+    "option_c": "Option that misses a key diagnostic clue for chemotherapy toxicity",
+    "option_d": "Option appropriate for a different condition than chemotherapy toxicity",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for chemotherapy toxicity at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q025): A medication-related scenario involves antidotes. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antidotes",
+    "option_b": "Option appropriate for a different condition than antidotes",
+    "option_c": "Correct pharmacology principle/choice for antidotes",
+    "option_d": "Option that misses a key diagnostic clue for antidotes",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q026): A medication-related scenario involves teratogenic drugs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than teratogenic drugs",
+    "option_b": "Option that is contraindicated or unsafe in teratogenic drugs",
+    "option_c": "Correct pharmacology principle/choice for teratogenic drugs",
+    "option_d": "Option that misses a key diagnostic clue for teratogenic drugs",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for teratogenic drugs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q027): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "option_b": "Option appropriate for a different condition than pharmacokinetics",
+    "option_c": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "option_d": "Correct pharmacology principle/choice for pharmacokinetics",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q028): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than drug interactions",
+    "option_b": "Option that misses a key diagnostic clue for drug interactions",
+    "option_c": "Correct pharmacology principle/choice for drug interactions",
+    "option_d": "Option that is contraindicated or unsafe in drug interactions",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q029): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_b": "Option that misses a key diagnostic clue for cholinergic agents",
+    "option_c": "Option appropriate for a different condition than cholinergic agents",
+    "option_d": "Option that is contraindicated or unsafe in cholinergic agents",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q030): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for adrenergic agents",
+    "option_b": "Correct pharmacology principle/choice for adrenergic agents",
+    "option_c": "Option appropriate for a different condition than adrenergic agents",
+    "option_d": "Option that is contraindicated or unsafe in adrenergic agents",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q031): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than beta-blockers",
+    "option_b": "Option that is contraindicated or unsafe in beta-blockers",
+    "option_c": "Option that misses a key diagnostic clue for beta-blockers",
+    "option_d": "Correct pharmacology principle/choice for beta-blockers",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q032): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for ACE inhibitors",
+    "option_b": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "option_c": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "option_d": "Option appropriate for a different condition than ACE inhibitors",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q033): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for ARBs",
+    "option_b": "Option appropriate for a different condition than ARBs",
+    "option_c": "Correct pharmacology principle/choice for ARBs",
+    "option_d": "Option that is contraindicated or unsafe in ARBs",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q034): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "option_b": "Correct pharmacology principle/choice for calcium channel blockers",
+    "option_c": "Option appropriate for a different condition than calcium channel blockers",
+    "option_d": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q035): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in diuretics",
+    "option_b": "Option appropriate for a different condition than diuretics",
+    "option_c": "Correct pharmacology principle/choice for diuretics",
+    "option_d": "Option that misses a key diagnostic clue for diuretics",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q036): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "option_b": "Option appropriate for a different condition than antiarrhythmics",
+    "option_c": "Correct pharmacology principle/choice for antiarrhythmics",
+    "option_d": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q037): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for penicillins",
+    "option_b": "Option that is contraindicated or unsafe in penicillins",
+    "option_c": "Option appropriate for a different condition than penicillins",
+    "option_d": "Option that misses a key diagnostic clue for penicillins",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q038): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in cephalosporins",
+    "option_b": "Option that misses a key diagnostic clue for cephalosporins",
+    "option_c": "Correct pharmacology principle/choice for cephalosporins",
+    "option_d": "Option appropriate for a different condition than cephalosporins",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q039): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "option_b": "Correct pharmacology principle/choice for fluoroquinolones",
+    "option_c": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_d": "Option appropriate for a different condition than fluoroquinolones",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q040): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than aminoglycosides",
+    "option_b": "Correct pharmacology principle/choice for aminoglycosides",
+    "option_c": "Option that misses a key diagnostic clue for aminoglycosides",
+    "option_d": "Option that is contraindicated or unsafe in aminoglycosides",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q041): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for macrolides",
+    "option_b": "Option appropriate for a different condition than macrolides",
+    "option_c": "Option that is contraindicated or unsafe in macrolides",
+    "option_d": "Correct pharmacology principle/choice for macrolides",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q042): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for vancomycin",
+    "option_b": "Option that misses a key diagnostic clue for vancomycin",
+    "option_c": "Option appropriate for a different condition than vancomycin",
+    "option_d": "Option that is contraindicated or unsafe in vancomycin",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q043): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for warfarin interactions",
+    "option_b": "Option that is contraindicated or unsafe in warfarin interactions",
+    "option_c": "Option appropriate for a different condition than warfarin interactions",
+    "option_d": "Correct pharmacology principle/choice for warfarin interactions",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q044): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than heparin",
+    "option_b": "Option that is contraindicated or unsafe in heparin",
+    "option_c": "Option that misses a key diagnostic clue for heparin",
+    "option_d": "Correct pharmacology principle/choice for heparin",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q045): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than DOACs",
+    "option_b": "Correct pharmacology principle/choice for DOACs",
+    "option_c": "Option that is contraindicated or unsafe in DOACs",
+    "option_d": "Option that misses a key diagnostic clue for DOACs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q046): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than NSAIDs",
+    "option_b": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_c": "Correct pharmacology principle/choice for NSAIDs",
+    "option_d": "Option that is contraindicated or unsafe in NSAIDs",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q047): A medication-related scenario involves opioids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in opioids",
+    "option_b": "Correct pharmacology principle/choice for opioids",
+    "option_c": "Option that misses a key diagnostic clue for opioids",
+    "option_d": "Option appropriate for a different condition than opioids",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q048): A medication-related scenario involves antidiabetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for antidiabetics",
+    "option_b": "Option that misses a key diagnostic clue for antidiabetics",
+    "option_c": "Option appropriate for a different condition than antidiabetics",
+    "option_d": "Option that is contraindicated or unsafe in antidiabetics",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidiabetics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q049): A medication-related scenario involves corticosteroids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in corticosteroids",
+    "option_b": "Option appropriate for a different condition than corticosteroids",
+    "option_c": "Option that misses a key diagnostic clue for corticosteroids",
+    "option_d": "Correct pharmacology principle/choice for corticosteroids",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for corticosteroids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q050): A medication-related scenario involves chemotherapy toxicity. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in chemotherapy toxicity",
+    "option_b": "Correct pharmacology principle/choice for chemotherapy toxicity",
+    "option_c": "Option that misses a key diagnostic clue for chemotherapy toxicity",
+    "option_d": "Option appropriate for a different condition than chemotherapy toxicity",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for chemotherapy toxicity at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q051): A medication-related scenario involves antidotes. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than antidotes",
+    "option_b": "Option that misses a key diagnostic clue for antidotes",
+    "option_c": "Correct pharmacology principle/choice for antidotes",
+    "option_d": "Option that is contraindicated or unsafe in antidotes",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q052): A medication-related scenario involves teratogenic drugs. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for teratogenic drugs",
+    "option_b": "Option appropriate for a different condition than teratogenic drugs",
+    "option_c": "Option that is contraindicated or unsafe in teratogenic drugs",
+    "option_d": "Option that misses a key diagnostic clue for teratogenic drugs",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for teratogenic drugs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q053): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for pharmacokinetics",
+    "option_b": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "option_c": "Option appropriate for a different condition than pharmacokinetics",
+    "option_d": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q054): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than drug interactions",
+    "option_b": "Option that misses a key diagnostic clue for drug interactions",
+    "option_c": "Correct pharmacology principle/choice for drug interactions",
+    "option_d": "Option that is contraindicated or unsafe in drug interactions",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q055): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than cholinergic agents",
+    "option_b": "Option that is contraindicated or unsafe in cholinergic agents",
+    "option_c": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_d": "Option that misses a key diagnostic clue for cholinergic agents",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q056): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for adrenergic agents",
+    "option_b": "Option appropriate for a different condition than adrenergic agents",
+    "option_c": "Option that is contraindicated or unsafe in adrenergic agents",
+    "option_d": "Correct pharmacology principle/choice for adrenergic agents",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q057): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than beta-blockers",
+    "option_b": "Correct pharmacology principle/choice for beta-blockers",
+    "option_c": "Option that is contraindicated or unsafe in beta-blockers",
+    "option_d": "Option that misses a key diagnostic clue for beta-blockers",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q058): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "option_b": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "option_c": "Option appropriate for a different condition than ACE inhibitors",
+    "option_d": "Correct pharmacology principle/choice for ACE inhibitors",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q059): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for ARBs",
+    "option_b": "Option appropriate for a different condition than ARBs",
+    "option_c": "Option that is contraindicated or unsafe in ARBs",
+    "option_d": "Option that misses a key diagnostic clue for ARBs",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q060): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "option_b": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "option_c": "Option appropriate for a different condition than calcium channel blockers",
+    "option_d": "Correct pharmacology principle/choice for calcium channel blockers",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q061): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than diuretics",
+    "option_b": "Correct pharmacology principle/choice for diuretics",
+    "option_c": "Option that is contraindicated or unsafe in diuretics",
+    "option_d": "Option that misses a key diagnostic clue for diuretics",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q062): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than antiarrhythmics",
+    "option_b": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "option_c": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "option_d": "Correct pharmacology principle/choice for antiarrhythmics",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q063): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for penicillins",
+    "option_b": "Option appropriate for a different condition than penicillins",
+    "option_c": "Option that is contraindicated or unsafe in penicillins",
+    "option_d": "Option that misses a key diagnostic clue for penicillins",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q064): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for cephalosporins",
+    "option_b": "Option that misses a key diagnostic clue for cephalosporins",
+    "option_c": "Option that is contraindicated or unsafe in cephalosporins",
+    "option_d": "Option appropriate for a different condition than cephalosporins",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q065): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for fluoroquinolones",
+    "option_b": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_c": "Option appropriate for a different condition than fluoroquinolones",
+    "option_d": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q066): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in aminoglycosides",
+    "option_b": "Option appropriate for a different condition than aminoglycosides",
+    "option_c": "Option that misses a key diagnostic clue for aminoglycosides",
+    "option_d": "Correct pharmacology principle/choice for aminoglycosides",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q067): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than macrolides",
+    "option_b": "Option that misses a key diagnostic clue for macrolides",
+    "option_c": "Option that is contraindicated or unsafe in macrolides",
+    "option_d": "Correct pharmacology principle/choice for macrolides",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q068): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for vancomycin",
+    "option_b": "Option that is contraindicated or unsafe in vancomycin",
+    "option_c": "Option appropriate for a different condition than vancomycin",
+    "option_d": "Correct pharmacology principle/choice for vancomycin",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q069): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than warfarin interactions",
+    "option_b": "Option that misses a key diagnostic clue for warfarin interactions",
+    "option_c": "Correct pharmacology principle/choice for warfarin interactions",
+    "option_d": "Option that is contraindicated or unsafe in warfarin interactions",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q070): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for heparin",
+    "option_b": "Option that misses a key diagnostic clue for heparin",
+    "option_c": "Option that is contraindicated or unsafe in heparin",
+    "option_d": "Option appropriate for a different condition than heparin",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q071): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for DOACs",
+    "option_b": "Option that is contraindicated or unsafe in DOACs",
+    "option_c": "Option that misses a key diagnostic clue for DOACs",
+    "option_d": "Option appropriate for a different condition than DOACs",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q072): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than NSAIDs",
+    "option_b": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_c": "Option that is contraindicated or unsafe in NSAIDs",
+    "option_d": "Correct pharmacology principle/choice for NSAIDs",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q073): A medication-related scenario involves opioids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in opioids",
+    "option_b": "Correct pharmacology principle/choice for opioids",
+    "option_c": "Option appropriate for a different condition than opioids",
+    "option_d": "Option that misses a key diagnostic clue for opioids",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioids at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q074): A medication-related scenario involves antidiabetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for antidiabetics",
+    "option_b": "Option that is contraindicated or unsafe in antidiabetics",
+    "option_c": "Option appropriate for a different condition than antidiabetics",
+    "option_d": "Option that misses a key diagnostic clue for antidiabetics",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidiabetics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q075): A medication-related scenario involves corticosteroids. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for corticosteroids",
+    "option_b": "Option that misses a key diagnostic clue for corticosteroids",
+    "option_c": "Option that is contraindicated or unsafe in corticosteroids",
+    "option_d": "Option appropriate for a different condition than corticosteroids",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for corticosteroids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q076): A medication-related scenario involves chemotherapy toxicity. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for chemotherapy toxicity",
+    "option_b": "Option appropriate for a different condition than chemotherapy toxicity",
+    "option_c": "Option that misses a key diagnostic clue for chemotherapy toxicity",
+    "option_d": "Option that is contraindicated or unsafe in chemotherapy toxicity",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for chemotherapy toxicity at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q077): A medication-related scenario involves antidotes. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than antidotes",
+    "option_b": "Correct pharmacology principle/choice for antidotes",
+    "option_c": "Option that is contraindicated or unsafe in antidotes",
+    "option_d": "Option that misses a key diagnostic clue for antidotes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q078): A medication-related scenario involves teratogenic drugs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than teratogenic drugs",
+    "option_b": "Option that misses a key diagnostic clue for teratogenic drugs",
+    "option_c": "Option that is contraindicated or unsafe in teratogenic drugs",
+    "option_d": "Correct pharmacology principle/choice for teratogenic drugs",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for teratogenic drugs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q079): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for pharmacokinetics",
+    "option_b": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "option_c": "Option appropriate for a different condition than pharmacokinetics",
+    "option_d": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q080): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for drug interactions",
+    "option_b": "Option appropriate for a different condition than drug interactions",
+    "option_c": "Option that is contraindicated or unsafe in drug interactions",
+    "option_d": "Option that misses a key diagnostic clue for drug interactions",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q081): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than cholinergic agents",
+    "option_b": "Option that misses a key diagnostic clue for cholinergic agents",
+    "option_c": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_d": "Option that is contraindicated or unsafe in cholinergic agents",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q082): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for adrenergic agents",
+    "option_b": "Option appropriate for a different condition than adrenergic agents",
+    "option_c": "Correct pharmacology principle/choice for adrenergic agents",
+    "option_d": "Option that is contraindicated or unsafe in adrenergic agents",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q083): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for beta-blockers",
+    "option_b": "Option appropriate for a different condition than beta-blockers",
+    "option_c": "Option that misses a key diagnostic clue for beta-blockers",
+    "option_d": "Option that is contraindicated or unsafe in beta-blockers",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q084): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than ACE inhibitors",
+    "option_b": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "option_c": "Correct pharmacology principle/choice for ACE inhibitors",
+    "option_d": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q085): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than ARBs",
+    "option_b": "Option that misses a key diagnostic clue for ARBs",
+    "option_c": "Correct pharmacology principle/choice for ARBs",
+    "option_d": "Option that is contraindicated or unsafe in ARBs",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q086): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for calcium channel blockers",
+    "option_b": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "option_c": "Option appropriate for a different condition than calcium channel blockers",
+    "option_d": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q087): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than diuretics",
+    "option_b": "Option that is contraindicated or unsafe in diuretics",
+    "option_c": "Option that misses a key diagnostic clue for diuretics",
+    "option_d": "Correct pharmacology principle/choice for diuretics",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q088): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for antiarrhythmics",
+    "option_b": "Option appropriate for a different condition than antiarrhythmics",
+    "option_c": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "option_d": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q089): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than penicillins",
+    "option_b": "Correct pharmacology principle/choice for penicillins",
+    "option_c": "Option that is contraindicated or unsafe in penicillins",
+    "option_d": "Option that misses a key diagnostic clue for penicillins",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q090): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than cephalosporins",
+    "option_b": "Option that is contraindicated or unsafe in cephalosporins",
+    "option_c": "Option that misses a key diagnostic clue for cephalosporins",
+    "option_d": "Correct pharmacology principle/choice for cephalosporins",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q091): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than fluoroquinolones",
+    "option_b": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "option_c": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_d": "Correct pharmacology principle/choice for fluoroquinolones",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q092): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for aminoglycosides",
+    "option_b": "Correct pharmacology principle/choice for aminoglycosides",
+    "option_c": "Option appropriate for a different condition than aminoglycosides",
+    "option_d": "Option that is contraindicated or unsafe in aminoglycosides",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q093): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for macrolides",
+    "option_b": "Option that misses a key diagnostic clue for macrolides",
+    "option_c": "Option that is contraindicated or unsafe in macrolides",
+    "option_d": "Option appropriate for a different condition than macrolides",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q094): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for vancomycin",
+    "option_b": "Option that is contraindicated or unsafe in vancomycin",
+    "option_c": "Option appropriate for a different condition than vancomycin",
+    "option_d": "Correct pharmacology principle/choice for vancomycin",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q095): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for warfarin interactions",
+    "option_b": "Option that misses a key diagnostic clue for warfarin interactions",
+    "option_c": "Option appropriate for a different condition than warfarin interactions",
+    "option_d": "Option that is contraindicated or unsafe in warfarin interactions",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q096): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in heparin",
+    "option_b": "Option appropriate for a different condition than heparin",
+    "option_c": "Correct pharmacology principle/choice for heparin",
+    "option_d": "Option that misses a key diagnostic clue for heparin",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q097): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in DOACs",
+    "option_b": "Option appropriate for a different condition than DOACs",
+    "option_c": "Correct pharmacology principle/choice for DOACs",
+    "option_d": "Option that misses a key diagnostic clue for DOACs",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q098): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than NSAIDs",
+    "option_b": "Correct pharmacology principle/choice for NSAIDs",
+    "option_c": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_d": "Option that is contraindicated or unsafe in NSAIDs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q099): A medication-related scenario involves opioids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in opioids",
+    "option_b": "Correct pharmacology principle/choice for opioids",
+    "option_c": "Option appropriate for a different condition than opioids",
+    "option_d": "Option that misses a key diagnostic clue for opioids",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioids at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q100): A medication-related scenario involves antidiabetics. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for antidiabetics",
+    "option_b": "Option that is contraindicated or unsafe in antidiabetics",
+    "option_c": "Correct pharmacology principle/choice for antidiabetics",
+    "option_d": "Option appropriate for a different condition than antidiabetics",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidiabetics at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q101): A medication-related scenario involves corticosteroids. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for corticosteroids",
+    "option_b": "Option that is contraindicated or unsafe in corticosteroids",
+    "option_c": "Option that misses a key diagnostic clue for corticosteroids",
+    "option_d": "Option appropriate for a different condition than corticosteroids",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for corticosteroids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q102): A medication-related scenario involves chemotherapy toxicity. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than chemotherapy toxicity",
+    "option_b": "Correct pharmacology principle/choice for chemotherapy toxicity",
+    "option_c": "Option that is contraindicated or unsafe in chemotherapy toxicity",
+    "option_d": "Option that misses a key diagnostic clue for chemotherapy toxicity",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for chemotherapy toxicity at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q103): A medication-related scenario involves antidotes. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for antidotes",
+    "option_b": "Correct pharmacology principle/choice for antidotes",
+    "option_c": "Option appropriate for a different condition than antidotes",
+    "option_d": "Option that is contraindicated or unsafe in antidotes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q104): A medication-related scenario involves teratogenic drugs. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in teratogenic drugs",
+    "option_b": "Option appropriate for a different condition than teratogenic drugs",
+    "option_c": "Correct pharmacology principle/choice for teratogenic drugs",
+    "option_d": "Option that misses a key diagnostic clue for teratogenic drugs",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for teratogenic drugs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q105): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than pharmacokinetics",
+    "option_b": "Correct pharmacology principle/choice for pharmacokinetics",
+    "option_c": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "option_d": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q106): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for drug interactions",
+    "option_b": "Correct pharmacology principle/choice for drug interactions",
+    "option_c": "Option that is contraindicated or unsafe in drug interactions",
+    "option_d": "Option appropriate for a different condition than drug interactions",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q107): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for cholinergic agents",
+    "option_b": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_c": "Option that is contraindicated or unsafe in cholinergic agents",
+    "option_d": "Option appropriate for a different condition than cholinergic agents",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q108): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in adrenergic agents",
+    "option_b": "Option appropriate for a different condition than adrenergic agents",
+    "option_c": "Option that misses a key diagnostic clue for adrenergic agents",
+    "option_d": "Correct pharmacology principle/choice for adrenergic agents",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q109): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than beta-blockers",
+    "option_b": "Option that misses a key diagnostic clue for beta-blockers",
+    "option_c": "Option that is contraindicated or unsafe in beta-blockers",
+    "option_d": "Correct pharmacology principle/choice for beta-blockers",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q110): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for ACE inhibitors",
+    "option_b": "Option appropriate for a different condition than ACE inhibitors",
+    "option_c": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "option_d": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q111): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for ARBs",
+    "option_b": "Option that is contraindicated or unsafe in ARBs",
+    "option_c": "Option appropriate for a different condition than ARBs",
+    "option_d": "Correct pharmacology principle/choice for ARBs",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q112): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for calcium channel blockers",
+    "option_b": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "option_c": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "option_d": "Option appropriate for a different condition than calcium channel blockers",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q113): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for diuretics",
+    "option_b": "Option that is contraindicated or unsafe in diuretics",
+    "option_c": "Option appropriate for a different condition than diuretics",
+    "option_d": "Option that misses a key diagnostic clue for diuretics",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q114): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "option_b": "Option appropriate for a different condition than antiarrhythmics",
+    "option_c": "Correct pharmacology principle/choice for antiarrhythmics",
+    "option_d": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q115): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for penicillins",
+    "option_b": "Option that is contraindicated or unsafe in penicillins",
+    "option_c": "Option appropriate for a different condition than penicillins",
+    "option_d": "Correct pharmacology principle/choice for penicillins",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q116): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than cephalosporins",
+    "option_b": "Option that misses a key diagnostic clue for cephalosporins",
+    "option_c": "Correct pharmacology principle/choice for cephalosporins",
+    "option_d": "Option that is contraindicated or unsafe in cephalosporins",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q117): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than fluoroquinolones",
+    "option_b": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_c": "Correct pharmacology principle/choice for fluoroquinolones",
+    "option_d": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q118): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in aminoglycosides",
+    "option_b": "Option that misses a key diagnostic clue for aminoglycosides",
+    "option_c": "Correct pharmacology principle/choice for aminoglycosides",
+    "option_d": "Option appropriate for a different condition than aminoglycosides",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q119): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in macrolides",
+    "option_b": "Option appropriate for a different condition than macrolides",
+    "option_c": "Option that misses a key diagnostic clue for macrolides",
+    "option_d": "Correct pharmacology principle/choice for macrolides",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q120): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for vancomycin",
+    "option_b": "Option appropriate for a different condition than vancomycin",
+    "option_c": "Option that is contraindicated or unsafe in vancomycin",
+    "option_d": "Correct pharmacology principle/choice for vancomycin",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q121): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for warfarin interactions",
+    "option_b": "Option appropriate for a different condition than warfarin interactions",
+    "option_c": "Option that is contraindicated or unsafe in warfarin interactions",
+    "option_d": "Correct pharmacology principle/choice for warfarin interactions",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q122): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in heparin",
+    "option_b": "Option that misses a key diagnostic clue for heparin",
+    "option_c": "Correct pharmacology principle/choice for heparin",
+    "option_d": "Option appropriate for a different condition than heparin",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q123): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in DOACs",
+    "option_b": "Option that misses a key diagnostic clue for DOACs",
+    "option_c": "Correct pharmacology principle/choice for DOACs",
+    "option_d": "Option appropriate for a different condition than DOACs",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q124): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_b": "Correct pharmacology principle/choice for NSAIDs",
+    "option_c": "Option that is contraindicated or unsafe in NSAIDs",
+    "option_d": "Option appropriate for a different condition than NSAIDs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q125): A medication-related scenario involves opioids. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in opioids",
+    "option_b": "Option that misses a key diagnostic clue for opioids",
+    "option_c": "Option appropriate for a different condition than opioids",
+    "option_d": "Correct pharmacology principle/choice for opioids",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q126): A medication-related scenario involves antidiabetics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antidiabetics",
+    "option_b": "Option appropriate for a different condition than antidiabetics",
+    "option_c": "Option that misses a key diagnostic clue for antidiabetics",
+    "option_d": "Correct pharmacology principle/choice for antidiabetics",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidiabetics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q127): A medication-related scenario involves corticosteroids. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than corticosteroids",
+    "option_b": "Correct pharmacology principle/choice for corticosteroids",
+    "option_c": "Option that misses a key diagnostic clue for corticosteroids",
+    "option_d": "Option that is contraindicated or unsafe in corticosteroids",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for corticosteroids at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q128): A medication-related scenario involves chemotherapy toxicity. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for chemotherapy toxicity",
+    "option_b": "Correct pharmacology principle/choice for chemotherapy toxicity",
+    "option_c": "Option that is contraindicated or unsafe in chemotherapy toxicity",
+    "option_d": "Option appropriate for a different condition than chemotherapy toxicity",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for chemotherapy toxicity at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q129): A medication-related scenario involves antidotes. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antidotes",
+    "option_b": "Option appropriate for a different condition than antidotes",
+    "option_c": "Option that misses a key diagnostic clue for antidotes",
+    "option_d": "Correct pharmacology principle/choice for antidotes",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q130): A medication-related scenario involves teratogenic drugs. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than teratogenic drugs",
+    "option_b": "Option that misses a key diagnostic clue for teratogenic drugs",
+    "option_c": "Correct pharmacology principle/choice for teratogenic drugs",
+    "option_d": "Option that is contraindicated or unsafe in teratogenic drugs",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for teratogenic drugs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q131): A medication-related scenario involves pharmacokinetics. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for pharmacokinetics",
+    "option_b": "Option that misses a key diagnostic clue for pharmacokinetics",
+    "option_c": "Option that is contraindicated or unsafe in pharmacokinetics",
+    "option_d": "Option appropriate for a different condition than pharmacokinetics",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pharmacokinetics at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q132): A medication-related scenario involves drug interactions. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for drug interactions",
+    "option_b": "Option that is contraindicated or unsafe in drug interactions",
+    "option_c": "Option that misses a key diagnostic clue for drug interactions",
+    "option_d": "Option appropriate for a different condition than drug interactions",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drug interactions at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q133): A medication-related scenario involves cholinergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for cholinergic agents",
+    "option_b": "Option that is contraindicated or unsafe in cholinergic agents",
+    "option_c": "Correct pharmacology principle/choice for cholinergic agents",
+    "option_d": "Option appropriate for a different condition than cholinergic agents",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cholinergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q134): A medication-related scenario involves adrenergic agents. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for adrenergic agents",
+    "option_b": "Option that is contraindicated or unsafe in adrenergic agents",
+    "option_c": "Correct pharmacology principle/choice for adrenergic agents",
+    "option_d": "Option appropriate for a different condition than adrenergic agents",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for adrenergic agents at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q135): A medication-related scenario involves beta-blockers. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than beta-blockers",
+    "option_b": "Option that misses a key diagnostic clue for beta-blockers",
+    "option_c": "Correct pharmacology principle/choice for beta-blockers",
+    "option_d": "Option that is contraindicated or unsafe in beta-blockers",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for beta-blockers at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q136): A medication-related scenario involves ACE inhibitors. What is the best answer?",
+    "option_a": "Option appropriate for a different condition than ACE inhibitors",
+    "option_b": "Correct pharmacology principle/choice for ACE inhibitors",
+    "option_c": "Option that is contraindicated or unsafe in ACE inhibitors",
+    "option_d": "Option that misses a key diagnostic clue for ACE inhibitors",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ACE inhibitors at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q137): A medication-related scenario involves ARBs. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for ARBs",
+    "option_b": "Option that misses a key diagnostic clue for ARBs",
+    "option_c": "Option that is contraindicated or unsafe in ARBs",
+    "option_d": "Option appropriate for a different condition than ARBs",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ARBs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q138): A medication-related scenario involves calcium channel blockers. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for calcium channel blockers",
+    "option_b": "Option appropriate for a different condition than calcium channel blockers",
+    "option_c": "Option that is contraindicated or unsafe in calcium channel blockers",
+    "option_d": "Option that misses a key diagnostic clue for calcium channel blockers",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for calcium channel blockers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q139): A medication-related scenario involves diuretics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in diuretics",
+    "option_b": "Option appropriate for a different condition than diuretics",
+    "option_c": "Correct pharmacology principle/choice for diuretics",
+    "option_d": "Option that misses a key diagnostic clue for diuretics",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for diuretics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q140): A medication-related scenario involves antiarrhythmics. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in antiarrhythmics",
+    "option_b": "Option appropriate for a different condition than antiarrhythmics",
+    "option_c": "Correct pharmacology principle/choice for antiarrhythmics",
+    "option_d": "Option that misses a key diagnostic clue for antiarrhythmics",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antiarrhythmics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q141): A medication-related scenario involves penicillins. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in penicillins",
+    "option_b": "Option appropriate for a different condition than penicillins",
+    "option_c": "Option that misses a key diagnostic clue for penicillins",
+    "option_d": "Correct pharmacology principle/choice for penicillins",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for penicillins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q142): A medication-related scenario involves cephalosporins. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in cephalosporins",
+    "option_b": "Correct pharmacology principle/choice for cephalosporins",
+    "option_c": "Option appropriate for a different condition than cephalosporins",
+    "option_d": "Option that misses a key diagnostic clue for cephalosporins",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cephalosporins at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q143): A medication-related scenario involves fluoroquinolones. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in fluoroquinolones",
+    "option_b": "Correct pharmacology principle/choice for fluoroquinolones",
+    "option_c": "Option that misses a key diagnostic clue for fluoroquinolones",
+    "option_d": "Option appropriate for a different condition than fluoroquinolones",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fluoroquinolones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q144): A medication-related scenario involves aminoglycosides. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in aminoglycosides",
+    "option_b": "Option appropriate for a different condition than aminoglycosides",
+    "option_c": "Correct pharmacology principle/choice for aminoglycosides",
+    "option_d": "Option that misses a key diagnostic clue for aminoglycosides",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for aminoglycosides at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q145): A medication-related scenario involves macrolides. What is the best answer?",
+    "option_a": "Option that is contraindicated or unsafe in macrolides",
+    "option_b": "Option that misses a key diagnostic clue for macrolides",
+    "option_c": "Correct pharmacology principle/choice for macrolides",
+    "option_d": "Option appropriate for a different condition than macrolides",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for macrolides at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q146): A medication-related scenario involves vancomycin. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for vancomycin",
+    "option_b": "Option appropriate for a different condition than vancomycin",
+    "option_c": "Correct pharmacology principle/choice for vancomycin",
+    "option_d": "Option that is contraindicated or unsafe in vancomycin",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for vancomycin at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q147): A medication-related scenario involves warfarin interactions. What is the best answer?",
+    "option_a": "Correct pharmacology principle/choice for warfarin interactions",
+    "option_b": "Option appropriate for a different condition than warfarin interactions",
+    "option_c": "Option that is contraindicated or unsafe in warfarin interactions",
+    "option_d": "Option that misses a key diagnostic clue for warfarin interactions",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for warfarin interactions at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q148): A medication-related scenario involves heparin. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for heparin",
+    "option_b": "Option appropriate for a different condition than heparin",
+    "option_c": "Correct pharmacology principle/choice for heparin",
+    "option_d": "Option that is contraindicated or unsafe in heparin",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for heparin at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q149): A medication-related scenario involves DOACs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for DOACs",
+    "option_b": "Correct pharmacology principle/choice for DOACs",
+    "option_c": "Option appropriate for a different condition than DOACs",
+    "option_d": "Option that is contraindicated or unsafe in DOACs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DOACs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pharmacology (Q150): A medication-related scenario involves NSAIDs. What is the best answer?",
+    "option_a": "Option that misses a key diagnostic clue for NSAIDs",
+    "option_b": "Correct pharmacology principle/choice for NSAIDs",
+    "option_c": "Option appropriate for a different condition than NSAIDs",
+    "option_d": "Option that is contraindicated or unsafe in NSAIDs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for NSAIDs at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

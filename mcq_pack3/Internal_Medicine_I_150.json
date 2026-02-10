@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Internal Medicine I (Q001): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypertension",
+    "option_b": "Option appropriate for a different condition than hypertension",
+    "option_c": "Option that misses a key diagnostic clue for hypertension",
+    "option_d": "Best next step consistent with hypertension",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q002): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "option_b": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "option_c": "Best next step consistent with HFrEF vs HFpEF",
+    "option_d": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q003): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_b": "Option appropriate for a different condition than coronary artery disease",
+    "option_c": "Best next step consistent with coronary artery disease",
+    "option_d": "Option that is contraindicated or unsafe in coronary artery disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q004): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_b": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_c": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_d": "Best next step consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q005): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Best next step consistent with atrial fibrillation",
+    "option_b": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_c": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "option_d": "Option appropriate for a different condition than atrial fibrillation",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q006): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_b": "Best next step consistent with valvular heart disease",
+    "option_c": "Option appropriate for a different condition than valvular heart disease",
+    "option_d": "Option that misses a key diagnostic clue for valvular heart disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q007): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "option_b": "Best next step consistent with type 2 diabetes",
+    "option_c": "Option appropriate for a different condition than type 2 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q008): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Best next step consistent with type 1 diabetes",
+    "option_b": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "option_c": "Option appropriate for a different condition than type 1 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q009): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for DKA",
+    "option_b": "Option that is contraindicated or unsafe in DKA",
+    "option_c": "Best next step consistent with DKA",
+    "option_d": "Option appropriate for a different condition than DKA",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q010): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Best next step consistent with HHS",
+    "option_b": "Option that misses a key diagnostic clue for HHS",
+    "option_c": "Option that is contraindicated or unsafe in HHS",
+    "option_d": "Option appropriate for a different condition than HHS",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q011): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hypothyroidism",
+    "option_b": "Option appropriate for a different condition than hypothyroidism",
+    "option_c": "Option that is contraindicated or unsafe in hypothyroidism",
+    "option_d": "Best next step consistent with hypothyroidism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q012): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "option_b": "Best next step consistent with hyperthyroidism",
+    "option_c": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_d": "Option appropriate for a different condition than hyperthyroidism",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q013): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in thyroid storm",
+    "option_b": "Option appropriate for a different condition than thyroid storm",
+    "option_c": "Option that misses a key diagnostic clue for thyroid storm",
+    "option_d": "Best next step consistent with thyroid storm",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q014): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with Cushing syndrome",
+    "option_b": "Option appropriate for a different condition than Cushing syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "option_d": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q015): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Best next step consistent with Addison disease",
+    "option_b": "Option appropriate for a different condition than Addison disease",
+    "option_c": "Option that misses a key diagnostic clue for Addison disease",
+    "option_d": "Option that is contraindicated or unsafe in Addison disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q016): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "option_b": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "option_c": "Best next step consistent with pheochromocytoma",
+    "option_d": "Option appropriate for a different condition than pheochromocytoma",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q017): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Best next step consistent with hyponatremia",
+    "option_b": "Option appropriate for a different condition than hyponatremia",
+    "option_c": "Option that is contraindicated or unsafe in hyponatremia",
+    "option_d": "Option that misses a key diagnostic clue for hyponatremia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q018): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hyperkalemia",
+    "option_b": "Best next step consistent with hyperkalemia",
+    "option_c": "Option that is contraindicated or unsafe in hyperkalemia",
+    "option_d": "Option appropriate for a different condition than hyperkalemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q019): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hypocalcemia",
+    "option_b": "Option that is contraindicated or unsafe in hypocalcemia",
+    "option_c": "Best next step consistent with hypocalcemia",
+    "option_d": "Option that misses a key diagnostic clue for hypocalcemia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q020): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acid-base disorders",
+    "option_b": "Best next step consistent with acid-base disorders",
+    "option_c": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_d": "Option appropriate for a different condition than acid-base disorders",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q021): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Best next step consistent with CKD staging",
+    "option_b": "Option appropriate for a different condition than CKD staging",
+    "option_c": "Option that is contraindicated or unsafe in CKD staging",
+    "option_d": "Option that misses a key diagnostic clue for CKD staging",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q022): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for AKI",
+    "option_b": "Best next step consistent with AKI",
+    "option_c": "Option appropriate for a different condition than AKI",
+    "option_d": "Option that is contraindicated or unsafe in AKI",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q023): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_b": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "option_c": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "option_d": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q024): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Best next step consistent with glomerulonephritis",
+    "option_b": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "option_c": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "option_d": "Option appropriate for a different condition than glomerulonephritis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q025): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hypertension",
+    "option_b": "Best next step consistent with hypertension",
+    "option_c": "Option that is contraindicated or unsafe in hypertension",
+    "option_d": "Option appropriate for a different condition than hypertension",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q026): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_b": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "option_c": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "option_d": "Best next step consistent with HFrEF vs HFpEF",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q027): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Best next step consistent with coronary artery disease",
+    "option_b": "Option that is contraindicated or unsafe in coronary artery disease",
+    "option_c": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_d": "Option appropriate for a different condition than coronary artery disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q028): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_b": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_c": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_d": "Best next step consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q029): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than atrial fibrillation",
+    "option_b": "Best next step consistent with atrial fibrillation",
+    "option_c": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_d": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q030): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_b": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_c": "Best next step consistent with valvular heart disease",
+    "option_d": "Option appropriate for a different condition than valvular heart disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q031): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "option_b": "Best next step consistent with type 2 diabetes",
+    "option_c": "Option appropriate for a different condition than type 2 diabetes",
+    "option_d": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q032): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "option_b": "Option appropriate for a different condition than type 1 diabetes",
+    "option_c": "Best next step consistent with type 1 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q033): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for DKA",
+    "option_b": "Option that is contraindicated or unsafe in DKA",
+    "option_c": "Option appropriate for a different condition than DKA",
+    "option_d": "Best next step consistent with DKA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q034): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than HHS",
+    "option_b": "Option that misses a key diagnostic clue for HHS",
+    "option_c": "Option that is contraindicated or unsafe in HHS",
+    "option_d": "Best next step consistent with HHS",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q035): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypothyroidism",
+    "option_b": "Best next step consistent with hypothyroidism",
+    "option_c": "Option appropriate for a different condition than hypothyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hypothyroidism",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q036): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Best next step consistent with hyperthyroidism",
+    "option_b": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_c": "Option appropriate for a different condition than hyperthyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q037): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Best next step consistent with thyroid storm",
+    "option_b": "Option that misses a key diagnostic clue for thyroid storm",
+    "option_c": "Option appropriate for a different condition than thyroid storm",
+    "option_d": "Option that is contraindicated or unsafe in thyroid storm",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q038): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with Cushing syndrome",
+    "option_b": "Option appropriate for a different condition than Cushing syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "option_d": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q039): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Addison disease",
+    "option_b": "Option appropriate for a different condition than Addison disease",
+    "option_c": "Best next step consistent with Addison disease",
+    "option_d": "Option that misses a key diagnostic clue for Addison disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q040): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Best next step consistent with pheochromocytoma",
+    "option_b": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "option_c": "Option appropriate for a different condition than pheochromocytoma",
+    "option_d": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q041): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyponatremia",
+    "option_b": "Option that is contraindicated or unsafe in hyponatremia",
+    "option_c": "Best next step consistent with hyponatremia",
+    "option_d": "Option that misses a key diagnostic clue for hyponatremia",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q042): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hyperkalemia",
+    "option_b": "Option that is contraindicated or unsafe in hyperkalemia",
+    "option_c": "Option appropriate for a different condition than hyperkalemia",
+    "option_d": "Best next step consistent with hyperkalemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q043): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypocalcemia",
+    "option_b": "Best next step consistent with hypocalcemia",
+    "option_c": "Option appropriate for a different condition than hypocalcemia",
+    "option_d": "Option that misses a key diagnostic clue for hypocalcemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q044): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acid-base disorders",
+    "option_b": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_c": "Best next step consistent with acid-base disorders",
+    "option_d": "Option appropriate for a different condition than acid-base disorders",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q045): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than CKD staging",
+    "option_b": "Best next step consistent with CKD staging",
+    "option_c": "Option that is contraindicated or unsafe in CKD staging",
+    "option_d": "Option that misses a key diagnostic clue for CKD staging",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q046): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Best next step consistent with AKI",
+    "option_b": "Option that is contraindicated or unsafe in AKI",
+    "option_c": "Option appropriate for a different condition than AKI",
+    "option_d": "Option that misses a key diagnostic clue for AKI",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q047): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_b": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "option_c": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "option_d": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q048): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "option_b": "Best next step consistent with glomerulonephritis",
+    "option_c": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "option_d": "Option appropriate for a different condition than glomerulonephritis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q049): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypertension",
+    "option_b": "Option that misses a key diagnostic clue for hypertension",
+    "option_c": "Option appropriate for a different condition than hypertension",
+    "option_d": "Best next step consistent with hypertension",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q050): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_b": "Best next step consistent with HFrEF vs HFpEF",
+    "option_c": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "option_d": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q051): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than coronary artery disease",
+    "option_b": "Best next step consistent with coronary artery disease",
+    "option_c": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_d": "Option that is contraindicated or unsafe in coronary artery disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q052): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_b": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_c": "Best next step consistent with acute coronary syndrome",
+    "option_d": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q053): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_b": "Option appropriate for a different condition than atrial fibrillation",
+    "option_c": "Best next step consistent with atrial fibrillation",
+    "option_d": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q054): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than valvular heart disease",
+    "option_b": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_c": "Best next step consistent with valvular heart disease",
+    "option_d": "Option that is contraindicated or unsafe in valvular heart disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q055): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "option_b": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "option_c": "Option appropriate for a different condition than type 2 diabetes",
+    "option_d": "Best next step consistent with type 2 diabetes",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q056): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "option_b": "Option appropriate for a different condition than type 1 diabetes",
+    "option_c": "Best next step consistent with type 1 diabetes",
+    "option_d": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q057): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in DKA",
+    "option_b": "Best next step consistent with DKA",
+    "option_c": "Option appropriate for a different condition than DKA",
+    "option_d": "Option that misses a key diagnostic clue for DKA",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q058): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than HHS",
+    "option_b": "Option that is contraindicated or unsafe in HHS",
+    "option_c": "Best next step consistent with HHS",
+    "option_d": "Option that misses a key diagnostic clue for HHS",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q059): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hypothyroidism",
+    "option_b": "Option appropriate for a different condition than hypothyroidism",
+    "option_c": "Best next step consistent with hypothyroidism",
+    "option_d": "Option that is contraindicated or unsafe in hypothyroidism",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q060): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_b": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "option_c": "Best next step consistent with hyperthyroidism",
+    "option_d": "Option appropriate for a different condition than hyperthyroidism",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q061): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in thyroid storm",
+    "option_b": "Best next step consistent with thyroid storm",
+    "option_c": "Option that misses a key diagnostic clue for thyroid storm",
+    "option_d": "Option appropriate for a different condition than thyroid storm",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q062): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "option_b": "Best next step consistent with Cushing syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "option_d": "Option appropriate for a different condition than Cushing syndrome",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q063): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for Addison disease",
+    "option_b": "Option appropriate for a different condition than Addison disease",
+    "option_c": "Best next step consistent with Addison disease",
+    "option_d": "Option that is contraindicated or unsafe in Addison disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q064): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "option_b": "Best next step consistent with pheochromocytoma",
+    "option_c": "Option appropriate for a different condition than pheochromocytoma",
+    "option_d": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q065): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyponatremia",
+    "option_b": "Option that is contraindicated or unsafe in hyponatremia",
+    "option_c": "Option that misses a key diagnostic clue for hyponatremia",
+    "option_d": "Best next step consistent with hyponatremia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q066): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyperkalemia",
+    "option_b": "Best next step consistent with hyperkalemia",
+    "option_c": "Option that is contraindicated or unsafe in hyperkalemia",
+    "option_d": "Option that misses a key diagnostic clue for hyperkalemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q067): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hypocalcemia",
+    "option_b": "Best next step consistent with hypocalcemia",
+    "option_c": "Option that misses a key diagnostic clue for hypocalcemia",
+    "option_d": "Option that is contraindicated or unsafe in hypocalcemia",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q068): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than acid-base disorders",
+    "option_b": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_c": "Best next step consistent with acid-base disorders",
+    "option_d": "Option that misses a key diagnostic clue for acid-base disorders",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q069): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for CKD staging",
+    "option_b": "Option appropriate for a different condition than CKD staging",
+    "option_c": "Best next step consistent with CKD staging",
+    "option_d": "Option that is contraindicated or unsafe in CKD staging",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q070): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than AKI",
+    "option_b": "Option that misses a key diagnostic clue for AKI",
+    "option_c": "Option that is contraindicated or unsafe in AKI",
+    "option_d": "Best next step consistent with AKI",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q071): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "option_b": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "option_c": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_d": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q072): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "option_b": "Option appropriate for a different condition than glomerulonephritis",
+    "option_c": "Best next step consistent with glomerulonephritis",
+    "option_d": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q073): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hypertension",
+    "option_b": "Option that is contraindicated or unsafe in hypertension",
+    "option_c": "Option that misses a key diagnostic clue for hypertension",
+    "option_d": "Best next step consistent with hypertension",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q074): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Best next step consistent with HFrEF vs HFpEF",
+    "option_b": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "option_c": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_d": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q075): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Best next step consistent with coronary artery disease",
+    "option_b": "Option that is contraindicated or unsafe in coronary artery disease",
+    "option_c": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_d": "Option appropriate for a different condition than coronary artery disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q076): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_b": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_c": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_d": "Best next step consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q077): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "option_b": "Best next step consistent with atrial fibrillation",
+    "option_c": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_d": "Option appropriate for a different condition than atrial fibrillation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q078): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_b": "Best next step consistent with valvular heart disease",
+    "option_c": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_d": "Option appropriate for a different condition than valvular heart disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q079): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Best next step consistent with type 2 diabetes",
+    "option_b": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "option_c": "Option appropriate for a different condition than type 2 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q080): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Best next step consistent with type 1 diabetes",
+    "option_b": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "option_c": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "option_d": "Option appropriate for a different condition than type 1 diabetes",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q081): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in DKA",
+    "option_b": "Option that misses a key diagnostic clue for DKA",
+    "option_c": "Option appropriate for a different condition than DKA",
+    "option_d": "Best next step consistent with DKA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q082): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for HHS",
+    "option_b": "Option that is contraindicated or unsafe in HHS",
+    "option_c": "Option appropriate for a different condition than HHS",
+    "option_d": "Best next step consistent with HHS",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q083): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Best next step consistent with hypothyroidism",
+    "option_b": "Option appropriate for a different condition than hypothyroidism",
+    "option_c": "Option that is contraindicated or unsafe in hypothyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hypothyroidism",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q084): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_b": "Option appropriate for a different condition than hyperthyroidism",
+    "option_c": "Best next step consistent with hyperthyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q085): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than thyroid storm",
+    "option_b": "Option that is contraindicated or unsafe in thyroid storm",
+    "option_c": "Best next step consistent with thyroid storm",
+    "option_d": "Option that misses a key diagnostic clue for thyroid storm",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q086): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "option_b": "Best next step consistent with Cushing syndrome",
+    "option_c": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "option_d": "Option appropriate for a different condition than Cushing syndrome",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q087): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Best next step consistent with Addison disease",
+    "option_b": "Option appropriate for a different condition than Addison disease",
+    "option_c": "Option that is contraindicated or unsafe in Addison disease",
+    "option_d": "Option that misses a key diagnostic clue for Addison disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q088): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "option_b": "Best next step consistent with pheochromocytoma",
+    "option_c": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "option_d": "Option appropriate for a different condition than pheochromocytoma",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q089): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Best next step consistent with hyponatremia",
+    "option_b": "Option appropriate for a different condition than hyponatremia",
+    "option_c": "Option that is contraindicated or unsafe in hyponatremia",
+    "option_d": "Option that misses a key diagnostic clue for hyponatremia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q090): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hyperkalemia",
+    "option_b": "Option appropriate for a different condition than hyperkalemia",
+    "option_c": "Option that is contraindicated or unsafe in hyperkalemia",
+    "option_d": "Best next step consistent with hyperkalemia",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q091): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hypocalcemia",
+    "option_b": "Best next step consistent with hypocalcemia",
+    "option_c": "Option that misses a key diagnostic clue for hypocalcemia",
+    "option_d": "Option that is contraindicated or unsafe in hypocalcemia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q092): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_b": "Option appropriate for a different condition than acid-base disorders",
+    "option_c": "Option that misses a key diagnostic clue for acid-base disorders",
+    "option_d": "Best next step consistent with acid-base disorders",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q093): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in CKD staging",
+    "option_b": "Best next step consistent with CKD staging",
+    "option_c": "Option appropriate for a different condition than CKD staging",
+    "option_d": "Option that misses a key diagnostic clue for CKD staging",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q094): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than AKI",
+    "option_b": "Option that misses a key diagnostic clue for AKI",
+    "option_c": "Option that is contraindicated or unsafe in AKI",
+    "option_d": "Best next step consistent with AKI",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q095): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "option_b": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_c": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "option_d": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q096): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "option_b": "Best next step consistent with glomerulonephritis",
+    "option_c": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "option_d": "Option appropriate for a different condition than glomerulonephritis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q097): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypertension",
+    "option_b": "Option that misses a key diagnostic clue for hypertension",
+    "option_c": "Option appropriate for a different condition than hypertension",
+    "option_d": "Best next step consistent with hypertension",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q098): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Best next step consistent with HFrEF vs HFpEF",
+    "option_b": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "option_c": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_d": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q099): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_b": "Option that is contraindicated or unsafe in coronary artery disease",
+    "option_c": "Option appropriate for a different condition than coronary artery disease",
+    "option_d": "Best next step consistent with coronary artery disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q100): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_b": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_c": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_d": "Best next step consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q101): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_b": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "option_c": "Option appropriate for a different condition than atrial fibrillation",
+    "option_d": "Best next step consistent with atrial fibrillation",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q102): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than valvular heart disease",
+    "option_b": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_c": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_d": "Best next step consistent with valvular heart disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q103): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "option_b": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "option_c": "Best next step consistent with type 2 diabetes",
+    "option_d": "Option appropriate for a different condition than type 2 diabetes",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q104): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than type 1 diabetes",
+    "option_b": "Best next step consistent with type 1 diabetes",
+    "option_c": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "option_d": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q105): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than DKA",
+    "option_b": "Option that is contraindicated or unsafe in DKA",
+    "option_c": "Option that misses a key diagnostic clue for DKA",
+    "option_d": "Best next step consistent with DKA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q106): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in HHS",
+    "option_b": "Option appropriate for a different condition than HHS",
+    "option_c": "Option that misses a key diagnostic clue for HHS",
+    "option_d": "Best next step consistent with HHS",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q107): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypothyroidism",
+    "option_b": "Option that misses a key diagnostic clue for hypothyroidism",
+    "option_c": "Best next step consistent with hypothyroidism",
+    "option_d": "Option appropriate for a different condition than hypothyroidism",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q108): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyperthyroidism",
+    "option_b": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_c": "Best next step consistent with hyperthyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q109): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than thyroid storm",
+    "option_b": "Option that misses a key diagnostic clue for thyroid storm",
+    "option_c": "Option that is contraindicated or unsafe in thyroid storm",
+    "option_d": "Best next step consistent with thyroid storm",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q110): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "option_b": "Option appropriate for a different condition than Cushing syndrome",
+    "option_c": "Best next step consistent with Cushing syndrome",
+    "option_d": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q111): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than Addison disease",
+    "option_b": "Option that misses a key diagnostic clue for Addison disease",
+    "option_c": "Best next step consistent with Addison disease",
+    "option_d": "Option that is contraindicated or unsafe in Addison disease",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q112): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Best next step consistent with pheochromocytoma",
+    "option_b": "Option appropriate for a different condition than pheochromocytoma",
+    "option_c": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "option_d": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q113): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Best next step consistent with hyponatremia",
+    "option_b": "Option that misses a key diagnostic clue for hyponatremia",
+    "option_c": "Option that is contraindicated or unsafe in hyponatremia",
+    "option_d": "Option appropriate for a different condition than hyponatremia",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q114): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Best next step consistent with hyperkalemia",
+    "option_b": "Option that is contraindicated or unsafe in hyperkalemia",
+    "option_c": "Option appropriate for a different condition than hyperkalemia",
+    "option_d": "Option that misses a key diagnostic clue for hyperkalemia",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q115): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypocalcemia",
+    "option_b": "Option that misses a key diagnostic clue for hypocalcemia",
+    "option_c": "Option appropriate for a different condition than hypocalcemia",
+    "option_d": "Best next step consistent with hypocalcemia",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q116): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than acid-base disorders",
+    "option_b": "Best next step consistent with acid-base disorders",
+    "option_c": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_d": "Option that misses a key diagnostic clue for acid-base disorders",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q117): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in CKD staging",
+    "option_b": "Best next step consistent with CKD staging",
+    "option_c": "Option appropriate for a different condition than CKD staging",
+    "option_d": "Option that misses a key diagnostic clue for CKD staging",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q118): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for AKI",
+    "option_b": "Option appropriate for a different condition than AKI",
+    "option_c": "Best next step consistent with AKI",
+    "option_d": "Option that is contraindicated or unsafe in AKI",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q119): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "option_b": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_c": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "option_d": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q120): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "option_b": "Best next step consistent with glomerulonephritis",
+    "option_c": "Option appropriate for a different condition than glomerulonephritis",
+    "option_d": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q121): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Best next step consistent with hypertension",
+    "option_b": "Option that misses a key diagnostic clue for hypertension",
+    "option_c": "Option appropriate for a different condition than hypertension",
+    "option_d": "Option that is contraindicated or unsafe in hypertension",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q122): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "option_b": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_c": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "option_d": "Best next step consistent with HFrEF vs HFpEF",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q123): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Best next step consistent with coronary artery disease",
+    "option_b": "Option that is contraindicated or unsafe in coronary artery disease",
+    "option_c": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_d": "Option appropriate for a different condition than coronary artery disease",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q124): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "option_b": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_c": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_d": "Best next step consistent with acute coronary syndrome",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q125): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Best next step consistent with atrial fibrillation",
+    "option_b": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_c": "Option appropriate for a different condition than atrial fibrillation",
+    "option_d": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q126): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_b": "Best next step consistent with valvular heart disease",
+    "option_c": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_d": "Option appropriate for a different condition than valvular heart disease",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q127): A clinical vignette suggests type 2 diabetes. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than type 2 diabetes",
+    "option_b": "Option that is contraindicated or unsafe in type 2 diabetes",
+    "option_c": "Best next step consistent with type 2 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 2 diabetes",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 2 diabetes at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q128): A clinical vignette suggests type 1 diabetes. What is the best next step?",
+    "option_a": "Best next step consistent with type 1 diabetes",
+    "option_b": "Option that is contraindicated or unsafe in type 1 diabetes",
+    "option_c": "Option appropriate for a different condition than type 1 diabetes",
+    "option_d": "Option that misses a key diagnostic clue for type 1 diabetes",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for type 1 diabetes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q129): A clinical vignette suggests DKA. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in DKA",
+    "option_b": "Option appropriate for a different condition than DKA",
+    "option_c": "Option that misses a key diagnostic clue for DKA",
+    "option_d": "Best next step consistent with DKA",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q130): A clinical vignette suggests HHS. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in HHS",
+    "option_b": "Option that misses a key diagnostic clue for HHS",
+    "option_c": "Best next step consistent with HHS",
+    "option_d": "Option appropriate for a different condition than HHS",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for HHS at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q131): A clinical vignette suggests hypothyroidism. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hypothyroidism",
+    "option_b": "Option that is contraindicated or unsafe in hypothyroidism",
+    "option_c": "Best next step consistent with hypothyroidism",
+    "option_d": "Option that misses a key diagnostic clue for hypothyroidism",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothyroidism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q132): A clinical vignette suggests hyperthyroidism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hyperthyroidism",
+    "option_b": "Option appropriate for a different condition than hyperthyroidism",
+    "option_c": "Option that misses a key diagnostic clue for hyperthyroidism",
+    "option_d": "Best next step consistent with hyperthyroidism",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperthyroidism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q133): A clinical vignette suggests thyroid storm. What is the best next step?",
+    "option_a": "Best next step consistent with thyroid storm",
+    "option_b": "Option that misses a key diagnostic clue for thyroid storm",
+    "option_c": "Option that is contraindicated or unsafe in thyroid storm",
+    "option_d": "Option appropriate for a different condition than thyroid storm",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for thyroid storm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q134): A clinical vignette suggests Cushing syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with Cushing syndrome",
+    "option_b": "Option appropriate for a different condition than Cushing syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Cushing syndrome",
+    "option_d": "Option that misses a key diagnostic clue for Cushing syndrome",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cushing syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q135): A clinical vignette suggests Addison disease. What is the best next step?",
+    "option_a": "Best next step consistent with Addison disease",
+    "option_b": "Option appropriate for a different condition than Addison disease",
+    "option_c": "Option that is contraindicated or unsafe in Addison disease",
+    "option_d": "Option that misses a key diagnostic clue for Addison disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Addison disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q136): A clinical vignette suggests pheochromocytoma. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pheochromocytoma",
+    "option_b": "Option appropriate for a different condition than pheochromocytoma",
+    "option_c": "Option that misses a key diagnostic clue for pheochromocytoma",
+    "option_d": "Best next step consistent with pheochromocytoma",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pheochromocytoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q137): A clinical vignette suggests hyponatremia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyponatremia",
+    "option_b": "Option that misses a key diagnostic clue for hyponatremia",
+    "option_c": "Best next step consistent with hyponatremia",
+    "option_d": "Option that is contraindicated or unsafe in hyponatremia",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyponatremia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q138): A clinical vignette suggests hyperkalemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hyperkalemia",
+    "option_b": "Best next step consistent with hyperkalemia",
+    "option_c": "Option that misses a key diagnostic clue for hyperkalemia",
+    "option_d": "Option that is contraindicated or unsafe in hyperkalemia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hyperkalemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q139): A clinical vignette suggests hypocalcemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hypocalcemia",
+    "option_b": "Option appropriate for a different condition than hypocalcemia",
+    "option_c": "Best next step consistent with hypocalcemia",
+    "option_d": "Option that misses a key diagnostic clue for hypocalcemia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypocalcemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q140): A clinical vignette suggests acid-base disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than acid-base disorders",
+    "option_b": "Option that misses a key diagnostic clue for acid-base disorders",
+    "option_c": "Option that is contraindicated or unsafe in acid-base disorders",
+    "option_d": "Best next step consistent with acid-base disorders",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acid-base disorders at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q141): A clinical vignette suggests CKD staging. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for CKD staging",
+    "option_b": "Option that is contraindicated or unsafe in CKD staging",
+    "option_c": "Best next step consistent with CKD staging",
+    "option_d": "Option appropriate for a different condition than CKD staging",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CKD staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q142): A clinical vignette suggests AKI. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than AKI",
+    "option_b": "Best next step consistent with AKI",
+    "option_c": "Option that misses a key diagnostic clue for AKI",
+    "option_d": "Option that is contraindicated or unsafe in AKI",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for AKI at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q143): A clinical vignette suggests nephrotic vs nephritic syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with nephrotic vs nephritic syndrome",
+    "option_b": "Option that is contraindicated or unsafe in nephrotic vs nephritic syndrome",
+    "option_c": "Option appropriate for a different condition than nephrotic vs nephritic syndrome",
+    "option_d": "Option that misses a key diagnostic clue for nephrotic vs nephritic syndrome",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for nephrotic vs nephritic syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q144): A clinical vignette suggests glomerulonephritis. What is the best next step?",
+    "option_a": "Best next step consistent with glomerulonephritis",
+    "option_b": "Option that misses a key diagnostic clue for glomerulonephritis",
+    "option_c": "Option appropriate for a different condition than glomerulonephritis",
+    "option_d": "Option that is contraindicated or unsafe in glomerulonephritis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for glomerulonephritis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q145): A clinical vignette suggests hypertension. What is the best next step?",
+    "option_a": "Best next step consistent with hypertension",
+    "option_b": "Option that is contraindicated or unsafe in hypertension",
+    "option_c": "Option that misses a key diagnostic clue for hypertension",
+    "option_d": "Option appropriate for a different condition than hypertension",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypertension at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q146): A clinical vignette suggests HFrEF vs HFpEF. What is the best next step?",
+    "option_a": "Best next step consistent with HFrEF vs HFpEF",
+    "option_b": "Option that misses a key diagnostic clue for HFrEF vs HFpEF",
+    "option_c": "Option appropriate for a different condition than HFrEF vs HFpEF",
+    "option_d": "Option that is contraindicated or unsafe in HFrEF vs HFpEF",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HFrEF vs HFpEF at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q147): A clinical vignette suggests coronary artery disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for coronary artery disease",
+    "option_b": "Option that is contraindicated or unsafe in coronary artery disease",
+    "option_c": "Best next step consistent with coronary artery disease",
+    "option_d": "Option appropriate for a different condition than coronary artery disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for coronary artery disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q148): A clinical vignette suggests acute coronary syndrome. What is the best next step?",
+    "option_a": "Best next step consistent with acute coronary syndrome",
+    "option_b": "Option appropriate for a different condition than acute coronary syndrome",
+    "option_c": "Option that misses a key diagnostic clue for acute coronary syndrome",
+    "option_d": "Option that is contraindicated or unsafe in acute coronary syndrome",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute coronary syndrome at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q149): A clinical vignette suggests atrial fibrillation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for atrial fibrillation",
+    "option_b": "Best next step consistent with atrial fibrillation",
+    "option_c": "Option appropriate for a different condition than atrial fibrillation",
+    "option_d": "Option that is contraindicated or unsafe in atrial fibrillation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for atrial fibrillation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine I (Q150): A clinical vignette suggests valvular heart disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in valvular heart disease",
+    "option_b": "Option appropriate for a different condition than valvular heart disease",
+    "option_c": "Option that misses a key diagnostic clue for valvular heart disease",
+    "option_d": "Best next step consistent with valvular heart disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for valvular heart disease at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

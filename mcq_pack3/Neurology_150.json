@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Neurology (Q001): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_b": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "option_c": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_d": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q002): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_b": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_c": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "option_d": "Option appropriate for a different condition than hemorrhagic stroke",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q003): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than TIA",
+    "option_b": "Option that is contraindicated or unsafe in TIA",
+    "option_c": "Option that misses a key diagnostic clue for TIA",
+    "option_d": "Most appropriate management/diagnosis for TIA",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q004): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for seizure management",
+    "option_b": "Option appropriate for a different condition than seizure management",
+    "option_c": "Option that is contraindicated or unsafe in seizure management",
+    "option_d": "Option that misses a key diagnostic clue for seizure management",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q005): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than status epilepticus",
+    "option_b": "Option that misses a key diagnostic clue for status epilepticus",
+    "option_c": "Most appropriate management/diagnosis for status epilepticus",
+    "option_d": "Option that is contraindicated or unsafe in status epilepticus",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q006): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in migraine",
+    "option_b": "Most appropriate management/diagnosis for migraine",
+    "option_c": "Option appropriate for a different condition than migraine",
+    "option_d": "Option that misses a key diagnostic clue for migraine",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q007): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in tension headache",
+    "option_b": "Most appropriate management/diagnosis for tension headache",
+    "option_c": "Option appropriate for a different condition than tension headache",
+    "option_d": "Option that misses a key diagnostic clue for tension headache",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q008): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cluster headache",
+    "option_b": "Most appropriate management/diagnosis for cluster headache",
+    "option_c": "Option that misses a key diagnostic clue for cluster headache",
+    "option_d": "Option that is contraindicated or unsafe in cluster headache",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q009): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for meningitis",
+    "option_b": "Option appropriate for a different condition than meningitis",
+    "option_c": "Option that is contraindicated or unsafe in meningitis",
+    "option_d": "Option that misses a key diagnostic clue for meningitis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q010): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in encephalitis",
+    "option_b": "Option appropriate for a different condition than encephalitis",
+    "option_c": "Option that misses a key diagnostic clue for encephalitis",
+    "option_d": "Most appropriate management/diagnosis for encephalitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q011): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for multiple sclerosis",
+    "option_b": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_c": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "option_d": "Option appropriate for a different condition than multiple sclerosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q012): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Parkinson disease",
+    "option_b": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_c": "Most appropriate management/diagnosis for Parkinson disease",
+    "option_d": "Option appropriate for a different condition than Parkinson disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q013): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "option_b": "Option appropriate for a different condition than Alzheimer disease",
+    "option_c": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_d": "Most appropriate management/diagnosis for Alzheimer disease",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q014): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_b": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_c": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "option_d": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q015): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_b": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_c": "Option appropriate for a different condition than myasthenia gravis",
+    "option_d": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q016): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in ALS",
+    "option_b": "Most appropriate management/diagnosis for ALS",
+    "option_c": "Option appropriate for a different condition than ALS",
+    "option_d": "Option that misses a key diagnostic clue for ALS",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q017): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "option_b": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_c": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "option_d": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q018): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_b": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_c": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "option_d": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q019): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Bell palsy",
+    "option_b": "Option that is contraindicated or unsafe in Bell palsy",
+    "option_c": "Option appropriate for a different condition than Bell palsy",
+    "option_d": "Option that misses a key diagnostic clue for Bell palsy",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q020): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than brain tumor red flags",
+    "option_b": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_c": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "option_d": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q021): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for LP findings interpretation",
+    "option_b": "Option appropriate for a different condition than LP findings interpretation",
+    "option_c": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_d": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q022): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_b": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_c": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "option_d": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q023): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_b": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "option_c": "Option appropriate for a different condition than hemorrhagic stroke",
+    "option_d": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q024): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for TIA",
+    "option_b": "Option that is contraindicated or unsafe in TIA",
+    "option_c": "Option appropriate for a different condition than TIA",
+    "option_d": "Most appropriate management/diagnosis for TIA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q025): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in seizure management",
+    "option_b": "Most appropriate management/diagnosis for seizure management",
+    "option_c": "Option that misses a key diagnostic clue for seizure management",
+    "option_d": "Option appropriate for a different condition than seizure management",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q026): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for status epilepticus",
+    "option_b": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_c": "Option appropriate for a different condition than status epilepticus",
+    "option_d": "Option that misses a key diagnostic clue for status epilepticus",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q027): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than migraine",
+    "option_b": "Most appropriate management/diagnosis for migraine",
+    "option_c": "Option that misses a key diagnostic clue for migraine",
+    "option_d": "Option that is contraindicated or unsafe in migraine",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q028): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for tension headache",
+    "option_b": "Option that misses a key diagnostic clue for tension headache",
+    "option_c": "Option that is contraindicated or unsafe in tension headache",
+    "option_d": "Option appropriate for a different condition than tension headache",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q029): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cluster headache",
+    "option_b": "Most appropriate management/diagnosis for cluster headache",
+    "option_c": "Option that is contraindicated or unsafe in cluster headache",
+    "option_d": "Option that misses a key diagnostic clue for cluster headache",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q030): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for meningitis",
+    "option_b": "Option appropriate for a different condition than meningitis",
+    "option_c": "Most appropriate management/diagnosis for meningitis",
+    "option_d": "Option that is contraindicated or unsafe in meningitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q031): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Option that is contraindicated or unsafe in encephalitis",
+    "option_c": "Option appropriate for a different condition than encephalitis",
+    "option_d": "Most appropriate management/diagnosis for encephalitis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q032): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "option_b": "Option appropriate for a different condition than multiple sclerosis",
+    "option_c": "Most appropriate management/diagnosis for multiple sclerosis",
+    "option_d": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q033): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Parkinson disease",
+    "option_b": "Option that misses a key diagnostic clue for Parkinson disease",
+    "option_c": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_d": "Most appropriate management/diagnosis for Parkinson disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q034): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_b": "Option appropriate for a different condition than Alzheimer disease",
+    "option_c": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_d": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q035): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_b": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_c": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_d": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q036): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_b": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_c": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_d": "Option appropriate for a different condition than myasthenia gravis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q037): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for ALS",
+    "option_b": "Option that misses a key diagnostic clue for ALS",
+    "option_c": "Option appropriate for a different condition than ALS",
+    "option_d": "Option that is contraindicated or unsafe in ALS",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q038): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "option_b": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_c": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "option_d": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q039): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "option_b": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_c": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_d": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q040): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Bell palsy",
+    "option_b": "Option appropriate for a different condition than Bell palsy",
+    "option_c": "Most appropriate management/diagnosis for Bell palsy",
+    "option_d": "Option that misses a key diagnostic clue for Bell palsy",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q041): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "option_b": "Option appropriate for a different condition than brain tumor red flags",
+    "option_c": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_d": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q042): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "option_b": "Most appropriate management/diagnosis for LP findings interpretation",
+    "option_c": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_d": "Option appropriate for a different condition than LP findings interpretation",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q043): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_b": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_c": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_d": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q044): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_b": "Option appropriate for a different condition than hemorrhagic stroke",
+    "option_c": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_d": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q045): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than TIA",
+    "option_b": "Most appropriate management/diagnosis for TIA",
+    "option_c": "Option that is contraindicated or unsafe in TIA",
+    "option_d": "Option that misses a key diagnostic clue for TIA",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q046): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for seizure management",
+    "option_b": "Option that is contraindicated or unsafe in seizure management",
+    "option_c": "Option appropriate for a different condition than seizure management",
+    "option_d": "Option that misses a key diagnostic clue for seizure management",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q047): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for status epilepticus",
+    "option_b": "Option appropriate for a different condition than status epilepticus",
+    "option_c": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_d": "Most appropriate management/diagnosis for status epilepticus",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q048): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than migraine",
+    "option_b": "Most appropriate management/diagnosis for migraine",
+    "option_c": "Option that misses a key diagnostic clue for migraine",
+    "option_d": "Option that is contraindicated or unsafe in migraine",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q049): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for tension headache",
+    "option_b": "Option that is contraindicated or unsafe in tension headache",
+    "option_c": "Option that misses a key diagnostic clue for tension headache",
+    "option_d": "Option appropriate for a different condition than tension headache",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q050): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cluster headache",
+    "option_b": "Option that is contraindicated or unsafe in cluster headache",
+    "option_c": "Option that misses a key diagnostic clue for cluster headache",
+    "option_d": "Most appropriate management/diagnosis for cluster headache",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q051): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for meningitis",
+    "option_b": "Option that is contraindicated or unsafe in meningitis",
+    "option_c": "Option appropriate for a different condition than meningitis",
+    "option_d": "Most appropriate management/diagnosis for meningitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q052): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Option appropriate for a different condition than encephalitis",
+    "option_c": "Most appropriate management/diagnosis for encephalitis",
+    "option_d": "Option that is contraindicated or unsafe in encephalitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q053): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for multiple sclerosis",
+    "option_b": "Option appropriate for a different condition than multiple sclerosis",
+    "option_c": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_d": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q054): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_b": "Option that misses a key diagnostic clue for Parkinson disease",
+    "option_c": "Option appropriate for a different condition than Parkinson disease",
+    "option_d": "Most appropriate management/diagnosis for Parkinson disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q055): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_b": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "option_c": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_d": "Option appropriate for a different condition than Alzheimer disease",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q056): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_b": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_c": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_d": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q057): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_b": "Option appropriate for a different condition than myasthenia gravis",
+    "option_c": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_d": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q058): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for ALS",
+    "option_b": "Option appropriate for a different condition than ALS",
+    "option_c": "Option that misses a key diagnostic clue for ALS",
+    "option_d": "Option that is contraindicated or unsafe in ALS",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q059): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_b": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "option_c": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "option_d": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q060): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "option_b": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_c": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_d": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q061): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Bell palsy",
+    "option_b": "Most appropriate management/diagnosis for Bell palsy",
+    "option_c": "Option that is contraindicated or unsafe in Bell palsy",
+    "option_d": "Option that misses a key diagnostic clue for Bell palsy",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q062): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "option_b": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_c": "Option appropriate for a different condition than brain tumor red flags",
+    "option_d": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q063): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_b": "Most appropriate management/diagnosis for LP findings interpretation",
+    "option_c": "Option appropriate for a different condition than LP findings interpretation",
+    "option_d": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q064): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_b": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_c": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_d": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q065): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "option_b": "Option appropriate for a different condition than hemorrhagic stroke",
+    "option_c": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_d": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q066): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for TIA",
+    "option_b": "Option that is contraindicated or unsafe in TIA",
+    "option_c": "Most appropriate management/diagnosis for TIA",
+    "option_d": "Option appropriate for a different condition than TIA",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q067): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for seizure management",
+    "option_b": "Most appropriate management/diagnosis for seizure management",
+    "option_c": "Option that is contraindicated or unsafe in seizure management",
+    "option_d": "Option appropriate for a different condition than seizure management",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q068): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_b": "Option that misses a key diagnostic clue for status epilepticus",
+    "option_c": "Option appropriate for a different condition than status epilepticus",
+    "option_d": "Most appropriate management/diagnosis for status epilepticus",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q069): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for migraine",
+    "option_b": "Option that is contraindicated or unsafe in migraine",
+    "option_c": "Option appropriate for a different condition than migraine",
+    "option_d": "Most appropriate management/diagnosis for migraine",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q070): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for tension headache",
+    "option_b": "Option that is contraindicated or unsafe in tension headache",
+    "option_c": "Option that misses a key diagnostic clue for tension headache",
+    "option_d": "Option appropriate for a different condition than tension headache",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q071): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for cluster headache",
+    "option_b": "Most appropriate management/diagnosis for cluster headache",
+    "option_c": "Option appropriate for a different condition than cluster headache",
+    "option_d": "Option that is contraindicated or unsafe in cluster headache",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q072): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in meningitis",
+    "option_b": "Most appropriate management/diagnosis for meningitis",
+    "option_c": "Option appropriate for a different condition than meningitis",
+    "option_d": "Option that misses a key diagnostic clue for meningitis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q073): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Most appropriate management/diagnosis for encephalitis",
+    "option_c": "Option appropriate for a different condition than encephalitis",
+    "option_d": "Option that is contraindicated or unsafe in encephalitis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q074): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "option_b": "Most appropriate management/diagnosis for multiple sclerosis",
+    "option_c": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_d": "Option appropriate for a different condition than multiple sclerosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q075): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Parkinson disease",
+    "option_b": "Most appropriate management/diagnosis for Parkinson disease",
+    "option_c": "Option that misses a key diagnostic clue for Parkinson disease",
+    "option_d": "Option that is contraindicated or unsafe in Parkinson disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q076): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Alzheimer disease",
+    "option_b": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_c": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_d": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q077): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_b": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_d": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q078): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_b": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_c": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_d": "Option appropriate for a different condition than myasthenia gravis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q079): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in ALS",
+    "option_b": "Option that misses a key diagnostic clue for ALS",
+    "option_c": "Most appropriate management/diagnosis for ALS",
+    "option_d": "Option appropriate for a different condition than ALS",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q080): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "option_b": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_c": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "option_d": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q081): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_b": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "option_c": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_d": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q082): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Bell palsy",
+    "option_b": "Option appropriate for a different condition than Bell palsy",
+    "option_c": "Most appropriate management/diagnosis for Bell palsy",
+    "option_d": "Option that is contraindicated or unsafe in Bell palsy",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q083): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than brain tumor red flags",
+    "option_b": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "option_c": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_d": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q084): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_b": "Option appropriate for a different condition than LP findings interpretation",
+    "option_c": "Most appropriate management/diagnosis for LP findings interpretation",
+    "option_d": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q085): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_b": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "option_c": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_d": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q086): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "option_b": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_c": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_d": "Option appropriate for a different condition than hemorrhagic stroke",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q087): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for TIA",
+    "option_b": "Option that is contraindicated or unsafe in TIA",
+    "option_c": "Option appropriate for a different condition than TIA",
+    "option_d": "Option that misses a key diagnostic clue for TIA",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q088): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than seizure management",
+    "option_b": "Option that is contraindicated or unsafe in seizure management",
+    "option_c": "Most appropriate management/diagnosis for seizure management",
+    "option_d": "Option that misses a key diagnostic clue for seizure management",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q089): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than status epilepticus",
+    "option_b": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_c": "Most appropriate management/diagnosis for status epilepticus",
+    "option_d": "Option that misses a key diagnostic clue for status epilepticus",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q090): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than migraine",
+    "option_b": "Option that is contraindicated or unsafe in migraine",
+    "option_c": "Option that misses a key diagnostic clue for migraine",
+    "option_d": "Most appropriate management/diagnosis for migraine",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q091): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for tension headache",
+    "option_b": "Option that misses a key diagnostic clue for tension headache",
+    "option_c": "Option appropriate for a different condition than tension headache",
+    "option_d": "Option that is contraindicated or unsafe in tension headache",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q092): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cluster headache",
+    "option_b": "Option that is contraindicated or unsafe in cluster headache",
+    "option_c": "Most appropriate management/diagnosis for cluster headache",
+    "option_d": "Option that misses a key diagnostic clue for cluster headache",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q093): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in meningitis",
+    "option_b": "Option appropriate for a different condition than meningitis",
+    "option_c": "Option that misses a key diagnostic clue for meningitis",
+    "option_d": "Most appropriate management/diagnosis for meningitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q094): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Most appropriate management/diagnosis for encephalitis",
+    "option_c": "Option that is contraindicated or unsafe in encephalitis",
+    "option_d": "Option appropriate for a different condition than encephalitis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q095): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_b": "Most appropriate management/diagnosis for multiple sclerosis",
+    "option_c": "Option appropriate for a different condition than multiple sclerosis",
+    "option_d": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q096): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Parkinson disease",
+    "option_b": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_c": "Option appropriate for a different condition than Parkinson disease",
+    "option_d": "Option that misses a key diagnostic clue for Parkinson disease",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q097): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "option_b": "Option appropriate for a different condition than Alzheimer disease",
+    "option_c": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_d": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q098): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "option_b": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_c": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_d": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q099): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_b": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_c": "Option appropriate for a different condition than myasthenia gravis",
+    "option_d": "Most appropriate management/diagnosis for myasthenia gravis",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q100): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for ALS",
+    "option_b": "Option appropriate for a different condition than ALS",
+    "option_c": "Option that misses a key diagnostic clue for ALS",
+    "option_d": "Option that is contraindicated or unsafe in ALS",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q101): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_b": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "option_c": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "option_d": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q102): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_b": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "option_c": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_d": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q103): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Bell palsy",
+    "option_b": "Most appropriate management/diagnosis for Bell palsy",
+    "option_c": "Option appropriate for a different condition than Bell palsy",
+    "option_d": "Option that is contraindicated or unsafe in Bell palsy",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q104): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than brain tumor red flags",
+    "option_b": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "option_c": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "option_d": "Most appropriate management/diagnosis for brain tumor red flags",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q105): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "option_b": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_c": "Option appropriate for a different condition than LP findings interpretation",
+    "option_d": "Most appropriate management/diagnosis for LP findings interpretation",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q106): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_b": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_c": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_d": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q107): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_b": "Option appropriate for a different condition than hemorrhagic stroke",
+    "option_c": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_d": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q108): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for TIA",
+    "option_b": "Option that is contraindicated or unsafe in TIA",
+    "option_c": "Option appropriate for a different condition than TIA",
+    "option_d": "Option that misses a key diagnostic clue for TIA",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q109): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than seizure management",
+    "option_b": "Option that misses a key diagnostic clue for seizure management",
+    "option_c": "Option that is contraindicated or unsafe in seizure management",
+    "option_d": "Most appropriate management/diagnosis for seizure management",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q110): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_b": "Option appropriate for a different condition than status epilepticus",
+    "option_c": "Most appropriate management/diagnosis for status epilepticus",
+    "option_d": "Option that misses a key diagnostic clue for status epilepticus",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q111): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for migraine",
+    "option_b": "Option that is contraindicated or unsafe in migraine",
+    "option_c": "Most appropriate management/diagnosis for migraine",
+    "option_d": "Option appropriate for a different condition than migraine",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q112): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for tension headache",
+    "option_b": "Option that is contraindicated or unsafe in tension headache",
+    "option_c": "Option that misses a key diagnostic clue for tension headache",
+    "option_d": "Option appropriate for a different condition than tension headache",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q113): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for cluster headache",
+    "option_b": "Option appropriate for a different condition than cluster headache",
+    "option_c": "Option that is contraindicated or unsafe in cluster headache",
+    "option_d": "Option that misses a key diagnostic clue for cluster headache",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q114): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for meningitis",
+    "option_b": "Option appropriate for a different condition than meningitis",
+    "option_c": "Option that misses a key diagnostic clue for meningitis",
+    "option_d": "Option that is contraindicated or unsafe in meningitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q115): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Option appropriate for a different condition than encephalitis",
+    "option_c": "Most appropriate management/diagnosis for encephalitis",
+    "option_d": "Option that is contraindicated or unsafe in encephalitis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q116): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than multiple sclerosis",
+    "option_b": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_c": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "option_d": "Most appropriate management/diagnosis for multiple sclerosis",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q117): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Parkinson disease",
+    "option_b": "Option appropriate for a different condition than Parkinson disease",
+    "option_c": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_d": "Option that misses a key diagnostic clue for Parkinson disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q118): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_b": "Option appropriate for a different condition than Alzheimer disease",
+    "option_c": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_d": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q119): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "option_b": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_c": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_d": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q120): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_b": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_c": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_d": "Option appropriate for a different condition than myasthenia gravis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q121): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for ALS",
+    "option_b": "Option that is contraindicated or unsafe in ALS",
+    "option_c": "Option that misses a key diagnostic clue for ALS",
+    "option_d": "Option appropriate for a different condition than ALS",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q122): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_b": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "option_c": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "option_d": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q123): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_b": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_c": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "option_d": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q124): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Bell palsy",
+    "option_b": "Option appropriate for a different condition than Bell palsy",
+    "option_c": "Option that misses a key diagnostic clue for Bell palsy",
+    "option_d": "Option that is contraindicated or unsafe in Bell palsy",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q125): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than brain tumor red flags",
+    "option_b": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_c": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "option_d": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q126): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_b": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "option_c": "Option appropriate for a different condition than LP findings interpretation",
+    "option_d": "Most appropriate management/diagnosis for LP findings interpretation",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q127): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_b": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_c": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_d": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q128): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than hemorrhagic stroke",
+    "option_b": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_c": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_d": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q129): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in TIA",
+    "option_b": "Most appropriate management/diagnosis for TIA",
+    "option_c": "Option that misses a key diagnostic clue for TIA",
+    "option_d": "Option appropriate for a different condition than TIA",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q130): Neurologic findings suggest seizure management. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for seizure management",
+    "option_b": "Most appropriate management/diagnosis for seizure management",
+    "option_c": "Option that is contraindicated or unsafe in seizure management",
+    "option_d": "Option appropriate for a different condition than seizure management",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for seizure management at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q131): Neurologic findings suggest status epilepticus. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in status epilepticus",
+    "option_b": "Most appropriate management/diagnosis for status epilepticus",
+    "option_c": "Option that misses a key diagnostic clue for status epilepticus",
+    "option_d": "Option appropriate for a different condition than status epilepticus",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for status epilepticus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q132): Neurologic findings suggest migraine. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in migraine",
+    "option_b": "Option appropriate for a different condition than migraine",
+    "option_c": "Most appropriate management/diagnosis for migraine",
+    "option_d": "Option that misses a key diagnostic clue for migraine",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for migraine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q133): Neurologic findings suggest tension headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in tension headache",
+    "option_b": "Option that misses a key diagnostic clue for tension headache",
+    "option_c": "Option appropriate for a different condition than tension headache",
+    "option_d": "Most appropriate management/diagnosis for tension headache",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tension headache at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q134): Neurologic findings suggest cluster headache. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for cluster headache",
+    "option_b": "Option appropriate for a different condition than cluster headache",
+    "option_c": "Most appropriate management/diagnosis for cluster headache",
+    "option_d": "Option that is contraindicated or unsafe in cluster headache",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cluster headache at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q135): Neurologic findings suggest meningitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than meningitis",
+    "option_b": "Option that misses a key diagnostic clue for meningitis",
+    "option_c": "Option that is contraindicated or unsafe in meningitis",
+    "option_d": "Most appropriate management/diagnosis for meningitis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q136): Neurologic findings suggest encephalitis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for encephalitis",
+    "option_b": "Option that is contraindicated or unsafe in encephalitis",
+    "option_c": "Option appropriate for a different condition than encephalitis",
+    "option_d": "Most appropriate management/diagnosis for encephalitis",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for encephalitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q137): Neurologic findings suggest multiple sclerosis. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than multiple sclerosis",
+    "option_b": "Option that is contraindicated or unsafe in multiple sclerosis",
+    "option_c": "Option that misses a key diagnostic clue for multiple sclerosis",
+    "option_d": "Most appropriate management/diagnosis for multiple sclerosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple sclerosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q138): Neurologic findings suggest Parkinson disease. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Parkinson disease",
+    "option_b": "Option that is contraindicated or unsafe in Parkinson disease",
+    "option_c": "Option appropriate for a different condition than Parkinson disease",
+    "option_d": "Most appropriate management/diagnosis for Parkinson disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkinson disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q139): Neurologic findings suggest Alzheimer disease. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for Alzheimer disease",
+    "option_b": "Option that is contraindicated or unsafe in Alzheimer disease",
+    "option_c": "Option that misses a key diagnostic clue for Alzheimer disease",
+    "option_d": "Option appropriate for a different condition than Alzheimer disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Alzheimer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q140): Neurologic findings suggest Guillain-Barré syndrome. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for Guillain-Barré syndrome",
+    "option_b": "Option appropriate for a different condition than Guillain-Barré syndrome",
+    "option_c": "Most appropriate management/diagnosis for Guillain-Barré syndrome",
+    "option_d": "Option that is contraindicated or unsafe in Guillain-Barré syndrome",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Guillain-Barré syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q141): Neurologic findings suggest myasthenia gravis. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in myasthenia gravis",
+    "option_b": "Option that misses a key diagnostic clue for myasthenia gravis",
+    "option_c": "Most appropriate management/diagnosis for myasthenia gravis",
+    "option_d": "Option appropriate for a different condition than myasthenia gravis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for myasthenia gravis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q142): Neurologic findings suggest ALS. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in ALS",
+    "option_b": "Most appropriate management/diagnosis for ALS",
+    "option_c": "Option that misses a key diagnostic clue for ALS",
+    "option_d": "Option appropriate for a different condition than ALS",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ALS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q143): Neurologic findings suggest peripheral neuropathy. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for peripheral neuropathy",
+    "option_b": "Option that is contraindicated or unsafe in peripheral neuropathy",
+    "option_c": "Option appropriate for a different condition than peripheral neuropathy",
+    "option_d": "Most appropriate management/diagnosis for peripheral neuropathy",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peripheral neuropathy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q144): Neurologic findings suggest cranial nerve palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for cranial nerve palsy",
+    "option_b": "Option appropriate for a different condition than cranial nerve palsy",
+    "option_c": "Option that misses a key diagnostic clue for cranial nerve palsy",
+    "option_d": "Option that is contraindicated or unsafe in cranial nerve palsy",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cranial nerve palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q145): Neurologic findings suggest Bell palsy. What is the best immediate management or diagnosis?",
+    "option_a": "Option appropriate for a different condition than Bell palsy",
+    "option_b": "Most appropriate management/diagnosis for Bell palsy",
+    "option_c": "Option that misses a key diagnostic clue for Bell palsy",
+    "option_d": "Option that is contraindicated or unsafe in Bell palsy",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Bell palsy at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q146): Neurologic findings suggest brain tumor red flags. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for brain tumor red flags",
+    "option_b": "Option appropriate for a different condition than brain tumor red flags",
+    "option_c": "Most appropriate management/diagnosis for brain tumor red flags",
+    "option_d": "Option that is contraindicated or unsafe in brain tumor red flags",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for brain tumor red flags at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q147): Neurologic findings suggest LP findings interpretation. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for LP findings interpretation",
+    "option_b": "Option appropriate for a different condition than LP findings interpretation",
+    "option_c": "Option that misses a key diagnostic clue for LP findings interpretation",
+    "option_d": "Option that is contraindicated or unsafe in LP findings interpretation",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for LP findings interpretation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q148): Neurologic findings suggest ischemic stroke and tPA criteria. What is the best immediate management or diagnosis?",
+    "option_a": "Option that misses a key diagnostic clue for ischemic stroke and tPA criteria",
+    "option_b": "Option that is contraindicated or unsafe in ischemic stroke and tPA criteria",
+    "option_c": "Option appropriate for a different condition than ischemic stroke and tPA criteria",
+    "option_d": "Most appropriate management/diagnosis for ischemic stroke and tPA criteria",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ischemic stroke and tPA criteria at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q149): Neurologic findings suggest hemorrhagic stroke. What is the best immediate management or diagnosis?",
+    "option_a": "Most appropriate management/diagnosis for hemorrhagic stroke",
+    "option_b": "Option that is contraindicated or unsafe in hemorrhagic stroke",
+    "option_c": "Option that misses a key diagnostic clue for hemorrhagic stroke",
+    "option_d": "Option appropriate for a different condition than hemorrhagic stroke",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemorrhagic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Neurology (Q150): Neurologic findings suggest TIA. What is the best immediate management or diagnosis?",
+    "option_a": "Option that is contraindicated or unsafe in TIA",
+    "option_b": "Option appropriate for a different condition than TIA",
+    "option_c": "Most appropriate management/diagnosis for TIA",
+    "option_d": "Option that misses a key diagnostic clue for TIA",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TIA at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

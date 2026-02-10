@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Infectious Diseases (Q001): A febrile patient presentation suggests Staphylococcus aureus infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Staphylococcus aureus infection",
+    "option_b": "Most appropriate diagnosis/therapy for Staphylococcus aureus infection",
+    "option_c": "Option appropriate for a different condition than Staphylococcus aureus infection",
+    "option_d": "Option that is contraindicated or unsafe in Staphylococcus aureus infection",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Staphylococcus aureus infection at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q002): A febrile patient presentation suggests Streptococcal pharyngitis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Streptococcal pharyngitis",
+    "option_b": "Option that is contraindicated or unsafe in Streptococcal pharyngitis",
+    "option_c": "Option appropriate for a different condition than Streptococcal pharyngitis",
+    "option_d": "Option that misses a key diagnostic clue for Streptococcal pharyngitis",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Streptococcal pharyngitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q003): A febrile patient presentation suggests E. coli UTI. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than E. coli UTI",
+    "option_b": "Option that misses a key diagnostic clue for E. coli UTI",
+    "option_c": "Most appropriate diagnosis/therapy for E. coli UTI",
+    "option_d": "Option that is contraindicated or unsafe in E. coli UTI",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for E. coli UTI at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q004): A febrile patient presentation suggests Pseudomonas infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Pseudomonas infection",
+    "option_b": "Most appropriate diagnosis/therapy for Pseudomonas infection",
+    "option_c": "Option that is contraindicated or unsafe in Pseudomonas infection",
+    "option_d": "Option that misses a key diagnostic clue for Pseudomonas infection",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Pseudomonas infection at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q005): A febrile patient presentation suggests MRSA. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than MRSA",
+    "option_b": "Option that is contraindicated or unsafe in MRSA",
+    "option_c": "Option that misses a key diagnostic clue for MRSA",
+    "option_d": "Most appropriate diagnosis/therapy for MRSA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRSA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q006): A febrile patient presentation suggests VRE. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in VRE",
+    "option_b": "Option that misses a key diagnostic clue for VRE",
+    "option_c": "Most appropriate diagnosis/therapy for VRE",
+    "option_d": "Option appropriate for a different condition than VRE",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for VRE at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q007): A febrile patient presentation suggests HIV staging. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in HIV staging",
+    "option_b": "Option that misses a key diagnostic clue for HIV staging",
+    "option_c": "Most appropriate diagnosis/therapy for HIV staging",
+    "option_d": "Option appropriate for a different condition than HIV staging",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HIV staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q008): A febrile patient presentation suggests Hepatitis serology. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Hepatitis serology",
+    "option_b": "Option that is contraindicated or unsafe in Hepatitis serology",
+    "option_c": "Option that misses a key diagnostic clue for Hepatitis serology",
+    "option_d": "Most appropriate diagnosis/therapy for Hepatitis serology",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hepatitis serology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q009): A febrile patient presentation suggests influenza. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in influenza",
+    "option_b": "Option appropriate for a different condition than influenza",
+    "option_c": "Most appropriate diagnosis/therapy for influenza",
+    "option_d": "Option that misses a key diagnostic clue for influenza",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for influenza at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q010): A febrile patient presentation suggests CMV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for CMV",
+    "option_b": "Most appropriate diagnosis/therapy for CMV",
+    "option_c": "Option appropriate for a different condition than CMV",
+    "option_d": "Option that is contraindicated or unsafe in CMV",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CMV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q011): A febrile patient presentation suggests EBV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in EBV",
+    "option_b": "Option appropriate for a different condition than EBV",
+    "option_c": "Option that misses a key diagnostic clue for EBV",
+    "option_d": "Most appropriate diagnosis/therapy for EBV",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for EBV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q012): A febrile patient presentation suggests Candida. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Candida",
+    "option_b": "Option that is contraindicated or unsafe in Candida",
+    "option_c": "Option that misses a key diagnostic clue for Candida",
+    "option_d": "Option appropriate for a different condition than Candida",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Candida at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q013): A febrile patient presentation suggests Aspergillus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Aspergillus",
+    "option_b": "Option that is contraindicated or unsafe in Aspergillus",
+    "option_c": "Option that misses a key diagnostic clue for Aspergillus",
+    "option_d": "Most appropriate diagnosis/therapy for Aspergillus",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Aspergillus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q014): A febrile patient presentation suggests Cryptococcus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Cryptococcus",
+    "option_b": "Option that misses a key diagnostic clue for Cryptococcus",
+    "option_c": "Option that is contraindicated or unsafe in Cryptococcus",
+    "option_d": "Most appropriate diagnosis/therapy for Cryptococcus",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cryptococcus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q015): A febrile patient presentation suggests PCP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for PCP",
+    "option_b": "Option appropriate for a different condition than PCP",
+    "option_c": "Option that is contraindicated or unsafe in PCP",
+    "option_d": "Option that misses a key diagnostic clue for PCP",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for PCP at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q016): A febrile patient presentation suggests malaria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for malaria",
+    "option_b": "Option that is contraindicated or unsafe in malaria",
+    "option_c": "Option that misses a key diagnostic clue for malaria",
+    "option_d": "Option appropriate for a different condition than malaria",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for malaria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q017): A febrile patient presentation suggests toxoplasmosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than toxoplasmosis",
+    "option_b": "Option that is contraindicated or unsafe in toxoplasmosis",
+    "option_c": "Option that misses a key diagnostic clue for toxoplasmosis",
+    "option_d": "Most appropriate diagnosis/therapy for toxoplasmosis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxoplasmosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q018): A febrile patient presentation suggests antibiotic mechanisms. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in antibiotic mechanisms",
+    "option_b": "Option appropriate for a different condition than antibiotic mechanisms",
+    "option_c": "Option that misses a key diagnostic clue for antibiotic mechanisms",
+    "option_d": "Most appropriate diagnosis/therapy for antibiotic mechanisms",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic mechanisms at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q019): A febrile patient presentation suggests antibiotic resistance. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for antibiotic resistance",
+    "option_b": "Option appropriate for a different condition than antibiotic resistance",
+    "option_c": "Option that is contraindicated or unsafe in antibiotic resistance",
+    "option_d": "Option that misses a key diagnostic clue for antibiotic resistance",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic resistance at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q020): A febrile patient presentation suggests sepsis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in sepsis",
+    "option_b": "Option that misses a key diagnostic clue for sepsis",
+    "option_c": "Most appropriate diagnosis/therapy for sepsis",
+    "option_d": "Option appropriate for a different condition than sepsis",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q021): A febrile patient presentation suggests meningitis CSF analysis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for meningitis CSF analysis",
+    "option_b": "Option that is contraindicated or unsafe in meningitis CSF analysis",
+    "option_c": "Most appropriate diagnosis/therapy for meningitis CSF analysis",
+    "option_d": "Option appropriate for a different condition than meningitis CSF analysis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis CSF analysis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q022): A febrile patient presentation suggests CAP vs HAP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than CAP vs HAP",
+    "option_b": "Most appropriate diagnosis/therapy for CAP vs HAP",
+    "option_c": "Option that misses a key diagnostic clue for CAP vs HAP",
+    "option_d": "Option that is contraindicated or unsafe in CAP vs HAP",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CAP vs HAP at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q023): A febrile patient presentation suggests endocarditis Duke criteria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than endocarditis Duke criteria",
+    "option_b": "Most appropriate diagnosis/therapy for endocarditis Duke criteria",
+    "option_c": "Option that misses a key diagnostic clue for endocarditis Duke criteria",
+    "option_d": "Option that is contraindicated or unsafe in endocarditis Duke criteria",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocarditis Duke criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q024): A febrile patient presentation suggests tuberculosis diagnosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in tuberculosis diagnosis",
+    "option_b": "Most appropriate diagnosis/therapy for tuberculosis diagnosis",
+    "option_c": "Option appropriate for a different condition than tuberculosis diagnosis",
+    "option_d": "Option that misses a key diagnostic clue for tuberculosis diagnosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tuberculosis diagnosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q025): A febrile patient presentation suggests STIs. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for STIs",
+    "option_b": "Option appropriate for a different condition than STIs",
+    "option_c": "Most appropriate diagnosis/therapy for STIs",
+    "option_d": "Option that is contraindicated or unsafe in STIs",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for STIs at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q026): A febrile patient presentation suggests opportunistic infections. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than opportunistic infections",
+    "option_b": "Most appropriate diagnosis/therapy for opportunistic infections",
+    "option_c": "Option that is contraindicated or unsafe in opportunistic infections",
+    "option_d": "Option that misses a key diagnostic clue for opportunistic infections",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for opportunistic infections at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q027): A febrile patient presentation suggests Staphylococcus aureus infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Staphylococcus aureus infection",
+    "option_b": "Most appropriate diagnosis/therapy for Staphylococcus aureus infection",
+    "option_c": "Option that is contraindicated or unsafe in Staphylococcus aureus infection",
+    "option_d": "Option that misses a key diagnostic clue for Staphylococcus aureus infection",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Staphylococcus aureus infection at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q028): A febrile patient presentation suggests Streptococcal pharyngitis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Streptococcal pharyngitis",
+    "option_b": "Option that is contraindicated or unsafe in Streptococcal pharyngitis",
+    "option_c": "Option appropriate for a different condition than Streptococcal pharyngitis",
+    "option_d": "Option that misses a key diagnostic clue for Streptococcal pharyngitis",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Streptococcal pharyngitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q029): A febrile patient presentation suggests E. coli UTI. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than E. coli UTI",
+    "option_b": "Most appropriate diagnosis/therapy for E. coli UTI",
+    "option_c": "Option that misses a key diagnostic clue for E. coli UTI",
+    "option_d": "Option that is contraindicated or unsafe in E. coli UTI",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for E. coli UTI at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q030): A febrile patient presentation suggests Pseudomonas infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Pseudomonas infection",
+    "option_b": "Option appropriate for a different condition than Pseudomonas infection",
+    "option_c": "Option that is contraindicated or unsafe in Pseudomonas infection",
+    "option_d": "Most appropriate diagnosis/therapy for Pseudomonas infection",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Pseudomonas infection at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q031): A febrile patient presentation suggests MRSA. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than MRSA",
+    "option_b": "Option that is contraindicated or unsafe in MRSA",
+    "option_c": "Most appropriate diagnosis/therapy for MRSA",
+    "option_d": "Option that misses a key diagnostic clue for MRSA",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRSA at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q032): A febrile patient presentation suggests VRE. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than VRE",
+    "option_b": "Option that is contraindicated or unsafe in VRE",
+    "option_c": "Option that misses a key diagnostic clue for VRE",
+    "option_d": "Most appropriate diagnosis/therapy for VRE",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for VRE at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q033): A febrile patient presentation suggests HIV staging. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for HIV staging",
+    "option_b": "Option that is contraindicated or unsafe in HIV staging",
+    "option_c": "Option that misses a key diagnostic clue for HIV staging",
+    "option_d": "Option appropriate for a different condition than HIV staging",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HIV staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q034): A febrile patient presentation suggests Hepatitis serology. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Hepatitis serology",
+    "option_b": "Option appropriate for a different condition than Hepatitis serology",
+    "option_c": "Most appropriate diagnosis/therapy for Hepatitis serology",
+    "option_d": "Option that is contraindicated or unsafe in Hepatitis serology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hepatitis serology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q035): A febrile patient presentation suggests influenza. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than influenza",
+    "option_b": "Option that misses a key diagnostic clue for influenza",
+    "option_c": "Most appropriate diagnosis/therapy for influenza",
+    "option_d": "Option that is contraindicated or unsafe in influenza",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for influenza at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q036): A febrile patient presentation suggests CMV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than CMV",
+    "option_b": "Option that is contraindicated or unsafe in CMV",
+    "option_c": "Most appropriate diagnosis/therapy for CMV",
+    "option_d": "Option that misses a key diagnostic clue for CMV",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CMV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q037): A febrile patient presentation suggests EBV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for EBV",
+    "option_b": "Option appropriate for a different condition than EBV",
+    "option_c": "Option that misses a key diagnostic clue for EBV",
+    "option_d": "Option that is contraindicated or unsafe in EBV",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for EBV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q038): A febrile patient presentation suggests Candida. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Candida",
+    "option_b": "Option appropriate for a different condition than Candida",
+    "option_c": "Option that is contraindicated or unsafe in Candida",
+    "option_d": "Option that misses a key diagnostic clue for Candida",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Candida at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q039): A febrile patient presentation suggests Aspergillus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Aspergillus",
+    "option_b": "Option that is contraindicated or unsafe in Aspergillus",
+    "option_c": "Option appropriate for a different condition than Aspergillus",
+    "option_d": "Most appropriate diagnosis/therapy for Aspergillus",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Aspergillus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q040): A febrile patient presentation suggests Cryptococcus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Cryptococcus",
+    "option_b": "Most appropriate diagnosis/therapy for Cryptococcus",
+    "option_c": "Option that is contraindicated or unsafe in Cryptococcus",
+    "option_d": "Option appropriate for a different condition than Cryptococcus",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cryptococcus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q041): A febrile patient presentation suggests PCP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for PCP",
+    "option_b": "Option appropriate for a different condition than PCP",
+    "option_c": "Option that misses a key diagnostic clue for PCP",
+    "option_d": "Option that is contraindicated or unsafe in PCP",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for PCP at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q042): A febrile patient presentation suggests malaria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in malaria",
+    "option_b": "Option appropriate for a different condition than malaria",
+    "option_c": "Most appropriate diagnosis/therapy for malaria",
+    "option_d": "Option that misses a key diagnostic clue for malaria",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for malaria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q043): A febrile patient presentation suggests toxoplasmosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than toxoplasmosis",
+    "option_b": "Most appropriate diagnosis/therapy for toxoplasmosis",
+    "option_c": "Option that is contraindicated or unsafe in toxoplasmosis",
+    "option_d": "Option that misses a key diagnostic clue for toxoplasmosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxoplasmosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q044): A febrile patient presentation suggests antibiotic mechanisms. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for antibiotic mechanisms",
+    "option_b": "Most appropriate diagnosis/therapy for antibiotic mechanisms",
+    "option_c": "Option that is contraindicated or unsafe in antibiotic mechanisms",
+    "option_d": "Option appropriate for a different condition than antibiotic mechanisms",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic mechanisms at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q045): A febrile patient presentation suggests antibiotic resistance. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than antibiotic resistance",
+    "option_b": "Option that is contraindicated or unsafe in antibiotic resistance",
+    "option_c": "Option that misses a key diagnostic clue for antibiotic resistance",
+    "option_d": "Most appropriate diagnosis/therapy for antibiotic resistance",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic resistance at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q046): A febrile patient presentation suggests sepsis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than sepsis",
+    "option_b": "Option that misses a key diagnostic clue for sepsis",
+    "option_c": "Option that is contraindicated or unsafe in sepsis",
+    "option_d": "Most appropriate diagnosis/therapy for sepsis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q047): A febrile patient presentation suggests meningitis CSF analysis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in meningitis CSF analysis",
+    "option_b": "Option that misses a key diagnostic clue for meningitis CSF analysis",
+    "option_c": "Option appropriate for a different condition than meningitis CSF analysis",
+    "option_d": "Most appropriate diagnosis/therapy for meningitis CSF analysis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis CSF analysis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q048): A febrile patient presentation suggests CAP vs HAP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in CAP vs HAP",
+    "option_b": "Option appropriate for a different condition than CAP vs HAP",
+    "option_c": "Option that misses a key diagnostic clue for CAP vs HAP",
+    "option_d": "Most appropriate diagnosis/therapy for CAP vs HAP",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CAP vs HAP at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q049): A febrile patient presentation suggests endocarditis Duke criteria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in endocarditis Duke criteria",
+    "option_b": "Option appropriate for a different condition than endocarditis Duke criteria",
+    "option_c": "Most appropriate diagnosis/therapy for endocarditis Duke criteria",
+    "option_d": "Option that misses a key diagnostic clue for endocarditis Duke criteria",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocarditis Duke criteria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q050): A febrile patient presentation suggests tuberculosis diagnosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for tuberculosis diagnosis",
+    "option_b": "Option that is contraindicated or unsafe in tuberculosis diagnosis",
+    "option_c": "Option that misses a key diagnostic clue for tuberculosis diagnosis",
+    "option_d": "Option appropriate for a different condition than tuberculosis diagnosis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for tuberculosis diagnosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q051): A febrile patient presentation suggests STIs. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for STIs",
+    "option_b": "Option that is contraindicated or unsafe in STIs",
+    "option_c": "Most appropriate diagnosis/therapy for STIs",
+    "option_d": "Option appropriate for a different condition than STIs",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for STIs at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q052): A febrile patient presentation suggests opportunistic infections. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than opportunistic infections",
+    "option_b": "Option that is contraindicated or unsafe in opportunistic infections",
+    "option_c": "Most appropriate diagnosis/therapy for opportunistic infections",
+    "option_d": "Option that misses a key diagnostic clue for opportunistic infections",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for opportunistic infections at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q053): A febrile patient presentation suggests Staphylococcus aureus infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in Staphylococcus aureus infection",
+    "option_b": "Option appropriate for a different condition than Staphylococcus aureus infection",
+    "option_c": "Most appropriate diagnosis/therapy for Staphylococcus aureus infection",
+    "option_d": "Option that misses a key diagnostic clue for Staphylococcus aureus infection",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Staphylococcus aureus infection at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q054): A febrile patient presentation suggests Streptococcal pharyngitis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for Streptococcal pharyngitis",
+    "option_b": "Option appropriate for a different condition than Streptococcal pharyngitis",
+    "option_c": "Option that is contraindicated or unsafe in Streptococcal pharyngitis",
+    "option_d": "Most appropriate diagnosis/therapy for Streptococcal pharyngitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Streptococcal pharyngitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q055): A febrile patient presentation suggests E. coli UTI. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for E. coli UTI",
+    "option_b": "Most appropriate diagnosis/therapy for E. coli UTI",
+    "option_c": "Option that is contraindicated or unsafe in E. coli UTI",
+    "option_d": "Option appropriate for a different condition than E. coli UTI",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for E. coli UTI at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q056): A febrile patient presentation suggests Pseudomonas infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Pseudomonas infection",
+    "option_b": "Option that misses a key diagnostic clue for Pseudomonas infection",
+    "option_c": "Option that is contraindicated or unsafe in Pseudomonas infection",
+    "option_d": "Most appropriate diagnosis/therapy for Pseudomonas infection",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Pseudomonas infection at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q057): A febrile patient presentation suggests MRSA. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for MRSA",
+    "option_b": "Most appropriate diagnosis/therapy for MRSA",
+    "option_c": "Option that is contraindicated or unsafe in MRSA",
+    "option_d": "Option appropriate for a different condition than MRSA",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRSA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q058): A febrile patient presentation suggests VRE. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in VRE",
+    "option_b": "Option appropriate for a different condition than VRE",
+    "option_c": "Most appropriate diagnosis/therapy for VRE",
+    "option_d": "Option that misses a key diagnostic clue for VRE",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for VRE at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q059): A febrile patient presentation suggests HIV staging. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in HIV staging",
+    "option_b": "Option appropriate for a different condition than HIV staging",
+    "option_c": "Most appropriate diagnosis/therapy for HIV staging",
+    "option_d": "Option that misses a key diagnostic clue for HIV staging",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HIV staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q060): A febrile patient presentation suggests Hepatitis serology. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Hepatitis serology",
+    "option_b": "Option appropriate for a different condition than Hepatitis serology",
+    "option_c": "Option that is contraindicated or unsafe in Hepatitis serology",
+    "option_d": "Option that misses a key diagnostic clue for Hepatitis serology",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hepatitis serology at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q061): A febrile patient presentation suggests influenza. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for influenza",
+    "option_b": "Most appropriate diagnosis/therapy for influenza",
+    "option_c": "Option appropriate for a different condition than influenza",
+    "option_d": "Option that is contraindicated or unsafe in influenza",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for influenza at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q062): A febrile patient presentation suggests CMV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for CMV",
+    "option_b": "Most appropriate diagnosis/therapy for CMV",
+    "option_c": "Option appropriate for a different condition than CMV",
+    "option_d": "Option that is contraindicated or unsafe in CMV",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CMV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q063): A febrile patient presentation suggests EBV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than EBV",
+    "option_b": "Option that is contraindicated or unsafe in EBV",
+    "option_c": "Option that misses a key diagnostic clue for EBV",
+    "option_d": "Most appropriate diagnosis/therapy for EBV",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for EBV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q064): A febrile patient presentation suggests Candida. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in Candida",
+    "option_b": "Option that misses a key diagnostic clue for Candida",
+    "option_c": "Most appropriate diagnosis/therapy for Candida",
+    "option_d": "Option appropriate for a different condition than Candida",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Candida at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q065): A febrile patient presentation suggests Aspergillus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Aspergillus",
+    "option_b": "Option that misses a key diagnostic clue for Aspergillus",
+    "option_c": "Most appropriate diagnosis/therapy for Aspergillus",
+    "option_d": "Option that is contraindicated or unsafe in Aspergillus",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Aspergillus at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q066): A febrile patient presentation suggests Cryptococcus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Cryptococcus",
+    "option_b": "Option that is contraindicated or unsafe in Cryptococcus",
+    "option_c": "Option appropriate for a different condition than Cryptococcus",
+    "option_d": "Option that misses a key diagnostic clue for Cryptococcus",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cryptococcus at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q067): A febrile patient presentation suggests PCP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than PCP",
+    "option_b": "Option that misses a key diagnostic clue for PCP",
+    "option_c": "Most appropriate diagnosis/therapy for PCP",
+    "option_d": "Option that is contraindicated or unsafe in PCP",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for PCP at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q068): A febrile patient presentation suggests malaria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for malaria",
+    "option_b": "Option that is contraindicated or unsafe in malaria",
+    "option_c": "Option appropriate for a different condition than malaria",
+    "option_d": "Most appropriate diagnosis/therapy for malaria",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for malaria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q069): A febrile patient presentation suggests toxoplasmosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than toxoplasmosis",
+    "option_b": "Option that misses a key diagnostic clue for toxoplasmosis",
+    "option_c": "Most appropriate diagnosis/therapy for toxoplasmosis",
+    "option_d": "Option that is contraindicated or unsafe in toxoplasmosis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxoplasmosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q070): A febrile patient presentation suggests antibiotic mechanisms. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for antibiotic mechanisms",
+    "option_b": "Option appropriate for a different condition than antibiotic mechanisms",
+    "option_c": "Option that is contraindicated or unsafe in antibiotic mechanisms",
+    "option_d": "Option that misses a key diagnostic clue for antibiotic mechanisms",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic mechanisms at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q071): A febrile patient presentation suggests antibiotic resistance. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for antibiotic resistance",
+    "option_b": "Option that misses a key diagnostic clue for antibiotic resistance",
+    "option_c": "Option that is contraindicated or unsafe in antibiotic resistance",
+    "option_d": "Option appropriate for a different condition than antibiotic resistance",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic resistance at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q072): A febrile patient presentation suggests sepsis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in sepsis",
+    "option_b": "Option that misses a key diagnostic clue for sepsis",
+    "option_c": "Option appropriate for a different condition than sepsis",
+    "option_d": "Most appropriate diagnosis/therapy for sepsis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q073): A febrile patient presentation suggests meningitis CSF analysis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for meningitis CSF analysis",
+    "option_b": "Most appropriate diagnosis/therapy for meningitis CSF analysis",
+    "option_c": "Option that is contraindicated or unsafe in meningitis CSF analysis",
+    "option_d": "Option appropriate for a different condition than meningitis CSF analysis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis CSF analysis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q074): A febrile patient presentation suggests CAP vs HAP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in CAP vs HAP",
+    "option_b": "Most appropriate diagnosis/therapy for CAP vs HAP",
+    "option_c": "Option appropriate for a different condition than CAP vs HAP",
+    "option_d": "Option that misses a key diagnostic clue for CAP vs HAP",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CAP vs HAP at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q075): A febrile patient presentation suggests endocarditis Duke criteria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in endocarditis Duke criteria",
+    "option_b": "Most appropriate diagnosis/therapy for endocarditis Duke criteria",
+    "option_c": "Option appropriate for a different condition than endocarditis Duke criteria",
+    "option_d": "Option that misses a key diagnostic clue for endocarditis Duke criteria",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocarditis Duke criteria at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q076): A febrile patient presentation suggests tuberculosis diagnosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in tuberculosis diagnosis",
+    "option_b": "Option that misses a key diagnostic clue for tuberculosis diagnosis",
+    "option_c": "Option appropriate for a different condition than tuberculosis diagnosis",
+    "option_d": "Most appropriate diagnosis/therapy for tuberculosis diagnosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tuberculosis diagnosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q077): A febrile patient presentation suggests STIs. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for STIs",
+    "option_b": "Option that is contraindicated or unsafe in STIs",
+    "option_c": "Option that misses a key diagnostic clue for STIs",
+    "option_d": "Option appropriate for a different condition than STIs",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for STIs at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q078): A febrile patient presentation suggests opportunistic infections. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than opportunistic infections",
+    "option_b": "Option that is contraindicated or unsafe in opportunistic infections",
+    "option_c": "Most appropriate diagnosis/therapy for opportunistic infections",
+    "option_d": "Option that misses a key diagnostic clue for opportunistic infections",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for opportunistic infections at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q079): A febrile patient presentation suggests Staphylococcus aureus infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Staphylococcus aureus infection",
+    "option_b": "Option that is contraindicated or unsafe in Staphylococcus aureus infection",
+    "option_c": "Option that misses a key diagnostic clue for Staphylococcus aureus infection",
+    "option_d": "Option appropriate for a different condition than Staphylococcus aureus infection",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Staphylococcus aureus infection at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q080): A febrile patient presentation suggests Streptococcal pharyngitis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Streptococcal pharyngitis",
+    "option_b": "Most appropriate diagnosis/therapy for Streptococcal pharyngitis",
+    "option_c": "Option that is contraindicated or unsafe in Streptococcal pharyngitis",
+    "option_d": "Option that misses a key diagnostic clue for Streptococcal pharyngitis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Streptococcal pharyngitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q081): A febrile patient presentation suggests E. coli UTI. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for E. coli UTI",
+    "option_b": "Option appropriate for a different condition than E. coli UTI",
+    "option_c": "Option that is contraindicated or unsafe in E. coli UTI",
+    "option_d": "Most appropriate diagnosis/therapy for E. coli UTI",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for E. coli UTI at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q082): A febrile patient presentation suggests Pseudomonas infection. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Pseudomonas infection",
+    "option_b": "Option appropriate for a different condition than Pseudomonas infection",
+    "option_c": "Option that misses a key diagnostic clue for Pseudomonas infection",
+    "option_d": "Option that is contraindicated or unsafe in Pseudomonas infection",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Pseudomonas infection at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q083): A febrile patient presentation suggests MRSA. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in MRSA",
+    "option_b": "Option appropriate for a different condition than MRSA",
+    "option_c": "Option that misses a key diagnostic clue for MRSA",
+    "option_d": "Most appropriate diagnosis/therapy for MRSA",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRSA at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q084): A febrile patient presentation suggests VRE. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for VRE",
+    "option_b": "Option appropriate for a different condition than VRE",
+    "option_c": "Option that misses a key diagnostic clue for VRE",
+    "option_d": "Option that is contraindicated or unsafe in VRE",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for VRE at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q085): A febrile patient presentation suggests HIV staging. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for HIV staging",
+    "option_b": "Option that is contraindicated or unsafe in HIV staging",
+    "option_c": "Option that misses a key diagnostic clue for HIV staging",
+    "option_d": "Option appropriate for a different condition than HIV staging",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for HIV staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q086): A febrile patient presentation suggests Hepatitis serology. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in Hepatitis serology",
+    "option_b": "Most appropriate diagnosis/therapy for Hepatitis serology",
+    "option_c": "Option appropriate for a different condition than Hepatitis serology",
+    "option_d": "Option that misses a key diagnostic clue for Hepatitis serology",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hepatitis serology at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q087): A febrile patient presentation suggests influenza. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than influenza",
+    "option_b": "Option that misses a key diagnostic clue for influenza",
+    "option_c": "Option that is contraindicated or unsafe in influenza",
+    "option_d": "Most appropriate diagnosis/therapy for influenza",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for influenza at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q088): A febrile patient presentation suggests CMV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that misses a key diagnostic clue for CMV",
+    "option_b": "Option appropriate for a different condition than CMV",
+    "option_c": "Option that is contraindicated or unsafe in CMV",
+    "option_d": "Most appropriate diagnosis/therapy for CMV",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CMV at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q089): A febrile patient presentation suggests EBV. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than EBV",
+    "option_b": "Most appropriate diagnosis/therapy for EBV",
+    "option_c": "Option that is contraindicated or unsafe in EBV",
+    "option_d": "Option that misses a key diagnostic clue for EBV",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for EBV at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q090): A febrile patient presentation suggests Candida. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for Candida",
+    "option_b": "Option that misses a key diagnostic clue for Candida",
+    "option_c": "Option appropriate for a different condition than Candida",
+    "option_d": "Option that is contraindicated or unsafe in Candida",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Candida at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q091): A febrile patient presentation suggests Aspergillus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in Aspergillus",
+    "option_b": "Most appropriate diagnosis/therapy for Aspergillus",
+    "option_c": "Option that misses a key diagnostic clue for Aspergillus",
+    "option_d": "Option appropriate for a different condition than Aspergillus",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Aspergillus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q092): A febrile patient presentation suggests Cryptococcus. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than Cryptococcus",
+    "option_b": "Most appropriate diagnosis/therapy for Cryptococcus",
+    "option_c": "Option that is contraindicated or unsafe in Cryptococcus",
+    "option_d": "Option that misses a key diagnostic clue for Cryptococcus",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Cryptococcus at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q093): A febrile patient presentation suggests PCP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in PCP",
+    "option_b": "Most appropriate diagnosis/therapy for PCP",
+    "option_c": "Option that misses a key diagnostic clue for PCP",
+    "option_d": "Option appropriate for a different condition than PCP",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for PCP at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q094): A febrile patient presentation suggests malaria. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for malaria",
+    "option_b": "Option that misses a key diagnostic clue for malaria",
+    "option_c": "Option appropriate for a different condition than malaria",
+    "option_d": "Option that is contraindicated or unsafe in malaria",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for malaria at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q095): A febrile patient presentation suggests toxoplasmosis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for toxoplasmosis",
+    "option_b": "Option that is contraindicated or unsafe in toxoplasmosis",
+    "option_c": "Option that misses a key diagnostic clue for toxoplasmosis",
+    "option_d": "Option appropriate for a different condition than toxoplasmosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxoplasmosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q096): A febrile patient presentation suggests antibiotic mechanisms. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for antibiotic mechanisms",
+    "option_b": "Option appropriate for a different condition than antibiotic mechanisms",
+    "option_c": "Option that misses a key diagnostic clue for antibiotic mechanisms",
+    "option_d": "Option that is contraindicated or unsafe in antibiotic mechanisms",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic mechanisms at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q097): A febrile patient presentation suggests antibiotic resistance. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option that is contraindicated or unsafe in antibiotic resistance",
+    "option_b": "Option appropriate for a different condition than antibiotic resistance",
+    "option_c": "Most appropriate diagnosis/therapy for antibiotic resistance",
+    "option_d": "Option that misses a key diagnostic clue for antibiotic resistance",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for antibiotic resistance at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q098): A febrile patient presentation suggests sepsis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than sepsis",
+    "option_b": "Option that is contraindicated or unsafe in sepsis",
+    "option_c": "Option that misses a key diagnostic clue for sepsis",
+    "option_d": "Most appropriate diagnosis/therapy for sepsis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q099): A febrile patient presentation suggests meningitis CSF analysis. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Most appropriate diagnosis/therapy for meningitis CSF analysis",
+    "option_b": "Option that misses a key diagnostic clue for meningitis CSF analysis",
+    "option_c": "Option that is contraindicated or unsafe in meningitis CSF analysis",
+    "option_d": "Option appropriate for a different condition than meningitis CSF analysis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for meningitis CSF analysis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Infectious Diseases (Q100): A febrile patient presentation suggests CAP vs HAP. What is the most appropriate diagnosis or therapy?",
+    "option_a": "Option appropriate for a different condition than CAP vs HAP",
+    "option_b": "Option that misses a key diagnostic clue for CAP vs HAP",
+    "option_c": "Most appropriate diagnosis/therapy for CAP vs HAP",
+    "option_d": "Option that is contraindicated or unsafe in CAP vs HAP",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CAP vs HAP at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

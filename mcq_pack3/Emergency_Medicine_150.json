@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Emergency Medicine (Q001): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for BLS/ACLS basics",
+    "option_b": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "option_c": "Option appropriate for a different condition than BLS/ACLS basics",
+    "option_d": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q002): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_b": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "option_c": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "option_d": "Immediate action most appropriate for cardiac arrest algorithm",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q003): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in acute MI management",
+    "option_b": "Option that misses a key diagnostic clue for acute MI management",
+    "option_c": "Immediate action most appropriate for acute MI management",
+    "option_d": "Option appropriate for a different condition than acute MI management",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q004): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in stroke code",
+    "option_b": "Option appropriate for a different condition than stroke code",
+    "option_c": "Immediate action most appropriate for stroke code",
+    "option_d": "Option that misses a key diagnostic clue for stroke code",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q005): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for trauma primary survey",
+    "option_b": "Option appropriate for a different condition than trauma primary survey",
+    "option_c": "Option that is contraindicated or unsafe in trauma primary survey",
+    "option_d": "Option that misses a key diagnostic clue for trauma primary survey",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q006): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for FAST exam",
+    "option_b": "Immediate action most appropriate for FAST exam",
+    "option_c": "Option appropriate for a different condition than FAST exam",
+    "option_d": "Option that is contraindicated or unsafe in FAST exam",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q007): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for shock types",
+    "option_b": "Option appropriate for a different condition than shock types",
+    "option_c": "Option that is contraindicated or unsafe in shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q008): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in anaphylaxis",
+    "option_b": "Option appropriate for a different condition than anaphylaxis",
+    "option_c": "Option that misses a key diagnostic clue for anaphylaxis",
+    "option_d": "Immediate action most appropriate for anaphylaxis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q009): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than airway management",
+    "option_b": "Option that misses a key diagnostic clue for airway management",
+    "option_c": "Option that is contraindicated or unsafe in airway management",
+    "option_d": "Immediate action most appropriate for airway management",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q010): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "option_b": "Immediate action most appropriate for burns Rule of 9s",
+    "option_c": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "option_d": "Option appropriate for a different condition than burns Rule of 9s",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q011): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in Parkland formula",
+    "option_b": "Option that misses a key diagnostic clue for Parkland formula",
+    "option_c": "Option appropriate for a different condition than Parkland formula",
+    "option_d": "Immediate action most appropriate for Parkland formula",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q012): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than toxicology antidotes",
+    "option_b": "Immediate action most appropriate for toxicology antidotes",
+    "option_c": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "option_d": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q013): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than N-acetylcysteine",
+    "option_b": "Immediate action most appropriate for N-acetylcysteine",
+    "option_c": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "option_d": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q014): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in flumazenil",
+    "option_b": "Option appropriate for a different condition than flumazenil",
+    "option_c": "Option that misses a key diagnostic clue for flumazenil",
+    "option_d": "Immediate action most appropriate for flumazenil",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q015): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for naloxone",
+    "option_b": "Option appropriate for a different condition than naloxone",
+    "option_c": "Option that is contraindicated or unsafe in naloxone",
+    "option_d": "Immediate action most appropriate for naloxone",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q016): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than digoxin Fab",
+    "option_b": "Option that misses a key diagnostic clue for digoxin Fab",
+    "option_c": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_d": "Immediate action most appropriate for digoxin Fab",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q017): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for electrolyte emergencies",
+    "option_b": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_c": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "option_d": "Option appropriate for a different condition than electrolyte emergencies",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q018): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for DKA/HHS",
+    "option_b": "Option that is contraindicated or unsafe in DKA/HHS",
+    "option_c": "Option that misses a key diagnostic clue for DKA/HHS",
+    "option_d": "Option appropriate for a different condition than DKA/HHS",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q019): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in acute abdomen",
+    "option_b": "Option that misses a key diagnostic clue for acute abdomen",
+    "option_c": "Immediate action most appropriate for acute abdomen",
+    "option_d": "Option appropriate for a different condition than acute abdomen",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q020): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in GI bleeding",
+    "option_b": "Immediate action most appropriate for GI bleeding",
+    "option_c": "Option that misses a key diagnostic clue for GI bleeding",
+    "option_d": "Option appropriate for a different condition than GI bleeding",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q021): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for sepsis bundle",
+    "option_b": "Immediate action most appropriate for sepsis bundle",
+    "option_c": "Option appropriate for a different condition than sepsis bundle",
+    "option_d": "Option that is contraindicated or unsafe in sepsis bundle",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q022): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in hypothermia",
+    "option_b": "Option appropriate for a different condition than hypothermia",
+    "option_c": "Option that misses a key diagnostic clue for hypothermia",
+    "option_d": "Immediate action most appropriate for hypothermia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q023): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in heat stroke",
+    "option_b": "Option that misses a key diagnostic clue for heat stroke",
+    "option_c": "Option appropriate for a different condition than heat stroke",
+    "option_d": "Immediate action most appropriate for heat stroke",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q024): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for drowning",
+    "option_b": "Option that is contraindicated or unsafe in drowning",
+    "option_c": "Option appropriate for a different condition than drowning",
+    "option_d": "Option that misses a key diagnostic clue for drowning",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q025): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for procedural sedation",
+    "option_b": "Option appropriate for a different condition than procedural sedation",
+    "option_c": "Option that misses a key diagnostic clue for procedural sedation",
+    "option_d": "Option that is contraindicated or unsafe in procedural sedation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q026): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for BLS/ACLS basics",
+    "option_b": "Option appropriate for a different condition than BLS/ACLS basics",
+    "option_c": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "option_d": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q027): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_b": "Immediate action most appropriate for cardiac arrest algorithm",
+    "option_c": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "option_d": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q028): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for acute MI management",
+    "option_b": "Option that is contraindicated or unsafe in acute MI management",
+    "option_c": "Option that misses a key diagnostic clue for acute MI management",
+    "option_d": "Option appropriate for a different condition than acute MI management",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q029): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for stroke code",
+    "option_b": "Option appropriate for a different condition than stroke code",
+    "option_c": "Immediate action most appropriate for stroke code",
+    "option_d": "Option that is contraindicated or unsafe in stroke code",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q030): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for trauma primary survey",
+    "option_b": "Option appropriate for a different condition than trauma primary survey",
+    "option_c": "Option that is contraindicated or unsafe in trauma primary survey",
+    "option_d": "Immediate action most appropriate for trauma primary survey",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q031): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for FAST exam",
+    "option_b": "Option that misses a key diagnostic clue for FAST exam",
+    "option_c": "Option appropriate for a different condition than FAST exam",
+    "option_d": "Option that is contraindicated or unsafe in FAST exam",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q032): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for shock types",
+    "option_b": "Option appropriate for a different condition than shock types",
+    "option_c": "Option that is contraindicated or unsafe in shock types",
+    "option_d": "Immediate action most appropriate for shock types",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q033): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in anaphylaxis",
+    "option_b": "Option appropriate for a different condition than anaphylaxis",
+    "option_c": "Immediate action most appropriate for anaphylaxis",
+    "option_d": "Option that misses a key diagnostic clue for anaphylaxis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q034): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than airway management",
+    "option_b": "Immediate action most appropriate for airway management",
+    "option_c": "Option that misses a key diagnostic clue for airway management",
+    "option_d": "Option that is contraindicated or unsafe in airway management",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q035): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for burns Rule of 9s",
+    "option_b": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "option_c": "Option appropriate for a different condition than burns Rule of 9s",
+    "option_d": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q036): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in Parkland formula",
+    "option_b": "Option appropriate for a different condition than Parkland formula",
+    "option_c": "Immediate action most appropriate for Parkland formula",
+    "option_d": "Option that misses a key diagnostic clue for Parkland formula",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q037): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than toxicology antidotes",
+    "option_b": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "option_c": "Immediate action most appropriate for toxicology antidotes",
+    "option_d": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q038): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for N-acetylcysteine",
+    "option_b": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "option_c": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "option_d": "Option appropriate for a different condition than N-acetylcysteine",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q039): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than flumazenil",
+    "option_b": "Immediate action most appropriate for flumazenil",
+    "option_c": "Option that is contraindicated or unsafe in flumazenil",
+    "option_d": "Option that misses a key diagnostic clue for flumazenil",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q040): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for naloxone",
+    "option_b": "Immediate action most appropriate for naloxone",
+    "option_c": "Option appropriate for a different condition than naloxone",
+    "option_d": "Option that is contraindicated or unsafe in naloxone",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q041): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than digoxin Fab",
+    "option_b": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_c": "Immediate action most appropriate for digoxin Fab",
+    "option_d": "Option that misses a key diagnostic clue for digoxin Fab",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q042): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_b": "Option appropriate for a different condition than electrolyte emergencies",
+    "option_c": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "option_d": "Immediate action most appropriate for electrolyte emergencies",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q043): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for DKA/HHS",
+    "option_b": "Option appropriate for a different condition than DKA/HHS",
+    "option_c": "Option that misses a key diagnostic clue for DKA/HHS",
+    "option_d": "Option that is contraindicated or unsafe in DKA/HHS",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q044): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for acute abdomen",
+    "option_b": "Option that is contraindicated or unsafe in acute abdomen",
+    "option_c": "Immediate action most appropriate for acute abdomen",
+    "option_d": "Option appropriate for a different condition than acute abdomen",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q045): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for GI bleeding",
+    "option_b": "Option that is contraindicated or unsafe in GI bleeding",
+    "option_c": "Option appropriate for a different condition than GI bleeding",
+    "option_d": "Immediate action most appropriate for GI bleeding",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q046): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for sepsis bundle",
+    "option_b": "Option appropriate for a different condition than sepsis bundle",
+    "option_c": "Immediate action most appropriate for sepsis bundle",
+    "option_d": "Option that is contraindicated or unsafe in sepsis bundle",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q047): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in hypothermia",
+    "option_b": "Option appropriate for a different condition than hypothermia",
+    "option_c": "Option that misses a key diagnostic clue for hypothermia",
+    "option_d": "Immediate action most appropriate for hypothermia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q048): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for heat stroke",
+    "option_b": "Option that is contraindicated or unsafe in heat stroke",
+    "option_c": "Option appropriate for a different condition than heat stroke",
+    "option_d": "Option that misses a key diagnostic clue for heat stroke",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q049): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for drowning",
+    "option_b": "Option that is contraindicated or unsafe in drowning",
+    "option_c": "Option appropriate for a different condition than drowning",
+    "option_d": "Option that misses a key diagnostic clue for drowning",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q050): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for procedural sedation",
+    "option_b": "Option that is contraindicated or unsafe in procedural sedation",
+    "option_c": "Immediate action most appropriate for procedural sedation",
+    "option_d": "Option appropriate for a different condition than procedural sedation",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q051): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for BLS/ACLS basics",
+    "option_b": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "option_c": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "option_d": "Option appropriate for a different condition than BLS/ACLS basics",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q052): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "option_b": "Immediate action most appropriate for cardiac arrest algorithm",
+    "option_c": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_d": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q053): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than acute MI management",
+    "option_b": "Option that is contraindicated or unsafe in acute MI management",
+    "option_c": "Immediate action most appropriate for acute MI management",
+    "option_d": "Option that misses a key diagnostic clue for acute MI management",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q054): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in stroke code",
+    "option_b": "Option that misses a key diagnostic clue for stroke code",
+    "option_c": "Option appropriate for a different condition than stroke code",
+    "option_d": "Immediate action most appropriate for stroke code",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q055): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for trauma primary survey",
+    "option_b": "Option appropriate for a different condition than trauma primary survey",
+    "option_c": "Option that misses a key diagnostic clue for trauma primary survey",
+    "option_d": "Option that is contraindicated or unsafe in trauma primary survey",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q056): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in FAST exam",
+    "option_b": "Option that misses a key diagnostic clue for FAST exam",
+    "option_c": "Option appropriate for a different condition than FAST exam",
+    "option_d": "Immediate action most appropriate for FAST exam",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q057): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in shock types",
+    "option_b": "Immediate action most appropriate for shock types",
+    "option_c": "Option appropriate for a different condition than shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q058): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for anaphylaxis",
+    "option_b": "Option appropriate for a different condition than anaphylaxis",
+    "option_c": "Option that is contraindicated or unsafe in anaphylaxis",
+    "option_d": "Option that misses a key diagnostic clue for anaphylaxis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q059): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in airway management",
+    "option_b": "Option appropriate for a different condition than airway management",
+    "option_c": "Option that misses a key diagnostic clue for airway management",
+    "option_d": "Immediate action most appropriate for airway management",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q060): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for burns Rule of 9s",
+    "option_b": "Option appropriate for a different condition than burns Rule of 9s",
+    "option_c": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "option_d": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q061): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for Parkland formula",
+    "option_b": "Option that is contraindicated or unsafe in Parkland formula",
+    "option_c": "Immediate action most appropriate for Parkland formula",
+    "option_d": "Option appropriate for a different condition than Parkland formula",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q062): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "option_b": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "option_c": "Option appropriate for a different condition than toxicology antidotes",
+    "option_d": "Immediate action most appropriate for toxicology antidotes",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q063): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "option_b": "Option appropriate for a different condition than N-acetylcysteine",
+    "option_c": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "option_d": "Immediate action most appropriate for N-acetylcysteine",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q064): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than flumazenil",
+    "option_b": "Immediate action most appropriate for flumazenil",
+    "option_c": "Option that misses a key diagnostic clue for flumazenil",
+    "option_d": "Option that is contraindicated or unsafe in flumazenil",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q065): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for naloxone",
+    "option_b": "Option that misses a key diagnostic clue for naloxone",
+    "option_c": "Option appropriate for a different condition than naloxone",
+    "option_d": "Option that is contraindicated or unsafe in naloxone",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q066): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for digoxin Fab",
+    "option_b": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_c": "Immediate action most appropriate for digoxin Fab",
+    "option_d": "Option appropriate for a different condition than digoxin Fab",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q067): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_b": "Immediate action most appropriate for electrolyte emergencies",
+    "option_c": "Option appropriate for a different condition than electrolyte emergencies",
+    "option_d": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q068): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for DKA/HHS",
+    "option_b": "Option that is contraindicated or unsafe in DKA/HHS",
+    "option_c": "Immediate action most appropriate for DKA/HHS",
+    "option_d": "Option appropriate for a different condition than DKA/HHS",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q069): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in acute abdomen",
+    "option_b": "Option that misses a key diagnostic clue for acute abdomen",
+    "option_c": "Option appropriate for a different condition than acute abdomen",
+    "option_d": "Immediate action most appropriate for acute abdomen",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q070): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for GI bleeding",
+    "option_b": "Option that is contraindicated or unsafe in GI bleeding",
+    "option_c": "Option that misses a key diagnostic clue for GI bleeding",
+    "option_d": "Option appropriate for a different condition than GI bleeding",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q071): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for sepsis bundle",
+    "option_b": "Option appropriate for a different condition than sepsis bundle",
+    "option_c": "Option that is contraindicated or unsafe in sepsis bundle",
+    "option_d": "Immediate action most appropriate for sepsis bundle",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q072): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than hypothermia",
+    "option_b": "Immediate action most appropriate for hypothermia",
+    "option_c": "Option that misses a key diagnostic clue for hypothermia",
+    "option_d": "Option that is contraindicated or unsafe in hypothermia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q073): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than heat stroke",
+    "option_b": "Option that is contraindicated or unsafe in heat stroke",
+    "option_c": "Immediate action most appropriate for heat stroke",
+    "option_d": "Option that misses a key diagnostic clue for heat stroke",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q074): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for drowning",
+    "option_b": "Option that is contraindicated or unsafe in drowning",
+    "option_c": "Option appropriate for a different condition than drowning",
+    "option_d": "Option that misses a key diagnostic clue for drowning",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q075): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in procedural sedation",
+    "option_b": "Immediate action most appropriate for procedural sedation",
+    "option_c": "Option appropriate for a different condition than procedural sedation",
+    "option_d": "Option that misses a key diagnostic clue for procedural sedation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q076): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than BLS/ACLS basics",
+    "option_b": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "option_c": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "option_d": "Immediate action most appropriate for BLS/ACLS basics",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q077): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for cardiac arrest algorithm",
+    "option_b": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "option_c": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_d": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q078): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for acute MI management",
+    "option_b": "Immediate action most appropriate for acute MI management",
+    "option_c": "Option appropriate for a different condition than acute MI management",
+    "option_d": "Option that is contraindicated or unsafe in acute MI management",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q079): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for stroke code",
+    "option_b": "Option appropriate for a different condition than stroke code",
+    "option_c": "Immediate action most appropriate for stroke code",
+    "option_d": "Option that is contraindicated or unsafe in stroke code",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q080): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in trauma primary survey",
+    "option_b": "Immediate action most appropriate for trauma primary survey",
+    "option_c": "Option that misses a key diagnostic clue for trauma primary survey",
+    "option_d": "Option appropriate for a different condition than trauma primary survey",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q081): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in FAST exam",
+    "option_b": "Option that misses a key diagnostic clue for FAST exam",
+    "option_c": "Option appropriate for a different condition than FAST exam",
+    "option_d": "Immediate action most appropriate for FAST exam",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q082): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for shock types",
+    "option_b": "Option that is contraindicated or unsafe in shock types",
+    "option_c": "Option appropriate for a different condition than shock types",
+    "option_d": "Immediate action most appropriate for shock types",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q083): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in anaphylaxis",
+    "option_b": "Option appropriate for a different condition than anaphylaxis",
+    "option_c": "Immediate action most appropriate for anaphylaxis",
+    "option_d": "Option that misses a key diagnostic clue for anaphylaxis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q084): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for airway management",
+    "option_b": "Immediate action most appropriate for airway management",
+    "option_c": "Option that is contraindicated or unsafe in airway management",
+    "option_d": "Option appropriate for a different condition than airway management",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q085): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "option_b": "Option appropriate for a different condition than burns Rule of 9s",
+    "option_c": "Immediate action most appropriate for burns Rule of 9s",
+    "option_d": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q086): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for Parkland formula",
+    "option_b": "Option appropriate for a different condition than Parkland formula",
+    "option_c": "Option that is contraindicated or unsafe in Parkland formula",
+    "option_d": "Option that misses a key diagnostic clue for Parkland formula",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q087): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for toxicology antidotes",
+    "option_b": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "option_c": "Option appropriate for a different condition than toxicology antidotes",
+    "option_d": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q088): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "option_b": "Immediate action most appropriate for N-acetylcysteine",
+    "option_c": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "option_d": "Option appropriate for a different condition than N-acetylcysteine",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q089): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for flumazenil",
+    "option_b": "Immediate action most appropriate for flumazenil",
+    "option_c": "Option appropriate for a different condition than flumazenil",
+    "option_d": "Option that is contraindicated or unsafe in flumazenil",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q090): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than naloxone",
+    "option_b": "Option that misses a key diagnostic clue for naloxone",
+    "option_c": "Option that is contraindicated or unsafe in naloxone",
+    "option_d": "Immediate action most appropriate for naloxone",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q091): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for digoxin Fab",
+    "option_b": "Option appropriate for a different condition than digoxin Fab",
+    "option_c": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_d": "Option that misses a key diagnostic clue for digoxin Fab",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q092): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "option_b": "Immediate action most appropriate for electrolyte emergencies",
+    "option_c": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_d": "Option appropriate for a different condition than electrolyte emergencies",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q093): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in DKA/HHS",
+    "option_b": "Option appropriate for a different condition than DKA/HHS",
+    "option_c": "Immediate action most appropriate for DKA/HHS",
+    "option_d": "Option that misses a key diagnostic clue for DKA/HHS",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q094): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for acute abdomen",
+    "option_b": "Option that misses a key diagnostic clue for acute abdomen",
+    "option_c": "Option that is contraindicated or unsafe in acute abdomen",
+    "option_d": "Option appropriate for a different condition than acute abdomen",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q095): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for GI bleeding",
+    "option_b": "Immediate action most appropriate for GI bleeding",
+    "option_c": "Option that is contraindicated or unsafe in GI bleeding",
+    "option_d": "Option appropriate for a different condition than GI bleeding",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q096): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in sepsis bundle",
+    "option_b": "Immediate action most appropriate for sepsis bundle",
+    "option_c": "Option appropriate for a different condition than sepsis bundle",
+    "option_d": "Option that misses a key diagnostic clue for sepsis bundle",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q097): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for hypothermia",
+    "option_b": "Option that is contraindicated or unsafe in hypothermia",
+    "option_c": "Immediate action most appropriate for hypothermia",
+    "option_d": "Option appropriate for a different condition than hypothermia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q098): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for heat stroke",
+    "option_b": "Option that misses a key diagnostic clue for heat stroke",
+    "option_c": "Option that is contraindicated or unsafe in heat stroke",
+    "option_d": "Option appropriate for a different condition than heat stroke",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q099): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for drowning",
+    "option_b": "Option that is contraindicated or unsafe in drowning",
+    "option_c": "Option appropriate for a different condition than drowning",
+    "option_d": "Immediate action most appropriate for drowning",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q100): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than procedural sedation",
+    "option_b": "Option that misses a key diagnostic clue for procedural sedation",
+    "option_c": "Immediate action most appropriate for procedural sedation",
+    "option_d": "Option that is contraindicated or unsafe in procedural sedation",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q101): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "option_b": "Immediate action most appropriate for BLS/ACLS basics",
+    "option_c": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "option_d": "Option appropriate for a different condition than BLS/ACLS basics",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q102): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "option_b": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_c": "Immediate action most appropriate for cardiac arrest algorithm",
+    "option_d": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q103): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for acute MI management",
+    "option_b": "Option that is contraindicated or unsafe in acute MI management",
+    "option_c": "Immediate action most appropriate for acute MI management",
+    "option_d": "Option appropriate for a different condition than acute MI management",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q104): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for stroke code",
+    "option_b": "Option that is contraindicated or unsafe in stroke code",
+    "option_c": "Option appropriate for a different condition than stroke code",
+    "option_d": "Option that misses a key diagnostic clue for stroke code",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q105): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for trauma primary survey",
+    "option_b": "Option appropriate for a different condition than trauma primary survey",
+    "option_c": "Option that is contraindicated or unsafe in trauma primary survey",
+    "option_d": "Option that misses a key diagnostic clue for trauma primary survey",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q106): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in FAST exam",
+    "option_b": "Option appropriate for a different condition than FAST exam",
+    "option_c": "Immediate action most appropriate for FAST exam",
+    "option_d": "Option that misses a key diagnostic clue for FAST exam",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q107): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in shock types",
+    "option_b": "Immediate action most appropriate for shock types",
+    "option_c": "Option appropriate for a different condition than shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q108): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in anaphylaxis",
+    "option_b": "Option that misses a key diagnostic clue for anaphylaxis",
+    "option_c": "Option appropriate for a different condition than anaphylaxis",
+    "option_d": "Immediate action most appropriate for anaphylaxis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q109): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in airway management",
+    "option_b": "Option that misses a key diagnostic clue for airway management",
+    "option_c": "Option appropriate for a different condition than airway management",
+    "option_d": "Immediate action most appropriate for airway management",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q110): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for burns Rule of 9s",
+    "option_b": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "option_c": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "option_d": "Option appropriate for a different condition than burns Rule of 9s",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q111): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than Parkland formula",
+    "option_b": "Option that misses a key diagnostic clue for Parkland formula",
+    "option_c": "Immediate action most appropriate for Parkland formula",
+    "option_d": "Option that is contraindicated or unsafe in Parkland formula",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q112): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "option_b": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "option_c": "Immediate action most appropriate for toxicology antidotes",
+    "option_d": "Option appropriate for a different condition than toxicology antidotes",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q113): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "option_b": "Option appropriate for a different condition than N-acetylcysteine",
+    "option_c": "Immediate action most appropriate for N-acetylcysteine",
+    "option_d": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q114): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in flumazenil",
+    "option_b": "Option that misses a key diagnostic clue for flumazenil",
+    "option_c": "Option appropriate for a different condition than flumazenil",
+    "option_d": "Immediate action most appropriate for flumazenil",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q115): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in naloxone",
+    "option_b": "Immediate action most appropriate for naloxone",
+    "option_c": "Option appropriate for a different condition than naloxone",
+    "option_d": "Option that misses a key diagnostic clue for naloxone",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q116): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for digoxin Fab",
+    "option_b": "Option appropriate for a different condition than digoxin Fab",
+    "option_c": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_d": "Immediate action most appropriate for digoxin Fab",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q117): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for electrolyte emergencies",
+    "option_b": "Option appropriate for a different condition than electrolyte emergencies",
+    "option_c": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_d": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q118): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than DKA/HHS",
+    "option_b": "Option that misses a key diagnostic clue for DKA/HHS",
+    "option_c": "Immediate action most appropriate for DKA/HHS",
+    "option_d": "Option that is contraindicated or unsafe in DKA/HHS",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q119): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in acute abdomen",
+    "option_b": "Immediate action most appropriate for acute abdomen",
+    "option_c": "Option appropriate for a different condition than acute abdomen",
+    "option_d": "Option that misses a key diagnostic clue for acute abdomen",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q120): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in GI bleeding",
+    "option_b": "Option appropriate for a different condition than GI bleeding",
+    "option_c": "Immediate action most appropriate for GI bleeding",
+    "option_d": "Option that misses a key diagnostic clue for GI bleeding",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q121): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in sepsis bundle",
+    "option_b": "Option that misses a key diagnostic clue for sepsis bundle",
+    "option_c": "Option appropriate for a different condition than sepsis bundle",
+    "option_d": "Immediate action most appropriate for sepsis bundle",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q122): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for hypothermia",
+    "option_b": "Option that is contraindicated or unsafe in hypothermia",
+    "option_c": "Option that misses a key diagnostic clue for hypothermia",
+    "option_d": "Option appropriate for a different condition than hypothermia",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q123): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for heat stroke",
+    "option_b": "Option that is contraindicated or unsafe in heat stroke",
+    "option_c": "Immediate action most appropriate for heat stroke",
+    "option_d": "Option appropriate for a different condition than heat stroke",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q124): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for drowning",
+    "option_b": "Option appropriate for a different condition than drowning",
+    "option_c": "Option that is contraindicated or unsafe in drowning",
+    "option_d": "Immediate action most appropriate for drowning",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q125): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for procedural sedation",
+    "option_b": "Immediate action most appropriate for procedural sedation",
+    "option_c": "Option appropriate for a different condition than procedural sedation",
+    "option_d": "Option that is contraindicated or unsafe in procedural sedation",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q126): In the emergency department, the scenario suggests BLS/ACLS basics. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for BLS/ACLS basics",
+    "option_b": "Immediate action most appropriate for BLS/ACLS basics",
+    "option_c": "Option appropriate for a different condition than BLS/ACLS basics",
+    "option_d": "Option that is contraindicated or unsafe in BLS/ACLS basics",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for BLS/ACLS basics at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q127): In the emergency department, the scenario suggests cardiac arrest algorithm. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in cardiac arrest algorithm",
+    "option_b": "Option that misses a key diagnostic clue for cardiac arrest algorithm",
+    "option_c": "Option appropriate for a different condition than cardiac arrest algorithm",
+    "option_d": "Immediate action most appropriate for cardiac arrest algorithm",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiac arrest algorithm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q128): In the emergency department, the scenario suggests acute MI management. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in acute MI management",
+    "option_b": "Immediate action most appropriate for acute MI management",
+    "option_c": "Option that misses a key diagnostic clue for acute MI management",
+    "option_d": "Option appropriate for a different condition than acute MI management",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute MI management at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q129): In the emergency department, the scenario suggests stroke code. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for stroke code",
+    "option_b": "Option appropriate for a different condition than stroke code",
+    "option_c": "Option that is contraindicated or unsafe in stroke code",
+    "option_d": "Immediate action most appropriate for stroke code",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for stroke code at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q130): In the emergency department, the scenario suggests trauma primary survey. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for trauma primary survey",
+    "option_b": "Option that is contraindicated or unsafe in trauma primary survey",
+    "option_c": "Option appropriate for a different condition than trauma primary survey",
+    "option_d": "Immediate action most appropriate for trauma primary survey",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for trauma primary survey at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q131): In the emergency department, the scenario suggests FAST exam. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for FAST exam",
+    "option_b": "Option that is contraindicated or unsafe in FAST exam",
+    "option_c": "Option appropriate for a different condition than FAST exam",
+    "option_d": "Option that misses a key diagnostic clue for FAST exam",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for FAST exam at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q132): In the emergency department, the scenario suggests shock types. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than shock types",
+    "option_b": "Immediate action most appropriate for shock types",
+    "option_c": "Option that is contraindicated or unsafe in shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q133): In the emergency department, the scenario suggests anaphylaxis. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than anaphylaxis",
+    "option_b": "Option that misses a key diagnostic clue for anaphylaxis",
+    "option_c": "Immediate action most appropriate for anaphylaxis",
+    "option_d": "Option that is contraindicated or unsafe in anaphylaxis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for anaphylaxis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q134): In the emergency department, the scenario suggests airway management. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in airway management",
+    "option_b": "Option that misses a key diagnostic clue for airway management",
+    "option_c": "Immediate action most appropriate for airway management",
+    "option_d": "Option appropriate for a different condition than airway management",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for airway management at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q135): In the emergency department, the scenario suggests burns Rule of 9s. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than burns Rule of 9s",
+    "option_b": "Option that misses a key diagnostic clue for burns Rule of 9s",
+    "option_c": "Immediate action most appropriate for burns Rule of 9s",
+    "option_d": "Option that is contraindicated or unsafe in burns Rule of 9s",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for burns Rule of 9s at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q136): In the emergency department, the scenario suggests Parkland formula. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for Parkland formula",
+    "option_b": "Option appropriate for a different condition than Parkland formula",
+    "option_c": "Immediate action most appropriate for Parkland formula",
+    "option_d": "Option that is contraindicated or unsafe in Parkland formula",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Parkland formula at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q137): In the emergency department, the scenario suggests toxicology antidotes. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for toxicology antidotes",
+    "option_b": "Immediate action most appropriate for toxicology antidotes",
+    "option_c": "Option appropriate for a different condition than toxicology antidotes",
+    "option_d": "Option that is contraindicated or unsafe in toxicology antidotes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for toxicology antidotes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q138): In the emergency department, the scenario suggests N-acetylcysteine. What is the best immediate action?",
+    "option_a": "Option appropriate for a different condition than N-acetylcysteine",
+    "option_b": "Immediate action most appropriate for N-acetylcysteine",
+    "option_c": "Option that is contraindicated or unsafe in N-acetylcysteine",
+    "option_d": "Option that misses a key diagnostic clue for N-acetylcysteine",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for N-acetylcysteine at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q139): In the emergency department, the scenario suggests flumazenil. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for flumazenil",
+    "option_b": "Option that is contraindicated or unsafe in flumazenil",
+    "option_c": "Option appropriate for a different condition than flumazenil",
+    "option_d": "Option that misses a key diagnostic clue for flumazenil",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for flumazenil at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q140): In the emergency department, the scenario suggests naloxone. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for naloxone",
+    "option_b": "Option appropriate for a different condition than naloxone",
+    "option_c": "Option that misses a key diagnostic clue for naloxone",
+    "option_d": "Option that is contraindicated or unsafe in naloxone",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for naloxone at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q141): In the emergency department, the scenario suggests digoxin Fab. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in digoxin Fab",
+    "option_b": "Option appropriate for a different condition than digoxin Fab",
+    "option_c": "Option that misses a key diagnostic clue for digoxin Fab",
+    "option_d": "Immediate action most appropriate for digoxin Fab",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for digoxin Fab at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q142): In the emergency department, the scenario suggests electrolyte emergencies. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in electrolyte emergencies",
+    "option_b": "Option that misses a key diagnostic clue for electrolyte emergencies",
+    "option_c": "Option appropriate for a different condition than electrolyte emergencies",
+    "option_d": "Immediate action most appropriate for electrolyte emergencies",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for electrolyte emergencies at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q143): In the emergency department, the scenario suggests DKA/HHS. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for DKA/HHS",
+    "option_b": "Option appropriate for a different condition than DKA/HHS",
+    "option_c": "Immediate action most appropriate for DKA/HHS",
+    "option_d": "Option that is contraindicated or unsafe in DKA/HHS",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DKA/HHS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q144): In the emergency department, the scenario suggests acute abdomen. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for acute abdomen",
+    "option_b": "Option appropriate for a different condition than acute abdomen",
+    "option_c": "Immediate action most appropriate for acute abdomen",
+    "option_d": "Option that is contraindicated or unsafe in acute abdomen",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute abdomen at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q145): In the emergency department, the scenario suggests GI bleeding. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for GI bleeding",
+    "option_b": "Option that misses a key diagnostic clue for GI bleeding",
+    "option_c": "Option appropriate for a different condition than GI bleeding",
+    "option_d": "Option that is contraindicated or unsafe in GI bleeding",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI bleeding at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q146): In the emergency department, the scenario suggests sepsis bundle. What is the best immediate action?",
+    "option_a": "Immediate action most appropriate for sepsis bundle",
+    "option_b": "Option that is contraindicated or unsafe in sepsis bundle",
+    "option_c": "Option appropriate for a different condition than sepsis bundle",
+    "option_d": "Option that misses a key diagnostic clue for sepsis bundle",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for sepsis bundle at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q147): In the emergency department, the scenario suggests hypothermia. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in hypothermia",
+    "option_b": "Option that misses a key diagnostic clue for hypothermia",
+    "option_c": "Immediate action most appropriate for hypothermia",
+    "option_d": "Option appropriate for a different condition than hypothermia",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hypothermia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q148): In the emergency department, the scenario suggests heat stroke. What is the best immediate action?",
+    "option_a": "Option that misses a key diagnostic clue for heat stroke",
+    "option_b": "Immediate action most appropriate for heat stroke",
+    "option_c": "Option that is contraindicated or unsafe in heat stroke",
+    "option_d": "Option appropriate for a different condition than heat stroke",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for heat stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q149): In the emergency department, the scenario suggests drowning. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in drowning",
+    "option_b": "Immediate action most appropriate for drowning",
+    "option_c": "Option that misses a key diagnostic clue for drowning",
+    "option_d": "Option appropriate for a different condition than drowning",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for drowning at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Emergency Medicine (Q150): In the emergency department, the scenario suggests procedural sedation. What is the best immediate action?",
+    "option_a": "Option that is contraindicated or unsafe in procedural sedation",
+    "option_b": "Immediate action most appropriate for procedural sedation",
+    "option_c": "Option appropriate for a different condition than procedural sedation",
+    "option_d": "Option that misses a key diagnostic clue for procedural sedation",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for procedural sedation at hard level. Distractors represent common pitfalls and alternatives."
+  }
+]

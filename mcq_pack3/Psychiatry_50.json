@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Psychiatry (Q001): A patient presents with symptoms consistent with major depressive disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for major depressive disorder",
+    "option_b": "Option appropriate for a different condition than major depressive disorder",
+    "option_c": "Option that is contraindicated or unsafe in major depressive disorder",
+    "option_d": "Most appropriate answer for major depressive disorder",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for major depressive disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q002): A patient presents with symptoms consistent with bipolar disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for bipolar disorder",
+    "option_b": "Option appropriate for a different condition than bipolar disorder",
+    "option_c": "Option that is contraindicated or unsafe in bipolar disorder",
+    "option_d": "Option that misses a key diagnostic clue for bipolar disorder",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for bipolar disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q003): A patient presents with symptoms consistent with schizophrenia. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than schizophrenia",
+    "option_b": "Most appropriate answer for schizophrenia",
+    "option_c": "Option that is contraindicated or unsafe in schizophrenia",
+    "option_d": "Option that misses a key diagnostic clue for schizophrenia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for schizophrenia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q004): A patient presents with symptoms consistent with generalized anxiety disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for generalized anxiety disorder",
+    "option_b": "Option that is contraindicated or unsafe in generalized anxiety disorder",
+    "option_c": "Option that misses a key diagnostic clue for generalized anxiety disorder",
+    "option_d": "Option appropriate for a different condition than generalized anxiety disorder",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for generalized anxiety disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q005): A patient presents with symptoms consistent with panic disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than panic disorder",
+    "option_b": "Option that is contraindicated or unsafe in panic disorder",
+    "option_c": "Option that misses a key diagnostic clue for panic disorder",
+    "option_d": "Most appropriate answer for panic disorder",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for panic disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q006): A patient presents with symptoms consistent with OCD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than OCD",
+    "option_b": "Option that is contraindicated or unsafe in OCD",
+    "option_c": "Option that misses a key diagnostic clue for OCD",
+    "option_d": "Most appropriate answer for OCD",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for OCD at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q007): A patient presents with symptoms consistent with PTSD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for PTSD",
+    "option_b": "Most appropriate answer for PTSD",
+    "option_c": "Option appropriate for a different condition than PTSD",
+    "option_d": "Option that is contraindicated or unsafe in PTSD",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for PTSD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q008): A patient presents with symptoms consistent with personality disorders. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for personality disorders",
+    "option_b": "Option that misses a key diagnostic clue for personality disorders",
+    "option_c": "Option that is contraindicated or unsafe in personality disorders",
+    "option_d": "Option appropriate for a different condition than personality disorders",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for personality disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q009): A patient presents with symptoms consistent with eating disorders. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for eating disorders",
+    "option_b": "Option appropriate for a different condition than eating disorders",
+    "option_c": "Option that is contraindicated or unsafe in eating disorders",
+    "option_d": "Option that misses a key diagnostic clue for eating disorders",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for eating disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q010): A patient presents with symptoms consistent with ADHD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in ADHD",
+    "option_b": "Most appropriate answer for ADHD",
+    "option_c": "Option that misses a key diagnostic clue for ADHD",
+    "option_d": "Option appropriate for a different condition than ADHD",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ADHD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q011): A patient presents with symptoms consistent with autism spectrum disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in autism spectrum disorder",
+    "option_b": "Most appropriate answer for autism spectrum disorder",
+    "option_c": "Option appropriate for a different condition than autism spectrum disorder",
+    "option_d": "Option that misses a key diagnostic clue for autism spectrum disorder",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for autism spectrum disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q012): A patient presents with symptoms consistent with alcohol withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for alcohol withdrawal",
+    "option_b": "Option appropriate for a different condition than alcohol withdrawal",
+    "option_c": "Option that is contraindicated or unsafe in alcohol withdrawal",
+    "option_d": "Option that misses a key diagnostic clue for alcohol withdrawal",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for alcohol withdrawal at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q013): A patient presents with symptoms consistent with opioid overdose/withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for opioid overdose/withdrawal",
+    "option_b": "Option appropriate for a different condition than opioid overdose/withdrawal",
+    "option_c": "Option that misses a key diagnostic clue for opioid overdose/withdrawal",
+    "option_d": "Option that is contraindicated or unsafe in opioid overdose/withdrawal",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioid overdose/withdrawal at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q014): A patient presents with symptoms consistent with benzodiazepine withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in benzodiazepine withdrawal",
+    "option_b": "Option appropriate for a different condition than benzodiazepine withdrawal",
+    "option_c": "Most appropriate answer for benzodiazepine withdrawal",
+    "option_d": "Option that misses a key diagnostic clue for benzodiazepine withdrawal",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for benzodiazepine withdrawal at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q015): A patient presents with symptoms consistent with SSRIs. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for SSRIs",
+    "option_b": "Option that is contraindicated or unsafe in SSRIs",
+    "option_c": "Option appropriate for a different condition than SSRIs",
+    "option_d": "Option that misses a key diagnostic clue for SSRIs",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for SSRIs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q016): A patient presents with symptoms consistent with SNRIs. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for SNRIs",
+    "option_b": "Option that is contraindicated or unsafe in SNRIs",
+    "option_c": "Option appropriate for a different condition than SNRIs",
+    "option_d": "Option that misses a key diagnostic clue for SNRIs",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for SNRIs at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q017): A patient presents with symptoms consistent with TCAs. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for TCAs",
+    "option_b": "Option appropriate for a different condition than TCAs",
+    "option_c": "Option that is contraindicated or unsafe in TCAs",
+    "option_d": "Option that misses a key diagnostic clue for TCAs",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for TCAs at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q018): A patient presents with symptoms consistent with antipsychotics EPS. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in antipsychotics EPS",
+    "option_b": "Option that misses a key diagnostic clue for antipsychotics EPS",
+    "option_c": "Option appropriate for a different condition than antipsychotics EPS",
+    "option_d": "Most appropriate answer for antipsychotics EPS",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antipsychotics EPS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q019): A patient presents with symptoms consistent with neuroleptic malignant syndrome. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in neuroleptic malignant syndrome",
+    "option_b": "Option that misses a key diagnostic clue for neuroleptic malignant syndrome",
+    "option_c": "Most appropriate answer for neuroleptic malignant syndrome",
+    "option_d": "Option appropriate for a different condition than neuroleptic malignant syndrome",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for neuroleptic malignant syndrome at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q020): A patient presents with symptoms consistent with lithium toxicity. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in lithium toxicity",
+    "option_b": "Option that misses a key diagnostic clue for lithium toxicity",
+    "option_c": "Option appropriate for a different condition than lithium toxicity",
+    "option_d": "Most appropriate answer for lithium toxicity",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lithium toxicity at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q021): A patient presents with symptoms consistent with suicide risk assessment. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than suicide risk assessment",
+    "option_b": "Option that is contraindicated or unsafe in suicide risk assessment",
+    "option_c": "Most appropriate answer for suicide risk assessment",
+    "option_d": "Option that misses a key diagnostic clue for suicide risk assessment",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for suicide risk assessment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q022): A patient presents with symptoms consistent with delirium vs dementia. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in delirium vs dementia",
+    "option_b": "Most appropriate answer for delirium vs dementia",
+    "option_c": "Option that misses a key diagnostic clue for delirium vs dementia",
+    "option_d": "Option appropriate for a different condition than delirium vs dementia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for delirium vs dementia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q023): A patient presents with symptoms consistent with major depressive disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for major depressive disorder",
+    "option_b": "Option appropriate for a different condition than major depressive disorder",
+    "option_c": "Option that is contraindicated or unsafe in major depressive disorder",
+    "option_d": "Most appropriate answer for major depressive disorder",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for major depressive disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q024): A patient presents with symptoms consistent with bipolar disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for bipolar disorder",
+    "option_b": "Most appropriate answer for bipolar disorder",
+    "option_c": "Option appropriate for a different condition than bipolar disorder",
+    "option_d": "Option that is contraindicated or unsafe in bipolar disorder",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for bipolar disorder at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q025): A patient presents with symptoms consistent with schizophrenia. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in schizophrenia",
+    "option_b": "Option that misses a key diagnostic clue for schizophrenia",
+    "option_c": "Most appropriate answer for schizophrenia",
+    "option_d": "Option appropriate for a different condition than schizophrenia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for schizophrenia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q026): A patient presents with symptoms consistent with generalized anxiety disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for generalized anxiety disorder",
+    "option_b": "Option that misses a key diagnostic clue for generalized anxiety disorder",
+    "option_c": "Option that is contraindicated or unsafe in generalized anxiety disorder",
+    "option_d": "Option appropriate for a different condition than generalized anxiety disorder",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for generalized anxiety disorder at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q027): A patient presents with symptoms consistent with panic disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than panic disorder",
+    "option_b": "Option that is contraindicated or unsafe in panic disorder",
+    "option_c": "Most appropriate answer for panic disorder",
+    "option_d": "Option that misses a key diagnostic clue for panic disorder",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for panic disorder at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q028): A patient presents with symptoms consistent with OCD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for OCD",
+    "option_b": "Most appropriate answer for OCD",
+    "option_c": "Option that is contraindicated or unsafe in OCD",
+    "option_d": "Option appropriate for a different condition than OCD",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for OCD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q029): A patient presents with symptoms consistent with PTSD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than PTSD",
+    "option_b": "Option that is contraindicated or unsafe in PTSD",
+    "option_c": "Option that misses a key diagnostic clue for PTSD",
+    "option_d": "Most appropriate answer for PTSD",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for PTSD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q030): A patient presents with symptoms consistent with personality disorders. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for personality disorders",
+    "option_b": "Option appropriate for a different condition than personality disorders",
+    "option_c": "Option that misses a key diagnostic clue for personality disorders",
+    "option_d": "Option that is contraindicated or unsafe in personality disorders",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for personality disorders at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q031): A patient presents with symptoms consistent with eating disorders. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than eating disorders",
+    "option_b": "Option that is contraindicated or unsafe in eating disorders",
+    "option_c": "Option that misses a key diagnostic clue for eating disorders",
+    "option_d": "Most appropriate answer for eating disorders",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for eating disorders at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q032): A patient presents with symptoms consistent with ADHD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for ADHD",
+    "option_b": "Most appropriate answer for ADHD",
+    "option_c": "Option appropriate for a different condition than ADHD",
+    "option_d": "Option that is contraindicated or unsafe in ADHD",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ADHD at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q033): A patient presents with symptoms consistent with autism spectrum disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for autism spectrum disorder",
+    "option_b": "Option that is contraindicated or unsafe in autism spectrum disorder",
+    "option_c": "Most appropriate answer for autism spectrum disorder",
+    "option_d": "Option appropriate for a different condition than autism spectrum disorder",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for autism spectrum disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q034): A patient presents with symptoms consistent with alcohol withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in alcohol withdrawal",
+    "option_b": "Option appropriate for a different condition than alcohol withdrawal",
+    "option_c": "Option that misses a key diagnostic clue for alcohol withdrawal",
+    "option_d": "Most appropriate answer for alcohol withdrawal",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for alcohol withdrawal at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q035): A patient presents with symptoms consistent with opioid overdose/withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than opioid overdose/withdrawal",
+    "option_b": "Option that misses a key diagnostic clue for opioid overdose/withdrawal",
+    "option_c": "Most appropriate answer for opioid overdose/withdrawal",
+    "option_d": "Option that is contraindicated or unsafe in opioid overdose/withdrawal",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for opioid overdose/withdrawal at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q036): A patient presents with symptoms consistent with benzodiazepine withdrawal. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in benzodiazepine withdrawal",
+    "option_b": "Option appropriate for a different condition than benzodiazepine withdrawal",
+    "option_c": "Most appropriate answer for benzodiazepine withdrawal",
+    "option_d": "Option that misses a key diagnostic clue for benzodiazepine withdrawal",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for benzodiazepine withdrawal at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q037): A patient presents with symptoms consistent with SSRIs. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than SSRIs",
+    "option_b": "Option that misses a key diagnostic clue for SSRIs",
+    "option_c": "Option that is contraindicated or unsafe in SSRIs",
+    "option_d": "Most appropriate answer for SSRIs",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for SSRIs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q038): A patient presents with symptoms consistent with SNRIs. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for SNRIs",
+    "option_b": "Option appropriate for a different condition than SNRIs",
+    "option_c": "Option that misses a key diagnostic clue for SNRIs",
+    "option_d": "Option that is contraindicated or unsafe in SNRIs",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for SNRIs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q039): A patient presents with symptoms consistent with TCAs. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than TCAs",
+    "option_b": "Most appropriate answer for TCAs",
+    "option_c": "Option that is contraindicated or unsafe in TCAs",
+    "option_d": "Option that misses a key diagnostic clue for TCAs",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for TCAs at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q040): A patient presents with symptoms consistent with antipsychotics EPS. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than antipsychotics EPS",
+    "option_b": "Option that is contraindicated or unsafe in antipsychotics EPS",
+    "option_c": "Option that misses a key diagnostic clue for antipsychotics EPS",
+    "option_d": "Most appropriate answer for antipsychotics EPS",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for antipsychotics EPS at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q041): A patient presents with symptoms consistent with neuroleptic malignant syndrome. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than neuroleptic malignant syndrome",
+    "option_b": "Option that misses a key diagnostic clue for neuroleptic malignant syndrome",
+    "option_c": "Most appropriate answer for neuroleptic malignant syndrome",
+    "option_d": "Option that is contraindicated or unsafe in neuroleptic malignant syndrome",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for neuroleptic malignant syndrome at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q042): A patient presents with symptoms consistent with lithium toxicity. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in lithium toxicity",
+    "option_b": "Option that misses a key diagnostic clue for lithium toxicity",
+    "option_c": "Most appropriate answer for lithium toxicity",
+    "option_d": "Option appropriate for a different condition than lithium toxicity",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lithium toxicity at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q043): A patient presents with symptoms consistent with suicide risk assessment. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than suicide risk assessment",
+    "option_b": "Option that misses a key diagnostic clue for suicide risk assessment",
+    "option_c": "Most appropriate answer for suicide risk assessment",
+    "option_d": "Option that is contraindicated or unsafe in suicide risk assessment",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for suicide risk assessment at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q044): A patient presents with symptoms consistent with delirium vs dementia. What is the most likely diagnosis or best next step?",
+    "option_a": "Most appropriate answer for delirium vs dementia",
+    "option_b": "Option that is contraindicated or unsafe in delirium vs dementia",
+    "option_c": "Option that misses a key diagnostic clue for delirium vs dementia",
+    "option_d": "Option appropriate for a different condition than delirium vs dementia",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for delirium vs dementia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q045): A patient presents with symptoms consistent with major depressive disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in major depressive disorder",
+    "option_b": "Most appropriate answer for major depressive disorder",
+    "option_c": "Option appropriate for a different condition than major depressive disorder",
+    "option_d": "Option that misses a key diagnostic clue for major depressive disorder",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for major depressive disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q046): A patient presents with symptoms consistent with bipolar disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that misses a key diagnostic clue for bipolar disorder",
+    "option_b": "Option that is contraindicated or unsafe in bipolar disorder",
+    "option_c": "Most appropriate answer for bipolar disorder",
+    "option_d": "Option appropriate for a different condition than bipolar disorder",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for bipolar disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q047): A patient presents with symptoms consistent with schizophrenia. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than schizophrenia",
+    "option_b": "Most appropriate answer for schizophrenia",
+    "option_c": "Option that misses a key diagnostic clue for schizophrenia",
+    "option_d": "Option that is contraindicated or unsafe in schizophrenia",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for schizophrenia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q048): A patient presents with symptoms consistent with generalized anxiety disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in generalized anxiety disorder",
+    "option_b": "Option that misses a key diagnostic clue for generalized anxiety disorder",
+    "option_c": "Option appropriate for a different condition than generalized anxiety disorder",
+    "option_d": "Most appropriate answer for generalized anxiety disorder",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for generalized anxiety disorder at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q049): A patient presents with symptoms consistent with panic disorder. What is the most likely diagnosis or best next step?",
+    "option_a": "Option appropriate for a different condition than panic disorder",
+    "option_b": "Option that misses a key diagnostic clue for panic disorder",
+    "option_c": "Option that is contraindicated or unsafe in panic disorder",
+    "option_d": "Most appropriate answer for panic disorder",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for panic disorder at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Psychiatry (Q050): A patient presents with symptoms consistent with OCD. What is the most likely diagnosis or best next step?",
+    "option_a": "Option that is contraindicated or unsafe in OCD",
+    "option_b": "Most appropriate answer for OCD",
+    "option_c": "Option that misses a key diagnostic clue for OCD",
+    "option_d": "Option appropriate for a different condition than OCD",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for OCD at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

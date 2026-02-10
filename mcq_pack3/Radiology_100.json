@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Radiology (Q001): Imaging findings are described consistent with pneumothorax on chest X-ray. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pneumothorax on chest X-ray",
+    "option_b": "Imaging interpretation most consistent with pneumothorax on chest X-ray",
+    "option_c": "Option appropriate for a different condition than pneumothorax on chest X-ray",
+    "option_d": "Option that misses a key diagnostic clue for pneumothorax on chest X-ray",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumothorax on chest X-ray at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q002): Imaging findings are described consistent with pleural effusion. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with pleural effusion",
+    "option_b": "Option appropriate for a different condition than pleural effusion",
+    "option_c": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_d": "Option that is contraindicated or unsafe in pleural effusion",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q003): Imaging findings are described consistent with pulmonary edema. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pulmonary edema",
+    "option_b": "Option that misses a key diagnostic clue for pulmonary edema",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary edema",
+    "option_d": "Imaging interpretation most consistent with pulmonary edema",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary edema at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q004): Imaging findings are described consistent with pneumonia on CXR. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pneumonia on CXR",
+    "option_b": "Option appropriate for a different condition than pneumonia on CXR",
+    "option_c": "Imaging interpretation most consistent with pneumonia on CXR",
+    "option_d": "Option that misses a key diagnostic clue for pneumonia on CXR",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia on CXR at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q005): Imaging findings are described consistent with lung mass. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than lung mass",
+    "option_b": "Imaging interpretation most consistent with lung mass",
+    "option_c": "Option that misses a key diagnostic clue for lung mass",
+    "option_d": "Option that is contraindicated or unsafe in lung mass",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lung mass at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q006): Imaging findings are described consistent with bowel obstruction on abdominal X-ray. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for bowel obstruction on abdominal X-ray",
+    "option_b": "Option that is contraindicated or unsafe in bowel obstruction on abdominal X-ray",
+    "option_c": "Imaging interpretation most consistent with bowel obstruction on abdominal X-ray",
+    "option_d": "Option appropriate for a different condition than bowel obstruction on abdominal X-ray",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for bowel obstruction on abdominal X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q007): Imaging findings are described consistent with free air under diaphragm. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for free air under diaphragm",
+    "option_b": "Option appropriate for a different condition than free air under diaphragm",
+    "option_c": "Imaging interpretation most consistent with free air under diaphragm",
+    "option_d": "Option that is contraindicated or unsafe in free air under diaphragm",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for free air under diaphragm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q008): Imaging findings are described consistent with CT ischemic stroke. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than CT ischemic stroke",
+    "option_b": "Option that is contraindicated or unsafe in CT ischemic stroke",
+    "option_c": "Imaging interpretation most consistent with CT ischemic stroke",
+    "option_d": "Option that misses a key diagnostic clue for CT ischemic stroke",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT ischemic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q009): Imaging findings are described consistent with CT pulmonary embolism. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with CT pulmonary embolism",
+    "option_b": "Option that misses a key diagnostic clue for CT pulmonary embolism",
+    "option_c": "Option appropriate for a different condition than CT pulmonary embolism",
+    "option_d": "Option that is contraindicated or unsafe in CT pulmonary embolism",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT pulmonary embolism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q010): Imaging findings are described consistent with CT appendicitis. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with CT appendicitis",
+    "option_b": "Option that is contraindicated or unsafe in CT appendicitis",
+    "option_c": "Option that misses a key diagnostic clue for CT appendicitis",
+    "option_d": "Option appropriate for a different condition than CT appendicitis",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT appendicitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q011): Imaging findings are described consistent with CT diverticulitis. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for CT diverticulitis",
+    "option_b": "Option that is contraindicated or unsafe in CT diverticulitis",
+    "option_c": "Imaging interpretation most consistent with CT diverticulitis",
+    "option_d": "Option appropriate for a different condition than CT diverticulitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT diverticulitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q012): Imaging findings are described consistent with MRI indications. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with MRI indications",
+    "option_b": "Option that misses a key diagnostic clue for MRI indications",
+    "option_c": "Option appropriate for a different condition than MRI indications",
+    "option_d": "Option that is contraindicated or unsafe in MRI indications",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRI indications at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q013): Imaging findings are described consistent with ultrasound gallstones. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in ultrasound gallstones",
+    "option_b": "Option that misses a key diagnostic clue for ultrasound gallstones",
+    "option_c": "Option appropriate for a different condition than ultrasound gallstones",
+    "option_d": "Imaging interpretation most consistent with ultrasound gallstones",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for ultrasound gallstones at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q014): Imaging findings are described consistent with silhouette sign. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with silhouette sign",
+    "option_b": "Option that is contraindicated or unsafe in silhouette sign",
+    "option_c": "Option appropriate for a different condition than silhouette sign",
+    "option_d": "Option that misses a key diagnostic clue for silhouette sign",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for silhouette sign at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q015): Imaging findings are described consistent with air bronchogram. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with air bronchogram",
+    "option_b": "Option that is contraindicated or unsafe in air bronchogram",
+    "option_c": "Option appropriate for a different condition than air bronchogram",
+    "option_d": "Option that misses a key diagnostic clue for air bronchogram",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for air bronchogram at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q016): Imaging findings are described consistent with Kerley B lines. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for Kerley B lines",
+    "option_b": "Option that is contraindicated or unsafe in Kerley B lines",
+    "option_c": "Option appropriate for a different condition than Kerley B lines",
+    "option_d": "Imaging interpretation most consistent with Kerley B lines",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Kerley B lines at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q017): Imaging findings are described consistent with Hampton hump. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in Hampton hump",
+    "option_b": "Option appropriate for a different condition than Hampton hump",
+    "option_c": "Imaging interpretation most consistent with Hampton hump",
+    "option_d": "Option that misses a key diagnostic clue for Hampton hump",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hampton hump at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q018): Imaging findings are described consistent with epidural vs subdural hematoma. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than epidural vs subdural hematoma",
+    "option_b": "Imaging interpretation most consistent with epidural vs subdural hematoma",
+    "option_c": "Option that misses a key diagnostic clue for epidural vs subdural hematoma",
+    "option_d": "Option that is contraindicated or unsafe in epidural vs subdural hematoma",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for epidural vs subdural hematoma at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q019): Imaging findings are described consistent with subarachnoid hemorrhage. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with subarachnoid hemorrhage",
+    "option_b": "Option that is contraindicated or unsafe in subarachnoid hemorrhage",
+    "option_c": "Option that misses a key diagnostic clue for subarachnoid hemorrhage",
+    "option_d": "Option appropriate for a different condition than subarachnoid hemorrhage",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for subarachnoid hemorrhage at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q020): Imaging findings are described consistent with fracture imaging. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in fracture imaging",
+    "option_b": "Option that misses a key diagnostic clue for fracture imaging",
+    "option_c": "Imaging interpretation most consistent with fracture imaging",
+    "option_d": "Option appropriate for a different condition than fracture imaging",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fracture imaging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q021): Imaging findings are described consistent with contrast reaction. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than contrast reaction",
+    "option_b": "Option that is contraindicated or unsafe in contrast reaction",
+    "option_c": "Option that misses a key diagnostic clue for contrast reaction",
+    "option_d": "Imaging interpretation most consistent with contrast reaction",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for contrast reaction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q022): Imaging findings are described consistent with radiation safety. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for radiation safety",
+    "option_b": "Option that is contraindicated or unsafe in radiation safety",
+    "option_c": "Imaging interpretation most consistent with radiation safety",
+    "option_d": "Option appropriate for a different condition than radiation safety",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for radiation safety at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q023): Imaging findings are described consistent with mammography BI-RADS. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in mammography BI-RADS",
+    "option_b": "Option that misses a key diagnostic clue for mammography BI-RADS",
+    "option_c": "Option appropriate for a different condition than mammography BI-RADS",
+    "option_d": "Imaging interpretation most consistent with mammography BI-RADS",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for mammography BI-RADS at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q024): Imaging findings are described consistent with pneumothorax on chest X-ray. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pneumothorax on chest X-ray",
+    "option_b": "Imaging interpretation most consistent with pneumothorax on chest X-ray",
+    "option_c": "Option that is contraindicated or unsafe in pneumothorax on chest X-ray",
+    "option_d": "Option that misses a key diagnostic clue for pneumothorax on chest X-ray",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumothorax on chest X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q025): Imaging findings are described consistent with pleural effusion. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_b": "Imaging interpretation most consistent with pleural effusion",
+    "option_c": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_d": "Option appropriate for a different condition than pleural effusion",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q026): Imaging findings are described consistent with pulmonary edema. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pulmonary edema",
+    "option_b": "Option that misses a key diagnostic clue for pulmonary edema",
+    "option_c": "Imaging interpretation most consistent with pulmonary edema",
+    "option_d": "Option appropriate for a different condition than pulmonary edema",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary edema at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q027): Imaging findings are described consistent with pneumonia on CXR. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for pneumonia on CXR",
+    "option_b": "Imaging interpretation most consistent with pneumonia on CXR",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia on CXR",
+    "option_d": "Option appropriate for a different condition than pneumonia on CXR",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia on CXR at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q028): Imaging findings are described consistent with lung mass. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than lung mass",
+    "option_b": "Option that misses a key diagnostic clue for lung mass",
+    "option_c": "Option that is contraindicated or unsafe in lung mass",
+    "option_d": "Imaging interpretation most consistent with lung mass",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lung mass at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q029): Imaging findings are described consistent with bowel obstruction on abdominal X-ray. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in bowel obstruction on abdominal X-ray",
+    "option_b": "Option that misses a key diagnostic clue for bowel obstruction on abdominal X-ray",
+    "option_c": "Imaging interpretation most consistent with bowel obstruction on abdominal X-ray",
+    "option_d": "Option appropriate for a different condition than bowel obstruction on abdominal X-ray",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for bowel obstruction on abdominal X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q030): Imaging findings are described consistent with free air under diaphragm. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with free air under diaphragm",
+    "option_b": "Option that misses a key diagnostic clue for free air under diaphragm",
+    "option_c": "Option appropriate for a different condition than free air under diaphragm",
+    "option_d": "Option that is contraindicated or unsafe in free air under diaphragm",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for free air under diaphragm at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q031): Imaging findings are described consistent with CT ischemic stroke. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than CT ischemic stroke",
+    "option_b": "Option that is contraindicated or unsafe in CT ischemic stroke",
+    "option_c": "Imaging interpretation most consistent with CT ischemic stroke",
+    "option_d": "Option that misses a key diagnostic clue for CT ischemic stroke",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT ischemic stroke at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q032): Imaging findings are described consistent with CT pulmonary embolism. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in CT pulmonary embolism",
+    "option_b": "Option that misses a key diagnostic clue for CT pulmonary embolism",
+    "option_c": "Option appropriate for a different condition than CT pulmonary embolism",
+    "option_d": "Imaging interpretation most consistent with CT pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q033): Imaging findings are described consistent with CT appendicitis. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in CT appendicitis",
+    "option_b": "Option that misses a key diagnostic clue for CT appendicitis",
+    "option_c": "Imaging interpretation most consistent with CT appendicitis",
+    "option_d": "Option appropriate for a different condition than CT appendicitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT appendicitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q034): Imaging findings are described consistent with CT diverticulitis. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for CT diverticulitis",
+    "option_b": "Option that is contraindicated or unsafe in CT diverticulitis",
+    "option_c": "Option appropriate for a different condition than CT diverticulitis",
+    "option_d": "Imaging interpretation most consistent with CT diverticulitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT diverticulitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q035): Imaging findings are described consistent with MRI indications. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than MRI indications",
+    "option_b": "Option that is contraindicated or unsafe in MRI indications",
+    "option_c": "Imaging interpretation most consistent with MRI indications",
+    "option_d": "Option that misses a key diagnostic clue for MRI indications",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRI indications at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q036): Imaging findings are described consistent with ultrasound gallstones. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than ultrasound gallstones",
+    "option_b": "Imaging interpretation most consistent with ultrasound gallstones",
+    "option_c": "Option that is contraindicated or unsafe in ultrasound gallstones",
+    "option_d": "Option that misses a key diagnostic clue for ultrasound gallstones",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ultrasound gallstones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q037): Imaging findings are described consistent with silhouette sign. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in silhouette sign",
+    "option_b": "Option appropriate for a different condition than silhouette sign",
+    "option_c": "Option that misses a key diagnostic clue for silhouette sign",
+    "option_d": "Imaging interpretation most consistent with silhouette sign",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for silhouette sign at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q038): Imaging findings are described consistent with air bronchogram. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than air bronchogram",
+    "option_b": "Option that is contraindicated or unsafe in air bronchogram",
+    "option_c": "Imaging interpretation most consistent with air bronchogram",
+    "option_d": "Option that misses a key diagnostic clue for air bronchogram",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for air bronchogram at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q039): Imaging findings are described consistent with Kerley B lines. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with Kerley B lines",
+    "option_b": "Option appropriate for a different condition than Kerley B lines",
+    "option_c": "Option that misses a key diagnostic clue for Kerley B lines",
+    "option_d": "Option that is contraindicated or unsafe in Kerley B lines",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Kerley B lines at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q040): Imaging findings are described consistent with Hampton hump. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with Hampton hump",
+    "option_b": "Option that is contraindicated or unsafe in Hampton hump",
+    "option_c": "Option that misses a key diagnostic clue for Hampton hump",
+    "option_d": "Option appropriate for a different condition than Hampton hump",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hampton hump at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q041): Imaging findings are described consistent with epidural vs subdural hematoma. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in epidural vs subdural hematoma",
+    "option_b": "Imaging interpretation most consistent with epidural vs subdural hematoma",
+    "option_c": "Option appropriate for a different condition than epidural vs subdural hematoma",
+    "option_d": "Option that misses a key diagnostic clue for epidural vs subdural hematoma",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for epidural vs subdural hematoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q042): Imaging findings are described consistent with subarachnoid hemorrhage. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than subarachnoid hemorrhage",
+    "option_b": "Option that misses a key diagnostic clue for subarachnoid hemorrhage",
+    "option_c": "Option that is contraindicated or unsafe in subarachnoid hemorrhage",
+    "option_d": "Imaging interpretation most consistent with subarachnoid hemorrhage",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for subarachnoid hemorrhage at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q043): Imaging findings are described consistent with fracture imaging. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with fracture imaging",
+    "option_b": "Option appropriate for a different condition than fracture imaging",
+    "option_c": "Option that misses a key diagnostic clue for fracture imaging",
+    "option_d": "Option that is contraindicated or unsafe in fracture imaging",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for fracture imaging at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q044): Imaging findings are described consistent with contrast reaction. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in contrast reaction",
+    "option_b": "Option appropriate for a different condition than contrast reaction",
+    "option_c": "Imaging interpretation most consistent with contrast reaction",
+    "option_d": "Option that misses a key diagnostic clue for contrast reaction",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for contrast reaction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q045): Imaging findings are described consistent with radiation safety. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with radiation safety",
+    "option_b": "Option that is contraindicated or unsafe in radiation safety",
+    "option_c": "Option that misses a key diagnostic clue for radiation safety",
+    "option_d": "Option appropriate for a different condition than radiation safety",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for radiation safety at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q046): Imaging findings are described consistent with mammography BI-RADS. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with mammography BI-RADS",
+    "option_b": "Option that misses a key diagnostic clue for mammography BI-RADS",
+    "option_c": "Option appropriate for a different condition than mammography BI-RADS",
+    "option_d": "Option that is contraindicated or unsafe in mammography BI-RADS",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for mammography BI-RADS at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q047): Imaging findings are described consistent with pneumothorax on chest X-ray. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pneumothorax on chest X-ray",
+    "option_b": "Imaging interpretation most consistent with pneumothorax on chest X-ray",
+    "option_c": "Option that misses a key diagnostic clue for pneumothorax on chest X-ray",
+    "option_d": "Option that is contraindicated or unsafe in pneumothorax on chest X-ray",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumothorax on chest X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q048): Imaging findings are described consistent with pleural effusion. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with pleural effusion",
+    "option_b": "Option appropriate for a different condition than pleural effusion",
+    "option_c": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_d": "Option that misses a key diagnostic clue for pleural effusion",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q049): Imaging findings are described consistent with pulmonary edema. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for pulmonary edema",
+    "option_b": "Option appropriate for a different condition than pulmonary edema",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary edema",
+    "option_d": "Imaging interpretation most consistent with pulmonary edema",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary edema at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q050): Imaging findings are described consistent with pneumonia on CXR. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for pneumonia on CXR",
+    "option_b": "Option appropriate for a different condition than pneumonia on CXR",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia on CXR",
+    "option_d": "Imaging interpretation most consistent with pneumonia on CXR",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia on CXR at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q051): Imaging findings are described consistent with lung mass. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in lung mass",
+    "option_b": "Option appropriate for a different condition than lung mass",
+    "option_c": "Imaging interpretation most consistent with lung mass",
+    "option_d": "Option that misses a key diagnostic clue for lung mass",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lung mass at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q052): Imaging findings are described consistent with bowel obstruction on abdominal X-ray. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in bowel obstruction on abdominal X-ray",
+    "option_b": "Option that misses a key diagnostic clue for bowel obstruction on abdominal X-ray",
+    "option_c": "Imaging interpretation most consistent with bowel obstruction on abdominal X-ray",
+    "option_d": "Option appropriate for a different condition than bowel obstruction on abdominal X-ray",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for bowel obstruction on abdominal X-ray at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q053): Imaging findings are described consistent with free air under diaphragm. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for free air under diaphragm",
+    "option_b": "Imaging interpretation most consistent with free air under diaphragm",
+    "option_c": "Option that is contraindicated or unsafe in free air under diaphragm",
+    "option_d": "Option appropriate for a different condition than free air under diaphragm",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for free air under diaphragm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q054): Imaging findings are described consistent with CT ischemic stroke. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than CT ischemic stroke",
+    "option_b": "Option that misses a key diagnostic clue for CT ischemic stroke",
+    "option_c": "Option that is contraindicated or unsafe in CT ischemic stroke",
+    "option_d": "Imaging interpretation most consistent with CT ischemic stroke",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT ischemic stroke at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q055): Imaging findings are described consistent with CT pulmonary embolism. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than CT pulmonary embolism",
+    "option_b": "Imaging interpretation most consistent with CT pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in CT pulmonary embolism",
+    "option_d": "Option that misses a key diagnostic clue for CT pulmonary embolism",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q056): Imaging findings are described consistent with CT appendicitis. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for CT appendicitis",
+    "option_b": "Option that is contraindicated or unsafe in CT appendicitis",
+    "option_c": "Option appropriate for a different condition than CT appendicitis",
+    "option_d": "Imaging interpretation most consistent with CT appendicitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT appendicitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q057): Imaging findings are described consistent with CT diverticulitis. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with CT diverticulitis",
+    "option_b": "Option that is contraindicated or unsafe in CT diverticulitis",
+    "option_c": "Option that misses a key diagnostic clue for CT diverticulitis",
+    "option_d": "Option appropriate for a different condition than CT diverticulitis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT diverticulitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q058): Imaging findings are described consistent with MRI indications. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than MRI indications",
+    "option_b": "Imaging interpretation most consistent with MRI indications",
+    "option_c": "Option that is contraindicated or unsafe in MRI indications",
+    "option_d": "Option that misses a key diagnostic clue for MRI indications",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRI indications at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q059): Imaging findings are described consistent with ultrasound gallstones. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for ultrasound gallstones",
+    "option_b": "Option appropriate for a different condition than ultrasound gallstones",
+    "option_c": "Option that is contraindicated or unsafe in ultrasound gallstones",
+    "option_d": "Imaging interpretation most consistent with ultrasound gallstones",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ultrasound gallstones at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q060): Imaging findings are described consistent with silhouette sign. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for silhouette sign",
+    "option_b": "Option that is contraindicated or unsafe in silhouette sign",
+    "option_c": "Imaging interpretation most consistent with silhouette sign",
+    "option_d": "Option appropriate for a different condition than silhouette sign",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for silhouette sign at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q061): Imaging findings are described consistent with air bronchogram. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with air bronchogram",
+    "option_b": "Option that misses a key diagnostic clue for air bronchogram",
+    "option_c": "Option that is contraindicated or unsafe in air bronchogram",
+    "option_d": "Option appropriate for a different condition than air bronchogram",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for air bronchogram at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q062): Imaging findings are described consistent with Kerley B lines. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with Kerley B lines",
+    "option_b": "Option that is contraindicated or unsafe in Kerley B lines",
+    "option_c": "Option appropriate for a different condition than Kerley B lines",
+    "option_d": "Option that misses a key diagnostic clue for Kerley B lines",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Kerley B lines at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q063): Imaging findings are described consistent with Hampton hump. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than Hampton hump",
+    "option_b": "Option that misses a key diagnostic clue for Hampton hump",
+    "option_c": "Imaging interpretation most consistent with Hampton hump",
+    "option_d": "Option that is contraindicated or unsafe in Hampton hump",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hampton hump at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q064): Imaging findings are described consistent with epidural vs subdural hematoma. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for epidural vs subdural hematoma",
+    "option_b": "Imaging interpretation most consistent with epidural vs subdural hematoma",
+    "option_c": "Option appropriate for a different condition than epidural vs subdural hematoma",
+    "option_d": "Option that is contraindicated or unsafe in epidural vs subdural hematoma",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for epidural vs subdural hematoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q065): Imaging findings are described consistent with subarachnoid hemorrhage. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in subarachnoid hemorrhage",
+    "option_b": "Option that misses a key diagnostic clue for subarachnoid hemorrhage",
+    "option_c": "Option appropriate for a different condition than subarachnoid hemorrhage",
+    "option_d": "Imaging interpretation most consistent with subarachnoid hemorrhage",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for subarachnoid hemorrhage at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q066): Imaging findings are described consistent with fracture imaging. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with fracture imaging",
+    "option_b": "Option that is contraindicated or unsafe in fracture imaging",
+    "option_c": "Option that misses a key diagnostic clue for fracture imaging",
+    "option_d": "Option appropriate for a different condition than fracture imaging",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fracture imaging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q067): Imaging findings are described consistent with contrast reaction. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with contrast reaction",
+    "option_b": "Option that is contraindicated or unsafe in contrast reaction",
+    "option_c": "Option that misses a key diagnostic clue for contrast reaction",
+    "option_d": "Option appropriate for a different condition than contrast reaction",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for contrast reaction at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q068): Imaging findings are described consistent with radiation safety. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in radiation safety",
+    "option_b": "Option appropriate for a different condition than radiation safety",
+    "option_c": "Option that misses a key diagnostic clue for radiation safety",
+    "option_d": "Imaging interpretation most consistent with radiation safety",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for radiation safety at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q069): Imaging findings are described consistent with mammography BI-RADS. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with mammography BI-RADS",
+    "option_b": "Option that is contraindicated or unsafe in mammography BI-RADS",
+    "option_c": "Option appropriate for a different condition than mammography BI-RADS",
+    "option_d": "Option that misses a key diagnostic clue for mammography BI-RADS",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for mammography BI-RADS at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q070): Imaging findings are described consistent with pneumothorax on chest X-ray. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pneumothorax on chest X-ray",
+    "option_b": "Imaging interpretation most consistent with pneumothorax on chest X-ray",
+    "option_c": "Option that misses a key diagnostic clue for pneumothorax on chest X-ray",
+    "option_d": "Option that is contraindicated or unsafe in pneumothorax on chest X-ray",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumothorax on chest X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q071): Imaging findings are described consistent with pleural effusion. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_b": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_c": "Option appropriate for a different condition than pleural effusion",
+    "option_d": "Imaging interpretation most consistent with pleural effusion",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q072): Imaging findings are described consistent with pulmonary edema. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pulmonary edema",
+    "option_b": "Option appropriate for a different condition than pulmonary edema",
+    "option_c": "Option that misses a key diagnostic clue for pulmonary edema",
+    "option_d": "Imaging interpretation most consistent with pulmonary edema",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary edema at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q073): Imaging findings are described consistent with pneumonia on CXR. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for pneumonia on CXR",
+    "option_b": "Imaging interpretation most consistent with pneumonia on CXR",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia on CXR",
+    "option_d": "Option appropriate for a different condition than pneumonia on CXR",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia on CXR at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q074): Imaging findings are described consistent with lung mass. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than lung mass",
+    "option_b": "Imaging interpretation most consistent with lung mass",
+    "option_c": "Option that is contraindicated or unsafe in lung mass",
+    "option_d": "Option that misses a key diagnostic clue for lung mass",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lung mass at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q075): Imaging findings are described consistent with bowel obstruction on abdominal X-ray. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for bowel obstruction on abdominal X-ray",
+    "option_b": "Imaging interpretation most consistent with bowel obstruction on abdominal X-ray",
+    "option_c": "Option that is contraindicated or unsafe in bowel obstruction on abdominal X-ray",
+    "option_d": "Option appropriate for a different condition than bowel obstruction on abdominal X-ray",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for bowel obstruction on abdominal X-ray at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q076): Imaging findings are described consistent with free air under diaphragm. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in free air under diaphragm",
+    "option_b": "Option that misses a key diagnostic clue for free air under diaphragm",
+    "option_c": "Option appropriate for a different condition than free air under diaphragm",
+    "option_d": "Imaging interpretation most consistent with free air under diaphragm",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for free air under diaphragm at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q077): Imaging findings are described consistent with CT ischemic stroke. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for CT ischemic stroke",
+    "option_b": "Option appropriate for a different condition than CT ischemic stroke",
+    "option_c": "Imaging interpretation most consistent with CT ischemic stroke",
+    "option_d": "Option that is contraindicated or unsafe in CT ischemic stroke",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT ischemic stroke at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q078): Imaging findings are described consistent with CT pulmonary embolism. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in CT pulmonary embolism",
+    "option_b": "Option appropriate for a different condition than CT pulmonary embolism",
+    "option_c": "Option that misses a key diagnostic clue for CT pulmonary embolism",
+    "option_d": "Imaging interpretation most consistent with CT pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q079): Imaging findings are described consistent with CT appendicitis. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for CT appendicitis",
+    "option_b": "Option appropriate for a different condition than CT appendicitis",
+    "option_c": "Option that is contraindicated or unsafe in CT appendicitis",
+    "option_d": "Imaging interpretation most consistent with CT appendicitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT appendicitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q080): Imaging findings are described consistent with CT diverticulitis. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with CT diverticulitis",
+    "option_b": "Option that misses a key diagnostic clue for CT diverticulitis",
+    "option_c": "Option that is contraindicated or unsafe in CT diverticulitis",
+    "option_d": "Option appropriate for a different condition than CT diverticulitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT diverticulitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q081): Imaging findings are described consistent with MRI indications. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with MRI indications",
+    "option_b": "Option that is contraindicated or unsafe in MRI indications",
+    "option_c": "Option that misses a key diagnostic clue for MRI indications",
+    "option_d": "Option appropriate for a different condition than MRI indications",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for MRI indications at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q082): Imaging findings are described consistent with ultrasound gallstones. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for ultrasound gallstones",
+    "option_b": "Option that is contraindicated or unsafe in ultrasound gallstones",
+    "option_c": "Imaging interpretation most consistent with ultrasound gallstones",
+    "option_d": "Option appropriate for a different condition than ultrasound gallstones",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ultrasound gallstones at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q083): Imaging findings are described consistent with silhouette sign. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with silhouette sign",
+    "option_b": "Option that misses a key diagnostic clue for silhouette sign",
+    "option_c": "Option that is contraindicated or unsafe in silhouette sign",
+    "option_d": "Option appropriate for a different condition than silhouette sign",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for silhouette sign at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q084): Imaging findings are described consistent with air bronchogram. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in air bronchogram",
+    "option_b": "Option that misses a key diagnostic clue for air bronchogram",
+    "option_c": "Option appropriate for a different condition than air bronchogram",
+    "option_d": "Imaging interpretation most consistent with air bronchogram",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for air bronchogram at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q085): Imaging findings are described consistent with Kerley B lines. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than Kerley B lines",
+    "option_b": "Option that misses a key diagnostic clue for Kerley B lines",
+    "option_c": "Option that is contraindicated or unsafe in Kerley B lines",
+    "option_d": "Imaging interpretation most consistent with Kerley B lines",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Kerley B lines at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q086): Imaging findings are described consistent with Hampton hump. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for Hampton hump",
+    "option_b": "Imaging interpretation most consistent with Hampton hump",
+    "option_c": "Option appropriate for a different condition than Hampton hump",
+    "option_d": "Option that is contraindicated or unsafe in Hampton hump",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Hampton hump at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q087): Imaging findings are described consistent with epidural vs subdural hematoma. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than epidural vs subdural hematoma",
+    "option_b": "Option that is contraindicated or unsafe in epidural vs subdural hematoma",
+    "option_c": "Imaging interpretation most consistent with epidural vs subdural hematoma",
+    "option_d": "Option that misses a key diagnostic clue for epidural vs subdural hematoma",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for epidural vs subdural hematoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q088): Imaging findings are described consistent with subarachnoid hemorrhage. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for subarachnoid hemorrhage",
+    "option_b": "Option that is contraindicated or unsafe in subarachnoid hemorrhage",
+    "option_c": "Option appropriate for a different condition than subarachnoid hemorrhage",
+    "option_d": "Imaging interpretation most consistent with subarachnoid hemorrhage",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for subarachnoid hemorrhage at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q089): Imaging findings are described consistent with fracture imaging. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for fracture imaging",
+    "option_b": "Imaging interpretation most consistent with fracture imaging",
+    "option_c": "Option that is contraindicated or unsafe in fracture imaging",
+    "option_d": "Option appropriate for a different condition than fracture imaging",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for fracture imaging at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q090): Imaging findings are described consistent with contrast reaction. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than contrast reaction",
+    "option_b": "Option that misses a key diagnostic clue for contrast reaction",
+    "option_c": "Imaging interpretation most consistent with contrast reaction",
+    "option_d": "Option that is contraindicated or unsafe in contrast reaction",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for contrast reaction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q091): Imaging findings are described consistent with radiation safety. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for radiation safety",
+    "option_b": "Imaging interpretation most consistent with radiation safety",
+    "option_c": "Option appropriate for a different condition than radiation safety",
+    "option_d": "Option that is contraindicated or unsafe in radiation safety",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for radiation safety at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q092): Imaging findings are described consistent with mammography BI-RADS. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in mammography BI-RADS",
+    "option_b": "Imaging interpretation most consistent with mammography BI-RADS",
+    "option_c": "Option that misses a key diagnostic clue for mammography BI-RADS",
+    "option_d": "Option appropriate for a different condition than mammography BI-RADS",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for mammography BI-RADS at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q093): Imaging findings are described consistent with pneumothorax on chest X-ray. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with pneumothorax on chest X-ray",
+    "option_b": "Option that is contraindicated or unsafe in pneumothorax on chest X-ray",
+    "option_c": "Option that misses a key diagnostic clue for pneumothorax on chest X-ray",
+    "option_d": "Option appropriate for a different condition than pneumothorax on chest X-ray",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumothorax on chest X-ray at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q094): Imaging findings are described consistent with pleural effusion. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pleural effusion",
+    "option_b": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_c": "Imaging interpretation most consistent with pleural effusion",
+    "option_d": "Option that is contraindicated or unsafe in pleural effusion",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q095): Imaging findings are described consistent with pulmonary edema. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in pulmonary edema",
+    "option_b": "Imaging interpretation most consistent with pulmonary edema",
+    "option_c": "Option appropriate for a different condition than pulmonary edema",
+    "option_d": "Option that misses a key diagnostic clue for pulmonary edema",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary edema at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q096): Imaging findings are described consistent with pneumonia on CXR. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than pneumonia on CXR",
+    "option_b": "Imaging interpretation most consistent with pneumonia on CXR",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia on CXR",
+    "option_d": "Option that misses a key diagnostic clue for pneumonia on CXR",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia on CXR at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q097): Imaging findings are described consistent with lung mass. What is the best interpretation?",
+    "option_a": "Option that is contraindicated or unsafe in lung mass",
+    "option_b": "Option appropriate for a different condition than lung mass",
+    "option_c": "Imaging interpretation most consistent with lung mass",
+    "option_d": "Option that misses a key diagnostic clue for lung mass",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for lung mass at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q098): Imaging findings are described consistent with bowel obstruction on abdominal X-ray. What is the best interpretation?",
+    "option_a": "Imaging interpretation most consistent with bowel obstruction on abdominal X-ray",
+    "option_b": "Option that misses a key diagnostic clue for bowel obstruction on abdominal X-ray",
+    "option_c": "Option appropriate for a different condition than bowel obstruction on abdominal X-ray",
+    "option_d": "Option that is contraindicated or unsafe in bowel obstruction on abdominal X-ray",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for bowel obstruction on abdominal X-ray at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q099): Imaging findings are described consistent with free air under diaphragm. What is the best interpretation?",
+    "option_a": "Option that misses a key diagnostic clue for free air under diaphragm",
+    "option_b": "Imaging interpretation most consistent with free air under diaphragm",
+    "option_c": "Option that is contraindicated or unsafe in free air under diaphragm",
+    "option_d": "Option appropriate for a different condition than free air under diaphragm",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for free air under diaphragm at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Radiology (Q100): Imaging findings are described consistent with CT ischemic stroke. What is the best interpretation?",
+    "option_a": "Option appropriate for a different condition than CT ischemic stroke",
+    "option_b": "Imaging interpretation most consistent with CT ischemic stroke",
+    "option_c": "Option that is contraindicated or unsafe in CT ischemic stroke",
+    "option_d": "Option that misses a key diagnostic clue for CT ischemic stroke",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CT ischemic stroke at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

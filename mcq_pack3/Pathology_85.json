@@ -1,0 +1,852 @@
+[
+  {
+    "question": "Pathology (Q001): A pathology specimen description suggests cell injury. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in cell injury",
+    "option_b": "Key pathologic feature consistent with cell injury",
+    "option_c": "Option that misses a key diagnostic clue for cell injury",
+    "option_d": "Option appropriate for a different condition than cell injury",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cell injury at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q002): A pathology specimen description suggests coagulative necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than coagulative necrosis",
+    "option_b": "Key pathologic feature consistent with coagulative necrosis",
+    "option_c": "Option that is contraindicated or unsafe in coagulative necrosis",
+    "option_d": "Option that misses a key diagnostic clue for coagulative necrosis",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulative necrosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q003): A pathology specimen description suggests liquefactive necrosis. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in liquefactive necrosis",
+    "option_b": "Option appropriate for a different condition than liquefactive necrosis",
+    "option_c": "Option that misses a key diagnostic clue for liquefactive necrosis",
+    "option_d": "Key pathologic feature consistent with liquefactive necrosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for liquefactive necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q004): A pathology specimen description suggests caseous necrosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for caseous necrosis",
+    "option_b": "Option that is contraindicated or unsafe in caseous necrosis",
+    "option_c": "Option appropriate for a different condition than caseous necrosis",
+    "option_d": "Key pathologic feature consistent with caseous necrosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for caseous necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q005): A pathology specimen description suggests fat necrosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for fat necrosis",
+    "option_b": "Option that is contraindicated or unsafe in fat necrosis",
+    "option_c": "Option appropriate for a different condition than fat necrosis",
+    "option_d": "Key pathologic feature consistent with fat necrosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fat necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q006): A pathology specimen description suggests apoptosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than apoptosis",
+    "option_b": "Option that is contraindicated or unsafe in apoptosis",
+    "option_c": "Option that misses a key diagnostic clue for apoptosis",
+    "option_d": "Key pathologic feature consistent with apoptosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for apoptosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q007): A pathology specimen description suggests acute inflammation. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than acute inflammation",
+    "option_b": "Option that misses a key diagnostic clue for acute inflammation",
+    "option_c": "Key pathologic feature consistent with acute inflammation",
+    "option_d": "Option that is contraindicated or unsafe in acute inflammation",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute inflammation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q008): A pathology specimen description suggests chronic inflammation. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for chronic inflammation",
+    "option_b": "Option that is contraindicated or unsafe in chronic inflammation",
+    "option_c": "Option appropriate for a different condition than chronic inflammation",
+    "option_d": "Key pathologic feature consistent with chronic inflammation",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for chronic inflammation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q009): A pathology specimen description suggests wound healing. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for wound healing",
+    "option_b": "Option appropriate for a different condition than wound healing",
+    "option_c": "Key pathologic feature consistent with wound healing",
+    "option_d": "Option that is contraindicated or unsafe in wound healing",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for wound healing at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q010): A pathology specimen description suggests Virchow triad. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than Virchow triad",
+    "option_b": "Key pathologic feature consistent with Virchow triad",
+    "option_c": "Option that misses a key diagnostic clue for Virchow triad",
+    "option_d": "Option that is contraindicated or unsafe in Virchow triad",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Virchow triad at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q011): A pathology specimen description suggests thrombosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for thrombosis",
+    "option_b": "Key pathologic feature consistent with thrombosis",
+    "option_c": "Option that is contraindicated or unsafe in thrombosis",
+    "option_d": "Option appropriate for a different condition than thrombosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for thrombosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q012): A pathology specimen description suggests embolism. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than embolism",
+    "option_b": "Option that misses a key diagnostic clue for embolism",
+    "option_c": "Key pathologic feature consistent with embolism",
+    "option_d": "Option that is contraindicated or unsafe in embolism",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for embolism at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q013): A pathology specimen description suggests infarction. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with infarction",
+    "option_b": "Option appropriate for a different condition than infarction",
+    "option_c": "Option that misses a key diagnostic clue for infarction",
+    "option_d": "Option that is contraindicated or unsafe in infarction",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for infarction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q014): A pathology specimen description suggests shock types. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in shock types",
+    "option_b": "Option that misses a key diagnostic clue for shock types",
+    "option_c": "Key pathologic feature consistent with shock types",
+    "option_d": "Option appropriate for a different condition than shock types",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q015): A pathology specimen description suggests benign vs malignant neoplasia. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than benign vs malignant neoplasia",
+    "option_b": "Option that is contraindicated or unsafe in benign vs malignant neoplasia",
+    "option_c": "Key pathologic feature consistent with benign vs malignant neoplasia",
+    "option_d": "Option that misses a key diagnostic clue for benign vs malignant neoplasia",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for benign vs malignant neoplasia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q016): A pathology specimen description suggests grading vs staging. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with grading vs staging",
+    "option_b": "Option appropriate for a different condition than grading vs staging",
+    "option_c": "Option that misses a key diagnostic clue for grading vs staging",
+    "option_d": "Option that is contraindicated or unsafe in grading vs staging",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for grading vs staging at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q017): A pathology specimen description suggests tumor markers. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for tumor markers",
+    "option_b": "Key pathologic feature consistent with tumor markers",
+    "option_c": "Option appropriate for a different condition than tumor markers",
+    "option_d": "Option that is contraindicated or unsafe in tumor markers",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor markers at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q018): A pathology specimen description suggests oncogenes. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than oncogenes",
+    "option_b": "Key pathologic feature consistent with oncogenes",
+    "option_c": "Option that misses a key diagnostic clue for oncogenes",
+    "option_d": "Option that is contraindicated or unsafe in oncogenes",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for oncogenes at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q019): A pathology specimen description suggests tumor suppressor genes. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for tumor suppressor genes",
+    "option_b": "Key pathologic feature consistent with tumor suppressor genes",
+    "option_c": "Option that is contraindicated or unsafe in tumor suppressor genes",
+    "option_d": "Option appropriate for a different condition than tumor suppressor genes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor suppressor genes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q020): A pathology specimen description suggests cardiovascular pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in cardiovascular pathology",
+    "option_b": "Option that misses a key diagnostic clue for cardiovascular pathology",
+    "option_c": "Option appropriate for a different condition than cardiovascular pathology",
+    "option_d": "Key pathologic feature consistent with cardiovascular pathology",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiovascular pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q021): A pathology specimen description suggests respiratory pathology. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for respiratory pathology",
+    "option_b": "Option appropriate for a different condition than respiratory pathology",
+    "option_c": "Option that is contraindicated or unsafe in respiratory pathology",
+    "option_d": "Key pathologic feature consistent with respiratory pathology",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for respiratory pathology at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q022): A pathology specimen description suggests GI pathology. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than GI pathology",
+    "option_b": "Key pathologic feature consistent with GI pathology",
+    "option_c": "Option that is contraindicated or unsafe in GI pathology",
+    "option_d": "Option that misses a key diagnostic clue for GI pathology",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q023): A pathology specimen description suggests renal pathology. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than renal pathology",
+    "option_b": "Option that is contraindicated or unsafe in renal pathology",
+    "option_c": "Key pathologic feature consistent with renal pathology",
+    "option_d": "Option that misses a key diagnostic clue for renal pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for renal pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q024): A pathology specimen description suggests endocrine pathology. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for endocrine pathology",
+    "option_b": "Option that is contraindicated or unsafe in endocrine pathology",
+    "option_c": "Key pathologic feature consistent with endocrine pathology",
+    "option_d": "Option appropriate for a different condition than endocrine pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocrine pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q025): A pathology specimen description suggests hematology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with hematology",
+    "option_b": "Option appropriate for a different condition than hematology",
+    "option_c": "Option that misses a key diagnostic clue for hematology",
+    "option_d": "Option that is contraindicated or unsafe in hematology",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hematology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q026): A pathology specimen description suggests breast pathology. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than breast pathology",
+    "option_b": "Option that is contraindicated or unsafe in breast pathology",
+    "option_c": "Key pathologic feature consistent with breast pathology",
+    "option_d": "Option that misses a key diagnostic clue for breast pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for breast pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q027): A pathology specimen description suggests CNS pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with CNS pathology",
+    "option_b": "Option that misses a key diagnostic clue for CNS pathology",
+    "option_c": "Option that is contraindicated or unsafe in CNS pathology",
+    "option_d": "Option appropriate for a different condition than CNS pathology",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CNS pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q028): A pathology specimen description suggests cell injury. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for cell injury",
+    "option_b": "Option that is contraindicated or unsafe in cell injury",
+    "option_c": "Option appropriate for a different condition than cell injury",
+    "option_d": "Key pathologic feature consistent with cell injury",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cell injury at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q029): A pathology specimen description suggests coagulative necrosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for coagulative necrosis",
+    "option_b": "Option that is contraindicated or unsafe in coagulative necrosis",
+    "option_c": "Option appropriate for a different condition than coagulative necrosis",
+    "option_d": "Key pathologic feature consistent with coagulative necrosis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulative necrosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q030): A pathology specimen description suggests liquefactive necrosis. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with liquefactive necrosis",
+    "option_b": "Option that is contraindicated or unsafe in liquefactive necrosis",
+    "option_c": "Option that misses a key diagnostic clue for liquefactive necrosis",
+    "option_d": "Option appropriate for a different condition than liquefactive necrosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for liquefactive necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q031): A pathology specimen description suggests caseous necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than caseous necrosis",
+    "option_b": "Option that misses a key diagnostic clue for caseous necrosis",
+    "option_c": "Key pathologic feature consistent with caseous necrosis",
+    "option_d": "Option that is contraindicated or unsafe in caseous necrosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for caseous necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q032): A pathology specimen description suggests fat necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than fat necrosis",
+    "option_b": "Option that misses a key diagnostic clue for fat necrosis",
+    "option_c": "Option that is contraindicated or unsafe in fat necrosis",
+    "option_d": "Key pathologic feature consistent with fat necrosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fat necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q033): A pathology specimen description suggests apoptosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for apoptosis",
+    "option_b": "Option that is contraindicated or unsafe in apoptosis",
+    "option_c": "Key pathologic feature consistent with apoptosis",
+    "option_d": "Option appropriate for a different condition than apoptosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for apoptosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q034): A pathology specimen description suggests acute inflammation. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with acute inflammation",
+    "option_b": "Option that misses a key diagnostic clue for acute inflammation",
+    "option_c": "Option appropriate for a different condition than acute inflammation",
+    "option_d": "Option that is contraindicated or unsafe in acute inflammation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute inflammation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q035): A pathology specimen description suggests chronic inflammation. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for chronic inflammation",
+    "option_b": "Key pathologic feature consistent with chronic inflammation",
+    "option_c": "Option appropriate for a different condition than chronic inflammation",
+    "option_d": "Option that is contraindicated or unsafe in chronic inflammation",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for chronic inflammation at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q036): A pathology specimen description suggests wound healing. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for wound healing",
+    "option_b": "Option appropriate for a different condition than wound healing",
+    "option_c": "Option that is contraindicated or unsafe in wound healing",
+    "option_d": "Key pathologic feature consistent with wound healing",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for wound healing at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q037): A pathology specimen description suggests Virchow triad. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in Virchow triad",
+    "option_b": "Key pathologic feature consistent with Virchow triad",
+    "option_c": "Option appropriate for a different condition than Virchow triad",
+    "option_d": "Option that misses a key diagnostic clue for Virchow triad",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Virchow triad at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q038): A pathology specimen description suggests thrombosis. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in thrombosis",
+    "option_b": "Option that misses a key diagnostic clue for thrombosis",
+    "option_c": "Option appropriate for a different condition than thrombosis",
+    "option_d": "Key pathologic feature consistent with thrombosis",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for thrombosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q039): A pathology specimen description suggests embolism. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than embolism",
+    "option_b": "Option that misses a key diagnostic clue for embolism",
+    "option_c": "Option that is contraindicated or unsafe in embolism",
+    "option_d": "Key pathologic feature consistent with embolism",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for embolism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q040): A pathology specimen description suggests infarction. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in infarction",
+    "option_b": "Option appropriate for a different condition than infarction",
+    "option_c": "Key pathologic feature consistent with infarction",
+    "option_d": "Option that misses a key diagnostic clue for infarction",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for infarction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q041): A pathology specimen description suggests shock types. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with shock types",
+    "option_b": "Option that is contraindicated or unsafe in shock types",
+    "option_c": "Option appropriate for a different condition than shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q042): A pathology specimen description suggests benign vs malignant neoplasia. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with benign vs malignant neoplasia",
+    "option_b": "Option that is contraindicated or unsafe in benign vs malignant neoplasia",
+    "option_c": "Option appropriate for a different condition than benign vs malignant neoplasia",
+    "option_d": "Option that misses a key diagnostic clue for benign vs malignant neoplasia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for benign vs malignant neoplasia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q043): A pathology specimen description suggests grading vs staging. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with grading vs staging",
+    "option_b": "Option appropriate for a different condition than grading vs staging",
+    "option_c": "Option that misses a key diagnostic clue for grading vs staging",
+    "option_d": "Option that is contraindicated or unsafe in grading vs staging",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for grading vs staging at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q044): A pathology specimen description suggests tumor markers. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with tumor markers",
+    "option_b": "Option appropriate for a different condition than tumor markers",
+    "option_c": "Option that misses a key diagnostic clue for tumor markers",
+    "option_d": "Option that is contraindicated or unsafe in tumor markers",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor markers at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q045): A pathology specimen description suggests oncogenes. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for oncogenes",
+    "option_b": "Key pathologic feature consistent with oncogenes",
+    "option_c": "Option that is contraindicated or unsafe in oncogenes",
+    "option_d": "Option appropriate for a different condition than oncogenes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for oncogenes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q046): A pathology specimen description suggests tumor suppressor genes. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in tumor suppressor genes",
+    "option_b": "Option appropriate for a different condition than tumor suppressor genes",
+    "option_c": "Option that misses a key diagnostic clue for tumor suppressor genes",
+    "option_d": "Key pathologic feature consistent with tumor suppressor genes",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor suppressor genes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q047): A pathology specimen description suggests cardiovascular pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with cardiovascular pathology",
+    "option_b": "Option that misses a key diagnostic clue for cardiovascular pathology",
+    "option_c": "Option that is contraindicated or unsafe in cardiovascular pathology",
+    "option_d": "Option appropriate for a different condition than cardiovascular pathology",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiovascular pathology at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q048): A pathology specimen description suggests respiratory pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in respiratory pathology",
+    "option_b": "Option that misses a key diagnostic clue for respiratory pathology",
+    "option_c": "Key pathologic feature consistent with respiratory pathology",
+    "option_d": "Option appropriate for a different condition than respiratory pathology",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for respiratory pathology at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q049): A pathology specimen description suggests GI pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with GI pathology",
+    "option_b": "Option appropriate for a different condition than GI pathology",
+    "option_c": "Option that is contraindicated or unsafe in GI pathology",
+    "option_d": "Option that misses a key diagnostic clue for GI pathology",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q050): A pathology specimen description suggests renal pathology. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than renal pathology",
+    "option_b": "Option that is contraindicated or unsafe in renal pathology",
+    "option_c": "Key pathologic feature consistent with renal pathology",
+    "option_d": "Option that misses a key diagnostic clue for renal pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for renal pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q051): A pathology specimen description suggests endocrine pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with endocrine pathology",
+    "option_b": "Option that misses a key diagnostic clue for endocrine pathology",
+    "option_c": "Option that is contraindicated or unsafe in endocrine pathology",
+    "option_d": "Option appropriate for a different condition than endocrine pathology",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocrine pathology at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q052): A pathology specimen description suggests hematology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with hematology",
+    "option_b": "Option that misses a key diagnostic clue for hematology",
+    "option_c": "Option appropriate for a different condition than hematology",
+    "option_d": "Option that is contraindicated or unsafe in hematology",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hematology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q053): A pathology specimen description suggests breast pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in breast pathology",
+    "option_b": "Option that misses a key diagnostic clue for breast pathology",
+    "option_c": "Key pathologic feature consistent with breast pathology",
+    "option_d": "Option appropriate for a different condition than breast pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for breast pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q054): A pathology specimen description suggests CNS pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in CNS pathology",
+    "option_b": "Key pathologic feature consistent with CNS pathology",
+    "option_c": "Option appropriate for a different condition than CNS pathology",
+    "option_d": "Option that misses a key diagnostic clue for CNS pathology",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CNS pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q055): A pathology specimen description suggests cell injury. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than cell injury",
+    "option_b": "Key pathologic feature consistent with cell injury",
+    "option_c": "Option that is contraindicated or unsafe in cell injury",
+    "option_d": "Option that misses a key diagnostic clue for cell injury",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for cell injury at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q056): A pathology specimen description suggests coagulative necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than coagulative necrosis",
+    "option_b": "Key pathologic feature consistent with coagulative necrosis",
+    "option_c": "Option that is contraindicated or unsafe in coagulative necrosis",
+    "option_d": "Option that misses a key diagnostic clue for coagulative necrosis",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulative necrosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q057): A pathology specimen description suggests liquefactive necrosis. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for liquefactive necrosis",
+    "option_b": "Key pathologic feature consistent with liquefactive necrosis",
+    "option_c": "Option that is contraindicated or unsafe in liquefactive necrosis",
+    "option_d": "Option appropriate for a different condition than liquefactive necrosis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for liquefactive necrosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q058): A pathology specimen description suggests caseous necrosis. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in caseous necrosis",
+    "option_b": "Option appropriate for a different condition than caseous necrosis",
+    "option_c": "Key pathologic feature consistent with caseous necrosis",
+    "option_d": "Option that misses a key diagnostic clue for caseous necrosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for caseous necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q059): A pathology specimen description suggests fat necrosis. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with fat necrosis",
+    "option_b": "Option that misses a key diagnostic clue for fat necrosis",
+    "option_c": "Option appropriate for a different condition than fat necrosis",
+    "option_d": "Option that is contraindicated or unsafe in fat necrosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for fat necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q060): A pathology specimen description suggests apoptosis. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in apoptosis",
+    "option_b": "Option that misses a key diagnostic clue for apoptosis",
+    "option_c": "Option appropriate for a different condition than apoptosis",
+    "option_d": "Key pathologic feature consistent with apoptosis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for apoptosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q061): A pathology specimen description suggests acute inflammation. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with acute inflammation",
+    "option_b": "Option appropriate for a different condition than acute inflammation",
+    "option_c": "Option that is contraindicated or unsafe in acute inflammation",
+    "option_d": "Option that misses a key diagnostic clue for acute inflammation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for acute inflammation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q062): A pathology specimen description suggests chronic inflammation. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for chronic inflammation",
+    "option_b": "Key pathologic feature consistent with chronic inflammation",
+    "option_c": "Option that is contraindicated or unsafe in chronic inflammation",
+    "option_d": "Option appropriate for a different condition than chronic inflammation",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for chronic inflammation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q063): A pathology specimen description suggests wound healing. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for wound healing",
+    "option_b": "Key pathologic feature consistent with wound healing",
+    "option_c": "Option that is contraindicated or unsafe in wound healing",
+    "option_d": "Option appropriate for a different condition than wound healing",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for wound healing at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q064): A pathology specimen description suggests Virchow triad. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for Virchow triad",
+    "option_b": "Option appropriate for a different condition than Virchow triad",
+    "option_c": "Option that is contraindicated or unsafe in Virchow triad",
+    "option_d": "Key pathologic feature consistent with Virchow triad",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Virchow triad at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q065): A pathology specimen description suggests thrombosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than thrombosis",
+    "option_b": "Option that misses a key diagnostic clue for thrombosis",
+    "option_c": "Option that is contraindicated or unsafe in thrombosis",
+    "option_d": "Key pathologic feature consistent with thrombosis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for thrombosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q066): A pathology specimen description suggests embolism. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for embolism",
+    "option_b": "Option that is contraindicated or unsafe in embolism",
+    "option_c": "Key pathologic feature consistent with embolism",
+    "option_d": "Option appropriate for a different condition than embolism",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for embolism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q067): A pathology specimen description suggests infarction. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for infarction",
+    "option_b": "Option appropriate for a different condition than infarction",
+    "option_c": "Key pathologic feature consistent with infarction",
+    "option_d": "Option that is contraindicated or unsafe in infarction",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for infarction at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q068): A pathology specimen description suggests shock types. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with shock types",
+    "option_b": "Option that is contraindicated or unsafe in shock types",
+    "option_c": "Option appropriate for a different condition than shock types",
+    "option_d": "Option that misses a key diagnostic clue for shock types",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for shock types at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q069): A pathology specimen description suggests benign vs malignant neoplasia. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with benign vs malignant neoplasia",
+    "option_b": "Option that is contraindicated or unsafe in benign vs malignant neoplasia",
+    "option_c": "Option appropriate for a different condition than benign vs malignant neoplasia",
+    "option_d": "Option that misses a key diagnostic clue for benign vs malignant neoplasia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for benign vs malignant neoplasia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q070): A pathology specimen description suggests grading vs staging. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in grading vs staging",
+    "option_b": "Option appropriate for a different condition than grading vs staging",
+    "option_c": "Option that misses a key diagnostic clue for grading vs staging",
+    "option_d": "Key pathologic feature consistent with grading vs staging",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for grading vs staging at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q071): A pathology specimen description suggests tumor markers. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for tumor markers",
+    "option_b": "Option that is contraindicated or unsafe in tumor markers",
+    "option_c": "Option appropriate for a different condition than tumor markers",
+    "option_d": "Key pathologic feature consistent with tumor markers",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor markers at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q072): A pathology specimen description suggests oncogenes. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for oncogenes",
+    "option_b": "Key pathologic feature consistent with oncogenes",
+    "option_c": "Option that is contraindicated or unsafe in oncogenes",
+    "option_d": "Option appropriate for a different condition than oncogenes",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for oncogenes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q073): A pathology specimen description suggests tumor suppressor genes. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for tumor suppressor genes",
+    "option_b": "Option appropriate for a different condition than tumor suppressor genes",
+    "option_c": "Key pathologic feature consistent with tumor suppressor genes",
+    "option_d": "Option that is contraindicated or unsafe in tumor suppressor genes",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for tumor suppressor genes at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q074): A pathology specimen description suggests cardiovascular pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in cardiovascular pathology",
+    "option_b": "Key pathologic feature consistent with cardiovascular pathology",
+    "option_c": "Option appropriate for a different condition than cardiovascular pathology",
+    "option_d": "Option that misses a key diagnostic clue for cardiovascular pathology",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for cardiovascular pathology at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q075): A pathology specimen description suggests respiratory pathology. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in respiratory pathology",
+    "option_b": "Option that misses a key diagnostic clue for respiratory pathology",
+    "option_c": "Key pathologic feature consistent with respiratory pathology",
+    "option_d": "Option appropriate for a different condition than respiratory pathology",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for respiratory pathology at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q076): A pathology specimen description suggests GI pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with GI pathology",
+    "option_b": "Option that misses a key diagnostic clue for GI pathology",
+    "option_c": "Option appropriate for a different condition than GI pathology",
+    "option_d": "Option that is contraindicated or unsafe in GI pathology",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for GI pathology at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q077): A pathology specimen description suggests renal pathology. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for renal pathology",
+    "option_b": "Option appropriate for a different condition than renal pathology",
+    "option_c": "Option that is contraindicated or unsafe in renal pathology",
+    "option_d": "Key pathologic feature consistent with renal pathology",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for renal pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q078): A pathology specimen description suggests endocrine pathology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with endocrine pathology",
+    "option_b": "Option that misses a key diagnostic clue for endocrine pathology",
+    "option_c": "Option appropriate for a different condition than endocrine pathology",
+    "option_d": "Option that is contraindicated or unsafe in endocrine pathology",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for endocrine pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q079): A pathology specimen description suggests hematology. Which statement is most accurate?",
+    "option_a": "Key pathologic feature consistent with hematology",
+    "option_b": "Option that misses a key diagnostic clue for hematology",
+    "option_c": "Option appropriate for a different condition than hematology",
+    "option_d": "Option that is contraindicated or unsafe in hematology",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hematology at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q080): A pathology specimen description suggests breast pathology. Which statement is most accurate?",
+    "option_a": "Option that misses a key diagnostic clue for breast pathology",
+    "option_b": "Option appropriate for a different condition than breast pathology",
+    "option_c": "Key pathologic feature consistent with breast pathology",
+    "option_d": "Option that is contraindicated or unsafe in breast pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for breast pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q081): A pathology specimen description suggests CNS pathology. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than CNS pathology",
+    "option_b": "Option that is contraindicated or unsafe in CNS pathology",
+    "option_c": "Key pathologic feature consistent with CNS pathology",
+    "option_d": "Option that misses a key diagnostic clue for CNS pathology",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for CNS pathology at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q082): A pathology specimen description suggests cell injury. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in cell injury",
+    "option_b": "Key pathologic feature consistent with cell injury",
+    "option_c": "Option that misses a key diagnostic clue for cell injury",
+    "option_d": "Option appropriate for a different condition than cell injury",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for cell injury at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q083): A pathology specimen description suggests coagulative necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than coagulative necrosis",
+    "option_b": "Option that is contraindicated or unsafe in coagulative necrosis",
+    "option_c": "Option that misses a key diagnostic clue for coagulative necrosis",
+    "option_d": "Key pathologic feature consistent with coagulative necrosis",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulative necrosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q084): A pathology specimen description suggests liquefactive necrosis. Which statement is most accurate?",
+    "option_a": "Option that is contraindicated or unsafe in liquefactive necrosis",
+    "option_b": "Key pathologic feature consistent with liquefactive necrosis",
+    "option_c": "Option appropriate for a different condition than liquefactive necrosis",
+    "option_d": "Option that misses a key diagnostic clue for liquefactive necrosis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for liquefactive necrosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Pathology (Q085): A pathology specimen description suggests caseous necrosis. Which statement is most accurate?",
+    "option_a": "Option appropriate for a different condition than caseous necrosis",
+    "option_b": "Key pathologic feature consistent with caseous necrosis",
+    "option_c": "Option that misses a key diagnostic clue for caseous necrosis",
+    "option_d": "Option that is contraindicated or unsafe in caseous necrosis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for caseous necrosis at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]

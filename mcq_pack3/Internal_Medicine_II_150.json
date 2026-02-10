@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Internal Medicine II (Q001): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Best next step consistent with COPD exacerbation",
+    "option_b": "Option appropriate for a different condition than COPD exacerbation",
+    "option_c": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_d": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q002): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "option_b": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_c": "Option appropriate for a different condition than asthma exacerbation",
+    "option_d": "Best next step consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q003): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_b": "Option appropriate for a different condition than pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_d": "Best next step consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q004): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pneumonia",
+    "option_b": "Option that is contraindicated or unsafe in pneumonia",
+    "option_c": "Option that misses a key diagnostic clue for pneumonia",
+    "option_d": "Best next step consistent with pneumonia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q005): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "option_b": "Best next step consistent with interstitial lung disease",
+    "option_c": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_d": "Option appropriate for a different condition than interstitial lung disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q006): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Best next step consistent with pleural effusion",
+    "option_b": "Option appropriate for a different condition than pleural effusion",
+    "option_c": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_d": "Option that misses a key diagnostic clue for pleural effusion",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q007): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in GERD",
+    "option_b": "Option that misses a key diagnostic clue for GERD",
+    "option_c": "Best next step consistent with GERD",
+    "option_d": "Option appropriate for a different condition than GERD",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q008): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Best next step consistent with peptic ulcer disease",
+    "option_b": "Option appropriate for a different condition than peptic ulcer disease",
+    "option_c": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "option_d": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q009): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Crohn disease",
+    "option_b": "Option appropriate for a different condition than Crohn disease",
+    "option_c": "Best next step consistent with Crohn disease",
+    "option_d": "Option that misses a key diagnostic clue for Crohn disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q010): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than ulcerative colitis",
+    "option_b": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "option_c": "Best next step consistent with ulcerative colitis",
+    "option_d": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q011): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in celiac disease",
+    "option_b": "Option appropriate for a different condition than celiac disease",
+    "option_c": "Best next step consistent with celiac disease",
+    "option_d": "Option that misses a key diagnostic clue for celiac disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q012): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than liver cirrhosis",
+    "option_b": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "option_c": "Best next step consistent with liver cirrhosis",
+    "option_d": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q013): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Best next step consistent with hepatitis",
+    "option_b": "Option appropriate for a different condition than hepatitis",
+    "option_c": "Option that is contraindicated or unsafe in hepatitis",
+    "option_d": "Option that misses a key diagnostic clue for hepatitis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q014): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Best next step consistent with pancreatitis",
+    "option_b": "Option appropriate for a different condition than pancreatitis",
+    "option_c": "Option that is contraindicated or unsafe in pancreatitis",
+    "option_d": "Option that misses a key diagnostic clue for pancreatitis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q015): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for gallbladder disease",
+    "option_b": "Option appropriate for a different condition than gallbladder disease",
+    "option_c": "Best next step consistent with gallbladder disease",
+    "option_d": "Option that is contraindicated or unsafe in gallbladder disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q016): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Best next step consistent with iron deficiency anemia",
+    "option_b": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "option_c": "Option appropriate for a different condition than iron deficiency anemia",
+    "option_d": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q017): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "option_b": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_c": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "option_d": "Best next step consistent with B12 deficiency anemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q018): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Best next step consistent with folate deficiency",
+    "option_b": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_c": "Option appropriate for a different condition than folate deficiency",
+    "option_d": "Option that misses a key diagnostic clue for folate deficiency",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q019): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "option_b": "Option appropriate for a different condition than hemolytic anemia",
+    "option_c": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "option_d": "Best next step consistent with hemolytic anemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q020): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option appropriate for a different condition than leukemia",
+    "option_d": "Option that is contraindicated or unsafe in leukemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q021): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than lymphoma",
+    "option_b": "Option that misses a key diagnostic clue for lymphoma",
+    "option_c": "Option that is contraindicated or unsafe in lymphoma",
+    "option_d": "Best next step consistent with lymphoma",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q022): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Best next step consistent with multiple myeloma",
+    "option_b": "Option appropriate for a different condition than multiple myeloma",
+    "option_c": "Option that is contraindicated or unsafe in multiple myeloma",
+    "option_d": "Option that misses a key diagnostic clue for multiple myeloma",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q023): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in coagulation disorders",
+    "option_b": "Best next step consistent with coagulation disorders",
+    "option_c": "Option appropriate for a different condition than coagulation disorders",
+    "option_d": "Option that misses a key diagnostic clue for coagulation disorders",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q024): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Best next step consistent with DVT/PE treatment",
+    "option_b": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "option_c": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "option_d": "Option appropriate for a different condition than DVT/PE treatment",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q025): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Best next step consistent with COPD exacerbation",
+    "option_b": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_c": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "option_d": "Option appropriate for a different condition than COPD exacerbation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q026): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "option_b": "Best next step consistent with asthma exacerbation",
+    "option_c": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_d": "Option appropriate for a different condition than asthma exacerbation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q027): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_b": "Best next step consistent with pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_d": "Option appropriate for a different condition than pulmonary embolism",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q028): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pneumonia",
+    "option_b": "Option that is contraindicated or unsafe in pneumonia",
+    "option_c": "Option that misses a key diagnostic clue for pneumonia",
+    "option_d": "Best next step consistent with pneumonia",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q029): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "option_b": "Best next step consistent with interstitial lung disease",
+    "option_c": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_d": "Option appropriate for a different condition than interstitial lung disease",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q030): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pleural effusion",
+    "option_b": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_c": "Best next step consistent with pleural effusion",
+    "option_d": "Option that misses a key diagnostic clue for pleural effusion",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q031): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than GERD",
+    "option_b": "Best next step consistent with GERD",
+    "option_c": "Option that misses a key diagnostic clue for GERD",
+    "option_d": "Option that is contraindicated or unsafe in GERD",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q032): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "option_b": "Best next step consistent with peptic ulcer disease",
+    "option_c": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "option_d": "Option appropriate for a different condition than peptic ulcer disease",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q033): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Best next step consistent with Crohn disease",
+    "option_b": "Option appropriate for a different condition than Crohn disease",
+    "option_c": "Option that is contraindicated or unsafe in Crohn disease",
+    "option_d": "Option that misses a key diagnostic clue for Crohn disease",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q034): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "option_b": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "option_c": "Option appropriate for a different condition than ulcerative colitis",
+    "option_d": "Best next step consistent with ulcerative colitis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q035): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Best next step consistent with celiac disease",
+    "option_b": "Option appropriate for a different condition than celiac disease",
+    "option_c": "Option that is contraindicated or unsafe in celiac disease",
+    "option_d": "Option that misses a key diagnostic clue for celiac disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q036): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Best next step consistent with liver cirrhosis",
+    "option_b": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "option_c": "Option appropriate for a different condition than liver cirrhosis",
+    "option_d": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q037): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hepatitis",
+    "option_b": "Option that is contraindicated or unsafe in hepatitis",
+    "option_c": "Option appropriate for a different condition than hepatitis",
+    "option_d": "Best next step consistent with hepatitis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q038): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pancreatitis",
+    "option_b": "Option that is contraindicated or unsafe in pancreatitis",
+    "option_c": "Best next step consistent with pancreatitis",
+    "option_d": "Option that misses a key diagnostic clue for pancreatitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q039): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in gallbladder disease",
+    "option_b": "Best next step consistent with gallbladder disease",
+    "option_c": "Option that misses a key diagnostic clue for gallbladder disease",
+    "option_d": "Option appropriate for a different condition than gallbladder disease",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q040): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Best next step consistent with iron deficiency anemia",
+    "option_b": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "option_c": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "option_d": "Option appropriate for a different condition than iron deficiency anemia",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q041): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_b": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "option_c": "Best next step consistent with B12 deficiency anemia",
+    "option_d": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q042): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for folate deficiency",
+    "option_b": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_c": "Best next step consistent with folate deficiency",
+    "option_d": "Option appropriate for a different condition than folate deficiency",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q043): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Best next step consistent with hemolytic anemia",
+    "option_b": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "option_c": "Option appropriate for a different condition than hemolytic anemia",
+    "option_d": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q044): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option that is contraindicated or unsafe in leukemia",
+    "option_d": "Option appropriate for a different condition than leukemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q045): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Best next step consistent with lymphoma",
+    "option_b": "Option appropriate for a different condition than lymphoma",
+    "option_c": "Option that is contraindicated or unsafe in lymphoma",
+    "option_d": "Option that misses a key diagnostic clue for lymphoma",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q046): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for multiple myeloma",
+    "option_b": "Best next step consistent with multiple myeloma",
+    "option_c": "Option that is contraindicated or unsafe in multiple myeloma",
+    "option_d": "Option appropriate for a different condition than multiple myeloma",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q047): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than coagulation disorders",
+    "option_b": "Option that misses a key diagnostic clue for coagulation disorders",
+    "option_c": "Option that is contraindicated or unsafe in coagulation disorders",
+    "option_d": "Best next step consistent with coagulation disorders",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q048): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "option_b": "Option appropriate for a different condition than DVT/PE treatment",
+    "option_c": "Best next step consistent with DVT/PE treatment",
+    "option_d": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q049): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than COPD exacerbation",
+    "option_b": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_c": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "option_d": "Best next step consistent with COPD exacerbation",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q050): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_b": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "option_c": "Option appropriate for a different condition than asthma exacerbation",
+    "option_d": "Best next step consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q051): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_b": "Best next step consistent with pulmonary embolism",
+    "option_c": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_d": "Option appropriate for a different condition than pulmonary embolism",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q052): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Best next step consistent with pneumonia",
+    "option_b": "Option that is contraindicated or unsafe in pneumonia",
+    "option_c": "Option that misses a key diagnostic clue for pneumonia",
+    "option_d": "Option appropriate for a different condition than pneumonia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q053): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "option_b": "Best next step consistent with interstitial lung disease",
+    "option_c": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_d": "Option appropriate for a different condition than interstitial lung disease",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q054): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_b": "Best next step consistent with pleural effusion",
+    "option_c": "Option appropriate for a different condition than pleural effusion",
+    "option_d": "Option that misses a key diagnostic clue for pleural effusion",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q055): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for GERD",
+    "option_b": "Option appropriate for a different condition than GERD",
+    "option_c": "Best next step consistent with GERD",
+    "option_d": "Option that is contraindicated or unsafe in GERD",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q056): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "option_b": "Option appropriate for a different condition than peptic ulcer disease",
+    "option_c": "Best next step consistent with peptic ulcer disease",
+    "option_d": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q057): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Crohn disease",
+    "option_b": "Option appropriate for a different condition than Crohn disease",
+    "option_c": "Best next step consistent with Crohn disease",
+    "option_d": "Option that misses a key diagnostic clue for Crohn disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q058): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Best next step consistent with ulcerative colitis",
+    "option_b": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "option_c": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "option_d": "Option appropriate for a different condition than ulcerative colitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q059): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than celiac disease",
+    "option_b": "Option that is contraindicated or unsafe in celiac disease",
+    "option_c": "Option that misses a key diagnostic clue for celiac disease",
+    "option_d": "Best next step consistent with celiac disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q060): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than liver cirrhosis",
+    "option_b": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "option_c": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "option_d": "Best next step consistent with liver cirrhosis",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q061): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Best next step consistent with hepatitis",
+    "option_b": "Option that misses a key diagnostic clue for hepatitis",
+    "option_c": "Option appropriate for a different condition than hepatitis",
+    "option_d": "Option that is contraindicated or unsafe in hepatitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q062): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pancreatitis",
+    "option_b": "Option that misses a key diagnostic clue for pancreatitis",
+    "option_c": "Best next step consistent with pancreatitis",
+    "option_d": "Option that is contraindicated or unsafe in pancreatitis",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q063): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for gallbladder disease",
+    "option_b": "Option that is contraindicated or unsafe in gallbladder disease",
+    "option_c": "Option appropriate for a different condition than gallbladder disease",
+    "option_d": "Best next step consistent with gallbladder disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q064): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Best next step consistent with iron deficiency anemia",
+    "option_b": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "option_c": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "option_d": "Option appropriate for a different condition than iron deficiency anemia",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q065): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "option_b": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "option_c": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_d": "Best next step consistent with B12 deficiency anemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q066): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than folate deficiency",
+    "option_b": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_c": "Option that misses a key diagnostic clue for folate deficiency",
+    "option_d": "Best next step consistent with folate deficiency",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q067): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Best next step consistent with hemolytic anemia",
+    "option_b": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "option_c": "Option appropriate for a different condition than hemolytic anemia",
+    "option_d": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q068): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option that is contraindicated or unsafe in leukemia",
+    "option_d": "Option appropriate for a different condition than leukemia",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q069): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for lymphoma",
+    "option_b": "Option appropriate for a different condition than lymphoma",
+    "option_c": "Best next step consistent with lymphoma",
+    "option_d": "Option that is contraindicated or unsafe in lymphoma",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q070): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for multiple myeloma",
+    "option_b": "Option appropriate for a different condition than multiple myeloma",
+    "option_c": "Best next step consistent with multiple myeloma",
+    "option_d": "Option that is contraindicated or unsafe in multiple myeloma",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q071): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than coagulation disorders",
+    "option_b": "Option that is contraindicated or unsafe in coagulation disorders",
+    "option_c": "Best next step consistent with coagulation disorders",
+    "option_d": "Option that misses a key diagnostic clue for coagulation disorders",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q072): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "option_b": "Option appropriate for a different condition than DVT/PE treatment",
+    "option_c": "Best next step consistent with DVT/PE treatment",
+    "option_d": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q073): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_b": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "option_c": "Best next step consistent with COPD exacerbation",
+    "option_d": "Option appropriate for a different condition than COPD exacerbation",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q074): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than asthma exacerbation",
+    "option_b": "Best next step consistent with asthma exacerbation",
+    "option_c": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_d": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q075): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_b": "Option appropriate for a different condition than pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_d": "Best next step consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q076): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Best next step consistent with pneumonia",
+    "option_b": "Option that is contraindicated or unsafe in pneumonia",
+    "option_c": "Option appropriate for a different condition than pneumonia",
+    "option_d": "Option that misses a key diagnostic clue for pneumonia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q077): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than interstitial lung disease",
+    "option_b": "Best next step consistent with interstitial lung disease",
+    "option_c": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_d": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q078): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Best next step consistent with pleural effusion",
+    "option_b": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_c": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_d": "Option appropriate for a different condition than pleural effusion",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q079): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than GERD",
+    "option_b": "Option that is contraindicated or unsafe in GERD",
+    "option_c": "Best next step consistent with GERD",
+    "option_d": "Option that misses a key diagnostic clue for GERD",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q080): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "option_b": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "option_c": "Best next step consistent with peptic ulcer disease",
+    "option_d": "Option appropriate for a different condition than peptic ulcer disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q081): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Crohn disease",
+    "option_b": "Option appropriate for a different condition than Crohn disease",
+    "option_c": "Best next step consistent with Crohn disease",
+    "option_d": "Option that misses a key diagnostic clue for Crohn disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q082): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Best next step consistent with ulcerative colitis",
+    "option_b": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "option_c": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "option_d": "Option appropriate for a different condition than ulcerative colitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q083): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Best next step consistent with celiac disease",
+    "option_b": "Option that misses a key diagnostic clue for celiac disease",
+    "option_c": "Option appropriate for a different condition than celiac disease",
+    "option_d": "Option that is contraindicated or unsafe in celiac disease",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q084): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than liver cirrhosis",
+    "option_b": "Best next step consistent with liver cirrhosis",
+    "option_c": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "option_d": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q085): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hepatitis",
+    "option_b": "Best next step consistent with hepatitis",
+    "option_c": "Option that is contraindicated or unsafe in hepatitis",
+    "option_d": "Option that misses a key diagnostic clue for hepatitis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q086): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Best next step consistent with pancreatitis",
+    "option_b": "Option that misses a key diagnostic clue for pancreatitis",
+    "option_c": "Option that is contraindicated or unsafe in pancreatitis",
+    "option_d": "Option appropriate for a different condition than pancreatitis",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q087): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in gallbladder disease",
+    "option_b": "Best next step consistent with gallbladder disease",
+    "option_c": "Option appropriate for a different condition than gallbladder disease",
+    "option_d": "Option that misses a key diagnostic clue for gallbladder disease",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q088): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "option_b": "Option appropriate for a different condition than iron deficiency anemia",
+    "option_c": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "option_d": "Best next step consistent with iron deficiency anemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q089): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_b": "Best next step consistent with B12 deficiency anemia",
+    "option_c": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "option_d": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q090): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Best next step consistent with folate deficiency",
+    "option_b": "Option that misses a key diagnostic clue for folate deficiency",
+    "option_c": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_d": "Option appropriate for a different condition than folate deficiency",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q091): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "option_b": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "option_c": "Option appropriate for a different condition than hemolytic anemia",
+    "option_d": "Best next step consistent with hemolytic anemia",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q092): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option that is contraindicated or unsafe in leukemia",
+    "option_d": "Option appropriate for a different condition than leukemia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q093): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than lymphoma",
+    "option_b": "Option that misses a key diagnostic clue for lymphoma",
+    "option_c": "Best next step consistent with lymphoma",
+    "option_d": "Option that is contraindicated or unsafe in lymphoma",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q094): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for multiple myeloma",
+    "option_b": "Option that is contraindicated or unsafe in multiple myeloma",
+    "option_c": "Option appropriate for a different condition than multiple myeloma",
+    "option_d": "Best next step consistent with multiple myeloma",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q095): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than coagulation disorders",
+    "option_b": "Option that misses a key diagnostic clue for coagulation disorders",
+    "option_c": "Option that is contraindicated or unsafe in coagulation disorders",
+    "option_d": "Best next step consistent with coagulation disorders",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q096): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than DVT/PE treatment",
+    "option_b": "Best next step consistent with DVT/PE treatment",
+    "option_c": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "option_d": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q097): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Best next step consistent with COPD exacerbation",
+    "option_b": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "option_c": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_d": "Option appropriate for a different condition than COPD exacerbation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q098): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "option_b": "Best next step consistent with asthma exacerbation",
+    "option_c": "Option appropriate for a different condition than asthma exacerbation",
+    "option_d": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q099): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_b": "Option appropriate for a different condition than pulmonary embolism",
+    "option_c": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_d": "Best next step consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q100): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pneumonia",
+    "option_b": "Option appropriate for a different condition than pneumonia",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia",
+    "option_d": "Best next step consistent with pneumonia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q101): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than interstitial lung disease",
+    "option_b": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_c": "Best next step consistent with interstitial lung disease",
+    "option_d": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q102): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_b": "Best next step consistent with pleural effusion",
+    "option_c": "Option appropriate for a different condition than pleural effusion",
+    "option_d": "Option that misses a key diagnostic clue for pleural effusion",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q103): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Best next step consistent with GERD",
+    "option_b": "Option appropriate for a different condition than GERD",
+    "option_c": "Option that misses a key diagnostic clue for GERD",
+    "option_d": "Option that is contraindicated or unsafe in GERD",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q104): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "option_b": "Option appropriate for a different condition than peptic ulcer disease",
+    "option_c": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "option_d": "Best next step consistent with peptic ulcer disease",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q105): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Best next step consistent with Crohn disease",
+    "option_b": "Option that misses a key diagnostic clue for Crohn disease",
+    "option_c": "Option appropriate for a different condition than Crohn disease",
+    "option_d": "Option that is contraindicated or unsafe in Crohn disease",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q106): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "option_b": "Best next step consistent with ulcerative colitis",
+    "option_c": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "option_d": "Option appropriate for a different condition than ulcerative colitis",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q107): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than celiac disease",
+    "option_b": "Option that is contraindicated or unsafe in celiac disease",
+    "option_c": "Option that misses a key diagnostic clue for celiac disease",
+    "option_d": "Best next step consistent with celiac disease",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q108): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than liver cirrhosis",
+    "option_b": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "option_c": "Best next step consistent with liver cirrhosis",
+    "option_d": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q109): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for hepatitis",
+    "option_b": "Option that is contraindicated or unsafe in hepatitis",
+    "option_c": "Best next step consistent with hepatitis",
+    "option_d": "Option appropriate for a different condition than hepatitis",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q110): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pancreatitis",
+    "option_b": "Best next step consistent with pancreatitis",
+    "option_c": "Option appropriate for a different condition than pancreatitis",
+    "option_d": "Option that misses a key diagnostic clue for pancreatitis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q111): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in gallbladder disease",
+    "option_b": "Option appropriate for a different condition than gallbladder disease",
+    "option_c": "Best next step consistent with gallbladder disease",
+    "option_d": "Option that misses a key diagnostic clue for gallbladder disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q112): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Best next step consistent with iron deficiency anemia",
+    "option_b": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "option_c": "Option appropriate for a different condition than iron deficiency anemia",
+    "option_d": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q113): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_b": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "option_c": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "option_d": "Best next step consistent with B12 deficiency anemia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q114): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_b": "Best next step consistent with folate deficiency",
+    "option_c": "Option appropriate for a different condition than folate deficiency",
+    "option_d": "Option that misses a key diagnostic clue for folate deficiency",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q115): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Best next step consistent with hemolytic anemia",
+    "option_b": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "option_c": "Option appropriate for a different condition than hemolytic anemia",
+    "option_d": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q116): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option that misses a key diagnostic clue for leukemia",
+    "option_d": "Option appropriate for a different condition than leukemia",
+    "correct_answer": "B",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q117): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for lymphoma",
+    "option_b": "Best next step consistent with lymphoma",
+    "option_c": "Option that is contraindicated or unsafe in lymphoma",
+    "option_d": "Option appropriate for a different condition than lymphoma",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q118): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Best next step consistent with multiple myeloma",
+    "option_b": "Option that is contraindicated or unsafe in multiple myeloma",
+    "option_c": "Option appropriate for a different condition than multiple myeloma",
+    "option_d": "Option that misses a key diagnostic clue for multiple myeloma",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q119): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than coagulation disorders",
+    "option_b": "Option that is contraindicated or unsafe in coagulation disorders",
+    "option_c": "Option that misses a key diagnostic clue for coagulation disorders",
+    "option_d": "Best next step consistent with coagulation disorders",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q120): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Best next step consistent with DVT/PE treatment",
+    "option_b": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "option_c": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "option_d": "Option appropriate for a different condition than DVT/PE treatment",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q121): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_b": "Best next step consistent with COPD exacerbation",
+    "option_c": "Option appropriate for a different condition than COPD exacerbation",
+    "option_d": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q122): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Best next step consistent with asthma exacerbation",
+    "option_b": "Option appropriate for a different condition than asthma exacerbation",
+    "option_c": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_d": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q123): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_b": "Option appropriate for a different condition than pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_d": "Best next step consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q124): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in pneumonia",
+    "option_b": "Option that misses a key diagnostic clue for pneumonia",
+    "option_c": "Best next step consistent with pneumonia",
+    "option_d": "Option appropriate for a different condition than pneumonia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q125): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than interstitial lung disease",
+    "option_b": "Best next step consistent with interstitial lung disease",
+    "option_c": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_d": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q126): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_b": "Best next step consistent with pleural effusion",
+    "option_c": "Option appropriate for a different condition than pleural effusion",
+    "option_d": "Option that is contraindicated or unsafe in pleural effusion",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q127): A clinical vignette suggests GERD. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in GERD",
+    "option_b": "Option that misses a key diagnostic clue for GERD",
+    "option_c": "Option appropriate for a different condition than GERD",
+    "option_d": "Best next step consistent with GERD",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for GERD at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q128): A clinical vignette suggests peptic ulcer disease. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than peptic ulcer disease",
+    "option_b": "Option that is contraindicated or unsafe in peptic ulcer disease",
+    "option_c": "Best next step consistent with peptic ulcer disease",
+    "option_d": "Option that misses a key diagnostic clue for peptic ulcer disease",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for peptic ulcer disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q129): A clinical vignette suggests Crohn disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in Crohn disease",
+    "option_b": "Option that misses a key diagnostic clue for Crohn disease",
+    "option_c": "Best next step consistent with Crohn disease",
+    "option_d": "Option appropriate for a different condition than Crohn disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for Crohn disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q130): A clinical vignette suggests ulcerative colitis. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for ulcerative colitis",
+    "option_b": "Best next step consistent with ulcerative colitis",
+    "option_c": "Option appropriate for a different condition than ulcerative colitis",
+    "option_d": "Option that is contraindicated or unsafe in ulcerative colitis",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for ulcerative colitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q131): A clinical vignette suggests celiac disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for celiac disease",
+    "option_b": "Option appropriate for a different condition than celiac disease",
+    "option_c": "Option that is contraindicated or unsafe in celiac disease",
+    "option_d": "Best next step consistent with celiac disease",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for celiac disease at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q132): A clinical vignette suggests liver cirrhosis. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in liver cirrhosis",
+    "option_b": "Option that misses a key diagnostic clue for liver cirrhosis",
+    "option_c": "Best next step consistent with liver cirrhosis",
+    "option_d": "Option appropriate for a different condition than liver cirrhosis",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for liver cirrhosis at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q133): A clinical vignette suggests hepatitis. What is the best next step?",
+    "option_a": "Best next step consistent with hepatitis",
+    "option_b": "Option that misses a key diagnostic clue for hepatitis",
+    "option_c": "Option that is contraindicated or unsafe in hepatitis",
+    "option_d": "Option appropriate for a different condition than hepatitis",
+    "correct_answer": "A",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for hepatitis at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q134): A clinical vignette suggests pancreatitis. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pancreatitis",
+    "option_b": "Option that is contraindicated or unsafe in pancreatitis",
+    "option_c": "Option that misses a key diagnostic clue for pancreatitis",
+    "option_d": "Best next step consistent with pancreatitis",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pancreatitis at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q135): A clinical vignette suggests gallbladder disease. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in gallbladder disease",
+    "option_b": "Option that misses a key diagnostic clue for gallbladder disease",
+    "option_c": "Best next step consistent with gallbladder disease",
+    "option_d": "Option appropriate for a different condition than gallbladder disease",
+    "correct_answer": "C",
+    "difficulty": "easy",
+    "explanation": "Correct choice aligns with standard medical reasoning for gallbladder disease at easy level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q136): A clinical vignette suggests iron deficiency anemia. What is the best next step?",
+    "option_a": "Best next step consistent with iron deficiency anemia",
+    "option_b": "Option that misses a key diagnostic clue for iron deficiency anemia",
+    "option_c": "Option appropriate for a different condition than iron deficiency anemia",
+    "option_d": "Option that is contraindicated or unsafe in iron deficiency anemia",
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for iron deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q137): A clinical vignette suggests B12 deficiency anemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for B12 deficiency anemia",
+    "option_b": "Option appropriate for a different condition than B12 deficiency anemia",
+    "option_c": "Best next step consistent with B12 deficiency anemia",
+    "option_d": "Option that is contraindicated or unsafe in B12 deficiency anemia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for B12 deficiency anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q138): A clinical vignette suggests folate deficiency. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than folate deficiency",
+    "option_b": "Best next step consistent with folate deficiency",
+    "option_c": "Option that is contraindicated or unsafe in folate deficiency",
+    "option_d": "Option that misses a key diagnostic clue for folate deficiency",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for folate deficiency at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q139): A clinical vignette suggests hemolytic anemia. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than hemolytic anemia",
+    "option_b": "Option that is contraindicated or unsafe in hemolytic anemia",
+    "option_c": "Best next step consistent with hemolytic anemia",
+    "option_d": "Option that misses a key diagnostic clue for hemolytic anemia",
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for hemolytic anemia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q140): A clinical vignette suggests leukemia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for leukemia",
+    "option_b": "Best next step consistent with leukemia",
+    "option_c": "Option appropriate for a different condition than leukemia",
+    "option_d": "Option that is contraindicated or unsafe in leukemia",
+    "correct_answer": "B",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for leukemia at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q141): A clinical vignette suggests lymphoma. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than lymphoma",
+    "option_b": "Option that misses a key diagnostic clue for lymphoma",
+    "option_c": "Option that is contraindicated or unsafe in lymphoma",
+    "option_d": "Best next step consistent with lymphoma",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for lymphoma at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q142): A clinical vignette suggests multiple myeloma. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for multiple myeloma",
+    "option_b": "Option appropriate for a different condition than multiple myeloma",
+    "option_c": "Option that is contraindicated or unsafe in multiple myeloma",
+    "option_d": "Best next step consistent with multiple myeloma",
+    "correct_answer": "D",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for multiple myeloma at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q143): A clinical vignette suggests coagulation disorders. What is the best next step?",
+    "option_a": "Best next step consistent with coagulation disorders",
+    "option_b": "Option appropriate for a different condition than coagulation disorders",
+    "option_c": "Option that misses a key diagnostic clue for coagulation disorders",
+    "option_d": "Option that is contraindicated or unsafe in coagulation disorders",
+    "correct_answer": "A",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for coagulation disorders at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q144): A clinical vignette suggests DVT/PE treatment. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for DVT/PE treatment",
+    "option_b": "Best next step consistent with DVT/PE treatment",
+    "option_c": "Option appropriate for a different condition than DVT/PE treatment",
+    "option_d": "Option that is contraindicated or unsafe in DVT/PE treatment",
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for DVT/PE treatment at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q145): A clinical vignette suggests COPD exacerbation. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for COPD exacerbation",
+    "option_b": "Option that is contraindicated or unsafe in COPD exacerbation",
+    "option_c": "Best next step consistent with COPD exacerbation",
+    "option_d": "Option appropriate for a different condition than COPD exacerbation",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for COPD exacerbation at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q146): A clinical vignette suggests asthma exacerbation. What is the best next step?",
+    "option_a": "Option that is contraindicated or unsafe in asthma exacerbation",
+    "option_b": "Option that misses a key diagnostic clue for asthma exacerbation",
+    "option_c": "Option appropriate for a different condition than asthma exacerbation",
+    "option_d": "Best next step consistent with asthma exacerbation",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for asthma exacerbation at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q147): A clinical vignette suggests pulmonary embolism. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pulmonary embolism",
+    "option_b": "Option that misses a key diagnostic clue for pulmonary embolism",
+    "option_c": "Option that is contraindicated or unsafe in pulmonary embolism",
+    "option_d": "Best next step consistent with pulmonary embolism",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pulmonary embolism at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q148): A clinical vignette suggests pneumonia. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for pneumonia",
+    "option_b": "Option appropriate for a different condition than pneumonia",
+    "option_c": "Option that is contraindicated or unsafe in pneumonia",
+    "option_d": "Best next step consistent with pneumonia",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pneumonia at medium level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q149): A clinical vignette suggests interstitial lung disease. What is the best next step?",
+    "option_a": "Option that misses a key diagnostic clue for interstitial lung disease",
+    "option_b": "Option that is contraindicated or unsafe in interstitial lung disease",
+    "option_c": "Best next step consistent with interstitial lung disease",
+    "option_d": "Option appropriate for a different condition than interstitial lung disease",
+    "correct_answer": "C",
+    "difficulty": "hard",
+    "explanation": "Correct choice aligns with standard medical reasoning for interstitial lung disease at hard level. Distractors represent common pitfalls and alternatives."
+  },
+  {
+    "question": "Internal Medicine II (Q150): A clinical vignette suggests pleural effusion. What is the best next step?",
+    "option_a": "Option appropriate for a different condition than pleural effusion",
+    "option_b": "Option that misses a key diagnostic clue for pleural effusion",
+    "option_c": "Option that is contraindicated or unsafe in pleural effusion",
+    "option_d": "Best next step consistent with pleural effusion",
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "Correct choice aligns with standard medical reasoning for pleural effusion at medium level. Distractors represent common pitfalls and alternatives."
+  }
+]
