@@ -1,0 +1,425 @@
+[
+  {
+    "question": "A 25-year-old man at rest has a heart rate of 70 bpm and stroke volume of 70 mL. What is his cardiac output?",
+    "option_a": "3.5 L/min",
+    "option_b": "4.9 L/min",
+    "option_c": "5.6 L/min",
+    "option_d": "7.0 L/min",
+    "correct_answer": "B",
+    "explanation": "Cardiac output = Heart rate × Stroke volume = 70 bpm × 70 mL = 4,900 mL/min = 4.9 L/min. Normal resting CO is 4-8 L/min."
+  },
+  {
+    "question": "During the cardiac cycle, which phase has the highest left ventricular pressure?",
+    "option_a": "Atrial systole",
+    "option_b": "Isovolumetric contraction",
+    "option_c": "Rapid ejection phase",
+    "option_d": "Isovolumetric relaxation",
+    "correct_answer": "C",
+    "explanation": "Peak LV pressure occurs during the rapid ejection phase when the aortic valve is open and blood is being expelled. During isovolumetric contraction, pressure rises but hasn't yet reached its peak."
+  },
+  {
+    "question": "A patient has a blood pressure of 120/80 mmHg. What is the mean arterial pressure (MAP)?",
+    "option_a": "87 mmHg",
+    "option_b": "93 mmHg",
+    "option_c": "100 mmHg",
+    "option_d": "107 mmHg",
+    "correct_answer": "B",
+    "explanation": "MAP = Diastolic + 1/3(Systolic - Diastolic) = 80 + 1/3(120-80) = 80 + 13.3 = 93.3 mmHg. MAP represents the average pressure during the cardiac cycle."
+  },
+  {
+    "question": "Which ion is primarily responsible for the plateau phase (phase 2) of the ventricular action potential?",
+    "option_a": "Sodium",
+    "option_b": "Potassium",
+    "option_c": "Calcium",
+    "option_d": "Chloride",
+    "correct_answer": "C",
+    "explanation": "The plateau phase is maintained by L-type calcium channel influx balanced by potassium efflux. This prolonged depolarization ensures adequate time for ventricular contraction and prevents tetany."
+  },
+  {
+    "question": "A 30-year-old athlete has increased stroke volume during exercise. Which mechanism is primarily responsible?",
+    "option_a": "Decreased afterload",
+    "option_b": "Frank-Starling mechanism (increased preload)",
+    "option_c": "Decreased heart rate",
+    "option_d": "Decreased contractility",
+    "correct_answer": "B",
+    "explanation": "During exercise, increased venous return stretches ventricular myocytes, increasing preload. According to the Frank-Starling law, this increases stroke volume by optimizing actin-myosin overlap."
+  },
+  {
+    "question": "Where does the majority of airway resistance occur in the respiratory system?",
+    "option_a": "Trachea",
+    "option_b": "Medium-sized bronchi",
+    "option_c": "Small bronchioles",
+    "option_d": "Alveoli",
+    "correct_answer": "B",
+    "explanation": "Medium-sized bronchi (generations 3-8) contribute most to airway resistance due to their intermediate size. Small airways have low individual resistance but huge total cross-sectional area in parallel."
+  },
+  {
+    "question": "A patient has arterial PO2 of 60 mmHg. Based on the oxygen-hemoglobin dissociation curve, what is the approximate oxygen saturation?",
+    "option_a": "70%",
+    "option_b": "80%",
+    "option_c": "90%",
+    "option_d": "97%",
+    "correct_answer": "C",
+    "explanation": "At PO2 of 60 mmHg, hemoglobin saturation is approximately 90%. The steep portion of the curve (20-60 mmHg) allows efficient oxygen unloading to tissues."
+  },
+  {
+    "question": "Which factor shifts the oxygen-hemoglobin dissociation curve to the RIGHT?",
+    "option_a": "Decreased temperature",
+    "option_b": "Decreased 2,3-DPG",
+    "option_c": "Increased pH (alkalosis)",
+    "option_d": "Increased PCO2 (Bohr effect)",
+    "correct_answer": "D",
+    "explanation": "Right shift (decreased O2 affinity) occurs with increased CO2, decreased pH, increased temperature, and increased 2,3-DPG. This facilitates oxygen unloading in metabolically active tissues."
+  },
+  {
+    "question": "A patient is breathing room air at sea level. What is the partial pressure of oxygen in the alveoli (PAO2) approximately?",
+    "option_a": "40 mmHg",
+    "option_b": "60 mmHg",
+    "option_c": "100 mmHg",
+    "option_d": "150 mmHg",
+    "correct_answer": "C",
+    "explanation": "Using the alveolar gas equation: PAO2 ≈ FiO2(Patm - PH2O) - PaCO2/R = 0.21(760-47) - 40/0.8 ≈ 100 mmHg. This is the normal alveolar oxygen tension."
+  },
+  {
+    "question": "What is the primary stimulus for the peripheral chemoreceptors in the carotid and aortic bodies?",
+    "option_a": "Increased PaCO2",
+    "option_b": "Decreased PaO2",
+    "option_c": "Decreased pH",
+    "option_d": "Increased HCO3-",
+    "correct_answer": "B",
+    "explanation": "Peripheral chemoreceptors are primarily sensitive to decreased PaO2 (hypoxemia). They respond when PaO2 falls below 60 mmHg. Central chemoreceptors respond mainly to CO2/pH changes."
+  },
+  {
+    "question": "In the nephron, where is the majority of filtered glucose reabsorbed?",
+    "option_a": "Proximal convoluted tubule",
+    "option_b": "Loop of Henle",
+    "option_c": "Distal convoluted tubule",
+    "option_d": "Collecting duct",
+    "correct_answer": "A",
+    "explanation": "The proximal tubule reabsorbs 100% of filtered glucose via SGLT2 (90%) and SGLT1 (10%) cotransporters. This is a Tm-limited process; above plasma glucose ~180 mg/dL, glucose appears in urine."
+  },
+  {
+    "question": "Which segment of the nephron is impermeable to water even in the presence of ADH?",
+    "option_a": "Proximal tubule",
+    "option_b": "Thin descending limb",
+    "option_c": "Thick ascending limb of loop of Henle",
+    "option_d": "Collecting duct",
+    "correct_answer": "C",
+    "explanation": "The thick ascending limb is always impermeable to water ('diluting segment'). It actively reabsorbs NaCl via NKCC2 cotransporter without water, creating the medullary concentration gradient."
+  },
+  {
+    "question": "A patient has plasma creatinine of 2.0 mg/dL (baseline 1.0 mg/dL). Assuming steady state, what has happened to the GFR?",
+    "option_a": "GFR increased by 50%",
+    "option_b": "GFR decreased by 25%",
+    "option_c": "GFR decreased by 50%",
+    "option_d": "GFR unchanged",
+    "correct_answer": "C",
+    "explanation": "Creatinine and GFR have an inverse relationship. If creatinine doubles, GFR has approximately halved. This relationship is used clinically to estimate renal function changes."
+  },
+  {
+    "question": "What is the primary action of aldosterone on the kidney?",
+    "option_a": "Increase water reabsorption in collecting duct",
+    "option_b": "Increase sodium reabsorption and potassium secretion in collecting duct",
+    "option_c": "Increase calcium reabsorption in distal tubule",
+    "option_d": "Increase urea reabsorption in inner medullary collecting duct",
+    "correct_answer": "B",
+    "explanation": "Aldosterone acts on principal cells of the collecting duct to increase ENaC (sodium reabsorption) and ROMK channels (potassium secretion). This is the basis of its effects on blood pressure and potassium balance."
+  },
+  {
+    "question": "Which hormone is released in response to decreased plasma osmolality?",
+    "option_a": "ADH (vasopressin) - increased release",
+    "option_b": "ADH (vasopressin) - decreased release",
+    "option_c": "Aldosterone - increased release",
+    "option_d": "ANP - increased release",
+    "correct_answer": "B",
+    "explanation": "ADH release is suppressed when plasma osmolality decreases below ~280 mOsm/kg. This allows maximal water excretion (dilute urine) to restore normal osmolality. Osmoreceptors in the hypothalamus mediate this response."
+  },
+  {
+    "question": "A patient has metabolic acidosis. What is the expected respiratory compensation?",
+    "option_a": "Hypoventilation to retain CO2",
+    "option_b": "Hyperventilation to reduce CO2",
+    "option_c": "No respiratory compensation occurs",
+    "option_d": "Increased bicarbonate reabsorption only",
+    "correct_answer": "B",
+    "explanation": "Metabolic acidosis triggers hyperventilation (Kussmaul breathing) to reduce PaCO2 and partially compensate for the low pH. Expected PaCO2 = 1.5 × [HCO3-] + 8 (Winter's formula)."
+  },
+  {
+    "question": "In the GI tract, where is iron primarily absorbed?",
+    "option_a": "Stomach",
+    "option_b": "Duodenum",
+    "option_c": "Jejunum",
+    "option_d": "Ileum",
+    "correct_answer": "B",
+    "explanation": "Iron is absorbed in the duodenum via DMT1 (divalent metal transporter 1) on the apical membrane. Ferroportin exports iron basolaterally. Hepcidin regulates ferroportin to control systemic iron levels."
+  },
+  {
+    "question": "Which substance stimulates gastric acid (HCl) secretion by parietal cells?",
+    "option_a": "Secretin",
+    "option_b": "Somatostatin",
+    "option_c": "Histamine",
+    "option_d": "Prostaglandin E2",
+    "correct_answer": "C",
+    "explanation": "Histamine (from ECL cells) stimulates parietal cells via H2 receptors, activating adenylyl cyclase. Other stimulants include gastrin (via CCK-B receptors) and acetylcholine (via M3 receptors). PPIs block the final common pathway (H+/K+-ATPase)."
+  },
+  {
+    "question": "What is the primary function of bile salts in digestion?",
+    "option_a": "Enzymatic breakdown of triglycerides",
+    "option_b": "Emulsification of fats to increase surface area for lipase",
+    "option_c": "Direct absorption of fatty acids",
+    "option_d": "Stimulation of pancreatic enzyme secretion",
+    "correct_answer": "B",
+    "explanation": "Bile salts are amphipathic molecules that emulsify large fat droplets into smaller micelles, greatly increasing surface area for pancreatic lipase action. They also form mixed micelles for fatty acid transport to enterocytes."
+  },
+  {
+    "question": "Vitamin B12 absorption requires which intrinsic factor produced by which cells?",
+    "option_a": "Chief cells",
+    "option_b": "Parietal cells",
+    "option_c": "G cells",
+    "option_d": "Mucous cells",
+    "correct_answer": "B",
+    "explanation": "Parietal cells in the gastric body/fundus produce intrinsic factor (in addition to HCl). IF binds B12, and the complex is absorbed in the terminal ileum via cubilin receptor. Parietal cell loss causes pernicious anemia."
+  },
+  {
+    "question": "Which pancreatic enzyme is secreted in active form (not as a zymogen)?",
+    "option_a": "Trypsin",
+    "option_b": "Chymotrypsin",
+    "option_c": "Lipase",
+    "option_d": "Carboxypeptidase",
+    "correct_answer": "C",
+    "explanation": "Pancreatic lipase is secreted in active form. Proteases (trypsin, chymotrypsin, carboxypeptidase) are secreted as inactive zymogens to prevent autodigestion. Enterokinase activates trypsinogen, which then activates other zymogens."
+  },
+  {
+    "question": "A hormone is released from the anterior pituitary and acts on the thyroid gland. Which hypothalamic hormone stimulates its release?",
+    "option_a": "Dopamine",
+    "option_b": "Somatostatin",
+    "option_c": "Thyrotropin-releasing hormone (TRH)",
+    "option_d": "Corticotropin-releasing hormone (CRH)",
+    "correct_answer": "C",
+    "explanation": "TRH from the hypothalamus stimulates TSH release from anterior pituitary thyrotrophs. TSH then stimulates thyroid hormone synthesis. T3/T4 provide negative feedback at both hypothalamic and pituitary levels."
+  },
+  {
+    "question": "Which hormone has its receptors located intracellularly (in the cytoplasm or nucleus)?",
+    "option_a": "Insulin",
+    "option_b": "Epinephrine",
+    "option_c": "Cortisol",
+    "option_d": "Growth hormone",
+    "correct_answer": "C",
+    "explanation": "Steroid hormones (cortisol, aldosterone, sex steroids) and thyroid hormones are lipophilic and cross the cell membrane to bind intracellular receptors. They regulate gene transcription directly. Peptide hormones bind cell surface receptors."
+  },
+  {
+    "question": "What is the effect of insulin on potassium?",
+    "option_a": "Increases serum potassium",
+    "option_b": "Shifts potassium into cells (decreases serum K+)",
+    "option_c": "Increases renal potassium excretion",
+    "option_d": "No effect on potassium",
+    "correct_answer": "B",
+    "explanation": "Insulin activates Na+/K+-ATPase, driving potassium into cells. This is clinically used to treat hyperkalemia (insulin + glucose). Diabetic ketoacidosis causes hyperkalemia partly due to insulin deficiency."
+  },
+  {
+    "question": "Which hormone is primarily responsible for calcium reabsorption in the kidney?",
+    "option_a": "Calcitonin",
+    "option_b": "Parathyroid hormone (PTH)",
+    "option_c": "Vitamin D",
+    "option_d": "Cortisol",
+    "correct_answer": "B",
+    "explanation": "PTH increases calcium reabsorption in the distal convoluted tubule via TRPV5 channels. PTH also increases phosphate excretion (decreases reabsorption in PCT) and stimulates 1,25-(OH)2D production."
+  },
+  {
+    "question": "A patient has low serum calcium and high serum phosphate. PTH is elevated. What is the most likely diagnosis?",
+    "option_a": "Primary hyperparathyroidism",
+    "option_b": "Chronic kidney disease (secondary hyperparathyroidism)",
+    "option_c": "Vitamin D toxicity",
+    "option_d": "Hypoparathyroidism",
+    "correct_answer": "B",
+    "explanation": "CKD causes phosphate retention (high PO4) and decreased 1,25-vitamin D production (low Ca2+). The parathyroids respond appropriately with increased PTH (secondary hyperparathyroidism). Primary hyperparathyroidism has high Ca, low PO4."
+  },
+  {
+    "question": "What is the normal resting membrane potential of a ventricular myocyte?",
+    "option_a": "-40 mV",
+    "option_b": "-70 mV",
+    "option_c": "-90 mV",
+    "option_d": "-120 mV",
+    "correct_answer": "C",
+    "explanation": "Ventricular myocytes have a resting potential of approximately -90 mV, determined mainly by potassium equilibrium potential (IK1 channels). SA node cells have a less negative resting potential (~-60 mV) due to funny current (If)."
+  },
+  {
+    "question": "Which structure generates the normal cardiac pacemaker activity?",
+    "option_a": "AV node",
+    "option_b": "SA node",
+    "option_c": "Bundle of His",
+    "option_d": "Purkinje fibers",
+    "correct_answer": "B",
+    "explanation": "The SA node has the fastest intrinsic rate (60-100 bpm) due to spontaneous phase 4 depolarization (funny current, If). It normally overdrives all other potential pacemakers. AV node rate is 40-60 bpm; Purkinje 20-40 bpm."
+  },
+  {
+    "question": "On an ECG, the PR interval represents:",
+    "option_a": "Atrial depolarization only",
+    "option_b": "Time from SA node firing to ventricular depolarization",
+    "option_c": "Ventricular depolarization",
+    "option_d": "Ventricular repolarization",
+    "correct_answer": "B",
+    "explanation": "The PR interval (normal 120-200 ms) represents conduction from atrial depolarization through the AV node to the start of ventricular depolarization. Prolonged PR indicates AV conduction delay (first-degree AV block)."
+  },
+  {
+    "question": "During which phase of the cardiac cycle does coronary blood flow to the left ventricle primarily occur?",
+    "option_a": "Isovolumetric contraction",
+    "option_b": "Ventricular ejection",
+    "option_c": "Diastole",
+    "option_d": "Atrial systole",
+    "correct_answer": "C",
+    "explanation": "Left ventricular contraction compresses intramural coronary vessels, impeding flow during systole. Most LV coronary flow occurs during diastole. The right ventricle receives flow during both systole and diastole due to lower wall pressure."
+  },
+  {
+    "question": "What determines the rate of diffusion of a gas across the alveolar-capillary membrane?",
+    "option_a": "Cardiac output only",
+    "option_b": "Fick's law: Area × Solubility × Pressure gradient / Thickness",
+    "option_c": "Hemoglobin concentration only",
+    "option_d": "Airway resistance",
+    "correct_answer": "B",
+    "explanation": "Fick's law of diffusion: Diffusion rate ∝ (Area × Solubility × ΔP) / Thickness. Diseases that decrease surface area (emphysema), increase thickness (fibrosis), or decrease pressure gradient impair gas exchange."
+  },
+  {
+    "question": "What is the ventilation-perfusion (V/Q) ratio at the apex of the lung compared to the base?",
+    "option_a": "Higher at apex (V/Q > 1)",
+    "option_b": "Lower at apex (V/Q < 1)",
+    "option_c": "Equal throughout the lung",
+    "option_d": "V/Q = 0 at apex",
+    "correct_answer": "A",
+    "explanation": "At the apex, ventilation exceeds perfusion (V/Q ≈ 3), while at the base, perfusion exceeds ventilation (V/Q ≈ 0.6). Gravity causes greater perfusion differences than ventilation differences. Average V/Q ≈ 0.8."
+  },
+  {
+    "question": "Which lung volume cannot be measured by spirometry alone?",
+    "option_a": "Tidal volume",
+    "option_b": "Vital capacity",
+    "option_c": "Residual volume",
+    "option_d": "Expiratory reserve volume",
+    "correct_answer": "C",
+    "explanation": "Residual volume (air remaining after maximal expiration) cannot be measured by spirometry because it cannot be exhaled. It requires body plethysmography, helium dilution, or nitrogen washout techniques."
+  },
+  {
+    "question": "Surfactant reduces alveolar surface tension. What is its main component?",
+    "option_a": "Phosphatidylcholine (DPPC)",
+    "option_b": "Sphingomyelin",
+    "option_c": "Cholesterol",
+    "option_d": "Phosphatidylserine",
+    "correct_answer": "A",
+    "explanation": "Dipalmitoylphosphatidylcholine (DPPC) is the primary surface-active component of surfactant, produced by type II pneumocytes. Surfactant prevents alveolar collapse, increases compliance, and reduces work of breathing."
+  },
+  {
+    "question": "A patient has increased serum anion gap. Which condition is most likely?",
+    "option_a": "Diarrhea",
+    "option_b": "Diabetic ketoacidosis",
+    "option_c": "Renal tubular acidosis type 1",
+    "option_d": "Normal saline infusion",
+    "correct_answer": "B",
+    "explanation": "Anion gap = Na - (Cl + HCO3). Normal is 8-12 mEq/L. Elevated AG indicates unmeasured anions (ketoacids, lactate, uremia, toxins - MUDPILES). DKA produces ketoacids. Diarrhea and RTA cause non-AG acidosis."
+  },
+  {
+    "question": "In the collecting duct, what effect does ADH have on water permeability?",
+    "option_a": "No effect",
+    "option_b": "Decreases water permeability",
+    "option_c": "Increases water permeability by inserting aquaporin-2",
+    "option_d": "Increases sodium permeability",
+    "correct_answer": "C",
+    "explanation": "ADH binds V2 receptors on principal cells, triggering cAMP cascade that inserts aquaporin-2 channels into the apical membrane. This allows water reabsorption down the osmotic gradient into the hypertonic medullary interstitium."
+  },
+  {
+    "question": "What is the juxtaglomerular apparatus and what does it secrete?",
+    "option_a": "Located in PCT; secretes erythropoietin",
+    "option_b": "Located at vascular pole; secretes renin",
+    "option_c": "Located in collecting duct; secretes ADH",
+    "option_d": "Located in loop of Henle; secretes aldosterone",
+    "correct_answer": "B",
+    "explanation": "The JGA consists of macula densa cells (DCT) and juxtaglomerular cells (afferent arteriole). JG cells secrete renin in response to decreased renal perfusion, sympathetic stimulation, or decreased NaCl delivery to macula densa."
+  },
+  {
+    "question": "Which transporter is responsible for glucose reabsorption in the early proximal tubule?",
+    "option_a": "GLUT2",
+    "option_b": "SGLT2",
+    "option_c": "SGLT1",
+    "option_d": "Na+/K+-ATPase",
+    "correct_answer": "B",
+    "explanation": "SGLT2 (sodium-glucose cotransporter 2) reabsorbs ~90% of filtered glucose in the early PCT. SGLT1 reabsorbs the remaining 10% in the late PCT. SGLT2 inhibitors (gliflozins) cause glucosuria and are used in diabetes treatment."
+  },
+  {
+    "question": "What is the effect of atrial natriuretic peptide (ANP) on sodium handling?",
+    "option_a": "Increases sodium reabsorption",
+    "option_b": "Increases sodium excretion (natriuresis)",
+    "option_c": "No effect on sodium",
+    "option_d": "Increases potassium excretion only",
+    "correct_answer": "B",
+    "explanation": "ANP is released from atrial myocytes in response to stretch. It causes natriuresis by increasing GFR (afferent dilation, efferent constriction), inhibiting sodium reabsorption in collecting duct, and inhibiting renin and aldosterone."
+  },
+  {
+    "question": "During fasting, which hormone promotes glycogenolysis and gluconeogenesis?",
+    "option_a": "Insulin",
+    "option_b": "Glucagon",
+    "option_c": "Somatostatin",
+    "option_d": "Amylin",
+    "correct_answer": "B",
+    "explanation": "Glucagon from pancreatic alpha cells rises during fasting. It stimulates hepatic glycogenolysis (glycogen breakdown) and gluconeogenesis (new glucose synthesis) to maintain blood glucose. Insulin has opposite effects."
+  },
+  {
+    "question": "Which hormone from the posterior pituitary causes uterine contractions and milk ejection?",
+    "option_a": "Prolactin",
+    "option_b": "FSH",
+    "option_c": "Oxytocin",
+    "option_d": "ADH",
+    "correct_answer": "C",
+    "explanation": "Oxytocin is synthesized in the hypothalamus and released from the posterior pituitary. It causes uterine smooth muscle contraction during labor and myoepithelial cell contraction for milk let-down. It's used to induce labor."
+  },
+  {
+    "question": "A patient has elevated free T4 and suppressed TSH. What feedback mechanism explains the low TSH?",
+    "option_a": "Positive feedback",
+    "option_b": "Negative feedback from T4 on the pituitary",
+    "option_c": "TRH deficiency",
+    "option_d": "Pituitary adenoma",
+    "correct_answer": "B",
+    "explanation": "Thyroid hormones exert negative feedback on both the hypothalamus (decreasing TRH) and anterior pituitary (decreasing TSH). Elevated T4 suppresses TSH. This pattern indicates primary hyperthyroidism (thyroid source)."
+  },
+  {
+    "question": "Which type of muscle has the fastest contraction velocity?",
+    "option_a": "Cardiac muscle",
+    "option_b": "Smooth muscle",
+    "option_c": "Skeletal muscle (fast-twitch, type II)",
+    "option_d": "All have equal velocities",
+    "correct_answer": "C",
+    "explanation": "Fast-twitch (type II) skeletal muscle fibers have rapid contraction due to fast myosin ATPase isoforms. They fatigue quickly. Slow-twitch (type I) fibers are oxidative and fatigue-resistant. Smooth muscle has slowest, sustained contractions."
+  },
+  {
+    "question": "What is the role of tropomyosin in skeletal muscle contraction?",
+    "option_a": "Binds calcium directly",
+    "option_b": "Blocks myosin binding sites on actin at rest",
+    "option_c": "Hydrolyzes ATP",
+    "option_d": "Releases calcium from sarcoplasmic reticulum",
+    "correct_answer": "B",
+    "explanation": "At rest, tropomyosin covers myosin-binding sites on actin thin filaments. When calcium binds troponin-C, conformational change moves tropomyosin, exposing binding sites and allowing cross-bridge cycling."
+  },
+  {
+    "question": "Action potentials in skeletal muscle are initiated at which structure?",
+    "option_a": "Sarcomere",
+    "option_b": "Neuromuscular junction (motor end plate)",
+    "option_c": "Sarcoplasmic reticulum",
+    "option_d": "T-tubules",
+    "correct_answer": "B",
+    "explanation": "ACh released from motor neurons binds nicotinic receptors at the motor end plate, causing end-plate potential. If threshold is reached, action potential propagates along sarcolemma and T-tubules, triggering calcium release and contraction."
+  },
+  {
+    "question": "Which neurotransmitter is released at the neuromuscular junction?",
+    "option_a": "Norepinephrine",
+    "option_b": "Dopamine",
+    "option_c": "Acetylcholine",
+    "option_d": "Serotonin",
+    "correct_answer": "C",
+    "explanation": "Acetylcholine is the neurotransmitter at the neuromuscular junction, binding nicotinic (N2) receptors on skeletal muscle. Acetylcholinesterase rapidly degrades ACh, terminating the signal. Myasthenia gravis involves antibodies against these receptors."
+  },
+  {
+    "question": "In smooth muscle, contraction is initiated by calcium binding to which protein?",
+    "option_a": "Troponin C",
+    "option_b": "Calmodulin",
+    "option_c": "Tropomyosin",
+    "option_d": "Actin",
+    "correct_answer": "B",
+    "explanation": "Smooth muscle lacks troponin. Calcium binds calmodulin, activating myosin light chain kinase (MLCK), which phosphorylates myosin light chains to enable cross-bridge cycling. This is slower but allows sustained contraction."
+  }
+]
