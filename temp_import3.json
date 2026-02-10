@@ -1,0 +1,707 @@
+[
+  {
+    "course_name": "Endodontics",
+    "course_code": "UG_DENT_Y5_S2_C06",
+    "questions": [
+      {
+        "question": "The primary purpose of coronal flaring in root canal preparation is to:",
+        "option_a": "Decrease access",
+        "option_b": "Improve straight-line access and facilitate irrigant penetration",
+        "option_c": "Prevent smear layer formation",
+        "option_d": "Eliminate need for working length",
+        "correct_answer": "B",
+        "explanation": "Coronal flaring reduces coronal interferences, improves instrument control and irrigant delivery."
+      },
+      {
+        "question": "A 'ledge' during instrumentation is best described as:",
+        "option_a": "A perforation into furcation",
+        "option_b": "An artificial irregularity that prevents instruments from reaching working length",
+        "option_c": "A perfectly shaped apical stop",
+        "option_d": "A sealer extrusion",
+        "correct_answer": "B",
+        "explanation": "A ledge is a deviation in the canal wall that blocks further file advancement to WL."
+      },
+      {
+        "question": "Which file size is most commonly used as an initial 'scout' file to establish canal patency?",
+        "option_a": "#40",
+        "option_b": "#25",
+        "option_c": "#10",
+        "option_d": "#80",
+        "correct_answer": "C",
+        "explanation": "Small K-files (often #8 or #10) are used to negotiate canals and establish glide path/patency."
+      },
+      {
+        "question": "The most important objective of irrigation during shaping is to:",
+        "option_a": "Whiten the tooth",
+        "option_b": "Disinfect and flush debris while dissolving organic tissue (when using NaOCl)",
+        "option_c": "Increase canal curvature",
+        "option_d": "Create an apical stop",
+        "correct_answer": "B",
+        "explanation": "Irrigation provides antimicrobial action, debris removal, and tissue dissolution (NaOCl)."
+      },
+      {
+        "question": "A 'vapor lock' phenomenon is most likely to occur in:",
+        "option_a": "Open apex canals",
+        "option_b": "Closed-end canal systems in the apical third limiting irrigant exchange",
+        "option_c": "Only in anterior teeth",
+        "option_d": "Only when EDTA is used",
+        "correct_answer": "B",
+        "explanation": "In closed-end systems, trapped air can prevent irrigant reaching the apical third."
+      },
+      {
+        "question": "Which irrigation needle design reduces apical extrusion risk?",
+        "option_a": "Open-ended needle wedged to length",
+        "option_b": "Side-vented needle used short of WL with gentle pressure",
+        "option_c": "Large-bore open needle under pressure",
+        "option_d": "Any needle inserted to WL binding",
+        "correct_answer": "B",
+        "explanation": "Side-vented needles and non-binding placement reduce extrusion risk."
+      },
+      {
+        "question": "The primary role of chelators like EDTA in endodontics is to:",
+        "option_a": "Kill viruses only",
+        "option_b": "Remove inorganic smear layer and open dentinal tubules",
+        "option_c": "Dissolve organic pulp tissue",
+        "option_d": "Provide anesthesia",
+        "correct_answer": "B",
+        "explanation": "EDTA chelates calcium and removes inorganic debris, aiding smear layer removal."
+      },
+      {
+        "question": "A canal with a continuous bleed on instrumentation despite isolation may indicate:",
+        "option_a": "Apical patency",
+        "option_b": "Perforation (e.g., lateral/strip)",
+        "option_c": "Perfect working length",
+        "option_d": "Apex locator accuracy",
+        "correct_answer": "B",
+        "explanation": "Persistent bleeding and sudden loss of resistance may suggest perforation, requiring assessment."
+      },
+      {
+        "question": "The 'working length' is most accurately described as:",
+        "option_a": "Distance from cusp tip to radiographic apex",
+        "option_b": "Distance from a coronal reference point to where cleaning/shaping/obturation should terminate",
+        "option_c": "Distance from CEJ to furcation",
+        "option_d": "Distance to the largest foramen always",
+        "correct_answer": "B",
+        "explanation": "WL is the distance to the apical termination point for instrumentation and obturation (ideally near apical constriction)."
+      },
+      {
+        "question": "Which is a common sign of sodium hypochlorite accident?",
+        "option_a": "Painless swelling only",
+        "option_b": "Immediate severe pain, swelling, bleeding, ecchymosis after irrigation",
+        "option_c": "Tooth discoloration after weeks only",
+        "option_d": "No symptoms",
+        "correct_answer": "B",
+        "explanation": "NaOCl extrusion causes acute pain, swelling, bleeding and bruising."
+      },
+      {
+        "question": "The main indication for using CBCT in endodontics is:",
+        "option_a": "Routine for all cases",
+        "option_b": "Complex anatomy/diagnosis when 2D imaging is insufficient (e.g., resorption, fractures)",
+        "option_c": "Measuring caries risk",
+        "option_d": "Evaluating gingivitis",
+        "correct_answer": "B",
+        "explanation": "CBCT is indicated selectively for complex diagnosis/planning."
+      },
+      {
+        "question": "A 'true' apical stop in traditional shaping is intended to:",
+        "option_a": "Allow sealer extrusion",
+        "option_b": "Control apical extent of instruments and obturation",
+        "option_c": "Increase canal transportation",
+        "option_d": "Eliminate need for obturation",
+        "correct_answer": "B",
+        "explanation": "Apical control prevents over-instrumentation and supports seal."
+      },
+      {
+        "question": "The most common cause of instrument separation in curved canals is:",
+        "option_a": "Thermal injury",
+        "option_b": "Cyclic fatigue from repeated flexing",
+        "option_c": "Excess fluoride",
+        "option_d": "Use of EDTA",
+        "correct_answer": "B",
+        "explanation": "Cyclic fatigue is a major factor in curved canals for NiTi instruments."
+      },
+      {
+        "question": "A principal advantage of reciprocating instrumentation is:",
+        "option_a": "Higher transportation",
+        "option_b": "Potentially reduced cyclic fatigue and instrument separation risk",
+        "option_c": "No need for irrigation",
+        "option_d": "No need for glide path",
+        "correct_answer": "B",
+        "explanation": "Reciprocation can reduce cyclic fatigue, though glide path and irrigation are still needed."
+      },
+      {
+        "question": "If a tooth has a necrotic pulp and swelling with systemic signs (fever), appropriate management includes:",
+        "option_a": "Analgesics only",
+        "option_b": "Drainage when possible and antibiotics as adjunct, plus endodontic debridement",
+        "option_c": "Observation only",
+        "option_d": "Topical fluoride",
+        "correct_answer": "B",
+        "explanation": "Antibiotics are indicated when systemic involvement exists; drainage and debridement are primary."
+      },
+      {
+        "question": "A sinus tract associated with an endodontic infection typically resolves after:",
+        "option_a": "Crown polishing only",
+        "option_b": "Adequate disinfection and sealing of the root canal system",
+        "option_c": "Extraction of adjacent tooth",
+        "option_d": "Orthodontic treatment",
+        "correct_answer": "B",
+        "explanation": "Once the source infection is removed and canal sealed, sinus tract usually heals."
+      },
+      {
+        "question": "Which obturation technique is most dependent on sealer for fill?",
+        "option_a": "Warm vertical compaction",
+        "option_b": "Single-cone with bioceramic sealer",
+        "option_c": "Lateral condensation",
+        "option_d": "Thermoplastic injection",
+        "correct_answer": "B",
+        "explanation": "Single-cone techniques rely on the sealer to fill irregularities; bioceramic sealers are often used."
+      },
+      {
+        "question": "The 'glide path' is best defined as:",
+        "option_a": "Final shape of canal after obturation",
+        "option_b": "A smooth, reproducible path from orifice to working length for rotary instruments",
+        "option_c": "A lateral canal",
+        "option_d": "A type of sealer",
+        "correct_answer": "B",
+        "explanation": "Creating a glide path reduces torsional stress and procedural errors with rotary files."
+      },
+      {
+        "question": "In a tooth with suspected vertical root fracture, the most useful clinical sign is:",
+        "option_a": "Generalized shallow pockets",
+        "option_b": "Isolated narrow deep pocket and possible sinus tract near gingival margin",
+        "option_c": "Positive cold test",
+        "option_d": "No mobility",
+        "correct_answer": "B",
+        "explanation": "VRF often shows isolated deep probing defect and J-shaped radiolucency."
+      },
+      {
+        "question": "For immature permanent teeth with necrotic pulp, a modern biologic approach is:",
+        "option_a": "Immediate post placement",
+        "option_b": "Regenerative endodontic procedure to allow continued root development when indicated",
+        "option_c": "Amalgam restoration only",
+        "option_d": "No treatment",
+        "correct_answer": "B",
+        "explanation": "Regenerative procedures can promote continued root maturation in selected cases."
+      },
+      {
+        "question": "The most appropriate irrigant sequence to maximize smear layer removal is commonly:",
+        "option_a": "EDTA only",
+        "option_b": "NaOCl during shaping then EDTA final rinse (then optional NaOCl)",
+        "option_c": "CHX mixed with NaOCl",
+        "option_d": "Saline only",
+        "correct_answer": "B",
+        "explanation": "NaOCl addresses organic tissue; EDTA removes inorganic smear layer; sequence matters and NaOCl+CHX mixture is avoided."
+      },
+      {
+        "question": "A major cause of coronal leakage after RCT is:",
+        "option_a": "Use of rubber dam",
+        "option_b": "Delayed definitive coronal restoration and poor temporary seal",
+        "option_c": "Using EDTA",
+        "option_d": "Warm obturation",
+        "correct_answer": "B",
+        "explanation": "Coronal leakage is a major failure factor; prompt, well-sealed restoration is essential."
+      },
+      {
+        "question": "An endodontic-periodontal lesion that shows complete resolution after RCT alone is most consistent with:",
+        "option_a": "Primary periodontal lesion",
+        "option_b": "Primary endodontic lesion with secondary periodontal involvement",
+        "option_c": "True combined lesion always",
+        "option_d": "Root fracture",
+        "correct_answer": "B",
+        "explanation": "If it resolves with RCT, the primary etiology was endodontic."
+      },
+      {
+        "question": "A common cause of failure in retreatment cases is:",
+        "option_a": "Too much irrigation",
+        "option_b": "Inability to eliminate infection due to missed anatomy or persistent biofilm",
+        "option_c": "Use of apex locator",
+        "option_d": "Use of rubber dam",
+        "correct_answer": "B",
+        "explanation": "Missed canals/isthmuses and persistent biofilm can maintain apical disease despite retreatment."
+      },
+      {
+        "question": "Thermoplasticized gutta-percha techniques may increase risk of:",
+        "option_a": "Improved seal always with no risk",
+        "option_b": "Overextension if apical control is inadequate",
+        "option_c": "No adaptation",
+        "option_d": "Lack of flow",
+        "correct_answer": "B",
+        "explanation": "Warm techniques can extrude material if apical control is poor."
+      },
+      {
+        "question": "In obturation, 'sealer puff' beyond apex generally indicates:",
+        "option_a": "Guaranteed failure",
+        "option_b": "Minor extrusion of sealer; prognosis depends on infection control and symptoms",
+        "option_c": "Always requires surgery",
+        "option_d": "Immediate extraction",
+        "correct_answer": "B",
+        "explanation": "Small sealer extrusion may be tolerated if disinfection and seal are adequate; monitor clinically."
+      },
+      {
+        "question": "The best method to prevent strip perforation in molar roots is:",
+        "option_a": "Aggressive flaring on furcal side",
+        "option_b": "Anti-curvature filing away from danger zone and conservative shaping",
+        "option_c": "Using larger tapers apically first",
+        "option_d": "Skipping glide path",
+        "correct_answer": "B",
+        "explanation": "Anti-curvature filing and respecting thin walls reduce strip perforation risk."
+      },
+      {
+        "question": "A 'paper point test' can help identify:",
+        "option_a": "Enamel caries",
+        "option_b": "Canal exudate location and possible perforation level by moisture/blood pattern",
+        "option_c": "Occlusal contacts",
+        "option_d": "Angle classification",
+        "correct_answer": "B",
+        "explanation": "Paper points can reveal bleeding/exudate location to aid diagnosis."
+      },
+      {
+        "question": "Which intracanal medicament is most commonly used between visits in necrotic cases?",
+        "option_a": "ZOE",
+        "option_b": "Calcium hydroxide",
+        "option_c": "Alginate",
+        "option_d": "Zinc phosphate",
+        "correct_answer": "B",
+        "explanation": "Calcium hydroxide is widely used for its high pH antimicrobial effect."
+      },
+      {
+        "question": "The main disadvantage of chlorhexidine irrigation compared to NaOCl is:",
+        "option_a": "Lower antimicrobial action",
+        "option_b": "No tissue dissolution capability",
+        "option_c": "High toxicity always",
+        "option_d": "It removes smear layer",
+        "correct_answer": "B",
+        "explanation": "CHX lacks tissue-dissolving property, so it cannot substitute for NaOCl."
+      },
+      {
+        "question": "To reduce risk of apical extrusion of debris, the preferred instrumentation approach is:",
+        "option_a": "Step-back with heavy apical filing only",
+        "option_b": "Crown-down technique with copious irrigation and recapitulation",
+        "option_c": "No irrigation",
+        "option_d": "Over-instrumentation beyond apex",
+        "correct_answer": "B",
+        "explanation": "Crown-down reduces apical extrusion and improves irrigant penetration."
+      },
+      {
+        "question": "A major objective of access cavity refinement is to:",
+        "option_a": "Reduce visibility",
+        "option_b": "Locate all canals, remove pulp chamber roof, and establish straight-line access",
+        "option_c": "Avoid rubber dam",
+        "option_d": "Create undercuts",
+        "correct_answer": "B",
+        "explanation": "Proper access enables canal location, reduces procedural errors, and improves cleaning."
+      },
+      {
+        "question": "A common radiographic sign of under-obturation is:",
+        "option_a": "Material at apex",
+        "option_b": "Obturation ending >2 mm short of radiographic apex with persistent radiolucency",
+        "option_c": "Sealer puff",
+        "option_d": "Perfect density",
+        "correct_answer": "B",
+        "explanation": "Short fills can leave infected space and are associated with persistent apical pathology."
+      },
+      {
+        "question": "Which is MOST likely to cause post-treatment pain without swelling after RCT?",
+        "option_a": "Adequate occlusion",
+        "option_b": "High occlusion from temporary/restoration or apical irritation",
+        "option_c": "No instrumentation",
+        "option_d": "Use of rubber dam",
+        "correct_answer": "B",
+        "explanation": "Occlusal trauma or apical irritation can cause pain; evaluate occlusion and periapical status."
+      },
+      {
+        "question": "In surgical endodontics, retrograde cavity preparation is commonly performed with:",
+        "option_a": "Hand files",
+        "option_b": "Ultrasonic retro tips",
+        "option_c": "Alginate spatula",
+        "option_d": "Crown prep bur only",
+        "correct_answer": "B",
+        "explanation": "Ultrasonic tips allow conservative root-end cavity preparation."
+      },
+      {
+        "question": "A key indication for endodontic surgery (apicoectomy) is:",
+        "option_a": "Initial treatment of all necrotic teeth",
+        "option_b": "Persistent apical periodontitis when nonsurgical retreatment is not feasible or has failed",
+        "option_c": "Caries prevention",
+        "option_d": "Routine post placement",
+        "correct_answer": "B",
+        "explanation": "Surgery is indicated when orthograde management cannot resolve disease or access is blocked."
+      },
+      {
+        "question": "A 'separated instrument' prognosis is best when:",
+        "option_a": "There is a pre-existing large periapical lesion and infection apical to fragment",
+        "option_b": "The fragment occurs late after adequate disinfection and the canal apical to it is clean",
+        "option_c": "No irrigation was used",
+        "option_d": "The tooth is untreated",
+        "correct_answer": "B",
+        "explanation": "Outcome depends on disinfection of canal space; if infection is controlled, prognosis may still be good."
+      },
+      {
+        "question": "Which factor most improves success of non-surgical retreatment?",
+        "option_a": "Skipping rubber dam",
+        "option_b": "Achieving coronal seal and eliminating coronal leakage sources",
+        "option_c": "Shorter working length",
+        "option_d": "Using saline only",
+        "correct_answer": "B",
+        "explanation": "Coronal seal and infection control are crucial for healing."
+      },
+      {
+        "question": "The recommended management for symptomatic apical abscess with fluctuating swelling is:",
+        "option_a": "No drainage",
+        "option_b": "Establish drainage (through canal or incision) + analgesia; antibiotics if systemic signs",
+        "option_c": "Only fluoride",
+        "option_d": "Crown lengthening",
+        "correct_answer": "B",
+        "explanation": "Drainage relieves pressure; antibiotics are adjunct when systemic involvement exists."
+      },
+      {
+        "question": "A common cause of iatrogenic perforation during access preparation is:",
+        "option_a": "Using rubber dam",
+        "option_b": "Misidentification of pulp chamber depth, especially in calcified teeth",
+        "option_c": "Using apex locator",
+        "option_d": "Using EDTA",
+        "correct_answer": "B",
+        "explanation": "Calcifications and altered anatomy increase risk; careful depth control and imaging help."
+      },
+      {
+        "question": "In mandibular incisors, a frequently missed anatomy is:",
+        "option_a": "Two canals (labial/lingual) merging apically",
+        "option_b": "Only one round canal always",
+        "option_c": "MB2 canal",
+        "option_d": "C-shaped canals always",
+        "correct_answer": "A",
+        "explanation": "Mandibular incisors often have two canals that may join; failure to treat both can cause persistent disease."
+      },
+      {
+        "question": "The main purpose of obturation is to:",
+        "option_a": "Sterilize canals",
+        "option_b": "Seal the disinfected canal system to prevent reinfection",
+        "option_c": "Whiten tooth",
+        "option_d": "Increase fracture resistance only",
+        "correct_answer": "B",
+        "explanation": "Obturation provides a seal; disinfection is achieved during cleaning/shaping/irrigation."
+      },
+      {
+        "question": "A common cause of 'strip perforation' is:",
+        "option_a": "Anti-curvature filing",
+        "option_b": "Over-instrumentation on the thin inner wall of curved roots",
+        "option_c": "Use of rubber dam",
+        "option_d": "Using NaOCl",
+        "correct_answer": "B",
+        "explanation": "Excess dentin removal in thin areas (danger zone) leads to strip perforation."
+      },
+      {
+        "question": "The most appropriate response to instrument separation in an asymptomatic tooth with healing lesion is:",
+        "option_a": "Immediate extraction",
+        "option_b": "Monitor if obturation and disinfection are adequate; consider removal only if disease persists",
+        "option_c": "Always surgery",
+        "option_d": "Always antibiotics",
+        "correct_answer": "B",
+        "explanation": "If healing occurs and tooth is asymptomatic, observation may be appropriate."
+      },
+      {
+        "question": "In deep caries cases, preoperative analgesics are most useful to:",
+        "option_a": "Increase pulp inflammation",
+        "option_b": "Reduce postoperative discomfort and improve patient comfort",
+        "option_c": "Increase canal curvature",
+        "option_d": "Replace anesthesia",
+        "correct_answer": "B",
+        "explanation": "NSAIDs/analgesics can reduce postoperative pain; they do not replace local anesthesia."
+      },
+      {
+        "question": "The 'apical third' complexity (lateral canals, deltas) means that success depends heavily on:",
+        "option_a": "Obturation alone",
+        "option_b": "Effective irrigation/activation and disinfection, plus sealing",
+        "option_c": "Only file size",
+        "option_d": "Only sealer brand",
+        "correct_answer": "B",
+        "explanation": "Complex anatomy requires chemical disinfection and activation; obturation seals afterward."
+      },
+      {
+        "question": "The best strategy to minimize ledging in curved canals is:",
+        "option_a": "Start with large stainless-steel files",
+        "option_b": "Establish glide path with small files, use flexible NiTi, and avoid forcing instruments",
+        "option_c": "Skip irrigation",
+        "option_d": "Over-etch dentin",
+        "correct_answer": "B",
+        "explanation": "Glide path and flexible instruments reduce transportation and ledge formation."
+      },
+      {
+        "question": "A primary reason for using intra-canal medicament between visits is to:",
+        "option_a": "Increase bleeding",
+        "option_b": "Reduce bacterial load when complete disinfection cannot be achieved in one visit",
+        "option_c": "Increase smear layer",
+        "option_d": "Increase C-factor",
+        "correct_answer": "B",
+        "explanation": "Medicaments help suppress bacteria between appointments in selected cases."
+      },
+      {
+        "question": "A 'weeping canal' with persistent serous exudate during treatment most suggests:",
+        "option_a": "Over-instrumentation only",
+        "option_b": "Persistent apical inflammation/infection; consider further disinfection and calcium hydroxide dressing",
+        "option_c": "Perfect healing; obturate immediately always",
+        "option_d": "Cracked enamel only",
+        "correct_answer": "B",
+        "explanation": "Persistent exudate indicates ongoing inflammation; additional disinfection and interappointment medicament may be required before obturation."
+      },
+      {
+        "question": "When using ultrasonic activation of irrigants, the main benefit is:",
+        "option_a": "It replaces NaOCl",
+        "option_b": "It improves irrigant streaming/cavitation and canal cleanliness",
+        "option_c": "It increases canal transportation",
+        "option_d": "It blocks dentinal tubules",
+        "correct_answer": "B",
+        "explanation": "Ultrasonic activation enhances irrigant movement and debridement, especially in complex anatomy."
+      }
+    ]
+  },
+  {
+    "course_name": "Dental Materials",
+    "course_code": "UG_PHARM_Y1_S1_C01",
+    "questions": [
+      {
+        "question": "The primary purpose of etching porcelain with hydrofluoric acid is to:",
+        "option_a": "Increase radiopacity",
+        "option_b": "Create micro-porosities for micromechanical resin bonding",
+        "option_c": "Neutralize silane",
+        "option_d": "Increase gypsum expansion",
+        "correct_answer": "B",
+        "explanation": "HF etching roughens silica-based ceramic surfaces, increasing micromechanical retention for resin bonding."
+      },
+      {
+        "question": "After HF etching of glass ceramics, the next critical step before resin cementation is:",
+        "option_a": "Apply EDTA",
+        "option_b": "Apply silane coupling agent",
+        "option_c": "Apply NaOCl",
+        "option_d": "Apply borax",
+        "correct_answer": "B",
+        "explanation": "Silane chemically couples resin to silica-rich ceramic surface after etching."
+      },
+      {
+        "question": "The modulus of elasticity is clinically relevant because it predicts:",
+        "option_a": "Color stability",
+        "option_b": "Stiffness and flexure under load",
+        "option_c": "Fluoride release",
+        "option_d": "Solubility",
+        "correct_answer": "B",
+        "explanation": "Higher modulus means greater stiffness and less deformation under stress."
+      },
+      {
+        "question": "Sintering of porcelain primarily results in:",
+        "option_a": "Polymerization shrinkage",
+        "option_b": "Densification as particles fuse and porosity reduces",
+        "option_c": "Gypsum crystallization",
+        "option_d": "Acid–base reaction",
+        "correct_answer": "B",
+        "explanation": "Sintering fuses particles, reducing porosity and increasing strength."
+      },
+      {
+        "question": "In resin composites, the most common initiator for chemical-cure systems is:",
+        "option_a": "Camphorquinone",
+        "option_b": "Benzoyl peroxide (initiator) with tertiary amine activator",
+        "option_c": "EDTA",
+        "option_d": "Silane",
+        "correct_answer": "B",
+        "explanation": "Self-cure resins typically use benzoyl peroxide and an amine accelerator to generate free radicals."
+      },
+      {
+        "question": "A common effect of contamination by saliva on etched enamel is:",
+        "option_a": "Improved bond",
+        "option_b": "Reduced bond strength due to pellicle/protein contamination",
+        "option_c": "No change",
+        "option_d": "Increased radiopacity",
+        "correct_answer": "B",
+        "explanation": "Saliva contamination reduces surface energy and interferes with micromechanical bonding."
+      },
+      {
+        "question": "The main reason to use rubber bowl and plastic spatula for alginate mixing is to:",
+        "option_a": "Increase setting expansion",
+        "option_b": "Reduce contamination and improve mix consistency",
+        "option_c": "Increase alcohol byproduct",
+        "option_d": "Decrease working time",
+        "correct_answer": "B",
+        "explanation": "Proper equipment and technique improve alginate consistency and reduce bubbles."
+      },
+      {
+        "question": "A key determinant of dimensional change in condensation silicone is:",
+        "option_a": "No byproduct formation",
+        "option_b": "Alcohol byproduct evaporation over time",
+        "option_c": "Fluoride release",
+        "option_d": "Silane coupling",
+        "correct_answer": "B",
+        "explanation": "Evaporation of alcohol byproduct leads to shrinkage."
+      },
+      {
+        "question": "In high-copper amalgam, the η (eta) phase is:",
+        "option_a": "Sn-Hg (gamma-2)",
+        "option_b": "Cu6Sn5, reducing gamma-2 formation",
+        "option_c": "Ag3Sn (gamma)",
+        "option_d": "Ag2Hg3 (gamma-1)",
+        "correct_answer": "B",
+        "explanation": "Copper reacts with tin to form eta phase, reducing gamma-2."
+      },
+      {
+        "question": "The best way to improve wettability of a gypsum slurry when pouring impressions is to:",
+        "option_a": "Increase W/P ratio excessively",
+        "option_b": "Use vibration and consider surfactant/wetting agent as per protocol",
+        "option_c": "Add eugenol",
+        "option_d": "Use HF acid",
+        "correct_answer": "B",
+        "explanation": "Vibration and wetting agents reduce bubbles and improve surface detail."
+      },
+      {
+        "question": "Polishing a ceramic after occlusal adjustment is important because it:",
+        "option_a": "Increases CTE mismatch",
+        "option_b": "Reduces surface roughness and opposing enamel wear",
+        "option_c": "Increases porosity",
+        "option_d": "Eliminates need for glazing always",
+        "correct_answer": "B",
+        "explanation": "Smooth ceramics reduce abrasion and plaque retention; polishing can approach glaze smoothness."
+      },
+      {
+        "question": "The primary reason base-metal alloys are more rigid than gold alloys is:",
+        "option_a": "Lower elastic modulus",
+        "option_b": "Higher elastic modulus",
+        "option_c": "Higher solubility",
+        "option_d": "Lower strength",
+        "correct_answer": "B",
+        "explanation": "Base-metal alloys (e.g., Co-Cr, Ni-Cr) generally have higher modulus (stiffer) than gold alloys."
+      },
+      {
+        "question": "Water sorption of resin can lead to hydrolytic degradation of:",
+        "option_a": "Only enamel",
+        "option_b": "Filler–matrix interface and silane bond",
+        "option_c": "Gypsum crystals",
+        "option_d": "Metal oxide film",
+        "correct_answer": "B",
+        "explanation": "Water can hydrolyze silane coupling and plasticize resin, weakening interfaces."
+      },
+      {
+        "question": "A major disadvantage of zinc oxide eugenol as a temporary cement is:",
+        "option_a": "Too strong bonding",
+        "option_b": "Interference with resin polymerization",
+        "option_c": "High fluoride release",
+        "option_d": "High radiopacity",
+        "correct_answer": "B",
+        "explanation": "Eugenol inhibits free-radical polymerization."
+      },
+      {
+        "question": "Polymerization shrinkage is reduced by:",
+        "option_a": "Lower filler content",
+        "option_b": "Higher filler loading and higher molecular weight monomers",
+        "option_c": "Higher C-factor",
+        "option_d": "More water",
+        "correct_answer": "B",
+        "explanation": "More filler and higher MW monomers reduce volumetric shrinkage."
+      },
+      {
+        "question": "The primary role of an oxide layer for porcelain bonding to metal (PFM) is:",
+        "option_a": "Prevent casting",
+        "option_b": "Provide chemical bond and wetting for porcelain",
+        "option_c": "Increase solubility",
+        "option_d": "Act as lubricant",
+        "correct_answer": "B",
+        "explanation": "Controlled oxide layer enables porcelain-to-metal bonding and wettability."
+      },
+      {
+        "question": "The most appropriate investment for casting high-fusing alloys is:",
+        "option_a": "Gypsum-bonded investment",
+        "option_b": "Phosphate-bonded investment",
+        "option_c": "Alginate",
+        "option_d": "ZOE paste",
+        "correct_answer": "B",
+        "explanation": "High-fusing alloys require phosphate-bonded investments due to thermal stability."
+      },
+      {
+        "question": "A key property that influences impression detail reproduction is:",
+        "option_a": "Radiopacity",
+        "option_b": "Flow before set and wettability",
+        "option_c": "Magnetism",
+        "option_d": "Creep only",
+        "correct_answer": "B",
+        "explanation": "Adequate flow and wetting allow material to capture fine details."
+      },
+      {
+        "question": "The principal advantage of PVS over polysulfide is:",
+        "option_a": "Higher odor",
+        "option_b": "Greater dimensional stability and elastic recovery",
+        "option_c": "Higher water absorption",
+        "option_d": "Longer set always",
+        "correct_answer": "B",
+        "explanation": "PVS is dimensionally stable and has excellent elastic recovery."
+      },
+      {
+        "question": "A primary drawback of alginate compared to elastomers is:",
+        "option_a": "High tear strength",
+        "option_b": "Lower detail reproduction and dimensional stability",
+        "option_c": "High cost",
+        "option_d": "Requires HF etch",
+        "correct_answer": "B",
+        "explanation": "Alginate is less accurate and less stable, limiting use for definitive fixed prosthodontics."
+      },
+      {
+        "question": "In resin cementation, 'film thickness' is clinically important because high film thickness can:",
+        "option_a": "Improve seating always",
+        "option_b": "Prevent complete seating of restorations",
+        "option_c": "Increase fluoride release",
+        "option_d": "Eliminate microleakage",
+        "correct_answer": "B",
+        "explanation": "Too thick cement film can prevent full seating and compromise marginal fit."
+      },
+      {
+        "question": "The main reason to avoid air-drying dentin aggressively before bonding (etch-and-rinse) is:",
+        "option_a": "It increases enamel bond",
+        "option_b": "It collapses collagen, reducing resin infiltration",
+        "option_c": "It removes smear layer",
+        "option_d": "It increases radiopacity",
+        "correct_answer": "B",
+        "explanation": "Collapsed collagen prevents proper hybrid layer formation."
+      },
+      {
+        "question": "A common reason for impression tearing upon removal is:",
+        "option_a": "Excess tear strength",
+        "option_b": "Thin material in sulcus/undercuts and low tear strength",
+        "option_c": "High radiopacity",
+        "option_d": "Too much silane",
+        "correct_answer": "B",
+        "explanation": "Thin sections and low tear resistance contribute to tearing."
+      },
+      {
+        "question": "The main factor increasing corrosion in dental alloys is:",
+        "option_a": "Passivation",
+        "option_b": "Breakdown of passive film and presence of galvanic couples",
+        "option_c": "High noble content",
+        "option_d": "Polishing",
+        "correct_answer": "B",
+        "explanation": "Corrosion increases when passive films are disrupted and galvanic conditions exist."
+      },
+      {
+        "question": "Thermal conductivity is highest in:",
+        "option_a": "Ceramics",
+        "option_b": "Metals",
+        "option_c": "Resin composites",
+        "option_d": "Gypsum",
+        "correct_answer": "B",
+        "explanation": "Metals conduct heat far better than ceramics and polymers."
+      },
+      {
+        "question": "A typical reason for increased porosity in castings is:",
+        "option_a": "Proper sprue design",
+        "option_b": "Inadequate reservoir leading to shrinkage porosity",
+        "option_c": "Using phosphate investment",
+        "option_d": "Proper burnout",
+        "correct_answer": "B",
+        "explanation": "Without a reservoir to feed solidification shrinkage, porosity can form."
+      },
+      {
+        "question": "The primary purpose of using a 'separator' on a gypsum cast before acrylic processing is to:",
+        "option_a": "Increase set expansion",
+        "option_b": "Prevent acrylic from bonding to the cast and allow separation after processing",
+        "option_c": "Increase fluoride release",
+        "option_d": "Improve ceramic translucency",
+        "correct_answer": "B",
+        "explanation": "Separator creates a barrier film so acrylic does not adhere to gypsum, enabling easy separation."
+      }
+    ]
+  }
+]
