@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmaceutics II",
+  "course_code": "UG_PHARM_Y2_S2_C06",
+  "questions": [
+    {
+      "question": "Which statement best describes Sustained-release dosage forms?",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "C",
+      "explanation": "Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "Which statement best describes Bioavailability (F)?",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "A",
+      "explanation": "Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "Which statement best describes First-pass effect?",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "Which statement best describes Noyes–Whitney equation?",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "B",
+      "explanation": "Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "Which statement best describes Higuchi model?",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "A",
+      "explanation": "Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "Which statement best describes Emulsions?",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "C",
+      "explanation": "O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "Which statement best describes Suspensions?",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "C",
+      "explanation": "Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "Which statement best describes Preservatives?",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "A",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "Which statement best describes Stability (ICH)?",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "B",
+      "explanation": "Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "Which statement best describes Buffer capacity?",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "C",
+      "explanation": "Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 11) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 12) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 13) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 14) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 15) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 16) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 17) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 18) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 19) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 20) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 21) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "A",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 22) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "B",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 23) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 24) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 25) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 26) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "D",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 27) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 28) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "D",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 29) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "D",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 30) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 31) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "D",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 32) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "A",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 33) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 34) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "A",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 35) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 36) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 37) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 38) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 39) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 40) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 41) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "B",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 42) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 43) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "B",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 44) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 45) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "A",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 46) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "D",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 47) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 48) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "B",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 49) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "B",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 50) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 51) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 52) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "A",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 53) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 54) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 55) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 56) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 57) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 58) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 59) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 60) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 61) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "D",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 62) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 63) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "C",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 64) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "D",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 65) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 66) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 67) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 68) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 69) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 70) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 71) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 72) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 73) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "D",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 74) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 75) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 76) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 77) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "D",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 78) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 79) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 80) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 81) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 82) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 83) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "B",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 84) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "C",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 85) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 86) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "D",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 87) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 88) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 89) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 90) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 91) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 92) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 93) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 94) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 95) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 96) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 97) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "D",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 98) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 99) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 100) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 101) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 102) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 103) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "B",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 104) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "D",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 105) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 106) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "C",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 107) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 108) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 109) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 110) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 111) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 112) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "C",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 113) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "A",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 114) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 115) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 116) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "D",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 117) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 118) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 119) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "C",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 120) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 121) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 122) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "A",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 123) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 124) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 125) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 126) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 127) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 128) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "A",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 129) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "C",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 130) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 131) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 132) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 133) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 134) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 135) The primary clinical effect of First-pass effect is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "A",
+      "explanation": "First-pass effect: More significant for oral route; may be avoided by non-oral routes."
+    },
+    {
+      "question": "(Pharmaceutics II Item 136) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 137) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 138) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "A",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 139) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 140) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 141) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 142) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "C",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 143) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 144) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 145) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 146) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 147) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 148) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 149) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 150) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "A",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 151) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 152) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 153) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "B",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 154) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 155) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 156) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 157) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 158) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 159) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 160) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Determines chirality by optical rotation",
+      "correct_answer": "A",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 161) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "B",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 162) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "D",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 163) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Assessment of how quality changes with time under environmental factors",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "B",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 164) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "D",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 165) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "D",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 166) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "A",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 167) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Dispersed insoluble solids in liquid vehicle",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 168) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 169) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 170) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 171) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "D",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 172) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Explains receptor binding kinetics only",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "C",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 173) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 174) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Fraction of administered dose reaching systemic circulation unchanged",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 175) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "B",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 176) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 177) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Dispersed insoluble solids in liquid vehicle",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 178) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "D",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 179) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 180) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "D",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 181) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 182) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "B",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 183) The primary clinical effect of Suspensions is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Ability of formulation to resist pH change",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting agents and suspending agents to reduce sedimentation."
+    },
+    {
+      "question": "(Pharmaceutics II Item 184) The primary clinical effect of Preservatives is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Dispersed insoluble solids in liquid vehicle",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics II Item 185) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 186) The primary clinical effect of Bioavailability (F) is most closely related to:",
+      "option_a": "Explains receptor binding kinetics only",
+      "option_b": "Fraction of administered dose reaching systemic circulation unchanged",
+      "option_c": "Determines chirality by optical rotation",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "B",
+      "explanation": "Bioavailability (F): Affected by first-pass metabolism and formulation factors."
+    },
+    {
+      "question": "(Pharmaceutics II Item 187) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Describes fluid flow through a porous matrix only",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 188) The primary clinical effect of Buffer capacity is most closely related to:",
+      "option_a": "Prevent microbial growth in aqueous formulations",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "correct_answer": "C",
+      "explanation": "Buffer capacity: Important for stability and patient tolerability."
+    },
+    {
+      "question": "(Pharmaceutics II Item 189) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Dispersed insoluble solids in liquid vehicle",
+      "option_c": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "D",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 190) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Describes fluid flow through a porous matrix only",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "D",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 191) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_c": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_d": "Explains receptor binding kinetics only",
+      "correct_answer": "C",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 192) The primary clinical effect of Noyes–Whitney equation is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_c": "Explains receptor binding kinetics only",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Noyes–Whitney equation: Increasing surface area (smaller particles) can increase dissolution rate."
+    },
+    {
+      "question": "(Pharmaceutics II Item 193) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Ability of formulation to resist pH change",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Designed to release drug over an extended period to reduce dosing frequency",
+      "correct_answer": "D",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 194) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Describes fluid flow through a porous matrix only",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 195) The primary clinical effect of Sustained-release dosage forms is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Prevent microbial growth in aqueous formulations",
+      "correct_answer": "C",
+      "explanation": "Sustained-release dosage forms: Often use matrix or reservoir systems; avoid dose dumping."
+    },
+    {
+      "question": "(Pharmaceutics II Item 196) The primary clinical effect of Higuchi model is most closely related to:",
+      "option_a": "Determines chirality by optical rotation",
+      "option_b": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "option_c": "Prevent microbial growth in aqueous formulations",
+      "option_d": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "correct_answer": "B",
+      "explanation": "Higuchi model: Common for matrix systems with diffusion-limited release."
+    },
+    {
+      "question": "(Pharmaceutics II Item 197) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Assessment of how quality changes with time under environmental factors",
+      "option_b": "Describes fluid flow through a porous matrix only",
+      "option_c": "Ability of formulation to resist pH change",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 198) The primary clinical effect of Stability (ICH) is most closely related to:",
+      "option_a": "Ability of formulation to resist pH change",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Designed to release drug over an extended period to reduce dosing frequency",
+      "option_d": "Assessment of how quality changes with time under environmental factors",
+      "correct_answer": "D",
+      "explanation": "Stability (ICH): Includes accelerated and long-term studies; supports shelf-life."
+    },
+    {
+      "question": "(Pharmaceutics II Item 199) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Pre-systemic metabolism in gut/liver reducing bioavailability",
+      "option_b": "Prevent microbial growth in aqueous formulations",
+      "option_c": "Assessment of how quality changes with time under environmental factors",
+      "option_d": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    },
+    {
+      "question": "(Pharmaceutics II Item 200) The primary clinical effect of Emulsions is most closely related to:",
+      "option_a": "Describes dissolution rate dependence on surface area and concentration gradient",
+      "option_b": "Determines chirality by optical rotation",
+      "option_c": "Dispersions of one immiscible liquid in another stabilized by surfactants",
+      "option_d": "Describes diffusion-controlled release from matrices (square-root-of-time)",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence and creaming."
+    }
+  ]
+}

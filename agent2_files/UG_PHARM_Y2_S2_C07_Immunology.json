@@ -1,0 +1,1806 @@
+{
+  "course_name": "Immunology",
+  "course_code": "UG_PHARM_Y2_S2_C07",
+  "questions": [
+    {
+      "question": "Which statement best describes Innate immunity?",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "C",
+      "explanation": "Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "Which statement best describes Adaptive immunity?",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "D",
+      "explanation": "Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "Which statement best describes MHC class I?",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "Which statement best describes MHC class II?",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "A",
+      "explanation": "Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "Which statement best describes Type I hypersensitivity?",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "Which statement best describes Type II hypersensitivity?",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "Which statement best describes Type III hypersensitivity?",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "B",
+      "explanation": "Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "Which statement best describes Type IV hypersensitivity?",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "Which statement best describes Complement C3?",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "A",
+      "explanation": "C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "Which statement best describes Vaccination?",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "C",
+      "explanation": "Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 11) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 12) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "C",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 13) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 14) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 15) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "B",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 16) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 17) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 18) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "D",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 19) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "B",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 20) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "A",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 21) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 22) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "A",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 23) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 24) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 25) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 26) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 27) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "A",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 28) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 29) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 30) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 31) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 32) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 33) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 34) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 35) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 36) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "C",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 37) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "A",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 38) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "B",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 39) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 40) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 41) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 42) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 43) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "C",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 44) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 45) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 46) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 47) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 48) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "D",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 49) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "C",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 50) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 51) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "B",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 52) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 53) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "A",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 54) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 55) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "A",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 56) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 57) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "D",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 58) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 59) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 60) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 61) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 62) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 63) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 64) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 65) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "B",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 66) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 67) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "D",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 68) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 69) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 70) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 71) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "A",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 72) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "A",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 73) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 74) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 75) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 76) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 77) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 78) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "A",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 79) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 80) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 81) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 82) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 83) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 84) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 85) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "A",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 86) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "C",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 87) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "D",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 88) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "A",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 89) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "B",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 90) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 91) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 92) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 93) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 94) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "C",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 95) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "A",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 96) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 97) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "D",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 98) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 99) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 100) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 101) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "A",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 102) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 103) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 104) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 105) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 106) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 107) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 108) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "A",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 109) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 110) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "D",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 111) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 112) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 113) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 114) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 115) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 116) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 117) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "D",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 118) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 119) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 120) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 121) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 122) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 123) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 124) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 125) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 126) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "A",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 127) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 128) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 129) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 130) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 131) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "A",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 132) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 133) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 134) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 135) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 136) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "B",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 137) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "C",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 138) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "C",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 139) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Directly crosslinks DNA",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "B",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 140) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "D",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 141) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 142) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 143) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "C",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 144) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 145) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Blocks prostaglandin synthesis",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "B",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 146) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "A",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 147) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "D",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 148) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "C",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 149) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "A",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 150) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 151) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 152) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Induces protective adaptive immune memory",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "B",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 153) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "D",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 154) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 155) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "C",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 156) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 157) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Central component of complement activation pathways",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "D",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 158) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "B",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 159) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 160) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 161) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 162) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "T-cell mediated delayed-type hypersensitivity",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "C",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 163) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 164) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "D",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 165) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 166) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 167) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "A",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 168) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 169) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "B",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 170) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 171) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 172) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Immune complex-mediated inflammation",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "A",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 173) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Presents exogenous peptides to CD4+ T cells",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "A",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 174) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 175) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Presents exogenous peptides to CD4+ T cells",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "A",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 176) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Directly crosslinks DNA",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "B",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 177) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "B",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 178) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "correct_answer": "C",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    },
+    {
+      "question": "(Immunology Item 179) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Blocks prostaglandin synthesis",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Immune complex-mediated inflammation",
+      "correct_answer": "D",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 180) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 181) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 182) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 183) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "B",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 184) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Inhibits topoisomerase II",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "A",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 185) The primary clinical effect of Adaptive immunity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "correct_answer": "D",
+      "explanation": "Adaptive immunity: Slower onset; immunologic memory and specificity."
+    },
+    {
+      "question": "(Immunology Item 186) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Inhibits topoisomerase II",
+      "correct_answer": "C",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 187) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Induces protective adaptive immune memory",
+      "option_b": "Presents exogenous peptides to CD4+ T cells",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "T-cell mediated delayed-type hypersensitivity",
+      "correct_answer": "D",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 188) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "T-cell mediated delayed-type hypersensitivity",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "correct_answer": "B",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 189) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_c": "Antigen-specific response mediated by T and B lymphocytes with memory",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "A",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 190) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Directly crosslinks DNA",
+      "correct_answer": "A",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 191) The primary clinical effect of Type IV hypersensitivity is most closely related to:",
+      "option_a": "Presents endogenous peptides to CD8+ T cells",
+      "option_b": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Blocks prostaglandin synthesis",
+      "correct_answer": "C",
+      "explanation": "Type IV hypersensitivity: Delayed (48–72 h); examples include contact dermatitis."
+    },
+    {
+      "question": "(Immunology Item 192) The primary clinical effect of MHC class II is most closely related to:",
+      "option_a": "Immune complex-mediated inflammation",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "D",
+      "explanation": "MHC class II: Expressed on APCs; helps activate helper T cells."
+    },
+    {
+      "question": "(Immunology Item 193) The primary clinical effect of Type I hypersensitivity is most closely related to:",
+      "option_a": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Central component of complement activation pathways",
+      "correct_answer": "A",
+      "explanation": "Type I hypersensitivity: Mast cell degranulation; rapid onset."
+    },
+    {
+      "question": "(Immunology Item 194) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Inhibits topoisomerase II",
+      "option_b": "Directly crosslinks DNA",
+      "option_c": "Presents endogenous peptides to CD8+ T cells",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "C",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 195) The primary clinical effect of Innate immunity is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Blocks prostaglandin synthesis",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Presents exogenous peptides to CD4+ T cells",
+      "correct_answer": "A",
+      "explanation": "Innate immunity: Responds quickly; lacks antigen-specific memory."
+    },
+    {
+      "question": "(Immunology Item 196) The primary clinical effect of MHC class I is most closely related to:",
+      "option_a": "Rapid, non-specific defense (e.g., barriers, phagocytes, complement)",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "B",
+      "explanation": "MHC class I: Expressed on all nucleated cells; target for cytotoxic T cells."
+    },
+    {
+      "question": "(Immunology Item 197) The primary clinical effect of Type II hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Presents endogenous peptides to CD8+ T cells",
+      "option_c": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "C",
+      "explanation": "Type II hypersensitivity: Complement/ADCC; examples include hemolytic anemia."
+    },
+    {
+      "question": "(Immunology Item 198) The primary clinical effect of Type III hypersensitivity is most closely related to:",
+      "option_a": "Central component of complement activation pathways",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "Immune complex-mediated inflammation",
+      "option_d": "Presents endogenous peptides to CD8+ T cells",
+      "correct_answer": "C",
+      "explanation": "Type III hypersensitivity: Complex deposition; examples include serum sickness."
+    },
+    {
+      "question": "(Immunology Item 199) The primary clinical effect of Complement C3 is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Central component of complement activation pathways",
+      "option_c": "Induces protective adaptive immune memory",
+      "option_d": "IgE-mediated immediate reactions (e.g., anaphylaxis, allergic rhinitis)",
+      "correct_answer": "B",
+      "explanation": "Complement C3: C3b opsonization; C3a anaphylatoxin."
+    },
+    {
+      "question": "(Immunology Item 200) The primary clinical effect of Vaccination is most closely related to:",
+      "option_a": "Antibody-mediated cytotoxicity (IgG/IgM) against cell surface antigens",
+      "option_b": "Inhibits topoisomerase II",
+      "option_c": "T-cell mediated delayed-type hypersensitivity",
+      "option_d": "Induces protective adaptive immune memory",
+      "correct_answer": "D",
+      "explanation": "Vaccination: Active immunization; may be live-attenuated or inactivated/subunit."
+    }
+  ]
+}

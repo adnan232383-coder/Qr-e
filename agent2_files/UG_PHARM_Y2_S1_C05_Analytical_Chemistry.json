@@ -1,0 +1,1806 @@
+{
+  "course_name": "Analytical Chemistry",
+  "course_code": "UG_PHARM_Y2_S1_C05",
+  "questions": [
+    {
+      "question": "Which statement best describes UV-Vis spectroscopy?",
+      "option_a": "Measures optical rotation for chiral compounds",
+      "option_b": "Determines concentration via neutralization endpoint",
+      "option_c": "Measures fluorescence emission after excitation",
+      "option_d": "Quantifies absorbance due to electronic transitions; follows Beer–Lambert law",
+      "correct_answer": "D",
+      "explanation": "Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "Which statement best describes IR spectroscopy?",
+      "option_a": "Determines elemental composition via atomic absorption",
+      "option_b": "Identifies functional groups via vibrational transitions",
+      "option_c": "Determines concentration via neutralization endpoint",
+      "option_d": "Quantifies absorbance due to electronic transitions; follows Beer–Lambert law",
+      "correct_answer": "B",
+      "explanation": "Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "Which statement best describes NMR spectroscopy?",
+      "option_a": "Provides structural information via nuclear spin transitions",
+      "option_b": "Closeness of measured value to true value",
+      "option_c": "Separates analytes based on interactions with stationary/mobile phases",
+      "option_d": "Separates volatile analytes in a gas phase",
+      "correct_answer": "A",
+      "explanation": "Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "Which statement best describes HPLC?",
+      "option_a": "Separates analytes based on interactions with stationary/mobile phases",
+      "option_b": "Limits for detection/quantitation",
+      "option_c": "Measures optical rotation for chiral compounds",
+      "option_d": "Provides structural information via nuclear spin transitions",
+      "correct_answer": "A",
+      "explanation": "Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "Which statement best describes GC?",
+      "option_a": "Identifies functional groups via vibrational transitions",
+      "option_b": "Limits for detection/quantitation",
+      "option_c": "Repeatability/reproducibility of results",
+      "option_d": "Separates volatile analytes in a gas phase",
+      "correct_answer": "D",
+      "explanation": "Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "Which statement best describes Titration (acid-base)?",
+      "option_a": "Closeness of measured value to true value",
+      "option_b": "Determines concentration via neutralization endpoint",
+      "option_c": "Separates based only on size exclusion",
+      "option_d": "Limits for detection/quantitation",
+      "correct_answer": "B",
+      "explanation": "Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "Which statement best describes Validation: accuracy?",
+      "option_a": "Closeness of measured value to true value",
+      "option_b": "Measures fluorescence emission after excitation",
+      "option_c": "Separates based only on size exclusion",
+      "option_d": "Identifies functional groups via vibrational transitions",
+      "correct_answer": "A",
+      "explanation": "Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "Which statement best describes Validation: precision?",
+      "option_a": "Verifies chromatographic performance before analysis",
+      "option_b": "Repeatability/reproducibility of results",
+      "option_c": "Closeness of measured value to true value",
+      "option_d": "Identifies functional groups via vibrational transitions",
+      "correct_answer": "B",
+      "explanation": "Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "Which statement best describes LOD/LOQ?",
+      "option_a": "Determines concentration via neutralization endpoint",
+      "option_b": "Limits for detection/quantitation",
+      "option_c": "Repeatability/reproducibility of results",
+      "option_d": "Separates volatile analytes in a gas phase",
+      "correct_answer": "B",
+      "explanation": "Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "Which statement best describes System suitability?",
+      "option_a": "Measures optical rotation for chiral compounds",
+      "option_b": "Repeatability/reproducibility of results",
+      "option_c": "Determines concentration via neutralization endpoint",
+      "option_d": "Verifies chromatographic performance before analysis",
+      "correct_answer": "D",
+      "explanation": "Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "Resolution (Rs): Which option correctly completes 'Improving Rs is most directly achieved by ...'?",
+      "option_a": "decreasing plate number",
+      "option_b": "removing the stationary phase",
+      "option_c": "increasing selectivity (α) or efficiency (N) or adjusting retention (k')",
+      "option_d": "increasing baseline noise",
+      "correct_answer": "C",
+      "explanation": "Resolution improves with better selectivity/efficiency and appropriate retention."
+    },
+    {
+      "question": "Tailing factor: Which option correctly completes 'A tailing factor >1 often suggests ...'?",
+      "option_a": "secondary interactions or overloading",
+      "option_b": "insufficient detector lamp intensity",
+      "option_c": "lower flow rate always",
+      "option_d": "perfect symmetry always",
+      "correct_answer": "A",
+      "explanation": "Peak tailing indicates asymmetry due to interactions/overload."
+    },
+    {
+      "question": "Internal standard method: Which option correctly completes 'Best used to ...'?",
+      "option_a": "replace validation",
+      "option_b": "increase LOD",
+      "option_c": "eliminate need for calibration",
+      "option_d": "correct for sample prep/injection variability",
+      "correct_answer": "D",
+      "explanation": "Internal standards improve quantitative robustness."
+    },
+    {
+      "question": "Calibration curve: Which option correctly completes 'Linearity refers to ...'?",
+      "option_a": "proportional response across a range",
+      "option_b": "having high noise",
+      "option_c": "being curved intentionally",
+      "option_d": "always passing through zero",
+      "correct_answer": "A",
+      "explanation": "Linearity ensures accurate quantitation across the range."
+    },
+    {
+      "question": "(Analytical Chemistry Item 15) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 16) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Titration (acid-base)",
+      "option_c": "HPLC",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 17) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: accuracy",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 18) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "GC",
+      "option_c": "LOD/LOQ",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 19) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "HPLC",
+      "option_b": "Validation: precision",
+      "option_c": "GC",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 20) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "HPLC",
+      "option_b": "IR spectroscopy",
+      "option_c": "NMR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "B",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 21) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 22) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "HPLC",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 23) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "IR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 24) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "System suitability",
+      "option_c": "Titration (acid-base)",
+      "option_d": "Validation: precision",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 25) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Validation: precision",
+      "option_b": "GC",
+      "option_c": "Titration (acid-base)",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 26) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "GC",
+      "option_b": "HPLC",
+      "option_c": "System suitability",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "B",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 27) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: precision",
+      "option_b": "HPLC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "B",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 28) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "Titration (acid-base)",
+      "option_c": "NMR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 29) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "System suitability",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "Validation: precision",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 30) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 31) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 32) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "HPLC",
+      "option_b": "LOD/LOQ",
+      "option_c": "System suitability",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 33) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "GC",
+      "option_b": "LOD/LOQ",
+      "option_c": "HPLC",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 34) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "HPLC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "GC",
+      "option_d": "Validation: precision",
+      "correct_answer": "C",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 35) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "HPLC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 36) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "GC",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 37) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 38) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Validation: precision",
+      "option_b": "HPLC",
+      "option_c": "Validation: accuracy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "D",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 39) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "Validation: precision",
+      "option_c": "Titration (acid-base)",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 40) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "GC",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 41) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "System suitability",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "LOD/LOQ",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 42) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Validation: precision",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "C",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 43) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "HPLC",
+      "option_c": "Validation: accuracy",
+      "option_d": "GC",
+      "correct_answer": "B",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 44) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "IR spectroscopy",
+      "option_c": "GC",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 45) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "Validation: accuracy",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 46) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 47) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "System suitability",
+      "option_b": "GC",
+      "option_c": "Validation: precision",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 48) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "GC",
+      "option_b": "IR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 49) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "LOD/LOQ",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 50) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "IR spectroscopy",
+      "option_c": "LOD/LOQ",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 51) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "HPLC",
+      "option_c": "IR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "D",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 52) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "GC",
+      "option_c": "IR spectroscopy",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 53) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "HPLC",
+      "option_c": "Validation: accuracy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 54) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "GC",
+      "option_b": "System suitability",
+      "option_c": "Validation: accuracy",
+      "option_d": "Validation: precision",
+      "correct_answer": "A",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 55) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "GC",
+      "option_c": "IR spectroscopy",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 56) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "HPLC",
+      "option_c": "IR spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 57) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "Validation: precision",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 58) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 59) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "C",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 60) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "Validation: accuracy",
+      "option_c": "Validation: precision",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 61) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "GC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 62) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Validation: precision",
+      "option_b": "NMR spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 63) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "HPLC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "GC",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 64) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "GC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 65) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 66) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "GC",
+      "option_b": "System suitability",
+      "option_c": "Validation: precision",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 67) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 68) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 69) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "System suitability",
+      "option_b": "LOD/LOQ",
+      "option_c": "Validation: precision",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 70) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "System suitability",
+      "option_c": "HPLC",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 71) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 72) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "Titration (acid-base)",
+      "option_c": "NMR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "C",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 73) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Validation: precision",
+      "option_b": "Validation: accuracy",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 74) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "GC",
+      "option_c": "LOD/LOQ",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 75) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "NMR spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 76) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "GC",
+      "option_b": "System suitability",
+      "option_c": "Titration (acid-base)",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 77) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "System suitability",
+      "option_b": "GC",
+      "option_c": "Validation: precision",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 78) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "System suitability",
+      "option_b": "GC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 79) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "System suitability",
+      "option_c": "Validation: precision",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 80) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Validation: precision",
+      "option_b": "HPLC",
+      "option_c": "System suitability",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "D",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 81) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "Validation: precision",
+      "option_c": "Validation: accuracy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 82) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 83) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "Validation: accuracy",
+      "option_c": "IR spectroscopy",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 84) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "GC",
+      "correct_answer": "D",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 85) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "System suitability",
+      "option_c": "GC",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 86) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "System suitability",
+      "option_c": "LOD/LOQ",
+      "option_d": "Validation: precision",
+      "correct_answer": "B",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 87) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 88) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "GC",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 89) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "GC",
+      "option_c": "Validation: accuracy",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 90) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 91) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "LOD/LOQ",
+      "option_c": "IR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "B",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 92) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "LOD/LOQ",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 93) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "GC",
+      "option_c": "Titration (acid-base)",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 94) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 95) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: precision",
+      "option_b": "NMR spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 96) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "HPLC",
+      "option_b": "GC",
+      "option_c": "Validation: accuracy",
+      "option_d": "Validation: precision",
+      "correct_answer": "A",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 97) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "GC",
+      "option_b": "HPLC",
+      "option_c": "IR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "A",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 98) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "NMR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "C",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 99) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "Validation: precision",
+      "option_b": "HPLC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 100) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "Validation: precision",
+      "option_b": "LOD/LOQ",
+      "option_c": "IR spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "D",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 101) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "GC",
+      "option_b": "LOD/LOQ",
+      "option_c": "Validation: precision",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 102) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "HPLC",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 103) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "GC",
+      "option_b": "Validation: precision",
+      "option_c": "Validation: accuracy",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 104) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 105) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "System suitability",
+      "option_b": "HPLC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "A",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 106) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: precision",
+      "option_c": "LOD/LOQ",
+      "option_d": "HPLC",
+      "correct_answer": "C",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 107) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "System suitability",
+      "option_b": "HPLC",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 108) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "GC",
+      "option_c": "HPLC",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 109) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "NMR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 110) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "Validation: accuracy",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 111) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: precision",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 112) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "GC",
+      "option_b": "LOD/LOQ",
+      "option_c": "IR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 113) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "GC",
+      "option_c": "Validation: precision",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 114) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "GC",
+      "option_c": "Titration (acid-base)",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 115) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "LOD/LOQ",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "Validation: precision",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 116) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "GC",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "A",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 117) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "IR spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 118) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Validation: precision",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 119) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: precision",
+      "option_b": "System suitability",
+      "option_c": "HPLC",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 120) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "Validation: precision",
+      "option_c": "NMR spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 121) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "GC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "System suitability",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 122) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "HPLC",
+      "option_b": "Titration (acid-base)",
+      "option_c": "Validation: accuracy",
+      "option_d": "Validation: precision",
+      "correct_answer": "A",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 123) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "GC",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 124) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 125) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "System suitability",
+      "option_b": "GC",
+      "option_c": "Validation: precision",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 126) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "GC",
+      "option_b": "HPLC",
+      "option_c": "System suitability",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 127) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "B",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 128) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "HPLC",
+      "option_b": "Validation: accuracy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 129) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "GC",
+      "option_c": "LOD/LOQ",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 130) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "System suitability",
+      "option_b": "IR spectroscopy",
+      "option_c": "GC",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "A",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 131) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "GC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "IR spectroscopy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "A",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 132) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 133) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "Validation: precision",
+      "correct_answer": "B",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 134) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: precision",
+      "option_c": "GC",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 135) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: precision",
+      "option_c": "Titration (acid-base)",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 136) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Validation: precision",
+      "option_b": "Titration (acid-base)",
+      "option_c": "GC",
+      "option_d": "System suitability",
+      "correct_answer": "B",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 137) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 138) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "NMR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 139) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "System suitability",
+      "correct_answer": "B",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 140) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "HPLC",
+      "option_b": "Validation: precision",
+      "option_c": "IR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 141) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "System suitability",
+      "option_b": "GC",
+      "option_c": "HPLC",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 142) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: precision",
+      "option_b": "Validation: accuracy",
+      "option_c": "HPLC",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 143) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "NMR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 144) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "B",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 145) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "IR spectroscopy",
+      "option_c": "NMR spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 146) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: precision",
+      "option_b": "LOD/LOQ",
+      "option_c": "HPLC",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "D",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 147) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Validation: precision",
+      "option_b": "Validation: accuracy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 148) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "GC",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 149) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "GC",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "D",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 150) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: precision",
+      "option_b": "Titration (acid-base)",
+      "option_c": "HPLC",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 151) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "HPLC",
+      "option_b": "NMR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "Validation: precision",
+      "correct_answer": "C",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 152) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "GC",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 153) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "IR spectroscopy",
+      "option_c": "GC",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 154) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 155) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "Validation: accuracy",
+      "option_c": "LOD/LOQ",
+      "option_d": "Validation: precision",
+      "correct_answer": "B",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 156) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "GC",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "Titration (acid-base)",
+      "option_d": "HPLC",
+      "correct_answer": "D",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 157) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "Validation: accuracy",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 158) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "HPLC",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 159) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "HPLC",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 160) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "System suitability",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 161) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "NMR spectroscopy",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 162) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "System suitability",
+      "option_c": "NMR spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 163) In method validation, which term best matches: 'Separates volatile analytes in a gas phase'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "System suitability",
+      "option_c": "GC",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "GC: Requires volatility/thermal stability; detector choices include FID/MS."
+    },
+    {
+      "question": "(Analytical Chemistry Item 164) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "Validation: precision",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 165) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "LOD/LOQ",
+      "option_c": "HPLC",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 166) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "System suitability",
+      "option_c": "Validation: accuracy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 167) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "Validation: precision",
+      "option_c": "GC",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 168) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "IR spectroscopy",
+      "option_d": "HPLC",
+      "correct_answer": "C",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 169) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "System suitability",
+      "option_c": "Validation: precision",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "B",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 170) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "System suitability",
+      "option_b": "NMR spectroscopy",
+      "option_c": "LOD/LOQ",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "B",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 171) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 172) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "IR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 173) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "LOD/LOQ",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 174) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "NMR spectroscopy",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 175) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "Titration (acid-base)",
+      "option_b": "System suitability",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 176) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "HPLC",
+      "option_c": "IR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 177) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "System suitability",
+      "option_b": "HPLC",
+      "option_c": "LOD/LOQ",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 178) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: precision",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 179) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "HPLC",
+      "option_c": "System suitability",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 180) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "UV-Vis spectroscopy",
+      "option_b": "GC",
+      "option_c": "LOD/LOQ",
+      "option_d": "HPLC",
+      "correct_answer": "A",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 181) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "System suitability",
+      "option_b": "Validation: accuracy",
+      "option_c": "Validation: precision",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 182) In method validation, which term best matches: 'Determines concentration via neutralization endpoint'?",
+      "option_a": "GC",
+      "option_b": "Validation: accuracy",
+      "option_c": "LOD/LOQ",
+      "option_d": "Titration (acid-base)",
+      "correct_answer": "D",
+      "explanation": "Titration (acid-base): Indicators/pH meters used; equivalence point depends on acid/base strength."
+    },
+    {
+      "question": "(Analytical Chemistry Item 183) In method validation, which term best matches: 'Repeatability/reproducibility of results'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "Validation: precision",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "B",
+      "explanation": "Validation: precision: Expressed as %RSD; includes intra-/inter-day precision."
+    },
+    {
+      "question": "(Analytical Chemistry Item 184) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "Validation: precision",
+      "option_b": "IR spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "System suitability",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 185) In method validation, which term best matches: 'Identifies functional groups via vibrational transitions'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "Validation: precision",
+      "option_d": "IR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "IR spectroscopy: Characteristic peaks correspond to bond vibrations."
+    },
+    {
+      "question": "(Analytical Chemistry Item 186) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "HPLC",
+      "option_c": "NMR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "D",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 187) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "GC",
+      "option_b": "LOD/LOQ",
+      "option_c": "Validation: precision",
+      "option_d": "Validation: accuracy",
+      "correct_answer": "B",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 188) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "IR spectroscopy",
+      "option_c": "Validation: accuracy",
+      "option_d": "Validation: precision",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 189) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "System suitability",
+      "option_c": "HPLC",
+      "option_d": "GC",
+      "correct_answer": "A",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 190) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "NMR spectroscopy",
+      "option_b": "HPLC",
+      "option_c": "Titration (acid-base)",
+      "option_d": "Validation: precision",
+      "correct_answer": "A",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 191) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "HPLC",
+      "option_c": "IR spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "A",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 192) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "LOD/LOQ",
+      "option_b": "Validation: accuracy",
+      "option_c": "HPLC",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 193) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "GC",
+      "option_c": "System suitability",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "C",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    },
+    {
+      "question": "(Analytical Chemistry Item 194) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "HPLC",
+      "option_b": "Validation: precision",
+      "option_c": "IR spectroscopy",
+      "option_d": "UV-Vis spectroscopy",
+      "correct_answer": "D",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 195) In method validation, which term best matches: 'Provides structural information via nuclear spin transitions'?",
+      "option_a": "IR spectroscopy",
+      "option_b": "Titration (acid-base)",
+      "option_c": "System suitability",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "D",
+      "explanation": "NMR spectroscopy: Chemical shift reflects electronic environment; splitting indicates coupling."
+    },
+    {
+      "question": "(Analytical Chemistry Item 196) In method validation, which term best matches: 'Separates analytes based on interactions with stationary/mobile phases'?",
+      "option_a": "System suitability",
+      "option_b": "UV-Vis spectroscopy",
+      "option_c": "HPLC",
+      "option_d": "NMR spectroscopy",
+      "correct_answer": "C",
+      "explanation": "HPLC: Reverse-phase uses nonpolar stationary phase; more hydrophobic retains longer."
+    },
+    {
+      "question": "(Analytical Chemistry Item 197) In method validation, which term best matches: 'Limits for detection/quantitation'?",
+      "option_a": "Validation: accuracy",
+      "option_b": "LOD/LOQ",
+      "option_c": "GC",
+      "option_d": "HPLC",
+      "correct_answer": "B",
+      "explanation": "LOD/LOQ: Based on signal-to-noise or SD/slope approaches."
+    },
+    {
+      "question": "(Analytical Chemistry Item 198) In method validation, which term best matches: 'Closeness of measured value to true value'?",
+      "option_a": "Validation: precision",
+      "option_b": "Validation: accuracy",
+      "option_c": "LOD/LOQ",
+      "option_d": "System suitability",
+      "correct_answer": "B",
+      "explanation": "Validation: accuracy: Assessed with recovery studies or reference standards."
+    },
+    {
+      "question": "(Analytical Chemistry Item 199) In method validation, which term best matches: 'Quantifies absorbance due to electronic transitions; follows Beer–Lambert law'?",
+      "option_a": "GC",
+      "option_b": "Titration (acid-base)",
+      "option_c": "UV-Vis spectroscopy",
+      "option_d": "System suitability",
+      "correct_answer": "C",
+      "explanation": "UV-Vis spectroscopy: Concentration is proportional to absorbance (A=εbc) under linear conditions."
+    },
+    {
+      "question": "(Analytical Chemistry Item 200) In method validation, which term best matches: 'Verifies chromatographic performance before analysis'?",
+      "option_a": "System suitability",
+      "option_b": "HPLC",
+      "option_c": "Validation: accuracy",
+      "option_d": "LOD/LOQ",
+      "correct_answer": "A",
+      "explanation": "System suitability: Parameters include plate count, tailing, resolution, %RSD."
+    }
+  ]
+}

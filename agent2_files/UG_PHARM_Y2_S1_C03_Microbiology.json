@@ -1,0 +1,1806 @@
+{
+  "course_name": "Microbiology",
+  "course_code": "UG_PHARM_Y2_S1_C03",
+  "questions": [
+    {
+      "question": "Which laboratory description best matches Staphylococcus aureus?",
+      "option_a": "Gram-positive lancet-shaped diplococci",
+      "option_b": "Gram-negative rod",
+      "option_c": "Gram-positive cocci in clusters",
+      "option_d": "Gram-positive cocci in chains",
+      "correct_answer": "C",
+      "explanation": "Staphylococcus aureus is typically described as Gram-positive cocci in clusters; key clue: catalase-positive, coagulase-positive."
+    },
+    {
+      "question": "A culture shows Gram-positive cocci in clusters. Which additional finding most strongly supports Staphylococcus aureus?",
+      "option_a": "oxidase-positive, produces blue-green pigment",
+      "option_b": "bile esculin-positive, grows in 6.5% NaCl",
+      "option_c": "alpha-hemolytic, optochin-sensitive",
+      "option_d": "catalase-positive, coagulase-positive",
+      "correct_answer": "D",
+      "explanation": "Staphylococcus aureus is identified by Gram-positive cocci in clusters and features such as catalase-positive, coagulase-positive."
+    },
+    {
+      "question": "Which laboratory description best matches Streptococcus pyogenes?",
+      "option_a": "Gram-negative coccobacillus",
+      "option_b": "Gram-positive anaerobic rod",
+      "option_c": "Gram-positive cocci in chains",
+      "option_d": "Gram-positive cocci in clusters",
+      "correct_answer": "C",
+      "explanation": "Streptococcus pyogenes is typically described as Gram-positive cocci in chains; key clue: beta-hemolytic, bacitracin-sensitive."
+    },
+    {
+      "question": "A culture shows Gram-positive cocci in chains. Which additional finding most strongly supports Streptococcus pyogenes?",
+      "option_a": "lactose fermenter on MacConkey",
+      "option_b": "spore-former; toxin-mediated colitis",
+      "option_c": "beta-hemolytic, bacitracin-sensitive",
+      "option_d": "oxidase-positive, produces blue-green pigment",
+      "correct_answer": "C",
+      "explanation": "Streptococcus pyogenes is identified by Gram-positive cocci in chains and features such as beta-hemolytic, bacitracin-sensitive."
+    },
+    {
+      "question": "Which laboratory description best matches Streptococcus pneumoniae?",
+      "option_a": "Gram-positive lancet-shaped diplococci",
+      "option_b": "Gram-negative diplococci",
+      "option_c": "Gram-positive cocci in clusters",
+      "option_d": "Gram-negative rod",
+      "correct_answer": "A",
+      "explanation": "Streptococcus pneumoniae is typically described as Gram-positive lancet-shaped diplococci; key clue: alpha-hemolytic, optochin-sensitive."
+    },
+    {
+      "question": "A culture shows Gram-positive lancet-shaped diplococci. Which additional finding most strongly supports Streptococcus pneumoniae?",
+      "option_a": "lactose fermenter, mucoid capsule",
+      "option_b": "alpha-hemolytic, optochin-sensitive",
+      "option_c": "beta-hemolytic, bacitracin-sensitive",
+      "option_d": "oxidase-positive, produces blue-green pigment",
+      "correct_answer": "B",
+      "explanation": "Streptococcus pneumoniae is identified by Gram-positive lancet-shaped diplococci and features such as alpha-hemolytic, optochin-sensitive."
+    },
+    {
+      "question": "Which laboratory description best matches Enterococcus faecalis?",
+      "option_a": "Gram-positive cocci in pairs/chains",
+      "option_b": "Gram-positive cocci in clusters",
+      "option_c": "Gram-positive cocci in chains",
+      "option_d": "Gram-negative diplococci",
+      "correct_answer": "A",
+      "explanation": "Enterococcus faecalis is typically described as Gram-positive cocci in pairs/chains; key clue: bile esculin-positive, grows in 6.5% NaCl."
+    },
+    {
+      "question": "A culture shows Gram-positive cocci in pairs/chains. Which additional finding most strongly supports Enterococcus faecalis?",
+      "option_a": "requires factors X and V",
+      "option_b": "lactose fermenter, mucoid capsule",
+      "option_c": "catalase-positive, coagulase-positive",
+      "option_d": "bile esculin-positive, grows in 6.5% NaCl",
+      "correct_answer": "D",
+      "explanation": "Enterococcus faecalis is identified by Gram-positive cocci in pairs/chains and features such as bile esculin-positive, grows in 6.5% NaCl."
+    },
+    {
+      "question": "Which laboratory description best matches Escherichia coli?",
+      "option_a": "Gram-positive anaerobic rod",
+      "option_b": "Gram-negative rod",
+      "option_c": "Gram-negative diplococci",
+      "option_d": "Gram-negative rod",
+      "correct_answer": "B",
+      "explanation": "Escherichia coli is typically described as Gram-negative rod; key clue: lactose fermenter on MacConkey."
+    },
+    {
+      "question": "A culture shows Gram-negative rod. Which additional finding most strongly supports Escherichia coli?",
+      "option_a": "catalase-positive, coagulase-positive",
+      "option_b": "lactose fermenter on MacConkey",
+      "option_c": "oxidase-positive, produces blue-green pigment",
+      "option_d": "beta-hemolytic, bacitracin-sensitive",
+      "correct_answer": "B",
+      "explanation": "Escherichia coli is identified by Gram-negative rod and features such as lactose fermenter on MacConkey."
+    },
+    {
+      "question": "Which laboratory description best matches Klebsiella pneumoniae?",
+      "option_a": "Gram-negative rod",
+      "option_b": "Gram-positive anaerobic rod",
+      "option_c": "Gram-positive cocci in pairs/chains",
+      "option_d": "Gram-positive cocci in chains",
+      "correct_answer": "A",
+      "explanation": "Klebsiella pneumoniae is typically described as Gram-negative rod; key clue: lactose fermenter, mucoid capsule."
+    },
+    {
+      "question": "A culture shows Gram-negative rod. Which additional finding most strongly supports Klebsiella pneumoniae?",
+      "option_a": "lactose fermenter, mucoid capsule",
+      "option_b": "spore-former; toxin-mediated colitis",
+      "option_c": "oxidase-positive, produces blue-green pigment",
+      "option_d": "alpha-hemolytic, optochin-sensitive",
+      "correct_answer": "A",
+      "explanation": "Klebsiella pneumoniae is identified by Gram-negative rod and features such as lactose fermenter, mucoid capsule."
+    },
+    {
+      "question": "Which laboratory description best matches Pseudomonas aeruginosa?",
+      "option_a": "Gram-positive lancet-shaped diplococci",
+      "option_b": "Gram-negative rod",
+      "option_c": "Gram-negative rod",
+      "option_d": "Gram-positive cocci in chains",
+      "correct_answer": "B",
+      "explanation": "Pseudomonas aeruginosa is typically described as Gram-negative rod; key clue: oxidase-positive, produces blue-green pigment."
+    },
+    {
+      "question": "A culture shows Gram-negative rod. Which additional finding most strongly supports Pseudomonas aeruginosa?",
+      "option_a": "oxidase-positive, produces blue-green pigment",
+      "option_b": "lactose fermenter, mucoid capsule",
+      "option_c": "lactose fermenter on MacConkey",
+      "option_d": "ferments glucose and maltose",
+      "correct_answer": "A",
+      "explanation": "Pseudomonas aeruginosa is identified by Gram-negative rod and features such as oxidase-positive, produces blue-green pigment."
+    },
+    {
+      "question": "Which laboratory description best matches Neisseria meningitidis?",
+      "option_a": "Gram-negative rod",
+      "option_b": "Gram-positive cocci in pairs/chains",
+      "option_c": "Gram-positive cocci in clusters",
+      "option_d": "Gram-negative diplococci",
+      "correct_answer": "D",
+      "explanation": "Neisseria meningitidis is typically described as Gram-negative diplococci; key clue: ferments glucose and maltose."
+    },
+    {
+      "question": "A culture shows Gram-negative diplococci. Which additional finding most strongly supports Neisseria meningitidis?",
+      "option_a": "requires factors X and V",
+      "option_b": "lactose fermenter on MacConkey",
+      "option_c": "ferments glucose and maltose",
+      "option_d": "beta-hemolytic, bacitracin-sensitive",
+      "correct_answer": "C",
+      "explanation": "Neisseria meningitidis is identified by Gram-negative diplococci and features such as ferments glucose and maltose."
+    },
+    {
+      "question": "Which laboratory description best matches Haemophilus influenzae?",
+      "option_a": "Gram-negative rod",
+      "option_b": "Gram-positive cocci in chains",
+      "option_c": "Gram-negative coccobacillus",
+      "option_d": "Gram-negative diplococci",
+      "correct_answer": "C",
+      "explanation": "Haemophilus influenzae is typically described as Gram-negative coccobacillus; key clue: requires factors X and V."
+    },
+    {
+      "question": "A culture shows Gram-negative coccobacillus. Which additional finding most strongly supports Haemophilus influenzae?",
+      "option_a": "requires factors X and V",
+      "option_b": "spore-former; toxin-mediated colitis",
+      "option_c": "lactose fermenter on MacConkey",
+      "option_d": "lactose fermenter, mucoid capsule",
+      "correct_answer": "A",
+      "explanation": "Haemophilus influenzae is identified by Gram-negative coccobacillus and features such as requires factors X and V."
+    },
+    {
+      "question": "Which laboratory description best matches Clostridioides difficile?",
+      "option_a": "Gram-negative rod",
+      "option_b": "Gram-positive cocci in pairs/chains",
+      "option_c": "Gram-positive anaerobic rod",
+      "option_d": "Gram-positive cocci in chains",
+      "correct_answer": "C",
+      "explanation": "Clostridioides difficile is typically described as Gram-positive anaerobic rod; key clue: spore-former; toxin-mediated colitis."
+    },
+    {
+      "question": "A culture shows Gram-positive anaerobic rod. Which additional finding most strongly supports Clostridioides difficile?",
+      "option_a": "spore-former; toxin-mediated colitis",
+      "option_b": "lactose fermenter, mucoid capsule",
+      "option_c": "alpha-hemolytic, optochin-sensitive",
+      "option_d": "beta-hemolytic, bacitracin-sensitive",
+      "correct_answer": "A",
+      "explanation": "Clostridioides difficile is identified by Gram-positive anaerobic rod and features such as spore-former; toxin-mediated colitis."
+    },
+    {
+      "question": "The primary purpose of MacConkey agar is to:",
+      "option_a": "selects for Gram-negative bacteria and differentiates lactose fermenters",
+      "option_b": "selective for pathogenic Neisseria",
+      "option_c": "selects for staphylococci; differentiates mannitol fermenters",
+      "option_d": "supports many organisms; shows hemolysis patterns",
+      "correct_answer": "A",
+      "explanation": "MacConkey agar: selects for Gram-negative bacteria and differentiates lactose fermenters."
+    },
+    {
+      "question": "The primary purpose of Mannitol salt agar is to:",
+      "option_a": "selective for pathogenic Neisseria",
+      "option_b": "used for Mycobacterium culture",
+      "option_c": "supports fastidious organisms like Haemophilus and Neisseria",
+      "option_d": "selects for staphylococci; differentiates mannitol fermenters",
+      "correct_answer": "D",
+      "explanation": "Mannitol salt agar: selects for staphylococci; differentiates mannitol fermenters."
+    },
+    {
+      "question": "The primary purpose of Blood agar is to:",
+      "option_a": "used for Mycobacterium culture",
+      "option_b": "selective for pathogenic Neisseria",
+      "option_c": "supports many organisms; shows hemolysis patterns",
+      "option_d": "supports fastidious organisms like Haemophilus and Neisseria",
+      "correct_answer": "C",
+      "explanation": "Blood agar: supports many organisms; shows hemolysis patterns."
+    },
+    {
+      "question": "The primary purpose of Chocolate agar is to:",
+      "option_a": "selective for pathogenic Neisseria",
+      "option_b": "used for Mycobacterium culture",
+      "option_c": "selects for staphylococci; differentiates mannitol fermenters",
+      "option_d": "supports fastidious organisms like Haemophilus and Neisseria",
+      "correct_answer": "D",
+      "explanation": "Chocolate agar: supports fastidious organisms like Haemophilus and Neisseria."
+    },
+    {
+      "question": "The primary purpose of Lowenstein–Jensen medium is to:",
+      "option_a": "supports many organisms; shows hemolysis patterns",
+      "option_b": "selective for pathogenic Neisseria",
+      "option_c": "selects for staphylococci; differentiates mannitol fermenters",
+      "option_d": "used for Mycobacterium culture",
+      "correct_answer": "D",
+      "explanation": "Lowenstein–Jensen medium: used for Mycobacterium culture."
+    },
+    {
+      "question": "The primary purpose of Thayer–Martin medium is to:",
+      "option_a": "used for Mycobacterium culture",
+      "option_b": "selects for Gram-negative bacteria and differentiates lactose fermenters",
+      "option_c": "selective for pathogenic Neisseria",
+      "option_d": "selects for staphylococci; differentiates mannitol fermenters",
+      "correct_answer": "C",
+      "explanation": "Thayer–Martin medium: selective for pathogenic Neisseria."
+    },
+    {
+      "question": "Which statement best describes Autoclaving?",
+      "option_a": "Oxidative killing; used for glassware/oils (160–170°C for 2 hours (typical))",
+      "option_b": "Physical removal; used for heat-labile fluids (0.22 µm filters for bacteria)",
+      "option_c": "Alkylating gas; for heat/moisture-sensitive items (Requires aeration after)",
+      "option_d": "Moist heat under pressure; kills spores (121°C, 15 psi, ~15–20 min)",
+      "correct_answer": "D",
+      "explanation": "Autoclaving uses Moist heat under pressure; kills spores; typical parameter: 121°C, 15 psi, ~15–20 min."
+    },
+    {
+      "question": "Which statement best describes Dry heat?",
+      "option_a": "Moist heat under pressure; kills spores (121°C, 15 psi, ~15–20 min)",
+      "option_b": "Physical removal; used for heat-labile fluids (0.22 µm filters for bacteria)",
+      "option_c": "Alkylating gas; for heat/moisture-sensitive items (Requires aeration after)",
+      "option_d": "Oxidative killing; used for glassware/oils (160–170°C for 2 hours (typical))",
+      "correct_answer": "D",
+      "explanation": "Dry heat uses Oxidative killing; used for glassware/oils; typical parameter: 160–170°C for 2 hours (typical)."
+    },
+    {
+      "question": "Which statement best describes Filtration?",
+      "option_a": "Physical removal; used for heat-labile fluids (0.22 µm filters for bacteria)",
+      "option_b": "Causes thymine dimers; surface disinfection (Poor penetration)",
+      "option_c": "Alkylating gas; for heat/moisture-sensitive items (Requires aeration after)",
+      "option_d": "Moist heat under pressure; kills spores (121°C, 15 psi, ~15–20 min)",
+      "correct_answer": "A",
+      "explanation": "Filtration uses Physical removal; used for heat-labile fluids; typical parameter: 0.22 µm filters for bacteria."
+    },
+    {
+      "question": "Which statement best describes Ethylene oxide?",
+      "option_a": "Physical removal; used for heat-labile fluids (0.22 µm filters for bacteria)",
+      "option_b": "Alkylating gas; for heat/moisture-sensitive items (Requires aeration after)",
+      "option_c": "Causes thymine dimers; surface disinfection (Poor penetration)",
+      "option_d": "Oxidative killing; used for glassware/oils (160–170°C for 2 hours (typical))",
+      "correct_answer": "B",
+      "explanation": "Ethylene oxide uses Alkylating gas; for heat/moisture-sensitive items; typical parameter: Requires aeration after."
+    },
+    {
+      "question": "Which statement best describes UV radiation?",
+      "option_a": "Causes thymine dimers; surface disinfection (Poor penetration)",
+      "option_b": "Physical removal; used for heat-labile fluids (0.22 µm filters for bacteria)",
+      "option_c": "Oxidative killing; used for glassware/oils (160–170°C for 2 hours (typical))",
+      "option_d": "Alkylating gas; for heat/moisture-sensitive items (Requires aeration after)",
+      "correct_answer": "A",
+      "explanation": "UV radiation uses Causes thymine dimers; surface disinfection; typical parameter: Poor penetration."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Beta-lactams?",
+      "option_a": "inhibit 30S ribosomal subunit; misreading",
+      "option_b": "inhibit DNA gyrase/topoisomerase",
+      "option_c": "binds D-Ala-D-Ala to inhibit cell wall synthesis",
+      "option_d": "inhibit cell wall synthesis by binding PBPs",
+      "correct_answer": "D",
+      "explanation": "Beta-lactams inhibit cell wall synthesis by binding PBPs. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Vancomycin?",
+      "option_a": "inhibit 30S; block tRNA binding",
+      "option_b": "inhibit 30S ribosomal subunit; misreading",
+      "option_c": "binds D-Ala-D-Ala to inhibit cell wall synthesis",
+      "option_d": "inhibit DNA gyrase/topoisomerase",
+      "correct_answer": "C",
+      "explanation": "Vancomycin binds D-Ala-D-Ala to inhibit cell wall synthesis. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Aminoglycosides?",
+      "option_a": "binds D-Ala-D-Ala to inhibit cell wall synthesis",
+      "option_b": "inhibit DNA gyrase/topoisomerase",
+      "option_c": "inhibit cell wall synthesis by binding PBPs",
+      "option_d": "inhibit 30S ribosomal subunit; misreading",
+      "correct_answer": "D",
+      "explanation": "Aminoglycosides inhibit 30S ribosomal subunit; misreading. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Tetracyclines?",
+      "option_a": "inhibit DNA gyrase/topoisomerase",
+      "option_b": "binds D-Ala-D-Ala to inhibit cell wall synthesis",
+      "option_c": "inhibit 30S; block tRNA binding",
+      "option_d": "inhibit 50S; block translocation",
+      "correct_answer": "C",
+      "explanation": "Tetracyclines inhibit 30S; block tRNA binding. Bacteriostatic."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Macrolides?",
+      "option_a": "inhibit 30S; block tRNA binding",
+      "option_b": "inhibit 50S; block translocation",
+      "option_c": "inhibit DNA gyrase/topoisomerase",
+      "option_d": "inhibit cell wall synthesis by binding PBPs",
+      "correct_answer": "B",
+      "explanation": "Macrolides inhibit 50S; block translocation. Bacteriostatic."
+    },
+    {
+      "question": "Which mechanism of action is most characteristic of Fluoroquinolones?",
+      "option_a": "inhibit DNA gyrase/topoisomerase",
+      "option_b": "inhibit 50S; block translocation",
+      "option_c": "inhibit cell wall synthesis by binding PBPs",
+      "option_d": "inhibit 30S ribosomal subunit; misreading",
+      "correct_answer": "A",
+      "explanation": "Fluoroquinolones inhibit DNA gyrase/topoisomerase. Bactericidal."
+    },
+    {
+      "question": "Which resistance mechanism best explains the following: hydrolyzes many beta-lactams?",
+      "option_a": "Efflux pumps",
+      "option_b": "Porin loss",
+      "option_c": "Altered PBP (e.g., MRSA)",
+      "option_d": "ESBL production",
+      "correct_answer": "D",
+      "explanation": "ESBL production hydrolyzes many beta-lactams. Use carbapenems or beta-lactam/beta-lactamase inhibitor depending on context."
+    },
+    {
+      "question": "Which resistance mechanism best explains the following: reduces beta-lactam binding?",
+      "option_a": "ESBL production",
+      "option_b": "Porin loss",
+      "option_c": "Altered PBP (e.g., MRSA)",
+      "option_d": "Target modification",
+      "correct_answer": "C",
+      "explanation": "Altered PBP (e.g., MRSA) reduces beta-lactam binding. Use anti-MRSA agents such as vancomycin/linezolid depending on site."
+    },
+    {
+      "question": "Which resistance mechanism best explains the following: decrease intracellular antibiotic concentration?",
+      "option_a": "ESBL production",
+      "option_b": "Efflux pumps",
+      "option_c": "Altered PBP (e.g., MRSA)",
+      "option_d": "Porin loss",
+      "correct_answer": "B",
+      "explanation": "Efflux pumps decrease intracellular antibiotic concentration. Common in tetracycline/macrolide resistance."
+    },
+    {
+      "question": "Which resistance mechanism best explains the following: mutations in DNA gyrase/topoisomerase?",
+      "option_a": "ESBL production",
+      "option_b": "Porin loss",
+      "option_c": "Altered PBP (e.g., MRSA)",
+      "option_d": "Target modification",
+      "correct_answer": "D",
+      "explanation": "Target modification mutations in DNA gyrase/topoisomerase. Common in fluoroquinolone resistance."
+    },
+    {
+      "question": "Which resistance mechanism best explains the following: reduces drug entry in Gram-negatives?",
+      "option_a": "Porin loss",
+      "option_b": "Target modification",
+      "option_c": "ESBL production",
+      "option_d": "Efflux pumps",
+      "correct_answer": "A",
+      "explanation": "Porin loss reduces drug entry in Gram-negatives. Contributes to beta-lactam resistance."
+    },
+    {
+      "question": "Spore-forming bacteria: Which option correctly completes the statement 'Spore-forming bacteria are best eliminated by ...'?",
+      "option_a": "70% ethanol wipe",
+      "option_b": "autoclaving",
+      "option_c": "simple washing",
+      "option_d": "UV radiation",
+      "correct_answer": "B",
+      "explanation": "Autoclaving (moist heat under pressure) reliably kills spores."
+    },
+    {
+      "question": "Biofilms in chronic infections: Which option correctly completes the statement 'Biofilms in chronic infections often require ...'?",
+      "option_a": "antibiotics without debridement always suffice",
+      "option_b": "higher antibiotic concentrations and mechanical disruption",
+      "option_c": "only antivirals work",
+      "option_d": "lower doses than planktonic bacteria",
+      "correct_answer": "B",
+      "explanation": "Biofilms reduce susceptibility; disruption and adequate antimicrobial exposure are important."
+    },
+    {
+      "question": "Normal flora: Which option correctly completes the statement 'Normal flora can contribute to disease via ...'?",
+      "option_a": "opportunistic infection when barriers are breached",
+      "option_b": "producing no metabolites",
+      "option_c": "always being sterile",
+      "option_d": "never competing with pathogens",
+      "correct_answer": "A",
+      "explanation": "Normal flora can become opportunistic and also influence colonization resistance."
+    },
+    {
+      "question": "The endotoxin of Gram-negative bacteria: Which option correctly completes the statement 'The endotoxin of Gram-negative bacteria is primarily ...'?",
+      "option_a": "lipid A component of LPS",
+      "option_b": "exotoxin A",
+      "option_c": "teichoic acid",
+      "option_d": "capsular polysaccharide",
+      "correct_answer": "A",
+      "explanation": "Lipid A of LPS mediates many systemic effects such as fever and shock."
+    },
+    {
+      "question": "Exotoxins: Which option correctly completes the statement 'Exotoxins are typically ...'?",
+      "option_a": "DNA fragments only",
+      "option_b": "always part of the cell wall",
+      "option_c": "proteins that can be inactivated to toxoids",
+      "option_d": "lipids that cannot be immunogenic",
+      "correct_answer": "C",
+      "explanation": "Exotoxins are protein toxins; some can be made into toxoids for vaccines."
+    },
+    {
+      "question": "A patient sample grows an organism described as 'beta-hemolytic streptococci'. Which additional lab clue would support identification as Streptococcus pyogenes?",
+      "option_a": "blue-green pigment",
+      "option_b": "growth on chocolate agar",
+      "option_c": "bacitracin sensitivity",
+      "option_d": "optochin sensitivity",
+      "correct_answer": "C",
+      "explanation": "Streptococcus pyogenes is consistent with beta-hemolytic streptococci; supportive clue: bacitracin sensitivity."
+    },
+    {
+      "question": "A patient sample grows an organism described as 'alpha-hemolytic streptococci'. Which additional lab clue would support identification as Streptococcus pneumoniae?",
+      "option_a": "capsule important for virulence",
+      "option_b": "bacitracin sensitivity",
+      "option_c": "growth on chocolate agar",
+      "option_d": "optochin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Streptococcus pneumoniae is consistent with alpha-hemolytic streptococci; supportive clue: optochin sensitivity."
+    },
+    {
+      "question": "A patient sample grows an organism described as 'oxidase-positive non-lactose fermenting GNR'. Which additional lab clue would support identification as Pseudomonas aeruginosa?",
+      "option_a": "bacitracin sensitivity",
+      "option_b": "blue-green pigment",
+      "option_c": "growth on chocolate agar",
+      "option_d": "optochin sensitivity",
+      "correct_answer": "B",
+      "explanation": "Pseudomonas aeruginosa is consistent with oxidase-positive non-lactose fermenting GNR; supportive clue: blue-green pigment."
+    },
+    {
+      "question": "A patient sample grows an organism described as 'fastidious organism requiring factors X and V'. Which additional lab clue would support identification as Haemophilus influenzae?",
+      "option_a": "bacitracin sensitivity",
+      "option_b": "blue-green pigment",
+      "option_c": "optochin sensitivity",
+      "option_d": "growth on chocolate agar",
+      "correct_answer": "D",
+      "explanation": "Haemophilus influenzae is consistent with fastidious organism requiring factors X and V; supportive clue: growth on chocolate agar."
+    },
+    {
+      "question": "A patient sample grows an organism described as 'Gram-negative diplococci fermenting glucose and maltose'. Which additional lab clue would support identification as Neisseria meningitidis?",
+      "option_a": "capsule important for virulence",
+      "option_b": "bacitracin sensitivity",
+      "option_c": "optochin sensitivity",
+      "option_d": "blue-green pigment",
+      "correct_answer": "A",
+      "explanation": "Neisseria meningitidis is consistent with Gram-negative diplococci fermenting glucose and maltose; supportive clue: capsule important for virulence."
+    },
+    {
+      "question": "(Microbiology Item 53) Which statement is TRUE regarding Streptococcus pneumoniae and Fluoroquinolones?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit 30S; block tRNA binding.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 54) Which statement is TRUE regarding Clostridioides difficile and Macrolides?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Haemophilus influenzae: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Clostridioides difficile: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 55) Which statement is TRUE regarding Streptococcus pneumoniae and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 56) Which statement is TRUE regarding Haemophilus influenzae and Fluoroquinolones?",
+      "option_a": "Clostridioides difficile: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Haemophilus influenzae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: inhibit 50S; block translocation.",
+      "option_d": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 57) Which statement is TRUE regarding Streptococcus pyogenes and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 58) Which statement is TRUE regarding Clostridioides difficile and Vancomycin?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Clostridioides difficile: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Escherichia coli: Gram-positive anaerobic rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 59) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 60) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Neisseria meningitidis: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 61) Which statement is TRUE regarding Streptococcus pneumoniae and Macrolides?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Clostridioides difficile: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive cocci in clusters; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 62) Which statement is TRUE regarding Staphylococcus aureus and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 63) Which statement is TRUE regarding Streptococcus pyogenes and Aminoglycosides?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pyogenes: Gram-positive anaerobic rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 64) Which statement is TRUE regarding Pseudomonas aeruginosa and Beta-lactams?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Neisseria meningitidis: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Pseudomonas aeruginosa: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 65) Which statement is TRUE regarding Streptococcus pyogenes and Tetracyclines?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit 50S; block translocation.",
+      "option_c": "Escherichia coli: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in clusters; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 66) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Escherichia coli: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Enterococcus faecalis: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 67) Which statement is TRUE regarding Streptococcus pyogenes and Aminoglycosides?",
+      "option_a": "Streptococcus pyogenes: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Neisseria meningitidis: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 68) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 69) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Neisseria meningitidis: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 70) Which statement is TRUE regarding Pseudomonas aeruginosa and Beta-lactams?",
+      "option_a": "Enterococcus faecalis: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 71) Which statement is TRUE regarding Klebsiella pneumoniae and Macrolides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 72) Which statement is TRUE regarding Klebsiella pneumoniae and Tetracyclines?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Tetracyclines: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pneumoniae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 73) Which statement is TRUE regarding Streptococcus pneumoniae and Macrolides?",
+      "option_a": "Clostridioides difficile: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 74) Which statement is TRUE regarding Enterococcus faecalis and Tetracyclines?",
+      "option_a": "Enterococcus faecalis: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 50S; block translocation.",
+      "option_d": "Haemophilus influenzae: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 75) Which statement is TRUE regarding Haemophilus influenzae and Tetracyclines?",
+      "option_a": "Haemophilus influenzae: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Escherichia coli: Gram-negative coccobacillus; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Haemophilus influenzae: Gram-negative coccobacillus; Tetracyclines: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 76) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Escherichia coli: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Staphylococcus aureus: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 77) Which statement is TRUE regarding Clostridioides difficile and Beta-lactams?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit 50S; block translocation.",
+      "option_c": "Clostridioides difficile: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Enterococcus faecalis: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 78) Which statement is TRUE regarding Enterococcus faecalis and Vancomycin?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Neisseria meningitidis: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Enterococcus faecalis: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 79) Which statement is TRUE regarding Staphylococcus aureus and Macrolides?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in clusters; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Haemophilus influenzae: Gram-positive cocci in clusters; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 80) Which statement is TRUE regarding Neisseria meningitidis and Macrolides?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_b": "Neisseria meningitidis: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Clostridioides difficile: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 81) Which statement is TRUE regarding Neisseria meningitidis and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-positive cocci in pairs/chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S; block tRNA binding.",
+      "option_d": "Clostridioides difficile: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 82) Which statement is TRUE regarding Escherichia coli and Tetracyclines?",
+      "option_a": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Enterococcus faecalis: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Escherichia coli: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 83) Which statement is TRUE regarding Haemophilus influenzae and Beta-lactams?",
+      "option_a": "Haemophilus influenzae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Haemophilus influenzae: Gram-negative coccobacillus; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Beta-lactams: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Enterococcus faecalis: Gram-negative coccobacillus; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 84) Which statement is TRUE regarding Enterococcus faecalis and Beta-lactams?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit 50S; block translocation.",
+      "option_b": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Enterococcus faecalis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Pseudomonas aeruginosa: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 85) Which statement is TRUE regarding Enterococcus faecalis and Tetracyclines?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Enterococcus faecalis: Gram-negative diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Staphylococcus aureus: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 86) Which statement is TRUE regarding Klebsiella pneumoniae and Aminoglycosides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Clostridioides difficile: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 87) Which statement is TRUE regarding Escherichia coli and Tetracyclines?",
+      "option_a": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Escherichia coli: Gram-negative coccobacillus; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Neisseria meningitidis: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 88) Which statement is TRUE regarding Streptococcus pneumoniae and Tetracyclines?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Clostridioides difficile: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 89) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Haemophilus influenzae: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pyogenes: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 90) Which statement is TRUE regarding Pseudomonas aeruginosa and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive cocci in pairs/chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 91) Which statement is TRUE regarding Pseudomonas aeruginosa and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_b": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 92) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in clusters; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 93) Which statement is TRUE regarding Enterococcus faecalis and Vancomycin?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Enterococcus faecalis: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Escherichia coli: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 94) Which statement is TRUE regarding Klebsiella pneumoniae and Vancomycin?",
+      "option_a": "Klebsiella pneumoniae: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 95) Which statement is TRUE regarding Escherichia coli and Macrolides?",
+      "option_a": "Escherichia coli: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Enterococcus faecalis: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_d": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 96) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit 50S; block translocation.",
+      "option_c": "Streptococcus pyogenes: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 97) Which statement is TRUE regarding Klebsiella pneumoniae and Beta-lactams?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Klebsiella pneumoniae: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 98) Which statement is TRUE regarding Pseudomonas aeruginosa and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Neisseria meningitidis: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative coccobacillus; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 99) Which statement is TRUE regarding Clostridioides difficile and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Clostridioides difficile: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 100) Which statement is TRUE regarding Streptococcus pyogenes and Aminoglycosides?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pyogenes: Gram-negative coccobacillus; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Haemophilus influenzae: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 101) Which statement is TRUE regarding Neisseria meningitidis and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Enterococcus faecalis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Neisseria meningitidis: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 102) Which statement is TRUE regarding Escherichia coli and Macrolides?",
+      "option_a": "Staphylococcus aureus: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Escherichia coli: Gram-negative rod; Macrolides: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 103) Which statement is TRUE regarding Pseudomonas aeruginosa and Tetracyclines?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Haemophilus influenzae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 104) Which statement is TRUE regarding Streptococcus pyogenes and Aminoglycosides?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pyogenes: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 105) Which statement is TRUE regarding Neisseria meningitidis and Macrolides?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Neisseria meningitidis: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 106) Which statement is TRUE regarding Escherichia coli and Aminoglycosides?",
+      "option_a": "Escherichia coli: Gram-negative rod; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pyogenes: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 107) Which statement is TRUE regarding Haemophilus influenzae and Fluoroquinolones?",
+      "option_a": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Haemophilus influenzae: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Enterococcus faecalis: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 108) Which statement is TRUE regarding Streptococcus pyogenes and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 109) Which statement is TRUE regarding Haemophilus influenzae and Vancomycin?",
+      "option_a": "Haemophilus influenzae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Haemophilus influenzae: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Staphylococcus aureus: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Haemophilus influenzae: Gram-negative coccobacillus; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 110) Which statement is TRUE regarding Neisseria meningitidis and Beta-lactams?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Neisseria meningitidis: Gram-positive cocci in clusters; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Escherichia coli: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 111) Which statement is TRUE regarding Klebsiella pneumoniae and Vancomycin?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: inhibit 30S; block tRNA binding.",
+      "option_b": "Klebsiella pneumoniae: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Haemophilus influenzae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 112) Which statement is TRUE regarding Neisseria meningitidis and Beta-lactams?",
+      "option_a": "Neisseria meningitidis: Gram-positive cocci in clusters; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 113) Which statement is TRUE regarding Streptococcus pyogenes and Macrolides?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Macrolides: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 114) Which statement is TRUE regarding Escherichia coli and Macrolides?",
+      "option_a": "Escherichia coli: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 115) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Enterococcus faecalis: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Escherichia coli: Gram-negative rod; Fluoroquinolones: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Escherichia coli: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 116) Which statement is TRUE regarding Streptococcus pneumoniae and Beta-lactams?",
+      "option_a": "Streptococcus pneumoniae: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Haemophilus influenzae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit 50S; block translocation.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 117) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit 30S; block tRNA binding.",
+      "option_b": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 118) Which statement is TRUE regarding Pseudomonas aeruginosa and Beta-lactams?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 119) Which statement is TRUE regarding Staphylococcus aureus and Vancomycin?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Staphylococcus aureus: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Klebsiella pneumoniae: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 120) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Escherichia coli: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Clostridioides difficile: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 121) Which statement is TRUE regarding Clostridioides difficile and Beta-lactams?",
+      "option_a": "Clostridioides difficile: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_c": "Escherichia coli: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 122) Which statement is TRUE regarding Clostridioides difficile and Macrolides?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Clostridioides difficile: Gram-positive cocci in clusters; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 123) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit 50S; block translocation.",
+      "option_c": "Escherichia coli: Gram-negative diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 124) Which statement is TRUE regarding Klebsiella pneumoniae and Aminoglycosides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Klebsiella pneumoniae: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 125) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit 50S; block translocation.",
+      "option_b": "Escherichia coli: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 126) Which statement is TRUE regarding Escherichia coli and Aminoglycosides?",
+      "option_a": "Clostridioides difficile: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Escherichia coli: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 127) Which statement is TRUE regarding Pseudomonas aeruginosa and Beta-lactams?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Beta-lactams: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 128) Which statement is TRUE regarding Staphylococcus aureus and Vancomycin?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Enterococcus faecalis: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Staphylococcus aureus: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 129) Which statement is TRUE regarding Streptococcus pyogenes and Beta-lactams?",
+      "option_a": "Klebsiella pneumoniae: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Streptococcus pyogenes: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 130) Which statement is TRUE regarding Streptococcus pyogenes and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: inhibit 50S; block translocation.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-positive lancet-shaped diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 131) Which statement is TRUE regarding Haemophilus influenzae and Fluoroquinolones?",
+      "option_a": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: inhibit 30S; block tRNA binding.",
+      "option_b": "Haemophilus influenzae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Neisseria meningitidis: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 132) Which statement is TRUE regarding Haemophilus influenzae and Vancomycin?",
+      "option_a": "Haemophilus influenzae: Gram-negative coccobacillus; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Clostridioides difficile: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Haemophilus influenzae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 133) Which statement is TRUE regarding Pseudomonas aeruginosa and Aminoglycosides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S; block tRNA binding.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 134) Which statement is TRUE regarding Clostridioides difficile and Macrolides?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Clostridioides difficile: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Neisseria meningitidis: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 135) Which statement is TRUE regarding Haemophilus influenzae and Macrolides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative coccobacillus; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Haemophilus influenzae: Gram-negative coccobacillus; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Haemophilus influenzae: Gram-negative coccobacillus; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_d": "Haemophilus influenzae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 136) Which statement is TRUE regarding Clostridioides difficile and Tetracyclines?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Clostridioides difficile: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Staphylococcus aureus: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Tetracyclines: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 137) Which statement is TRUE regarding Pseudomonas aeruginosa and Tetracyclines?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Staphylococcus aureus: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 138) Which statement is TRUE regarding Streptococcus pyogenes and Tetracyclines?",
+      "option_a": "Streptococcus pyogenes: Gram-positive lancet-shaped diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Haemophilus influenzae: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 139) Which statement is TRUE regarding Pseudomonas aeruginosa and Fluoroquinolones?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Haemophilus influenzae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Fluoroquinolones: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 140) Which statement is TRUE regarding Streptococcus pyogenes and Aminoglycosides?",
+      "option_a": "Streptococcus pyogenes: Gram-positive anaerobic rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 141) Which statement is TRUE regarding Clostridioides difficile and Beta-lactams?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_b": "Enterococcus faecalis: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Clostridioides difficile: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 142) Which statement is TRUE regarding Streptococcus pyogenes and Tetracyclines?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in pairs/chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 143) Which statement is TRUE regarding Escherichia coli and Aminoglycosides?",
+      "option_a": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 144) Which statement is TRUE regarding Clostridioides difficile and Fluoroquinolones?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Clostridioides difficile: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 145) Which statement is TRUE regarding Clostridioides difficile and Fluoroquinolones?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Clostridioides difficile: Gram-positive cocci in pairs/chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 146) Which statement is TRUE regarding Neisseria meningitidis and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_b": "Escherichia coli: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Neisseria meningitidis: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 147) Which statement is TRUE regarding Klebsiella pneumoniae and Macrolides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 148) Which statement is TRUE regarding Pseudomonas aeruginosa and Tetracyclines?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Neisseria meningitidis: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 149) Which statement is TRUE regarding Escherichia coli and Beta-lactams?",
+      "option_a": "Staphylococcus aureus: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Escherichia coli: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Escherichia coli: Gram-negative rod; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_d": "Escherichia coli: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 150) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Enterococcus faecalis: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 151) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Haemophilus influenzae: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in clusters; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 152) Which statement is TRUE regarding Streptococcus pneumoniae and Beta-lactams?",
+      "option_a": "Neisseria meningitidis: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Streptococcus pneumoniae: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 153) Which statement is TRUE regarding Haemophilus influenzae and Aminoglycosides?",
+      "option_a": "Haemophilus influenzae: Gram-negative coccobacillus; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Haemophilus influenzae: Gram-negative coccobacillus; Aminoglycosides: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Escherichia coli: Gram-negative coccobacillus; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Haemophilus influenzae: Gram-positive anaerobic rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 154) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Haemophilus influenzae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 155) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Neisseria meningitidis: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 156) Which statement is TRUE regarding Neisseria meningitidis and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 157) Which statement is TRUE regarding Neisseria meningitidis and Beta-lactams?",
+      "option_a": "Enterococcus faecalis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Neisseria meningitidis: Gram-positive anaerobic rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit 30S; block tRNA binding.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 158) Which statement is TRUE regarding Escherichia coli and Fluoroquinolones?",
+      "option_a": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Escherichia coli: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Escherichia coli: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 159) Which statement is TRUE regarding Neisseria meningitidis and Beta-lactams?",
+      "option_a": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Beta-lactams: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Clostridioides difficile: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Neisseria meningitidis: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 160) Which statement is TRUE regarding Klebsiella pneumoniae and Fluoroquinolones?",
+      "option_a": "Klebsiella pneumoniae: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit 30S; block tRNA binding.",
+      "option_d": "Streptococcus pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 161) Which statement is TRUE regarding Neisseria meningitidis and Macrolides?",
+      "option_a": "Staphylococcus aureus: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Neisseria meningitidis: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 162) Which statement is TRUE regarding Neisseria meningitidis and Vancomycin?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Neisseria meningitidis: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Neisseria meningitidis: Gram-negative diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 163) Which statement is TRUE regarding Escherichia coli and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Escherichia coli: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Escherichia coli: Gram-negative rod; Vancomycin: inhibit 50S; block translocation.",
+      "option_d": "Escherichia coli: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 164) Which statement is TRUE regarding Staphylococcus aureus and Aminoglycosides?",
+      "option_a": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Escherichia coli: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 165) Which statement is TRUE regarding Clostridioides difficile and Vancomycin?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Vancomycin: inhibit 30S; block tRNA binding.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive anaerobic rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Clostridioides difficile: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 166) Which statement is TRUE regarding Streptococcus pneumoniae and Macrolides?",
+      "option_a": "Streptococcus pneumoniae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Streptococcus pyogenes: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 167) Which statement is TRUE regarding Klebsiella pneumoniae and Vancomycin?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 168) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Haemophilus influenzae: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 169) Which statement is TRUE regarding Neisseria meningitidis and Macrolides?",
+      "option_a": "Staphylococcus aureus: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Neisseria meningitidis: Gram-positive cocci in pairs/chains; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Macrolides: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 170) Which statement is TRUE regarding Staphylococcus aureus and Tetracyclines?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Staphylococcus aureus: Gram-negative diplococci; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in clusters; Tetracyclines: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive cocci in clusters; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 171) Which statement is TRUE regarding Streptococcus pyogenes and Beta-lactams?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Streptococcus pyogenes: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Enterococcus faecalis: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 172) Which statement is TRUE regarding Clostridioides difficile and Fluoroquinolones?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Clostridioides difficile: Gram-negative coccobacillus; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 173) Which statement is TRUE regarding Streptococcus pyogenes and Fluoroquinolones?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Streptococcus pyogenes: Gram-positive lancet-shaped diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Escherichia coli: Gram-positive cocci in chains; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 174) Which statement is TRUE regarding Pseudomonas aeruginosa and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 50S; block translocation.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative coccobacillus; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 175) Which statement is TRUE regarding Klebsiella pneumoniae and Fluoroquinolones?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pneumoniae: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 176) Which statement is TRUE regarding Streptococcus pyogenes and Beta-lactams?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pyogenes: Gram-positive cocci in chains; Beta-lactams: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-negative diplococci; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 177) Which statement is TRUE regarding Clostridioides difficile and Macrolides?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Clostridioides difficile: Gram-positive anaerobic rod; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Clostridioides difficile: Gram-negative coccobacillus; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pyogenes: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 178) Which statement is TRUE regarding Staphylococcus aureus and Aminoglycosides?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S; block tRNA binding.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in clusters; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 179) Which statement is TRUE regarding Enterococcus faecalis and Beta-lactams?",
+      "option_a": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Enterococcus faecalis: Gram-negative rod; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Beta-lactams: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Cell wall cross-linking blocked."
+    },
+    {
+      "question": "(Microbiology Item 180) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_b": "Pseudomonas aeruginosa: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Escherichia coli: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 181) Which statement is TRUE regarding Escherichia coli and Aminoglycosides?",
+      "option_a": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 182) Which statement is TRUE regarding Streptococcus pyogenes and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pyogenes: Gram-positive cocci in chains; Vancomycin: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Clostridioides difficile: Gram-positive cocci in chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 183) Which statement is TRUE regarding Neisseria meningitidis and Aminoglycosides?",
+      "option_a": "Neisseria meningitidis: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-negative diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Aminoglycosides: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 184) Which statement is TRUE regarding Staphylococcus aureus and Vancomycin?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Staphylococcus aureus: Gram-positive cocci in pairs/chains; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Staphylococcus aureus: Gram-positive cocci in clusters; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 185) Which statement is TRUE regarding Pseudomonas aeruginosa and Tetracyclines?",
+      "option_a": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Tetracyclines: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative coccobacillus; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 186) Which statement is TRUE regarding Klebsiella pneumoniae and Tetracyclines?",
+      "option_a": "Klebsiella pneumoniae: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Haemophilus influenzae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Klebsiella pneumoniae: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Klebsiella pneumoniae: Gram-negative rod; Tetracyclines: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 187) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-positive cocci in clusters; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Enterococcus faecalis: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 188) Which statement is TRUE regarding Escherichia coli and Aminoglycosides?",
+      "option_a": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Escherichia coli: Gram-negative rod; Aminoglycosides: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Staphylococcus aureus: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 189) Which statement is TRUE regarding Streptococcus pneumoniae and Vancomycin?",
+      "option_a": "Escherichia coli: Gram-positive lancet-shaped diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Streptococcus pneumoniae: Gram-negative diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Vancomycin: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Vancomycin: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Blocks peptidoglycan polymerization."
+    },
+    {
+      "question": "(Microbiology Item 190) Which statement is TRUE regarding Staphylococcus aureus and Tetracyclines?",
+      "option_a": "Staphylococcus aureus: Gram-positive cocci in clusters; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Staphylococcus aureus: Gram-positive cocci in chains; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive cocci in clusters; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Staphylococcus aureus: Gram-positive cocci in clusters; Tetracyclines: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 191) Which statement is TRUE regarding Clostridioides difficile and Tetracyclines?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Clostridioides difficile: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Clostridioides difficile: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Streptococcus pyogenes: Gram-positive anaerobic rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 192) Which statement is TRUE regarding Streptococcus pneumoniae and Macrolides?",
+      "option_a": "Streptococcus pneumoniae: Gram-negative coccobacillus; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pyogenes: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 193) Which statement is TRUE regarding Pseudomonas aeruginosa and Macrolides?",
+      "option_a": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Pseudomonas aeruginosa: Gram-negative rod; Macrolides: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Pseudomonas aeruginosa: Gram-negative diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pyogenes: Gram-negative rod; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 194) Which statement is TRUE regarding Enterococcus faecalis and Aminoglycosides?",
+      "option_a": "Enterococcus faecalis: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Clostridioides difficile: Gram-positive cocci in pairs/chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Aminoglycosides: inhibit cell wall synthesis by binding PBPs.",
+      "option_d": "Enterococcus faecalis: Gram-positive cocci in pairs/chains; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 195) Which statement is TRUE regarding Klebsiella pneumoniae and Aminoglycosides?",
+      "option_a": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: binds D-Ala-D-Ala to inhibit cell wall synthesis.",
+      "option_b": "Klebsiella pneumoniae: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_c": "Streptococcus pyogenes: Gram-negative rod; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "option_d": "Klebsiella pneumoniae: Gram-positive lancet-shaped diplococci; Aminoglycosides: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal; requires oxygen."
+    },
+    {
+      "question": "(Microbiology Item 196) Which statement is TRUE regarding Streptococcus pneumoniae and Macrolides?",
+      "option_a": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "option_b": "Streptococcus pneumoniae: Gram-positive lancet-shaped diplococci; Macrolides: inhibit cell wall synthesis by binding PBPs.",
+      "option_c": "Streptococcus pneumoniae: Gram-positive cocci in pairs/chains; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Enterococcus faecalis: Gram-positive lancet-shaped diplococci; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "A",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 197) Which statement is TRUE regarding Clostridioides difficile and Fluoroquinolones?",
+      "option_a": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "option_b": "Clostridioides difficile: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Clostridioides difficile: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Streptococcus pneumoniae: Gram-positive anaerobic rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "correct_answer": "C",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 198) Which statement is TRUE regarding Neisseria meningitidis and Fluoroquinolones?",
+      "option_a": "Neisseria meningitidis: Gram-negative rod; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_b": "Neisseria meningitidis: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_c": "Staphylococcus aureus: Gram-negative diplococci; Fluoroquinolones: inhibit DNA gyrase/topoisomerase.",
+      "option_d": "Neisseria meningitidis: Gram-negative diplococci; Fluoroquinolones: inhibit 30S ribosomal subunit; misreading.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bactericidal."
+    },
+    {
+      "question": "(Microbiology Item 199) Which statement is TRUE regarding Escherichia coli and Tetracyclines?",
+      "option_a": "Staphylococcus aureus: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_b": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_c": "Escherichia coli: Gram-negative coccobacillus; Tetracyclines: inhibit 30S; block tRNA binding.",
+      "option_d": "Escherichia coli: Gram-negative rod; Tetracyclines: inhibit cell wall synthesis by binding PBPs.",
+      "correct_answer": "B",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    },
+    {
+      "question": "(Microbiology Item 200) Which statement is TRUE regarding Streptococcus pyogenes and Macrolides?",
+      "option_a": "Streptococcus pyogenes: Gram-positive cocci in chains; Macrolides: inhibit 30S; block tRNA binding.",
+      "option_b": "Haemophilus influenzae: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "option_c": "Streptococcus pyogenes: Gram-positive anaerobic rod; Macrolides: inhibit 50S; block translocation.",
+      "option_d": "Streptococcus pyogenes: Gram-positive cocci in chains; Macrolides: inhibit 50S; block translocation.",
+      "correct_answer": "D",
+      "explanation": "Match organism ID (Gram reaction/morphology) and antibiotic class mechanism correctly. Bacteriostatic."
+    }
+  ]
+}

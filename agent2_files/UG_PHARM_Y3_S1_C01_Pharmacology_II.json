@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y3_S1_C01",
+  "questions": [
+    {
+      "question": "Which statement best describes Metformin?",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "A",
+      "explanation": "First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "Which statement best describes Insulin glargine?",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "C",
+      "explanation": "Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "Which statement best describes Levothyroxine?",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "A",
+      "explanation": "Dose titrated by TSH"
+    },
+    {
+      "question": "Which statement best describes Methimazole?",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Inhibits DNA gyrase",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "Which statement best describes Cisplatin?",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "Which statement best describes Cyclophosphamide?",
+      "option_a": "Inhibits aromatase",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "C",
+      "explanation": "Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "Which statement best describes Fluoxetine?",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "B",
+      "explanation": "Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "Which statement best describes Levodopa/carbidopa?",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "A",
+      "explanation": "Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "Which statement best describes Vancomycin?",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "B",
+      "explanation": "Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "Which statement best describes Ceftriaxone?",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 11) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "A",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 12) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "A",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 13) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Inhibits DNA gyrase",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "D",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 14) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "B",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 15) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 16) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 17) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 18) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Selective beta-1 blocker",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 19) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "D",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 20) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 21) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 22) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "D",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 23) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Reversible MAO-A inhibitor",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "B",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 24) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "D",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 25) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 26) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 27) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 28) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 29) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits DNA gyrase",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Selective beta-1 blocker",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 30) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 31) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 32) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Binds ergosterol creating pores",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 33) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 34) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 35) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 36) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Blocks voltage-gated Na+ channels in CNS",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 37) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 38) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "A",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 39) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Binds ergosterol creating pores",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "A",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 40) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "C",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 41) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "B",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 42) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 43) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "C",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 44) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 45) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "B",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 46) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "C",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 47) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 48) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "D",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 49) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits aromatase",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 50) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "B",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 51) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Reversible MAO-A inhibitor",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "B",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 52) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits DNA gyrase",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 53) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "A",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 54) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 55) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 56) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 57) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits DNA gyrase",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 58) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 59) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 60) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Inhibits aromatase",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "B",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 61) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "B",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 62) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 63) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Monoclonal antibody against TNF-α",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 64) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 65) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Blocks voltage-gated Na+ channels in CNS",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "D",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 66) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 67) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Reversible MAO-A inhibitor",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 68) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Selective beta-1 blocker",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 69) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Inhibits aromatase",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 70) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 71) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 72) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 73) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "B",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 74) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 75) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "B",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 76) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 77) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 78) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "A",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 79) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 80) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "C",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 81) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Binds ergosterol creating pores",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 82) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 83) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 84) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Binds ergosterol creating pores",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 85) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 86) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 87) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 88) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 89) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "B",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 90) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 91) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 92) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Inhibits aromatase",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "B",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 93) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "C",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 94) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 95) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Inhibits DNA gyrase",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 96) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Binds ergosterol creating pores",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "A",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 97) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Binds ergosterol creating pores",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 98) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 99) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 100) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "A",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 101) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "A",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 102) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Selective beta-1 blocker",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "D",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 103) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Inhibits DNA gyrase",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 104) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 105) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "B",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 106) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits aromatase",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "C",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 107) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Selective beta-1 blocker",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "C",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 108) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 109) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 110) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Inhibits aromatase",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "D",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 111) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Stimulates insulin release by closing KATP channels",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 112) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Inhibits DNA gyrase",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Selective beta-1 blocker",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 113) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Reversible MAO-A inhibitor",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "D",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 114) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 115) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 116) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits COX-2 selectively",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 117) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Selective beta-1 blocker",
+      "correct_answer": "B",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 118) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 119) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Inhibits COX-2 selectively",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "D",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 120) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 121) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 122) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 123) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Selective beta-1 blocker",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Stimulates insulin release by closing KATP channels",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 124) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 125) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "B",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 126) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 127) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 128) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 129) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "D",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 130) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "Selective beta-1 blocker",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "C",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 131) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 132) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "D",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 133) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "C",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 134) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 135) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 136) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 137) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Stimulates insulin release by closing KATP channels",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 138) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 139) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 140) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 141) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "D",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 142) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Stimulates insulin release by closing KATP channels",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "D",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 143) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 144) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "B",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 145) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 146) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Monoclonal antibody against TNF-α",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 147) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Blocks voltage-gated Na+ channels in CNS",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "D",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 148) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Blocks voltage-gated Na+ channels in CNS",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "D",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 149) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Blocks voltage-gated Na+ channels in CNS",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 150) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 151) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "D",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 152) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Binds ergosterol creating pores",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 153) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Stimulates insulin release by closing KATP channels",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "B",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 154) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 155) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Blocks voltage-gated Na+ channels in CNS",
+      "option_d": "Binds ergosterol creating pores",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 156) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 157) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "SSRI increasing serotonin levels",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "A",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 158) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 159) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "A",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 160) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "D",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 161) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Inhibits COX-2 selectively",
+      "correct_answer": "B",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 162) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Binds ergosterol creating pores",
+      "option_c": "Inhibits COX-2 selectively",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "A",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 163) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Inhibits aromatase",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "B",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 164) The primary clinical effect of Ceftriaxone is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "C",
+      "explanation": "Ceftriaxone: Good CNS penetration; used in meningitis"
+    },
+    {
+      "question": "(Pharmacology II Item 165) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Monoclonal antibody against TNF-α",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 166) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 167) The primary clinical effect of Fluoxetine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Binds ergosterol creating pores",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "A",
+      "explanation": "Fluoxetine: Used in depression/anxiety; risk of serotonin syndrome"
+    },
+    {
+      "question": "(Pharmacology II Item 168) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 169) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "B",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 170) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 171) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "A",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 172) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Inhibits COX-2 selectively",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "C",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 173) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Synthetic T4 used to treat hypothyroidism",
+      "option_c": "Platinum chemotherapy causing DNA crosslinking",
+      "option_d": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "correct_answer": "C",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 174) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 175) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 176) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Inhibits DNA gyrase",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "correct_answer": "D",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 177) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "Inhibits aromatase",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 178) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Inhibits angiotensin-converting enzyme",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Stimulates insulin release by closing KATP channels",
+      "correct_answer": "C",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 179) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_d": "Reversible MAO-A inhibitor",
+      "correct_answer": "A",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 180) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "B",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 181) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Long-acting insulin analog providing basal insulin",
+      "option_c": "Inhibits aromatase",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "D",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 182) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "A",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 183) The primary clinical effect of Vancomycin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "C",
+      "explanation": "Vancomycin: Used for MRSA and C. difficile (oral)"
+    },
+    {
+      "question": "(Pharmacology II Item 184) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Blocks voltage-gated Na+ channels in CNS",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "correct_answer": "C",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 185) The primary clinical effect of Methimazole is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Inhibits angiotensin-converting enzyme",
+      "correct_answer": "B",
+      "explanation": "Methimazole: Used in hyperthyroidism; agranulocytosis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 186) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Reversible MAO-A inhibitor",
+      "option_b": "Inhibits angiotensin-converting enzyme",
+      "option_c": "Binds ergosterol creating pores",
+      "option_d": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "correct_answer": "D",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 187) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "SSRI increasing serotonin levels",
+      "option_b": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_c": "Selective beta-1 blocker",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "B",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 188) The primary clinical effect of Metformin is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Monoclonal antibody against TNF-α",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "A",
+      "explanation": "Metformin: First-line for T2DM; risk of lactic acidosis in severe renal failure"
+    },
+    {
+      "question": "(Pharmacology II Item 189) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_b": "Inhibits DNA gyrase",
+      "option_c": "Reversible MAO-A inhibitor",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "A",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 190) The primary clinical effect of Levodopa/carbidopa is most closely related to:",
+      "option_a": "Synthetic T4 used to treat hypothyroidism",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "C",
+      "explanation": "Levodopa/carbidopa: Can cause dyskinesias; motor fluctuations"
+    },
+    {
+      "question": "(Pharmacology II Item 191) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_b": "Reversible MAO-A inhibitor",
+      "option_c": "Long-acting insulin analog providing basal insulin",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "C",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 192) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Inhibits DNA gyrase",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 193) The primary clinical effect of Levothyroxine is most closely related to:",
+      "option_a": "Third-generation cephalosporin inhibiting cell wall synthesis",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Synthetic T4 used to treat hypothyroidism",
+      "option_d": "SSRI increasing serotonin levels",
+      "correct_answer": "C",
+      "explanation": "Levothyroxine: Dose titrated by TSH"
+    },
+    {
+      "question": "(Pharmacology II Item 194) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_b": "Dopamine precursor with peripheral decarboxylase inhibitor for Parkinson disease",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Platinum chemotherapy causing DNA crosslinking",
+      "correct_answer": "D",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 195) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Platinum chemotherapy causing DNA crosslinking",
+      "option_b": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Synthetic T4 used to treat hypothyroidism",
+      "correct_answer": "A",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 196) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Monoclonal antibody against TNF-α",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "SSRI increasing serotonin levels",
+      "option_d": "Blocks voltage-gated Na+ channels in CNS",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 197) The primary clinical effect of Cisplatin is most closely related to:",
+      "option_a": "Inhibits COX-2 selectively",
+      "option_b": "Platinum chemotherapy causing DNA crosslinking",
+      "option_c": "Inhibits thyroid peroxidase; decreases thyroid hormone synthesis",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "B",
+      "explanation": "Cisplatin: Nephrotoxicity, ototoxicity; antiemetics often needed"
+    },
+    {
+      "question": "(Pharmacology II Item 198) The primary clinical effect of Insulin glargine is most closely related to:",
+      "option_a": "Binds ergosterol creating pores",
+      "option_b": "Stimulates insulin release by closing KATP channels",
+      "option_c": "Decreases hepatic gluconeogenesis and increases insulin sensitivity",
+      "option_d": "Long-acting insulin analog providing basal insulin",
+      "correct_answer": "D",
+      "explanation": "Insulin glargine: Given once daily; risk of hypoglycemia"
+    },
+    {
+      "question": "(Pharmacology II Item 199) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Long-acting insulin analog providing basal insulin",
+      "option_b": "Selective beta-1 blocker",
+      "option_c": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_d": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "correct_answer": "D",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    },
+    {
+      "question": "(Pharmacology II Item 200) The primary clinical effect of Cyclophosphamide is most closely related to:",
+      "option_a": "Inhibits cell wall by binding D-Ala-D-Ala",
+      "option_b": "Alkylating agent; DNA crosslinking; can cause hemorrhagic cystitis",
+      "option_c": "Inhibits angiotensin-converting enzyme",
+      "option_d": "Inhibits DNA gyrase",
+      "correct_answer": "B",
+      "explanation": "Cyclophosphamide: Give mesna to reduce cystitis risk"
+    }
+  ]
+}

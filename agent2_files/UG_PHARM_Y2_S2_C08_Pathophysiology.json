@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pathophysiology",
+  "course_code": "UG_PHARM_Y2_S2_C08",
+  "questions": [
+    {
+      "question": "Which statement best describes Inflammation?",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "C",
+      "explanation": "Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "Which statement best describes Edema?",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "Which statement best describes Heart failure?",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "Which statement best describes COPD?",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "A",
+      "explanation": "Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "Which statement best describes Diabetes mellitus?",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "Which statement best describes Hypertension?",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "Which statement best describes CKD?",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "Which statement best describes Shock?",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "Which statement best describes Thrombosis?",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "B",
+      "explanation": "Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "Which statement best describes Atherosclerosis?",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 11) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 12) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "D",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 13) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 14) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 15) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 16) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 17) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 18) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 19) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "D",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 20) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Reversible inhibition of COX-1",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 21) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "C",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 22) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 23) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 24) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 25) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 26) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "D",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 27) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 28) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 29) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "D",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 30) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 31) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 32) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "B",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 33) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "D",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 34) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 35) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "B",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 36) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 37) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "D",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 38) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 39) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 40) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 41) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "C",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 42) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "D",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 43) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 44) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 45) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Reversible inhibition of COX-1",
+      "correct_answer": "C",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 46) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 47) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Reversible inhibition of COX-1",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 48) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 49) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "D",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 50) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 51) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "D",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 52) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 53) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "D",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 54) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 55) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "B",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 56) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "B",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 57) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 58) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "A",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 59) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "C",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 60) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 61) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 62) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "C",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 63) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 64) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 65) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 66) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 67) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 68) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 69) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "C",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 70) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 71) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 72) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 73) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "B",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 74) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "C",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 75) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Reversible inhibition of COX-1",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 76) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "C",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 77) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 78) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "B",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 79) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 80) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 81) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "D",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 82) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "C",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 83) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 84) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 85) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Reversible inhibition of COX-1",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 86) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 87) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "D",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 88) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 89) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "B",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 90) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 91) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "A",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 92) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 93) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "D",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 94) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "C",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 95) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 96) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 97) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 98) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "B",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 99) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "B",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 100) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 101) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "C",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 102) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "C",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 103) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 104) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 105) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "C",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 106) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 107) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 108) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "B",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 109) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 110) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 111) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 112) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "C",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 113) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "A",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 114) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 115) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 116) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 117) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 118) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 119) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 120) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 121) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "C",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 122) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 123) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "A",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 124) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "C",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 125) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 126) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "B",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 127) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "C",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 128) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 129) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 130) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 131) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "C",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 132) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "C",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 133) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 134) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 135) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "B",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 136) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 137) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 138) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 139) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "B",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 140) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 141) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "B",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 142) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "D",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 143) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 144) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 145) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "D",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 146) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Persistently elevated arterial blood pressure",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "B",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 147) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "B",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 148) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 149) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 150) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 151) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "D",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 152) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "B",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 153) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "B",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 154) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "B",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 155) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 156) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "A",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 157) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "D",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 158) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "C",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 159) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 160) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "D",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 161) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "B",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 162) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 163) The primary clinical effect of Atherosclerosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "A",
+      "explanation": "Atherosclerosis: LDL oxidation and macrophage foam cells are key features."
+    },
+    {
+      "question": "(Pathophysiology Item 164) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 165) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Competitive antagonist at H1 receptors",
+      "correct_answer": "C",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 166) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 167) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Protective response involving vascular and cellular events",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "D",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 168) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "D",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 169) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 170) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Persistently elevated arterial blood pressure",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "D",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 171) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "D",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 172) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "D",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 173) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 174) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 175) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Progressive loss of kidney function over months/years",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "C",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 176) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 177) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 178) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 179) The primary clinical effect of COPD is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Inability of heart to pump sufficient blood to meet demands",
+      "option_d": "Decreases hepatic gluconeogenesis",
+      "correct_answer": "A",
+      "explanation": "COPD: Often due to smoking; decreased FEV1/FVC."
+    },
+    {
+      "question": "(Pathophysiology Item 180) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "D",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 181) The primary clinical effect of Hypertension is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "D",
+      "explanation": "Hypertension: Risk factor for stroke, MI, CKD."
+    },
+    {
+      "question": "(Pathophysiology Item 182) The primary clinical effect of Heart failure is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "A",
+      "explanation": "Heart failure: Leads to congestion; neurohormonal activation (RAAS/SNS)."
+    },
+    {
+      "question": "(Pathophysiology Item 183) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Persistently elevated arterial blood pressure",
+      "option_b": "Decreases hepatic gluconeogenesis",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "D",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 184) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 185) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "D",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 186) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 187) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Competitive antagonist at H1 receptors",
+      "option_d": "Hyperglycemia due to insulin deficiency/resistance",
+      "correct_answer": "B",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 188) The primary clinical effect of Inflammation is most closely related to:",
+      "option_a": "Reversible inhibition of COX-1",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "C",
+      "explanation": "Inflammation: Acute inflammation: neutrophils; chronic: macrophages/lymphocytes."
+    },
+    {
+      "question": "(Pathophysiology Item 189) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Progressive loss of kidney function over months/years",
+      "option_b": "Protective response involving vascular and cellular events",
+      "option_c": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "A",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 190) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Excess fluid in interstitial space",
+      "option_c": "Protective response involving vascular and cellular events",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "B",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 191) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Persistently elevated arterial blood pressure",
+      "correct_answer": "A",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 192) The primary clinical effect of Diabetes mellitus is most closely related to:",
+      "option_a": "Decreases hepatic gluconeogenesis",
+      "option_b": "Hyperglycemia due to insulin deficiency/resistance",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Inability of heart to pump sufficient blood to meet demands",
+      "correct_answer": "B",
+      "explanation": "Diabetes mellitus: Chronic complications include micro- and macrovascular disease."
+    },
+    {
+      "question": "(Pathophysiology Item 193) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Excess fluid in interstitial space",
+      "option_b": "Chronic inflammatory disease of arteries with plaque formation",
+      "option_c": "Reversible inhibition of COX-1",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "A",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 194) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "option_b": "Systemic hypoperfusion leading to cellular injury",
+      "option_c": "Decreases hepatic gluconeogenesis",
+      "option_d": "Excess fluid in interstitial space",
+      "correct_answer": "D",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    },
+    {
+      "question": "(Pathophysiology Item 195) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic airflow limitation (emphysema/chronic bronchitis)",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 196) The primary clinical effect of Thrombosis is most closely related to:",
+      "option_a": "Pathologic clot formation within vessels",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Chronic inflammatory disease of arteries with plaque formation",
+      "correct_answer": "A",
+      "explanation": "Thrombosis: Virchow triad: stasis, endothelial injury, hypercoagulability."
+    },
+    {
+      "question": "(Pathophysiology Item 197) The primary clinical effect of CKD is most closely related to:",
+      "option_a": "Systemic hypoperfusion leading to cellular injury",
+      "option_b": "Competitive antagonist at H1 receptors",
+      "option_c": "Progressive loss of kidney function over months/years",
+      "option_d": "Pathologic clot formation within vessels",
+      "correct_answer": "C",
+      "explanation": "CKD: Leads to anemia, mineral-bone disorder, uremia."
+    },
+    {
+      "question": "(Pathophysiology Item 198) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Competitive antagonist at H1 receptors",
+      "option_b": "Inability of heart to pump sufficient blood to meet demands",
+      "option_c": "Pathologic clot formation within vessels",
+      "option_d": "Systemic hypoperfusion leading to cellular injury",
+      "correct_answer": "D",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 199) The primary clinical effect of Shock is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Pathologic clot formation within vessels",
+      "option_c": "Systemic hypoperfusion leading to cellular injury",
+      "option_d": "Protective response involving vascular and cellular events",
+      "correct_answer": "C",
+      "explanation": "Shock: Types: hypovolemic, cardiogenic, distributive, obstructive."
+    },
+    {
+      "question": "(Pathophysiology Item 200) The primary clinical effect of Edema is most closely related to:",
+      "option_a": "Inability of heart to pump sufficient blood to meet demands",
+      "option_b": "Reversible inhibition of COX-1",
+      "option_c": "Excess fluid in interstitial space",
+      "option_d": "Progressive loss of kidney function over months/years",
+      "correct_answer": "C",
+      "explanation": "Edema: Caused by increased hydrostatic pressure, decreased oncotic pressure, etc."
+    }
+  ]
+}

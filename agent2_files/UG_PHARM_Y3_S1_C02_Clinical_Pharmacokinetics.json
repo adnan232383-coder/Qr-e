@@ -1,0 +1,1806 @@
+{
+  "course_name": "Clinical Pharmacokinetics",
+  "course_code": "UG_PHARM_Y3_S1_C02",
+  "questions": [
+    {
+      "question": "Which statement best defines Clearance (CL)?",
+      "option_a": "Half-life (t1/2)",
+      "option_b": "Volume of plasma cleared of drug per unit time",
+      "option_c": "Clearance (CL)",
+      "option_d": "Constant fraction eliminated per unit time",
+      "correct_answer": "B",
+      "explanation": "Higher clearance generally lowers steady-state concentration for a given dose rate."
+    },
+    {
+      "question": "Which statement best defines Volume of distribution (Vd)?",
+      "option_a": "Therapeutic drug monitoring (TDM)",
+      "option_b": "Measuring concentrations to guide dosing",
+      "option_c": "Volume of plasma cleared of drug per unit time",
+      "option_d": "Apparent volume relating amount in body to plasma concentration",
+      "correct_answer": "D",
+      "explanation": "Large Vd suggests extensive tissue distribution."
+    },
+    {
+      "question": "Which statement best defines Half-life (t1/2)?",
+      "option_a": "Steady state",
+      "option_b": "Zero-order kinetics",
+      "option_c": "First-order kinetics",
+      "option_d": "Time for plasma concentration to decrease by 50%",
+      "correct_answer": "D",
+      "explanation": "t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "Which statement best defines Steady state?",
+      "option_a": "Volume of plasma cleared of drug per unit time",
+      "option_b": "Measuring concentrations to guide dosing",
+      "option_c": "Occurs when rate of drug in equals rate of drug out",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "C",
+      "explanation": "Typically ~4–5 half-lives to reach ~95% steady state."
+    },
+    {
+      "question": "Which statement best defines Loading dose?",
+      "option_a": "Steady state",
+      "option_b": "Occurs when rate of drug in equals rate of drug out",
+      "option_c": "Dose to promptly achieve target concentration",
+      "option_d": "Binds D-Ala-D-Ala",
+      "correct_answer": "C",
+      "explanation": "LD = (Vd × Cp_target) / F."
+    },
+    {
+      "question": "Which statement best defines Maintenance dose rate?",
+      "option_a": "Time for plasma concentration to decrease by 50%",
+      "option_b": "Zero-order kinetics",
+      "option_c": "Loading dose",
+      "option_d": "Dose rate to maintain target concentration",
+      "correct_answer": "D",
+      "explanation": "MD_rate = (CL × Cp_target) / F."
+    },
+    {
+      "question": "Which statement best defines First-order kinetics?",
+      "option_a": "Constant fraction eliminated per unit time",
+      "option_b": "Steady state",
+      "option_c": "Bioavailability (F)",
+      "option_d": "Occurs when rate of drug in equals rate of drug out",
+      "correct_answer": "A",
+      "explanation": "Half-life is constant; most drugs follow this."
+    },
+    {
+      "question": "Which statement best defines Zero-order kinetics?",
+      "option_a": "Zero-order kinetics",
+      "option_b": "Loading dose",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Constant amount eliminated per unit time",
+      "correct_answer": "D",
+      "explanation": "Half-life varies; seen with saturable elimination (e.g., ethanol)."
+    },
+    {
+      "question": "Which statement best defines Therapeutic drug monitoring (TDM)?",
+      "option_a": "Measuring concentrations to guide dosing",
+      "option_b": "Maintenance dose rate",
+      "option_c": "Occurs when rate of drug in equals rate of drug out",
+      "option_d": "Constant fraction eliminated per unit time",
+      "correct_answer": "A",
+      "explanation": "Useful for narrow therapeutic index drugs."
+    },
+    {
+      "question": "Which statement best defines Bioavailability (F)?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Steady state",
+      "option_c": "Loading dose",
+      "option_d": "Fraction reaching systemic circulation",
+      "correct_answer": "D",
+      "explanation": "Affects required oral dose and loading/maintenance calculations."
+    },
+    {
+      "question": "A drug has Vd = 60 L and clearance CL = 4 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "15.6 hours",
+      "option_b": "10.4 hours",
+      "option_c": "5.2 hours",
+      "option_d": "20.8 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and clearance CL = 2 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "17.3 hours",
+      "option_b": "8.7 hours",
+      "option_c": "26.0 hours",
+      "option_d": "34.6 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and clearance CL = 6 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "6.9 hours",
+      "option_b": "9.2 hours",
+      "option_c": "2.3 hours",
+      "option_d": "4.6 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and clearance CL = 2 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "31.2 hours",
+      "option_b": "10.4 hours",
+      "option_c": "20.8 hours",
+      "option_d": "41.6 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and clearance CL = 5 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "11.1 hours",
+      "option_b": "2.8 hours",
+      "option_c": "8.3 hours",
+      "option_d": "5.5 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and clearance CL = 3 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "4.6 hours",
+      "option_b": "13.9 hours",
+      "option_c": "18.5 hours",
+      "option_d": "9.2 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and clearance CL = 5 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "8.3 hours",
+      "option_b": "6.2 hours",
+      "option_c": "4.2 hours",
+      "option_d": "2.1 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and clearance CL = 6 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "2.9 hours",
+      "option_b": "5.8 hours",
+      "option_c": "8.7 hours",
+      "option_d": "11.5 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and clearance CL = 5 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "2.8 hours",
+      "option_b": "5.5 hours",
+      "option_c": "1.4 hours",
+      "option_d": "4.2 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and clearance CL = 4 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "3.5 hours",
+      "option_b": "6.9 hours",
+      "option_c": "5.2 hours",
+      "option_d": "1.7 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and clearance CL = 5 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "4.2 hours",
+      "option_b": "8.3 hours",
+      "option_c": "16.6 hours",
+      "option_d": "12.5 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and clearance CL = 3 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "2.3 hours",
+      "option_b": "6.9 hours",
+      "option_c": "9.2 hours",
+      "option_d": "4.6 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and clearance CL = 6 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "5.2 hours",
+      "option_b": "1.7 hours",
+      "option_c": "3.5 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and clearance CL = 4 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "6.9 hours",
+      "option_b": "3.5 hours",
+      "option_c": "13.9 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and clearance CL = 3 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "20.8 hours",
+      "option_b": "13.9 hours",
+      "option_c": "27.7 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and clearance CL = 4 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "7.8 hours",
+      "option_b": "10.4 hours",
+      "option_c": "5.2 hours",
+      "option_d": "2.6 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and clearance CL = 2 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "15.6 hours",
+      "option_b": "10.4 hours",
+      "option_c": "5.2 hours",
+      "option_d": "20.8 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and clearance CL = 6 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "1.2 hours",
+      "option_b": "2.3 hours",
+      "option_c": "3.5 hours",
+      "option_d": "4.6 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and clearance CL = 3 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "3.5 hours",
+      "option_b": "13.9 hours",
+      "option_c": "10.4 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and clearance CL = 2 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "6.9 hours",
+      "option_b": "13.9 hours",
+      "option_c": "10.4 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and clearance CL = 5 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "13.9 hours",
+      "option_b": "6.9 hours",
+      "option_c": "3.5 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and clearance CL = 4 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "8.7 hours",
+      "option_b": "4.3 hours",
+      "option_c": "17.3 hours",
+      "option_d": "13.0 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and clearance CL = 3 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "11.5 hours",
+      "option_b": "17.3 hours",
+      "option_c": "23.1 hours",
+      "option_d": "5.8 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and clearance CL = 2 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "27.7 hours",
+      "option_b": "13.9 hours",
+      "option_c": "6.9 hours",
+      "option_d": "20.8 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and clearance CL = 6 L/h (first-order). Approximately what is its half-life?",
+      "option_a": "3.5 hours",
+      "option_b": "13.9 hours",
+      "option_c": "6.9 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "For a drug with half-life of 4 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "40 hours",
+      "option_b": "4 hours",
+      "option_c": "20 hours",
+      "option_d": "8 hours",
+      "correct_answer": "C",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "For a drug with half-life of 6 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "30 hours",
+      "option_b": "12 hours",
+      "option_c": "60 hours",
+      "option_d": "6 hours",
+      "correct_answer": "A",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "For a drug with half-life of 8 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "16 hours",
+      "option_b": "8 hours",
+      "option_c": "40 hours",
+      "option_d": "80 hours",
+      "correct_answer": "C",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "For a drug with half-life of 10 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "100 hours",
+      "option_b": "50 hours",
+      "option_c": "10 hours",
+      "option_d": "20 hours",
+      "correct_answer": "B",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "For a drug with half-life of 12 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "24 hours",
+      "option_b": "120 hours",
+      "option_c": "12 hours",
+      "option_d": "60 hours",
+      "correct_answer": "D",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "For a drug with half-life of 16 hours (first-order), approximately how long to reach ~95% of steady state?",
+      "option_a": "16 hours",
+      "option_b": "32 hours",
+      "option_c": "80 hours",
+      "option_d": "160 hours",
+      "correct_answer": "C",
+      "explanation": "Steady state is reached after ~4–5 half-lives (~95% by ~5 half-lives)."
+    },
+    {
+      "question": "(Clinical PK Item 42) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 43) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 44) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 45) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 46) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 47) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 48) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 49) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 50) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 51) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 52) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 53) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 54) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 55) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 56) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 57) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 58) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 59) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 60) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 61) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 62) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 63) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 64) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 65) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 66) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 67) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 68) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 69) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 70) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 71) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 72) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 73) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 74) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 75) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 76) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 77) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 78) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 79) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 80) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 81) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 82) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 83) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 84) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 85) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 86) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 87) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 88) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 89) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 90) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 91) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 92) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 93) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 94) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 95) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 96) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 97) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 98) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 99) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 100) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 101) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 102) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 103) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 104) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 105) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 106) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 107) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 108) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 109) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 110) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 111) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 112) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 113) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 114) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 115) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 116) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 117) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 118) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 119) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 120) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 121) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 122) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 123) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 124) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 125) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 126) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 127) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 128) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 129) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 130) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 131) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 132) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 133) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 134) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 135) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 136) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 137) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 138) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 139) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 140) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 141) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 142) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 143) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 144) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 145) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 146) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 147) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 148) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 149) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 150) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 151) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 152) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 153) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 154) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 155) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 156) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 157) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 158) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 159) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 160) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 161) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 162) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 163) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 164) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 165) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 166) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 167) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 168) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 169) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 170) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 171) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 172) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 173) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 174) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 175) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 176) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 177) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 178) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 179) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 180) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 181) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 182) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 183) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 184) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 185) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 186) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 187) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 188) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 189) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 190) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 191) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "A",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 192) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 193) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 194) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 195) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding percentage only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 196) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "B",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 197) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 198) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding percentage only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 199) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Protein binding percentage only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    },
+    {
+      "question": "(Clinical PK Item 200) Which parameter MOST directly determines maintenance dose rate at a target concentration?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding percentage only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "Maintenance dose rate is proportional to clearance at a given target concentration (MD_rate = CL×Cp/F)."
+    }
+  ]
+}
