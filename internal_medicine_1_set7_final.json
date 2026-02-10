@@ -1,0 +1,416 @@
+[
+  {
+    "question": "A 54-year-old man with hypertension on lisinopril and hydrochlorothiazide presents with BP 148/92 mmHg. He has bilateral renal artery bruits. Creatinine rose from 1.2 to 1.9 mg/dL after starting lisinopril. MRA shows bilateral renal artery stenosis >70%. What is the most appropriate management?",
+    "option_a": "Medical therapy optimization; avoid revascularization",
+    "option_b": "Bilateral renal artery stenting",
+    "option_c": "Surgical renal artery bypass",
+    "option_d": "Discontinue all antihypertensives",
+    "correct_answer": "A",
+    "explanation": "The CORAL trial showed no benefit of renal artery stenting over medical therapy for atherosclerotic RAS. Optimal medical management includes antihypertensives (avoiding ACEi/ARB in bilateral RAS), statins, and risk factor modification. Revascularization reserved for refractory HF or flash pulmonary edema."
+  },
+  {
+    "question": "A 38-year-old woman with hypertension has episodes of headache, palpitations, and diaphoresis. During an episode, BP is 198/115 mmHg. Between episodes, BP is 128/82 mmHg. What is the best initial screening test?",
+    "option_a": "Plasma aldosterone-to-renin ratio",
+    "option_b": "24-hour urine fractionated metanephrines and catecholamines",
+    "option_c": "Renal artery duplex ultrasound",
+    "option_d": "Overnight dexamethasone suppression test",
+    "correct_answer": "B",
+    "explanation": "Episodic hypertension with classic triad (headache, palpitations, diaphoresis) suggests pheochromocytoma. Best screening is 24-hour urine fractionated metanephrines and catecholamines or plasma free metanephrines. CT/MRI adrenals only after biochemical confirmation."
+  },
+  {
+    "question": "A 72-year-old man with hypertension has morning BP consistently 20 mmHg higher than evening readings. He takes all medications at bedtime. What adjustment may improve BP control?",
+    "option_a": "Double all medication doses",
+    "option_b": "Add a fourth antihypertensive",
+    "option_c": "Take at least one medication in the morning",
+    "option_d": "Switch all medications to short-acting formulations",
+    "correct_answer": "C",
+    "explanation": "Morning BP surge is associated with increased cardiovascular events. Chronotherapy—timing medications to cover the morning surge—can improve 24-hour BP control. Taking a long-acting medication in the morning or using evening dosing of certain drugs (some ACEi, ARBs) that have sustained morning coverage helps."
+  },
+  {
+    "question": "A 60-year-old woman with stable angina on aspirin, metoprolol, and atorvastatin 40 mg has LDL 85 mg/dL. She asks if she needs more aggressive lipid therapy. According to current guidelines, what is recommended?",
+    "option_a": "LDL is at goal; continue current regimen",
+    "option_b": "Increase to high-intensity statin regardless of LDL",
+    "option_c": "Add ezetimibe only if LDL >100",
+    "option_d": "Add PCSK9 inhibitor immediately",
+    "correct_answer": "B",
+    "explanation": "All patients with clinical ASCVD should receive high-intensity statin therapy (atorvastatin 40-80 mg or rosuvastatin 20-40 mg) regardless of baseline LDL. The goal is maximum tolerated statin intensity first, then add ezetimibe and/or PCSK9 inhibitor if LDL remains above target."
+  },
+  {
+    "question": "A 55-year-old man with exertional angina has stress echocardiography showing anterior wall hypokinesis at peak exercise. Resting EF is 55%. He is reluctant to undergo catheterization. What non-invasive test can assess coronary anatomy?",
+    "option_a": "Repeat stress ECG",
+    "option_b": "Coronary CT angiography",
+    "option_c": "Cardiac MRI with gadolinium",
+    "option_d": "BNP level",
+    "correct_answer": "B",
+    "explanation": "Coronary CTA provides anatomic assessment of coronary arteries non-invasively with high sensitivity for excluding significant CAD. It's useful when functional testing is positive but patient prefers non-invasive evaluation, or when diagnosis remains uncertain."
+  },
+  {
+    "question": "A 48-year-old man presents with 40 minutes of crushing chest pain. ECG shows 4 mm ST elevation in V1-V4. He receives aspirin and is taken for primary PCI. Door-to-balloon time is 75 minutes. What is the target door-to-balloon time?",
+    "option_a": "≤120 minutes",
+    "option_b": "≤90 minutes",
+    "option_c": "≤60 minutes",
+    "option_d": "≤30 minutes",
+    "correct_answer": "B",
+    "explanation": "For STEMI patients undergoing primary PCI, the target door-to-balloon time is ≤90 minutes at PCI-capable hospitals. First medical contact-to-device time should be ≤120 minutes when transfer is required. Shorter times correlate with better outcomes and smaller infarct size."
+  },
+  {
+    "question": "A 65-year-old woman with NSTEMI undergoes angiography showing 90% stenosis of the proximal LAD. She has diabetes and good LV function. PCI is performed with a drug-eluting stent. What is the minimum DAPT duration?",
+    "option_a": "1 month",
+    "option_b": "3 months",
+    "option_c": "6 months",
+    "option_d": "12 months",
+    "correct_answer": "D",
+    "explanation": "After PCI for ACS, DAPT (aspirin + P2Y12 inhibitor) is recommended for at least 12 months. In high-bleeding-risk patients, 6 months may be acceptable. In very high ischemic risk (diabetes, recurrent MI, complex PCI), extended DAPT beyond 12 months may be considered."
+  },
+  {
+    "question": "A 70-year-old man with inferior STEMI develops bradycardia (HR 38 bpm) and hypotension (BP 78/50 mmHg) immediately after reperfusion. The rhythm is sinus bradycardia. What is this phenomenon?",
+    "option_a": "Cardiogenic shock",
+    "option_b": "Bezold-Jarisch reflex",
+    "option_c": "Complete heart block",
+    "option_d": "Vagal response to pain",
+    "correct_answer": "B",
+    "explanation": "Bezold-Jarisch reflex is a cardioinhibitory reflex causing bradycardia and hypotension, commonly seen with inferior MI and reperfusion. Triggered by stimulation of ventricular mechanoreceptors. Treatment: atropine and IV fluids. Usually transient and responds well to treatment."
+  },
+  {
+    "question": "A 58-year-old man 3 days post-STEMI develops new harsh systolic murmur and acute pulmonary edema. Echo reveals severe mitral regurgitation with flail posterior leaflet. What is the underlying complication?",
+    "option_a": "Ventricular septal rupture",
+    "option_b": "Papillary muscle rupture",
+    "option_c": "Left ventricular free wall rupture",
+    "option_d": "Pericarditis",
+    "correct_answer": "B",
+    "explanation": "Papillary muscle rupture is a mechanical complication occurring 2-7 days post-MI, causing acute severe MR. The posteromedial papillary muscle is more commonly affected (single blood supply from RCA/LCx). Presents with acute pulmonary edema and cardiogenic shock. Requires emergent surgery."
+  },
+  {
+    "question": "A 62-year-old woman with chronic HFrEF (EF 25%) on GDMT presents with increasing dyspnea. Exam reveals 8 cm JVD, hepatomegaly, and 3+ peripheral edema but clear lung fields. What describes this presentation?",
+    "option_a": "Isolated left heart failure",
+    "option_b": "Predominant right heart failure",
+    "option_c": "Biventricular failure with pulmonary edema",
+    "option_d": "High-output heart failure",
+    "correct_answer": "B",
+    "explanation": "Elevated JVD, hepatomegaly, and peripheral edema WITHOUT pulmonary congestion indicates predominant right heart failure. This can occur in chronic LV failure when the RV fails independently, or in conditions primarily affecting the RV (pulmonary hypertension, RV infarction)."
+  },
+  {
+    "question": "A 55-year-old man with new HFrEF (EF 28%) has no symptoms at rest but becomes short of breath climbing two flights of stairs. He can perform all activities of daily living. What is his NYHA functional class?",
+    "option_a": "Class I",
+    "option_b": "Class II",
+    "option_c": "Class III",
+    "option_d": "Class IV",
+    "correct_answer": "B",
+    "explanation": "NYHA Class II: slight limitation of physical activity; comfortable at rest, but ordinary activity results in symptoms. Class I has no limitation; Class III has marked limitation (symptoms with less-than-ordinary activity); Class IV has symptoms at rest."
+  },
+  {
+    "question": "A 68-year-old man with HFrEF (EF 30%) is on lisinopril, carvedilol, and spironolactone. His potassium is 5.6 mEq/L and creatinine stable. What is the most appropriate adjustment?",
+    "option_a": "Discontinue spironolactone",
+    "option_b": "Reduce spironolactone dose and recheck potassium",
+    "option_c": "Discontinue lisinopril",
+    "option_d": "Add loop diuretic to lower potassium",
+    "correct_answer": "B",
+    "explanation": "Mild hyperkalemia (5.5-6.0 mEq/L) on MRA therapy warrants dose reduction rather than discontinuation, as MRAs provide mortality benefit. Reduce dose, counsel on dietary potassium restriction, ensure no NSAIDs or K+ supplements. Recheck in 1 week. Discontinue only if K+ remains >6.0 despite adjustments."
+  },
+  {
+    "question": "A 75-year-old woman with HFpEF and AF requires diuretic therapy for volume overload. Loop diuretic alone is insufficient. What combination improves diuresis through sequential nephron blockade?",
+    "option_a": "Loop diuretic + ACE inhibitor",
+    "option_b": "Loop diuretic + thiazide diuretic",
+    "option_c": "Loop diuretic + beta-blocker",
+    "option_d": "Loop diuretic + digoxin",
+    "correct_answer": "B",
+    "explanation": "Sequential nephron blockade combines loop diuretic (blocks Na-K-2Cl in thick ascending limb) with thiazide (blocks Na-Cl in distal tubule), synergistically enhancing diuresis. Useful for diuretic resistance. Monitor closely for electrolyte depletion (hypokalemia, hypomagnesemia, hyponatremia)."
+  },
+  {
+    "question": "A 62-year-old woman with paroxysmal AF and hypertension (CHA₂DS₂-VASc 3) has HAS-BLED score of 4. She had a GI bleed 6 months ago that has been treated. What is the appropriate anticoagulation decision?",
+    "option_a": "No anticoagulation due to high bleeding risk",
+    "option_b": "Aspirin alone for stroke prevention",
+    "option_c": "Anticoagulation with DOAC after addressing modifiable bleeding risks",
+    "option_d": "Left atrial appendage closure without anticoagulation",
+    "correct_answer": "C",
+    "explanation": "High HAS-BLED score identifies patients needing closer monitoring, not anticoagulation avoidance. With CHA₂DS₂-VASc 3, stroke risk exceeds bleeding risk for most patients. Address modifiable factors (control BP, stop NSAIDs, treat H. pylori, add PPI). GI bleed 6 months ago, now healed, allows resumption."
+  },
+  {
+    "question": "A 58-year-old man with persistent AF undergoes catheter ablation (pulmonary vein isolation). Post-procedure, he asks about long-term anticoagulation. CHA₂DS₂-VASc score is 2. What is recommended?",
+    "option_a": "Discontinue anticoagulation immediately post-procedure",
+    "option_b": "Continue anticoagulation for 2 months only",
+    "option_c": "Continue anticoagulation indefinitely based on stroke risk score",
+    "option_d": "Switch to aspirin only",
+    "correct_answer": "C",
+    "explanation": "Successful AF ablation does not eliminate stroke risk. Anticoagulation decisions should be based on CHA₂DS₂-VASc score, not rhythm status. With score ≥2 in men, indefinite anticoagulation is recommended regardless of apparent ablation success, as silent AF recurrence is common."
+  },
+  {
+    "question": "A 70-year-old man on warfarin for AF (INR 2.5) requires urgent hip fracture surgery within 24 hours. How should anticoagulation be reversed?",
+    "option_a": "Vitamin K 10 mg IV and wait 24-48 hours",
+    "option_b": "4-factor prothrombin complex concentrate (PCC)",
+    "option_c": "Fresh frozen plasma transfusion",
+    "option_d": "Hold warfarin only; INR will normalize quickly",
+    "correct_answer": "B",
+    "explanation": "For urgent surgery requiring rapid warfarin reversal, 4-factor PCC provides immediate INR normalization (within 15-30 minutes). FFP requires large volumes and takes longer. Vitamin K alone takes 12-24 hours. Give vitamin K concurrently with PCC for sustained reversal."
+  },
+  {
+    "question": "A 45-year-old woman with new AF has palpitations and resting HR of 125 bpm. She has no structural heart disease. Echo shows normal LV function. What is the first-line rate control strategy?",
+    "option_a": "Digoxin alone",
+    "option_b": "Beta-blocker or non-dihydropyridine calcium channel blocker",
+    "option_c": "Amiodarone",
+    "option_d": "Catheter ablation",
+    "correct_answer": "B",
+    "explanation": "Beta-blockers or non-DHP CCBs (diltiazem, verapamil) are first-line for rate control in AF with normal LV function. Both are effective and can be used interchangeably. Digoxin is add-on therapy, less effective during exercise. Amiodarone is for rhythm control. Ablation is for drug-refractory symptoms."
+  },
+  {
+    "question": "A 55-year-old man with metabolic syndrome has fasting glucose 118 mg/dL and HbA1c 6.1%. What is his glycemic status according to ADA criteria?",
+    "option_a": "Normal glucose tolerance",
+    "option_b": "Prediabetes",
+    "option_c": "Diabetes mellitus",
+    "option_d": "Indeterminate; requires OGTT",
+    "correct_answer": "B",
+    "explanation": "Prediabetes criteria: fasting glucose 100-125 mg/dL (impaired fasting glucose), 2-hour OGTT 140-199 mg/dL (impaired glucose tolerance), or HbA1c 5.7-6.4%. This patient has IFG (118 mg/dL) and HbA1c in prediabetes range (6.1%). Lifestyle intervention reduces progression to diabetes."
+  },
+  {
+    "question": "A 60-year-old woman with type 2 diabetes on metformin and empagliflozin develops a painful, erythematous perineal lesion with crepitus. She has fever and appears toxic. What is the diagnosis and initial management?",
+    "option_a": "Candidal vulvovaginitis; oral fluconazole",
+    "option_b": "Fournier's gangrene; emergent surgical debridement and IV antibiotics",
+    "option_c": "Urinary tract infection; IV antibiotics alone",
+    "option_d": "Herpes simplex; acyclovir",
+    "correct_answer": "B",
+    "explanation": "Fournier's gangrene (necrotizing fasciitis of perineum) is a rare but serious complication associated with SGLT2 inhibitors. Crepitus indicates gas-forming organisms. This is a surgical emergency requiring immediate debridement, broad-spectrum antibiotics, and ICU care. Stop SGLT2 inhibitor."
+  },
+  {
+    "question": "A 72-year-old man with type 2 diabetes and CKD stage 4 (eGFR 22) is on insulin glargine. His fasting glucose is 90-110 mg/dL, but he has frequent nocturnal hypoglycemia. What adjustment is most appropriate?",
+    "option_a": "Increase basal insulin dose",
+    "option_b": "Reduce basal insulin dose",
+    "option_c": "Add short-acting insulin with dinner",
+    "option_d": "Switch to sulfonylurea",
+    "correct_answer": "B",
+    "explanation": "CKD prolongs insulin half-life due to reduced renal clearance, increasing hypoglycemia risk. Nocturnal hypoglycemia with good fasting glucose suggests excessive basal insulin. Reduce dose by 10-25%. Sulfonylureas are contraindicated in severe CKD due to prolonged hypoglycemia risk."
+  },
+  {
+    "question": "A 50-year-old man with type 2 diabetes has HbA1c 9.5% with polyuria, polydipsia, and 10-lb weight loss. He has no ketonuria. What is the most appropriate initial therapy?",
+    "option_a": "Metformin alone",
+    "option_b": "Metformin plus GLP-1 receptor agonist",
+    "option_c": "Basal insulin plus metformin",
+    "option_d": "Lifestyle modification only",
+    "correct_answer": "C",
+    "explanation": "Symptomatic hyperglycemia with HbA1c >9-10% often requires insulin to achieve rapid glycemic control and relieve glucose toxicity. Start basal insulin with metformin. Once symptoms resolve and glucose toxicity improves, may be able to simplify regimen. Insulin can be reduced/stopped if appropriate."
+  },
+  {
+    "question": "A 45-year-old woman with type 1 diabetes using insulin pump has HbA1c 7.2%. She exercises regularly and asks about insulin adjustments during exercise. What is recommended for planned aerobic exercise?",
+    "option_a": "Increase basal rate 2 hours before exercise",
+    "option_b": "Reduce basal rate or suspend pump during exercise",
+    "option_c": "Give extra bolus before exercise",
+    "option_d": "No adjustment needed; exercise doesn't affect glucose",
+    "correct_answer": "B",
+    "explanation": "Aerobic exercise increases insulin sensitivity and glucose uptake, risking hypoglycemia. Strategies include: reducing basal rate 60-90 minutes before (or temp basal during), reducing pre-exercise bolus, consuming carbs without bolus. Adjustments depend on exercise duration, intensity, and individual response."
+  },
+  {
+    "question": "A 35-year-old man is brought to the ED after being found unresponsive. Blood glucose is 28 mg/dL. He has no diabetes history but recently started a juice cleanse diet. After IV dextrose, glucose normalizes and he awakens. What is the most likely diagnosis?",
+    "option_a": "Insulin-secreting tumor",
+    "option_b": "Starvation ketoacidosis with hypoglycemia",
+    "option_c": "Factitious hypoglycemia",
+    "option_d": "Adrenal insufficiency",
+    "correct_answer": "B",
+    "explanation": "Prolonged fasting/starvation depletes glycogen stores and impairs gluconeogenesis, causing hypoglycemia. Juice cleanses provide minimal protein/fat for gluconeogenesis. Unlike insulinoma, insulin levels would be appropriately suppressed. Check insulin, C-peptide, and beta-hydroxybutyrate to differentiate causes."
+  },
+  {
+    "question": "A 68-year-old woman on amlodipine presents with bilateral lower extremity edema. Labs show normal creatinine and albumin. BNP is 45 pg/mL (normal). What is the cause of her edema?",
+    "option_a": "Heart failure",
+    "option_b": "Nephrotic syndrome",
+    "option_c": "Dihydropyridine calcium channel blocker-induced edema",
+    "option_d": "Deep vein thrombosis",
+    "correct_answer": "C",
+    "explanation": "DHP CCBs (amlodipine, nifedipine) cause peripheral edema through preferential arteriolar vasodilation, increasing capillary hydrostatic pressure. It's not related to fluid retention. Normal BNP excludes HF. Management: reduce dose, add ACEi/ARB (causes venodilation to counterbalance), or switch to non-DHP CCB."
+  },
+  {
+    "question": "A 50-year-old man with hypokalemia (K+ 2.8 mEq/L) has metabolic alkalosis, hypertension, and suppressed plasma renin. Urine potassium is 45 mEq/L (high). CT shows 1.5 cm left adrenal adenoma. What confirms the diagnosis before surgery?",
+    "option_a": "Repeat serum potassium",
+    "option_b": "Adrenal vein sampling for aldosterone lateralization",
+    "option_c": "ACTH stimulation test",
+    "option_d": "Dexamethasone suppression test",
+    "correct_answer": "B",
+    "explanation": "After biochemical confirmation of primary aldosteronism, adrenal vein sampling (AVS) determines unilateral vs bilateral disease, as CT has limited sensitivity/specificity. Unilateral aldosterone excess (aldosterone-producing adenoma) is treated with adrenalectomy; bilateral hyperplasia is treated medically with MRA."
+  },
+  {
+    "question": "A 75-year-old woman with ESRD on hemodialysis has pre-dialysis potassium of 6.2 mEq/L. She is asymptomatic with normal ECG. Dialysis is scheduled in 4 hours. What is appropriate management?",
+    "option_a": "Emergent dialysis now",
+    "option_b": "IV calcium gluconate immediately",
+    "option_c": "Proceed with scheduled dialysis; no acute intervention needed",
+    "option_d": "IV insulin and glucose, then dialysis",
+    "correct_answer": "C",
+    "explanation": "Mild hyperkalemia (6.0-6.5 mEq/L) without ECG changes in a stable dialysis patient can wait for scheduled dialysis. Chronic dialysis patients tolerate higher potassium levels. Acute interventions (calcium, insulin/glucose) are reserved for ECG changes or levels >6.5 mEq/L. Ensure dietary counseling."
+  },
+  {
+    "question": "A 60-year-old man with SIADH has chronic hyponatremia (sodium 128 mEq/L) despite fluid restriction to 1 liter daily. What pharmacological therapy can be added?",
+    "option_a": "Furosemide with salt tablets",
+    "option_b": "Hypertonic saline infusion",
+    "option_c": "Urea oral therapy",
+    "option_d": "Fludrocortisone",
+    "correct_answer": "C",
+    "explanation": "Oral urea is effective for chronic SIADH refractory to fluid restriction. It promotes free water excretion through osmotic diuresis. Salt tablets + furosemide is another option. Vaptans (tolvaptan) also work but require hospital initiation. Hypertonic saline is for acute symptomatic hyponatremia."
+  },
+  {
+    "question": "A 45-year-old woman develops severe muscle weakness. Labs show potassium 1.9 mEq/L. ECG reveals prominent U waves and prolonged QT. What is the most dangerous cardiac complication to monitor for?",
+    "option_a": "Atrial fibrillation",
+    "option_b": "Torsades de pointes",
+    "option_c": "Complete heart block",
+    "option_d": "Pericarditis",
+    "correct_answer": "B",
+    "explanation": "Severe hypokalemia (<2.5 mEq/L) prolongs repolarization (prolonged QT, U waves), predisposing to polymorphic VT (torsades de pointes). This is life-threatening. Treatment: IV potassium replacement with cardiac monitoring. Also replace magnesium, which stabilizes cardiac membrane and facilitates K+ repletion."
+  },
+  {
+    "question": "A 30-year-old man with bipolar disorder on lithium has serum lithium level of 1.8 mEq/L (therapeutic 0.6-1.2) with tremor, ataxia, and confusion. Creatinine is 2.1 mg/dL. What is the definitive treatment?",
+    "option_a": "IV normal saline hydration alone",
+    "option_b": "Hemodialysis",
+    "option_c": "Activated charcoal",
+    "option_d": "Sodium bicarbonate infusion",
+    "correct_answer": "B",
+    "explanation": "Lithium toxicity with neurological symptoms (confusion, ataxia) and renal impairment requires hemodialysis for rapid removal. Lithium is a small molecule easily dialyzed. Indications: level >4 mEq/L, severe symptoms, or renal failure preventing elimination. IV fluids are adjunctive."
+  },
+  {
+    "question": "A 55-year-old woman with papillary thyroid cancer status post total thyroidectomy and RAI ablation is on levothyroxine with TSH suppression (0.1 mIU/L). Thyroglobulin is undetectable. After 5 years, what is the appropriate TSH target?",
+    "option_a": "Continue TSH suppression <0.1 mIU/L indefinitely",
+    "option_b": "Allow TSH to rise to 0.5-2.0 mIU/L",
+    "option_c": "Stop levothyroxine to assess for recurrence",
+    "option_d": "TSH target 4-10 mIU/L",
+    "correct_answer": "B",
+    "explanation": "For low-risk differentiated thyroid cancer with excellent response (undetectable thyroglobulin, no structural disease), TSH can be liberalized to low-normal range (0.5-2.0 mIU/L) after initial 1-2 years of suppression. This reduces risks of TSH suppression (osteoporosis, AF) while maintaining low recurrence risk."
+  },
+  {
+    "question": "A 40-year-old woman has a thyroid nodule with FNA showing Bethesda IV (follicular neoplasm). Molecular testing shows RAS mutation. What is the next step?",
+    "option_a": "Repeat FNA in 12 months",
+    "option_b": "Thyroid lobectomy for definitive diagnosis",
+    "option_c": "Total thyroidectomy",
+    "option_d": "Radioactive iodine therapy",
+    "correct_answer": "B",
+    "explanation": "Bethesda IV (follicular neoplasm) cannot distinguish benign follicular adenoma from follicular carcinoma cytologically. RAS mutation is found in both benign and malignant lesions. Diagnostic lobectomy allows histological evaluation of capsular/vascular invasion. Completion thyroidectomy if cancer confirmed."
+  },
+  {
+    "question": "A 65-year-old woman with hypothyroidism on levothyroxine 100 mcg has TSH 6.5 mIU/L. She takes her thyroid medication with breakfast, which includes coffee and a fiber supplement. What adjustment should be made?",
+    "option_a": "Increase levothyroxine dose to 125 mcg",
+    "option_b": "Take levothyroxine on empty stomach, 60 minutes before breakfast",
+    "option_c": "Switch to liothyronine",
+    "option_d": "Add iodine supplementation",
+    "correct_answer": "B",
+    "explanation": "Coffee and fiber reduce levothyroxine absorption. Optimal absorption requires taking levothyroxine on empty stomach, 30-60 minutes before food, or 3+ hours after eating. Separating from coffee/fiber should normalize TSH before increasing dose. Alternative: bedtime dosing 3+ hours after last meal."
+  },
+  {
+    "question": "A 35-year-old woman in the first trimester of pregnancy has TSH 3.8 mIU/L (prepregnancy TSH was 1.5 mIU/L). Free T4 is normal. She has positive anti-TPO antibodies. What is recommended?",
+    "option_a": "No treatment; TSH is within normal range",
+    "option_b": "Start levothyroxine to achieve TSH <2.5 mIU/L",
+    "option_c": "Repeat TSH in second trimester",
+    "option_d": "Radioactive iodine uptake scan",
+    "correct_answer": "B",
+    "explanation": "In pregnancy with positive TPO antibodies, TSH >2.5 mIU/L in first trimester may warrant treatment to reduce miscarriage risk and optimize fetal neurodevelopment. Pregnancy increases thyroid hormone requirements by 25-50%. Monitor TSH every 4 weeks in first half of pregnancy."
+  },
+  {
+    "question": "A 70-year-old man with subclinical hypothyroidism (TSH 7.5 mIU/L, normal free T4) has no symptoms. Anti-TPO antibodies are negative. What is the recommended management?",
+    "option_a": "Start levothyroxine immediately",
+    "option_b": "Repeat thyroid function tests in 2-3 months",
+    "option_c": "Start low-dose levothyroxine",
+    "option_d": "Thyroid ultrasound",
+    "correct_answer": "B",
+    "explanation": "Subclinical hypothyroidism with TSH 5-10 mIU/L should be confirmed with repeat testing in 2-3 months before treatment, as transient elevation is common. Without symptoms and negative antibodies, observation is reasonable. Treatment considered if TSH persistently >10, symptomatic, or positive antibodies."
+  },
+  {
+    "question": "A 58-year-old man with CKD stage 4 has eGFR declining 5 mL/min/year despite optimal BP control and ACEi. He has diabetes and proteinuria (UACR 800 mg/g). What class of medication provides additional renoprotection?",
+    "option_a": "Calcium channel blocker",
+    "option_b": "SGLT2 inhibitor",
+    "option_c": "Loop diuretic",
+    "option_d": "Alpha-blocker",
+    "correct_answer": "B",
+    "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) slow CKD progression independent of diabetes or baseline eGFR (DAPA-CKD included non-diabetics). They reduce proteinuria, slow eGFR decline, and decrease risk of ESRD. Now guideline-recommended for CKD with or without diabetes."
+  },
+  {
+    "question": "A 62-year-old woman with CKD stage 3b (eGFR 38) and diabetes has phosphorus 5.2 mg/dL, calcium 9.0 mg/dL. 25-hydroxyvitamin D is 18 ng/mL (low). What is the first step in management?",
+    "option_a": "Start calcitriol (active vitamin D)",
+    "option_b": "Start cholecalciferol (vitamin D3) supplementation",
+    "option_c": "Start phosphate binder",
+    "option_d": "Start cinacalcet",
+    "correct_answer": "B",
+    "explanation": "In CKD-MBD, first replete 25-OH vitamin D if low (<30 ng/mL) using cholecalciferol or ergocalciferol. This is the substrate for renal 1-alpha hydroxylation. Active vitamin D (calcitriol) is added later if PTH remains elevated despite adequate 25-OH vitamin D levels and controlled phosphorus."
+  },
+  {
+    "question": "A 70-year-old man with CKD stage 5 (eGFR 12) has been counseled about renal replacement options. He chooses peritoneal dialysis over hemodialysis. What is an advantage of peritoneal dialysis?",
+    "option_a": "More efficient solute clearance",
+    "option_b": "Better preservation of residual renal function",
+    "option_c": "Lower infection risk",
+    "option_d": "No dietary restrictions needed",
+    "correct_answer": "B",
+    "explanation": "Peritoneal dialysis offers better preservation of residual kidney function compared to hemodialysis, likely due to more gradual fluid/solute removal. Other advantages: home-based, flexible schedule, no vascular access needed. Disadvantages: peritonitis risk, daily exchanges, protein losses."
+  },
+  {
+    "question": "A 55-year-old man with CKD stage 4 has hemoglobin 9.0 g/dL. Ferritin is 350 ng/mL and TSAT is 28%. Reticulocyte count is low. What is the most appropriate treatment for his anemia?",
+    "option_a": "Oral iron supplementation",
+    "option_b": "IV iron infusion",
+    "option_c": "Erythropoiesis-stimulating agent (ESA)",
+    "option_d": "Blood transfusion",
+    "correct_answer": "C",
+    "explanation": "With adequate iron stores (ferritin >100, TSAT >20%) and low reticulocyte count, the anemia is due to erythropoietin deficiency. ESAs (epoetin, darbepoetin) are indicated. Target Hgb 10-11.5 g/dL; higher targets increase cardiovascular risk. IV iron is first-line if iron deficient."
+  },
+  {
+    "question": "A 68-year-old woman with AV fistula for hemodialysis notices swelling of her entire arm. The fistula has strong thrill and bruit. What complication has developed?",
+    "option_a": "Fistula thrombosis",
+    "option_b": "Central venous stenosis",
+    "option_c": "Steal syndrome",
+    "option_d": "Aneurysm formation",
+    "correct_answer": "B",
+    "explanation": "Arm swelling with patent fistula (intact thrill/bruit) suggests central venous stenosis (subclavian/innominate vein), often from prior central catheter. This impairs venous return from the arm. Diagnosed by venography. Treatment: angioplasty ± stenting. May require access revision if refractory."
+  },
+  {
+    "question": "A 75-year-old man with HFrEF (EF 25%) and CKD stage 4 has potassium 5.9 mEq/L on lisinopril and spironolactone. His cardiologist wants to continue both medications for HF benefit. What can facilitate continuation?",
+    "option_a": "Add thiazide diuretic",
+    "option_b": "Add patiromer or sodium zirconium cyclosilicate",
+    "option_c": "Reduce dietary protein",
+    "option_d": "Add potassium chloride",
+    "correct_answer": "B",
+    "explanation": "Newer potassium binders (patiromer, sodium zirconium cyclosilicate) allow continuation of RAAS inhibitors and MRAs in HF and CKD patients with hyperkalemia. They bind potassium in GI tract, are better tolerated than kayexalate, and can be used chronically to enable optimal GDMT."
+  },
+  {
+    "question": "A 52-year-old man with uncontrolled hypertension is found to have potassium 5.8 mEq/L, sodium 132 mEq/L, bicarbonate 18 mEq/L, and creatinine 2.8 mg/dL. Urinalysis shows no protein. Renal ultrasound shows small kidneys bilaterally. What is the most likely underlying cause?",
+    "option_a": "Type 4 renal tubular acidosis from diabetic nephropathy",
+    "option_b": "Hypertensive nephrosclerosis with type 4 RTA",
+    "option_c": "Chronic glomerulonephritis",
+    "option_d": "Polycystic kidney disease",
+    "correct_answer": "B",
+    "explanation": "Hyperkalemia with non-anion gap metabolic acidosis (type 4 RTA) in CKD is due to hyporeninemic hypoaldosteronism, common in diabetic nephropathy and hypertensive nephrosclerosis. Small kidneys indicate chronic disease. Treatment: dietary K+ restriction, diuretics, fludrocortisone if needed."
+  },
+  {
+    "question": "A 60-year-old man with type 2 diabetes has annual screening showing eGFR 58 mL/min (previously 62) and UACR 45 mg/g (previously 28). What stage of diabetic kidney disease does this represent?",
+    "option_a": "Stage 1 (hyperfiltration)",
+    "option_b": "Stage 2 (silent/microalbuminuria)",
+    "option_c": "Stage 3 (overt nephropathy)",
+    "option_d": "Stage 5 (ESRD)",
+    "correct_answer": "B",
+    "explanation": "Moderately increased albuminuria (UACR 30-300 mg/g, formerly 'microalbuminuria') with mildly reduced GFR represents early diabetic nephropathy. This is the stage where aggressive intervention (ACEi/ARB, SGLT2i, glycemic control, BP control) can prevent progression to overt nephropathy."
+  },
+  {
+    "question": "A 48-year-old woman with well-controlled hypertension develops acute pulmonary edema and BP 210/120 mmHg 3 days after starting ibuprofen for back pain. Creatinine rose from 1.0 to 2.2 mg/dL. What is the mechanism?",
+    "option_a": "NSAID-induced interstitial nephritis",
+    "option_b": "NSAID-induced impaired renal prostaglandins and sodium/water retention",
+    "option_c": "Direct cardiotoxicity of NSAIDs",
+    "option_d": "Allergic reaction to ibuprofen",
+    "correct_answer": "B",
+    "explanation": "NSAIDs inhibit prostaglandin synthesis, which normally maintains renal blood flow and promotes natriuresis. In susceptible patients (HF, CKD, hypertension), this causes sodium retention, volume overload, hypertension exacerbation, and AKI. Avoid NSAIDs in these populations."
+  },
+  {
+    "question": "A 65-year-old man with CAD and HFrEF (EF 35%) has resting HR 82 bpm on metoprolol succinate 200 mg daily and diltiazem 180 mg daily for rate control of persistent AF. He develops worsening HF symptoms. What medication change is indicated?",
+    "option_a": "Increase diltiazem dose",
+    "option_b": "Discontinue diltiazem",
+    "option_c": "Add verapamil",
+    "option_d": "Stop metoprolol",
+    "correct_answer": "B",
+    "explanation": "Non-DHP CCBs (diltiazem, verapamil) are contraindicated in HFrEF due to negative inotropic effects. This patient's worsening HF is likely from diltiazem. Discontinue it. For additional rate control in HFrEF, use digoxin. Maintain beta-blocker for HF mortality benefit."
+  },
+  {
+    "question": "A 55-year-old woman with acute anterior STEMI is treated with primary PCI. Coronary angiography shows thrombus in the mid-LAD with TIMI 0 flow. After thrombectomy and stenting, TIMI 3 flow is achieved, but there is no ST-segment resolution and troponin continues to rise. What phenomenon has occurred?",
+    "option_a": "Stent thrombosis",
+    "option_b": "Coronary dissection",
+    "option_c": "No-reflow phenomenon",
+    "option_d": "Residual stenosis",
+    "correct_answer": "C",
+    "explanation": "No-reflow is microvascular obstruction despite restored epicardial flow (TIMI 3). Caused by distal embolization of plaque/thrombus debris, microvascular spasm, and reperfusion injury. Associated with larger infarcts and worse outcomes. Treatment: intracoronary vasodilators (adenosine, verapamil, nitroprusside)."
+  },
+  {
+    "question": "A 70-year-old man with diabetes, CKD stage 3, and hypertension has BP 150/88 mmHg on lisinopril 40 mg, amlodipine 10 mg, and chlorthalidone 25 mg. What medication has the strongest evidence for reducing cardiovascular events in this patient?",
+    "option_a": "Replacing chlorthalidone with furosemide",
+    "option_b": "Adding hydralazine",
+    "option_c": "Maximizing ACE inhibitor (already at max dose)",
+    "option_d": "Adding a fourth agent such as spironolactone or beta-blocker",
+    "correct_answer": "D",
+    "explanation": "Resistant hypertension (uncontrolled on 3 drugs including diuretic) benefits from adding spironolactone (PATHWAY-2 trial) or a beta-blocker. For diabetics with CKD, cardiovascular protection is paramount. SGLT2 inhibitor could also be considered for additional cardio-renal protection."
+  }
+]
