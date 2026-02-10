@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 26-year-old G1P0 at 8 weeks gestation presents with vaginal bleeding and cramping. On physical exam, the cervical os is closed. Ultrasound shows an intrauterine pregnancy with a detectable fetal heartbeat. What is the most likely diagnosis?",
+    "option_a": "Inevitable abortion",
+    "option_b": "Threatened abortion",
+    "option_c": "Missed abortion",
+    "option_d": "Incomplete abortion",
+    "correct_answer": "B",
+    "explanation": "Threatened abortion is characterized by vaginal bleeding before 20 weeks with a closed cervix and evidence of fetal cardiac activity."
+  },
+  {
+    "question": "Which of the following physiological changes is considered normal during a healthy pregnancy?",
+    "option_a": "Decrease in blood volume",
+    "option_b": "Increase in systemic vascular resistance",
+    "option_c": "Increase in cardiac output by 30-50%",
+    "option_d": "Decrease in glomerular filtration rate (GFR)",
+    "correct_answer": "C",
+    "explanation": "Cardiac output increases significantly starting early in the first trimester due to an increase in both stroke volume and heart rate."
+  },
+  {
+    "question": "A 32-year-old female at 30 weeks gestation presents with a BP of 155/95 mmHg on two occasions and 2+ proteinuria. She has no headache or visual changes. What is the most appropriate diagnosis?",
+    "option_a": "Gestational hypertension",
+    "option_b": "Preeclampsia without severe features",
+    "option_c": "Preeclampsia with severe features",
+    "option_d": "Chronic hypertension",
+    "correct_answer": "B",
+    "explanation": "Preeclampsia is defined by HTN (≥140/90) and proteinuria after 20 weeks. Since there are no severe features (BP <160/110, no end-organ damage), it is classified as 'without severe features'."
+  },
+  {
+    "question": "What is the primary mechanism of action of the combined oral contraceptive (COC) pill?",
+    "option_a": "Creating a hostile environment for sperm in the uterus",
+    "option_b": "Suppression of ovulation via inhibition of LH and FSH",
+    "option_c": "Inhibiting the implantation of a fertilized egg",
+    "option_d": "Causing a chemical abortion",
+    "correct_answer": "B",
+    "explanation": "COCs work primarily by providing negative feedback to the pituitary, preventing the LH surge required for ovulation."
+  },
+  {
+    "question": "A 24-year-old female presents with irregular menses, hirsutism, and an elevated BMI. Laboratory tests show a high LH:FSH ratio. What is the most likely diagnosis?",
+    "option_a": "Endometriosis",
+    "option_b": "Polycystic Ovary Syndrome (PCOS)",
+    "option_c": "Hypothyroidism",
+    "option_d": "Cushing's Syndrome",
+    "correct_answer": "B",
+    "explanation": "PCOS is characterized by hyperandrogenism, ovulatory dysfunction, and/or polycystic ovaries on ultrasound (Rotterdam criteria)."
+  },
+  {
+    "question": "Which of the following is an absolute contraindication to the use of combined oral contraceptives?",
+    "option_a": "Age 30 and non-smoker",
+    "option_b": "Controlled diabetes mellitus",
+    "option_c": "History of deep vein thrombosis (DVT) or pulmonary embolism",
+    "option_d": "Family history of breast cancer",
+    "correct_answer": "C",
+    "explanation": "Estrogen increases the production of clotting factors, significantly raising the risk of recurrence in patients with a history of thromboembolism."
+  },
+  {
+    "question": "At what gestational age is screening for Gestational Diabetes Mellitus (GDM) typically performed in a low-risk patient?",
+    "option_a": "10-12 weeks",
+    "option_b": "16-18 weeks",
+    "option_c": "24-28 weeks",
+    "option_d": "32-34 weeks",
+    "correct_answer": "C",
+    "explanation": "Screening is performed at 24-28 weeks because placental lactogen (the primary anti-insulin hormone) peaks during this time."
+  },
+  {
+    "question": "A patient in active labor at 6 cm dilation shows 'early decelerations' on the fetal heart rate monitor. This finding is usually associated with:",
+    "option_a": "Uteroplacental insufficiency",
+    "option_b": "Umbilical cord compression",
+    "option_c": "Fetal head compression",
+    "option_d": "Fetal anemia",
+    "correct_answer": "C",
+    "explanation": "Early decelerations are synchronous with contractions and are considered a benign physiological response to head compression during labor."
+  },
+  {
+    "question": "A 19-year-old presents with sudden onset severe lower abdominal pain and a positive pregnancy test. Her last menstrual period was 6 weeks ago. What is the most critical condition to rule out?",
+    "option_a": "Appendicitis",
+    "option_b": "Ruptured ectopic pregnancy",
+    "option_c": "Ovarian torsion",
+    "option_d": "Pelvic Inflammatory Disease (PID)",
+    "correct_answer": "B",
+    "explanation": "Ectopic pregnancy is a leading cause of maternal mortality in the first trimester; rupture can cause life-threatening intraperitoneal hemorrhage."
+  },
+  {
+    "question": "Which of the following is the 'gold standard' for the diagnosis of endometriosis?",
+    "option_a": "Pelvic ultrasound",
+    "option_b": "MRI of the pelvis",
+    "option_c": "Laparoscopy with direct visualization and biopsy",
+    "option_d": "Serum CA-125 level",
+    "correct_answer": "C",
+    "explanation": "Laparoscopy allows the surgeon to see the classic 'powder burn' lesions and confirm the diagnosis histologically."
+  },
+  {
+    "question": "In the management of Preeclampsia with severe features, what is the medication of choice for seizure prophylaxis?",
+    "option_a": "Diazepam",
+    "option_b": "Phenytoin",
+    "option_c": "Magnesium Sulfate",
+    "option_d": "Labetalol",
+    "correct_answer": "C",
+    "explanation": "Magnesium sulfate is superior to traditional anticonvulsants for preventing and treating eclamptic seizures."
+  },
+  {
+    "question": "A 50-year-old woman complains of hot flashes and irregular periods. Her FSH level is found to be 45 IU/L. What is the most likely diagnosis?",
+    "option_a": "Polycystic Ovary Syndrome",
+    "option_b": "Menopause",
+    "option_c": "Pituitary adenoma",
+    "option_d": "Pregnancy",
+    "correct_answer": "B",
+    "explanation": "FSH > 40 IU/L in a woman of appropriate age with characteristic symptoms is diagnostic of menopause."
+  },
+  {
+    "question": "Which of the following describes the 'Bishop Score'?",
+    "option_a": "A measurement of fetal well-being",
+    "option_b": "A system to assess the readiness of the cervix for labor induction",
+    "option_c": "A score for assessing the newborn immediately after birth",
+    "option_d": "A way to measure the size of the uterus",
+    "correct_answer": "B",
+    "explanation": "The Bishop score evaluates cervical dilation, effacement, consistency, position, and fetal station."
+  },
+  {
+    "question": "A G2P1 at 39 weeks gestation presents in labor. She has a history of one previous low-transverse Cesarean section. She wishes for a 'Trial of Labor after Cesarean' (TOLAC). What is the primary risk?",
+    "option_a": "Uterine atony",
+    "option_b": "Uterine rupture",
+    "option_c": "Placenta previa",
+    "option_d": "Shoulder dystocia",
+    "correct_answer": "B",
+    "explanation": "The risk of uterine rupture through the previous scar is approximately 0.5-0.9% for a low-transverse incision."
+  },
+  {
+    "question": "Which of the following vaccines is ABSOLUTELY contraindicated during pregnancy?",
+    "option_a": "Influenza (inactivated)",
+    "option_b": "Tdap",
+    "option_c": "MMR (Measles, Mumps, Rubella)",
+    "option_d": "Hepatitis B",
+    "correct_answer": "C",
+    "explanation": "MMR is a live-attenuated vaccine and carries a theoretical risk of infecting the fetus; it should be given postpartum if needed."
+  },
+  {
+    "question": "A patient presents with a 'fishy' vaginal odor and 'clue cells' on a saline wet mount. What is the most likely diagnosis?",
+    "option_a": "Trichomoniasis",
+    "option_b": "Vulvovaginal candidiasis",
+    "option_c": "Bacterial Vaginosis",
+    "option_d": "Chlamydia",
+    "correct_answer": "C",
+    "explanation": "Bacterial vaginosis is caused by an overgrowth of Gardnerella and other anaerobes; clue cells are the hallmark of the condition."
+  },
+  {
+    "question": "What is the recommended daily intake of Folic Acid for a low-risk woman planning to conceive to prevent neural tube defects?",
+    "option_a": "40 mcg",
+    "option_b": "400 mcg (0.4 mg)",
+    "option_c": "4 mg",
+    "option_d": "10 mg",
+    "correct_answer": "B",
+    "explanation": "Standard supplementation of 0.4 mg/day reduces the risk of NTDs significantly. High-risk women (e.g., prior affected child) require 4 mg."
+  },
+  {
+    "question": "Which of the following maneuvers is the first step in managing a 'Shoulder Dystocia'?",
+    "option_a": "Zavanelli maneuver",
+    "option_b": "McRoberts maneuver (flexion of maternal thighs)",
+    "option_c": "Fundal pressure",
+    "option_d": "Emergency C-section",
+    "correct_answer": "B",
+    "explanation": "The McRoberts maneuver flattens the sacrum and rotates the symphysis pubis superiorly, often relieving the shoulder impaction."
+  },
+  {
+    "question": "In a postmenopausal woman, 'postmenopausal bleeding' is considered what until proven otherwise?",
+    "option_a": "Vaginal atrophy",
+    "option_b": "Endometrial cancer",
+    "option_c": "Cervical polyps",
+    "option_d": "Hormonal imbalance",
+    "correct_answer": "B",
+    "explanation": "Although atrophy is common, malignancy must be ruled out via endometrial biopsy or transvaginal ultrasound."
+  },
+  {
+    "question": "Which hormone is primarily responsible for the maintainance of the corpus luteum in the first 8-10 weeks of pregnancy?",
+    "option_a": "Progesterone",
+    "option_b": "Estrogen",
+    "option_c": "Human Chorionic Gonadotropin (hCG)",
+    "option_d": "Prolactin",
+    "correct_answer": "C",
+    "explanation": "hCG, produced by the trophoblast, mimics LH to sustain the corpus luteum's progesterone production until the placenta takes over."
+  },
+  {
+    "question": "A patient presents with 'painless' vaginal bleeding at 32 weeks gestation. What is the most appropriate initial diagnostic step?",
+    "option_a": "Digital cervical examination",
+    "option_b": "Transabdominal or Transvaginal Ultrasound",
+    "option_c": "Immediate delivery",
+    "option_d": "D&C",
+    "correct_answer": "B",
+    "explanation": "Painless bleeding is highly suggestive of Placenta Previa. A digital exam is strictly contraindicated until previa is ruled out, as it can trigger massive hemorrhage."
+  },
+  {
+    "question": "What does a 'Reactive' Non-Stress Test (NST) indicate?",
+    "option_a": "Fetal hypoxia",
+    "option_b": "Fetal well-being (at least 2 accelerations in 20 minutes)",
+    "option_c": "The mother is in labor",
+    "option_d": "Fetal anemia",
+    "correct_answer": "B",
+    "explanation": "A reactive NST shows that the fetal autonomic nervous system is intact and that the fetus is well-oxygenated."
+  },
+  {
+    "question": "Which of the following is true regarding 'Amniocentesis'?",
+    "option_a": "It is typically performed at 10-12 weeks",
+    "option_b": "It is a non-invasive screening test",
+    "option_c": "It provides a definitive fetal karyotype by sampling amniotic fluid",
+    "option_d": "It has no risk of pregnancy loss",
+    "correct_answer": "C",
+    "explanation": "Amniocentesis is a diagnostic test, usually performed after 15 weeks, with a roughly 0.1-0.3% risk of procedure-related loss."
+  },
+  {
+    "question": "What is the primary risk to the fetus in 'Post-term' pregnancy (≥ 42 weeks)?",
+    "option_a": "Respiratory distress syndrome",
+    "option_b": "Macrosomia and Meconium aspiration syndrome",
+    "option_c": "Neural tube defects",
+    "option_d": "Gastroschisis",
+    "correct_answer": "B",
+    "explanation": "Aging placentas may have reduced perfusion, leading to oligohydramnios, meconium passage, and fetal distress."
+  },
+  {
+    "question": "Which of the following describes 'Secondary Amenorrhea'?",
+    "option_a": "No period by age 13 with no secondary sex characteristics",
+    "option_b": "No period by age 15 with secondary sex characteristics",
+    "option_c": "Absence of menses for 3-6 months in a woman who previously had regular cycles",
+    "option_d": "Very painful periods",
+    "correct_answer": "C",
+    "explanation": "The most common cause of secondary amenorrhea is pregnancy."
+  },
+  {
+    "question": "Which of the following is the most common cause of postpartum hemorrhage?",
+    "option_a": "Genital tract lacerations",
+    "option_b": "Uterine atony",
+    "option_c": "Retained placenta",
+    "option_d": "Coagulopathy",
+    "correct_answer": "B",
+    "explanation": "Uterine atony (failure of the uterus to contract after delivery) accounts for 70-80% of PPH cases."
+  },
+  {
+    "question": "A patient with PCOS is trying to conceive. What is the first-line medication used to induce ovulation?",
+    "option_a": "Metformin",
+    "option_b": "Clomiphene Citrate (or Letrozole)",
+    "option_c": "Ethinyl Estradiol",
+    "option_d": "Spironolactone",
+    "correct_answer": "B",
+    "explanation": "Letrozole (an aromatase inhibitor) or Clomiphene (a SERM) are the preferred agents to stimulate follicular development in anovulatory PCOS patients."
+  },
+  {
+    "question": "A 'strawberry cervix' seen on physical exam is characteristic of which infection?",
+    "option_a": "Candida albicans",
+    "option_b": "Trichomonas vaginalis",
+    "option_c": "Neisseria gonorrhoeae",
+    "option_d": "HPV",
+    "correct_answer": "B",
+    "explanation": "Trichomoniasis often causes punctate hemorrhages on the cervix, giving it a 'strawberry' appearance."
+  },
+  {
+    "question": "What is the recommended age to begin 'Pap smear' screening for cervical cancer in a low-risk woman according to most guidelines?",
+    "option_a": "13 years old",
+    "option_b": "At the start of sexual activity",
+    "option_c": "21 years old",
+    "option_d": "35 years old",
+    "correct_answer": "C",
+    "explanation": "Screening begins at 21 regardless of the age of sexual debut to avoid over-treatment of transient HPV infections in very young women."
+  },
+  {
+    "question": "Which of the following is true for 'Lochia Rubra'?",
+    "option_a": "It is a sign of postpartum infection",
+    "option_b": "It is the normal red postpartum discharge lasting for the first 3-4 days",
+    "option_c": "It only occurs after a C-section",
+    "option_d": "It requires antibiotic treatment",
+    "correct_answer": "B",
+    "explanation": "Lochia rubra consists mainly of blood and decidual tissue; it transitions to serosa and then alba over several weeks."
+  },
+  {
+    "question": "A patient presents with painful vaginal bleeding, a firm/tender uterus, and fetal distress. Diagnosis?",
+    "option_a": "Placenta previa",
+    "option_b": "Placental abruption",
+    "option_c": "Vasa previa",
+    "option_d": "Uterine fibroids",
+    "correct_answer": "B",
+    "explanation": "Placental abruption is the premature separation of the placenta and is a clinical emergency characterized by painful bleeding and 'board-like' rigidity of the uterus."
+  },
+  {
+    "question": "What is the definition of 'First Stage' of labor?",
+    "option_a": "From onset of regular contractions to full cervical dilation (10 cm)",
+    "option_b": "From full dilation to delivery of the baby",
+    "option_c": "From delivery of the baby to delivery of the placenta",
+    "option_d": "The first 24 hours postpartum",
+    "correct_answer": "A",
+    "explanation": "The first stage is further divided into latent and active phases."
+  },
+  {
+    "question": "Which of the following contraceptive methods has the 'highest' typical-use failure rate?",
+    "option_a": "Mirena IUD",
+    "option_b": "Nexplanon implant",
+    "option_c": "Male condom",
+    "option_d": "Combined oral contraceptive pill",
+    "correct_answer": "C",
+    "explanation": "LARC methods (IUDs, implants) have failure rates <1% because they do not depend on patient compliance, whereas condoms have a typical failure rate of ~13%."
+  },
+  {
+    "question": "A patient at 30 weeks gestation has 'preterm premature rupture of membranes' (PPROM). What is the primary purpose of administering Betamethasone?",
+    "option_a": "To stop contractions",
+    "option_b": "To treat infection",
+    "option_c": "To accelerate fetal lung maturity and reduce the risk of RDS",
+    "option_d": "To increase maternal blood pressure",
+    "correct_answer": "C",
+    "explanation": "Corticosteroids reduce the incidence of respiratory distress syndrome, intraventricular hemorrhage, and necrotizing enterocolitis in preterm infants."
+  },
+  {
+    "question": "What is the significance of 'variable decelerations' on a fetal monitor?",
+    "option_a": "Fetal head compression",
+    "option_b": "Umbilical cord compression",
+    "option_c": "Maternal fever",
+    "option_d": "Fetal sleep cycle",
+    "correct_answer": "B",
+    "explanation": "Variables are abrupt drops in FHR and are often managed by maternal position changes to relieve cord pressure."
+  },
+  {
+    "question": "A patient is found to have 'Cervical Intraepithelial Neoplasia Grade 3' (CIN 3) on biopsy. What is the most appropriate management?",
+    "option_a": "Repeat Pap smear in 1 year",
+    "option_b": "Hysterectomy",
+    "option_c": "Treatment with LEEP or cold knife cone biopsy",
+    "option_d": "Antibiotics",
+    "correct_answer": "C",
+    "explanation": "CIN 3 is a high-grade precancerous lesion that requires excisional treatment to prevent progression to invasive cancer."
+  },
+  {
+    "question": "Which of the following is true for 'Mastitis' in a breastfeeding mother?",
+    "option_a": "Breastfeeding should be stopped on the affected side",
+    "option_b": "Breastfeeding should continue on both sides to ensure adequate drainage",
+    "option_c": "It is always caused by a virus",
+    "option_d": "Steroids are the first-line treatment",
+    "correct_answer": "B",
+    "explanation": "Regular milk removal is critical to resolving mastitis; antibiotics (usually covering S. aureus) are also typically prescribed."
+  },
+  {
+    "question": "What is the definitive treatment for 'Eclampsia'?",
+    "option_a": "Life-long magnesium sulfate",
+    "option_b": "Delivery of the fetus and placenta",
+    "option_c": "Strict bed rest for 9 months",
+    "option_d": "Insulin therapy",
+    "correct_answer": "B",
+    "explanation": "Preeclampsia/Eclampsia is a disease of the placenta; delivery is the only curative intervention."
+  },
+  {
+    "question": "A 28-year-old female complains of heavy menstrual bleeding and pelvic 'heaviness'. Physical exam shows an 'irregularly enlarged' uterus. Diagnosis?",
+    "option_a": "Adenomyosis",
+    "option_b": "Uterine Leiomyoma (Fibroids)",
+    "option_c": "Endometrial hyperplasia",
+    "option_d": "Endometritis",
+    "correct_answer": "B",
+    "explanation": "Leiomyomas are benign smooth muscle tumors that cause uterine enlargement and heavy menses."
+  },
+  {
+    "question": "Which of the following is an 'indicator' of true labor compared to 'Braxton-Hicks' contractions?",
+    "option_a": "Contractions that stay the same in intensity",
+    "option_b": "Progressive cervical dilation and effacement",
+    "option_c": "Contractions that stop with walking",
+    "option_d": "Pain only in the upper abdomen",
+    "correct_answer": "B",
+    "explanation": "True labor is defined by regular contractions that result in cervical change."
+  },
+  {
+    "question": "Which of the following is a symptom of 'HELLP Syndrome'?",
+    "option_a": "High hemoglobin, Elevated lipids, Low potassium",
+    "option_b": "Hemolysis, Elevated Liver enzymes, Low Platelets",
+    "option_c": "Hypoglycemia, Edema, Low Lipids, Pain",
+    "option_d": "Heart failure, Edema, Low pressure",
+    "correct_answer": "B",
+    "explanation": "HELLP is a severe variant of preeclampsia involving systemic microvascular damage."
+  },
+  {
+    "question": "What is the recommended screening tool for 'Breast Cancer' in women over age 50 (or 40 depending on guidelines)?",
+    "option_a": "Breast ultrasound only",
+    "option_b": "Mammography",
+    "option_c": "CA-15-3 blood test",
+    "option_d": "MRI of the breast for everyone",
+    "correct_answer": "B",
+    "explanation": "Mammography is the only screening modality proven to reduce breast cancer mortality in the general population."
+  },
+  {
+    "question": "A patient has a 'positive' Nitrazine test of vaginal fluid. What does this suggest?",
+    "option_a": "Yeast infection",
+    "option_b": "Rupture of membranes (amniotic fluid is alkaline)",
+    "option_c": "Pregnancy",
+    "option_d": "UTI",
+    "correct_answer": "B",
+    "explanation": "Amniotic fluid has a pH of 7.0-7.5, which turns the yellow nitrazine paper blue."
+  },
+  {
+    "question": "Which of the following describes 'Adenomyosis'?",
+    "option_a": "Endometrial tissue outside the uterus",
+    "option_b": "Invasion of endometrial glands and stroma into the myometrium",
+    "option_c": "A benign cyst on the ovary",
+    "option_d": "Thinning of the vaginal wall after menopause",
+    "correct_answer": "B",
+    "explanation": "Adenomyosis typically presents with a symmetrically enlarged 'boggy' uterus and painful, heavy periods."
+  },
+  {
+    "question": "What is 'Cervical Effacement'?",
+    "option_a": "The opening of the cervix",
+    "option_b": "The thinning and shortening of the cervix during labor",
+    "option_c": "A type of cervical cancer",
+    "option_d": "The position of the baby",
+    "correct_answer": "B",
+    "explanation": "Effacement is measured in percentage (0-100%)."
+  },
+  {
+    "question": "Which of the following fetal heart rate patterns is the 'most ominous' and requires immediate action?",
+    "option_a": "Early decelerations",
+    "option_b": "Late decelerations (repetitive)",
+    "option_c": "Accelerations",
+    "option_d": "Short sleep cycles",
+    "correct_answer": "B",
+    "explanation": "Late decelerations indicate uteroplacental insufficiency and potential fetal hypoxia."
+  },
+  {
+    "question": "A G1P0 at 10 weeks gestation presents with vaginal bleeding and passage of tissue. On exam, the cervical os is open. Diagnosis?",
+    "option_a": "Incomplete abortion",
+    "option_b": "Threatened abortion",
+    "option_c": "Septic abortion",
+    "option_d": "Ectopic pregnancy",
+    "correct_answer": "A",
+    "explanation": "An open cervix with partial passage of products of conception (POC) defines an incomplete abortion."
+  },
+  {
+    "question": "What is the primary reason for administering 'Rho(D) immune globulin' (RhoGAM) to an Rh-negative mother?",
+    "option_a": "To treat an existing Rh infection",
+    "option_b": "To prevent maternal sensitization to Rh-positive fetal red blood cells",
+    "option_c": "To increase the baby's blood count",
+    "option_d": "To treat jaundice",
+    "correct_answer": "B",
+    "explanation": "RhoGAM prevents the mother from developing antibodies that could cause hemolytic disease of the newborn in future pregnancies."
+  },
+  {
+    "question": "A 16-year-old female presents with 'primary amenorrhea' and a blind-ending vagina. Genetic testing reveals a 46,XY karyotype. Diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Androgen Insensitivity Syndrome (AIS)",
+    "option_c": "Müllerian Agenesis",
+    "option_d": "Kallmann Syndrome",
+    "correct_answer": "B",
+    "explanation": "In AIS, the patient is genetically male but has complete resistance to androgens, leading to a female external phenotype."
+  },
+  {
+    "question": "What is the first-line treatment for 'Primary Dysmenorrhea' (painful periods with no underlying pathology)?",
+    "option_a": "Surgery",
+    "option_b": "NSAIDs (e.g., Ibuprofen) and/or combined oral contraceptives",
+    "option_c": "Antibiotics",
+    "option_d": "Opioids",
+    "correct_answer": "B",
+    "explanation": "NSAIDs inhibit prostaglandin synthesis, which is the primary cause of uterine contractions and pain during menses."
+  }
+]
