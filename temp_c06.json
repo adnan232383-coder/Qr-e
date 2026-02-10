@@ -1,0 +1,908 @@
+[
+  {
+    "course_name": "Endodontics",
+    "course_code": "UG_DENT_Y5_S2_C06",
+    "questions": [
+      {
+        "question": "A lingering response to cold for >30 seconds is most consistent with:",
+        "option_a": "Reversible pulpitis",
+        "option_b": "Symptomatic irreversible pulpitis",
+        "option_c": "Pulp necrosis",
+        "option_d": "Cracked tooth always",
+        "correct_answer": "B",
+        "explanation": "Prolonged lingering thermal pain suggests irreversible pulpitis."
+      },
+      {
+        "question": "A tooth that is nonresponsive to cold and EPT but tender to percussion is most suggestive of:",
+        "option_a": "Normal pulp",
+        "option_b": "Pulp necrosis with apical periodontitis",
+        "option_c": "Reversible pulpitis",
+        "option_d": "Only gingivitis",
+        "correct_answer": "B",
+        "explanation": "Nonvital pulp with periapical inflammation often presents with percussion tenderness."
+      },
+      {
+        "question": "The most reliable test to localize a sinus tract origin is:",
+        "option_a": "Percussion only",
+        "option_b": "Tracing with a gutta-percha cone and radiograph",
+        "option_c": "EPT only",
+        "option_d": "Color of gingiva",
+        "correct_answer": "B",
+        "explanation": "Tracing the tract with GP cone to radiographic origin localizes the source."
+      },
+      {
+        "question": "A second mesiobuccal canal (MB2) is most commonly searched for in:",
+        "option_a": "Mandibular first molars",
+        "option_b": "Maxillary first molars",
+        "option_c": "Mandibular incisors",
+        "option_d": "Maxillary canines",
+        "correct_answer": "B",
+        "explanation": "MB2 is classically associated with maxillary first molars."
+      },
+      {
+        "question": "A C-shaped canal configuration is most commonly associated with:",
+        "option_a": "Maxillary central incisor",
+        "option_b": "Mandibular second molar",
+        "option_c": "Mandibular canine",
+        "option_d": "Maxillary first premolar",
+        "correct_answer": "B",
+        "explanation": "C-shaped canals are most common in mandibular second molars."
+      },
+      {
+        "question": "The apical constriction is generally located:",
+        "option_a": "At the radiographic apex",
+        "option_b": "0.5–1.0 mm short of the apical foramen (average)",
+        "option_c": "At the CEJ",
+        "option_d": "At the furcation",
+        "correct_answer": "B",
+        "explanation": "The constriction is typically coronal to the apical foramen and often short of the radiographic apex."
+      },
+      {
+        "question": "Torsional failure of a NiTi rotary instrument occurs when:",
+        "option_a": "The file rotates freely with no resistance",
+        "option_b": "The tip binds while the shank continues to rotate",
+        "option_c": "The file undergoes repeated flexing in a curve",
+        "option_d": "The irrigant is too warm",
+        "correct_answer": "B",
+        "explanation": "Torsional failure happens when the file tip locks but rotation continues."
+      },
+      {
+        "question": "Creating a glide path before rotary shaping primarily reduces risk of:",
+        "option_a": "Obturation overfill",
+        "option_b": "Torsional stress and instrument separation",
+        "option_c": "Coronal leakage",
+        "option_d": "Tooth discoloration",
+        "correct_answer": "B",
+        "explanation": "A glide path reduces binding and torsional stress on rotary instruments."
+      },
+      {
+        "question": "A 'balanced force' technique is classically used with:",
+        "option_a": "Gates-Glidden drills",
+        "option_b": "Stainless-steel hand files in curved canals",
+        "option_c": "Only rotary NiTi",
+        "option_d": "Ultrasonic tips",
+        "correct_answer": "B",
+        "explanation": "Balanced force is a hand file technique helpful in curved canals."
+      },
+      {
+        "question": "Mixing sodium hypochlorite (NaOCl) and chlorhexidine (CHX) directly can produce:",
+        "option_a": "Oxygen bubbles only",
+        "option_b": "A precipitate (parachloroaniline) and should be avoided",
+        "option_c": "EDTA",
+        "option_d": "Saline",
+        "correct_answer": "B",
+        "explanation": "NaOCl + CHX can form an undesirable precipitate; avoid direct mixing."
+      },
+      {
+        "question": "The primary benefit of warmed NaOCl is:",
+        "option_a": "Reduced tissue dissolution",
+        "option_b": "Increased tissue dissolution and antimicrobial activity",
+        "option_c": "Complete smear layer removal",
+        "option_d": "No toxicity",
+        "correct_answer": "B",
+        "explanation": "Heating NaOCl can improve tissue dissolution and antimicrobial action."
+      },
+      {
+        "question": "Negative-pressure irrigation systems mainly aim to:",
+        "option_a": "Increase apical extrusion",
+        "option_b": "Improve apical irrigant exchange while reducing extrusion risk",
+        "option_c": "Eliminate need for NaOCl",
+        "option_d": "Increase canal curvature",
+        "correct_answer": "B",
+        "explanation": "Negative pressure draws irrigant apically and aspirates coronally, reducing extrusion risk."
+      },
+      {
+        "question": "The main advantage of warm vertical compaction is:",
+        "option_a": "Lower adaptation",
+        "option_b": "Better adaptation to canal irregularities/isthmuses",
+        "option_c": "No need for sealer",
+        "option_d": "Always prevents extrusion",
+        "correct_answer": "B",
+        "explanation": "Warm techniques improve GP flow and adaptation to irregular anatomy."
+      },
+      {
+        "question": "A master cone that 'tugs back' at working length indicates:",
+        "option_a": "Incorrect fit always",
+        "option_b": "Adequate apical fit for many cone techniques",
+        "option_c": "Open apex always",
+        "option_d": "Need for larger taper always",
+        "correct_answer": "B",
+        "explanation": "Tug-back suggests a snug apical fit, often desired for cone selection."
+      },
+      {
+        "question": "Bioceramic sealers are valued because they:",
+        "option_a": "Shrink significantly",
+        "option_b": "Are dimensionally stable and can be bioactive/alkaline",
+        "option_c": "Cannot set in moisture",
+        "option_d": "Have no radiopacity",
+        "correct_answer": "B",
+        "explanation": "Many bioceramic sealers set in moisture, are stable, and may be bioactive."
+      },
+      {
+        "question": "A strip perforation is most likely in the:",
+        "option_a": "Outer wall of curved roots",
+        "option_b": "Inner (furcal) wall of curved roots—danger zone",
+        "option_c": "Incisal edge",
+        "option_d": "Enamel only",
+        "correct_answer": "B",
+        "explanation": "Danger zone is the thin inner wall toward furcation in curved roots."
+      },
+      {
+        "question": "A key step after suspecting a perforation is to:",
+        "option_a": "Continue shaping aggressively",
+        "option_b": "Control bleeding, confirm location (radiograph/microscope), and repair with bioceramic material",
+        "option_c": "Place CHX and obturate immediately",
+        "option_d": "Ignore and place post",
+        "correct_answer": "B",
+        "explanation": "Perforations require diagnosis and prompt sealing/repair to improve prognosis."
+      },
+      {
+        "question": "A 'zip' or apical transportation is most associated with:",
+        "option_a": "Using flexible NiTi with glide path",
+        "option_b": "Using stiff files in curved canals and forcing to length",
+        "option_c": "Short working length",
+        "option_d": "Warm obturation",
+        "correct_answer": "B",
+        "explanation": "Stiff files tend to straighten canals, causing transportation and zipping."
+      },
+      {
+        "question": "A root-end filling material commonly used in apical surgery due to biocompatibility is:",
+        "option_a": "Zinc phosphate",
+        "option_b": "MTA or bioceramic root-end material",
+        "option_c": "Alginate",
+        "option_d": "ZOE impression paste",
+        "correct_answer": "B",
+        "explanation": "MTA/bioceramics provide good seal and tissue compatibility for root-end fillings."
+      },
+      {
+        "question": "The term 'apicoectomy' refers to:",
+        "option_a": "Removal of coronal pulp only",
+        "option_b": "Surgical resection of the root apex",
+        "option_c": "Orthodontic extrusion",
+        "option_d": "Crown lengthening",
+        "correct_answer": "B",
+        "explanation": "Apicoectomy is resection of the root tip, often with retrograde sealing."
+      },
+      {
+        "question": "A key factor in surgical success is:",
+        "option_a": "No hemostasis required",
+        "option_b": "Adequate root-end resection, retro-prep and seal, and case selection",
+        "option_c": "Skipping magnification",
+        "option_d": "Overfilling canals",
+        "correct_answer": "B",
+        "explanation": "Surgical outcome depends on proper technique and sealing of apical anatomy."
+      },
+      {
+        "question": "The primary objective of post-endodontic restoration is to:",
+        "option_a": "Increase canal size",
+        "option_b": "Prevent coronal microleakage and restore structural integrity",
+        "option_c": "Eliminate need for obturation",
+        "option_d": "Create more lateral canals",
+        "correct_answer": "B",
+        "explanation": "Coronal seal and structural reinforcement are essential for long-term success."
+      },
+      {
+        "question": "A main reason for cusp coverage after RCT in posterior teeth is:",
+        "option_a": "Increase pulp vitality",
+        "option_b": "Reduce risk of fracture of weakened cusps",
+        "option_c": "Increase canal curvature",
+        "option_d": "Reduce smear layer",
+        "correct_answer": "B",
+        "explanation": "Endodontically treated posterior teeth with large loss of structure are fracture-prone."
+      },
+      {
+        "question": "A ferrule effect is best described as:",
+        "option_a": "A metal band around the tooth providing resistance to fracture",
+        "option_b": "A sealer extrusion",
+        "option_c": "A type of irrigant",
+        "option_d": "A crack in root",
+        "correct_answer": "A",
+        "explanation": "Ferrule: 1–2 mm circumferential tooth structure above margin that improves fracture resistance."
+      },
+      {
+        "question": "During instrumentation, the working length suddenly increases by 2 mm and bleeding starts. The MOST likely cause is:",
+        "option_a": "Apical constriction formation",
+        "option_b": "Perforation or apical foramen violation",
+        "option_c": "Perfect patency",
+        "option_d": "Sealer setting",
+        "correct_answer": "B",
+        "explanation": "A sudden WL change with bleeding can indicate perforation or over-instrumentation."
+      },
+      {
+        "question": "Persistent pain after RCT with a normal radiograph and tenderness on biting is MOST consistent with:",
+        "option_a": "Sinusitis",
+        "option_b": "High occlusion or cracked tooth syndrome",
+        "option_c": "Perfect healing",
+        "option_d": "Herpes infection",
+        "correct_answer": "B",
+        "explanation": "Biting pain with normal imaging may suggest occlusal trauma or crack; evaluate occlusion and cracks."
+      },
+      {
+        "question": "A tooth with previous RCT presents with a new apical radiolucency and a poor coronal restoration. The MOST likely cause is:",
+        "option_a": "Improved seal",
+        "option_b": "Coronal leakage leading to reinfection",
+        "option_c": "EDTA use",
+        "option_d": "Overheating NaOCl",
+        "correct_answer": "B",
+        "explanation": "Coronal leakage is a common cause of reinfection and post-treatment disease."
+      },
+      {
+        "question": "When removing gutta-percha during retreatment, a commonly used solvent is:",
+        "option_a": "Ethanol only",
+        "option_b": "Chloroform or eucalyptol (depending on regulations/technique)",
+        "option_c": "EDTA",
+        "option_d": "NaOCl",
+        "correct_answer": "B",
+        "explanation": "Solvents may soften GP to aid removal; use depends on safety and protocol."
+      },
+      {
+        "question": "A main reason to perform apical patency filing is to:",
+        "option_a": "Create more transportation",
+        "option_b": "Maintain canal openness and reduce debris accumulation at apex",
+        "option_c": "Eliminate irrigation",
+        "option_d": "Increase smear layer",
+        "correct_answer": "B",
+        "explanation": "Small file recapitulation helps maintain patency and reduce apical blockage."
+      },
+      {
+        "question": "The MOST appropriate method to determine working length is:",
+        "option_a": "Radiograph only always",
+        "option_b": "Electronic apex locator with confirmatory radiograph when appropriate",
+        "option_c": "Visual estimation only",
+        "option_d": "Floss test",
+        "correct_answer": "B",
+        "explanation": "Apex locators improve WL accuracy; radiographs confirm anatomy and fit."
+      },
+      {
+        "question": "(Endodontics Item 31) In a mandibular molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "increased enamel thickness",
+        "option_b": "complete sterilization",
+        "option_c": "immediate tooth whitening",
+        "option_d": "persistent apical inflammation due to inadequate seal",
+        "correct_answer": "D",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 32) In a mandibular molar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "presence of conductive irrigants and canal conditions",
+        "option_b": "tooth shade",
+        "option_c": "patient age alone",
+        "option_d": "rubber dam color",
+        "correct_answer": "A",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 33) In a maxillary molar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "patient age alone",
+        "option_b": "rubber dam color",
+        "option_c": "presence of conductive irrigants and canal conditions",
+        "option_d": "tooth shade",
+        "correct_answer": "C",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 34) In a mandibular premolar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "increased enamel thickness",
+        "option_b": "complete sterilization",
+        "option_c": "persistent apical inflammation due to inadequate seal",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "C",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 35) In a mandibular incisor case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "tooth shade",
+        "option_b": "patient age alone",
+        "option_c": "presence of conductive irrigants and canal conditions",
+        "option_d": "rubber dam color",
+        "correct_answer": "C",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 36) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "aggressive coronal enlargement on furcal side",
+        "option_b": "using larger files without glide path",
+        "option_c": "skipping irrigation",
+        "option_d": "anti-curvature filing away from the furcal danger zone",
+        "correct_answer": "D",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 37) In a maxillary premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "mix NaOCl with CHX directly",
+        "option_b": "use maximum pressure",
+        "option_c": "wedge the needle to WL",
+        "option_d": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "correct_answer": "D",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 38) In a mandibular premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "anti-curvature filing away from the furcal danger zone",
+        "option_c": "aggressive coronal enlargement on furcal side",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "B",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 39) In a maxillary molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "complete sterilization",
+        "option_b": "immediate tooth whitening",
+        "option_c": "persistent apical inflammation due to inadequate seal",
+        "option_d": "increased enamel thickness",
+        "correct_answer": "C",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 40) In a mandibular molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "using larger files without glide path",
+        "option_d": "skipping irrigation",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 41) In a mandibular premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "aggressive coronal enlargement on furcal side",
+        "option_b": "anti-curvature filing away from the furcal danger zone",
+        "option_c": "skipping irrigation",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "B",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 42) In a maxillary premolar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "presence of conductive irrigants and canal conditions",
+        "option_b": "tooth shade",
+        "option_c": "patient age alone",
+        "option_d": "rubber dam color",
+        "correct_answer": "A",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 43) In a maxillary premolar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "persistent apical inflammation due to inadequate seal",
+        "option_b": "immediate tooth whitening",
+        "option_c": "increased enamel thickness",
+        "option_d": "complete sterilization",
+        "correct_answer": "A",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 44) In a mandibular molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "using larger files without glide path",
+        "option_d": "skipping irrigation",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 45) In a mandibular molar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "mix NaOCl with CHX directly",
+        "option_b": "wedge the needle to WL",
+        "option_c": "use maximum pressure",
+        "option_d": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "correct_answer": "D",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 46) In a mandibular molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "complete sterilization",
+        "option_b": "persistent apical inflammation due to inadequate seal",
+        "option_c": "increased enamel thickness",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "B",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 47) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "skipping irrigation",
+        "option_c": "using larger files without glide path",
+        "option_d": "aggressive coronal enlargement on furcal side",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 48) In a maxillary premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_b": "use maximum pressure",
+        "option_c": "wedge the needle to WL",
+        "option_d": "mix NaOCl with CHX directly",
+        "correct_answer": "A",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 49) In a mandibular molar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "patient age alone",
+        "option_b": "presence of conductive irrigants and canal conditions",
+        "option_c": "rubber dam color",
+        "option_d": "tooth shade",
+        "correct_answer": "B",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 50) In a mandibular molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "persistent apical inflammation due to inadequate seal",
+        "option_b": "immediate tooth whitening",
+        "option_c": "increased enamel thickness",
+        "option_d": "complete sterilization",
+        "correct_answer": "A",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 51) In a mandibular incisor case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "aggressive coronal enlargement on furcal side",
+        "option_b": "using larger files without glide path",
+        "option_c": "skipping irrigation",
+        "option_d": "anti-curvature filing away from the furcal danger zone",
+        "correct_answer": "D",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 52) In a mandibular premolar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "complete sterilization",
+        "option_b": "immediate tooth whitening",
+        "option_c": "increased enamel thickness",
+        "option_d": "persistent apical inflammation due to inadequate seal",
+        "correct_answer": "D",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 53) In a mandibular molar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "pulp vitality improvement",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "tooth eruption",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 54) In a mandibular molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "increased enamel thickness",
+        "option_b": "persistent apical inflammation due to inadequate seal",
+        "option_c": "immediate tooth whitening",
+        "option_d": "complete sterilization",
+        "correct_answer": "B",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 55) In a mandibular premolar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "complete sterilization",
+        "option_b": "persistent apical inflammation due to inadequate seal",
+        "option_c": "immediate tooth whitening",
+        "option_d": "increased enamel thickness",
+        "correct_answer": "B",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 56) In a maxillary premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "aggressive coronal enlargement on furcal side",
+        "option_b": "skipping irrigation",
+        "option_c": "using larger files without glide path",
+        "option_d": "anti-curvature filing away from the furcal danger zone",
+        "correct_answer": "D",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 57) In a maxillary molar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "wedge the needle to WL",
+        "option_b": "mix NaOCl with CHX directly",
+        "option_c": "use maximum pressure",
+        "option_d": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "correct_answer": "D",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 58) In a mandibular premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "anti-curvature filing away from the furcal danger zone",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "C",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 59) In a mandibular incisor case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "persistent apical inflammation due to inadequate seal",
+        "option_b": "increased enamel thickness",
+        "option_c": "complete sterilization",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "A",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 60) In a mandibular premolar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "presence of conductive irrigants and canal conditions",
+        "option_b": "rubber dam color",
+        "option_c": "patient age alone",
+        "option_d": "tooth shade",
+        "correct_answer": "A",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 61) In a mandibular incisor case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "patient age alone",
+        "option_b": "presence of conductive irrigants and canal conditions",
+        "option_c": "rubber dam color",
+        "option_d": "tooth shade",
+        "correct_answer": "B",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 62) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "using larger files without glide path",
+        "option_c": "aggressive coronal enlargement on furcal side",
+        "option_d": "skipping irrigation",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 63) In a mandibular molar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "wedge the needle to WL",
+        "option_b": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_c": "mix NaOCl with CHX directly",
+        "option_d": "use maximum pressure",
+        "correct_answer": "B",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 64) In a maxillary molar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "pulp vitality improvement",
+        "option_d": "sodium hypochlorite extrusion accident",
+        "correct_answer": "D",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 65) In a maxillary premolar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 66) In a mandibular premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_b": "use maximum pressure",
+        "option_c": "mix NaOCl with CHX directly",
+        "option_d": "wedge the needle to WL",
+        "correct_answer": "A",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 67) In a mandibular incisor case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "tooth shade",
+        "option_b": "patient age alone",
+        "option_c": "rubber dam color",
+        "option_d": "presence of conductive irrigants and canal conditions",
+        "correct_answer": "D",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 68) In a mandibular molar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "wedge the needle to WL",
+        "option_b": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_c": "mix NaOCl with CHX directly",
+        "option_d": "use maximum pressure",
+        "correct_answer": "B",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 69) In a mandibular molar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 70) In a mandibular premolar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "sodium hypochlorite extrusion accident",
+        "option_c": "pulp vitality improvement",
+        "option_d": "normal post-op discomfort",
+        "correct_answer": "B",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 71) In a mandibular incisor case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "using larger files without glide path",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "anti-curvature filing away from the furcal danger zone",
+        "option_d": "skipping irrigation",
+        "correct_answer": "C",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 72) In a mandibular premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "anti-curvature filing away from the furcal danger zone",
+        "option_c": "aggressive coronal enlargement on furcal side",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "B",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 73) In a mandibular premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "mix NaOCl with CHX directly",
+        "option_b": "wedge the needle to WL",
+        "option_c": "use maximum pressure",
+        "option_d": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "correct_answer": "D",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 74) In a maxillary molar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "normal post-op discomfort",
+        "option_b": "tooth eruption",
+        "option_c": "pulp vitality improvement",
+        "option_d": "sodium hypochlorite extrusion accident",
+        "correct_answer": "D",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 75) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "skipping irrigation",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 76) In a maxillary molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "persistent apical inflammation due to inadequate seal",
+        "option_b": "complete sterilization",
+        "option_c": "increased enamel thickness",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "A",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 77) In a maxillary premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "use maximum pressure",
+        "option_b": "wedge the needle to WL",
+        "option_c": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_d": "mix NaOCl with CHX directly",
+        "correct_answer": "C",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 78) In a mandibular incisor case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 79) In a maxillary molar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "rubber dam color",
+        "option_b": "tooth shade",
+        "option_c": "presence of conductive irrigants and canal conditions",
+        "option_d": "patient age alone",
+        "correct_answer": "C",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 80) In a mandibular premolar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 81) In a mandibular molar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "pulp vitality improvement",
+        "option_b": "sodium hypochlorite extrusion accident",
+        "option_c": "normal post-op discomfort",
+        "option_d": "tooth eruption",
+        "correct_answer": "B",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 82) In a mandibular incisor case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "normal post-op discomfort",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 83) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "anti-curvature filing away from the furcal danger zone",
+        "option_d": "using larger files without glide path",
+        "correct_answer": "C",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 84) In a mandibular premolar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "tooth eruption",
+        "option_b": "sodium hypochlorite extrusion accident",
+        "option_c": "normal post-op discomfort",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "B",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 85) In a maxillary premolar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "rubber dam color",
+        "option_b": "patient age alone",
+        "option_c": "tooth shade",
+        "option_d": "presence of conductive irrigants and canal conditions",
+        "correct_answer": "D",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 86) In a maxillary premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "using larger files without glide path",
+        "option_b": "skipping irrigation",
+        "option_c": "aggressive coronal enlargement on furcal side",
+        "option_d": "anti-curvature filing away from the furcal danger zone",
+        "correct_answer": "D",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 87) In a maxillary molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "increased enamel thickness",
+        "option_b": "persistent apical inflammation due to inadequate seal",
+        "option_c": "complete sterilization",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "B",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 88) In a mandibular incisor case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "normal post-op discomfort",
+        "option_b": "sodium hypochlorite extrusion accident",
+        "option_c": "tooth eruption",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "B",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 89) In a maxillary molar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "anti-curvature filing away from the furcal danger zone",
+        "option_c": "using larger files without glide path",
+        "option_d": "aggressive coronal enlargement on furcal side",
+        "correct_answer": "B",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 90) In a maxillary molar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "persistent apical inflammation due to inadequate seal",
+        "option_b": "complete sterilization",
+        "option_c": "increased enamel thickness",
+        "option_d": "immediate tooth whitening",
+        "correct_answer": "A",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 91) In a mandibular incisor case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "patient age alone",
+        "option_b": "rubber dam color",
+        "option_c": "tooth shade",
+        "option_d": "presence of conductive irrigants and canal conditions",
+        "correct_answer": "D",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 92) In a maxillary premolar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "tooth shade",
+        "option_b": "presence of conductive irrigants and canal conditions",
+        "option_c": "rubber dam color",
+        "option_d": "patient age alone",
+        "correct_answer": "B",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 93) In a mandibular premolar case, To reduce apical extrusion of irrigant, you should:",
+        "option_a": "use a side-vented needle and avoid binding; irrigate short of WL with gentle pressure",
+        "option_b": "mix NaOCl with CHX directly",
+        "option_c": "wedge the needle to WL",
+        "option_d": "use maximum pressure",
+        "correct_answer": "A",
+        "explanation": "Safe irrigation technique reduces extrusion risk."
+      },
+      {
+        "question": "(Endodontics Item 94) In a maxillary premolar case, An obturation that is short and poorly condensed is MOST likely to result in:",
+        "option_a": "complete sterilization",
+        "option_b": "immediate tooth whitening",
+        "option_c": "increased enamel thickness",
+        "option_d": "persistent apical inflammation due to inadequate seal",
+        "correct_answer": "D",
+        "explanation": "An inadequate seal may allow persistence of infection and delayed healing."
+      },
+      {
+        "question": "(Endodontics Item 95) In a mandibular premolar case, A patient reports severe pain and swelling immediately after irrigation. The MOST likely event is:",
+        "option_a": "normal post-op discomfort",
+        "option_b": "tooth eruption",
+        "option_c": "sodium hypochlorite extrusion accident",
+        "option_d": "pulp vitality improvement",
+        "correct_answer": "C",
+        "explanation": "NaOCl accident causes immediate severe pain and swelling; manage promptly."
+      },
+      {
+        "question": "(Endodontics Item 96) In a mandibular incisor case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "aggressive coronal enlargement on furcal side",
+        "option_b": "using larger files without glide path",
+        "option_c": "anti-curvature filing away from the furcal danger zone",
+        "option_d": "skipping irrigation",
+        "correct_answer": "C",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 97) In a mandibular premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "anti-curvature filing away from the furcal danger zone",
+        "option_b": "aggressive coronal enlargement on furcal side",
+        "option_c": "using larger files without glide path",
+        "option_d": "skipping irrigation",
+        "correct_answer": "A",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 98) In a maxillary premolar case, A 'strip perforation' is MOST prevented by:",
+        "option_a": "skipping irrigation",
+        "option_b": "using larger files without glide path",
+        "option_c": "anti-curvature filing away from the furcal danger zone",
+        "option_d": "aggressive coronal enlargement on furcal side",
+        "correct_answer": "C",
+        "explanation": "Respecting danger zones and conservative shaping prevent strip perforations."
+      },
+      {
+        "question": "(Endodontics Item 99) In a maxillary premolar case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "rubber dam color",
+        "option_b": "patient age alone",
+        "option_c": "presence of conductive irrigants and canal conditions",
+        "option_d": "tooth shade",
+        "correct_answer": "C",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      },
+      {
+        "question": "(Endodontics Item 100) In a mandibular incisor case, Electronic apex locator accuracy is MOST affected by:",
+        "option_a": "rubber dam color",
+        "option_b": "patient age alone",
+        "option_c": "tooth shade",
+        "option_d": "presence of conductive irrigants and canal conditions",
+        "correct_answer": "D",
+        "explanation": "Canal conditions and electrolytes can affect readings; follow device guidance and confirm."
+      }
+    ]
+  }
+]
