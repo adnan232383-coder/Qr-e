@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 24-year-old male presents with periumbilical pain that has shifted to the right lower quadrant over the last 12 hours. He has anorexia, nausea, and a low-grade fever. On exam, there is rebound tenderness at McBurney's point. What is the most appropriate next step in management?",
+    "option_a": "Abdominal X-ray",
+    "option_b": "CT scan of the abdomen and pelvis with contrast",
+    "option_c": "Immediate surgical consultation for appendectomy",
+    "option_d": "Observation and repeat exam in 24 hours",
+    "correct_answer": "C",
+    "explanation": "In a young male with a classic clinical presentation of appendicitis, the diagnosis is primarily clinical. While imaging is often used, prompt surgical intervention is the standard to prevent perforation."
+  },
+  {
+    "question": "A 45-year-old obese female presents with severe right upper quadrant pain radiating to the right shoulder, triggered by a fatty meal. She has a positive Murphy's sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid. What is the diagnosis?",
+    "option_a": "Biliary colic",
+    "option_b": "Acute cholecystitis",
+    "option_c": "Choledocholithiasis",
+    "option_d": "Acute pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Murphy's sign and ultrasound evidence of inflammation (wall thickening/fluid) differentiate acute cholecystitis from simple biliary colic."
+  },
+  {
+    "question": "A 70-year-old male with a history of multiple abdominal surgeries presents with vomiting, abdominal distension, and inability to pass gas or stool for 2 days. X-ray shows dilated small bowel loops and multiple air-fluid levels. Diagnosis?",
+    "option_a": "Large bowel obstruction",
+    "option_b": "Small bowel obstruction (SBO)",
+    "option_c": "Paralytic ileus",
+    "option_d": "Sigmoid volvulus",
+    "correct_answer": "B",
+    "explanation": "Adhesions from previous surgeries are the leading cause of SBO, which presents with vomiting, distension, and air-fluid levels on X-ray."
+  },
+  {
+    "question": "Which of the following is an absolute indication for 'Emergency Surgery' in a patient with a suspected inguinal hernia?",
+    "option_a": "A mass that increases with coughing",
+    "option_b": "An irreducible, painful mass with skin redness and signs of systemic toxicity (Strangulation)",
+    "option_c": "An indirect hernia in a 20-year-old male",
+    "option_d": "A hernia that disappears when the patient lies down",
+    "correct_answer": "B",
+    "explanation": "Strangulated hernias involve compromised blood supply to the bowel and are a life-threatening emergency requiring immediate operative reduction and repair."
+  },
+  {
+    "question": "A 55-year-old female presents with a hard, painless lump in her right breast and skin dimpling (peau d'orange). What is the next most appropriate step in her workup?",
+    "option_a": "Observation for one menstrual cycle",
+    "option_b": "Mammography and Core Needle Biopsy",
+    "option_c": "Serum CA-15-3 levels",
+    "option_d": "Immediate mastectomy",
+    "correct_answer": "B",
+    "explanation": "Peau d'orange suggests inflammatory breast cancer or advanced malignancy. Triple assessment (exam, imaging, tissue biopsy) is mandatory for any suspicious mass."
+  },
+  {
+    "question": "In the initial management of a trauma patient (ATLS), what is the primary goal of the 'Primary Survey'?",
+    "option_a": "Getting a full medical history",
+    "option_b": "Identifying and treating life-threatening injuries in the order of ABCDE",
+    "option_c": "Performing a head-to-toe physical exam",
+    "option_d": "Obtaining definitive imaging like a total-body CT",
+    "correct_answer": "B",
+    "explanation": "The Primary Survey focuses on Airway, Breathing, Circulation, Disability, and Exposure to address immediate threats to life."
+  },
+  {
+    "question": "A patient presents with 'painless' jaundice, weight loss, and a palpable gallbladder (Courvoisier's sign). What is the most likely diagnosis?",
+    "option_a": "Choledocholithiasis",
+    "option_b": "Pancreatic head adenocarcinoma",
+    "option_c": "Acute hepatitis",
+    "option_d": "Chronic pancreatitis",
+    "correct_answer": "B",
+    "explanation": "A palpable, non-tender gallbladder in a jaundiced patient suggests a distal biliary obstruction, classically from a pancreatic head tumor."
+  },
+  {
+    "question": "What is the standard treatment for a 'Tension Pneumothorax' identified during the Primary Survey?",
+    "option_a": "Waiting for a chest X-ray to confirm",
+    "option_b": "Needle decompression followed by tube thoracostomy (Chest tube)",
+    "option_c": "Endotracheal intubation only",
+    "option_d": "Emergency thoracotomy",
+    "correct_answer": "B",
+    "explanation": "Tension pneumothorax is a clinical diagnosis; immediate needle decompression is life-saving and should never be delayed for imaging."
+  },
+  {
+    "question": "A patient has a thyroid nodule found on routine exam. TSH is normal. What is the most appropriate next diagnostic step?",
+    "option_a": "Total thyroidectomy",
+    "option_b": "Ultrasound of the neck and Fine-needle aspiration (FNA) based on TIRADS criteria",
+    "option_c": "Thyroid radioactive iodine scan",
+    "option_d": "Observation for 1 year",
+    "correct_answer": "B",
+    "explanation": "In a patient with a cold or euthyroid nodule, ultrasound features and FNA are used to rule out malignancy."
+  },
+  {
+    "question": "Which of the following describes 'Hinchey Classification' in surgery?",
+    "option_a": "The severity of acute pancreatitis",
+    "option_b": "The severity of diverticulitis and associated abscess/perforation",
+    "option_c": "The stages of wound healing",
+    "option_d": "The levels of breast cancer lymph node involvement",
+    "correct_answer": "B",
+    "explanation": "Hinchey stages guide management of diverticulitis, from small abscesses (Stage I) to fecal peritonitis (Stage IV)."
+  },
+  {
+    "question": "What is the most common site of metastasis for colorectal cancer?",
+    "option_a": "Brain",
+    "option_b": "Lungs",
+    "option_c": "Liver",
+    "option_d": "Bone",
+    "correct_answer": "C",
+    "explanation": "Venous drainage from the colon goes via the portal system directly to the liver."
+  },
+  {
+    "question": "A 30-year-old male is brought to the ER with a stab wound to the RUQ. He is hypotensive (BP 80/40) and tachycardic. Fast exam is positive for fluid. What is the next step?",
+    "option_a": "CT scan of the abdomen",
+    "option_b": "Diagnostic Peritoneal Lavage (DPL)",
+    "option_c": "Emergency exploratory laparotomy in the OR",
+    "option_d": "IV fluids and observation",
+    "correct_answer": "C",
+    "explanation": "A hemodynamically unstable patient with a positive FAST or penetrating abdominal trauma requires immediate surgery to control bleeding."
+  },
+  {
+    "question": "Which complication is specifically associated with the 'Recurrent Laryngeal Nerve' injury during thyroid surgery?",
+    "option_a": "Hypocalcemia",
+    "option_b": "Hoarseness or airway obstruction (if bilateral)",
+    "option_c": "Difficulty swallowing",
+    "option_d": "Low thyroid hormone levels",
+    "correct_answer": "B",
+    "explanation": "The recurrent laryngeal nerve innervates the vocal cords; damage leads to vocal changes."
+  },
+  {
+    "question": "A patient has a bowel obstruction and the X-ray shows 'air in the biliary tree' (pneumobilia). What is the likely cause?",
+    "option_a": "Sigmoid volvulus",
+    "option_b": "Gallstone ileus",
+    "option_c": "Acute pancreatitis",
+    "option_d": "Cancer of the rectum",
+    "correct_answer": "B",
+    "explanation": "Rigler's Triad for gallstone ileus includes small bowel obstruction, a gallstone in an ectopic location, and pneumobilia."
+  },
+  {
+    "question": "What is the defining feature of a 'Direct' Inguinal Hernia?",
+    "option_a": "It passes through the deep inguinal ring",
+    "option_b": "It passes through Hesselbach's triangle, medial to the inferior epigastric vessels",
+    "option_c": "It is always congenital",
+    "option_d": "It is more common in women",
+    "correct_answer": "B",
+    "explanation": "Direct hernias are acquired weaknesses in the floor of the inguinal canal (medial to epigastric vessels)."
+  },
+  {
+    "question": "A 50-year-old male presents with 'pencil-thin' stools and blood in the stool. Which part of the colon is the tumor most likely located?",
+    "option_a": "Cecum",
+    "option_b": "Ascending colon",
+    "option_c": "Descending or Sigmoid colon",
+    "option_d": "Appendix",
+    "correct_answer": "C",
+    "explanation": "Left-sided colon cancers typically cause obstructive symptoms and changes in bowel habits due to the narrower lumen and more solid stool."
+  },
+  {
+    "question": "What is the primary treatment for a 'Sentinel Lymph Node' biopsy that is positive for cancer in a breast cancer patient?",
+    "option_a": "No further surgery",
+    "option_b": "Axillary Lymph Node Dissection (ALND)",
+    "option_c": "Total mastectomy only",
+    "option_d": "Wait for chemotherapy to finish",
+    "correct_answer": "B",
+    "explanation": "If the sentinel node is positive, it often indicates the need for formal axillary dissection to clear potential spread (though protocols are evolving with radiation)."
+  },
+  {
+    "question": "Which 'Ranson's Criteria' parameter is assessed 'at admission' to predict the severity of acute pancreatitis?",
+    "option_a": "Blood Urea Nitrogen (BUN) increase",
+    "option_b": "WBC count > 16,000/mm³",
+    "option_c": "Calcium drop",
+    "option_d": "Base deficit increase",
+    "correct_answer": "B",
+    "explanation": "Initial criteria include Age (>55), WBC (>16k), Glucose (>200), LDH (>350), and AST (>250)."
+  },
+  {
+    "question": "A patient with primary hyperparathyroidism presents with 'stones, bones, groans, and psychic overtones'. Which lab result is most characteristic?",
+    "option_a": "Low Calcium and High Phosphate",
+    "option_b": "High Calcium and High PTH",
+    "option_c": "High Calcium and Low PTH",
+    "option_d": "Low Calcium and Low PTH",
+    "correct_answer": "B",
+    "explanation": "Primary hyperparathyroidism involves inappropriate secretion of PTH leading to hypercalcemia."
+  },
+  {
+    "question": "Which type of 'Shock' is characterized by low blood pressure, high heart rate, but 'warm' extremities and low Systemic Vascular Resistance (SVR)?",
+    "option_a": "Hypovolemic Shock",
+    "option_b": "Distributive (Septic) Shock",
+    "option_c": "Cardiogenic Shock",
+    "option_d": "Obstructive Shock",
+    "correct_answer": "B",
+    "explanation": "Septic shock (a type of distributive shock) causes vasodilation (low SVR), making the skin feel warm early on."
+  },
+  {
+    "question": "A patient on POD 3 after a laparotomy develops sudden drainage of salmon-colored fluid from the wound. Diagnosis?",
+    "option_a": "Superficial wound infection",
+    "option_b": "Wound Dehiscence with Evisceration risk",
+    "option_c": "Normal healing",
+    "option_d": "Hematoma drainage",
+    "correct_answer": "B",
+    "explanation": "Serosanguinous drainage is a classic sign of deep wound dehiscence; the patient should be kept NPO and the wound covered with sterile moist dressings."
+  },
+  {
+    "question": "What is the 'Gold Standard' imaging for the diagnosis of Acute Mesenteric Ischemia?",
+    "option_a": "Abdominal X-ray",
+    "option_b": "Mesenteric Angiography (CT or Conventional)",
+    "option_c": "Ultrasound",
+    "option_d": "Colonoscopy",
+    "correct_answer": "B",
+    "explanation": "Angiography allows for the visualization of the arterial blockage (usually in the SMA)."
+  },
+  {
+    "question": "A patient presents with a 'Bird's Beak' appearance on a barium swallow. Diagnosis?",
+    "option_a": "Esophageal cancer",
+    "option_b": "Achalasia",
+    "option_c": "Zenker's Diverticulum",
+    "option_d": "Hiatal hernia",
+    "correct_answer": "B",
+    "explanation": "Achalasia involves failure of the lower esophageal sphincter to relax, leading to proximal dilation and distal tapering."
+  },
+  {
+    "question": "Which of the following is true regarding 'Fine Needle Aspiration' (FNA) of a breast cyst?",
+    "option_a": "It is only done if the patient has a fever",
+    "option_b": "If the fluid is clear/straw-colored and the mass disappears, no further workup is needed",
+    "option_c": "The fluid is always sent for culture",
+    "option_d": "FNA cannot distinguish between solid and cystic",
+    "correct_answer": "B",
+    "explanation": "Simple cysts are benign; if the mass resolves with aspiration and fluid is non-bloody, it is diagnostic and therapeutic."
+  },
+  {
+    "question": "A patient has severe epigastric pain radiating to the back and a very high Serum Amylase and Lipase. Diagnosis?",
+    "option_a": "Perforated ulcer",
+    "option_b": "Acute pancreatitis",
+    "option_c": "Cholecystitis",
+    "option_d": "Bowel obstruction",
+    "correct_answer": "B",
+    "explanation": "Lipase is more specific than amylase for the diagnosis of acute pancreatitis."
+  },
+  {
+    "question": "What is the classic 'Triad of Death' in a trauma patient?",
+    "option_a": "Hypotension, Tachycardia, Coma",
+    "option_b": "Hypothermia, Coagulopathy, and Acidosis",
+    "option_c": "Blindness, Deafness, Paralysis",
+    "option_d": "Fever, Jaundice, Pain",
+    "correct_answer": "B",
+    "explanation": "These three factors create a self-reinforcing cycle that leads to exsanguination and death in trauma."
+  },
+  {
+    "question": "A 'double track' sign on ultrasound of an infant's abdomen is classic for:",
+    "option_a": "Intussusception",
+    "option_b": "Hypertrophic Pyloric Stenosis",
+    "option_c": "Duodenal atresia",
+    "option_d": "Annular pancreas",
+    "correct_answer": "B",
+    "explanation": "Pyloric stenosis shows a thickened, elongated pyloric canal on imaging."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Small Bowel Obstruction' but NOT in 'Paralytic Ileus'?",
+    "option_a": "Abdominal distension",
+    "option_b": "Absence of bowel sounds",
+    "option_c": "High-pitched, 'tinkling' bowel sounds and colicky pain",
+    "option_d": "Nausea",
+    "correct_answer": "C",
+    "explanation": "Mechanical obstruction initially features hyperactive bowel sounds as the intestine tries to push past the block."
+  },
+  {
+    "question": "What is the definitive treatment for 'Sigmoid Volvulus' if there are signs of gangrene or perforation?",
+    "option_a": "Endoscopic detorsion",
+    "option_b": "Emergency Sigmoidectomy (Hartmann's procedure)",
+    "option_c": "High-fiber diet",
+    "option_d": "Antibiotics only",
+    "correct_answer": "B",
+    "explanation": "If the bowel is compromised, surgical resection is mandatory."
+  },
+  {
+    "question": "Which classification system is used to assess the risk of surgery based on the patient's comorbidities?",
+    "option_a": "TNM",
+    "option_b": "ASA Physical Status Classification",
+    "option_c": "Glasgow Coma Scale",
+    "option_d": "Hinchey",
+    "correct_answer": "B",
+    "explanation": "The ASA score (1-6) categorizes patients' overall health pre-operatively."
+  },
+  {
+    "question": "A patient presents with a 'painless' right-sided thyroid mass. FNA shows 'Psammoma bodies'. Diagnosis?",
+    "option_a": "Follicular carcinoma",
+    "option_b": "Papillary thyroid carcinoma",
+    "option_c": "Medullary carcinoma",
+    "option_d": "Anaplastic carcinoma",
+    "correct_answer": "B",
+    "explanation": "Psammoma bodies (calcifications) are a classic histological finding in papillary thyroid cancer."
+  },
+  {
+    "question": "What is the primary risk of an 'Amphi-umbilical' hernia (Omphalocele) in a newborn?",
+    "option_a": "It is always benign",
+    "option_b": "High association with other congenital and chromosomal anomalies",
+    "option_c": "It resolves by age 2",
+    "option_d": "Only affects the liver",
+    "correct_answer": "B",
+    "explanation": "Omphalocele is often part of a syndrome (e.g., Beckwith-Wiedemann) and requires thorough investigation."
+  },
+  {
+    "question": "Which of the following is a classic finding in a 'Diaphragmatic Hernia' in a neonate?",
+    "option_a": "Distended abdomen",
+    "option_b": "Scaphoid (sunken) abdomen and respiratory distress",
+    "option_c": "High blood pressure",
+    "option_d": "Fever",
+    "correct_answer": "B",
+    "explanation": "In CDH, abdominal contents move into the chest, leaving the abdomen empty/scaphoid."
+  },
+  {
+    "question": "What is the medication of choice for 'prophylaxis' of surgical site infections (given within 60 min of incision)?",
+    "option_a": "Vancomycin",
+    "option_b": "First-generation Cephalosporin (e.g., Cefazolin)",
+    "option_c": "Ciprofloxacin",
+    "option_d": "Metronidazole only",
+    "correct_answer": "B",
+    "explanation": "Cefazolin covers common skin flora (Staph/Strep) and is the standard for most clean/clean-contaminated procedures."
+  },
+  {
+    "question": "A patient presents with a 'hard, fixed' breast mass and 'skin retraction'. This indicates:",
+    "option_a": "Fibroadenoma",
+    "option_b": "Malignancy (Cancer) involving Cooper's ligaments",
+    "option_c": "Fat necrosis",
+    "option_d": "Breast cyst",
+    "correct_answer": "B",
+    "explanation": "Infiltration of the ligaments that support the breast tissue leads to visible pulling/retraction."
+  },
+  {
+    "question": "Which 'Electrolyte' abnormality is common after a major surgery involving large volumes of Normal Saline?",
+    "option_a": "Metabolic alkalosis",
+    "option_b": "Hyperchloremic metabolic acidosis",
+    "option_c": "Hypokalemia",
+    "option_d": "Hyponatremia",
+    "correct_answer": "B",
+    "explanation": "Normal Saline has 154 mEq/L of chloride, which can displace bicarbonate and cause acidosis."
+  },
+  {
+    "question": "A patient with a 'Phlegmon' in the RLQ following a week of appendicitis symptoms should be treated with:",
+    "option_a": "Immediate surgery",
+    "option_b": "Initial conservative management (IV antibiotics and later interval appendectomy)",
+    "option_c": "Wait and see approach with no treatment",
+    "option_d": "Chemotherapy",
+    "correct_answer": "B",
+    "explanation": "Operating on an inflammatory mass (phlegmon) is technically difficult and risky; cooling it down first is often safer."
+  },
+  {
+    "question": "What is the primary management for a 'Pilonidal Abscess'?",
+    "option_a": "Long-term antibiotics only",
+    "option_b": "Incision and Drainage (I&D)",
+    "option_c": "Total skin graft",
+    "option_d": "Wait for it to burst",
+    "correct_answer": "B",
+    "explanation": "An abscess requires drainage to relieve pressure and clear the infection."
+  },
+  {
+    "question": "Which of the following is true for 'Diverticulitis' management?",
+    "option_a": "Barium enema is the best test during the acute phase",
+    "option_b": "Colonoscopy should be avoided in the acute phase due to perforation risk",
+    "option_c": "Surgery is always the first-line treatment",
+    "option_d": "High-fiber diet is recommended during the acute attack",
+    "correct_answer": "B",
+    "explanation": "CT is the preferred diagnostic tool; colonoscopy is done 6-8 weeks later to rule out cancer once inflammation resolves."
+  },
+  {
+    "question": "A patient presents with 'recurrent' kidney stones, bone pain, and high serum calcium. Diagnosis?",
+    "option_a": "Osteoporosis",
+    "option_b": "Primary Hyperparathyroidism",
+    "option_c": "Diabetes",
+    "option_d": "Hypothyroidism",
+    "correct_answer": "B",
+    "explanation": "Hypercalcemia from excess PTH is a classic cause of recurrent calcium oxalate stones."
+  },
+  {
+    "question": "What is the treatment for 'Meckel's Diverticulum' that causes bleeding or obstruction?",
+    "option_a": "Wait and watch",
+    "option_b": "Surgical resection (Diverticulectomy)",
+    "option_c": "Antacids only",
+    "option_d": "High-dose antibiotics",
+    "correct_answer": "B",
+    "explanation": "Symptomatic Meckel's requires surgical removal."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' survey in ATLS?",
+    "option_a": "Checking the ABCs",
+    "option_b": "A complete head-to-toe examination performed after the Primary Survey is complete and the patient is stable",
+    "option_c": "Talking to the family",
+    "option_d": "Operating on the patient",
+    "correct_answer": "B",
+    "explanation": "The secondary survey aims to identify all remaining injuries."
+  },
+  {
+    "question": "Which type of 'Breast Cancer' is often bilateral and multicentric?",
+    "option_a": "Infiltrating Ductal Carcinoma",
+    "option_b": "Lobular Carcinoma in Situ (LCIS) or Invasive Lobular Carcinoma",
+    "option_c": "Medullary Carcinoma",
+    "option_d": "Paget's Disease",
+    "correct_answer": "B",
+    "explanation": "Lobular tumors have a high tendency to occur in multiple locations within the same or both breasts."
+  },
+  {
+    "question": "What is the primary treatment for 'Achalasia'?",
+    "option_a": "Antibiotics",
+    "option_b": "Laparoscopic Heller Myotomy or Balloon Dilation",
+    "option_c": "Esophagectomy for everyone",
+    "option_d": "High-fat diet",
+    "correct_answer": "B",
+    "explanation": "The goal is to physically reduce the pressure of the lower esophageal sphincter."
+  },
+  {
+    "question": "A patient has 'Hematochezia' (bright red blood per rectum). What is the first priority?",
+    "option_a": "Colonoscopy",
+    "option_b": "Fluid resuscitation and hemodynamic stabilization",
+    "option_c": "CT Angiography",
+    "option_d": "Barium enema",
+    "correct_answer": "B",
+    "explanation": "ABC always comes first in acute GI bleeding."
+  },
+  {
+    "question": "Which of the following is true for 'Toxic Megacolon'?",
+    "option_a": "It involves a diameter of the colon < 6 cm",
+    "option_b": "It is a complication of UC or C. difficile, presenting with systemic toxicity and massive dilation",
+    "option_c": "It is treated with high-fiber diet",
+    "option_d": "It only occurs in children",
+    "correct_answer": "B",
+    "explanation": "Toxic megacolon is a surgical emergency if it does not respond rapidly to medical management."
+  },
+  {
+    "question": "What is the definitive management for a 'Perforated Peptic Ulcer'?",
+    "option_a": "Proton Pump Inhibitors only",
+    "option_b": "Emergency surgery (e.g., Graham patch repair)",
+    "option_c": "Observation",
+    "option_d": "Nasogastric suctioning only",
+    "correct_answer": "B",
+    "explanation": "Perforation leads to peritonitis and requires surgical closure."
+  },
+  {
+    "question": "Which 'Thyroid' cancer is associated with MEN 2 syndromes and arises from parafollicular C-cells?",
+    "option_a": "Papillary",
+    "option_b": "Follicular",
+    "option_c": "Medullary",
+    "option_d": "Anaplastic",
+    "correct_answer": "C",
+    "explanation": "Medullary thyroid cancer produces calcitonin, which serves as a tumor marker."
+  },
+  {
+    "question": "A patient with 'Choledocholithiasis' is at risk for which life-threatening complication?",
+    "option_a": "Simple indigestion",
+    "option_b": "Acute Cholangitis (Charcot's Triad: Fever, Jaundice, Pain)",
+    "option_c": "Colon cancer",
+    "option_d": "Hair loss",
+    "correct_answer": "B",
+    "explanation": "Infection behind an obstructed bile duct is a surgical/endoscopic emergency."
+  },
+  {
+    "question": "What is the primary treatment for 'Acute Appendicitis' that has perforated?",
+    "option_a": "Antibiotics only",
+    "option_b": "Emergency surgery and peritoneal washout",
+    "option_c": "Wait for 2 days",
+    "option_d": "Physical therapy",
+    "correct_answer": "B",
+    "explanation": "Perforation increases the risk of abscess and peritonitis, requiring prompt operative management."
+  }
+]
