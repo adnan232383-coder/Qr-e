@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://med-mcq-bank.preview.emergentagent.com |
-| Admin Panel | https://med-mcq-bank.preview.emergentagent.com/admin/progress |
-| API Docs | https://med-mcq-bank.preview.emergentagent.com/api/docs |
+| Frontend | https://dental-pharm-qa.preview.emergentagent.com |
+| Admin Panel | https://dental-pharm-qa.preview.emergentagent.com/admin/progress |
+| API Docs | https://dental-pharm-qa.preview.emergentagent.com/api/docs |
 
 ---
 
