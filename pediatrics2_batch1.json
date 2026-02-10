@@ -1,0 +1,434 @@
+[
+  {
+    "question": "A 15-month-old child is brought to the ER after a generalized tonic-clonic seizure that lasted 3 minutes. The child has a temperature of 39.2°C and a runny nose. After the seizure, the child is alert and behaving normally. Diagnosis?",
+    "option_a": "Epilepsy",
+    "option_b": "Simple Febrile Seizure",
+    "option_c": "Complex Febrile Seizure",
+    "option_d": "Meningitis",
+    "correct_answer": "B",
+    "explanation": "Simple febrile seizures are generalized, last <15 minutes, and occur only once in a 24-hour period in a child with a fever but no CNS infection."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Osteomyelitis' in a child with 'Sickle Cell Disease'?",
+    "option_a": "Staphylococcus aureus",
+    "option_b": "Salmonella species",
+    "option_c": "Pseudomonas aeruginosa",
+    "option_d": "Streptococcus pyogenes",
+    "correct_answer": "B",
+    "explanation": "While S. aureus is the most common cause of osteomyelitis overall, Salmonella is uniquely associated with sickle cell patients due to functional asplenia and bowel infarcts."
+  },
+  {
+    "question": "A 2-week-old neonate presents with poor feeding, jaundice, a large posterior fontanelle, and a persistent umbilical hernia. What is the most likely diagnosis?",
+    "option_a": "Biliary atresia",
+    "option_b": "Congenital Hypothyroidism",
+    "option_c": "Down Syndrome",
+    "option_d": "Galactosemia",
+    "correct_answer": "B",
+    "explanation": "Congenital hypothyroidism can cause prolonged jaundice, macroglossia, and a large fontanelle. Early detection via screening is crucial to prevent intellectual disability."
+  },
+  {
+    "question": "Which of the following is the most common pathogen causing 'Bacterial Meningitis' in a 1-month-old to 23-month-old infant?",
+    "option_a": "Group B Streptococcus",
+    "option_b": "Streptococcus pneumoniae",
+    "option_c": "Listeria monocytogenes",
+    "option_d": "E. coli",
+    "correct_answer": "B",
+    "explanation": "After the neonatal period, S. pneumoniae and N. meningitidis become the leading causes of bacterial meningitis."
+  },
+  {
+    "question": "A 6-year-old boy presents with a limp and hip pain. He has a history of a viral upper respiratory infection last week. He is afebrile and his ESR/CRP are normal. Diagnosis?",
+    "option_a": "Septic Arthritis",
+    "option_b": "Transient (Toxic) Synovitis",
+    "option_c": "Legg-Calvé-Perthes Disease",
+    "option_d": "Slipped Capital Femoral Epiphysis",
+    "correct_answer": "B",
+    "explanation": "Transient synovitis is a benign, self-limiting inflammation of the hip joint following a viral illness, distinguished from septic arthritis by the lack of fever and normal inflammatory markers."
+  },
+  {
+    "question": "What is the primary medication used for the 'acute' management of 'Status Asthmaticus' in the emergency room?",
+    "option_a": "Inhaled Corticosteroids",
+    "option_b": "Inhaled SABA (Albuterol) and Ipratropium",
+    "option_c": "Oral Montelukast",
+    "option_d": "Salmeterol",
+    "correct_answer": "B",
+    "explanation": "Short-acting beta-agonists (SABA) and anticholinergics provide rapid bronchodilation in acute asthma exacerbations."
+  },
+  {
+    "question": "Which of the following describes 'Neurofibromatosis Type 1' (NF1) clinical features?",
+    "option_a": "Bilateral acoustic neuromas",
+    "option_b": "Café-au-lait spots, Lisch nodules, and neurofibromas",
+    "option_c": "Port-wine stain",
+    "option_d": "Hemangioblastomas",
+    "correct_answer": "B",
+    "explanation": "NF1 is an autosomal dominant disorder caused by a mutation in the neurofibromin gene on chromosome 17."
+  },
+  {
+    "question": "A child presents with 'blueberry muffin' spots on the skin, hepatosplenomegaly, and hearing loss. This is the classic presentation of congenital infection with:",
+    "option_a": "Toxoplasmosis",
+    "option_b": "Cytomegalovirus (CMV)",
+    "option_c": "Syphilis",
+    "option_d": "Rubella",
+    "correct_answer": "B",
+    "explanation": "Congenital CMV is the most common congenital infection and a leading cause of non-hereditary sensorineural hearing loss."
+  },
+  {
+    "question": "Which of the following is true regarding 'Hemophilia A'?",
+    "option_a": "It is an autosomal recessive disorder",
+    "option_b": "It is an X-linked recessive deficiency of Factor VIII",
+    "option_c": "It causes prolonged PT",
+    "option_d": "It is a disorder of platelets",
+    "correct_answer": "B",
+    "explanation": "Hemophilia A affects males and typically presents with hemarthrosis (bleeding into joints)."
+  },
+  {
+    "question": "A 13-year-old obese male presents with 'painless' hip pain and a 'waddling' gait. He holds his hip in external rotation. Diagnosis?",
+    "option_a": "Legg-Calvé-Perthes Disease",
+    "option_b": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "option_c": "Osgood-Schlatter Disease",
+    "option_d": "Septic Arthritis",
+    "correct_answer": "B",
+    "explanation": "SCFE is common in adolescents, especially those who are overweight, and is a surgical emergency to prevent avascular necrosis."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Cushing's Syndrome' in a child?",
+    "option_a": "Weight loss and tall stature",
+    "option_b": "Weight gain (central obesity), growth failure (short stature), and striae",
+    "option_c": "Increased appetite only",
+    "option_d": "Hyperactivity",
+    "correct_answer": "B",
+    "explanation": "Excess cortisol causes fat redistribution and inhibits the growth hormone axis."
+  },
+  {
+    "question": "What is the primary screening test for 'Developmental Dysplasia of the Hip' (DDH) in an infant older than 4 months?",
+    "option_a": "Ultrasound",
+    "option_b": "Anteroposterior (AP) Pelvic X-ray",
+    "option_c": "Barlow maneuver",
+    "option_d": "CT Scan",
+    "correct_answer": "B",
+    "explanation": "After 4 months, the femoral head begins to ossify, making X-ray more reliable than ultrasound."
+  },
+  {
+    "question": "A child presents with a 'strawberry tongue' and 'desquamation' of the hands and feet in the subacute phase. Diagnosis?",
+    "option_a": "Scarlet Fever",
+    "option_b": "Kawasaki Disease",
+    "option_c": "Measles",
+    "option_d": "Stevens-Johnson Syndrome",
+    "correct_answer": "B",
+    "explanation": "The subacute phase of Kawasaki disease is marked by skin peeling and a high risk of coronary artery aneurysms."
+  },
+  {
+    "question": "Which of the following describes 'Bruton's Agammaglobulinemia'?",
+    "option_a": "Deficiency of T-cells only",
+    "option_b": "X-linked deficiency of B-cells, leading to very low levels of all immunoglobulins",
+    "option_c": "High levels of IgE",
+    "option_d": "A missing thymus",
+    "correct_answer": "B",
+    "explanation": "Affected boys present with recurrent sinopulmonary infections with encapsulated bacteria after 6 months of age."
+  },
+  {
+    "question": "A 2-year-old child presents with 'recurrent' wheezing and 'salty-tasting' skin. What is the most likely underlying diagnosis?",
+    "option_a": "Asthma",
+    "option_b": "Cystic Fibrosis",
+    "option_c": "Bronchiolitis",
+    "option_d": "Gastroesophageal reflux",
+    "correct_answer": "B",
+    "explanation": "Salty skin is due to the chloride transport defect in the sweat glands of CF patients."
+  },
+  {
+    "question": "What is the primary treatment for 'Iron Poisoning' (Lead Level > 60 mg/dL)?",
+    "option_a": "Activated charcoal",
+    "option_b": "Deferoxamine (Chelation)",
+    "option_c": "N-acetylcysteine",
+    "option_d": "Syrup of ipecac",
+    "correct_answer": "B",
+    "explanation": "Deferoxamine binds iron and is excreted in the urine, often turning it a 'vin rose' color."
+  },
+  {
+    "question": "Which of the following describes 'Congenital Rubella Syndrome' triad?",
+    "option_a": "Fever, rash, joint pain",
+    "option_b": "Cataracts, Sensorineural deafness, and Congenital heart disease (PDA)",
+    "option_c": "Jaundice, anemia, and splenomegaly",
+    "option_d": "Seizures, microcephaly, and rash",
+    "correct_answer": "B",
+    "explanation": "Maternal infection during the first trimester carries the highest risk for these defects."
+  },
+  {
+    "question": "What is the medication of choice for 'Nocturnal Enuresis' when behavioral therapies fail and rapid results are needed (e.g., for a sleepover)?",
+    "option_a": "Imipramine",
+    "option_b": "Desmopressin (dDAVP)",
+    "option_c": "Furosemide",
+    "option_d": "Oxybutynin",
+    "correct_answer": "B",
+    "explanation": "dDAVP reduces nighttime urine production but has a high relapse rate when discontinued."
+  },
+  {
+    "question": "A child presents with 'ataxia', 'nystagmus', and 'a wide-based gait' 2 weeks after having Chickenpox. Diagnosis?",
+    "option_a": "Brain tumor",
+    "option_b": "Acute Cerebellar Ataxia (Post-viral)",
+    "option_c": "Multiple Sclerosis",
+    "option_d": "Meningitis",
+    "correct_answer": "B",
+    "explanation": "Acute cerebellar ataxia is a benign, self-limiting condition often following Varicella or other viral infections."
+  },
+  {
+    "question": "Which of the following is true for 'VSD' (Ventricular Septal Defect)?",
+    "option_a": "It is a right-to-left shunt initially",
+    "option_b": "It is the most common congenital heart defect",
+    "option_c": "It always requires immediate surgery",
+    "option_d": "It causes cyanosis at birth",
+    "correct_answer": "B",
+    "explanation": "Small VSDs often close spontaneously; large ones can lead to heart failure and Eisenmenger syndrome."
+  },
+  {
+    "question": "A 4-year-old child with a history of 'tet spells' is found squatting during play. What is the physiological purpose of this action?",
+    "option_a": "To rest the legs",
+    "option_b": "To increase Systemic Vascular Resistance (SVR) and force blood into the lungs",
+    "option_c": "To decrease heart rate",
+    "option_d": "To stop a cough",
+    "correct_answer": "B",
+    "explanation": "Squatting increases SVR, which decreases the right-to-left shunt across the VSD in Tetralogy of Fallot."
+  },
+  {
+    "question": "Which of the following is a 'Lower Motor Neuron' sign in a child with hypotonia?",
+    "option_a": "Spasticity",
+    "option_b": "Absent reflexes and fasciculations",
+    "option_c": "Hyperreflexia",
+    "option_d": "Positive Babinski sign",
+    "correct_answer": "B",
+    "explanation": "LMN lesions (like Spinal Muscular Atrophy) cause 'floppy' weakness and loss of reflexes."
+  },
+  {
+    "question": "What is the primary treatment for 'Pneumocystis jirovecii' pneumonia in a child with HIV?",
+    "option_a": "Penicillin",
+    "option_b": "Trimethoprim-Sulfamethoxazole (TMP-SMX)",
+    "option_c": "Fluconazole",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "TMP-SMX is used for both treatment and prophylaxis of PCP."
+  },
+  {
+    "question": "A child presents with 'painless' gross hematuria following a viral URI. Complement levels are normal. Diagnosis?",
+    "option_a": "PSGN",
+    "option_b": "IgA Nephropathy (Berger's Disease)",
+    "option_c": "Alport Syndrome",
+    "option_d": "Minimal Change Disease",
+    "correct_answer": "B",
+    "explanation": "IgA nephropathy occurs 'syn-pharyngitic' (during the infection), unlike PSGN which has a latent period."
+  },
+  {
+    "question": "Which of the following is true for 'Osteosarcoma'?",
+    "option_a": "It occurs primarily in the spine",
+    "option_b": "It shows a 'Sunburst' pattern on X-ray and occurs in the metaphysis of long bones",
+    "option_c": "It is a benign tumor",
+    "option_d": "It only occurs in children under 5",
+    "correct_answer": "B",
+    "explanation": "Osteosarcoma is the most common bone cancer in teenagers, often found around the knee."
+  },
+  {
+    "question": "What is the medication of choice for 'Scabies' in a 1-year-old child?",
+    "option_a": "Ivermectin oral",
+    "option_b": "Permethrin 5% cream",
+    "option_c": "Hydrocortisone",
+    "option_d": "Lindane",
+    "correct_answer": "B",
+    "explanation": "Permethrin is safe for children as young as 2 months."
+  },
+  {
+    "question": "A 2-day-old neonate has a 'failed' pulse oximetry screen (SpO2 92% in the right hand and 88% in the foot). Next step?",
+    "option_a": "Discharge home",
+    "option_b": "Echocardiogram to rule out CCHD (Critical Congenital Heart Disease)",
+    "option_c": "Start antibiotics",
+    "option_d": "Wait 24 hours",
+    "correct_answer": "B",
+    "explanation": "A significant difference between pre-ductal (hand) and post-ductal (foot) saturation is a red flag for ductal-dependent heart lesions."
+  },
+  {
+    "question": "Which of the following is true for 'DiGeorge Syndrome'?",
+    "option_a": "It is caused by a 22q11 deletion and involves thymic aplasia",
+    "option_b": "It involves high calcium levels",
+    "option_c": "It is an X-linked disorder",
+    "option_d": "It only affects the liver",
+    "correct_answer": "A",
+    "explanation": "Thymic aplasia leads to T-cell deficiency and increased risk of viral/fungal infections."
+  },
+  {
+    "question": "A 12-year-old girl with 'short stature' and 'webbed neck' presents with primary amenorrhea. Which test is most definitive?",
+    "option_a": "Growth hormone levels",
+    "option_b": "Karyotype (45,X)",
+    "option_c": "Ultrasound of the liver",
+    "option_d": "Bone age",
+    "correct_answer": "B",
+    "explanation": "Turner syndrome is the most common cause of primary ovarian failure in females."
+  },
+  {
+    "question": "What is the classic histological finding in 'Minimal Change Disease'?",
+    "option_a": "Crescents",
+    "option_b": "Podocyte foot process effacement (on electron microscopy)",
+    "option_c": "Thickened GBM",
+    "option_d": "Spikes and domes",
+    "correct_answer": "B",
+    "explanation": "The light microscopy often appears 'minimal' or normal, hence the name."
+  },
+  {
+    "question": "A child presents with 'joint pain' and 'a rash that started on the face' after having a fever. The posterior cervical lymph nodes are swollen. Diagnosis?",
+    "option_a": "Measles",
+    "option_b": "Rubella (German Measles)",
+    "option_c": "Mumps",
+    "option_d": "Roseola",
+    "correct_answer": "B",
+    "explanation": "Rubella rash spreads faster and is less intense than measles, and is classic for post-auricular/cervical lymphadenopathy."
+  },
+  {
+    "question": "Which of the following is true for 'HSP' (Henoch-Schönlein Purpura)?",
+    "option_a": "Platelet count is very low",
+    "option_b": "Platelet count is normal; it is a small-vessel vasculitis",
+    "option_c": "It is caused by a bacteria",
+    "option_d": "It only affects the lungs",
+    "correct_answer": "B",
+    "explanation": "HSP involves IgA deposition and causes a purpuric rash, abdominal pain, and arthritis."
+  },
+  {
+    "question": "What is the treatment for 'Croup' with 'stridor at rest'?",
+    "option_a": "Antibiotics",
+    "option_b": "Nebulized Epinephrine and Dexamethasone",
+    "option_c": "Albuterol",
+    "option_d": "Saline only",
+    "correct_answer": "B",
+    "explanation": "Epinephrine rapidly reduces subglottic edema; steroids provide longer-lasting relief."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Intussusception' on ultrasound?",
+    "option_a": "Double bubble sign",
+    "option_b": "Target or Donut sign",
+    "option_c": "Olive sign",
+    "option_d": "Snowstorm appearance",
+    "correct_answer": "B",
+    "explanation": "The target sign represents the layers of the bowel telescoped inside each other."
+  },
+  {
+    "question": "A neonate presents with 'abdominal wall defect' where the bowel is exposed and 'not' covered by a membrane. Diagnosis?",
+    "option_a": "Omphalocele",
+    "option_b": "Gastroschisis",
+    "option_c": "Umbilical hernia",
+    "option_d": "Diaphragmatic hernia",
+    "correct_answer": "B",
+    "explanation": "Gastroschisis occurs to the right of the umbilicus and has no sac; Omphalocele is at the umbilicus and is covered by peritoneum."
+  },
+  {
+    "question": "What is the medication of choice for 'G6PD Deficiency' during a hemolytic crisis?",
+    "option_a": "Steroids",
+    "option_b": "Supportive care (fluids, blood transfusion if needed) and avoidance of triggers",
+    "option_c": "Antibiotics",
+    "option_d": "Vitamin C",
+    "correct_answer": "B",
+    "explanation": "There is no specific drug; the primary goal is to prevent further oxidative damage."
+  },
+  {
+    "question": "Which of the following describes 'Wiskott-Aldrich Syndrome'?",
+    "option_a": "Thrombocytopenia, Eczema, and Immunodeficiency",
+    "option_b": "Obesity and short stature",
+    "option_c": "Blindness and deafness",
+    "option_d": "High fever and rash",
+    "correct_answer": "A",
+    "explanation": "This X-linked disorder involves small, dysfunctional platelets."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Bronchiolitis'?",
+    "option_a": "Adenovirus",
+    "option_b": "Respiratory Syncytial Virus (RSV)",
+    "option_c": "Influenza",
+    "option_d": "Rhinovirus",
+    "correct_answer": "B",
+    "explanation": "RSV is the leading cause of lower respiratory tract infections in infants."
+  },
+  {
+    "question": "What is the primary risk of 'Kawasaki Disease'?",
+    "option_a": "Kidney failure",
+    "option_b": "Coronary Artery Aneurysms",
+    "option_c": "Blindness",
+    "option_d": "Hearing loss",
+    "correct_answer": "B",
+    "explanation": "Vessel wall inflammation can lead to permanent damage and thrombosis if untreated."
+  },
+  {
+    "question": "Which of the following is true for 'Prader-Willi Syndrome'?",
+    "option_a": "Deletion of the paternal copy of chromosome 15",
+    "option_b": "Deletion of the maternal copy of chromosome 15",
+    "option_c": "It is caused by a virus",
+    "option_d": "It involves high growth hormone levels",
+    "correct_answer": "A",
+    "explanation": "Angelman syndrome is the maternal deletion; Prader-Willi is the paternal."
+  },
+  {
+    "question": "What is the medication of choice for 'Pinworms'?",
+    "option_a": "Amoxicillin",
+    "option_b": "Mebendazole",
+    "option_c": "Fluconazole",
+    "option_d": "Acyclovir",
+    "correct_answer": "B",
+    "explanation": "A single dose followed by a repeat dose in 2 weeks is the standard treatment."
+  },
+  {
+    "question": "Which of the following is a classic symptom of 'Lyme Disease' in the early stage?",
+    "option_a": "Barking cough",
+    "option_b": "Erythema migrans (Bull's-eye rash)",
+    "option_c": "High fever and rash on palms",
+    "option_d": "Jaundice",
+    "correct_answer": "B",
+    "explanation": "Lyme is caused by a tick bite and Borrelia infection."
+  },
+  {
+    "question": "What is the primary treatment for 'Septic Arthritis' in a child?",
+    "option_a": "Physical therapy only",
+    "option_b": "Urgent surgical drainage (irrigation) and IV antibiotics",
+    "option_c": "Wait for the culture results first",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Joint fluid is toxic to the cartilage; immediate drainage is necessary to prevent joint destruction."
+  },
+  {
+    "question": "Which of the following describes 'Minimal Change Disease' light microscopy?",
+    "option_a": "Normal appearing glomeruli",
+    "option_b": "Thickened GBM",
+    "option_c": "Hypercellularity",
+    "option_d": "Sclerosis",
+    "correct_answer": "A",
+    "explanation": "The lack of findings on light microscopy is characteristic."
+  },
+  {
+    "question": "What is the recommended age for the 'DPT' vaccine booster?",
+    "option_a": "Birth",
+    "option_b": "4-6 years",
+    "option_c": "15 years",
+    "option_d": "50 years",
+    "correct_answer": "B",
+    "explanation": "Boosters are given before school entry to maintain immunity."
+  },
+  {
+    "question": "Which of the following is true for 'Hand, Foot, and Mouth Disease'?",
+    "option_a": "It is caused by Coxsackievirus A16",
+    "option_b": "It is treated with Penicillin",
+    "option_c": "It is only found in adults",
+    "option_d": "It causes permanent paralysis",
+    "correct_answer": "A",
+    "explanation": "It is a self-limiting viral rash with oral vesicles."
+  },
+  {
+    "question": "A neonate presents with 'macrosomia', 'hypoglycemia', and 'visceromegaly'. Diagnosis?",
+    "option_a": "Down Syndrome",
+    "option_b": "Infant of a Diabetic Mother (IDM)",
+    "option_c": "Turner Syndrome",
+    "option_d": "Cystic Fibrosis",
+    "correct_answer": "B",
+    "explanation": "Hyperinsulinism in the fetus due to maternal hyperglycemia leads to overgrowth."
+  },
+  {
+    "question": "What is the primary risk of 'Vaso-occlusive crisis' in Sickle Cell?",
+    "option_a": "High IQ",
+    "option_b": "Pain, organ damage (Infarction), and stroke",
+    "option_c": "Weight gain",
+    "option_d": "None",
+    "correct_answer": "B",
+    "explanation": "Sickling causes blockages in the microcirculation."
+  }
+]
