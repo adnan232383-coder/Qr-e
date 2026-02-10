@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://mcq-course-builder.preview.emergentagent.com |
-| Admin Panel | https://mcq-course-builder.preview.emergentagent.com/admin/progress |
-| API Docs | https://mcq-course-builder.preview.emergentagent.com/api/docs |
+| Frontend | https://course-import-hub.preview.emergentagent.com |
+| Admin Panel | https://course-import-hub.preview.emergentagent.com/admin/progress |
+| API Docs | https://course-import-hub.preview.emergentagent.com/api/docs |
 
 ---
 
