@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Which of the following cytokines is considered a primary pro-inflammatory mediator that stimulates osteoclast activity and bone resorption in periodontitis?",
+    "option_a": "IL-10",
+    "option_b": "IL-1 beta",
+    "option_c": "TGF-beta",
+    "option_d": "IL-4",
+    "correct_answer": "B",
+    "explanation": "IL-1 beta and TNF-alpha are potent pro-inflammatory cytokines that upregulate RANKL, leading to the differentiation and activation of osteoclasts."
+  },
+  {
+    "question": "A patient with a deep infrabony defect is treated with bone grafting and a barrier membrane. During the first week, the membrane becomes exposed to the oral cavity. What is the most likely outcome for the regenerative process?",
+    "option_a": "Regeneration will improve due to oxygenation",
+    "option_b": "The risk of infection increases, and the amount of achieved regeneration is typically reduced",
+    "option_c": "No effect on the final result",
+    "option_d": "The bone graft will turn into gingiva",
+    "correct_answer": "B",
+    "explanation": "Early membrane exposure allows bacterial colonization, which triggers inflammation and often leads to premature failure of the Guided Tissue Regeneration (GTR) process."
+  },
+  {
+    "question": "What is the primary biological difference between 'Acellular Afibrillar Cementum' and 'Cellular Intrinsic Fiber Cementum'?",
+    "option_a": "Acellular cementum is found at the apex",
+    "option_b": "Acellular afibrillar cementum is typically found covering the enamel near the CEJ and lacks collagen fibers",
+    "option_c": "Cellular cementum does not contain osteocytes",
+    "option_d": "There is no difference",
+    "correct_answer": "B",
+    "explanation": "Acellular afibrillar cementum is a specialized form often seen near the cemento-enamel junction (CEJ) and does not play a role in tooth attachment."
+  },
+  {
+    "question": "Which surgical approach is specifically used to manage a deep periodontal pocket on the distal surface of a terminal molar, often involving a bulky 'pad' of tissue?",
+    "option_a": "Gingivectomy",
+    "option_b": "Distal Wedge procedure",
+    "option_c": "Modified Widman Flap",
+    "option_d": "Connective tissue graft",
+    "correct_answer": "B",
+    "explanation": "The distal wedge (or tuberosity/retromolar pad reduction) removes excess fibrous tissue to eliminate pockets and facilitate hygiene behind the last molar."
+  },
+  {
+    "question": "In the 'Osteotome Technique' (Internal Sinus Lift), how much residual bone height is generally considered the minimum required to safely perform the procedure?",
+    "option_a": "1 mm",
+    "option_b": "5-7 mm",
+    "option_c": "12 mm",
+    "option_d": "Bone height does not matter",
+    "correct_answer": "B",
+    "explanation": "The internal/crestal approach (Summers technique) is best suited for cases with at least 5-7mm of bone, allowing the osteotome to provide stability and safely 'tent' the sinus membrane."
+  },
+  {
+    "question": "Which of the following is a classic effect of 'Smoking' on the host response in the periodontium?",
+    "option_a": "Increased gingival bleeding",
+    "option_b": "Impairment of neutrophil (PMN) chemotaxis and phagocytosis",
+    "option_c": "Decreased production of collagenase",
+    "option_d": "Increased vascularity of the gingiva",
+    "correct_answer": "B",
+    "explanation": "Smoking reduces the functional capacity of neutrophils, the first line of defense, while also causing vasoconstriction that masks clinical signs of inflammation."
+  },
+  {
+    "question": "What is 'Creeping Attachment' in the context of periodontal plastic surgery?",
+    "option_a": "The failure of a graft",
+    "option_b": "The post-operative coronal migration of the gingival margin over a previously exposed root surface after a graft",
+    "option_c": "Bacteria moving into the pulp",
+    "option_d": "A type of suture technique",
+    "correct_answer": "B",
+    "explanation": "Creeping attachment is a favorable long-term phenomenon where the gingival margin gradually moves coronally during the months following a recession coverage procedure."
+  },
+  {
+    "question": "Which type of 'Bone' is considered the 'Bundle Bone' in the alveolar process?",
+    "option_a": "Cortical bone of the cheek",
+    "option_b": "The part of the alveolar bone proper where Sharpey's fibers of the PDL are embedded",
+    "option_c": "Cancellous bone",
+    "option_d": "The jaw base",
+    "correct_answer": "B",
+    "explanation": "Bundle bone is the thin layer of bone lining the socket; it is highly dependent on the presence of the tooth and resorbs after extraction."
+  },
+  {
+    "question": "What is the primary indicator that 'Peri-implantitis' has progressed beyond 'Peri-implant Mucositis'?",
+    "option_a": "Redness of the mucosa",
+    "option_b": "Radiographic evidence of crestal bone loss following the initial healing period",
+    "option_c": "The patient complains of a bad taste",
+    "option_d": "Bleeding on probing",
+    "correct_answer": "B",
+    "explanation": "The defining characteristic of peri-implantitis is the inflammatory loss of supporting bone, visible on radiographs."
+  },
+  {
+    "question": "Which 'Laser' wavelength is most highly absorbed by hydroxyapatite and water, making it effective for 'hard tissue' (bone and tooth) procedures?",
+    "option_a": "Diode (810-980 nm)",
+    "option_b": "Er:YAG (2940 nm)",
+    "option_c": "Nd:YAG (1064 nm)",
+    "option_d": "CO2 (10600 nm)",
+    "correct_answer": "B",
+    "explanation": "Er:YAG lasers are the 'gold standard' for hard tissue because their energy is absorbed by water in the tissue, causing micro-explosions that remove bone or enamel without heat damage."
+  },
+  {
+    "question": "A patient is taking 'Alendronate' (an oral bisphosphonate) for osteoporosis. What is the primary concern for periodontal surgery or extractions?",
+    "option_a": "Increased bleeding",
+    "option_b": "Risk of Medication-Related Osteonecrosis of the Jaws (MRONJ)",
+    "option_c": "Gingival overgrowth",
+    "option_d": "Tooth staining",
+    "correct_answer": "B",
+    "explanation": "Bisphosphonates inhibit osteoclast activity, which can impair bone remodeling and lead to non-healing exposed bone after invasive dental procedures."
+  },
+  {
+    "question": "What is the function of the 'Junctional Epithelium' in the periodontal attachment apparatus?",
+    "option_a": "To provide mechanical strength against biting",
+    "option_b": "To form a biological seal against the tooth surface via hemidesmosomes",
+    "option_c": "To produce cementum",
+    "option_d": "To taste food",
+    "correct_answer": "B",
+    "explanation": "The junctional epithelium is a non-keratinized tissue that adheres to the tooth, acting as a crucial barrier to bacterial entry."
+  },
+  {
+    "question": "Which clinical finding is essential to diagnose 'Scurvy-related' gingival changes?",
+    "option_a": "High fever",
+    "option_b": "Severe gingival swelling and bleeding due to Vitamin C deficiency and impaired collagen synthesis",
+    "option_c": "Teeth turning black",
+    "option_d": "Dry mouth",
+    "correct_answer": "B",
+    "explanation": "Vitamin C is a cofactor for prolyl hydroxylase; without it, the body cannot produce stable collagen, leading to fragile tissues and blood vessels."
+  },
+  {
+    "question": "In 'Implant' placement, what is the 'Safety Zone' typically required between the implant and the Inferior Alveolar Nerve canal?",
+    "option_a": "0.1 mm",
+    "option_b": "2 mm",
+    "option_c": "5 mm",
+    "option_d": "10 mm",
+    "correct_answer": "B",
+    "explanation": "A 2mm safety margin is standard to account for surgical inaccuracies and prevent nerve compression or injury."
+  },
+  {
+    "question": "Which of the following describes 'Primary' stability of a dental implant?",
+    "option_a": "Biological bonding of bone cells to the surface",
+    "option_b": "Mechanical stability achieved at the time of surgery through friction with the bone",
+    "option_c": "Stability provided by the final crown",
+    "option_d": "Stability after 1 year",
+    "correct_answer": "B",
+    "explanation": "Primary stability depends on bone quality and the surgical technique; it is the prerequisite for secondary (biological) stability."
+  },
+  {
+    "question": "Which 'Gracey' curette is designed for the 'Distal' surfaces of posterior teeth?",
+    "option_a": "Gracey 11/12",
+    "option_b": "Gracey 13/14",
+    "option_c": "Gracey 7/8",
+    "option_d": "Gracey 1/2",
+    "correct_answer": "B",
+    "explanation": "The 13/14 has a significant angulation specifically to reach the distal aspects of molars and premolars."
+  },
+  {
+    "question": "What is the hallmark radiographic sign of 'Occlusal Trauma'?",
+    "option_a": "Horizontal bone loss only",
+    "option_b": "Widening of the periodontal ligament (PDL) space and thickening of the lamina dura",
+    "option_c": "Root canal infection",
+    "option_d": "Whiter enamel",
+    "correct_answer": "B",
+    "explanation": "The periodontium adapts to excessive forces by increasing the thickness of the ligament and the density of the surrounding bone."
+  },
+  {
+    "question": "Which of the following is true regarding 'Full-thickness' (Mucoperiosteal) flaps?",
+    "option_a": "They do not include the periosteum",
+    "option_b": "They involve the reflection of the epithelium, connective tissue, and periosteum, exposing the bone",
+    "option_c": "They are only used for veneers",
+    "option_d": "They cause more bleeding than partial-thickness flaps",
+    "correct_answer": "B",
+    "explanation": "Full-thickness flaps provide complete access to the underlying bone for osseous surgery or implant placement."
+  },
+  {
+    "question": "What is the primary cause of 'Peri-implant' infection according to the current consensus?",
+    "option_a": "Allergy to titanium",
+    "option_b": "Bacterial biofilm accumulation similar to that in periodontitis",
+    "option_c": "Too much biting force alone",
+    "option_d": "Lack of vitamins",
+    "correct_answer": "B",
+    "explanation": "While mechanical factors matter, peri-implantitis is primarily an inflammatory disease driven by microbes."
+  },
+  {
+    "question": "Which anatomical structure is at greatest risk during an incision in the 'Mandibular Lingual' molar region?",
+    "option_a": "Mental nerve",
+    "option_b": "Lingual nerve",
+    "option_c": "Buccal nerve",
+    "option_d": "Infraorbital nerve",
+    "correct_answer": "B",
+    "explanation": "The lingual nerve lies very close to the lingual plate near the second and third molars; horizontal incisions here must be avoided or done with extreme care."
+  },
+  {
+    "question": "In 'Guided Tissue Regeneration' (GTR), what is the function of the 'Membrane'?",
+    "option_a": "To glue the bone graft",
+    "option_b": "To act as a physical barrier that prevents gingival epithelium from populating the root surface",
+    "option_c": "To kill bacteria",
+    "option_d": "To make the gum look thicker",
+    "correct_answer": "B",
+    "explanation": "By blocking fast-moving epithelial cells, the membrane allows slower-moving PDL and bone cells to reattach to the root."
+  },
+  {
+    "question": "A patient with 'Grade B' periodontitis is characterized by:",
+    "option_a": "Rapid bone loss",
+    "option_b": "Moderate rate of progression (e.g., < 2 mm of bone loss over 5 years)",
+    "option_c": "No bone loss at all",
+    "option_d": "Severe tooth mobility",
+    "correct_answer": "B",
+    "explanation": "Grade B is the 'standard' rate of progression, while Grade A is slow and Grade C is rapid."
+  },
+  {
+    "question": "What is 'Substantivity' as it relates to Chlorhexidine mouthwash?",
+    "option_a": "The bad taste",
+    "option_b": "The ability of the drug to bind to oral tissues and be released slowly over a 12-hour period",
+    "option_c": "The color of the liquid",
+    "option_d": "The price",
+    "correct_answer": "B",
+    "explanation": "Chlorhexidine's long-lasting action is why it is considered the gold standard for chemical plaque control."
+  },
+  {
+    "question": "Which surgical technique is the 'First Choice' for increasing the zone of 'Attached Gingiva' around a tooth with a shallow vestibule?",
+    "option_a": "Modified Widman Flap",
+    "option_b": "Free Gingival Graft (FGG)",
+    "option_c": "Gingivectomy",
+    "option_d": "Apical curettage",
+    "correct_answer": "B",
+    "explanation": "FGGs are exceptionally reliable for augmenting the width of keratinized tissue."
+  },
+  {
+    "question": "In the '2017 Periodontal Classification', what defines 'Stage IV' Periodontitis?",
+    "option_a": "No bone loss",
+    "option_b": "Severe periodontitis with potential for loss of the entire dentition (extensive tooth loss and need for complex rehabilitation)",
+    "option_c": "Only 1 mm of CAL",
+    "option_d": "Gingivitis only",
+    "correct_answer": "B",
+    "explanation": "Stage IV represents the most advanced level of destruction, often involving masticatory dysfunction and secondary occlusal trauma."
+  },
+  {
+    "question": "Which of the following is true for 'Osteoinduction' in bone grafting?",
+    "option_a": "It is a passive scaffold",
+    "option_b": "It involves the chemical signal (e.g., BMPs) that induces undifferentiated stem cells to become osteoblasts",
+    "option_c": "It only happens in the maxilla",
+    "option_d": "It requires no blood supply",
+    "correct_answer": "B",
+    "explanation": "Osteoinduction is a biological 'trigger' for new bone formation, characteristic of autografts and certain demineralized bone matrices."
+  },
+  {
+    "question": "The 'Schneiderian Membrane' is the lining of which cavity?",
+    "option_a": "Oral cavity",
+    "option_b": "Maxillary sinus",
+    "option_c": "Nasal cavity",
+    "option_d": "Pulp chamber",
+    "correct_answer": "B",
+    "explanation": "It is a ciliated pseudostratified columnar epithelium that must be carefully handled during sinus lifts."
+  },
+  {
+    "question": "What is the primary risk of 'Scaling and Root Planing' (SRP) in a patient with a 'Prosthetic Heart Valve' without antibiotic prophylaxis?",
+    "option_a": "Dry mouth",
+    "option_b": "Infective Endocarditis",
+    "option_c": "Tooth sensitivity",
+    "option_d": "Weight loss",
+    "correct_answer": "B",
+    "explanation": "Invasive procedures like SRP cause transient bacteremia, which can lead to life-threatening infections of heart valves in high-risk patients."
+  },
+  {
+    "question": "Which periodontal fibers are responsible for 'Transeptal' connection between adjacent teeth?",
+    "option_a": "Alveolar crest fibers",
+    "option_b": "Transeptal fibers (extending from cementum of one tooth to cementum of the neighbor)",
+    "option_c": "Horizontal fibers",
+    "option_d": "Apical fibers",
+    "correct_answer": "B",
+    "explanation": "Transeptal fibers maintain the integrity of the dental arch and the relationship between teeth."
+  },
+  {
+    "question": "Which instrument is used for measuring 'Glickman Class III' furcation involvement?",
+    "option_a": "Williams probe",
+    "option_b": "Nabers probe (curved)",
+    "option_c": "Sickle scaler",
+    "option_d": "Explorer",
+    "correct_answer": "B",
+    "explanation": "The curved Nabers probe is specifically designed to enter and navigate the furcation area."
+  },
+  {
+    "question": "A 'Three-walled' infrabony defect has a better prognosis for regeneration than a 'One-walled' defect because:",
+    "option_a": "It has more surface area for blood supply and better graft stability",
+    "option_b": "It is easier to clean",
+    "option_c": "It is always found in the maxilla",
+    "option_d": "It does not need a membrane",
+    "correct_answer": "A",
+    "explanation": "The 'walls' refer to the remaining bone; more walls mean a more contained environment for the healing clot and graft."
+  },
+  {
+    "question": "What is the role of 'Titanium Oxide' in dental implants?",
+    "option_a": "It makes the implant white",
+    "option_b": "It is the biocompatible layer that allows for osseointegration",
+    "option_c": "It is a sign of rust",
+    "option_d": "It causes allergies",
+    "correct_answer": "B",
+    "explanation": "Titanium forms a stable oxide layer immediately upon exposure to air, which the body accepts as a non-foreign surface."
+  },
+  {
+    "question": "Which of the following is an 'Antiseptic' locally delivered into a pocket in the form of a 'Chip'?",
+    "option_a": "Arestin",
+    "option_b": "PerioChip (Chlorhexidine gluconate)",
+    "option_c": "Atridox",
+    "option_d": "Metronidazole",
+    "correct_answer": "B",
+    "explanation": "The PerioChip is a small gelatin matrix containing chlorhexidine that releases over 7-10 days."
+  },
+  {
+    "question": "What is 'Biologic Width' (Supracrestal Tissue Attachment) violation?",
+    "option_a": "Cleaning the teeth too much",
+    "option_b": "Placing a restoration margin closer than 2 mm to the alveolar bone crest",
+    "option_c": "Using a plastic filling",
+    "option_d": "The tooth being too long",
+    "correct_answer": "B",
+    "explanation": "This leads to chronic inflammation and bone loss as the body 're-clears' space for the soft tissue attachment."
+  },
+  {
+    "question": "Which of the following is true for 'Ultrasonic' scaling?",
+    "option_a": "It is only for supragingival use",
+    "option_b": "It works via mechanical vibration, cavitation (bubble bursting), and acoustic microstreaming",
+    "option_c": "It is less effective than hand tools",
+    "option_d": "It requires no water",
+    "correct_answer": "B",
+    "explanation": "Ultrasonics are highly efficient and the cavitation effect helps disrupt the bacterial biofilm chemically and physically."
+  },
+  {
+    "question": "The 'Long Junctional Epithelium' is the typical result of:",
+    "option_a": "Surgical regeneration",
+    "option_b": "Healing by repair after SRP or simple flap surgery",
+    "option_c": "Tooth extraction",
+    "option_d": "Pulp death",
+    "correct_answer": "B",
+    "explanation": "Rather than new bone and PDL, the gums simply 'reattach' to the root via a long epithelial layer."
+  },
+  {
+    "question": "Which cells in the PDL are capable of differentiating into cementoblasts or osteoblasts during healing?",
+    "option_a": "Epithelial cells",
+    "option_b": "Undifferentiated Mesenchymal Stem Cells",
+    "option_c": "Red blood cells",
+    "option_d": "Nerve cells",
+    "correct_answer": "B",
+    "explanation": "These multipotent stem cells are the key to true periodontal regeneration."
+  },
+  {
+    "question": "A patient presents with 'recession' on a tooth with 'no' attached gingiva. The best procedure to increase the tissue thickness and cover the root is:",
+    "option_a": "Gingivectomy",
+    "option_b": "Subepithelial Connective Tissue Graft (SCTG)",
+    "option_c": "Scale and polish",
+    "option_d": "Veneers",
+    "correct_answer": "B",
+    "explanation": "SCTG is the 'gold standard' for root coverage due to its high predictability and excellent esthetic blend."
+  },
+  {
+    "question": "What is 'Primary' occlusal trauma?",
+    "option_a": "Normal force on a weak tooth",
+    "option_b": "Excessive force on a tooth with a normal periodontium",
+    "option_c": "A deep pocket",
+    "option_d": "Lack of brushing",
+    "correct_answer": "B",
+    "explanation": "Secondary trauma is normal force on a reduced/weak periodontium."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Acute Necrotizing Ulcerative Gingivitis' (ANUG)?",
+    "option_a": "Slow bone loss",
+    "option_b": "Interproximal 'cratering' of the papillae, fetid breath, and gray pseudomembrane",
+    "option_c": "Teeth feeling loose but no pain",
+    "option_d": "Whiter gums",
+    "correct_answer": "B",
+    "explanation": "ANUG is an acute, painful infection that 'punches out' the interdental papillae."
+  },
+  {
+    "question": "What is the primary management for 'Peri-implant Mucositis'?",
+    "option_a": "Implant removal",
+    "option_b": "Mechanical debridement and improved oral hygiene",
+    "option_c": "Systemic antibiotics only",
+    "option_d": "Wait for 1 year",
+    "correct_answer": "B",
+    "explanation": "Since there is no bone loss yet, the condition is reversible with proper cleaning."
+  },
+  {
+    "question": "Which 'Suture' technique is best for 'closing' a bone graft site to ensure no gap (Primary Closure)?",
+    "option_a": "Simple interrupted",
+    "option_b": "Horizontal Mattress suture",
+    "option_c": "Continuous baseball",
+    "option_d": "Purse string",
+    "correct_answer": "B",
+    "explanation": "Mattress sutures provide excellent eversion of the edges and a tight seal over a broad area."
+  },
+  {
+    "question": "What is the role of 'Vitamin D' in periodontal health?",
+    "option_a": "It makes teeth white",
+    "option_b": "It regulates calcium metabolism and modulates the immune response; deficiency is linked to worse periodontal outcomes",
+    "option_c": "It only helps with vision",
+    "option_d": "It stops all bleeding",
+    "correct_answer": "B",
+    "explanation": "Vitamin D is essential for bone density and has anti-inflammatory properties."
+  },
+  {
+    "question": "Which of the following describes 'Platform Switching' in dental implants?",
+    "option_a": "Using a wider abutment",
+    "option_b": "Using an abutment that is narrower than the implant platform to preserve crestal bone",
+    "option_c": "Changing the surgical drill",
+    "option_d": "Switching the implant brand",
+    "correct_answer": "B",
+    "explanation": "This design 'moves' the biological width away from the bone margin, reducing resorption."
+  },
+  {
+    "question": "What is 'Fenestration' in periodontal bone anatomy?",
+    "option_a": "A deep pocket",
+    "option_b": "A 'window' in the bone where the root is exposed, but the marginal bone remains intact",
+    "option_c": "A broken jaw",
+    "option_d": "Extraction of a tooth",
+    "correct_answer": "B",
+    "explanation": "Dehiscence is a similar defect but involves the loss of the marginal bone crest as well."
+  },
+  {
+    "question": "Which of the following is true for 'Maintenance' therapy?",
+    "option_a": "It is done once every 10 years",
+    "option_b": "It is the most critical phase for the long-term success of periodontal treatment",
+    "option_c": "It is only for children",
+    "option_d": "It replaces the need for surgery",
+    "correct_answer": "B",
+    "explanation": "Without regular maintenance, the pathogenic biofilm will return and the disease will recur."
+  },
+  {
+    "question": "The 'Col' is defined as:",
+    "option_a": "The top of the tooth",
+    "option_b": "The valley-like depression of the interdental gingiva between the buccal and lingual papillae",
+    "option_c": "A type of bone graft",
+    "option_d": "The root tip",
+    "correct_answer": "B",
+    "explanation": "The col is non-keratinized and is the most common site for initial periodontal breakdown."
+  },
+  {
+    "question": "Which condition is characterized by a 'strawberry-like' gingival appearance and is a systemic vasculitis?",
+    "option_a": "Leukemia",
+    "option_b": "Granulomatosis with Polyangiitis (Wegener's)",
+    "option_c": "Diabetes",
+    "option_d": "Sjogren's",
+    "correct_answer": "B",
+    "explanation": "Strawberry gingivitis is a rare but classic oral manifestation of Wegener's Granulomatosis."
+  },
+  {
+    "question": "What is the primary risk of 'Air-Polishing' (Prophy-jet) during periodontal maintenance?",
+    "option_a": "Tooth sensitivity only",
+    "option_b": "Soft tissue trauma and iatrogenic emphysema if directed into a deep pocket",
+    "option_c": "Making the teeth too shiny",
+    "option_d": "Decreasing saliva flow",
+    "correct_answer": "B",
+    "explanation": "High-pressure air/powder must not be directed into pockets to avoid forcing air into the tissues."
+  },
+  {
+    "question": "Which of the following describes 'Secondary' osseointegration?",
+    "option_a": "Mechanical fit",
+    "option_b": "The biological process where bone remodeling leads to new bone formation and maturation around the implant",
+    "option_c": "Using a second screw",
+    "option_d": "Removal of the implant",
+    "correct_answer": "B",
+    "explanation": "Biological stability replaces mechanical stability over a period of 4-12 weeks."
+  }
+]
