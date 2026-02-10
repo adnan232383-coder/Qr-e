@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 68-year-old male smoker with a history of hypertension presents with a pulsatile abdominal mass. An ultrasound reveals an infrarenal abdominal aortic aneurysm (AAA) measuring 5.8 cm. What is the most appropriate management?",
+    "option_a": "Repeat ultrasound in 6 months",
+    "option_b": "Start a beta-blocker and observe",
+    "option_c": "Elective surgical or endovascular repair (EVAR)",
+    "option_d": "Immediate emergency laparotomy",
+    "correct_answer": "C",
+    "explanation": "Repair is generally indicated for asymptomatic AAAs in men when the diameter exceeds 5.5 cm (or 5.0 cm in women) due to the significantly increased risk of rupture."
+  },
+  {
+    "question": "A 70-year-old male with a history of heavy smoking presents with pain in his right calf that occurs after walking two blocks and is relieved by rest. On exam, the right foot is cool and pulses are diminished. What is the first-line diagnostic test?",
+    "option_a": "Ankle-Brachial Index (ABI)",
+    "option_b": "CT Angiography of the lower limbs",
+    "option_c": "Venous Doppler ultrasound",
+    "option_d": "Catheter-based angiography",
+    "correct_answer": "A",
+    "explanation": "ABI is the standard initial non-invasive test for Peripheral Arterial Disease (PAD); a value < 0.9 is diagnostic of ischemia."
+  },
+  {
+    "question": "Which of the following is an indication for 'Urgent Splenectomy' following blunt abdominal trauma?",
+    "option_a": "A Grade I splenic laceration on CT",
+    "option_b": "Hemodynamic instability despite aggressive fluid resuscitation",
+    "option_c": "Presence of a small subcapsular hematoma",
+    "option_d": "The patient is over 65 years old",
+    "correct_answer": "B",
+    "explanation": "While many splenic injuries are managed conservatively (non-operatively), hemodynamic instability is a primary indication for immediate operative intervention."
+  },
+  {
+    "question": "A 45-year-old female undergoes a Roux-en-Y gastric bypass. One month later, she presents with nausea, sweating, and palpitations 30 minutes after eating a high-sugar meal. Diagnosis?",
+    "option_a": "Stomal stenosis",
+    "option_b": "Dumping syndrome",
+    "option_c": "Internal hernia",
+    "option_d": "Acute pancreatitis",
+    "correct_answer": "B",
+    "explanation": "Dumping syndrome occurs when high-osmolarity food enters the small intestine rapidly, causing fluid shifts and vasomotor symptoms."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Acute Mesenteric Ischemia'?",
+    "option_a": "Arterial embolism (often from atrial fibrillation)",
+    "option_b": "Venous thrombosis",
+    "option_c": "Low flow state (non-occlusive)",
+    "option_d": "Atherosclerosis of the celiac trunk",
+    "correct_answer": "A",
+    "explanation": "Emboli typically lodge in the Superior Mesenteric Artery (SMA), causing sudden, severe 'pain out of proportion' to physical exam findings."
+  },
+  {
+    "question": "In a patient who has undergone a 'Total Splenectomy', which of the following vaccines is most critical to prevent OPSI (Overwhelming Post-Splenectomy Infection)?",
+    "option_a": "Influenza and Tdap",
+    "option_b": "S. pneumoniae, N. meningitidis, and H. influenzae type b (Hib)",
+    "option_c": "Hepatitis B and C",
+    "option_d": "MMR and Chickenpox",
+    "correct_answer": "B",
+    "explanation": "The spleen is vital for clearing encapsulated bacteria; vaccination against these three organisms is mandatory (ideally 2 weeks before elective surgery)."
+  },
+  {
+    "question": "A 60-year-old male with chronic Hepatitis B and cirrhosis presents with weight loss and RUQ pain. Alpha-fetoprotein (AFP) is 500 ng/mL. CT shows a hypervascular liver mass with 'washout' in the venous phase. Diagnosis?",
+    "option_a": "Hepatic hemangioma",
+    "option_b": "Hepatocellular Carcinoma (HCC)",
+    "option_c": "Metastatic colon cancer",
+    "option_d": "Focal nodular hyperplasia",
+    "correct_answer": "B",
+    "explanation": "High AFP and characteristic 'arterial enhancement with venous washout' on CT are diagnostic of HCC in a cirrhotic patient."
+  },
+  {
+    "question": "What is the primary treatment for a 'Boerhaave's Syndrome' (effort rupture of the esophagus)?",
+    "option_a": "Oral antibiotics and soft diet",
+    "option_b": "Emergency surgical repair and mediastinal drainage",
+    "option_c": "Endoscopic stenting for everyone",
+    "option_d": "Nasogastric tube and observation",
+    "correct_answer": "B",
+    "explanation": "Boerhaave's involves a full-thickness tear leading to mediastinitis; prompt surgery is required to prevent sepsis and death."
+  },
+  {
+    "question": "Which of the following describes the 'Virchow's Node'?",
+    "option_a": "Swollen node in the right axilla",
+    "option_b": "Enlarged left supraclavicular lymph node indicating metastatic gastric cancer",
+    "option_c": "Node in the groin",
+    "option_d": "Periumbilical node",
+    "correct_answer": "B",
+    "explanation": "Metastatic spread from abdominal malignancies (especially gastric) often appears in the left supraclavicular area via the thoracic duct."
+  },
+  {
+    "question": "A patient on POD 5 after abdominal surgery presents with sudden shortness of breath, tachycardia, and a low-grade fever. The surgical wound is clean. What is the most likely diagnosis?",
+    "option_a": "Wound infection",
+    "option_b": "Pulmonary Embolism (PE)",
+    "option_c": "Atelectasis",
+    "option_d": "Anastomotic leak",
+    "correct_answer": "B",
+    "explanation": "The '5 W's' of post-op fever: Wind (atelectasis/pneumonia), Water (UTI), Wound, Walking (DVT/PE), and Wonder drugs. PE is a major cause of sudden respiratory distress in this window."
+  },
+  {
+    "question": "Which electrolyte abnormality is the most dangerous complication of 'Refeeding Syndrome' in a severely malnourished surgical patient?",
+    "option_a": "Hypernatremia",
+    "option_b": "Hypophosphatemia",
+    "option_c": "Hyperkalemia",
+    "option_d": "Hypocalcemia",
+    "correct_answer": "B",
+    "explanation": "The shift from catabolism to anabolism triggers insulin release, which drives phosphate into cells, causing systemic depletion and cardiac failure."
+  },
+  {
+    "question": "A patient presents with 'recurrent' peptic ulcers and diarrhea. Laboratory tests show a very high fasting serum gastrin level. Diagnosis?",
+    "option_a": "Gastric cancer",
+    "option_b": "Zollinger-Ellison Syndrome (Gastrinoma)",
+    "option_c": "Celiac disease",
+    "option_d": "H. pylori infection only",
+    "correct_answer": "B",
+    "explanation": "Gastrin-secreting tumors (often in the pancreas or duodenum) cause massive acid hypersecretion."
+  },
+  {
+    "question": "What is the most appropriate initial fluid for a patient with 'Hypovolemic Shock' from surgical hemorrhage?",
+    "option_a": "D5W (5% Dextrose)",
+    "option_b": "Isotonic Crystalloids (e.g., Normal Saline or Lactated Ringer's)",
+    "option_c": "0.45% Normal Saline",
+    "option_d": "TPN",
+    "correct_answer": "B",
+    "explanation": "Isotonic fluids expand the intravascular volume effectively, unlike hypotonic fluids which distribute into the intracellular space."
+  },
+  {
+    "question": "Which of the following is true for 'Laparoscopic' surgery compared to open surgery?",
+    "option_a": "Longer hospital stay",
+    "option_b": "Reduced postoperative pain and faster recovery",
+    "option_c": "Increased risk of wound infection",
+    "option_d": "Always requires a larger incision",
+    "correct_answer": "B",
+    "explanation": "Minimally invasive surgery reduces tissue trauma, resulting in quicker return to baseline function."
+  },
+  {
+    "question": "A patient with 'Total Parenteral Nutrition' (TPN) through a central line is at increased risk for which metabolic complication involving the gallbladder?",
+    "option_a": "Gallbladder cancer",
+    "option_b": "Biliary sludge and Cholelithiasis (gallstones)",
+    "option_c": "Liver shrinkage",
+    "option_d": "Excessive bile production",
+    "correct_answer": "B",
+    "explanation": "Lack of enteral stimulation leads to gallbladder stasis (no CCK release), promoting stone formation."
+  },
+  {
+    "question": "Which surgical procedure is standard for a tumor in the 'Head of the Pancreas'?",
+    "option_a": "Distal pancreatectomy",
+    "option_b": "Whipple Procedure (Pancreaticoduodenectomy)",
+    "option_c": "Total Gastrectomy",
+    "option_d": "Cholecystectomy only",
+    "correct_answer": "B",
+    "explanation": "A Whipple involves removing the head of the pancreas, duodenum, gallbladder, and part of the bile duct."
+  },
+  {
+    "question": "A patient presents with a 'Sister Mary Joseph nodule'. Where is this located and what does it indicate?",
+    "option_a": "Groin; indicates hernia",
+    "option_b": "Umbilicus; indicates metastatic intra-abdominal malignancy (often gastric or ovarian)",
+    "option_c": "Neck; indicates thyroid cancer",
+    "option_d": "Axilla; indicates breast cancer",
+    "correct_answer": "B",
+    "explanation": "This periumbilical lymph node is a classic sign of advanced abdominal cancer spread."
+  },
+  {
+    "question": "What is the medication of choice for 'prophylaxis' against DVT in a high-risk surgical patient?",
+    "option_a": "Aspirin only",
+    "option_b": "Low Molecular Weight Heparin (e.g., Enoxaparin) or Unfractionated Heparin",
+    "option_c": "Warfarin",
+    "option_d": "Clopidogrel",
+    "correct_answer": "B",
+    "explanation": "LMWH is preferred for its predictable effect and ease of dosing in the perioperative period."
+  },
+  {
+    "question": "A patient has a large 'Hiatal Hernia' (Type II - Paraesophageal). What is the primary concern that warrants surgical repair?",
+    "option_a": "Simple heartburn",
+    "option_b": "Risk of gastric volvulus or strangulation",
+    "option_c": "Weight gain",
+    "option_d": "Liver failure",
+    "correct_answer": "B",
+    "explanation": "Type II hernias involve the fundus of the stomach sliding up alongside the esophagus, which can lead to life-threatening incarceration."
+  },
+  {
+    "question": "Which of the following findings on CT is most suggestive of 'Pneumoperitoneum'?",
+    "option_a": "Fluid in the pelvis",
+    "option_b": "Free air under the diaphragm or anteriorly in the supine patient",
+    "option_c": "Dilated small bowel",
+    "option_d": "Thickened bowel wall",
+    "correct_answer": "B",
+    "explanation": "Free air indicates a perforated hollow viscus (e.g., stomach or colon)."
+  },
+  {
+    "question": "A 50-year-old male with a 20-year history of GERD is found to have 'Barrett's Esophagus' on endoscopy. This condition is a precursor to:",
+    "option_a": "Squamous cell carcinoma",
+    "option_b": "Esophageal adenocarcinoma",
+    "option_c": "Achalasia",
+    "option_d": "Esophageal varices",
+    "correct_answer": "B",
+    "explanation": "Barrett's is metaplasia of the lower esophagus (squamous to columnar) and significantly increases cancer risk."
+  },
+  {
+    "question": "What is the standard surgical treatment for 'Chronic Cholecystitis' with symptomatic gallstones?",
+    "option_a": "ERCP only",
+    "option_b": "Elective Laparoscopic Cholecystectomy",
+    "option_c": "Oral bile acid dissolution",
+    "option_d": "Lithotripsy",
+    "correct_answer": "B",
+    "explanation": "Removal of the gallbladder is the definitive treatment to prevent future attacks and complications."
+  },
+  {
+    "question": "A patient presents with 'Leriche Syndrome'. What is the triad of symptoms?",
+    "option_a": "Fever, jaundice, pain",
+    "option_b": "Claudication of hips/thighs, impotence, and diminished femoral pulses",
+    "option_c": "Cough, edema, rash",
+    "option_d": "Headache, dizziness, tremor",
+    "correct_answer": "B",
+    "explanation": "Leriche syndrome is caused by aortoiliac occlusive disease."
+  },
+  {
+    "question": "Which of the following is true regarding 'Enteral' vs 'Parenteral' nutrition in surgical patients?",
+    "option_a": "TPN is always better",
+    "option_b": "Enteral nutrition ('If the gut works, use it') is preferred as it maintains gut barrier function and is safer",
+    "option_c": "Enteral nutrition causes more infections than TPN",
+    "option_d": "Enteral nutrition is only for conscious patients",
+    "correct_answer": "B",
+    "explanation": "Enteral feeding reduces the risk of bacterial translocation and central line-associated infections."
+  },
+  {
+    "question": "What does 'Courvoisier's Law' state?",
+    "option_a": "An enlarged gallbladder is always due to stones",
+    "option_b": "In a jaundiced patient, a palpable non-tender gallbladder is unlikely to be caused by stones and suggests malignancy",
+    "option_c": "Bile is green",
+    "option_d": "Surgery is always needed for jaundice",
+    "correct_answer": "B",
+    "explanation": "Gallstones usually cause scarring/shrinkage of the gallbladder; a distended one suggests a slow-growing distal obstruction like cancer."
+  },
+  {
+    "question": "A patient POD 1 after surgery has a fever of 38.5°C. Chest exam shows decreased breath sounds at the bases. Diagnosis?",
+    "option_a": "Pneumonia",
+    "option_b": "Atelectasis",
+    "option_c": "Pulmonary embolism",
+    "option_d": "Wound infection",
+    "correct_answer": "B",
+    "explanation": "Atelectasis (collapse of small airways) is the most common cause of early postoperative fever."
+  },
+  {
+    "question": "Which 'Hepatobiliary' test is the most sensitive for detecting early biliary obstruction?",
+    "option_a": "ALT",
+    "option_b": "Alkaline Phosphatase (ALP) and GGT",
+    "option_c": "Albumin",
+    "option_d": "PT/INR",
+    "correct_answer": "B",
+    "explanation": "ALP and GGT are 'cholestatic' enzymes that rise when bile flow is impaired."
+  },
+  {
+    "question": "What is the primary risk of 'Carotid Endarterectomy' (CEA)?",
+    "option_a": "Leg pain",
+    "option_b": "Perioperative Stroke",
+    "option_c": "Kidney failure",
+    "option_d": "Liver failure",
+    "correct_answer": "B",
+    "explanation": "CEA aims to prevent long-term stroke, but the procedure itself carries a small risk of embolic or hemorrhagic stroke."
+  },
+  {
+    "question": "A patient with 'Acute Ascending Cholangitis' presents with 'Reynold's Pentad'. What are the two symptoms added to Charcot's triad?",
+    "option_a": "Rash and diarrhea",
+    "option_b": "Altered mental status and hypotension (Shock)",
+    "option_c": "Vomiting and cough",
+    "option_d": "Bradycardia and hypothermia",
+    "correct_answer": "B",
+    "explanation": "Reynold's pentad indicates severe, life-threatening biliary sepsis."
+  },
+  {
+    "question": "What is the definitive treatment for 'Esophageal Variceal' bleeding after failure of medical and endoscopic management?",
+    "option_a": "Aspirin",
+    "option_b": "TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
+    "option_c": "Esophagectomy",
+    "option_d": "Total gastrectomy",
+    "correct_answer": "B",
+    "explanation": "TIPS decompresses the portal system, reducing the pressure that causes varices to bleed."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Acute Pancreatitis'?",
+    "option_a": "Pain relieved by eating",
+    "option_b": "Epigastric pain radiating to the back, relieved by leaning forward",
+    "option_c": "Pain in the RLQ",
+    "option_d": "Painless jaundice",
+    "correct_answer": "B",
+    "explanation": "The retroperitoneal location of the pancreas explains the back radiation and the relief felt when leaning forward."
+  },
+  {
+    "question": "Which 'Vascular' procedure is used to treat critical limb-threatening ischemia when endovascular options are not possible?",
+    "option_a": "Venous stripping",
+    "option_b": "Arterial Bypass surgery (e.g., Fem-Pop bypass)",
+    "option_c": "Amputation for everyone",
+    "option_d": "High-dose steroids",
+    "correct_answer": "B",
+    "explanation": "Bypass using an autologous vein or synthetic graft restores blood flow to the distal limb."
+  },
+  {
+    "question": "A patient with 'Crohn's Disease' is most likely to require surgery for which complication?",
+    "option_a": "Common cold",
+    "option_b": "Strictures, fistulas, or perianal abscesses",
+    "option_c": "Hyperthyroidism",
+    "option_d": "Hair loss",
+    "correct_answer": "B",
+    "explanation": "Transmural inflammation in Crohn's leads to scarring (strictures) and connections between organs (fistulas)."
+  },
+  {
+    "question": "What is the 'Gold Standard' for diagnosing a 'Pulmonary Embolism' in a stable patient?",
+    "option_a": "Chest X-ray",
+    "option_b": "CT Pulmonary Angiography (CTPA)",
+    "option_c": "D-dimer",
+    "option_d": "EKG",
+    "correct_answer": "B",
+    "explanation": "CTPA provides direct visualization of the thrombus in the pulmonary arteries."
+  },
+  {
+    "question": "Which electrolyte must be monitored closely when a patient is on high doses of 'Furosemide' (Lasix)?",
+    "option_a": "Sodium only",
+    "option_b": "Potassium (Hypokalemia risk)",
+    "option_c": "Calcium only",
+    "option_d": "Phosphorus",
+    "correct_answer": "B",
+    "explanation": "Loop diuretics increase the excretion of potassium, which can lead to dangerous cardiac arrhythmias."
+  },
+  {
+    "question": "A patient with 'Biliary Atresia' requires which surgical procedure in infancy?",
+    "option_a": "Whipple",
+    "option_b": "Kasai Procedure (Hepatoportoenterostomy)",
+    "option_c": "Total colectomy",
+    "option_d": "Splenectomy",
+    "correct_answer": "B",
+    "explanation": "The Kasai procedure attempts to restore bile flow by connecting the liver surface to the small intestine."
+  },
+  {
+    "question": "What is the primary risk of 'ERCP' (Endoscopic Retrograde Cholangiopancreatography)?",
+    "option_a": "Liver failure",
+    "option_b": "Post-ERCP Pancreatitis",
+    "option_c": "Blindness",
+    "option_d": "Hair loss",
+    "correct_answer": "B",
+    "explanation": "Irritation of the pancreatic duct during the procedure occurs in 3-10% of cases."
+  },
+  {
+    "question": "Which of the following is true for 'Gastric Ulcer' biopsy?",
+    "option_a": "It is never needed",
+    "option_b": "All gastric ulcers must be biopsied to rule out malignancy, unlike duodenal ulcers",
+    "option_c": "Only bleeding ulcers are biopsied",
+    "option_d": "Biopsy is only for H. pylori",
+    "correct_answer": "B",
+    "explanation": "A significant percentage of gastric ulcers are actually ulcerated gastric cancers."
+  },
+  {
+    "question": "A patient presents with 'dysphagia to both solids and liquids' from the start. Diagnosis?",
+    "option_a": "Esophageal cancer (typically solids first)",
+    "option_b": "Achalasia (Motility disorder)",
+    "option_c": "Esophageal web",
+    "option_d": "Foreign body",
+    "correct_answer": "B",
+    "explanation": "Motility disorders like achalasia affect the handling of both solids and liquids simultaneously."
+  },
+  {
+    "question": "What is the 'Rule of 9s' used for in surgery?",
+    "option_a": "Estimating survival in cancer",
+    "option_b": "Estimating the Total Body Surface Area (TBSA) of burns",
+    "option_c": "Calculating fluid for heart failure",
+    "option_d": "Measuring the size of a hernia",
+    "correct_answer": "B",
+    "explanation": "It provides a quick way to estimate burn size for initial fluid resuscitation (Parkland formula)."
+  },
+  {
+    "question": "A patient has a 'Trousseau sign' (migratory thrombophlebitis). This is classically associated with:",
+    "option_a": "Breast cancer",
+    "option_b": "Pancreatic adenocarcinoma",
+    "option_c": "Skin cancer",
+    "option_d": "Lung cancer",
+    "correct_answer": "B",
+    "explanation": "This paraneoplastic syndrome involves recurrent blood clots in different locations."
+  },
+  {
+    "question": "Which of the following describes 'Gastroschisis'?",
+    "option_a": "Bowel covered by a sac at the umbilicus",
+    "option_b": "Full-thickness abdominal wall defect with exposed bowel, usually to the right of the umbilicus",
+    "option_c": "A type of stomach ulcer",
+    "option_d": "Infection of the stomach",
+    "correct_answer": "B",
+    "explanation": "Unlike omphalocele, the bowel in gastroschisis is 'naked' (no peritoneal covering) and exposed to amniotic fluid."
+  },
+  {
+    "question": "What is the primary management for 'Acute Limb Ischemia' (the 6 P's)?",
+    "option_a": "Warm compresses only",
+    "option_b": "Immediate anticoagulation (Heparin) and urgent revascularization (Embolectomy/Bypass)",
+    "option_c": "Physical therapy",
+    "option_d": "Wait for 24 hours",
+    "correct_answer": "B",
+    "explanation": "Acute limb ischemia is a surgical emergency; delaying treatment leads to irreversible muscle necrosis and amputation."
+  },
+  {
+    "question": "Which classification is used to grade the severity of 'Liver Cirrhosis' and prioritize transplant?",
+    "option_a": "TNM",
+    "option_b": "Child-Pugh Score and MELD Score",
+    "option_c": "Glasgow Coma Scale",
+    "option_d": "ASA",
+    "correct_answer": "B",
+    "explanation": "MELD (Model for End-Stage Liver Disease) uses bilirubin, INR, and creatinine to predict mortality."
+  },
+  {
+    "question": "A patient with 'hyperkalemia' (K=6.5) and ECG changes should receive which drug first to stabilize the heart?",
+    "option_a": "Insulin",
+    "option_b": "Calcium Gluconate (or Chloride)",
+    "option_c": "Furosemide",
+    "option_d": "Albuterol",
+    "correct_answer": "B",
+    "explanation": "Calcium does not lower potassium but antagonizes its effects on the cardiac membrane to prevent arrest."
+  },
+  {
+    "question": "What is the most common histological type of 'Esophageal Cancer' worldwide?",
+    "option_a": "Adenocarcinoma (increasing in West)",
+    "option_b": "Squamous Cell Carcinoma",
+    "option_c": "Lymphoma",
+    "option_d": "Small cell carcinoma",
+    "correct_answer": "B",
+    "explanation": "While adenocarcinoma is rising due to GERD/obesity, squamous cell (linked to smoking/alcohol) remains the most common globally."
+  },
+  {
+    "question": "Which of the following describes 'Mesothelioma'?",
+    "option_a": "Cancer of the colon",
+    "option_b": "Malignant tumor of the pleura, strongly associated with asbestos exposure",
+    "option_c": "Infection of the lungs",
+    "option_d": "Benign skin growth",
+    "correct_answer": "B",
+    "explanation": "Mesothelioma is an aggressive cancer with a long latent period after exposure."
+  },
+  {
+    "question": "A patient with 'Gallstone Pancreatitis' should ideally undergo which procedure before discharge?",
+    "option_a": "ERCP only",
+    "option_b": "Laparoscopic Cholecystectomy (to prevent recurrence)",
+    "option_c": "Total pancreatectomy",
+    "option_d": "Weight loss surgery",
+    "correct_answer": "B",
+    "explanation": "Performing the cholecystectomy during the same admission significantly reduces the risk of another potentially fatal attack."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Splenic Artery Aneurysm' rupture?",
+    "option_a": "Right sided pain",
+    "option_b": "Sudden LUQ pain and hemorrhagic shock (especially in pregnancy)",
+    "option_c": "Slow weight gain",
+    "option_d": "Normal blood pressure",
+    "correct_answer": "B",
+    "explanation": "Splenic artery aneurysms are the most common visceral artery aneurysms; rupture is a major emergency."
+  },
+  {
+    "question": "What is the primary treatment for 'Hypermagnesemia' causing loss of reflexes?",
+    "option_a": "More magnesium",
+    "option_b": "IV Calcium and fluids",
+    "option_c": "Steroids",
+    "option_d": "Aspirin",
+    "correct_answer": "B",
+    "explanation": "Calcium antagonizes the neuromuscular effects of high magnesium."
+  }
+]
