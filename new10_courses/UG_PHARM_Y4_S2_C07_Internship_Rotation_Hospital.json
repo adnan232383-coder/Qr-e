@@ -1,0 +1,1806 @@
+{
+  "course_name": "Internship / Rotation (Hospital)",
+  "course_code": "UG_PHARM_Y4_S2_C07",
+  "questions": [
+    {
+      "question": "Which statement best describes Medication order verification?",
+      "option_a": "Renal dosing",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Reviewing appropriateness before dispensing/administration",
+      "option_d": "Interpreting levels to optimize dosing",
+      "correct_answer": "C",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "In practice, the key objective of Medication order verification is to:",
+      "option_a": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_b": "Reduces costs and complications; ensure absorption and stability.",
+      "option_c": "Using formulary and restriction policies",
+      "option_d": "Interpreting levels to optimize dosing",
+      "correct_answer": "A",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "Which statement best describes IV-to-PO conversion?",
+      "option_a": "Switching from IV to oral therapy when criteria met",
+      "option_b": "Supports cost-effectiveness and stewardship.",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Rounds participation",
+      "correct_answer": "A",
+      "explanation": "Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "In practice, the key objective of IV-to-PO conversion is to:",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Assess bleeding risk, labs, and transitions of care.",
+      "option_c": "Reduces costs and complications; ensure absorption and stability.",
+      "option_d": "Collaborating with team to optimize therapy",
+      "correct_answer": "C",
+      "explanation": "IV-to-PO conversion: Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "Which statement best describes Therapeutic drug monitoring?",
+      "option_a": "Rounds participation",
+      "option_b": "Interpreting levels to optimize dosing",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Adjusting dosing based on kidney function",
+      "correct_answer": "B",
+      "explanation": "Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "In practice, the key objective of Therapeutic drug monitoring is to:",
+      "option_a": "Monitoring and adjusting anticoagulants",
+      "option_b": "IV-to-PO conversion",
+      "option_c": "Consider timing, steady state, and renal function.",
+      "option_d": "Anticoagulation management",
+      "correct_answer": "C",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "Which statement best describes Medication safety reporting?",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Anticoagulation management",
+      "option_c": "Reviewing appropriateness before dispensing/administration",
+      "option_d": "Therapeutic drug monitoring",
+      "correct_answer": "A",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "In practice, the key objective of Medication safety reporting is to:",
+      "option_a": "Using formulary and restriction policies",
+      "option_b": "IV-to-PO conversion",
+      "option_c": "Non-punitive reporting supports prevention and learning.",
+      "option_d": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "correct_answer": "C",
+      "explanation": "Medication safety reporting: Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "Which statement best describes Rounds participation?",
+      "option_a": "Switching from IV to oral therapy when criteria met",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Ensuring patient understands regimen at discharge",
+      "option_d": "Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "In practice, the key objective of Rounds participation is to:",
+      "option_a": "Medication order verification",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "correct_answer": "B",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "Which statement best describes Renal dosing?",
+      "option_a": "Renal dosing",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Adjusting dosing based on kidney function",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "C",
+      "explanation": "Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "In practice, the key objective of Renal dosing is to:",
+      "option_a": "Collaborating with team to optimize therapy",
+      "option_b": "Formulary management",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "correct_answer": "D",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "Which statement best describes Anticoagulation management?",
+      "option_a": "Communicate recommendations clearly with supporting evidence.",
+      "option_b": "Medication safety reporting",
+      "option_c": "Collaborating with team to optimize therapy",
+      "option_d": "Monitoring and adjusting anticoagulants",
+      "correct_answer": "D",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "In practice, the key objective of Anticoagulation management is to:",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Assess bleeding risk, labs, and transitions of care.",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Medication safety reporting",
+      "correct_answer": "B",
+      "explanation": "Anticoagulation management: Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "Which statement best describes Formulary management?",
+      "option_a": "Aseptic technique awareness",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Renal dosing",
+      "option_d": "Using formulary and restriction policies",
+      "correct_answer": "D",
+      "explanation": "Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "In practice, the key objective of Formulary management is to:",
+      "option_a": "Therapeutic drug monitoring",
+      "option_b": "Reporting errors/near misses to improve systems",
+      "option_c": "Supports cost-effectiveness and stewardship.",
+      "option_d": "IV-to-PO conversion",
+      "correct_answer": "C",
+      "explanation": "Formulary management: Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "Which statement best describes Aseptic technique awareness?",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "C",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "In practice, the key objective of Aseptic technique awareness is to:",
+      "option_a": "IV-to-PO conversion",
+      "option_b": "Prevents contamination in sterile compounding and administration.",
+      "option_c": "Anticoagulation management",
+      "option_d": "Monitoring and adjusting anticoagulants",
+      "correct_answer": "B",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "Which statement best describes Discharge counseling?",
+      "option_a": "Therapeutic drug monitoring",
+      "option_b": "Medication safety reporting",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "In practice, the key objective of Discharge counseling is to:",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Medication order verification",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 21) Discharge counseling is BEST defined as:",
+      "option_a": "Ensuring patient understands regimen at discharge",
+      "option_b": "Adjusting dosing based on kidney function",
+      "option_c": "Rounds participation",
+      "option_d": "Discharge counseling",
+      "correct_answer": "A",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 22) Which statement is TRUE?",
+      "option_a": "Medication order verification: Using formulary and restriction policies",
+      "option_b": "Renal dosing: Reviewing appropriateness before dispensing/administration",
+      "option_c": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_d": "Formulary management: Monitoring and adjusting anticoagulants",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 23) A common pitfall related to Medication order verification is:",
+      "option_a": "Therapeutic drug monitoring issues often arise when documentation is complete.",
+      "option_b": "Medication order verification issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Aseptic technique awareness issues often arise when training is excellent.",
+      "option_d": "Renal dosing issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 24) A common pitfall related to Medication order verification is:",
+      "option_a": "Anticoagulation management issues often arise when monitoring is rigorous.",
+      "option_b": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "option_c": "Formulary management issues often arise when documentation is complete.",
+      "option_d": "Medication order verification issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 25) Discharge counseling is BEST defined as:",
+      "option_a": "Ensuring patient understands regimen at discharge",
+      "option_b": "Medication safety reporting",
+      "option_c": "Collaborating with team to optimize therapy",
+      "option_d": "Medication order verification",
+      "correct_answer": "A",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 26) Which option is MOST appropriate regarding IV-to-PO conversion?",
+      "option_a": "Reduces costs and complications; ensure absorption and stability.",
+      "option_b": "Non-punitive reporting supports prevention and learning.",
+      "option_c": "Medication safety reporting",
+      "option_d": "Therapeutic drug monitoring",
+      "correct_answer": "A",
+      "explanation": "Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 27) Which option is MOST appropriate regarding Aseptic technique awareness?",
+      "option_a": "Collaborating with team to optimize therapy",
+      "option_b": "Reduces costs and complications; ensure absorption and stability.",
+      "option_c": "Aseptic technique awareness",
+      "option_d": "Prevents contamination in sterile compounding and administration.",
+      "correct_answer": "D",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 28) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Understanding sterile handling requirements",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Consider timing, steady state, and renal function.",
+      "correct_answer": "C",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 29) Aseptic technique awareness is BEST defined as:",
+      "option_a": "Understanding sterile handling requirements",
+      "option_b": "Adjusting dosing based on kidney function",
+      "option_c": "Renal dosing",
+      "option_d": "Switching from IV to oral therapy when criteria met",
+      "correct_answer": "A",
+      "explanation": "Aseptic technique awareness: Understanding sterile handling requirements"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 30) A common pitfall related to Renal dosing is:",
+      "option_a": "Rounds participation issues often arise when monitoring is rigorous.",
+      "option_b": "Medication safety reporting issues often arise when monitoring is rigorous.",
+      "option_c": "Aseptic technique awareness issues often arise when documentation is complete.",
+      "option_d": "Renal dosing issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 31) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_b": "Renal dosing: Ensuring patient understands regimen at discharge",
+      "option_c": "Renal dosing: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "correct_answer": "D",
+      "explanation": "Anticoagulation management: Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 32) Medication safety reporting is BEST defined as:",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "IV-to-PO conversion",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Anticoagulation management",
+      "correct_answer": "A",
+      "explanation": "Medication safety reporting: Reporting errors/near misses to improve systems"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 33) Medication safety reporting is BEST defined as:",
+      "option_a": "Prevents contamination in sterile compounding and administration.",
+      "option_b": "Discharge counseling",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Medication order verification",
+      "correct_answer": "C",
+      "explanation": "Medication safety reporting: Reporting errors/near misses to improve systems"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 34) A common pitfall related to Renal dosing is:",
+      "option_a": "Renal dosing issues often arise when communication is unclear.",
+      "option_b": "Formulary management issues often arise when all policies are followed.",
+      "option_c": "Anticoagulation management issues often arise when all policies are followed.",
+      "option_d": "Anticoagulation management issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 35) A common pitfall related to Renal dosing is:",
+      "option_a": "IV-to-PO conversion issues often arise when documentation is complete.",
+      "option_b": "Therapeutic drug monitoring issues often arise when all policies are followed.",
+      "option_c": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "option_d": "Renal dosing issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 36) Discharge counseling is BEST defined as:",
+      "option_a": "Assess bleeding risk, labs, and transitions of care.",
+      "option_b": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_c": "Ensuring patient understands regimen at discharge",
+      "option_d": "Interpreting levels to optimize dosing",
+      "correct_answer": "C",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 37) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "IV-to-PO conversion issues often arise when communication is unclear.",
+      "option_b": "IV-to-PO conversion issues often arise when all policies are followed.",
+      "option_c": "Anticoagulation management issues often arise when monitoring is rigorous.",
+      "option_d": "Renal dosing issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 38) A common pitfall related to Anticoagulation management is:",
+      "option_a": "Anticoagulation management issues often arise when documentation is incomplete.",
+      "option_b": "Therapeutic drug monitoring issues often arise when monitoring is rigorous.",
+      "option_c": "Rounds participation issues often arise when documentation is complete.",
+      "option_d": "Rounds participation issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 39) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_b": "Medication safety reporting: Understanding sterile handling requirements",
+      "option_c": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Medication safety reporting: Using formulary and restriction policies",
+      "correct_answer": "A",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 40) Medication order verification is BEST defined as:",
+      "option_a": "Ensuring patient understands regimen at discharge",
+      "option_b": "Reviewing appropriateness before dispensing/administration",
+      "option_c": "Using formulary and restriction policies",
+      "option_d": "Assess bleeding risk, labs, and transitions of care.",
+      "correct_answer": "B",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 41) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Ensuring patient understands regimen at discharge",
+      "option_b": "IV-to-PO conversion: Reviewing appropriateness before dispensing/administration",
+      "option_c": "Medication safety reporting: Reporting errors/near misses to improve systems",
+      "option_d": "Formulary management: Using formulary and restriction policies",
+      "correct_answer": "D",
+      "explanation": "Formulary management: Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 42) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "option_b": "Rounds participation: Collaborating with team to optimize therapy",
+      "option_c": "Rounds participation: Understanding sterile handling requirements",
+      "option_d": "Anticoagulation management: Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 43) Which statement is TRUE?",
+      "option_a": "Medication order verification: Reporting errors/near misses to improve systems",
+      "option_b": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_c": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Medication safety reporting: Collaborating with team to optimize therapy",
+      "correct_answer": "B",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 44) Medication order verification is BEST defined as:",
+      "option_a": "Adjusting dosing based on kidney function",
+      "option_b": "Assess bleeding risk, labs, and transitions of care.",
+      "option_c": "Interpreting levels to optimize dosing",
+      "option_d": "Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "D",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 45) A common pitfall related to Renal dosing is:",
+      "option_a": "Medication order verification issues often arise when monitoring is rigorous.",
+      "option_b": "Therapeutic drug monitoring issues often arise when monitoring is rigorous.",
+      "option_c": "Renal dosing issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 46) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_b": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_c": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_d": "Aseptic technique awareness: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "C",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 47) Which option is MOST appropriate regarding Anticoagulation management?",
+      "option_a": "Using formulary and restriction policies",
+      "option_b": "Assess bleeding risk, labs, and transitions of care.",
+      "option_c": "IV-to-PO conversion",
+      "option_d": "Non-punitive reporting supports prevention and learning.",
+      "correct_answer": "B",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 48) Which option is MOST appropriate regarding Formulary management?",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Consider timing, steady state, and renal function.",
+      "option_c": "Using formulary and restriction policies",
+      "option_d": "Adjusting dosing based on kidney function",
+      "correct_answer": "A",
+      "explanation": "Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 49) Which statement is TRUE?",
+      "option_a": "Medication order verification: Interpreting levels to optimize dosing",
+      "option_b": "Rounds participation: Understanding sterile handling requirements",
+      "option_c": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_d": "IV-to-PO conversion: Interpreting levels to optimize dosing",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 50) Which statement is TRUE?",
+      "option_a": "Medication safety reporting: Monitoring and adjusting anticoagulants",
+      "option_b": "Medication safety reporting: Reporting errors/near misses to improve systems",
+      "option_c": "Formulary management: Monitoring and adjusting anticoagulants",
+      "option_d": "Aseptic technique awareness: Ensuring patient understands regimen at discharge",
+      "correct_answer": "B",
+      "explanation": "Medication safety reporting: Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 51) Which option is MOST appropriate regarding Medication safety reporting?",
+      "option_a": "Aseptic technique awareness",
+      "option_b": "Supports cost-effectiveness and stewardship.",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Non-punitive reporting supports prevention and learning.",
+      "correct_answer": "D",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 52) Medication order verification is BEST defined as:",
+      "option_a": "Adjusting dosing based on kidney function",
+      "option_b": "Rounds participation",
+      "option_c": "Reviewing appropriateness before dispensing/administration",
+      "option_d": "Prevents contamination in sterile compounding and administration.",
+      "correct_answer": "C",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 53) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "correct_answer": "B",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 54) Which option is MOST appropriate regarding Rounds participation?",
+      "option_a": "Communicate recommendations clearly with supporting evidence.",
+      "option_b": "Consider timing, steady state, and renal function.",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Monitoring and adjusting anticoagulants",
+      "correct_answer": "A",
+      "explanation": "Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 55) Which statement is TRUE?",
+      "option_a": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_b": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met",
+      "option_c": "Medication safety reporting: Interpreting levels to optimize dosing",
+      "option_d": "Medication order verification: Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "IV-to-PO conversion: Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 56) Which statement is TRUE?",
+      "option_a": "Medication order verification: Collaborating with team to optimize therapy",
+      "option_b": "Anticoagulation management: Adjusting dosing based on kidney function",
+      "option_c": "Medication safety reporting: Monitoring and adjusting anticoagulants",
+      "option_d": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "correct_answer": "D",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 57) A common pitfall related to Medication safety reporting is:",
+      "option_a": "IV-to-PO conversion issues often arise when training is excellent.",
+      "option_b": "Formulary management issues often arise when all policies are followed.",
+      "option_c": "Aseptic technique awareness issues often arise when all policies are followed.",
+      "option_d": "Medication safety reporting issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 58) A common pitfall related to Therapeutic drug monitoring is:",
+      "option_a": "Medication safety reporting issues often arise when monitoring is rigorous.",
+      "option_b": "Therapeutic drug monitoring issues often arise when training is excellent.",
+      "option_c": "Formulary management issues often arise when documentation is complete.",
+      "option_d": "Therapeutic drug monitoring issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 59) A common pitfall related to Formulary management is:",
+      "option_a": "Renal dosing issues often arise when all policies are followed.",
+      "option_b": "Formulary management issues often arise when communication is unclear.",
+      "option_c": "Formulary management issues often arise when monitoring is rigorous.",
+      "option_d": "Renal dosing issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 60) Medication order verification is BEST defined as:",
+      "option_a": "Non-punitive reporting supports prevention and learning.",
+      "option_b": "Reviewing appropriateness before dispensing/administration",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Renal dosing",
+      "correct_answer": "B",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 61) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_b": "Understanding sterile handling requirements",
+      "option_c": "Medication order verification",
+      "option_d": "Therapeutic drug monitoring",
+      "correct_answer": "A",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 62) Aseptic technique awareness is BEST defined as:",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Reduces costs and complications; ensure absorption and stability.",
+      "option_c": "Medication order verification",
+      "option_d": "Understanding sterile handling requirements",
+      "correct_answer": "D",
+      "explanation": "Aseptic technique awareness: Understanding sterile handling requirements"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 63) Which statement is TRUE?",
+      "option_a": "IV-to-PO conversion: Interpreting levels to optimize dosing",
+      "option_b": "Rounds participation: Adjusting dosing based on kidney function",
+      "option_c": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met",
+      "option_d": "Formulary management: Collaborating with team to optimize therapy",
+      "correct_answer": "C",
+      "explanation": "IV-to-PO conversion: Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 64) Which option is MOST appropriate regarding Aseptic technique awareness?",
+      "option_a": "Monitoring and adjusting anticoagulants",
+      "option_b": "Reporting errors/near misses to improve systems",
+      "option_c": "Medication safety reporting",
+      "option_d": "Prevents contamination in sterile compounding and administration.",
+      "correct_answer": "D",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 65) Which option is MOST appropriate regarding Renal dosing?",
+      "option_a": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Rounds participation",
+      "option_d": "Using formulary and restriction policies",
+      "correct_answer": "A",
+      "explanation": "Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 66) Which statement is TRUE?",
+      "option_a": "Medication safety reporting: Reporting errors/near misses to improve systems",
+      "option_b": "Discharge counseling: Monitoring and adjusting anticoagulants",
+      "option_c": "Discharge counseling: Adjusting dosing based on kidney function",
+      "option_d": "Renal dosing: Collaborating with team to optimize therapy",
+      "correct_answer": "A",
+      "explanation": "Medication safety reporting: Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 67) Which statement is TRUE?",
+      "option_a": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_b": "Aseptic technique awareness: Interpreting levels to optimize dosing",
+      "option_c": "Discharge counseling: Collaborating with team to optimize therapy",
+      "option_d": "Formulary management: Adjusting dosing based on kidney function",
+      "correct_answer": "A",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 68) Which statement is TRUE?",
+      "option_a": "Renal dosing: Switching from IV to oral therapy when criteria met",
+      "option_b": "IV-to-PO conversion: Using formulary and restriction policies",
+      "option_c": "Therapeutic drug monitoring: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "correct_answer": "D",
+      "explanation": "Anticoagulation management: Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 69) Medication order verification is BEST defined as:",
+      "option_a": "Reviewing appropriateness before dispensing/administration",
+      "option_b": "IV-to-PO conversion",
+      "option_c": "Rounds participation",
+      "option_d": "Formulary management",
+      "correct_answer": "A",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 70) Which statement is TRUE?",
+      "option_a": "Rounds participation: Interpreting levels to optimize dosing",
+      "option_b": "Medication order verification: Interpreting levels to optimize dosing",
+      "option_c": "IV-to-PO conversion: Collaborating with team to optimize therapy",
+      "option_d": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 71) A common pitfall related to Renal dosing is:",
+      "option_a": "Medication safety reporting issues often arise when documentation is complete.",
+      "option_b": "Renal dosing issues often arise when documentation is incomplete.",
+      "option_c": "Therapeutic drug monitoring issues often arise when documentation is complete.",
+      "option_d": "Medication safety reporting issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 72) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Assess bleeding risk, labs, and transitions of care.",
+      "option_b": "Ensuring patient understands regimen at discharge",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Supports cost-effectiveness and stewardship.",
+      "correct_answer": "C",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 73) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "option_b": "Medication safety reporting: Adjusting dosing based on kidney function",
+      "option_c": "IV-to-PO conversion: Using formulary and restriction policies",
+      "option_d": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 74) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Switching from IV to oral therapy when criteria met",
+      "option_b": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_c": "Medication safety reporting",
+      "option_d": "Collaborating with team to optimize therapy",
+      "correct_answer": "A",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 75) A common pitfall related to Renal dosing is:",
+      "option_a": "Medication order verification issues often arise when all policies are followed.",
+      "option_b": "Renal dosing issues often arise when documentation is incomplete.",
+      "option_c": "Discharge counseling issues often arise when documentation is complete.",
+      "option_d": "Aseptic technique awareness issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 76) Which option is MOST appropriate regarding Medication safety reporting?",
+      "option_a": "Reviewing appropriateness before dispensing/administration",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Non-punitive reporting supports prevention and learning.",
+      "option_d": "IV-to-PO conversion",
+      "correct_answer": "C",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 77) Which statement is TRUE?",
+      "option_a": "Rounds participation: Reviewing appropriateness before dispensing/administration",
+      "option_b": "Discharge counseling: Adjusting dosing based on kidney function",
+      "option_c": "Rounds participation: Understanding sterile handling requirements",
+      "option_d": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 78) Which option is MOST appropriate regarding Rounds participation?",
+      "option_a": "Consider timing, steady state, and renal function.",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Rounds participation",
+      "option_d": "Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 79) A common pitfall related to Medication safety reporting is:",
+      "option_a": "Formulary management issues often arise when documentation is complete.",
+      "option_b": "Renal dosing issues often arise when all policies are followed.",
+      "option_c": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "option_d": "Medication safety reporting issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 80) Medication safety reporting is BEST defined as:",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Reduces costs and complications; ensure absorption and stability.",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Renal dosing",
+      "correct_answer": "A",
+      "explanation": "Medication safety reporting: Reporting errors/near misses to improve systems"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 81) Which statement is TRUE?",
+      "option_a": "IV-to-PO conversion: Interpreting levels to optimize dosing",
+      "option_b": "Rounds participation: Collaborating with team to optimize therapy",
+      "option_c": "Medication order verification: Adjusting dosing based on kidney function",
+      "option_d": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "B",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 82) A common pitfall related to Renal dosing is:",
+      "option_a": "IV-to-PO conversion issues often arise when documentation is complete.",
+      "option_b": "IV-to-PO conversion issues often arise when all policies are followed.",
+      "option_c": "Formulary management issues often arise when documentation is complete.",
+      "option_d": "Renal dosing issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 83) Which option is MOST appropriate regarding Anticoagulation management?",
+      "option_a": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_b": "Monitoring and adjusting anticoagulants",
+      "option_c": "Assess bleeding risk, labs, and transitions of care.",
+      "option_d": "Switching from IV to oral therapy when criteria met",
+      "correct_answer": "C",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 84) Rounds participation is BEST defined as:",
+      "option_a": "Formulary management",
+      "option_b": "Rounds participation",
+      "option_c": "Collaborating with team to optimize therapy",
+      "option_d": "Communicate recommendations clearly with supporting evidence.",
+      "correct_answer": "C",
+      "explanation": "Rounds participation: Collaborating with team to optimize therapy"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 85) Anticoagulation management is BEST defined as:",
+      "option_a": "Monitoring and adjusting anticoagulants",
+      "option_b": "Interpreting levels to optimize dosing",
+      "option_c": "Therapeutic drug monitoring",
+      "option_d": "Discharge counseling",
+      "correct_answer": "A",
+      "explanation": "Anticoagulation management: Monitoring and adjusting anticoagulants"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 86) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Formulary management",
+      "option_b": "Aseptic technique awareness",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "correct_answer": "D",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 87) A common pitfall related to Discharge counseling is:",
+      "option_a": "Discharge counseling issues often arise when documentation is incomplete.",
+      "option_b": "Aseptic technique awareness issues often arise when documentation is complete.",
+      "option_c": "Aseptic technique awareness issues often arise when documentation is complete.",
+      "option_d": "Medication order verification issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 88) Which option is MOST appropriate regarding Aseptic technique awareness?",
+      "option_a": "Anticoagulation management",
+      "option_b": "Switching from IV to oral therapy when criteria met",
+      "option_c": "Prevents contamination in sterile compounding and administration.",
+      "option_d": "Reduces costs and complications; ensure absorption and stability.",
+      "correct_answer": "C",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 89) Therapeutic drug monitoring is BEST defined as:",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Medication order verification",
+      "option_c": "Prevents contamination in sterile compounding and administration.",
+      "option_d": "Aseptic technique awareness",
+      "correct_answer": "A",
+      "explanation": "Therapeutic drug monitoring: Interpreting levels to optimize dosing"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 90) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Reduces costs and complications; ensure absorption and stability.",
+      "option_b": "Switching from IV to oral therapy when criteria met",
+      "option_c": "Communicate recommendations clearly with supporting evidence.",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "B",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 91) Which statement is TRUE?",
+      "option_a": "Therapeutic drug monitoring: Ensuring patient understands regimen at discharge",
+      "option_b": "Rounds participation: Interpreting levels to optimize dosing",
+      "option_c": "Therapeutic drug monitoring: Collaborating with team to optimize therapy",
+      "option_d": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "correct_answer": "D",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 92) Which option is MOST appropriate regarding Rounds participation?",
+      "option_a": "Communicate recommendations clearly with supporting evidence.",
+      "option_b": "Therapeutic drug monitoring",
+      "option_c": "Medication order verification",
+      "option_d": "Monitoring and adjusting anticoagulants",
+      "correct_answer": "A",
+      "explanation": "Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 93) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Interpreting levels to optimize dosing",
+      "option_b": "Renal dosing: Understanding sterile handling requirements",
+      "option_c": "Medication safety reporting: Adjusting dosing based on kidney function",
+      "option_d": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "correct_answer": "D",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 94) A common pitfall related to Medication order verification is:",
+      "option_a": "Formulary management issues often arise when training is excellent.",
+      "option_b": "Medication order verification issues often arise when monitoring is rigorous.",
+      "option_c": "Aseptic technique awareness issues often arise when training is excellent.",
+      "option_d": "Medication order verification issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 95) Which option is MOST appropriate regarding Renal dosing?",
+      "option_a": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_b": "Renal dosing",
+      "option_c": "Anticoagulation management",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "A",
+      "explanation": "Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 96) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_b": "Medication safety reporting",
+      "option_c": "Interpreting levels to optimize dosing",
+      "option_d": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "correct_answer": "D",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 97) Which statement is TRUE?",
+      "option_a": "Rounds participation: Interpreting levels to optimize dosing",
+      "option_b": "Therapeutic drug monitoring: Reporting errors/near misses to improve systems",
+      "option_c": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "option_d": "Therapeutic drug monitoring: Switching from IV to oral therapy when criteria met",
+      "correct_answer": "C",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 98) Which statement is TRUE?",
+      "option_a": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_b": "Therapeutic drug monitoring: Understanding sterile handling requirements",
+      "option_c": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "correct_answer": "C",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 99) A common pitfall related to Discharge counseling is:",
+      "option_a": "Discharge counseling issues often arise when communication is unclear.",
+      "option_b": "Discharge counseling issues often arise when training is excellent.",
+      "option_c": "Therapeutic drug monitoring issues often arise when all policies are followed.",
+      "option_d": "Therapeutic drug monitoring issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 100) Which option is MOST appropriate regarding Anticoagulation management?",
+      "option_a": "Reviewing appropriateness before dispensing/administration",
+      "option_b": "Focus on changes, adherence, side effects, and follow-up.",
+      "option_c": "Assess bleeding risk, labs, and transitions of care.",
+      "option_d": "Switching from IV to oral therapy when criteria met",
+      "correct_answer": "C",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 101) Medication order verification is BEST defined as:",
+      "option_a": "Renal dosing",
+      "option_b": "Reporting errors/near misses to improve systems",
+      "option_c": "Formulary management",
+      "option_d": "Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "D",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 102) Aseptic technique awareness is BEST defined as:",
+      "option_a": "Understanding sterile handling requirements",
+      "option_b": "Using formulary and restriction policies",
+      "option_c": "Supports cost-effectiveness and stewardship.",
+      "option_d": "Ensuring patient understands regimen at discharge",
+      "correct_answer": "A",
+      "explanation": "Aseptic technique awareness: Understanding sterile handling requirements"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 103) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Interpreting levels to optimize dosing",
+      "option_b": "IV-to-PO conversion: Interpreting levels to optimize dosing",
+      "option_c": "Medication safety reporting: Reporting errors/near misses to improve systems",
+      "option_d": "Therapeutic drug monitoring: Using formulary and restriction policies",
+      "correct_answer": "C",
+      "explanation": "Medication safety reporting: Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 104) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Renal dosing",
+      "option_b": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Using formulary and restriction policies",
+      "correct_answer": "C",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 105) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Using formulary and restriction policies",
+      "correct_answer": "A",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 106) A common pitfall related to Renal dosing is:",
+      "option_a": "IV-to-PO conversion issues often arise when monitoring is rigorous.",
+      "option_b": "Anticoagulation management issues often arise when monitoring is rigorous.",
+      "option_c": "Renal dosing issues often arise when processes are not standardized.",
+      "option_d": "Medication safety reporting issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 107) Renal dosing is BEST defined as:",
+      "option_a": "Reviewing appropriateness before dispensing/administration",
+      "option_b": "Renal dosing",
+      "option_c": "Adjusting dosing based on kidney function",
+      "option_d": "Medication safety reporting",
+      "correct_answer": "C",
+      "explanation": "Renal dosing: Adjusting dosing based on kidney function"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 108) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "IV-to-PO conversion issues often arise when all policies are followed.",
+      "option_b": "IV-to-PO conversion issues often arise when documentation is incomplete.",
+      "option_c": "Formulary management issues often arise when all policies are followed.",
+      "option_d": "IV-to-PO conversion issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 109) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "Discharge counseling issues often arise when all policies are followed.",
+      "option_b": "Anticoagulation management issues often arise when all policies are followed.",
+      "option_c": "Discharge counseling issues often arise when training is excellent.",
+      "option_d": "IV-to-PO conversion issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 110) Discharge counseling is BEST defined as:",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Ensuring patient understands regimen at discharge",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Medication safety reporting",
+      "correct_answer": "B",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 111) Which statement is TRUE?",
+      "option_a": "IV-to-PO conversion: Monitoring and adjusting anticoagulants",
+      "option_b": "Rounds participation: Collaborating with team to optimize therapy",
+      "option_c": "Formulary management: Using formulary and restriction policies",
+      "option_d": "Aseptic technique awareness: Ensuring patient understands regimen at discharge",
+      "correct_answer": "C",
+      "explanation": "Formulary management: Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 112) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "option_b": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_c": "Aseptic technique awareness: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "correct_answer": "B",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 113) A common pitfall related to Medication order verification is:",
+      "option_a": "Therapeutic drug monitoring issues often arise when monitoring is rigorous.",
+      "option_b": "Formulary management issues often arise when all policies are followed.",
+      "option_c": "Medication order verification issues often arise when communication is unclear.",
+      "option_d": "Rounds participation issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 114) Which statement is TRUE?",
+      "option_a": "IV-to-PO conversion: Reporting errors/near misses to improve systems",
+      "option_b": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "option_c": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Anticoagulation management: Understanding sterile handling requirements",
+      "correct_answer": "B",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 115) A common pitfall related to Formulary management is:",
+      "option_a": "Anticoagulation management issues often arise when training is excellent.",
+      "option_b": "IV-to-PO conversion issues often arise when documentation is complete.",
+      "option_c": "Formulary management issues often arise when processes are not standardized.",
+      "option_d": "Aseptic technique awareness issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 116) Aseptic technique awareness is BEST defined as:",
+      "option_a": "Reviewing appropriateness before dispensing/administration",
+      "option_b": "Anticoagulation management",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Discharge counseling",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Understanding sterile handling requirements"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 117) A common pitfall related to Formulary management is:",
+      "option_a": "IV-to-PO conversion issues often arise when monitoring is rigorous.",
+      "option_b": "Medication order verification issues often arise when all policies are followed.",
+      "option_c": "Formulary management issues often arise when communication is unclear.",
+      "option_d": "Renal dosing issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 118) Which option is MOST appropriate regarding Aseptic technique awareness?",
+      "option_a": "Assess bleeding risk, labs, and transitions of care.",
+      "option_b": "Monitoring and adjusting anticoagulants",
+      "option_c": "Prevents contamination in sterile compounding and administration.",
+      "option_d": "Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "C",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 119) Which option is MOST appropriate regarding Discharge counseling?",
+      "option_a": "Rounds participation",
+      "option_b": "Focus on changes, adherence, side effects, and follow-up.",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Supports cost-effectiveness and stewardship.",
+      "correct_answer": "B",
+      "explanation": "Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 120) Which statement is TRUE?",
+      "option_a": "Medication order verification: Using formulary and restriction policies",
+      "option_b": "Aseptic technique awareness: Monitoring and adjusting anticoagulants",
+      "option_c": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "option_d": "Therapeutic drug monitoring: Reporting errors/near misses to improve systems",
+      "correct_answer": "C",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 121) Which option is MOST appropriate regarding Therapeutic drug monitoring?",
+      "option_a": "Aseptic technique awareness",
+      "option_b": "Consider timing, steady state, and renal function.",
+      "option_c": "Adjusting dosing based on kidney function",
+      "option_d": "Collaborating with team to optimize therapy",
+      "correct_answer": "B",
+      "explanation": "Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 122) Which statement is TRUE?",
+      "option_a": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "option_b": "IV-to-PO conversion: Ensuring patient understands regimen at discharge",
+      "option_c": "Aseptic technique awareness: Monitoring and adjusting anticoagulants",
+      "option_d": "Aseptic technique awareness: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "A",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 123) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Prevents contamination in sterile compounding and administration.",
+      "option_b": "Switching from IV to oral therapy when criteria met",
+      "option_c": "Rounds participation",
+      "option_d": "Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 124) Which option is MOST appropriate regarding Therapeutic drug monitoring?",
+      "option_a": "Consider timing, steady state, and renal function.",
+      "option_b": "Aseptic technique awareness",
+      "option_c": "Renal dosing",
+      "option_d": "Understanding sterile handling requirements",
+      "correct_answer": "A",
+      "explanation": "Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 125) Rounds participation is BEST defined as:",
+      "option_a": "Ensuring patient understands regimen at discharge",
+      "option_b": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_c": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_d": "Collaborating with team to optimize therapy",
+      "correct_answer": "D",
+      "explanation": "Rounds participation: Collaborating with team to optimize therapy"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 126) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "Rounds participation issues often arise when training is excellent.",
+      "option_b": "IV-to-PO conversion issues often arise when processes are not standardized.",
+      "option_c": "Aseptic technique awareness issues often arise when all policies are followed.",
+      "option_d": "Aseptic technique awareness issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 127) Which statement is TRUE?",
+      "option_a": "Renal dosing: Interpreting levels to optimize dosing",
+      "option_b": "Medication order verification: Monitoring and adjusting anticoagulants",
+      "option_c": "Therapeutic drug monitoring: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 128) A common pitfall related to Therapeutic drug monitoring is:",
+      "option_a": "Aseptic technique awareness issues often arise when documentation is complete.",
+      "option_b": "Aseptic technique awareness issues often arise when monitoring is rigorous.",
+      "option_c": "Formulary management issues often arise when documentation is complete.",
+      "option_d": "Therapeutic drug monitoring issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 129) Which statement is TRUE?",
+      "option_a": "Aseptic technique awareness: Ensuring patient understands regimen at discharge",
+      "option_b": "Discharge counseling: Interpreting levels to optimize dosing",
+      "option_c": "Anticoagulation management: Using formulary and restriction policies",
+      "option_d": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "D",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 130) Which option is MOST appropriate regarding Therapeutic drug monitoring?",
+      "option_a": "Consider timing, steady state, and renal function.",
+      "option_b": "Focus on changes, adherence, side effects, and follow-up.",
+      "option_c": "Rounds participation",
+      "option_d": "Reduces costs and complications; ensure absorption and stability.",
+      "correct_answer": "A",
+      "explanation": "Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 131) Rounds participation is BEST defined as:",
+      "option_a": "Renal dosing",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Monitoring and adjusting anticoagulants",
+      "correct_answer": "B",
+      "explanation": "Rounds participation: Collaborating with team to optimize therapy"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 132) Which statement is TRUE?",
+      "option_a": "Formulary management: Reporting errors/near misses to improve systems",
+      "option_b": "Medication order verification: Interpreting levels to optimize dosing",
+      "option_c": "Rounds participation: Reporting errors/near misses to improve systems",
+      "option_d": "Formulary management: Using formulary and restriction policies",
+      "correct_answer": "D",
+      "explanation": "Formulary management: Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 133) Which statement is TRUE?",
+      "option_a": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_b": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "option_c": "Therapeutic drug monitoring: Adjusting dosing based on kidney function",
+      "option_d": "Medication safety reporting: Reporting errors/near misses to improve systems",
+      "correct_answer": "D",
+      "explanation": "Medication safety reporting: Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 134) Which option is MOST appropriate regarding Medication safety reporting?",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Non-punitive reporting supports prevention and learning.",
+      "option_c": "Supports cost-effectiveness and stewardship.",
+      "option_d": "Renal dosing",
+      "correct_answer": "B",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 135) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Using formulary and restriction policies",
+      "option_b": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "option_c": "Medication safety reporting: Adjusting dosing based on kidney function",
+      "option_d": "Aseptic technique awareness: Interpreting levels to optimize dosing",
+      "correct_answer": "B",
+      "explanation": "Anticoagulation management: Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 136) Medication order verification is BEST defined as:",
+      "option_a": "Assess bleeding risk, labs, and transitions of care.",
+      "option_b": "Reviewing appropriateness before dispensing/administration",
+      "option_c": "Discharge counseling",
+      "option_d": "IV-to-PO conversion",
+      "correct_answer": "B",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 137) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Adjusting dosing based on kidney function",
+      "option_b": "Rounds participation: Collaborating with team to optimize therapy",
+      "option_c": "Medication safety reporting: Collaborating with team to optimize therapy",
+      "option_d": "IV-to-PO conversion: Understanding sterile handling requirements",
+      "correct_answer": "B",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 138) A common pitfall related to Therapeutic drug monitoring is:",
+      "option_a": "Therapeutic drug monitoring issues often arise when documentation is incomplete.",
+      "option_b": "Medication order verification issues often arise when all policies are followed.",
+      "option_c": "Formulary management issues often arise when monitoring is rigorous.",
+      "option_d": "Therapeutic drug monitoring issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 139) A common pitfall related to Medication safety reporting is:",
+      "option_a": "Medication safety reporting issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Aseptic technique awareness issues often arise when documentation is complete.",
+      "option_c": "Rounds participation issues often arise when monitoring is rigorous.",
+      "option_d": "Aseptic technique awareness issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 140) Renal dosing is BEST defined as:",
+      "option_a": "Collaborating with team to optimize therapy",
+      "option_b": "Adjusting dosing based on kidney function",
+      "option_c": "Rounds participation",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "B",
+      "explanation": "Renal dosing: Adjusting dosing based on kidney function"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 141) Discharge counseling is BEST defined as:",
+      "option_a": "Ensuring patient understands regimen at discharge",
+      "option_b": "Aseptic technique awareness",
+      "option_c": "Non-punitive reporting supports prevention and learning.",
+      "option_d": "Therapeutic drug monitoring",
+      "correct_answer": "A",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 142) Anticoagulation management is BEST defined as:",
+      "option_a": "Reporting errors/near misses to improve systems",
+      "option_b": "Monitoring and adjusting anticoagulants",
+      "option_c": "Aseptic technique awareness",
+      "option_d": "Rounds participation",
+      "correct_answer": "B",
+      "explanation": "Anticoagulation management: Monitoring and adjusting anticoagulants"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 143) A common pitfall related to Medication order verification is:",
+      "option_a": "Medication order verification issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Formulary management issues often arise when documentation is complete.",
+      "option_c": "Rounds participation issues often arise when monitoring is rigorous.",
+      "option_d": "Medication safety reporting issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 144) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Formulary management",
+      "option_b": "Aseptic technique awareness",
+      "option_c": "Discharge counseling",
+      "option_d": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "correct_answer": "D",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 145) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Using formulary and restriction policies",
+      "option_b": "Formulary management: Collaborating with team to optimize therapy",
+      "option_c": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_d": "Medication safety reporting: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 146) Which statement is TRUE?",
+      "option_a": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_b": "Medication safety reporting: Monitoring and adjusting anticoagulants",
+      "option_c": "IV-to-PO conversion: Monitoring and adjusting anticoagulants",
+      "option_d": "Renal dosing: Reporting errors/near misses to improve systems",
+      "correct_answer": "A",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 147) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_b": "IV-to-PO conversion: Collaborating with team to optimize therapy",
+      "option_c": "Anticoagulation management: Using formulary and restriction policies",
+      "option_d": "Anticoagulation management: Interpreting levels to optimize dosing",
+      "correct_answer": "A",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 148) A common pitfall related to Rounds participation is:",
+      "option_a": "Rounds participation issues often arise when documentation is incomplete.",
+      "option_b": "Formulary management issues often arise when training is excellent.",
+      "option_c": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "option_d": "Medication safety reporting issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 149) A common pitfall related to Anticoagulation management is:",
+      "option_a": "Discharge counseling issues often arise when all policies are followed.",
+      "option_b": "Renal dosing issues often arise when monitoring is rigorous.",
+      "option_c": "Anticoagulation management issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Renal dosing issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 150) Which option is MOST appropriate regarding Formulary management?",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Communicate recommendations clearly with supporting evidence.",
+      "option_c": "Discharge counseling",
+      "option_d": "Supports cost-effectiveness and stewardship.",
+      "correct_answer": "D",
+      "explanation": "Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 151) Therapeutic drug monitoring is BEST defined as:",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Interpreting levels to optimize dosing",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Reporting errors/near misses to improve systems",
+      "correct_answer": "B",
+      "explanation": "Therapeutic drug monitoring: Interpreting levels to optimize dosing"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 152) Formulary management is BEST defined as:",
+      "option_a": "Renal dosing",
+      "option_b": "Anticoagulation management",
+      "option_c": "Using formulary and restriction policies",
+      "option_d": "Collaborating with team to optimize therapy",
+      "correct_answer": "C",
+      "explanation": "Formulary management: Using formulary and restriction policies"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 153) A common pitfall related to Formulary management is:",
+      "option_a": "Formulary management issues often arise when documentation is incomplete.",
+      "option_b": "Aseptic technique awareness issues often arise when monitoring is rigorous.",
+      "option_c": "Therapeutic drug monitoring issues often arise when documentation is complete.",
+      "option_d": "Anticoagulation management issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 154) Which option is MOST appropriate regarding Anticoagulation management?",
+      "option_a": "Rounds participation",
+      "option_b": "Renal dosing",
+      "option_c": "Non-punitive reporting supports prevention and learning.",
+      "option_d": "Assess bleeding risk, labs, and transitions of care.",
+      "correct_answer": "D",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 155) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Medication order verification",
+      "option_b": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_c": "Renal dosing",
+      "option_d": "Discharge counseling",
+      "correct_answer": "B",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 156) A common pitfall related to Formulary management is:",
+      "option_a": "IV-to-PO conversion issues often arise when all policies are followed.",
+      "option_b": "Formulary management issues often arise when communication is unclear.",
+      "option_c": "IV-to-PO conversion issues often arise when all policies are followed.",
+      "option_d": "Therapeutic drug monitoring issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 157) Which statement is TRUE?",
+      "option_a": "Rounds participation: Understanding sterile handling requirements",
+      "option_b": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_c": "Medication order verification: Switching from IV to oral therapy when criteria met",
+      "option_d": "Rounds participation: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "B",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 158) Which option is MOST appropriate regarding Formulary management?",
+      "option_a": "Discharge counseling",
+      "option_b": "Supports cost-effectiveness and stewardship.",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Formulary management",
+      "correct_answer": "B",
+      "explanation": "Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 159) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_b": "Anticoagulation management: Understanding sterile handling requirements",
+      "option_c": "Aseptic technique awareness: Reporting errors/near misses to improve systems",
+      "option_d": "Rounds participation: Collaborating with team to optimize therapy",
+      "correct_answer": "D",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 160) A common pitfall related to Discharge counseling is:",
+      "option_a": "Formulary management issues often arise when monitoring is rigorous.",
+      "option_b": "Therapeutic drug monitoring issues often arise when training is excellent.",
+      "option_c": "Renal dosing issues often arise when documentation is complete.",
+      "option_d": "Discharge counseling issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 161) A common pitfall related to Therapeutic drug monitoring is:",
+      "option_a": "IV-to-PO conversion issues often arise when training is excellent.",
+      "option_b": "Therapeutic drug monitoring issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Rounds participation issues often arise when all policies are followed.",
+      "option_d": "Anticoagulation management issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 162) A common pitfall related to Anticoagulation management is:",
+      "option_a": "Anticoagulation management issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Discharge counseling issues often arise when monitoring is rigorous.",
+      "option_c": "Discharge counseling issues often arise when training is excellent.",
+      "option_d": "Renal dosing issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 163) A common pitfall related to Aseptic technique awareness is:",
+      "option_a": "Formulary management issues often arise when documentation is complete.",
+      "option_b": "Aseptic technique awareness issues often arise when all policies are followed.",
+      "option_c": "Discharge counseling issues often arise when training is excellent.",
+      "option_d": "Aseptic technique awareness issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 164) Which option is MOST appropriate regarding Renal dosing?",
+      "option_a": "Medication order verification",
+      "option_b": "Interpreting levels to optimize dosing",
+      "option_c": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_d": "Using formulary and restriction policies",
+      "correct_answer": "C",
+      "explanation": "Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 165) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "IV-to-PO conversion issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Anticoagulation management issues often arise when documentation is complete.",
+      "option_c": "Renal dosing issues often arise when training is excellent.",
+      "option_d": "Rounds participation issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 166) A common pitfall related to IV-to-PO conversion is:",
+      "option_a": "Rounds participation issues often arise when documentation is complete.",
+      "option_b": "Aseptic technique awareness issues often arise when training is excellent.",
+      "option_c": "Formulary management issues often arise when all policies are followed.",
+      "option_d": "IV-to-PO conversion issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 167) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Reporting errors/near misses to improve systems",
+      "option_b": "Discharge counseling: Reviewing appropriateness before dispensing/administration",
+      "option_c": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "option_d": "Aseptic technique awareness: Understanding sterile handling requirements",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 168) Formulary management is BEST defined as:",
+      "option_a": "Using formulary and restriction policies",
+      "option_b": "Collaborating with team to optimize therapy",
+      "option_c": "Interpreting levels to optimize dosing",
+      "option_d": "Medication safety reporting",
+      "correct_answer": "A",
+      "explanation": "Formulary management: Using formulary and restriction policies"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 169) Which option is MOST appropriate regarding IV-to-PO conversion?",
+      "option_a": "Communicate recommendations clearly with supporting evidence.",
+      "option_b": "Non-punitive reporting supports prevention and learning.",
+      "option_c": "Medication safety reporting",
+      "option_d": "Reduces costs and complications; ensure absorption and stability.",
+      "correct_answer": "D",
+      "explanation": "Reduces costs and complications; ensure absorption and stability."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 170) Therapeutic drug monitoring is BEST defined as:",
+      "option_a": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "option_b": "Focus on changes, adherence, side effects, and follow-up.",
+      "option_c": "Interpreting levels to optimize dosing",
+      "option_d": "Supports cost-effectiveness and stewardship.",
+      "correct_answer": "C",
+      "explanation": "Therapeutic drug monitoring: Interpreting levels to optimize dosing"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 171) Which option is MOST appropriate regarding Aseptic technique awareness?",
+      "option_a": "Using formulary and restriction policies",
+      "option_b": "Prevents contamination in sterile compounding and administration.",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Formulary management",
+      "correct_answer": "B",
+      "explanation": "Prevents contamination in sterile compounding and administration."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 172) Which option is MOST appropriate regarding Formulary management?",
+      "option_a": "Consider timing, steady state, and renal function.",
+      "option_b": "Reviewing appropriateness before dispensing/administration",
+      "option_c": "Supports cost-effectiveness and stewardship.",
+      "option_d": "Assess bleeding risk, labs, and transitions of care.",
+      "correct_answer": "C",
+      "explanation": "Supports cost-effectiveness and stewardship."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 173) Which option is MOST appropriate regarding Medication order verification?",
+      "option_a": "Anticoagulation management",
+      "option_b": "Using formulary and restriction policies",
+      "option_c": "Communicate recommendations clearly with supporting evidence.",
+      "option_d": "Check indication, dose, allergies, interactions, labs, renal/hepatic function.",
+      "correct_answer": "D",
+      "explanation": "Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 174) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Switching from IV to oral therapy when criteria met",
+      "option_b": "Anticoagulation management: Interpreting levels to optimize dosing",
+      "option_c": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_d": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "D",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 175) A common pitfall related to Rounds participation is:",
+      "option_a": "Renal dosing issues often arise when all policies are followed.",
+      "option_b": "Anticoagulation management issues often arise when monitoring is rigorous.",
+      "option_c": "Formulary management issues often arise when training is excellent.",
+      "option_d": "Rounds participation issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 176) IV-to-PO conversion is BEST defined as:",
+      "option_a": "Using formulary and restriction policies",
+      "option_b": "Renal dosing",
+      "option_c": "Switching from IV to oral therapy when criteria met",
+      "option_d": "Assess bleeding risk, labs, and transitions of care.",
+      "correct_answer": "C",
+      "explanation": "IV-to-PO conversion: Switching from IV to oral therapy when criteria met"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 177) Which option is MOST appropriate regarding Medication safety reporting?",
+      "option_a": "Rounds participation",
+      "option_b": "Non-punitive reporting supports prevention and learning.",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Therapeutic drug monitoring",
+      "correct_answer": "B",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 178) Which statement is TRUE?",
+      "option_a": "Aseptic technique awareness: Switching from IV to oral therapy when criteria met",
+      "option_b": "Aseptic technique awareness: Using formulary and restriction policies",
+      "option_c": "Rounds participation: Collaborating with team to optimize therapy",
+      "option_d": "Medication safety reporting: Interpreting levels to optimize dosing",
+      "correct_answer": "C",
+      "explanation": "Rounds participation: Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 179) Which statement is TRUE?",
+      "option_a": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "option_b": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "option_c": "IV-to-PO conversion: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Rounds participation: Collaborating with team to optimize therapy",
+      "correct_answer": "B",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 180) Which statement is TRUE?",
+      "option_a": "Discharge counseling: Monitoring and adjusting anticoagulants",
+      "option_b": "Discharge counseling: Using formulary and restriction policies",
+      "option_c": "IV-to-PO conversion: Adjusting dosing based on kidney function",
+      "option_d": "Discharge counseling: Ensuring patient understands regimen at discharge",
+      "correct_answer": "D",
+      "explanation": "Discharge counseling: Focus on changes, adherence, side effects, and follow-up."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 181) Which statement is TRUE?",
+      "option_a": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "option_b": "Aseptic technique awareness: Adjusting dosing based on kidney function",
+      "option_c": "Aseptic technique awareness: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Formulary management: Ensuring patient understands regimen at discharge",
+      "correct_answer": "A",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 182) Rounds participation is BEST defined as:",
+      "option_a": "Formulary management",
+      "option_b": "Interpreting levels to optimize dosing",
+      "option_c": "Collaborating with team to optimize therapy",
+      "option_d": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "correct_answer": "C",
+      "explanation": "Rounds participation: Collaborating with team to optimize therapy"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 183) Aseptic technique awareness is BEST defined as:",
+      "option_a": "Interpreting levels to optimize dosing",
+      "option_b": "Adjusting dosing based on kidney function",
+      "option_c": "Understanding sterile handling requirements",
+      "option_d": "Anticoagulation management",
+      "correct_answer": "C",
+      "explanation": "Aseptic technique awareness: Understanding sterile handling requirements"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 184) Which statement is TRUE?",
+      "option_a": "Rounds participation: Reviewing appropriateness before dispensing/administration",
+      "option_b": "Therapeutic drug monitoring: Reporting errors/near misses to improve systems",
+      "option_c": "IV-to-PO conversion: Ensuring patient understands regimen at discharge",
+      "option_d": "Medication order verification: Reviewing appropriateness before dispensing/administration",
+      "correct_answer": "D",
+      "explanation": "Medication order verification: Check indication, dose, allergies, interactions, labs, renal/hepatic function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 185) A common pitfall related to Medication order verification is:",
+      "option_a": "Medication order verification issues often arise when communication is unclear.",
+      "option_b": "Medication safety reporting issues often arise when all policies are followed.",
+      "option_c": "Rounds participation issues often arise when documentation is complete.",
+      "option_d": "IV-to-PO conversion issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 186) A common pitfall related to Anticoagulation management is:",
+      "option_a": "Rounds participation issues often arise when documentation is complete.",
+      "option_b": "Discharge counseling issues often arise when all policies are followed.",
+      "option_c": "Anticoagulation management issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Aseptic technique awareness issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 187) Discharge counseling is BEST defined as:",
+      "option_a": "Assess bleeding risk, labs, and transitions of care.",
+      "option_b": "Ensuring patient understands regimen at discharge",
+      "option_c": "IV-to-PO conversion",
+      "option_d": "Aseptic technique awareness",
+      "correct_answer": "B",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 188) Discharge counseling is BEST defined as:",
+      "option_a": "Anticoagulation management",
+      "option_b": "Ensuring patient understands regimen at discharge",
+      "option_c": "Medication safety reporting",
+      "option_d": "Adjusting dosing based on kidney function",
+      "correct_answer": "B",
+      "explanation": "Discharge counseling: Ensuring patient understands regimen at discharge"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 189) Which option is MOST appropriate regarding Medication safety reporting?",
+      "option_a": "Discharge counseling",
+      "option_b": "Reporting errors/near misses to improve systems",
+      "option_c": "Medication safety reporting",
+      "option_d": "Non-punitive reporting supports prevention and learning.",
+      "correct_answer": "D",
+      "explanation": "Non-punitive reporting supports prevention and learning."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 190) Which option is MOST appropriate regarding Rounds participation?",
+      "option_a": "Supports cost-effectiveness and stewardship.",
+      "option_b": "Anticoagulation management",
+      "option_c": "Communicate recommendations clearly with supporting evidence.",
+      "option_d": "Reporting errors/near misses to improve systems",
+      "correct_answer": "C",
+      "explanation": "Communicate recommendations clearly with supporting evidence."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 191) A common pitfall related to Rounds participation is:",
+      "option_a": "Medication safety reporting issues often arise when monitoring is rigorous.",
+      "option_b": "IV-to-PO conversion issues often arise when training is excellent.",
+      "option_c": "Rounds participation issues often arise when documentation is incomplete.",
+      "option_d": "Discharge counseling issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 192) A common pitfall related to Renal dosing is:",
+      "option_a": "Renal dosing issues often arise when documentation is incomplete.",
+      "option_b": "Rounds participation issues often arise when training is excellent.",
+      "option_c": "Medication safety reporting issues often arise when all policies are followed.",
+      "option_d": "Therapeutic drug monitoring issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 193) Medication order verification is BEST defined as:",
+      "option_a": "Aseptic technique awareness",
+      "option_b": "Renal dosing",
+      "option_c": "Reviewing appropriateness before dispensing/administration",
+      "option_d": "Non-punitive reporting supports prevention and learning.",
+      "correct_answer": "C",
+      "explanation": "Medication order verification: Reviewing appropriateness before dispensing/administration"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 194) Which statement is TRUE?",
+      "option_a": "Formulary management: Collaborating with team to optimize therapy",
+      "option_b": "IV-to-PO conversion: Reporting errors/near misses to improve systems",
+      "option_c": "Anticoagulation management: Understanding sterile handling requirements",
+      "option_d": "Renal dosing: Adjusting dosing based on kidney function",
+      "correct_answer": "D",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 195) Which option is MOST appropriate regarding Anticoagulation management?",
+      "option_a": "Use eGFR/CrCl; monitor levels and toxicity.",
+      "option_b": "Discharge counseling",
+      "option_c": "Assess bleeding risk, labs, and transitions of care.",
+      "option_d": "Ensuring patient understands regimen at discharge",
+      "correct_answer": "C",
+      "explanation": "Assess bleeding risk, labs, and transitions of care."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 196) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Adjusting dosing based on kidney function",
+      "option_b": "Therapeutic drug monitoring: Reporting errors/near misses to improve systems",
+      "option_c": "Anticoagulation management: Reviewing appropriateness before dispensing/administration",
+      "option_d": "Therapeutic drug monitoring: Interpreting levels to optimize dosing",
+      "correct_answer": "D",
+      "explanation": "Therapeutic drug monitoring: Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 197) Medication safety reporting is BEST defined as:",
+      "option_a": "Understanding sterile handling requirements",
+      "option_b": "Medication safety reporting",
+      "option_c": "Reporting errors/near misses to improve systems",
+      "option_d": "Assess bleeding risk, labs, and transitions of care.",
+      "correct_answer": "C",
+      "explanation": "Medication safety reporting: Reporting errors/near misses to improve systems"
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 198) Which option is MOST appropriate regarding Therapeutic drug monitoring?",
+      "option_a": "Therapeutic drug monitoring",
+      "option_b": "Anticoagulation management",
+      "option_c": "Consider timing, steady state, and renal function.",
+      "option_d": "Focus on changes, adherence, side effects, and follow-up.",
+      "correct_answer": "C",
+      "explanation": "Consider timing, steady state, and renal function."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 199) Which statement is TRUE?",
+      "option_a": "Renal dosing: Adjusting dosing based on kidney function",
+      "option_b": "Rounds participation: Reviewing appropriateness before dispensing/administration",
+      "option_c": "Therapeutic drug monitoring: Monitoring and adjusting anticoagulants",
+      "option_d": "Medication order verification: Ensuring patient understands regimen at discharge",
+      "correct_answer": "A",
+      "explanation": "Renal dosing: Use eGFR/CrCl; monitor levels and toxicity."
+    },
+    {
+      "question": "(Internship / Rotation (Hospital) Item 200) Which statement is TRUE?",
+      "option_a": "Anticoagulation management: Switching from IV to oral therapy when criteria met",
+      "option_b": "Discharge counseling: Using formulary and restriction policies",
+      "option_c": "Renal dosing: Switching from IV to oral therapy when criteria met",
+      "option_d": "Anticoagulation management: Monitoring and adjusting anticoagulants",
+      "correct_answer": "D",
+      "explanation": "Anticoagulation management: Assess bleeding risk, labs, and transitions of care."
+    }
+  ]
+}

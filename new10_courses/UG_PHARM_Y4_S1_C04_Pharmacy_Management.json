@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmacy Management",
+  "course_code": "UG_PHARM_Y4_S1_C04",
+  "questions": [
+    {
+      "question": "Which statement best describes Inventory management?",
+      "option_a": "Inventory management",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Revenue cycle",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "B",
+      "explanation": "Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "In practice, the key objective of Inventory management is to:",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Meeting patient needs with professionalism and empathy",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "A",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "Which statement best describes ABC analysis?",
+      "option_a": "Categorizing inventory by annual consumption value",
+      "option_b": "Risk management",
+      "option_c": "Improves adherence and retention; manage complaints effectively.",
+      "option_d": "Revenue cycle",
+      "correct_answer": "A",
+      "explanation": "A items high value; tighter control than B/C."
+    },
+    {
+      "question": "In practice, the key objective of ABC analysis is to:",
+      "option_a": "Staff scheduling",
+      "option_b": "Inventory management",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "Categorizing inventory by annual consumption value",
+      "correct_answer": "C",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "Which statement best describes FEFO?",
+      "option_a": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Planning revenues and expenses over a period",
+      "correct_answer": "B",
+      "explanation": "Reduces expiry-related losses."
+    },
+    {
+      "question": "In practice, the key objective of FEFO is to:",
+      "option_a": "First-expire-first-out stock rotation",
+      "option_b": "Meeting patient needs with professionalism and empathy",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "D",
+      "explanation": "FEFO: Reduces expiry-related losses."
+    },
+    {
+      "question": "Which statement best describes Key performance indicators (KPIs)?",
+      "option_a": "Budgeting",
+      "option_b": "Metrics to evaluate operational performance",
+      "option_c": "Reduces expiry-related losses.",
+      "option_d": "Inventory management",
+      "correct_answer": "B",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "In practice, the key objective of Key performance indicators (KPIs) is to:",
+      "option_a": "Planning revenues and expenses over a period",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "D",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "Which statement best describes Staff scheduling?",
+      "option_a": "Supports cost control and resource allocation.",
+      "option_b": "Identifying and reducing operational and clinical risks",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Allocating staff to match workload and service needs",
+      "correct_answer": "D",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "In practice, the key objective of Staff scheduling is to:",
+      "option_a": "Balances coverage, skills mix, and labor costs.",
+      "option_b": "Budgeting",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "Which statement best describes Budgeting?",
+      "option_a": "Categorizing inventory by annual consumption value",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Risk management",
+      "option_d": "Planning revenues and expenses over a period",
+      "correct_answer": "D",
+      "explanation": "Supports cost control and resource allocation."
+    },
+    {
+      "question": "In practice, the key objective of Budgeting is to:",
+      "option_a": "ABC analysis",
+      "option_b": "Supports cost control and resource allocation.",
+      "option_c": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "B",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "Which statement best describes Revenue cycle?",
+      "option_a": "Risk management",
+      "option_b": "Processes that generate and collect payment for services",
+      "option_c": "ABC analysis",
+      "option_d": "Metrics to evaluate operational performance",
+      "correct_answer": "B",
+      "explanation": "Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "In practice, the key objective of Revenue cycle is to:",
+      "option_a": "Quality improvement (QI)",
+      "option_b": "Includes incident reporting, audits, and mitigation plans.",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "D",
+      "explanation": "Revenue cycle: Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "Which statement best describes Quality improvement (QI)?",
+      "option_a": "Improves adherence and retention; manage complaints effectively.",
+      "option_b": "Continuous efforts to improve safety and outcomes",
+      "option_c": "FEFO",
+      "option_d": "Use PDSA cycles and root cause analysis.",
+      "correct_answer": "B",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "In practice, the key objective of Quality improvement (QI) is to:",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Includes incident reporting, audits, and mitigation plans.",
+      "correct_answer": "C",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "Which statement best describes Risk management?",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "ABC analysis",
+      "option_c": "Identifying and reducing operational and clinical risks",
+      "option_d": "Planning revenues and expenses over a period",
+      "correct_answer": "C",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "In practice, the key objective of Risk management is to:",
+      "option_a": "Includes incident reporting, audits, and mitigation plans.",
+      "option_b": "Budgeting",
+      "option_c": "Quality improvement (QI)",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "A",
+      "explanation": "Risk management: Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "Which statement best describes Customer service in pharmacy?",
+      "option_a": "Includes billing, claims, reconciliation, and denials management.",
+      "option_b": "A items high value; tighter control than B/C.",
+      "option_c": "Meeting patient needs with professionalism and empathy",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "C",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "In practice, the key objective of Customer service in pharmacy is to:",
+      "option_a": "FEFO",
+      "option_b": "Includes billing, claims, reconciliation, and denials management.",
+      "option_c": "Improves adherence and retention; manage complaints effectively.",
+      "option_d": "Supports cost control and resource allocation.",
+      "correct_answer": "C",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 21) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Categorizing inventory by annual consumption value",
+      "option_b": "Staff scheduling: Allocating staff to match workload and service needs",
+      "option_c": "ABC analysis: Processes that generate and collect payment for services",
+      "option_d": "Budgeting: Metrics to evaluate operational performance",
+      "correct_answer": "B",
+      "explanation": "Staff scheduling: Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 22) Key performance indicators (KPIs) is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_c": "Supports cost control and resource allocation.",
+      "option_d": "Metrics to evaluate operational performance",
+      "correct_answer": "D",
+      "explanation": "Key performance indicators (KPIs): Metrics to evaluate operational performance"
+    },
+    {
+      "question": "(Pharmacy Management Item 23) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Metrics to evaluate operational performance",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Categorizing inventory by annual consumption value",
+      "correct_answer": "C",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 24) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Improves adherence and retention; manage complaints effectively.",
+      "option_b": "Reduces expiry-related losses.",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Risk management",
+      "correct_answer": "A",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 25) A common pitfall related to Revenue cycle is:",
+      "option_a": "Inventory management issues often arise when all policies are followed.",
+      "option_b": "Budgeting issues often arise when training is excellent.",
+      "option_c": "Revenue cycle issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Revenue cycle issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 26) Which option is MOST appropriate regarding Inventory management?",
+      "option_a": "Planning revenues and expenses over a period",
+      "option_b": "Inventory management",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "Use par levels, ABC analysis, and expiry tracking.",
+      "correct_answer": "D",
+      "explanation": "Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 27) Inventory management is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Categorizing inventory by annual consumption value",
+      "option_c": "Key performance indicators (KPIs)",
+      "option_d": "Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "D",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 28) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "ABC analysis",
+      "option_b": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Balances coverage, skills mix, and labor costs.",
+      "correct_answer": "B",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 29) FEFO is BEST defined as:",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Includes incident reporting, audits, and mitigation plans.",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "B",
+      "explanation": "FEFO: First-expire-first-out stock rotation"
+    },
+    {
+      "question": "(Pharmacy Management Item 30) Which statement is TRUE?",
+      "option_a": "FEFO: Processes that generate and collect payment for services",
+      "option_b": "Budgeting: Planning revenues and expenses over a period",
+      "option_c": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Staff scheduling: Metrics to evaluate operational performance",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 31) Which option is MOST appropriate regarding Staff scheduling?",
+      "option_a": "A items high value; tighter control than B/C.",
+      "option_b": "Staff scheduling",
+      "option_c": "Balances coverage, skills mix, and labor costs.",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "C",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 32) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "ABC analysis issues often arise when all policies are followed.",
+      "option_b": "Key performance indicators (KPIs) issues often arise when monitoring is rigorous.",
+      "option_c": "Inventory management issues often arise when training is excellent.",
+      "option_d": "Quality improvement (QI) issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 33) A common pitfall related to Revenue cycle is:",
+      "option_a": "Revenue cycle issues often arise when processes are not standardized.",
+      "option_b": "FEFO issues often arise when documentation is complete.",
+      "option_c": "Staff scheduling issues often arise when training is excellent.",
+      "option_d": "Key performance indicators (KPIs) issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 34) Customer service in pharmacy is BEST defined as:",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "Processes that generate and collect payment for services",
+      "option_c": "Allocating staff to match workload and service needs",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "A",
+      "explanation": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy"
+    },
+    {
+      "question": "(Pharmacy Management Item 35) A common pitfall related to Key performance indicators (KPIs) is:",
+      "option_a": "Revenue cycle issues often arise when all policies are followed.",
+      "option_b": "ABC analysis issues often arise when monitoring is rigorous.",
+      "option_c": "Budgeting issues often arise when training is excellent.",
+      "option_d": "Key performance indicators (KPIs) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 36) A common pitfall related to Budgeting is:",
+      "option_a": "Budgeting issues often arise when training is excellent.",
+      "option_b": "Budgeting issues often arise when documentation is incomplete.",
+      "option_c": "Inventory management issues often arise when documentation is complete.",
+      "option_d": "Key performance indicators (KPIs) issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 37) Which option is MOST appropriate regarding Staff scheduling?",
+      "option_a": "Balances coverage, skills mix, and labor costs.",
+      "option_b": "Supports cost control and resource allocation.",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "A",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 38) Inventory management is BEST defined as:",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "Balances coverage, skills mix, and labor costs.",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Planning revenues and expenses over a period",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 39) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Allocating staff to match workload and service needs",
+      "correct_answer": "B",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 40) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_b": "Inventory management: First-expire-first-out stock rotation",
+      "option_c": "FEFO: Identifying and reducing operational and clinical risks",
+      "option_d": "Inventory management: Metrics to evaluate operational performance",
+      "correct_answer": "A",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 41) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Staff scheduling",
+      "correct_answer": "C",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 42) Inventory management is BEST defined as:",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Identifying and reducing operational and clinical risks",
+      "option_d": "Budgeting",
+      "correct_answer": "B",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 43) Key performance indicators (KPIs) is BEST defined as:",
+      "option_a": "Metrics to evaluate operational performance",
+      "option_b": "Risk management",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "A",
+      "explanation": "Key performance indicators (KPIs): Metrics to evaluate operational performance"
+    },
+    {
+      "question": "(Pharmacy Management Item 44) Which option is MOST appropriate regarding ABC analysis?",
+      "option_a": "Inventory management",
+      "option_b": "Risk management",
+      "option_c": "FEFO",
+      "option_d": "A items high value; tighter control than B/C.",
+      "correct_answer": "D",
+      "explanation": "A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 45) Which statement is TRUE?",
+      "option_a": "Staff scheduling: Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs): Continuous efforts to improve safety and outcomes",
+      "option_c": "Key performance indicators (KPIs): Categorizing inventory by annual consumption value",
+      "option_d": "Risk management: Meeting patient needs with professionalism and empathy",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 46) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Quality improvement (QI)",
+      "option_b": "Categorizing inventory by annual consumption value",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Key performance indicators (KPIs)",
+      "correct_answer": "C",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 47) Which statement is TRUE?",
+      "option_a": "Staff scheduling: Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs): Processes that generate and collect payment for services",
+      "option_c": "Budgeting: Processes that generate and collect payment for services",
+      "option_d": "Key performance indicators (KPIs): First-expire-first-out stock rotation",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 48) Which option is MOST appropriate regarding FEFO?",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Inventory management",
+      "option_c": "Planning revenues and expenses over a period",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "A",
+      "explanation": "Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 49) Which statement is TRUE?",
+      "option_a": "Inventory management: Meeting patient needs with professionalism and empathy",
+      "option_b": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_c": "Budgeting: Meeting patient needs with professionalism and empathy",
+      "option_d": "Risk management: Identifying and reducing operational and clinical risks",
+      "correct_answer": "B",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 50) Which option is MOST appropriate regarding Revenue cycle?",
+      "option_a": "Includes billing, claims, reconciliation, and denials management.",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Inventory management",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "A",
+      "explanation": "Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 51) Inventory management is BEST defined as:",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Supports cost control and resource allocation.",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 52) ABC analysis is BEST defined as:",
+      "option_a": "Planning revenues and expenses over a period",
+      "option_b": "Identifying and reducing operational and clinical risks",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Allocating staff to match workload and service needs",
+      "correct_answer": "C",
+      "explanation": "ABC analysis: Categorizing inventory by annual consumption value"
+    },
+    {
+      "question": "(Pharmacy Management Item 53) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_b": "FEFO: First-expire-first-out stock rotation",
+      "option_c": "Key performance indicators (KPIs): Continuous efforts to improve safety and outcomes",
+      "option_d": "Quality improvement (QI): First-expire-first-out stock rotation",
+      "correct_answer": "A",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 54) Budgeting is BEST defined as:",
+      "option_a": "Staff scheduling",
+      "option_b": "Planning revenues and expenses over a period",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "B",
+      "explanation": "Budgeting: Planning revenues and expenses over a period"
+    },
+    {
+      "question": "(Pharmacy Management Item 55) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Supports cost control and resource allocation.",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "Metrics to evaluate operational performance",
+      "option_d": "Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "B",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 56) Risk management is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "ABC analysis",
+      "option_c": "Identifying and reducing operational and clinical risks",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "C",
+      "explanation": "Risk management: Identifying and reducing operational and clinical risks"
+    },
+    {
+      "question": "(Pharmacy Management Item 57) Which statement is TRUE?",
+      "option_a": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_b": "Revenue cycle: Planning revenues and expenses over a period",
+      "option_c": "Budgeting: Metrics to evaluate operational performance",
+      "option_d": "Risk management: First-expire-first-out stock rotation",
+      "correct_answer": "A",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 58) A common pitfall related to Risk management is:",
+      "option_a": "Revenue cycle issues often arise when all policies are followed.",
+      "option_b": "Quality improvement (QI) issues often arise when monitoring is rigorous.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when documentation is complete.",
+      "option_d": "Risk management issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 59) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Categorizing inventory by annual consumption value",
+      "option_b": "Staff scheduling: Planning revenues and expenses over a period",
+      "option_c": "ABC analysis: Categorizing inventory by annual consumption value",
+      "option_d": "Risk management: Identifying and reducing operational and clinical risks",
+      "correct_answer": "C",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 60) Which option is MOST appropriate regarding Risk management?",
+      "option_a": "Includes incident reporting, audits, and mitigation plans.",
+      "option_b": "Revenue cycle",
+      "option_c": "Metrics to evaluate operational performance",
+      "option_d": "Inventory management",
+      "correct_answer": "A",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 61) A common pitfall related to Inventory management is:",
+      "option_a": "Staff scheduling issues often arise when training is excellent.",
+      "option_b": "Inventory management issues often arise when communication is unclear.",
+      "option_c": "Inventory management issues often arise when training is excellent.",
+      "option_d": "Budgeting issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 62) Inventory management is BEST defined as:",
+      "option_a": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Risk management",
+      "correct_answer": "A",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 63) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Quality improvement (QI) issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Customer service in pharmacy issues often arise when all policies are followed.",
+      "option_c": "Inventory management issues often arise when training is excellent.",
+      "option_d": "Budgeting issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 64) Staff scheduling is BEST defined as:",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Planning revenues and expenses over a period",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 65) Which statement is TRUE?",
+      "option_a": "FEFO: Processes that generate and collect payment for services",
+      "option_b": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_c": "ABC analysis: Identifying and reducing operational and clinical risks",
+      "option_d": "FEFO: Identifying and reducing operational and clinical risks",
+      "correct_answer": "B",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 66) Inventory management is BEST defined as:",
+      "option_a": "Revenue cycle",
+      "option_b": "Staff scheduling",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 67) A common pitfall related to Budgeting is:",
+      "option_a": "Budgeting issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Revenue cycle issues often arise when training is excellent.",
+      "option_c": "Customer service in pharmacy issues often arise when all policies are followed.",
+      "option_d": "Risk management issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 68) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Identifying and reducing operational and clinical risks",
+      "option_b": "Staff scheduling: Processes that generate and collect payment for services",
+      "option_c": "Budgeting: Planning revenues and expenses over a period",
+      "option_d": "ABC analysis: First-expire-first-out stock rotation",
+      "correct_answer": "C",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 69) Staff scheduling is BEST defined as:",
+      "option_a": "Budgeting",
+      "option_b": "Staff scheduling",
+      "option_c": "Allocating staff to match workload and service needs",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "C",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 70) A common pitfall related to Risk management is:",
+      "option_a": "Revenue cycle issues often arise when training is excellent.",
+      "option_b": "ABC analysis issues often arise when all policies are followed.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when all policies are followed.",
+      "option_d": "Risk management issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 71) A common pitfall related to Key performance indicators (KPIs) is:",
+      "option_a": "Risk management issues often arise when training is excellent.",
+      "option_b": "ABC analysis issues often arise when documentation is complete.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when processes are not standardized.",
+      "option_d": "Customer service in pharmacy issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 72) Budgeting is BEST defined as:",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "ABC analysis",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Planning revenues and expenses over a period",
+      "correct_answer": "D",
+      "explanation": "Budgeting: Planning revenues and expenses over a period"
+    },
+    {
+      "question": "(Pharmacy Management Item 73) FEFO is BEST defined as:",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Customer service in pharmacy",
+      "option_c": "First-expire-first-out stock rotation",
+      "option_d": "Staff scheduling",
+      "correct_answer": "C",
+      "explanation": "FEFO: First-expire-first-out stock rotation"
+    },
+    {
+      "question": "(Pharmacy Management Item 74) Which statement is TRUE?",
+      "option_a": "Revenue cycle: First-expire-first-out stock rotation",
+      "option_b": "Budgeting: Planning revenues and expenses over a period",
+      "option_c": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_d": "ABC analysis: Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "B",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 75) Customer service in pharmacy is BEST defined as:",
+      "option_a": "First-expire-first-out stock rotation",
+      "option_b": "Meeting patient needs with professionalism and empathy",
+      "option_c": "Revenue cycle",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "B",
+      "explanation": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy"
+    },
+    {
+      "question": "(Pharmacy Management Item 76) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Budgeting",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "First-expire-first-out stock rotation",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "B",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 77) Which option is MOST appropriate regarding Revenue cycle?",
+      "option_a": "Use PDSA cycles and root cause analysis.",
+      "option_b": "Categorizing inventory by annual consumption value",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Risk management",
+      "correct_answer": "C",
+      "explanation": "Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 78) A common pitfall related to Risk management is:",
+      "option_a": "Revenue cycle issues often arise when all policies are followed.",
+      "option_b": "Risk management issues often arise when monitoring is rigorous.",
+      "option_c": "Quality improvement (QI) issues often arise when documentation is complete.",
+      "option_d": "Risk management issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 79) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Quality improvement (QI): Planning revenues and expenses over a period",
+      "option_c": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_d": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "correct_answer": "C",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 80) A common pitfall related to Staff scheduling is:",
+      "option_a": "Revenue cycle issues often arise when monitoring is rigorous.",
+      "option_b": "Risk management issues often arise when monitoring is rigorous.",
+      "option_c": "Staff scheduling issues often arise when documentation is incomplete.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 81) Which option is MOST appropriate regarding Budgeting?",
+      "option_a": "Supports cost control and resource allocation.",
+      "option_b": "Budgeting",
+      "option_c": "FEFO",
+      "option_d": "Categorizing inventory by annual consumption value",
+      "correct_answer": "A",
+      "explanation": "Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 82) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Quality improvement (QI)",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "D",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 83) A common pitfall related to Inventory management is:",
+      "option_a": "Revenue cycle issues often arise when documentation is complete.",
+      "option_b": "Staff scheduling issues often arise when monitoring is rigorous.",
+      "option_c": "ABC analysis issues often arise when monitoring is rigorous.",
+      "option_d": "Inventory management issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 84) Which option is MOST appropriate regarding Revenue cycle?",
+      "option_a": "Key performance indicators (KPIs)",
+      "option_b": "Allocating staff to match workload and service needs",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Revenue cycle",
+      "correct_answer": "C",
+      "explanation": "Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 85) Which option is MOST appropriate regarding Inventory management?",
+      "option_a": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Allocating staff to match workload and service needs",
+      "option_d": "Use par levels, ABC analysis, and expiry tracking.",
+      "correct_answer": "D",
+      "explanation": "Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 86) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Quality improvement (QI) issues often arise when documentation is incomplete.",
+      "option_b": "Risk management issues often arise when all policies are followed.",
+      "option_c": "Risk management issues often arise when training is excellent.",
+      "option_d": "Budgeting issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 87) Quality improvement (QI) is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Reduces expiry-related losses.",
+      "option_c": "Identifying and reducing operational and clinical risks",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "A",
+      "explanation": "Quality improvement (QI): Continuous efforts to improve safety and outcomes"
+    },
+    {
+      "question": "(Pharmacy Management Item 88) Risk management is BEST defined as:",
+      "option_a": "Revenue cycle",
+      "option_b": "Identifying and reducing operational and clinical risks",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "Use PDSA cycles and root cause analysis.",
+      "correct_answer": "B",
+      "explanation": "Risk management: Identifying and reducing operational and clinical risks"
+    },
+    {
+      "question": "(Pharmacy Management Item 89) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Inventory management",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Metrics to evaluate operational performance",
+      "correct_answer": "C",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 90) Customer service in pharmacy is BEST defined as:",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "ABC analysis",
+      "option_c": "Improves adherence and retention; manage complaints effectively.",
+      "option_d": "Risk management",
+      "correct_answer": "A",
+      "explanation": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy"
+    },
+    {
+      "question": "(Pharmacy Management Item 91) Which statement is TRUE?",
+      "option_a": "ABC analysis: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "option_c": "Customer service in pharmacy: Identifying and reducing operational and clinical risks",
+      "option_d": "Revenue cycle: Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "B",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 92) A common pitfall related to Customer service in pharmacy is:",
+      "option_a": "Customer service in pharmacy issues often arise when communication is unclear.",
+      "option_b": "Inventory management issues often arise when all policies are followed.",
+      "option_c": "Revenue cycle issues often arise when all policies are followed.",
+      "option_d": "FEFO issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 93) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Processes that generate and collect payment for services",
+      "option_c": "Budgeting",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "D",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 94) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Includes billing, claims, reconciliation, and denials management.",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Inventory management",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "D",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 95) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Key performance indicators (KPIs)",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "FEFO",
+      "correct_answer": "B",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 96) A common pitfall related to ABC analysis is:",
+      "option_a": "Revenue cycle issues often arise when all policies are followed.",
+      "option_b": "Key performance indicators (KPIs) issues often arise when monitoring is rigorous.",
+      "option_c": "Quality improvement (QI) issues often arise when documentation is complete.",
+      "option_d": "ABC analysis issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 97) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Revenue cycle",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Balances coverage, skills mix, and labor costs.",
+      "option_d": "Improves adherence and retention; manage complaints effectively.",
+      "correct_answer": "D",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 98) A common pitfall related to ABC analysis is:",
+      "option_a": "Quality improvement (QI) issues often arise when training is excellent.",
+      "option_b": "Staff scheduling issues often arise when training is excellent.",
+      "option_c": "Risk management issues often arise when all policies are followed.",
+      "option_d": "ABC analysis issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 99) Which option is MOST appropriate regarding Revenue cycle?",
+      "option_a": "Metrics to evaluate operational performance",
+      "option_b": "A items high value; tighter control than B/C.",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "C",
+      "explanation": "Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 100) Budgeting is BEST defined as:",
+      "option_a": "Includes billing, claims, reconciliation, and denials management.",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "Planning revenues and expenses over a period",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "C",
+      "explanation": "Budgeting: Planning revenues and expenses over a period"
+    },
+    {
+      "question": "(Pharmacy Management Item 101) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Improves adherence and retention; manage complaints effectively.",
+      "option_b": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_c": "Inventory management",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "B",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 102) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_b": "Risk management: Meeting patient needs with professionalism and empathy",
+      "option_c": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_d": "Customer service in pharmacy: Planning revenues and expenses over a period",
+      "correct_answer": "A",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 103) Which statement is TRUE?",
+      "option_a": "FEFO: First-expire-first-out stock rotation",
+      "option_b": "Risk management: Allocating staff to match workload and service needs",
+      "option_c": "Budgeting: First-expire-first-out stock rotation",
+      "option_d": "Risk management: Categorizing inventory by annual consumption value",
+      "correct_answer": "A",
+      "explanation": "FEFO: Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 104) Inventory management is BEST defined as:",
+      "option_a": "Customer service in pharmacy",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 105) Which statement is TRUE?",
+      "option_a": "Inventory management: Categorizing inventory by annual consumption value",
+      "option_b": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_c": "Risk management: Continuous efforts to improve safety and outcomes",
+      "option_d": "Customer service in pharmacy: First-expire-first-out stock rotation",
+      "correct_answer": "B",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 106) Staff scheduling is BEST defined as:",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs)",
+      "option_c": "Meeting patient needs with professionalism and empathy",
+      "option_d": "Use PDSA cycles and root cause analysis.",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 107) ABC analysis is BEST defined as:",
+      "option_a": "Use PDSA cycles and root cause analysis.",
+      "option_b": "Processes that generate and collect payment for services",
+      "option_c": "Allocating staff to match workload and service needs",
+      "option_d": "Categorizing inventory by annual consumption value",
+      "correct_answer": "D",
+      "explanation": "ABC analysis: Categorizing inventory by annual consumption value"
+    },
+    {
+      "question": "(Pharmacy Management Item 108) Which option is MOST appropriate regarding Staff scheduling?",
+      "option_a": "Metrics to evaluate operational performance",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "Supports cost control and resource allocation.",
+      "option_d": "Balances coverage, skills mix, and labor costs.",
+      "correct_answer": "D",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 109) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Continuous efforts to improve safety and outcomes",
+      "option_b": "Budgeting: Planning revenues and expenses over a period",
+      "option_c": "Revenue cycle: Continuous efforts to improve safety and outcomes",
+      "option_d": "FEFO: Continuous efforts to improve safety and outcomes",
+      "correct_answer": "B",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 110) Inventory management is BEST defined as:",
+      "option_a": "Categorizing inventory by annual consumption value",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "B",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 111) A common pitfall related to Revenue cycle is:",
+      "option_a": "Revenue cycle issues often arise when documentation is incomplete.",
+      "option_b": "FEFO issues often arise when all policies are followed.",
+      "option_c": "Inventory management issues often arise when training is excellent.",
+      "option_d": "Quality improvement (QI) issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 112) Which option is MOST appropriate regarding Risk management?",
+      "option_a": "Budgeting",
+      "option_b": "Includes billing, claims, reconciliation, and denials management.",
+      "option_c": "Includes incident reporting, audits, and mitigation plans.",
+      "option_d": "Customer service in pharmacy",
+      "correct_answer": "C",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 113) Which option is MOST appropriate regarding FEFO?",
+      "option_a": "Processes that generate and collect payment for services",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Reduces expiry-related losses.",
+      "option_d": "Improves adherence and retention; manage complaints effectively.",
+      "correct_answer": "C",
+      "explanation": "Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 114) A common pitfall related to Revenue cycle is:",
+      "option_a": "Budgeting issues often arise when all policies are followed.",
+      "option_b": "Staff scheduling issues often arise when documentation is complete.",
+      "option_c": "ABC analysis issues often arise when monitoring is rigorous.",
+      "option_d": "Revenue cycle issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 115) A common pitfall related to ABC analysis is:",
+      "option_a": "Customer service in pharmacy issues often arise when monitoring is rigorous.",
+      "option_b": "Staff scheduling issues often arise when documentation is complete.",
+      "option_c": "ABC analysis issues often arise when documentation is incomplete.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 116) A common pitfall related to ABC analysis is:",
+      "option_a": "FEFO issues often arise when training is excellent.",
+      "option_b": "ABC analysis issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Risk management issues often arise when monitoring is rigorous.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 117) Quality improvement (QI) is BEST defined as:",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Metrics to evaluate operational performance",
+      "option_c": "Customer service in pharmacy",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "D",
+      "explanation": "Quality improvement (QI): Continuous efforts to improve safety and outcomes"
+    },
+    {
+      "question": "(Pharmacy Management Item 118) A common pitfall related to Budgeting is:",
+      "option_a": "FEFO issues often arise when all policies are followed.",
+      "option_b": "Staff scheduling issues often arise when monitoring is rigorous.",
+      "option_c": "Budgeting issues often arise when processes are not standardized.",
+      "option_d": "ABC analysis issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 119) A common pitfall related to Staff scheduling is:",
+      "option_a": "Staff scheduling issues often arise when communication is unclear.",
+      "option_b": "Customer service in pharmacy issues often arise when monitoring is rigorous.",
+      "option_c": "Quality improvement (QI) issues often arise when all policies are followed.",
+      "option_d": "Inventory management issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 120) Which statement is TRUE?",
+      "option_a": "Customer service in pharmacy: Planning revenues and expenses over a period",
+      "option_b": "Risk management: Categorizing inventory by annual consumption value",
+      "option_c": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Key performance indicators (KPIs): Continuous efforts to improve safety and outcomes",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 121) A common pitfall related to Inventory management is:",
+      "option_a": "Inventory management issues often arise when communication is unclear.",
+      "option_b": "ABC analysis issues often arise when monitoring is rigorous.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when documentation is complete.",
+      "option_d": "ABC analysis issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 122) Which statement is TRUE?",
+      "option_a": "ABC analysis: Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_c": "Quality improvement (QI): Processes that generate and collect payment for services",
+      "option_d": "Budgeting: Planning revenues and expenses over a period",
+      "correct_answer": "D",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 123) Which statement is TRUE?",
+      "option_a": "Staff scheduling: Meeting patient needs with professionalism and empathy",
+      "option_b": "Inventory management: Metrics to evaluate operational performance",
+      "option_c": "Customer service in pharmacy: Metrics to evaluate operational performance",
+      "option_d": "ABC analysis: Categorizing inventory by annual consumption value",
+      "correct_answer": "D",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 124) Which statement is TRUE?",
+      "option_a": "Staff scheduling: Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs): Meeting patient needs with professionalism and empathy",
+      "option_c": "Risk management: Continuous efforts to improve safety and outcomes",
+      "option_d": "Budgeting: Processes that generate and collect payment for services",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 125) Staff scheduling is BEST defined as:",
+      "option_a": "Revenue cycle",
+      "option_b": "Allocating staff to match workload and service needs",
+      "option_c": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "B",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 126) Which statement is TRUE?",
+      "option_a": "Quality improvement (QI): Processes that generate and collect payment for services",
+      "option_b": "Key performance indicators (KPIs): Continuous efforts to improve safety and outcomes",
+      "option_c": "Risk management: Identifying and reducing operational and clinical risks",
+      "option_d": "Revenue cycle: Processes that generate and collect payment for services",
+      "correct_answer": "C",
+      "explanation": "Risk management: Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 127) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Planning revenues and expenses over a period",
+      "option_b": "ABC analysis: Categorizing inventory by annual consumption value",
+      "option_c": "Staff scheduling: Categorizing inventory by annual consumption value",
+      "option_d": "Risk management: Planning revenues and expenses over a period",
+      "correct_answer": "B",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 128) ABC analysis is BEST defined as:",
+      "option_a": "Includes incident reporting, audits, and mitigation plans.",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "C",
+      "explanation": "ABC analysis: Categorizing inventory by annual consumption value"
+    },
+    {
+      "question": "(Pharmacy Management Item 129) Which statement is TRUE?",
+      "option_a": "ABC analysis: Identifying and reducing operational and clinical risks",
+      "option_b": "FEFO: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "ABC analysis: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "D",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 130) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_c": "A items high value; tighter control than B/C.",
+      "option_d": "ABC analysis",
+      "correct_answer": "B",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 131) Which statement is TRUE?",
+      "option_a": "FEFO: First-expire-first-out stock rotation",
+      "option_b": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Risk management: Identifying and reducing operational and clinical risks",
+      "option_d": "Budgeting: Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "B",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 132) A common pitfall related to Customer service in pharmacy is:",
+      "option_a": "Staff scheduling issues often arise when training is excellent.",
+      "option_b": "Customer service in pharmacy issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when monitoring is rigorous.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 133) Inventory management is BEST defined as:",
+      "option_a": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_c": "Planning revenues and expenses over a period",
+      "option_d": "Key performance indicators (KPIs)",
+      "correct_answer": "A",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 134) Quality improvement (QI) is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "A",
+      "explanation": "Quality improvement (QI): Continuous efforts to improve safety and outcomes"
+    },
+    {
+      "question": "(Pharmacy Management Item 135) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Planning revenues and expenses over a period",
+      "option_b": "Budgeting",
+      "option_c": "Improves adherence and retention; manage complaints effectively.",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "C",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 136) Which statement is TRUE?",
+      "option_a": "Budgeting: Meeting patient needs with professionalism and empathy",
+      "option_b": "ABC analysis: First-expire-first-out stock rotation",
+      "option_c": "Risk management: Meeting patient needs with professionalism and empathy",
+      "option_d": "Risk management: Identifying and reducing operational and clinical risks",
+      "correct_answer": "D",
+      "explanation": "Risk management: Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 137) Which statement is TRUE?",
+      "option_a": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Inventory management: Meeting patient needs with professionalism and empathy",
+      "option_c": "FEFO: Continuous efforts to improve safety and outcomes",
+      "option_d": "Key performance indicators (KPIs): Allocating staff to match workload and service needs",
+      "correct_answer": "A",
+      "explanation": "Inventory management: Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 138) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Inventory management issues often arise when documentation is complete.",
+      "option_b": "Quality improvement (QI) issues often arise when documentation is incomplete.",
+      "option_c": "Staff scheduling issues often arise when documentation is complete.",
+      "option_d": "Staff scheduling issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 139) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Improves adherence and retention; manage complaints effectively.",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "A",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 140) Which statement is TRUE?",
+      "option_a": "Inventory management: Identifying and reducing operational and clinical risks",
+      "option_b": "Key performance indicators (KPIs): Metrics to evaluate operational performance",
+      "option_c": "FEFO: Metrics to evaluate operational performance",
+      "option_d": "Inventory management: Processes that generate and collect payment for services",
+      "correct_answer": "B",
+      "explanation": "Key performance indicators (KPIs): Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 141) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Quality improvement (QI) issues often arise when documentation is incomplete.",
+      "option_b": "Customer service in pharmacy issues often arise when monitoring is rigorous.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when documentation is complete.",
+      "option_d": "Budgeting issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 142) Budgeting is BEST defined as:",
+      "option_a": "Balances coverage, skills mix, and labor costs.",
+      "option_b": "Planning revenues and expenses over a period",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Identifying and reducing operational and clinical risks",
+      "correct_answer": "B",
+      "explanation": "Budgeting: Planning revenues and expenses over a period"
+    },
+    {
+      "question": "(Pharmacy Management Item 143) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Quality improvement (QI)",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Key performance indicators (KPIs)",
+      "option_d": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "correct_answer": "D",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 144) A common pitfall related to Risk management is:",
+      "option_a": "Risk management issues often arise when documentation is incomplete.",
+      "option_b": "FEFO issues often arise when all policies are followed.",
+      "option_c": "Inventory management issues often arise when training is excellent.",
+      "option_d": "Inventory management issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 145) Which option is MOST appropriate regarding Risk management?",
+      "option_a": "Includes incident reporting, audits, and mitigation plans.",
+      "option_b": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_c": "Includes billing, claims, reconciliation, and denials management.",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "A",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 146) Which statement is TRUE?",
+      "option_a": "FEFO: First-expire-first-out stock rotation",
+      "option_b": "Inventory management: Metrics to evaluate operational performance",
+      "option_c": "FEFO: First-expire-first-out stock rotation",
+      "option_d": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "correct_answer": "A",
+      "explanation": "FEFO: Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 147) A common pitfall related to Risk management is:",
+      "option_a": "Risk management issues often arise when documentation is incomplete.",
+      "option_b": "Budgeting issues often arise when documentation is complete.",
+      "option_c": "ABC analysis issues often arise when training is excellent.",
+      "option_d": "Key performance indicators (KPIs) issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 148) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Quality improvement (QI) issues often arise when documentation is complete.",
+      "option_b": "FEFO issues often arise when monitoring is rigorous.",
+      "option_c": "Quality improvement (QI) issues often arise when documentation is complete.",
+      "option_d": "Quality improvement (QI) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 149) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Customer service in pharmacy",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Staff scheduling",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "B",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 150) Revenue cycle is BEST defined as:",
+      "option_a": "Use PDSA cycles and root cause analysis.",
+      "option_b": "Budgeting",
+      "option_c": "Processes that generate and collect payment for services",
+      "option_d": "Inventory management",
+      "correct_answer": "C",
+      "explanation": "Revenue cycle: Processes that generate and collect payment for services"
+    },
+    {
+      "question": "(Pharmacy Management Item 151) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Metrics to evaluate operational performance",
+      "option_b": "Revenue cycle: Identifying and reducing operational and clinical risks",
+      "option_c": "FEFO: Allocating staff to match workload and service needs",
+      "option_d": "FEFO: First-expire-first-out stock rotation",
+      "correct_answer": "D",
+      "explanation": "FEFO: Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 152) Which statement is TRUE?",
+      "option_a": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_b": "Quality improvement (QI): Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Revenue cycle: Processes that generate and collect payment for services",
+      "option_d": "Customer service in pharmacy: Planning revenues and expenses over a period",
+      "correct_answer": "A",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 153) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Categorizing inventory by annual consumption value",
+      "option_b": "Use PDSA cycles and root cause analysis.",
+      "option_c": "Quality improvement (QI)",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "B",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 154) Which statement is TRUE?",
+      "option_a": "Customer service in pharmacy: First-expire-first-out stock rotation",
+      "option_b": "Quality improvement (QI): Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "ABC analysis: Planning revenues and expenses over a period",
+      "option_d": "ABC analysis: Categorizing inventory by annual consumption value",
+      "correct_answer": "D",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 155) Inventory management is BEST defined as:",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Revenue cycle",
+      "correct_answer": "C",
+      "explanation": "Inventory management: Ordering and controlling stock to meet demand while minimizing waste"
+    },
+    {
+      "question": "(Pharmacy Management Item 156) Which option is MOST appropriate regarding Staff scheduling?",
+      "option_a": "Reduces expiry-related losses.",
+      "option_b": "Planning revenues and expenses over a period",
+      "option_c": "Balances coverage, skills mix, and labor costs.",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "C",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 157) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Planning revenues and expenses over a period",
+      "option_b": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_c": "Improves adherence and retention; manage complaints effectively.",
+      "option_d": "ABC analysis",
+      "correct_answer": "C",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 158) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Allocating staff to match workload and service needs",
+      "option_b": "Staff scheduling: Metrics to evaluate operational performance",
+      "option_c": "FEFO: First-expire-first-out stock rotation",
+      "option_d": "Budgeting: Planning revenues and expenses over a period",
+      "correct_answer": "C",
+      "explanation": "FEFO: Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 159) Staff scheduling is BEST defined as:",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_c": "Planning revenues and expenses over a period",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 160) A common pitfall related to ABC analysis is:",
+      "option_a": "Staff scheduling issues often arise when training is excellent.",
+      "option_b": "ABC analysis issues often arise when documentation is incomplete.",
+      "option_c": "Revenue cycle issues often arise when all policies are followed.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 161) Which statement is TRUE?",
+      "option_a": "Budgeting: Metrics to evaluate operational performance",
+      "option_b": "Risk management: Planning revenues and expenses over a period",
+      "option_c": "Customer service in pharmacy: Identifying and reducing operational and clinical risks",
+      "option_d": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "correct_answer": "D",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 162) A common pitfall related to Customer service in pharmacy is:",
+      "option_a": "Customer service in pharmacy issues often arise when all policies are followed.",
+      "option_b": "Customer service in pharmacy issues often arise when processes are not standardized.",
+      "option_c": "Key performance indicators (KPIs) issues often arise when documentation is complete.",
+      "option_d": "FEFO issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 163) Which statement is TRUE?",
+      "option_a": "Revenue cycle: Identifying and reducing operational and clinical risks",
+      "option_b": "ABC analysis: Categorizing inventory by annual consumption value",
+      "option_c": "FEFO: Processes that generate and collect payment for services",
+      "option_d": "Staff scheduling: Identifying and reducing operational and clinical risks",
+      "correct_answer": "B",
+      "explanation": "ABC analysis: A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 164) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Revenue cycle issues often arise when all policies are followed.",
+      "option_b": "Quality improvement (QI) issues often arise when documentation is incomplete.",
+      "option_c": "Budgeting issues often arise when documentation is complete.",
+      "option_d": "Revenue cycle issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 165) A common pitfall related to Customer service in pharmacy is:",
+      "option_a": "Customer service in pharmacy issues often arise when all policies are followed.",
+      "option_b": "Customer service in pharmacy issues often arise when documentation is incomplete.",
+      "option_c": "Revenue cycle issues often arise when documentation is complete.",
+      "option_d": "Quality improvement (QI) issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 166) Which option is MOST appropriate regarding Staff scheduling?",
+      "option_a": "Budgeting",
+      "option_b": "Key performance indicators (KPIs)",
+      "option_c": "First-expire-first-out stock rotation",
+      "option_d": "Balances coverage, skills mix, and labor costs.",
+      "correct_answer": "D",
+      "explanation": "Balances coverage, skills mix, and labor costs."
+    },
+    {
+      "question": "(Pharmacy Management Item 167) Key performance indicators (KPIs) is BEST defined as:",
+      "option_a": "Metrics to evaluate operational performance",
+      "option_b": "FEFO",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Meeting patient needs with professionalism and empathy",
+      "correct_answer": "A",
+      "explanation": "Key performance indicators (KPIs): Metrics to evaluate operational performance"
+    },
+    {
+      "question": "(Pharmacy Management Item 168) Which statement is TRUE?",
+      "option_a": "Budgeting: Planning revenues and expenses over a period",
+      "option_b": "Inventory management: First-expire-first-out stock rotation",
+      "option_c": "Inventory management: Continuous efforts to improve safety and outcomes",
+      "option_d": "Customer service in pharmacy: Ordering and controlling stock to meet demand while minimizing waste",
+      "correct_answer": "A",
+      "explanation": "Budgeting: Supports cost control and resource allocation."
+    },
+    {
+      "question": "(Pharmacy Management Item 169) A common pitfall related to Key performance indicators (KPIs) is:",
+      "option_a": "Key performance indicators (KPIs) issues often arise when documentation is incomplete.",
+      "option_b": "ABC analysis issues often arise when monitoring is rigorous.",
+      "option_c": "Budgeting issues often arise when documentation is complete.",
+      "option_d": "FEFO issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 170) Which statement is TRUE?",
+      "option_a": "FEFO: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Budgeting: Meeting patient needs with professionalism and empathy",
+      "option_c": "Budgeting: Meeting patient needs with professionalism and empathy",
+      "option_d": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "correct_answer": "D",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 171) Which option is MOST appropriate regarding Inventory management?",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "Key performance indicators (KPIs)",
+      "option_c": "Categorizing inventory by annual consumption value",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "A",
+      "explanation": "Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 172) Which option is MOST appropriate regarding Inventory management?",
+      "option_a": "Use par levels, ABC analysis, and expiry tracking.",
+      "option_b": "Includes billing, claims, reconciliation, and denials management.",
+      "option_c": "Metrics to evaluate operational performance",
+      "option_d": "Continuous efforts to improve safety and outcomes",
+      "correct_answer": "A",
+      "explanation": "Use par levels, ABC analysis, and expiry tracking."
+    },
+    {
+      "question": "(Pharmacy Management Item 173) Which statement is TRUE?",
+      "option_a": "Key performance indicators (KPIs): Categorizing inventory by annual consumption value",
+      "option_b": "Revenue cycle: Planning revenues and expenses over a period",
+      "option_c": "Quality improvement (QI): Allocating staff to match workload and service needs",
+      "option_d": "Revenue cycle: Processes that generate and collect payment for services",
+      "correct_answer": "D",
+      "explanation": "Revenue cycle: Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 174) Revenue cycle is BEST defined as:",
+      "option_a": "Processes that generate and collect payment for services",
+      "option_b": "First-expire-first-out stock rotation",
+      "option_c": "Key performance indicators (KPIs)",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "A",
+      "explanation": "Revenue cycle: Processes that generate and collect payment for services"
+    },
+    {
+      "question": "(Pharmacy Management Item 175) Which statement is TRUE?",
+      "option_a": "Risk management: Metrics to evaluate operational performance",
+      "option_b": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "option_c": "ABC analysis: Identifying and reducing operational and clinical risks",
+      "option_d": "ABC analysis: Meeting patient needs with professionalism and empathy",
+      "correct_answer": "B",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 176) A common pitfall related to Staff scheduling is:",
+      "option_a": "Key performance indicators (KPIs) issues often arise when training is excellent.",
+      "option_b": "Staff scheduling issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Inventory management issues often arise when all policies are followed.",
+      "option_d": "Revenue cycle issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 177) Key performance indicators (KPIs) is BEST defined as:",
+      "option_a": "Continuous efforts to improve safety and outcomes",
+      "option_b": "Supports cost control and resource allocation.",
+      "option_c": "Processes that generate and collect payment for services",
+      "option_d": "Metrics to evaluate operational performance",
+      "correct_answer": "D",
+      "explanation": "Key performance indicators (KPIs): Metrics to evaluate operational performance"
+    },
+    {
+      "question": "(Pharmacy Management Item 178) Staff scheduling is BEST defined as:",
+      "option_a": "Allocating staff to match workload and service needs",
+      "option_b": "Key performance indicators (KPIs)",
+      "option_c": "Continuous efforts to improve safety and outcomes",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "A",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 179) Which statement is TRUE?",
+      "option_a": "FEFO: Allocating staff to match workload and service needs",
+      "option_b": "Staff scheduling: First-expire-first-out stock rotation",
+      "option_c": "Customer service in pharmacy: Meeting patient needs with professionalism and empathy",
+      "option_d": "Risk management: Allocating staff to match workload and service needs",
+      "correct_answer": "C",
+      "explanation": "Customer service in pharmacy: Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 180) Which option is MOST appropriate regarding Customer service in pharmacy?",
+      "option_a": "Improves adherence and retention; manage complaints effectively.",
+      "option_b": "Planning revenues and expenses over a period",
+      "option_c": "Ordering and controlling stock to meet demand while minimizing waste",
+      "option_d": "Balances coverage, skills mix, and labor costs.",
+      "correct_answer": "A",
+      "explanation": "Improves adherence and retention; manage complaints effectively."
+    },
+    {
+      "question": "(Pharmacy Management Item 181) A common pitfall related to Staff scheduling is:",
+      "option_a": "Budgeting issues often arise when training is excellent.",
+      "option_b": "Budgeting issues often arise when monitoring is rigorous.",
+      "option_c": "Staff scheduling issues often arise when communication is unclear.",
+      "option_d": "Budgeting issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 182) A common pitfall related to Key performance indicators (KPIs) is:",
+      "option_a": "Key performance indicators (KPIs) issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Customer service in pharmacy issues often arise when monitoring is rigorous.",
+      "option_c": "ABC analysis issues often arise when documentation is complete.",
+      "option_d": "Revenue cycle issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 183) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Use PDSA cycles and root cause analysis.",
+      "option_b": "Improves adherence and retention; manage complaints effectively.",
+      "option_c": "Balances coverage, skills mix, and labor costs.",
+      "option_d": "Includes billing, claims, reconciliation, and denials management.",
+      "correct_answer": "A",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 184) Budgeting is BEST defined as:",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "Quality improvement (QI)",
+      "option_c": "Planning revenues and expenses over a period",
+      "option_d": "Processes that generate and collect payment for services",
+      "correct_answer": "C",
+      "explanation": "Budgeting: Planning revenues and expenses over a period"
+    },
+    {
+      "question": "(Pharmacy Management Item 185) Which statement is TRUE?",
+      "option_a": "ABC analysis: Meeting patient needs with professionalism and empathy",
+      "option_b": "Staff scheduling: Planning revenues and expenses over a period",
+      "option_c": "ABC analysis: First-expire-first-out stock rotation",
+      "option_d": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "correct_answer": "D",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 186) Which option is MOST appropriate regarding Key performance indicators (KPIs)?",
+      "option_a": "Meeting patient needs with professionalism and empathy",
+      "option_b": "FEFO",
+      "option_c": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "C",
+      "explanation": "Examples: turnaround time, error rates, stockouts, patient satisfaction."
+    },
+    {
+      "question": "(Pharmacy Management Item 187) Staff scheduling is BEST defined as:",
+      "option_a": "Balances coverage, skills mix, and labor costs.",
+      "option_b": "Includes incident reporting, audits, and mitigation plans.",
+      "option_c": "Allocating staff to match workload and service needs",
+      "option_d": "Supports cost control and resource allocation.",
+      "correct_answer": "C",
+      "explanation": "Staff scheduling: Allocating staff to match workload and service needs"
+    },
+    {
+      "question": "(Pharmacy Management Item 188) A common pitfall related to Staff scheduling is:",
+      "option_a": "Staff scheduling issues often arise when processes are not standardized.",
+      "option_b": "Revenue cycle issues often arise when training is excellent.",
+      "option_c": "Risk management issues often arise when training is excellent.",
+      "option_d": "Key performance indicators (KPIs) issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 189) Which option is MOST appropriate regarding FEFO?",
+      "option_a": "First-expire-first-out stock rotation",
+      "option_b": "Risk management",
+      "option_c": "Supports cost control and resource allocation.",
+      "option_d": "Reduces expiry-related losses.",
+      "correct_answer": "D",
+      "explanation": "Reduces expiry-related losses."
+    },
+    {
+      "question": "(Pharmacy Management Item 190) Which statement is TRUE?",
+      "option_a": "Budgeting: Meeting patient needs with professionalism and empathy",
+      "option_b": "Staff scheduling: First-expire-first-out stock rotation",
+      "option_c": "FEFO: Continuous efforts to improve safety and outcomes",
+      "option_d": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "correct_answer": "D",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 191) Which statement is TRUE?",
+      "option_a": "Risk management: Ordering and controlling stock to meet demand while minimizing waste",
+      "option_b": "Revenue cycle: Planning revenues and expenses over a period",
+      "option_c": "Revenue cycle: Processes that generate and collect payment for services",
+      "option_d": "Staff scheduling: Metrics to evaluate operational performance",
+      "correct_answer": "C",
+      "explanation": "Revenue cycle: Includes billing, claims, reconciliation, and denials management."
+    },
+    {
+      "question": "(Pharmacy Management Item 192) A common pitfall related to Budgeting is:",
+      "option_a": "Quality improvement (QI) issues often arise when all policies are followed.",
+      "option_b": "Budgeting issues often arise when documentation is incomplete.",
+      "option_c": "Revenue cycle issues often arise when monitoring is rigorous.",
+      "option_d": "FEFO issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 193) Which option is MOST appropriate regarding Risk management?",
+      "option_a": "Staff scheduling",
+      "option_b": "Reduces expiry-related losses.",
+      "option_c": "Includes incident reporting, audits, and mitigation plans.",
+      "option_d": "ABC analysis",
+      "correct_answer": "C",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 194) Which statement is TRUE?",
+      "option_a": "Risk management: Identifying and reducing operational and clinical risks",
+      "option_b": "Quality improvement (QI): Continuous efforts to improve safety and outcomes",
+      "option_c": "Budgeting: Planning revenues and expenses over a period",
+      "option_d": "Risk management: Processes that generate and collect payment for services",
+      "correct_answer": "B",
+      "explanation": "Quality improvement (QI): Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 195) Which option is MOST appropriate regarding ABC analysis?",
+      "option_a": "A items high value; tighter control than B/C.",
+      "option_b": "Identifying and reducing operational and clinical risks",
+      "option_c": "Metrics to evaluate operational performance",
+      "option_d": "Quality improvement (QI)",
+      "correct_answer": "A",
+      "explanation": "A items high value; tighter control than B/C."
+    },
+    {
+      "question": "(Pharmacy Management Item 196) A common pitfall related to Inventory management is:",
+      "option_a": "Staff scheduling issues often arise when all policies are followed.",
+      "option_b": "Inventory management issues often arise when documentation is incomplete.",
+      "option_c": "FEFO issues often arise when training is excellent.",
+      "option_d": "FEFO issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacy Management Item 197) ABC analysis is BEST defined as:",
+      "option_a": "Categorizing inventory by annual consumption value",
+      "option_b": "Customer service in pharmacy",
+      "option_c": "Reduces expiry-related losses.",
+      "option_d": "First-expire-first-out stock rotation",
+      "correct_answer": "A",
+      "explanation": "ABC analysis: Categorizing inventory by annual consumption value"
+    },
+    {
+      "question": "(Pharmacy Management Item 198) Which option is MOST appropriate regarding Risk management?",
+      "option_a": "Staff scheduling",
+      "option_b": "Risk management",
+      "option_c": "Customer service in pharmacy",
+      "option_d": "Includes incident reporting, audits, and mitigation plans.",
+      "correct_answer": "D",
+      "explanation": "Includes incident reporting, audits, and mitigation plans."
+    },
+    {
+      "question": "(Pharmacy Management Item 199) Which option is MOST appropriate regarding Quality improvement (QI)?",
+      "option_a": "Inventory management",
+      "option_b": "Examples: turnaround time, error rates, stockouts, patient satisfaction.",
+      "option_c": "Use PDSA cycles and root cause analysis.",
+      "option_d": "Improves adherence and retention; manage complaints effectively.",
+      "correct_answer": "C",
+      "explanation": "Use PDSA cycles and root cause analysis."
+    },
+    {
+      "question": "(Pharmacy Management Item 200) A common pitfall related to Quality improvement (QI) is:",
+      "option_a": "Risk management issues often arise when training is excellent.",
+      "option_b": "Quality improvement (QI) issues often arise when communication is unclear.",
+      "option_c": "Revenue cycle issues often arise when documentation is complete.",
+      "option_d": "Revenue cycle issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    }
+  ]
+}

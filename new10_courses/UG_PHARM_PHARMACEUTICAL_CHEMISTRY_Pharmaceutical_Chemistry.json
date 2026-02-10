@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmaceutical Chemistry",
+  "course_code": "UG_PHARM_PHARMACEUTICAL_CHEMISTRY",
+  "questions": [
+    {
+      "question": "Which statement best describes Structure–activity relationship (SAR)?",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "3D arrangement affects drug action",
+      "option_c": "Stereochemistry",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "A",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "In practice, the key objective of Structure–activity relationship (SAR) is to:",
+      "option_a": "Violations may reduce oral bioavailability.",
+      "option_b": "Chemical breakdown by water",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "Conjugation (Phase II)",
+      "correct_answer": "C",
+      "explanation": "Structure–activity relationship (SAR): Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "Which statement best describes Prodrug?",
+      "option_a": "Inactive/less active compound converted to active drug in the body",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Drug degradation under light exposure",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "A",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "In practice, the key objective of Prodrug is to:",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "A",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "Which statement best describes pKa and ionization?",
+      "option_a": "Structure–activity relationship (SAR)",
+      "option_b": "Stereochemistry",
+      "option_c": "Prodrug",
+      "option_d": "Determines degree of ionization at a given pH",
+      "correct_answer": "D",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "In practice, the key objective of pKa and ionization is to:",
+      "option_a": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_b": "Impurity profiling",
+      "option_c": "Inactive/less active compound converted to active drug in the body",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "D",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "Which statement best describes Lipinski's Rule of 5?",
+      "option_a": "Drug degradation under light exposure",
+      "option_b": "Photostability",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Heuristic predicting oral drug-likeness",
+      "correct_answer": "D",
+      "explanation": "Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "In practice, the key objective of Lipinski's Rule of 5 is to:",
+      "option_a": "Prodrug",
+      "option_b": "Violations may reduce oral bioavailability.",
+      "option_c": "Relationship between chemical structure and biological activity",
+      "option_d": "Oxidation (drug metabolism)",
+      "correct_answer": "B",
+      "explanation": "Lipinski's Rule of 5: Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "Which statement best describes Hydrolysis?",
+      "option_a": "Hydrolysis",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "D",
+      "explanation": "Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "In practice, the key objective of Hydrolysis is to:",
+      "option_a": "Lipinski's Rule of 5",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "Important for ester/amide stability; influenced by pH.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "C",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "Which statement best describes Oxidation (drug metabolism)?",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "Heuristic predicting oral drug-likeness",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Common Phase I reaction (often CYP-mediated)",
+      "correct_answer": "D",
+      "explanation": "Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "In practice, the key objective of Oxidation (drug metabolism) is to:",
+      "option_a": "Impurity profiling",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "B",
+      "explanation": "Oxidation (drug metabolism): Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "Which statement best describes Conjugation (Phase II)?",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "A",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "In practice, the key objective of Conjugation (Phase II) is to:",
+      "option_a": "Usually increases excretion; may inactivate drugs.",
+      "option_b": "Drug degradation under light exposure",
+      "option_c": "Enantiomers can differ in activity and safety.",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "Which statement best describes Stereochemistry?",
+      "option_a": "Prodrug",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "In practice, the key objective of Stereochemistry is to:",
+      "option_a": "Enantiomers can differ in activity and safety.",
+      "option_b": "Requires light-protective packaging when sensitive.",
+      "option_c": "Drug degradation under light exposure",
+      "option_d": "Impurity profiling",
+      "correct_answer": "A",
+      "explanation": "Stereochemistry: Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "Which statement best describes Photostability?",
+      "option_a": "Drug degradation under light exposure",
+      "option_b": "Hydrolysis",
+      "option_c": "Stereochemistry",
+      "option_d": "Structure–activity relationship (SAR)",
+      "correct_answer": "A",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "In practice, the key objective of Photostability is to:",
+      "option_a": "Usually increases excretion; may inactivate drugs.",
+      "option_b": "Inactive/less active compound converted to active drug in the body",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Prodrug",
+      "correct_answer": "C",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "Which statement best describes Impurity profiling?",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Impurity profiling",
+      "option_c": "Photostability",
+      "option_d": "Common Phase I reaction (often CYP-mediated)",
+      "correct_answer": "A",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "In practice, the key objective of Impurity profiling is to:",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "Prodrug",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "C",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 21) A common pitfall related to pKa and ionization is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when training is excellent.",
+      "option_b": "Lipinski's Rule of 5 issues often arise when monitoring is rigorous.",
+      "option_c": "pKa and ionization issues often arise when documentation is complete.",
+      "option_d": "pKa and ionization issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 22) Which statement is TRUE?",
+      "option_a": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Photostability: Inactive/less active compound converted to active drug in the body",
+      "option_c": "Impurity profiling: Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Hydrolysis: Chemical breakdown by water",
+      "correct_answer": "D",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 23) Which statement is TRUE?",
+      "option_a": "Lipinski's Rule of 5: Adds polar groups (e.g., glucuronidation)",
+      "option_b": "pKa and ionization: Identification/control of impurities in drug substances",
+      "option_c": "Conjugation (Phase II): Heuristic predicting oral drug-likeness",
+      "option_d": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "D",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 24) Impurity profiling is BEST defined as:",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "Heuristic predicting oral drug-likeness",
+      "correct_answer": "A",
+      "explanation": "Impurity profiling: Identification/control of impurities in drug substances"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 25) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Impurity profiling",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Relationship between chemical structure and biological activity",
+      "correct_answer": "A",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 26) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "3D arrangement affects drug action",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Chemical breakdown by water",
+      "option_d": "Usually increases excretion; may inactivate drugs.",
+      "correct_answer": "D",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 27) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Violations may reduce oral bioavailability.",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Relationship between chemical structure and biological activity",
+      "correct_answer": "D",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 28) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Prodrug",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Oxidation (drug metabolism)",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 29) Which statement is TRUE?",
+      "option_a": "Lipinski's Rule of 5: 3D arrangement affects drug action",
+      "option_b": "Lipinski's Rule of 5: Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity",
+      "option_d": "pKa and ionization: Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "C",
+      "explanation": "Structure–activity relationship (SAR): Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 30) A common pitfall related to Oxidation (drug metabolism) is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when monitoring is rigorous.",
+      "option_b": "Prodrug issues often arise when training is excellent.",
+      "option_c": "Conjugation (Phase II) issues often arise when all policies are followed.",
+      "option_d": "Oxidation (drug metabolism) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 31) Which option is MOST appropriate regarding Oxidation (drug metabolism)?",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "Photostability",
+      "correct_answer": "B",
+      "explanation": "Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 32) Which statement is TRUE?",
+      "option_a": "Stereochemistry: 3D arrangement affects drug action",
+      "option_b": "Stereochemistry: Identification/control of impurities in drug substances",
+      "option_c": "Hydrolysis: Identification/control of impurities in drug substances",
+      "option_d": "Conjugation (Phase II): Heuristic predicting oral drug-likeness",
+      "correct_answer": "A",
+      "explanation": "Stereochemistry: Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 33) Hydrolysis is BEST defined as:",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Usually increases excretion; may inactivate drugs.",
+      "correct_answer": "A",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 34) Which option is MOST appropriate regarding Stereochemistry?",
+      "option_a": "3D arrangement affects drug action",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Oxidation (drug metabolism)",
+      "option_d": "Enantiomers can differ in activity and safety.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 35) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Enantiomers can differ in activity and safety.",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 36) pKa and ionization is BEST defined as:",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Lipinski's Rule of 5",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Conjugation (Phase II)",
+      "correct_answer": "A",
+      "explanation": "pKa and ionization: Determines degree of ionization at a given pH"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 37) pKa and ionization is BEST defined as:",
+      "option_a": "3D arrangement affects drug action",
+      "option_b": "Important for ester/amide stability; influenced by pH.",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "correct_answer": "C",
+      "explanation": "pKa and ionization: Determines degree of ionization at a given pH"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 38) Which option is MOST appropriate regarding Stereochemistry?",
+      "option_a": "Enantiomers can differ in activity and safety.",
+      "option_b": "Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Heuristic predicting oral drug-likeness",
+      "correct_answer": "A",
+      "explanation": "Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 39) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "Heuristic predicting oral drug-likeness",
+      "option_b": "Drug degradation under light exposure",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "A",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 40) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Identification/control of impurities in drug substances",
+      "option_b": "Oxidation (drug metabolism): Determines degree of ionization at a given pH",
+      "option_c": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Hydrolysis: Heuristic predicting oral drug-likeness",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 41) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Photostability",
+      "option_b": "Requires light-protective packaging when sensitive.",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "B",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 42) Prodrug is BEST defined as:",
+      "option_a": "Photostability",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Inactive/less active compound converted to active drug in the body",
+      "option_d": "Relationship between chemical structure and biological activity",
+      "correct_answer": "C",
+      "explanation": "Prodrug: Inactive/less active compound converted to active drug in the body"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 43) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Affects solubility, absorption, and distribution.",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Prodrug",
+      "option_d": "Hydrolysis",
+      "correct_answer": "A",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 44) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Structure–activity relationship (SAR): Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity",
+      "option_d": "Prodrug: Chemical breakdown by water",
+      "correct_answer": "C",
+      "explanation": "Structure–activity relationship (SAR): Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 45) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Conjugation (Phase II)",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Relationship between chemical structure and biological activity",
+      "correct_answer": "D",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 46) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Stereochemistry",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Usually increases excretion; may inactivate drugs.",
+      "correct_answer": "C",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 47) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Affects solubility, absorption, and distribution.",
+      "option_b": "Requires light-protective packaging when sensitive.",
+      "option_c": "Relationship between chemical structure and biological activity",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "C",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 48) Which statement is TRUE?",
+      "option_a": "Lipinski's Rule of 5: Identification/control of impurities in drug substances",
+      "option_b": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_c": "Stereochemistry: 3D arrangement affects drug action",
+      "option_d": "Structure–activity relationship (SAR): Common Phase I reaction (often CYP-mediated)",
+      "correct_answer": "B",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 49) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Hydrolysis",
+      "option_b": "Drug degradation under light exposure",
+      "option_c": "Oxidation (drug metabolism)",
+      "option_d": "Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "D",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 50) A common pitfall related to Conjugation (Phase II) is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when all policies are followed.",
+      "option_b": "Stereochemistry issues often arise when monitoring is rigorous.",
+      "option_c": "Prodrug issues often arise when monitoring is rigorous.",
+      "option_d": "Conjugation (Phase II) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 51) Hydrolysis is BEST defined as:",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Oxidation (drug metabolism)",
+      "option_c": "3D arrangement affects drug action",
+      "option_d": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "correct_answer": "A",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 52) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_b": "Prodrug: Chemical breakdown by water",
+      "option_c": "Hydrolysis: Heuristic predicting oral drug-likeness",
+      "option_d": "Structure–activity relationship (SAR): 3D arrangement affects drug action",
+      "correct_answer": "A",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 53) A common pitfall related to Stereochemistry is:",
+      "option_a": "Stereochemistry issues often arise when communication is unclear.",
+      "option_b": "pKa and ionization issues often arise when all policies are followed.",
+      "option_c": "Lipinski's Rule of 5 issues often arise when all policies are followed.",
+      "option_d": "Stereochemistry issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 54) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Impurity profiling",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "D",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 55) Hydrolysis is BEST defined as:",
+      "option_a": "Oxidation (drug metabolism)",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Chemical breakdown by water",
+      "option_d": "pKa and ionization",
+      "correct_answer": "C",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 56) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Conjugation (Phase II)",
+      "correct_answer": "B",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 57) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Lipinski's Rule of 5",
+      "option_b": "Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Oxidation (drug metabolism)",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "D",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 58) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "Heuristic predicting oral drug-likeness",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Prodrug",
+      "correct_answer": "B",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 59) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Relationship between chemical structure and biological activity",
+      "option_b": "Photostability: Drug degradation under light exposure",
+      "option_c": "Conjugation (Phase II): Drug degradation under light exposure",
+      "option_d": "Lipinski's Rule of 5: Drug degradation under light exposure",
+      "correct_answer": "B",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 60) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Stereochemistry: Heuristic predicting oral drug-likeness",
+      "option_c": "Oxidation (drug metabolism): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Structure–activity relationship (SAR): Determines degree of ionization at a given pH",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 61) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Affects solubility, absorption, and distribution.",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Relationship between chemical structure and biological activity",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "C",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 62) Which option is MOST appropriate regarding Hydrolysis?",
+      "option_a": "Stereochemistry",
+      "option_b": "Inactive/less active compound converted to active drug in the body",
+      "option_c": "Important for ester/amide stability; influenced by pH.",
+      "option_d": "Usually increases excretion; may inactivate drugs.",
+      "correct_answer": "C",
+      "explanation": "Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 63) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Regulatory requirement for safety and quality.",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Prodrug",
+      "correct_answer": "A",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 64) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "Photostability",
+      "option_b": "Important for ester/amide stability; influenced by pH.",
+      "option_c": "Impurity profiling",
+      "option_d": "Heuristic predicting oral drug-likeness",
+      "correct_answer": "D",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 65) A common pitfall related to Hydrolysis is:",
+      "option_a": "Conjugation (Phase II) issues often arise when training is excellent.",
+      "option_b": "Hydrolysis issues often arise when processes are not standardized.",
+      "option_c": "Stereochemistry issues often arise when documentation is complete.",
+      "option_d": "Conjugation (Phase II) issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 66) Which option is MOST appropriate regarding Stereochemistry?",
+      "option_a": "Violations may reduce oral bioavailability.",
+      "option_b": "Heuristic predicting oral drug-likeness",
+      "option_c": "Important for ester/amide stability; influenced by pH.",
+      "option_d": "Enantiomers can differ in activity and safety.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 67) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Important for ester/amide stability; influenced by pH.",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Regulatory requirement for safety and quality.",
+      "correct_answer": "D",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 68) Which statement is TRUE?",
+      "option_a": "Photostability: Relationship between chemical structure and biological activity",
+      "option_b": "Stereochemistry: Heuristic predicting oral drug-likeness",
+      "option_c": "Stereochemistry: Determines degree of ionization at a given pH",
+      "option_d": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness",
+      "correct_answer": "D",
+      "explanation": "Lipinski's Rule of 5: Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 69) Stereochemistry is BEST defined as:",
+      "option_a": "pKa and ionization",
+      "option_b": "3D arrangement affects drug action",
+      "option_c": "Identification/control of impurities in drug substances",
+      "option_d": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "correct_answer": "B",
+      "explanation": "Stereochemistry: 3D arrangement affects drug action"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 70) Which option is MOST appropriate regarding Structure–activity relationship (SAR)?",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_d": "Stereochemistry",
+      "correct_answer": "C",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 71) pKa and ionization is BEST defined as:",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Important for ester/amide stability; influenced by pH.",
+      "correct_answer": "C",
+      "explanation": "pKa and ionization: Determines degree of ionization at a given pH"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 72) Which statement is TRUE?",
+      "option_a": "Prodrug: Determines degree of ionization at a given pH",
+      "option_b": "Prodrug: Drug degradation under light exposure",
+      "option_c": "Hydrolysis: Chemical breakdown by water",
+      "option_d": "Oxidation (drug metabolism): Identification/control of impurities in drug substances",
+      "correct_answer": "C",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 73) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Oxidation (drug metabolism)",
+      "option_b": "Impurity profiling",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 74) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Drug degradation under light exposure",
+      "option_b": "Hydrolysis: Relationship between chemical structure and biological activity",
+      "option_c": "Prodrug: Drug degradation under light exposure",
+      "option_d": "pKa and ionization: Determines degree of ionization at a given pH",
+      "correct_answer": "D",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 75) A common pitfall related to pKa and ionization is:",
+      "option_a": "pKa and ionization issues often arise when documentation is incomplete.",
+      "option_b": "Impurity profiling issues often arise when monitoring is rigorous.",
+      "option_c": "Structure–activity relationship (SAR) issues often arise when documentation is complete.",
+      "option_d": "Hydrolysis issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 76) Which statement is TRUE?",
+      "option_a": "Photostability: Drug degradation under light exposure",
+      "option_b": "Impurity profiling: Identification/control of impurities in drug substances",
+      "option_c": "Photostability: 3D arrangement affects drug action",
+      "option_d": "Photostability: Relationship between chemical structure and biological activity",
+      "correct_answer": "A",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 77) A common pitfall related to Oxidation (drug metabolism) is:",
+      "option_a": "Structure–activity relationship (SAR) issues often arise when documentation is complete.",
+      "option_b": "Photostability issues often arise when all policies are followed.",
+      "option_c": "pKa and ionization issues often arise when documentation is complete.",
+      "option_d": "Oxidation (drug metabolism) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 78) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "pKa and ionization",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Chemical breakdown by water",
+      "option_d": "Regulatory requirement for safety and quality.",
+      "correct_answer": "B",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 79) A common pitfall related to Impurity profiling is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when training is excellent.",
+      "option_b": "Prodrug issues often arise when documentation is complete.",
+      "option_c": "Conjugation (Phase II) issues often arise when training is excellent.",
+      "option_d": "Impurity profiling issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 80) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Requires light-protective packaging when sensitive.",
+      "option_b": "Hydrolysis",
+      "option_c": "Prodrug",
+      "option_d": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "correct_answer": "A",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 81) Which option is MOST appropriate regarding Lipinski's Rule of 5?",
+      "option_a": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "pKa and ionization",
+      "option_d": "Violations may reduce oral bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 82) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "pKa and ionization",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Photostability",
+      "correct_answer": "B",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 83) Which option is MOST appropriate regarding Structure–activity relationship (SAR)?",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Structure–activity relationship (SAR)",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "correct_answer": "D",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 84) Hydrolysis is BEST defined as:",
+      "option_a": "Can improve absorption, distribution, or tolerability.",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "D",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 85) Which option is MOST appropriate regarding Oxidation (drug metabolism)?",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "pKa and ionization",
+      "option_d": "Hydrolysis",
+      "correct_answer": "B",
+      "explanation": "Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 86) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Identification/control of impurities in drug substances",
+      "option_b": "Structure–activity relationship (SAR): Drug degradation under light exposure",
+      "option_c": "Stereochemistry: Relationship between chemical structure and biological activity",
+      "option_d": "Impurity profiling: Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 87) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Prodrug: Drug degradation under light exposure",
+      "option_c": "Stereochemistry: Determines degree of ionization at a given pH",
+      "option_d": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "D",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 88) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "Usually increases excretion; may inactivate drugs.",
+      "option_b": "Chemical breakdown by water",
+      "option_c": "Oxidation (drug metabolism)",
+      "option_d": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "correct_answer": "A",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 89) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Chemical breakdown by water",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Structure–activity relationship (SAR)",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 90) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "pKa and ionization",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 91) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Enantiomers can differ in activity and safety.",
+      "option_d": "pKa and ionization",
+      "correct_answer": "B",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 92) A common pitfall related to pKa and ionization is:",
+      "option_a": "pKa and ionization issues often arise when monitoring is rigorous.",
+      "option_b": "Oxidation (drug metabolism) issues often arise when training is excellent.",
+      "option_c": "Impurity profiling issues often arise when training is excellent.",
+      "option_d": "pKa and ionization issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 93) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "Enantiomers can differ in activity and safety.",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Photostability",
+      "option_d": "Oxidation (drug metabolism)",
+      "correct_answer": "B",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 94) Impurity profiling is BEST defined as:",
+      "option_a": "Oxidation (drug metabolism)",
+      "option_b": "Hydrolysis",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Identification/control of impurities in drug substances"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 95) Which statement is TRUE?",
+      "option_a": "Structure–activity relationship (SAR): Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Impurity profiling: 3D arrangement affects drug action",
+      "option_c": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Impurity profiling: Determines degree of ionization at a given pH",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 96) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Violations may reduce oral bioavailability.",
+      "correct_answer": "B",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 97) A common pitfall related to Hydrolysis is:",
+      "option_a": "Photostability issues often arise when training is excellent.",
+      "option_b": "Prodrug issues often arise when training is excellent.",
+      "option_c": "Lipinski's Rule of 5 issues often arise when documentation is complete.",
+      "option_d": "Hydrolysis issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 98) Which option is MOST appropriate regarding Lipinski's Rule of 5?",
+      "option_a": "Affects solubility, absorption, and distribution.",
+      "option_b": "Inactive/less active compound converted to active drug in the body",
+      "option_c": "Stereochemistry",
+      "option_d": "Violations may reduce oral bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 99) A common pitfall related to Lipinski's Rule of 5 is:",
+      "option_a": "Oxidation (drug metabolism) issues often arise when documentation is complete.",
+      "option_b": "Prodrug issues often arise when all policies are followed.",
+      "option_c": "Prodrug issues often arise when documentation is complete.",
+      "option_d": "Lipinski's Rule of 5 issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 100) Stereochemistry is BEST defined as:",
+      "option_a": "3D arrangement affects drug action",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Usually increases excretion; may inactivate drugs.",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "A",
+      "explanation": "Stereochemistry: 3D arrangement affects drug action"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 101) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Impurity profiling: Drug degradation under light exposure",
+      "option_c": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Hydrolysis: Drug degradation under light exposure",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 102) Which statement is TRUE?",
+      "option_a": "Lipinski's Rule of 5: Identification/control of impurities in drug substances",
+      "option_b": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Photostability: Relationship between chemical structure and biological activity",
+      "option_d": "Hydrolysis: Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "B",
+      "explanation": "Oxidation (drug metabolism): Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 103) Which option is MOST appropriate regarding Structure–activity relationship (SAR)?",
+      "option_a": "Enantiomers can differ in activity and safety.",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Stereochemistry",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "B",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 104) A common pitfall related to pKa and ionization is:",
+      "option_a": "pKa and ionization issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Oxidation (drug metabolism) issues often arise when documentation is complete.",
+      "option_c": "Structure–activity relationship (SAR) issues often arise when training is excellent.",
+      "option_d": "Conjugation (Phase II) issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 105) A common pitfall related to Conjugation (Phase II) is:",
+      "option_a": "Photostability issues often arise when monitoring is rigorous.",
+      "option_b": "Lipinski's Rule of 5 issues often arise when documentation is complete.",
+      "option_c": "Conjugation (Phase II) issues often arise when processes are not standardized.",
+      "option_d": "pKa and ionization issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 106) Which statement is TRUE?",
+      "option_a": "Hydrolysis: Heuristic predicting oral drug-likeness",
+      "option_b": "Lipinski's Rule of 5: Drug degradation under light exposure",
+      "option_c": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_d": "Impurity profiling: Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 107) Which statement is TRUE?",
+      "option_a": "Photostability: Heuristic predicting oral drug-likeness",
+      "option_b": "Stereochemistry: 3D arrangement affects drug action",
+      "option_c": "Structure–activity relationship (SAR): Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Impurity profiling: Heuristic predicting oral drug-likeness",
+      "correct_answer": "B",
+      "explanation": "Stereochemistry: Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 108) A common pitfall related to pKa and ionization is:",
+      "option_a": "Hydrolysis issues often arise when training is excellent.",
+      "option_b": "pKa and ionization issues often arise when documentation is incomplete.",
+      "option_c": "pKa and ionization issues often arise when documentation is complete.",
+      "option_d": "Hydrolysis issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 109) Oxidation (drug metabolism) is BEST defined as:",
+      "option_a": "Inactive/less active compound converted to active drug in the body",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "C",
+      "explanation": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 110) A common pitfall related to Structure–activity relationship (SAR) is:",
+      "option_a": "Structure–activity relationship (SAR) issues often arise when processes are not standardized.",
+      "option_b": "pKa and ionization issues often arise when documentation is complete.",
+      "option_c": "Lipinski's Rule of 5 issues often arise when documentation is complete.",
+      "option_d": "Stereochemistry issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 111) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Drug degradation under light exposure",
+      "option_b": "Hydrolysis: Relationship between chemical structure and biological activity",
+      "option_c": "Photostability: Drug degradation under light exposure",
+      "option_d": "Impurity profiling: Determines degree of ionization at a given pH",
+      "correct_answer": "C",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 112) Impurity profiling is BEST defined as:",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Identification/control of impurities in drug substances",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "B",
+      "explanation": "Impurity profiling: Identification/control of impurities in drug substances"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 113) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Impurity profiling",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "C",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 114) A common pitfall related to Photostability is:",
+      "option_a": "Photostability issues often arise when all policies are followed.",
+      "option_b": "Oxidation (drug metabolism) issues often arise when documentation is complete.",
+      "option_c": "Structure–activity relationship (SAR) issues often arise when documentation is complete.",
+      "option_d": "Photostability issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 115) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "pKa and ionization",
+      "option_b": "Affects solubility, absorption, and distribution.",
+      "option_c": "3D arrangement affects drug action",
+      "option_d": "Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "B",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 116) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Structure–activity relationship (SAR): Determines degree of ionization at a given pH",
+      "option_c": "Photostability: Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)",
+      "correct_answer": "A",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 117) A common pitfall related to Prodrug is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when monitoring is rigorous.",
+      "option_b": "Oxidation (drug metabolism) issues often arise when monitoring is rigorous.",
+      "option_c": "Oxidation (drug metabolism) issues often arise when monitoring is rigorous.",
+      "option_d": "Prodrug issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 118) A common pitfall related to Oxidation (drug metabolism) is:",
+      "option_a": "Oxidation (drug metabolism) issues often arise when communication is unclear.",
+      "option_b": "Structure–activity relationship (SAR) issues often arise when all policies are followed.",
+      "option_c": "Photostability issues often arise when monitoring is rigorous.",
+      "option_d": "Impurity profiling issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 119) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Regulatory requirement for safety and quality.",
+      "option_b": "Prodrug",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "D",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 120) Which statement is TRUE?",
+      "option_a": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Oxidation (drug metabolism): 3D arrangement affects drug action",
+      "option_c": "Lipinski's Rule of 5: Inactive/less active compound converted to active drug in the body",
+      "option_d": "pKa and ionization: Relationship between chemical structure and biological activity",
+      "correct_answer": "A",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 121) Which statement is TRUE?",
+      "option_a": "Oxidation (drug metabolism): Chemical breakdown by water",
+      "option_b": "Oxidation (drug metabolism): Heuristic predicting oral drug-likeness",
+      "option_c": "Hydrolysis: Chemical breakdown by water",
+      "option_d": "pKa and ionization: 3D arrangement affects drug action",
+      "correct_answer": "C",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 122) Prodrug is BEST defined as:",
+      "option_a": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Stereochemistry",
+      "option_d": "Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "D",
+      "explanation": "Prodrug: Inactive/less active compound converted to active drug in the body"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 123) Photostability is BEST defined as:",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Drug degradation under light exposure",
+      "option_c": "Oxidation (drug metabolism)",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "B",
+      "explanation": "Photostability: Drug degradation under light exposure"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 124) A common pitfall related to pKa and ionization is:",
+      "option_a": "pKa and ionization issues often arise when documentation is incomplete.",
+      "option_b": "Structure–activity relationship (SAR) issues often arise when documentation is complete.",
+      "option_c": "Lipinski's Rule of 5 issues often arise when documentation is complete.",
+      "option_d": "Prodrug issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 125) A common pitfall related to Prodrug is:",
+      "option_a": "Photostability issues often arise when training is excellent.",
+      "option_b": "Hydrolysis issues often arise when monitoring is rigorous.",
+      "option_c": "Prodrug issues often arise when communication is unclear.",
+      "option_d": "Lipinski's Rule of 5 issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 126) A common pitfall related to Impurity profiling is:",
+      "option_a": "Hydrolysis issues often arise when training is excellent.",
+      "option_b": "Prodrug issues often arise when training is excellent.",
+      "option_c": "Structure–activity relationship (SAR) issues often arise when monitoring is rigorous.",
+      "option_d": "Impurity profiling issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 127) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Lipinski's Rule of 5",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "B",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 128) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Heuristic predicting oral drug-likeness",
+      "option_b": "Important for ester/amide stability; influenced by pH.",
+      "option_c": "Conjugation (Phase II)",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "D",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 129) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Relationship between chemical structure and biological activity",
+      "option_b": "Lipinski's Rule of 5: Chemical breakdown by water",
+      "option_c": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness",
+      "option_d": "Impurity profiling: Heuristic predicting oral drug-likeness",
+      "correct_answer": "C",
+      "explanation": "Lipinski's Rule of 5: Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 130) Hydrolysis is BEST defined as:",
+      "option_a": "Hydrolysis",
+      "option_b": "Requires light-protective packaging when sensitive.",
+      "option_c": "Relationship between chemical structure and biological activity",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "D",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 131) Which statement is TRUE?",
+      "option_a": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "option_b": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_c": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Oxidation (drug metabolism): Drug degradation under light exposure",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 132) Which statement is TRUE?",
+      "option_a": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Structure–activity relationship (SAR): Heuristic predicting oral drug-likeness",
+      "option_c": "Oxidation (drug metabolism): 3D arrangement affects drug action",
+      "option_d": "pKa and ionization: Drug degradation under light exposure",
+      "correct_answer": "A",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 133) Hydrolysis is BEST defined as:",
+      "option_a": "Important for ester/amide stability; influenced by pH.",
+      "option_b": "Prodrug",
+      "option_c": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "D",
+      "explanation": "Hydrolysis: Chemical breakdown by water"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 134) A common pitfall related to pKa and ionization is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when monitoring is rigorous.",
+      "option_b": "Conjugation (Phase II) issues often arise when documentation is complete.",
+      "option_c": "pKa and ionization issues often arise when documentation is incomplete.",
+      "option_d": "Lipinski's Rule of 5 issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 135) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Relationship between chemical structure and biological activity",
+      "option_b": "Photostability: Drug degradation under light exposure",
+      "option_c": "Hydrolysis: 3D arrangement affects drug action",
+      "option_d": "Stereochemistry: Drug degradation under light exposure",
+      "correct_answer": "B",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 136) Impurity profiling is BEST defined as:",
+      "option_a": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_b": "Identification/control of impurities in drug substances",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "B",
+      "explanation": "Impurity profiling: Identification/control of impurities in drug substances"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 137) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "Oxidation (drug metabolism)",
+      "option_c": "Requires light-protective packaging when sensitive.",
+      "option_d": "Prodrug",
+      "correct_answer": "C",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 138) A common pitfall related to Prodrug is:",
+      "option_a": "Prodrug issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Conjugation (Phase II) issues often arise when training is excellent.",
+      "option_c": "Photostability issues often arise when training is excellent.",
+      "option_d": "Conjugation (Phase II) issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 139) A common pitfall related to Stereochemistry is:",
+      "option_a": "Photostability issues often arise when monitoring is rigorous.",
+      "option_b": "Impurity profiling issues often arise when all policies are followed.",
+      "option_c": "Stereochemistry issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Structure–activity relationship (SAR) issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 140) A common pitfall related to Conjugation (Phase II) is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when training is excellent.",
+      "option_b": "Prodrug issues often arise when all policies are followed.",
+      "option_c": "Conjugation (Phase II) issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Structure–activity relationship (SAR) issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 141) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Drug degradation under light exposure",
+      "option_b": "Structure–activity relationship (SAR): Inactive/less active compound converted to active drug in the body",
+      "option_c": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Hydrolysis: Determines degree of ionization at a given pH",
+      "correct_answer": "C",
+      "explanation": "Oxidation (drug metabolism): Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 142) Which option is MOST appropriate regarding Prodrug?",
+      "option_a": "Drug degradation under light exposure",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Can improve absorption, distribution, or tolerability.",
+      "option_d": "Usually increases excretion; may inactivate drugs.",
+      "correct_answer": "C",
+      "explanation": "Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 143) A common pitfall related to Impurity profiling is:",
+      "option_a": "Stereochemistry issues often arise when documentation is complete.",
+      "option_b": "Impurity profiling issues often arise when processes are not standardized.",
+      "option_c": "pKa and ionization issues often arise when training is excellent.",
+      "option_d": "pKa and ionization issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 144) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "pKa and ionization",
+      "option_b": "Can improve absorption, distribution, or tolerability.",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Important for ester/amide stability; influenced by pH.",
+      "correct_answer": "C",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 145) Which option is MOST appropriate regarding Stereochemistry?",
+      "option_a": "Enantiomers can differ in activity and safety.",
+      "option_b": "Regulatory requirement for safety and quality.",
+      "option_c": "Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "A",
+      "explanation": "Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 146) Which statement is TRUE?",
+      "option_a": "Oxidation (drug metabolism): Heuristic predicting oral drug-likeness",
+      "option_b": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity",
+      "option_c": "Impurity profiling: Identification/control of impurities in drug substances",
+      "option_d": "Stereochemistry: 3D arrangement affects drug action",
+      "correct_answer": "D",
+      "explanation": "Stereochemistry: Enantiomers can differ in activity and safety."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 147) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Requires light-protective packaging when sensitive.",
+      "option_b": "Conjugation (Phase II)",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "A",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 148) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Regulatory requirement for safety and quality.",
+      "option_b": "Lipinski's Rule of 5",
+      "option_c": "Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "A",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 149) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Determines degree of ionization at a given pH",
+      "option_b": "Oxidation (drug metabolism): Heuristic predicting oral drug-likeness",
+      "option_c": "Impurity profiling: Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Impurity profiling: Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 150) Which statement is TRUE?",
+      "option_a": "Hydrolysis: Relationship between chemical structure and biological activity",
+      "option_b": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_c": "Stereochemistry: Identification/control of impurities in drug substances",
+      "option_d": "pKa and ionization: Relationship between chemical structure and biological activity",
+      "correct_answer": "B",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 151) Which option is MOST appropriate regarding Structure–activity relationship (SAR)?",
+      "option_a": "Important for ester/amide stability; influenced by pH.",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Determines degree of ionization at a given pH",
+      "option_d": "Conjugation (Phase II)",
+      "correct_answer": "B",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 152) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Identification/control of impurities in drug substances",
+      "option_b": "Impurity profiling: Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Impurity profiling: Identification/control of impurities in drug substances",
+      "option_d": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "D",
+      "explanation": "Prodrug: Can improve absorption, distribution, or tolerability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 153) Which option is MOST appropriate regarding Structure–activity relationship (SAR)?",
+      "option_a": "pKa and ionization",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Determines degree of ionization at a given pH",
+      "correct_answer": "B",
+      "explanation": "Small structural changes can alter potency, selectivity, and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 154) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Lipinski's Rule of 5",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "C",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 155) Prodrug is BEST defined as:",
+      "option_a": "Inactive/less active compound converted to active drug in the body",
+      "option_b": "pKa and ionization",
+      "option_c": "Violations may reduce oral bioavailability.",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "A",
+      "explanation": "Prodrug: Inactive/less active compound converted to active drug in the body"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 156) Which statement is TRUE?",
+      "option_a": "Photostability: Drug degradation under light exposure",
+      "option_b": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Impurity profiling: Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Hydrolysis: Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "A",
+      "explanation": "Photostability: Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 157) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "Violations may reduce oral bioavailability.",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Heuristic predicting oral drug-likeness",
+      "option_d": "Photostability",
+      "correct_answer": "C",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 158) Lipinski's Rule of 5 is BEST defined as:",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_c": "Important for ester/amide stability; influenced by pH.",
+      "option_d": "Heuristic predicting oral drug-likeness",
+      "correct_answer": "D",
+      "explanation": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 159) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Important for ester/amide stability; influenced by pH.",
+      "option_b": "Small structural changes can alter potency, selectivity, and toxicity.",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Requires light-protective packaging when sensitive.",
+      "correct_answer": "D",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 160) A common pitfall related to Conjugation (Phase II) is:",
+      "option_a": "Conjugation (Phase II) issues often arise when monitoring is rigorous.",
+      "option_b": "Conjugation (Phase II) issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Oxidation (drug metabolism) issues often arise when monitoring is rigorous.",
+      "option_d": "Hydrolysis issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 161) Which statement is TRUE?",
+      "option_a": "Hydrolysis: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Photostability: Relationship between chemical structure and biological activity",
+      "option_c": "Lipinski's Rule of 5: Heuristic predicting oral drug-likeness",
+      "option_d": "Lipinski's Rule of 5: Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "C",
+      "explanation": "Lipinski's Rule of 5: Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 162) A common pitfall related to pKa and ionization is:",
+      "option_a": "pKa and ionization issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Conjugation (Phase II) issues often arise when documentation is complete.",
+      "option_c": "pKa and ionization issues often arise when training is excellent.",
+      "option_d": "Conjugation (Phase II) issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 163) Which option is MOST appropriate regarding Photostability?",
+      "option_a": "Requires light-protective packaging when sensitive.",
+      "option_b": "pKa and ionization",
+      "option_c": "Impurity profiling",
+      "option_d": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "correct_answer": "A",
+      "explanation": "Requires light-protective packaging when sensitive."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 164) Which option is MOST appropriate regarding pKa and ionization?",
+      "option_a": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_b": "Enantiomers can differ in activity and safety.",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Chemical breakdown by water",
+      "correct_answer": "C",
+      "explanation": "Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 165) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Chemical breakdown by water",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Impurity profiling",
+      "option_d": "Important for ester/amide stability; influenced by pH.",
+      "correct_answer": "B",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 166) Conjugation (Phase II) is BEST defined as:",
+      "option_a": "Stereochemistry",
+      "option_b": "Identification/control of impurities in drug substances",
+      "option_c": "Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Prodrug",
+      "correct_answer": "C",
+      "explanation": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 167) Photostability is BEST defined as:",
+      "option_a": "Drug degradation under light exposure",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Enantiomers can differ in activity and safety.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "A",
+      "explanation": "Photostability: Drug degradation under light exposure"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 168) A common pitfall related to Prodrug is:",
+      "option_a": "Oxidation (drug metabolism) issues often arise when monitoring is rigorous.",
+      "option_b": "Prodrug issues often arise when documentation is incomplete.",
+      "option_c": "Lipinski's Rule of 5 issues often arise when training is excellent.",
+      "option_d": "Impurity profiling issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 169) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "pKa and ionization",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Stereochemistry",
+      "option_d": "Enantiomers can differ in activity and safety.",
+      "correct_answer": "B",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 170) Structure–activity relationship (SAR) is BEST defined as:",
+      "option_a": "Conjugation (Phase II)",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Violations may reduce oral bioavailability.",
+      "option_d": "Affects solubility, absorption, and distribution.",
+      "correct_answer": "B",
+      "explanation": "Structure–activity relationship (SAR): Relationship between chemical structure and biological activity"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 171) Which statement is TRUE?",
+      "option_a": "Hydrolysis: Chemical breakdown by water",
+      "option_b": "Impurity profiling: Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Lipinski's Rule of 5: Drug degradation under light exposure",
+      "correct_answer": "A",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 172) Which statement is TRUE?",
+      "option_a": "Conjugation (Phase II): Determines degree of ionization at a given pH",
+      "option_b": "Prodrug: Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Conjugation (Phase II): 3D arrangement affects drug action",
+      "option_d": "Impurity profiling: Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 173) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Relationship between chemical structure and biological activity",
+      "option_b": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Structure–activity relationship (SAR): Adds polar groups (e.g., glucuronidation)",
+      "option_d": "Lipinski's Rule of 5: Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "B",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 174) Which option is MOST appropriate regarding Hydrolysis?",
+      "option_a": "Impurity profiling",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Important for ester/amide stability; influenced by pH.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "C",
+      "explanation": "Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 175) Oxidation (drug metabolism) is BEST defined as:",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Stereochemistry",
+      "option_c": "Common Phase I reaction (often CYP-mediated)",
+      "option_d": "Structure–activity relationship (SAR)",
+      "correct_answer": "C",
+      "explanation": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 176) Prodrug is BEST defined as:",
+      "option_a": "Heuristic predicting oral drug-likeness",
+      "option_b": "Inactive/less active compound converted to active drug in the body",
+      "option_c": "Prodrug",
+      "option_d": "Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "B",
+      "explanation": "Prodrug: Inactive/less active compound converted to active drug in the body"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 177) Which statement is TRUE?",
+      "option_a": "Impurity profiling: Inactive/less active compound converted to active drug in the body",
+      "option_b": "Lipinski's Rule of 5: Drug degradation under light exposure",
+      "option_c": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_d": "Prodrug: Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "C",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 178) A common pitfall related to Conjugation (Phase II) is:",
+      "option_a": "Conjugation (Phase II) issues often arise when processes are not standardized.",
+      "option_b": "Prodrug issues often arise when training is excellent.",
+      "option_c": "Structure–activity relationship (SAR) issues often arise when monitoring is rigorous.",
+      "option_d": "Impurity profiling issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 179) Which option is MOST appropriate regarding Oxidation (drug metabolism)?",
+      "option_a": "Determines degree of ionization at a given pH",
+      "option_b": "Relationship between chemical structure and biological activity",
+      "option_c": "Can produce more polar metabolites; may activate or inactivate drugs.",
+      "option_d": "pKa and ionization",
+      "correct_answer": "C",
+      "explanation": "Can produce more polar metabolites; may activate or inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 180) Which option is MOST appropriate regarding Lipinski's Rule of 5?",
+      "option_a": "Adds polar groups (e.g., glucuronidation)",
+      "option_b": "Determines degree of ionization at a given pH",
+      "option_c": "Violations may reduce oral bioavailability.",
+      "option_d": "pKa and ionization",
+      "correct_answer": "C",
+      "explanation": "Violations may reduce oral bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 181) Which statement is TRUE?",
+      "option_a": "Photostability: Drug degradation under light exposure",
+      "option_b": "Oxidation (drug metabolism): 3D arrangement affects drug action",
+      "option_c": "Prodrug: Heuristic predicting oral drug-likeness",
+      "option_d": "Impurity profiling: Identification/control of impurities in drug substances",
+      "correct_answer": "D",
+      "explanation": "Impurity profiling: Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 182) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Relationship between chemical structure and biological activity",
+      "option_b": "Regulatory requirement for safety and quality.",
+      "option_c": "Enantiomers can differ in activity and safety.",
+      "option_d": "Hydrolysis",
+      "correct_answer": "B",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 183) Which statement is TRUE?",
+      "option_a": "Hydrolysis: Chemical breakdown by water",
+      "option_b": "Lipinski's Rule of 5: Inactive/less active compound converted to active drug in the body",
+      "option_c": "Structure–activity relationship (SAR): Inactive/less active compound converted to active drug in the body",
+      "option_d": "Conjugation (Phase II): Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "A",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 184) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_b": "Photostability: Relationship between chemical structure and biological activity",
+      "option_c": "Impurity profiling: Drug degradation under light exposure",
+      "option_d": "pKa and ionization: 3D arrangement affects drug action",
+      "correct_answer": "A",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 185) Which statement is TRUE?",
+      "option_a": "Oxidation (drug metabolism): Determines degree of ionization at a given pH",
+      "option_b": "Hydrolysis: Drug degradation under light exposure",
+      "option_c": "pKa and ionization: Determines degree of ionization at a given pH",
+      "option_d": "Oxidation (drug metabolism): Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "C",
+      "explanation": "pKa and ionization: Affects solubility, absorption, and distribution."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 186) A common pitfall related to Hydrolysis is:",
+      "option_a": "Prodrug issues often arise when documentation is complete.",
+      "option_b": "Oxidation (drug metabolism) issues often arise when monitoring is rigorous.",
+      "option_c": "Hydrolysis issues often arise when communication is unclear.",
+      "option_d": "Photostability issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 187) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "pKa and ionization",
+      "option_b": "Regulatory requirement for safety and quality.",
+      "option_c": "Enantiomers can differ in activity and safety.",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "B",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 188) Which option is MOST appropriate regarding Hydrolysis?",
+      "option_a": "Important for ester/amide stability; influenced by pH.",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Chemical breakdown by water",
+      "option_d": "Identification/control of impurities in drug substances",
+      "correct_answer": "A",
+      "explanation": "Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 189) Which statement is TRUE?",
+      "option_a": "Prodrug: Identification/control of impurities in drug substances",
+      "option_b": "Hydrolysis: Chemical breakdown by water",
+      "option_c": "Lipinski's Rule of 5: Determines degree of ionization at a given pH",
+      "option_d": "Conjugation (Phase II): Drug degradation under light exposure",
+      "correct_answer": "B",
+      "explanation": "Hydrolysis: Important for ester/amide stability; influenced by pH."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 190) Oxidation (drug metabolism) is BEST defined as:",
+      "option_a": "Affects solubility, absorption, and distribution.",
+      "option_b": "Common Phase I reaction (often CYP-mediated)",
+      "option_c": "Prodrug",
+      "option_d": "Enantiomers can differ in activity and safety.",
+      "correct_answer": "B",
+      "explanation": "Oxidation (drug metabolism): Common Phase I reaction (often CYP-mediated)"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 191) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Hydrolysis",
+      "option_c": "Regulatory requirement for safety and quality.",
+      "option_d": "Can improve absorption, distribution, or tolerability.",
+      "correct_answer": "C",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 192) A common pitfall related to Stereochemistry is:",
+      "option_a": "Impurity profiling issues often arise when monitoring is rigorous.",
+      "option_b": "Photostability issues often arise when documentation is complete.",
+      "option_c": "Stereochemistry issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Photostability issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 193) A common pitfall related to Lipinski's Rule of 5 is:",
+      "option_a": "Lipinski's Rule of 5 issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Prodrug issues often arise when all policies are followed.",
+      "option_c": "Hydrolysis issues often arise when training is excellent.",
+      "option_d": "pKa and ionization issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 194) Photostability is BEST defined as:",
+      "option_a": "Drug degradation under light exposure",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Photostability",
+      "option_d": "Stereochemistry",
+      "correct_answer": "A",
+      "explanation": "Photostability: Drug degradation under light exposure"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 195) Impurity profiling is BEST defined as:",
+      "option_a": "Identification/control of impurities in drug substances",
+      "option_b": "Heuristic predicting oral drug-likeness",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Inactive/less active compound converted to active drug in the body",
+      "correct_answer": "A",
+      "explanation": "Impurity profiling: Identification/control of impurities in drug substances"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 196) Photostability is BEST defined as:",
+      "option_a": "Conjugation (Phase II)",
+      "option_b": "Requires light-protective packaging when sensitive.",
+      "option_c": "Relationship between chemical structure and biological activity",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "D",
+      "explanation": "Photostability: Drug degradation under light exposure"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 197) Photostability is BEST defined as:",
+      "option_a": "Regulatory requirement for safety and quality.",
+      "option_b": "Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Drug degradation under light exposure",
+      "option_d": "3D arrangement affects drug action",
+      "correct_answer": "C",
+      "explanation": "Photostability: Drug degradation under light exposure"
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 198) Which option is MOST appropriate regarding Impurity profiling?",
+      "option_a": "Usually increases excretion; may inactivate drugs.",
+      "option_b": "Hydrolysis",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Regulatory requirement for safety and quality.",
+      "correct_answer": "D",
+      "explanation": "Regulatory requirement for safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 199) Which statement is TRUE?",
+      "option_a": "pKa and ionization: Drug degradation under light exposure",
+      "option_b": "Conjugation (Phase II): Adds polar groups (e.g., glucuronidation)",
+      "option_c": "Oxidation (drug metabolism): Inactive/less active compound converted to active drug in the body",
+      "option_d": "Prodrug: Adds polar groups (e.g., glucuronidation)",
+      "correct_answer": "B",
+      "explanation": "Conjugation (Phase II): Usually increases excretion; may inactivate drugs."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 200) Which option is MOST appropriate regarding Conjugation (Phase II)?",
+      "option_a": "Inactive/less active compound converted to active drug in the body",
+      "option_b": "Usually increases excretion; may inactivate drugs.",
+      "option_c": "Affects solubility, absorption, and distribution.",
+      "option_d": "Drug degradation under light exposure",
+      "correct_answer": "B",
+      "explanation": "Usually increases excretion; may inactivate drugs."
+    }
+  ]
+}

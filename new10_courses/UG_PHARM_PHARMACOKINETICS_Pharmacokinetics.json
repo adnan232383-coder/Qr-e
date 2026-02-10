@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmacokinetics",
+  "course_code": "UG_PHARM_PHARMACOKINETICS",
+  "questions": [
+    {
+      "question": "Which statement best defines First-order elimination?",
+      "option_a": "t1/2 = 0.693·Vd/CL (first-order).",
+      "option_b": "Dose to achieve target Cp quickly",
+      "option_c": "Nonlinear kinetics with Km and Vmax",
+      "option_d": "Rate proportional to concentration",
+      "correct_answer": "D",
+      "explanation": "Most drugs follow this; half-life is constant."
+    },
+    {
+      "question": "Which statement best defines Zero-order elimination?",
+      "option_a": "Volume cleared per unit time",
+      "option_b": "Rate constant regardless of concentration",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Dose to achieve target Cp quickly",
+      "correct_answer": "B",
+      "explanation": "Occurs when pathways saturated (e.g., ethanol)."
+    },
+    {
+      "question": "Which statement best defines Clearance (CL)?",
+      "option_a": "Zero-order elimination",
+      "option_b": "Michaelis–Menten kinetics",
+      "option_c": "Determines maintenance dose rate at steady state.",
+      "option_d": "Volume cleared per unit time",
+      "correct_answer": "D",
+      "explanation": "Determines maintenance dose rate at steady state."
+    },
+    {
+      "question": "Which statement best defines Volume of distribution (Vd)?",
+      "option_a": "Volume cleared per unit time",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Fraction reaching systemic circulation",
+      "option_d": "Apparent distribution volume",
+      "correct_answer": "D",
+      "explanation": "Large Vd suggests tissue distribution."
+    },
+    {
+      "question": "Which statement best defines Half-life (t1/2)?",
+      "option_a": "First-order elimination",
+      "option_b": "Occurs when pathways saturated (e.g., ethanol).",
+      "option_c": "Time for concentration to halve",
+      "option_d": "Michaelis–Menten kinetics",
+      "correct_answer": "C",
+      "explanation": "t1/2 = 0.693·Vd/CL (first-order)."
+    },
+    {
+      "question": "Which statement best defines Bioavailability (F)?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Fraction reaching systemic circulation",
+      "option_c": "Bioavailability (F)",
+      "option_d": "Concentration-time not proportional to dose at high concentrations.",
+      "correct_answer": "B",
+      "explanation": "Impacts oral dose vs IV dose."
+    },
+    {
+      "question": "Which statement best defines AUC?",
+      "option_a": "Total drug exposure over time",
+      "option_b": "Reached after ~4–5 half-lives.",
+      "option_c": "Time for concentration to halve",
+      "option_d": "Loading dose",
+      "correct_answer": "A",
+      "explanation": "AUC ∝ Dose/CL for linear kinetics."
+    },
+    {
+      "question": "Which statement best defines Steady state?",
+      "option_a": "Michaelis–Menten kinetics",
+      "option_b": "AUC",
+      "option_c": "Loading dose",
+      "option_d": "Input equals output",
+      "correct_answer": "D",
+      "explanation": "Reached after ~4–5 half-lives."
+    },
+    {
+      "question": "Which statement best defines Loading dose?",
+      "option_a": "Most drugs follow this; half-life is constant.",
+      "option_b": "Rate proportional to concentration",
+      "option_c": "AUC",
+      "option_d": "Dose to achieve target Cp quickly",
+      "correct_answer": "D",
+      "explanation": "LD = Vd·Cp_target/F."
+    },
+    {
+      "question": "Which statement best defines Michaelis–Menten kinetics?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Nonlinear kinetics with Km and Vmax",
+      "option_c": "Most drugs follow this; half-life is constant.",
+      "option_d": "Dose to achieve target Cp quickly",
+      "correct_answer": "B",
+      "explanation": "Concentration-time not proportional to dose at high concentrations."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "15.6 hours",
+      "option_b": "10.4 hours",
+      "option_c": "20.8 hours",
+      "option_d": "5.2 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "8.3 hours",
+      "option_b": "2.1 hours",
+      "option_c": "4.2 hours",
+      "option_d": "6.2 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "11.5 hours",
+      "option_b": "17.3 hours",
+      "option_c": "23.1 hours",
+      "option_d": "5.8 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 6 L/h (first-order). Approximate half-life is:",
+      "option_a": "3.5 hours",
+      "option_b": "13.9 hours",
+      "option_c": "10.4 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "10.4 hours",
+      "option_b": "41.6 hours",
+      "option_c": "31.2 hours",
+      "option_d": "20.8 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "13.9 hours",
+      "option_b": "10.4 hours",
+      "option_c": "6.9 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "20.8 hours",
+      "option_b": "27.7 hours",
+      "option_c": "13.9 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "2.8 hours",
+      "option_b": "1.4 hours",
+      "option_c": "4.2 hours",
+      "option_d": "5.5 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "15.6 hours",
+      "option_b": "20.8 hours",
+      "option_c": "5.2 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "5.2 hours",
+      "option_b": "6.9 hours",
+      "option_c": "1.7 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 6 L/h (first-order). Approximate half-life is:",
+      "option_a": "0.6 hours",
+      "option_b": "1.2 hours",
+      "option_c": "1.7 hours",
+      "option_d": "2.3 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "2.1 hours",
+      "option_b": "0.7 hours",
+      "option_c": "1.4 hours",
+      "option_d": "2.8 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "13.9 hours",
+      "option_b": "6.9 hours",
+      "option_c": "10.4 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "7.8 hours",
+      "option_b": "2.6 hours",
+      "option_c": "5.2 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "3.5 hours",
+      "option_b": "0.9 hours",
+      "option_c": "2.6 hours",
+      "option_d": "1.7 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "6.9 hours",
+      "option_b": "3.5 hours",
+      "option_c": "10.4 hours",
+      "option_d": "13.9 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "83.2 hours",
+      "option_b": "41.6 hours",
+      "option_c": "62.4 hours",
+      "option_d": "20.8 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "2.3 hours",
+      "option_b": "1.2 hours",
+      "option_c": "3.5 hours",
+      "option_d": "4.6 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 6 L/h (first-order). Approximate half-life is:",
+      "option_a": "1.2 hours",
+      "option_b": "4.6 hours",
+      "option_c": "2.3 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "2.3 hours",
+      "option_b": "6.9 hours",
+      "option_c": "9.2 hours",
+      "option_d": "4.6 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "27.7 hours",
+      "option_b": "20.8 hours",
+      "option_c": "6.9 hours",
+      "option_d": "13.9 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "13.9 hours",
+      "option_b": "3.5 hours",
+      "option_c": "6.9 hours",
+      "option_d": "10.4 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "3.5 hours",
+      "option_b": "1.7 hours",
+      "option_c": "5.2 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 20 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "13.9 hours",
+      "option_b": "27.7 hours",
+      "option_c": "20.8 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and CL = 3 L/h (first-order). Approximate half-life is:",
+      "option_a": "4.6 hours",
+      "option_b": "9.2 hours",
+      "option_c": "13.9 hours",
+      "option_d": "18.5 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "8.3 hours",
+      "option_b": "12.5 hours",
+      "option_c": "4.2 hours",
+      "option_d": "16.6 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "8.7 hours",
+      "option_b": "26.0 hours",
+      "option_c": "17.3 hours",
+      "option_d": "34.6 hours",
+      "correct_answer": "C",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 10 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "3.5 hours",
+      "option_b": "10.4 hours",
+      "option_c": "13.9 hours",
+      "option_d": "6.9 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 60 L and CL = 2 L/h (first-order). Approximate half-life is:",
+      "option_a": "10.4 hours",
+      "option_b": "20.8 hours",
+      "option_c": "41.6 hours",
+      "option_d": "31.2 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "52.0 hours",
+      "option_b": "34.6 hours",
+      "option_c": "17.3 hours",
+      "option_d": "69.3 hours",
+      "correct_answer": "B",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and CL = 1 L/h (first-order). Approximate half-life is:",
+      "option_a": "27.7 hours",
+      "option_b": "55.4 hours",
+      "option_c": "41.6 hours",
+      "option_d": "13.9 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 50 L and CL = 4 L/h (first-order). Approximate half-life is:",
+      "option_a": "8.7 hours",
+      "option_b": "13.0 hours",
+      "option_c": "4.3 hours",
+      "option_d": "17.3 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 40 L and CL = 5 L/h (first-order). Approximate half-life is:",
+      "option_a": "5.5 hours",
+      "option_b": "2.8 hours",
+      "option_c": "8.3 hours",
+      "option_d": "11.1 hours",
+      "correct_answer": "A",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "A drug has Vd = 30 L and CL = 6 L/h (first-order). Approximate half-life is:",
+      "option_a": "6.9 hours",
+      "option_b": "5.2 hours",
+      "option_c": "1.7 hours",
+      "option_d": "3.5 hours",
+      "correct_answer": "D",
+      "explanation": "Use t1/2 = 0.693·Vd/CL for first-order kinetics."
+    },
+    {
+      "question": "(Pharmacokinetics Item 45) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 46) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 47) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 48) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 49) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 50) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 51) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 52) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 53) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 54) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 55) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 56) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 57) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 58) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 59) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 60) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 61) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 62) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 63) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 64) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 65) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 66) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 67) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 68) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 69) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 70) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 71) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 72) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 73) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 74) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 75) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 76) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 77) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 78) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 79) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 80) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 81) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 82) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 83) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 84) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 85) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 86) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 87) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 88) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 89) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 90) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 91) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 92) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 93) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 94) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 95) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 96) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 97) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 98) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 99) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 100) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 101) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 102) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 103) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 104) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 105) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 106) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 107) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 108) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 109) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 110) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 111) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 112) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 113) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 114) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 115) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 116) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 117) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 118) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 119) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 120) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 121) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 122) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 123) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 124) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 125) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 126) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 127) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 128) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 129) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 130) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 131) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 132) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 133) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 134) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 135) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 136) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 137) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 138) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 139) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 140) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 141) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 142) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 143) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 144) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 145) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 146) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 147) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 148) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 149) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 150) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 151) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 152) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 153) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 154) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 155) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 156) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 157) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 158) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 159) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 160) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 161) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 162) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 163) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 164) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 165) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 166) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 167) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 168) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 169) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 170) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 171) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 172) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 173) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 174) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 175) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 176) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 177) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 178) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 179) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Protein binding only",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 180) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 181) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 182) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 183) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 184) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 185) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Clearance (CL)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "A",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 186) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 187) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 188) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 189) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 190) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 191) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 192) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 193) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Protein binding only",
+      "option_d": "Clearance (CL)",
+      "correct_answer": "D",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 194) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Protein binding only",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 195) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Volume of distribution (Vd)",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 196) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Half-life (t1/2) only",
+      "option_b": "Protein binding only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Volume of distribution (Vd)",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 197) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Half-life (t1/2) only",
+      "option_c": "Clearance (CL)",
+      "option_d": "Protein binding only",
+      "correct_answer": "C",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 198) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 199) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Volume of distribution (Vd)",
+      "option_b": "Clearance (CL)",
+      "option_c": "Half-life (t1/2) only",
+      "option_d": "Protein binding only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    },
+    {
+      "question": "(Pharmacokinetics Item 200) Which parameter MOST directly determines the maintenance dose rate?",
+      "option_a": "Protein binding only",
+      "option_b": "Clearance (CL)",
+      "option_c": "Volume of distribution (Vd)",
+      "option_d": "Half-life (t1/2) only",
+      "correct_answer": "B",
+      "explanation": "For linear kinetics, MD rate is proportional to clearance at a target concentration."
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmacovigilance",
+  "course_code": "UG_PHARM_Y4_S1_C05",
+  "questions": [
+    {
+      "question": "Which statement best describes Adverse drug reaction (ADR)?",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "AEs include ADRs but also unrelated events.",
+      "option_c": "Capturing errors to improve systems and prevent harm",
+      "option_d": "A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "D",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "In practice, the key objective of Adverse drug reaction (ADR) is to:",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Disproportionality analysis",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "Different from overdose/medication error; important for safety monitoring.",
+      "correct_answer": "D",
+      "explanation": "Adverse drug reaction (ADR): Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "Which statement best describes Adverse event (AE)?",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Subject to underreporting; useful for rare events.",
+      "option_c": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_d": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "correct_answer": "A",
+      "explanation": "AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "In practice, the key objective of Adverse event (AE) is to:",
+      "option_a": "AEs include ADRs but also unrelated events.",
+      "option_b": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_c": "Spontaneous reporting",
+      "option_d": "Risk management plan",
+      "correct_answer": "A",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "Which statement best describes Signal detection?",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Pharmacovigilance database",
+      "option_c": "Identifying new or changing safety issues from data sources",
+      "option_d": "Signal detection",
+      "correct_answer": "C",
+      "explanation": "Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "In practice, the key objective of Signal detection is to:",
+      "option_a": "System for collecting and analyzing safety reports",
+      "option_b": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_c": "Disproportionality analysis",
+      "option_d": "Signal detection",
+      "correct_answer": "B",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "Which statement best describes Causality assessment?",
+      "option_a": "Evaluating likelihood that a drug caused an event",
+      "option_b": "Different from overdose/medication error; important for safety monitoring.",
+      "option_c": "Medication error reporting",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "A",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "In practice, the key objective of Causality assessment is to:",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_c": "AEs include ADRs but also unrelated events.",
+      "option_d": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "correct_answer": "B",
+      "explanation": "Causality assessment: Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "Which statement best describes Risk management plan?",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Different from overdose/medication error; important for safety monitoring.",
+      "option_c": "Pharmacovigilance database",
+      "option_d": "Strategies to minimize known/ potential drug risks",
+      "correct_answer": "D",
+      "explanation": "Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "In practice, the key objective of Risk management plan is to:",
+      "option_a": "Capturing errors to improve systems and prevent harm",
+      "option_b": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Evaluating likelihood that a drug caused an event",
+      "option_d": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "correct_answer": "D",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "Which statement best describes Spontaneous reporting?",
+      "option_a": "Examples include national reporting systems and global databases.",
+      "option_b": "A harmful and unintended response to a drug at normal doses",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "C",
+      "explanation": "Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "In practice, the key objective of Spontaneous reporting is to:",
+      "option_a": "Evaluating likelihood that a drug caused an event",
+      "option_b": "Subject to underreporting; useful for rare events.",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Tools include Naranjo algorithm and clinical judgment.",
+      "correct_answer": "B",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "Which statement best describes Pharmacovigilance database?",
+      "option_a": "Causality assessment",
+      "option_b": "Risk management plan",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Strategies to minimize known/ potential drug risks",
+      "correct_answer": "C",
+      "explanation": "Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "In practice, the key objective of Pharmacovigilance database is to:",
+      "option_a": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Spontaneous reporting",
+      "correct_answer": "B",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "Which statement best describes Disproportionality analysis?",
+      "option_a": "Examples include national reporting systems and global databases.",
+      "option_b": "Statistical method to detect signals in reporting databases",
+      "option_c": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "B",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "In practice, the key objective of Disproportionality analysis is to:",
+      "option_a": "Measures include PRR, ROR; suggests association not causation.",
+      "option_b": "Disproportionality analysis",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Adverse drug reaction (ADR)",
+      "correct_answer": "A",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "Which statement best describes Medication error reporting?",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Evaluating likelihood that a drug caused an event",
+      "option_c": "Post-marketing surveillance",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "D",
+      "explanation": "Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "In practice, the key objective of Medication error reporting is to:",
+      "option_a": "Signal detection",
+      "option_b": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_c": "Disproportionality analysis",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "D",
+      "explanation": "Medication error reporting: Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "Which statement best describes Post-marketing surveillance?",
+      "option_a": "Capturing errors to improve systems and prevent harm",
+      "option_b": "Monitoring drug safety after approval in real-world use",
+      "option_c": "Examples include national reporting systems and global databases.",
+      "option_d": "Identifying new or changing safety issues from data sources",
+      "correct_answer": "B",
+      "explanation": "Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "In practice, the key objective of Post-marketing surveillance is to:",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_c": "AEs include ADRs but also unrelated events.",
+      "option_d": "Disproportionality analysis",
+      "correct_answer": "B",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 21) Which statement is TRUE?",
+      "option_a": "Medication error reporting: Statistical method to detect signals in reporting databases",
+      "option_b": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_c": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Disproportionality analysis: Monitoring drug safety after approval in real-world use",
+      "correct_answer": "C",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 22) Adverse event (AE) is BEST defined as:",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Evaluating likelihood that a drug caused an event",
+      "option_c": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_d": "Adverse event (AE)",
+      "correct_answer": "A",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 23) Which statement is TRUE?",
+      "option_a": "Adverse drug reaction (ADR): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Disproportionality analysis: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Pharmacovigilance database: Strategies to minimize known/ potential drug risks",
+      "option_d": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "correct_answer": "D",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 24) Which statement is TRUE?",
+      "option_a": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_b": "Causality assessment: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Risk management plan: Evaluating likelihood that a drug caused an event",
+      "option_d": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "A",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 25) Which statement is TRUE?",
+      "option_a": "Adverse event (AE): Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Adverse event (AE): A harmful and unintended response to a drug at normal doses",
+      "option_d": "Disproportionality analysis: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "B",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 26) Risk management plan is BEST defined as:",
+      "option_a": "Post-marketing surveillance",
+      "option_b": "Strategies to minimize known/ potential drug risks",
+      "option_c": "Pharmacovigilance database",
+      "option_d": "Risk management plan",
+      "correct_answer": "B",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 27) Which statement is TRUE?",
+      "option_a": "Medication error reporting: Evaluating likelihood that a drug caused an event",
+      "option_b": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_c": "Adverse event (AE): A harmful and unintended response to a drug at normal doses",
+      "option_d": "Causality assessment: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 28) A common pitfall related to Adverse drug reaction (ADR) is:",
+      "option_a": "Disproportionality analysis issues often arise when all policies are followed.",
+      "option_b": "Spontaneous reporting issues often arise when training is excellent.",
+      "option_c": "Adverse drug reaction (ADR) issues often arise when communication is unclear.",
+      "option_d": "Spontaneous reporting issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 29) Which option is MOST appropriate regarding Risk management plan?",
+      "option_a": "A harmful and unintended response to a drug at normal doses",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_d": "Signal detection",
+      "correct_answer": "C",
+      "explanation": "Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 30) Which statement is TRUE?",
+      "option_a": "Pharmacovigilance database: Monitoring drug safety after approval in real-world use",
+      "option_b": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Disproportionality analysis: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Pharmacovigilance database: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 31) Risk management plan is BEST defined as:",
+      "option_a": "AEs include ADRs but also unrelated events.",
+      "option_b": "Different from overdose/medication error; important for safety monitoring.",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Strategies to minimize known/ potential drug risks",
+      "correct_answer": "D",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 32) Which option is MOST appropriate regarding Medication error reporting?",
+      "option_a": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Disproportionality analysis",
+      "option_c": "Causality assessment",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "D",
+      "explanation": "Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 33) Signal detection is BEST defined as:",
+      "option_a": "Identifying new or changing safety issues from data sources",
+      "option_b": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_d": "Statistical method to detect signals in reporting databases",
+      "correct_answer": "A",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 34) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Disproportionality analysis",
+      "option_b": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "B",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 35) Which option is MOST appropriate regarding Post-marketing surveillance?",
+      "option_a": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_b": "Spontaneous reporting",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Adverse event (AE)",
+      "correct_answer": "A",
+      "explanation": "Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 36) Which option is MOST appropriate regarding Risk management plan?",
+      "option_a": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_b": "Signal detection",
+      "option_c": "Disproportionality analysis",
+      "option_d": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "A",
+      "explanation": "Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 37) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "B",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 38) Which statement is TRUE?",
+      "option_a": "Risk management plan: Identifying new or changing safety issues from data sources",
+      "option_b": "Adverse event (AE): A harmful and unintended response to a drug at normal doses",
+      "option_c": "Disproportionality analysis: System for collecting and analyzing safety reports",
+      "option_d": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "D",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 39) Risk management plan is BEST defined as:",
+      "option_a": "Adverse drug reaction (ADR)",
+      "option_b": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_c": "Strategies to minimize known/ potential drug risks",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "C",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 40) Which statement is TRUE?",
+      "option_a": "Risk management plan: A harmful and unintended response to a drug at normal doses",
+      "option_b": "Disproportionality analysis: Capturing errors to improve systems and prevent harm",
+      "option_c": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses",
+      "option_d": "Signal detection: Monitoring drug safety after approval in real-world use",
+      "correct_answer": "C",
+      "explanation": "Adverse drug reaction (ADR): Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 41) Post-marketing surveillance is BEST defined as:",
+      "option_a": "Pharmacovigilance database",
+      "option_b": "Post-marketing surveillance",
+      "option_c": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_d": "Monitoring drug safety after approval in real-world use",
+      "correct_answer": "D",
+      "explanation": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use"
+    },
+    {
+      "question": "(Pharmacovigilance Item 42) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "A harmful and unintended response to a drug at normal doses",
+      "option_b": "Spontaneous reporting",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Risk management plan",
+      "correct_answer": "C",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 43) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Adverse event (AE): Monitoring drug safety after approval in real-world use",
+      "option_c": "Risk management plan: Statistical method to detect signals in reporting databases",
+      "option_d": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "correct_answer": "D",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 44) Which option is MOST appropriate regarding Adverse event (AE)?",
+      "option_a": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_b": "AEs include ADRs but also unrelated events.",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Signal detection",
+      "correct_answer": "B",
+      "explanation": "AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 45) A common pitfall related to Risk management plan is:",
+      "option_a": "Causality assessment issues often arise when monitoring is rigorous.",
+      "option_b": "Risk management plan issues often arise when documentation is incomplete.",
+      "option_c": "Medication error reporting issues often arise when training is excellent.",
+      "option_d": "Pharmacovigilance database issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 46) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Capturing errors to improve systems and prevent harm",
+      "option_b": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_c": "Disproportionality analysis: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "correct_answer": "B",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 47) Causality assessment is BEST defined as:",
+      "option_a": "Evaluating likelihood that a drug caused an event",
+      "option_b": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_c": "Measures include PRR, ROR; suggests association not causation.",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "A",
+      "explanation": "Causality assessment: Evaluating likelihood that a drug caused an event"
+    },
+    {
+      "question": "(Pharmacovigilance Item 48) Which statement is TRUE?",
+      "option_a": "Risk management plan: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Signal detection: Statistical method to detect signals in reporting databases",
+      "option_c": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "option_d": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "C",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 49) Risk management plan is BEST defined as:",
+      "option_a": "Medication error reporting",
+      "option_b": "Strategies to minimize known/ potential drug risks",
+      "option_c": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_d": "Signal detection",
+      "correct_answer": "B",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 50) Which option is MOST appropriate regarding Disproportionality analysis?",
+      "option_a": "Signal detection",
+      "option_b": "Measures include PRR, ROR; suggests association not causation.",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "B",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 51) A common pitfall related to Spontaneous reporting is:",
+      "option_a": "Pharmacovigilance database issues often arise when documentation is complete.",
+      "option_b": "Spontaneous reporting issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Post-marketing surveillance issues often arise when training is excellent.",
+      "option_d": "Disproportionality analysis issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 52) Which option is MOST appropriate regarding Post-marketing surveillance?",
+      "option_a": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_b": "Spontaneous reporting",
+      "option_c": "Examples include national reporting systems and global databases.",
+      "option_d": "Detects rare/long-term adverse effects not seen in trials.",
+      "correct_answer": "D",
+      "explanation": "Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 53) A common pitfall related to Causality assessment is:",
+      "option_a": "Spontaneous reporting issues often arise when documentation is complete.",
+      "option_b": "Signal detection issues often arise when documentation is complete.",
+      "option_c": "Causality assessment issues often arise when all policies are followed.",
+      "option_d": "Causality assessment issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 54) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "Pharmacovigilance database",
+      "option_b": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "C",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 55) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Signal detection issues often arise when monitoring is rigorous.",
+      "option_b": "Adverse event (AE) issues often arise when training is excellent.",
+      "option_c": "Adverse event (AE) issues often arise when processes are not standardized.",
+      "option_d": "Disproportionality analysis issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 56) Post-marketing surveillance is BEST defined as:",
+      "option_a": "Identifying new or changing safety issues from data sources",
+      "option_b": "Signal detection",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "Disproportionality analysis",
+      "correct_answer": "C",
+      "explanation": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use"
+    },
+    {
+      "question": "(Pharmacovigilance Item 57) Spontaneous reporting is BEST defined as:",
+      "option_a": "Pharmacovigilance database",
+      "option_b": "System for collecting and analyzing safety reports",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "C",
+      "explanation": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients"
+    },
+    {
+      "question": "(Pharmacovigilance Item 58) Which option is MOST appropriate regarding Disproportionality analysis?",
+      "option_a": "Measures include PRR, ROR; suggests association not causation.",
+      "option_b": "Subject to underreporting; useful for rare events.",
+      "option_c": "Adverse drug reaction (ADR)",
+      "option_d": "Medication error reporting",
+      "correct_answer": "A",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 59) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "A harmful and unintended response to a drug at normal doses",
+      "option_b": "Measures include PRR, ROR; suggests association not causation.",
+      "option_c": "AEs include ADRs but also unrelated events.",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "A",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 60) A common pitfall related to Spontaneous reporting is:",
+      "option_a": "Spontaneous reporting issues often arise when communication is unclear.",
+      "option_b": "Post-marketing surveillance issues often arise when training is excellent.",
+      "option_c": "Post-marketing surveillance issues often arise when all policies are followed.",
+      "option_d": "Risk management plan issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 61) Which statement is TRUE?",
+      "option_a": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "option_b": "Post-marketing surveillance: Capturing errors to improve systems and prevent harm",
+      "option_c": "Adverse drug reaction (ADR): Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "correct_answer": "A",
+      "explanation": "Medication error reporting: Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 62) Which option is MOST appropriate regarding Disproportionality analysis?",
+      "option_a": "Capturing errors to improve systems and prevent harm",
+      "option_b": "Spontaneous reporting",
+      "option_c": "Measures include PRR, ROR; suggests association not causation.",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "C",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 63) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Adverse event (AE)",
+      "correct_answer": "C",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 64) Post-marketing surveillance is BEST defined as:",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Pharmacovigilance database",
+      "option_c": "Capturing errors to improve systems and prevent harm",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "A",
+      "explanation": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use"
+    },
+    {
+      "question": "(Pharmacovigilance Item 65) Which option is MOST appropriate regarding Medication error reporting?",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Measures include PRR, ROR; suggests association not causation.",
+      "option_c": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_d": "Signal detection",
+      "correct_answer": "C",
+      "explanation": "Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 66) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Medication error reporting issues often arise when documentation is complete.",
+      "option_b": "Adverse event (AE) issues often arise when processes are not standardized.",
+      "option_c": "Causality assessment issues often arise when training is excellent.",
+      "option_d": "Adverse event (AE) issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 67) Medication error reporting is BEST defined as:",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Capturing errors to improve systems and prevent harm",
+      "option_c": "Evaluating likelihood that a drug caused an event",
+      "option_d": "Monitoring drug safety after approval in real-world use",
+      "correct_answer": "B",
+      "explanation": "Medication error reporting: Capturing errors to improve systems and prevent harm"
+    },
+    {
+      "question": "(Pharmacovigilance Item 68) A common pitfall related to Adverse drug reaction (ADR) is:",
+      "option_a": "Risk management plan issues often arise when training is excellent.",
+      "option_b": "Disproportionality analysis issues often arise when all policies are followed.",
+      "option_c": "Adverse drug reaction (ADR) issues often arise when documentation is incomplete.",
+      "option_d": "Adverse drug reaction (ADR) issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 69) Which option is MOST appropriate regarding Risk management plan?",
+      "option_a": "A harmful and unintended response to a drug at normal doses",
+      "option_b": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_c": "Adverse event (AE)",
+      "option_d": "Post-marketing surveillance",
+      "correct_answer": "B",
+      "explanation": "Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 70) Causality assessment is BEST defined as:",
+      "option_a": "Subject to underreporting; useful for rare events.",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Evaluating likelihood that a drug caused an event",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "C",
+      "explanation": "Causality assessment: Evaluating likelihood that a drug caused an event"
+    },
+    {
+      "question": "(Pharmacovigilance Item 71) A common pitfall related to Risk management plan is:",
+      "option_a": "Causality assessment issues often arise when documentation is complete.",
+      "option_b": "Risk management plan issues often arise when documentation is incomplete.",
+      "option_c": "Signal detection issues often arise when documentation is complete.",
+      "option_d": "Disproportionality analysis issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 72) Pharmacovigilance database is BEST defined as:",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "D",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 73) Spontaneous reporting is BEST defined as:",
+      "option_a": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Strategies to minimize known/ potential drug risks",
+      "option_c": "Disproportionality analysis",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "A",
+      "explanation": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients"
+    },
+    {
+      "question": "(Pharmacovigilance Item 74) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_c": "Pharmacovigilance database: Monitoring drug safety after approval in real-world use",
+      "option_d": "Signal detection: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 75) Which statement is TRUE?",
+      "option_a": "Causality assessment: Statistical method to detect signals in reporting databases",
+      "option_b": "Disproportionality analysis: Evaluating likelihood that a drug caused an event",
+      "option_c": "Post-marketing surveillance: Strategies to minimize known/ potential drug risks",
+      "option_d": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "D",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 76) Which statement is TRUE?",
+      "option_a": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "option_b": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_c": "Disproportionality analysis: Evaluating likelihood that a drug caused an event",
+      "option_d": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 77) Which statement is TRUE?",
+      "option_a": "Pharmacovigilance database: Strategies to minimize known/ potential drug risks",
+      "option_b": "Signal detection: Evaluating likelihood that a drug caused an event",
+      "option_c": "Pharmacovigilance database: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "D",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 78) Disproportionality analysis is BEST defined as:",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Monitoring drug safety after approval in real-world use",
+      "option_c": "Statistical method to detect signals in reporting databases",
+      "option_d": "Evaluating likelihood that a drug caused an event",
+      "correct_answer": "C",
+      "explanation": "Disproportionality analysis: Statistical method to detect signals in reporting databases"
+    },
+    {
+      "question": "(Pharmacovigilance Item 79) Which statement is TRUE?",
+      "option_a": "Medication error reporting: Identifying new or changing safety issues from data sources",
+      "option_b": "Adverse event (AE): Identifying new or changing safety issues from data sources",
+      "option_c": "Signal detection: System for collecting and analyzing safety reports",
+      "option_d": "Signal detection: Identifying new or changing safety issues from data sources",
+      "correct_answer": "D",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 80) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Capturing errors to improve systems and prevent harm",
+      "option_b": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_c": "Adverse event (AE): Monitoring drug safety after approval in real-world use",
+      "option_d": "Pharmacovigilance database: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "B",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 81) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_b": "Signal detection issues often arise when documentation is complete.",
+      "option_c": "Causality assessment issues often arise when all policies are followed.",
+      "option_d": "Adverse event (AE) issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 82) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Adverse drug reaction (ADR) issues often arise when monitoring is rigorous.",
+      "option_b": "Post-marketing surveillance issues often arise when monitoring is rigorous.",
+      "option_c": "Adverse event (AE) issues often arise when documentation is incomplete.",
+      "option_d": "Pharmacovigilance database issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 83) A common pitfall related to Risk management plan is:",
+      "option_a": "Risk management plan issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Medication error reporting issues often arise when documentation is complete.",
+      "option_c": "Pharmacovigilance database issues often arise when all policies are followed.",
+      "option_d": "Post-marketing surveillance issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 84) Which option is MOST appropriate regarding Spontaneous reporting?",
+      "option_a": "Spontaneous reporting",
+      "option_b": "Evaluating likelihood that a drug caused an event",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "D",
+      "explanation": "Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 85) A common pitfall related to Risk management plan is:",
+      "option_a": "Risk management plan issues often arise when processes are not standardized.",
+      "option_b": "Signal detection issues often arise when documentation is complete.",
+      "option_c": "Risk management plan issues often arise when all policies are followed.",
+      "option_d": "Risk management plan issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 86) Which option is MOST appropriate regarding Pharmacovigilance database?",
+      "option_a": "Causality assessment",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_d": "Monitoring drug safety after approval in real-world use",
+      "correct_answer": "B",
+      "explanation": "Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 87) Medication error reporting is BEST defined as:",
+      "option_a": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_b": "AEs include ADRs but also unrelated events.",
+      "option_c": "Causality assessment",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "D",
+      "explanation": "Medication error reporting: Capturing errors to improve systems and prevent harm"
+    },
+    {
+      "question": "(Pharmacovigilance Item 88) Which statement is TRUE?",
+      "option_a": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses",
+      "option_b": "Post-marketing surveillance: Evaluating likelihood that a drug caused an event",
+      "option_c": "Adverse drug reaction (ADR): Monitoring drug safety after approval in real-world use",
+      "option_d": "Signal detection: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "A",
+      "explanation": "Adverse drug reaction (ADR): Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 89) A common pitfall related to Disproportionality analysis is:",
+      "option_a": "Adverse event (AE) issues often arise when documentation is complete.",
+      "option_b": "Medication error reporting issues often arise when all policies are followed.",
+      "option_c": "Risk management plan issues often arise when all policies are followed.",
+      "option_d": "Disproportionality analysis issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 90) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "Causality assessment",
+      "option_b": "A harmful and unintended response to a drug at normal doses",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Statistical method to detect signals in reporting databases",
+      "correct_answer": "C",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 91) A common pitfall related to Signal detection is:",
+      "option_a": "Signal detection issues often arise when documentation is incomplete.",
+      "option_b": "Causality assessment issues often arise when training is excellent.",
+      "option_c": "Disproportionality analysis issues often arise when all policies are followed.",
+      "option_d": "Signal detection issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 92) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_b": "Measures include PRR, ROR; suggests association not causation.",
+      "option_c": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_d": "Spontaneous reporting",
+      "correct_answer": "C",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 93) Which statement is TRUE?",
+      "option_a": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_b": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "option_c": "Pharmacovigilance database: Evaluating likelihood that a drug caused an event",
+      "option_d": "Causality assessment: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 94) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Post-marketing surveillance: A harmful and unintended response to a drug at normal doses",
+      "option_c": "Pharmacovigilance database: Identifying new or changing safety issues from data sources",
+      "option_d": "Causality assessment: System for collecting and analyzing safety reports",
+      "correct_answer": "A",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 95) Which option is MOST appropriate regarding Signal detection?",
+      "option_a": "Spontaneous reporting",
+      "option_b": "A harmful and unintended response to a drug at normal doses",
+      "option_c": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_d": "AEs include ADRs but also unrelated events.",
+      "correct_answer": "C",
+      "explanation": "Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 96) A common pitfall related to Spontaneous reporting is:",
+      "option_a": "Post-marketing surveillance issues often arise when monitoring is rigorous.",
+      "option_b": "Risk management plan issues often arise when training is excellent.",
+      "option_c": "Spontaneous reporting issues often arise when communication is unclear.",
+      "option_d": "Causality assessment issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 97) Adverse event (AE) is BEST defined as:",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "D",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 98) Which option is MOST appropriate regarding Medication error reporting?",
+      "option_a": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_b": "Disproportionality analysis",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Post-marketing surveillance",
+      "correct_answer": "A",
+      "explanation": "Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 99) Pharmacovigilance database is BEST defined as:",
+      "option_a": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_b": "Medication error reporting",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "C",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 100) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_b": "Causality assessment: Monitoring drug safety after approval in real-world use",
+      "option_c": "Signal detection: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Adverse event (AE): System for collecting and analyzing safety reports",
+      "correct_answer": "A",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 101) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "Post-marketing surveillance",
+      "option_b": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Detects rare/long-term adverse effects not seen in trials.",
+      "correct_answer": "C",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 102) A common pitfall related to Medication error reporting is:",
+      "option_a": "Medication error reporting issues often arise when communication is unclear.",
+      "option_b": "Adverse drug reaction (ADR) issues often arise when all policies are followed.",
+      "option_c": "Medication error reporting issues often arise when all policies are followed.",
+      "option_d": "Causality assessment issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 103) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Signal detection issues often arise when training is excellent.",
+      "option_b": "Adverse event (AE) issues often arise when processes are not standardized.",
+      "option_c": "Post-marketing surveillance issues often arise when monitoring is rigorous.",
+      "option_d": "Signal detection issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 104) A common pitfall related to Signal detection is:",
+      "option_a": "Post-marketing surveillance issues often arise when all policies are followed.",
+      "option_b": "Adverse drug reaction (ADR) issues often arise when documentation is complete.",
+      "option_c": "Signal detection issues often arise when documentation is incomplete.",
+      "option_d": "Causality assessment issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 105) Signal detection is BEST defined as:",
+      "option_a": "Adverse event (AE)",
+      "option_b": "Signal detection",
+      "option_c": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_d": "Identifying new or changing safety issues from data sources",
+      "correct_answer": "D",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 106) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Evaluating likelihood that a drug caused an event",
+      "option_b": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Risk management plan: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Post-marketing surveillance: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "B",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 107) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_b": "Spontaneous reporting issues often arise when training is excellent.",
+      "option_c": "Adverse event (AE) issues often arise when documentation is incomplete.",
+      "option_d": "Risk management plan issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 108) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "A harmful and unintended response to a drug at normal doses",
+      "option_b": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_d": "Adverse event (AE)",
+      "correct_answer": "A",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 109) Which statement is TRUE?",
+      "option_a": "Risk management plan: Statistical method to detect signals in reporting databases",
+      "option_b": "Medication error reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Risk management plan: Monitoring drug safety after approval in real-world use",
+      "option_d": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "D",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 110) Signal detection is BEST defined as:",
+      "option_a": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_b": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Identifying new or changing safety issues from data sources",
+      "correct_answer": "D",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 111) Which statement is TRUE?",
+      "option_a": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_b": "Adverse event (AE): System for collecting and analyzing safety reports",
+      "option_c": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Causality assessment: Identifying new or changing safety issues from data sources",
+      "correct_answer": "C",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 112) A common pitfall related to Disproportionality analysis is:",
+      "option_a": "Signal detection issues often arise when all policies are followed.",
+      "option_b": "Post-marketing surveillance issues often arise when training is excellent.",
+      "option_c": "Medication error reporting issues often arise when training is excellent.",
+      "option_d": "Disproportionality analysis issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 113) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Risk management plan: A harmful and unintended response to a drug at normal doses",
+      "option_c": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_d": "Signal detection: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "C",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 114) A common pitfall related to Risk management plan is:",
+      "option_a": "Signal detection issues often arise when training is excellent.",
+      "option_b": "Risk management plan issues often arise when documentation is incomplete.",
+      "option_c": "Medication error reporting issues often arise when training is excellent.",
+      "option_d": "Medication error reporting issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 115) Spontaneous reporting is BEST defined as:",
+      "option_a": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_b": "Strategies to minimize known/ potential drug risks",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Different from overdose/medication error; important for safety monitoring.",
+      "correct_answer": "C",
+      "explanation": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients"
+    },
+    {
+      "question": "(Pharmacovigilance Item 116) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Tools include Naranjo algorithm and clinical judgment.",
+      "correct_answer": "D",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 117) Disproportionality analysis is BEST defined as:",
+      "option_a": "AEs include ADRs but also unrelated events.",
+      "option_b": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_c": "Statistical method to detect signals in reporting databases",
+      "option_d": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "C",
+      "explanation": "Disproportionality analysis: Statistical method to detect signals in reporting databases"
+    },
+    {
+      "question": "(Pharmacovigilance Item 118) Which option is MOST appropriate regarding Post-marketing surveillance?",
+      "option_a": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_b": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Causality assessment",
+      "option_d": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "correct_answer": "A",
+      "explanation": "Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 119) Which option is MOST appropriate regarding Spontaneous reporting?",
+      "option_a": "Identifying new or changing safety issues from data sources",
+      "option_b": "Statistical method to detect signals in reporting databases",
+      "option_c": "Strategies to minimize known/ potential drug risks",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "D",
+      "explanation": "Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 120) Which option is MOST appropriate regarding Spontaneous reporting?",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Subject to underreporting; useful for rare events.",
+      "option_c": "Spontaneous reporting",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "B",
+      "explanation": "Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 121) A common pitfall related to Risk management plan is:",
+      "option_a": "Medication error reporting issues often arise when monitoring is rigorous.",
+      "option_b": "Medication error reporting issues often arise when documentation is complete.",
+      "option_c": "Risk management plan issues often arise when documentation is complete.",
+      "option_d": "Risk management plan issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 122) Which statement is TRUE?",
+      "option_a": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_b": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_c": "Signal detection: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Spontaneous reporting: Identifying new or changing safety issues from data sources",
+      "correct_answer": "A",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 123) Post-marketing surveillance is BEST defined as:",
+      "option_a": "Risk management plan",
+      "option_b": "Medication error reporting",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "Measures include PRR, ROR; suggests association not causation.",
+      "correct_answer": "C",
+      "explanation": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use"
+    },
+    {
+      "question": "(Pharmacovigilance Item 124) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Medication error reporting",
+      "option_c": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_d": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "correct_answer": "C",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 125) Adverse event (AE) is BEST defined as:",
+      "option_a": "Statistical method to detect signals in reporting databases",
+      "option_b": "Subject to underreporting; useful for rare events.",
+      "option_c": "Adverse event (AE)",
+      "option_d": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "D",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 126) Which option is MOST appropriate regarding Signal detection?",
+      "option_a": "Measures include PRR, ROR; suggests association not causation.",
+      "option_b": "Signal detection",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "correct_answer": "D",
+      "explanation": "Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 127) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Monitoring drug safety after approval in real-world use",
+      "option_b": "Signal detection: Strategies to minimize known/ potential drug risks",
+      "option_c": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_d": "Risk management plan: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "C",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 128) Which statement is TRUE?",
+      "option_a": "Causality assessment: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "option_d": "Adverse event (AE): Evaluating likelihood that a drug caused an event",
+      "correct_answer": "B",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 129) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_b": "Disproportionality analysis",
+      "option_c": "Pharmacovigilance database",
+      "option_d": "Causality assessment",
+      "correct_answer": "A",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 130) A common pitfall related to Pharmacovigilance database is:",
+      "option_a": "Signal detection issues often arise when monitoring is rigorous.",
+      "option_b": "Spontaneous reporting issues often arise when training is excellent.",
+      "option_c": "Pharmacovigilance database issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Disproportionality analysis issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 131) Which statement is TRUE?",
+      "option_a": "Causality assessment: Evaluating likelihood that a drug caused an event",
+      "option_b": "Medication error reporting: Strategies to minimize known/ potential drug risks",
+      "option_c": "Causality assessment: Identifying new or changing safety issues from data sources",
+      "option_d": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "D",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 132) Which option is MOST appropriate regarding Adverse event (AE)?",
+      "option_a": "AEs include ADRs but also unrelated events.",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Evaluating likelihood that a drug caused an event",
+      "option_d": "Different from overdose/medication error; important for safety monitoring.",
+      "correct_answer": "A",
+      "explanation": "AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 133) Pharmacovigilance database is BEST defined as:",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Measures include PRR, ROR; suggests association not causation.",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "D",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 134) Which statement is TRUE?",
+      "option_a": "Medication error reporting: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_c": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "option_d": "Causality assessment: Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "C",
+      "explanation": "Medication error reporting: Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 135) Pharmacovigilance database is BEST defined as:",
+      "option_a": "System for collecting and analyzing safety reports",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Signal detection",
+      "option_d": "Medication error reporting",
+      "correct_answer": "A",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 136) A common pitfall related to Adverse event (AE) is:",
+      "option_a": "Risk management plan issues often arise when monitoring is rigorous.",
+      "option_b": "Adverse drug reaction (ADR) issues often arise when all policies are followed.",
+      "option_c": "Medication error reporting issues often arise when monitoring is rigorous.",
+      "option_d": "Adverse event (AE) issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 137) Risk management plan is BEST defined as:",
+      "option_a": "Strategies to minimize known/ potential drug risks",
+      "option_b": "Adverse drug reaction (ADR)",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "A",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 138) Adverse event (AE) is BEST defined as:",
+      "option_a": "Causality assessment",
+      "option_b": "Adverse event (AE)",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Pharmacovigilance database",
+      "correct_answer": "C",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 139) Signal detection is BEST defined as:",
+      "option_a": "Identifying new or changing safety issues from data sources",
+      "option_b": "Different from overdose/medication error; important for safety monitoring.",
+      "option_c": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "A",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 140) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_b": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_c": "Adverse drug reaction (ADR): Strategies to minimize known/ potential drug risks",
+      "option_d": "Spontaneous reporting: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "A",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 141) Pharmacovigilance database is BEST defined as:",
+      "option_a": "Disproportionality analysis",
+      "option_b": "AEs include ADRs but also unrelated events.",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Measures include PRR, ROR; suggests association not causation.",
+      "correct_answer": "C",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 142) Disproportionality analysis is BEST defined as:",
+      "option_a": "Post-marketing surveillance",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Statistical method to detect signals in reporting databases",
+      "option_d": "Disproportionality analysis",
+      "correct_answer": "C",
+      "explanation": "Disproportionality analysis: Statistical method to detect signals in reporting databases"
+    },
+    {
+      "question": "(Pharmacovigilance Item 143) A common pitfall related to Adverse drug reaction (ADR) is:",
+      "option_a": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_b": "Post-marketing surveillance issues often arise when documentation is complete.",
+      "option_c": "Adverse drug reaction (ADR) issues often arise when training is excellent.",
+      "option_d": "Adverse drug reaction (ADR) issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 144) A common pitfall related to Pharmacovigilance database is:",
+      "option_a": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_b": "Causality assessment issues often arise when all policies are followed.",
+      "option_c": "Pharmacovigilance database issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Disproportionality analysis issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 145) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Statistical method to detect signals in reporting databases",
+      "option_b": "Disproportionality analysis: Monitoring drug safety after approval in real-world use",
+      "option_c": "Adverse drug reaction (ADR): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "Signal detection: Identifying new or changing safety issues from data sources",
+      "correct_answer": "D",
+      "explanation": "Signal detection: Uses spontaneous reports, databases, and epidemiologic studies."
+    },
+    {
+      "question": "(Pharmacovigilance Item 146) Which option is MOST appropriate regarding Disproportionality analysis?",
+      "option_a": "Medication error reporting",
+      "option_b": "Measures include PRR, ROR; suggests association not causation.",
+      "option_c": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "B",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 147) Which option is MOST appropriate regarding Spontaneous reporting?",
+      "option_a": "Disproportionality analysis",
+      "option_b": "Strategies to minimize known/ potential drug risks",
+      "option_c": "Post-marketing surveillance",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "D",
+      "explanation": "Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 148) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: System for collecting and analyzing safety reports",
+      "option_b": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "option_c": "Signal detection: Identifying new or changing safety issues from data sources",
+      "option_d": "Post-marketing surveillance: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "B",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 149) Which option is MOST appropriate regarding Medication error reporting?",
+      "option_a": "Adverse drug reaction (ADR)",
+      "option_b": "Statistical method to detect signals in reporting databases",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "correct_answer": "D",
+      "explanation": "Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 150) Which option is MOST appropriate regarding Pharmacovigilance database?",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_d": "Monitoring drug safety after approval in real-world use",
+      "correct_answer": "B",
+      "explanation": "Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 151) Risk management plan is BEST defined as:",
+      "option_a": "Strategies to minimize known/ potential drug risks",
+      "option_b": "Pharmacovigilance database",
+      "option_c": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "A",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 152) Which statement is TRUE?",
+      "option_a": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Adverse drug reaction (ADR): Strategies to minimize known/ potential drug risks",
+      "option_c": "Medication error reporting: System for collecting and analyzing safety reports",
+      "option_d": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "correct_answer": "D",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 153) A common pitfall related to Adverse drug reaction (ADR) is:",
+      "option_a": "Pharmacovigilance database issues often arise when monitoring is rigorous.",
+      "option_b": "Adverse drug reaction (ADR) issues often arise when processes are not standardized.",
+      "option_c": "Causality assessment issues often arise when documentation is complete.",
+      "option_d": "Medication error reporting issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 154) Which option is MOST appropriate regarding Pharmacovigilance database?",
+      "option_a": "Adverse event (AE)",
+      "option_b": "Tools include Naranjo algorithm and clinical judgment.",
+      "option_c": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "D",
+      "explanation": "Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 155) A common pitfall related to Risk management plan is:",
+      "option_a": "Spontaneous reporting issues often arise when monitoring is rigorous.",
+      "option_b": "Adverse event (AE) issues often arise when documentation is complete.",
+      "option_c": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_d": "Risk management plan issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 156) Which statement is TRUE?",
+      "option_a": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_b": "Medication error reporting: Capturing errors to improve systems and prevent harm",
+      "option_c": "Disproportionality analysis: Identifying new or changing safety issues from data sources",
+      "option_d": "Spontaneous reporting: Statistical method to detect signals in reporting databases",
+      "correct_answer": "B",
+      "explanation": "Medication error reporting: Focus on system fixes and prevention; non-punitive culture helps."
+    },
+    {
+      "question": "(Pharmacovigilance Item 157) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Statistical method to detect signals in reporting databases",
+      "option_b": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_c": "Adverse drug reaction (ADR): Evaluating likelihood that a drug caused an event",
+      "option_d": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "B",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 158) A common pitfall related to Adverse drug reaction (ADR) is:",
+      "option_a": "Adverse drug reaction (ADR) issues often arise when all policies are followed.",
+      "option_b": "Disproportionality analysis issues often arise when training is excellent.",
+      "option_c": "Adverse drug reaction (ADR) issues often arise when communication is unclear.",
+      "option_d": "Causality assessment issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 159) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "System for collecting and analyzing safety reports",
+      "option_b": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_c": "A harmful and unintended response to a drug at normal doses",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "C",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 160) Which statement is TRUE?",
+      "option_a": "Adverse drug reaction (ADR): Evaluating likelihood that a drug caused an event",
+      "option_b": "Signal detection: Capturing errors to improve systems and prevent harm",
+      "option_c": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_d": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "D",
+      "explanation": "Adverse drug reaction (ADR): Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 161) Pharmacovigilance database is BEST defined as:",
+      "option_a": "System for collecting and analyzing safety reports",
+      "option_b": "A harmful and unintended response to a drug at normal doses",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Medication error reporting",
+      "correct_answer": "A",
+      "explanation": "Pharmacovigilance database: System for collecting and analyzing safety reports"
+    },
+    {
+      "question": "(Pharmacovigilance Item 162) Disproportionality analysis is BEST defined as:",
+      "option_a": "Post-marketing surveillance",
+      "option_b": "Statistical method to detect signals in reporting databases",
+      "option_c": "Strategies to minimize known/ potential drug risks",
+      "option_d": "AEs include ADRs but also unrelated events.",
+      "correct_answer": "B",
+      "explanation": "Disproportionality analysis: Statistical method to detect signals in reporting databases"
+    },
+    {
+      "question": "(Pharmacovigilance Item 163) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "Adverse drug reaction (ADR)",
+      "option_b": "Different from overdose/medication error; important for safety monitoring.",
+      "option_c": "Monitoring drug safety after approval in real-world use",
+      "option_d": "Examples include national reporting systems and global databases.",
+      "correct_answer": "B",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 164) Which statement is TRUE?",
+      "option_a": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Signal detection: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Risk management plan: Statistical method to detect signals in reporting databases",
+      "option_d": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "correct_answer": "A",
+      "explanation": "Adverse event (AE): AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 165) Disproportionality analysis is BEST defined as:",
+      "option_a": "Statistical method to detect signals in reporting databases",
+      "option_b": "Causality assessment",
+      "option_c": "Medication error reporting",
+      "option_d": "Evaluating likelihood that a drug caused an event",
+      "correct_answer": "A",
+      "explanation": "Disproportionality analysis: Statistical method to detect signals in reporting databases"
+    },
+    {
+      "question": "(Pharmacovigilance Item 166) A common pitfall related to Causality assessment is:",
+      "option_a": "Signal detection issues often arise when documentation is complete.",
+      "option_b": "Causality assessment issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Pharmacovigilance database issues often arise when documentation is complete.",
+      "option_d": "Adverse event (AE) issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 167) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "AEs include ADRs but also unrelated events.",
+      "option_b": "Risk management plan",
+      "option_c": "Different from overdose/medication error; important for safety monitoring.",
+      "option_d": "Medication error reporting",
+      "correct_answer": "C",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 168) Which statement is TRUE?",
+      "option_a": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_b": "Disproportionality analysis: Capturing errors to improve systems and prevent harm",
+      "option_c": "Spontaneous reporting: Identifying new or changing safety issues from data sources",
+      "option_d": "Medication error reporting: Evaluating likelihood that a drug caused an event",
+      "correct_answer": "A",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 169) Which option is MOST appropriate regarding Adverse drug reaction (ADR)?",
+      "option_a": "Different from overdose/medication error; important for safety monitoring.",
+      "option_b": "Medication error reporting",
+      "option_c": "Signal detection",
+      "option_d": "Capturing errors to improve systems and prevent harm",
+      "correct_answer": "A",
+      "explanation": "Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 170) Risk management plan is BEST defined as:",
+      "option_a": "Adverse event (AE)",
+      "option_b": "A harmful and unintended response to a drug at normal doses",
+      "option_c": "Causality assessment",
+      "option_d": "Strategies to minimize known/ potential drug risks",
+      "correct_answer": "D",
+      "explanation": "Risk management plan: Strategies to minimize known/ potential drug risks"
+    },
+    {
+      "question": "(Pharmacovigilance Item 171) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Adverse event (AE)",
+      "option_d": "A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "D",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 172) Which option is MOST appropriate regarding Causality assessment?",
+      "option_a": "Focus on system fixes and prevention; non-punitive culture helps.",
+      "option_b": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Statistical method to detect signals in reporting databases",
+      "option_d": "Tools include Naranjo algorithm and clinical judgment.",
+      "correct_answer": "D",
+      "explanation": "Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 173) Spontaneous reporting is BEST defined as:",
+      "option_a": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_c": "Causality assessment",
+      "option_d": "Subject to underreporting; useful for rare events.",
+      "correct_answer": "A",
+      "explanation": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients"
+    },
+    {
+      "question": "(Pharmacovigilance Item 174) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Evaluating likelihood that a drug caused an event",
+      "option_b": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_c": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_d": "Disproportionality analysis: Capturing errors to improve systems and prevent harm",
+      "correct_answer": "C",
+      "explanation": "Disproportionality analysis: Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 175) Adverse event (AE) is BEST defined as:",
+      "option_a": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_b": "Causality assessment",
+      "option_c": "Signal detection",
+      "option_d": "AEs include ADRs but also unrelated events.",
+      "correct_answer": "A",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 176) Adverse drug reaction (ADR) is BEST defined as:",
+      "option_a": "Signal detection",
+      "option_b": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_c": "Adverse drug reaction (ADR)",
+      "option_d": "A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "D",
+      "explanation": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses"
+    },
+    {
+      "question": "(Pharmacovigilance Item 177) Which option is MOST appropriate regarding Disproportionality analysis?",
+      "option_a": "Strategies to minimize known/ potential drug risks",
+      "option_b": "Uses spontaneous reports, databases, and epidemiologic studies.",
+      "option_c": "Includes REMS-like elements, education, monitoring, and restrictions.",
+      "option_d": "Measures include PRR, ROR; suggests association not causation.",
+      "correct_answer": "D",
+      "explanation": "Measures include PRR, ROR; suggests association not causation."
+    },
+    {
+      "question": "(Pharmacovigilance Item 178) Which statement is TRUE?",
+      "option_a": "Adverse drug reaction (ADR): Statistical method to detect signals in reporting databases",
+      "option_b": "Adverse drug reaction (ADR): A harmful and unintended response to a drug at normal doses",
+      "option_c": "Adverse drug reaction (ADR): Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_d": "Causality assessment: Strategies to minimize known/ potential drug risks",
+      "correct_answer": "B",
+      "explanation": "Adverse drug reaction (ADR): Different from overdose/medication error; important for safety monitoring."
+    },
+    {
+      "question": "(Pharmacovigilance Item 179) A common pitfall related to Risk management plan is:",
+      "option_a": "Spontaneous reporting issues often arise when documentation is complete.",
+      "option_b": "Risk management plan issues often arise when communication is unclear.",
+      "option_c": "Adverse drug reaction (ADR) issues often arise when training is excellent.",
+      "option_d": "Causality assessment issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 180) Which statement is TRUE?",
+      "option_a": "Pharmacovigilance database: System for collecting and analyzing safety reports",
+      "option_b": "Pharmacovigilance database: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Disproportionality analysis: Identifying new or changing safety issues from data sources",
+      "option_d": "Pharmacovigilance database: Monitoring drug safety after approval in real-world use",
+      "correct_answer": "A",
+      "explanation": "Pharmacovigilance database: Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 181) Spontaneous reporting is BEST defined as:",
+      "option_a": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Monitoring drug safety after approval in real-world use",
+      "option_c": "Disproportionality analysis",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "A",
+      "explanation": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients"
+    },
+    {
+      "question": "(Pharmacovigilance Item 182) Which statement is TRUE?",
+      "option_a": "Causality assessment: Monitoring drug safety after approval in real-world use",
+      "option_b": "Spontaneous reporting: Statistical method to detect signals in reporting databases",
+      "option_c": "Causality assessment: Evaluating likelihood that a drug caused an event",
+      "option_d": "Pharmacovigilance database: Evaluating likelihood that a drug caused an event",
+      "correct_answer": "C",
+      "explanation": "Causality assessment: Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 183) A common pitfall related to Disproportionality analysis is:",
+      "option_a": "Disproportionality analysis issues often arise when processes are not standardized.",
+      "option_b": "Post-marketing surveillance issues often arise when monitoring is rigorous.",
+      "option_c": "Spontaneous reporting issues often arise when documentation is complete.",
+      "option_d": "Disproportionality analysis issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 184) Signal detection is BEST defined as:",
+      "option_a": "Post-marketing surveillance",
+      "option_b": "Capturing errors to improve systems and prevent harm",
+      "option_c": "Identifying new or changing safety issues from data sources",
+      "option_d": "Pharmacovigilance database",
+      "correct_answer": "C",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 185) A common pitfall related to Pharmacovigilance database is:",
+      "option_a": "Adverse event (AE) issues often arise when training is excellent.",
+      "option_b": "Pharmacovigilance database issues often arise when processes are not standardized.",
+      "option_c": "Risk management plan issues often arise when documentation is complete.",
+      "option_d": "Adverse event (AE) issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 186) Signal detection is BEST defined as:",
+      "option_a": "Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Identifying new or changing safety issues from data sources",
+      "option_c": "Causality assessment",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "B",
+      "explanation": "Signal detection: Identifying new or changing safety issues from data sources"
+    },
+    {
+      "question": "(Pharmacovigilance Item 187) A common pitfall related to Medication error reporting is:",
+      "option_a": "Disproportionality analysis issues often arise when documentation is complete.",
+      "option_b": "Disproportionality analysis issues often arise when all policies are followed.",
+      "option_c": "Adverse event (AE) issues often arise when all policies are followed.",
+      "option_d": "Medication error reporting issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 188) Which statement is TRUE?",
+      "option_a": "Spontaneous reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_b": "Signal detection: Strategies to minimize known/ potential drug risks",
+      "option_c": "Disproportionality analysis: Identifying new or changing safety issues from data sources",
+      "option_d": "Post-marketing surveillance: Capturing errors to improve systems and prevent harm",
+      "correct_answer": "A",
+      "explanation": "Spontaneous reporting: Subject to underreporting; useful for rare events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 189) A common pitfall related to Risk management plan is:",
+      "option_a": "Spontaneous reporting issues often arise when all policies are followed.",
+      "option_b": "Signal detection issues often arise when documentation is complete.",
+      "option_c": "Medication error reporting issues often arise when all policies are followed.",
+      "option_d": "Risk management plan issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 190) A common pitfall related to Causality assessment is:",
+      "option_a": "Causality assessment issues often arise when processes are not standardized.",
+      "option_b": "Risk management plan issues often arise when monitoring is rigorous.",
+      "option_c": "Risk management plan issues often arise when monitoring is rigorous.",
+      "option_d": "Risk management plan issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 191) Which statement is TRUE?",
+      "option_a": "Adverse drug reaction (ADR): Evaluating likelihood that a drug caused an event",
+      "option_b": "Risk management plan: Capturing errors to improve systems and prevent harm",
+      "option_c": "Risk management plan: Monitoring drug safety after approval in real-world use",
+      "option_d": "Causality assessment: Evaluating likelihood that a drug caused an event",
+      "correct_answer": "D",
+      "explanation": "Causality assessment: Tools include Naranjo algorithm and clinical judgment."
+    },
+    {
+      "question": "(Pharmacovigilance Item 192) Which statement is TRUE?",
+      "option_a": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_b": "Medication error reporting: Voluntary reporting of suspected ADRs by healthcare professionals/patients",
+      "option_c": "Causality assessment: Identifying new or changing safety issues from data sources",
+      "option_d": "Signal detection: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "A",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 193) A common pitfall related to Signal detection is:",
+      "option_a": "Adverse event (AE) issues often arise when documentation is complete.",
+      "option_b": "Spontaneous reporting issues often arise when documentation is complete.",
+      "option_c": "Medication error reporting issues often arise when documentation is complete.",
+      "option_d": "Signal detection issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 194) Which option is MOST appropriate regarding Adverse event (AE)?",
+      "option_a": "Measures include PRR, ROR; suggests association not causation.",
+      "option_b": "AEs include ADRs but also unrelated events.",
+      "option_c": "System for collecting and analyzing safety reports",
+      "option_d": "Disproportionality analysis",
+      "correct_answer": "B",
+      "explanation": "AEs include ADRs but also unrelated events."
+    },
+    {
+      "question": "(Pharmacovigilance Item 195) A common pitfall related to Spontaneous reporting is:",
+      "option_a": "Disproportionality analysis issues often arise when monitoring is rigorous.",
+      "option_b": "Adverse event (AE) issues often arise when documentation is complete.",
+      "option_c": "Spontaneous reporting issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Medication error reporting issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Pharmacovigilance Item 196) Adverse event (AE) is BEST defined as:",
+      "option_a": "Monitoring drug safety after approval in real-world use",
+      "option_b": "Identifying new or changing safety issues from data sources",
+      "option_c": "Evaluating likelihood that a drug caused an event",
+      "option_d": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "correct_answer": "D",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    },
+    {
+      "question": "(Pharmacovigilance Item 197) Which statement is TRUE?",
+      "option_a": "Risk management plan: Statistical method to detect signals in reporting databases",
+      "option_b": "Post-marketing surveillance: Monitoring drug safety after approval in real-world use",
+      "option_c": "Disproportionality analysis: Statistical method to detect signals in reporting databases",
+      "option_d": "Spontaneous reporting: Evaluating likelihood that a drug caused an event",
+      "correct_answer": "B",
+      "explanation": "Post-marketing surveillance: Detects rare/long-term adverse effects not seen in trials."
+    },
+    {
+      "question": "(Pharmacovigilance Item 198) Which option is MOST appropriate regarding Pharmacovigilance database?",
+      "option_a": "System for collecting and analyzing safety reports",
+      "option_b": "Examples include national reporting systems and global databases.",
+      "option_c": "Risk management plan",
+      "option_d": "Adverse event (AE)",
+      "correct_answer": "B",
+      "explanation": "Examples include national reporting systems and global databases."
+    },
+    {
+      "question": "(Pharmacovigilance Item 199) Which statement is TRUE?",
+      "option_a": "Adverse event (AE): Capturing errors to improve systems and prevent harm",
+      "option_b": "Adverse drug reaction (ADR): System for collecting and analyzing safety reports",
+      "option_c": "Risk management plan: Strategies to minimize known/ potential drug risks",
+      "option_d": "Pharmacovigilance database: A harmful and unintended response to a drug at normal doses",
+      "correct_answer": "C",
+      "explanation": "Risk management plan: Includes REMS-like elements, education, monitoring, and restrictions."
+    },
+    {
+      "question": "(Pharmacovigilance Item 200) Adverse event (AE) is BEST defined as:",
+      "option_a": "Subject to underreporting; useful for rare events.",
+      "option_b": "Detects rare/long-term adverse effects not seen in trials.",
+      "option_c": "Any untoward medical occurrence during treatment, not necessarily causally related",
+      "option_d": "System for collecting and analyzing safety reports",
+      "correct_answer": "C",
+      "explanation": "Adverse event (AE): Any untoward medical occurrence during treatment, not necessarily causally related"
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+  "course_name": "Electives",
+  "course_code": "UG_PHARM_Y4_S2_C09",
+  "questions": [
+    {
+      "question": "Which statement best describes Pharmacogenomics?",
+      "option_a": "Using genetic data to guide drug therapy",
+      "option_b": "Geriatric pharmacotherapy",
+      "option_c": "Compounding basics",
+      "option_d": "Topicals, adherence, and safety considerations.",
+      "correct_answer": "A",
+      "explanation": "May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "In practice, the key objective of Pharmacogenomics is to:",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "May influence dosing/selection (e.g., CYP variants).",
+      "option_c": "Supportive care and antidotes when indicated.",
+      "option_d": "Recognition and initial management of poisoning",
+      "correct_answer": "B",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "Which statement best describes Compounding basics?",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Optimizing medications in older adults",
+      "option_c": "Recognition and initial management of poisoning",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "D",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "In practice, the key objective of Compounding basics is to:",
+      "option_a": "Toxicology basics",
+      "option_b": "Requires calculations, technique, and stability considerations.",
+      "option_c": "Topicals, adherence, and safety considerations.",
+      "option_d": "Management of common skin conditions",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "Which statement best describes Public health pharmacy?",
+      "option_a": "May influence dosing/selection (e.g., CYP variants).",
+      "option_b": "Pharmacist roles in population health",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Consider Beers criteria, falls risk, renal function.",
+      "correct_answer": "B",
+      "explanation": "Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "In practice, the key objective of Public health pharmacy is to:",
+      "option_a": "Screening, vaccination, education, and outreach.",
+      "option_b": "Public health pharmacy",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Pharmacogenomics",
+      "correct_answer": "A",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "Which statement best describes Geriatric pharmacotherapy?",
+      "option_a": "Recognition and initial management of poisoning",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Toxicology basics",
+      "option_d": "Optimizing medications in older adults",
+      "correct_answer": "D",
+      "explanation": "Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "In practice, the key objective of Geriatric pharmacotherapy is to:",
+      "option_a": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_b": "Weight-based dosing and formulation considerations",
+      "option_c": "Consider Beers criteria, falls risk, renal function.",
+      "option_d": "Vaccinology",
+      "correct_answer": "C",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "Which statement best describes Pediatric dosing?",
+      "option_a": "Weight-based dosing and formulation considerations",
+      "option_b": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_c": "Management of common skin conditions",
+      "option_d": "Pharmacist roles in population health",
+      "correct_answer": "A",
+      "explanation": "Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "In practice, the key objective of Pediatric dosing is to:",
+      "option_a": "Vaccines and prophylaxis for travelers",
+      "option_b": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_c": "Supportive care and antidotes when indicated.",
+      "option_d": "Consider Beers criteria, falls risk, renal function.",
+      "correct_answer": "B",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "Which statement best describes Travel medicine?",
+      "option_a": "Topicals, adherence, and safety considerations.",
+      "option_b": "Evaluating supplements for efficacy/safety",
+      "option_c": "Vaccines and prophylaxis for travelers",
+      "option_d": "Management of common skin conditions",
+      "correct_answer": "C",
+      "explanation": "Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "In practice, the key objective of Travel medicine is to:",
+      "option_a": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_b": "Compounding basics",
+      "option_c": "Management of common skin conditions",
+      "option_d": "Consider Beers criteria, falls risk, renal function.",
+      "correct_answer": "A",
+      "explanation": "Travel medicine: Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "Which statement best describes Toxicology basics?",
+      "option_a": "Using genetic data to guide drug therapy",
+      "option_b": "Pediatric dosing",
+      "option_c": "Recognition and initial management of poisoning",
+      "option_d": "Public health pharmacy",
+      "correct_answer": "C",
+      "explanation": "Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "In practice, the key objective of Toxicology basics is to:",
+      "option_a": "Travel medicine",
+      "option_b": "Supportive care and antidotes when indicated.",
+      "option_c": "Dermatology therapeutics",
+      "option_d": "Pharmacist roles in population health",
+      "correct_answer": "B",
+      "explanation": "Toxicology basics: Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "Which statement best describes Dermatology therapeutics?",
+      "option_a": "Requires calculations, technique, and stability considerations.",
+      "option_b": "Pediatric dosing",
+      "option_c": "Management of common skin conditions",
+      "option_d": "Optimizing medications in older adults",
+      "correct_answer": "C",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "In practice, the key objective of Dermatology therapeutics is to:",
+      "option_a": "Topicals, adherence, and safety considerations.",
+      "option_b": "Management of common skin conditions",
+      "option_c": "May influence dosing/selection (e.g., CYP variants).",
+      "option_d": "Dermatology therapeutics",
+      "correct_answer": "A",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "Which statement best describes Nutrition and supplements?",
+      "option_a": "Evaluating supplements for efficacy/safety",
+      "option_b": "Geriatric pharmacotherapy",
+      "option_c": "Travel medicine",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "A",
+      "explanation": "Watch for interactions and contamination."
+    },
+    {
+      "question": "In practice, the key objective of Nutrition and supplements is to:",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "Screening, vaccination, education, and outreach.",
+      "option_c": "Recognition and initial management of poisoning",
+      "option_d": "Watch for interactions and contamination.",
+      "correct_answer": "D",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "Which statement best describes Vaccinology?",
+      "option_a": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_b": "Pediatric dosing",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "D",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "In practice, the key objective of Vaccinology is to:",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Supportive care and antidotes when indicated.",
+      "option_c": "Evaluating supplements for efficacy/safety",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "D",
+      "explanation": "Vaccinology: Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 21) Which option is MOST appropriate regarding Public health pharmacy?",
+      "option_a": "Screening, vaccination, education, and outreach.",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "May influence dosing/selection (e.g., CYP variants).",
+      "correct_answer": "A",
+      "explanation": "Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 22) Dermatology therapeutics is BEST defined as:",
+      "option_a": "Pharmacogenomics",
+      "option_b": "Management of common skin conditions",
+      "option_c": "Screening, vaccination, education, and outreach.",
+      "option_d": "Travel medicine",
+      "correct_answer": "B",
+      "explanation": "Dermatology therapeutics: Management of common skin conditions"
+    },
+    {
+      "question": "(Electives Item 23) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Toxicology basics: Weight-based dosing and formulation considerations",
+      "option_d": "Compounding basics: Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 24) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Pharmacist roles in population health",
+      "option_b": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_c": "Public health pharmacy: Management of common skin conditions",
+      "option_d": "Pharmacogenomics: Management of common skin conditions",
+      "correct_answer": "B",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 25) A common pitfall related to Nutrition and supplements is:",
+      "option_a": "Toxicology basics issues often arise when documentation is complete.",
+      "option_b": "Nutrition and supplements issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Dermatology therapeutics issues often arise when training is excellent.",
+      "option_d": "Pharmacogenomics issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 26) Which option is MOST appropriate regarding Toxicology basics?",
+      "option_a": "Supportive care and antidotes when indicated.",
+      "option_b": "Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Recognition and initial management of poisoning",
+      "correct_answer": "A",
+      "explanation": "Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 27) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Vaccines and prophylaxis for travelers",
+      "option_b": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "option_c": "Geriatric pharmacotherapy: Weight-based dosing and formulation considerations",
+      "option_d": "Public health pharmacy: Management of common skin conditions",
+      "correct_answer": "B",
+      "explanation": "Vaccinology: Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 28) Nutrition and supplements is BEST defined as:",
+      "option_a": "Vaccines and prophylaxis for travelers",
+      "option_b": "Evaluating supplements for efficacy/safety",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Pediatric dosing",
+      "correct_answer": "B",
+      "explanation": "Nutrition and supplements: Evaluating supplements for efficacy/safety"
+    },
+    {
+      "question": "(Electives Item 29) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_b": "Dermatology therapeutics: Using genetic data to guide drug therapy",
+      "option_c": "Geriatric pharmacotherapy: Recognition and initial management of poisoning",
+      "option_d": "Dermatology therapeutics: Weight-based dosing and formulation considerations",
+      "correct_answer": "A",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 30) Which option is MOST appropriate regarding Vaccinology?",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "Optimizing medications in older adults",
+      "option_c": "Pediatric dosing",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "A",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 31) Which statement is TRUE?",
+      "option_a": "Public health pharmacy: Vaccines and prophylaxis for travelers",
+      "option_b": "Nutrition and supplements: Recognition and initial management of poisoning",
+      "option_c": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_d": "Compounding basics: Optimizing medications in older adults",
+      "correct_answer": "C",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 32) Compounding basics is BEST defined as:",
+      "option_a": "Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Vaccines and prophylaxis for travelers",
+      "option_c": "Management of common skin conditions",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 33) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Weight-based dosing and formulation considerations",
+      "option_d": "Watch for interactions and contamination.",
+      "correct_answer": "B",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 34) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_b": "Public health pharmacy: Management of common skin conditions",
+      "option_c": "Geriatric pharmacotherapy: Weight-based dosing and formulation considerations",
+      "option_d": "Pediatric dosing: Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 35) Which option is MOST appropriate regarding Geriatric pharmacotherapy?",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "Consider Beers criteria, falls risk, renal function.",
+      "option_c": "Weight-based dosing and formulation considerations",
+      "option_d": "Avoid dosing errors; use appropriate measuring devices.",
+      "correct_answer": "B",
+      "explanation": "Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 36) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Vaccines and prophylaxis for travelers",
+      "option_b": "Travel medicine: Vaccine schedules, storage, and adverse event management",
+      "option_c": "Vaccinology: Pharmacist roles in population health",
+      "option_d": "Public health pharmacy: Pharmacist roles in population health",
+      "correct_answer": "D",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 37) A common pitfall related to Pediatric dosing is:",
+      "option_a": "Pediatric dosing issues often arise when documentation is incomplete.",
+      "option_b": "Travel medicine issues often arise when training is excellent.",
+      "option_c": "Travel medicine issues often arise when documentation is complete.",
+      "option_d": "Pediatric dosing issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 38) Public health pharmacy is BEST defined as:",
+      "option_a": "Pharmacist roles in population health",
+      "option_b": "Screening, vaccination, education, and outreach.",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Public health pharmacy: Pharmacist roles in population health"
+    },
+    {
+      "question": "(Electives Item 39) A common pitfall related to Pharmacogenomics is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "option_b": "Travel medicine issues often arise when all policies are followed.",
+      "option_c": "Pharmacogenomics issues often arise when all policies are followed.",
+      "option_d": "Pharmacogenomics issues often arise when processes are not standardized.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 40) Vaccinology is BEST defined as:",
+      "option_a": "Pharmacist roles in population health",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Pharmacogenomics",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "D",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 41) Which option is MOST appropriate regarding Compounding basics?",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Supportive care and antidotes when indicated.",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "D",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 42) A common pitfall related to Public health pharmacy is:",
+      "option_a": "Public health pharmacy issues often arise when communication is unclear.",
+      "option_b": "Public health pharmacy issues often arise when all policies are followed.",
+      "option_c": "Nutrition and supplements issues often arise when all policies are followed.",
+      "option_d": "Pharmacogenomics issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 43) Which option is MOST appropriate regarding Compounding basics?",
+      "option_a": "Public health pharmacy",
+      "option_b": "Consider Beers criteria, falls risk, renal function.",
+      "option_c": "Compounding basics",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "D",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 44) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Using genetic data to guide drug therapy",
+      "option_b": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_d": "Toxicology basics: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 45) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Supportive care and antidotes when indicated.",
+      "option_b": "Pharmacist roles in population health",
+      "option_c": "Vaccinology",
+      "option_d": "Topicals, adherence, and safety considerations.",
+      "correct_answer": "D",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 46) Dermatology therapeutics is BEST defined as:",
+      "option_a": "Management of common skin conditions",
+      "option_b": "Cold chain and contraindications are key.",
+      "option_c": "Requires calculations, technique, and stability considerations.",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "A",
+      "explanation": "Dermatology therapeutics: Management of common skin conditions"
+    },
+    {
+      "question": "(Electives Item 47) Pharmacogenomics is BEST defined as:",
+      "option_a": "Compounding basics",
+      "option_b": "Using genetic data to guide drug therapy",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "Pediatric dosing",
+      "correct_answer": "B",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 48) Which option is MOST appropriate regarding Pediatric dosing?",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Nutrition and supplements",
+      "option_c": "Pediatric dosing",
+      "option_d": "Dermatology therapeutics",
+      "correct_answer": "A",
+      "explanation": "Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 49) Which option is MOST appropriate regarding Vaccinology?",
+      "option_a": "Topicals, adherence, and safety considerations.",
+      "option_b": "Using genetic data to guide drug therapy",
+      "option_c": "Cold chain and contraindications are key.",
+      "option_d": "Toxicology basics",
+      "correct_answer": "C",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 50) Pharmacogenomics is BEST defined as:",
+      "option_a": "May influence dosing/selection (e.g., CYP variants).",
+      "option_b": "Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Dermatology therapeutics",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 51) Vaccinology is BEST defined as:",
+      "option_a": "Pharmacogenomics",
+      "option_b": "Pharmacist roles in population health",
+      "option_c": "Vaccine schedules, storage, and adverse event management",
+      "option_d": "Nutrition and supplements",
+      "correct_answer": "C",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 52) Vaccinology is BEST defined as:",
+      "option_a": "Pediatric dosing",
+      "option_b": "Evaluating supplements for efficacy/safety",
+      "option_c": "Vaccine schedules, storage, and adverse event management",
+      "option_d": "Screening, vaccination, education, and outreach.",
+      "correct_answer": "C",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 53) A common pitfall related to Dermatology therapeutics is:",
+      "option_a": "Vaccinology issues often arise when all policies are followed.",
+      "option_b": "Dermatology therapeutics issues often arise when communication is unclear.",
+      "option_c": "Travel medicine issues often arise when all policies are followed.",
+      "option_d": "Toxicology basics issues often arise when monitoring is rigorous.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 54) A common pitfall related to Vaccinology is:",
+      "option_a": "Pharmacogenomics issues often arise when monitoring is rigorous.",
+      "option_b": "Vaccinology issues often arise when processes are not standardized.",
+      "option_c": "Dermatology therapeutics issues often arise when documentation is complete.",
+      "option_d": "Toxicology basics issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 55) Which option is MOST appropriate regarding Vaccinology?",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "Compounding basics",
+      "option_c": "Public health pharmacy",
+      "option_d": "Pediatric dosing",
+      "correct_answer": "A",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 56) Which option is MOST appropriate regarding Pharmacogenomics?",
+      "option_a": "Requires calculations, technique, and stability considerations.",
+      "option_b": "May influence dosing/selection (e.g., CYP variants).",
+      "option_c": "Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Pharmacist roles in population health",
+      "correct_answer": "B",
+      "explanation": "May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 57) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_b": "Nutrition and supplements: Using genetic data to guide drug therapy",
+      "option_c": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_d": "Public health pharmacy: Using genetic data to guide drug therapy",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 58) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_b": "Pediatric dosing: Vaccine schedules, storage, and adverse event management",
+      "option_c": "Pharmacogenomics: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Travel medicine: Using genetic data to guide drug therapy",
+      "correct_answer": "A",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 59) Which statement is TRUE?",
+      "option_a": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_b": "Travel medicine: Recognition and initial management of poisoning",
+      "option_c": "Toxicology basics: Recognition and initial management of poisoning",
+      "option_d": "Compounding basics: Weight-based dosing and formulation considerations",
+      "correct_answer": "A",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 60) Vaccinology is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_c": "Requires calculations, technique, and stability considerations.",
+      "option_d": "Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 61) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Management of common skin conditions",
+      "option_b": "Pharmacogenomics: Weight-based dosing and formulation considerations",
+      "option_c": "Pharmacogenomics: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Geriatric pharmacotherapy: Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "A",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 62) A common pitfall related to Travel medicine is:",
+      "option_a": "Travel medicine issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Pediatric dosing issues often arise when all policies are followed.",
+      "option_c": "Pediatric dosing issues often arise when monitoring is rigorous.",
+      "option_d": "Vaccinology issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 63) Which statement is TRUE?",
+      "option_a": "Vaccinology: Optimizing medications in older adults",
+      "option_b": "Dermatology therapeutics: Management of common skin conditions",
+      "option_c": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_d": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "correct_answer": "C",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 64) A common pitfall related to Vaccinology is:",
+      "option_a": "Nutrition and supplements issues often arise when training is excellent.",
+      "option_b": "Compounding basics issues often arise when documentation is complete.",
+      "option_c": "Vaccinology issues often arise when documentation is complete.",
+      "option_d": "Vaccinology issues often arise when documentation is incomplete.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 65) Which statement is TRUE?",
+      "option_a": "Travel medicine: Weight-based dosing and formulation considerations",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Compounding basics: Pharmacist roles in population health",
+      "option_d": "Toxicology basics: Management of common skin conditions",
+      "correct_answer": "B",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 66) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_b": "Travel medicine: Evaluating supplements for efficacy/safety",
+      "option_c": "Geriatric pharmacotherapy: Pharmacist roles in population health",
+      "option_d": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "correct_answer": "D",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 67) Which option is MOST appropriate regarding Pharmacogenomics?",
+      "option_a": "Using genetic data to guide drug therapy",
+      "option_b": "Public health pharmacy",
+      "option_c": "Pharmacogenomics",
+      "option_d": "May influence dosing/selection (e.g., CYP variants).",
+      "correct_answer": "D",
+      "explanation": "May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 68) A common pitfall related to Travel medicine is:",
+      "option_a": "Travel medicine issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Toxicology basics issues often arise when monitoring is rigorous.",
+      "option_c": "Compounding basics issues often arise when monitoring is rigorous.",
+      "option_d": "Travel medicine issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 69) A common pitfall related to Pediatric dosing is:",
+      "option_a": "Travel medicine issues often arise when training is excellent.",
+      "option_b": "Pediatric dosing issues often arise when monitoring is not performed appropriately.",
+      "option_c": "Geriatric pharmacotherapy issues often arise when training is excellent.",
+      "option_d": "Public health pharmacy issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 70) Which statement is TRUE?",
+      "option_a": "Travel medicine: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_c": "Compounding basics: Evaluating supplements for efficacy/safety",
+      "option_d": "Public health pharmacy: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 71) Which statement is TRUE?",
+      "option_a": "Travel medicine: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Nutrition and supplements: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Pediatric dosing: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "correct_answer": "D",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 72) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Recognition and initial management of poisoning",
+      "option_b": "Compounding basics: Pharmacist roles in population health",
+      "option_c": "Toxicology basics: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Compounding basics: Evaluating supplements for efficacy/safety",
+      "correct_answer": "A",
+      "explanation": "Toxicology basics: Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 73) Pharmacogenomics is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Management of common skin conditions",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 74) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Pharmacogenomics: Pharmacist roles in population health",
+      "option_d": "Public health pharmacy: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 75) Which option is MOST appropriate regarding Geriatric pharmacotherapy?",
+      "option_a": "Consider Beers criteria, falls risk, renal function.",
+      "option_b": "Pharmacogenomics",
+      "option_c": "Optimizing medications in older adults",
+      "option_d": "Supportive care and antidotes when indicated.",
+      "correct_answer": "A",
+      "explanation": "Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 76) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Recognition and initial management of poisoning",
+      "option_b": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Public health pharmacy: Vaccine schedules, storage, and adverse event management",
+      "option_d": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 77) Which statement is TRUE?",
+      "option_a": "Compounding basics: Optimizing medications in older adults",
+      "option_b": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_c": "Geriatric pharmacotherapy: Evaluating supplements for efficacy/safety",
+      "option_d": "Toxicology basics: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 78) Pharmacogenomics is BEST defined as:",
+      "option_a": "Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "Using genetic data to guide drug therapy",
+      "correct_answer": "D",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 79) A common pitfall related to Nutrition and supplements is:",
+      "option_a": "Pharmacogenomics issues often arise when training is excellent.",
+      "option_b": "Compounding basics issues often arise when documentation is complete.",
+      "option_c": "Nutrition and supplements issues often arise when processes are not standardized.",
+      "option_d": "Compounding basics issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 80) Compounding basics is BEST defined as:",
+      "option_a": "Geriatric pharmacotherapy",
+      "option_b": "Compounding basics",
+      "option_c": "Public health pharmacy",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "D",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 81) Which statement is TRUE?",
+      "option_a": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Pediatric dosing: Using genetic data to guide drug therapy",
+      "option_c": "Nutrition and supplements: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Toxicology basics: Vaccines and prophylaxis for travelers",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 82) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Geriatric pharmacotherapy: Vaccine schedules, storage, and adverse event management",
+      "option_d": "Compounding basics: Pharmacist roles in population health",
+      "correct_answer": "B",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 83) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_b": "Public health pharmacy: Management of common skin conditions",
+      "option_c": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "option_d": "Toxicology basics: Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "A",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 84) Dermatology therapeutics is BEST defined as:",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Management of common skin conditions",
+      "option_c": "Compounding basics",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "B",
+      "explanation": "Dermatology therapeutics: Management of common skin conditions"
+    },
+    {
+      "question": "(Electives Item 85) A common pitfall related to Vaccinology is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when training is excellent.",
+      "option_b": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "option_c": "Geriatric pharmacotherapy issues often arise when training is excellent.",
+      "option_d": "Vaccinology issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 86) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_d": "Pediatric dosing: Pharmacist roles in population health",
+      "correct_answer": "C",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 87) A common pitfall related to Pharmacogenomics is:",
+      "option_a": "Compounding basics issues often arise when documentation is complete.",
+      "option_b": "Vaccinology issues often arise when training is excellent.",
+      "option_c": "Dermatology therapeutics issues often arise when documentation is complete.",
+      "option_d": "Pharmacogenomics issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 88) Public health pharmacy is BEST defined as:",
+      "option_a": "Pediatric dosing",
+      "option_b": "Vaccinology",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "Pharmacist roles in population health",
+      "correct_answer": "D",
+      "explanation": "Public health pharmacy: Pharmacist roles in population health"
+    },
+    {
+      "question": "(Electives Item 89) Toxicology basics is BEST defined as:",
+      "option_a": "Recognition and initial management of poisoning",
+      "option_b": "Nutrition and supplements",
+      "option_c": "May influence dosing/selection (e.g., CYP variants).",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "A",
+      "explanation": "Toxicology basics: Recognition and initial management of poisoning"
+    },
+    {
+      "question": "(Electives Item 90) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Topicals, adherence, and safety considerations.",
+      "option_b": "Using genetic data to guide drug therapy",
+      "option_c": "Consider Beers criteria, falls risk, renal function.",
+      "option_d": "Supportive care and antidotes when indicated.",
+      "correct_answer": "A",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 91) Which option is MOST appropriate regarding Compounding basics?",
+      "option_a": "Public health pharmacy",
+      "option_b": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_c": "Requires calculations, technique, and stability considerations.",
+      "option_d": "Vaccinology",
+      "correct_answer": "C",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 92) Public health pharmacy is BEST defined as:",
+      "option_a": "Consider Beers criteria, falls risk, renal function.",
+      "option_b": "Optimizing medications in older adults",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "C",
+      "explanation": "Public health pharmacy: Pharmacist roles in population health"
+    },
+    {
+      "question": "(Electives Item 93) Travel medicine is BEST defined as:",
+      "option_a": "Vaccines and prophylaxis for travelers",
+      "option_b": "Nutrition and supplements",
+      "option_c": "Dermatology therapeutics",
+      "option_d": "Compounding basics",
+      "correct_answer": "A",
+      "explanation": "Travel medicine: Vaccines and prophylaxis for travelers"
+    },
+    {
+      "question": "(Electives Item 94) Vaccinology is BEST defined as:",
+      "option_a": "Pediatric dosing",
+      "option_b": "Watch for interactions and contamination.",
+      "option_c": "Vaccine schedules, storage, and adverse event management",
+      "option_d": "Vaccinology",
+      "correct_answer": "C",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 95) Which option is MOST appropriate regarding Toxicology basics?",
+      "option_a": "Supportive care and antidotes when indicated.",
+      "option_b": "Vaccines and prophylaxis for travelers",
+      "option_c": "Geriatric pharmacotherapy",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "A",
+      "explanation": "Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 96) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Pharmacogenomics: Pharmacist roles in population health",
+      "option_c": "Travel medicine: Using genetic data to guide drug therapy",
+      "option_d": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "correct_answer": "D",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 97) A common pitfall related to Toxicology basics is:",
+      "option_a": "Toxicology basics issues often arise when processes are not standardized.",
+      "option_b": "Vaccinology issues often arise when monitoring is rigorous.",
+      "option_c": "Vaccinology issues often arise when documentation is complete.",
+      "option_d": "Toxicology basics issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 98) A common pitfall related to Vaccinology is:",
+      "option_a": "Travel medicine issues often arise when all policies are followed.",
+      "option_b": "Toxicology basics issues often arise when documentation is complete.",
+      "option_c": "Compounding basics issues often arise when documentation is complete.",
+      "option_d": "Vaccinology issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 99) A common pitfall related to Pharmacogenomics is:",
+      "option_a": "Pharmacogenomics issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Pharmacogenomics issues often arise when monitoring is rigorous.",
+      "option_c": "Pediatric dosing issues often arise when all policies are followed.",
+      "option_d": "Nutrition and supplements issues often arise when training is excellent.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 100) A common pitfall related to Toxicology basics is:",
+      "option_a": "Pediatric dosing issues often arise when documentation is complete.",
+      "option_b": "Toxicology basics issues often arise when training is excellent.",
+      "option_c": "Vaccinology issues often arise when all policies are followed.",
+      "option_d": "Toxicology basics issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 101) Which option is MOST appropriate regarding Travel medicine?",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Vaccinology",
+      "option_c": "Topicals, adherence, and safety considerations.",
+      "option_d": "Assess itinerary and contraindications; counsel on prevention.",
+      "correct_answer": "D",
+      "explanation": "Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 102) Compounding basics is BEST defined as:",
+      "option_a": "Weight-based dosing and formulation considerations",
+      "option_b": "Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Evaluating supplements for efficacy/safety",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 103) Which statement is TRUE?",
+      "option_a": "Travel medicine: Vaccines and prophylaxis for travelers",
+      "option_b": "Dermatology therapeutics: Management of common skin conditions",
+      "option_c": "Pharmacogenomics: Optimizing medications in older adults",
+      "option_d": "Toxicology basics: Pharmacist roles in population health",
+      "correct_answer": "A",
+      "explanation": "Travel medicine: Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 104) Which option is MOST appropriate regarding Vaccinology?",
+      "option_a": "Vaccines and prophylaxis for travelers",
+      "option_b": "Screening, vaccination, education, and outreach.",
+      "option_c": "Weight-based dosing and formulation considerations",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "D",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 105) A common pitfall related to Toxicology basics is:",
+      "option_a": "Toxicology basics issues often arise when communication is unclear.",
+      "option_b": "Compounding basics issues often arise when training is excellent.",
+      "option_c": "Toxicology basics issues often arise when training is excellent.",
+      "option_d": "Public health pharmacy issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 106) A common pitfall related to Compounding basics is:",
+      "option_a": "Nutrition and supplements issues often arise when documentation is complete.",
+      "option_b": "Public health pharmacy issues often arise when all policies are followed.",
+      "option_c": "Compounding basics issues often arise when documentation is incomplete.",
+      "option_d": "Nutrition and supplements issues often arise when documentation is complete.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 107) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Management of common skin conditions",
+      "option_b": "Geriatric pharmacotherapy",
+      "option_c": "Nutrition and supplements",
+      "option_d": "Topicals, adherence, and safety considerations.",
+      "correct_answer": "D",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 108) Which statement is TRUE?",
+      "option_a": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Public health pharmacy: Using genetic data to guide drug therapy",
+      "option_c": "Geriatric pharmacotherapy: Management of common skin conditions",
+      "option_d": "Pediatric dosing: Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 109) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Weight-based dosing and formulation considerations",
+      "option_b": "Pediatric dosing: Optimizing medications in older adults",
+      "option_c": "Dermatology therapeutics: Management of common skin conditions",
+      "option_d": "Travel medicine: Evaluating supplements for efficacy/safety",
+      "correct_answer": "C",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 110) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Vaccines and prophylaxis for travelers",
+      "option_b": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_c": "Nutrition and supplements: Weight-based dosing and formulation considerations",
+      "option_d": "Public health pharmacy: Pharmacist roles in population health",
+      "correct_answer": "B",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 111) A common pitfall related to Vaccinology is:",
+      "option_a": "Nutrition and supplements issues often arise when training is excellent.",
+      "option_b": "Vaccinology issues often arise when communication is unclear.",
+      "option_c": "Compounding basics issues often arise when training is excellent.",
+      "option_d": "Dermatology therapeutics issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 112) A common pitfall related to Pediatric dosing is:",
+      "option_a": "Pediatric dosing issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Pediatric dosing issues often arise when all policies are followed.",
+      "option_c": "Compounding basics issues often arise when documentation is complete.",
+      "option_d": "Public health pharmacy issues often arise when monitoring is rigorous.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 113) A common pitfall related to Travel medicine is:",
+      "option_a": "Nutrition and supplements issues often arise when monitoring is rigorous.",
+      "option_b": "Compounding basics issues often arise when monitoring is rigorous.",
+      "option_c": "Travel medicine issues often arise when processes are not standardized.",
+      "option_d": "Pediatric dosing issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 114) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Screening, vaccination, education, and outreach.",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Recognition and initial management of poisoning",
+      "correct_answer": "B",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 115) A common pitfall related to Travel medicine is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when training is excellent.",
+      "option_b": "Toxicology basics issues often arise when training is excellent.",
+      "option_c": "Travel medicine issues often arise when monitoring is not performed appropriately.",
+      "option_d": "Geriatric pharmacotherapy issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 116) Public health pharmacy is BEST defined as:",
+      "option_a": "Topicals, adherence, and safety considerations.",
+      "option_b": "Pharmacogenomics",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "C",
+      "explanation": "Public health pharmacy: Pharmacist roles in population health"
+    },
+    {
+      "question": "(Electives Item 117) Vaccinology is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Public health pharmacy",
+      "option_c": "Dermatology therapeutics",
+      "option_d": "Evaluating supplements for efficacy/safety",
+      "correct_answer": "A",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 118) A common pitfall related to Compounding basics is:",
+      "option_a": "Compounding basics issues often arise when communication is unclear.",
+      "option_b": "Vaccinology issues often arise when monitoring is rigorous.",
+      "option_c": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "option_d": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 119) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Using genetic data to guide drug therapy",
+      "option_b": "Dermatology therapeutics: Management of common skin conditions",
+      "option_c": "Pharmacogenomics: Optimizing medications in older adults",
+      "option_d": "Travel medicine: Management of common skin conditions",
+      "correct_answer": "B",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 120) Pediatric dosing is BEST defined as:",
+      "option_a": "Public health pharmacy",
+      "option_b": "Weight-based dosing and formulation considerations",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "B",
+      "explanation": "Pediatric dosing: Weight-based dosing and formulation considerations"
+    },
+    {
+      "question": "(Electives Item 121) Pharmacogenomics is BEST defined as:",
+      "option_a": "Pharmacist roles in population health",
+      "option_b": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Travel medicine",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 122) A common pitfall related to Travel medicine is:",
+      "option_a": "Vaccinology issues often arise when monitoring is rigorous.",
+      "option_b": "Travel medicine issues often arise when processes are not standardized.",
+      "option_c": "Toxicology basics issues often arise when all policies are followed.",
+      "option_d": "Nutrition and supplements issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 123) Toxicology basics is BEST defined as:",
+      "option_a": "Optimizing medications in older adults",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Dermatology therapeutics",
+      "option_d": "Consider Beers criteria, falls risk, renal function.",
+      "correct_answer": "B",
+      "explanation": "Toxicology basics: Recognition and initial management of poisoning"
+    },
+    {
+      "question": "(Electives Item 124) Dermatology therapeutics is BEST defined as:",
+      "option_a": "Management of common skin conditions",
+      "option_b": "Pharmacogenomics",
+      "option_c": "Vaccinology",
+      "option_d": "Supportive care and antidotes when indicated.",
+      "correct_answer": "A",
+      "explanation": "Dermatology therapeutics: Management of common skin conditions"
+    },
+    {
+      "question": "(Electives Item 125) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Management of common skin conditions",
+      "option_b": "Vaccinology: Vaccines and prophylaxis for travelers",
+      "option_c": "Travel medicine: Recognition and initial management of poisoning",
+      "option_d": "Dermatology therapeutics: Management of common skin conditions",
+      "correct_answer": "D",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 126) Which option is MOST appropriate regarding Pediatric dosing?",
+      "option_a": "Geriatric pharmacotherapy",
+      "option_b": "Consider Beers criteria, falls risk, renal function.",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "May influence dosing/selection (e.g., CYP variants).",
+      "correct_answer": "C",
+      "explanation": "Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 127) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Public health pharmacy: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Pediatric dosing: Management of common skin conditions",
+      "option_d": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "D",
+      "explanation": "Vaccinology: Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 128) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_b": "Compounding basics: Evaluating supplements for efficacy/safety",
+      "option_c": "Nutrition and supplements: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Geriatric pharmacotherapy: Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 129) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Recognition and initial management of poisoning",
+      "option_b": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_c": "Dermatology therapeutics: Optimizing medications in older adults",
+      "option_d": "Dermatology therapeutics: Optimizing medications in older adults",
+      "correct_answer": "B",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 130) A common pitfall related to Travel medicine is:",
+      "option_a": "Travel medicine issues often arise when all policies are followed.",
+      "option_b": "Pediatric dosing issues often arise when training is excellent.",
+      "option_c": "Travel medicine issues often arise when documentation is incomplete.",
+      "option_d": "Pediatric dosing issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 131) Which statement is TRUE?",
+      "option_a": "Travel medicine: Optimizing medications in older adults",
+      "option_b": "Travel medicine: Management of common skin conditions",
+      "option_c": "Dermatology therapeutics: Management of common skin conditions",
+      "option_d": "Vaccinology: Recognition and initial management of poisoning",
+      "correct_answer": "C",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 132) Which statement is TRUE?",
+      "option_a": "Public health pharmacy: Pharmacist roles in population health",
+      "option_b": "Toxicology basics: Management of common skin conditions",
+      "option_c": "Nutrition and supplements: Optimizing medications in older adults",
+      "option_d": "Public health pharmacy: Vaccines and prophylaxis for travelers",
+      "correct_answer": "A",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 133) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Recognition and initial management of poisoning",
+      "option_b": "Nutrition and supplements: Weight-based dosing and formulation considerations",
+      "option_c": "Compounding basics: Pharmacist roles in population health",
+      "option_d": "Pharmacogenomics: Pharmacist roles in population health",
+      "correct_answer": "A",
+      "explanation": "Toxicology basics: Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 134) A common pitfall related to Vaccinology is:",
+      "option_a": "Public health pharmacy issues often arise when all policies are followed.",
+      "option_b": "Compounding basics issues often arise when training is excellent.",
+      "option_c": "Vaccinology issues often arise when processes are not standardized.",
+      "option_d": "Pharmacogenomics issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 135) Which statement is TRUE?",
+      "option_a": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_b": "Dermatology therapeutics: Using genetic data to guide drug therapy",
+      "option_c": "Dermatology therapeutics: Optimizing medications in older adults",
+      "option_d": "Public health pharmacy: Management of common skin conditions",
+      "correct_answer": "A",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 136) Compounding basics is BEST defined as:",
+      "option_a": "Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_c": "Nutrition and supplements",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 137) Which option is MOST appropriate regarding Nutrition and supplements?",
+      "option_a": "Watch for interactions and contamination.",
+      "option_b": "Dermatology therapeutics",
+      "option_c": "Vaccines and prophylaxis for travelers",
+      "option_d": "Supportive care and antidotes when indicated.",
+      "correct_answer": "A",
+      "explanation": "Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 138) Which statement is TRUE?",
+      "option_a": "Compounding basics: Optimizing medications in older adults",
+      "option_b": "Compounding basics: Pharmacist roles in population health",
+      "option_c": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_d": "Nutrition and supplements: Using genetic data to guide drug therapy",
+      "correct_answer": "C",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 139) Vaccinology is BEST defined as:",
+      "option_a": "Nutrition and supplements",
+      "option_b": "Screening, vaccination, education, and outreach.",
+      "option_c": "Consider Beers criteria, falls risk, renal function.",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "D",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 140) Geriatric pharmacotherapy is BEST defined as:",
+      "option_a": "Screening, vaccination, education, and outreach.",
+      "option_b": "Supportive care and antidotes when indicated.",
+      "option_c": "Pediatric dosing",
+      "option_d": "Optimizing medications in older adults",
+      "correct_answer": "D",
+      "explanation": "Geriatric pharmacotherapy: Optimizing medications in older adults"
+    },
+    {
+      "question": "(Electives Item 141) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Public health pharmacy: Pharmacist roles in population health",
+      "option_c": "Travel medicine: Vaccines and prophylaxis for travelers",
+      "option_d": "Compounding basics: Vaccines and prophylaxis for travelers",
+      "correct_answer": "C",
+      "explanation": "Travel medicine: Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 142) Toxicology basics is BEST defined as:",
+      "option_a": "Recognition and initial management of poisoning",
+      "option_b": "Pediatric dosing",
+      "option_c": "Dermatology therapeutics",
+      "option_d": "Watch for interactions and contamination.",
+      "correct_answer": "A",
+      "explanation": "Toxicology basics: Recognition and initial management of poisoning"
+    },
+    {
+      "question": "(Electives Item 143) A common pitfall related to Dermatology therapeutics is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "option_b": "Vaccinology issues often arise when monitoring is rigorous.",
+      "option_c": "Dermatology therapeutics issues often arise when documentation is incomplete.",
+      "option_d": "Public health pharmacy issues often arise when training is excellent.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 144) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Evaluating supplements for efficacy/safety",
+      "option_b": "Geriatric pharmacotherapy: Vaccine schedules, storage, and adverse event management",
+      "option_c": "Pharmacogenomics: Vaccines and prophylaxis for travelers",
+      "option_d": "Vaccinology: Using genetic data to guide drug therapy",
+      "correct_answer": "A",
+      "explanation": "Nutrition and supplements: Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 145) Which statement is TRUE?",
+      "option_a": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Public health pharmacy: Weight-based dosing and formulation considerations",
+      "option_c": "Public health pharmacy: Optimizing medications in older adults",
+      "option_d": "Compounding basics: Evaluating supplements for efficacy/safety",
+      "correct_answer": "A",
+      "explanation": "Vaccinology: Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 146) Which statement is TRUE?",
+      "option_a": "Pharmacogenomics: Weight-based dosing and formulation considerations",
+      "option_b": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_c": "Public health pharmacy: Pharmacist roles in population health",
+      "option_d": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "B",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 147) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Using genetic data to guide drug therapy",
+      "option_b": "Consider Beers criteria, falls risk, renal function.",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Topicals, adherence, and safety considerations.",
+      "correct_answer": "D",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 148) Vaccinology is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_d": "Supportive care and antidotes when indicated.",
+      "correct_answer": "A",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 149) Which option is MOST appropriate regarding Nutrition and supplements?",
+      "option_a": "Vaccinology",
+      "option_b": "Geriatric pharmacotherapy",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Nutrition and supplements",
+      "correct_answer": "C",
+      "explanation": "Watch for interactions and contamination."
+    },
+    {
+      "question": "(Electives Item 150) Pediatric dosing is BEST defined as:",
+      "option_a": "Weight-based dosing and formulation considerations",
+      "option_b": "Watch for interactions and contamination.",
+      "option_c": "Pharmacogenomics",
+      "option_d": "Toxicology basics",
+      "correct_answer": "A",
+      "explanation": "Pediatric dosing: Weight-based dosing and formulation considerations"
+    },
+    {
+      "question": "(Electives Item 151) A common pitfall related to Pharmacogenomics is:",
+      "option_a": "Public health pharmacy issues often arise when all policies are followed.",
+      "option_b": "Pharmacogenomics issues often arise when communication is unclear.",
+      "option_c": "Pediatric dosing issues often arise when documentation is complete.",
+      "option_d": "Pharmacogenomics issues often arise when all policies are followed.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 152) A common pitfall related to Geriatric pharmacotherapy is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when processes are not standardized.",
+      "option_b": "Dermatology therapeutics issues often arise when training is excellent.",
+      "option_c": "Toxicology basics issues often arise when training is excellent.",
+      "option_d": "Travel medicine issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 153) Which option is MOST appropriate regarding Geriatric pharmacotherapy?",
+      "option_a": "Screening, vaccination, education, and outreach.",
+      "option_b": "Cold chain and contraindications are key.",
+      "option_c": "Consider Beers criteria, falls risk, renal function.",
+      "option_d": "Weight-based dosing and formulation considerations",
+      "correct_answer": "C",
+      "explanation": "Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 154) Which option is MOST appropriate regarding Travel medicine?",
+      "option_a": "Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Using genetic data to guide drug therapy",
+      "option_c": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_d": "Pharmacogenomics",
+      "correct_answer": "C",
+      "explanation": "Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 155) Which statement is TRUE?",
+      "option_a": "Vaccinology: Management of common skin conditions",
+      "option_b": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Vaccinology: Pharmacist roles in population health",
+      "option_d": "Toxicology basics: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 156) Which statement is TRUE?",
+      "option_a": "Travel medicine: Evaluating supplements for efficacy/safety",
+      "option_b": "Toxicology basics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Pediatric dosing: Recognition and initial management of poisoning",
+      "option_d": "Travel medicine: Vaccines and prophylaxis for travelers",
+      "correct_answer": "D",
+      "explanation": "Travel medicine: Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 157) Which option is MOST appropriate regarding Vaccinology?",
+      "option_a": "May influence dosing/selection (e.g., CYP variants).",
+      "option_b": "Consider Beers criteria, falls risk, renal function.",
+      "option_c": "Cold chain and contraindications are key.",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "C",
+      "explanation": "Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 158) Which statement is TRUE?",
+      "option_a": "Toxicology basics: Evaluating supplements for efficacy/safety",
+      "option_b": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_c": "Pharmacogenomics: Weight-based dosing and formulation considerations",
+      "option_d": "Dermatology therapeutics: Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "B",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 159) A common pitfall related to Pediatric dosing is:",
+      "option_a": "Nutrition and supplements issues often arise when training is excellent.",
+      "option_b": "Dermatology therapeutics issues often arise when monitoring is rigorous.",
+      "option_c": "Vaccinology issues often arise when all policies are followed.",
+      "option_d": "Pediatric dosing issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 160) A common pitfall related to Compounding basics is:",
+      "option_a": "Compounding basics issues often arise when documentation is incomplete.",
+      "option_b": "Pharmacogenomics issues often arise when monitoring is rigorous.",
+      "option_c": "Geriatric pharmacotherapy issues often arise when all policies are followed.",
+      "option_d": "Vaccinology issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 161) Which option is MOST appropriate regarding Compounding basics?",
+      "option_a": "Cold chain and contraindications are key.",
+      "option_b": "Using genetic data to guide drug therapy",
+      "option_c": "Recognition and initial management of poisoning",
+      "option_d": "Requires calculations, technique, and stability considerations.",
+      "correct_answer": "D",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 162) Nutrition and supplements is BEST defined as:",
+      "option_a": "Evaluating supplements for efficacy/safety",
+      "option_b": "Pediatric dosing",
+      "option_c": "Vaccine schedules, storage, and adverse event management",
+      "option_d": "Dermatology therapeutics",
+      "correct_answer": "A",
+      "explanation": "Nutrition and supplements: Evaluating supplements for efficacy/safety"
+    },
+    {
+      "question": "(Electives Item 163) Which statement is TRUE?",
+      "option_a": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "option_b": "Vaccinology: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Toxicology basics: Using genetic data to guide drug therapy",
+      "option_d": "Vaccinology: Weight-based dosing and formulation considerations",
+      "correct_answer": "A",
+      "explanation": "Vaccinology: Cold chain and contraindications are key."
+    },
+    {
+      "question": "(Electives Item 164) Which statement is TRUE?",
+      "option_a": "Compounding basics: Management of common skin conditions",
+      "option_b": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Dermatology therapeutics: Recognition and initial management of poisoning",
+      "option_d": "Geriatric pharmacotherapy: Vaccines and prophylaxis for travelers",
+      "correct_answer": "B",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 165) Which option is MOST appropriate regarding Travel medicine?",
+      "option_a": "Compounding basics",
+      "option_b": "May influence dosing/selection (e.g., CYP variants).",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "Assess itinerary and contraindications; counsel on prevention.",
+      "correct_answer": "D",
+      "explanation": "Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 166) A common pitfall related to Travel medicine is:",
+      "option_a": "Dermatology therapeutics issues often arise when documentation is complete.",
+      "option_b": "Vaccinology issues often arise when training is excellent.",
+      "option_c": "Toxicology basics issues often arise when all policies are followed.",
+      "option_d": "Travel medicine issues often arise when communication is unclear.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 167) Vaccinology is BEST defined as:",
+      "option_a": "Watch for interactions and contamination.",
+      "option_b": "Requires calculations, technique, and stability considerations.",
+      "option_c": "Nutrition and supplements",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "D",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 168) A common pitfall related to Travel medicine is:",
+      "option_a": "Geriatric pharmacotherapy issues often arise when training is excellent.",
+      "option_b": "Pediatric dosing issues often arise when documentation is complete.",
+      "option_c": "Travel medicine issues often arise when documentation is incomplete.",
+      "option_d": "Travel medicine issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 169) A common pitfall related to Public health pharmacy is:",
+      "option_a": "Public health pharmacy issues often arise when monitoring is not performed appropriately.",
+      "option_b": "Nutrition and supplements issues often arise when all policies are followed.",
+      "option_c": "Travel medicine issues often arise when documentation is complete.",
+      "option_d": "Geriatric pharmacotherapy issues often arise when documentation is complete.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 170) Which statement is TRUE?",
+      "option_a": "Nutrition and supplements: Weight-based dosing and formulation considerations",
+      "option_b": "Toxicology basics: Pharmacist roles in population health",
+      "option_c": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_d": "Pediatric dosing: Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "C",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 171) Which option is MOST appropriate regarding Dermatology therapeutics?",
+      "option_a": "Vaccinology",
+      "option_b": "Topicals, adherence, and safety considerations.",
+      "option_c": "Watch for interactions and contamination.",
+      "option_d": "May influence dosing/selection (e.g., CYP variants).",
+      "correct_answer": "B",
+      "explanation": "Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 172) Which statement is TRUE?",
+      "option_a": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Compounding basics: Using genetic data to guide drug therapy",
+      "option_c": "Dermatology therapeutics: Vaccine schedules, storage, and adverse event management",
+      "option_d": "Public health pharmacy: Optimizing medications in older adults",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 173) Which option is MOST appropriate regarding Toxicology basics?",
+      "option_a": "Supportive care and antidotes when indicated.",
+      "option_b": "Cold chain and contraindications are key.",
+      "option_c": "Pediatric dosing",
+      "option_d": "Vaccines and prophylaxis for travelers",
+      "correct_answer": "A",
+      "explanation": "Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 174) Public health pharmacy is BEST defined as:",
+      "option_a": "Public health pharmacy",
+      "option_b": "Toxicology basics",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Using genetic data to guide drug therapy",
+      "correct_answer": "C",
+      "explanation": "Public health pharmacy: Pharmacist roles in population health"
+    },
+    {
+      "question": "(Electives Item 175) A common pitfall related to Pediatric dosing is:",
+      "option_a": "Nutrition and supplements issues often arise when training is excellent.",
+      "option_b": "Public health pharmacy issues often arise when training is excellent.",
+      "option_c": "Dermatology therapeutics issues often arise when documentation is complete.",
+      "option_d": "Pediatric dosing issues often arise when monitoring is not performed appropriately.",
+      "correct_answer": "D",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 176) Which option is MOST appropriate regarding Compounding basics?",
+      "option_a": "Optimizing medications in older adults",
+      "option_b": "Requires calculations, technique, and stability considerations.",
+      "option_c": "Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "B",
+      "explanation": "Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 177) Which option is MOST appropriate regarding Pediatric dosing?",
+      "option_a": "Requires calculations, technique, and stability considerations.",
+      "option_b": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_c": "Pharmacogenomics",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "B",
+      "explanation": "Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 178) Which option is MOST appropriate regarding Travel medicine?",
+      "option_a": "Optimizing medications in older adults",
+      "option_b": "Assess itinerary and contraindications; counsel on prevention.",
+      "option_c": "Pharmacist roles in population health",
+      "option_d": "Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "B",
+      "explanation": "Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 179) Which statement is TRUE?",
+      "option_a": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_b": "Dermatology therapeutics: Management of common skin conditions",
+      "option_c": "Geriatric pharmacotherapy: Vaccines and prophylaxis for travelers",
+      "option_d": "Geriatric pharmacotherapy: Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "A",
+      "explanation": "Pediatric dosing: Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 180) Pediatric dosing is BEST defined as:",
+      "option_a": "Pediatric dosing",
+      "option_b": "Pharmacist roles in population health",
+      "option_c": "Weight-based dosing and formulation considerations",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "C",
+      "explanation": "Pediatric dosing: Weight-based dosing and formulation considerations"
+    },
+    {
+      "question": "(Electives Item 181) Vaccinology is BEST defined as:",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Watch for interactions and contamination.",
+      "option_c": "Vaccine schedules, storage, and adverse event management",
+      "option_d": "Travel medicine",
+      "correct_answer": "C",
+      "explanation": "Vaccinology: Vaccine schedules, storage, and adverse event management"
+    },
+    {
+      "question": "(Electives Item 182) Pharmacogenomics is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Recognition and initial management of poisoning",
+      "option_c": "Using genetic data to guide drug therapy",
+      "option_d": "Weight-based dosing and formulation considerations",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: Using genetic data to guide drug therapy"
+    },
+    {
+      "question": "(Electives Item 183) A common pitfall related to Travel medicine is:",
+      "option_a": "Travel medicine issues often arise when processes are not standardized.",
+      "option_b": "Nutrition and supplements issues often arise when all policies are followed.",
+      "option_c": "Dermatology therapeutics issues often arise when all policies are followed.",
+      "option_d": "Travel medicine issues often arise when all policies are followed.",
+      "correct_answer": "A",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 184) A common pitfall related to Geriatric pharmacotherapy is:",
+      "option_a": "Nutrition and supplements issues often arise when documentation is complete.",
+      "option_b": "Vaccinology issues often arise when documentation is complete.",
+      "option_c": "Geriatric pharmacotherapy issues often arise when processes are not standardized.",
+      "option_d": "Geriatric pharmacotherapy issues often arise when monitoring is rigorous.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 185) A common pitfall related to Vaccinology is:",
+      "option_a": "Vaccinology issues often arise when documentation is complete.",
+      "option_b": "Travel medicine issues often arise when training is excellent.",
+      "option_c": "Vaccinology issues often arise when documentation is incomplete.",
+      "option_d": "Pediatric dosing issues often arise when all policies are followed.",
+      "correct_answer": "C",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 186) Which statement is TRUE?",
+      "option_a": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Dermatology therapeutics: Vaccines and prophylaxis for travelers",
+      "option_c": "Dermatology therapeutics: Vaccine schedules, storage, and adverse event management",
+      "option_d": "Travel medicine: Using genetic data to guide drug therapy",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    },
+    {
+      "question": "(Electives Item 187) Which statement is TRUE?",
+      "option_a": "Vaccinology: Vaccines and prophylaxis for travelers",
+      "option_b": "Travel medicine: Pharmacist roles in population health",
+      "option_c": "Pharmacogenomics: Using genetic data to guide drug therapy",
+      "option_d": "Vaccinology: Vaccine schedules, storage, and adverse event management",
+      "correct_answer": "C",
+      "explanation": "Pharmacogenomics: May influence dosing/selection (e.g., CYP variants)."
+    },
+    {
+      "question": "(Electives Item 188) Compounding basics is BEST defined as:",
+      "option_a": "Consider Beers criteria, falls risk, renal function.",
+      "option_b": "Pediatric dosing",
+      "option_c": "Toxicology basics",
+      "option_d": "Preparing customized formulations when commercial products unsuitable",
+      "correct_answer": "D",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 189) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Pharmacist roles in population health",
+      "option_b": "Toxicology basics: Recognition and initial management of poisoning",
+      "option_c": "Toxicology basics: Recognition and initial management of poisoning",
+      "option_d": "Compounding basics: Weight-based dosing and formulation considerations",
+      "correct_answer": "B",
+      "explanation": "Toxicology basics: Supportive care and antidotes when indicated."
+    },
+    {
+      "question": "(Electives Item 190) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Weight-based dosing and formulation considerations",
+      "option_b": "Compounding basics: Optimizing medications in older adults",
+      "option_c": "Dermatology therapeutics: Pharmacist roles in population health",
+      "option_d": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "correct_answer": "D",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 191) A common pitfall related to Travel medicine is:",
+      "option_a": "Nutrition and supplements issues often arise when monitoring is rigorous.",
+      "option_b": "Travel medicine issues often arise when communication is unclear.",
+      "option_c": "Pharmacogenomics issues often arise when training is excellent.",
+      "option_d": "Pediatric dosing issues often arise when training is excellent.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 192) Which statement is TRUE?",
+      "option_a": "Dermatology therapeutics: Recognition and initial management of poisoning",
+      "option_b": "Pediatric dosing: Weight-based dosing and formulation considerations",
+      "option_c": "Travel medicine: Vaccines and prophylaxis for travelers",
+      "option_d": "Pediatric dosing: Optimizing medications in older adults",
+      "correct_answer": "C",
+      "explanation": "Travel medicine: Assess itinerary and contraindications; counsel on prevention."
+    },
+    {
+      "question": "(Electives Item 193) A common pitfall related to Nutrition and supplements is:",
+      "option_a": "Pediatric dosing issues often arise when documentation is complete.",
+      "option_b": "Nutrition and supplements issues often arise when communication is unclear.",
+      "option_c": "Dermatology therapeutics issues often arise when training is excellent.",
+      "option_d": "Pediatric dosing issues often arise when documentation is complete.",
+      "correct_answer": "B",
+      "explanation": "Identify practical pitfalls and apply best practices."
+    },
+    {
+      "question": "(Electives Item 194) Compounding basics is BEST defined as:",
+      "option_a": "Vaccine schedules, storage, and adverse event management",
+      "option_b": "Pharmacogenomics",
+      "option_c": "Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Cold chain and contraindications are key.",
+      "correct_answer": "C",
+      "explanation": "Compounding basics: Preparing customized formulations when commercial products unsuitable"
+    },
+    {
+      "question": "(Electives Item 195) Which option is MOST appropriate regarding Pediatric dosing?",
+      "option_a": "Avoid dosing errors; use appropriate measuring devices.",
+      "option_b": "Watch for interactions and contamination.",
+      "option_c": "Nutrition and supplements",
+      "option_d": "Public health pharmacy",
+      "correct_answer": "A",
+      "explanation": "Avoid dosing errors; use appropriate measuring devices."
+    },
+    {
+      "question": "(Electives Item 196) Which statement is TRUE?",
+      "option_a": "Public health pharmacy: Pharmacist roles in population health",
+      "option_b": "Pharmacogenomics: Pharmacist roles in population health",
+      "option_c": "Toxicology basics: Preparing customized formulations when commercial products unsuitable",
+      "option_d": "Dermatology therapeutics: Optimizing medications in older adults",
+      "correct_answer": "A",
+      "explanation": "Public health pharmacy: Screening, vaccination, education, and outreach."
+    },
+    {
+      "question": "(Electives Item 197) Pediatric dosing is BEST defined as:",
+      "option_a": "Watch for interactions and contamination.",
+      "option_b": "Travel medicine",
+      "option_c": "Weight-based dosing and formulation considerations",
+      "option_d": "Dermatology therapeutics",
+      "correct_answer": "C",
+      "explanation": "Pediatric dosing: Weight-based dosing and formulation considerations"
+    },
+    {
+      "question": "(Electives Item 198) Which statement is TRUE?",
+      "option_a": "Geriatric pharmacotherapy: Optimizing medications in older adults",
+      "option_b": "Pharmacogenomics: Preparing customized formulations when commercial products unsuitable",
+      "option_c": "Vaccinology: Evaluating supplements for efficacy/safety",
+      "option_d": "Geriatric pharmacotherapy: Recognition and initial management of poisoning",
+      "correct_answer": "A",
+      "explanation": "Geriatric pharmacotherapy: Consider Beers criteria, falls risk, renal function."
+    },
+    {
+      "question": "(Electives Item 199) Which statement is TRUE?",
+      "option_a": "Vaccinology: Weight-based dosing and formulation considerations",
+      "option_b": "Dermatology therapeutics: Management of common skin conditions",
+      "option_c": "Vaccinology: Vaccines and prophylaxis for travelers",
+      "option_d": "Compounding basics: Weight-based dosing and formulation considerations",
+      "correct_answer": "B",
+      "explanation": "Dermatology therapeutics: Topicals, adherence, and safety considerations."
+    },
+    {
+      "question": "(Electives Item 200) Which statement is TRUE?",
+      "option_a": "Compounding basics: Preparing customized formulations when commercial products unsuitable",
+      "option_b": "Compounding basics: Evaluating supplements for efficacy/safety",
+      "option_c": "Pediatric dosing: Management of common skin conditions",
+      "option_d": "Pediatric dosing: Optimizing medications in older adults",
+      "correct_answer": "A",
+      "explanation": "Compounding basics: Requires calculations, technique, and stability considerations."
+    }
+  ]
+}
