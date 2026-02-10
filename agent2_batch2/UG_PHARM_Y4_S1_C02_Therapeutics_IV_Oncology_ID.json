@@ -1,0 +1,1806 @@
+{
+  "course_name": "Therapeutics IV (Oncology/ID)",
+  "course_code": "UG_PHARM_Y4_S1_C02",
+  "questions": [
+    {
+      "question": "In Febrile neutropenia, which therapeutic approach is MOST appropriate?",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "Which counseling/monitoring point is MOST important in managing Febrile neutropenia?",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Febrile neutropenia: Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "In Breast cancer (adjuvant), which therapeutic approach is MOST appropriate?",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Avoid monitoring electrolytes in diuretics therapy",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "Which counseling/monitoring point is MOST important in managing Breast cancer (adjuvant)?",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Breast cancer (adjuvant): Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "In Tuberculosis, which therapeutic approach is MOST appropriate?",
+      "option_a": "Avoid monitoring electrolytes in diuretics therapy",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Start two beta-blockers simultaneously for HFrEF",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "Which counseling/monitoring point is MOST important in managing Tuberculosis?",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Tuberculosis: Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "In HIV, which therapeutic approach is MOST appropriate?",
+      "option_a": "Use LABA monotherapy in asthma",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Start two beta-blockers simultaneously for HFrEF",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "Which counseling/monitoring point is MOST important in managing HIV?",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "HIV: Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "In MRSA serious infection, which therapeutic approach is MOST appropriate?",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Use antibiotics for all viral infections",
+      "option_c": "Stop anticoagulation in all atrial fibrillation patients",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "Which counseling/monitoring point is MOST important in managing MRSA serious infection?",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "A",
+      "explanation": "MRSA serious infection: Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of ACE inhibitors?",
+      "option_a": "improve symptoms and reduce exacerbations in COPD",
+      "option_b": "reduce airway inflammation and exacerbations in asthma",
+      "option_c": "reduce mortality in HFrEF and slow diabetic nephropathy progression",
+      "option_d": "reduce stroke risk in nonvalvular AF with less monitoring than warfarin",
+      "correct_answer": "C",
+      "explanation": "ACE inhibitors: reduce mortality in HFrEF and slow diabetic nephropathy progression."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of Beta-blockers (evidence-based)?",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "reduce LDL and cardiovascular events in ASCVD",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "improve survival in stable HFrEF and control rate in AF",
+      "correct_answer": "D",
+      "explanation": "Beta-blockers (evidence-based): improve survival in stable HFrEF and control rate in AF."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of Inhaled corticosteroids?",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "reduce airway inflammation and exacerbations in asthma",
+      "correct_answer": "D",
+      "explanation": "Inhaled corticosteroids: reduce airway inflammation and exacerbations in asthma."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of LAMA/LABA?",
+      "option_a": "improve symptoms and reduce exacerbations in COPD",
+      "option_b": "heal erosive esophagitis and reduce ulcer recurrence",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "improve survival in stable HFrEF and control rate in AF",
+      "correct_answer": "A",
+      "explanation": "LAMA/LABA: improve symptoms and reduce exacerbations in COPD."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of DOACs?",
+      "option_a": "reduce stroke risk in nonvalvular AF with less monitoring than warfarin",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "A",
+      "explanation": "DOACs: reduce stroke risk in nonvalvular AF with less monitoring than warfarin."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of High-intensity statins?",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "reduce LDL and cardiovascular events in ASCVD",
+      "option_d": "improve survival in stable HFrEF and control rate in AF",
+      "correct_answer": "C",
+      "explanation": "High-intensity statins: reduce LDL and cardiovascular events in ASCVD."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of PPIs?",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "heal erosive esophagitis and reduce ulcer recurrence",
+      "option_c": "reduce stroke risk in nonvalvular AF with less monitoring than warfarin",
+      "option_d": "improve survival in stable HFrEF and control rate in AF",
+      "correct_answer": "B",
+      "explanation": "PPIs: heal erosive esophagitis and reduce ulcer recurrence."
+    },
+    {
+      "question": "Which statement best describes the therapeutic role of GLP-1 receptor agonists?",
+      "option_a": "improve symptoms and reduce exacerbations in COPD",
+      "option_b": "improve glycemic control and reduce weight; some reduce CV events",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "heal erosive esophagitis and reduce ulcer recurrence",
+      "correct_answer": "B",
+      "explanation": "GLP-1 receptor agonists: improve glycemic control and reduce weight; some reduce CV events."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 19) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 20) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 21) A key pharmacist intervention in HIV is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 22) A key pharmacist intervention in HIV is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 23) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 24) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 25) A key pharmacist intervention in HIV is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 26) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 27) A key pharmacist intervention in HIV is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 28) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 29) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 30) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 31) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 32) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 33) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 34) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 35) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 36) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 37) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 38) A key pharmacist intervention in HIV is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 39) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 40) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 41) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 42) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 43) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "B",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 44) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 45) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 46) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 47) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "B",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 48) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 49) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 50) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 51) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 52) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 53) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 54) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 55) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 56) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 57) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "B",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 58) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 59) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 60) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 61) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 62) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 63) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 64) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 65) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 66) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 67) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 68) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 69) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 70) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 71) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 72) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 73) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 74) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 75) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 76) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 77) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 78) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 79) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 80) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 81) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 82) A key pharmacist intervention in HIV is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 83) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 84) A key pharmacist intervention in HIV is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 85) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 86) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 87) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 88) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 89) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 90) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 91) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 92) A key pharmacist intervention in HIV is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 93) A key pharmacist intervention in HIV is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 94) A key pharmacist intervention in HIV is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 95) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 96) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 97) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 98) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 99) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 100) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 101) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 102) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 103) A key pharmacist intervention in HIV is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 104) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 105) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 106) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 107) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 108) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 109) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 110) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 111) A key pharmacist intervention in HIV is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 112) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 113) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 114) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 115) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 116) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 117) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 118) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 119) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 120) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 121) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 122) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 123) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 124) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 125) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 126) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 127) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 128) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 129) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 130) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 131) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 132) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 133) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 134) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 135) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 136) A key pharmacist intervention in HIV is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 137) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 138) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 139) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 140) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 141) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 142) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 143) A key pharmacist intervention in HIV is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 144) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 145) A key pharmacist intervention in HIV is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 146) A key pharmacist intervention in HIV is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 147) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 148) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 149) A key pharmacist intervention in HIV is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 150) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 151) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 152) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 153) A key pharmacist intervention in HIV is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "D",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 154) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 155) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 156) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 157) A key pharmacist intervention in HIV is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 158) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 159) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 160) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 161) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 162) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 163) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 164) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 165) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 166) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "D",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 167) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 168) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 169) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "RIPE therapy initially then continuation phase",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 170) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 171) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "B",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 172) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 173) A key pharmacist intervention in HIV is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 174) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 175) A key pharmacist intervention in HIV is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "A",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 176) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "C",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 177) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 178) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 179) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 180) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 181) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 182) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 183) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_d": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 184) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 185) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "B",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 186) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 187) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "D",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 188) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Empiric broad-spectrum anti-pseudomonal beta-lactam promptly",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "B",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 189) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 190) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 191) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 192) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_b": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "A",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 193) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "RIPE therapy initially then continuation phase",
+      "option_c": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_d": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "correct_answer": "C",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 194) A key pharmacist intervention in HIV is to:",
+      "option_a": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "correct_answer": "C",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 195) A key pharmacist intervention in Tuberculosis is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_d": "Check resistance and interactions; monitor viral load/CD4.",
+      "correct_answer": "C",
+      "explanation": "Ensure adherence; monitor hepatotoxicity and drug interactions."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 196) A key pharmacist intervention in HIV is to:",
+      "option_a": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_b": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "B",
+      "explanation": "Check resistance and interactions; monitor viral load/CD4."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 197) A key pharmacist intervention in Breast cancer (adjuvant) is to:",
+      "option_a": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Check resistance and interactions; monitor viral load/CD4.",
+      "option_d": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "correct_answer": "D",
+      "explanation": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 198) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Therapy depends on receptor status: endocrine therapy for ER+, HER2 therapy for HER2+",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 199) A key pharmacist intervention in MRSA serious infection is to:",
+      "option_a": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid).",
+      "option_b": "Ensure adherence; monitor hepatotoxicity and drug interactions.",
+      "option_c": "Combination ART with 2 NRTIs + integrase inhibitor commonly first-line",
+      "option_d": "RIPE therapy initially then continuation phase",
+      "correct_answer": "A",
+      "explanation": "Dose by renal function; monitor toxicities (e.g., thrombocytopenia with linezolid)."
+    },
+    {
+      "question": "(Therapeutics IV (Oncology/ID) Item 200) A key pharmacist intervention in Febrile neutropenia is to:",
+      "option_a": "RIPE therapy initially then continuation phase",
+      "option_b": "Assess stage and risk; monitor cardiotoxicity with HER2 therapy.",
+      "option_c": "Agents include vancomycin, daptomycin (not pneumonia), linezolid",
+      "option_d": "Time-to-antibiotics is critical; adjust based on cultures.",
+      "correct_answer": "D",
+      "explanation": "Time-to-antibiotics is critical; adjust based on cultures."
+    }
+  ]
+}

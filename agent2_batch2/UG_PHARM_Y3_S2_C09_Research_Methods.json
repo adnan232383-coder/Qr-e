@@ -1,0 +1,1806 @@
+{
+  "course_name": "Research Methods",
+  "course_code": "UG_PHARM_Y3_S2_C09",
+  "questions": [
+    {
+      "question": "Which statement best describes Study design: RCT?",
+      "option_a": "Cohort study",
+      "option_b": "Randomizes participants to interventions to reduce confounding",
+      "option_c": "Confidence interval",
+      "option_d": "Protection of human subjects",
+      "correct_answer": "B",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "In practice, the key goal of Study design: RCT is to:",
+      "option_a": "Ability to detect a true effect",
+      "option_b": "Systematic error affecting validity",
+      "option_c": "Gold standard for causality; may have limited generalizability.",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "C",
+      "explanation": "Study design: RCT: Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "Which statement best describes Cohort study?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Confidence interval",
+      "option_c": "Study design: RCT",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "A",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "In practice, the key goal of Cohort study is to:",
+      "option_a": "Systematic error affecting validity",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "C",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "Which statement best describes Case-control study?",
+      "option_a": "Compares prior exposure in cases vs controls",
+      "option_b": "Bias",
+      "option_c": "Case-control study",
+      "option_d": "Cohort study",
+      "correct_answer": "A",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "In practice, the key goal of Case-control study is to:",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "A",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "Which statement best describes Bias?",
+      "option_a": "Sample size/power",
+      "option_b": "Bias",
+      "option_c": "Systematic error affecting validity",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "C",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "In practice, the key goal of Bias is to:",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Systematic error affecting validity",
+      "option_d": "Efficient for rare diseases; prone to recall bias.",
+      "correct_answer": "A",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "Which statement best describes P-value?",
+      "option_a": "Study design: RCT",
+      "option_b": "Case-control study",
+      "option_c": "Sample size/power",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "D",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "In practice, the key goal of P-value is to:",
+      "option_a": "Randomizes participants to interventions to reduce confounding",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Protection of human subjects",
+      "correct_answer": "B",
+      "explanation": "P-value: Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "Which statement best describes Confidence interval?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Sample size/power",
+      "option_c": "Range of plausible effect estimates",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "In practice, the key goal of Confidence interval is to:",
+      "option_a": "Ability to detect a true effect",
+      "option_b": "Compares prior exposure in cases vs controls",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "D",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "Which statement best describes Sample size/power?",
+      "option_a": "Bias",
+      "option_b": "Cohort study",
+      "option_c": "Probability of observing results as extreme if null is true",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "D",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "In practice, the key goal of Sample size/power is to:",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Compares prior exposure in cases vs controls",
+      "option_c": "Protection of human subjects",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "A",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "Which statement best describes Ethics/IRB?",
+      "option_a": "Protection of human subjects",
+      "option_b": "Study design: RCT",
+      "option_c": "Ethics/IRB",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "A",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "In practice, the key goal of Ethics/IRB is to:",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Informed consent, risk minimization, confidentiality.",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Efficient for rare diseases; prone to recall bias.",
+      "correct_answer": "B",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 17) Which statement is TRUE?",
+      "option_a": "Confidence interval: Range of plausible effect estimates",
+      "option_b": "Confidence interval: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Case-control study: Protection of human subjects",
+      "option_d": "Sample size/power: Systematic error affecting validity",
+      "correct_answer": "A",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 18) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Protection of human subjects",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Depends on alpha, effect size, variability.",
+      "correct_answer": "D",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 19) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Efficient for rare diseases; prone to recall bias.",
+      "correct_answer": "C",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 20) Which statement is TRUE?",
+      "option_a": "Bias: Compares prior exposure in cases vs controls",
+      "option_b": "Sample size/power: Systematic error affecting validity",
+      "option_c": "Sample size/power: Ability to detect a true effect",
+      "option_d": "Study design: RCT: Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 21) Which statement is TRUE?",
+      "option_a": "Cohort study: Ability to detect a true effect",
+      "option_b": "Study design: RCT: Compares prior exposure in cases vs controls",
+      "option_c": "Study design: RCT: Range of plausible effect estimates",
+      "option_d": "P-value: Probability of observing results as extreme if null is true",
+      "correct_answer": "D",
+      "explanation": "P-value: Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 22) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Protection of human subjects",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 23) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Gold standard for causality; may have limited generalizability.",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "B",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 24) Which statement is TRUE?",
+      "option_a": "Bias: Compares prior exposure in cases vs controls",
+      "option_b": "Confidence interval: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Sample size/power: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_d": "Confidence interval: Range of plausible effect estimates",
+      "correct_answer": "D",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 25) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Informed consent, risk minimization, confidentiality.",
+      "option_c": "Compares prior exposure in cases vs controls",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "D",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 26) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Protection of human subjects",
+      "option_b": "Ethics/IRB: Protection of human subjects",
+      "option_c": "Sample size/power: Ability to detect a true effect",
+      "option_d": "Study design: RCT: Compares prior exposure in cases vs controls",
+      "correct_answer": "A",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 27) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Probability of observing results as extreme if null is true",
+      "option_c": "Efficient for rare diseases; prone to recall bias.",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "C",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 28) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Good for incidence and risk; confounding possible.",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Probability of observing results as extreme if null is true",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "B",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 29) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 30) Bias is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Bias",
+      "option_c": "Cohort study",
+      "option_d": "P-value",
+      "correct_answer": "B",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 31) Case-control study is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "P-value",
+      "option_c": "Case-control study",
+      "option_d": "Bias",
+      "correct_answer": "C",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 32) Case-control study is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Case-control study",
+      "option_c": "Confidence interval",
+      "option_d": "Bias",
+      "correct_answer": "B",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 33) Cohort study is BEST categorized as:",
+      "option_a": "Confidence interval",
+      "option_b": "Cohort study",
+      "option_c": "Bias",
+      "option_d": "Sample size/power",
+      "correct_answer": "B",
+      "explanation": "Cohort study refers to: Observational follow-up to compare outcomes between exposed/unexposed"
+    },
+    {
+      "question": "(Research Methods Item 34) Which statement is TRUE?",
+      "option_a": "Case-control study: Protection of human subjects",
+      "option_b": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "P-value: Ability to detect a true effect",
+      "option_d": "Ethics/IRB: Ability to detect a true effect",
+      "correct_answer": "B",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 35) Ethics/IRB is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Case-control study",
+      "option_c": "P-value",
+      "option_d": "Bias",
+      "correct_answer": "A",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 36) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Randomizes participants to interventions to reduce confounding",
+      "option_b": "Compares prior exposure in cases vs controls",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Range of plausible effect estimates",
+      "correct_answer": "C",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 37) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "option_b": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_c": "Case-control study: Protection of human subjects",
+      "option_d": "Bias: Systematic error affecting validity",
+      "correct_answer": "D",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 38) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Informed consent, risk minimization, confidentiality.",
+      "option_c": "Probability of observing results as extreme if null is true",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "D",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 39) P-value is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Sample size/power",
+      "option_c": "Study design: RCT",
+      "option_d": "Cohort study",
+      "correct_answer": "A",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 40) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Range of plausible effect estimates",
+      "option_b": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_c": "Confidence interval: Range of plausible effect estimates",
+      "option_d": "Study design: RCT: Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 41) Sample size/power is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Bias",
+      "option_c": "Confidence interval",
+      "option_d": "Cohort study",
+      "correct_answer": "A",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 42) Sample size/power is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Bias",
+      "option_c": "Confidence interval",
+      "option_d": "Sample size/power",
+      "correct_answer": "D",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 43) Ethics/IRB is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Sample size/power",
+      "option_c": "Ethics/IRB",
+      "option_d": "P-value",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 44) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Compares prior exposure in cases vs controls",
+      "option_b": "Ethics/IRB: Ability to detect a true effect",
+      "option_c": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_d": "Case-control study: Compares prior exposure in cases vs controls",
+      "correct_answer": "D",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 45) Which statement is TRUE?",
+      "option_a": "Confidence interval: Range of plausible effect estimates",
+      "option_b": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_c": "Sample size/power: Range of plausible effect estimates",
+      "option_d": "P-value: Range of plausible effect estimates",
+      "correct_answer": "A",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 46) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Range of plausible effect estimates",
+      "correct_answer": "C",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 47) Cohort study is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Cohort study",
+      "option_c": "Study design: RCT",
+      "option_d": "Bias",
+      "correct_answer": "B",
+      "explanation": "Cohort study refers to: Observational follow-up to compare outcomes between exposed/unexposed"
+    },
+    {
+      "question": "(Research Methods Item 48) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Probability of observing results as extreme if null is true",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "C",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 49) Which statement is TRUE?",
+      "option_a": "Case-control study: Protection of human subjects",
+      "option_b": "Bias: Systematic error affecting validity",
+      "option_c": "Sample size/power: Protection of human subjects",
+      "option_d": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "B",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 50) Sample size/power is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Ethics/IRB",
+      "option_c": "Confidence interval",
+      "option_d": "Cohort study",
+      "correct_answer": "A",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 51) Which option is MOST appropriate regarding Study design: RCT?",
+      "option_a": "Good for incidence and risk; confounding possible.",
+      "option_b": "Probability of observing results as extreme if null is true",
+      "option_c": "Gold standard for causality; may have limited generalizability.",
+      "option_d": "Range of plausible effect estimates",
+      "correct_answer": "C",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 52) Which statement is TRUE?",
+      "option_a": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_b": "P-value: Range of plausible effect estimates",
+      "option_c": "Confidence interval: Ability to detect a true effect",
+      "option_d": "Cohort study: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "A",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 53) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Efficient for rare diseases; prone to recall bias.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 54) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Ability to detect a true effect",
+      "option_c": "Probability of observing results as extreme if null is true",
+      "option_d": "Includes selection bias, information bias, confounding.",
+      "correct_answer": "D",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 55) Which statement is TRUE?",
+      "option_a": "Bias: Systematic error affecting validity",
+      "option_b": "Sample size/power: Protection of human subjects",
+      "option_c": "Confidence interval: Ability to detect a true effect",
+      "option_d": "Cohort study: Systematic error affecting validity",
+      "correct_answer": "A",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 56) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "B",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 57) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Good for incidence and risk; confounding possible.",
+      "option_b": "Compares prior exposure in cases vs controls",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "D",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 58) P-value is BEST categorized as:",
+      "option_a": "Cohort study",
+      "option_b": "P-value",
+      "option_c": "Confidence interval",
+      "option_d": "Sample size/power",
+      "correct_answer": "B",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 59) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Systematic error affecting validity",
+      "option_b": "Ability to detect a true effect",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Includes selection bias, information bias, confounding.",
+      "correct_answer": "D",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 60) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Good for incidence and risk; confounding possible.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Informed consent, risk minimization, confidentiality.",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 61) Case-control study is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Case-control study",
+      "option_c": "P-value",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "B",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 62) Confidence interval is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Ethics/IRB",
+      "option_c": "Confidence interval",
+      "option_d": "Cohort study",
+      "correct_answer": "C",
+      "explanation": "Confidence interval refers to: Range of plausible effect estimates"
+    },
+    {
+      "question": "(Research Methods Item 63) P-value is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Study design: RCT",
+      "option_c": "Ethics/IRB",
+      "option_d": "Confidence interval",
+      "correct_answer": "A",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 64) Confidence interval is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Study design: RCT",
+      "option_c": "Bias",
+      "option_d": "Confidence interval",
+      "correct_answer": "D",
+      "explanation": "Confidence interval refers to: Range of plausible effect estimates"
+    },
+    {
+      "question": "(Research Methods Item 65) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "D",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 66) Sample size/power is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Confidence interval",
+      "option_c": "Sample size/power",
+      "option_d": "Case-control study",
+      "correct_answer": "C",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 67) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Randomizes participants to interventions to reduce confounding",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Informed consent, risk minimization, confidentiality.",
+      "correct_answer": "B",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 68) P-value is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "P-value",
+      "option_c": "Confidence interval",
+      "option_d": "Cohort study",
+      "correct_answer": "B",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 69) Ethics/IRB is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Confidence interval",
+      "option_c": "P-value",
+      "option_d": "Cohort study",
+      "correct_answer": "A",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 70) Which option is MOST appropriate regarding Ethics/IRB?",
+      "option_a": "Informed consent, risk minimization, confidentiality.",
+      "option_b": "Gold standard for causality; may have limited generalizability.",
+      "option_c": "Ability to detect a true effect",
+      "option_d": "Depends on alpha, effect size, variability.",
+      "correct_answer": "A",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 71) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Range of plausible effect estimates",
+      "option_b": "Ethics/IRB: Systematic error affecting validity",
+      "option_c": "Case-control study: Probability of observing results as extreme if null is true",
+      "option_d": "Bias: Systematic error affecting validity",
+      "correct_answer": "D",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 72) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Protection of human subjects",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "C",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 73) Which statement is TRUE?",
+      "option_a": "Case-control study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Confidence interval: Range of plausible effect estimates",
+      "option_c": "Ethics/IRB: Probability of observing results as extreme if null is true",
+      "option_d": "Confidence interval: Systematic error affecting validity",
+      "correct_answer": "B",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 74) Which statement is TRUE?",
+      "option_a": "P-value: Range of plausible effect estimates",
+      "option_b": "Cohort study: Range of plausible effect estimates",
+      "option_c": "Confidence interval: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_d": "Ethics/IRB: Protection of human subjects",
+      "correct_answer": "D",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 75) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Compares prior exposure in cases vs controls",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "A",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 76) Which option is MOST appropriate regarding Study design: RCT?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Compares prior exposure in cases vs controls",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "D",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 77) P-value is BEST categorized as:",
+      "option_a": "Cohort study",
+      "option_b": "Ethics/IRB",
+      "option_c": "P-value",
+      "option_d": "Case-control study",
+      "correct_answer": "C",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 78) Study design: RCT is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Sample size/power",
+      "option_c": "P-value",
+      "option_d": "Confidence interval",
+      "correct_answer": "A",
+      "explanation": "Study design: RCT refers to: Randomizes participants to interventions to reduce confounding"
+    },
+    {
+      "question": "(Research Methods Item 79) Confidence interval is BEST categorized as:",
+      "option_a": "Confidence interval",
+      "option_b": "Bias",
+      "option_c": "Ethics/IRB",
+      "option_d": "Case-control study",
+      "correct_answer": "A",
+      "explanation": "Confidence interval refers to: Range of plausible effect estimates"
+    },
+    {
+      "question": "(Research Methods Item 80) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Sample size/power: Probability of observing results as extreme if null is true",
+      "option_c": "Confidence interval: Systematic error affecting validity",
+      "option_d": "Ethics/IRB: Protection of human subjects",
+      "correct_answer": "D",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 81) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Ability to detect a true effect",
+      "option_b": "Sample size/power: Protection of human subjects",
+      "option_c": "Cohort study: Randomizes participants to interventions to reduce confounding",
+      "option_d": "Sample size/power: Ability to detect a true effect",
+      "correct_answer": "D",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 82) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Ability to detect a true effect",
+      "option_c": "Systematic error affecting validity",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "A",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 83) Which statement is TRUE?",
+      "option_a": "Sample size/power: Ability to detect a true effect",
+      "option_b": "Sample size/power: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Confidence interval: Compares prior exposure in cases vs controls",
+      "option_d": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "D",
+      "explanation": "Study design: RCT: Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 84) Which statement is TRUE?",
+      "option_a": "P-value: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Bias: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_d": "P-value: Compares prior exposure in cases vs controls",
+      "correct_answer": "C",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 85) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Randomizes participants to interventions to reduce confounding",
+      "option_c": "Ability to detect a true effect",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 86) Which statement is TRUE?",
+      "option_a": "Cohort study: Range of plausible effect estimates",
+      "option_b": "Ethics/IRB: Protection of human subjects",
+      "option_c": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_d": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "B",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 87) Which option is MOST appropriate regarding Ethics/IRB?",
+      "option_a": "Ability to detect a true effect",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Informed consent, risk minimization, confidentiality.",
+      "correct_answer": "D",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 88) Sample size/power is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Cohort study",
+      "option_c": "Case-control study",
+      "option_d": "Sample size/power",
+      "correct_answer": "D",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 89) P-value is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Cohort study",
+      "option_c": "Study design: RCT",
+      "option_d": "Bias",
+      "correct_answer": "A",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 90) Study design: RCT is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Cohort study",
+      "option_c": "Case-control study",
+      "option_d": "Bias",
+      "correct_answer": "A",
+      "explanation": "Study design: RCT refers to: Randomizes participants to interventions to reduce confounding"
+    },
+    {
+      "question": "(Research Methods Item 91) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Protection of human subjects",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "C",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 92) Which option is MOST appropriate regarding Ethics/IRB?",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Informed consent, risk minimization, confidentiality.",
+      "option_c": "Compares prior exposure in cases vs controls",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "B",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 93) Which statement is TRUE?",
+      "option_a": "Case-control study: Protection of human subjects",
+      "option_b": "P-value: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Cohort study: Randomizes participants to interventions to reduce confounding",
+      "option_d": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "D",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 94) Which statement is TRUE?",
+      "option_a": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Confidence interval: Systematic error affecting validity",
+      "option_c": "Study design: RCT: Range of plausible effect estimates",
+      "option_d": "Ethics/IRB: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "A",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 95) Ethics/IRB is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Bias",
+      "option_c": "Ethics/IRB",
+      "option_d": "Cohort study",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 96) P-value is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "P-value",
+      "option_c": "Bias",
+      "option_d": "Confidence interval",
+      "correct_answer": "B",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 97) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Does not measure effect size or clinical importance.",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "A",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 98) Which statement is TRUE?",
+      "option_a": "Bias: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_c": "Ethics/IRB: Protection of human subjects",
+      "option_d": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 99) Ethics/IRB is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Case-control study",
+      "option_c": "Confidence interval",
+      "option_d": "P-value",
+      "correct_answer": "A",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 100) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Informed consent, risk minimization, confidentiality.",
+      "option_b": "Systematic error affecting validity",
+      "option_c": "Efficient for rare diseases; prone to recall bias.",
+      "option_d": "Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 101) Ethics/IRB is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "P-value",
+      "option_c": "Sample size/power",
+      "option_d": "Study design: RCT",
+      "correct_answer": "A",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 102) Which statement is TRUE?",
+      "option_a": "P-value: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Sample size/power: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "P-value: Probability of observing results as extreme if null is true",
+      "option_d": "Case-control study: Systematic error affecting validity",
+      "correct_answer": "C",
+      "explanation": "P-value: Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 103) P-value is BEST categorized as:",
+      "option_a": "Confidence interval",
+      "option_b": "Sample size/power",
+      "option_c": "P-value",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "C",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 104) Which statement is TRUE?",
+      "option_a": "P-value: Probability of observing results as extreme if null is true",
+      "option_b": "Study design: RCT: Compares prior exposure in cases vs controls",
+      "option_c": "P-value: Probability of observing results as extreme if null is true",
+      "option_d": "Sample size/power: Ability to detect a true effect",
+      "correct_answer": "D",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 105) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Range of plausible effect estimates",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "A",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 106) P-value is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Cohort study",
+      "option_c": "Case-control study",
+      "option_d": "Study design: RCT",
+      "correct_answer": "A",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 107) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "C",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 108) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Informed consent, risk minimization, confidentiality.",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "C",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 109) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Protection of human subjects",
+      "option_b": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_c": "Case-control study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_d": "Cohort study: Systematic error affecting validity",
+      "correct_answer": "B",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 110) Which statement is TRUE?",
+      "option_a": "Confidence interval: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "P-value: Protection of human subjects",
+      "option_c": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_d": "Bias: Compares prior exposure in cases vs controls",
+      "correct_answer": "C",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 111) Which statement is TRUE?",
+      "option_a": "Bias: Protection of human subjects",
+      "option_b": "Confidence interval: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Sample size/power: Range of plausible effect estimates",
+      "option_d": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "D",
+      "explanation": "Study design: RCT: Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 112) Case-control study is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "Confidence interval",
+      "option_c": "Sample size/power",
+      "option_d": "Case-control study",
+      "correct_answer": "D",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 113) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_b": "Ethics/IRB: Systematic error affecting validity",
+      "option_c": "Ethics/IRB: Protection of human subjects",
+      "option_d": "Study design: RCT: Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 114) Sample size/power is BEST categorized as:",
+      "option_a": "Cohort study",
+      "option_b": "Bias",
+      "option_c": "Sample size/power",
+      "option_d": "Case-control study",
+      "correct_answer": "C",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 115) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "C",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 116) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "A",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 117) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "A",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 118) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Efficient for rare diseases; prone to recall bias.",
+      "option_c": "Gold standard for causality; may have limited generalizability.",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "A",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 119) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Protection of human subjects",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 120) Which option is MOST appropriate regarding Study design: RCT?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Randomizes participants to interventions to reduce confounding",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Compares prior exposure in cases vs controls",
+      "correct_answer": "A",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 121) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Protection of human subjects",
+      "option_b": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_d": "Confidence interval: Probability of observing results as extreme if null is true",
+      "correct_answer": "C",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 122) Which statement is TRUE?",
+      "option_a": "Confidence interval: Systematic error affecting validity",
+      "option_b": "P-value: Compares prior exposure in cases vs controls",
+      "option_c": "Bias: Range of plausible effect estimates",
+      "option_d": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "D",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 123) Which statement is TRUE?",
+      "option_a": "P-value: Probability of observing results as extreme if null is true",
+      "option_b": "P-value: Systematic error affecting validity",
+      "option_c": "Ethics/IRB: Protection of human subjects",
+      "option_d": "Confidence interval: Probability of observing results as extreme if null is true",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 124) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "option_b": "Study design: RCT: Systematic error affecting validity",
+      "option_c": "Ethics/IRB: Protection of human subjects",
+      "option_d": "Study design: RCT: Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 125) Bias is BEST categorized as:",
+      "option_a": "Case-control study",
+      "option_b": "Confidence interval",
+      "option_c": "Cohort study",
+      "option_d": "Bias",
+      "correct_answer": "D",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 126) Which statement is TRUE?",
+      "option_a": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_b": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "P-value: Systematic error affecting validity",
+      "option_d": "P-value: Range of plausible effect estimates",
+      "correct_answer": "B",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 127) Which statement is TRUE?",
+      "option_a": "Confidence interval: Range of plausible effect estimates",
+      "option_b": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_c": "Sample size/power: Probability of observing results as extreme if null is true",
+      "option_d": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "correct_answer": "A",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 128) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Protection of human subjects",
+      "option_b": "P-value: Probability of observing results as extreme if null is true",
+      "option_c": "Ethics/IRB: Compares prior exposure in cases vs controls",
+      "option_d": "Sample size/power: Ability to detect a true effect",
+      "correct_answer": "B",
+      "explanation": "P-value: Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 129) Which statement is TRUE?",
+      "option_a": "Sample size/power: Ability to detect a true effect",
+      "option_b": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Sample size/power: Ability to detect a true effect",
+      "option_d": "Case-control study: Ability to detect a true effect",
+      "correct_answer": "A",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 130) Bias is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Sample size/power",
+      "option_c": "Cohort study",
+      "option_d": "Case-control study",
+      "correct_answer": "A",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 131) Which option is MOST appropriate regarding Ethics/IRB?",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Probability of observing results as extreme if null is true",
+      "option_c": "Range of plausible effect estimates",
+      "option_d": "Informed consent, risk minimization, confidentiality.",
+      "correct_answer": "D",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 132) Bias is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Sample size/power",
+      "option_c": "Bias",
+      "option_d": "P-value",
+      "correct_answer": "C",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 133) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Informed consent, risk minimization, confidentiality.",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Does not measure effect size or clinical importance.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "D",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 134) Which statement is TRUE?",
+      "option_a": "Bias: Systematic error affecting validity",
+      "option_b": "P-value: Systematic error affecting validity",
+      "option_c": "Ethics/IRB: Randomizes participants to interventions to reduce confounding",
+      "option_d": "Ethics/IRB: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "A",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 135) Sample size/power is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Sample size/power",
+      "option_c": "Confidence interval",
+      "option_d": "P-value",
+      "correct_answer": "B",
+      "explanation": "Sample size/power refers to: Ability to detect a true effect"
+    },
+    {
+      "question": "(Research Methods Item 136) Which statement is TRUE?",
+      "option_a": "P-value: Probability of observing results as extreme if null is true",
+      "option_b": "Case-control study: Range of plausible effect estimates",
+      "option_c": "Study design: RCT: Ability to detect a true effect",
+      "option_d": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "D",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 137) Ethics/IRB is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Cohort study",
+      "option_c": "Ethics/IRB",
+      "option_d": "P-value",
+      "correct_answer": "C",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 138) Study design: RCT is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Ethics/IRB",
+      "option_c": "Sample size/power",
+      "option_d": "P-value",
+      "correct_answer": "A",
+      "explanation": "Study design: RCT refers to: Randomizes participants to interventions to reduce confounding"
+    },
+    {
+      "question": "(Research Methods Item 139) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Does not measure effect size or clinical importance.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Compares prior exposure in cases vs controls",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "B",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 140) Which option is MOST appropriate regarding Study design: RCT?",
+      "option_a": "Randomizes participants to interventions to reduce confounding",
+      "option_b": "Systematic error affecting validity",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "D",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 141) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Informed consent, risk minimization, confidentiality.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "C",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 142) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Protection of human subjects",
+      "option_c": "Good for incidence and risk; confounding possible.",
+      "option_d": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 143) Which statement is TRUE?",
+      "option_a": "Bias: Probability of observing results as extreme if null is true",
+      "option_b": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Confidence interval: Systematic error affecting validity",
+      "option_d": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "correct_answer": "B",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 144) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "B",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 145) Which statement is TRUE?",
+      "option_a": "Bias: Systematic error affecting validity",
+      "option_b": "Cohort study: Systematic error affecting validity",
+      "option_c": "Sample size/power: Probability of observing results as extreme if null is true",
+      "option_d": "Ethics/IRB: Protection of human subjects",
+      "correct_answer": "A",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 146) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Efficient for rare diseases; prone to recall bias.",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "D",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 147) Case-control study is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Sample size/power",
+      "option_c": "P-value",
+      "option_d": "Case-control study",
+      "correct_answer": "D",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 148) Which statement is TRUE?",
+      "option_a": "Sample size/power: Systematic error affecting validity",
+      "option_b": "Study design: RCT: Probability of observing results as extreme if null is true",
+      "option_c": "Confidence interval: Range of plausible effect estimates",
+      "option_d": "Study design: RCT: Protection of human subjects",
+      "correct_answer": "C",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 149) P-value is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "P-value",
+      "option_c": "Cohort study",
+      "option_d": "Case-control study",
+      "correct_answer": "B",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 150) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_b": "Range of plausible effect estimates",
+      "option_c": "Informed consent, risk minimization, confidentiality.",
+      "option_d": "Includes selection bias, information bias, confounding.",
+      "correct_answer": "D",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 151) Which option is MOST appropriate regarding Cohort study?",
+      "option_a": "Depends on alpha, effect size, variability.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "B",
+      "explanation": "Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 152) Ethics/IRB is BEST categorized as:",
+      "option_a": "Confidence interval",
+      "option_b": "Ethics/IRB",
+      "option_c": "Case-control study",
+      "option_d": "Bias",
+      "correct_answer": "B",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 153) Which statement is TRUE?",
+      "option_a": "Case-control study: Probability of observing results as extreme if null is true",
+      "option_b": "Confidence interval: Range of plausible effect estimates",
+      "option_c": "P-value: Ability to detect a true effect",
+      "option_d": "Cohort study: Protection of human subjects",
+      "correct_answer": "B",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 154) Which statement is TRUE?",
+      "option_a": "Confidence interval: Protection of human subjects",
+      "option_b": "Confidence interval: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_d": "P-value: Ability to detect a true effect",
+      "correct_answer": "C",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 155) Which statement is TRUE?",
+      "option_a": "Case-control study: Range of plausible effect estimates",
+      "option_b": "Bias: Protection of human subjects",
+      "option_c": "Cohort study: Protection of human subjects",
+      "option_d": "Case-control study: Compares prior exposure in cases vs controls",
+      "correct_answer": "D",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 156) Which option is MOST appropriate regarding Bias?",
+      "option_a": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Protection of human subjects",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "B",
+      "explanation": "Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 157) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_b": "Cohort study: Probability of observing results as extreme if null is true",
+      "option_c": "P-value: Probability of observing results as extreme if null is true",
+      "option_d": "Ethics/IRB: Protection of human subjects",
+      "correct_answer": "D",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 158) Bias is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Bias",
+      "option_c": "Sample size/power",
+      "option_d": "Study design: RCT",
+      "correct_answer": "B",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 159) Confidence interval is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "P-value",
+      "option_c": "Cohort study",
+      "option_d": "Confidence interval",
+      "correct_answer": "D",
+      "explanation": "Confidence interval refers to: Range of plausible effect estimates"
+    },
+    {
+      "question": "(Research Methods Item 160) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Protection of human subjects",
+      "option_d": "Ability to detect a true effect",
+      "correct_answer": "B",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 161) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Ability to detect a true effect",
+      "option_c": "Systematic error affecting validity",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "A",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 162) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Compares prior exposure in cases vs controls",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Protection of human subjects",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 163) Which statement is TRUE?",
+      "option_a": "Bias: Protection of human subjects",
+      "option_b": "Ethics/IRB: Range of plausible effect estimates",
+      "option_c": "Sample size/power: Ability to detect a true effect",
+      "option_d": "Cohort study: Systematic error affecting validity",
+      "correct_answer": "C",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 164) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Range of plausible effect estimates",
+      "option_d": "Does not measure effect size or clinical importance.",
+      "correct_answer": "A",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 165) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Informed consent, risk minimization, confidentiality.",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 166) Cohort study is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Cohort study",
+      "option_c": "Case-control study",
+      "option_d": "Confidence interval",
+      "correct_answer": "B",
+      "explanation": "Cohort study refers to: Observational follow-up to compare outcomes between exposed/unexposed"
+    },
+    {
+      "question": "(Research Methods Item 167) Cohort study is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "Case-control study",
+      "option_c": "Cohort study",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "C",
+      "explanation": "Cohort study refers to: Observational follow-up to compare outcomes between exposed/unexposed"
+    },
+    {
+      "question": "(Research Methods Item 168) Which statement is TRUE?",
+      "option_a": "Bias: Systematic error affecting validity",
+      "option_b": "Sample size/power: Systematic error affecting validity",
+      "option_c": "Bias: Compares prior exposure in cases vs controls",
+      "option_d": "Sample size/power: Ability to detect a true effect",
+      "correct_answer": "A",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 169) P-value is BEST categorized as:",
+      "option_a": "Cohort study",
+      "option_b": "P-value",
+      "option_c": "Study design: RCT",
+      "option_d": "Confidence interval",
+      "correct_answer": "B",
+      "explanation": "P-value refers to: Probability of observing results as extreme if null is true"
+    },
+    {
+      "question": "(Research Methods Item 170) Study design: RCT is BEST categorized as:",
+      "option_a": "Ethics/IRB",
+      "option_b": "P-value",
+      "option_c": "Study design: RCT",
+      "option_d": "Sample size/power",
+      "correct_answer": "C",
+      "explanation": "Study design: RCT refers to: Randomizes participants to interventions to reduce confounding"
+    },
+    {
+      "question": "(Research Methods Item 171) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Depends on alpha, effect size, variability.",
+      "correct_answer": "D",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 172) Which option is MOST appropriate regarding Ethics/IRB?",
+      "option_a": "Does not measure effect size or clinical importance.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Informed consent, risk minimization, confidentiality.",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "C",
+      "explanation": "Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 173) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Efficient for rare diseases; prone to recall bias.",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Informed consent, risk minimization, confidentiality.",
+      "option_d": "Systematic error affecting validity",
+      "correct_answer": "B",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 174) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Probability of observing results as extreme if null is true",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 175) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Includes selection bias, information bias, confounding.",
+      "option_b": "Depends on alpha, effect size, variability.",
+      "option_c": "Randomizes participants to interventions to reduce confounding",
+      "option_d": "Range of plausible effect estimates",
+      "correct_answer": "B",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 176) Which statement is TRUE?",
+      "option_a": "P-value: Randomizes participants to interventions to reduce confounding",
+      "option_b": "P-value: Probability of observing results as extreme if null is true",
+      "option_c": "Confidence interval: Range of plausible effect estimates",
+      "option_d": "Cohort study: Range of plausible effect estimates",
+      "correct_answer": "C",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 177) Case-control study is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Ethics/IRB",
+      "option_c": "Confidence interval",
+      "option_d": "Case-control study",
+      "correct_answer": "D",
+      "explanation": "Case-control study refers to: Compares prior exposure in cases vs controls"
+    },
+    {
+      "question": "(Research Methods Item 178) Bias is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Bias",
+      "option_c": "Confidence interval",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "B",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 179) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Range of plausible effect estimates",
+      "option_b": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Case-control study: Compares prior exposure in cases vs controls",
+      "option_d": "Case-control study: Systematic error affecting validity",
+      "correct_answer": "C",
+      "explanation": "Case-control study: Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 180) Bias is BEST categorized as:",
+      "option_a": "Sample size/power",
+      "option_b": "Cohort study",
+      "option_c": "Bias",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "C",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 181) Study design: RCT is BEST categorized as:",
+      "option_a": "P-value",
+      "option_b": "Case-control study",
+      "option_c": "Study design: RCT",
+      "option_d": "Sample size/power",
+      "correct_answer": "C",
+      "explanation": "Study design: RCT refers to: Randomizes participants to interventions to reduce confounding"
+    },
+    {
+      "question": "(Research Methods Item 182) Ethics/IRB is BEST categorized as:",
+      "option_a": "Cohort study",
+      "option_b": "Case-control study",
+      "option_c": "Sample size/power",
+      "option_d": "Ethics/IRB",
+      "correct_answer": "D",
+      "explanation": "Ethics/IRB refers to: Protection of human subjects"
+    },
+    {
+      "question": "(Research Methods Item 183) Bias is BEST categorized as:",
+      "option_a": "Confidence interval",
+      "option_b": "P-value",
+      "option_c": "Bias",
+      "option_d": "Study design: RCT",
+      "correct_answer": "C",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 184) Which statement is TRUE?",
+      "option_a": "Cohort study: Protection of human subjects",
+      "option_b": "Bias: Systematic error affecting validity",
+      "option_c": "P-value: Randomizes participants to interventions to reduce confounding",
+      "option_d": "Ethics/IRB: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "B",
+      "explanation": "Bias: Includes selection bias, information bias, confounding."
+    },
+    {
+      "question": "(Research Methods Item 185) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Protection of human subjects",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Efficient for rare diseases; prone to recall bias.",
+      "option_d": "Depends on alpha, effect size, variability.",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 186) Which option is MOST appropriate regarding Sample size/power?",
+      "option_a": "Systematic error affecting validity",
+      "option_b": "Includes selection bias, information bias, confounding.",
+      "option_c": "Depends on alpha, effect size, variability.",
+      "option_d": "Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "C",
+      "explanation": "Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 187) Which statement is TRUE?",
+      "option_a": "Ethics/IRB: Protection of human subjects",
+      "option_b": "Case-control study: Range of plausible effect estimates",
+      "option_c": "Bias: Ability to detect a true effect",
+      "option_d": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "correct_answer": "D",
+      "explanation": "Study design: RCT: Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 188) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Probability of observing results as extreme if null is true",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Informed consent, risk minimization, confidentiality.",
+      "option_d": "Depends on alpha, effect size, variability.",
+      "correct_answer": "B",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 189) Which statement is TRUE?",
+      "option_a": "P-value: Systematic error affecting validity",
+      "option_b": "Bias: Observational follow-up to compare outcomes between exposed/unexposed",
+      "option_c": "Sample size/power: Ability to detect a true effect",
+      "option_d": "Ethics/IRB: Systematic error affecting validity",
+      "correct_answer": "C",
+      "explanation": "Sample size/power: Depends on alpha, effect size, variability."
+    },
+    {
+      "question": "(Research Methods Item 190) Bias is BEST categorized as:",
+      "option_a": "Bias",
+      "option_b": "P-value",
+      "option_c": "Case-control study",
+      "option_d": "Sample size/power",
+      "correct_answer": "A",
+      "explanation": "Bias refers to: Systematic error affecting validity"
+    },
+    {
+      "question": "(Research Methods Item 191) Which option is MOST appropriate regarding Case-control study?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_c": "Efficient for rare diseases; prone to recall bias.",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "C",
+      "explanation": "Efficient for rare diseases; prone to recall bias."
+    },
+    {
+      "question": "(Research Methods Item 192) Which statement is TRUE?",
+      "option_a": "Bias: Randomizes participants to interventions to reduce confounding",
+      "option_b": "Case-control study: Ability to detect a true effect",
+      "option_c": "Confidence interval: Range of plausible effect estimates",
+      "option_d": "Study design: RCT: Ability to detect a true effect",
+      "correct_answer": "C",
+      "explanation": "Confidence interval: Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 193) Which statement is TRUE?",
+      "option_a": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_b": "Study design: RCT: Randomizes participants to interventions to reduce confounding",
+      "option_c": "Sample size/power: Systematic error affecting validity",
+      "option_d": "Sample size/power: Ability to detect a true effect",
+      "correct_answer": "A",
+      "explanation": "Study design: RCT: Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 194) Which option is MOST appropriate regarding Study design: RCT?",
+      "option_a": "Gold standard for causality; may have limited generalizability.",
+      "option_b": "Good for incidence and risk; confounding possible.",
+      "option_c": "Includes selection bias, information bias, confounding.",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "A",
+      "explanation": "Gold standard for causality; may have limited generalizability."
+    },
+    {
+      "question": "(Research Methods Item 195) Which statement is TRUE?",
+      "option_a": "Confidence interval: Protection of human subjects",
+      "option_b": "Cohort study: Ability to detect a true effect",
+      "option_c": "P-value: Compares prior exposure in cases vs controls",
+      "option_d": "Cohort study: Observational follow-up to compare outcomes between exposed/unexposed",
+      "correct_answer": "D",
+      "explanation": "Cohort study: Good for incidence and risk; confounding possible."
+    },
+    {
+      "question": "(Research Methods Item 196) Which statement is TRUE?",
+      "option_a": "Cohort study: Probability of observing results as extreme if null is true",
+      "option_b": "Ethics/IRB: Protection of human subjects",
+      "option_c": "Bias: Ability to detect a true effect",
+      "option_d": "Bias: Protection of human subjects",
+      "correct_answer": "B",
+      "explanation": "Ethics/IRB: Informed consent, risk minimization, confidentiality."
+    },
+    {
+      "question": "(Research Methods Item 197) Confidence interval is BEST categorized as:",
+      "option_a": "Study design: RCT",
+      "option_b": "Sample size/power",
+      "option_c": "Ethics/IRB",
+      "option_d": "Confidence interval",
+      "correct_answer": "D",
+      "explanation": "Confidence interval refers to: Range of plausible effect estimates"
+    },
+    {
+      "question": "(Research Methods Item 198) Which option is MOST appropriate regarding P-value?",
+      "option_a": "Range of plausible effect estimates",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Compares prior exposure in cases vs controls",
+      "option_d": "Good for incidence and risk; confounding possible.",
+      "correct_answer": "B",
+      "explanation": "Does not measure effect size or clinical importance."
+    },
+    {
+      "question": "(Research Methods Item 199) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_b": "Does not measure effect size or clinical importance.",
+      "option_c": "Gold standard for causality; may have limited generalizability.",
+      "option_d": "Probability of observing results as extreme if null is true",
+      "correct_answer": "A",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    },
+    {
+      "question": "(Research Methods Item 200) Which option is MOST appropriate regarding Confidence interval?",
+      "option_a": "Randomizes participants to interventions to reduce confounding",
+      "option_b": "Protection of human subjects",
+      "option_c": "Narrow CI indicates precision; crossing null suggests non-significance.",
+      "option_d": "Gold standard for causality; may have limited generalizability.",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates precision; crossing null suggests non-significance."
+    }
+  ]
+}

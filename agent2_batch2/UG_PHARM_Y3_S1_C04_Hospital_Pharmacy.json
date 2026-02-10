@@ -1,0 +1,1806 @@
+{
+  "course_name": "Hospital Pharmacy",
+  "course_code": "UG_PHARM_Y3_S1_C04",
+  "questions": [
+    {
+      "question": "Which statement best describes Medication reconciliation?",
+      "option_a": "Medication reconciliation",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "In practice, the key goal of Medication reconciliation is to:",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "Which statement best describes Sterile compounding?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Medication reconciliation",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "In practice, the key goal of Sterile compounding is to:",
+      "option_a": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "Which statement best describes Antimicrobial stewardship?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Sterile compounding",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "In practice, the key goal of Antimicrobial stewardship is to:",
+      "option_a": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_b": "Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "Which statement best describes High-alert medications?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "High-alert medications",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "In practice, the key goal of High-alert medications is to:",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "B",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "Which statement best describes TDM in hospital?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "D",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "In practice, the key goal of TDM in hospital is to:",
+      "option_a": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 11) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 12) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 13) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 14) Sterile compounding is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "TDM in hospital",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "High-alert medications",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 15) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "C",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 16) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 17) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 18) High-alert medications is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "Sterile compounding",
+      "option_d": "High-alert medications",
+      "correct_answer": "D",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 19) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "TDM in hospital",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 20) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 21) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "C",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 22) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 23) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "D",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 24) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 25) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 26) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "correct_answer": "C",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 27) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Medication reconciliation",
+      "option_c": "High-alert medications",
+      "option_d": "TDM in hospital",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 28) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "B",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 29) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 30) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 31) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "C",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 32) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "C",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 33) Sterile compounding is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "TDM in hospital",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 34) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 35) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 36) TDM in hospital is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "TDM in hospital",
+      "option_c": "Sterile compounding",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "B",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 37) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "Sterile compounding",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 38) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 39) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "D",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 40) Medication reconciliation is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "High-alert medications",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "A",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 41) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "D",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 42) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 43) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "C",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 44) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 45) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 46) Sterile compounding is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "High-alert medications",
+      "correct_answer": "B",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 47) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Sterile compounding: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "D",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 48) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "correct_answer": "B",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 49) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "A",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 50) TDM in hospital is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 51) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 52) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "C",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 53) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Medication reconciliation: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 54) TDM in hospital is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Medication reconciliation",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "D",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 55) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 56) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "D",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 57) Medication reconciliation is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "TDM in hospital",
+      "option_d": "Sterile compounding",
+      "correct_answer": "A",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 58) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 59) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "D",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 60) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "A",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 61) High-alert medications is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "Sterile compounding",
+      "correct_answer": "B",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 62) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "High-alert medications",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 63) High-alert medications is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "Medication reconciliation",
+      "option_d": "TDM in hospital",
+      "correct_answer": "A",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 64) High-alert medications is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Medication reconciliation",
+      "option_c": "High-alert medications",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 65) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "B",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 66) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 67) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 68) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 69) TDM in hospital is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "C",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 70) Which statement is TRUE?",
+      "option_a": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 71) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 72) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "High-alert medications: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "A",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 73) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "B",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 74) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "D",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 75) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 76) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "A",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 77) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "A",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 78) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "A",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 79) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 80) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Medication reconciliation",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 81) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 82) Which statement is TRUE?",
+      "option_a": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "B",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 83) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "B",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 84) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "B",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 85) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "High-alert medications",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 86) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "C",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 87) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "TDM in hospital",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 88) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 89) Medication reconciliation is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "High-alert medications",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 90) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "B",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 91) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Sterile compounding: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 92) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "A",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 93) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Medication reconciliation",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 94) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 95) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "C",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 96) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "correct_answer": "C",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 97) TDM in hospital is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "TDM in hospital",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "B",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 98) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "Sterile compounding",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 99) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 100) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "C",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 101) Sterile compounding is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "High-alert medications",
+      "option_c": "Sterile compounding",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 102) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "High-alert medications",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 103) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "D",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 104) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "A",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 105) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "D",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 106) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 107) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 108) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 109) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 110) TDM in hospital is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Sterile compounding",
+      "option_c": "High-alert medications",
+      "option_d": "TDM in hospital",
+      "correct_answer": "D",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 111) Which statement is TRUE?",
+      "option_a": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "A",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 112) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 113) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "TDM in hospital",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 114) High-alert medications is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Sterile compounding",
+      "option_c": "High-alert medications",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 115) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 116) High-alert medications is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "TDM in hospital",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "High-alert medications",
+      "correct_answer": "D",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 117) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "B",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 118) Sterile compounding is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Sterile compounding",
+      "option_c": "Medication reconciliation",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "B",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 119) High-alert medications is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Sterile compounding",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "A",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 120) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 121) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "C",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 122) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "Sterile compounding",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 123) Medication reconciliation is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "TDM in hospital",
+      "option_c": "High-alert medications",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "A",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 124) Which statement is TRUE?",
+      "option_a": "High-alert medications: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 125) Sterile compounding is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Medication reconciliation",
+      "option_c": "Sterile compounding",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 126) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "D",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 127) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "C",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 128) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "B",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 129) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 130) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 131) Which statement is TRUE?",
+      "option_a": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 132) TDM in hospital is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "TDM in hospital",
+      "option_c": "Medication reconciliation",
+      "option_d": "Sterile compounding",
+      "correct_answer": "B",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 133) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 134) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "High-alert medications",
+      "option_c": "TDM in hospital",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 135) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 136) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Antimicrobial stewardship: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 137) Sterile compounding is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "Sterile compounding",
+      "option_d": "High-alert medications",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 138) TDM in hospital is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Sterile compounding",
+      "option_c": "Medication reconciliation",
+      "option_d": "TDM in hospital",
+      "correct_answer": "D",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 139) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 140) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "TDM in hospital",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 141) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 142) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "D",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 143) High-alert medications is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Medication reconciliation",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "A",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 144) Medication reconciliation is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Medication reconciliation",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 145) Sterile compounding is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Medication reconciliation",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "High-alert medications",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 146) Sterile compounding is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Sterile compounding",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 147) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "B",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 148) Sterile compounding is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "TDM in hospital",
+      "option_d": "High-alert medications",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 149) Sterile compounding is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Medication reconciliation",
+      "option_c": "TDM in hospital",
+      "option_d": "Sterile compounding",
+      "correct_answer": "D",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 150) Medication reconciliation is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "Medication reconciliation",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "B",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 151) Sterile compounding is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "Medication reconciliation",
+      "option_d": "Sterile compounding",
+      "correct_answer": "D",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 152) High-alert medications is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "B",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 153) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 154) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Medication reconciliation: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "D",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 155) High-alert medications is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "TDM in hospital",
+      "option_c": "Sterile compounding",
+      "option_d": "High-alert medications",
+      "correct_answer": "D",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 156) TDM in hospital is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "High-alert medications",
+      "option_d": "Sterile compounding",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital refers to: Monitoring concentrations for narrow therapeutic index drugs"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 157) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "correct_answer": "D",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 158) Which statement is TRUE?",
+      "option_a": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Medication reconciliation: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Sterile compounding: Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "A",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 159) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "A",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 160) Which statement is TRUE?",
+      "option_a": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Antimicrobial stewardship: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 161) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Sterile compounding: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 162) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "TDM in hospital",
+      "option_c": "High-alert medications",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 163) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "B",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 164) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 165) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "High-alert medications: Preparation in controlled environment following aseptic technique and standards",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 166) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "A",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 167) High-alert medications is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Medication reconciliation",
+      "option_c": "High-alert medications",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "C",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 168) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "A",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 169) Sterile compounding is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "TDM in hospital",
+      "option_c": "Medication reconciliation",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 170) High-alert medications is BEST categorized as:",
+      "option_a": "TDM in hospital",
+      "option_b": "Medication reconciliation",
+      "option_c": "High-alert medications",
+      "option_d": "Sterile compounding",
+      "correct_answer": "C",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 171) High-alert medications is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "Sterile compounding",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "High-alert medications",
+      "correct_answer": "D",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 172) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "High-alert medications: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "B",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 173) Medication reconciliation is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Antimicrobial stewardship",
+      "option_c": "TDM in hospital",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "D",
+      "explanation": "Medication reconciliation refers to: Process of verifying and documenting complete medication list at transitions of care"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 174) Which statement is TRUE?",
+      "option_a": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "A",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 175) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "C",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 176) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 177) Which option is MOST appropriate regarding TDM in hospital?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_c": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "B",
+      "explanation": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 178) Sterile compounding is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "Sterile compounding",
+      "option_c": "Medication reconciliation",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "B",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 179) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Use independent double-checks and standardized protocols.",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "B",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 180) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "option_c": "High-alert medications: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "A",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 181) Which statement is TRUE?",
+      "option_a": "TDM in hospital: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "A",
+      "explanation": "TDM in hospital: Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 182) Which statement is TRUE?",
+      "option_a": "Antimicrobial stewardship: Process of verifying and documenting complete medication list at transitions of care",
+      "option_b": "Antimicrobial stewardship: Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "TDM in hospital: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 183) Sterile compounding is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Sterile compounding",
+      "option_d": "Medication reconciliation",
+      "correct_answer": "C",
+      "explanation": "Sterile compounding refers to: Preparation in controlled environment following aseptic technique and standards"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 184) Which statement is TRUE?",
+      "option_a": "High-alert medications: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_b": "Sterile compounding: Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "TDM in hospital: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "High-alert medications: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "D",
+      "explanation": "High-alert medications: Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 185) Which option is MOST appropriate regarding Sterile compounding?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Drugs with higher risk of causing significant harm if used in error",
+      "option_d": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "correct_answer": "D",
+      "explanation": "Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 186) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "B",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 187) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_b": "Preparation in controlled environment following aseptic technique and standards",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "A",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 188) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "High-alert medications",
+      "option_b": "TDM in hospital",
+      "option_c": "Sterile compounding",
+      "option_d": "Antimicrobial stewardship",
+      "correct_answer": "D",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 189) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Sterile compounding: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "correct_answer": "C",
+      "explanation": "Medication reconciliation: Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 190) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Medication reconciliation",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "TDM in hospital",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 191) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Drugs with higher risk of causing significant harm if used in error",
+      "option_b": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Monitoring concentrations for narrow therapeutic index drugs",
+      "correct_answer": "C",
+      "explanation": "Use independent double-checks and standardized protocols."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 192) Which option is MOST appropriate regarding Antimicrobial stewardship?",
+      "option_a": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_b": "Monitoring concentrations for narrow therapeutic index drugs",
+      "option_c": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_d": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "correct_answer": "D",
+      "explanation": "Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 193) Antimicrobial stewardship is BEST categorized as:",
+      "option_a": "Sterile compounding",
+      "option_b": "Medication reconciliation",
+      "option_c": "Antimicrobial stewardship",
+      "option_d": "TDM in hospital",
+      "correct_answer": "C",
+      "explanation": "Antimicrobial stewardship refers to: Optimizing antibiotic use to improve outcomes and reduce resistance"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 194) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Includes de-escalation, IV-to-PO conversion, and guideline adherence.",
+      "option_c": "Use independent double-checks and standardized protocols.",
+      "option_d": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "correct_answer": "D",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 195) High-alert medications is BEST categorized as:",
+      "option_a": "Antimicrobial stewardship",
+      "option_b": "High-alert medications",
+      "option_c": "Medication reconciliation",
+      "option_d": "TDM in hospital",
+      "correct_answer": "B",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 196) Which statement is TRUE?",
+      "option_a": "Sterile compounding: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Medication reconciliation: Process of verifying and documenting complete medication list at transitions of care",
+      "option_c": "Sterile compounding: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_d": "Medication reconciliation: Drugs with higher risk of causing significant harm if used in error",
+      "correct_answer": "A",
+      "explanation": "Sterile compounding: Includes cleanroom engineering controls; beyond-use dates depend on risk level."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 197) High-alert medications is BEST categorized as:",
+      "option_a": "Medication reconciliation",
+      "option_b": "High-alert medications",
+      "option_c": "Sterile compounding",
+      "option_d": "TDM in hospital",
+      "correct_answer": "B",
+      "explanation": "High-alert medications refers to: Drugs with higher risk of causing significant harm if used in error"
+    },
+    {
+      "question": "(Hospital Pharmacy Item 198) Which statement is TRUE?",
+      "option_a": "Medication reconciliation: Preparation in controlled environment following aseptic technique and standards",
+      "option_b": "Antimicrobial stewardship: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_c": "TDM in hospital: Process of verifying and documenting complete medication list at transitions of care",
+      "option_d": "Medication reconciliation: Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "B",
+      "explanation": "Antimicrobial stewardship: Includes de-escalation, IV-to-PO conversion, and guideline adherence."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 199) Which option is MOST appropriate regarding Medication reconciliation?",
+      "option_a": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "option_b": "Reduces errors at admission/discharge; requires patient interview and records review.",
+      "option_c": "Preparation in controlled environment following aseptic technique and standards",
+      "option_d": "Use independent double-checks and standardized protocols.",
+      "correct_answer": "B",
+      "explanation": "Reduces errors at admission/discharge; requires patient interview and records review."
+    },
+    {
+      "question": "(Hospital Pharmacy Item 200) Which option is MOST appropriate regarding High-alert medications?",
+      "option_a": "Use independent double-checks and standardized protocols.",
+      "option_b": "Includes cleanroom engineering controls; beyond-use dates depend on risk level.",
+      "option_c": "Examples: vancomycin, aminoglycosides; dosing guided by levels and renal function.",
+      "option_d": "Optimizing antibiotic use to improve outcomes and reduce resistance",
+      "correct_answer": "A",
+      "explanation": "Use independent double-checks and standardized protocols."
+    }
+  ]
+}

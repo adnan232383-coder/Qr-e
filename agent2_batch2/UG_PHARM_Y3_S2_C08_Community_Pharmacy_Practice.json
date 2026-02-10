@@ -1,0 +1,1806 @@
+{
+  "course_name": "Community Pharmacy Practice",
+  "course_code": "UG_PHARM_Y3_S2_C08",
+  "questions": [
+    {
+      "question": "Which statement best describes OTC triage?",
+      "option_a": "Use checklists, barcode verification, and counseling",
+      "option_b": "Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Adherence support",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "D",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "In practice, the key goal of OTC triage is to:",
+      "option_a": "Assess symptoms and refer when red flags present",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "D",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "Which statement best describes Vaccination services?",
+      "option_a": "Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments",
+      "option_c": "Screen contraindications, provide counseling, document and report",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "In practice, the key goal of Vaccination services is to:",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Provide evidence-based self-care recommendations",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "Which statement best describes Adherence support?",
+      "option_a": "Adherence support",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Minor ailments",
+      "correct_answer": "C",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "In practice, the key goal of Adherence support is to:",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "D",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "Which statement best describes Minor ailments?",
+      "option_a": "Assess symptoms and refer when red flags present",
+      "option_b": "OTC triage",
+      "option_c": "Minor ailments",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "D",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "In practice, the key goal of Minor ailments is to:",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "Which statement best describes Pharmacy workflow safety?",
+      "option_a": "Provide evidence-based self-care recommendations",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "OTC triage",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "In practice, the key goal of Pharmacy workflow safety is to:",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "C",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 11) Vaccination services is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Minor ailments",
+      "option_c": "Vaccination services",
+      "option_d": "OTC triage",
+      "correct_answer": "C",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 12) Minor ailments is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Adherence support",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 13) Which statement is TRUE?",
+      "option_a": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_b": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_c": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 14) Adherence support is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Vaccination services",
+      "option_d": "Adherence support",
+      "correct_answer": "D",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 15) Vaccination services is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Minor ailments",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "D",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 16) Which statement is TRUE?",
+      "option_a": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_b": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_c": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_d": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 17) Which statement is TRUE?",
+      "option_a": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_b": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "A",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 18) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_c": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 19) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 20) Which statement is TRUE?",
+      "option_a": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "Pharmacy workflow safety: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 21) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "D",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 22) Which statement is TRUE?",
+      "option_a": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 23) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_b": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "OTC triage: Assess symptoms and refer when red flags present",
+      "correct_answer": "D",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 24) Adherence support is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Adherence support",
+      "option_d": "OTC triage",
+      "correct_answer": "C",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 25) Which statement is TRUE?",
+      "option_a": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_d": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "B",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 26) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "D",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 27) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "B",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 28) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_b": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_c": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 29) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 30) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "A",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 31) Which statement is TRUE?",
+      "option_a": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_b": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 32) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "B",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 33) Which statement is TRUE?",
+      "option_a": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_b": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "OTC triage: Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 34) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 35) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 36) Which statement is TRUE?",
+      "option_a": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "OTC triage: Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 37) Which statement is TRUE?",
+      "option_a": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_c": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_d": "Minor ailments: Provide evidence-based self-care recommendations",
+      "correct_answer": "B",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 38) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Adherence support",
+      "option_d": "Minor ailments",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 39) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "D",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 40) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_c": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 41) Which statement is TRUE?",
+      "option_a": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_b": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_c": "OTC triage: Use checklists, barcode verification, and counseling",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 42) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Motivational interviewing can help.",
+      "option_c": "Provide evidence-based self-care recommendations",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "D",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 43) OTC triage is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Adherence support",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "C",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 44) Which statement is TRUE?",
+      "option_a": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 45) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Vaccination services",
+      "option_c": "OTC triage",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 46) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 47) Which statement is TRUE?",
+      "option_a": "OTC triage: Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_c": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_d": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 48) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 49) Which statement is TRUE?",
+      "option_a": "Adherence support: Screen contraindications, provide counseling, document and report",
+      "option_b": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "OTC triage: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 50) Minor ailments is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Vaccination services",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "B",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 51) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 52) Which statement is TRUE?",
+      "option_a": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_b": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_c": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_d": "Minor ailments: Provide evidence-based self-care recommendations",
+      "correct_answer": "D",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 53) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 54) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 55) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "B",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 56) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 57) Which statement is TRUE?",
+      "option_a": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_b": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_c": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 58) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "Vaccination services",
+      "option_c": "OTC triage",
+      "option_d": "Adherence support",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 59) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "B",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 60) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Assess symptoms and refer when red flags present",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "A",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 61) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 62) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Adherence support",
+      "option_c": "Vaccination services",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 63) Minor ailments is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Minor ailments",
+      "option_d": "Adherence support",
+      "correct_answer": "C",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 64) Adherence support is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Adherence support",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "Minor ailments",
+      "correct_answer": "B",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 65) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Provide evidence-based self-care recommendations",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 66) Which statement is TRUE?",
+      "option_a": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 67) Which statement is TRUE?",
+      "option_a": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_b": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 68) Which statement is TRUE?",
+      "option_a": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_b": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_c": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_d": "Minor ailments: Provide evidence-based self-care recommendations",
+      "correct_answer": "D",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 69) Which statement is TRUE?",
+      "option_a": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_b": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_c": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 70) Which statement is TRUE?",
+      "option_a": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_b": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "Adherence support: Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 71) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 72) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "C",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 73) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_c": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_d": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "D",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 74) Minor ailments is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "Adherence support",
+      "correct_answer": "B",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 75) Which statement is TRUE?",
+      "option_a": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Pharmacy workflow safety: Screen contraindications, provide counseling, document and report",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 76) OTC triage is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 77) Which statement is TRUE?",
+      "option_a": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_b": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 78) Adherence support is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "OTC triage",
+      "option_c": "Adherence support",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "C",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 79) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Motivational interviewing can help.",
+      "option_c": "Screen contraindications, provide counseling, document and report",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "B",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 80) Which statement is TRUE?",
+      "option_a": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_b": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_c": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_d": "Vaccination services: Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 81) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "Adherence support",
+      "option_c": "Minor ailments",
+      "option_d": "OTC triage",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 82) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 83) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 84) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_b": "Motivational interviewing can help.",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 85) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_b": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_c": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 86) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Assess symptoms and refer when red flags present",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 87) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Minor ailments",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "OTC triage",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 88) Minor ailments is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Minor ailments",
+      "option_d": "OTC triage",
+      "correct_answer": "C",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 89) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_c": "Adherence support: Screen contraindications, provide counseling, document and report",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 90) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "A",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 91) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Assess symptoms and refer when red flags present",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 92) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Pharmacy workflow safety: Provide evidence-based self-care recommendations",
+      "option_d": "Minor ailments: Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 93) OTC triage is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "OTC triage",
+      "option_c": "Adherence support",
+      "option_d": "Minor ailments",
+      "correct_answer": "B",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 94) Which statement is TRUE?",
+      "option_a": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "A",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 95) Adherence support is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Minor ailments",
+      "option_d": "Adherence support",
+      "correct_answer": "D",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 96) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "D",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 97) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "C",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 98) OTC triage is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "OTC triage",
+      "option_d": "Minor ailments",
+      "correct_answer": "C",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 99) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 100) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Minor ailments",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 101) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Assess symptoms and refer when red flags present",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "D",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 102) OTC triage is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Adherence support",
+      "option_c": "OTC triage",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "C",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 103) Vaccination services is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Minor ailments",
+      "option_c": "Adherence support",
+      "option_d": "OTC triage",
+      "correct_answer": "A",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 104) Adherence support is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Vaccination services",
+      "option_c": "Adherence support",
+      "option_d": "Minor ailments",
+      "correct_answer": "C",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 105) Adherence support is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "OTC triage",
+      "option_c": "Vaccination services",
+      "option_d": "Adherence support",
+      "correct_answer": "D",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 106) Which statement is TRUE?",
+      "option_a": "OTC triage: Screen contraindications, provide counseling, document and report",
+      "option_b": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 107) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "Minor ailments",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 108) Which statement is TRUE?",
+      "option_a": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_b": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 109) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "B",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 110) OTC triage is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Vaccination services",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 111) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_b": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 112) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 113) Which statement is TRUE?",
+      "option_a": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_b": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "OTC triage: Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 114) Minor ailments is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "OTC triage",
+      "option_c": "Minor ailments",
+      "option_d": "Vaccination services",
+      "correct_answer": "C",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 115) Which statement is TRUE?",
+      "option_a": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_b": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_c": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_d": "Adherence support: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 116) Which statement is TRUE?",
+      "option_a": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_b": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 117) Adherence support is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "OTC triage",
+      "option_c": "Adherence support",
+      "option_d": "Minor ailments",
+      "correct_answer": "C",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 118) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Vaccination services",
+      "option_d": "OTC triage",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 119) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_c": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 120) Which statement is TRUE?",
+      "option_a": "Adherence support: Screen contraindications, provide counseling, document and report",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "OTC triage: Use checklists, barcode verification, and counseling",
+      "option_d": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "B",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 121) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "C",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 122) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_c": "OTC triage: Screen contraindications, provide counseling, document and report",
+      "option_d": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 123) Vaccination services is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "OTC triage",
+      "option_d": "Adherence support",
+      "correct_answer": "A",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 124) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 125) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Assess symptoms and refer when red flags present",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "B",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 126) Vaccination services is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Adherence support",
+      "option_c": "Minor ailments",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 127) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Use checklists, barcode verification, and counseling",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Provide evidence-based self-care recommendations",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "D",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 128) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "B",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 129) Which statement is TRUE?",
+      "option_a": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_b": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_c": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "A",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 130) Minor ailments is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Adherence support",
+      "option_d": "Vaccination services",
+      "correct_answer": "B",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 131) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "B",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 132) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Vaccination services",
+      "option_c": "Minor ailments",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 133) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Know scope of practice and referral criteria.",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 134) Adherence support is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Minor ailments",
+      "option_c": "Adherence support",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "C",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 135) Vaccination services is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Adherence support",
+      "option_c": "OTC triage",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 136) Which statement is TRUE?",
+      "option_a": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_b": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_d": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 137) Which statement is TRUE?",
+      "option_a": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_b": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 138) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "D",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 139) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 140) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "OTC triage",
+      "option_c": "Minor ailments",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 141) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 142) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_c": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 143) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Screen contraindications, provide counseling, document and report",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 144) Which statement is TRUE?",
+      "option_a": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_b": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_c": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "D",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 145) Which statement is TRUE?",
+      "option_a": "Adherence support: Assess symptoms and refer when red flags present",
+      "option_b": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_c": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_d": "Pharmacy workflow safety: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 146) Which statement is TRUE?",
+      "option_a": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_b": "Pharmacy workflow safety: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_d": "Adherence support: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 147) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Provide evidence-based self-care recommendations",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 148) Which statement is TRUE?",
+      "option_a": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_b": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_c": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 149) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Reduce dispensing errors with standardized processes.",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 150) Minor ailments is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Vaccination services",
+      "option_d": "Minor ailments",
+      "correct_answer": "D",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 151) Which statement is TRUE?",
+      "option_a": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 152) OTC triage is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "Vaccination services",
+      "option_c": "OTC triage",
+      "option_d": "Minor ailments",
+      "correct_answer": "C",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 153) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Use checklists, barcode verification, and counseling",
+      "option_b": "Motivational interviewing can help.",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 154) OTC triage is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "OTC triage",
+      "option_c": "Vaccination services",
+      "option_d": "Adherence support",
+      "correct_answer": "B",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 155) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "C",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 156) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 157) Adherence support is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "Minor ailments",
+      "option_c": "OTC triage",
+      "option_d": "Adherence support",
+      "correct_answer": "D",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 158) Which statement is TRUE?",
+      "option_a": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_c": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_d": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 159) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Assess symptoms and refer when red flags present",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 160) Minor ailments is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Vaccination services",
+      "option_c": "Adherence support",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "A",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 161) Adherence support is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Vaccination services",
+      "option_d": "Minor ailments",
+      "correct_answer": "A",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 162) Which statement is TRUE?",
+      "option_a": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_b": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_c": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_d": "OTC triage: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 163) Minor ailments is BEST categorized as:",
+      "option_a": "Pharmacy workflow safety",
+      "option_b": "Minor ailments",
+      "option_c": "Adherence support",
+      "option_d": "OTC triage",
+      "correct_answer": "B",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 164) OTC triage is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Vaccination services",
+      "option_d": "Minor ailments",
+      "correct_answer": "A",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 165) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Motivational interviewing can help.",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 166) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 167) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Know scope of practice and referral criteria.",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 168) Which statement is TRUE?",
+      "option_a": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_b": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_c": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_d": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "D",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 169) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Use checklists, barcode verification, and counseling",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Screen contraindications, provide counseling, document and report",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 170) Which statement is TRUE?",
+      "option_a": "Minor ailments: Use checklists, barcode verification, and counseling",
+      "option_b": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Pharmacy workflow safety: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "B",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 171) Which statement is TRUE?",
+      "option_a": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_b": "Vaccination services: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "option_d": "Minor ailments: Provide evidence-based self-care recommendations",
+      "correct_answer": "D",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 172) Vaccination services is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "D",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 173) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Assess symptoms and refer when red flags present",
+      "option_c": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 174) Which statement is TRUE?",
+      "option_a": "OTC triage: Identify barriers and use interventions (reminders, simplification)",
+      "option_b": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_c": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_d": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "correct_answer": "B",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 175) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "Minor ailments",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "OTC triage",
+      "correct_answer": "C",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 176) Which statement is TRUE?",
+      "option_a": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_b": "OTC triage: Use checklists, barcode verification, and counseling",
+      "option_c": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Vaccination services: Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Adherence support: Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 177) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Use checklists, barcode verification, and counseling",
+      "option_b": "Provide evidence-based self-care recommendations",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "D",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 178) Which statement is TRUE?",
+      "option_a": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_b": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Adherence support: Assess symptoms and refer when red flags present",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 179) Minor ailments is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Adherence support",
+      "option_c": "OTC triage",
+      "option_d": "Vaccination services",
+      "correct_answer": "A",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 180) Pharmacy workflow safety is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Vaccination services",
+      "option_c": "Pharmacy workflow safety",
+      "option_d": "Adherence support",
+      "correct_answer": "C",
+      "explanation": "Pharmacy workflow safety refers to: Use checklists, barcode verification, and counseling"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 181) OTC triage is BEST categorized as:",
+      "option_a": "Vaccination services",
+      "option_b": "OTC triage",
+      "option_c": "Minor ailments",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "B",
+      "explanation": "OTC triage refers to: Assess symptoms and refer when red flags present"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 182) Minor ailments is BEST categorized as:",
+      "option_a": "Adherence support",
+      "option_b": "OTC triage",
+      "option_c": "Minor ailments",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "C",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 183) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "Minor ailments: Screen contraindications, provide counseling, document and report",
+      "option_c": "OTC triage: Screen contraindications, provide counseling, document and report",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 184) Which option is MOST appropriate regarding OTC triage?",
+      "option_a": "Provide evidence-based self-care recommendations",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Reduce dispensing errors with standardized processes.",
+      "option_d": "Use checklists, barcode verification, and counseling",
+      "correct_answer": "B",
+      "explanation": "Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 185) Which statement is TRUE?",
+      "option_a": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_b": "Pharmacy workflow safety: Assess symptoms and refer when red flags present",
+      "option_c": "OTC triage: Assess symptoms and refer when red flags present",
+      "option_d": "Minor ailments: Identify barriers and use interventions (reminders, simplification)",
+      "correct_answer": "C",
+      "explanation": "OTC triage: Use SCHOLAR-MAC or similar frameworks; document counseling."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 186) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "D",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 187) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 188) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Screen contraindications, provide counseling, document and report",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Identify barriers and use interventions (reminders, simplification)",
+      "option_d": "Motivational interviewing can help.",
+      "correct_answer": "B",
+      "explanation": "Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 189) Which statement is TRUE?",
+      "option_a": "Adherence support: Provide evidence-based self-care recommendations",
+      "option_b": "OTC triage: Provide evidence-based self-care recommendations",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Adherence support: Screen contraindications, provide counseling, document and report",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 190) Vaccination services is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Vaccination services",
+      "option_c": "OTC triage",
+      "option_d": "Pharmacy workflow safety",
+      "correct_answer": "B",
+      "explanation": "Vaccination services refers to: Screen contraindications, provide counseling, document and report"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 191) Which option is MOST appropriate regarding Minor ailments?",
+      "option_a": "Know scope of practice and referral criteria.",
+      "option_b": "Use SCHOLAR-MAC or similar frameworks; document counseling.",
+      "option_c": "Provide evidence-based self-care recommendations",
+      "option_d": "Maintain cold chain and follow schedules.",
+      "correct_answer": "A",
+      "explanation": "Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 192) Which statement is TRUE?",
+      "option_a": "Vaccination services: Assess symptoms and refer when red flags present",
+      "option_b": "Minor ailments: Assess symptoms and refer when red flags present",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Vaccination services: Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "Minor ailments: Know scope of practice and referral criteria."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 193) Adherence support is BEST categorized as:",
+      "option_a": "Minor ailments",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "OTC triage",
+      "option_d": "Adherence support",
+      "correct_answer": "D",
+      "explanation": "Adherence support refers to: Identify barriers and use interventions (reminders, simplification)"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 194) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Reduce dispensing errors with standardized processes.",
+      "option_b": "Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 195) Which option is MOST appropriate regarding Adherence support?",
+      "option_a": "Motivational interviewing can help.",
+      "option_b": "Maintain cold chain and follow schedules.",
+      "option_c": "Use checklists, barcode verification, and counseling",
+      "option_d": "Assess symptoms and refer when red flags present",
+      "correct_answer": "A",
+      "explanation": "Motivational interviewing can help."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 196) Minor ailments is BEST categorized as:",
+      "option_a": "OTC triage",
+      "option_b": "Pharmacy workflow safety",
+      "option_c": "Vaccination services",
+      "option_d": "Minor ailments",
+      "correct_answer": "D",
+      "explanation": "Minor ailments refers to: Provide evidence-based self-care recommendations"
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 197) Which option is MOST appropriate regarding Pharmacy workflow safety?",
+      "option_a": "Provide evidence-based self-care recommendations",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Maintain cold chain and follow schedules.",
+      "option_d": "Reduce dispensing errors with standardized processes.",
+      "correct_answer": "D",
+      "explanation": "Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 198) Which statement is TRUE?",
+      "option_a": "Adherence support: Use checklists, barcode verification, and counseling",
+      "option_b": "Adherence support: Identify barriers and use interventions (reminders, simplification)",
+      "option_c": "Vaccination services: Screen contraindications, provide counseling, document and report",
+      "option_d": "OTC triage: Use checklists, barcode verification, and counseling",
+      "correct_answer": "C",
+      "explanation": "Vaccination services: Maintain cold chain and follow schedules."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 199) Which statement is TRUE?",
+      "option_a": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "option_b": "Vaccination services: Provide evidence-based self-care recommendations",
+      "option_c": "Minor ailments: Provide evidence-based self-care recommendations",
+      "option_d": "Pharmacy workflow safety: Use checklists, barcode verification, and counseling",
+      "correct_answer": "A",
+      "explanation": "Pharmacy workflow safety: Reduce dispensing errors with standardized processes."
+    },
+    {
+      "question": "(Community Pharmacy Practice Item 200) Which option is MOST appropriate regarding Vaccination services?",
+      "option_a": "Maintain cold chain and follow schedules.",
+      "option_b": "Screen contraindications, provide counseling, document and report",
+      "option_c": "Know scope of practice and referral criteria.",
+      "option_d": "Provide evidence-based self-care recommendations",
+      "correct_answer": "A",
+      "explanation": "Maintain cold chain and follow schedules."
+    }
+  ]
+}
