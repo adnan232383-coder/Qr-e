@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 62-year-old postmenopausal female presents with new-onset vaginal bleeding. She has a history of obesity, nulliparity, and Type 2 Diabetes. What is the most important next step in her evaluation?",
+    "option_a": "Repeat Pap smear",
+    "option_b": "Transvaginal Ultrasound or Endometrial Biopsy",
+    "option_c": "Serum CA-125 level",
+    "option_d": "Reassurance that this is likely vaginal atrophy",
+    "correct_answer": "B",
+    "explanation": "Postmenopausal bleeding is the classic presenting symptom of endometrial cancer. Evaluation of the endometrial stripe via ultrasound or direct tissue biopsy is mandatory."
+  },
+  {
+    "question": "Which of the following is the most common histological type of Endometrial Cancer?",
+    "option_a": "Serous carcinoma",
+    "option_b": "Endometrioid adenocarcinoma",
+    "option_c": "Clear cell carcinoma",
+    "option_d": "Mucinous carcinoma",
+    "correct_answer": "B",
+    "explanation": "Endometrioid adenocarcinoma (Type I) is the most frequent type and is strongly associated with unopposed estrogen exposure."
+  },
+  {
+    "question": "A 55-year-old woman complains of severe hot flashes, night sweats, and vaginal dryness that interfere with her quality of life. She has no history of breast cancer or liver disease and still has her uterus. What is the most appropriate HRT regimen?",
+    "option_a": "Estrogen-only therapy",
+    "option_b": "Combined Estrogen and Progestogen therapy",
+    "option_c": "High-dose Testosterone",
+    "option_d": "Raloxifene",
+    "correct_answer": "B",
+    "explanation": "In women with an intact uterus, progestogen must be added to estrogen therapy to protect the endometrium from hyperplasia and cancer."
+  },
+  {
+    "question": "Which of the following tumor markers is most useful for monitoring the response to treatment in a patient with epithelial Ovarian Cancer?",
+    "option_a": "AFP (Alpha-fetoprotein)",
+    "option_b": "CA-125",
+    "option_c": "hCG",
+    "option_d": "CEA",
+    "correct_answer": "B",
+    "explanation": "CA-125 is elevated in about 80% of women with epithelial ovarian cancer and is used to monitor recurrence and treatment efficacy."
+  },
+  {
+    "question": "A 22-year-old female presents with primary infertility and signs of virilization (acne, hirsutism). Laboratory tests show elevated 17-hydroxyprogesterone levels. Diagnosis?",
+    "option_a": "PCOS",
+    "option_b": "Non-classic Congenital Adrenal Hyperplasia (CAH)",
+    "option_c": "Sertoli-Leydig cell tumor",
+    "option_d": "Cushing's disease",
+    "correct_answer": "B",
+    "explanation": "Elevated 17-OHP is the hallmark of 21-hydroxylase deficiency, the most common cause of CAH, which can present as infertility and hyperandrogenism."
+  },
+  {
+    "question": "What is the 'Gold Standard' for the diagnosis of tubal factor infertility (occlusion of the fallopian tubes)?",
+    "option_a": "Transvaginal ultrasound",
+    "option_b": "Hysterosalpingography (HSG) or Laparoscopy with chromotubation",
+    "option_c": "Serum progesterone levels",
+    "option_d": "Basal body temperature charting",
+    "correct_answer": "B",
+    "explanation": "HSG uses contrast to visualize the uterine cavity and tubal patency; laparoscopy allows for direct visualization and dye test."
+  },
+  {
+    "question": "A 65-year-old patient complains of a 'bulge' sensation in the vagina and difficulty with bowel movements (splinting). This is most likely indicative of a:",
+    "option_a": "Cystocele",
+    "option_b": "Rectocele",
+    "option_c": "Uterine prolapse",
+    "option_d": "Bartholin cyst",
+    "correct_answer": "B",
+    "explanation": "A rectocele is the herniation of the rectum into the posterior vaginal wall, often causing defecatory dysfunction."
+  },
+  {
+    "question": "Which of the following is a classic clinical finding in 'Stress Urinary Incontinence'?",
+    "option_a": "Involuntary leak following an overwhelming urge to void",
+    "option_b": "Involuntary leak with coughing, sneezing, or lifting",
+    "option_c": "Constant dribbling due to an overdistended bladder",
+    "option_d": "Leakage only during sleep",
+    "correct_answer": "B",
+    "explanation": "Stress incontinence is due to urethral hypermobility or sphincter deficiency when intra-abdominal pressure increases."
+  },
+  {
+    "question": "A patient is diagnosed with 'Lichen Sclerosus' of the vulva. What is the first-line treatment to prevent progression to Vulvar Squamous Cell Carcinoma?",
+    "option_a": "Antifungal creams",
+    "option_b": "High-potency topical Corticosteroids (e.g., Clobetasol)",
+    "option_c": "Surgical excision of the entire vulva",
+    "option_d": "Estrogen cream only",
+    "correct_answer": "B",
+    "explanation": "Lichen sclerosus requires long-term management with potent steroids to relieve symptoms and reduce the chronic inflammation that predisposes to cancer."
+  },
+  {
+    "question": "Which of the following describes 'Stage I' Cervical Cancer according to FIGO?",
+    "option_a": "The carcinoma has extended to the pelvic wall",
+    "option_b": "The carcinoma is strictly confined to the cervix",
+    "option_c": "The carcinoma involves the lower third of the vagina",
+    "option_d": "The carcinoma has invaded the bladder mucosa",
+    "correct_answer": "B",
+    "explanation": "In Stage I, the malignancy is limited to the cervix uteri; sub-stages (IA, IB) depend on the depth of invasion and lesion size."
+  },
+  {
+    "question": "What is the primary risk factor for the development of Vulvar Cancer in younger women?",
+    "option_a": "Obesity",
+    "option_b": "Human Papillomavirus (HPV) infection",
+    "option_c": "Multiparity",
+    "option_d": "Early menopause",
+    "correct_answer": "B",
+    "explanation": "In younger patients, vulvar intraepithelial neoplasia (VIN) and cancer are strongly linked to high-risk HPV strains (e.g., 16 and 18)."
+  },
+  {
+    "question": "A 35-year-old female presents with cyclic pelvic pain and 'chocolate cysts' noted on ultrasound. Diagnosis?",
+    "option_a": "Ovarian teratoma",
+    "option_b": "Endometrioma (Endometriosis of the ovary)",
+    "option_c": "Serous cystadenoma",
+    "option_d": "Polycystic ovaries",
+    "correct_answer": "B",
+    "explanation": "Endometriomas are filled with old, dark blood, giving them a chocolate-like appearance; they are a sign of significant pelvic endometriosis."
+  },
+  {
+    "question": "Which of the following is true for 'Paget's Disease' of the vulva?",
+    "option_a": "It is always benign",
+    "option_b": "It is an intraepithelial neoplasia often appearing as a red, itchy 'eczematoid' plaque",
+    "option_c": "It is a viral infection",
+    "option_d": "It is treated with simple antibiotics",
+    "correct_answer": "B",
+    "explanation": "Paget's disease is rare and must be distinguished from chronic dermatitis; it can be associated with an underlying adenocarcinoma."
+  },
+  {
+    "question": "What is the medication of choice for 'Urge Incontinence' (Overactive Bladder) that does not respond to bladder training?",
+    "option_a": "Bethanechol",
+    "option_b": "Antimuscarinics (e.g., Oxybutynin) or Beta-3 agonists (e.g., Mirabegron)",
+    "option_c": "Pseudoephedrine",
+    "option_d": "Topical Progesterone",
+    "correct_answer": "B",
+    "explanation": "Antimuscarinics inhibit detrusor muscle contractions, reducing the frequency and urgency of urination."
+  },
+  {
+    "question": "A patient with 'Polycystic Ovary Syndrome' (PCOS) is at significantly increased long-term risk for which type of malignancy?",
+    "option_a": "Cervical cancer",
+    "option_b": "Endometrial cancer",
+    "option_c": "Breast cancer",
+    "option_d": "Liver cancer",
+    "correct_answer": "B",
+    "explanation": "Chronic anovulation leads to unopposed estrogen exposure (no progesterone to balance it), which causes endometrial hyperplasia and potential progression to cancer."
+  },
+  {
+    "question": "Which chromosome is usually analyzed in the workup of 'Premature Ovarian Insufficiency' (POI) in a woman under 30?",
+    "option_a": "Chromosome 21",
+    "option_b": "X Chromosome (Karyotype)",
+    "option_c": "Chromosome 15",
+    "option_d": "None; only blood sugar is checked",
+    "correct_answer": "B",
+    "explanation": "Turner syndrome mosaics or Fragile X premutations are common genetic causes of early ovarian failure."
+  },
+  {
+    "question": "What is the 'definitive' surgical treatment for a patient with symptomatic uterine prolapse who has completed childbearing?",
+    "option_a": "Pessary insertion",
+    "option_b": "Vaginal or Abdominal Hysterectomy with vault suspension",
+    "option_c": "D&C",
+    "option_d": "Cervical cerclage",
+    "correct_answer": "B",
+    "explanation": "Removal of the uterus and proper support of the vaginal vault is a definitive solution for advanced prolapse."
+  },
+  {
+    "question": "A patient is found to have a 'Meigs Syndrome'. What is the classic triad?",
+    "option_a": "Fever, jaundice, and pain",
+    "option_b": "Ovarian fibroma, Ascites, and Pleural Effusion",
+    "option_c": "Weight gain, diabetes, and hirsutism",
+    "option_d": "Headache, edema, and proteinuria",
+    "correct_answer": "B",
+    "explanation": "Meigs syndrome involves a benign ovarian tumor where the fluid resolve completely after tumor removal."
+  },
+  {
+    "question": "Which of the following is the most common cause of 'Precocious Puberty' (onset before age 8 in girls)?",
+    "option_a": "Brain tumor",
+    "option_b": "Idiopathic (Central Precocious Puberty)",
+    "option_c": "Adrenal hyperplasia",
+    "option_d": "Eating too much chicken",
+    "correct_answer": "B",
+    "explanation": "In most girls, the early activation of the HPO axis has no identifiable pathological cause (idiopathic)."
+  },
+  {
+    "question": "What is the mechanism of action of 'Clomiphene Citrate' for ovulation induction?",
+    "option_a": "Directly stimulates the ovaries",
+    "option_b": "Blocks estrogen receptors in the hypothalamus, increasing FSH/LH release",
+    "option_c": "Decreases insulin resistance",
+    "option_d": "Injectable synthetic progesterone",
+    "correct_answer": "B",
+    "explanation": "By 'tricking' the brain into thinking estrogen is low, it triggers the release of gonadotropins to stimulate follicles."
+  },
+  {
+    "question": "A 16-year-old girl with primary amenorrhea is found to have a 46,XY karyotype and high testosterone levels, with female external genitalia. Diagnosis?",
+    "option_a": "Turner Syndrome",
+    "option_b": "Complete Androgen Insensitivity Syndrome (CAIS)",
+    "option_c": "Müllerian Agenesis",
+    "option_d": "Swyer Syndrome",
+    "correct_answer": "B",
+    "explanation": "In CAIS, the body is completely resistant to androgens, so the fetus develops external female features despite being genetically male."
+  },
+  {
+    "question": "Which of the following is true for 'Ovarian Torsion'?",
+    "option_a": "It is a gradual process with mild pain",
+    "option_b": "It is a surgical emergency characterized by sudden, severe pelvic pain and nausea",
+    "option_c": "It is always treated with antibiotics",
+    "option_d": "It only occurs in postmenopausal women",
+    "correct_answer": "B",
+    "explanation": "Torsion involves twisting of the vascular pedicle, leading to ischemia and potential necrosis of the ovary."
+  },
+  {
+    "question": "What is the primary medication used to treat 'Asymptomatic' Gonorrhea in a gynecological patient?",
+    "option_a": "Azithromycin only",
+    "option_b": "Ceftriaxone (500mg IM) single dose",
+    "option_c": "Penicillin G",
+    "option_d": "Metronidazole",
+    "correct_answer": "B",
+    "explanation": "Ceftriaxone is the first-line treatment for Neisseria gonorrhoeae; co-treatment for Chlamydia is often added."
+  },
+  {
+    "question": "Which of the following is a symptom of 'Bacterial Vaginosis'?",
+    "option_a": "Thick, white, 'cottage cheese' discharge",
+    "option_b": "Thin, gray-white discharge with a 'fishy' odor",
+    "option_c": "Green, frothy discharge with strawberry spots",
+    "option_d": "Painful blisters",
+    "correct_answer": "B",
+    "explanation": "Bacterial Vaginosis is due to an overgrowth of Gardnerella vaginalis and loss of protective Lactobacilli."
+  },
+  {
+    "question": "What is the significance of the 'Q-tip test' in Urogynecology?",
+    "option_a": "To test for Chlamydia",
+    "option_b": "To assess urethral hypermobility (>30 degrees) in stress incontinence",
+    "option_c": "To clean the cervix",
+    "option_d": "To test for pregnancy",
+    "correct_answer": "B",
+    "explanation": "A high angle of movement indicates poor support of the urethra-vesical junction."
+  },
+  {
+    "question": "A 30-year-old female presents with chronic pelvic pain, dysmenorrhea, and dyspareunia (painful sex). Most likely diagnosis?",
+    "option_a": "Uterine polyps",
+    "option_b": "Endometriosis",
+    "option_c": "Cervicitis",
+    "option_d": "Ovarian cancer",
+    "correct_answer": "B",
+    "explanation": "Endometriosis is a common cause of chronic pain and is characterized by endometrial tissue outside the uterine cavity."
+  },
+  {
+    "question": "Which 'Ovarian' germ cell tumor is the most common and often contains hair, teeth, and sebum?",
+    "option_a": "Dysgerminoma",
+    "option_b": "Mature Cystic Teratoma (Dermoid Cyst)",
+    "option_c": "Yolk sac tumor",
+    "option_d": "Choriocarcinoma",
+    "correct_answer": "B",
+    "explanation": "Dermoid cysts are benign but can cause torsion or rupture; they are easily identified on ultrasound or CT by the presence of fat/calcification."
+  },
+  {
+    "question": "What is the primary treatment for 'Gestational Trophoblastic Neoplasia' (e.g., Choriocarcinoma) after a molar pregnancy?",
+    "option_a": "Radical Hysterectomy",
+    "option_b": "Chemotherapy (e.g., Methotrexate)",
+    "option_c": "Radiation only",
+    "option_d": "Wait and see",
+    "correct_answer": "B",
+    "explanation": "Trophoblastic tumors are highly sensitive to chemotherapy, which is the mainstay of treatment even in metastatic disease."
+  },
+  {
+    "question": "Which of the following is true regarding 'HPV Vaccination'?",
+    "option_a": "It is only for girls",
+    "option_b": "It is most effective when given before the onset of sexual activity (ages 9-12)",
+    "option_c": "It cures existing cervical cancer",
+    "option_d": "It replaces the need for Pap smears",
+    "correct_answer": "B",
+    "explanation": "The vaccine prevents the most common cancer-causing strains (HPV 16, 18) but does not eliminate the need for regular screening."
+  },
+  {
+    "question": "A patient has a 'Bartholin Gland Abscess'. What is the most appropriate management?",
+    "option_a": "Oral antibiotics only",
+    "option_b": "Incision and Drainage with Word catheter placement or Marsupialization",
+    "option_c": "Immediate total vulvectomy",
+    "option_d": "Warm compresses only",
+    "correct_answer": "B",
+    "explanation": "Simple drainage often results in recurrence; the Word catheter allows a permanent epithelialized tract to form."
+  },
+  {
+    "question": "Which of the following is a classic finding in 'Asherman Syndrome'?",
+    "option_a": "Heavy bleeding",
+    "option_b": "Secondary amenorrhea and infertility following a vigorous D&C",
+    "option_c": "High fever",
+    "option_d": "Enlarged uterus",
+    "correct_answer": "B",
+    "explanation": "Asherman involves intrauterine adhesions (scarring) that prevent the endometrium from building up."
+  },
+  {
+    "question": "What is the first-line medication for 'Hirsutism' in a woman with PCOS who does not wish to conceive?",
+    "option_a": "Metformin",
+    "option_b": "Combined Oral Contraceptives (COCs) + Spironolactone",
+    "option_c": "Testosterone injections",
+    "option_d": "Clomiphene",
+    "correct_answer": "B",
+    "explanation": "COCs suppress ovarian androgen production, and Spironolactone blocks the androgen receptor."
+  },
+  {
+    "question": "Which of the following describes 'Atypical Squamous Cells of Undetermined Significance' (ASC-US) on a Pap smear in a 30-year-old woman?",
+    "option_a": "Definite cancer",
+    "option_b": "A borderline result that usually requires 'reflex HPV testing'",
+    "option_c": "Requires immediate hysterectomy",
+    "option_d": "Normal result",
+    "correct_answer": "B",
+    "explanation": "If the HPV test is negative, the patient can return to routine screening; if positive, colposcopy is indicated."
+  },
+  {
+    "question": "A patient with 'Uterine Leiomyomas' (Fibroids) is undergoing a 'Myomectomy'. What is the primary benefit of this procedure over Hysterectomy?",
+    "option_a": "Lower risk of bleeding",
+    "option_b": "Preservation of the uterus for future fertility",
+    "option_c": "It is a faster surgery",
+    "option_d": "Fibroids never grow back",
+    "correct_answer": "B",
+    "explanation": "Myomectomy removes only the fibroids, keeping the uterus intact for women who wish to conceive."
+  },
+  {
+    "question": "Which of the following is the most effective form of 'Permanent' contraception?",
+    "option_a": "Condoms",
+    "option_b": "Bilateral Tubal Ligation or Salpingectomy",
+    "option_c": "Mirena IUD",
+    "option_d": "Spermicide",
+    "correct_answer": "B",
+    "explanation": "Tubal surgery provides permanent sterility, although modern LARC (IUD/Implant) is equally effective while being reversible."
+  },
+  {
+    "question": "What is the primary side effect of 'Copper IUD' (ParaGard) that leads many women to discontinue its use?",
+    "option_a": "Weight gain",
+    "option_b": "Increased menstrual bleeding and cramping",
+    "option_c": "Amenorrhea",
+    "option_d": "Hair loss",
+    "correct_answer": "B",
+    "explanation": "Unlike hormonal IUDs, the copper IUD often increases the volume and pain of menstrual cycles."
+  },
+  {
+    "question": "Which of the following findings on an 'Arterial Blood Gas' (ABG) is considered normal in a pregnant woman?",
+    "option_a": "Metabolic acidosis",
+    "option_b": "Mild Respiratory Alkalosis (pH 7.40-7.45, Low CO2)",
+    "option_c": "Respiratory acidosis",
+    "option_d": "Low pH and high CO2",
+    "correct_answer": "B",
+    "explanation": "Increased minute ventilation in pregnancy (progesterone-driven) leads to a state of chronic mild respiratory alkalosis."
+  },
+  {
+    "question": "A patient is undergoing 'Colposcopy'. What is the purpose of applying 'Acetic Acid' (vinegar) to the cervix?",
+    "option_a": "To clean the area",
+    "option_b": "To identify 'Acetowhite' areas (suspicious for CIN)",
+    "option_c": "To test the pH",
+    "option_d": "To stop bleeding",
+    "correct_answer": "B",
+    "explanation": "Abnormal cells with high nuclear density turn white when exposed to acetic acid, guiding the biopsy."
+  },
+  {
+    "question": "Which of the following describes 'Cystocele'?",
+    "option_a": "Herniation of the bladder into the anterior vaginal wall",
+    "option_b": "Herniation of the rectum into the vagina",
+    "option_c": "Ovarian cyst",
+    "option_d": "Infection of the cervix",
+    "correct_answer": "A",
+    "explanation": "Cystoceles are often associated with stress incontinence and a feeling of pelvic pressure."
+  },
+  {
+    "question": "What is the 'target' fasting blood glucose level for a woman with Gestational Diabetes?",
+    "option_a": "< 70 mg/dL",
+    "option_b": "< 95 mg/dL",
+    "option_c": "< 120 mg/dL",
+    "option_d": "< 200 mg/dL",
+    "correct_answer": "B",
+    "explanation": "Strict control is necessary to prevent fetal macrosomia and neonatal hypoglycemia."
+  },
+  {
+    "question": "Which hormone is tested in the 'Progesterone Challenge Test' for secondary amenorrhea?",
+    "option_a": "Estrogen levels",
+    "option_b": "Whether the patient bleeds after stopping a course of Progestin (checks for estrogen-primed endometrium)",
+    "option_c": "hCG",
+    "option_d": "Prolactin",
+    "correct_answer": "B",
+    "explanation": "A positive bleed indicates that the ovaries are producing estrogen and the outflow tract is patent."
+  },
+  {
+    "question": "Which of the following is true regarding 'Granulosa Cell Tumors' of the ovary?",
+    "option_a": "They produce excessive testosterone",
+    "option_b": "They are estrogen-secreting and can cause postmenopausal bleeding or precocious puberty",
+    "option_c": "They only occur in infants",
+    "option_d": "They are always highly aggressive",
+    "correct_answer": "B",
+    "explanation": "Granulosa cell tumors are 'sex-cord stromal' tumors that can lead to endometrial hyperplasia due to the estrogen they produce."
+  },
+  {
+    "question": "What is the first-line antibiotic for 'Pelvic Inflammatory Disease' (PID) in an outpatient setting?",
+    "option_a": "Ceftriaxone (IM) + Doxycycline (Oral) + Metronidazole (Oral)",
+    "option_b": "Amoxicillin only",
+    "option_c": "Vancomycin",
+    "option_d": "Fluconazole",
+    "correct_answer": "A",
+    "explanation": "This combination provides broad-spectrum coverage against N. gonorrhoeae, C. trachomatis, and anaerobes."
+  },
+  {
+    "question": "A patient with 'Hydatidiform Mole' (Molar Pregnancy) should be monitored with weekly hCG levels until they reach zero because of the risk of:",
+    "option_a": "Diabetes",
+    "option_b": "Gestational Trophoblastic Neoplasia (Choriocarcinoma)",
+    "option_c": "Twin pregnancy",
+    "option_d": "Kidney failure",
+    "correct_answer": "B",
+    "explanation": "hCG levels serve as a highly sensitive marker for residual or persistent molar tissue."
+  },
+  {
+    "question": "Which of the following is true for 'Vulvar Lichen Planus'?",
+    "option_a": "It is a fungal infection",
+    "option_b": "It is an inflammatory condition that can cause painful erosions and vaginal scarring (Wickham striae)",
+    "option_c": "It is only seen in adolescents",
+    "option_d": "It is treated with broad-spectrum antibiotics",
+    "correct_answer": "B",
+    "explanation": "Erosive Lichen Planus is a chronic autoimmune condition that can significantly distort the vulvar anatomy."
+  },
+  {
+    "question": "What is the primary side effect of 'GnRH Agonists' (e.g., Lupron) used to treat endometriosis?",
+    "option_a": "Heavy bleeding",
+    "option_b": "Hypoestrogenic symptoms (hot flashes, bone loss)",
+    "option_c": "Weight gain",
+    "option_d": "Hirsutism",
+    "correct_answer": "B",
+    "explanation": "Lupron initially causes a 'flare' then shuts down the HPO axis, leading to a temporary 'medical menopause'."
+  },
+  {
+    "question": "Which of the following tumor markers is associated with 'Yolk Sac Tumors' of the ovary?",
+    "option_a": "hCG",
+    "option_b": "AFP (Alpha-fetoprotein)",
+    "option_c": "CA-125",
+    "option_d": "LDH",
+    "correct_answer": "B",
+    "explanation": "AFP is the classic marker for yolk sac tumors, which are aggressive germ cell malignancies."
+  },
+  {
+    "question": "A patient presents with a 'painless' vulvar ulcer and lymphadenopathy. Karyotype is 46,XX. RPR is positive. What is the diagnosis?",
+    "option_a": "Herpes",
+    "option_b": "Syphilis",
+    "option_c": "Vulvar cancer",
+    "option_d": "Chancroid (painful)",
+    "correct_answer": "B",
+    "explanation": "The syphilitic chancre is classically painless and firm."
+  },
+  {
+    "question": "What is the 'target' blood pressure in a woman with Chronic Hypertension in pregnancy?",
+    "option_a": "110/70 mmHg",
+    "option_b": "140/90 mmHg (to balance maternal safety and fetal perfusion)",
+    "option_c": "90/60 mmHg",
+    "option_d": "It doesn't matter",
+    "correct_answer": "B",
+    "explanation": "Over-treating BP can lead to placental hypoperfusion; targets are generally higher than in non-pregnant adults."
+  },
+  {
+    "question": "Which of the following describes 'Fitz-Hugh-Curtis' Syndrome?",
+    "option_a": "A type of ovarian cancer",
+    "option_b": "Perihepatitis (liver capsule inflammation) following PID, often with 'violin-string' adhesions",
+    "option_c": "A hormonal disorder",
+    "option_d": "Infection of the bladder",
+    "correct_answer": "B",
+    "explanation": "It is a classic complication of PID, most commonly caused by Chlamydia trachomatis."
+  }
+]
