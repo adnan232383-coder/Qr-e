@@ -421,5 +421,32 @@
     "option_d": "Wait for cardiology consultation",
     "correct_answer": "B",
     "explanation": "Primary PCI is preferred for STEMI if first medical contact-to-device time is ≤120 minutes. With 45-minute transfer, total time would be approximately 90-100 minutes, within acceptable limits. If transfer time would exceed 120 minutes, fibrinolysis should be given and patient transferred for rescue PCI if needed."
+  },
+  {
+    "question": "A 75-year-old woman with atrial fibrillation and CKD stage 4 (eGFR 25 mL/min) needs anticoagulation. CHA₂DS₂-VASc score is 5. Which anticoagulant requires dose adjustment and is appropriate for this patient?",
+    "option_a": "Dabigatran 150 mg twice daily",
+    "option_b": "Apixaban 2.5 mg twice daily",
+    "option_c": "Rivaroxaban 20 mg daily",
+    "option_d": "No anticoagulation due to CKD",
+    "correct_answer": "B",
+    "explanation": "Apixaban is preferred in advanced CKD as it has minimal renal excretion (27%). Dose reduction to 2.5 mg BID is indicated if 2 of 3 criteria met: age ≥80, weight ≤60 kg, creatinine ≥1.5 mg/dL. Dabigatran is contraindicated if CrCl <30 mL/min. Rivaroxaban needs dose adjustment at CrCl 15-50."
+  },
+  {
+    "question": "A 62-year-old man with diabetes has fasting glucose values of 142, 138, and 145 mg/dL on three separate occasions over 2 months. HbA1c is 7.2%. According to ADA criteria, what confirms the diagnosis of diabetes mellitus?",
+    "option_a": "Fasting glucose ≥126 mg/dL on a single occasion",
+    "option_b": "Fasting glucose ≥126 mg/dL confirmed on two separate occasions",
+    "option_c": "HbA1c alone is insufficient for diagnosis",
+    "option_d": "Oral glucose tolerance test is required",
+    "correct_answer": "B",
+    "explanation": "Diabetes diagnosis requires: FPG ≥126 mg/dL, 2-hour OGTT ≥200 mg/dL, HbA1c ≥6.5%, or random glucose ≥200 with symptoms. In asymptomatic patients, the same test should be repeated or two different tests used for confirmation. This patient meets criteria with confirmed FPG and elevated HbA1c."
+  },
+  {
+    "question": "A 44-year-old man presents with sudden severe flank pain radiating to the groin. CT shows a 4mm distal ureteral stone. Labs: creatinine 1.0 mg/dL, potassium 3.8 mEq/L, calcium 11.2 mg/dL, phosphorus 2.2 mg/dL. PTH is elevated. What is the most likely underlying cause of his kidney stone?",
+    "option_a": "Dietary calcium excess",
+    "option_b": "Primary hyperparathyroidism",
+    "option_c": "Vitamin D toxicity",
+    "option_d": "Thiazide diuretic use",
+    "correct_answer": "B",
+    "explanation": "Hypercalcemia with elevated PTH and low phosphorus indicates primary hyperparathyroidism, which causes hypercalciuria and calcium-containing kidney stones. Most common cause is parathyroid adenoma. Workup includes 24-hour urine calcium and localization imaging. Parathyroidectomy is often indicated."
   }
 ]
