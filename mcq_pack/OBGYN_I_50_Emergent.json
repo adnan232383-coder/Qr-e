@@ -1,0 +1,652 @@
+[
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 24-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for prenatal care screening? (Q001)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Best management/diagnosis for prenatal care screening",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Contraindicated step in prenatal care screening"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for prenatal care screening. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 45-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ectopic pregnancy? (Q002)",
+    "options": {
+      "A": "Contraindicated step in ectopic pregnancy",
+      "B": "Best management/diagnosis for ectopic pregnancy",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ectopic pregnancy. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for spontaneous abortion? (Q003)",
+    "options": {
+      "A": "Contraindicated step in spontaneous abortion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Best management/diagnosis for spontaneous abortion"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spontaneous abortion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for gestational diabetes? (Q004)",
+    "options": {
+      "A": "Contraindicated step in gestational diabetes",
+      "B": "Best management/diagnosis for gestational diabetes",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for gestational diabetes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for preeclampsia? (Q005)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in preeclampsia",
+      "D": "Best management/diagnosis for preeclampsia"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for preeclampsia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for normal labor stages? (Q006)",
+    "options": {
+      "A": "Best management/diagnosis for normal labor stages",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in normal labor stages",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for normal labor stages. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for postpartum contraception? (Q007)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in postpartum contraception",
+      "D": "Best management/diagnosis for postpartum contraception"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for postpartum contraception. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for PCOS diagnosis? (Q008)",
+    "options": {
+      "A": "Best management/diagnosis for PCOS diagnosis",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Contraindicated step in PCOS diagnosis"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for PCOS diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for endometriosis? (Q009)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Best management/diagnosis for endometriosis",
+      "D": "Contraindicated step in endometriosis"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for endometriosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 22-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for abnormal uterine bleeding? (Q010)",
+    "options": {
+      "A": "Best management/diagnosis for abnormal uterine bleeding",
+      "B": "Contraindicated step in abnormal uterine bleeding",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for abnormal uterine bleeding. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 68-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Pap smear and HPV? (Q011)",
+    "options": {
+      "A": "Contraindicated step in Pap smear and HPV",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for Pap smear and HPV",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Pap smear and HPV. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ovarian torsion? (Q012)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in ovarian torsion",
+      "D": "Best management/diagnosis for ovarian torsion"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ovarian torsion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for pelvic inflammatory disease? (Q013)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for pelvic inflammatory disease",
+      "D": "Contraindicated step in pelvic inflammatory disease"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pelvic inflammatory disease. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 24-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Rh incompatibility? (Q014)",
+    "options": {
+      "A": "Best management/diagnosis for Rh incompatibility",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in Rh incompatibility",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Rh incompatibility. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for fetal growth assessment? (Q015)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Best management/diagnosis for fetal growth assessment",
+      "C": "Contraindicated step in fetal growth assessment",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for fetal growth assessment. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for prenatal care screening? (Q016)",
+    "options": {
+      "A": "Contraindicated step in prenatal care screening",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Best management/diagnosis for prenatal care screening",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for prenatal care screening. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ectopic pregnancy? (Q017)",
+    "options": {
+      "A": "Contraindicated step in ectopic pregnancy",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for ectopic pregnancy",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ectopic pregnancy. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for spontaneous abortion? (Q018)",
+    "options": {
+      "A": "Contraindicated step in spontaneous abortion",
+      "B": "Best management/diagnosis for spontaneous abortion",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spontaneous abortion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for gestational diabetes? (Q019)",
+    "options": {
+      "A": "Best management/diagnosis for gestational diabetes",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in gestational diabetes",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for gestational diabetes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for preeclampsia? (Q020)",
+    "options": {
+      "A": "Best management/diagnosis for preeclampsia",
+      "B": "Contraindicated step in preeclampsia",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for preeclampsia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for normal labor stages? (Q021)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Best management/diagnosis for normal labor stages",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Contraindicated step in normal labor stages"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for normal labor stages. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for postpartum contraception? (Q022)",
+    "options": {
+      "A": "Best management/diagnosis for postpartum contraception",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in postpartum contraception",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for postpartum contraception. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 22-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for PCOS diagnosis? (Q023)",
+    "options": {
+      "A": "Best management/diagnosis for PCOS diagnosis",
+      "B": "Contraindicated step in PCOS diagnosis",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for PCOS diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for endometriosis? (Q024)",
+    "options": {
+      "A": "Best management/diagnosis for endometriosis",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in endometriosis",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for endometriosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for abnormal uterine bleeding? (Q025)",
+    "options": {
+      "A": "Best management/diagnosis for abnormal uterine bleeding",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in abnormal uterine bleeding",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for abnormal uterine bleeding. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 45-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Pap smear and HPV? (Q026)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Contraindicated step in Pap smear and HPV",
+      "D": "Best management/diagnosis for Pap smear and HPV"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Pap smear and HPV. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 72-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ovarian torsion? (Q027)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in ovarian torsion",
+      "D": "Best management/diagnosis for ovarian torsion"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ovarian torsion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for pelvic inflammatory disease? (Q028)",
+    "options": {
+      "A": "Contraindicated step in pelvic inflammatory disease",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for pelvic inflammatory disease",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pelvic inflammatory disease. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 45-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Rh incompatibility? (Q029)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Best management/diagnosis for Rh incompatibility",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Contraindicated step in Rh incompatibility"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Rh incompatibility. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for fetal growth assessment? (Q030)",
+    "options": {
+      "A": "Contraindicated step in fetal growth assessment",
+      "B": "Best management/diagnosis for fetal growth assessment",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for fetal growth assessment. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for prenatal care screening? (Q031)",
+    "options": {
+      "A": "Contraindicated step in prenatal care screening",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Best management/diagnosis for prenatal care screening",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for prenatal care screening. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 24-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ectopic pregnancy? (Q032)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for ectopic pregnancy",
+      "D": "Contraindicated step in ectopic pregnancy"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ectopic pregnancy. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 45-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for spontaneous abortion? (Q033)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in spontaneous abortion",
+      "D": "Best management/diagnosis for spontaneous abortion"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spontaneous abortion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for gestational diabetes? (Q034)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Contraindicated step in gestational diabetes",
+      "C": "Best management/diagnosis for gestational diabetes",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for gestational diabetes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 62-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for preeclampsia? (Q035)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Best management/diagnosis for preeclampsia",
+      "C": "Contraindicated step in preeclampsia",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for preeclampsia. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 18-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for normal labor stages? (Q036)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Contraindicated step in normal labor stages",
+      "C": "Best management/diagnosis for normal labor stages",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for normal labor stages. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 24-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for postpartum contraception? (Q037)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Best management/diagnosis for postpartum contraception",
+      "C": "Contraindicated step in postpartum contraception",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for postpartum contraception. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for PCOS diagnosis? (Q038)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for PCOS diagnosis",
+      "D": "Contraindicated step in PCOS diagnosis"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for PCOS diagnosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 32-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for endometriosis? (Q039)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in endometriosis",
+      "D": "Best management/diagnosis for endometriosis"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for endometriosis. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for abnormal uterine bleeding? (Q040)",
+    "options": {
+      "A": "Contraindicated step in abnormal uterine bleeding",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Best management/diagnosis for abnormal uterine bleeding"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for abnormal uterine bleeding. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Pap smear and HPV? (Q041)",
+    "options": {
+      "A": "Best management/diagnosis for Pap smear and HPV",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Contraindicated step in Pap smear and HPV"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Pap smear and HPV. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 45-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ovarian torsion? (Q042)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Contraindicated step in ovarian torsion",
+      "C": "Best management/diagnosis for ovarian torsion",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ovarian torsion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 18-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for pelvic inflammatory disease? (Q043)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Best management/diagnosis for pelvic inflammatory disease",
+      "C": "Contraindicated step in pelvic inflammatory disease",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pelvic inflammatory disease. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 28-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for Rh incompatibility? (Q044)",
+    "options": {
+      "A": "Contraindicated step in Rh incompatibility",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Best management/diagnosis for Rh incompatibility",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for Rh incompatibility. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 68-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for fetal growth assessment? (Q045)",
+    "options": {
+      "A": "Contraindicated step in fetal growth assessment",
+      "B": "Best management/diagnosis for fetal growth assessment",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for fetal growth assessment. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 55-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for prenatal care screening? (Q046)",
+    "options": {
+      "A": "Contraindicated step in prenatal care screening",
+      "B": "Option that misses a key diagnostic criterion",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Best management/diagnosis for prenatal care screening"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for prenatal care screening. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 18-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for ectopic pregnancy? (Q047)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Best management/diagnosis for ectopic pregnancy",
+      "C": "Contraindicated step in ectopic pregnancy",
+      "D": "Management appropriate for a different obstetric/gynecologic condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ectopic pregnancy. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for spontaneous abortion? (Q048)",
+    "options": {
+      "A": "Best management/diagnosis for spontaneous abortion",
+      "B": "Contraindicated step in spontaneous abortion",
+      "C": "Management appropriate for a different obstetric/gynecologic condition",
+      "D": "Option that misses a key diagnostic criterion"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spontaneous abortion. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 22-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for gestational diabetes? (Q049)",
+    "options": {
+      "A": "Option that misses a key diagnostic criterion",
+      "B": "Management appropriate for a different obstetric/gynecologic condition",
+      "C": "Contraindicated step in gestational diabetes",
+      "D": "Best management/diagnosis for gestational diabetes"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for gestational diabetes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Obstetrics & Gynecology I",
+    "question": "A 35-year-old patient is evaluated in an OB/GYN setting. Which is the most appropriate diagnosis or management for preeclampsia? (Q050)",
+    "options": {
+      "A": "Management appropriate for a different obstetric/gynecologic condition",
+      "B": "Contraindicated step in preeclampsia",
+      "C": "Option that misses a key diagnostic criterion",
+      "D": "Best management/diagnosis for preeclampsia"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for preeclampsia. Distractors reflect common alternatives and pitfalls."
+  }
+]

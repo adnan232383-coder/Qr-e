@@ -1,0 +1,652 @@
+[
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with silhouette sign on chest X-ray? (Q001)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not silhouette sign on chest X-ray",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain silhouette sign on chest X-ray",
+      "D": "Key imaging sign typical for silhouette sign on chest X-ray"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for silhouette sign on chest X-ray. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 28-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with air bronchogram? (Q002)",
+    "options": {
+      "A": "Key imaging sign typical for air bronchogram",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain air bronchogram",
+      "D": "Finding more consistent with an alternative diagnosis, not air bronchogram"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for air bronchogram. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pneumothorax on CXR? (Q003)",
+    "options": {
+      "A": "Normal/benign variant that does not explain pneumothorax on CXR",
+      "B": "Key imaging sign typical for pneumothorax on CXR",
+      "C": "Finding more consistent with an alternative diagnosis, not pneumothorax on CXR",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pneumothorax on CXR. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 62-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pulmonary edema pattern? (Q004)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not pulmonary edema pattern",
+      "B": "Normal/benign variant that does not explain pulmonary edema pattern",
+      "C": "Key imaging sign typical for pulmonary edema pattern",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pulmonary edema pattern. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 32-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with subarachnoid hemorrhage on CT? (Q005)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Key imaging sign typical for subarachnoid hemorrhage on CT",
+      "C": "Finding more consistent with an alternative diagnosis, not subarachnoid hemorrhage on CT",
+      "D": "Normal/benign variant that does not explain subarachnoid hemorrhage on CT"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for subarachnoid hemorrhage on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 22-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with ischemic stroke early CT changes? (Q006)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Key imaging sign typical for ischemic stroke early CT changes",
+      "C": "Normal/benign variant that does not explain ischemic stroke early CT changes",
+      "D": "Finding more consistent with an alternative diagnosis, not ischemic stroke early CT changes"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ischemic stroke early CT changes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 68-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with appendicitis on CT? (Q007)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not appendicitis on CT",
+      "B": "Key imaging sign typical for appendicitis on CT",
+      "C": "Normal/benign variant that does not explain appendicitis on CT",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for appendicitis on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 18-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with cholecystitis on ultrasound? (Q008)",
+    "options": {
+      "A": "Normal/benign variant that does not explain cholecystitis on ultrasound",
+      "B": "Finding more consistent with an alternative diagnosis, not cholecystitis on ultrasound",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Key imaging sign typical for cholecystitis on ultrasound"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for cholecystitis on ultrasound. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with renal colic on CT? (Q009)",
+    "options": {
+      "A": "Normal/benign variant that does not explain renal colic on CT",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Key imaging sign typical for renal colic on CT",
+      "D": "Finding more consistent with an alternative diagnosis, not renal colic on CT"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for renal colic on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with contrast agent reactions? (Q010)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not contrast agent reactions",
+      "B": "Key imaging sign typical for contrast agent reactions",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Normal/benign variant that does not explain contrast agent reactions"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for contrast agent reactions. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 45-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with radiation safety principles? (Q011)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not radiation safety principles",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain radiation safety principles",
+      "D": "Key imaging sign typical for radiation safety principles"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for radiation safety principles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with FAST ultrasound in trauma? (Q012)",
+    "options": {
+      "A": "Normal/benign variant that does not explain FAST ultrasound in trauma",
+      "B": "Finding more consistent with an alternative diagnosis, not FAST ultrasound in trauma",
+      "C": "Key imaging sign typical for FAST ultrasound in trauma",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for FAST ultrasound in trauma. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 35-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with DVT ultrasound findings? (Q013)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not DVT ultrasound findings",
+      "B": "Normal/benign variant that does not explain DVT ultrasound findings",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Key imaging sign typical for DVT ultrasound findings"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for DVT ultrasound findings. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with MRI contraindications? (Q014)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not MRI contraindications",
+      "B": "Key imaging sign typical for MRI contraindications",
+      "C": "Normal/benign variant that does not explain MRI contraindications",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for MRI contraindications. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with spine fracture CT signs? (Q015)",
+    "options": {
+      "A": "Key imaging sign typical for spine fracture CT signs",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain spine fracture CT signs",
+      "D": "Finding more consistent with an alternative diagnosis, not spine fracture CT signs"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spine fracture CT signs. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with silhouette sign on chest X-ray? (Q016)",
+    "options": {
+      "A": "Key imaging sign typical for silhouette sign on chest X-ray",
+      "B": "Finding more consistent with an alternative diagnosis, not silhouette sign on chest X-ray",
+      "C": "Normal/benign variant that does not explain silhouette sign on chest X-ray",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for silhouette sign on chest X-ray. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with air bronchogram? (Q017)",
+    "options": {
+      "A": "Normal/benign variant that does not explain air bronchogram",
+      "B": "Key imaging sign typical for air bronchogram",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Finding more consistent with an alternative diagnosis, not air bronchogram"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for air bronchogram. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 32-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pneumothorax on CXR? (Q018)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not pneumothorax on CXR",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain pneumothorax on CXR",
+      "D": "Key imaging sign typical for pneumothorax on CXR"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pneumothorax on CXR. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pulmonary edema pattern? (Q019)",
+    "options": {
+      "A": "Normal/benign variant that does not explain pulmonary edema pattern",
+      "B": "Key imaging sign typical for pulmonary edema pattern",
+      "C": "Finding more consistent with an alternative diagnosis, not pulmonary edema pattern",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pulmonary edema pattern. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 22-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with subarachnoid hemorrhage on CT? (Q020)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Normal/benign variant that does not explain subarachnoid hemorrhage on CT",
+      "C": "Key imaging sign typical for subarachnoid hemorrhage on CT",
+      "D": "Finding more consistent with an alternative diagnosis, not subarachnoid hemorrhage on CT"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for subarachnoid hemorrhage on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 22-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with ischemic stroke early CT changes? (Q021)",
+    "options": {
+      "A": "Normal/benign variant that does not explain ischemic stroke early CT changes",
+      "B": "Finding more consistent with an alternative diagnosis, not ischemic stroke early CT changes",
+      "C": "Key imaging sign typical for ischemic stroke early CT changes",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ischemic stroke early CT changes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 68-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with appendicitis on CT? (Q022)",
+    "options": {
+      "A": "Normal/benign variant that does not explain appendicitis on CT",
+      "B": "Finding more consistent with an alternative diagnosis, not appendicitis on CT",
+      "C": "Key imaging sign typical for appendicitis on CT",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for appendicitis on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 68-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with cholecystitis on ultrasound? (Q023)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not cholecystitis on ultrasound",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Key imaging sign typical for cholecystitis on ultrasound",
+      "D": "Normal/benign variant that does not explain cholecystitis on ultrasound"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for cholecystitis on ultrasound. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 62-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with renal colic on CT? (Q024)",
+    "options": {
+      "A": "Key imaging sign typical for renal colic on CT",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Finding more consistent with an alternative diagnosis, not renal colic on CT",
+      "D": "Normal/benign variant that does not explain renal colic on CT"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for renal colic on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 28-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with contrast agent reactions? (Q025)",
+    "options": {
+      "A": "Key imaging sign typical for contrast agent reactions",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Finding more consistent with an alternative diagnosis, not contrast agent reactions",
+      "D": "Normal/benign variant that does not explain contrast agent reactions"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for contrast agent reactions. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 45-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with radiation safety principles? (Q026)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not radiation safety principles",
+      "B": "Normal/benign variant that does not explain radiation safety principles",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Key imaging sign typical for radiation safety principles"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for radiation safety principles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 32-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with FAST ultrasound in trauma? (Q027)",
+    "options": {
+      "A": "Key imaging sign typical for FAST ultrasound in trauma",
+      "B": "Finding more consistent with an alternative diagnosis, not FAST ultrasound in trauma",
+      "C": "Normal/benign variant that does not explain FAST ultrasound in trauma",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for FAST ultrasound in trauma. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with DVT ultrasound findings? (Q028)",
+    "options": {
+      "A": "Key imaging sign typical for DVT ultrasound findings",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain DVT ultrasound findings",
+      "D": "Finding more consistent with an alternative diagnosis, not DVT ultrasound findings"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for DVT ultrasound findings. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 18-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with MRI contraindications? (Q029)",
+    "options": {
+      "A": "Normal/benign variant that does not explain MRI contraindications",
+      "B": "Finding more consistent with an alternative diagnosis, not MRI contraindications",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Key imaging sign typical for MRI contraindications"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for MRI contraindications. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with spine fracture CT signs? (Q030)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Key imaging sign typical for spine fracture CT signs",
+      "C": "Finding more consistent with an alternative diagnosis, not spine fracture CT signs",
+      "D": "Normal/benign variant that does not explain spine fracture CT signs"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spine fracture CT signs. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with silhouette sign on chest X-ray? (Q031)",
+    "options": {
+      "A": "Normal/benign variant that does not explain silhouette sign on chest X-ray",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Key imaging sign typical for silhouette sign on chest X-ray",
+      "D": "Finding more consistent with an alternative diagnosis, not silhouette sign on chest X-ray"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for silhouette sign on chest X-ray. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 32-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with air bronchogram? (Q032)",
+    "options": {
+      "A": "Key imaging sign typical for air bronchogram",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain air bronchogram",
+      "D": "Finding more consistent with an alternative diagnosis, not air bronchogram"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for air bronchogram. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 28-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pneumothorax on CXR? (Q033)",
+    "options": {
+      "A": "Key imaging sign typical for pneumothorax on CXR",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain pneumothorax on CXR",
+      "D": "Finding more consistent with an alternative diagnosis, not pneumothorax on CXR"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pneumothorax on CXR. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pulmonary edema pattern? (Q034)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Normal/benign variant that does not explain pulmonary edema pattern",
+      "C": "Finding more consistent with an alternative diagnosis, not pulmonary edema pattern",
+      "D": "Key imaging sign typical for pulmonary edema pattern"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pulmonary edema pattern. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 45-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with subarachnoid hemorrhage on CT? (Q035)",
+    "options": {
+      "A": "Key imaging sign typical for subarachnoid hemorrhage on CT",
+      "B": "Finding more consistent with an alternative diagnosis, not subarachnoid hemorrhage on CT",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Normal/benign variant that does not explain subarachnoid hemorrhage on CT"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for subarachnoid hemorrhage on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 32-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with ischemic stroke early CT changes? (Q036)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Finding more consistent with an alternative diagnosis, not ischemic stroke early CT changes",
+      "C": "Normal/benign variant that does not explain ischemic stroke early CT changes",
+      "D": "Key imaging sign typical for ischemic stroke early CT changes"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for ischemic stroke early CT changes. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 18-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with appendicitis on CT? (Q037)",
+    "options": {
+      "A": "Key imaging sign typical for appendicitis on CT",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Finding more consistent with an alternative diagnosis, not appendicitis on CT",
+      "D": "Normal/benign variant that does not explain appendicitis on CT"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for appendicitis on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with cholecystitis on ultrasound? (Q038)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not cholecystitis on ultrasound",
+      "B": "Key imaging sign typical for cholecystitis on ultrasound",
+      "C": "Normal/benign variant that does not explain cholecystitis on ultrasound",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for cholecystitis on ultrasound. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 22-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with renal colic on CT? (Q039)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not renal colic on CT",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain renal colic on CT",
+      "D": "Key imaging sign typical for renal colic on CT"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for renal colic on CT. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 18-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with contrast agent reactions? (Q040)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Normal/benign variant that does not explain contrast agent reactions",
+      "C": "Key imaging sign typical for contrast agent reactions",
+      "D": "Finding more consistent with an alternative diagnosis, not contrast agent reactions"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for contrast agent reactions. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with radiation safety principles? (Q041)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not radiation safety principles",
+      "B": "Normal/benign variant that does not explain radiation safety principles",
+      "C": "Key imaging sign typical for radiation safety principles",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for radiation safety principles. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with FAST ultrasound in trauma? (Q042)",
+    "options": {
+      "A": "Normal/benign variant that does not explain FAST ultrasound in trauma",
+      "B": "Finding more consistent with an alternative diagnosis, not FAST ultrasound in trauma",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Key imaging sign typical for FAST ultrasound in trauma"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for FAST ultrasound in trauma. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 72-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with DVT ultrasound findings? (Q043)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not DVT ultrasound findings",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Normal/benign variant that does not explain DVT ultrasound findings",
+      "D": "Key imaging sign typical for DVT ultrasound findings"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for DVT ultrasound findings. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 35-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with MRI contraindications? (Q044)",
+    "options": {
+      "A": "Key imaging sign typical for MRI contraindications",
+      "B": "Normal/benign variant that does not explain MRI contraindications",
+      "C": "Imaging feature typical of a different modality or condition",
+      "D": "Finding more consistent with an alternative diagnosis, not MRI contraindications"
+    },
+    "correct_answer": "A",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for MRI contraindications. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with spine fracture CT signs? (Q045)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not spine fracture CT signs",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Key imaging sign typical for spine fracture CT signs",
+      "D": "Normal/benign variant that does not explain spine fracture CT signs"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for spine fracture CT signs. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 35-year-old man presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with silhouette sign on chest X-ray? (Q046)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Key imaging sign typical for silhouette sign on chest X-ray",
+      "C": "Normal/benign variant that does not explain silhouette sign on chest X-ray",
+      "D": "Finding more consistent with an alternative diagnosis, not silhouette sign on chest X-ray"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for silhouette sign on chest X-ray. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with air bronchogram? (Q047)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not air bronchogram",
+      "B": "Key imaging sign typical for air bronchogram",
+      "C": "Normal/benign variant that does not explain air bronchogram",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for air bronchogram. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 22-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pneumothorax on CXR? (Q048)",
+    "options": {
+      "A": "Imaging feature typical of a different modality or condition",
+      "B": "Normal/benign variant that does not explain pneumothorax on CXR",
+      "C": "Finding more consistent with an alternative diagnosis, not pneumothorax on CXR",
+      "D": "Key imaging sign typical for pneumothorax on CXR"
+    },
+    "correct_answer": "D",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pneumothorax on CXR. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 24-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with pulmonary edema pattern? (Q049)",
+    "options": {
+      "A": "Finding more consistent with an alternative diagnosis, not pulmonary edema pattern",
+      "B": "Key imaging sign typical for pulmonary edema pattern",
+      "C": "Normal/benign variant that does not explain pulmonary edema pattern",
+      "D": "Imaging feature typical of a different modality or condition"
+    },
+    "correct_answer": "B",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for pulmonary edema pattern. Distractors reflect common alternatives and pitfalls."
+  },
+  {
+    "course": "Radiology",
+    "question": "A 55-year-old woman presents with acute symptoms. Imaging interpretation is requested. Which finding is most consistent with subarachnoid hemorrhage on CT? (Q050)",
+    "options": {
+      "A": "Normal/benign variant that does not explain subarachnoid hemorrhage on CT",
+      "B": "Imaging feature typical of a different modality or condition",
+      "C": "Key imaging sign typical for subarachnoid hemorrhage on CT",
+      "D": "Finding more consistent with an alternative diagnosis, not subarachnoid hemorrhage on CT"
+    },
+    "correct_answer": "C",
+    "difficulty": "medium",
+    "explanation": "The correct option aligns with core reasoning for subarachnoid hemorrhage on CT. Distractors reflect common alternatives and pitfalls."
+  }
+]
