@@ -1,0 +1,1806 @@
+{
+  "course_name": "Physics for Health Sciences",
+  "course_code": "UG_DENT_Y1_S1_C05",
+  "questions": [
+    {
+      "question": "Which statement best describes Ionizing radiation?",
+      "option_a": "Wavelength and tissue chromophores influence outcome.",
+      "option_b": "Key for radiation protection (distance).",
+      "option_c": "Radiation with enough energy to remove electrons",
+      "option_d": "Half-value layer (HVL)",
+      "correct_answer": "C",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "In Physics for Health Sciences, Ionizing radiation is MOST associated with:",
+      "option_a": "Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Laser–tissue interaction",
+      "option_c": "Ultrasound basics",
+      "option_d": "Relevant to X‑rays and radiation safety.",
+      "correct_answer": "D",
+      "explanation": "Ionizing radiation: Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "Which statement best describes X-ray production?",
+      "option_a": "Units: Gray and Sievert",
+      "option_b": "Electric current and resistance",
+      "option_c": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Intensity decreases with square of distance",
+      "correct_answer": "C",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "In Physics for Health Sciences, X-ray production is MOST associated with:",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "Intensity decreases with square of distance",
+      "option_c": "Absorption/scatter determine effect of lasers",
+      "option_d": "Tube voltage affects photon energy; mA affects quantity.",
+      "correct_answer": "D",
+      "explanation": "X-ray production: Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "Which statement best describes Inverse square law?",
+      "option_a": "ALARA principle",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Intensity decreases with square of distance",
+      "option_d": "Wavelength and tissue chromophores influence outcome.",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "In Physics for Health Sciences, Inverse square law is MOST associated with:",
+      "option_a": "Key for radiation protection (distance).",
+      "option_b": "Attenuation",
+      "option_c": "Used in radiation dosimetry.",
+      "option_d": "Depends on material thickness and atomic number.",
+      "correct_answer": "A",
+      "explanation": "Inverse square law: Key for radiation protection (distance)."
+    },
+    {
+      "question": "Which statement best describes Attenuation?",
+      "option_a": "Reduction of beam intensity by absorption/scatter",
+      "option_b": "Used in radiation dosimetry.",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Ionizing radiation",
+      "correct_answer": "A",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "In Physics for Health Sciences, Attenuation is MOST associated with:",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Tube voltage affects photon energy; mA affects quantity.",
+      "correct_answer": "B",
+      "explanation": "Attenuation: Depends on material thickness and atomic number."
+    },
+    {
+      "question": "Which statement best describes ALARA principle?",
+      "option_a": "Inverse square law",
+      "option_b": "Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Thickness that reduces beam intensity by 50%",
+      "option_d": "Half-value layer (HVL)",
+      "correct_answer": "B",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "In Physics for Health Sciences, ALARA principle is MOST associated with:",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Absorption/scatter determine effect of lasers",
+      "option_c": "ALARA principle",
+      "option_d": "Basic concept in device safety and instrumentation.",
+      "correct_answer": "A",
+      "explanation": "ALARA principle: Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "Which statement best describes Half-value layer (HVL)?",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Ionizing radiation",
+      "correct_answer": "A",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "In Physics for Health Sciences, Half-value layer (HVL) is MOST associated with:",
+      "option_a": "Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Ultrasound basics",
+      "option_c": "Higher HVL indicates more penetrating beam.",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "C",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "Which statement best describes Units: Gray and Sievert?",
+      "option_a": "Ultrasound basics",
+      "option_b": "Intensity decreases with square of distance",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "D",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "In Physics for Health Sciences, Units: Gray and Sievert is MOST associated with:",
+      "option_a": "Intensity decreases with square of distance",
+      "option_b": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "D",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "Which statement best describes Ultrasound basics?",
+      "option_a": "Ionizing radiation",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Tube voltage affects photon energy; mA affects quantity.",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "In Physics for Health Sciences, Ultrasound basics is MOST associated with:",
+      "option_a": "Ionizing radiation",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Inverse square law",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "B",
+      "explanation": "Ultrasound basics: Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "Which statement best describes Laser–tissue interaction?",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Wavelength and tissue chromophores influence outcome.",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "A",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "In Physics for Health Sciences, Laser–tissue interaction is MOST associated with:",
+      "option_a": "Ionizing radiation",
+      "option_b": "Wavelength and tissue chromophores influence outcome.",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "B",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "Which statement best describes Electric current and resistance?",
+      "option_a": "Reduction of beam intensity by absorption/scatter",
+      "option_b": "Relevant to X‑rays and radiation safety.",
+      "option_c": "Absorption/scatter determine effect of lasers",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "D",
+      "explanation": "Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "In Physics for Health Sciences, Electric current and resistance is MOST associated with:",
+      "option_a": "Ohm’s law relates voltage, current, resistance",
+      "option_b": "Use time, distance, shielding to reduce exposure.",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Intensity decreases with square of distance",
+      "correct_answer": "C",
+      "explanation": "Electric current and resistance: Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 21) Which option is TRUE regarding Inverse square law?",
+      "option_a": "Ohm’s law relates voltage, current, resistance",
+      "option_b": "Intensity decreases with square of distance",
+      "option_c": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "Sound waves above hearing used for imaging",
+      "correct_answer": "B",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 22) Which pairing is correct?",
+      "option_a": "Units: Gray and Sievert — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Laser–tissue interaction — Reduction of beam intensity by absorption/scatter",
+      "option_c": "X-ray production — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Units: Gray and Sievert — Sound waves above hearing used for imaging",
+      "correct_answer": "C",
+      "explanation": "X-ray production: Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 23) Which option is TRUE regarding Inverse square law?",
+      "option_a": "Units: Gray and Sievert",
+      "option_b": "Wavelength and tissue chromophores influence outcome.",
+      "option_c": "Attenuation",
+      "option_d": "Intensity decreases with square of distance",
+      "correct_answer": "D",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 24) A key clinical relevance of Electric current and resistance is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 25) Which option is TRUE regarding Attenuation?",
+      "option_a": "Reduction of beam intensity by absorption/scatter",
+      "option_b": "Intensity decreases with square of distance",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "A",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 26) Which option is TRUE regarding Units: Gray and Sievert?",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Radiation with enough energy to remove electrons",
+      "option_d": "Units: Gray and Sievert",
+      "correct_answer": "B",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 27) A key clinical relevance of Laser–tissue interaction is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 28) A key clinical relevance of X-ray production is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 29) Which pairing is correct?",
+      "option_a": "Ultrasound basics — Sound waves above hearing used for imaging",
+      "option_b": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Laser–tissue interaction — Radiation with enough energy to remove electrons",
+      "option_d": "ALARA principle — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "A",
+      "explanation": "Ultrasound basics: Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 30) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 31) A key clinical relevance of ALARA principle is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 32) A key clinical relevance of Inverse square law is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 33) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_b": "X-ray production",
+      "option_c": "Use time, distance, shielding to reduce exposure.",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "D",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 34) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Depends on material thickness and atomic number.",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Thickness that reduces beam intensity by 50%",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "C",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 35) Which option is TRUE regarding Ionizing radiation?",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Ultrasound basics",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 36) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 37) Which option is TRUE regarding Inverse square law?",
+      "option_a": "Inverse square law",
+      "option_b": "Electric current and resistance",
+      "option_c": "Depends on material thickness and atomic number.",
+      "option_d": "Intensity decreases with square of distance",
+      "correct_answer": "D",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 38) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 39) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Absorption/scatter determine effect of lasers",
+      "option_b": "Inverse square law — Absorption/scatter determine effect of lasers",
+      "option_c": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "option_d": "Half-value layer (HVL) — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "C",
+      "explanation": "Ionizing radiation: Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 40) A key clinical relevance of Ionizing radiation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 41) A key clinical relevance of Electric current and resistance is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 42) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 43) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Sound waves above hearing used for imaging",
+      "option_b": "Use time, distance, shielding to reduce exposure.",
+      "option_c": "X-ray production",
+      "option_d": "Relevant to X‑rays and radiation safety.",
+      "correct_answer": "A",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 44) The best example of Inverse square law is:",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "Ohm’s law relates voltage, current, resistance",
+      "option_c": "Ultrasound basics",
+      "option_d": "Key for radiation protection (distance).",
+      "correct_answer": "D",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 45) A key clinical relevance of Inverse square law is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 46) A key clinical relevance of Half-value layer (HVL) is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 47) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 48) The best example of Inverse square law is:",
+      "option_a": "Used in radiation dosimetry.",
+      "option_b": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Relevant to X‑rays and radiation safety.",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 49) The best example of Units: Gray and Sievert is:",
+      "option_a": "Used in radiation dosimetry.",
+      "option_b": "Ultrasound basics",
+      "option_c": "Units: Gray and Sievert",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "A",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 50) The best example of Laser–tissue interaction is:",
+      "option_a": "Wavelength and tissue chromophores influence outcome.",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Use time, distance, shielding to reduce exposure.",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "A",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 51) Which option is TRUE regarding Ionizing radiation?",
+      "option_a": "Laser–tissue interaction",
+      "option_b": "Radiation with enough energy to remove electrons",
+      "option_c": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "Nonionizing; uses reflection and impedance differences.",
+      "correct_answer": "B",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 52) A key clinical relevance of Half-value layer (HVL) is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 53) A key clinical relevance of ALARA principle is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 54) The best example of Ultrasound basics is:",
+      "option_a": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Nonionizing; uses reflection and impedance differences.",
+      "option_d": "Inverse square law",
+      "correct_answer": "C",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 55) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Intensity decreases with square of distance",
+      "option_b": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_c": "Laser–tissue interaction",
+      "option_d": "Sound waves above hearing used for imaging",
+      "correct_answer": "D",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 56) Which pairing is correct?",
+      "option_a": "ALARA principle — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_c": "Units: Gray and Sievert — Ohm’s law relates voltage, current, resistance",
+      "option_d": "Half-value layer (HVL) — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "B",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 57) The best example of Laser–tissue interaction is:",
+      "option_a": "Wavelength and tissue chromophores influence outcome.",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Higher HVL indicates more penetrating beam.",
+      "correct_answer": "A",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 58) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 59) The best example of Ultrasound basics is:",
+      "option_a": "Electric current and resistance",
+      "option_b": "Half-value layer (HVL)",
+      "option_c": "Nonionizing; uses reflection and impedance differences.",
+      "option_d": "Ionizing radiation",
+      "correct_answer": "C",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 60) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Sound waves above hearing used for imaging",
+      "option_b": "Absorption/scatter determine effect of lasers",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "B",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 61) Which option is TRUE regarding Units: Gray and Sievert?",
+      "option_a": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Relevant to X‑rays and radiation safety.",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Units: Gray and Sievert",
+      "correct_answer": "A",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 62) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Half-value layer (HVL)",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Ultrasound basics",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "D",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 63) Which pairing is correct?",
+      "option_a": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "option_b": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_c": "Ionizing radiation — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "Laser–tissue interaction — Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "A",
+      "explanation": "Ionizing radiation: Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 64) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "option_c": "X-ray production — Ohm’s law relates voltage, current, resistance",
+      "option_d": "Ultrasound basics — Intensity decreases with square of distance",
+      "correct_answer": "B",
+      "explanation": "Electric current and resistance: Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 65) The best example of ALARA principle is:",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Laser–tissue interaction",
+      "option_d": "Use time, distance, shielding to reduce exposure.",
+      "correct_answer": "D",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 66) Which option is TRUE regarding ALARA principle?",
+      "option_a": "Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Radiation with enough energy to remove electrons",
+      "correct_answer": "A",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 67) Which pairing is correct?",
+      "option_a": "Ionizing radiation — Absorption/scatter determine effect of lasers",
+      "option_b": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Ultrasound basics — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Inverse square law — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "B",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 68) Which option is TRUE regarding Attenuation?",
+      "option_a": "Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Key for radiation protection (distance).",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Radiation with enough energy to remove electrons",
+      "correct_answer": "C",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 69) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Half-value layer (HVL) — Absorption/scatter determine effect of lasers",
+      "option_c": "Inverse square law — Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "D",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 70) Which pairing is correct?",
+      "option_a": "Inverse square law — Absorption/scatter determine effect of lasers",
+      "option_b": "Attenuation — Sound waves above hearing used for imaging",
+      "option_c": "Inverse square law — Ohm’s law relates voltage, current, resistance",
+      "option_d": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "D",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 71) The best example of Laser–tissue interaction is:",
+      "option_a": "Ionizing radiation",
+      "option_b": "Wavelength and tissue chromophores influence outcome.",
+      "option_c": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Ultrasound basics",
+      "correct_answer": "B",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 72) A key clinical relevance of ALARA principle is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 73) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_b": "Half-value layer (HVL) — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Laser–tissue interaction — Ohm’s law relates voltage, current, resistance",
+      "option_d": "X-ray production — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "A",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 74) The best example of Ionizing radiation is:",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Absorption/scatter determine effect of lasers",
+      "option_d": "Ultrasound basics",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 75) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "option_b": "Half-value layer (HVL) — Sound waves above hearing used for imaging",
+      "option_c": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_d": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "A",
+      "explanation": "Electric current and resistance: Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 76) Which option is TRUE regarding Units: Gray and Sievert?",
+      "option_a": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Intensity decreases with square of distance",
+      "correct_answer": "A",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 77) The best example of Attenuation is:",
+      "option_a": "Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Radiation with enough energy to remove electrons",
+      "option_d": "Depends on material thickness and atomic number.",
+      "correct_answer": "D",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 78) Which pairing is correct?",
+      "option_a": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_b": "Units: Gray and Sievert — Intensity decreases with square of distance",
+      "option_c": "ALARA principle — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "X-ray production — Reduction of beam intensity by absorption/scatter",
+      "correct_answer": "A",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 79) The best example of Half-value layer (HVL) is:",
+      "option_a": "Ionizing radiation",
+      "option_b": "Higher HVL indicates more penetrating beam.",
+      "option_c": "Units: Gray and Sievert",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "B",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 80) The best example of Laser–tissue interaction is:",
+      "option_a": "Attenuation",
+      "option_b": "Use time, distance, shielding to reduce exposure.",
+      "option_c": "Thickness that reduces beam intensity by 50%",
+      "option_d": "Wavelength and tissue chromophores influence outcome.",
+      "correct_answer": "D",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 81) The best example of Units: Gray and Sievert is:",
+      "option_a": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Used in radiation dosimetry.",
+      "option_d": "Laser–tissue interaction",
+      "correct_answer": "C",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 82) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Absorption/scatter determine effect of lasers",
+      "option_c": "Ohm’s law relates voltage, current, resistance",
+      "option_d": "Basic concept in device safety and instrumentation.",
+      "correct_answer": "B",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 83) Which pairing is correct?",
+      "option_a": "Ionizing radiation — Reduction of beam intensity by absorption/scatter",
+      "option_b": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_c": "Inverse square law — Thickness that reduces beam intensity by 50%",
+      "option_d": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "correct_answer": "B",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 84) A key clinical relevance of Ionizing radiation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 85) The best example of Half-value layer (HVL) is:",
+      "option_a": "Half-value layer (HVL)",
+      "option_b": "Higher HVL indicates more penetrating beam.",
+      "option_c": "ALARA principle",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "B",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 86) The best example of Ionizing radiation is:",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Units: Gray and Sievert",
+      "option_d": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 87) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "X-ray production",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Units: Gray and Sievert",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 88) Which option is TRUE regarding Inverse square law?",
+      "option_a": "Attenuation",
+      "option_b": "Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Intensity decreases with square of distance",
+      "option_d": "Wavelength and tissue chromophores influence outcome.",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 89) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 90) Which pairing is correct?",
+      "option_a": "Units: Gray and Sievert — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "ALARA principle — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Attenuation — Reduction of beam intensity by absorption/scatter",
+      "option_d": "ALARA principle — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "C",
+      "explanation": "Attenuation: Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 91) Which pairing is correct?",
+      "option_a": "X-ray production — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Half-value layer (HVL) — Intensity decreases with square of distance",
+      "option_c": "ALARA principle — Thickness that reduces beam intensity by 50%",
+      "option_d": "ALARA principle — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "A",
+      "explanation": "X-ray production: Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 92) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 93) The best example of Inverse square law is:",
+      "option_a": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 94) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Ionizing radiation — Reduction of beam intensity by absorption/scatter",
+      "option_c": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "ALARA principle — Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "D",
+      "explanation": "ALARA principle: Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 95) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Ionizing radiation",
+      "option_c": "Sound waves above hearing used for imaging",
+      "option_d": "Radiation with enough energy to remove electrons",
+      "correct_answer": "C",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 96) Which pairing is correct?",
+      "option_a": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Ultrasound basics — Thickness that reduces beam intensity by 50%",
+      "option_c": "Ionizing radiation — Thickness that reduces beam intensity by 50%",
+      "option_d": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "correct_answer": "D",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 97) The best example of Units: Gray and Sievert is:",
+      "option_a": "Laser–tissue interaction",
+      "option_b": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "D",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 98) The best example of Laser–tissue interaction is:",
+      "option_a": "ALARA principle",
+      "option_b": "X-ray production",
+      "option_c": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "Wavelength and tissue chromophores influence outcome.",
+      "correct_answer": "D",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 99) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 100) Which option is TRUE regarding Attenuation?",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Thickness that reduces beam intensity by 50%",
+      "option_c": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_d": "Reduction of beam intensity by absorption/scatter",
+      "correct_answer": "D",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 101) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_d": "Inverse square law",
+      "correct_answer": "A",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 102) The best example of Ultrasound basics is:",
+      "option_a": "Ionizing radiation",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Inverse square law",
+      "option_d": "Attenuation",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 103) Which pairing is correct?",
+      "option_a": "Units: Gray and Sievert — Sound waves above hearing used for imaging",
+      "option_b": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_c": "ALARA principle — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Units: Gray and Sievert — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "B",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 104) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Key for radiation protection (distance).",
+      "option_b": "Absorption/scatter determine effect of lasers",
+      "option_c": "Use time, distance, shielding to reduce exposure.",
+      "option_d": "Thickness that reduces beam intensity by 50%",
+      "correct_answer": "B",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 105) The best example of Inverse square law is:",
+      "option_a": "Depends on material thickness and atomic number.",
+      "option_b": "Intensity decreases with square of distance",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Relevant to X‑rays and radiation safety.",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 106) Which pairing is correct?",
+      "option_a": "Ultrasound basics — Absorption/scatter determine effect of lasers",
+      "option_b": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "X-ray production — Sound waves above hearing used for imaging",
+      "option_d": "Laser–tissue interaction — Reduction of beam intensity by absorption/scatter",
+      "correct_answer": "B",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 107) Which option is TRUE regarding Electric current and resistance?",
+      "option_a": "Intensity decreases with square of distance",
+      "option_b": "Radiation with enough energy to remove electrons",
+      "option_c": "Use time, distance, shielding to reduce exposure.",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "D",
+      "explanation": "Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 108) The best example of Inverse square law is:",
+      "option_a": "Key for radiation protection (distance).",
+      "option_b": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_c": "Attenuation",
+      "option_d": "Ultrasound basics",
+      "correct_answer": "A",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 109) The best example of ALARA principle is:",
+      "option_a": "Electric current and resistance",
+      "option_b": "ALARA principle",
+      "option_c": "Use time, distance, shielding to reduce exposure.",
+      "option_d": "Tube voltage affects photon energy; mA affects quantity.",
+      "correct_answer": "C",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 110) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Radiation with enough energy to remove electrons",
+      "option_b": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Ionizing radiation — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_d": "X-ray production — Intensity decreases with square of distance",
+      "correct_answer": "B",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 111) Which pairing is correct?",
+      "option_a": "X-ray production — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_c": "Inverse square law — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Ionizing radiation — Absorption/scatter determine effect of lasers",
+      "correct_answer": "B",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 112) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 113) The best example of Units: Gray and Sievert is:",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Inverse square law",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "D",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 114) Which option is TRUE regarding X-ray production?",
+      "option_a": "Ultrasound basics",
+      "option_b": "Radiation with enough energy to remove electrons",
+      "option_c": "X-ray production",
+      "option_d": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "D",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 115) The best example of Inverse square law is:",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Wavelength and tissue chromophores influence outcome.",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Use time, distance, shielding to reduce exposure.",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 116) The best example of Attenuation is:",
+      "option_a": "Depends on material thickness and atomic number.",
+      "option_b": "Ionizing radiation",
+      "option_c": "Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "A",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 117) Which option is TRUE regarding Ionizing radiation?",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Radiation with enough energy to remove electrons",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "B",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 118) A key clinical relevance of X-ray production is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 119) Which option is TRUE regarding Attenuation?",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "X-ray production",
+      "option_d": "Reduction of beam intensity by absorption/scatter",
+      "correct_answer": "D",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 120) A key clinical relevance of Ionizing radiation is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 121) The best example of Attenuation is:",
+      "option_a": "Electric current and resistance",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Laser–tissue interaction",
+      "correct_answer": "B",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 122) Which pairing is correct?",
+      "option_a": "Laser–tissue interaction — Reduction of beam intensity by absorption/scatter",
+      "option_b": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Electric current and resistance — Thickness that reduces beam intensity by 50%",
+      "option_d": "Half-value layer (HVL) — Intensity decreases with square of distance",
+      "correct_answer": "B",
+      "explanation": "Electric current and resistance: Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 123) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 124) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Depends on material thickness and atomic number.",
+      "option_b": "Use time, distance, shielding to reduce exposure.",
+      "option_c": "Ohm’s law relates voltage, current, resistance",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "D",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 125) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Units: Gray and Sievert — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "option_d": "Ultrasound basics — Absorption/scatter determine effect of lasers",
+      "correct_answer": "C",
+      "explanation": "Ionizing radiation: Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 126) A key clinical relevance of Electric current and resistance is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 127) Which option is TRUE regarding X-ray production?",
+      "option_a": "Ohm’s law relates voltage, current, resistance",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Relevant to X‑rays and radiation safety.",
+      "option_d": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "D",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 128) Which pairing is correct?",
+      "option_a": "Ionizing radiation — Ohm’s law relates voltage, current, resistance",
+      "option_b": "Laser–tissue interaction — Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_d": "Attenuation — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "C",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 129) The best example of Ultrasound basics is:",
+      "option_a": "Basic concept in device safety and instrumentation.",
+      "option_b": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "Nonionizing; uses reflection and impedance differences.",
+      "correct_answer": "D",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 130) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Used in radiation dosimetry.",
+      "option_b": "Thickness that reduces beam intensity by 50%",
+      "option_c": "X-ray production",
+      "option_d": "Ionizing radiation",
+      "correct_answer": "B",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 131) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Thickness that reduces beam intensity by 50%",
+      "option_c": "X-ray production",
+      "option_d": "Higher HVL indicates more penetrating beam.",
+      "correct_answer": "B",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 132) Which pairing is correct?",
+      "option_a": "Laser–tissue interaction — Reduction of beam intensity by absorption/scatter",
+      "option_b": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_c": "Units: Gray and Sievert — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_d": "Inverse square law — Sound waves above hearing used for imaging",
+      "correct_answer": "B",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 133) The best example of ALARA principle is:",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Ultrasound basics",
+      "option_c": "Inverse square law",
+      "option_d": "X-ray production",
+      "correct_answer": "A",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 134) The best example of Half-value layer (HVL) is:",
+      "option_a": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Higher HVL indicates more penetrating beam.",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "C",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 135) Which option is TRUE regarding Units: Gray and Sievert?",
+      "option_a": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Higher HVL indicates more penetrating beam.",
+      "option_d": "Key for radiation protection (distance).",
+      "correct_answer": "A",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 136) Which option is TRUE regarding ALARA principle?",
+      "option_a": "Attenuation",
+      "option_b": "Used in radiation dosimetry.",
+      "option_c": "Ionizing radiation",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "D",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 137) The best example of X-ray production is:",
+      "option_a": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Absorption/scatter determine effect of lasers",
+      "option_d": "Units: Gray and Sievert",
+      "correct_answer": "A",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 138) Which pairing is correct?",
+      "option_a": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_b": "Inverse square law — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_c": "Ionizing radiation — Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Attenuation — Absorption/scatter determine effect of lasers",
+      "correct_answer": "A",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 139) The best example of X-ray production is:",
+      "option_a": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_b": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_c": "Ultrasound basics",
+      "option_d": "Ionizing radiation",
+      "correct_answer": "B",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 140) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 141) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 142) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Ohm’s law relates voltage, current, resistance",
+      "option_b": "Electric current and resistance — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_c": "Ionizing radiation — Thickness that reduces beam intensity by 50%",
+      "option_d": "Laser–tissue interaction — Sound waves above hearing used for imaging",
+      "correct_answer": "A",
+      "explanation": "Electric current and resistance: Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 143) A key clinical relevance of Laser–tissue interaction is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 144) Which option is TRUE regarding Laser–tissue interaction?",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Laser–tissue interaction",
+      "option_d": "Electric current and resistance",
+      "correct_answer": "A",
+      "explanation": "Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 145) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 146) The best example of Inverse square law is:",
+      "option_a": "Key for radiation protection (distance).",
+      "option_b": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_c": "Units: Gray and Sievert",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "A",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 147) Which pairing is correct?",
+      "option_a": "Inverse square law — Radiation with enough energy to remove electrons",
+      "option_b": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "option_c": "Attenuation — Reduction of beam intensity by absorption/scatter",
+      "option_d": "Inverse square law — Sound waves above hearing used for imaging",
+      "correct_answer": "C",
+      "explanation": "Attenuation: Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 148) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 149) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Intensity decreases with square of distance",
+      "option_b": "Inverse square law — Intensity decreases with square of distance",
+      "option_c": "Attenuation — Intensity decreases with square of distance",
+      "option_d": "Electric current and resistance — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "B",
+      "explanation": "Inverse square law: Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 150) Which option is TRUE regarding X-ray production?",
+      "option_a": "Laser–tissue interaction",
+      "option_b": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_c": "Sound waves above hearing used for imaging",
+      "option_d": "Basic concept in device safety and instrumentation.",
+      "correct_answer": "B",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 151) The best example of Half-value layer (HVL) is:",
+      "option_a": "Attenuation",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Absorption/scatter determine effect of lasers",
+      "option_d": "Higher HVL indicates more penetrating beam.",
+      "correct_answer": "D",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 152) Which option is TRUE regarding Ionizing radiation?",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Attenuation",
+      "option_d": "Nonionizing; uses reflection and impedance differences.",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 153) Which pairing is correct?",
+      "option_a": "Laser–tissue interaction — Keep radiation As Low As Reasonably Achievable",
+      "option_b": "Laser–tissue interaction — Radiation with enough energy to remove electrons",
+      "option_c": "Half-value layer (HVL) — Reduction of beam intensity by absorption/scatter",
+      "option_d": "Ionizing radiation — Radiation with enough energy to remove electrons",
+      "correct_answer": "D",
+      "explanation": "Ionizing radiation: Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 154) Which pairing is correct?",
+      "option_a": "ALARA principle — Sound waves above hearing used for imaging",
+      "option_b": "ALARA principle — Thickness that reduces beam intensity by 50%",
+      "option_c": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_d": "X-ray production — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "C",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 155) The best example of Ionizing radiation is:",
+      "option_a": "Relevant to X‑rays and radiation safety.",
+      "option_b": "Half-value layer (HVL)",
+      "option_c": "Ionizing radiation",
+      "option_d": "Higher HVL indicates more penetrating beam.",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 156) The best example of Units: Gray and Sievert is:",
+      "option_a": "Reduction of beam intensity by absorption/scatter",
+      "option_b": "Used in radiation dosimetry.",
+      "option_c": "Higher HVL indicates more penetrating beam.",
+      "option_d": "Laser–tissue interaction",
+      "correct_answer": "B",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 157) A key clinical relevance of Laser–tissue interaction is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 158) Which option is TRUE regarding ALARA principle?",
+      "option_a": "ALARA principle",
+      "option_b": "Keep radiation As Low As Reasonably Achievable",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "B",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 159) The best example of Ultrasound basics is:",
+      "option_a": "ALARA principle",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "Electric current and resistance",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 160) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Sound waves above hearing used for imaging",
+      "option_c": "Electric current and resistance",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 161) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 162) Which option is TRUE regarding Attenuation?",
+      "option_a": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_b": "Attenuation",
+      "option_c": "Reduction of beam intensity by absorption/scatter",
+      "option_d": "ALARA principle",
+      "correct_answer": "C",
+      "explanation": "Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 163) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Sound waves above hearing used for imaging",
+      "option_b": "ALARA principle — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Attenuation — Intensity decreases with square of distance",
+      "option_d": "X-ray production — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "D",
+      "explanation": "X-ray production: Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 164) A key clinical relevance of Ionizing radiation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 165) The best example of X-ray production is:",
+      "option_a": "Ultrasound basics",
+      "option_b": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "B",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 166) The best example of ALARA principle is:",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Higher HVL indicates more penetrating beam.",
+      "option_c": "Wavelength and tissue chromophores influence outcome.",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "A",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 167) A key clinical relevance of Electric current and resistance is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 168) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Higher HVL indicates more penetrating beam.",
+      "option_b": "Attenuation",
+      "option_c": "Sound waves above hearing used for imaging",
+      "option_d": "Key for radiation protection (distance).",
+      "correct_answer": "C",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 169) Which option is TRUE regarding Electric current and resistance?",
+      "option_a": "Absorption/scatter determine effect of lasers",
+      "option_b": "Basic concept in device safety and instrumentation.",
+      "option_c": "Ohm’s law relates voltage, current, resistance",
+      "option_d": "Attenuation",
+      "correct_answer": "C",
+      "explanation": "Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 170) Which pairing is correct?",
+      "option_a": "Ultrasound basics — Intensity decreases with square of distance",
+      "option_b": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "option_c": "ALARA principle — Keep radiation As Low As Reasonably Achievable",
+      "option_d": "ALARA principle — Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "correct_answer": "C",
+      "explanation": "ALARA principle: Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 171) The best example of ALARA principle is:",
+      "option_a": "Use time, distance, shielding to reduce exposure.",
+      "option_b": "Units: Gray and Sievert",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Sound waves above hearing used for imaging",
+      "correct_answer": "A",
+      "explanation": "Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 172) A key clinical relevance of Half-value layer (HVL) is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 173) Which pairing is correct?",
+      "option_a": "Half-value layer (HVL) — Radiation with enough energy to remove electrons",
+      "option_b": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_c": "X-ray production — Intensity decreases with square of distance",
+      "option_d": "Units: Gray and Sievert — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "B",
+      "explanation": "Laser–tissue interaction: Wavelength and tissue chromophores influence outcome."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 174) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "X-ray production",
+      "option_b": "Laser–tissue interaction",
+      "option_c": "Relevant to X‑rays and radiation safety.",
+      "option_d": "Thickness that reduces beam intensity by 50%",
+      "correct_answer": "D",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 175) Which pairing is correct?",
+      "option_a": "Attenuation — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Ultrasound basics — Sound waves above hearing used for imaging",
+      "option_c": "Electric current and resistance — Thickness that reduces beam intensity by 50%",
+      "option_d": "ALARA principle — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "B",
+      "explanation": "Ultrasound basics: Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 176) The best example of Inverse square law is:",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "X-ray production",
+      "option_c": "Key for radiation protection (distance).",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "C",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 177) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Basic concept in device safety and instrumentation.",
+      "option_c": "Attenuation",
+      "option_d": "X-ray production",
+      "correct_answer": "A",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 178) A key clinical relevance of Laser–tissue interaction is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 179) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Sound waves above hearing used for imaging",
+      "option_b": "ALARA principle — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Inverse square law — Reduction of beam intensity by absorption/scatter",
+      "option_d": "Units: Gray and Sievert — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "D",
+      "explanation": "Units: Gray and Sievert: Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 180) The best example of Electric current and resistance is:",
+      "option_a": "Basic concept in device safety and instrumentation.",
+      "option_b": "Higher HVL indicates more penetrating beam.",
+      "option_c": "Relevant to X‑rays and radiation safety.",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "A",
+      "explanation": "Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 181) Which option is TRUE regarding Ionizing radiation?",
+      "option_a": "Radiation with enough energy to remove electrons",
+      "option_b": "Electric current and resistance",
+      "option_c": "Depends on material thickness and atomic number.",
+      "option_d": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "correct_answer": "A",
+      "explanation": "Relevant to X‑rays and radiation safety."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 182) Which option is TRUE regarding Units: Gray and Sievert?",
+      "option_a": "Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Inverse square law",
+      "option_c": "Half-value layer (HVL)",
+      "option_d": "Absorption/scatter determine effect of lasers",
+      "correct_answer": "A",
+      "explanation": "Used in radiation dosimetry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 183) A key clinical relevance of Laser–tissue interaction is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 184) The best example of X-ray production is:",
+      "option_a": "Ultrasound basics",
+      "option_b": "Bremsstrahlung and characteristic radiation in an X-ray tube",
+      "option_c": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_d": "Key for radiation protection (distance).",
+      "correct_answer": "C",
+      "explanation": "Tube voltage affects photon energy; mA affects quantity."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 185) Which pairing is correct?",
+      "option_a": "Electric current and resistance — Thickness that reduces beam intensity by 50%",
+      "option_b": "ALARA principle — Sound waves above hearing used for imaging",
+      "option_c": "ALARA principle — Reduction of beam intensity by absorption/scatter",
+      "option_d": "Half-value layer (HVL) — Thickness that reduces beam intensity by 50%",
+      "correct_answer": "D",
+      "explanation": "Half-value layer (HVL): Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 186) Which pairing is correct?",
+      "option_a": "Units: Gray and Sievert — Thickness that reduces beam intensity by 50%",
+      "option_b": "ALARA principle — Thickness that reduces beam intensity by 50%",
+      "option_c": "Ultrasound basics — Sound waves above hearing used for imaging",
+      "option_d": "Inverse square law — Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "C",
+      "explanation": "Ultrasound basics: Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 187) A key clinical relevance of ALARA principle is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 188) Which pairing is correct?",
+      "option_a": "ALARA principle — Radiation with enough energy to remove electrons",
+      "option_b": "Attenuation — Ohm’s law relates voltage, current, resistance",
+      "option_c": "Inverse square law — Radiation with enough energy to remove electrons",
+      "option_d": "Attenuation — Reduction of beam intensity by absorption/scatter",
+      "correct_answer": "D",
+      "explanation": "Attenuation: Depends on material thickness and atomic number."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 189) Which pairing is correct?",
+      "option_a": "ALARA principle — Gray measures absorbed dose; Sievert accounts for biological effect",
+      "option_b": "Laser–tissue interaction — Absorption/scatter determine effect of lasers",
+      "option_c": "Attenuation — Absorption/scatter determine effect of lasers",
+      "option_d": "Ultrasound basics — Sound waves above hearing used for imaging",
+      "correct_answer": "D",
+      "explanation": "Ultrasound basics: Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 190) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Thickness that reduces beam intensity by 50%",
+      "option_b": "Used in radiation dosimetry.",
+      "option_c": "Tube voltage affects photon energy; mA affects quantity.",
+      "option_d": "Half-value layer (HVL)",
+      "correct_answer": "A",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 191) A key clinical relevance of Units: Gray and Sievert is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 192) The best example of Inverse square law is:",
+      "option_a": "Laser–tissue interaction",
+      "option_b": "Key for radiation protection (distance).",
+      "option_c": "Basic concept in device safety and instrumentation.",
+      "option_d": "Ohm’s law relates voltage, current, resistance",
+      "correct_answer": "B",
+      "explanation": "Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 193) Which pairing is correct?",
+      "option_a": "Ultrasound basics — Ohm’s law relates voltage, current, resistance",
+      "option_b": "X-ray production — Thickness that reduces beam intensity by 50%",
+      "option_c": "Ionizing radiation — Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Inverse square law — Intensity decreases with square of distance",
+      "correct_answer": "D",
+      "explanation": "Inverse square law: Key for radiation protection (distance)."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 194) Which pairing is correct?",
+      "option_a": "ALARA principle — Ohm’s law relates voltage, current, resistance",
+      "option_b": "Laser–tissue interaction — Radiation with enough energy to remove electrons",
+      "option_c": "ALARA principle — Keep radiation As Low As Reasonably Achievable",
+      "option_d": "Electric current and resistance — Intensity decreases with square of distance",
+      "correct_answer": "C",
+      "explanation": "ALARA principle: Use time, distance, shielding to reduce exposure."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 195) The best example of Ultrasound basics is:",
+      "option_a": "Attenuation",
+      "option_b": "Nonionizing; uses reflection and impedance differences.",
+      "option_c": "X-ray production",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "B",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 196) Which option is TRUE regarding Half-value layer (HVL)?",
+      "option_a": "Basic concept in device safety and instrumentation.",
+      "option_b": "Depends on material thickness and atomic number.",
+      "option_c": "Thickness that reduces beam intensity by 50%",
+      "option_d": "Used in radiation dosimetry.",
+      "correct_answer": "C",
+      "explanation": "Higher HVL indicates more penetrating beam."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 197) Which option is TRUE regarding Ultrasound basics?",
+      "option_a": "Units: Gray and Sievert",
+      "option_b": "Use time, distance, shielding to reduce exposure.",
+      "option_c": "Ohm’s law relates voltage, current, resistance",
+      "option_d": "Sound waves above hearing used for imaging",
+      "correct_answer": "D",
+      "explanation": "Nonionizing; uses reflection and impedance differences."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 198) Which option is TRUE regarding Electric current and resistance?",
+      "option_a": "Ohm’s law relates voltage, current, resistance",
+      "option_b": "Inverse square law",
+      "option_c": "Intensity decreases with square of distance",
+      "option_d": "Keep radiation As Low As Reasonably Achievable",
+      "correct_answer": "A",
+      "explanation": "Basic concept in device safety and instrumentation."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 199) A key clinical relevance of Ultrasound basics is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physics for Health Sciences Item 200) A key clinical relevance of Inverse square law is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    }
+  ]
+}

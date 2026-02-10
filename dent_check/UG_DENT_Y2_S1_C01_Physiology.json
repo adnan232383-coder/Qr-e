@@ -1,0 +1,1806 @@
+{
+  "course_name": "Physiology",
+  "course_code": "UG_DENT_Y2_S1_C01",
+  "questions": [
+    {
+      "question": "Which statement best describes Resting membrane potential?",
+      "option_a": "Voltage across cell membrane at rest",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Salivary physiology",
+      "correct_answer": "A",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "In Physiology, Resting membrane potential is MOST associated with:",
+      "option_a": "Endocrine regulation",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Determined by ion gradients and permeability.",
+      "option_d": "Cardiac output",
+      "correct_answer": "C",
+      "explanation": "Resting membrane potential: Determined by ion gradients and permeability."
+    },
+    {
+      "question": "Which statement best describes Action potential?",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Basis of nerve conduction and muscle contraction.",
+      "option_c": "Resting membrane potential",
+      "option_d": "Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "A",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "In Physiology, Action potential is MOST associated with:",
+      "option_a": "Basis of nerve conduction and muscle contraction.",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Resting membrane potential",
+      "correct_answer": "A",
+      "explanation": "Action potential: Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "Which statement best describes Cardiac output?",
+      "option_a": "Respiratory regulation",
+      "option_b": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Volume of blood pumped per minute",
+      "correct_answer": "D",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "In Physiology, Cardiac output is MOST associated with:",
+      "option_a": "Endocrine regulation",
+      "option_b": "Renal regulation",
+      "option_c": "Volume of blood pumped per minute",
+      "option_d": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "correct_answer": "D",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "Which statement best describes Respiratory regulation?",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Basis of nerve conduction and muscle contraction.",
+      "option_c": "Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Pain physiology",
+      "correct_answer": "C",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "In Physiology, Respiratory regulation is MOST associated with:",
+      "option_a": "Respiratory regulation",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "RAAS affects BP and sodium balance.",
+      "option_d": "CO2 is major driver of ventilation.",
+      "correct_answer": "D",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "Which statement best describes Renal regulation?",
+      "option_a": "Flow and composition are autonomically regulated.",
+      "option_b": "RAAS affects BP and sodium balance.",
+      "option_c": "Resting membrane potential",
+      "option_d": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "D",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "In Physiology, Renal regulation is MOST associated with:",
+      "option_a": "Respiratory regulation",
+      "option_b": "CO2 is major driver of ventilation.",
+      "option_c": "RAAS affects BP and sodium balance.",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "C",
+      "explanation": "Renal regulation: RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "Which statement best describes Endocrine regulation?",
+      "option_a": "Hormones coordinate metabolism and growth",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Voltage across cell membrane at rest",
+      "correct_answer": "A",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "In Physiology, Endocrine regulation is MOST associated with:",
+      "option_a": "Feedback loops maintain homeostasis.",
+      "option_b": "CO2 is major driver of ventilation.",
+      "option_c": "Cardiac output",
+      "option_d": "Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "A",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "Which statement best describes Muscle contraction physiology?",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Volume of blood pumped per minute",
+      "option_c": "Action potential",
+      "option_d": "Excitation–contraction coupling with Ca2+",
+      "correct_answer": "D",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "In Physiology, Muscle contraction physiology is MOST associated with:",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "A",
+      "explanation": "Muscle contraction physiology: ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "Which statement best describes GI physiology?",
+      "option_a": "Flow and composition are autonomically regulated.",
+      "option_b": "Pain physiology",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "D",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "In Physiology, GI physiology is MOST associated with:",
+      "option_a": "Endocrine regulation",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "ATP is needed for cross-bridge cycling.",
+      "correct_answer": "C",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "Which statement best describes Pain physiology?",
+      "option_a": "Endogenous opioids and gate control affect perception.",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Hormones coordinate metabolism and growth",
+      "correct_answer": "C",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "In Physiology, Pain physiology is MOST associated with:",
+      "option_a": "Renal regulation",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Resting membrane potential",
+      "option_d": "Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "B",
+      "explanation": "Pain physiology: Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "Which statement best describes Salivary physiology?",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Endocrine regulation",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "D",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "In Physiology, Salivary physiology is MOST associated with:",
+      "option_a": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_b": "Salivary physiology",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "D",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 21) The best example of Action potential is:",
+      "option_a": "Small intestine is primary absorption site.",
+      "option_b": "Basis of nerve conduction and muscle contraction.",
+      "option_c": "GI physiology",
+      "option_d": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "B",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 22) A key clinical relevance of Action potential is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 23) The best example of Resting membrane potential is:",
+      "option_a": "Determined by ion gradients and permeability.",
+      "option_b": "Basis of nerve conduction and muscle contraction.",
+      "option_c": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "RAAS affects BP and sodium balance.",
+      "correct_answer": "A",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 24) Which pairing is correct?",
+      "option_a": "GI physiology — Volume of blood pumped per minute",
+      "option_b": "Resting membrane potential — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Resting membrane potential — Hormones coordinate metabolism and growth",
+      "option_d": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "D",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 25) Which option is TRUE regarding Cardiac output?",
+      "option_a": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_b": "CO2 is major driver of ventilation.",
+      "option_c": "Volume of blood pumped per minute",
+      "option_d": "Hormones coordinate metabolism and growth",
+      "correct_answer": "C",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 26) The best example of GI physiology is:",
+      "option_a": "Renal regulation",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "CO2 is major driver of ventilation.",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "B",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 27) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_b": "Cardiac output — Volume of blood pumped per minute",
+      "option_c": "Endocrine regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "GI physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "B",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 28) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "Excitation–contraction coupling with Ca2+",
+      "option_c": "Flow and composition are autonomically regulated.",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 29) The best example of Muscle contraction physiology is:",
+      "option_a": "Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Action potential",
+      "option_c": "ATP is needed for cross-bridge cycling.",
+      "option_d": "Feedback loops maintain homeostasis.",
+      "correct_answer": "C",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 30) Which pairing is correct?",
+      "option_a": "Action potential — Voltage across cell membrane at rest",
+      "option_b": "GI physiology — Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Salivary physiology — Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Salivary physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "D",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 31) The best example of Renal regulation is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Pain physiology",
+      "option_c": "Endocrine regulation",
+      "option_d": "Renal regulation",
+      "correct_answer": "A",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 32) A key clinical relevance of Pain physiology is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 33) Which pairing is correct?",
+      "option_a": "Cardiac output — Voltage across cell membrane at rest",
+      "option_b": "Salivary physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Cardiac output — Volume of blood pumped per minute",
+      "option_d": "Renal regulation — Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "C",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 34) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Renal regulation",
+      "option_b": "Resting membrane potential",
+      "option_c": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Excitation–contraction coupling with Ca2+",
+      "correct_answer": "D",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 35) A key clinical relevance of Action potential is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 36) The best example of Pain physiology is:",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "D",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 37) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "GI physiology — Voltage across cell membrane at rest",
+      "option_c": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Resting membrane potential — Volume of blood pumped per minute",
+      "correct_answer": "C",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 38) Which option is TRUE regarding Endocrine regulation?",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "correct_answer": "B",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 39) A key clinical relevance of Respiratory regulation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 40) Which option is TRUE regarding Endocrine regulation?",
+      "option_a": "Hormones coordinate metabolism and growth",
+      "option_b": "Salivary physiology",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "A",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 41) Which option is TRUE regarding Endocrine regulation?",
+      "option_a": "Pain physiology",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "Salivary physiology",
+      "option_d": "Hormones coordinate metabolism and growth",
+      "correct_answer": "D",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 42) Which pairing is correct?",
+      "option_a": "Endocrine regulation — Voltage across cell membrane at rest",
+      "option_b": "Resting membrane potential — Volume of blood pumped per minute",
+      "option_c": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Endocrine regulation — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "C",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 43) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Excitation–contraction coupling with Ca2+",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "CO2 is major driver of ventilation.",
+      "option_d": "Small intestine is primary absorption site.",
+      "correct_answer": "A",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 44) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "option_c": "Resting membrane potential — Volume of blood pumped per minute",
+      "option_d": "Respiratory regulation — Hormones coordinate metabolism and growth",
+      "correct_answer": "B",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 45) Which option is TRUE regarding Respiratory regulation?",
+      "option_a": "Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Voltage across cell membrane at rest",
+      "option_c": "RAAS affects BP and sodium balance.",
+      "option_d": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "correct_answer": "A",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 46) A key clinical relevance of Salivary physiology is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 47) The best example of Cardiac output is:",
+      "option_a": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Muscle contraction physiology",
+      "correct_answer": "A",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 48) A key clinical relevance of Respiratory regulation is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 49) Which option is TRUE regarding Renal regulation?",
+      "option_a": "Muscle contraction physiology",
+      "option_b": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Action potential",
+      "option_d": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "correct_answer": "B",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 50) Which pairing is correct?",
+      "option_a": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "option_b": "Salivary physiology — Voltage across cell membrane at rest",
+      "option_c": "Pain physiology — Voltage across cell membrane at rest",
+      "option_d": "Resting membrane potential — Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "A",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 51) Which pairing is correct?",
+      "option_a": "Renal regulation — Hormones coordinate metabolism and growth",
+      "option_b": "Action potential — Voltage across cell membrane at rest",
+      "option_c": "Muscle contraction physiology — Excitation–contraction coupling with Ca2+",
+      "option_d": "Muscle contraction physiology — Hormones coordinate metabolism and growth",
+      "correct_answer": "C",
+      "explanation": "Muscle contraction physiology: ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 52) A key clinical relevance of Action potential is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 53) Which option is TRUE regarding GI physiology?",
+      "option_a": "Determined by ion gradients and permeability.",
+      "option_b": "Resting membrane potential",
+      "option_c": "ATP is needed for cross-bridge cycling.",
+      "option_d": "Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "D",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 54) A key clinical relevance of Renal regulation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 55) A key clinical relevance of Muscle contraction physiology is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 56) Which option is TRUE regarding GI physiology?",
+      "option_a": "Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Cardiac output",
+      "option_c": "GI physiology",
+      "option_d": "Volume of blood pumped per minute",
+      "correct_answer": "A",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 57) A key clinical relevance of Pain physiology is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 58) The best example of Endocrine regulation is:",
+      "option_a": "Feedback loops maintain homeostasis.",
+      "option_b": "Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Excitation–contraction coupling with Ca2+",
+      "correct_answer": "A",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 59) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Respiratory regulation",
+      "option_b": "Excitation–contraction coupling with Ca2+",
+      "option_c": "Feedback loops maintain homeostasis.",
+      "option_d": "GI physiology",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 60) Which pairing is correct?",
+      "option_a": "Cardiac output — Hormones coordinate metabolism and growth",
+      "option_b": "Cardiac output — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Pain physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Renal regulation — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "C",
+      "explanation": "Pain physiology: Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 61) A key clinical relevance of Cardiac output is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 62) A key clinical relevance of Pain physiology is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 63) The best example of Cardiac output is:",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Endocrine regulation",
+      "option_d": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "correct_answer": "D",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 64) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Volume of blood pumped per minute",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "C",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 65) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Renal regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Endocrine regulation — Volume of blood pumped per minute",
+      "option_d": "Salivary physiology — Volume of blood pumped per minute",
+      "correct_answer": "A",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 66) Which pairing is correct?",
+      "option_a": "GI physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Action potential — Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Pain physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Cardiac output — Hormones coordinate metabolism and growth",
+      "correct_answer": "B",
+      "explanation": "Action potential: Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 67) The best example of GI physiology is:",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Volume of blood pumped per minute",
+      "option_d": "Small intestine is primary absorption site.",
+      "correct_answer": "D",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 68) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "Flow and composition are autonomically regulated.",
+      "option_b": "Resting membrane potential",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Salivary physiology",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 69) A key clinical relevance of Pain physiology is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 70) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Excitation–contraction coupling with Ca2+",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_d": "Renal regulation",
+      "correct_answer": "A",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 71) Which pairing is correct?",
+      "option_a": "Salivary physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "GI physiology — Excitation–contraction coupling with Ca2+",
+      "option_c": "Action potential — Hormones coordinate metabolism and growth",
+      "option_d": "Action potential — Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "D",
+      "explanation": "Action potential: Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 72) A key clinical relevance of Muscle contraction physiology is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 73) The best example of Respiratory regulation is:",
+      "option_a": "Small intestine is primary absorption site.",
+      "option_b": "CO2 is major driver of ventilation.",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Action potential",
+      "correct_answer": "B",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 74) A key clinical relevance of Renal regulation is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 75) The best example of Salivary physiology is:",
+      "option_a": "Respiratory regulation",
+      "option_b": "Muscle contraction physiology",
+      "option_c": "Resting membrane potential",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "D",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 76) Which option is TRUE regarding Renal regulation?",
+      "option_a": "Resting membrane potential",
+      "option_b": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "RAAS affects BP and sodium balance.",
+      "correct_answer": "B",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 77) Which option is TRUE regarding Endocrine regulation?",
+      "option_a": "Muscle contraction physiology",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "B",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 78) Which pairing is correct?",
+      "option_a": "GI physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_b": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Muscle contraction physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Endocrine regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "B",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 79) The best example of Renal regulation is:",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "RAAS affects BP and sodium balance.",
+      "option_c": "Action potential",
+      "option_d": "Cardiac output",
+      "correct_answer": "B",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 80) The best example of Cardiac output is:",
+      "option_a": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_b": "Determined by ion gradients and permeability.",
+      "option_c": "Cardiac output",
+      "option_d": "ATP is needed for cross-bridge cycling.",
+      "correct_answer": "A",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 81) The best example of Cardiac output is:",
+      "option_a": "Endogenous opioids and gate control affect perception.",
+      "option_b": "GI physiology",
+      "option_c": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_d": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "C",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 82) Which pairing is correct?",
+      "option_a": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Salivary physiology — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Muscle contraction physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Cardiac output — Voltage across cell membrane at rest",
+      "correct_answer": "A",
+      "explanation": "GI physiology: Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 83) A key clinical relevance of Respiratory regulation is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 84) The best example of Action potential is:",
+      "option_a": "Basis of nerve conduction and muscle contraction.",
+      "option_b": "GI physiology",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "A",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 85) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Action potential — Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Muscle contraction physiology — Hormones coordinate metabolism and growth",
+      "option_d": "Muscle contraction physiology — Volume of blood pumped per minute",
+      "correct_answer": "B",
+      "explanation": "Action potential: Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 86) The best example of Pain physiology is:",
+      "option_a": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Volume of blood pumped per minute",
+      "option_d": "Pain physiology",
+      "correct_answer": "B",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 87) A key clinical relevance of Resting membrane potential is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 88) A key clinical relevance of Pain physiology is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 89) A key clinical relevance of Action potential is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 90) A key clinical relevance of Action potential is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 91) The best example of Respiratory regulation is:",
+      "option_a": "Renal regulation",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_d": "CO2 is major driver of ventilation.",
+      "correct_answer": "D",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 92) Which pairing is correct?",
+      "option_a": "Cardiac output — Rapid depolarization and repolarization in excitable cells",
+      "option_b": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "option_d": "Cardiac output — Volume of blood pumped per minute",
+      "correct_answer": "D",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 93) The best example of Muscle contraction physiology is:",
+      "option_a": "Salivary physiology",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "Action potential",
+      "option_d": "Digestion and absorption coordinated by motility and secretions",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 94) Which pairing is correct?",
+      "option_a": "Cardiac output — Hormones coordinate metabolism and growth",
+      "option_b": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Endocrine regulation — Volume of blood pumped per minute",
+      "option_d": "Muscle contraction physiology — Excitation–contraction coupling with Ca2+",
+      "correct_answer": "B",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 95) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Muscle contraction physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Salivary physiology — Hormones coordinate metabolism and growth",
+      "option_d": "Action potential — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "A",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 96) The best example of Endocrine regulation is:",
+      "option_a": "Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Feedback loops maintain homeostasis.",
+      "option_d": "Excitation–contraction coupling with Ca2+",
+      "correct_answer": "C",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 97) Which option is TRUE regarding Cardiac output?",
+      "option_a": "Respiratory regulation",
+      "option_b": "Salivary physiology",
+      "option_c": "Flow and composition are autonomically regulated.",
+      "option_d": "Volume of blood pumped per minute",
+      "correct_answer": "D",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 98) A key clinical relevance of Pain physiology is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 99) A key clinical relevance of Respiratory regulation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 100) The best example of Respiratory regulation is:",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "A",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 101) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "GI physiology",
+      "option_b": "Action potential",
+      "option_c": "Endocrine regulation",
+      "option_d": "Voltage across cell membrane at rest",
+      "correct_answer": "D",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 102) Which pairing is correct?",
+      "option_a": "Salivary physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_b": "Respiratory regulation — Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Respiratory regulation — Volume of blood pumped per minute",
+      "option_d": "Pain physiology — Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "A",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 103) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Respiratory regulation",
+      "option_d": "Action potential",
+      "correct_answer": "B",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 104) The best example of Endocrine regulation is:",
+      "option_a": "Feedback loops maintain homeostasis.",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "A",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 105) The best example of Pain physiology is:",
+      "option_a": "Cardiac output",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Endocrine regulation",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "B",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 106) A key clinical relevance of Pain physiology is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 107) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Endocrine regulation",
+      "option_b": "Renal regulation",
+      "option_c": "Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "correct_answer": "D",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 108) Which pairing is correct?",
+      "option_a": "Cardiac output — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_b": "Action potential — Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Cardiac output — Volume of blood pumped per minute",
+      "option_d": "Salivary physiology — Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "C",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 109) A key clinical relevance of Cardiac output is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 110) The best example of Pain physiology is:",
+      "option_a": "Endogenous opioids and gate control affect perception.",
+      "option_b": "Feedback loops maintain homeostasis.",
+      "option_c": "Action potential",
+      "option_d": "Small intestine is primary absorption site.",
+      "correct_answer": "A",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 111) Which pairing is correct?",
+      "option_a": "Muscle contraction physiology — Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "option_c": "Pain physiology — Hormones coordinate metabolism and growth",
+      "option_d": "Cardiac output — Voltage across cell membrane at rest",
+      "correct_answer": "B",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 112) Which pairing is correct?",
+      "option_a": "Renal regulation — Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Pain physiology — Voltage across cell membrane at rest",
+      "option_c": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Renal regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "C",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 113) A key clinical relevance of Endocrine regulation is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 114) Which pairing is correct?",
+      "option_a": "Renal regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "Resting membrane potential — Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Salivary physiology — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Endocrine regulation — Excitation–contraction coupling with Ca2+",
+      "correct_answer": "A",
+      "explanation": "Renal regulation: RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 115) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "Muscle contraction physiology",
+      "option_b": "Resting membrane potential",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "CO2 is major driver of ventilation.",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 116) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Endogenous opioids and gate control affect perception.",
+      "option_b": "Determined by ion gradients and permeability.",
+      "option_c": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Cardiac output",
+      "correct_answer": "C",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 117) Which option is TRUE regarding Salivary physiology?",
+      "option_a": "Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Feedback loops maintain homeostasis.",
+      "option_c": "Flow and composition are autonomically regulated.",
+      "option_d": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "D",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 118) Which option is TRUE regarding Renal regulation?",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Salivary physiology",
+      "correct_answer": "C",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 119) A key clinical relevance of Cardiac output is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 120) Which pairing is correct?",
+      "option_a": "Muscle contraction physiology — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "Action potential — Excitation–contraction coupling with Ca2+",
+      "option_c": "Muscle contraction physiology — Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Muscle contraction physiology — Excitation–contraction coupling with Ca2+",
+      "correct_answer": "D",
+      "explanation": "Muscle contraction physiology: ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 121) The best example of GI physiology is:",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Action potential",
+      "correct_answer": "B",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 122) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Excitation–contraction coupling with Ca2+",
+      "option_b": "Resting membrane potential — Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Action potential — Voltage across cell membrane at rest",
+      "option_d": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "correct_answer": "D",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 123) Which pairing is correct?",
+      "option_a": "Cardiac output — Volume of blood pumped per minute",
+      "option_b": "Pain physiology — Excitation–contraction coupling with Ca2+",
+      "option_c": "Action potential — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_d": "Action potential — Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "D",
+      "explanation": "Action potential: Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 124) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Cardiac output — Volume of blood pumped per minute",
+      "option_c": "Resting membrane potential — Hormones coordinate metabolism and growth",
+      "option_d": "Muscle contraction physiology — Volume of blood pumped per minute",
+      "correct_answer": "A",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 125) Which option is TRUE regarding Endocrine regulation?",
+      "option_a": "Endocrine regulation",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "B",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 126) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_b": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Cardiac output — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Respiratory regulation — Hormones coordinate metabolism and growth",
+      "correct_answer": "B",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 127) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Salivary physiology",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "B",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 128) Which option is TRUE regarding Cardiac output?",
+      "option_a": "Voltage across cell membrane at rest",
+      "option_b": "Volume of blood pumped per minute",
+      "option_c": "RAAS affects BP and sodium balance.",
+      "option_d": "Resting membrane potential",
+      "correct_answer": "B",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 129) The best example of Action potential is:",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Salivary physiology",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Resting membrane potential",
+      "correct_answer": "C",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 130) A key clinical relevance of Salivary physiology is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 131) The best example of Resting membrane potential is:",
+      "option_a": "GI physiology",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Determined by ion gradients and permeability.",
+      "option_d": "Endocrine regulation",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 132) A key clinical relevance of Cardiac output is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 133) The best example of Renal regulation is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "Renal regulation",
+      "option_d": "Hormones coordinate metabolism and growth",
+      "correct_answer": "A",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 134) The best example of Pain physiology is:",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "D",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 135) The best example of GI physiology is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "B",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 136) A key clinical relevance of Muscle contraction physiology is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 137) Which option is TRUE regarding Respiratory regulation?",
+      "option_a": "Volume of blood pumped per minute",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "C",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 138) A key clinical relevance of Renal regulation is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It replaces the need for patient assessment.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 139) Which pairing is correct?",
+      "option_a": "Cardiac output — Voltage across cell membrane at rest",
+      "option_b": "Respiratory regulation — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Salivary physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_d": "Salivary physiology — Volume of blood pumped per minute",
+      "correct_answer": "C",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 140) The best example of Action potential is:",
+      "option_a": "Flow and composition are autonomically regulated.",
+      "option_b": "Resting membrane potential",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "CO2 is major driver of ventilation.",
+      "correct_answer": "C",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 141) Which option is TRUE regarding Cardiac output?",
+      "option_a": "Basis of nerve conduction and muscle contraction.",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Volume of blood pumped per minute",
+      "option_d": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "C",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 142) The best example of Resting membrane potential is:",
+      "option_a": "Resting membrane potential",
+      "option_b": "Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Determined by ion gradients and permeability.",
+      "option_d": "RAAS affects BP and sodium balance.",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 143) Which pairing is correct?",
+      "option_a": "GI physiology — Voltage across cell membrane at rest",
+      "option_b": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Pain physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Salivary physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "D",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 144) The best example of GI physiology is:",
+      "option_a": "Resting membrane potential",
+      "option_b": "Endogenous opioids and gate control affect perception.",
+      "option_c": "Rapid depolarization and repolarization in excitable cells",
+      "option_d": "Small intestine is primary absorption site.",
+      "correct_answer": "D",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 145) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Excitation–contraction coupling with Ca2+",
+      "option_b": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_c": "Renal regulation",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "A",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 146) Which option is TRUE regarding Action potential?",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "A",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 147) The best example of Muscle contraction physiology is:",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "Resting membrane potential",
+      "option_d": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 148) Which option is TRUE regarding Action potential?",
+      "option_a": "Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Muscle contraction physiology",
+      "option_c": "Feedback loops maintain homeostasis.",
+      "option_d": "Voltage across cell membrane at rest",
+      "correct_answer": "A",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 149) Which pairing is correct?",
+      "option_a": "Action potential — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "Resting membrane potential — Volume of blood pumped per minute",
+      "option_c": "Salivary physiology — Volume of blood pumped per minute",
+      "option_d": "Muscle contraction physiology — Excitation–contraction coupling with Ca2+",
+      "correct_answer": "D",
+      "explanation": "Muscle contraction physiology: ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 150) The best example of Pain physiology is:",
+      "option_a": "Volume of blood pumped per minute",
+      "option_b": "RAAS affects BP and sodium balance.",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "D",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 151) Which pairing is correct?",
+      "option_a": "Muscle contraction physiology — Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Renal regulation — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "Action potential — Hormones coordinate metabolism and growth",
+      "option_d": "Renal regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "D",
+      "explanation": "Renal regulation: RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 152) A key clinical relevance of Renal regulation is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 153) The best example of GI physiology is:",
+      "option_a": "Voltage across cell membrane at rest",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "CO2 is major driver of ventilation.",
+      "correct_answer": "C",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 154) The best example of Cardiac output is:",
+      "option_a": "Voltage across cell membrane at rest",
+      "option_b": "Resting membrane potential",
+      "option_c": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_d": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "C",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 155) Which pairing is correct?",
+      "option_a": "Action potential — Voltage across cell membrane at rest",
+      "option_b": "Salivary physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Resting membrane potential — Volume of blood pumped per minute",
+      "option_d": "Cardiac output — Volume of blood pumped per minute",
+      "correct_answer": "D",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 156) The best example of Resting membrane potential is:",
+      "option_a": "Renal regulation",
+      "option_b": "Small intestine is primary absorption site.",
+      "option_c": "Determined by ion gradients and permeability.",
+      "option_d": "Pain physiology",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 157) The best example of Salivary physiology is:",
+      "option_a": "Basis of nerve conduction and muscle contraction.",
+      "option_b": "Determined by ion gradients and permeability.",
+      "option_c": "Endocrine regulation",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "D",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 158) The best example of Salivary physiology is:",
+      "option_a": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "Flow and composition are autonomically regulated.",
+      "option_d": "Voltage across cell membrane at rest",
+      "correct_answer": "C",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 159) Which pairing is correct?",
+      "option_a": "Salivary physiology — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_b": "Salivary physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Muscle contraction physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Action potential — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "A",
+      "explanation": "Salivary physiology: Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 160) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_b": "GI physiology",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Muscle contraction physiology",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 161) A key clinical relevance of Salivary physiology is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 162) Which pairing is correct?",
+      "option_a": "Renal regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "Resting membrane potential — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Salivary physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "D",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 163) The best example of Respiratory regulation is:",
+      "option_a": "Resting membrane potential",
+      "option_b": "CO2 is major driver of ventilation.",
+      "option_c": "Muscle contraction physiology",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "B",
+      "explanation": "CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 164) The best example of Action potential is:",
+      "option_a": "Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "RAAS affects BP and sodium balance.",
+      "option_d": "Basis of nerve conduction and muscle contraction.",
+      "correct_answer": "D",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 165) A key clinical relevance of Resting membrane potential is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It is unrelated to clinical decision-making.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "correct_answer": "D",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 166) A key clinical relevance of Pain physiology is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 167) The best example of Cardiac output is:",
+      "option_a": "Hormones coordinate metabolism and growth",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_d": "Basis of nerve conduction and muscle contraction.",
+      "correct_answer": "C",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 168) Which pairing is correct?",
+      "option_a": "Resting membrane potential — Excitation–contraction coupling with Ca2+",
+      "option_b": "Endocrine regulation — Hormones coordinate metabolism and growth",
+      "option_c": "Respiratory regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Cardiac output — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "correct_answer": "B",
+      "explanation": "Endocrine regulation: Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 169) The best example of Pain physiology is:",
+      "option_a": "Volume of blood pumped per minute",
+      "option_b": "Basis of nerve conduction and muscle contraction.",
+      "option_c": "Endogenous opioids and gate control affect perception.",
+      "option_d": "Respiratory regulation",
+      "correct_answer": "C",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 170) The best example of Renal regulation is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Digestion and absorption coordinated by motility and secretions",
+      "option_c": "Salivary physiology",
+      "option_d": "Endocrine regulation",
+      "correct_answer": "A",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 171) A key clinical relevance of Salivary physiology is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 172) A key clinical relevance of Action potential is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to infection control.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It is unrelated to clinical decision-making.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 173) Which pairing is correct?",
+      "option_a": "Action potential — Volume of blood pumped per minute",
+      "option_b": "Respiratory regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_c": "Action potential — Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Resting membrane potential — Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "B",
+      "explanation": "Respiratory regulation: CO2 is major driver of ventilation."
+    },
+    {
+      "question": "(Physiology Item 174) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Respiratory regulation",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Determined by ion gradients and permeability.",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 175) The best example of Cardiac output is:",
+      "option_a": "ATP is needed for cross-bridge cycling.",
+      "option_b": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_c": "Salivary physiology",
+      "option_d": "Small intestine is primary absorption site.",
+      "correct_answer": "B",
+      "explanation": "CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 176) Which option is TRUE regarding Muscle contraction physiology?",
+      "option_a": "Cardiac output",
+      "option_b": "Excitation–contraction coupling with Ca2+",
+      "option_c": "Renal regulation",
+      "option_d": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 177) A key clinical relevance of Pain physiology is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 178) A key clinical relevance of Resting membrane potential is:",
+      "option_a": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_b": "It eliminates the need for evidence-based practice.",
+      "option_c": "It replaces the need for patient assessment.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "A",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 179) The best example of GI physiology is:",
+      "option_a": "Excitation–contraction coupling with Ca2+",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "Small intestine is primary absorption site.",
+      "option_d": "Flow and composition are autonomically regulated.",
+      "correct_answer": "C",
+      "explanation": "Small intestine is primary absorption site."
+    },
+    {
+      "question": "(Physiology Item 180) Which option is TRUE regarding Pain physiology?",
+      "option_a": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_b": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_c": "Action potential",
+      "option_d": "GI physiology",
+      "correct_answer": "A",
+      "explanation": "Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 181) Which option is TRUE regarding Action potential?",
+      "option_a": "Renal regulation",
+      "option_b": "Rapid depolarization and repolarization in excitable cells",
+      "option_c": "CO2 is major driver of ventilation.",
+      "option_d": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "B",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 182) The best example of Action potential is:",
+      "option_a": "Basis of nerve conduction and muscle contraction.",
+      "option_b": "Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "CO2 is major driver of ventilation.",
+      "option_d": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "A",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 183) A key clinical relevance of GI physiology is:",
+      "option_a": "It replaces the need for patient assessment.",
+      "option_b": "It informs diagnosis, treatment planning, or prevention related to oral health.",
+      "option_c": "It eliminates the need for evidence-based practice.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "B",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 184) The best example of Renal regulation is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Action potential",
+      "option_c": "Voltage across cell membrane at rest",
+      "option_d": "Rapid depolarization and repolarization in excitable cells",
+      "correct_answer": "A",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 185) The best example of Muscle contraction physiology is:",
+      "option_a": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_b": "ATP is needed for cross-bridge cycling.",
+      "option_c": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_d": "Salivary physiology",
+      "correct_answer": "B",
+      "explanation": "ATP is needed for cross-bridge cycling."
+    },
+    {
+      "question": "(Physiology Item 186) The best example of Renal regulation is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Muscle contraction physiology",
+      "option_c": "ATP is needed for cross-bridge cycling.",
+      "option_d": "Endocrine regulation",
+      "correct_answer": "A",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 187) Which pairing is correct?",
+      "option_a": "Resting membrane potential — Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Cardiac output — Volume of blood pumped per minute",
+      "option_c": "Respiratory regulation — Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_d": "GI physiology — Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "B",
+      "explanation": "Cardiac output: CO = HR × stroke volume; regulated by preload/afterload/contractility."
+    },
+    {
+      "question": "(Physiology Item 188) A key clinical relevance of Renal regulation is:",
+      "option_a": "It is unrelated to clinical decision-making.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to head and neck function.",
+      "option_d": "It eliminates the need for evidence-based practice.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 189) Which pairing is correct?",
+      "option_a": "Renal regulation — Control of ventilation by brainstem and chemoreceptors",
+      "option_b": "Salivary physiology — Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_c": "Pain physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_d": "Action potential — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "C",
+      "explanation": "Pain physiology: Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 190) The best example of Resting membrane potential is:",
+      "option_a": "Renal regulation",
+      "option_b": "Excitation–contraction coupling with Ca2+",
+      "option_c": "Feedback loops maintain homeostasis.",
+      "option_d": "Determined by ion gradients and permeability.",
+      "correct_answer": "D",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 191) Which pairing is correct?",
+      "option_a": "Respiratory regulation — Excitation–contraction coupling with Ca2+",
+      "option_b": "Salivary physiology — Hormones coordinate metabolism and growth",
+      "option_c": "Pain physiology — Control of ventilation by brainstem and chemoreceptors",
+      "option_d": "Pain physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "correct_answer": "D",
+      "explanation": "Pain physiology: Endogenous opioids and gate control affect perception."
+    },
+    {
+      "question": "(Physiology Item 192) Which option is TRUE regarding Resting membrane potential?",
+      "option_a": "CO2 is major driver of ventilation.",
+      "option_b": "Cardiac output",
+      "option_c": "Endocrine regulation",
+      "option_d": "Voltage across cell membrane at rest",
+      "correct_answer": "D",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 193) A key clinical relevance of GI physiology is:",
+      "option_a": "It eliminates the need for evidence-based practice.",
+      "option_b": "It replaces the need for patient assessment.",
+      "option_c": "It informs diagnosis, treatment planning, or prevention related to systemic health.",
+      "option_d": "It is unrelated to clinical decision-making.",
+      "correct_answer": "C",
+      "explanation": "Basic science concepts underpin clinical reasoning in dentistry."
+    },
+    {
+      "question": "(Physiology Item 194) Which option is TRUE regarding Salivary physiology?",
+      "option_a": "Respiratory regulation",
+      "option_b": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Endocrine regulation",
+      "correct_answer": "B",
+      "explanation": "Flow and composition are autonomically regulated."
+    },
+    {
+      "question": "(Physiology Item 195) The best example of Resting membrane potential is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_c": "Determined by ion gradients and permeability.",
+      "option_d": "Excitation–contraction coupling with Ca2+",
+      "correct_answer": "C",
+      "explanation": "Determined by ion gradients and permeability."
+    },
+    {
+      "question": "(Physiology Item 196) Which pairing is correct?",
+      "option_a": "Action potential — Digestion and absorption coordinated by motility and secretions",
+      "option_b": "Respiratory regulation — Hormones coordinate metabolism and growth",
+      "option_c": "Cardiac output — Volume of blood pumped per minute",
+      "option_d": "Renal regulation — Kidneys regulate fluid, electrolytes, and acid-base",
+      "correct_answer": "D",
+      "explanation": "Renal regulation: RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 197) The best example of Endocrine regulation is:",
+      "option_a": "Endogenous opioids and gate control affect perception.",
+      "option_b": "Endocrine regulation",
+      "option_c": "Feedback loops maintain homeostasis.",
+      "option_d": "Control of ventilation by brainstem and chemoreceptors",
+      "correct_answer": "C",
+      "explanation": "Feedback loops maintain homeostasis."
+    },
+    {
+      "question": "(Physiology Item 198) The best example of Action potential is:",
+      "option_a": "RAAS affects BP and sodium balance.",
+      "option_b": "Hormones coordinate metabolism and growth",
+      "option_c": "Basis of nerve conduction and muscle contraction.",
+      "option_d": "Endogenous opioids and gate control affect perception.",
+      "correct_answer": "C",
+      "explanation": "Basis of nerve conduction and muscle contraction."
+    },
+    {
+      "question": "(Physiology Item 199) Which option is TRUE regarding Renal regulation?",
+      "option_a": "CO = HR × stroke volume; regulated by preload/afterload/contractility.",
+      "option_b": "Saliva aids digestion, lubrication, buffering, antimicrobial defense",
+      "option_c": "Kidneys regulate fluid, electrolytes, and acid-base",
+      "option_d": "Endocrine regulation",
+      "correct_answer": "C",
+      "explanation": "RAAS affects BP and sodium balance."
+    },
+    {
+      "question": "(Physiology Item 200) Which pairing is correct?",
+      "option_a": "Cardiac output — Rapid depolarization and repolarization in excitable cells",
+      "option_b": "Pain physiology — Nociceptors detect harmful stimuli; pathways modulate pain",
+      "option_c": "GI physiology — Digestion and absorption coordinated by motility and secretions",
+      "option_d": "Resting membrane potential — Voltage across cell membrane at rest",
+      "correct_answer": "B",
+      "explanation": "Pain physiology: Endogenous opioids and gate control affect perception."
+    }
+  ]
+}
