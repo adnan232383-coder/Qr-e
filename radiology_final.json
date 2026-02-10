@@ -1,0 +1,452 @@
+[
+  {
+    "question": "A 65-year-old male smoker presents with acute chest pain and shortness of breath. A chest X-ray shows a radiolucent area at the lung periphery with an absent lung marking and a visible visceral pleural line. The mediastinum is shifted to the contralateral side. What is the most likely diagnosis?",
+    "option_a": "Simple pneumothorax",
+    "option_b": "Tension pneumothorax",
+    "option_c": "Large pleural effusion",
+    "option_d": "Lobbar pneumonia",
+    "correct_answer": "B",
+    "explanation": "The absence of lung markings, visible pleural line, and mediastinal shift are hallmarks of a tension pneumothorax, which is a medical emergency."
+  },
+  {
+    "question": "A 45-year-old female undergoes a contrast-enhanced CT scan. Shortly after the injection, she develops urticaria, sneezing, and mild wheezing. What is the first-line treatment for this reaction?",
+    "option_a": "Intravenous corticosteroids",
+    "option_b": "Intramuscular epinephrine",
+    "option_c": "Intravenous diphenhydramine",
+    "option_d": "Observation only",
+    "correct_answer": "C",
+    "explanation": "Mild allergic-like reactions such as urticaria are typically managed with antihistamines like diphenhydramine."
+  },
+  {
+    "question": "In a chest radiograph, the right heart border is obscured by an adjacent opacification. This 'silhouette sign' indicates pathology in which lung lobe?",
+    "option_a": "Right upper lobe",
+    "option_b": "Right middle lobe",
+    "option_c": "Right lower lobe",
+    "option_d": "Left lingula",
+    "correct_answer": "B",
+    "explanation": "The right middle lobe is anatomically adjacent to the right atrium; loss of the heart border silhouette indicates an abnormality in this lobe."
+  },
+  {
+    "question": "Which imaging modality is considered the 'gold standard' for detecting acute intracranial hemorrhage within the first 6 hours of symptoms?",
+    "option_a": "MRI Brain (T2 weighted)",
+    "option_b": "Non-contrast CT Brain",
+    "option_c": "Contrast-enhanced CT Brain",
+    "option_d": "Cerebral Angiography",
+    "correct_answer": "B",
+    "explanation": "Non-contrast CT is highly sensitive to acute blood (which appears hyperdense) and is faster and more accessible than MRI in emergencies."
+  },
+  {
+    "question": "A 25-year-old pregnant woman (20 weeks) presents with right lower quadrant pain. What is the preferred initial imaging modality to evaluate for appendicitis?",
+    "option_a": "CT abdomen with contrast",
+    "option_b": "Abdominal X-ray",
+    "option_c": "Ultrasound of the abdomen",
+    "option_d": "MRI abdomen",
+    "correct_answer": "C",
+    "explanation": "Ultrasound is the first-line imaging in pregnancy to avoid ionizing radiation. MRI is usually the second-line if US is inconclusive."
+  },
+  {
+    "question": "What is the classic radiological sign seen on a plain abdominal film in a patient with sigmoid volvulus?",
+    "option_a": "Rigler's sign",
+    "option_b": "Coffee bean sign",
+    "option_c": "Apple core sign",
+    "option_d": "Thumbprinting sign",
+    "correct_answer": "B",
+    "explanation": "The sigmoid colon distends with air and twists, creating a large, smooth loop that resembles a coffee bean."
+  },
+  {
+    "question": "Which of the following is an absolute contraindication for a patient undergoing an MRI scan?",
+    "option_a": "Pregnancy",
+    "option_b": "Dental fillings",
+    "option_c": "Cardiac pacemaker (non-MRI conditional)",
+    "option_d": "Claustrophobia",
+    "correct_answer": "C",
+    "explanation": "Ferromagnetic implants or older pacemakers can malfunction or move in the strong magnetic field of the MRI."
+  },
+  {
+    "question": "A 'sunburst' periosteal reaction seen on an X-ray of the distal femur in a 15-year-old boy is most suggestive of:",
+    "option_a": "Ewing sarcoma",
+    "option_b": "Osteosarcoma",
+    "option_c": "Osteoid osteoma",
+    "option_d": "Osteomyelitis",
+    "correct_answer": "B",
+    "explanation": "The sunburst pattern indicates aggressive bone destruction and rapid periosteal reaction, classic for osteosarcoma."
+  },
+  {
+    "question": "Which radiological sign on a chest X-ray suggests the presence of an endobronchial obstruction?",
+    "option_a": "Air bronchogram",
+    "option_b": "Golden S sign",
+    "option_c": "Westermark sign",
+    "option_d": "Hampton's hump",
+    "correct_answer": "B",
+    "explanation": "The Golden S sign is created by a combination of hilar mass and collapse of the right upper lobe."
+  },
+  {
+    "question": "What is the primary purpose of using 'Lead Aprons' during fluoroscopic procedures?",
+    "option_a": "To reduce patient dose",
+    "option_b": "To protect medical staff from scatter radiation",
+    "option_c": "To improve image contrast",
+    "option_d": "To focus the X-ray beam",
+    "correct_answer": "B",
+    "explanation": "Lead aprons are personal protective equipment designed to shield healthcare workers from secondary (scatter) radiation."
+  },
+  {
+    "question": "A 3-year-old child presents with a sudden onset of 'barking' cough. A neck X-ray shows subglottic narrowing. This is known as the:",
+    "option_a": "Thumb sign",
+    "option_b": "Steeple sign",
+    "option_c": "Deep sulcus sign",
+    "option_d": "Sail sign",
+    "correct_answer": "B",
+    "explanation": "The steeple sign represents subglottic edema characteristic of Croup (laryngotracheobronchitis)."
+  },
+  {
+    "question": "In interventional radiology, which agent is most commonly used for uterine artery embolization to treat fibroids?",
+    "option_a": "Gelfoam",
+    "option_b": "Polyvinyl alcohol (PVA) particles",
+    "option_c": "Absolute alcohol",
+    "option_d": "Coils",
+    "correct_answer": "B",
+    "explanation": "PVA particles or microspheres are standard for permanent occlusion of the small vessels supplying the fibroids."
+  },
+  {
+    "question": "Which T-sequence in MRI is best for identifying edema or inflammation, as water appears bright?",
+    "option_a": "T1-weighted",
+    "option_b": "T2-weighted",
+    "option_c": "Proton density",
+    "option_d": "Diffusion-weighted",
+    "correct_answer": "B",
+    "explanation": "On T2-weighted images, 'H2O' is bright, making it ideal for detecting fluid, edema, and most pathologies."
+  },
+  {
+    "question": "A 70-year-old male with chronic hypertension presents with a sudden 'tearing' back pain. A chest X-ray shows a widened mediastinum. What is the most appropriate next imaging step?",
+    "option_a": "Transthoracic echocardiogram",
+    "option_b": "CT Angiography of the chest",
+    "option_c": "MRI of the spine",
+    "option_d": "Barium swallow",
+    "correct_answer": "B",
+    "explanation": "CT Angiography is the rapid and definitive modality for diagnosing aortic dissection."
+  },
+  {
+    "question": "What does 'Rigler's Sign' on a supine abdominal radiograph indicate?",
+    "option_a": "Bowel obstruction",
+    "option_b": "Pneumoperitoneum",
+    "option_c": "Ascites",
+    "option_d": "Intussusception",
+    "correct_answer": "B",
+    "explanation": "Rigler's sign is seen when air is present on both sides of the bowel wall (lumen and peritoneal cavity), indicating perforation."
+  },
+  {
+    "question": "Which radiological finding is most typical of a Pulmonary Embolism on a CT Pulmonary Angiogram (CTPA)?",
+    "option_a": "Wedge-shaped opacity",
+    "option_b": "Intraluminal filling defect",
+    "option_c": "Air bronchograms",
+    "option_d": "Hilar lymphadenopathy",
+    "correct_answer": "B",
+    "explanation": "An intraluminal filling defect in the pulmonary arteries indicates the presence of a thrombus."
+  },
+  {
+    "question": "A 60-year-old male has an incidental finding of a 'porcelain gallbladder' on a CT scan. This increases the risk for:",
+    "option_a": "Gallbladder adenocarcinoma",
+    "option_b": "Choledocholithiasis",
+    "option_c": "Pancreatitis",
+    "option_d": "Liver cirrhosis",
+    "correct_answer": "A",
+    "explanation": "Porcelain gallbladder (calcification of the wall) is associated with an increased incidence of gallbladder carcinoma."
+  },
+  {
+    "question": "On an ultrasound, a 'gallbladder wall thickening' (>3mm) and a 'positive sonographic Murphy sign' are highly suggestive of:",
+    "option_a": "Biliary colic",
+    "option_b": "Acute cholecystitis",
+    "option_c": "Gallbladder polyps",
+    "option_d": "Ascites",
+    "correct_answer": "B",
+    "explanation": "These findings combined with pain when the probe is pressed over the gallbladder are diagnostic criteria for acute cholecystitis."
+  },
+  {
+    "question": "Which imaging modality uses radioactive tracers to evaluate functional processes in the body, such as glucose metabolism in tumors?",
+    "option_a": "SPECT",
+    "option_b": "PET scan",
+    "option_c": "DEXA scan",
+    "option_d": "Fluoroscopy",
+    "correct_answer": "B",
+    "explanation": "Positron Emission Tomography (PET) typically uses FDG (a glucose analog) to map metabolic activity."
+  },
+  {
+    "question": "A 'double bubble sign' on a neonatal abdominal X-ray is pathognomonic for:",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Duodenal atresia",
+    "option_c": "Sigmoid volvulus",
+    "option_d": "Necrotizing enterocolitis",
+    "correct_answer": "B",
+    "explanation": "The two bubbles represent air in the stomach and the proximal duodenum, indicating complete distal obstruction."
+  },
+  {
+    "question": "What is the significance of 'Kerley B lines' on a chest radiograph?",
+    "option_a": "Interstitial pulmonary edema",
+    "option_b": "Pneumothorax",
+    "option_c": "Tuberculosis",
+    "option_d": "Bronchiectasis",
+    "correct_answer": "A",
+    "explanation": "Kerley B lines are short horizontal lines at the lung bases representing thickened interlobular septa due to fluid."
+  },
+  {
+    "question": "A patient with suspected 'Pulmonary Sequestration' would best be evaluated by which modality to see the anomalous systemic blood supply?",
+    "option_a": "Chest X-ray",
+    "option_b": "CT Angiography",
+    "option_c": "Ultrasound",
+    "option_d": "Ventilation-Perfusion (V/Q) scan",
+    "correct_answer": "B",
+    "explanation": "CTA allows for the visualization of the aberrant artery arising from the systemic circulation (usually the aorta)."
+  },
+  {
+    "question": "The 'Sail Sign' on a pediatric chest X-ray in an infant is a normal finding representing the:",
+    "option_a": "Heart",
+    "option_b": "Thymus",
+    "option_c": "Collapsed lobe",
+    "option_d": "Diaphragm",
+    "correct_answer": "B",
+    "explanation": "In infants, the thymus is large and can appear as a triangular opacity resembling a sail."
+  },
+  {
+    "question": "In a CT scan of the abdomen, 'Hounsfield Units' (HU) are used to measure:",
+    "option_a": "Radiation dose",
+    "option_b": "Tissue density/attenuation",
+    "option_c": "Blood flow speed",
+    "option_d": "Contrast concentration",
+    "correct_answer": "B",
+    "explanation": "Water is 0 HU, bone is >400 HU, and air is -1000 HU. This helps in tissue characterization."
+  },
+  {
+    "question": "A patient presents with hematuria. An IVP (Intravenous Pyelogram) shows a 'filling defect' in the renal pelvis. What is the most likely diagnosis?",
+    "option_a": "Renal cyst",
+    "option_b": "Transitional cell carcinoma",
+    "option_c": "Pyelonephritis",
+    "option_d": "Horseshoe kidney",
+    "correct_answer": "B",
+    "explanation": "A filling defect in the collecting system is a common presentation for urothelial (transitional cell) tumors."
+  },
+  {
+    "question": "What is the most sensitive imaging test for detecting 'stress fractures' early in their course?",
+    "option_a": "Plain radiograph",
+    "option_b": "MRI",
+    "option_c": "CT scan",
+    "option_d": "Ultrasound",
+    "correct_answer": "B",
+    "explanation": "MRI can detect bone marrow edema, which is the earliest sign of a stress injury, long before X-ray changes occur."
+  },
+  {
+    "question": "On a chest X-ray, the 'Deep Sulcus Sign' is indicative of:",
+    "option_a": "Pleural effusion",
+    "option_b": "Pneumothorax in a supine patient",
+    "option_c": "Emphysema",
+    "option_d": "Diaphragmatic hernia",
+    "correct_answer": "B",
+    "explanation": "In supine patients, air collects anteriorly and inferiorly, deepening the costophrenic angle."
+  },
+  {
+    "question": "Which of the following is the most common contrast agent used in MRI?",
+    "option_a": "Iodinated contrast",
+    "option_b": "Gadolinium-based contrast",
+    "option_c": "Barium sulfate",
+    "option_d": "Carbon dioxide",
+    "correct_answer": "B",
+    "explanation": "Gadolinium is a paramagnetic substance that alters the relaxation times of nearby water protons to enhance the image."
+  },
+  {
+    "question": "A patient has a 'Cold Nodule' on a thyroid technetium-99m scan. This finding:",
+    "option_a": "Rules out cancer",
+    "option_b": "Carries a higher risk of malignancy than a 'hot' nodule",
+    "option_c": "Indicates Graves' disease",
+    "option_d": "Is always toxic",
+    "correct_answer": "B",
+    "explanation": "Cold nodules do not take up the isotope and have a roughly 15-20% risk of being malignant."
+  },
+  {
+    "question": "What is the 'ALARA' principle in radiation safety?",
+    "option_a": "As Low As Reasonably Achievable",
+    "option_b": "Always Limit All Radiation Access",
+    "option_c": "As Little As Reasonably Allowed",
+    "option_d": "Alpha, Lambda, and Radiation Absorption",
+    "correct_answer": "A",
+    "explanation": "ALARA is the fundamental principle of minimizing radiation doses to patients and staff."
+  },
+  {
+    "question": "Which of the following is the preferred modality to evaluate a suspected 'Torus (Buckle) fracture' in a child's forearm?",
+    "option_a": "CT",
+    "option_b": "X-ray",
+    "option_c": "MRI",
+    "option_d": "Bone scan",
+    "correct_answer": "B",
+    "explanation": "Plain radiographs are sufficient to diagnose these common pediatric incomplete fractures."
+  },
+  {
+    "question": "A 'Lead Pipe' appearance of the colon on a barium enema is a classic sign of:",
+    "option_a": "Crohn's disease",
+    "option_b": "Chronic Ulcerative Colitis",
+    "option_c": "Diverticulitis",
+    "option_d": "Colon cancer",
+    "correct_answer": "B",
+    "explanation": "Loss of haustral folds due to chronic inflammation in UC leads to a smooth, rigid tube appearance."
+  },
+  {
+    "question": "In MRI, the 'Time of Flight' (TOF) technique is most commonly used for:",
+    "option_a": "Cardiac imaging",
+    "option_b": "Non-contrast MR Angiography",
+    "option_c": "Evaluating joint cartilage",
+    "option_d": "Liver lesion characterization",
+    "correct_answer": "B",
+    "explanation": "TOF MRA utilizes the flow of blood to create vascular images without the need for intravenous contrast."
+  },
+  {
+    "question": "A 'Sentinel Loop' on an abdominal X-ray (a single dilated loop of small bowel in the LUQ) is often associated with:",
+    "option_a": "Appendicitis",
+    "option_b": "Acute Pancreatitis",
+    "option_c": "Renal stones",
+    "option_d": "Cholecystitis",
+    "correct_answer": "B",
+    "explanation": "Localized ileus (sentinel loop) occurs near an area of focal inflammation, such as the pancreas."
+  },
+  {
+    "question": "Which contrast agent is preferred for evaluating a suspected 'Esophageal Perforation'?",
+    "option_a": "Barium sulfate",
+    "option_b": "Water-soluble iodinated contrast (e.g., Gastrografin)",
+    "option_c": "Gadolinium",
+    "option_d": "Air",
+    "correct_answer": "B",
+    "explanation": "Barium can cause a severe inflammatory reaction (mediastinitis) if it leaks; water-soluble contrast is safer if a leak is suspected."
+  },
+  {
+    "question": "An ultrasound of the kidneys shows 'hyperechoic pyramids' in a newborn. This is most likely due to:",
+    "option_a": "Renal vein thrombosis",
+    "option_b": "Tamm-Horsfall protein deposition (Normal transient finding)",
+    "option_c": "Autosomal dominant PKD",
+    "option_d": "Wilms tumor",
+    "correct_answer": "B",
+    "explanation": "Transient hyperechoic renal pyramids in neonates are usually benign and resolve as protein clears."
+  },
+  {
+    "question": "Which interventional radiology procedure is used to bypass a portal vein obstruction and treat variceal bleeding?",
+    "option_a": "TACE",
+    "option_b": "TIPS",
+    "option_c": "PTC",
+    "option_d": "PCN",
+    "correct_answer": "B",
+    "explanation": "Transjugular Intrahepatic Portosystemic Shunt (TIPS) creates a channel between the portal and hepatic veins."
+  },
+  {
+    "question": "A 'Snowstorm' appearance in the uterus on pelvic ultrasound in a woman with high hCG levels and vaginal bleeding is typical of:",
+    "option_a": "Ectopic pregnancy",
+    "option_b": "Hydatidiform mole",
+    "option_c": "Endometrial polyps",
+    "option_d": "Uterine fibroids",
+    "correct_answer": "B",
+    "explanation": "The 'snowstorm' or 'bunch of grapes' appearance represents the hydropic villi of a molar pregnancy."
+  },
+  {
+    "question": "What is the radiological sign of 'thumbprinting' on an abdominal X-ray suggestive of?",
+    "option_a": "Bowel wall edema (Ischemic colitis)",
+    "option_b": "Constipation",
+    "option_c": "Gallstone ileus",
+    "option_d": "Volvulus",
+    "correct_answer": "A",
+    "explanation": "Thumbprinting is caused by submucosal edema or hemorrhage, often seen in mesenteric ischemia or inflammatory bowel disease."
+  },
+  {
+    "question": "Which of the following is true regarding 'Nephrogenic Systemic Fibrosis' (NSF)?",
+    "option_a": "It is caused by iodinated contrast",
+    "option_b": "It occurs in patients with severe renal failure exposed to Gadolinium",
+    "option_c": "It is a complication of ultrasound",
+    "option_d": "It is easily cured with steroids",
+    "correct_answer": "B",
+    "explanation": "NSF is a rare, debilitating fibrosing condition linked to certain gadolinium-based agents in the setting of low GFR."
+  },
+  {
+    "question": "An 'Egg-on-a-string' heart appearance on a pediatric chest X-ray is classic for:",
+    "option_a": "Tetralogy of Fallot",
+    "option_b": "Transposition of the Great Arteries",
+    "option_c": "Total anomalous pulmonary venous return",
+    "option_d": "Coarctation of the aorta",
+    "correct_answer": "B",
+    "explanation": "The appearance is due to a narrow mediastinum (the 'string') and a globular heart (the 'egg')."
+  },
+  {
+    "question": "Which radiological sign describes a 'wedge-shaped' peripheral opacity in the lung on a chest X-ray in pulmonary infarction?",
+    "option_a": "Westermark sign",
+    "option_b": "Hampton's hump",
+    "option_c": "Fleischner sign",
+    "option_d": "Palla sign",
+    "correct_answer": "B",
+    "explanation": "Hampton's hump represents lung infarction distal to a pulmonary embolism."
+  },
+  {
+    "question": "A 'string sign' in the terminal ileum on a small bowel follow-through is most typical for:",
+    "option_a": "Ulcerative colitis",
+    "option_b": "Crohn's disease",
+    "option_c": "Celiac disease",
+    "option_d": "Amoebiasis",
+    "correct_answer": "B",
+    "explanation": "The string sign indicates severe narrowing of the bowel lumen due to inflammation and spasm."
+  },
+  {
+    "question": "What imaging findings would you expect on a CT head of a patient with an acute 'Epidural Hematoma'?",
+    "option_a": "Crescent-shaped, crossing sutures",
+    "option_b": "Biconvex/Lens-shaped, not crossing sutures",
+    "option_c": "Hypodense area",
+    "option_d": "Midline shift with no visible bleed",
+    "correct_answer": "B",
+    "explanation": "Epidural hematomas are arterial bleeds restricted by dural attachments to the sutures, giving them a lentiform shape."
+  },
+  {
+    "question": "In ultrasound, 'Posterior Acoustic Enhancement' is seen behind:",
+    "option_a": "Gallstones",
+    "option_b": "Simple cysts",
+    "option_c": "Solid tumors",
+    "option_d": "Bone",
+    "correct_answer": "B",
+    "explanation": "Fluid-filled structures do not attenuate the sound beam as much as tissue, making the area behind them appear brighter."
+  },
+  {
+    "question": "What is the primary radiological feature of 'Bronchiectasis' on a High-Resolution CT (HRCT)?",
+    "option_a": "Tree-in-bud pattern",
+    "option_b": "Signet ring sign",
+    "option_c": "Ground glass opacities",
+    "option_d": "Honeycombing",
+    "correct_answer": "B",
+    "explanation": "The signet ring sign is seen when the bronchus is larger than its accompanying pulmonary artery."
+  },
+  {
+    "question": "Which of the following is a classic finding of 'Pneumoperitoneum' on an upright chest X-ray?",
+    "option_a": "Air under the diaphragm",
+    "option_b": "Pleural effusion",
+    "option_c": "Hilar congestion",
+    "option_d": "Atelectasis",
+    "correct_answer": "A",
+    "explanation": "Free air rises to the highest point, appearing as a radiolucent crescent beneath the domes of the diaphragm."
+  },
+  {
+    "question": "In a skeletal X-ray, the 'Scotty Dog' with a broken neck sign indicates:",
+    "option_a": "Spondylolisthesis",
+    "option_b": "Spondylolysis",
+    "option_c": "Disc herniation",
+    "option_d": "Compression fracture",
+    "correct_answer": "B",
+    "explanation": "The 'broken neck' of the Scotty dog on oblique lumbar films represents a defect in the pars interarticularis."
+  },
+  {
+    "question": "What does a 'Target sign' on an ultrasound of a child's abdomen suggest?",
+    "option_a": "Appendicitis",
+    "option_b": "Intussusception",
+    "option_c": "Pyloric stenosis",
+    "option_d": "Malrotation",
+    "correct_answer": "B",
+    "explanation": "The target or 'donut' sign is formed by the layers of bowel within bowel."
+  },
+  {
+    "question": "Which interventional radiology procedure involves placing a needle through the skin into the renal pelvis to drain urine?",
+    "option_a": "PCN (Percutaneous Nephrostomy)",
+    "option_b": "PTC (Percutaneous Transhepatic Cholangiography)",
+    "option_c": "RFA (Radiofrequency Ablation)",
+    "option_d": "Angioplasty",
+    "correct_answer": "A",
+    "explanation": "PCN is used to relieve urinary obstruction when retrograde stenting is not possible."
+  }
+]
