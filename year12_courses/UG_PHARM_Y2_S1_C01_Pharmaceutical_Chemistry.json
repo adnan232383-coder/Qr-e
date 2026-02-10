@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmaceutical Chemistry",
+  "course_code": "UG_PHARM_Y2_S1_C01",
+  "questions": [
+    {
+      "question": "Which statement best describes Drug stability?",
+      "option_a": "Salt selection can affect dissolution and bioavailability.",
+      "option_b": "Chromophores",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Drug stability is MOST associated with:",
+      "option_a": "Stereoisomers",
+      "option_b": "Ionic forms improving solubility or stability",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Intermolecular force affecting solubility and binding",
+      "correct_answer": "C",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "Which statement best describes Salt forms?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "A",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Salt forms is MOST associated with:",
+      "option_a": "Measure of partitioning into lipids",
+      "option_b": "Salt selection can affect dissolution and bioavailability.",
+      "option_c": "Enantiomers may differ in potency and toxicity.",
+      "option_d": "Drug stability",
+      "correct_answer": "B",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "Which statement best describes Stereoisomers?",
+      "option_a": "Drug stability",
+      "option_b": "Same formula different 3D arrangement",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "B",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Stereoisomers is MOST associated with:",
+      "option_a": "Enantiomers may differ in potency and toxicity.",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Impurities",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "Which statement best describes Prodrugs?",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Metabolic pathways",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Prodrugs is MOST associated with:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Impurities",
+      "option_c": "Drug stability",
+      "option_d": "Ionic forms improving solubility or stability",
+      "correct_answer": "A",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "Which statement best describes pKa and absorption?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Metabolic pathways",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Phase I and Phase II biotransformation",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, pKa and absorption is MOST associated with:",
+      "option_a": "Metabolic pathways",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "C",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "Which statement best describes Metabolic pathways?",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "More H-bonding increases polarity; may reduce permeability.",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Metabolic pathways is MOST associated with:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Groups absorbing UV/Vis light",
+      "option_c": "Stereoisomers",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "Which statement best describes Hydrogen bonding?",
+      "option_a": "Salt forms",
+      "option_b": "Same formula different 3D arrangement",
+      "option_c": "Intermolecular force affecting solubility and binding",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "C",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Hydrogen bonding is MOST associated with:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "More H-bonding increases polarity; may reduce permeability.",
+      "option_c": "Lipophilicity (logP)",
+      "option_d": "pKa and absorption",
+      "correct_answer": "B",
+      "explanation": "Hydrogen bonding: More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "Which statement best describes Lipophilicity (logP)?",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "Groups absorbing UV/Vis light",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "D",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Lipophilicity (logP) is MOST associated with:",
+      "option_a": "Used in analytical detection.",
+      "option_b": "Prodrugs",
+      "option_c": "Same formula different 3D arrangement",
+      "option_d": "Affects distribution and BBB penetration.",
+      "correct_answer": "D",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "Which statement best describes Chromophores?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "D",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Chromophores is MOST associated with:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Intermolecular force affecting solubility and binding",
+      "option_c": "Used in analytical detection.",
+      "option_d": "Chromophores",
+      "correct_answer": "C",
+      "explanation": "Chromophores: Used in analytical detection."
+    },
+    {
+      "question": "Which statement best describes Impurities?",
+      "option_a": "Metabolic pathways",
+      "option_b": "Prodrugs",
+      "option_c": "Unwanted chemicals in drug substance/product",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "C",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "In Pharmaceutical Chemistry, Impurities is MOST associated with:",
+      "option_a": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Controlled to ensure safety and quality.",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "C",
+      "explanation": "Impurities: Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 21) Which option is TRUE regarding Salt forms?",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Phase I and Phase II biotransformation",
+      "option_c": "Same formula different 3D arrangement",
+      "option_d": "Ionic forms improving solubility or stability",
+      "correct_answer": "D",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 22) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Impurities",
+      "option_b": "Used in analytical detection.",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Prodrugs",
+      "correct_answer": "C",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 23) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Measure of partitioning into lipids",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Intermolecular force affecting solubility and binding",
+      "correct_answer": "A",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 24) The best example of Prodrugs is:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Phase I and Phase II biotransformation",
+      "option_c": "Controlled to ensure safety and quality.",
+      "option_d": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "correct_answer": "A",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 25) Which option is TRUE regarding Impurities?",
+      "option_a": "Chromophores",
+      "option_b": "Impurities",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "D",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 26) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Hydrogen bonding — Phase I and Phase II biotransformation",
+      "option_c": "Hydrogen bonding — Measure of partitioning into lipids",
+      "option_d": "pKa and absorption — Ionization affects membrane permeability",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 27) The best example of Stereoisomers is:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Same formula different 3D arrangement",
+      "option_c": "Salt forms",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 28) The best example of Stereoisomers is:",
+      "option_a": "Used in analytical detection.",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "pKa and absorption",
+      "option_d": "Ionization affects membrane permeability",
+      "correct_answer": "B",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 29) The best example of Lipophilicity (logP) is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "B",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 30) The best example of Hydrogen bonding is:",
+      "option_a": "Affects distribution and BBB penetration.",
+      "option_b": "Ionization affects membrane permeability",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "C",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 31) The best example of Prodrugs is:",
+      "option_a": "Enantiomers may differ in potency and toxicity.",
+      "option_b": "Improve absorption or targeting; reduce adverse effects.",
+      "option_c": "Phase I and Phase II biotransformation",
+      "option_d": "Ionic forms improving solubility or stability",
+      "correct_answer": "B",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 32) The best example of Salt forms is:",
+      "option_a": "Stereoisomers",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 33) The best example of Hydrogen bonding is:",
+      "option_a": "More H-bonding increases polarity; may reduce permeability.",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "A",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 34) Which option is TRUE regarding Salt forms?",
+      "option_a": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_b": "Ionic forms improving solubility or stability",
+      "option_c": "Prodrugs",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "B",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 35) The best example of Hydrogen bonding is:",
+      "option_a": "More H-bonding increases polarity; may reduce permeability.",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "A",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 36) Which option is TRUE regarding Drug stability?",
+      "option_a": "Same formula different 3D arrangement",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Chromophores",
+      "correct_answer": "B",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 37) The best example of pKa and absorption is:",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Phase I and Phase II biotransformation",
+      "correct_answer": "C",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 38) The best example of Prodrugs is:",
+      "option_a": "Prodrugs",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Chromophores",
+      "option_d": "Improve absorption or targeting; reduce adverse effects.",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 39) The best example of Drug stability is:",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Stereoisomers",
+      "correct_answer": "C",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 40) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Salt forms",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "C",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 41) Which pairing is correct?",
+      "option_a": "Prodrugs — Same formula different 3D arrangement",
+      "option_b": "Salt forms — Ionic forms improving solubility or stability",
+      "option_c": "Lipophilicity (logP) — Intermolecular force affecting solubility and binding",
+      "option_d": "Stereoisomers — Same formula different 3D arrangement",
+      "correct_answer": "B",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 42) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Metabolic pathways",
+      "option_b": "CYP oxidation then conjugation increases polarity.",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 43) Which pairing is correct?",
+      "option_a": "Metabolic pathways — Groups absorbing UV/Vis light",
+      "option_b": "Prodrugs — Converted in vivo to active drug",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Drug stability — Chemical/physical integrity over time",
+      "correct_answer": "D",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 44) Which pairing is correct?",
+      "option_a": "Stereoisomers — Intermolecular force affecting solubility and binding",
+      "option_b": "Lipophilicity (logP) — Same formula different 3D arrangement",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Stereoisomers — Intermolecular force affecting solubility and binding",
+      "correct_answer": "C",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 45) Which option is TRUE regarding Stereoisomers?",
+      "option_a": "Salt forms",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Same formula different 3D arrangement",
+      "correct_answer": "D",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 46) Which pairing is correct?",
+      "option_a": "Impurities — Unwanted chemicals in drug substance/product",
+      "option_b": "pKa and absorption — Unwanted chemicals in drug substance/product",
+      "option_c": "Stereoisomers — Groups absorbing UV/Vis light",
+      "option_d": "Salt forms — Unwanted chemicals in drug substance/product",
+      "correct_answer": "A",
+      "explanation": "Impurities: Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 47) Which pairing is correct?",
+      "option_a": "pKa and absorption — Ionization affects membrane permeability",
+      "option_b": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_c": "Lipophilicity (logP) — Groups absorbing UV/Vis light",
+      "option_d": "Salt forms — Intermolecular force affecting solubility and binding",
+      "correct_answer": "B",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 48) The best example of Lipophilicity (logP) is:",
+      "option_a": "Impurities",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "correct_answer": "C",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 49) Which option is TRUE regarding Impurities?",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Impurities",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "D",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 50) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Measure of partitioning into lipids",
+      "option_c": "Used in analytical detection.",
+      "option_d": "Chemical/physical integrity over time",
+      "correct_answer": "B",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 51) The best example of Lipophilicity (logP) is:",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "Hydrogen bonding",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Stereoisomers",
+      "correct_answer": "C",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 52) The best example of Salt forms is:",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Salt selection can affect dissolution and bioavailability.",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "B",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 53) Which option is TRUE regarding Prodrugs?",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Phase I and Phase II biotransformation",
+      "correct_answer": "B",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 54) Which option is TRUE regarding Chromophores?",
+      "option_a": "Prodrugs",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Improve absorption or targeting; reduce adverse effects.",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "D",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 55) Which option is TRUE regarding Metabolic pathways?",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Affects distribution and BBB penetration.",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 56) The best example of Chromophores is:",
+      "option_a": "Enantiomers may differ in potency and toxicity.",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Used in analytical detection.",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "C",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 57) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Phase I and Phase II biotransformation",
+      "option_b": "Salt forms — Ionic forms improving solubility or stability",
+      "option_c": "pKa and absorption — Ionic forms improving solubility or stability",
+      "option_d": "Impurities — Unwanted chemicals in drug substance/product",
+      "correct_answer": "D",
+      "explanation": "Impurities: Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 58) The best example of Impurities is:",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "More H-bonding increases polarity; may reduce permeability.",
+      "option_c": "Controlled to ensure safety and quality.",
+      "option_d": "Salt forms",
+      "correct_answer": "C",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 59) The best example of Impurities is:",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Metabolic pathways",
+      "option_c": "Controlled to ensure safety and quality.",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 60) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Used in analytical detection.",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "B",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 61) The best example of Hydrogen bonding is:",
+      "option_a": "More H-bonding increases polarity; may reduce permeability.",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Prodrugs",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "A",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 62) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Salt forms",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "CYP oxidation then conjugation increases polarity.",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "D",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 63) Which option is TRUE regarding Drug stability?",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Impurities",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Ionic forms improving solubility or stability",
+      "correct_answer": "C",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 64) The best example of pKa and absorption is:",
+      "option_a": "pKa and absorption",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Improve absorption or targeting; reduce adverse effects.",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 65) Which pairing is correct?",
+      "option_a": "Impurities — Phase I and Phase II biotransformation",
+      "option_b": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "option_c": "Prodrugs — Groups absorbing UV/Vis light",
+      "option_d": "Chromophores — Ionic forms improving solubility or stability",
+      "correct_answer": "B",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 66) The best example of Metabolic pathways is:",
+      "option_a": "Impurities",
+      "option_b": "Intermolecular force affecting solubility and binding",
+      "option_c": "CYP oxidation then conjugation increases polarity.",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "C",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 67) Which pairing is correct?",
+      "option_a": "Drug stability — Chemical/physical integrity over time",
+      "option_b": "Metabolic pathways — Chemical/physical integrity over time",
+      "option_c": "Drug stability — Unwanted chemicals in drug substance/product",
+      "option_d": "Impurities — Unwanted chemicals in drug substance/product",
+      "correct_answer": "D",
+      "explanation": "Impurities: Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 68) The best example of Prodrugs is:",
+      "option_a": "Controlled to ensure safety and quality.",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Improve absorption or targeting; reduce adverse effects.",
+      "option_d": "pKa and absorption",
+      "correct_answer": "C",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 69) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Impurities",
+      "option_c": "Prodrugs",
+      "option_d": "Chemical/physical integrity over time",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 70) The best example of Chromophores is:",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Used in analytical detection.",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "B",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 71) Which pairing is correct?",
+      "option_a": "Chromophores — Groups absorbing UV/Vis light",
+      "option_b": "Lipophilicity (logP) — Chemical/physical integrity over time",
+      "option_c": "Metabolic pathways — Chemical/physical integrity over time",
+      "option_d": "Chromophores — Groups absorbing UV/Vis light",
+      "correct_answer": "A",
+      "explanation": "Chromophores: Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 72) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_b": "pKa and absorption — Ionization affects membrane permeability",
+      "option_c": "Hydrogen bonding — Unwanted chemicals in drug substance/product",
+      "option_d": "Stereoisomers — Measure of partitioning into lipids",
+      "correct_answer": "B",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 73) The best example of Lipophilicity (logP) is:",
+      "option_a": "Controlled to ensure safety and quality.",
+      "option_b": "Drug stability",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Affects distribution and BBB penetration.",
+      "correct_answer": "D",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 74) The best example of Impurities is:",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Controlled to ensure safety and quality.",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "B",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 75) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Ionization affects membrane permeability",
+      "option_c": "Enantiomers may differ in potency and toxicity.",
+      "option_d": "Groups absorbing UV/Vis light",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 76) Which option is TRUE regarding Salt forms?",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Ionic forms improving solubility or stability",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "B",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 77) The best example of Stereoisomers is:",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "B",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 78) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "pKa and absorption",
+      "option_d": "Metabolic pathways",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 79) Which pairing is correct?",
+      "option_a": "Chromophores — Converted in vivo to active drug",
+      "option_b": "Drug stability — Converted in vivo to active drug",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Lipophilicity (logP) — Groups absorbing UV/Vis light",
+      "correct_answer": "C",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 80) Which option is TRUE regarding Prodrugs?",
+      "option_a": "pKa and absorption",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Lipophilicity (logP)",
+      "correct_answer": "B",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 81) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "pKa and absorption — Converted in vivo to active drug",
+      "option_c": "Chromophores — Groups absorbing UV/Vis light",
+      "option_d": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 82) Which option is TRUE regarding Metabolic pathways?",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Measure of partitioning into lipids",
+      "option_d": "Intermolecular force affecting solubility and binding",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 83) The best example of Metabolic pathways is:",
+      "option_a": "Stereoisomers",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "D",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 84) Which option is TRUE regarding Chromophores?",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "Stereoisomers",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Salt forms",
+      "correct_answer": "C",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 85) The best example of Drug stability is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Metabolic pathways",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "correct_answer": "D",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 86) The best example of pKa and absorption is:",
+      "option_a": "Prodrugs",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Stereoisomers",
+      "option_d": "Metabolic pathways",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 87) Which option is TRUE regarding Stereoisomers?",
+      "option_a": "Metabolic pathways",
+      "option_b": "Used in analytical detection.",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Same formula different 3D arrangement",
+      "correct_answer": "D",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 88) The best example of Chromophores is:",
+      "option_a": "Impurities",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "D",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 89) Which pairing is correct?",
+      "option_a": "Hydrogen bonding — Chemical/physical integrity over time",
+      "option_b": "Metabolic pathways — Unwanted chemicals in drug substance/product",
+      "option_c": "Impurities — Unwanted chemicals in drug substance/product",
+      "option_d": "Stereoisomers — Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Impurities: Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 90) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Measure of partitioning into lipids",
+      "option_b": "pKa and absorption",
+      "option_c": "Prodrugs",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 91) Which option is TRUE regarding Metabolic pathways?",
+      "option_a": "pKa and absorption",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Used in analytical detection.",
+      "option_d": "Phase I and Phase II biotransformation",
+      "correct_answer": "D",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 92) The best example of Lipophilicity (logP) is:",
+      "option_a": "Salt selection can affect dissolution and bioavailability.",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Measure of partitioning into lipids",
+      "option_d": "Affects distribution and BBB penetration.",
+      "correct_answer": "D",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 93) Which option is TRUE regarding Drug stability?",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "C",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 94) Which option is TRUE regarding Drug stability?",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Chromophores",
+      "correct_answer": "A",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 95) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Intermolecular force affecting solubility and binding",
+      "option_b": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "option_c": "Chromophores — Ionization affects membrane permeability",
+      "option_d": "Drug stability — Intermolecular force affecting solubility and binding",
+      "correct_answer": "B",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 96) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_b": "Chromophores — Ionic forms improving solubility or stability",
+      "option_c": "Metabolic pathways — Ionization affects membrane permeability",
+      "option_d": "Drug stability — Same formula different 3D arrangement",
+      "correct_answer": "A",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 97) Which option is TRUE regarding Stereoisomers?",
+      "option_a": "Same formula different 3D arrangement",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Intermolecular force affecting solubility and binding",
+      "option_d": "Prodrugs",
+      "correct_answer": "A",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 98) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Intermolecular force affecting solubility and binding",
+      "option_c": "Ionization affects membrane permeability",
+      "option_d": "Stereoisomers",
+      "correct_answer": "C",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 99) The best example of Metabolic pathways is:",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "CYP oxidation then conjugation increases polarity.",
+      "option_c": "pKa and absorption",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "B",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 100) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Stereoisomers",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 101) Which pairing is correct?",
+      "option_a": "Chromophores — Chemical/physical integrity over time",
+      "option_b": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "option_c": "Hydrogen bonding — Groups absorbing UV/Vis light",
+      "option_d": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "correct_answer": "D",
+      "explanation": "Hydrogen bonding: More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 102) The best example of Impurities is:",
+      "option_a": "Controlled to ensure safety and quality.",
+      "option_b": "Groups absorbing UV/Vis light",
+      "option_c": "Unwanted chemicals in drug substance/product",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "A",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 103) Which option is TRUE regarding Chromophores?",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Chemical/physical integrity over time",
+      "option_c": "Stereoisomers",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "A",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 104) The best example of Drug stability is:",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Metabolic pathways",
+      "correct_answer": "B",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 105) Which pairing is correct?",
+      "option_a": "pKa and absorption — Measure of partitioning into lipids",
+      "option_b": "Impurities — Chemical/physical integrity over time",
+      "option_c": "Salt forms — Ionic forms improving solubility or stability",
+      "option_d": "Hydrogen bonding — Ionization affects membrane permeability",
+      "correct_answer": "C",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 106) Which pairing is correct?",
+      "option_a": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "option_b": "Lipophilicity (logP) — Groups absorbing UV/Vis light",
+      "option_c": "Prodrugs — Converted in vivo to active drug",
+      "option_d": "Prodrugs — Measure of partitioning into lipids",
+      "correct_answer": "C",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 107) Which pairing is correct?",
+      "option_a": "Chromophores — Groups absorbing UV/Vis light",
+      "option_b": "Impurities — Unwanted chemicals in drug substance/product",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Drug stability — Groups absorbing UV/Vis light",
+      "correct_answer": "A",
+      "explanation": "Chromophores: Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 108) The best example of Lipophilicity (logP) is:",
+      "option_a": "Phase I and Phase II biotransformation",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Drug stability",
+      "option_d": "Prodrugs",
+      "correct_answer": "B",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 109) The best example of pKa and absorption is:",
+      "option_a": "Enantiomers may differ in potency and toxicity.",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Lipophilicity (logP)",
+      "option_d": "pKa and absorption",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 110) Which pairing is correct?",
+      "option_a": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "option_b": "Drug stability — Converted in vivo to active drug",
+      "option_c": "Impurities — Same formula different 3D arrangement",
+      "option_d": "Salt forms — Chemical/physical integrity over time",
+      "correct_answer": "A",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 111) The best example of Lipophilicity (logP) is:",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "B",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 112) The best example of Lipophilicity (logP) is:",
+      "option_a": "Affects distribution and BBB penetration.",
+      "option_b": "Salt selection can affect dissolution and bioavailability.",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 113) The best example of Drug stability is:",
+      "option_a": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Impurities",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "A",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 114) Which pairing is correct?",
+      "option_a": "Hydrogen bonding — Ionic forms improving solubility or stability",
+      "option_b": "Drug stability — Chemical/physical integrity over time",
+      "option_c": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_d": "Metabolic pathways — Converted in vivo to active drug",
+      "correct_answer": "B",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 115) The best example of Impurities is:",
+      "option_a": "Controlled to ensure safety and quality.",
+      "option_b": "Chromophores",
+      "option_c": "CYP oxidation then conjugation increases polarity.",
+      "option_d": "Stereoisomers",
+      "correct_answer": "A",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 116) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Salt selection can affect dissolution and bioavailability.",
+      "option_b": "Hydrogen bonding",
+      "option_c": "Lipophilicity (logP)",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 117) The best example of Chromophores is:",
+      "option_a": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_b": "Metabolic pathways",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "D",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 118) The best example of Salt forms is:",
+      "option_a": "Same formula different 3D arrangement",
+      "option_b": "Intermolecular force affecting solubility and binding",
+      "option_c": "Salt selection can affect dissolution and bioavailability.",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 119) The best example of Metabolic pathways is:",
+      "option_a": "Improve absorption or targeting; reduce adverse effects.",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "CYP oxidation then conjugation increases polarity.",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "C",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 120) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Impurities",
+      "option_b": "Stereoisomers",
+      "option_c": "Enantiomers may differ in potency and toxicity.",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 121) Which option is TRUE regarding Drug stability?",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Measure of partitioning into lipids",
+      "option_c": "Improve absorption or targeting; reduce adverse effects.",
+      "option_d": "Chemical/physical integrity over time",
+      "correct_answer": "D",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 122) The best example of Metabolic pathways is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Salt forms",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Impurities",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 123) The best example of pKa and absorption is:",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Measure of partitioning into lipids",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Intermolecular force affecting solubility and binding",
+      "correct_answer": "C",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 124) The best example of pKa and absorption is:",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Impurities",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 125) The best example of pKa and absorption is:",
+      "option_a": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_b": "Ionic forms improving solubility or stability",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 126) The best example of Metabolic pathways is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Improve absorption or targeting; reduce adverse effects.",
+      "option_c": "Salt forms",
+      "option_d": "Converted in vivo to active drug",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 127) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "Ionic forms improving solubility or stability",
+      "option_c": "Ionization affects membrane permeability",
+      "option_d": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "correct_answer": "C",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 128) The best example of Chromophores is:",
+      "option_a": "Used in analytical detection.",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Stereoisomers",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "A",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 129) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Ionic forms improving solubility or stability",
+      "option_b": "pKa and absorption — Intermolecular force affecting solubility and binding",
+      "option_c": "Chromophores — Groups absorbing UV/Vis light",
+      "option_d": "Impurities — Phase I and Phase II biotransformation",
+      "correct_answer": "C",
+      "explanation": "Chromophores: Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 130) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_c": "Impurities — Phase I and Phase II biotransformation",
+      "option_d": "Hydrogen bonding — Converted in vivo to active drug",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 131) Which option is TRUE regarding Impurities?",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Used in analytical detection.",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Unwanted chemicals in drug substance/product",
+      "correct_answer": "D",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 132) Which option is TRUE regarding Drug stability?",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "More H-bonding increases polarity; may reduce permeability.",
+      "option_c": "Used in analytical detection.",
+      "option_d": "Stereoisomers",
+      "correct_answer": "A",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 133) Which pairing is correct?",
+      "option_a": "Prodrugs — Ionization affects membrane permeability",
+      "option_b": "Impurities — Ionization affects membrane permeability",
+      "option_c": "Impurities — Same formula different 3D arrangement",
+      "option_d": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "correct_answer": "D",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 134) Which pairing is correct?",
+      "option_a": "Metabolic pathways — Intermolecular force affecting solubility and binding",
+      "option_b": "Drug stability — Ionic forms improving solubility or stability",
+      "option_c": "Impurities — Intermolecular force affecting solubility and binding",
+      "option_d": "pKa and absorption — Ionization affects membrane permeability",
+      "correct_answer": "D",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 135) Which pairing is correct?",
+      "option_a": "Drug stability — Phase I and Phase II biotransformation",
+      "option_b": "Stereoisomers — Groups absorbing UV/Vis light",
+      "option_c": "Drug stability — Converted in vivo to active drug",
+      "option_d": "Prodrugs — Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 136) Which option is TRUE regarding Drug stability?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Controlled to ensure safety and quality.",
+      "option_c": "Phase I and Phase II biotransformation",
+      "option_d": "Chemical/physical integrity over time",
+      "correct_answer": "D",
+      "explanation": "Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 137) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_b": "Chromophores — Same formula different 3D arrangement",
+      "option_c": "Impurities — Chemical/physical integrity over time",
+      "option_d": "Chromophores — Chemical/physical integrity over time",
+      "correct_answer": "A",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 138) The best example of Hydrogen bonding is:",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Metabolic pathways",
+      "option_c": "Impurities",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "D",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 139) Which pairing is correct?",
+      "option_a": "Chromophores — Measure of partitioning into lipids",
+      "option_b": "pKa and absorption — Groups absorbing UV/Vis light",
+      "option_c": "Chromophores — Ionic forms improving solubility or stability",
+      "option_d": "Prodrugs — Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 140) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "Improve absorption or targeting; reduce adverse effects.",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 141) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Lipophilicity (logP)",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "B",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 142) The best example of Stereoisomers is:",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Salt forms",
+      "correct_answer": "B",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 143) The best example of Stereoisomers is:",
+      "option_a": "Affects distribution and BBB penetration.",
+      "option_b": "Drug stability",
+      "option_c": "Salt selection can affect dissolution and bioavailability.",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 144) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Stereoisomers — Ionic forms improving solubility or stability",
+      "option_c": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "option_d": "Salt forms — Unwanted chemicals in drug substance/product",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 145) Which option is TRUE regarding Impurities?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Unwanted chemicals in drug substance/product",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "B",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 146) Which pairing is correct?",
+      "option_a": "Stereoisomers — Measure of partitioning into lipids",
+      "option_b": "Lipophilicity (logP) — Intermolecular force affecting solubility and binding",
+      "option_c": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_d": "Prodrugs — Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 147) Which pairing is correct?",
+      "option_a": "Impurities — Unwanted chemicals in drug substance/product",
+      "option_b": "Hydrogen bonding — Chemical/physical integrity over time",
+      "option_c": "Drug stability — Phase I and Phase II biotransformation",
+      "option_d": "Prodrugs — Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 148) The best example of Impurities is:",
+      "option_a": "Affects distribution and BBB penetration.",
+      "option_b": "Chromophores",
+      "option_c": "Controlled to ensure safety and quality.",
+      "option_d": "More H-bonding increases polarity; may reduce permeability.",
+      "correct_answer": "C",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 149) Which pairing is correct?",
+      "option_a": "Salt forms — Ionic forms improving solubility or stability",
+      "option_b": "Salt forms — Unwanted chemicals in drug substance/product",
+      "option_c": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "option_d": "Chromophores — Unwanted chemicals in drug substance/product",
+      "correct_answer": "A",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 150) Which option is TRUE regarding Impurities?",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Converted in vivo to active drug",
+      "option_c": "Ionization affects membrane permeability",
+      "option_d": "Salt forms",
+      "correct_answer": "A",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 151) Which option is TRUE regarding Prodrugs?",
+      "option_a": "Converted in vivo to active drug",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Metabolic pathways",
+      "option_d": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "correct_answer": "A",
+      "explanation": "Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 152) Which pairing is correct?",
+      "option_a": "pKa and absorption — Ionization affects membrane permeability",
+      "option_b": "Lipophilicity (logP) — Phase I and Phase II biotransformation",
+      "option_c": "Salt forms — Measure of partitioning into lipids",
+      "option_d": "Impurities — Measure of partitioning into lipids",
+      "correct_answer": "A",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 153) The best example of pKa and absorption is:",
+      "option_a": "pKa and absorption",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 154) The best example of Stereoisomers is:",
+      "option_a": "Enantiomers may differ in potency and toxicity.",
+      "option_b": "Used in analytical detection.",
+      "option_c": "Ionization affects membrane permeability",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "A",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 155) Which option is TRUE regarding Stereoisomers?",
+      "option_a": "Metabolic pathways",
+      "option_b": "Impurities",
+      "option_c": "Same formula different 3D arrangement",
+      "option_d": "Prodrugs",
+      "correct_answer": "C",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 156) Which option is TRUE regarding Stereoisomers?",
+      "option_a": "Chemical/physical integrity over time",
+      "option_b": "Same formula different 3D arrangement",
+      "option_c": "Affected by pH, temperature, light, moisture; impacts shelf-life.",
+      "option_d": "Ionic forms improving solubility or stability",
+      "correct_answer": "B",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 157) The best example of Lipophilicity (logP) is:",
+      "option_a": "More H-bonding increases polarity; may reduce permeability.",
+      "option_b": "Improve absorption or targeting; reduce adverse effects.",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Prodrugs",
+      "correct_answer": "C",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 158) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Prodrugs",
+      "option_b": "Groups absorbing UV/Vis light",
+      "option_c": "Measure of partitioning into lipids",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "C",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 159) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Ionization affects membrane permeability",
+      "option_c": "Salt forms",
+      "option_d": "Same formula different 3D arrangement",
+      "correct_answer": "B",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 160) Which pairing is correct?",
+      "option_a": "Chromophores — Ionic forms improving solubility or stability",
+      "option_b": "Drug stability — Groups absorbing UV/Vis light",
+      "option_c": "pKa and absorption — Chemical/physical integrity over time",
+      "option_d": "Prodrugs — Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 161) Which pairing is correct?",
+      "option_a": "Impurities — Ionization affects membrane permeability",
+      "option_b": "Stereoisomers — Phase I and Phase II biotransformation",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Stereoisomers — Converted in vivo to active drug",
+      "correct_answer": "C",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 162) The best example of Salt forms is:",
+      "option_a": "pKa and absorption",
+      "option_b": "Stereoisomers",
+      "option_c": "CYP oxidation then conjugation increases polarity.",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 163) Which pairing is correct?",
+      "option_a": "Hydrogen bonding — Chemical/physical integrity over time",
+      "option_b": "Prodrugs — Ionization affects membrane permeability",
+      "option_c": "Drug stability — Chemical/physical integrity over time",
+      "option_d": "Drug stability — Ionization affects membrane permeability",
+      "correct_answer": "C",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 164) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionization affects membrane permeability",
+      "option_b": "CYP oxidation then conjugation increases polarity.",
+      "option_c": "Impurities",
+      "option_d": "Controlled to ensure safety and quality.",
+      "correct_answer": "A",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 165) The best example of Metabolic pathways is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Controlled to ensure safety and quality.",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Salt forms",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 166) The best example of Metabolic pathways is:",
+      "option_a": "Used in analytical detection.",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "More H-bonding increases polarity; may reduce permeability.",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "D",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 167) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Controlled to ensure safety and quality.",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Measure of partitioning into lipids",
+      "correct_answer": "D",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 168) The best example of Stereoisomers is:",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Measure of partitioning into lipids",
+      "option_c": "Hydrogen bonding",
+      "option_d": "Enantiomers may differ in potency and toxicity.",
+      "correct_answer": "D",
+      "explanation": "Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 169) Which pairing is correct?",
+      "option_a": "Prodrugs — Ionization affects membrane permeability",
+      "option_b": "Chromophores — Phase I and Phase II biotransformation",
+      "option_c": "pKa and absorption — Measure of partitioning into lipids",
+      "option_d": "Prodrugs — Converted in vivo to active drug",
+      "correct_answer": "D",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 170) Which option is TRUE regarding Chromophores?",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Salt selection can affect dissolution and bioavailability.",
+      "option_c": "Unwanted chemicals in drug substance/product",
+      "option_d": "Chromophores",
+      "correct_answer": "A",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 171) Which pairing is correct?",
+      "option_a": "pKa and absorption — Ionization affects membrane permeability",
+      "option_b": "Drug stability — Intermolecular force affecting solubility and binding",
+      "option_c": "Prodrugs — Phase I and Phase II biotransformation",
+      "option_d": "Salt forms — Intermolecular force affecting solubility and binding",
+      "correct_answer": "A",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 172) Which option is TRUE regarding pKa and absorption?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Drug stability",
+      "option_c": "Lipophilicity (logP)",
+      "option_d": "Ionization affects membrane permeability",
+      "correct_answer": "D",
+      "explanation": "Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 173) Which option is TRUE regarding Chromophores?",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Unwanted chemicals in drug substance/product",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "A",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 174) Which option is TRUE regarding Hydrogen bonding?",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Enantiomers may differ in potency and toxicity.",
+      "option_c": "Intermolecular force affecting solubility and binding",
+      "option_d": "Improve absorption or targeting; reduce adverse effects.",
+      "correct_answer": "C",
+      "explanation": "More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 175) Which option is TRUE regarding Impurities?",
+      "option_a": "Unwanted chemicals in drug substance/product",
+      "option_b": "Controlled to ensure safety and quality.",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Affects distribution and BBB penetration.",
+      "correct_answer": "A",
+      "explanation": "Controlled to ensure safety and quality."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 176) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Hydrogen bonding — Ionization affects membrane permeability",
+      "option_c": "Metabolic pathways — Unwanted chemicals in drug substance/product",
+      "option_d": "Hydrogen bonding — Phase I and Phase II biotransformation",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 177) Which option is TRUE regarding Salt forms?",
+      "option_a": "Hydrogen bonding",
+      "option_b": "Weak acids absorb better in acidic environments; weak bases in basic.",
+      "option_c": "Ionic forms improving solubility or stability",
+      "option_d": "Salt selection can affect dissolution and bioavailability.",
+      "correct_answer": "C",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 178) Which pairing is correct?",
+      "option_a": "Salt forms — Ionic forms improving solubility or stability",
+      "option_b": "Metabolic pathways — Intermolecular force affecting solubility and binding",
+      "option_c": "Drug stability — Ionization affects membrane permeability",
+      "option_d": "Hydrogen bonding — Same formula different 3D arrangement",
+      "correct_answer": "A",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 179) The best example of Lipophilicity (logP) is:",
+      "option_a": "Groups absorbing UV/Vis light",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Converted in vivo to active drug",
+      "option_d": "Metabolic pathways",
+      "correct_answer": "B",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 180) Which pairing is correct?",
+      "option_a": "Stereoisomers — Ionization affects membrane permeability",
+      "option_b": "Salt forms — Unwanted chemicals in drug substance/product",
+      "option_c": "Salt forms — Ionic forms improving solubility or stability",
+      "option_d": "Salt forms — Chemical/physical integrity over time",
+      "correct_answer": "C",
+      "explanation": "Salt forms: Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 181) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Unwanted chemicals in drug substance/product",
+      "option_b": "Drug stability — Ionization affects membrane permeability",
+      "option_c": "pKa and absorption — Ionization affects membrane permeability",
+      "option_d": "Prodrugs — Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "pKa and absorption: Weak acids absorb better in acidic environments; weak bases in basic."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 182) Which option is TRUE regarding Chromophores?",
+      "option_a": "Intermolecular force affecting solubility and binding",
+      "option_b": "Affects distribution and BBB penetration.",
+      "option_c": "Groups absorbing UV/Vis light",
+      "option_d": "Lipophilicity (logP)",
+      "correct_answer": "C",
+      "explanation": "Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 183) Which option is TRUE regarding Salt forms?",
+      "option_a": "Ionic forms improving solubility or stability",
+      "option_b": "Intermolecular force affecting solubility and binding",
+      "option_c": "Chemical/physical integrity over time",
+      "option_d": "Used in analytical detection.",
+      "correct_answer": "A",
+      "explanation": "Salt selection can affect dissolution and bioavailability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 184) Which pairing is correct?",
+      "option_a": "Drug stability — Measure of partitioning into lipids",
+      "option_b": "pKa and absorption — Groups absorbing UV/Vis light",
+      "option_c": "Drug stability — Chemical/physical integrity over time",
+      "option_d": "Stereoisomers — Groups absorbing UV/Vis light",
+      "correct_answer": "C",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 185) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Phase I and Phase II biotransformation",
+      "option_b": "Stereoisomers — Converted in vivo to active drug",
+      "option_c": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_d": "Stereoisomers — Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 186) Which pairing is correct?",
+      "option_a": "Stereoisomers — Phase I and Phase II biotransformation",
+      "option_b": "pKa and absorption — Same formula different 3D arrangement",
+      "option_c": "pKa and absorption — Measure of partitioning into lipids",
+      "option_d": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "correct_answer": "D",
+      "explanation": "Hydrogen bonding: More H-bonding increases polarity; may reduce permeability."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 187) The best example of Metabolic pathways is:",
+      "option_a": "Prodrugs",
+      "option_b": "pKa and absorption",
+      "option_c": "Improve absorption or targeting; reduce adverse effects.",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "D",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 188) The best example of Lipophilicity (logP) is:",
+      "option_a": "Affects distribution and BBB penetration.",
+      "option_b": "Lipophilicity (logP)",
+      "option_c": "Used in analytical detection.",
+      "option_d": "Hydrogen bonding",
+      "correct_answer": "A",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 189) The best example of Metabolic pathways is:",
+      "option_a": "CYP oxidation then conjugation increases polarity.",
+      "option_b": "Prodrugs",
+      "option_c": "Intermolecular force affecting solubility and binding",
+      "option_d": "Ionization affects membrane permeability",
+      "correct_answer": "A",
+      "explanation": "CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 190) Which pairing is correct?",
+      "option_a": "Chromophores — Ionization affects membrane permeability",
+      "option_b": "Prodrugs — Converted in vivo to active drug",
+      "option_c": "Stereoisomers — Ionic forms improving solubility or stability",
+      "option_d": "Metabolic pathways — Measure of partitioning into lipids",
+      "correct_answer": "B",
+      "explanation": "Prodrugs: Improve absorption or targeting; reduce adverse effects."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 191) The best example of Lipophilicity (logP) is:",
+      "option_a": "Same formula different 3D arrangement",
+      "option_b": "pKa and absorption",
+      "option_c": "Affects distribution and BBB penetration.",
+      "option_d": "Phase I and Phase II biotransformation",
+      "correct_answer": "C",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 192) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Metabolic pathways — Chemical/physical integrity over time",
+      "option_c": "Stereoisomers — Measure of partitioning into lipids",
+      "option_d": "Prodrugs — Ionic forms improving solubility or stability",
+      "correct_answer": "A",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 193) Which option is TRUE regarding Lipophilicity (logP)?",
+      "option_a": "Measure of partitioning into lipids",
+      "option_b": "Prodrugs",
+      "option_c": "Same formula different 3D arrangement",
+      "option_d": "CYP oxidation then conjugation increases polarity.",
+      "correct_answer": "A",
+      "explanation": "Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 194) Which pairing is correct?",
+      "option_a": "Salt forms — Chemical/physical integrity over time",
+      "option_b": "Drug stability — Chemical/physical integrity over time",
+      "option_c": "Stereoisomers — Chemical/physical integrity over time",
+      "option_d": "Impurities — Converted in vivo to active drug",
+      "correct_answer": "B",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 195) Which pairing is correct?",
+      "option_a": "Drug stability — Ionization affects membrane permeability",
+      "option_b": "Lipophilicity (logP) — Measure of partitioning into lipids",
+      "option_c": "pKa and absorption — Converted in vivo to active drug",
+      "option_d": "Salt forms — Phase I and Phase II biotransformation",
+      "correct_answer": "B",
+      "explanation": "Lipophilicity (logP): Affects distribution and BBB penetration."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 196) Which pairing is correct?",
+      "option_a": "Salt forms — Measure of partitioning into lipids",
+      "option_b": "Chromophores — Unwanted chemicals in drug substance/product",
+      "option_c": "Metabolic pathways — Phase I and Phase II biotransformation",
+      "option_d": "Metabolic pathways — Groups absorbing UV/Vis light",
+      "correct_answer": "C",
+      "explanation": "Metabolic pathways: CYP oxidation then conjugation increases polarity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 197) Which pairing is correct?",
+      "option_a": "Prodrugs — Unwanted chemicals in drug substance/product",
+      "option_b": "Impurities — Intermolecular force affecting solubility and binding",
+      "option_c": "Lipophilicity (logP) — Ionization affects membrane permeability",
+      "option_d": "Drug stability — Chemical/physical integrity over time",
+      "correct_answer": "D",
+      "explanation": "Drug stability: Affected by pH, temperature, light, moisture; impacts shelf-life."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 198) Which pairing is correct?",
+      "option_a": "Impurities — Ionization affects membrane permeability",
+      "option_b": "Hydrogen bonding — Ionization affects membrane permeability",
+      "option_c": "Chromophores — Groups absorbing UV/Vis light",
+      "option_d": "Drug stability — Unwanted chemicals in drug substance/product",
+      "correct_answer": "C",
+      "explanation": "Chromophores: Used in analytical detection."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 199) Which pairing is correct?",
+      "option_a": "Lipophilicity (logP) — Unwanted chemicals in drug substance/product",
+      "option_b": "Salt forms — Groups absorbing UV/Vis light",
+      "option_c": "Hydrogen bonding — Ionization affects membrane permeability",
+      "option_d": "Stereoisomers — Same formula different 3D arrangement",
+      "correct_answer": "D",
+      "explanation": "Stereoisomers: Enantiomers may differ in potency and toxicity."
+    },
+    {
+      "question": "(Pharmaceutical Chemistry Item 200) Which pairing is correct?",
+      "option_a": "Stereoisomers — Same formula different 3D arrangement",
+      "option_b": "Chromophores — Converted in vivo to active drug",
+      "option_c": "Hydrogen bonding — Phase I and Phase II biotransformation",
+      "option_d": "Hydrogen bonding — Intermolecular force affecting solubility and binding",
+      "correct_answer": "D",
+      "explanation": "Hydrogen bonding: More H-bonding increases polarity; may reduce permeability."
+    }
+  ]
+}

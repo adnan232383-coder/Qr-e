@@ -1,0 +1,1806 @@
+{
+  "course_name": "Biology / Cell Biology",
+  "course_code": "UG_PHARM_Y1_S1_C02",
+  "questions": [
+    {
+      "question": "Which statement best describes Cell membrane?",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_c": "Enzyme kinetics (basic)",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "D",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "In Biology / Cell Biology, Cell membrane is MOST associated with:",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "B",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "Which statement best describes Mitosis?",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Programmed cell death without inflammation",
+      "correct_answer": "A",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "In Biology / Cell Biology, Mitosis is MOST associated with:",
+      "option_a": "Cellular respiration",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Meiosis",
+      "option_d": "tRNA delivers amino acids; codons specify sequence.",
+      "correct_answer": "B",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "Which statement best describes Meiosis?",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "tRNA delivers amino acids; codons specify sequence.",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "In Biology / Cell Biology, Meiosis is MOST associated with:",
+      "option_a": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "D",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "Which statement best describes DNA replication?",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "In Biology / Cell Biology, DNA replication is MOST associated with:",
+      "option_a": "tRNA delivers amino acids; codons specify sequence.",
+      "option_b": "Protein synthesis on ribosomes using mRNA",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "correct_answer": "C",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "Which statement best describes Transcription?",
+      "option_a": "Signal transduction",
+      "option_b": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Synthesis of RNA from DNA template",
+      "correct_answer": "D",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "In Biology / Cell Biology, Transcription is MOST associated with:",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "Which statement best describes Translation?",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Protein synthesis on ribosomes using mRNA",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "In Biology / Cell Biology, Translation is MOST associated with:",
+      "option_a": "Cellular respiration",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Programmed cell death without inflammation",
+      "option_d": "Apoptosis",
+      "correct_answer": "B",
+      "explanation": "Translation: tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "Which statement best describes Enzyme kinetics (basic)?",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "correct_answer": "C",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "In Biology / Cell Biology, Enzyme kinetics (basic) is MOST associated with:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "A",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "Which statement best describes Cellular respiration?",
+      "option_a": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Study of reaction rates and enzyme activity",
+      "correct_answer": "A",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "In Biology / Cell Biology, Cellular respiration is MOST associated with:",
+      "option_a": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Cell membrane",
+      "correct_answer": "C",
+      "explanation": "Cellular respiration: Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "Which statement best describes Apoptosis?",
+      "option_a": "Programmed cell death without inflammation",
+      "option_b": "Signal transduction",
+      "option_c": "Transcription",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "A",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "In Biology / Cell Biology, Apoptosis is MOST associated with:",
+      "option_a": "Meiosis",
+      "option_b": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "correct_answer": "C",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "Which statement best describes Signal transduction?",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "DNA replication",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "In Biology / Cell Biology, Signal transduction is MOST associated with:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "C",
+      "explanation": "Signal transduction: Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 21) The best example of Translation is:",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "tRNA delivers amino acids; codons specify sequence.",
+      "correct_answer": "D",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 22) Which pairing is correct?",
+      "option_a": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Translation — Study of reaction rates and enzyme activity",
+      "option_c": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "DNA replication — Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "A",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 23) The best example of Apoptosis is:",
+      "option_a": "Apoptosis",
+      "option_b": "Cell communication via receptors and intracellular pathways",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "C",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 24) Which pairing is correct?",
+      "option_a": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "DNA replication — Programmed cell death without inflammation",
+      "option_c": "Apoptosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "A",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 25) Which option is TRUE regarding Transcription?",
+      "option_a": "Transcription",
+      "option_b": "Mitosis",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Synthesis of RNA from DNA template",
+      "correct_answer": "D",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 26) Which pairing is correct?",
+      "option_a": "Transcription — Synthesis of RNA from DNA template",
+      "option_b": "Mitosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Enzyme kinetics (basic) — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Transcription — Programmed cell death without inflammation",
+      "correct_answer": "A",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 27) The best example of Cell membrane is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Programmed cell death without inflammation",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "A",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 28) The best example of Meiosis is:",
+      "option_a": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_b": "Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 29) The best example of Meiosis is:",
+      "option_a": "Protein synthesis on ribosomes using mRNA",
+      "option_b": "Transcription",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "D",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 30) Which pairing is correct?",
+      "option_a": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Transcription — Cell division producing gametes with half the chromosome number",
+      "option_c": "Mitosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 31) The best example of DNA replication is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Synthesis of RNA from DNA template",
+      "correct_answer": "C",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 32) Which pairing is correct?",
+      "option_a": "Cell membrane — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Apoptosis — Programmed cell death without inflammation",
+      "option_c": "Transcription — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "B",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 33) Which option is TRUE regarding Translation?",
+      "option_a": "Protein synthesis on ribosomes using mRNA",
+      "option_b": "Programmed cell death without inflammation",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "A",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 34) The best example of DNA replication is:",
+      "option_a": "Translation",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "DNA replication",
+      "option_d": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 35) The best example of Apoptosis is:",
+      "option_a": "Programmed cell death without inflammation",
+      "option_b": "Transcription",
+      "option_c": "Signal transduction",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "D",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 36) Which pairing is correct?",
+      "option_a": "Transcription — Synthesis of RNA from DNA template",
+      "option_b": "Mitosis — Study of reaction rates and enzyme activity",
+      "option_c": "Signal transduction — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Apoptosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "A",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 37) The best example of Signal transduction is:",
+      "option_a": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_b": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_c": "Cell communication via receptors and intracellular pathways",
+      "option_d": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "correct_answer": "B",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 38) Which pairing is correct?",
+      "option_a": "Transcription — Study of reaction rates and enzyme activity",
+      "option_b": "Transcription — Programmed cell death without inflammation",
+      "option_c": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Transcription — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "C",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 39) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_b": "Apoptosis",
+      "option_c": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "correct_answer": "C",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 40) The best example of Cellular respiration is:",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "correct_answer": "D",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 41) Which option is TRUE regarding Signal transduction?",
+      "option_a": "Cell membrane",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 42) The best example of DNA replication is:",
+      "option_a": "Meiosis",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Study of reaction rates and enzyme activity",
+      "correct_answer": "B",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 43) The best example of Translation is:",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Transcription",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "tRNA delivers amino acids; codons specify sequence.",
+      "correct_answer": "D",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 44) Which pairing is correct?",
+      "option_a": "Meiosis — Cell communication via receptors and intracellular pathways",
+      "option_b": "Translation — Study of reaction rates and enzyme activity",
+      "option_c": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Transcription — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "C",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 45) Which pairing is correct?",
+      "option_a": "Apoptosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_c": "Cellular respiration — Cell communication via receptors and intracellular pathways",
+      "option_d": "DNA replication — Synthesis of RNA from DNA template",
+      "correct_answer": "B",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 46) The best example of Translation is:",
+      "option_a": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Apoptosis",
+      "correct_answer": "B",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 47) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "Cell membrane",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Transcription",
+      "correct_answer": "A",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 48) The best example of Signal transduction is:",
+      "option_a": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_b": "Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Protein synthesis on ribosomes using mRNA",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "A",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 49) Which pairing is correct?",
+      "option_a": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_c": "Mitosis — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "DNA replication — Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "B",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 50) The best example of Cell membrane is:",
+      "option_a": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_b": "Translation",
+      "option_c": "Cellular respiration",
+      "option_d": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "correct_answer": "D",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 51) The best example of Apoptosis is:",
+      "option_a": "Translation",
+      "option_b": "Caspase-mediated; important for development and homeostasis.",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "B",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 52) Which pairing is correct?",
+      "option_a": "Mitosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Transcription — Synthesis of RNA from DNA template",
+      "option_c": "Translation — Synthesis of RNA from DNA template",
+      "option_d": "Transcription — Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "B",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 53) The best example of Signal transduction is:",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Transcription",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Translation",
+      "correct_answer": "C",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 54) Which pairing is correct?",
+      "option_a": "Apoptosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "DNA replication — Cell division producing gametes with half the chromosome number",
+      "option_c": "Meiosis — Synthesis of RNA from DNA template",
+      "option_d": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "D",
+      "explanation": "Cellular respiration: Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 55) Which pairing is correct?",
+      "option_a": "DNA replication — Cell communication via receptors and intracellular pathways",
+      "option_b": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Mitosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 56) Which option is TRUE regarding DNA replication?",
+      "option_a": "Mitosis",
+      "option_b": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_c": "tRNA delivers amino acids; codons specify sequence.",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 57) Which pairing is correct?",
+      "option_a": "Cell membrane — Cell communication via receptors and intracellular pathways",
+      "option_b": "Transcription — Synthesis of RNA from DNA template",
+      "option_c": "Cell membrane — Cell division producing gametes with half the chromosome number",
+      "option_d": "Meiosis — Programmed cell death without inflammation",
+      "correct_answer": "B",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 58) Which pairing is correct?",
+      "option_a": "Signal transduction — Cell communication via receptors and intracellular pathways",
+      "option_b": "Transcription — Study of reaction rates and enzyme activity",
+      "option_c": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Enzyme kinetics (basic) — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "A",
+      "explanation": "Signal transduction: Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 59) Which option is TRUE regarding Signal transduction?",
+      "option_a": "Signal transduction",
+      "option_b": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_c": "DNA replication",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 60) Which pairing is correct?",
+      "option_a": "Translation — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Apoptosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Cellular respiration — Synthesis of RNA from DNA template",
+      "correct_answer": "B",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 61) Which option is TRUE regarding Enzyme kinetics (basic)?",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 62) The best example of Translation is:",
+      "option_a": "Signal transduction",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 63) The best example of Signal transduction is:",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "Apoptosis",
+      "option_c": "Programmed cell death without inflammation",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 64) The best example of DNA replication is:",
+      "option_a": "Transcription",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Apoptosis",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "B",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 65) Which option is TRUE regarding Cellular respiration?",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "D",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 66) Which pairing is correct?",
+      "option_a": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Cellular respiration — Programmed cell death without inflammation",
+      "option_c": "Signal transduction — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Transcription — Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "A",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 67) The best example of Apoptosis is:",
+      "option_a": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_b": "Caspase-mediated; important for development and homeostasis.",
+      "option_c": "Meiosis",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "B",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 68) Which pairing is correct?",
+      "option_a": "Transcription — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_c": "Transcription — Synthesis of RNA from DNA template",
+      "option_d": "Cellular respiration — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "B",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 69) Which option is TRUE regarding Meiosis?",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Apoptosis",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 70) The best example of Cell membrane is:",
+      "option_a": "tRNA delivers amino acids; codons specify sequence.",
+      "option_b": "Cell membrane",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "C",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 71) Which pairing is correct?",
+      "option_a": "Enzyme kinetics (basic) — Cell communication via receptors and intracellular pathways",
+      "option_b": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_c": "Cellular respiration — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Translation — Synthesis of RNA from DNA template",
+      "correct_answer": "B",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 72) Which pairing is correct?",
+      "option_a": "Mitosis — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Cell membrane — Study of reaction rates and enzyme activity",
+      "option_c": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "Apoptosis — Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "C",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 73) Which pairing is correct?",
+      "option_a": "Transcription — Synthesis of RNA from DNA template",
+      "option_b": "Apoptosis — Programmed cell death without inflammation",
+      "option_c": "Transcription — Study of reaction rates and enzyme activity",
+      "option_d": "Mitosis — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "A",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 74) Which pairing is correct?",
+      "option_a": "Enzyme kinetics (basic) — Protein synthesis on ribosomes using mRNA",
+      "option_b": "Signal transduction — Programmed cell death without inflammation",
+      "option_c": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "Enzyme kinetics (basic) — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "C",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 75) Which pairing is correct?",
+      "option_a": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "DNA replication — Cell communication via receptors and intracellular pathways",
+      "option_d": "Apoptosis — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "A",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 76) The best example of DNA replication is:",
+      "option_a": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "A",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 77) Which pairing is correct?",
+      "option_a": "DNA replication — Protein synthesis on ribosomes using mRNA",
+      "option_b": "Signal transduction — Synthesis of RNA from DNA template",
+      "option_c": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "D",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 78) Which pairing is correct?",
+      "option_a": "Transcription — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Enzyme kinetics (basic) — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Signal transduction — Study of reaction rates and enzyme activity",
+      "option_d": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 79) Which pairing is correct?",
+      "option_a": "Signal transduction — Protein synthesis on ribosomes using mRNA",
+      "option_b": "Cellular respiration — Cell division producing gametes with half the chromosome number",
+      "option_c": "Enzyme kinetics (basic) — Cell communication via receptors and intracellular pathways",
+      "option_d": "Translation — Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "D",
+      "explanation": "Translation: tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 80) Which pairing is correct?",
+      "option_a": "Translation — Synthesis of RNA from DNA template",
+      "option_b": "DNA replication — Cell communication via receptors and intracellular pathways",
+      "option_c": "Translation — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Mitosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "C",
+      "explanation": "Translation: tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 81) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Transcription",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Programmed cell death without inflammation",
+      "correct_answer": "B",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 82) Which pairing is correct?",
+      "option_a": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "Translation — Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Meiosis — Synthesis of RNA from DNA template",
+      "option_d": "Translation — Programmed cell death without inflammation",
+      "correct_answer": "A",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 83) Which pairing is correct?",
+      "option_a": "Mitosis — Programmed cell death without inflammation",
+      "option_b": "DNA replication — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_d": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "D",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 84) The best example of Cellular respiration is:",
+      "option_a": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Caspase-mediated; important for development and homeostasis.",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Mitosis",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 85) The best example of Signal transduction is:",
+      "option_a": "Meiosis",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Signal transduction",
+      "correct_answer": "C",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 86) Which option is TRUE regarding Mitosis?",
+      "option_a": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_b": "Mitosis",
+      "option_c": "Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "correct_answer": "C",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 87) Which pairing is correct?",
+      "option_a": "Signal transduction — Cell communication via receptors and intracellular pathways",
+      "option_b": "Signal transduction — Study of reaction rates and enzyme activity",
+      "option_c": "Mitosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Signal transduction — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "A",
+      "explanation": "Signal transduction: Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 88) The best example of Cellular respiration is:",
+      "option_a": "tRNA delivers amino acids; codons specify sequence.",
+      "option_b": "Cell membrane",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 89) The best example of Mitosis is:",
+      "option_a": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Transcription",
+      "correct_answer": "B",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 90) Which pairing is correct?",
+      "option_a": "Cell membrane — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Apoptosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Signal transduction — Synthesis of RNA from DNA template",
+      "option_d": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 91) Which pairing is correct?",
+      "option_a": "Mitosis — Study of reaction rates and enzyme activity",
+      "option_b": "Signal transduction — Cell division producing gametes with half the chromosome number",
+      "option_c": "Mitosis — Synthesis of RNA from DNA template",
+      "option_d": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "correct_answer": "D",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 92) The best example of Signal transduction is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 93) Which pairing is correct?",
+      "option_a": "Meiosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Apoptosis — Programmed cell death without inflammation",
+      "option_c": "Transcription — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Transcription — Programmed cell death without inflammation",
+      "correct_answer": "B",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 94) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Meiosis",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "A",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 95) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "A",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 96) Which pairing is correct?",
+      "option_a": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Signal transduction — Cell communication via receptors and intracellular pathways",
+      "option_c": "Cell membrane — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Translation — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "B",
+      "explanation": "Signal transduction: Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 97) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "DNA replication",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Programmed cell death without inflammation",
+      "correct_answer": "A",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 98) The best example of Meiosis is:",
+      "option_a": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_b": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "C",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 99) The best example of Translation is:",
+      "option_a": "Meiosis",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "tRNA delivers amino acids; codons specify sequence.",
+      "correct_answer": "D",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 100) Which option is TRUE regarding DNA replication?",
+      "option_a": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Protein synthesis on ribosomes using mRNA",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 101) Which option is TRUE regarding Enzyme kinetics (basic)?",
+      "option_a": "Cell membrane",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Transcription",
+      "correct_answer": "B",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 102) Which option is TRUE regarding Apoptosis?",
+      "option_a": "Programmed cell death without inflammation",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "A",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 103) The best example of Signal transduction is:",
+      "option_a": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_b": "Transcription",
+      "option_c": "Cellular respiration",
+      "option_d": "Mitosis",
+      "correct_answer": "A",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 104) The best example of Translation is:",
+      "option_a": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_b": "DNA replication",
+      "option_c": "tRNA delivers amino acids; codons specify sequence.",
+      "option_d": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "correct_answer": "C",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 105) Which option is TRUE regarding Meiosis?",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Mitosis",
+      "option_d": "Study of reaction rates and enzyme activity",
+      "correct_answer": "B",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 106) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Apoptosis",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "A",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 107) Which option is TRUE regarding Enzyme kinetics (basic)?",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "tRNA delivers amino acids; codons specify sequence.",
+      "correct_answer": "C",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 108) Which option is TRUE regarding Meiosis?",
+      "option_a": "Meiosis",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "D",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 109) The best example of Cell membrane is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Enzyme kinetics (basic)",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "A",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 110) The best example of Transcription is:",
+      "option_a": "Protein synthesis on ribosomes using mRNA",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Enzyme kinetics (basic)",
+      "correct_answer": "C",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 111) Which option is TRUE regarding DNA replication?",
+      "option_a": "Meiosis",
+      "option_b": "Signal transduction",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 112) Which pairing is correct?",
+      "option_a": "Meiosis — Cell communication via receptors and intracellular pathways",
+      "option_b": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_c": "Cellular respiration — Synthesis of RNA from DNA template",
+      "option_d": "Cell membrane — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "B",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 113) Which pairing is correct?",
+      "option_a": "Cell membrane — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Cell membrane — Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Enzyme kinetics (basic) — Synthesis of RNA from DNA template",
+      "correct_answer": "C",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 114) Which pairing is correct?",
+      "option_a": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Meiosis — Cell communication via receptors and intracellular pathways",
+      "option_c": "Apoptosis — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "correct_answer": "D",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 115) Which pairing is correct?",
+      "option_a": "Mitosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "Apoptosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Signal transduction — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Apoptosis — Programmed cell death without inflammation",
+      "correct_answer": "D",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 116) Which option is TRUE regarding Signal transduction?",
+      "option_a": "Cell communication via receptors and intracellular pathways",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "DNA replication",
+      "option_d": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "correct_answer": "A",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 117) The best example of Transcription is:",
+      "option_a": "Cell membrane",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "C",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 118) Which option is TRUE regarding Cellular respiration?",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Programmed cell death without inflammation",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 119) The best example of Meiosis is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Cell membrane",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "D",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 120) Which option is TRUE regarding Cellular respiration?",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Meiosis",
+      "option_c": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Mitosis",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 121) Which option is TRUE regarding Mitosis?",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_c": "Translation",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "A",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 122) Which pairing is correct?",
+      "option_a": "Signal transduction — Protein synthesis on ribosomes using mRNA",
+      "option_b": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Mitosis — Cell division producing gametes with half the chromosome number",
+      "option_d": "Cell membrane — Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "D",
+      "explanation": "Cell membrane: Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 123) The best example of Apoptosis is:",
+      "option_a": "Caspase-mediated; important for development and homeostasis.",
+      "option_b": "Apoptosis",
+      "option_c": "DNA replication",
+      "option_d": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "correct_answer": "A",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 124) Which pairing is correct?",
+      "option_a": "Signal transduction — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "Cell membrane — Protein synthesis on ribosomes using mRNA",
+      "option_c": "Enzyme kinetics (basic) — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "D",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 125) Which pairing is correct?",
+      "option_a": "Cellular respiration — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "DNA replication — Programmed cell death without inflammation",
+      "option_c": "Transcription — Synthesis of RNA from DNA template",
+      "option_d": "Meiosis — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "C",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 126) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_c": "Cellular respiration",
+      "option_d": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "correct_answer": "A",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 127) Which pairing is correct?",
+      "option_a": "Apoptosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Apoptosis — Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Transcription — Cell communication via receptors and intracellular pathways",
+      "option_d": "Apoptosis — Programmed cell death without inflammation",
+      "correct_answer": "D",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 128) Which option is TRUE regarding Enzyme kinetics (basic)?",
+      "option_a": "DNA replication",
+      "option_b": "Apoptosis",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "C",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 129) The best example of Cell membrane is:",
+      "option_a": "Cell membrane",
+      "option_b": "Transcription",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "C",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 130) The best example of Meiosis is:",
+      "option_a": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "D",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 131) Which option is TRUE regarding Meiosis?",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Cellular respiration",
+      "option_c": "Cell communication via receptors and intracellular pathways",
+      "option_d": "Meiosis",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 132) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Translation",
+      "correct_answer": "B",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 133) The best example of Cell membrane is:",
+      "option_a": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_b": "Mitosis",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Signal transduction",
+      "correct_answer": "C",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 134) The best example of Apoptosis is:",
+      "option_a": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "correct_answer": "C",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 135) The best example of Cellular respiration is:",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 136) Which option is TRUE regarding Signal transduction?",
+      "option_a": "Cell communication via receptors and intracellular pathways",
+      "option_b": "DNA replication",
+      "option_c": "Cellular respiration",
+      "option_d": "Translation",
+      "correct_answer": "A",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 137) Which option is TRUE regarding Meiosis?",
+      "option_a": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_b": "Cell division producing gametes with half the chromosome number",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 138) Which pairing is correct?",
+      "option_a": "Enzyme kinetics (basic) — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Enzyme kinetics (basic) — Cell division producing gametes with half the chromosome number",
+      "option_c": "Translation — Study of reaction rates and enzyme activity",
+      "option_d": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "D",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 139) Which option is TRUE regarding Meiosis?",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 140) The best example of Mitosis is:",
+      "option_a": "Enzyme kinetics (basic)",
+      "option_b": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_c": "Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "B",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 141) The best example of Transcription is:",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "B",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 142) The best example of Meiosis is:",
+      "option_a": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_b": "Translation",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "A",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 143) The best example of Apoptosis is:",
+      "option_a": "DNA replication",
+      "option_b": "Caspase-mediated; important for development and homeostasis.",
+      "option_c": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "B",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 144) Which pairing is correct?",
+      "option_a": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "Transcription — Synthesis of RNA from DNA template",
+      "option_c": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Enzyme kinetics (basic) — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "A",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 145) Which pairing is correct?",
+      "option_a": "Signal transduction — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Transcription — Study of reaction rates and enzyme activity",
+      "option_c": "Cell membrane — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "correct_answer": "D",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 146) Which pairing is correct?",
+      "option_a": "Apoptosis — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Translation — Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Enzyme kinetics (basic) — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "C",
+      "explanation": "Cellular respiration: Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 147) Which option is TRUE regarding DNA replication?",
+      "option_a": "Cell communication via receptors and intracellular pathways",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Apoptosis",
+      "correct_answer": "C",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 148) The best example of Cell membrane is:",
+      "option_a": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "Mitosis",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 149) Which option is TRUE regarding Translation?",
+      "option_a": "Apoptosis",
+      "option_b": "Protein synthesis on ribosomes using mRNA",
+      "option_c": "Cell communication via receptors and intracellular pathways",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "B",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 150) The best example of Signal transduction is:",
+      "option_a": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "Signal transduction",
+      "option_d": "Meiosis",
+      "correct_answer": "A",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 151) The best example of Cell membrane is:",
+      "option_a": "Cell division producing gametes with half the chromosome number",
+      "option_b": "Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Mitosis",
+      "option_d": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "correct_answer": "D",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 152) The best example of Apoptosis is:",
+      "option_a": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "D",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 153) The best example of DNA replication is:",
+      "option_a": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "Programmed cell death without inflammation",
+      "option_d": "Study of reaction rates and enzyme activity",
+      "correct_answer": "A",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 154) The best example of Apoptosis is:",
+      "option_a": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_b": "Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Cellular respiration",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "D",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 155) The best example of Cell membrane is:",
+      "option_a": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_b": "Transcription",
+      "option_c": "Cell membrane",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "A",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 156) The best example of Transcription is:",
+      "option_a": "Apoptosis",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "C",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 157) Which option is TRUE regarding Signal transduction?",
+      "option_a": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_b": "Synthesis of RNA from DNA template",
+      "option_c": "Enzyme kinetics (basic)",
+      "option_d": "Cell communication via receptors and intracellular pathways",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 158) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Translation",
+      "option_c": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_d": "Mitosis",
+      "correct_answer": "C",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 159) The best example of Signal transduction is:",
+      "option_a": "Mitosis",
+      "option_b": "Cellular respiration",
+      "option_c": "Enzyme kinetics (basic)",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 160) Which option is TRUE regarding Meiosis?",
+      "option_a": "Mitosis",
+      "option_b": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_c": "Study of reaction rates and enzyme activity",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "D",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 161) Which pairing is correct?",
+      "option_a": "Meiosis — Study of reaction rates and enzyme activity",
+      "option_b": "Meiosis — Cell division producing gametes with half the chromosome number",
+      "option_c": "Signal transduction — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Signal transduction — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "B",
+      "explanation": "Meiosis: Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 162) Which pairing is correct?",
+      "option_a": "Apoptosis — Cell division producing gametes with half the chromosome number",
+      "option_b": "Translation — Cell communication via receptors and intracellular pathways",
+      "option_c": "Transcription — Synthesis of RNA from DNA template",
+      "option_d": "Enzyme kinetics (basic) — Programmed cell death without inflammation",
+      "correct_answer": "C",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 163) The best example of DNA replication is:",
+      "option_a": "Apoptosis",
+      "option_b": "Mitosis",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "C",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 164) Which pairing is correct?",
+      "option_a": "Apoptosis — Protein synthesis on ribosomes using mRNA",
+      "option_b": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "DNA replication — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Transcription — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "B",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 165) Which pairing is correct?",
+      "option_a": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Translation — Study of reaction rates and enzyme activity",
+      "option_c": "DNA replication — Semi-conservative synthesis of DNA prior to cell division",
+      "option_d": "Meiosis — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "A",
+      "explanation": "DNA replication: DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 166) Which option is TRUE regarding Mitosis?",
+      "option_a": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_b": "Eukaryotic cell division producing two identical daughter cells",
+      "option_c": "Cell communication via receptors and intracellular pathways",
+      "option_d": "Mitosis",
+      "correct_answer": "B",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 167) The best example of Cellular respiration is:",
+      "option_a": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_b": "Synthesis of RNA from DNA template",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Cell membrane",
+      "correct_answer": "A",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 168) Which option is TRUE regarding Translation?",
+      "option_a": "Apoptosis",
+      "option_b": "Meiosis",
+      "option_c": "Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "D",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 169) The best example of Cell membrane is:",
+      "option_a": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Study of reaction rates and enzyme activity",
+      "correct_answer": "B",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 170) Which option is TRUE regarding Signal transduction?",
+      "option_a": "Protein synthesis on ribosomes using mRNA",
+      "option_b": "Cell communication via receptors and intracellular pathways",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Meiosis",
+      "correct_answer": "B",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 171) Which pairing is correct?",
+      "option_a": "Cell membrane — Cell communication via receptors and intracellular pathways",
+      "option_b": "Enzyme kinetics (basic) — Synthesis of RNA from DNA template",
+      "option_c": "Transcription — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Transcription — Synthesis of RNA from DNA template",
+      "correct_answer": "D",
+      "explanation": "Transcription: RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 172) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Signal transduction",
+      "option_b": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_c": "tRNA delivers amino acids; codons specify sequence.",
+      "option_d": "Cell membrane",
+      "correct_answer": "B",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 173) The best example of DNA replication is:",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "Cell membrane",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Cell division producing gametes with half the chromosome number",
+      "correct_answer": "C",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 174) Which option is TRUE regarding Mitosis?",
+      "option_a": "Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "A",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 175) The best example of Translation is:",
+      "option_a": "tRNA delivers amino acids; codons specify sequence.",
+      "option_b": "Signal transduction",
+      "option_c": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_d": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "correct_answer": "A",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 176) Which option is TRUE regarding Apoptosis?",
+      "option_a": "Programmed cell death without inflammation",
+      "option_b": "Signal transduction",
+      "option_c": "DNA replication",
+      "option_d": "Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "A",
+      "explanation": "Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 177) Which pairing is correct?",
+      "option_a": "Meiosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_c": "Enzyme kinetics (basic) — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Cellular respiration — Study of reaction rates and enzyme activity",
+      "correct_answer": "B",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 178) Which option is TRUE regarding Cellular respiration?",
+      "option_a": "Enzyme kinetics (basic)",
+      "option_b": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_c": "Meiosis",
+      "option_d": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "D",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 179) Which option is TRUE regarding DNA replication?",
+      "option_a": "Cell membrane",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "Synthesis of RNA from DNA template",
+      "option_d": "Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 180) The best example of Transcription is:",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "Apoptosis",
+      "option_c": "RNA polymerase binds promoter; mRNA processed in eukaryotes.",
+      "option_d": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "correct_answer": "C",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 181) Which pairing is correct?",
+      "option_a": "Cellular respiration — Cell communication via receptors and intracellular pathways",
+      "option_b": "Enzyme kinetics (basic) — Cell division producing gametes with half the chromosome number",
+      "option_c": "Translation — Protein synthesis on ribosomes using mRNA",
+      "option_d": "Apoptosis — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "C",
+      "explanation": "Translation: tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 182) The best example of Meiosis is:",
+      "option_a": "Mitosis",
+      "option_b": "Selective permeability; transport includes diffusion, channels, carriers.",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "Protein synthesis on ribosomes using mRNA",
+      "correct_answer": "C",
+      "explanation": "Generates genetic diversity via crossing over and independent assortment."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 183) The best example of DNA replication is:",
+      "option_a": "Translation",
+      "option_b": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_c": "Caspase-mediated; important for development and homeostasis.",
+      "option_d": "Cellular respiration",
+      "correct_answer": "B",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 184) The best example of Cellular respiration is:",
+      "option_a": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_b": "tRNA delivers amino acids; codons specify sequence.",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "A",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 185) Which option is TRUE regarding Translation?",
+      "option_a": "Enzyme kinetics (basic)",
+      "option_b": "DNA replication",
+      "option_c": "Protein synthesis on ribosomes using mRNA",
+      "option_d": "Programmed cell death without inflammation",
+      "correct_answer": "C",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 186) Which pairing is correct?",
+      "option_a": "Enzyme kinetics (basic) — Synthesis of RNA from DNA template",
+      "option_b": "Apoptosis — Programmed cell death without inflammation",
+      "option_c": "Transcription — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Cellular respiration — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "B",
+      "explanation": "Apoptosis: Caspase-mediated; important for development and homeostasis."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 187) The best example of Cellular respiration is:",
+      "option_a": "Caspase-mediated; important for development and homeostasis.",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Signal transduction",
+      "option_d": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "correct_answer": "D",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 188) Which pairing is correct?",
+      "option_a": "Enzyme kinetics (basic) — Study of reaction rates and enzyme activity",
+      "option_b": "Meiosis — Synthesis of RNA from DNA template",
+      "option_c": "Cellular respiration — Cell communication via receptors and intracellular pathways",
+      "option_d": "Meiosis — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "A",
+      "explanation": "Enzyme kinetics (basic): Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 189) The best example of Signal transduction is:",
+      "option_a": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_b": "Enzyme kinetics (basic)",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "D",
+      "explanation": "Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 190) The best example of DNA replication is:",
+      "option_a": "Caspase-mediated; important for development and homeostasis.",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "Generates genetic diversity via crossing over and independent assortment.",
+      "option_d": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "correct_answer": "D",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 191) Which option is TRUE regarding Cell membrane?",
+      "option_a": "Transcription",
+      "option_b": "Phospholipid bilayer with proteins regulating transport and signaling",
+      "option_c": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments.",
+      "option_d": "Translation",
+      "correct_answer": "B",
+      "explanation": "Selective permeability; transport includes diffusion, channels, carriers."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 192) Which option is TRUE regarding DNA replication?",
+      "option_a": "DNA replication",
+      "option_b": "Semi-conservative synthesis of DNA prior to cell division",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "B",
+      "explanation": "DNA polymerase requires primer; leading/lagging strands; Okazaki fragments."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 193) The best example of Enzyme kinetics (basic) is:",
+      "option_a": "Meiosis",
+      "option_b": "DNA replication",
+      "option_c": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "option_d": "ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "correct_answer": "C",
+      "explanation": "Affected by substrate concentration, temperature, pH, inhibitors."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 194) The best example of Cellular respiration is:",
+      "option_a": "Programmed cell death without inflammation",
+      "option_b": "Transcription",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Affected by substrate concentration, temperature, pH, inhibitors.",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 195) Which option is TRUE regarding Transcription?",
+      "option_a": "Enzyme kinetics (basic)",
+      "option_b": "Synthesis of RNA from DNA template",
+      "option_c": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "option_d": "Generates genetic diversity via crossing over and independent assortment.",
+      "correct_answer": "B",
+      "explanation": "RNA polymerase binds promoter; mRNA processed in eukaryotes."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 196) The best example of Mitosis is:",
+      "option_a": "Enzyme kinetics (basic)",
+      "option_b": "Study of reaction rates and enzyme activity",
+      "option_c": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows.",
+      "option_d": "Caspase-mediated; important for development and homeostasis.",
+      "correct_answer": "C",
+      "explanation": "Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 197) Which pairing is correct?",
+      "option_a": "Cell membrane — Study of reaction rates and enzyme activity",
+      "option_b": "Transcription — Synthesis of RNA from DNA template",
+      "option_c": "Cellular respiration — Eukaryotic cell division producing two identical daughter cells",
+      "option_d": "Signal transduction — Cell communication via receptors and intracellular pathways",
+      "correct_answer": "D",
+      "explanation": "Signal transduction: Second messengers (cAMP, Ca2+) amplify signals."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 198) Which pairing is correct?",
+      "option_a": "Mitosis — Eukaryotic cell division producing two identical daughter cells",
+      "option_b": "Cell membrane — Cell communication via receptors and intracellular pathways",
+      "option_c": "Translation — ATP production via glycolysis, TCA cycle, oxidative phosphorylation",
+      "option_d": "Mitosis — Semi-conservative synthesis of DNA prior to cell division",
+      "correct_answer": "A",
+      "explanation": "Mitosis: Phases: prophase, metaphase, anaphase, telophase; cytokinesis follows."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 199) Which option is TRUE regarding Translation?",
+      "option_a": "Study of reaction rates and enzyme activity",
+      "option_b": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_c": "Protein synthesis on ribosomes using mRNA",
+      "option_d": "Eukaryotic cell division producing two identical daughter cells",
+      "correct_answer": "C",
+      "explanation": "tRNA delivers amino acids; codons specify sequence."
+    },
+    {
+      "question": "(Biology / Cell Biology Item 200) The best example of Cellular respiration is:",
+      "option_a": "Synthesis of RNA from DNA template",
+      "option_b": "DNA replication",
+      "option_c": "Occurs mainly in mitochondria; oxygen is final electron acceptor.",
+      "option_d": "Second messengers (cAMP, Ca2+) amplify signals.",
+      "correct_answer": "C",
+      "explanation": "Occurs mainly in mitochondria; oxygen is final electron acceptor."
+    }
+  ]
+}

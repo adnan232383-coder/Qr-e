@@ -1,0 +1,1806 @@
+{
+  "course_name": "Pharmaceutics I",
+  "course_code": "UG_PHARM_Y2_S1_C02",
+  "questions": [
+    {
+      "question": "Which statement best describes Dosage form design?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Homogeneous mixtures of solute in solvent",
+      "option_c": "Solutions",
+      "option_d": "Evaluating product changes over time",
+      "correct_answer": "A",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "In Pharmaceutics I, Dosage form design is MOST associated with:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Dosage form design",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "A",
+      "explanation": "Dosage form design: Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "Which statement best describes Solutions?",
+      "option_a": "Preservatives",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Homogeneous mixtures of solute in solvent",
+      "correct_answer": "D",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "In Pharmaceutics I, Solutions is MOST associated with:",
+      "option_a": "Increasing surface area to improve dissolution",
+      "option_b": "O/W vs W/O; stability issues include coalescence.",
+      "option_c": "Rheology",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "D",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "Which statement best describes Suspensions?",
+      "option_a": "Dosage form design",
+      "option_b": "Dispersed insoluble particles in liquid",
+      "option_c": "Solutions",
+      "option_d": "Stability testing",
+      "correct_answer": "B",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "In Pharmaceutics I, Suspensions is MOST associated with:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Prevent microbial growth in formulations",
+      "option_c": "Supports expiry dating and storage conditions.",
+      "option_d": "Evaluating product changes over time",
+      "correct_answer": "A",
+      "explanation": "Suspensions: Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "Which statement best describes Emulsions?",
+      "option_a": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Stability testing",
+      "correct_answer": "A",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "In Pharmaceutics I, Emulsions is MOST associated with:",
+      "option_a": "Matching tonicity to body fluids",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "O/W vs W/O; stability issues include coalescence.",
+      "option_d": "Stability testing",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "Which statement best describes Particle size reduction?",
+      "option_a": "Isotonicity",
+      "option_b": "Increasing surface area to improve dissolution",
+      "option_c": "Matching tonicity to body fluids",
+      "option_d": "Selection depends on pH, compatibility, and spectrum.",
+      "correct_answer": "B",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "In Pharmaceutics I, Particle size reduction is MOST associated with:",
+      "option_a": "Study of flow behavior (viscosity)",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Rheology",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "Which statement best describes Preservatives?",
+      "option_a": "Prevent microbial growth in formulations",
+      "option_b": "Buffers",
+      "option_c": "Rheology",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "A",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "In Pharmaceutics I, Preservatives is MOST associated with:",
+      "option_a": "Dosage form design",
+      "option_b": "Isotonicity",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "Which statement best describes Buffers?",
+      "option_a": "Emulsions",
+      "option_b": "Affects pourability, syringeability, and stability.",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Maintain pH of formulation",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "In Pharmaceutics I, Buffers is MOST associated with:",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Preservatives",
+      "option_c": "Evaluating product changes over time",
+      "option_d": "Solutions",
+      "correct_answer": "A",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "Which statement best describes Isotonicity?",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Matching tonicity to body fluids",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "In Pharmaceutics I, Isotonicity is MOST associated with:",
+      "option_a": "Stability testing",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Important for parenteral/ophthalmic products.",
+      "option_d": "Supports expiry dating and storage conditions.",
+      "correct_answer": "C",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "Which statement best describes Rheology?",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Preservatives",
+      "correct_answer": "B",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "In Pharmaceutics I, Rheology is MOST associated with:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Affects pourability, syringeability, and stability.",
+      "option_c": "Isotonicity",
+      "option_d": "Stability testing",
+      "correct_answer": "B",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "Which statement best describes Stability testing?",
+      "option_a": "Dosage form design",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Evaluating product changes over time",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "In Pharmaceutics I, Stability testing is MOST associated with:",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Preservatives",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "A",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 21) The best example of Dosage form design is:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Suspensions",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "A",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 22) The best example of Dosage form design is:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Particle size reduction",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Rheology",
+      "correct_answer": "A",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 23) The best example of Preservatives is:",
+      "option_a": "Preservatives",
+      "option_b": "Selection depends on pH, compatibility, and spectrum.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "B",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 24) The best example of Stability testing is:",
+      "option_a": "Preservatives",
+      "option_b": "Supports expiry dating and storage conditions.",
+      "option_c": "Matching tonicity to body fluids",
+      "option_d": "Dosage form design",
+      "correct_answer": "B",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 25) The best example of Suspensions is:",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Emulsions",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "D",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 26) Which pairing is correct?",
+      "option_a": "Emulsions — Dispersed insoluble particles in liquid",
+      "option_b": "Suspensions — Dispersed insoluble particles in liquid",
+      "option_c": "Isotonicity — Matching tonicity to body fluids",
+      "option_d": "Preservatives — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 27) Which pairing is correct?",
+      "option_a": "Buffers — Maintain pH of formulation",
+      "option_b": "Solutions — Study of flow behavior (viscosity)",
+      "option_c": "Emulsions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Buffers — Increasing surface area to improve dissolution",
+      "correct_answer": "A",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 28) Which pairing is correct?",
+      "option_a": "Preservatives — Dispersed insoluble particles in liquid",
+      "option_b": "Buffers — Maintain pH of formulation",
+      "option_c": "Particle size reduction — Homogeneous mixtures of solute in solvent",
+      "option_d": "Preservatives — Maintain pH of formulation",
+      "correct_answer": "B",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 29) Which pairing is correct?",
+      "option_a": "Solutions — Study of flow behavior (viscosity)",
+      "option_b": "Isotonicity — Matching tonicity to body fluids",
+      "option_c": "Preservatives — Increasing surface area to improve dissolution",
+      "option_d": "Isotonicity — Matching tonicity to body fluids",
+      "correct_answer": "B",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 30) The best example of Solutions is:",
+      "option_a": "Maintain pH of formulation",
+      "option_b": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Dosage form design",
+      "correct_answer": "B",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 31) The best example of Particle size reduction is:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Maintain pH of formulation",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "B",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 32) Which option is TRUE regarding Preservatives?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Preservatives",
+      "correct_answer": "C",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 33) The best example of Dosage form design is:",
+      "option_a": "Solutions",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Consider stability, bioavailability, patient factors.",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 34) Which pairing is correct?",
+      "option_a": "Isotonicity — Prevent microbial growth in formulations",
+      "option_b": "Isotonicity — Evaluating product changes over time",
+      "option_c": "Stability testing — Evaluating product changes over time",
+      "option_d": "Stability testing — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "C",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 35) The best example of Solutions is:",
+      "option_a": "Isotonicity",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Particle size reduction",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 36) Which option is TRUE regarding Isotonicity?",
+      "option_a": "Matching tonicity to body fluids",
+      "option_b": "Require wetting/suspending agents; shake well.",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "A",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 37) Which pairing is correct?",
+      "option_a": "Buffers — Selecting form to deliver drug safely/effectively",
+      "option_b": "Buffers — Maintain pH of formulation",
+      "option_c": "Stability testing — Maintain pH of formulation",
+      "option_d": "Preservatives — Prevent microbial growth in formulations",
+      "correct_answer": "D",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 38) Which pairing is correct?",
+      "option_a": "Rheology — Selecting form to deliver drug safely/effectively",
+      "option_b": "Particle size reduction — Prevent microbial growth in formulations",
+      "option_c": "Isotonicity — Matching tonicity to body fluids",
+      "option_d": "Emulsions — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 39) The best example of Buffers is:",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Preservatives",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Maintain pH of formulation",
+      "correct_answer": "A",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 40) Which option is TRUE regarding Solutions?",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Solutions",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 41) Which pairing is correct?",
+      "option_a": "Isotonicity — Dispersed insoluble particles in liquid",
+      "option_b": "Solutions — Prevent microbial growth in formulations",
+      "option_c": "Dosage form design — Increasing surface area to improve dissolution",
+      "option_d": "Buffers — Maintain pH of formulation",
+      "correct_answer": "D",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 42) Which pairing is correct?",
+      "option_a": "Emulsions — Matching tonicity to body fluids",
+      "option_b": "Solutions — Dispersed insoluble particles in liquid",
+      "option_c": "Solutions — Dispersed insoluble particles in liquid",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 43) Which pairing is correct?",
+      "option_a": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Solutions — Increasing surface area to improve dissolution",
+      "option_d": "Dosage form design — Study of flow behavior (viscosity)",
+      "correct_answer": "B",
+      "explanation": "Dosage form design: Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 44) Which pairing is correct?",
+      "option_a": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_b": "Isotonicity — Homogeneous mixtures of solute in solvent",
+      "option_c": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Buffers — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "A",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 45) Which option is TRUE regarding Particle size reduction?",
+      "option_a": "Particle size reduction",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Increasing surface area to improve dissolution",
+      "option_d": "Dispersed insoluble particles in liquid",
+      "correct_answer": "C",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 46) The best example of Solutions is:",
+      "option_a": "Important for parenteral/ophthalmic products.",
+      "option_b": "Supports expiry dating and storage conditions.",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Homogeneous mixtures of solute in solvent",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 47) Which option is TRUE regarding Rheology?",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_d": "Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 48) Which option is TRUE regarding Preservatives?",
+      "option_a": "Buffers",
+      "option_b": "Homogeneous mixtures of solute in solvent",
+      "option_c": "Particle size reduction",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "D",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 49) The best example of Stability testing is:",
+      "option_a": "Suspensions",
+      "option_b": "Supports expiry dating and storage conditions.",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "B",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 50) The best example of Isotonicity is:",
+      "option_a": "Homogeneous mixtures of solute in solvent",
+      "option_b": "Dispersed insoluble particles in liquid",
+      "option_c": "Consider stability, bioavailability, patient factors.",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "D",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 51) The best example of Rheology is:",
+      "option_a": "Affects pourability, syringeability, and stability.",
+      "option_b": "Dispersed insoluble particles in liquid",
+      "option_c": "Rheology",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "A",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 52) Which option is TRUE regarding Stability testing?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Selection depends on pH, compatibility, and spectrum.",
+      "option_c": "Evaluating product changes over time",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "C",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 53) Which option is TRUE regarding Emulsions?",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Dosage form design",
+      "option_c": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Stability testing",
+      "correct_answer": "C",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 54) Which option is TRUE regarding Preservatives?",
+      "option_a": "Particle size reduction",
+      "option_b": "Prevent microbial growth in formulations",
+      "option_c": "Rheology",
+      "option_d": "Preservatives",
+      "correct_answer": "B",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 55) Which pairing is correct?",
+      "option_a": "Suspensions — Dispersed insoluble particles in liquid",
+      "option_b": "Stability testing — Homogeneous mixtures of solute in solvent",
+      "option_c": "Buffers — Maintain pH of formulation",
+      "option_d": "Suspensions — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 56) Which option is TRUE regarding Stability testing?",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "A",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 57) Which pairing is correct?",
+      "option_a": "Preservatives — Prevent microbial growth in formulations",
+      "option_b": "Isotonicity — Homogeneous mixtures of solute in solvent",
+      "option_c": "Particle size reduction — Study of flow behavior (viscosity)",
+      "option_d": "Buffers — Prevent microbial growth in formulations",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 58) The best example of Suspensions is:",
+      "option_a": "Emulsions",
+      "option_b": "Preservatives",
+      "option_c": "Particle size reduction",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "D",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 59) The best example of Suspensions is:",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Solutions",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "D",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 60) The best example of Solutions is:",
+      "option_a": "Dispersed insoluble particles in liquid",
+      "option_b": "Emulsions",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 61) Which option is TRUE regarding Emulsions?",
+      "option_a": "Homogeneous mixtures of solute in solvent",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Maintain pH of formulation",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 62) Which option is TRUE regarding Isotonicity?",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Suspensions",
+      "option_c": "Stability testing",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "D",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 63) The best example of Dosage form design is:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "O/W vs W/O; stability issues include coalescence.",
+      "option_c": "Rheology",
+      "option_d": "Consider stability, bioavailability, patient factors.",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 64) Which pairing is correct?",
+      "option_a": "Preservatives — Increasing surface area to improve dissolution",
+      "option_b": "Preservatives — Prevent microbial growth in formulations",
+      "option_c": "Stability testing — Maintain pH of formulation",
+      "option_d": "Preservatives — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 65) Which pairing is correct?",
+      "option_a": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Rheology — Dispersed insoluble particles in liquid",
+      "option_c": "Solutions — Dispersed insoluble particles in liquid",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 66) The best example of Rheology is:",
+      "option_a": "Affects pourability, syringeability, and stability.",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_d": "Rheology",
+      "correct_answer": "A",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 67) Which pairing is correct?",
+      "option_a": "Stability testing — Homogeneous mixtures of solute in solvent",
+      "option_b": "Rheology — Study of flow behavior (viscosity)",
+      "option_c": "Dosage form design — Dispersed insoluble particles in liquid",
+      "option_d": "Preservatives — Increasing surface area to improve dissolution",
+      "correct_answer": "B",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 68) Which option is TRUE regarding Dosage form design?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Emulsions",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Rheology",
+      "correct_answer": "A",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 69) Which pairing is correct?",
+      "option_a": "Emulsions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Isotonicity — Increasing surface area to improve dissolution",
+      "option_c": "Solutions — Prevent microbial growth in formulations",
+      "option_d": "Emulsions — Increasing surface area to improve dissolution",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 70) Which pairing is correct?",
+      "option_a": "Preservatives — Prevent microbial growth in formulations",
+      "option_b": "Buffers — Increasing surface area to improve dissolution",
+      "option_c": "Buffers — Maintain pH of formulation",
+      "option_d": "Solutions — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "C",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 71) The best example of Rheology is:",
+      "option_a": "Selection depends on pH, compatibility, and spectrum.",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Solutions",
+      "option_d": "Affects pourability, syringeability, and stability.",
+      "correct_answer": "D",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 72) Which option is TRUE regarding Suspensions?",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Homogeneous mixtures of solute in solvent",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "C",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 73) The best example of Rheology is:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Dosage form design",
+      "correct_answer": "C",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 74) The best example of Dosage form design is:",
+      "option_a": "Prevent microbial growth in formulations",
+      "option_b": "Dosage form design",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Consider stability, bioavailability, patient factors.",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 75) Which option is TRUE regarding Suspensions?",
+      "option_a": "Dispersed insoluble particles in liquid",
+      "option_b": "Rheology",
+      "option_c": "Increasing surface area to improve dissolution",
+      "option_d": "Preservatives",
+      "correct_answer": "A",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 76) The best example of Stability testing is:",
+      "option_a": "Rheology",
+      "option_b": "Supports expiry dating and storage conditions.",
+      "option_c": "Consider stability, bioavailability, patient factors.",
+      "option_d": "Dispersed insoluble particles in liquid",
+      "correct_answer": "B",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 77) Which option is TRUE regarding Dosage form design?",
+      "option_a": "Selection depends on pH, compatibility, and spectrum.",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Rheology",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 78) Which option is TRUE regarding Buffers?",
+      "option_a": "Methods include milling; affects bioavailability.",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Require wetting/suspending agents; shake well.",
+      "option_d": "Maintain pH of formulation",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 79) Which pairing is correct?",
+      "option_a": "Stability testing — Dispersed insoluble particles in liquid",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Emulsions — Selecting form to deliver drug safely/effectively",
+      "option_d": "Emulsions — Matching tonicity to body fluids",
+      "correct_answer": "B",
+      "explanation": "Dosage form design: Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 80) Which option is TRUE regarding Dosage form design?",
+      "option_a": "Rheology",
+      "option_b": "Consider stability, bioavailability, patient factors.",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 81) Which pairing is correct?",
+      "option_a": "Suspensions — Study of flow behavior (viscosity)",
+      "option_b": "Preservatives — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Stability testing — Prevent microbial growth in formulations",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 82) The best example of Particle size reduction is:",
+      "option_a": "Important for parenteral/ophthalmic products.",
+      "option_b": "Rheology",
+      "option_c": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_d": "Methods include milling; affects bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 83) Which pairing is correct?",
+      "option_a": "Buffers — Maintain pH of formulation",
+      "option_b": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Solutions — Dispersed insoluble particles in liquid",
+      "option_d": "Preservatives — Prevent microbial growth in formulations",
+      "correct_answer": "D",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 84) The best example of Isotonicity is:",
+      "option_a": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Methods include milling; affects bioavailability.",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "D",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 85) The best example of Buffers is:",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Particle size reduction",
+      "option_c": "Isotonicity",
+      "option_d": "Solutions",
+      "correct_answer": "A",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 86) Which option is TRUE regarding Stability testing?",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 87) Which option is TRUE regarding Suspensions?",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Dosage form design",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Particle size reduction",
+      "correct_answer": "C",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 88) Which option is TRUE regarding Emulsions?",
+      "option_a": "Dispersed insoluble particles in liquid",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_d": "Study of flow behavior (viscosity)",
+      "correct_answer": "B",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 89) The best example of Preservatives is:",
+      "option_a": "Study of flow behavior (viscosity)",
+      "option_b": "Affects pourability, syringeability, and stability.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Selection depends on pH, compatibility, and spectrum.",
+      "correct_answer": "D",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 90) Which pairing is correct?",
+      "option_a": "Particle size reduction — Evaluating product changes over time",
+      "option_b": "Preservatives — Homogeneous mixtures of solute in solvent",
+      "option_c": "Buffers — Maintain pH of formulation",
+      "option_d": "Particle size reduction — Matching tonicity to body fluids",
+      "correct_answer": "C",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 91) Which pairing is correct?",
+      "option_a": "Isotonicity — Study of flow behavior (viscosity)",
+      "option_b": "Preservatives — Maintain pH of formulation",
+      "option_c": "Buffers — Selecting form to deliver drug safely/effectively",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 92) The best example of Rheology is:",
+      "option_a": "Solutions",
+      "option_b": "Affects pourability, syringeability, and stability.",
+      "option_c": "O/W vs W/O; stability issues include coalescence.",
+      "option_d": "Buffers",
+      "correct_answer": "B",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 93) Which pairing is correct?",
+      "option_a": "Isotonicity — Selecting form to deliver drug safely/effectively",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Preservatives — Prevent microbial growth in formulations",
+      "option_d": "Dosage form design — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "C",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 94) Which option is TRUE regarding Solutions?",
+      "option_a": "Important for parenteral/ophthalmic products.",
+      "option_b": "Homogeneous mixtures of solute in solvent",
+      "option_c": "Buffers",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 95) The best example of Buffers is:",
+      "option_a": "Rheology",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Particle size reduction",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 96) Which pairing is correct?",
+      "option_a": "Solutions — Evaluating product changes over time",
+      "option_b": "Preservatives — Evaluating product changes over time",
+      "option_c": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Particle size reduction — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "C",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 97) The best example of Buffers is:",
+      "option_a": "Matching tonicity to body fluids",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Supports expiry dating and storage conditions.",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 98) The best example of Particle size reduction is:",
+      "option_a": "Methods include milling; affects bioavailability.",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Emulsions",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "A",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 99) Which option is TRUE regarding Rheology?",
+      "option_a": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_b": "Particle size reduction",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "C",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 100) The best example of Solutions is:",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Increasing surface area to improve dissolution",
+      "option_c": "Matching tonicity to body fluids",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "D",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 101) Which pairing is correct?",
+      "option_a": "Stability testing — Prevent microbial growth in formulations",
+      "option_b": "Rheology — Prevent microbial growth in formulations",
+      "option_c": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 102) Which pairing is correct?",
+      "option_a": "Rheology — Matching tonicity to body fluids",
+      "option_b": "Preservatives — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Stability testing — Evaluating product changes over time",
+      "option_d": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "C",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 103) Which pairing is correct?",
+      "option_a": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_b": "Stability testing — Study of flow behavior (viscosity)",
+      "option_c": "Particle size reduction — Increasing surface area to improve dissolution",
+      "option_d": "Suspensions — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 104) Which option is TRUE regarding Emulsions?",
+      "option_a": "Increasing surface area to improve dissolution",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Isotonicity",
+      "correct_answer": "B",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 105) The best example of Emulsions is:",
+      "option_a": "Suspensions",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Particle size reduction",
+      "option_d": "O/W vs W/O; stability issues include coalescence.",
+      "correct_answer": "D",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 106) The best example of Suspensions is:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Suspensions",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Affects pourability, syringeability, and stability.",
+      "correct_answer": "A",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 107) The best example of Buffers is:",
+      "option_a": "Affects pourability, syringeability, and stability.",
+      "option_b": "Dosage form design",
+      "option_c": "Emulsions",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 108) Which pairing is correct?",
+      "option_a": "Emulsions — Dispersed insoluble particles in liquid",
+      "option_b": "Particle size reduction — Increasing surface area to improve dissolution",
+      "option_c": "Solutions — Study of flow behavior (viscosity)",
+      "option_d": "Particle size reduction — Matching tonicity to body fluids",
+      "correct_answer": "B",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 109) Which pairing is correct?",
+      "option_a": "Isotonicity — Matching tonicity to body fluids",
+      "option_b": "Emulsions — Matching tonicity to body fluids",
+      "option_c": "Particle size reduction — Evaluating product changes over time",
+      "option_d": "Buffers — Maintain pH of formulation",
+      "correct_answer": "D",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 110) Which pairing is correct?",
+      "option_a": "Buffers — Matching tonicity to body fluids",
+      "option_b": "Buffers — Matching tonicity to body fluids",
+      "option_c": "Stability testing — Evaluating product changes over time",
+      "option_d": "Rheology — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 111) Which pairing is correct?",
+      "option_a": "Rheology — Study of flow behavior (viscosity)",
+      "option_b": "Rheology — Study of flow behavior (viscosity)",
+      "option_c": "Particle size reduction — Maintain pH of formulation",
+      "option_d": "Isotonicity — Maintain pH of formulation",
+      "correct_answer": "A",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 112) Which pairing is correct?",
+      "option_a": "Particle size reduction — Selecting form to deliver drug safely/effectively",
+      "option_b": "Emulsions — Increasing surface area to improve dissolution",
+      "option_c": "Emulsions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Stability testing — Matching tonicity to body fluids",
+      "correct_answer": "C",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 113) Which option is TRUE regarding Suspensions?",
+      "option_a": "Selection depends on pH, compatibility, and spectrum.",
+      "option_b": "Dispersed insoluble particles in liquid",
+      "option_c": "Buffers",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "B",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 114) Which option is TRUE regarding Particle size reduction?",
+      "option_a": "Study of flow behavior (viscosity)",
+      "option_b": "Isotonicity",
+      "option_c": "Methods include milling; affects bioavailability.",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "D",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 115) Which pairing is correct?",
+      "option_a": "Buffers — Maintain pH of formulation",
+      "option_b": "Rheology — Evaluating product changes over time",
+      "option_c": "Stability testing — Selecting form to deliver drug safely/effectively",
+      "option_d": "Suspensions — Increasing surface area to improve dissolution",
+      "correct_answer": "A",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 116) Which option is TRUE regarding Solutions?",
+      "option_a": "Isotonicity",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Evaluating product changes over time",
+      "option_d": "Homogeneous mixtures of solute in solvent",
+      "correct_answer": "D",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 117) Which pairing is correct?",
+      "option_a": "Isotonicity — Matching tonicity to body fluids",
+      "option_b": "Preservatives — Evaluating product changes over time",
+      "option_c": "Buffers — Homogeneous mixtures of solute in solvent",
+      "option_d": "Rheology — Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "A",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 118) Which option is TRUE regarding Suspensions?",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Dispersed insoluble particles in liquid",
+      "option_c": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "B",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 119) Which pairing is correct?",
+      "option_a": "Isotonicity — Maintain pH of formulation",
+      "option_b": "Particle size reduction — Increasing surface area to improve dissolution",
+      "option_c": "Buffers — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Solutions — Maintain pH of formulation",
+      "correct_answer": "B",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 120) Which pairing is correct?",
+      "option_a": "Preservatives — Prevent microbial growth in formulations",
+      "option_b": "Preservatives — Prevent microbial growth in formulations",
+      "option_c": "Rheology — Homogeneous mixtures of solute in solvent",
+      "option_d": "Solutions — Evaluating product changes over time",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 121) Which pairing is correct?",
+      "option_a": "Rheology — Study of flow behavior (viscosity)",
+      "option_b": "Isotonicity — Prevent microbial growth in formulations",
+      "option_c": "Stability testing — Evaluating product changes over time",
+      "option_d": "Preservatives — Prevent microbial growth in formulations",
+      "correct_answer": "C",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 122) The best example of Emulsions is:",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Increasing surface area to improve dissolution",
+      "option_c": "Rheology",
+      "option_d": "O/W vs W/O; stability issues include coalescence.",
+      "correct_answer": "D",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 123) Which pairing is correct?",
+      "option_a": "Preservatives — Evaluating product changes over time",
+      "option_b": "Preservatives — Prevent microbial growth in formulations",
+      "option_c": "Preservatives — Prevent microbial growth in formulations",
+      "option_d": "Isotonicity — Evaluating product changes over time",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 124) Which option is TRUE regarding Preservatives?",
+      "option_a": "Suspensions",
+      "option_b": "Require wetting/suspending agents; shake well.",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Dosage form design",
+      "correct_answer": "C",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 125) Which option is TRUE regarding Solutions?",
+      "option_a": "Homogeneous mixtures of solute in solvent",
+      "option_b": "Selection depends on pH, compatibility, and spectrum.",
+      "option_c": "Preservatives",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "A",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 126) Which pairing is correct?",
+      "option_a": "Particle size reduction — Selecting form to deliver drug safely/effectively",
+      "option_b": "Emulsions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Particle size reduction — Evaluating product changes over time",
+      "option_d": "Buffers — Maintain pH of formulation",
+      "correct_answer": "B",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 127) Which option is TRUE regarding Rheology?",
+      "option_a": "Dosage form design",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Preservatives",
+      "correct_answer": "B",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 128) The best example of Isotonicity is:",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Selecting form to deliver drug safely/effectively",
+      "option_d": "Isotonicity",
+      "correct_answer": "B",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 129) Which option is TRUE regarding Solutions?",
+      "option_a": "Increasing surface area to improve dissolution",
+      "option_b": "Solutions",
+      "option_c": "Consider stability, bioavailability, patient factors.",
+      "option_d": "Homogeneous mixtures of solute in solvent",
+      "correct_answer": "D",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 130) Which pairing is correct?",
+      "option_a": "Dosage form design — Prevent microbial growth in formulations",
+      "option_b": "Emulsions — Maintain pH of formulation",
+      "option_c": "Particle size reduction — Selecting form to deliver drug safely/effectively",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 131) Which option is TRUE regarding Solutions?",
+      "option_a": "Isotonicity",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 132) Which pairing is correct?",
+      "option_a": "Isotonicity — Study of flow behavior (viscosity)",
+      "option_b": "Dosage form design — Homogeneous mixtures of solute in solvent",
+      "option_c": "Buffers — Study of flow behavior (viscosity)",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 133) Which option is TRUE regarding Solutions?",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 134) Which pairing is correct?",
+      "option_a": "Emulsions — Study of flow behavior (viscosity)",
+      "option_b": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_c": "Dosage form design — Evaluating product changes over time",
+      "option_d": "Preservatives — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 135) Which pairing is correct?",
+      "option_a": "Isotonicity — Matching tonicity to body fluids",
+      "option_b": "Preservatives — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Suspensions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Rheology — Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 136) Which pairing is correct?",
+      "option_a": "Stability testing — Evaluating product changes over time",
+      "option_b": "Particle size reduction — Prevent microbial growth in formulations",
+      "option_c": "Particle size reduction — Prevent microbial growth in formulations",
+      "option_d": "Isotonicity — Prevent microbial growth in formulations",
+      "correct_answer": "A",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 137) The best example of Suspensions is:",
+      "option_a": "Prevent microbial growth in formulations",
+      "option_b": "O/W vs W/O; stability issues include coalescence.",
+      "option_c": "Require wetting/suspending agents; shake well.",
+      "option_d": "Solutions",
+      "correct_answer": "C",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 138) Which pairing is correct?",
+      "option_a": "Rheology — Study of flow behavior (viscosity)",
+      "option_b": "Stability testing — Maintain pH of formulation",
+      "option_c": "Stability testing — Increasing surface area to improve dissolution",
+      "option_d": "Particle size reduction — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "A",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 139) The best example of Buffers is:",
+      "option_a": "Study of flow behavior (viscosity)",
+      "option_b": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_c": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_d": "Consider stability, bioavailability, patient factors.",
+      "correct_answer": "C",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 140) The best example of Particle size reduction is:",
+      "option_a": "Isotonicity",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Methods include milling; affects bioavailability.",
+      "option_d": "Particle size reduction",
+      "correct_answer": "C",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 141) The best example of Buffers is:",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Solutions",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "A",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 142) Which pairing is correct?",
+      "option_a": "Emulsions — Prevent microbial growth in formulations",
+      "option_b": "Preservatives — Maintain pH of formulation",
+      "option_c": "Stability testing — Selecting form to deliver drug safely/effectively",
+      "option_d": "Solutions — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "D",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 143) The best example of Particle size reduction is:",
+      "option_a": "Dispersed insoluble particles in liquid",
+      "option_b": "O/W vs W/O; stability issues include coalescence.",
+      "option_c": "Particle size reduction",
+      "option_d": "Methods include milling; affects bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 144) The best example of Solutions is:",
+      "option_a": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_b": "Selecting form to deliver drug safely/effectively",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Rheology",
+      "correct_answer": "A",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 145) Which pairing is correct?",
+      "option_a": "Buffers — Selecting form to deliver drug safely/effectively",
+      "option_b": "Stability testing — Evaluating product changes over time",
+      "option_c": "Buffers — Evaluating product changes over time",
+      "option_d": "Isotonicity — Maintain pH of formulation",
+      "correct_answer": "B",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 146) Which pairing is correct?",
+      "option_a": "Stability testing — Selecting form to deliver drug safely/effectively",
+      "option_b": "Isotonicity — Homogeneous mixtures of solute in solvent",
+      "option_c": "Particle size reduction — Increasing surface area to improve dissolution",
+      "option_d": "Particle size reduction — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "C",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 147) Which option is TRUE regarding Rheology?",
+      "option_a": "Rheology",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "Supports expiry dating and storage conditions.",
+      "option_d": "Study of flow behavior (viscosity)",
+      "correct_answer": "D",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 148) The best example of Stability testing is:",
+      "option_a": "Methods include milling; affects bioavailability.",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Supports expiry dating and storage conditions.",
+      "correct_answer": "D",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 149) Which pairing is correct?",
+      "option_a": "Emulsions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Particle size reduction — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Isotonicity — Study of flow behavior (viscosity)",
+      "option_d": "Buffers — Study of flow behavior (viscosity)",
+      "correct_answer": "A",
+      "explanation": "Emulsions: O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 150) Which option is TRUE regarding Buffers?",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Maintain pH of formulation",
+      "option_c": "O/W vs W/O; stability issues include coalescence.",
+      "option_d": "Buffers",
+      "correct_answer": "B",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 151) The best example of Buffers is:",
+      "option_a": "Buffers",
+      "option_b": "Homogeneous mixtures of solute in solvent",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Important for stability and comfort (e.g., ophthalmics).",
+      "correct_answer": "D",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 152) Which pairing is correct?",
+      "option_a": "Emulsions — Homogeneous mixtures of solute in solvent",
+      "option_b": "Stability testing — Increasing surface area to improve dissolution",
+      "option_c": "Particle size reduction — Dispersed insoluble particles in liquid",
+      "option_d": "Buffers — Maintain pH of formulation",
+      "correct_answer": "D",
+      "explanation": "Buffers: Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 153) The best example of Isotonicity is:",
+      "option_a": "Particle size reduction",
+      "option_b": "Methods include milling; affects bioavailability.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "D",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 154) Which option is TRUE regarding Dosage form design?",
+      "option_a": "Affects pourability, syringeability, and stability.",
+      "option_b": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 155) Which pairing is correct?",
+      "option_a": "Suspensions — Dispersed insoluble particles in liquid",
+      "option_b": "Preservatives — Selecting form to deliver drug safely/effectively",
+      "option_c": "Stability testing — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Dosage form design — Maintain pH of formulation",
+      "correct_answer": "A",
+      "explanation": "Suspensions: Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 156) Which option is TRUE regarding Dosage form design?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_c": "Isotonicity",
+      "option_d": "Methods include milling; affects bioavailability.",
+      "correct_answer": "A",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 157) Which option is TRUE regarding Particle size reduction?",
+      "option_a": "Prevent microbial growth in formulations",
+      "option_b": "Increasing surface area to improve dissolution",
+      "option_c": "Stability testing",
+      "option_d": "O/W vs W/O; stability issues include coalescence.",
+      "correct_answer": "B",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 158) Which pairing is correct?",
+      "option_a": "Suspensions — Selecting form to deliver drug safely/effectively",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Solutions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Stability testing — Study of flow behavior (viscosity)",
+      "correct_answer": "B",
+      "explanation": "Dosage form design: Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 159) The best example of Dosage form design is:",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Rheology",
+      "option_d": "Consider stability, bioavailability, patient factors.",
+      "correct_answer": "D",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 160) Which option is TRUE regarding Preservatives?",
+      "option_a": "Study of flow behavior (viscosity)",
+      "option_b": "Solutions",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Selection depends on pH, compatibility, and spectrum.",
+      "correct_answer": "C",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 161) The best example of Emulsions is:",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Prevent microbial growth in formulations",
+      "option_c": "Important for parenteral/ophthalmic products.",
+      "option_d": "O/W vs W/O; stability issues include coalescence.",
+      "correct_answer": "D",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 162) Which option is TRUE regarding Buffers?",
+      "option_a": "Maintain pH of formulation",
+      "option_b": "Consider stability, bioavailability, patient factors.",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Important for parenteral/ophthalmic products.",
+      "correct_answer": "A",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 163) Which option is TRUE regarding Stability testing?",
+      "option_a": "Methods include milling; affects bioavailability.",
+      "option_b": "Consider stability, bioavailability, patient factors.",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Evaluating product changes over time",
+      "correct_answer": "D",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 164) The best example of Buffers is:",
+      "option_a": "Increasing surface area to improve dissolution",
+      "option_b": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "B",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 165) The best example of Isotonicity is:",
+      "option_a": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Rheology",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "B",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 166) Which option is TRUE regarding Emulsions?",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Suspensions",
+      "option_c": "Affects pourability, syringeability, and stability.",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "D",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 167) The best example of Isotonicity is:",
+      "option_a": "Isotonicity",
+      "option_b": "Dosage form design",
+      "option_c": "Important for parenteral/ophthalmic products.",
+      "option_d": "Maintain pH of formulation",
+      "correct_answer": "C",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 168) The best example of Preservatives is:",
+      "option_a": "Consider stability, bioavailability, patient factors.",
+      "option_b": "Selection depends on pH, compatibility, and spectrum.",
+      "option_c": "Dispersed insoluble particles in liquid",
+      "option_d": "Affects pourability, syringeability, and stability.",
+      "correct_answer": "B",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 169) The best example of Dosage form design is:",
+      "option_a": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Consider stability, bioavailability, patient factors.",
+      "option_c": "Evaluating product changes over time",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "B",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 170) Which pairing is correct?",
+      "option_a": "Rheology — Study of flow behavior (viscosity)",
+      "option_b": "Stability testing — Prevent microbial growth in formulations",
+      "option_c": "Solutions — Maintain pH of formulation",
+      "option_d": "Suspensions — Maintain pH of formulation",
+      "correct_answer": "A",
+      "explanation": "Rheology: Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 171) The best example of Dosage form design is:",
+      "option_a": "Buffers",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Consider stability, bioavailability, patient factors.",
+      "option_d": "Rheology",
+      "correct_answer": "C",
+      "explanation": "Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 172) Which pairing is correct?",
+      "option_a": "Solutions — Dispersed insoluble particles in liquid",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Emulsions — Study of flow behavior (viscosity)",
+      "correct_answer": "C",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 173) Which option is TRUE regarding Rheology?",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Emulsions",
+      "option_c": "Study of flow behavior (viscosity)",
+      "option_d": "Prevent microbial growth in formulations",
+      "correct_answer": "C",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 174) Which pairing is correct?",
+      "option_a": "Particle size reduction — Study of flow behavior (viscosity)",
+      "option_b": "Suspensions — Dispersed insoluble particles in liquid",
+      "option_c": "Rheology — Prevent microbial growth in formulations",
+      "option_d": "Isotonicity — Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "B",
+      "explanation": "Suspensions: Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 175) Which option is TRUE regarding Stability testing?",
+      "option_a": "Dispersed insoluble particles in liquid",
+      "option_b": "Evaluating product changes over time",
+      "option_c": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "B",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 176) Which pairing is correct?",
+      "option_a": "Suspensions — Study of flow behavior (viscosity)",
+      "option_b": "Preservatives — Increasing surface area to improve dissolution",
+      "option_c": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Isotonicity — Study of flow behavior (viscosity)",
+      "correct_answer": "C",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 177) Which pairing is correct?",
+      "option_a": "Dosage form design — Dispersed insoluble particles in liquid",
+      "option_b": "Particle size reduction — Prevent microbial growth in formulations",
+      "option_c": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_d": "Solutions — Increasing surface area to improve dissolution",
+      "correct_answer": "C",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 178) Which option is TRUE regarding Isotonicity?",
+      "option_a": "Matching tonicity to body fluids",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Solutions",
+      "correct_answer": "A",
+      "explanation": "Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 179) Which pairing is correct?",
+      "option_a": "Solutions — Matching tonicity to body fluids",
+      "option_b": "Preservatives — Prevent microbial growth in formulations",
+      "option_c": "Suspensions — Dispersion of immiscible liquids stabilized by surfactants",
+      "option_d": "Preservatives — Matching tonicity to body fluids",
+      "correct_answer": "B",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 180) The best example of Suspensions is:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Matching tonicity to body fluids",
+      "option_c": "Selecting form to deliver drug safely/effectively",
+      "option_d": "Solutions",
+      "correct_answer": "A",
+      "explanation": "Require wetting/suspending agents; shake well."
+    },
+    {
+      "question": "(Pharmaceutics I Item 181) Which pairing is correct?",
+      "option_a": "Preservatives — Prevent microbial growth in formulations",
+      "option_b": "Emulsions — Maintain pH of formulation",
+      "option_c": "Particle size reduction — Dispersed insoluble particles in liquid",
+      "option_d": "Preservatives — Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "A",
+      "explanation": "Preservatives: Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 182) The best example of Particle size reduction is:",
+      "option_a": "Preservatives",
+      "option_b": "Increasing surface area to improve dissolution",
+      "option_c": "Isotonicity",
+      "option_d": "Methods include milling; affects bioavailability.",
+      "correct_answer": "D",
+      "explanation": "Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 183) The best example of Rheology is:",
+      "option_a": "Require wetting/suspending agents; shake well.",
+      "option_b": "Affects pourability, syringeability, and stability.",
+      "option_c": "Particle size reduction",
+      "option_d": "Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 184) Which option is TRUE regarding Emulsions?",
+      "option_a": "Methods include milling; affects bioavailability.",
+      "option_b": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_c": "Maintain pH of formulation",
+      "option_d": "O/W vs W/O; stability issues include coalescence.",
+      "correct_answer": "B",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 185) Which option is TRUE regarding Emulsions?",
+      "option_a": "Dispersion of immiscible liquids stabilized by surfactants",
+      "option_b": "Dosage form design",
+      "option_c": "Isotonicity",
+      "option_d": "Require wetting/suspending agents; shake well.",
+      "correct_answer": "A",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 186) Which pairing is correct?",
+      "option_a": "Particle size reduction — Maintain pH of formulation",
+      "option_b": "Particle size reduction — Increasing surface area to improve dissolution",
+      "option_c": "Buffers — Dispersed insoluble particles in liquid",
+      "option_d": "Emulsions — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "B",
+      "explanation": "Particle size reduction: Methods include milling; affects bioavailability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 187) The best example of Solutions is:",
+      "option_a": "Isotonicity",
+      "option_b": "O/W vs W/O; stability issues include coalescence.",
+      "option_c": "Homogeneous mixtures of solute in solvent",
+      "option_d": "Need solubility; may require pH adjustment or cosolvents.",
+      "correct_answer": "D",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 188) Which pairing is correct?",
+      "option_a": "Buffers — Prevent microbial growth in formulations",
+      "option_b": "Dosage form design — Selecting form to deliver drug safely/effectively",
+      "option_c": "Suspensions — Maintain pH of formulation",
+      "option_d": "Dosage form design — Increasing surface area to improve dissolution",
+      "correct_answer": "B",
+      "explanation": "Dosage form design: Consider stability, bioavailability, patient factors."
+    },
+    {
+      "question": "(Pharmaceutics I Item 189) Which option is TRUE regarding Preservatives?",
+      "option_a": "Evaluating product changes over time",
+      "option_b": "Solutions",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Matching tonicity to body fluids",
+      "correct_answer": "C",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 190) Which pairing is correct?",
+      "option_a": "Stability testing — Evaluating product changes over time",
+      "option_b": "Rheology — Dispersed insoluble particles in liquid",
+      "option_c": "Rheology — Matching tonicity to body fluids",
+      "option_d": "Dosage form design — Dispersed insoluble particles in liquid",
+      "correct_answer": "A",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 191) The best example of Buffers is:",
+      "option_a": "Important for stability and comfort (e.g., ophthalmics).",
+      "option_b": "Dosage form design",
+      "option_c": "Prevent microbial growth in formulations",
+      "option_d": "Buffers",
+      "correct_answer": "A",
+      "explanation": "Important for stability and comfort (e.g., ophthalmics)."
+    },
+    {
+      "question": "(Pharmaceutics I Item 192) The best example of Solutions is:",
+      "option_a": "Need solubility; may require pH adjustment or cosolvents.",
+      "option_b": "Important for parenteral/ophthalmic products.",
+      "option_c": "Isotonicity",
+      "option_d": "Dispersion of immiscible liquids stabilized by surfactants",
+      "correct_answer": "A",
+      "explanation": "Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 193) The best example of Emulsions is:",
+      "option_a": "Important for parenteral/ophthalmic products.",
+      "option_b": "Suspensions",
+      "option_c": "O/W vs W/O; stability issues include coalescence.",
+      "option_d": "Dosage form design",
+      "correct_answer": "C",
+      "explanation": "O/W vs W/O; stability issues include coalescence."
+    },
+    {
+      "question": "(Pharmaceutics I Item 194) The best example of Stability testing is:",
+      "option_a": "Supports expiry dating and storage conditions.",
+      "option_b": "Consider stability, bioavailability, patient factors.",
+      "option_c": "Suspensions",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "A",
+      "explanation": "Supports expiry dating and storage conditions."
+    },
+    {
+      "question": "(Pharmaceutics I Item 195) Which option is TRUE regarding Preservatives?",
+      "option_a": "Prevent microbial growth in formulations",
+      "option_b": "Require wetting/suspending agents; shake well.",
+      "option_c": "Selecting form to deliver drug safely/effectively",
+      "option_d": "Increasing surface area to improve dissolution",
+      "correct_answer": "A",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 196) Which pairing is correct?",
+      "option_a": "Suspensions — Matching tonicity to body fluids",
+      "option_b": "Solutions — Homogeneous mixtures of solute in solvent",
+      "option_c": "Dosage form design — Dispersed insoluble particles in liquid",
+      "option_d": "Stability testing — Dispersed insoluble particles in liquid",
+      "correct_answer": "B",
+      "explanation": "Solutions: Need solubility; may require pH adjustment or cosolvents."
+    },
+    {
+      "question": "(Pharmaceutics I Item 197) Which pairing is correct?",
+      "option_a": "Solutions — Matching tonicity to body fluids",
+      "option_b": "Rheology — Maintain pH of formulation",
+      "option_c": "Isotonicity — Matching tonicity to body fluids",
+      "option_d": "Suspensions — Selecting form to deliver drug safely/effectively",
+      "correct_answer": "C",
+      "explanation": "Isotonicity: Important for parenteral/ophthalmic products."
+    },
+    {
+      "question": "(Pharmaceutics I Item 198) The best example of Preservatives is:",
+      "option_a": "Dosage form design",
+      "option_b": "Rheology",
+      "option_c": "Selection depends on pH, compatibility, and spectrum.",
+      "option_d": "Isotonicity",
+      "correct_answer": "C",
+      "explanation": "Selection depends on pH, compatibility, and spectrum."
+    },
+    {
+      "question": "(Pharmaceutics I Item 199) Which option is TRUE regarding Rheology?",
+      "option_a": "Selecting form to deliver drug safely/effectively",
+      "option_b": "Study of flow behavior (viscosity)",
+      "option_c": "Supports expiry dating and storage conditions.",
+      "option_d": "Suspensions",
+      "correct_answer": "B",
+      "explanation": "Affects pourability, syringeability, and stability."
+    },
+    {
+      "question": "(Pharmaceutics I Item 200) Which pairing is correct?",
+      "option_a": "Rheology — Maintain pH of formulation",
+      "option_b": "Stability testing — Evaluating product changes over time",
+      "option_c": "Buffers — Maintain pH of formulation",
+      "option_d": "Particle size reduction — Homogeneous mixtures of solute in solvent",
+      "correct_answer": "B",
+      "explanation": "Stability testing: Supports expiry dating and storage conditions."
+    }
+  ]
+}

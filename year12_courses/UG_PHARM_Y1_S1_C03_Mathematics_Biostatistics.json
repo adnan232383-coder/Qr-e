@@ -1,0 +1,1806 @@
+{
+  "course_name": "Mathematics / Biostatistics",
+  "course_code": "UG_PHARM_Y1_S1_C03",
+  "questions": [
+    {
+      "question": "Which statement best describes Mean?",
+      "option_a": "Average value of a dataset",
+      "option_b": "Type II error",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "A",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Mean is MOST associated with:",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "Standard deviation (SD)",
+      "option_c": "Middle value when data are ordered",
+      "option_d": "False positive (rejecting true null)",
+      "correct_answer": "A",
+      "explanation": "Mean: Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "Which statement best describes Median?",
+      "option_a": "Related to power; power = 1 - beta.",
+      "option_b": "Middle value when data are ordered",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "B",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Median is MOST associated with:",
+      "option_a": "Confidence interval (CI)",
+      "option_b": "Sensitivity",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "False positive (rejecting true null)",
+      "correct_answer": "C",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "Which statement best describes Standard deviation (SD)?",
+      "option_a": "Measure of variability around the mean",
+      "option_b": "Mean",
+      "option_c": "Specificity",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Standard deviation (SD) is MOST associated with:",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "True negative rate",
+      "option_c": "Sensitivity",
+      "option_d": "Larger SD indicates more spread.",
+      "correct_answer": "D",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "Which statement best describes Standard error (SE)?",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Average value of a dataset",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "B",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Standard error (SE) is MOST associated with:",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "P-value",
+      "option_c": "Specificity",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "A",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "Which statement best describes Confidence interval (CI)?",
+      "option_a": "Type II error",
+      "option_b": "Probability of observing data as extreme under the null hypothesis",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Confidence interval (CI) is MOST associated with:",
+      "option_a": "Sensitivity",
+      "option_b": "P-value",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Related to power; power = 1 - beta.",
+      "correct_answer": "C",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "Which statement best describes P-value?",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Specificity",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "SE = SD/√n; decreases as sample size increases.",
+      "correct_answer": "C",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, P-value is MOST associated with:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Mean",
+      "correct_answer": "A",
+      "explanation": "P-value: Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "Which statement best describes Type I error?",
+      "option_a": "False positive (rejecting true null)",
+      "option_b": "Narrow CI indicates higher precision.",
+      "option_c": "Average value of a dataset",
+      "option_d": "Middle value when data are ordered",
+      "correct_answer": "A",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Type I error is MOST associated with:",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Median",
+      "option_c": "Standard error (SE)",
+      "option_d": "Larger SD indicates more spread.",
+      "correct_answer": "A",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "Which statement best describes Type II error?",
+      "option_a": "Specificity",
+      "option_b": "False negative (failing to reject false null)",
+      "option_c": "Middle value when data are ordered",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "B",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Type II error is MOST associated with:",
+      "option_a": "True positive rate",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "B",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "Which statement best describes Sensitivity?",
+      "option_a": "True negative rate",
+      "option_b": "Standard error (SE)",
+      "option_c": "True positive rate",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "C",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Sensitivity is MOST associated with:",
+      "option_a": "Average value of a dataset",
+      "option_b": "Higher sensitivity reduces false negatives.",
+      "option_c": "Standard error (SE)",
+      "option_d": "Mean",
+      "correct_answer": "B",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "Which statement best describes Specificity?",
+      "option_a": "P-value",
+      "option_b": "Average value of a dataset",
+      "option_c": "True negative rate",
+      "option_d": "Related to power; power = 1 - beta.",
+      "correct_answer": "C",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "In Mathematics / Biostatistics, Specificity is MOST associated with:",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Standard error (SE)",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "Higher specificity reduces false positives.",
+      "correct_answer": "D",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 21) The best example of P-value is:",
+      "option_a": "Standard error (SE)",
+      "option_b": "Not the probability the null is true; does not measure effect size.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Related to power; power = 1 - beta.",
+      "correct_answer": "B",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 22) Which pairing is correct?",
+      "option_a": "Sensitivity — True negative rate",
+      "option_b": "Sensitivity — True positive rate",
+      "option_c": "Specificity — Range of plausible values for a parameter",
+      "option_d": "Type II error — Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 23) Which option is TRUE regarding Specificity?",
+      "option_a": "True negative rate",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Confidence interval (CI)",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 24) The best example of Sensitivity is:",
+      "option_a": "Higher sensitivity reduces false negatives.",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Median",
+      "option_d": "Not the probability the null is true; does not measure effect size.",
+      "correct_answer": "A",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 25) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Specificity",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 26) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "Alpha level controls Type I error.",
+      "option_d": "Median",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 27) Which option is TRUE regarding Median?",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Not the probability the null is true; does not measure effect size.",
+      "option_c": "Middle value when data are ordered",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "C",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 28) The best example of Median is:",
+      "option_a": "Confidence interval (CI)",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "True positive rate",
+      "correct_answer": "C",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 29) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Standard error (SE)",
+      "option_b": "Specificity",
+      "option_c": "Measure of variability around the mean",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 30) The best example of Sensitivity is:",
+      "option_a": "Median",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Higher sensitivity reduces false negatives.",
+      "option_d": "Narrow CI indicates higher precision.",
+      "correct_answer": "C",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 31) The best example of P-value is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Sensitive to outliers; compare with median.",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Median",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 32) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "P-value",
+      "option_d": "True negative rate",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 33) The best example of Sensitivity is:",
+      "option_a": "True positive rate",
+      "option_b": "Higher sensitivity reduces false negatives.",
+      "option_c": "Range of plausible values for a parameter",
+      "option_d": "True negative rate",
+      "correct_answer": "B",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 34) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "False negative (failing to reject false null)",
+      "option_b": "Type II error",
+      "option_c": "Measure of variability around the mean",
+      "option_d": "Not the probability the null is true; does not measure effect size.",
+      "correct_answer": "C",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 35) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Sensitivity",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "Measure of variability around the mean",
+      "option_d": "Confidence interval (CI)",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 36) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Specificity — Range of plausible values for a parameter",
+      "option_c": "Mean — True positive rate",
+      "option_d": "Specificity — True negative rate",
+      "correct_answer": "D",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 37) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "True positive rate",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 38) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Sensitivity",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "P-value",
+      "correct_answer": "A",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 39) Which option is TRUE regarding Sensitivity?",
+      "option_a": "Robust to outliers; useful for skewed distributions.",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "True positive rate",
+      "correct_answer": "D",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 40) Which option is TRUE regarding Sensitivity?",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "Sensitivity",
+      "option_c": "Variability of sample mean estimate",
+      "option_d": "True positive rate",
+      "correct_answer": "D",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 41) The best example of P-value is:",
+      "option_a": "Median",
+      "option_b": "Middle value when data are ordered",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Not the probability the null is true; does not measure effect size.",
+      "correct_answer": "D",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 42) Which pairing is correct?",
+      "option_a": "Type II error — False negative (failing to reject false null)",
+      "option_b": "Standard error (SE) — False negative (failing to reject false null)",
+      "option_c": "P-value — Range of plausible values for a parameter",
+      "option_d": "Standard error (SE) — False positive (rejecting true null)",
+      "correct_answer": "A",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 43) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "P-value",
+      "option_c": "True positive rate",
+      "option_d": "Type I error",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 44) Which pairing is correct?",
+      "option_a": "Specificity — True negative rate",
+      "option_b": "Median — Middle value when data are ordered",
+      "option_c": "Median — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Standard deviation (SD) — Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 45) Which pairing is correct?",
+      "option_a": "Standard error (SE) — Middle value when data are ordered",
+      "option_b": "Standard error (SE) — Probability of observing data as extreme under the null hypothesis",
+      "option_c": "Standard deviation (SD) — True negative rate",
+      "option_d": "Type II error — False negative (failing to reject false null)",
+      "correct_answer": "D",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 46) Which pairing is correct?",
+      "option_a": "Mean — True positive rate",
+      "option_b": "Standard deviation (SD) — True negative rate",
+      "option_c": "Sensitivity — True positive rate",
+      "option_d": "Median — Variability of sample mean estimate",
+      "correct_answer": "C",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 47) Which pairing is correct?",
+      "option_a": "Type II error — False positive (rejecting true null)",
+      "option_b": "Confidence interval (CI) — True positive rate",
+      "option_c": "Specificity — True negative rate",
+      "option_d": "P-value — Range of plausible values for a parameter",
+      "correct_answer": "C",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 48) Which pairing is correct?",
+      "option_a": "Mean — Middle value when data are ordered",
+      "option_b": "Sensitivity — Variability of sample mean estimate",
+      "option_c": "Median — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Specificity — True negative rate",
+      "correct_answer": "D",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 49) Which option is TRUE regarding Median?",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Middle value when data are ordered",
+      "option_d": "Larger SD indicates more spread.",
+      "correct_answer": "C",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 50) The best example of Standard error (SE) is:",
+      "option_a": "True negative rate",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Sensitivity",
+      "option_d": "SE = SD/√n; decreases as sample size increases.",
+      "correct_answer": "D",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 51) Which option is TRUE regarding Mean?",
+      "option_a": "Higher specificity reduces false positives.",
+      "option_b": "Not the probability the null is true; does not measure effect size.",
+      "option_c": "Average value of a dataset",
+      "option_d": "Mean",
+      "correct_answer": "C",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 52) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_b": "P-value — Average value of a dataset",
+      "option_c": "Standard deviation (SD) — Middle value when data are ordered",
+      "option_d": "Standard deviation (SD) — Middle value when data are ordered",
+      "correct_answer": "A",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 53) Which option is TRUE regarding Median?",
+      "option_a": "False negative (failing to reject false null)",
+      "option_b": "Middle value when data are ordered",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "Alpha level controls Type I error.",
+      "correct_answer": "B",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 54) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Type I error",
+      "option_c": "Higher sensitivity reduces false negatives.",
+      "option_d": "False positive (rejecting true null)",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 55) Which option is TRUE regarding Sensitivity?",
+      "option_a": "Median",
+      "option_b": "Confidence interval (CI)",
+      "option_c": "True negative rate",
+      "option_d": "True positive rate",
+      "correct_answer": "D",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 56) The best example of Type II error is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "True positive rate",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 57) The best example of Type II error is:",
+      "option_a": "Related to power; power = 1 - beta.",
+      "option_b": "Average value of a dataset",
+      "option_c": "True positive rate",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "A",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 58) Which pairing is correct?",
+      "option_a": "Type II error — Range of plausible values for a parameter",
+      "option_b": "Type II error — True negative rate",
+      "option_c": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_d": "Standard deviation (SD) — Variability of sample mean estimate",
+      "correct_answer": "C",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 59) Which option is TRUE regarding Specificity?",
+      "option_a": "True negative rate",
+      "option_b": "Standard deviation (SD)",
+      "option_c": "Standard error (SE)",
+      "option_d": "Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "A",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 60) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "Mean",
+      "option_c": "Standard error (SE)",
+      "option_d": "Sensitivity",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 61) The best example of P-value is:",
+      "option_a": "Standard deviation (SD)",
+      "option_b": "Type I error",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Not the probability the null is true; does not measure effect size.",
+      "correct_answer": "D",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 62) Which option is TRUE regarding P-value?",
+      "option_a": "Specificity",
+      "option_b": "Measure of variability around the mean",
+      "option_c": "Mean",
+      "option_d": "Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "D",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 63) Which option is TRUE regarding P-value?",
+      "option_a": "Probability of observing data as extreme under the null hypothesis",
+      "option_b": "True negative rate",
+      "option_c": "True positive rate",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 64) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Mean",
+      "option_c": "Range of plausible values for a parameter",
+      "option_d": "Middle value when data are ordered",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 65) The best example of P-value is:",
+      "option_a": "Measure of variability around the mean",
+      "option_b": "Standard error (SE)",
+      "option_c": "Not the probability the null is true; does not measure effect size.",
+      "option_d": "Type II error",
+      "correct_answer": "C",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 66) Which pairing is correct?",
+      "option_a": "Type II error — True positive rate",
+      "option_b": "Mean — True positive rate",
+      "option_c": "Median — Middle value when data are ordered",
+      "option_d": "Type I error — Range of plausible values for a parameter",
+      "correct_answer": "C",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 67) Which option is TRUE regarding Type II error?",
+      "option_a": "False negative (failing to reject false null)",
+      "option_b": "Type I error",
+      "option_c": "Median",
+      "option_d": "Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "A",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 68) Which option is TRUE regarding Specificity?",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "Average value of a dataset",
+      "option_c": "True negative rate",
+      "option_d": "False negative (failing to reject false null)",
+      "correct_answer": "C",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 69) Which pairing is correct?",
+      "option_a": "Sensitivity — Middle value when data are ordered",
+      "option_b": "Specificity — True negative rate",
+      "option_c": "Standard error (SE) — False positive (rejecting true null)",
+      "option_d": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 70) Which option is TRUE regarding Specificity?",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "Probability of observing data as extreme under the null hypothesis",
+      "option_c": "Median",
+      "option_d": "True negative rate",
+      "correct_answer": "D",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 71) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_b": "Specificity — True negative rate",
+      "option_c": "P-value — True positive rate",
+      "option_d": "Type II error — False positive (rejecting true null)",
+      "correct_answer": "A",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 72) Which option is TRUE regarding Specificity?",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "True negative rate",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "Higher specificity reduces false positives.",
+      "correct_answer": "B",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 73) Which option is TRUE regarding Type II error?",
+      "option_a": "Median",
+      "option_b": "True negative rate",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Not the probability the null is true; does not measure effect size.",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 74) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "B",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 75) Which option is TRUE regarding Specificity?",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Average value of a dataset",
+      "option_c": "True negative rate",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "C",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 76) The best example of P-value is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Narrow CI indicates higher precision.",
+      "option_c": "Standard deviation (SD)",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 77) The best example of Standard error (SE) is:",
+      "option_a": "Standard deviation (SD)",
+      "option_b": "Mean",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "SE = SD/√n; decreases as sample size increases.",
+      "correct_answer": "D",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 78) Which pairing is correct?",
+      "option_a": "Type I error — False positive (rejecting true null)",
+      "option_b": "Standard error (SE) — Measure of variability around the mean",
+      "option_c": "Standard error (SE) — True positive rate",
+      "option_d": "Confidence interval (CI) — Measure of variability around the mean",
+      "correct_answer": "A",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 79) The best example of Type I error is:",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "Alpha level controls Type I error.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Specificity",
+      "correct_answer": "B",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 80) Which pairing is correct?",
+      "option_a": "Type II error — False negative (failing to reject false null)",
+      "option_b": "Median — Probability of observing data as extreme under the null hypothesis",
+      "option_c": "Sensitivity — False positive (rejecting true null)",
+      "option_d": "Mean — False negative (failing to reject false null)",
+      "correct_answer": "A",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 81) Which option is TRUE regarding Sensitivity?",
+      "option_a": "True positive rate",
+      "option_b": "Measure of variability around the mean",
+      "option_c": "Average value of a dataset",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "A",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 82) Which option is TRUE regarding P-value?",
+      "option_a": "Measure of variability around the mean",
+      "option_b": "Probability of observing data as extreme under the null hypothesis",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "Mean",
+      "correct_answer": "B",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 83) Which pairing is correct?",
+      "option_a": "P-value — True negative rate",
+      "option_b": "Specificity — True negative rate",
+      "option_c": "Standard deviation (SD) — False positive (rejecting true null)",
+      "option_d": "Sensitivity — Middle value when data are ordered",
+      "correct_answer": "B",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 84) Which pairing is correct?",
+      "option_a": "Sensitivity — False positive (rejecting true null)",
+      "option_b": "Type I error — False positive (rejecting true null)",
+      "option_c": "Confidence interval (CI) — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Standard deviation (SD) — Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 85) The best example of Type I error is:",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Type I error",
+      "option_c": "Variability of sample mean estimate",
+      "option_d": "Larger SD indicates more spread.",
+      "correct_answer": "A",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 86) Which pairing is correct?",
+      "option_a": "Mean — False positive (rejecting true null)",
+      "option_b": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_c": "Standard error (SE) — False positive (rejecting true null)",
+      "option_d": "Standard error (SE) — True positive rate",
+      "correct_answer": "B",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 87) The best example of Type II error is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "B",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 88) Which option is TRUE regarding P-value?",
+      "option_a": "Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Larger SD indicates more spread.",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Middle value when data are ordered",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 89) Which pairing is correct?",
+      "option_a": "Specificity — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Mean — Average value of a dataset",
+      "option_c": "Mean — Middle value when data are ordered",
+      "option_d": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 90) Which option is TRUE regarding Median?",
+      "option_a": "Confidence interval (CI)",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Middle value when data are ordered",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "C",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 91) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "P-value",
+      "option_c": "Alpha level controls Type I error.",
+      "option_d": "Type II error",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 92) Which pairing is correct?",
+      "option_a": "Standard error (SE) — False positive (rejecting true null)",
+      "option_b": "Mean — Average value of a dataset",
+      "option_c": "Type I error — Measure of variability around the mean",
+      "option_d": "Sensitivity — False negative (failing to reject false null)",
+      "correct_answer": "B",
+      "explanation": "Mean: Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 93) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "Sensitivity",
+      "option_b": "Average value of a dataset",
+      "option_c": "Variability of sample mean estimate",
+      "option_d": "Measure of variability around the mean",
+      "correct_answer": "D",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 94) Which pairing is correct?",
+      "option_a": "Type II error — Range of plausible values for a parameter",
+      "option_b": "Median — Range of plausible values for a parameter",
+      "option_c": "Sensitivity — Variability of sample mean estimate",
+      "option_d": "Sensitivity — True positive rate",
+      "correct_answer": "D",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 95) The best example of Type I error is:",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Confidence interval (CI)",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Mean",
+      "correct_answer": "A",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 96) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_b": "P-value — Average value of a dataset",
+      "option_c": "Standard deviation (SD) — True negative rate",
+      "option_d": "Type II error — Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "A",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 97) Which pairing is correct?",
+      "option_a": "Type I error — Middle value when data are ordered",
+      "option_b": "P-value — Range of plausible values for a parameter",
+      "option_c": "Type I error — False negative (failing to reject false null)",
+      "option_d": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 98) The best example of P-value is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Type II error",
+      "option_d": "Measure of variability around the mean",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 99) The best example of Type II error is:",
+      "option_a": "Standard error (SE)",
+      "option_b": "Mean",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Robust to outliers; useful for skewed distributions.",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 100) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — True negative rate",
+      "option_b": "Type I error — False negative (failing to reject false null)",
+      "option_c": "Type I error — Middle value when data are ordered",
+      "option_d": "Type II error — False negative (failing to reject false null)",
+      "correct_answer": "D",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 101) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "Measure of variability around the mean",
+      "option_b": "Type II error",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 102) Which option is TRUE regarding Type II error?",
+      "option_a": "Average value of a dataset",
+      "option_b": "Sensitive to outliers; compare with median.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Median",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 103) Which pairing is correct?",
+      "option_a": "Specificity — True positive rate",
+      "option_b": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_c": "Specificity — False positive (rejecting true null)",
+      "option_d": "Mean — True positive rate",
+      "correct_answer": "B",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 104) The best example of Median is:",
+      "option_a": "Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Robust to outliers; useful for skewed distributions.",
+      "option_c": "Mean",
+      "option_d": "Median",
+      "correct_answer": "B",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 105) Which option is TRUE regarding Confidence interval (CI)?",
+      "option_a": "Variability of sample mean estimate",
+      "option_b": "Higher specificity reduces false positives.",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 106) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Middle value when data are ordered",
+      "option_c": "Measure of variability around the mean",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "C",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 107) Which pairing is correct?",
+      "option_a": "P-value — False positive (rejecting true null)",
+      "option_b": "Specificity — True negative rate",
+      "option_c": "Type I error — Measure of variability around the mean",
+      "option_d": "Type II error — False negative (failing to reject false null)",
+      "correct_answer": "D",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 108) The best example of Standard deviation (SD) is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Confidence interval (CI)",
+      "option_c": "Larger SD indicates more spread.",
+      "option_d": "Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "C",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 109) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Sensitivity — True positive rate",
+      "option_c": "Mean — True positive rate",
+      "option_d": "Mean — False positive (rejecting true null)",
+      "correct_answer": "B",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 110) Which option is TRUE regarding Mean?",
+      "option_a": "Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Larger SD indicates more spread.",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "D",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 111) The best example of Type II error is:",
+      "option_a": "Specificity",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Sensitivity",
+      "option_d": "Related to power; power = 1 - beta.",
+      "correct_answer": "D",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 112) The best example of Median is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Robust to outliers; useful for skewed distributions.",
+      "option_c": "False positive (rejecting true null)",
+      "option_d": "Middle value when data are ordered",
+      "correct_answer": "B",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 113) Which pairing is correct?",
+      "option_a": "Sensitivity — True positive rate",
+      "option_b": "Confidence interval (CI) — False negative (failing to reject false null)",
+      "option_c": "Mean — False positive (rejecting true null)",
+      "option_d": "Specificity — Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 114) Which option is TRUE regarding Median?",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "Type I error",
+      "option_c": "P-value",
+      "option_d": "Mean",
+      "correct_answer": "A",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 115) The best example of Sensitivity is:",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "Higher sensitivity reduces false negatives.",
+      "option_c": "Confidence interval (CI)",
+      "option_d": "True positive rate",
+      "correct_answer": "B",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 116) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — Measure of variability around the mean",
+      "option_b": "Confidence interval (CI) — Middle value when data are ordered",
+      "option_c": "Confidence interval (CI) — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "correct_answer": "D",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 117) Which pairing is correct?",
+      "option_a": "Sensitivity — True negative rate",
+      "option_b": "Median — Middle value when data are ordered",
+      "option_c": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_d": "Confidence interval (CI) — False positive (rejecting true null)",
+      "correct_answer": "C",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 118) Which pairing is correct?",
+      "option_a": "Standard error (SE) — Average value of a dataset",
+      "option_b": "Confidence interval (CI) — Measure of variability around the mean",
+      "option_c": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_d": "Type II error — Average value of a dataset",
+      "correct_answer": "C",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 119) Which option is TRUE regarding Specificity?",
+      "option_a": "Specificity",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "True negative rate",
+      "correct_answer": "D",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 120) Which pairing is correct?",
+      "option_a": "P-value — True negative rate",
+      "option_b": "Confidence interval (CI) — Measure of variability around the mean",
+      "option_c": "Standard error (SE) — Variability of sample mean estimate",
+      "option_d": "Confidence interval (CI) — False positive (rejecting true null)",
+      "correct_answer": "C",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 121) The best example of Median is:",
+      "option_a": "Robust to outliers; useful for skewed distributions.",
+      "option_b": "Median",
+      "option_c": "Variability of sample mean estimate",
+      "option_d": "Standard error (SE)",
+      "correct_answer": "A",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 122) The best example of Confidence interval (CI) is:",
+      "option_a": "Standard deviation (SD)",
+      "option_b": "False positive (rejecting true null)",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 123) The best example of Confidence interval (CI) is:",
+      "option_a": "Higher specificity reduces false positives.",
+      "option_b": "Narrow CI indicates higher precision.",
+      "option_c": "True negative rate",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 124) Which pairing is correct?",
+      "option_a": "Sensitivity — False negative (failing to reject false null)",
+      "option_b": "Type I error — False positive (rejecting true null)",
+      "option_c": "Standard deviation (SD) — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Specificity — Average value of a dataset",
+      "correct_answer": "B",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 125) Which pairing is correct?",
+      "option_a": "Standard error (SE) — Variability of sample mean estimate",
+      "option_b": "Sensitivity — True negative rate",
+      "option_c": "Sensitivity — True negative rate",
+      "option_d": "Standard error (SE) — Variability of sample mean estimate",
+      "correct_answer": "A",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 126) Which option is TRUE regarding Median?",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Standard error (SE)",
+      "option_d": "Alpha level controls Type I error.",
+      "correct_answer": "A",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 127) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Higher sensitivity reduces false negatives.",
+      "option_d": "False positive (rejecting true null)",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 128) The best example of Specificity is:",
+      "option_a": "Higher sensitivity reduces false negatives.",
+      "option_b": "Sensitivity",
+      "option_c": "Mean",
+      "option_d": "Higher specificity reduces false positives.",
+      "correct_answer": "D",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 129) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — Range of plausible values for a parameter",
+      "option_b": "Standard error (SE) — Variability of sample mean estimate",
+      "option_c": "Sensitivity — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Standard error (SE) — False positive (rejecting true null)",
+      "correct_answer": "B",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 130) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — Average value of a dataset",
+      "option_b": "Sensitivity — True negative rate",
+      "option_c": "Standard error (SE) — Variability of sample mean estimate",
+      "option_d": "Standard error (SE) — Variability of sample mean estimate",
+      "correct_answer": "C",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 131) The best example of Specificity is:",
+      "option_a": "False negative (failing to reject false null)",
+      "option_b": "True negative rate",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "C",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 132) Which pairing is correct?",
+      "option_a": "P-value — False negative (failing to reject false null)",
+      "option_b": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_c": "Specificity — Middle value when data are ordered",
+      "option_d": "Type I error — Range of plausible values for a parameter",
+      "correct_answer": "B",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 133) The best example of P-value is:",
+      "option_a": "Type I error",
+      "option_b": "Not the probability the null is true; does not measure effect size.",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Higher specificity reduces false positives.",
+      "correct_answer": "B",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 134) Which pairing is correct?",
+      "option_a": "Standard error (SE) — Variability of sample mean estimate",
+      "option_b": "Specificity — Average value of a dataset",
+      "option_c": "Type I error — Range of plausible values for a parameter",
+      "option_d": "P-value — Range of plausible values for a parameter",
+      "correct_answer": "A",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 135) Which pairing is correct?",
+      "option_a": "Sensitivity — False positive (rejecting true null)",
+      "option_b": "Median — Middle value when data are ordered",
+      "option_c": "Type II error — Middle value when data are ordered",
+      "option_d": "Standard deviation (SD) — Range of plausible values for a parameter",
+      "correct_answer": "B",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 136) The best example of Mean is:",
+      "option_a": "Robust to outliers; useful for skewed distributions.",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Sensitive to outliers; compare with median.",
+      "option_d": "True negative rate",
+      "correct_answer": "C",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 137) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "True negative rate",
+      "option_c": "Variability of sample mean estimate",
+      "option_d": "Type I error",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 138) Which pairing is correct?",
+      "option_a": "Type I error — False positive (rejecting true null)",
+      "option_b": "Type I error — Measure of variability around the mean",
+      "option_c": "Median — Measure of variability around the mean",
+      "option_d": "Sensitivity — Measure of variability around the mean",
+      "correct_answer": "A",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 139) The best example of Sensitivity is:",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "Alpha level controls Type I error.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "D",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 140) Which pairing is correct?",
+      "option_a": "Type II error — False negative (failing to reject false null)",
+      "option_b": "Median — Middle value when data are ordered",
+      "option_c": "Median — Measure of variability around the mean",
+      "option_d": "Standard deviation (SD) — Middle value when data are ordered",
+      "correct_answer": "B",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 141) The best example of Type II error is:",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Higher specificity reduces false positives.",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 142) The best example of Confidence interval (CI) is:",
+      "option_a": "Average value of a dataset",
+      "option_b": "Higher sensitivity reduces false negatives.",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Specificity",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 143) The best example of Median is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Robust to outliers; useful for skewed distributions.",
+      "option_c": "True negative rate",
+      "option_d": "Specificity",
+      "correct_answer": "B",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 144) The best example of Mean is:",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "Alpha level controls Type I error.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Median",
+      "correct_answer": "A",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 145) The best example of Mean is:",
+      "option_a": "Higher specificity reduces false positives.",
+      "option_b": "Average value of a dataset",
+      "option_c": "Sensitive to outliers; compare with median.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "C",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 146) The best example of Standard deviation (SD) is:",
+      "option_a": "Standard error (SE)",
+      "option_b": "Measure of variability around the mean",
+      "option_c": "Larger SD indicates more spread.",
+      "option_d": "Type I error",
+      "correct_answer": "C",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 147) Which option is TRUE regarding Mean?",
+      "option_a": "Narrow CI indicates higher precision.",
+      "option_b": "Standard error (SE)",
+      "option_c": "Range of plausible values for a parameter",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "D",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 148) Which pairing is correct?",
+      "option_a": "Type II error — Measure of variability around the mean",
+      "option_b": "P-value — False negative (failing to reject false null)",
+      "option_c": "P-value — False positive (rejecting true null)",
+      "option_d": "Type I error — False positive (rejecting true null)",
+      "correct_answer": "D",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 149) Which pairing is correct?",
+      "option_a": "Type II error — Average value of a dataset",
+      "option_b": "Median — Range of plausible values for a parameter",
+      "option_c": "Type II error — Measure of variability around the mean",
+      "option_d": "Standard deviation (SD) — Measure of variability around the mean",
+      "correct_answer": "D",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 150) The best example of Standard deviation (SD) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Average value of a dataset",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "True negative rate",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 151) The best example of Type I error is:",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "Alpha level controls Type I error.",
+      "option_c": "Higher sensitivity reduces false negatives.",
+      "option_d": "Larger SD indicates more spread.",
+      "correct_answer": "B",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 152) Which pairing is correct?",
+      "option_a": "P-value — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Type II error — False negative (failing to reject false null)",
+      "option_c": "Specificity — Middle value when data are ordered",
+      "option_d": "Standard error (SE) — Middle value when data are ordered",
+      "correct_answer": "A",
+      "explanation": "P-value: Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 153) Which pairing is correct?",
+      "option_a": "Type I error — True negative rate",
+      "option_b": "Specificity — True negative rate",
+      "option_c": "Type II error — True positive rate",
+      "option_d": "Sensitivity — Average value of a dataset",
+      "correct_answer": "B",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 154) Which pairing is correct?",
+      "option_a": "Mean — Average value of a dataset",
+      "option_b": "P-value — True positive rate",
+      "option_c": "Confidence interval (CI) — Middle value when data are ordered",
+      "option_d": "Specificity — Range of plausible values for a parameter",
+      "correct_answer": "A",
+      "explanation": "Mean: Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 155) The best example of Standard error (SE) is:",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "Mean",
+      "option_c": "Type II error",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 156) The best example of Confidence interval (CI) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Narrow CI indicates higher precision.",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "B",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 157) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — False positive (rejecting true null)",
+      "option_b": "Specificity — Measure of variability around the mean",
+      "option_c": "Standard error (SE) — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Median — Middle value when data are ordered",
+      "correct_answer": "D",
+      "explanation": "Median: Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 158) Which option is TRUE regarding Mean?",
+      "option_a": "Standard error (SE)",
+      "option_b": "False positive (rejecting true null)",
+      "option_c": "Average value of a dataset",
+      "option_d": "Mean",
+      "correct_answer": "C",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 159) The best example of Type I error is:",
+      "option_a": "Sensitive to outliers; compare with median.",
+      "option_b": "Standard error (SE)",
+      "option_c": "Alpha level controls Type I error.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "C",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 160) Which pairing is correct?",
+      "option_a": "Sensitivity — True positive rate",
+      "option_b": "Type II error — Middle value when data are ordered",
+      "option_c": "Type II error — Probability of observing data as extreme under the null hypothesis",
+      "option_d": "P-value — True positive rate",
+      "correct_answer": "A",
+      "explanation": "Sensitivity: Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 161) Which option is TRUE regarding Type II error?",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "True positive rate",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Type II error",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 162) Which option is TRUE regarding Specificity?",
+      "option_a": "Specificity",
+      "option_b": "True negative rate",
+      "option_c": "Type I error",
+      "option_d": "Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 163) The best example of Type I error is:",
+      "option_a": "True positive rate",
+      "option_b": "Measure of variability around the mean",
+      "option_c": "Related to power; power = 1 - beta.",
+      "option_d": "Alpha level controls Type I error.",
+      "correct_answer": "D",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 164) Which pairing is correct?",
+      "option_a": "Confidence interval (CI) — Average value of a dataset",
+      "option_b": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_c": "Sensitivity — Range of plausible values for a parameter",
+      "option_d": "Type II error — Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 165) Which pairing is correct?",
+      "option_a": "Median — Average value of a dataset",
+      "option_b": "Median — True negative rate",
+      "option_c": "Mean — Average value of a dataset",
+      "option_d": "Sensitivity — Range of plausible values for a parameter",
+      "correct_answer": "C",
+      "explanation": "Mean: Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 166) The best example of Confidence interval (CI) is:",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Average value of a dataset",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Mean",
+      "correct_answer": "C",
+      "explanation": "Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 167) Which option is TRUE regarding Sensitivity?",
+      "option_a": "Middle value when data are ordered",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Not the probability the null is true; does not measure effect size.",
+      "option_d": "True positive rate",
+      "correct_answer": "D",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 168) The best example of Specificity is:",
+      "option_a": "Higher specificity reduces false positives.",
+      "option_b": "Range of plausible values for a parameter",
+      "option_c": "SE = SD/√n; decreases as sample size increases.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 169) Which pairing is correct?",
+      "option_a": "Sensitivity — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Standard error (SE) — True positive rate",
+      "option_c": "Median — Range of plausible values for a parameter",
+      "option_d": "Specificity — True negative rate",
+      "correct_answer": "D",
+      "explanation": "Specificity: Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 170) The best example of P-value is:",
+      "option_a": "Not the probability the null is true; does not measure effect size.",
+      "option_b": "Higher sensitivity reduces false negatives.",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "P-value",
+      "correct_answer": "A",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 171) Which pairing is correct?",
+      "option_a": "Type I error — Measure of variability around the mean",
+      "option_b": "Median — False positive (rejecting true null)",
+      "option_c": "Standard error (SE) — Variability of sample mean estimate",
+      "option_d": "Type I error — Variability of sample mean estimate",
+      "correct_answer": "C",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 172) Which pairing is correct?",
+      "option_a": "P-value — Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Median — Average value of a dataset",
+      "option_c": "Confidence interval (CI) — Measure of variability around the mean",
+      "option_d": "Confidence interval (CI) — True positive rate",
+      "correct_answer": "A",
+      "explanation": "P-value: Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 173) Which option is TRUE regarding Type II error?",
+      "option_a": "Confidence interval (CI)",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Middle value when data are ordered",
+      "correct_answer": "C",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 174) The best example of Standard error (SE) is:",
+      "option_a": "SE = SD/√n; decreases as sample size increases.",
+      "option_b": "True negative rate",
+      "option_c": "Type I error",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "A",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 175) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "Measure of variability around the mean",
+      "option_b": "Higher specificity reduces false positives.",
+      "option_c": "False negative (failing to reject false null)",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 176) Which pairing is correct?",
+      "option_a": "Sensitivity — True positive rate",
+      "option_b": "Mean — Average value of a dataset",
+      "option_c": "Sensitivity — Average value of a dataset",
+      "option_d": "Type II error — Middle value when data are ordered",
+      "correct_answer": "B",
+      "explanation": "Mean: Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 177) Which pairing is correct?",
+      "option_a": "Type II error — False negative (failing to reject false null)",
+      "option_b": "Type I error — True negative rate",
+      "option_c": "Type I error — False positive (rejecting true null)",
+      "option_d": "Median — True positive rate",
+      "correct_answer": "C",
+      "explanation": "Type I error: Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 178) Which pairing is correct?",
+      "option_a": "Specificity — Variability of sample mean estimate",
+      "option_b": "P-value — True negative rate",
+      "option_c": "Sensitivity — Range of plausible values for a parameter",
+      "option_d": "Standard error (SE) — Variability of sample mean estimate",
+      "correct_answer": "D",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 179) Which pairing is correct?",
+      "option_a": "Type II error — Range of plausible values for a parameter",
+      "option_b": "Confidence interval (CI) — Range of plausible values for a parameter",
+      "option_c": "Type I error — Variability of sample mean estimate",
+      "option_d": "Standard error (SE) — Middle value when data are ordered",
+      "correct_answer": "B",
+      "explanation": "Confidence interval (CI): Narrow CI indicates higher precision."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 180) The best example of Type I error is:",
+      "option_a": "False positive (rejecting true null)",
+      "option_b": "Alpha level controls Type I error.",
+      "option_c": "Specificity",
+      "option_d": "Standard deviation (SD)",
+      "correct_answer": "B",
+      "explanation": "Alpha level controls Type I error."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 181) Which option is TRUE regarding Standard error (SE)?",
+      "option_a": "False positive (rejecting true null)",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Type I error",
+      "option_d": "Variability of sample mean estimate",
+      "correct_answer": "D",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 182) Which option is TRUE regarding Standard deviation (SD)?",
+      "option_a": "Average value of a dataset",
+      "option_b": "Measure of variability around the mean",
+      "option_c": "P-value",
+      "option_d": "Specificity",
+      "correct_answer": "B",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 183) The best example of Standard deviation (SD) is:",
+      "option_a": "Probability of observing data as extreme under the null hypothesis",
+      "option_b": "Higher specificity reduces false positives.",
+      "option_c": "Larger SD indicates more spread.",
+      "option_d": "Range of plausible values for a parameter",
+      "correct_answer": "C",
+      "explanation": "Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 184) The best example of Mean is:",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "Type II error",
+      "option_c": "True negative rate",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "D",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 185) Which pairing is correct?",
+      "option_a": "Median — Middle value when data are ordered",
+      "option_b": "Mean — Average value of a dataset",
+      "option_c": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_d": "Median — Measure of variability around the mean",
+      "correct_answer": "C",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 186) The best example of Mean is:",
+      "option_a": "Range of plausible values for a parameter",
+      "option_b": "True negative rate",
+      "option_c": "Not the probability the null is true; does not measure effect size.",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "D",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 187) The best example of Specificity is:",
+      "option_a": "True positive rate",
+      "option_b": "Standard deviation (SD)",
+      "option_c": "Higher specificity reduces false positives.",
+      "option_d": "Average value of a dataset",
+      "correct_answer": "C",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 188) Which pairing is correct?",
+      "option_a": "Standard error (SE) — True negative rate",
+      "option_b": "Confidence interval (CI) — True positive rate",
+      "option_c": "Standard error (SE) — Variability of sample mean estimate",
+      "option_d": "Confidence interval (CI) — Probability of observing data as extreme under the null hypothesis",
+      "correct_answer": "C",
+      "explanation": "Standard error (SE): SE = SD/√n; decreases as sample size increases."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 189) Which option is TRUE regarding Type II error?",
+      "option_a": "Sensitivity",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Sensitive to outliers; compare with median.",
+      "option_d": "False negative (failing to reject false null)",
+      "correct_answer": "D",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 190) The best example of Sensitivity is:",
+      "option_a": "Specificity",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Higher sensitivity reduces false negatives.",
+      "option_d": "Sensitive to outliers; compare with median.",
+      "correct_answer": "C",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 191) Which pairing is correct?",
+      "option_a": "Type II error — False negative (failing to reject false null)",
+      "option_b": "Sensitivity — False negative (failing to reject false null)",
+      "option_c": "Median — True positive rate",
+      "option_d": "Standard error (SE) — Average value of a dataset",
+      "correct_answer": "A",
+      "explanation": "Type II error: Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 192) Which option is TRUE regarding Specificity?",
+      "option_a": "True negative rate",
+      "option_b": "Variability of sample mean estimate",
+      "option_c": "Probability of observing data as extreme under the null hypothesis",
+      "option_d": "Alpha level controls Type I error.",
+      "correct_answer": "A",
+      "explanation": "Higher specificity reduces false positives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 193) Which option is TRUE regarding Sensitivity?",
+      "option_a": "True positive rate",
+      "option_b": "Higher specificity reduces false positives.",
+      "option_c": "False positive (rejecting true null)",
+      "option_d": "SE = SD/√n; decreases as sample size increases.",
+      "correct_answer": "A",
+      "explanation": "Higher sensitivity reduces false negatives."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 194) The best example of Median is:",
+      "option_a": "Alpha level controls Type I error.",
+      "option_b": "Mean",
+      "option_c": "Robust to outliers; useful for skewed distributions.",
+      "option_d": "True negative rate",
+      "correct_answer": "C",
+      "explanation": "Robust to outliers; useful for skewed distributions."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 195) The best example of Mean is:",
+      "option_a": "True negative rate",
+      "option_b": "Sensitive to outliers; compare with median.",
+      "option_c": "Mean",
+      "option_d": "Alpha level controls Type I error.",
+      "correct_answer": "B",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 196) Which pairing is correct?",
+      "option_a": "Standard deviation (SD) — Measure of variability around the mean",
+      "option_b": "Sensitivity — Range of plausible values for a parameter",
+      "option_c": "Standard error (SE) — Variability of sample mean estimate",
+      "option_d": "Mean — True negative rate",
+      "correct_answer": "A",
+      "explanation": "Standard deviation (SD): Larger SD indicates more spread."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 197) The best example of Mean is:",
+      "option_a": "Confidence interval (CI)",
+      "option_b": "Middle value when data are ordered",
+      "option_c": "Sensitive to outliers; compare with median.",
+      "option_d": "Higher sensitivity reduces false negatives.",
+      "correct_answer": "C",
+      "explanation": "Sensitive to outliers; compare with median."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 198) The best example of P-value is:",
+      "option_a": "Robust to outliers; useful for skewed distributions.",
+      "option_b": "Confidence interval (CI)",
+      "option_c": "Not the probability the null is true; does not measure effect size.",
+      "option_d": "False positive (rejecting true null)",
+      "correct_answer": "C",
+      "explanation": "Not the probability the null is true; does not measure effect size."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 199) The best example of Type II error is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "Related to power; power = 1 - beta.",
+      "option_c": "Narrow CI indicates higher precision.",
+      "option_d": "Variability of sample mean estimate",
+      "correct_answer": "B",
+      "explanation": "Related to power; power = 1 - beta."
+    },
+    {
+      "question": "(Mathematics / Biostatistics Item 200) The best example of Standard error (SE) is:",
+      "option_a": "Larger SD indicates more spread.",
+      "option_b": "SE = SD/√n; decreases as sample size increases.",
+      "option_c": "Specificity",
+      "option_d": "True positive rate",
+      "correct_answer": "B",
+      "explanation": "SE = SD/√n; decreases as sample size increases."
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+  "course_name": "Organic Chemistry I",
+  "course_code": "UG_PHARM_Y1_S2_C06",
+  "questions": [
+    {
+      "question": "Which statement best describes Functional group: alcohol?",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Acid-base (Brønsted)",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "D",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "In Organic Chemistry I, Functional group: alcohol is MOST associated with:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Affects polarity and hydrogen bonding.",
+      "correct_answer": "D",
+      "explanation": "Functional group: alcohol: Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "Which statement best describes Functional group: carboxylic acid?",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Contains -COOH group",
+      "option_c": "Functional group: carboxylic acid",
+      "option_d": "Rate depends on substrate; racemization possible.",
+      "correct_answer": "B",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "In Organic Chemistry I, Functional group: carboxylic acid is MOST associated with:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Electron-rich species that donates electron pair",
+      "correct_answer": "A",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "Which statement best describes Nucleophile?",
+      "option_a": "Rate depends on substrate; racemization possible.",
+      "option_b": "E1 reaction",
+      "option_c": "Contains -COOH group",
+      "option_d": "Electron-rich species that donates electron pair",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "In Organic Chemistry I, Nucleophile is MOST associated with:",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "C",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "Which statement best describes Electrophile?",
+      "option_a": "Electron-poor species that accepts electron pair",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Isomerism",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "In Organic Chemistry I, Electrophile is MOST associated with:",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "One-step elimination with strong base",
+      "option_d": "Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "Which statement best describes SN1 reaction?",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "E2 reaction",
+      "option_d": "Often acidic; forms salts; participates in ester formation.",
+      "correct_answer": "B",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "In Organic Chemistry I, SN1 reaction is MOST associated with:",
+      "option_a": "Nucleophile",
+      "option_b": "Rate depends on substrate; racemization possible.",
+      "option_c": "Substitution via carbocation intermediate",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "B",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "Which statement best describes SN2 reaction?",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "In Organic Chemistry I, SN2 reaction is MOST associated with:",
+      "option_a": "SN2 reaction",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "D",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "Which statement best describes E1 reaction?",
+      "option_a": "Nucleophile",
+      "option_b": "Functional group: alcohol",
+      "option_c": "E2 reaction",
+      "option_d": "Elimination via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "In Organic Chemistry I, E1 reaction is MOST associated with:",
+      "option_a": "Electrophile",
+      "option_b": "Functional group: alcohol",
+      "option_c": "Often competes with SN1; forms alkene.",
+      "option_d": "SN1 reaction",
+      "correct_answer": "C",
+      "explanation": "E1 reaction: Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "Which statement best describes E2 reaction?",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "B",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "In Organic Chemistry I, E2 reaction is MOST associated with:",
+      "option_a": "Requires antiperiplanar geometry; forms alkene.",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "One-step elimination with strong base",
+      "option_d": "Electrophile",
+      "correct_answer": "A",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "Which statement best describes Isomerism?",
+      "option_a": "Nucleophile",
+      "option_b": "SN1 reaction",
+      "option_c": "Compounds with same formula but different structure",
+      "option_d": "One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "In Organic Chemistry I, Isomerism is MOST associated with:",
+      "option_a": "Requires antiperiplanar geometry; forms alkene.",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Functional group: alcohol",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "B",
+      "explanation": "Isomerism: Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "Which statement best describes Acid-base (Brønsted)?",
+      "option_a": "Compounds with same formula but different structure",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "Acid donates proton; base accepts proton",
+      "option_d": "Isomerism",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "In Organic Chemistry I, Acid-base (Brønsted) is MOST associated with:",
+      "option_a": "Rate depends on substrate; racemization possible.",
+      "option_b": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_c": "Functional group: alcohol",
+      "option_d": "Target of nucleophilic attack.",
+      "correct_answer": "B",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 21) Which pairing is correct?",
+      "option_a": "E1 reaction — Electron-rich species that donates electron pair",
+      "option_b": "E1 reaction — One-step substitution with backside attack",
+      "option_c": "E2 reaction — Compounds with same formula but different structure",
+      "option_d": "SN2 reaction — One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 22) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Contains -COOH group",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "Electron-rich species that donates electron pair",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 23) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Acid donates proton; base accepts proton",
+      "option_b": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_c": "E1 reaction — Compounds with same formula but different structure",
+      "option_d": "Nucleophile — Electron-poor species that accepts electron pair",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 24) Which pairing is correct?",
+      "option_a": "E1 reaction — One-step substitution with backside attack",
+      "option_b": "Acid-base (Brønsted) — Contains hydroxyl (-OH) group",
+      "option_c": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_d": "E1 reaction — One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 25) Which option is TRUE regarding Electrophile?",
+      "option_a": "Often competes with SN1; forms alkene.",
+      "option_b": "Acid-base (Brønsted)",
+      "option_c": "E1 reaction",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "D",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 26) Which option is TRUE regarding Electrophile?",
+      "option_a": "Isomerism",
+      "option_b": "Electron-poor species that accepts electron pair",
+      "option_c": "One-step elimination with strong base",
+      "option_d": "E1 reaction",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 27) Which pairing is correct?",
+      "option_a": "E2 reaction — One-step elimination with strong base",
+      "option_b": "Functional group: alcohol — Contains hydroxyl (-OH) group",
+      "option_c": "Functional group: alcohol — Acid donates proton; base accepts proton",
+      "option_d": "Acid-base (Brønsted) — Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Functional group: alcohol: Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 28) Which pairing is correct?",
+      "option_a": "Nucleophile — Electron-rich species that donates electron pair",
+      "option_b": "Acid-base (Brønsted) — Compounds with same formula but different structure",
+      "option_c": "E1 reaction — One-step elimination with strong base",
+      "option_d": "E1 reaction — Acid donates proton; base accepts proton",
+      "correct_answer": "A",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 29) The best example of Isomerism is:",
+      "option_a": "Isomerism",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Electron-rich species that donates electron pair",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 30) The best example of E2 reaction is:",
+      "option_a": "Acid-base (Brønsted)",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "SN1 reaction",
+      "option_d": "Often competes with SN1; forms alkene.",
+      "correct_answer": "B",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 31) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Nucleophile",
+      "option_c": "Inversion of configuration; favored by primary substrates.",
+      "option_d": "Requires antiperiplanar geometry; forms alkene.",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 32) Which option is TRUE regarding E1 reaction?",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Acid donates proton; base accepts proton",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Includes constitutional isomers and stereoisomers.",
+      "correct_answer": "A",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 33) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — Electron-rich species that donates electron pair",
+      "option_b": "Functional group: carboxylic acid — Contains -COOH group",
+      "option_c": "E1 reaction — Elimination via carbocation intermediate",
+      "option_d": "Isomerism — Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 34) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Functional group: alcohol",
+      "option_b": "Acid-base (Brønsted)",
+      "option_c": "Electron-poor species that accepts electron pair",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "D",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 35) Which pairing is correct?",
+      "option_a": "Nucleophile — One-step elimination with strong base",
+      "option_b": "E1 reaction — One-step elimination with strong base",
+      "option_c": "Electrophile — One-step substitution with backside attack",
+      "option_d": "Electrophile — Electron-poor species that accepts electron pair",
+      "correct_answer": "D",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 36) Which pairing is correct?",
+      "option_a": "Electrophile — Compounds with same formula but different structure",
+      "option_b": "Isomerism — Compounds with same formula but different structure",
+      "option_c": "SN2 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "E1 reaction — Elimination via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "Isomerism: Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 37) The best example of SN1 reaction is:",
+      "option_a": "Electrophile",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Rate depends on substrate; racemization possible.",
+      "correct_answer": "D",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 38) Which pairing is correct?",
+      "option_a": "SN2 reaction — Substitution via carbocation intermediate",
+      "option_b": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_c": "Functional group: carboxylic acid — One-step elimination with strong base",
+      "option_d": "SN1 reaction — Elimination via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 39) The best example of Isomerism is:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Compounds with same formula but different structure",
+      "option_c": "Includes constitutional isomers and stereoisomers.",
+      "option_d": "Requires antiperiplanar geometry; forms alkene.",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 40) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Functional group: carboxylic acid",
+      "option_b": "Acid donates proton; base accepts proton",
+      "option_c": "Functional group: alcohol",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 41) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 42) The best example of Functional group: alcohol is:",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "SN2 reaction",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Affects polarity and hydrogen bonding.",
+      "correct_answer": "D",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 43) Which pairing is correct?",
+      "option_a": "E2 reaction — Substitution via carbocation intermediate",
+      "option_b": "E2 reaction — Electron-rich species that donates electron pair",
+      "option_c": "E1 reaction — Elimination via carbocation intermediate",
+      "option_d": "E2 reaction — One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "E1 reaction: Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 44) Which option is TRUE regarding Electrophile?",
+      "option_a": "Electron-poor species that accepts electron pair",
+      "option_b": "Compounds with same formula but different structure",
+      "option_c": "Contains -COOH group",
+      "option_d": "Functional group: carboxylic acid",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 45) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — Electron-poor species that accepts electron pair",
+      "option_b": "SN1 reaction — Acid donates proton; base accepts proton",
+      "option_c": "SN2 reaction — Contains -COOH group",
+      "option_d": "E2 reaction — One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 46) The best example of SN2 reaction is:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "D",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 47) Which option is TRUE regarding Electrophile?",
+      "option_a": "Electron-poor species that accepts electron pair",
+      "option_b": "Functional group: carboxylic acid",
+      "option_c": "Nucleophile",
+      "option_d": "SN1 reaction",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 48) Which pairing is correct?",
+      "option_a": "Electrophile — Contains hydroxyl (-OH) group",
+      "option_b": "Functional group: carboxylic acid — Contains -COOH group",
+      "option_c": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "option_d": "E1 reaction — One-step elimination with strong base",
+      "correct_answer": "C",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 49) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "SN2 reaction",
+      "option_c": "Substitution via carbocation intermediate",
+      "option_d": "Attacks electrophiles in substitution/addition reactions.",
+      "correct_answer": "A",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 50) Which option is TRUE regarding E1 reaction?",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Elimination via carbocation intermediate",
+      "option_c": "Inversion of configuration; favored by primary substrates.",
+      "option_d": "Acid-base (Brønsted)",
+      "correct_answer": "B",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 51) Which pairing is correct?",
+      "option_a": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_b": "Electrophile — One-step substitution with backside attack",
+      "option_c": "E2 reaction — Substitution via carbocation intermediate",
+      "option_d": "E1 reaction — One-step elimination with strong base",
+      "correct_answer": "A",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 52) The best example of Nucleophile is:",
+      "option_a": "Nucleophile",
+      "option_b": "Affects polarity and hydrogen bonding.",
+      "option_c": "Inversion of configuration; favored by primary substrates.",
+      "option_d": "Attacks electrophiles in substitution/addition reactions.",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 53) The best example of SN2 reaction is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "Electron-rich species that donates electron pair",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "A",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 54) Which pairing is correct?",
+      "option_a": "SN2 reaction — One-step substitution with backside attack",
+      "option_b": "Functional group: alcohol — One-step substitution with backside attack",
+      "option_c": "SN1 reaction — Compounds with same formula but different structure",
+      "option_d": "SN2 reaction — Contains -COOH group",
+      "correct_answer": "A",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 55) Which option is TRUE regarding SN2 reaction?",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Isomerism",
+      "correct_answer": "C",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 56) Which pairing is correct?",
+      "option_a": "Electrophile — Compounds with same formula but different structure",
+      "option_b": "Electrophile — Acid donates proton; base accepts proton",
+      "option_c": "Functional group: alcohol — Contains hydroxyl (-OH) group",
+      "option_d": "Electrophile — Elimination via carbocation intermediate",
+      "correct_answer": "C",
+      "explanation": "Functional group: alcohol: Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 57) The best example of SN2 reaction is:",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "D",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 58) Which option is TRUE regarding Electrophile?",
+      "option_a": "Isomerism",
+      "option_b": "Electron-poor species that accepts electron pair",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Rate depends on substrate; racemization possible.",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 59) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "Often competes with SN1; forms alkene.",
+      "option_d": "E2 reaction",
+      "correct_answer": "B",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 60) The best example of Functional group: carboxylic acid is:",
+      "option_a": "SN2 reaction",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "Contains hydroxyl (-OH) group",
+      "option_d": "Often acidic; forms salts; participates in ester formation.",
+      "correct_answer": "D",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 61) Which option is TRUE regarding SN2 reaction?",
+      "option_a": "Isomerism",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "Contains -COOH group",
+      "correct_answer": "C",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 62) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Acid donates proton; base accepts proton",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Nucleophile",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 63) Which pairing is correct?",
+      "option_a": "Isomerism — Electron-poor species that accepts electron pair",
+      "option_b": "E1 reaction — Elimination via carbocation intermediate",
+      "option_c": "Acid-base (Brønsted) — Substitution via carbocation intermediate",
+      "option_d": "Nucleophile — Substitution via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "E1 reaction: Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 64) The best example of E1 reaction is:",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Isomerism",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "B",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 65) Which option is TRUE regarding E2 reaction?",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Electrophile",
+      "option_d": "Attacks electrophiles in substitution/addition reactions.",
+      "correct_answer": "A",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 66) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Affects polarity and hydrogen bonding.",
+      "option_b": "E1 reaction",
+      "option_c": "Acid donates proton; base accepts proton",
+      "option_d": "Attacks electrophiles in substitution/addition reactions.",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 67) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "SN1 reaction",
+      "option_c": "Contains hydroxyl (-OH) group",
+      "option_d": "Rate depends on substrate; racemization possible.",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 68) The best example of E2 reaction is:",
+      "option_a": "Requires antiperiplanar geometry; forms alkene.",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Nucleophile",
+      "option_d": "Electron-rich species that donates electron pair",
+      "correct_answer": "A",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 69) Which pairing is correct?",
+      "option_a": "E2 reaction — Acid donates proton; base accepts proton",
+      "option_b": "SN2 reaction — One-step substitution with backside attack",
+      "option_c": "Isomerism — Electron-rich species that donates electron pair",
+      "option_d": "SN1 reaction — Substitution via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 70) Which option is TRUE regarding E2 reaction?",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "Functional group: carboxylic acid",
+      "option_c": "Often competes with SN1; forms alkene.",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 71) The best example of SN1 reaction is:",
+      "option_a": "Rate depends on substrate; racemization possible.",
+      "option_b": "E1 reaction",
+      "option_c": "Isomerism",
+      "option_d": "Elimination via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 72) Which pairing is correct?",
+      "option_a": "SN1 reaction — Substitution via carbocation intermediate",
+      "option_b": "Nucleophile — Contains -COOH group",
+      "option_c": "Functional group: alcohol — One-step substitution with backside attack",
+      "option_d": "Nucleophile — Contains -COOH group",
+      "correct_answer": "A",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 73) The best example of Isomerism is:",
+      "option_a": "Affects polarity and hydrogen bonding.",
+      "option_b": "One-step substitution with backside attack",
+      "option_c": "Elimination via carbocation intermediate",
+      "option_d": "Includes constitutional isomers and stereoisomers.",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 74) Which pairing is correct?",
+      "option_a": "SN1 reaction — Electron-rich species that donates electron pair",
+      "option_b": "SN2 reaction — Acid donates proton; base accepts proton",
+      "option_c": "Isomerism — Electron-rich species that donates electron pair",
+      "option_d": "SN2 reaction — One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 75) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Often competes with SN1; forms alkene.",
+      "option_b": "Contains hydroxyl (-OH) group",
+      "option_c": "Inversion of configuration; favored by primary substrates.",
+      "option_d": "Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 76) Which pairing is correct?",
+      "option_a": "Isomerism — Contains -COOH group",
+      "option_b": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_c": "Electrophile — Compounds with same formula but different structure",
+      "option_d": "Nucleophile — Electron-poor species that accepts electron pair",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 77) Which pairing is correct?",
+      "option_a": "Nucleophile — Substitution via carbocation intermediate",
+      "option_b": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_c": "Nucleophile — One-step substitution with backside attack",
+      "option_d": "Functional group: alcohol — One-step elimination with strong base",
+      "correct_answer": "B",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 78) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Contains -COOH group",
+      "option_b": "Contains hydroxyl (-OH) group",
+      "option_c": "Electrophile",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "B",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 79) The best example of Nucleophile is:",
+      "option_a": "Often competes with SN1; forms alkene.",
+      "option_b": "SN1 reaction",
+      "option_c": "Electron-poor species that accepts electron pair",
+      "option_d": "Attacks electrophiles in substitution/addition reactions.",
+      "correct_answer": "D",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 80) Which pairing is correct?",
+      "option_a": "Acid-base (Brønsted) — Contains -COOH group",
+      "option_b": "E1 reaction — Contains -COOH group",
+      "option_c": "Functional group: carboxylic acid — Contains -COOH group",
+      "option_d": "Isomerism — Electron-rich species that donates electron pair",
+      "correct_answer": "C",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 81) The best example of Nucleophile is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Often competes with SN1; forms alkene.",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 82) Which pairing is correct?",
+      "option_a": "E2 reaction — Electron-rich species that donates electron pair",
+      "option_b": "Isomerism — Compounds with same formula but different structure",
+      "option_c": "E2 reaction — One-step elimination with strong base",
+      "option_d": "Electrophile — One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 83) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — One-step substitution with backside attack",
+      "option_b": "SN2 reaction — One-step substitution with backside attack",
+      "option_c": "Electrophile — Electron-rich species that donates electron pair",
+      "option_d": "Nucleophile — Electron-rich species that donates electron pair",
+      "correct_answer": "D",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 84) Which pairing is correct?",
+      "option_a": "SN2 reaction — One-step substitution with backside attack",
+      "option_b": "Isomerism — One-step substitution with backside attack",
+      "option_c": "Acid-base (Brønsted) — Electron-rich species that donates electron pair",
+      "option_d": "SN1 reaction — Substitution via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 85) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Compounds with same formula but different structure",
+      "option_b": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "option_c": "SN2 reaction — Electron-poor species that accepts electron pair",
+      "option_d": "SN1 reaction — Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 86) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — Contains -COOH group",
+      "option_b": "Nucleophile — Acid donates proton; base accepts proton",
+      "option_c": "SN2 reaction — One-step substitution with backside attack",
+      "option_d": "E1 reaction — One-step substitution with backside attack",
+      "correct_answer": "A",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 87) The best example of Functional group: alcohol is:",
+      "option_a": "Attacks electrophiles in substitution/addition reactions.",
+      "option_b": "Rate depends on substrate; racemization possible.",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "SN1 reaction",
+      "correct_answer": "C",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 88) The best example of Acid-base (Brønsted) is:",
+      "option_a": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_b": "Elimination via carbocation intermediate",
+      "option_c": "Functional group: alcohol",
+      "option_d": "SN1 reaction",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 89) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "E1 reaction",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Includes constitutional isomers and stereoisomers.",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 90) Which pairing is correct?",
+      "option_a": "E1 reaction — Elimination via carbocation intermediate",
+      "option_b": "Functional group: alcohol — One-step elimination with strong base",
+      "option_c": "Functional group: alcohol — Electron-poor species that accepts electron pair",
+      "option_d": "Nucleophile — Substitution via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "E1 reaction: Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 91) The best example of Isomerism is:",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Affects polarity and hydrogen bonding.",
+      "option_c": "Includes constitutional isomers and stereoisomers.",
+      "option_d": "One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 92) Which option is TRUE regarding Isomerism?",
+      "option_a": "Compounds with same formula but different structure",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "Isomerism",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 93) Which pairing is correct?",
+      "option_a": "SN1 reaction — Elimination via carbocation intermediate",
+      "option_b": "Functional group: alcohol — Electron-rich species that donates electron pair",
+      "option_c": "Nucleophile — Electron-rich species that donates electron pair",
+      "option_d": "SN2 reaction — Electron-poor species that accepts electron pair",
+      "correct_answer": "C",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 94) The best example of Electrophile is:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Functional group: carboxylic acid",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 95) The best example of Isomerism is:",
+      "option_a": "Acid-base (Brønsted)",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Includes constitutional isomers and stereoisomers.",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 96) Which pairing is correct?",
+      "option_a": "Acid-base (Brønsted) — Contains hydroxyl (-OH) group",
+      "option_b": "Functional group: alcohol — Contains hydroxyl (-OH) group",
+      "option_c": "Electrophile — Compounds with same formula but different structure",
+      "option_d": "SN1 reaction — Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Functional group: alcohol: Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 97) Which option is TRUE regarding Isomerism?",
+      "option_a": "Electrophile",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "Compounds with same formula but different structure",
+      "option_d": "Target of nucleophilic attack.",
+      "correct_answer": "C",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 98) Which option is TRUE regarding E1 reaction?",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "Nucleophile",
+      "option_d": "Functional group: carboxylic acid",
+      "correct_answer": "A",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 99) Which option is TRUE regarding E2 reaction?",
+      "option_a": "Affects polarity and hydrogen bonding.",
+      "option_b": "Rate depends on substrate; racemization possible.",
+      "option_c": "One-step elimination with strong base",
+      "option_d": "Elimination via carbocation intermediate",
+      "correct_answer": "C",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 100) Which option is TRUE regarding SN2 reaction?",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Functional group: alcohol",
+      "option_c": "E2 reaction",
+      "option_d": "One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 101) Which pairing is correct?",
+      "option_a": "Electrophile — Acid donates proton; base accepts proton",
+      "option_b": "Electrophile — Compounds with same formula but different structure",
+      "option_c": "Acid-base (Brønsted) — Electron-poor species that accepts electron pair",
+      "option_d": "E2 reaction — One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 102) The best example of Isomerism is:",
+      "option_a": "Attacks electrophiles in substitution/addition reactions.",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Electron-poor species that accepts electron pair",
+      "option_d": "Often competes with SN1; forms alkene.",
+      "correct_answer": "B",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 103) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Affects polarity and hydrogen bonding.",
+      "option_b": "Acid donates proton; base accepts proton",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Target of nucleophilic attack.",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 104) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Electron-poor species that accepts electron pair",
+      "option_b": "SN1 reaction — Substitution via carbocation intermediate",
+      "option_c": "E1 reaction — One-step substitution with backside attack",
+      "option_d": "E2 reaction — Substitution via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 105) The best example of E2 reaction is:",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "E2 reaction",
+      "option_d": "Isomerism",
+      "correct_answer": "B",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 106) Which pairing is correct?",
+      "option_a": "Isomerism — Compounds with same formula but different structure",
+      "option_b": "Nucleophile — Contains hydroxyl (-OH) group",
+      "option_c": "Functional group: alcohol — Contains hydroxyl (-OH) group",
+      "option_d": "E1 reaction — Contains hydroxyl (-OH) group",
+      "correct_answer": "A",
+      "explanation": "Isomerism: Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 107) Which pairing is correct?",
+      "option_a": "SN2 reaction — One-step substitution with backside attack",
+      "option_b": "SN1 reaction — Acid donates proton; base accepts proton",
+      "option_c": "SN1 reaction — One-step elimination with strong base",
+      "option_d": "SN1 reaction — Contains hydroxyl (-OH) group",
+      "correct_answer": "A",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 108) Which pairing is correct?",
+      "option_a": "E1 reaction — Elimination via carbocation intermediate",
+      "option_b": "E2 reaction — Acid donates proton; base accepts proton",
+      "option_c": "Functional group: carboxylic acid — Elimination via carbocation intermediate",
+      "option_d": "SN2 reaction — One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 109) Which option is TRUE regarding E2 reaction?",
+      "option_a": "Electrophile",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 110) Which pairing is correct?",
+      "option_a": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "option_b": "Isomerism — Elimination via carbocation intermediate",
+      "option_c": "SN1 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "E1 reaction — Compounds with same formula but different structure",
+      "correct_answer": "A",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 111) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Contains -COOH group",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "Electrophile",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 112) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Contains -COOH group",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "D",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 113) Which option is TRUE regarding SN2 reaction?",
+      "option_a": "Contains -COOH group",
+      "option_b": "One-step substitution with backside attack",
+      "option_c": "Functional group: carboxylic acid",
+      "option_d": "Acid-base (Brønsted)",
+      "correct_answer": "B",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 114) The best example of Electrophile is:",
+      "option_a": "Target of nucleophilic attack.",
+      "option_b": "Rate depends on substrate; racemization possible.",
+      "option_c": "SN2 reaction",
+      "option_d": "E2 reaction",
+      "correct_answer": "A",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 115) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Acid donates proton; base accepts proton",
+      "option_d": "Contains -COOH group",
+      "correct_answer": "A",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 116) The best example of E1 reaction is:",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "SN2 reaction",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 117) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Contains hydroxyl (-OH) group",
+      "option_c": "E2 reaction",
+      "option_d": "Electrophile",
+      "correct_answer": "B",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 118) The best example of Functional group: alcohol is:",
+      "option_a": "Acid-base (Brønsted)",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "Often competes with SN1; forms alkene.",
+      "correct_answer": "C",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 119) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Includes constitutional isomers and stereoisomers.",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Acid donates proton; base accepts proton",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "C",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 120) The best example of Functional group: alcohol is:",
+      "option_a": "Includes constitutional isomers and stereoisomers.",
+      "option_b": "Nucleophile",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "C",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 121) Which pairing is correct?",
+      "option_a": "SN2 reaction — One-step substitution with backside attack",
+      "option_b": "Electrophile — Contains -COOH group",
+      "option_c": "SN2 reaction — Contains -COOH group",
+      "option_d": "Isomerism — Compounds with same formula but different structure",
+      "correct_answer": "D",
+      "explanation": "Isomerism: Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 122) Which pairing is correct?",
+      "option_a": "Nucleophile — One-step elimination with strong base",
+      "option_b": "Functional group: carboxylic acid — Electron-rich species that donates electron pair",
+      "option_c": "E2 reaction — One-step elimination with strong base",
+      "option_d": "Nucleophile — Electron-rich species that donates electron pair",
+      "correct_answer": "C",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 123) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — One-step substitution with backside attack",
+      "option_b": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "option_c": "Acid-base (Brønsted) — Electron-poor species that accepts electron pair",
+      "option_d": "Functional group: carboxylic acid — One-step substitution with backside attack",
+      "correct_answer": "B",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 124) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Electron-rich species that donates electron pair",
+      "option_b": "SN1 reaction",
+      "option_c": "Often acidic; forms salts; participates in ester formation.",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "A",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 125) Which pairing is correct?",
+      "option_a": "Isomerism — Electron-rich species that donates electron pair",
+      "option_b": "SN2 reaction — One-step elimination with strong base",
+      "option_c": "Acid-base (Brønsted) — Elimination via carbocation intermediate",
+      "option_d": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "correct_answer": "D",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 126) Which option is TRUE regarding E2 reaction?",
+      "option_a": "E1 reaction",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Affects polarity and hydrogen bonding.",
+      "correct_answer": "B",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 127) Which pairing is correct?",
+      "option_a": "SN2 reaction — Substitution via carbocation intermediate",
+      "option_b": "SN2 reaction — Electron-rich species that donates electron pair",
+      "option_c": "SN2 reaction — One-step substitution with backside attack",
+      "option_d": "Functional group: carboxylic acid — Acid donates proton; base accepts proton",
+      "correct_answer": "C",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 128) The best example of Nucleophile is:",
+      "option_a": "Nucleophile",
+      "option_b": "E2 reaction",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 129) Which option is TRUE regarding Isomerism?",
+      "option_a": "Compounds with same formula but different structure",
+      "option_b": "Elimination via carbocation intermediate",
+      "option_c": "Substitution via carbocation intermediate",
+      "option_d": "Functional group: carboxylic acid",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 130) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "SN2 reaction",
+      "correct_answer": "B",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 131) The best example of Functional group: alcohol is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Affects polarity and hydrogen bonding.",
+      "option_c": "E1 reaction",
+      "option_d": "E2 reaction",
+      "correct_answer": "B",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 132) Which option is TRUE regarding Functional group: alcohol?",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "E2 reaction",
+      "option_c": "Functional group: carboxylic acid",
+      "option_d": "Requires antiperiplanar geometry; forms alkene.",
+      "correct_answer": "A",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 133) The best example of Electrophile is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 134) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "E2 reaction",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "B",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 135) The best example of Nucleophile is:",
+      "option_a": "SN2 reaction",
+      "option_b": "E2 reaction",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 136) The best example of E1 reaction is:",
+      "option_a": "Isomerism",
+      "option_b": "Inversion of configuration; favored by primary substrates.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Often competes with SN1; forms alkene.",
+      "correct_answer": "D",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 137) The best example of Nucleophile is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "Contains -COOH group",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 138) Which pairing is correct?",
+      "option_a": "SN2 reaction — Contains hydroxyl (-OH) group",
+      "option_b": "E1 reaction — Acid donates proton; base accepts proton",
+      "option_c": "Nucleophile — Electron-rich species that donates electron pair",
+      "option_d": "Isomerism — Contains hydroxyl (-OH) group",
+      "correct_answer": "C",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 139) Which option is TRUE regarding E1 reaction?",
+      "option_a": "E2 reaction",
+      "option_b": "Compounds with same formula but different structure",
+      "option_c": "Elimination via carbocation intermediate",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "C",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 140) The best example of Isomerism is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Isomerism",
+      "option_d": "SN1 reaction",
+      "correct_answer": "B",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 141) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Acid donates proton; base accepts proton",
+      "option_b": "E2 reaction — One-step elimination with strong base",
+      "option_c": "SN2 reaction — One-step elimination with strong base",
+      "option_d": "Functional group: alcohol — One-step elimination with strong base",
+      "correct_answer": "B",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 142) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Elimination via carbocation intermediate",
+      "option_b": "SN2 reaction — Contains -COOH group",
+      "option_c": "Acid-base (Brønsted) — Electron-poor species that accepts electron pair",
+      "option_d": "E2 reaction — One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 143) The best example of Functional group: alcohol is:",
+      "option_a": "Often competes with SN1; forms alkene.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "SN2 reaction",
+      "correct_answer": "C",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 144) The best example of SN2 reaction is:",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "Isomerism",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "Inversion of configuration; favored by primary substrates.",
+      "correct_answer": "D",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 145) The best example of Acid-base (Brønsted) is:",
+      "option_a": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_b": "SN2 reaction",
+      "option_c": "Acid donates proton; base accepts proton",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 146) Which option is TRUE regarding Isomerism?",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Contains hydroxyl (-OH) group",
+      "option_c": "Electrophile",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 147) The best example of Nucleophile is:",
+      "option_a": "E2 reaction",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Includes constitutional isomers and stereoisomers.",
+      "option_d": "Electron-rich species that donates electron pair",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 148) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Contains -COOH group",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Often acidic; forms salts; participates in ester formation.",
+      "correct_answer": "D",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 149) Which pairing is correct?",
+      "option_a": "SN1 reaction — Substitution via carbocation intermediate",
+      "option_b": "Functional group: carboxylic acid — Acid donates proton; base accepts proton",
+      "option_c": "Functional group: carboxylic acid — Substitution via carbocation intermediate",
+      "option_d": "Functional group: alcohol — Substitution via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 150) Which option is TRUE regarding E1 reaction?",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Rate depends on substrate; racemization possible.",
+      "option_c": "Electron-poor species that accepts electron pair",
+      "option_d": "Requires antiperiplanar geometry; forms alkene.",
+      "correct_answer": "A",
+      "explanation": "Often competes with SN1; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 151) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "E2 reaction",
+      "option_d": "Isomerism",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 152) Which pairing is correct?",
+      "option_a": "SN1 reaction — Substitution via carbocation intermediate",
+      "option_b": "Isomerism — Contains hydroxyl (-OH) group",
+      "option_c": "SN1 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "Functional group: carboxylic acid — Contains -COOH group",
+      "correct_answer": "A",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 153) Which pairing is correct?",
+      "option_a": "E2 reaction — One-step elimination with strong base",
+      "option_b": "E1 reaction — One-step elimination with strong base",
+      "option_c": "E2 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "Acid-base (Brønsted) — Compounds with same formula but different structure",
+      "correct_answer": "A",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 154) The best example of SN2 reaction is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Affects polarity and hydrogen bonding.",
+      "option_c": "Nucleophile",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 155) Which pairing is correct?",
+      "option_a": "Acid-base (Brønsted) — Acid donates proton; base accepts proton",
+      "option_b": "E1 reaction — One-step substitution with backside attack",
+      "option_c": "SN1 reaction — Elimination via carbocation intermediate",
+      "option_d": "SN1 reaction — Elimination via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "Acid-base (Brønsted): pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 156) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Acid donates proton; base accepts proton",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "E1 reaction",
+      "option_d": "Elimination via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 157) The best example of Nucleophile is:",
+      "option_a": "Contains -COOH group",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 158) Which pairing is correct?",
+      "option_a": "Nucleophile — Acid donates proton; base accepts proton",
+      "option_b": "Functional group: carboxylic acid — Substitution via carbocation intermediate",
+      "option_c": "SN2 reaction — One-step substitution with backside attack",
+      "option_d": "Functional group: carboxylic acid — Contains -COOH group",
+      "correct_answer": "D",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 159) Which option is TRUE regarding Electrophile?",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Often competes with SN1; forms alkene.",
+      "option_c": "Electron-poor species that accepts electron pair",
+      "option_d": "Affects polarity and hydrogen bonding.",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 160) Which pairing is correct?",
+      "option_a": "E1 reaction — Electron-rich species that donates electron pair",
+      "option_b": "Functional group: carboxylic acid — Contains -COOH group",
+      "option_c": "SN1 reaction — Elimination via carbocation intermediate",
+      "option_d": "E1 reaction — Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Functional group: carboxylic acid: Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 161) The best example of SN2 reaction is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Electrophile",
+      "option_c": "Rate depends on substrate; racemization possible.",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "A",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 162) The best example of Acid-base (Brønsted) is:",
+      "option_a": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_b": "SN1 reaction",
+      "option_c": "Functional group: carboxylic acid",
+      "option_d": "Nucleophile",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 163) The best example of Isomerism is:",
+      "option_a": "Compounds with same formula but different structure",
+      "option_b": "Contains hydroxyl (-OH) group",
+      "option_c": "Acid-base (Brønsted)",
+      "option_d": "Includes constitutional isomers and stereoisomers.",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 164) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "Contains -COOH group",
+      "option_d": "Isomerism",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 165) Which pairing is correct?",
+      "option_a": "Nucleophile — One-step elimination with strong base",
+      "option_b": "Functional group: alcohol — Contains hydroxyl (-OH) group",
+      "option_c": "Electrophile — Contains hydroxyl (-OH) group",
+      "option_d": "Electrophile — Electron-poor species that accepts electron pair",
+      "correct_answer": "D",
+      "explanation": "Electrophile: Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 166) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Isomerism",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Contains -COOH group",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 167) Which option is TRUE regarding Electrophile?",
+      "option_a": "Electrophile",
+      "option_b": "Electron-poor species that accepts electron pair",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "pKa indicates acid strength; lower pKa stronger acid.",
+      "correct_answer": "B",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 168) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Functional group: carboxylic acid",
+      "option_c": "Functional group: alcohol",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 169) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Elimination via carbocation intermediate",
+      "option_b": "Often acidic; forms salts; participates in ester formation.",
+      "option_c": "SN1 reaction",
+      "option_d": "Electrophile",
+      "correct_answer": "B",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 170) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Substitution via carbocation intermediate",
+      "option_c": "Acid-base (Brønsted)",
+      "option_d": "Electrophile",
+      "correct_answer": "B",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 171) The best example of SN2 reaction is:",
+      "option_a": "Inversion of configuration; favored by primary substrates.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Elimination via carbocation intermediate",
+      "option_d": "Electron-poor species that accepts electron pair",
+      "correct_answer": "A",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 172) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Acid donates proton; base accepts proton",
+      "option_b": "One-step substitution with backside attack",
+      "option_c": "Electrophile",
+      "option_d": "Elimination via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 173) Which option is TRUE regarding Isomerism?",
+      "option_a": "Nucleophile",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "Contains hydroxyl (-OH) group",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "D",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 174) Which pairing is correct?",
+      "option_a": "SN1 reaction — Compounds with same formula but different structure",
+      "option_b": "Functional group: alcohol — Electron-poor species that accepts electron pair",
+      "option_c": "E1 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "SN2 reaction — One-step substitution with backside attack",
+      "correct_answer": "D",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 175) Which pairing is correct?",
+      "option_a": "Functional group: carboxylic acid — Acid donates proton; base accepts proton",
+      "option_b": "E2 reaction — One-step elimination with strong base",
+      "option_c": "Electrophile — Electron-poor species that accepts electron pair",
+      "option_d": "E1 reaction — Elimination via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 176) The best example of Electrophile is:",
+      "option_a": "Isomerism",
+      "option_b": "Functional group: carboxylic acid",
+      "option_c": "Target of nucleophilic attack.",
+      "option_d": "Electrophile",
+      "correct_answer": "C",
+      "explanation": "Target of nucleophilic attack."
+    },
+    {
+      "question": "(Organic Chemistry I Item 177) Which pairing is correct?",
+      "option_a": "Nucleophile — Electron-rich species that donates electron pair",
+      "option_b": "Nucleophile — Electron-rich species that donates electron pair",
+      "option_c": "SN2 reaction — One-step substitution with backside attack",
+      "option_d": "Functional group: alcohol — Contains -COOH group",
+      "correct_answer": "A",
+      "explanation": "Nucleophile: Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 178) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "SN1 reaction",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 179) Which option is TRUE regarding SN2 reaction?",
+      "option_a": "Electron-poor species that accepts electron pair",
+      "option_b": "Acid-base (Brønsted)",
+      "option_c": "One-step substitution with backside attack",
+      "option_d": "SN2 reaction",
+      "correct_answer": "C",
+      "explanation": "Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 180) The best example of Functional group: alcohol is:",
+      "option_a": "Acid-base (Brønsted)",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "Affects polarity and hydrogen bonding.",
+      "option_d": "Often acidic; forms salts; participates in ester formation.",
+      "correct_answer": "C",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 181) Which pairing is correct?",
+      "option_a": "E2 reaction — One-step elimination with strong base",
+      "option_b": "Functional group: alcohol — Elimination via carbocation intermediate",
+      "option_c": "Electrophile — One-step elimination with strong base",
+      "option_d": "E2 reaction — Acid donates proton; base accepts proton",
+      "correct_answer": "A",
+      "explanation": "E2 reaction: Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 182) The best example of E2 reaction is:",
+      "option_a": "One-step elimination with strong base",
+      "option_b": "Requires antiperiplanar geometry; forms alkene.",
+      "option_c": "Often competes with SN1; forms alkene.",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "B",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 183) The best example of Functional group: alcohol is:",
+      "option_a": "Contains hydroxyl (-OH) group",
+      "option_b": "Affects polarity and hydrogen bonding.",
+      "option_c": "Electrophile",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "B",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 184) Which option is TRUE regarding Acid-base (Brønsted)?",
+      "option_a": "Nucleophile",
+      "option_b": "Acid donates proton; base accepts proton",
+      "option_c": "SN1 reaction",
+      "option_d": "E1 reaction",
+      "correct_answer": "B",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 185) The best example of Acid-base (Brønsted) is:",
+      "option_a": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_b": "One-step substitution with backside attack",
+      "option_c": "Isomerism",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "A",
+      "explanation": "pKa indicates acid strength; lower pKa stronger acid."
+    },
+    {
+      "question": "(Organic Chemistry I Item 186) Which option is TRUE regarding E2 reaction?",
+      "option_a": "Functional group: alcohol",
+      "option_b": "One-step substitution with backside attack",
+      "option_c": "Compounds with same formula but different structure",
+      "option_d": "One-step elimination with strong base",
+      "correct_answer": "D",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 187) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "pKa indicates acid strength; lower pKa stronger acid.",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 188) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "E2 reaction",
+      "option_b": "Compounds with same formula but different structure",
+      "option_c": "Substitution via carbocation intermediate",
+      "option_d": "Acid donates proton; base accepts proton",
+      "correct_answer": "C",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 189) The best example of E2 reaction is:",
+      "option_a": "Requires antiperiplanar geometry; forms alkene.",
+      "option_b": "Target of nucleophilic attack.",
+      "option_c": "Substitution via carbocation intermediate",
+      "option_d": "Isomerism",
+      "correct_answer": "A",
+      "explanation": "Requires antiperiplanar geometry; forms alkene."
+    },
+    {
+      "question": "(Organic Chemistry I Item 190) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Nucleophile",
+      "option_b": "One-step elimination with strong base",
+      "option_c": "Requires antiperiplanar geometry; forms alkene.",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 191) The best example of Isomerism is:",
+      "option_a": "Includes constitutional isomers and stereoisomers.",
+      "option_b": "Compounds with same formula but different structure",
+      "option_c": "Isomerism",
+      "option_d": "Electrophile",
+      "correct_answer": "A",
+      "explanation": "Includes constitutional isomers and stereoisomers."
+    },
+    {
+      "question": "(Organic Chemistry I Item 192) Which pairing is correct?",
+      "option_a": "Isomerism — Acid donates proton; base accepts proton",
+      "option_b": "Functional group: carboxylic acid — Substitution via carbocation intermediate",
+      "option_c": "SN2 reaction — One-step substitution with backside attack",
+      "option_d": "SN2 reaction — One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "SN2 reaction: Inversion of configuration; favored by primary substrates."
+    },
+    {
+      "question": "(Organic Chemistry I Item 193) Which pairing is correct?",
+      "option_a": "Functional group: alcohol — Contains -COOH group",
+      "option_b": "Functional group: alcohol — Elimination via carbocation intermediate",
+      "option_c": "E2 reaction — Contains hydroxyl (-OH) group",
+      "option_d": "SN1 reaction — Substitution via carbocation intermediate",
+      "correct_answer": "D",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 194) Which pairing is correct?",
+      "option_a": "SN2 reaction — One-step elimination with strong base",
+      "option_b": "Functional group: carboxylic acid — One-step elimination with strong base",
+      "option_c": "SN1 reaction — Substitution via carbocation intermediate",
+      "option_d": "E1 reaction — One-step substitution with backside attack",
+      "correct_answer": "C",
+      "explanation": "SN1 reaction: Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 195) The best example of Functional group: alcohol is:",
+      "option_a": "Affects polarity and hydrogen bonding.",
+      "option_b": "Electron-poor species that accepts electron pair",
+      "option_c": "Electron-rich species that donates electron pair",
+      "option_d": "Rate depends on substrate; racemization possible.",
+      "correct_answer": "A",
+      "explanation": "Affects polarity and hydrogen bonding."
+    },
+    {
+      "question": "(Organic Chemistry I Item 196) Which option is TRUE regarding SN1 reaction?",
+      "option_a": "Substitution via carbocation intermediate",
+      "option_b": "Includes constitutional isomers and stereoisomers.",
+      "option_c": "Attacks electrophiles in substitution/addition reactions.",
+      "option_d": "Compounds with same formula but different structure",
+      "correct_answer": "A",
+      "explanation": "Rate depends on substrate; racemization possible."
+    },
+    {
+      "question": "(Organic Chemistry I Item 197) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Compounds with same formula but different structure",
+      "option_d": "Acid-base (Brønsted)",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 198) Which option is TRUE regarding Nucleophile?",
+      "option_a": "Compounds with same formula but different structure",
+      "option_b": "Functional group: alcohol",
+      "option_c": "Electron-rich species that donates electron pair",
+      "option_d": "Affects polarity and hydrogen bonding.",
+      "correct_answer": "C",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    },
+    {
+      "question": "(Organic Chemistry I Item 199) The best example of Functional group: carboxylic acid is:",
+      "option_a": "Often acidic; forms salts; participates in ester formation.",
+      "option_b": "Electron-rich species that donates electron pair",
+      "option_c": "Acid-base (Brønsted)",
+      "option_d": "Substitution via carbocation intermediate",
+      "correct_answer": "A",
+      "explanation": "Often acidic; forms salts; participates in ester formation."
+    },
+    {
+      "question": "(Organic Chemistry I Item 200) The best example of Nucleophile is:",
+      "option_a": "Functional group: carboxylic acid",
+      "option_b": "Attacks electrophiles in substitution/addition reactions.",
+      "option_c": "Isomerism",
+      "option_d": "Contains hydroxyl (-OH) group",
+      "correct_answer": "B",
+      "explanation": "Attacks electrophiles in substitution/addition reactions."
+    }
+  ]
+}
