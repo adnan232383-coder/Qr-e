@@ -1,0 +1,434 @@
+[
+  {
+    "question": "A 58-year-old male with a history of hypertension and smoking presents to the ED with crushing substernal chest pain radiating to his left arm for the past 45 minutes. ECG shows ST-segment elevation in leads V1-V4. Troponin I is elevated. What is the most appropriate initial intervention?",
+    "option_a": "Administer fibrinolytic therapy immediately",
+    "option_b": "Emergent percutaneous coronary intervention (PCI)",
+    "option_c": "Start heparin drip and admit to CCU for observation",
+    "option_d": "Obtain echocardiogram before any intervention",
+    "correct_answer": "B",
+    "explanation": "This patient is presenting with an ST-elevation myocardial infarction (STEMI). Primary PCI is the preferred reperfusion strategy when it can be performed within 90 minutes of first medical contact. Fibrinolytic therapy is an alternative only when PCI cannot be performed in a timely manner."
+  },
+  {
+    "question": "A 67-year-old female with Type 2 diabetes presents with fatigue and dyspnea on exertion. Physical exam reveals bibasilar crackles, JVD, and 2+ pitting edema. Echocardiogram shows an ejection fraction of 35%. Which medication combination has been shown to reduce mortality in this patient?",
+    "option_a": "Amlodipine and furosemide",
+    "option_b": "ACE inhibitor, beta-blocker, and spironolactone",
+    "option_c": "Digoxin and thiazide diuretic",
+    "option_d": "Calcium channel blocker and nitrates",
+    "correct_answer": "B",
+    "explanation": "For heart failure with reduced ejection fraction (HFrEF), guideline-directed medical therapy (GDMT) includes ACE inhibitors (or ARBs/ARNI), beta-blockers, and mineralocorticoid receptor antagonists (spironolactone/eplerenone). All three have demonstrated mortality benefit in clinical trials."
+  },
+  {
+    "question": "A 72-year-old male presents with an irregularly irregular pulse. ECG confirms atrial fibrillation with a ventricular rate of 142 bpm. He has a history of hypertension, diabetes, and prior stroke. His CHA2DS2-VASc score is 5. What is the most appropriate long-term anticoagulation strategy?",
+    "option_a": "Aspirin 325 mg daily",
+    "option_b": "Aspirin plus clopidogrel",
+    "option_c": "Direct oral anticoagulant (DOAC) such as apixaban",
+    "option_d": "No anticoagulation needed if rate is controlled",
+    "correct_answer": "C",
+    "explanation": "With a CHA2DS2-VASc score of 5, this patient is at high risk for thromboembolic stroke and requires anticoagulation. DOACs are preferred over warfarin in non-valvular atrial fibrillation due to lower bleeding risk, no need for INR monitoring, and at least equivalent efficacy."
+  },
+  {
+    "question": "A 45-year-old obese female is found to have a blood pressure of 158/96 mmHg on three separate occasions. Fasting glucose is 118 mg/dL, and LDL cholesterol is 162 mg/dL. What is the most appropriate first-line antihypertensive medication?",
+    "option_a": "Metoprolol",
+    "option_b": "Lisinopril",
+    "option_c": "Clonidine",
+    "option_d": "Hydralazine",
+    "correct_answer": "B",
+    "explanation": "ACE inhibitors like lisinopril are excellent first-line agents for hypertension, especially in patients with diabetes or prediabetes, as they provide renal protection. They also help prevent progression to overt diabetes. Thiazide diuretics, CCBs, and ARBs are also acceptable first-line options."
+  },
+  {
+    "question": "A 62-year-old male with chronic kidney disease stage 3 (eGFR 45 mL/min) presents with muscle cramps and weakness. Labs show: Na 140 mEq/L, K 6.8 mEq/L, Cr 2.1 mg/dL. ECG shows peaked T waves. What is the most urgent initial intervention?",
+    "option_a": "Oral kayexalate (sodium polystyrene sulfonate)",
+    "option_b": "IV calcium gluconate",
+    "option_c": "IV insulin with dextrose",
+    "option_d": "Emergent hemodialysis",
+    "correct_answer": "B",
+    "explanation": "In hyperkalemia with ECG changes, IV calcium gluconate is the first priority as it stabilizes the cardiac membrane and prevents arrhythmias. It does not lower potassium but buys time. Subsequently, insulin/dextrose, bicarbonate, and potassium-lowering therapies should be administered."
+  },
+  {
+    "question": "A 55-year-old female presents with palpitations, heat intolerance, weight loss despite good appetite, and tremor. TSH is 0.05 mIU/L (normal 0.4-4.0), and free T4 is 4.2 ng/dL (normal 0.8-1.8). What is the most likely diagnosis?",
+    "option_a": "Hashimoto's thyroiditis",
+    "option_b": "Graves' disease",
+    "option_c": "Toxic multinodular goiter",
+    "option_d": "Thyroid storm",
+    "correct_answer": "B",
+    "explanation": "The clinical presentation of hyperthyroidism (heat intolerance, weight loss, tremor, palpitations) with suppressed TSH and elevated free T4 in a middle-aged female is most consistent with Graves' disease, the most common cause of hyperthyroidism. Further workup with thyroid antibodies and radioactive iodine uptake can confirm."
+  },
+  {
+    "question": "A 48-year-old male with newly diagnosed Type 2 diabetes has an HbA1c of 8.2%. He has no cardiovascular disease, and his eGFR is 85 mL/min. BMI is 32 kg/m². What is the most appropriate initial pharmacotherapy?",
+    "option_a": "Glipizide",
+    "option_b": "Metformin",
+    "option_c": "Insulin glargine",
+    "option_d": "Pioglitazone",
+    "correct_answer": "B",
+    "explanation": "Metformin remains the first-line pharmacological therapy for Type 2 diabetes due to its efficacy, safety profile, weight neutrality, low cost, and potential cardiovascular benefits. It should be used alongside lifestyle modifications unless contraindicated."
+  },
+  {
+    "question": "A 70-year-old male with heart failure (EF 30%) and CKD stage 4 presents with increasing shortness of breath. Labs show K 5.9 mEq/L and Cr 3.2 mg/dL. He is currently on lisinopril, carvedilol, and spironolactone. Which medication should be discontinued or reduced first?",
+    "option_a": "Carvedilol",
+    "option_b": "Lisinopril",
+    "option_c": "Spironolactone",
+    "option_d": "All medications should be continued",
+    "correct_answer": "C",
+    "explanation": "Spironolactone is most likely contributing to hyperkalemia in this patient with advanced CKD. While all three medications can raise potassium, mineralocorticoid receptor antagonists pose the highest risk in renal impairment and should be reduced or discontinued first."
+  },
+  {
+    "question": "A 65-year-old female presents with sudden onset of severe headache, palpitations, and diaphoresis. Blood pressure is 220/130 mmHg. She takes no medications. Urinary catecholamines are markedly elevated. What is the most likely diagnosis?",
+    "option_a": "Essential hypertension",
+    "option_b": "Pheochromocytoma",
+    "option_c": "Renovascular hypertension",
+    "option_d": "Primary hyperaldosteronism",
+    "correct_answer": "B",
+    "explanation": "The classic triad of episodic headache, palpitations, and diaphoresis with severe hypertension and elevated urinary catecholamines is highly suggestive of pheochromocytoma. This tumor secretes catecholamines and requires surgical resection after appropriate alpha-blockade."
+  },
+  {
+    "question": "A 52-year-old male with Type 2 diabetes and hypertension has a spot urine albumin-to-creatinine ratio of 350 mg/g (normal <30). His eGFR is 62 mL/min. Current medications include metformin and amlodipine. What medication should be added for renal protection?",
+    "option_a": "Furosemide",
+    "option_b": "Hydrochlorothiazide",
+    "option_c": "Losartan",
+    "option_d": "Atenolol",
+    "correct_answer": "C",
+    "explanation": "In diabetic nephropathy with albuminuria, ACE inhibitors or ARBs (like losartan) are indicated for renal protection regardless of blood pressure. They reduce intraglomerular pressure and slow progression of kidney disease. SGLT2 inhibitors also provide additional renal protection."
+  },
+  {
+    "question": "A 78-year-old female is brought to the ED with confusion. She has a history of heart failure and takes furosemide 80 mg twice daily. Labs show: Na 118 mEq/L, K 3.1 mEq/L, serum osmolality 248 mOsm/kg. Urine osmolality is 420 mOsm/kg. What is the most likely cause of hyponatremia?",
+    "option_a": "Syndrome of inappropriate ADH (SIADH)",
+    "option_b": "Diuretic-induced hypovolemic hyponatremia",
+    "option_c": "Psychogenic polydipsia",
+    "option_d": "Adrenal insufficiency",
+    "correct_answer": "B",
+    "explanation": "This patient has hypovolemic hyponatremia secondary to loop diuretic use. The concentrated urine (high urine osmolality) indicates appropriate renal response to volume depletion. Treatment includes stopping the diuretic and careful volume repletion with isotonic saline."
+  },
+  {
+    "question": "A 60-year-old male with stable angina undergoes cardiac catheterization showing 80% stenosis of the left anterior descending artery. His ejection fraction is 55%. What is the most appropriate management?",
+    "option_a": "Medical therapy alone with aspirin, statin, and beta-blocker",
+    "option_b": "Coronary artery bypass grafting (CABG)",
+    "option_c": "Percutaneous coronary intervention (PCI) with drug-eluting stent",
+    "option_d": "Cardiac transplant evaluation",
+    "correct_answer": "C",
+    "explanation": "For single-vessel disease with significant stenosis causing symptoms despite optimal medical therapy, PCI with drug-eluting stent is appropriate. CABG is typically reserved for multivessel disease, left main disease, or diabetes with multivessel CAD."
+  },
+  {
+    "question": "A 44-year-old female presents with fatigue, constipation, cold intolerance, and weight gain. Physical exam reveals dry skin, bradycardia, and delayed relaxation of deep tendon reflexes. TSH is 45 mIU/L, and free T4 is 0.4 ng/dL. What is the treatment of choice?",
+    "option_a": "Methimazole",
+    "option_b": "Levothyroxine",
+    "option_c": "Propylthiouracil",
+    "option_d": "Radioactive iodine ablation",
+    "correct_answer": "B",
+    "explanation": "This patient has primary hypothyroidism (elevated TSH, low T4). Levothyroxine (synthetic T4) is the treatment of choice. The dose is typically 1.6 mcg/kg/day, started at full dose in young healthy patients but at lower doses in elderly or those with cardiac disease."
+  },
+  {
+    "question": "A 68-year-old male with Type 2 diabetes presents with chest pressure. ECG shows ST depression in V4-V6. Troponin I is 2.8 ng/mL (normal <0.04). He is diagnosed with NSTEMI. Which antiplatelet regimen is most appropriate?",
+    "option_a": "Aspirin alone",
+    "option_b": "Clopidogrel alone",
+    "option_c": "Aspirin plus ticagrelor",
+    "option_d": "Warfarin plus aspirin",
+    "correct_answer": "C",
+    "explanation": "For NSTEMI, dual antiplatelet therapy (DAPT) with aspirin plus a P2Y12 inhibitor (ticagrelor, prasugrel, or clopidogrel) is standard of care. Ticagrelor is preferred over clopidogrel due to superior outcomes in ACS, though it requires twice-daily dosing."
+  },
+  {
+    "question": "A 55-year-old male with hypertension is found to have unprovoked hypokalemia (K 2.9 mEq/L) on routine labs. Blood pressure is 165/100 mmHg despite three antihypertensive medications. Aldosterone-to-renin ratio is elevated. What is the most likely diagnosis?",
+    "option_a": "Essential hypertension",
+    "option_b": "Cushing syndrome",
+    "option_c": "Primary hyperaldosteronism",
+    "option_d": "Liddle syndrome",
+    "correct_answer": "C",
+    "explanation": "The triad of resistant hypertension, unprovoked hypokalemia, and elevated aldosterone-to-renin ratio is classic for primary hyperaldosteronism (Conn syndrome). Further workup with adrenal CT and adrenal vein sampling may be needed to differentiate adenoma from bilateral hyperplasia."
+  },
+  {
+    "question": "A 63-year-old female with atrial fibrillation on warfarin presents with an INR of 8.5 and no active bleeding. What is the most appropriate management?",
+    "option_a": "Administer vitamin K 10 mg IV and fresh frozen plasma",
+    "option_b": "Hold warfarin and administer vitamin K 2.5-5 mg orally",
+    "option_c": "Continue warfarin at reduced dose",
+    "option_d": "Administer prothrombin complex concentrate",
+    "correct_answer": "B",
+    "explanation": "For supratherapeutic INR >8 without bleeding, warfarin should be held and oral vitamin K (2.5-5 mg) administered. IV vitamin K and FFP/PCC are reserved for serious bleeding or need for urgent procedures. The INR should be rechecked in 24-48 hours."
+  },
+  {
+    "question": "A 50-year-old male presents with progressive dyspnea and orthopnea. Echo shows dilated cardiomyopathy with EF 20%. He has no history of coronary disease, hypertension, or alcohol use. Cardiac MRI shows no evidence of infiltrative disease. What is the most likely etiology?",
+    "option_a": "Ischemic cardiomyopathy",
+    "option_b": "Idiopathic dilated cardiomyopathy",
+    "option_c": "Hypertrophic cardiomyopathy",
+    "option_d": "Takotsubo cardiomyopathy",
+    "correct_answer": "B",
+    "explanation": "In the absence of coronary artery disease, hypertension, valvular disease, or other identifiable causes, this is classified as idiopathic dilated cardiomyopathy. Many cases have a genetic component. Management follows standard HFrEF guidelines including GDMT and consideration for ICD."
+  },
+  {
+    "question": "A 72-year-old male with CKD stage 4 has the following labs: Ca 7.8 mg/dL, phosphorus 6.8 mg/dL, PTH 380 pg/mL (normal 15-65), vitamin D 12 ng/mL. What is the most appropriate initial treatment?",
+    "option_a": "Calcium carbonate with meals",
+    "option_b": "Cinacalcet",
+    "option_c": "Calcitriol supplementation",
+    "option_d": "Parathyroidectomy",
+    "correct_answer": "A",
+    "explanation": "This patient has secondary hyperparathyroidism due to CKD with hyperphosphatemia and low calcium. Initial management includes phosphate binders (calcium carbonate with meals to bind dietary phosphate) and vitamin D supplementation. Cinacalcet is used if PTH remains elevated despite these measures."
+  },
+  {
+    "question": "A 58-year-old female with diabetes presents with a blood pressure of 175/105 mmHg. She is currently on lisinopril 40 mg daily. Creatinine is stable at 1.2 mg/dL. What is the best next step in blood pressure management?",
+    "option_a": "Add losartan",
+    "option_b": "Add amlodipine",
+    "option_c": "Double the lisinopril dose",
+    "option_d": "Add clonidine",
+    "correct_answer": "B",
+    "explanation": "Adding a calcium channel blocker (amlodipine) is appropriate as second-line therapy. Combining ACE inhibitors with ARBs is not recommended due to increased risk of hyperkalemia and renal dysfunction without additional benefit. Thiazide diuretics are also a good second-line option."
+  },
+  {
+    "question": "A 45-year-old male is found unresponsive. Blood glucose is 28 mg/dL. He regains consciousness after IV dextrose. He takes glipizide for diabetes. What is the most appropriate next step?",
+    "option_a": "Discharge home with instructions to reduce glipizide dose",
+    "option_b": "Admit for observation with continuous glucose monitoring",
+    "option_c": "Switch to metformin and discharge",
+    "option_d": "Start insulin and discharge",
+    "correct_answer": "B",
+    "explanation": "Sulfonylurea-induced hypoglycemia can be prolonged and recurrent due to the long half-life of these medications. Hospital admission for at least 24 hours with continuous glucose monitoring and IV dextrose availability is necessary. The sulfonylurea should be discontinued or reduced."
+  },
+  {
+    "question": "A 67-year-old male with heart failure (EF 25%) presents with fatigue. Labs show Na 128 mEq/L. He is euvolemic on exam. Current medications include carvedilol, lisinopril, and furosemide 40 mg daily. What is the most appropriate management of his hyponatremia?",
+    "option_a": "Fluid restriction to 1.5 L/day",
+    "option_b": "3% hypertonic saline infusion",
+    "option_c": "Increase furosemide dose",
+    "option_d": "Start demeclocycline",
+    "correct_answer": "A",
+    "explanation": "Euvolemic hyponatremia in heart failure is often dilutional due to neurohormonal activation and ADH release. Fluid restriction (1-1.5 L/day) is first-line management. Hypertonic saline is reserved for severe symptomatic hyponatremia. Tolvaptan may be considered if fluid restriction fails."
+  },
+  {
+    "question": "A 62-year-old female with a history of MI presents for follow-up. Her LDL cholesterol is 95 mg/dL on atorvastatin 40 mg daily. According to current guidelines, what is the LDL goal for this patient?",
+    "option_a": "< 130 mg/dL",
+    "option_b": "< 100 mg/dL",
+    "option_c": "< 70 mg/dL or 50% reduction from baseline",
+    "option_d": "< 55 mg/dL",
+    "correct_answer": "C",
+    "explanation": "For patients with established ASCVD (secondary prevention), high-intensity statin therapy targeting LDL <70 mg/dL or at least 50% reduction from baseline is recommended. If LDL remains above goal on maximally tolerated statin, adding ezetimibe or PCSK9 inhibitor should be considered."
+  },
+  {
+    "question": "A 70-year-old male with atrial fibrillation, hypertension, and diabetes has a CHA2DS2-VASc score of 4. He has a history of GI bleeding 6 months ago. What is the most appropriate anticoagulation strategy?",
+    "option_a": "No anticoagulation due to bleeding history",
+    "option_b": "Aspirin alone",
+    "option_c": "Apixaban with PPI after GI evaluation",
+    "option_d": "Warfarin with target INR 1.5-2.0",
+    "correct_answer": "C",
+    "explanation": "With a CHA2DS2-VASc of 4, stroke risk is high and anticoagulation benefit likely outweighs bleeding risk. After appropriate GI evaluation and treatment, anticoagulation can be resumed. Apixaban has the lowest GI bleeding risk among DOACs. PPI co-prescription reduces GI bleeding risk."
+  },
+  {
+    "question": "A 55-year-old male with Type 2 diabetes has an HbA1c of 7.8% on metformin 1000 mg twice daily. He has established cardiovascular disease. According to current guidelines, what medication should be added?",
+    "option_a": "Glipizide",
+    "option_b": "Sitagliptin",
+    "option_c": "Empagliflozin",
+    "option_d": "Pioglitazone",
+    "correct_answer": "C",
+    "explanation": "In patients with Type 2 diabetes and established ASCVD, an SGLT2 inhibitor (empagliflozin, dapagliflozin) or GLP-1 receptor agonist with proven cardiovascular benefit should be added regardless of HbA1c level. These agents reduce major adverse cardiovascular events."
+  },
+  {
+    "question": "A 48-year-old female presents with palpitations. ECG shows atrial fibrillation with rapid ventricular response at 156 bpm. Blood pressure is 142/88 mmHg. She is hemodynamically stable. What is the most appropriate initial rate control strategy?",
+    "option_a": "Synchronized cardioversion",
+    "option_b": "IV diltiazem",
+    "option_c": "IV adenosine",
+    "option_d": "Oral flecainide",
+    "correct_answer": "B",
+    "explanation": "For stable patients with atrial fibrillation and rapid ventricular response, IV rate control with a calcium channel blocker (diltiazem, verapamil) or beta-blocker is appropriate. Adenosine is used for supraventricular tachycardia, not atrial fibrillation. Cardioversion is for unstable patients."
+  },
+  {
+    "question": "A 60-year-old male with diabetes and hypertension has a creatinine of 2.4 mg/dL (baseline 1.4 mg/dL) two weeks after starting lisinopril. What is the most appropriate next step?",
+    "option_a": "Continue lisinopril as the rise is expected",
+    "option_b": "Stop lisinopril and evaluate for renal artery stenosis",
+    "option_c": "Add furosemide to increase renal perfusion",
+    "option_d": "Switch to amlodipine only",
+    "correct_answer": "B",
+    "explanation": "A rise in creatinine >30% after starting an ACE inhibitor or ARB suggests bilateral renal artery stenosis or stenosis in a solitary kidney. The medication should be stopped, and renal artery imaging (duplex ultrasound, CTA, or MRA) should be performed."
+  },
+  {
+    "question": "A 52-year-old male presents with severe epigastric pain radiating to his back, nausea, and vomiting. Lipase is 1,250 U/L. He consumes 6-8 beers daily. What is the most important initial management?",
+    "option_a": "Emergent ERCP",
+    "option_b": "Aggressive IV fluid resuscitation with Lactated Ringer's",
+    "option_c": "NPO and total parenteral nutrition",
+    "option_d": "Broad-spectrum antibiotics",
+    "correct_answer": "B",
+    "explanation": "Acute pancreatitis requires aggressive early IV fluid resuscitation (250-500 mL/hr initially) to prevent pancreatic necrosis. Lactated Ringer's is preferred over normal saline. NPO is standard, but enteral nutrition is preferred over TPN when tolerated. ERCP is indicated for biliary pancreatitis with cholangitis."
+  },
+  {
+    "question": "A 75-year-old female with heart failure is on furosemide 80 mg daily, lisinopril, and carvedilol. She presents with weakness. Labs show K 2.6 mEq/L and Mg 1.2 mg/dL. ECG shows U waves. What is the most appropriate management?",
+    "option_a": "Oral potassium supplementation only",
+    "option_b": "IV potassium and magnesium replacement",
+    "option_c": "Stop furosemide and observe",
+    "option_d": "Add spironolactone only",
+    "correct_answer": "B",
+    "explanation": "Severe hypokalemia with ECG changes requires IV potassium replacement. Importantly, hypomagnesemia makes hypokalemia refractory to treatment, so magnesium must be replaced concurrently. Oral supplementation is insufficient for severe deficiencies with ECG abnormalities."
+  },
+  {
+    "question": "A 66-year-old male with diabetes has a blood pressure of 155/95 mmHg. Urine albumin-to-creatinine ratio is 450 mg/g. His eGFR is 55 mL/min. He is already on maximum dose lisinopril. What medication should be added for additional renal protection?",
+    "option_a": "Losartan",
+    "option_b": "Dapagliflozin",
+    "option_c": "Hydrochlorothiazide",
+    "option_d": "Amlodipine",
+    "correct_answer": "B",
+    "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) provide significant renal protection in diabetic kidney disease independent of glycemic control. They reduce albuminuria, slow eGFR decline, and reduce risk of ESRD. Adding an ARB to an ACE inhibitor is not recommended due to increased adverse events."
+  },
+  {
+    "question": "A 42-year-old female presents with recurrent episodes of rapid heartbeat, sweating, and anxiety. During an episode, blood pressure is 185/110 mmHg and heart rate is 120 bpm. Between episodes, she is normotensive. 24-hour urine metanephrines are elevated. Before surgical resection, which medication class should be started first?",
+    "option_a": "Beta-blocker",
+    "option_b": "Alpha-blocker",
+    "option_c": "Calcium channel blocker",
+    "option_d": "ACE inhibitor",
+    "correct_answer": "B",
+    "explanation": "For pheochromocytoma, alpha-blockade must be initiated BEFORE beta-blockade to prevent unopposed alpha-mediated vasoconstriction (hypertensive crisis). Phenoxybenzamine or doxazosin is typically started 10-14 days before surgery. Beta-blockers are added later only if needed for tachycardia."
+  },
+  {
+    "question": "A 58-year-old male with Type 2 diabetes presents with burning pain in his feet bilaterally. Examination reveals decreased sensation to pinprick and vibration in a stocking distribution. What is the first-line treatment for his neuropathic pain?",
+    "option_a": "Oxycodone",
+    "option_b": "Pregabalin or duloxetine",
+    "option_c": "Aspirin",
+    "option_d": "Metformin dose increase",
+    "correct_answer": "B",
+    "explanation": "Diabetic peripheral neuropathy pain is best managed with pregabalin, gabapentin, duloxetine, or tricyclic antidepressants as first-line agents. Opioids should be avoided. Optimal glycemic control may prevent progression but does not typically relieve established neuropathic pain."
+  },
+  {
+    "question": "A 70-year-old male with chronic systolic heart failure (EF 28%) presents with worsening dyspnea over 3 days. He has gained 4 kg. JVP is elevated, and he has 3+ pitting edema. Current medications include lisinopril, carvedilol, and furosemide 40 mg daily. What is the most appropriate intervention?",
+    "option_a": "Increase carvedilol dose",
+    "option_b": "Add digoxin",
+    "option_c": "Increase furosemide to 80 mg IV twice daily",
+    "option_d": "Start dobutamine",
+    "correct_answer": "C",
+    "explanation": "This patient has acute decompensated heart failure (ADHF) with volume overload. IV diuretics at higher doses than the oral maintenance dose are needed for effective decongestion. Beta-blockers should be continued but not increased during acute decompensation. Inotropes are reserved for cardiogenic shock."
+  },
+  {
+    "question": "A 55-year-old male presents with chest pain that worsens with inspiration and improves when leaning forward. ECG shows diffuse ST elevation with PR depression. What is the most likely diagnosis?",
+    "option_a": "Acute myocardial infarction",
+    "option_b": "Acute pericarditis",
+    "option_c": "Pulmonary embolism",
+    "option_d": "Aortic dissection",
+    "correct_answer": "B",
+    "explanation": "Pleuritic chest pain relieved by sitting forward, along with diffuse ST elevation and PR depression on ECG, is classic for acute pericarditis. Unlike STEMI, the ST elevation is diffuse (not in a coronary distribution) and there are no reciprocal changes."
+  },
+  {
+    "question": "A 63-year-old female with chronic kidney disease stage 3b (eGFR 38 mL/min) requires a CT scan with contrast for evaluation of a renal mass. What is the most effective strategy to prevent contrast-induced nephropathy?",
+    "option_a": "N-acetylcysteine before and after contrast",
+    "option_b": "Pre-procedure and post-procedure IV isotonic saline hydration",
+    "option_c": "Prophylactic hemodialysis after contrast",
+    "option_d": "Mannitol infusion during procedure",
+    "correct_answer": "B",
+    "explanation": "IV volume expansion with isotonic saline (or isotonic bicarbonate) before and after contrast exposure is the most effective strategy for preventing contrast-induced AKI. N-acetylcysteine has not shown consistent benefit in clinical trials. The lowest possible contrast volume should be used."
+  },
+  {
+    "question": "A 49-year-old male is found to have a blood pressure of 180/115 mmHg with no symptoms. Fundoscopic exam is normal, creatinine is stable, and there is no proteinuria. What is the most appropriate management?",
+    "option_a": "Immediate IV labetalol",
+    "option_b": "Admit to ICU for nitroprusside infusion",
+    "option_c": "Start oral antihypertensive therapy and follow up in 1 week",
+    "option_d": "Observation only without treatment",
+    "correct_answer": "C",
+    "explanation": "This is hypertensive urgency (severe hypertension without end-organ damage), not a hypertensive emergency. Oral antihypertensive therapy should be initiated with gradual blood pressure reduction over 24-48 hours. IV medications and ICU admission are not necessary without evidence of end-organ damage."
+  },
+  {
+    "question": "A 72-year-old male with heart failure and atrial fibrillation is on digoxin 0.25 mg daily. He presents with nausea, visual disturbances (yellow-green halos), and confusion. Heart rate is 45 bpm. What is the most likely diagnosis?",
+    "option_a": "Acute stroke",
+    "option_b": "Digoxin toxicity",
+    "option_c": "Hypothyroidism",
+    "option_d": "Sick sinus syndrome",
+    "correct_answer": "B",
+    "explanation": "Nausea, visual disturbances (classically yellow-green halos), confusion, and bradycardia are classic manifestations of digoxin toxicity. Risk factors include renal impairment, hypokalemia, and drug interactions. Digoxin level should be checked and the drug held. Digoxin-specific antibody fragments (Fab) may be needed."
+  },
+  {
+    "question": "A 65-year-old female with Type 2 diabetes and hypertension has an eGFR of 25 mL/min (CKD stage 4). Which diabetes medication should be discontinued?",
+    "option_a": "Insulin glargine",
+    "option_b": "Metformin",
+    "option_c": "Linagliptin",
+    "option_d": "Repaglinide",
+    "correct_answer": "B",
+    "explanation": "Metformin is contraindicated when eGFR falls below 30 mL/min due to increased risk of lactic acidosis. Insulin can be used at any level of kidney function (though doses may need reduction). Linagliptin requires no dose adjustment in CKD. Most sulfonylureas require dose reduction or avoidance in advanced CKD."
+  },
+  {
+    "question": "A 58-year-old male with hypertension and diabetes develops a dry, persistent cough 6 weeks after starting lisinopril. Blood pressure is well controlled. What is the most appropriate next step?",
+    "option_a": "Add a cough suppressant and continue lisinopril",
+    "option_b": "Switch to losartan",
+    "option_c": "Stop lisinopril and start amlodipine only",
+    "option_d": "Decrease lisinopril dose",
+    "correct_answer": "B",
+    "explanation": "ACE inhibitor-induced cough occurs in 5-20% of patients due to bradykinin accumulation and is a class effect. The appropriate action is to switch to an ARB (losartan), which provides similar benefits without causing cough. Dose reduction does not help, and an ARB is preferred over other classes in diabetic patients."
+  },
+  {
+    "question": "A 45-year-old male presents with crushing chest pain for 2 hours. ECG shows ST elevation in II, III, and aVF with reciprocal changes in I and aVL. Which coronary artery is most likely occluded?",
+    "option_a": "Left anterior descending artery",
+    "option_b": "Left circumflex artery",
+    "option_c": "Right coronary artery",
+    "option_d": "Left main coronary artery",
+    "correct_answer": "C",
+    "explanation": "ST elevation in the inferior leads (II, III, aVF) with reciprocal changes in lateral leads indicates an inferior STEMI, most commonly due to right coronary artery (RCA) occlusion. The RCA supplies the inferior wall in most patients. Right-sided ECG leads should be obtained to assess for right ventricular involvement."
+  },
+  {
+    "question": "A 68-year-old female with Type 2 diabetes has a fasting glucose of 185 mg/dL and HbA1c of 10.2% despite metformin 1000 mg twice daily and glipizide 10 mg twice daily. She has no cardiovascular disease. What is the most appropriate next step?",
+    "option_a": "Add pioglitazone",
+    "option_b": "Add basal insulin",
+    "option_c": "Triple the metformin dose",
+    "option_d": "Add acarbose",
+    "correct_answer": "B",
+    "explanation": "With HbA1c >10% and significant hyperglycemia despite two oral agents, insulin therapy is indicated. Basal insulin (glargine, detemir, degludec) added to oral agents is a common and effective strategy. The sulfonylurea may need to be reduced to prevent hypoglycemia when insulin is added."
+  },
+  {
+    "question": "A 50-year-old male is diagnosed with new-onset atrial fibrillation. He has no history of heart failure, hypertension, diabetes, or vascular disease. His echocardiogram is normal. What is his CHA2DS2-VASc score and anticoagulation recommendation?",
+    "option_a": "Score 0; aspirin recommended",
+    "option_b": "Score 0; no antithrombotic therapy needed",
+    "option_c": "Score 1; anticoagulation recommended",
+    "option_d": "Score 1; aspirin or anticoagulation",
+    "correct_answer": "B",
+    "explanation": "His CHA2DS2-VASc score is 0 (male with no risk factors). For men with a score of 0, no antithrombotic therapy is recommended. Aspirin is no longer recommended for stroke prevention in atrial fibrillation due to unfavorable risk-benefit ratio. Anticoagulation is indicated for scores ≥2 (or ≥1 if considering)."
+  },
+  {
+    "question": "A 62-year-old male with COPD and hypertension needs blood pressure control. Which antihypertensive class should be used with caution in this patient?",
+    "option_a": "ACE inhibitors",
+    "option_b": "Calcium channel blockers",
+    "option_c": "Non-selective beta-blockers",
+    "option_d": "Thiazide diuretics",
+    "correct_answer": "C",
+    "explanation": "Non-selective beta-blockers (propranolol, nadolol) block β2 receptors in the bronchi, potentially causing bronchoconstriction in patients with COPD or asthma. Cardioselective beta-blockers (metoprolol, bisoprolol) are safer but should still be used cautiously. ACE inhibitors are generally well-tolerated in COPD."
+  },
+  {
+    "question": "A 75-year-old male with heart failure (EF 20%) is being evaluated for an implantable cardioverter-defibrillator (ICD). He has been on optimal medical therapy for 4 months. What is the primary indication for ICD placement?",
+    "option_a": "Improve exercise tolerance",
+    "option_b": "Primary prevention of sudden cardiac death",
+    "option_c": "Treatment of bradycardia",
+    "option_d": "Improve ejection fraction",
+    "correct_answer": "B",
+    "explanation": "ICD is indicated for primary prevention of sudden cardiac death in patients with heart failure and EF ≤35% despite ≥3 months of optimal medical therapy, with life expectancy >1 year. ICDs do not improve EF or exercise capacity but reduce mortality from ventricular arrhythmias."
+  },
+  {
+    "question": "A 54-year-old female with Type 2 diabetes develops pedal edema and weight gain after starting pioglitazone. Her baseline echocardiogram 3 months ago showed normal EF. What is the most appropriate action?",
+    "option_a": "Continue pioglitazone and add furosemide",
+    "option_b": "Discontinue pioglitazone",
+    "option_c": "Reduce pioglitazone dose by half",
+    "option_d": "Add spironolactone",
+    "correct_answer": "B",
+    "explanation": "Thiazolidinediones (pioglitazone, rosiglitazone) cause fluid retention and edema, and are associated with increased heart failure risk. They are contraindicated in patients with symptomatic heart failure. In this patient with new edema, pioglitazone should be discontinued and an alternative diabetes medication used."
+  },
+  {
+    "question": "A 67-year-old male presents with sudden onset of palpitations and lightheadedness. ECG shows a wide complex tachycardia at 180 bpm. Blood pressure is 85/60 mmHg. What is the most appropriate immediate management?",
+    "option_a": "IV adenosine 6 mg",
+    "option_b": "IV amiodarone",
+    "option_c": "Synchronized cardioversion",
+    "option_d": "IV verapamil",
+    "correct_answer": "C",
+    "explanation": "Wide complex tachycardia with hemodynamic instability (hypotension, altered consciousness) requires immediate synchronized cardioversion. Adenosine is used for narrow complex SVT. Verapamil is contraindicated in wide complex tachycardia as it can cause cardiovascular collapse if the rhythm is ventricular tachycardia."
+  },
+  {
+    "question": "A 58-year-old female with diabetes and CKD stage 3 has a potassium of 5.8 mEq/L. She takes lisinopril, metoprolol, and empagliflozin. ECG shows no acute changes. What is the most appropriate initial intervention?",
+    "option_a": "Emergency hemodialysis",
+    "option_b": "Dietary potassium restriction and patiromer",
+    "option_c": "IV calcium gluconate",
+    "option_d": "Stop all medications",
+    "correct_answer": "B",
+    "explanation": "For mild-moderate hyperkalemia without ECG changes, conservative management with dietary restriction and oral potassium binders (patiromer, sodium zirconium cyclosilicate) is appropriate. RAAS inhibitors provide significant cardiorenal benefit and should not be stopped if hyperkalemia can be managed medically."
+  },
+  {
+    "question": "A 52-year-old male presents with fatigue and decreased libido. Labs show: TSH 8.2 mIU/L, free T4 0.7 ng/dL. Total testosterone is low. What is the most likely explanation for his hypogonadism?",
+    "option_a": "Primary testicular failure",
+    "option_b": "Secondary hypogonadism from hypothyroidism",
+    "option_c": "Pituitary adenoma",
+    "option_d": "Klinefelter syndrome",
+    "correct_answer": "B",
+    "explanation": "Hypothyroidism can cause secondary hypogonadism through multiple mechanisms including altered SHBG levels and effects on the hypothalamic-pituitary axis. Treatment of the underlying hypothyroidism with levothyroxine often normalizes testosterone levels without need for testosterone replacement."
+  },
+  {
+    "question": "A 63-year-old male with stable angina is on aspirin, atorvastatin, and metoprolol. He continues to have exertional chest pain 2-3 times per week. What medication should be added?",
+    "option_a": "Clopidogrel",
+    "option_b": "Long-acting nitrate (isosorbide mononitrate)",
+    "option_c": "Warfarin",
+    "option_d": "Digoxin",
+    "correct_answer": "B",
+    "explanation": "For stable angina with breakthrough symptoms despite beta-blocker therapy, adding a long-acting nitrate or calcium channel blocker is appropriate. Nitrates reduce preload and myocardial oxygen demand. Ranolazine is another option for refractory angina. Clopidogrel is added after ACS or PCI, not for stable angina."
+  }
+]
