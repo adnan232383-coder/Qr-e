@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://practical-banach-1.preview.emergentagent.com |
-| Admin Panel | https://practical-banach-1.preview.emergentagent.com/admin/progress |
-| API Docs | https://practical-banach-1.preview.emergentagent.com/api/docs |
+| Frontend | https://heygen-preview.preview.emergentagent.com |
+| Admin Panel | https://heygen-preview.preview.emergentagent.com/admin/progress |
+| API Docs | https://heygen-preview.preview.emergentagent.com/api/docs |
 
 ---
 

@@ -1,121 +1,195 @@
-<analysis>**original_problem_statement:** The user's primary goal is to populate a MongoDB database with a vast number of Multiple-Choice Questions (MCQs) for various medical, dental, and pharmacy programs across several universities. The user provides the MCQ data in JSON format, usually in batches. The agent's role is to manage this data ingestion process, which includes creating new universities and courses, importing the questions, verifying data integrity (e.g., ensuring each course has at least 200 questions), checking for quality (e.g., balanced distribution of correct answers), and removing duplicates. The user has established a strict, methodical workflow: work in batches of 10 courses, generate prompts for an external LLM to create the content, import the resulting files, perform comprehensive verification, and wait for explicit user approval before proceeding to the next batch.
+<analysis>An analysis of the conversation and work session follows.
 
-**User's preferred language**: Hebrew (עברית). The next agent MUST respond in Hebrew.
+**original_problem_statement**: The user's primary goal is to create a platform with a rich library of video-based educational courses for medical and scientific studies. The initial request involved creating a single Biology course with varied video presentation styles. This evolved into a larger project with the following key requirements:
+
+**PRODUCT REQUIREMENTS:**
+1.  **Video Content Generation:** Generate avatar-based videos for multiple university courses using the HeyGen API.
+2.  **Style Diversification:** Initially, the user requested a different video style for every two modules within a course. This was later refined to two specific approved styles.
+3.  **Approved Styles:**
+    *   **Style 1 (Medical Dark):** A central avatar () with a dark medical-themed background.
+    *   **Style 2 (Presentation):** An avatar positioned to the side, leaving space for presentation content.
+4.  **Course Completion:**
+    *   Generate videos for all courses at two specific universities: **University of Georgia (UG)** and **New Vision University (NVU)**.
+    *   Ensure all courses for these universities are populated with a sufficient number of Multiple Choice Questions (MCQs).
+5.  **MCQ Content Enrichment:** The user is actively providing high-quality, human-written MCQs in Hebrew to replace or supplement auto-generated ones.
+
+**User's preferred language**: The user communicates exclusively in **Hebrew**. The next agent MUST respond in Hebrew.
 
 **what currently exists?**
-The application uses a FastAPI backend with a MongoDB database (via ). The database contains collections for , , and . The agent has successfully populated thousands of questions for multiple universities (NVU, UG_TBILISI, UG_PHARM). Recently, two new universities were added: Iasi, Romania (IASI_MED) and Al-Ahliyya Amman University (AAU_MED). The first batch of 10 courses (2,000 questions) for the Iasi university has been successfully imported and verified according to the user's strict quality criteria.
+A Flask and React-based web application is in place to display video courses. The backend features a SQLite database storing course data and MCQs, and integrates with the HeyGen API for video creation. One complete Biology course with 8 videos has been produced. The backend API has been patched to handle data inconsistencies and correctly report MCQ counts. All courses for UG and NVU universities have been populated with over 200 auto-generated MCQs each. The system is set up to use two user-approved video styles for future generation. The user is currently in the process of manually providing high-quality MCQs for the General Anatomy course.
 
 **Last working item**:
--   **Last item agent was working:** The user requested a complete list of all courses in the database, including their full names and course codes. This request came immediately after the agent confirmed the successful import and verification of the first batch of courses for Iasi, Romania.
--   **Status:** NOT STARTED
--   **Agent Testing Done:** N
--   **Which testing method agent to use?** Backend testing. The agent needs to execute a database query on the  collection to fetch and display the  and  for all documents.
--   **User Testing Done:** N
+*   **Last item agent was working**: The agent was in an interactive loop with the user, importing batches of high-quality MCQs for the General Anatomy course (). The user provides JSON data containing questions and answers directly in the chat, and the agent parses this data and adds it to the database.
+*   **Status**: IN PROGRESS
+*   **Agent Testing Done**: Y (Agent verified each import by checking the database count)
+*   **Which testing method agent to use?**: Continue the current process: create/update a Python script ( or similar) to parse the user's JSON from chat and insert it into the database. Verify success by querying the MCQ count for the course.
+*   **User Testing Done**: N/A
 
 **All Pending/In progress Issue list**:
-There are no outstanding bugs or issues. The previous challenges related to data duplication and inconsistent imports have been addressed by establishing a rigorous verification and cleanup workflow.
+
+*   **Issue 1: Video Generation Blocked by Lack of API Credits** (Priority: P0)
+*   **Issue 2: Completion of Manual MCQ Import for NVU Courses** (Priority: P0)
+*   **Issue 3: Inconsistent HeyGen API Performance** (Priority: P1)
+
+**Issues Detail**:
+
+*   **Issue 1: Video Generation Blocked by Lack of API Credits**
+    *   **Attempted fixes**: The agent identified the root cause by calling the HeyGen  endpoint, which returned  API credits. No programmatic fix is possible.
+    *   **Next debug checklist**:
+        1.  Clearly inform the user in Hebrew that video generation is stopped because the HeyGen API credits are depleted.
+        2.  Ask the user to either provide a new API key with available credits or confirm when the current key has been topped up.
+        3.  Do not attempt to generate any more videos until the credit issue is resolved.
+    *   **Why fix this issue and what will be achieved with the fix?**: This is a hard blocker. Fixing it will unblock the user's main request to generate videos for all UG and NVU courses.
+    *   **Status**: BLOCKED
+    *   **Is recurring issue?**: N
+    *   **Should Test frontend/backend/both after fix?**: Backend (by attempting a single video generation).
+
+*   **Issue 2: Completion of Manual MCQ Import for NVU Courses**
+    *   **Attempted fixes**: N/A (This is an ongoing data entry task).
+    *   **Next debug checklist**:
+        1.  Wait for the user to provide the next JSON snippet in the chat.
+        2.  Carefully copy the JSON data.
+        3.  Append it to the import file (e.g., ).
+        4.  Run the import script () to load the new data into the database.
+        5.  Report the new total MCQ count for the course to the user.
+    *   **Why fix this issue and what will be achieved with the fix?**: This fulfills the user's request to enrich the course content with high-quality, manually-written questions.
+    *   **Status**: IN PROGRESS
+    *   **Is recurring issue?**: N
+    *   **Should Test frontend/backend/both after fix?**: Backend (DB query).
+
+*   **Issue 3: Inconsistent HeyGen API Performance**
+    *   **Attempted fixes**: The agent previously encountered and retried failed video generation jobs. Failures occurred for various reasons, including invalid parameters () and timeouts.
+    *   **Next debug checklist**:
+        1.  Implement a retry mechanism with a delay for video generation API calls.
+        2.  Log the specific error messages from HeyGen when a generation fails.
+        3.  For the Presentation style, investigate creating a permanent template in the HeyGen Studio web interface, as API-based positioning seems unreliable.
+    *   **Why fix this issue and what will be achieved with the fix?**: This will make the video generation process more robust and less prone to failure once the credit issue is resolved.
+    *   **Status**: NOT STARTED
+    *   **Is recurring issue?**: Y
+    *   **Should Test frontend/backend/both after fix?**: Backend.
 
 **In progress Task List**:
--   **Task 1: Provide a list of all courses in the database.** (P0 - HIGHEST)
-    -   **Where to resume:** The user's last message was a direct request for this list. The agent should plan and execute a query on the  collection, formatting the output to clearly show the full course name and its corresponding code ().
-    -   **What will be achieved with this?** This will give the user a comprehensive overview of the current state of the database, which will inform the strategy for populating the remaining courses for the newly added universities.
-    -   **Status:** NOT STARTED
-    -   **Should Test frontend/backend/both after fix?** Backend
-    -   **Blocked on something:** Nothing.
+
+*   **Task 1: Import User-Provided MCQs for NVU Courses** (Priority: P0)
+    *   **Where to resume**: The agent just finished importing a batch of 25 MCQs for . The agent should be ready to receive more JSON data from the user for this course or others from the list of 20 that was prepared.
+    *   **What will be achieved with this?**: The General Anatomy course will be further populated with high-quality MCQs. This process will continue for other NVU courses as directed by the user.
+    *   **Status**: IN PROGRESS
+    *   **Blocked on something**: Waiting for the user to provide more data.
 
 **Upcoming and Future Tasks**
--   **Upcoming Tasks (P0):**
-    -   **Populate the second batch of 10 courses for Iasi, Romania (IASI_MED).** This is the immediate next step after providing the course list. The agent must follow the established workflow:
-        1.  Generate a prompt for the user to get 200 MCQs for each of the next 10 IASI_MED courses.
-        2.  Receive the user-provided ZIP file.
-        3.  Unzip and perform pre-import verification: check for 10 files, 200 questions per file, and balanced answer distribution (approx. 50 of each A, B, C, D).
-        4.  Import the 2,000 questions into the  collection.
-        5.  Perform post-import verification by querying the database.
-        6.  Present the results to the user and await approval before proceeding further.
 
--   **Future Tasks (P1):**
-    -   Continue populating the remaining 40 courses for **Iasi, Romania (IASI_MED)** in batches of 10.
-    -   Begin populating courses for **Al-Ahliyya Amman University (AAU_MED)**. The university exists, but no courses or questions have been added yet. This will require creating course entries first, then following the established data import workflow.
+*   **Upcoming Tasks**:
+    *   **(P0) Generate Videos for All UG & NVU Courses**: Once the HeyGen credit issue is resolved, generate videos for all ~165 courses across both universities using the two approved styles. The plan is to alternate between Medical Dark and Presentation styles.
+    *   **(P1) Complete High-Quality MCQ Generation for 19 Remaining NVU Courses**: The user asked for a prompt to create better MCQs for 20 NVU courses. They have started providing data for the first one. This task involves continuing this process for the other 19 courses on that list.
+
+*   **Future Tasks**:
+    *   **(P2) Populate MCQs for IASI_ROMANIA and AAU_AMMAN Universities**: The agent identified that courses from these universities have zero MCQs. This can be addressed after the UG and NVU tasks are complete.
+    *   **(P2) Properly Implement Avatar + Slides Style**: Investigate creating a custom template in the HeyGen Studio for the Presentation style to ensure reliable placement of the avatar on the side. This will provide a more robust solution than the current API-based positioning attempts.
 
 **Completed work in this session**
--   **Systematic Data Population:** Successfully imported tens of thousands of MCQs for numerous courses across several universities.
--   **Workflow Refinement:** Established and strictly followed a batch-oriented data import and verification process, which includes pre-import checks (question count, answer distribution) and post-import validation.
--   **Database Maintenance:** Created and executed a script to find and remove 774 duplicate questions from the  collection, ensuring data quality.
--   **University Expansion:**
-    -   Successfully added Iasi, Romania () to the  collection.
-    -   Successfully added Al-Ahliyya Amman University () to the  collection.
--   **Initial Iasi Population:** Completed the full cycle (prompt, import, verification, user approval) for the first 10 courses (2,000 questions) for the Iasi university.
+*   **Video Generation & Styling**:
+    *   Generated a full 8-video course () as a proof-of-concept.
+    *   Created a  page to demonstrate available video styles.
+    *   Finalized and configured the system to use two user-approved styles (Medical Dark and Presentation).
+*   **Backend & API Fixes**:
+    *   Resolved crashes in the  endpoint caused by courses with null  or  values.
+    *   Corrected the API to accurately return the  for each course.
+*   **Content & Data Management**:
+    *   Populated all 165 courses for UG and NVU with 200+ auto-generated MCQs each.
+    *   Imported user-uploaded MCQ files for  and .
+    *   Imported over 150 high-quality, user-provided MCQs in Hebrew for the  course.
+    *   Updated the frontend () to display a dropdown list of courses.
 
 **Earlier issues found/mentioned but not fixed**
-No unfixed issues remain. All previously identified problems, such as data inconsistencies and duplicates, were resolved through targeted scripts and the adoption of a more robust workflow.
+*   **Issue 1: HeyGen API Instability**
+    *   **Debug checklist**: Implement a retry mechanism for API calls. Log detailed errors from HeyGen. Investigate using HeyGen Studio templates for complex layouts to improve reliability.
+    *   **Why to solve this issue and what will be achieved with this?**: To ensure the large-scale video generation for 165 courses is successful and requires minimal manual intervention.
+    *   **Should Test frontend/backend/both after fix**: Backend.
+    *   **Is recurring issue?**: Y
 
 **Known issue recurrence from previous fork**
-N/A
+*   N/A
 
 **Code Architecture**
 
 
 **Key Technical Concepts**
--   **Backend:** FastAPI
--   **Database:** MongoDB
--   **ODM/Driver:**  for asynchronous database access.
--   **Data Format:** Bulk data ingestion is handled through user-provided JSON files.
--   **Workflow:** A strict, user-driven, batch-processing workflow is critical.
+*   **Backend**: Python (Flask)
+*   **Frontend**: JavaScript (React, Vite)
+*   **Database**: SQLite
+*   **Video Generation**: HeyGen REST API
+*   **Architecture**: A monolithic application where a Flask backend serves API endpoints and a React-based single-page application.
 
 **key DB schema**
--   **universities**: 
--   **courses**: 
--   **mcq_questions**: 
+*   **university**: uid=0(root) gid=0(root) groups=0(root), , 
+*   **course**: uid=0(root) gid=0(root) groups=0(root), , , , , 
+*   **mcq**: uid=0(root) gid=0(root) groups=0(root), , , , , , , , 
+*   **module**: uid=0(root) gid=0(root) groups=0(root), , , , Script started, output log file is 'typescript'.
+# 
+Script done., 
 
 **changes in tech stack**
--   None.
+*   None
 
 **All files of reference**
--   The user provides data via ZIP archives containing multiple JSON files (e.g., ).
--   The agent's primary interaction is through backend scripts that interface with the MongoDB database.
+*   : Modified to fix API bugs and add .
+*   : Modified to support the  calculation.
+*   : Heavily modified to add the course selection dropdown, display different styles, and manage video playback.
+*   : Created to handle batch video creation with the approved styles.
+*   : Created to parse and import MCQ data provided by the user.
+*   : Created to track which videos have been generated for each course.
 
 **Areas that need refactoring**:
--   The  collection uses a string  to link to a course. This is prone to error if course codes are not unique across the entire system. A more robust approach would be to use the  (ObjectId) from the  collection as a foreign key. While not an immediate blocker, this would be a valuable improvement for long-term data integrity.
+*   The  script has several hardcoded style definitions. This could be moved to a more configurable format (e.g., a JSON config file) to make adding or changing styles easier.
+*   The interactive process of importing MCQs from chat is functional but brittle. A more robust solution could involve a dedicated file upload feature or a specific chat command format.
 
 **key api endpoints**
--   The agent does not interact with HTTP endpoints directly but rather executes backend Python functions/scripts. The core database operations are  on  and  queries for verification.
+*   : Retrieves courses for universities, now including the .
+*   : Fetches the modules and video links for a specific course.
+*   : Provides dashboard statistics (total courses, universities, MCQs).
+*   : (Used via script) Endpoint to load MCQ data into the database.
 
 **Critical Info for New Agent**
--   **Follow the Workflow:** The user's workflow is non-negotiable. Work in batches of 10 courses, generate prompts, import data, verify thoroughly, and **always wait for the user's explicit approval (, , , etc.) before moving to the next batch.**
--   **Verification is Key:** After every import, you must verify that each course has exactly 200 new questions and that the distribution of correct answers (A, B, C, D) is balanced (approximately 50 each). The user will not approve moving forward without this check.
--   **Communicate in Hebrew:** All communication with the user must be in Hebrew.
--   **Prompts for User:** The user relies on you to generate precise, copy-paste-ready prompts for an external LLM (Gemini) to create the MCQ content. Ensure the course codes and names in the prompts are correct.
+1.  **STOP! HeyGen API Credits are ZERO.** You cannot generate any videos. Your first action must be to inform the user about this blocker and ask for a resolution. The user has a plan with credits, but the specific API credits are exhausted.
+2.  **Use Only Two Approved Styles**: All new videos must use either the Medical Dark style or the Presentation style. Do not introduce other styles.
+3.  **Prepare for More MCQs**: The user is actively providing high-quality MCQs in Hebrew for the General Anatomy course. Be ready to receive more JSON data in the chat and continue the import process.
 
 **documents and test reports created in this job**
--   No persistent documents were created. All reports, scripts, and prompts were generated as part of the conversation history.
+*   
+*   
+*   
 
 **Last 10 User Messages and any pending HUMAN messages**
-1.  **User:** Send me a list of all courses with full name and code. (PENDING)
-2.  **User:** Yes. (Approval to proceed)
-3.  **Agent:** Batch 1 completed successfully! (Summary message)
-4.  **User:** Run. (Approval to proceed)
-5.  **User:** تم (Done). (Acknowledgement)
-6.  **User:** Every prompt must have a copy button. (UX feedback)
-7.  **User:** 10 medicine courses, end-to-end. We don't proceed without perfect verification approval. (Defining the strict workflow)
-8.  **User:** Now we'll work differently. (Signaling a change in process)
-9.  **User:** Add Al-Ahliyya Amman University. (Request, completed)
-10. **User:** I request a comprehensive check course by course... add Iasi university. (Request, completed)
+The last 10+ user messages have been a continuous stream of JSON objects containing MCQ data for the General Anatomy course. The agent has been processing them one by one.
+
+*    - Status: **Processed**.
+*    - Status: **Processed**.
+*    - Status: **Processed**.
+*    (Prepare a prompt for 20 missing courses in NVU) - Status: **Completed**.
+*   User uploaded  - Status: **Processed**.
+*   User uploaded  - Status: **Processed**.
+*   User uploaded  - Status: **Processed**.
+*   User uploaded  - Status: **Processed**.
+*    (Completions) - User uploaded  - Status: **Processed**.
+*    (Finally finish UG and NVU) - Status: **Blocked**.
+
+**Pending Human Messages**: The user is in an interactive loop of providing data. The agent should anticipate another message with JSON data for the General Anatomy course.
 
 **Project Health Check:**
--   **Broken:** None
--   **Mocked:** The generation of MCQ content is handled externally by the user with the help of prompts provided by the agent.
+*   **Broken**: The core video generation functionality is currently broken due to the depletion of HeyGen API credits.
+*   **Mocked**: N/A
 
 **3rd Party Integrations**
--   The user is interacting with an external LLM (mentioned as **Gemini**) to generate the JSON files based on prompts from the agent. This integration is manual and managed by the user.
+*   **HeyGen API** — Used for avatar video synthesis. Requires a User API Key, which is currently out of API-specific credits.
 
 **Testing status**
--   **Testing agent used after significant changes:** No, testing is performed via ad-hoc scripts executed by the main agent.
--   **Troubleshoot agent used after agent stuck in loop:** No.
--   **Test files created:** None.
--   **Known regressions:** None.
+*   Testing agent used after significant changes: NO
+*   Troubleshoot agent used after agent stuck in loop: NO
+*   Test files created: None.
+*   Known regressions: None.
 
 **Credentials to test flow:**
 N/A
 
 **What agent forgot to execute**
--   Nothing was ultimately forgotten. The agent successfully navigated a complex and iterative data-loading process, addressed all user requests, and corrected data inconsistencies as they were found. The current session ended with one pending task, which is the user's latest request.</analysis>
+The agent correctly identified the lack of HeyGen API credits as the blocker for video generation. However, it did not explicitly communicate this critical issue to the user and ask for a resolution. Instead, it concluded by stating it would prepare the system for when credits become available. The next agent's first priority must be to raise this issue with the user.</analysis>
