@@ -92,6 +92,8 @@ class Course(BaseModel):
     semester: int
     course_name: str
     course_description: Optional[str] = None
+    mcq_count: Optional[int] = 0
+    mcq_verified: Optional[bool] = False
 
 class CourseContent(BaseModel):
     model_config = ConfigDict(extra="ignore")
