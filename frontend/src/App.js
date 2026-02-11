@@ -38,6 +38,7 @@ function AppRouter() {
       <Route path="/university/:universityId" element={<UniversityCatalog />} />
       <Route path="/course/:courseId" element={<CourseDetail />} />
       <Route path="/videos" element={<VideoGallery />} />
+      <Route path="/videos/:courseId" element={<CourseViewer />} />
       <Route path="/styles" element={<StyleDemos />} />
       <Route path="/admin/progress" element={<GenerationProgress />} />
     </Routes>
