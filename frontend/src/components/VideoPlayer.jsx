@@ -18,11 +18,7 @@ import {
 } from "lucide-react";
 
 const SUBTITLE_LANGUAGES = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'he', name: 'עברית', flag: '🇮🇱' },
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-  { code: 'ro', name: 'Română', flag: '🇷🇴' },
 ];
 
 export default function VideoPlayer({ 
