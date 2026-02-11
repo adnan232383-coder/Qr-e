@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://course-import-hub.preview.emergentagent.com |
-| Admin Panel | https://course-import-hub.preview.emergentagent.com/admin/progress |
-| API Docs | https://course-import-hub.preview.emergentagent.com/api/docs |
+| Frontend | https://practical-banach-1.preview.emergentagent.com |
+| Admin Panel | https://practical-banach-1.preview.emergentagent.com/admin/progress |
+| API Docs | https://practical-banach-1.preview.emergentagent.com/api/docs |
 
 ---
 
