@@ -2,7 +2,8 @@
   {
     "module_id": "module2",
     "video_id": "2cd95c0f9ef24546a0af1d35e815c11b",
-    "style": "Medical Dark"
+    "style": "Medical Dark",
+    "status": "failed"
   },
   {
     "module_id": "module3",
@@ -22,6 +23,7 @@
   {
     "module_id": "module6",
     "video_id": "78b92f62d3c44b21b1aeff1adf7ccb97",
-    "style": "Studio Dark"
+    "style": "Studio Dark",
+    "status": "failed"
   }
 ]
