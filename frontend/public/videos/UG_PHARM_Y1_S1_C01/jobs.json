@@ -4,8 +4,9 @@
     "title": "General",
     "video_id": "3c5bccad08fb458a9424cdedf6140989",
     "style": "Medical Dark",
-    "status": "pending",
-    "output_file": "module1.mp4"
+    "status": "completed",
+    "output_file": "module1.mp4",
+    "duration": 37.1984
   },
   {
     "module_id": "module2",
@@ -44,7 +45,7 @@
     "title": "General",
     "video_id": "354ee46e222d499e84892f52a94a19c7",
     "style": "Studio Dark",
-    "status": "pending",
+    "status": "failed",
     "output_file": "module6.mp4"
   },
   {
@@ -52,15 +53,17 @@
     "title": "General",
     "video_id": "fed4d7e74b134686b7d72046d61d9976",
     "style": "Business Modern",
-    "status": "pending",
-    "output_file": "module7.mp4"
+    "status": "completed",
+    "output_file": "module7.mp4",
+    "duration": 37.9298
   },
   {
     "module_id": "module8",
     "title": "General",
     "video_id": "3a6edb6efc70422dbad0030cd6b0f2de",
     "style": "Business Modern",
-    "status": "pending",
-    "output_file": "module8.mp4"
+    "status": "completed",
+    "output_file": "module8.mp4",
+    "duration": 36.6237
   }
 ]

@@ -1,0 +1,159 @@
+{
+  "course_id": "UG_PHARM_Y1_S1_C01",
+  "course_name": "General Chemistry",
+  "description": "Basic chemical principles for biomedical and pharmaceutical sciences.",
+  "modules": [
+    {
+      "id": "module1",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": "UG_PHARM_Y1_S1_C01/module1.mp4",
+      "style": {
+        "avatar_id": "Adriana_Nurse_Front_public",
+        "avatar_name": "Adriana Nurse",
+        "voice_id": "42d00d4aac5441279d8536cd6b52c53c",
+        "voice_name": "Hope",
+        "background": {
+          "type": "color",
+          "value": "#1a1a2e"
+        },
+        "style_name": "Medical Dark"
+      }
+    },
+    {
+      "id": "module2",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": null,
+      "style": {
+        "avatar_id": "Adriana_Nurse_Front_public",
+        "avatar_name": "Adriana Nurse",
+        "voice_id": "42d00d4aac5441279d8536cd6b52c53c",
+        "voice_name": "Hope",
+        "background": {
+          "type": "color",
+          "value": "#1a1a2e"
+        },
+        "style_name": "Medical Dark"
+      }
+    },
+    {
+      "id": "module3",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": null,
+      "style": {
+        "avatar_id": "Abigail_standing_office_front",
+        "avatar_name": "Abigail Office",
+        "voice_id": "cef3bc4e0a84424cafcde6f2cf466c97",
+        "voice_name": "Ivy",
+        "background": {
+          "type": "color",
+          "value": "#f5f5f5"
+        },
+        "style_name": "Office Light"
+      }
+    },
+    {
+      "id": "module4",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": null,
+      "style": {
+        "avatar_id": "Abigail_standing_office_front",
+        "avatar_name": "Abigail Office",
+        "voice_id": "cef3bc4e0a84424cafcde6f2cf466c97",
+        "voice_name": "Ivy",
+        "background": {
+          "type": "color",
+          "value": "#f5f5f5"
+        },
+        "style_name": "Office Light"
+      }
+    },
+    {
+      "id": "module5",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": null,
+      "style": {
+        "avatar_id": "Adrian_public_2_20240312",
+        "avatar_name": "Adrian Blue Suit",
+        "voice_id": "6be73833ef9a4eb0aeee399b8fe9d62b",
+        "voice_name": "Andrew",
+        "background": {
+          "type": "color",
+          "value": "#263238"
+        },
+        "style_name": "Studio Dark"
+      }
+    },
+    {
+      "id": "module6",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": null,
+      "style": {
+        "avatar_id": "Adrian_public_2_20240312",
+        "avatar_name": "Adrian Blue Suit",
+        "voice_id": "6be73833ef9a4eb0aeee399b8fe9d62b",
+        "voice_name": "Andrew",
+        "background": {
+          "type": "color",
+          "value": "#263238"
+        },
+        "style_name": "Studio Dark"
+      }
+    },
+    {
+      "id": "module7",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": "UG_PHARM_Y1_S1_C01/module7.mp4",
+      "style": {
+        "avatar_id": "Adriana_Business_Front_public",
+        "avatar_name": "Adriana Business",
+        "voice_id": "42d00d4aac5441279d8536cd6b52c53c",
+        "voice_name": "Hope",
+        "background": {
+          "type": "color",
+          "value": "#1e3a5f"
+        },
+        "style_name": "Business Modern"
+      }
+    },
+    {
+      "id": "module8",
+      "title": "General",
+      "topics": [
+        "General"
+      ],
+      "videoFile": "UG_PHARM_Y1_S1_C01/module8.mp4",
+      "style": {
+        "avatar_id": "Adriana_Business_Front_public",
+        "avatar_name": "Adriana Business",
+        "voice_id": "42d00d4aac5441279d8536cd6b52c53c",
+        "voice_name": "Hope",
+        "background": {
+          "type": "color",
+          "value": "#1e3a5f"
+        },
+        "style_name": "Business Modern"
+      }
+    }
+  ]
+}
