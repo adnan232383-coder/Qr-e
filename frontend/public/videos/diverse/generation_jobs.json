@@ -2,17 +2,15 @@
   {
     "module_id": "module1",
     "title": "Introduction to Cell Biology",
-    "video_id": "053e4576908745b1836f7d919d3896ce",
+    "video_id": "3de0f7e5673f41b5a41cb74c37c12794",
     "style": "Medical Dark",
-    "status": "completed",
-    "output_file": "module1_diverse.mp4",
-    "duration": 27.3502,
-    "local_path": "/app/frontend/public/videos/diverse/module1_diverse.mp4"
+    "status": "pending",
+    "output_file": "module1_diverse.mp4"
   },
   {
     "module_id": "module2",
     "title": "Cell Membrane and Transport",
-    "video_id": "42c38bb719694be6abacbbe7a1b240df",
+    "video_id": "7b08bd5c7e6e437ea45706a4a81bf814",
     "style": "Medical Dark",
     "status": "pending",
     "output_file": "module2_diverse.mp4"
@@ -20,7 +18,7 @@
   {
     "module_id": "module3",
     "title": "Cellular Organelles",
-    "video_id": "fe96a44d89d247d5a7787b8069d133b9",
+    "video_id": "339d951407094f4aa4761401b2ca9380",
     "style": "Office Light",
     "status": "pending",
     "output_file": "module3_diverse.mp4"
@@ -28,7 +26,7 @@
   {
     "module_id": "module4",
     "title": "Cellular Respiration and ATP",
-    "video_id": "75d432caa5334947a6c0744c83ecc7c7",
+    "video_id": "426d24b6580d40039cd28d59cb1fc38a",
     "style": "Office Light",
     "status": "pending",
     "output_file": "module4_diverse.mp4"
@@ -36,7 +34,7 @@
   {
     "module_id": "module5",
     "title": "Cell Cycle and Division",
-    "video_id": "9de154f1753c4031bf5d21b5885b315a",
+    "video_id": "6567ae796bdc4b38bc55b5d57bf75a40",
     "style": "Studio Dark",
     "status": "pending",
     "output_file": "module5_diverse.mp4"
@@ -44,7 +42,7 @@
   {
     "module_id": "module6",
     "title": "DNA Structure and Replication",
-    "video_id": "1e52b3995c86437cbb756d98dfa6d98f",
+    "video_id": "4b134b048767490581687c2a2128bef6",
     "style": "Studio Dark",
     "status": "pending",
     "output_file": "module6_diverse.mp4"
@@ -52,19 +50,21 @@
   {
     "module_id": "module7",
     "title": "Gene Expression: Transcription and Translation",
-    "video_id": "8830faba79d84f8d9d45d20585fd5512",
+    "video_id": "bb598a2dd8ce4217a461c8e32e876d33",
     "style": "Business Modern",
-    "status": "pending",
-    "output_file": "module7_diverse.mp4"
+    "status": "completed",
+    "output_file": "module7_diverse.mp4",
+    "duration": 23.6669,
+    "local_path": "/app/frontend/public/videos/diverse/module7_diverse.mp4"
   },
   {
     "module_id": "module8",
     "title": "Basic Genetics and Inheritance",
-    "video_id": "444b3488a5fd46279272041242d2646c",
+    "video_id": "c690452010a740679b1ae6624c3c5957",
     "style": "Business Modern",
     "status": "completed",
     "output_file": "module8_diverse.mp4",
-    "duration": 22.7527,
+    "duration": 22.4653,
     "local_path": "/app/frontend/public/videos/diverse/module8_diverse.mp4"
   }
 ]
