@@ -13,6 +13,7 @@ import AuthCallback from "@/pages/AuthCallback";
 import GenerationProgress from "@/pages/GenerationProgress";
 import UniversityCatalog from "@/pages/UniversityCatalog";
 import VideoGallery from "@/pages/VideoGallery";
+import StyleDemos from "@/pages/StyleDemos";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
