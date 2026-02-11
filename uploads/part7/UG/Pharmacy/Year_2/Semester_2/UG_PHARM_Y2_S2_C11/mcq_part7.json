@@ -1,0 +1,51 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which of the following is the drug of choice for treating infections caused by anaerobic bacteria and the protozoan Giardia lamblia?",
+      "option_a": "Ciprofloxacin",
+      "option_b": "Metronidazole",
+      "option_c": "Azithromycin",
+      "option_d": "Doxycycline",
+      "correct_answer": "B",
+      "explanation": "Metronidazole is activated in anaerobic cells to form reactive intermediates that damage bacterial DNA."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Linezolid'?",
+      "option_a": "Inhibition of the 30S ribosomal subunit",
+      "option_b": "Inhibition of the 50S ribosomal subunit by preventing the formation of the 70S initiation complex",
+      "option_c": "Disruption of the bacterial cell membrane",
+      "option_d": "Inhibition of RNA polymerase",
+      "correct_answer": "B",
+      "explanation": "Linezolid is an oxazolidinone used for resistant Gram-positive infections like MRSA and VRE."
+    },
+    {
+      "question": "Which adverse effect is a known risk of 'Fluoroquinolones' (e.g., Ciprofloxacin), particularly in elderly patients?",
+      "option_a": "Bone marrow suppression",
+      "option_b": "Tendon rupture and tendinitis",
+      "option_c": "Red man syndrome",
+      "option_d": "Gray baby syndrome",
+      "correct_answer": "B",
+      "explanation": "Fluoroquinolones carry a black box warning for the risk of tendonitis and tendon rupture."
+    },
+    {
+      "question": "Which antiviral medication is used for the prophylaxis and treatment of Influenza A and B by inhibiting the M2 ion channel (though resistance is now high)?",
+      "option_a": "Oseltamivir",
+      "option_b": "Amantadine",
+      "option_c": "Ribavirin",
+      "option_d": "Acyclovir",
+      "correct_answer": "B",
+      "explanation": "Amantadine and Rimantadine interfere with the uncoating of the viral RNA; however, they are no longer recommended due to widespread resistance."
+    },
+    {
+      "question": "What is the clinical hallmark of 'Amphotericin B' toxicity?",
+      "option_a": "Severe hepatotoxicity",
+      "option_b": "Nephrotoxicity (renal impairment) and electrolyte imbalances (low K+ and Mg2+)",
+      "option_c": "Pulmonary fibrosis",
+      "option_d": "Ototoxicity",
+      "correct_answer": "B",
+      "explanation": "Almost all patients receiving systemic Amphotericin B experience some degree of renal toxicity."
+    }
+  ]
+}

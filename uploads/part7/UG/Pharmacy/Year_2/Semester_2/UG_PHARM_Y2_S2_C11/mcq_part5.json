@@ -1,0 +1,78 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which drug is the preferred treatment for hypothyroidism and has a long half-life of about 7 days?",
+      "option_a": "Liothyronine (T3)",
+      "option_b": "Levothyroxine (T4)",
+      "option_c": "Methimazole",
+      "option_d": "Propylthiouracil (PTU)",
+      "correct_answer": "B",
+      "explanation": "Levothyroxine provides a stable pool of T4 that the body converts to T3 as needed, allowing for once-daily dosing."
+    },
+    {
+      "question": "What is the mechanism of action of 'Propylthiouracil' (PTU) in hyperthyroidism?",
+      "option_a": "Inhibition of thyroid peroxidase and inhibition of peripheral conversion of T4 to T3",
+      "option_b": "Destruction of thyroid follicular cells",
+      "option_c": "Blocking of TSH receptors",
+      "option_d": "Stimulating iodine uptake",
+      "correct_answer": "A",
+      "explanation": "PTU is unique among thionamides because it also inhibits the peripheral deiodination of T4 to the more active T3."
+    },
+    {
+      "question": "Which medication is used to treat 'Thyroid Storm' due to its ability to rapidly inhibit thyroid hormone release (Wolff-Chaikoff effect)?",
+      "option_a": "Methimazole",
+      "option_b": "Potassium Iodide (Lugol's solution)",
+      "option_c": "Levothyroxine",
+      "option_d": "Radioactive Iodine",
+      "correct_answer": "B",
+      "explanation": "High concentrations of iodide acutely inhibit the synthesis and release of thyroid hormones."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Bisphosphonates' like Alendronate?",
+      "option_a": "Stimulating osteoblast activity",
+      "option_b": "Inhibiting osteoclast-mediated bone resorption",
+      "option_c": "Increasing calcium absorption in the gut",
+      "option_d": "Decreasing renal calcium excretion",
+      "correct_answer": "B",
+      "explanation": "Bisphosphonates bind to hydroxyapatite crystals and are taken up by osteoclasts, leading to their apoptosis."
+    },
+    {
+      "question": "Which instruction is critical for a patient taking oral Alendronate to prevent esophageal irritation?",
+      "option_a": "Take with a full meal",
+      "option_b": "Take on an empty stomach with a full glass of water and remain upright for 30 minutes",
+      "option_c": "Take immediately before going to bed",
+      "option_d": "Dissolve the tablet in orange juice",
+      "correct_answer": "B",
+      "explanation": "To avoid chemical esophagitis, patients must stay upright and not eat or drink anything else for at least 30 minutes."
+    },
+    {
+      "question": "What is the mechanism of action of 'Denosumab' in osteoporosis?",
+      "option_a": "Acting as a vitamin D analog",
+      "option_b": "Monoclonal antibody that inhibits RANKL, preventing osteoclast maturation",
+      "option_c": "Selective Estrogen Receptor Modulator (SERM)",
+      "option_d": "Parathyroid hormone analog",
+      "correct_answer": "B",
+      "explanation": "By blocking RANKL, Denosumab reduces the formation and function of bone-resorbing osteoclasts."
+    },
+    {
+      "question": "Which drug is a recombinant form of human PTH used to stimulate new bone formation?",
+      "option_a": "Calcitonin",
+      "option_b": "Teriparatide",
+      "option_c": "Raloxifene",
+      "option_d": "Zoledronic acid",
+      "correct_answer": "B",
+      "explanation": "Teriparatide, when given intermittently, has an anabolic effect on bone, unlike chronic high PTH levels which are catabolic."
+    },
+    {
+      "question": "What is a major side effect of chronic 'Glucocorticoid' therapy (e.g., Prednisone)?",
+      "option_a": "Hypoglycemia",
+      "option_b": "Osteoporosis and increased risk of infections",
+      "option_c": "Hypotension",
+      "option_d": "Weight loss",
+      "correct_answer": "B",
+      "explanation": "Long-term steroid use leads to bone density loss, hyperglycemia, and suppression of the immune system."
+    }
+  ]
+}

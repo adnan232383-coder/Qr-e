@@ -1,0 +1,186 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which of the following is a 'Long-Acting' Insulin analog used for basal coverage?",
+      "option_a": "Insulin Lispro",
+      "option_b": "Insulin Glargine",
+      "option_c": "Insulin Aspart",
+      "option_d": "Regular Insulin",
+      "correct_answer": "B",
+      "explanation": "Insulin Glargine provides a steady, 'peakless' level of insulin for about 24 hours."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Glyburide' (a Sulfonylurea)?",
+      "option_a": "Increasing insulin sensitivity in muscles",
+      "option_b": "Stimulating insulin release by closing ATP-sensitive K+ channels in pancreatic beta cells",
+      "option_c": "Slowing the absorption of carbohydrates in the gut",
+      "option_d": "Inhibiting glucagon secretion",
+      "correct_answer": "B",
+      "explanation": "Sulfonylureas act as insulin secretagogues and require functional beta cells to be effective."
+    },
+    {
+      "question": "Which medication is the first-line drug for Type 2 Diabetes and carries a risk of Lactic Acidosis?",
+      "option_a": "Pioglitazone",
+      "option_b": "Metformin",
+      "option_c": "Sitagliptin",
+      "option_d": "Exenatide",
+      "correct_answer": "B",
+      "explanation": "Metformin decreases hepatic glucose production and increases peripheral glucose uptake."
+    },
+    {
+      "question": "Which drug is a 'DPP-4 Inhibitor' that prevents the breakdown of incretin hormones like GLP-1?",
+      "option_a": "Liraglutide",
+      "option_b": "Sitagliptin",
+      "option_c": "Canagliflozin",
+      "option_d": "Acarbose",
+      "correct_answer": "B",
+      "explanation": "By inhibiting DPP-4, Sitagliptin increases postprandial insulin secretion and decreases glucagon levels."
+    },
+    {
+      "question": "Which class of drugs acts by inhibiting the SGLT2 transporter in the kidneys to increase glucose excretion in the urine?",
+      "option_a": "Thiazolidinediones",
+      "option_b": "SGLT2 inhibitors (e.g., Empagliflozin)",
+      "option_c": "Alpha-glucosidase inhibitors",
+      "option_d": "Meglitinides",
+      "correct_answer": "B",
+      "explanation": "These drugs lower blood glucose independently of insulin and are also used for heart failure protection."
+    },
+    {
+      "question": "What is the mechanism of action of 'Inhaled Corticosteroids' (ICS) in asthma?",
+      "option_a": "Rapid bronchodilation",
+      "option_b": "Reducing airway inflammation by inhibiting cytokine production",
+      "option_c": "Blocking muscarinic receptors",
+      "option_d": "Inhibiting mast cell degranulation only",
+      "correct_answer": "B",
+      "explanation": "ICS are maintenance medications used to prevent asthma attacks, not to treat acute symptoms."
+    },
+    {
+      "question": "Which side effect is commonly associated with the use of 'Inhaled Corticosteroids' and can be prevented by rinsing the mouth?",
+      "option_a": "Systemic weight gain",
+      "option_b": "Oropharyngeal Candidiasis (Thrush)",
+      "option_c": "Tachycardia",
+      "option_d": "Dry cough",
+      "correct_answer": "B",
+      "explanation": "Local immunosuppression in the mouth can lead to fungal overgrowth."
+    },
+    {
+      "question": "Which 'Short-Acting Beta-2 Agonist' (SABA) is used as a rescue inhaler for acute bronchospasm?",
+      "option_a": "Salmeterol",
+      "option_b": "Albuterol (Salbutamol)",
+      "option_c": "Tiotropium",
+      "option_d": "Fluticasone",
+      "correct_answer": "B",
+      "explanation": "Albuterol provides rapid relief of asthma symptoms by relaxing bronchial smooth muscle."
+    },
+    {
+      "question": "What is the mechanism of action of 'Tiotropium' in COPD treatment?",
+      "option_a": "Beta-2 agonism",
+      "option_b": "Long-acting muscarinic antagonism (LAMA)",
+      "option_c": "Inhibition of leukotrienes",
+      "option_d": "Inhibition of phosphodiesterase-4",
+      "correct_answer": "B",
+      "explanation": "LAMAs block M3 receptors in the lungs, preventing bronchoconstriction."
+    },
+    {
+      "question": "Which drug is a 'Mast Cell Stabilizer' used to prevent exercise-induced asthma?",
+      "option_a": "Cromolyn Sodium",
+      "option_b": "Theophylline",
+      "option_c": "Aminophylline",
+      "option_d": "Prednisone",
+      "correct_answer": "A",
+      "explanation": "Cromolyn prevents the release of inflammatory mediators like histamine from mast cells."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Omeprazole'?",
+      "option_a": "Blocking H2 receptors",
+      "option_b": "Irreversible inhibition of the H+/K+ ATPase (Proton Pump) in parietal cells",
+      "option_c": "Neutralizing gastric acid",
+      "option_d": "Forming a protective barrier over ulcers",
+      "correct_answer": "B",
+      "explanation": "Proton Pump Inhibitors (PPIs) are the most effective drugs for suppressing gastric acid secretion."
+    },
+    {
+      "question": "Which drug is an 'H2 Receptor Antagonist' commonly used for GERD?",
+      "option_a": "Esomeprazole",
+      "option_b": "Famotidine",
+      "option_c": "Sucralfate",
+      "option_d": "Misoprostol",
+      "correct_answer": "B",
+      "explanation": "H2 blockers competitively inhibit histamine at the parietal cell receptors."
+    },
+    {
+      "question": "Which GI medication is a prostaglandin E1 analog used to prevent NSAID-induced gastric ulcers?",
+      "option_a": "Ranitidine",
+      "option_b": "Misoprostol",
+      "option_c": "Bismuth subsalicylate",
+      "option_d": "Metoclopramide",
+      "correct_answer": "B",
+      "explanation": "Misoprostol replaces the protective prostaglandins that are inhibited by NSAIDs."
+    },
+    {
+      "question": "Which 'Bulk-forming' laxative absorbs water and increases stool mass?",
+      "option_a": "Senna",
+      "option_b": "Psyllium",
+      "option_c": "Docusate",
+      "option_d": "Lactulose",
+      "correct_answer": "B",
+      "explanation": "Psyllium works by increasing fiber content, which stimulates natural peristalsis."
+    },
+    {
+      "question": "What is the clinical use of 'Loperamide'?",
+      "option_a": "Treatment of constipation",
+      "option_b": "Treatment of diarrhea (opioid agonist with no CNS effect)",
+      "option_c": "Treatment of nausea",
+      "option_d": "Treatment of H. pylori",
+      "correct_answer": "B",
+      "explanation": "Loperamide slows intestinal motility by acting on mu-opioid receptors in the gut wall."
+    },
+    {
+      "question": "Which antibiotic is known for causing 'Pseudomembranous Colitis' (C. diff infection) as a side effect?",
+      "option_a": "Penicillin V",
+      "option_b": "Clindamycin",
+      "option_c": "Gentamicin",
+      "option_d": "Linezolid",
+      "correct_answer": "B",
+      "explanation": "Clindamycin significantly disrupts the normal colonic flora, allowing C. difficile to overgrow."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Vancomycin'?",
+      "option_a": "Inhibition of protein synthesis",
+      "option_b": "Inhibition of cell wall synthesis by binding to the D-Ala-D-Ala terminus of nascent peptidoglycan",
+      "option_c": "Disruption of the bacterial membrane",
+      "option_d": "Inhibition of folic acid synthesis",
+      "correct_answer": "B",
+      "explanation": "Vancomycin is a glycopeptide used primarily for resistant Gram-positive infections."
+    },
+    {
+      "question": "Which of the following is a 'Macrolide' antibiotic?",
+      "option_a": "Clarithromycin",
+      "option_b": "Tobramycin",
+      "option_c": "Neomycin",
+      "option_d": "Minocycline",
+      "correct_answer": "A",
+      "explanation": "Clarithromycin, Azithromycin, and Erythromycin belong to the macrolide class."
+    },
+    {
+      "question": "Which antibiotic is associated with 'Photosensitivity' and 'Teeth Discoloration' in children?",
+      "option_a": "Amoxicillin",
+      "option_b": "Doxycycline",
+      "option_c": "Azithromycin",
+      "option_d": "Cephalexin",
+      "correct_answer": "B",
+      "explanation": "Tetracyclines (like Doxycycline) are contraindicated in pregnancy and children under 8."
+    },
+    {
+      "question": "What is the mechanism of action of 'Metronidazole'?",
+      "option_a": "Binding to the 30S subunit",
+      "option_b": "Formation of toxic free radicals that damage bacterial DNA",
+      "option_c": "Inhibition of RNA polymerase",
+      "option_d": "Blocking bacterial cell wall cross-linking",
+      "correct_answer": "B",
+      "explanation": "Metronidazole is specifically effective against anaerobes and certain protozoa."
+    }
+  ]
+}

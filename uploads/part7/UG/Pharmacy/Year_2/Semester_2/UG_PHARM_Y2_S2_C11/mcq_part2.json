@@ -1,0 +1,87 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which of the following is a 'Potassium-Sparing' diuretic that acts as a competitive antagonist of Aldosterone?",
+      "option_a": "Amiloride",
+      "option_b": "Spironolactone",
+      "option_c": "Furosemide",
+      "option_d": "Hydrochlorothiazide",
+      "correct_answer": "B",
+      "explanation": "Spironolactone blocks aldosterone receptors in the collecting duct, reducing sodium reabsorption and potassium secretion."
+    },
+    {
+      "question": "What is the mechanism of action of 'Calcium Channel Blockers' like Amlodipine?",
+      "option_a": "Blocking T-type calcium channels in the heart",
+      "option_b": "Blocking L-type calcium channels in vascular smooth muscle",
+      "option_c": "Inhibiting calcium release from the sarcoplasmic reticulum",
+      "option_d": "Stimulating calcium efflux from the cell",
+      "correct_answer": "B",
+      "explanation": "By blocking L-type channels, Amlodipine causes peripheral vasodilation, which lowers blood pressure."
+    },
+    {
+      "question": "Which antiarrhythmic drug is a 'Class III' agent that primarily blocks Potassium channels and has a very long half-life?",
+      "option_a": "Lidocaine",
+      "option_b": "Amiodarone",
+      "option_c": "Verapamil",
+      "option_d": "Propranolol",
+      "correct_answer": "B",
+      "explanation": "Amiodarone prolongs the action potential duration and refractory period; it is known for its multi-organ toxicities."
+    },
+    {
+      "question": "What is the primary side effect of 'Nitroglycerin' due to its vasodilatory effect?",
+      "option_a": "Constipation",
+      "option_b": "Throbbing headache",
+      "option_c": "Hypertension",
+      "option_d": "Bradycardia",
+      "correct_answer": "B",
+      "explanation": "Meningeal artery dilation often causes headaches in patients taking nitrates."
+    },
+    {
+      "question": "Which drug is used as a specific antidote for 'Digoxin' toxicity?",
+      "option_a": "Vitamin K",
+      "option_b": "Digoxin Immune Fab (Digibind)",
+      "option_c": "Atropine",
+      "option_d": "Naloxone",
+      "correct_answer": "B",
+      "explanation": "Digibind consists of antibody fragments that bind and neutralize digoxin molecules in the blood."
+    },
+    {
+      "question": "Which class of antibiotics is associated with 'Ototoxicity' and 'Nephrotoxicity'?",
+      "option_a": "Penicillins",
+      "option_b": "Aminoglycosides (e.g., Gentamicin)",
+      "option_c": "Macrolides",
+      "option_d": "Cephalosporins",
+      "correct_answer": "B",
+      "explanation": "Aminoglycosides require therapeutic drug monitoring (TDM) to avoid damage to the kidneys and inner ear."
+    },
+    {
+      "question": "Which medication is an 'Osmotic Laxative' used for chronic constipation and hepatic encephalopathy?",
+      "option_a": "Loperamide",
+      "option_b": "Lactulose",
+      "option_c": "Senna",
+      "option_d": "Bisacodyl",
+      "correct_answer": "B",
+      "explanation": "Lactulose is broken down by colonic bacteria into acids that pull water into the gut and help trap ammonia ($NH_3$)."
+    },
+    {
+      "question": "Which drug is a 'Prokinetic' agent that acts as a D2 receptor antagonist, used for gastroparesis?",
+      "option_a": "Metoclopramide",
+      "option_b": "Ondansetron",
+      "option_c": "Sucralfate",
+      "option_d": "Ranitidine",
+      "correct_answer": "A",
+      "explanation": "Metoclopramide enhances GI motility by blocking dopamine receptors and sensitizing tissue to acetylcholine."
+    },
+    {
+      "question": "Which antifungal drug inhibits the synthesis of 'Beta-glucan' in the fungal cell wall?",
+      "option_a": "Fluconazole",
+      "option_b": "Caspofungin (Echinocandins)",
+      "option_c": "Amphotericin B",
+      "option_d": "Griseofulvin",
+      "correct_answer": "B",
+      "explanation": "Echinocandins are unique because they target the fungal cell wall rather than the membrane."
+    }
+  ]
+}
