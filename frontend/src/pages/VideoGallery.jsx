@@ -26,7 +26,7 @@ const COURSE_MODULES = [
     duration: '1:15',
     topics: ['Cell Theory', 'Prokaryotic vs Eukaryotic Cells', 'Cell Size and Scale'],
     videoFile: 'module1_video.mp4',
-    hasSubtitles: ['he']
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module2',
@@ -35,7 +35,7 @@ const COURSE_MODULES = [
     duration: '1:18',
     topics: ['Phospholipid Bilayer', 'Membrane Proteins', 'Passive Transport', 'Active Transport'],
     videoFile: 'module2_video.mp4',
-    hasSubtitles: ['he']
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module3',
@@ -44,7 +44,7 @@ const COURSE_MODULES = [
     duration: '1:19',
     topics: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus', 'Lysosomes'],
     videoFile: 'module3_video.mp4',
-    hasSubtitles: ['he']
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module4',
@@ -53,7 +53,7 @@ const COURSE_MODULES = [
     duration: '1:25',
     topics: ['Glycolysis', 'Krebs Cycle', 'Electron Transport Chain', 'ATP Synthesis'],
     videoFile: 'module4_video.mp4',
-    hasSubtitles: []
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module5',
@@ -62,7 +62,7 @@ const COURSE_MODULES = [
     duration: '1:23',
     topics: ['Interphase', 'Mitosis Stages', 'Cytokinesis', 'Cell Cycle Checkpoints'],
     videoFile: 'module5_video.mp4',
-    hasSubtitles: []
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module6',
@@ -71,7 +71,7 @@ const COURSE_MODULES = [
     duration: '1:25',
     topics: ['DNA Double Helix', 'Nucleotides', 'Replication Fork', 'DNA Polymerase'],
     videoFile: 'module6_video.mp4',
-    hasSubtitles: []
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module7',
@@ -80,7 +80,7 @@ const COURSE_MODULES = [
     duration: '1:26',
     topics: ['Transcription', 'mRNA Processing', 'Translation', 'Ribosomes', 'Genetic Code'],
     videoFile: 'module7_video.mp4',
-    hasSubtitles: []
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   },
   {
     id: 'module8',
@@ -89,7 +89,7 @@ const COURSE_MODULES = [
     duration: '1:29',
     topics: ['Mendels Laws', 'Dominant and Recessive Alleles', 'Punnett Squares', 'Genetic Disorders'],
     videoFile: 'module8_video.mp4',
-    hasSubtitles: []
+    hasSubtitles: ['he', 'ar', 'ru', 'ro']
   }
 ];
 
