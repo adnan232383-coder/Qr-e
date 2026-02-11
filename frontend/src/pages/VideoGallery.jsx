@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useTheme } from "@/context/ThemeContext";
@@ -15,7 +15,10 @@ import {
   Clock,
   BookOpen,
   CheckCircle,
-  Sparkles
+  Sparkles,
+  ChevronRight,
+  Beaker,
+  Dna
 } from "lucide-react";
 
 // Course modules data with diverse styles
