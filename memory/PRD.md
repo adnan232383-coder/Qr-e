@@ -1,64 +1,78 @@
-# MCQ Generation Platform - PRD
+# Educational Video Platform - PRD
 
 ## Original Problem Statement
-Generate 200+ MCQ questions for courses across two universities:
-- **University of Georgia (UG)**: 92 courses (Dentistry + Pharmacy)
-- **New Vision University (NVU)**: 71 courses (50 Medicine, 12 Dentistry, 9 Pharmacy)
+Build a comprehensive educational video platform with AI-generated avatar videos for medical/pharmacy courses.
 
-## Key Requirements
-1. Each course must have at least 200 MCQs
-2. No duplicate questions within a course
-3. Balanced answer distribution (20-30% each for A, B, C, D)
-4. NVU Medicine: User provides JSON files manually (2 courses/day)
+### Initial Requirements
+1. Build courses based on existing MCQ database
+2. Each course should have multiple video modules with talking avatars (HeyGen)
+3. Videos in English with multi-language subtitles (Hebrew, Arabic, Russian, Romanian)
+4. **Visual diversity**: Different avatar styles and presentation formats every 2 modules
 
-## Current Status (Dec 2025)
+## Current Status (Feb 2026)
 
 ### Completed ✅
-- [x] NVU Pharmacy: 9/9 courses (3,474 MCQs)
-- [x] NVU Dentistry: 12/12 courses 
-- [x] Import mechanism for user-provided JSON files
-- [x] Multi-university frontend support
+- [x] **Course 1: General Biology (UG_DENT_Y1_S1_C01)** - 8 modules with diverse styles
+  - Modules 1-2: Adriana Nurse (Medical Dark)
+  - Modules 3-4: Abigail Office (Office Light)
+  - Modules 5-6: Adrian Male (Studio Dark)
+  - Modules 7-8: Adriana Business (Business Modern)
+- [x] Multi-language subtitles (Hebrew, Arabic, Russian, Romanian)
+- [x] Video player with subtitle selection
+- [x] Style demonstration page (`/styles`)
+- [x] Autonomous video generation system
 
 ### In Progress 🔄
-- [ ] UG courses: 24/92 complete (68 remaining)
-- [ ] NVU Medicine: 16/50 complete (user provides manually)
+- [ ] **Course 2: General Chemistry (UG_PHARM_Y1_S1_C01)** - 8 modules generating
 
 ### Backlog 📋
-- [ ] Avatar/Video generation with Sora 2 (postponed until MCQ complete)
+- [ ] Internal Medicine I (NVU_MD_Y3_S1_C24) - 500 MCQs
+- [ ] Practice Management & Ethics (UG_DENT_Y5_S1_C05) - 452 MCQs
+- [ ] Aesthetic Dentistry (UG_DENT_Y5_S2_C06) - 400 MCQs
+- [ ] Evidence Based Medicine (NVU_MD_Y2_S2_C23) - 320 MCQs
 
 ## Architecture
 
-### Backend (FastAPI)
-- `/api/admin/simple-mcq/start?university=UG` - Start MCQ generation
-- `/api/admin/simple-mcq/stop` - Stop generation
-- `/api/admin/simple-mcq/status` - Get generation status
-- `/api/courses/{id}/questions` - Get course MCQs
-
-### Database (MongoDB)
-- `universities`: University info
-- `courses`: Course catalog
-- `mcq_questions`: All MCQ questions
-- `jobs`: Background job tracking
-
-### Frontend (React)
-- Admin dashboard at `/admin/progress`
-- University catalog pages
-- Course quiz pages
-
-## Import Format for NVU Medicine
-```json
-[
-  {
-    "question": "Question text",
-    "options": {"A": "...", "B": "...", "C": "...", "D": "..."},
-    "correct_answer": "A",
-    "difficulty": "easy|medium|hard",
-    "explanation": "..."
-  }
-]
+### Video Generation Pipeline
+```
+MCQ Questions → Script Generation → HeyGen API → Video Download → Frontend Display
 ```
 
-## Tech Stack
-- Backend: FastAPI + Motor (async MongoDB)
-- Frontend: React
-- LLM: OpenAI GPT-4o-mini via Emergent LLM Key
+### Style Rotation System
+| Module | Style | Avatar | Voice |
+|--------|-------|--------|-------|
+| 1-2 | Medical Dark | Adriana Nurse | Hope (F) |
+| 3-4 | Office Light | Abigail Office | Ivy (F) |
+| 5-6 | Studio Dark | Adrian Blue Suit | Andrew (M) |
+| 7-8 | Business Modern | Adriana Business | Hope (F) |
+
+### Backend Files
+- `/app/backend/auto_course_builder.py` - Autonomous course builder
+- `/app/backend/generate_diverse_videos.py` - Video generation with styles
+- `/app/backend/heygen_video_creator.py` - HeyGen API integration
+
+### Frontend Pages
+- `/videos` - Video gallery with module list
+- `/styles` - Style demonstration page
+- `/` - Landing page with course catalog
+
+### Video Storage
+- `/app/frontend/public/videos/diverse/` - First course videos
+- `/app/frontend/public/videos/{course_id}/` - Additional course videos
+- `/app/frontend/public/videos/subtitles/` - VTT subtitle files
+
+## Database (MongoDB)
+- `courses`: 325 courses
+- `mcq_questions`: 36,412 questions
+- Total content available for video generation
+
+## 3rd Party Integrations
+- **HeyGen API** - Avatar video generation
+- API Key: Configured in environment
+
+## Key Links
+- Video Gallery: https://practical-banach-1.preview.emergentagent.com/videos
+- Style Demos: https://practical-banach-1.preview.emergentagent.com/styles
+
+## User Language
+Hebrew (עברית)
