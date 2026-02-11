@@ -38,13 +38,15 @@ Build a comprehensive educational video platform with AI-generated avatar videos
 MCQ Questions → Script Generation → HeyGen API → Video Download → Frontend Display
 ```
 
-### Style Rotation System
-| Module | Style | Avatar | Voice |
-|--------|-------|--------|-------|
-| 1-2 | Medical Dark | Adriana Nurse | Hope (F) |
-| 3-4 | Office Light | Abigail Office | Ivy (F) |
-| 5-6 | Studio Dark | Adrian Blue Suit | Andrew (M) |
-| 7-8 | Business Modern | Adriana Business | Hope (F) |
+### Style Rotation System (APPROVED - Feb 2026)
+**Only 2 styles approved by user:**
+
+| Module | Style | Avatar | Description |
+|--------|-------|--------|-------------|
+| 1-4 | Medical Dark | Adriana Nurse | Standard center position, dark background |
+| 5-8 | Presentation | Adriana Nurse (Side) | Avatar on left, room for slides on right |
+
+**Rejected styles:** Office Light, Studio Dark (male), Business Modern
 
 ### Backend Files
 - `/app/backend/auto_course_builder.py` - Autonomous course builder
