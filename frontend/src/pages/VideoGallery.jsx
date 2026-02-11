@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,10 +14,11 @@ import {
   Play,
   Clock,
   BookOpen,
-  CheckCircle
+  CheckCircle,
+  Sparkles
 } from "lucide-react";
 
-// Course modules data
+// Course modules data with diverse styles
 const COURSE_MODULES = [
   {
     id: 'module1',
@@ -25,8 +26,10 @@ const COURSE_MODULES = [
     description: 'Overview of cell theory, cell types, and basic cellular organization',
     duration: '1:15',
     topics: ['Cell Theory', 'Prokaryotic vs Eukaryotic Cells', 'Cell Size and Scale'],
-    videoFile: 'module1_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module1_diverse.mp4',
+    fallbackVideo: 'module1_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Medical Dark', avatar: 'Adriana Nurse', color: '#1a1a2e' }
   },
   {
     id: 'module2',
@@ -34,8 +37,10 @@ const COURSE_MODULES = [
     description: 'Structure of plasma membrane and mechanisms of cellular transport',
     duration: '1:18',
     topics: ['Phospholipid Bilayer', 'Membrane Proteins', 'Passive Transport', 'Active Transport'],
-    videoFile: 'module2_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module2_diverse.mp4',
+    fallbackVideo: 'module2_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Medical Dark', avatar: 'Adriana Nurse', color: '#1a1a2e' }
   },
   {
     id: 'module3',
@@ -43,8 +48,10 @@ const COURSE_MODULES = [
     description: 'Structure and function of major cellular organelles',
     duration: '1:19',
     topics: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus', 'Lysosomes'],
-    videoFile: 'module3_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module3_diverse.mp4',
+    fallbackVideo: 'module3_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Office Light', avatar: 'Abigail Office', color: '#f5f5f5' }
   },
   {
     id: 'module4',
@@ -52,8 +59,10 @@ const COURSE_MODULES = [
     description: 'Energy production in cells through aerobic and anaerobic respiration',
     duration: '1:25',
     topics: ['Glycolysis', 'Krebs Cycle', 'Electron Transport Chain', 'ATP Synthesis'],
-    videoFile: 'module4_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module4_diverse.mp4',
+    fallbackVideo: 'module4_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Office Light', avatar: 'Abigail Office', color: '#f5f5f5' }
   },
   {
     id: 'module5',
@@ -61,8 +70,10 @@ const COURSE_MODULES = [
     description: 'Phases of cell cycle, mitosis, and cell division regulation',
     duration: '1:23',
     topics: ['Interphase', 'Mitosis Stages', 'Cytokinesis', 'Cell Cycle Checkpoints'],
-    videoFile: 'module5_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module5_diverse.mp4',
+    fallbackVideo: 'module5_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Studio Dark', avatar: 'Adrian (Male)', color: '#263238' }
   },
   {
     id: 'module6',
@@ -70,8 +81,10 @@ const COURSE_MODULES = [
     description: 'Molecular structure of DNA and the process of DNA replication',
     duration: '1:25',
     topics: ['DNA Double Helix', 'Nucleotides', 'Replication Fork', 'DNA Polymerase'],
-    videoFile: 'module6_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module6_diverse.mp4',
+    fallbackVideo: 'module6_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Studio Dark', avatar: 'Adrian (Male)', color: '#263238' }
   },
   {
     id: 'module7',
@@ -79,8 +92,10 @@ const COURSE_MODULES = [
     description: 'How genetic information flows from DNA to protein',
     duration: '1:26',
     topics: ['Transcription', 'mRNA Processing', 'Translation', 'Ribosomes', 'Genetic Code'],
-    videoFile: 'module7_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module7_diverse.mp4',
+    fallbackVideo: 'module7_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Business Modern', avatar: 'Adriana Business', color: '#1e3a5f' }
   },
   {
     id: 'module8',
@@ -88,8 +103,10 @@ const COURSE_MODULES = [
     description: 'Mendelian genetics and patterns of inheritance',
     duration: '1:29',
     topics: ['Mendels Laws', 'Dominant and Recessive Alleles', 'Punnett Squares', 'Genetic Disorders'],
-    videoFile: 'module8_video.mp4',
-    hasSubtitles: ['he', 'ar', 'ru', 'ro']
+    videoFile: 'diverse/module8_diverse.mp4',
+    fallbackVideo: 'module8_video.mp4',
+    hasSubtitles: ['he', 'ar', 'ru', 'ro'],
+    style: { name: 'Business Modern', avatar: 'Adriana Business', color: '#1e3a5f' }
   }
 ];
 
@@ -98,6 +115,35 @@ export default function VideoGallery() {
   const { theme, toggleTheme } = useTheme();
   const [selectedModule, setSelectedModule] = useState(COURSE_MODULES[0]);
   const [completedModules, setCompletedModules] = useState([]);
+  const [videoAvailability, setVideoAvailability] = useState({});
+
+  // Check video availability
+  useEffect(() => {
+    const checkVideos = async () => {
+      const availability = {};
+      for (const module of COURSE_MODULES) {
+        try {
+          const response = await fetch(`/videos/${module.videoFile}`, { method: 'HEAD' });
+          availability[module.id] = {
+            diverse: response.ok,
+            fallback: true // Assume fallback always exists
+          };
+        } catch {
+          availability[module.id] = { diverse: false, fallback: true };
+        }
+      }
+      setVideoAvailability(availability);
+    };
+    checkVideos();
+  }, []);
+
+  const getVideoSrc = (module) => {
+    const avail = videoAvailability[module.id];
+    if (avail?.diverse) {
+      return `/videos/${module.videoFile}`;
+    }
+    return `/videos/${module.fallbackVideo}`;
+  };
 
   const markAsComplete = (moduleId) => {
     if (!completedModules.includes(moduleId)) {
@@ -121,9 +167,15 @@ export default function VideoGallery() {
               </div>
             </div>
             
-            <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full">
-              {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button variant="outline" size="sm" onClick={() => navigate("/styles")}>
+                <Sparkles className="h-4 w-4 mr-2" />
+                סגנונות
+              </Button>
+              <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full">
+                {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+              </Button>
+            </div>
           </div>
         </div>
       </nav>
@@ -147,6 +199,9 @@ export default function VideoGallery() {
             <span className="flex items-center gap-1">
               <CheckCircle className="h-4 w-4" /> {completedModules.length}/8 Complete
             </span>
+            <Badge variant="secondary" className="flex items-center gap-1">
+              <Sparkles className="h-3 w-3" /> Diverse Styles
+            </Badge>
           </div>
         </div>
 
@@ -154,7 +209,7 @@ export default function VideoGallery() {
           {/* Video Player */}
           <div className="lg:col-span-2 space-y-4">
             <VideoPlayer
-              videoSrc={`/videos/${selectedModule.videoFile}`}
+              videoSrc={getVideoSrc(selectedModule)}
               moduleId={selectedModule.id}
               title={selectedModule.title}
               subtitleBasePath="/videos/subtitles"
@@ -189,9 +244,27 @@ export default function VideoGallery() {
                     <Badge key={idx} variant="outline">{topic}</Badge>
                   ))}
                 </div>
+                
+                {/* Style Info */}
+                <div className="mt-4 p-3 rounded-lg bg-secondary/30 flex items-center gap-3">
+                  <div 
+                    className="w-4 h-4 rounded-full" 
+                    style={{ backgroundColor: selectedModule.style.color }}
+                  />
+                  <div className="text-sm">
+                    <span className="font-medium">{selectedModule.style.name}</span>
+                    <span className="text-muted-foreground"> • {selectedModule.style.avatar}</span>
+                  </div>
+                  {videoAvailability[selectedModule.id]?.diverse && (
+                    <Badge variant="secondary" className="ml-auto text-xs">
+                      <Sparkles className="h-3 w-3 mr-1" /> New Style
+                    </Badge>
+                  )}
+                </div>
+                
                 {selectedModule.hasSubtitles.length > 0 && (
                   <p className="text-sm text-muted-foreground mt-4">
-                    📝 Subtitles available in: {selectedModule.hasSubtitles.includes('he') && '🇮🇱 Hebrew'}
+                    Subtitles: 🇮🇱 Hebrew • 🇸🇦 Arabic • 🇷🇺 Russian • 🇷🇴 Romanian
                   </p>
                 )}
               </CardContent>
@@ -210,6 +283,7 @@ export default function VideoGallery() {
                     {COURSE_MODULES.map((module, index) => {
                       const isSelected = selectedModule.id === module.id;
                       const isCompleted = completedModules.includes(module.id);
+                      const hasDiverse = videoAvailability[module.id]?.diverse;
                       
                       return (
                         <button
@@ -232,18 +306,23 @@ export default function VideoGallery() {
                             {isCompleted ? <CheckCircle className="h-4 w-4" /> : index + 1}
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className={`font-medium truncate ${isSelected ? 'text-primary' : ''}`}>
-                              {module.title}
-                            </p>
+                            <div className="flex items-center gap-2">
+                              <p className={`font-medium truncate ${isSelected ? 'text-primary' : ''}`}>
+                                {module.title}
+                              </p>
+                              {hasDiverse && (
+                                <Sparkles className="h-3 w-3 text-primary flex-shrink-0" />
+                              )}
+                            </div>
                             <div className="flex items-center gap-2 text-xs text-muted-foreground mt-1">
                               <span className="flex items-center gap-1">
                                 <Play className="h-3 w-3" /> {module.duration}
                               </span>
-                              {module.hasSubtitles.length > 0 && (
-                                <Badge variant="outline" className="text-xs px-1 py-0">
-                                  CC
-                                </Badge>
-                              )}
+                              <span 
+                                className="w-2 h-2 rounded-full" 
+                                style={{ backgroundColor: module.style.color }}
+                              />
+                              <span className="truncate">{module.style.name}</span>
                             </div>
                           </div>
                         </button>
