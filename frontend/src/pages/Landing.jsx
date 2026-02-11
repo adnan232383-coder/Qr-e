@@ -319,7 +319,7 @@ export default function Landing() {
               <div className="text-sm text-muted-foreground mt-1">Universities</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="text-3xl font-bold text-primary">15K+</div>
+              <div className="text-3xl font-bold text-primary">37K+</div>
               <div className="text-sm text-muted-foreground mt-1">MCQ Questions</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
