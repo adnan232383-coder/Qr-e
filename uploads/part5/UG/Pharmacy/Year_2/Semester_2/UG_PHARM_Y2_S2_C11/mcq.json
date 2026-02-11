@@ -1,0 +1,60 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which antiviral drug is a nucleoside analog specifically used to treat Chronic Hepatitis B and HIV?",
+      "option_a": "Acyclovir",
+      "option_b": "Tenofovir",
+      "option_c": "Oseltamivir",
+      "option_d": "Ribavirin",
+      "correct_answer": "B",
+      "explanation": "Tenofovir is a potent nucleotide reverse transcriptase inhibitor (NRTI) effective against both HBV and HIV."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Statins'?",
+      "option_a": "Inhibition of bile acid absorption",
+      "option_b": "Competitive inhibition of HMG-CoA reductase",
+      "option_c": "Direct breakdown of LDL particles",
+      "option_d": "Activation of Lipoprotein Lipase",
+      "correct_answer": "B",
+      "explanation": "By inhibiting HMG-CoA reductase, statins reduce endogenous cholesterol synthesis in the liver."
+    },
+    {
+      "question": "Which antibiotic is the drug of choice for 'Lyme Disease' in adults?",
+      "option_a": "Amoxicillin",
+      "option_b": "Doxycycline",
+      "option_c": "Vancomycin",
+      "option_d": "Gentamicin",
+      "correct_answer": "B",
+      "explanation": "Doxycycline is highly effective against Borrelia burgdorferi, the causative agent of Lyme disease."
+    },
+    {
+      "question": "Which drug is a 'Leukotriene Synthesis Inhibitor' (5-LOX inhibitor)?",
+      "option_a": "Montelukast",
+      "option_b": "Zileuton",
+      "option_c": "Cromolyn",
+      "option_d": "Theophylline",
+      "correct_answer": "B",
+      "explanation": "Unlike montelukast which blocks the receptor, Zileuton blocks the enzyme responsible for producing leukotrienes."
+    },
+    {
+      "question": "What is the primary toxic effect of 'Methotrexate' that requires monitoring of blood counts?",
+      "option_a": "Hepatotoxicity",
+      "option_b": "Bone marrow suppression (Myelosuppression)",
+      "option_c": "Nephrotoxicity",
+      "option_d": "Pulmonary fibrosis",
+      "correct_answer": "B",
+      "explanation": "Methotrexate inhibits DNA synthesis, which significantly affects rapidly dividing cells like those in the bone marrow."
+    },
+    {
+      "question": "Which chemotherapy agent is specifically associated with 'Hemorrhagic Cystitis'?",
+      "option_a": "Cisplatin",
+      "option_b": "Cyclophosphamide",
+      "option_c": "Doxorubicin",
+      "option_d": "Vincristine",
+      "correct_answer": "B",
+      "explanation": "The metabolite acrolein irritates the bladder lining; patients are often given Mesna to neutralize this effect."
+    }
+  ]
+}
