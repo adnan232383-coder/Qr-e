@@ -1,0 +1,69 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "What is 'Osteonecrosis of the Jaw' (ONJ) a rare but serious side effect of?",
+      "option_a": "Glucocorticoids",
+      "option_b": "Bisphosphonates and Denosumab",
+      "option_c": "Levothyroxine",
+      "option_d": "Insulin",
+      "correct_answer": "B",
+      "explanation": "ONJ is associated with potent antiresorptive agents, especially when used in high doses for cancer patients."
+    },
+    {
+      "question": "Which drug is used to treat 'Hyperprolactinemia' by acting as a Dopamine D2 agonist?",
+      "option_a": "Bromocriptine",
+      "option_b": "Chlorpromazine",
+      "option_c": "Metoclopramide",
+      "option_d": "Haloperidol",
+      "correct_answer": "A",
+      "explanation": "Dopamine is the physiological inhibitor of prolactin; agonists like Bromocriptine or Cabergoline reduce prolactin levels."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Glitazones' (Thiazolidinediones) like Pioglitazone?",
+      "option_a": "Closing K+ channels",
+      "option_b": "Activating the PPAR-gamma nuclear receptor to increase insulin sensitivity",
+      "option_c": "Inhibiting alpha-glucosidase",
+      "option_d": "Stimulating glucagon release",
+      "correct_answer": "B",
+      "explanation": "TZDs improve insulin sensitivity in adipose, muscle, and liver tissues by regulating gene expression."
+    },
+    {
+      "question": "Which diabetes medication carries a 'Black Box Warning' for congestive heart failure?",
+      "option_a": "Metformin",
+      "option_b": "Rosiglitazone",
+      "option_c": "Sitagliptin",
+      "option_d": "Acarbose",
+      "correct_answer": "B",
+      "explanation": "Thiazolidinediones cause fluid retention, which can exacerbate or lead to heart failure."
+    },
+    {
+      "question": "Which glucose-lowering drug class acts by inhibiting the enzyme in the gut brush border that breaks down complex carbs?",
+      "option_a": "SGLT2 inhibitors",
+      "option_b": "Alpha-glucosidase inhibitors (e.g., Acarbose)",
+      "option_c": "DPP-4 inhibitors",
+      "option_d": "Meglitinides",
+      "correct_answer": "B",
+      "explanation": "Acarbose slows the absorption of glucose, primarily reducing postprandial (after-meal) blood sugar peaks."
+    },
+    {
+      "question": "Which drug is a 'GLP-1 Receptor Agonist' given by injection to treat Type 2 Diabetes?",
+      "option_a": "Linagliptin",
+      "option_b": "Exenatide",
+      "option_c": "Repaglinide",
+      "option_d": "Glipizide",
+      "correct_answer": "B",
+      "explanation": "GLP-1 mimetics stimulate insulin secretion, inhibit glucagon, and slow gastric emptying."
+    },
+    {
+      "question": "What is 'Cushingoid' appearance (moon face, buffalo hump) a result of?",
+      "option_a": "Growth hormone deficiency",
+      "option_b": "Excessive Glucocorticoid levels (Exogenous or Endogenous)",
+      "option_c": "Hypothyroidism",
+      "option_d": "Vitamin D toxicity",
+      "correct_answer": "B",
+      "explanation": "Glucocorticoids lead to fat redistribution and muscle wasting."
+    }
+  ]
+}

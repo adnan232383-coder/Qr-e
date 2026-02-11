@@ -1,0 +1,123 @@
+{
+  "course_name": "Pharmacology II",
+  "course_code": "UG_PHARM_Y2_S2_C11",
+  "questions": [
+    {
+      "question": "Which medication is a potent 'Mineralocorticoid' used primarily for replacement therapy in Addison's disease?",
+      "option_a": "Dexamethasone",
+      "option_b": "Fludrocortisone",
+      "option_c": "Prednisone",
+      "option_d": "Hydrocortisone",
+      "correct_answer": "B",
+      "explanation": "Fludrocortisone has high mineralocorticoid activity, helping to maintain fluid and electrolyte balance in adrenal insufficiency."
+    },
+    {
+      "question": "What is the primary mechanism of action of 'Combined Oral Contraceptives'?",
+      "option_a": "Inducing early menstruation",
+      "option_b": "Suppression of GnRH, LH, and FSH to inhibit ovulation",
+      "option_c": "Killing sperm in the vaginal canal",
+      "option_d": "Blocking progesterone receptors in the uterus",
+      "correct_answer": "B",
+      "explanation": "The estrogen and progestin components provide negative feedback to the hypothalamus and pituitary, preventing the LH surge required for ovulation."
+    },
+    {
+      "question": "Which drug is a 'Selective Estrogen Receptor Modulator' (SERM) used to prevent and treat osteoporosis in postmenopausal women without increasing the risk of breast cancer?",
+      "option_a": "Tamoxifen",
+      "option_b": "Raloxifene",
+      "option_c": "Clomiphene",
+      "option_d": "Estradiol",
+      "correct_answer": "B",
+      "explanation": "Raloxifene acts as an estrogen agonist in bone but as an antagonist in breast and uterine tissue."
+    },
+    {
+      "question": "Which medication is used to induce ovulation in women with infertility by blocking estrogen's negative feedback on the hypothalamus?",
+      "option_a": "Mifepristone",
+      "option_b": "Clomiphene",
+      "option_c": "Danazol",
+      "option_d": "Levonorgestrel",
+      "correct_answer": "B",
+      "explanation": "Clomiphene is an estrogen antagonist in the hypothalamus, leading to increased secretion of GnRH and gonadotropins."
+    },
+    {
+      "question": "What is the primary clinical use of 'Mifepristone' (RU-486)?",
+      "option_a": "Hormone replacement therapy",
+      "option_b": "Medical termination of early pregnancy",
+      "option_c": "Treatment of endometriosis",
+      "option_d": "Emergency contraception only",
+      "correct_answer": "B",
+      "explanation": "Mifepristone is a competitive progesterone receptor antagonist that leads to the breakdown of the uterine lining."
+    },
+    {
+      "question": "Which 'Androgen Antagonist' is used in the treatment of prostate cancer and hirsutism?",
+      "option_a": "Testosterone",
+      "option_b": "Flutamide",
+      "option_c": "Oxandrolone",
+      "option_d": "Nandrolone",
+      "correct_answer": "B",
+      "explanation": "Flutamide blocks androgen receptors, preventing testosterone from stimulating cancer cell growth."
+    },
+    {
+      "question": "Which drug inhibits the enzyme 5-alpha-reductase, preventing the conversion of testosterone to DHT, and is used for BPH?",
+      "option_a": "Tamsulosin",
+      "option_b": "Finasteride",
+      "option_c": "Sildenafil",
+      "option_d": "Prazosin",
+      "correct_answer": "B",
+      "explanation": "By reducing DHT levels, Finasteride helps shrink the prostate gland over time."
+    },
+    {
+      "question": "Which 'Phosphodiesterase-5' (PDE5) inhibitor is used for erectile dysfunction and has the longest duration of action (up to 36 hours)?",
+      "option_a": "Sildenafil",
+      "option_b": "Tadalafil",
+      "option_c": "Vardenafil",
+      "option_d": "Avanafil",
+      "correct_answer": "B",
+      "explanation": "Tadalafil is often called the 'weekend pill' due to its long half-life."
+    },
+    {
+      "question": "What is the most serious side effect of combining PDE5 inhibitors with Nitrates?",
+      "option_a": "Hypertensive crisis",
+      "option_b": "Severe hypotension and cardiovascular collapse",
+      "option_c": "Priapism",
+      "option_d": "Sudden hearing loss",
+      "correct_answer": "B",
+      "explanation": "Both increase cGMP levels, leading to synergistic vasodilation that can be fatal."
+    },
+    {
+      "question": "Which 'Somatostatin' analog is used to treat acromegaly and certain secretory diarrheas?",
+      "option_a": "Somatropin",
+      "option_b": "Octreotide",
+      "option_c": "Desmopressin",
+      "option_d": "Oxytocin",
+      "correct_answer": "B",
+      "explanation": "Octreotide mimics the inhibitory action of natural somatostatin on growth hormone and various GI hormones."
+    },
+    {
+      "question": "What is the clinical use of 'Desmopressin' (DDAVP)?",
+      "option_a": "Inducing labor",
+      "option_b": "Diabetes Insipidus and Nocturnal Enuresis",
+      "option_c": "Acromegaly",
+      "option_d": "Hypothyroidism",
+      "correct_answer": "B",
+      "explanation": "Desmopressin is a synthetic V2-selective vasopressin analog that increases water reabsorption in the kidneys."
+    },
+    {
+      "question": "Which hormone is used to induce labor and control postpartum hemorrhage?",
+      "option_a": "Vasopressin",
+      "option_b": "Oxytocin",
+      "option_c": "Prolactin",
+      "option_d": "Progesterone",
+      "correct_answer": "B",
+      "explanation": "Oxytocin stimulates uterine smooth muscle contraction and milk ejection."
+    },
+    {
+      "question": "Which of the following describes the mechanism of 'Spironolactone' when used for hormonal issues?",
+      "option_a": "Alpha-blocker",
+      "option_b": "Aldosterone and Androgen receptor antagonist",
+      "option_c": "Beta-blocker",
+      "option_d": "Estrogen agonist",
+      "correct_answer": "B",
+      "explanation": "Spironolactone is a potassium-sparing diuretic that also blocks androgen receptors, making it useful for treating acne and hirsutism in women."
+    }
+  ]
+}
