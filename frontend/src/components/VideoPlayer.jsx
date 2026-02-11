@@ -19,6 +19,9 @@ import {
 
 const SUBTITLE_LANGUAGES = [
   { code: 'he', name: 'עברית', flag: '🇮🇱' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'ro', name: 'Română', flag: '🇷🇴' },
 ];
 
 export default function VideoPlayer({ 
