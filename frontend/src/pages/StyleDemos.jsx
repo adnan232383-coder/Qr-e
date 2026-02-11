@@ -21,6 +21,18 @@ import {
 // Demo styles configuration
 const STYLE_DEMOS = [
   {
+    id: "style_presentation",
+    name: "🎬 אווטאר + שקופיות",
+    nameEn: "Avatar + Slides Presentation",
+    description: "סגנון פרזנטציה - האווטאר בצד שמאל מותיר מקום לשקופיות ותוכן בצד ימין. אידיאלי להרצאות עם תמונות ודיאגרמות",
+    avatar: "Adriana Nurse Front",
+    background: "#1a1a2e",
+    voice: "Hope (נקבה)",
+    videoFile: "demos_new/demo_adriana_side_dark.mp4",
+    tags: ["פרזנטציה", "שקופיות", "הרצאה", "מומלץ"],
+    featured: true
+  },
+  {
     id: "style_side_dark",
     name: "אווטאר בצד + רקע כהה",
     nameEn: "Avatar Side + Dark Background",
