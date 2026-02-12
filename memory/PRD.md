@@ -1,7 +1,7 @@
 # Educational Video Platform - PRD
 
 ## Original Problem Statement
-Build a comprehensive educational video platform with AI-generated avatar videos for medical/pharmacy courses.
+Build a comprehensive educational video platform with AI-generated avatar videos for medical/pharmacy courses across multiple universities.
 
 ### Initial Requirements
 1. Build courses based on existing MCQ database
@@ -9,27 +9,34 @@ Build a comprehensive educational video platform with AI-generated avatar videos
 3. Videos in English with multi-language subtitles (Hebrew, Arabic, Russian, Romanian)
 4. **Visual diversity**: Different avatar styles and presentation formats every 2 modules
 
-## Current Status (Feb 2026)
+## Current Status (Dec 2025)
 
-### Completed ✅
-- [x] **Course 1: General Biology (UG_DENT_Y1_S1_C01)** - 8 modules with diverse styles
-  - Modules 1-2: Adriana Nurse (Medical Dark)
-  - Modules 3-4: Abigail Office (Office Light)
-  - Modules 5-6: Adrian Male (Studio Dark)
-  - Modules 7-8: Adriana Business (Business Modern)
-- [x] Multi-language subtitles (Hebrew, Arabic, Russian, Romanian)
-- [x] Video player with subtitle selection
-- [x] Style demonstration page (`/styles`)
-- [x] Autonomous video generation system
+### ✅ MCQ Content Population - COMPLETED
 
-### In Progress 🔄
-- [ ] **Course 2: General Chemistry (UG_PHARM_Y1_S1_C01)** - 8 modules generating
+| University | Courses | Courses with 300+ MCQs | Total Questions |
+|------------|---------|------------------------|-----------------|
+| **An-Najah National University (NAJAH)** | 160 | **160** ✅ | **48,000** |
+| Al-Ahliyya Amman University (AAU) | 100 | 100 ✅ | 30,000 |
+| New Vision University (NVU) | 76 | 72 | 26,315 |
+| University of Georgia (UG) | 94 | 74 | 22,882 |
+| University of Medicine Iași (IASI) | 60 | 60 ✅ | 18,000 |
+| **TOTAL** | **490** | **466** | **145,197** |
+
+### ✅ University Structure - COMPLETED
+- [x] UG (University of Georgia) - 94 courses
+- [x] NVU (New Vision University) - 76 courses  
+- [x] IASI (University of Medicine Iași) - 60 courses
+- [x] AAU (Al-Ahliyya Amman University) - 100 courses
+- [x] NAJAH (An-Najah National University) - 160 courses (MED: 60, DENT: 50, PHARM: 50)
+
+### 🔴 BLOCKED - Video Generation
+- HeyGen API credits insufficient
+- User is handling with HeyGen support
+- Video generation for all 490+ courses pending resolution
 
 ### Backlog 📋
-- [ ] Internal Medicine I (NVU_MD_Y3_S1_C24) - 500 MCQs
-- [ ] Practice Management & Ethics (UG_DENT_Y5_S1_C05) - 452 MCQs
-- [ ] Aesthetic Dentistry (UG_DENT_Y5_S2_C06) - 400 MCQs
-- [ ] Evidence Based Medicine (NVU_MD_Y2_S2_C23) - 320 MCQs
+- [ ] Generate videos for all courses (pending HeyGen credits)
+- [ ] Complete MCQ population for remaining UG/NVU courses to 300
 
 ## Architecture
 
