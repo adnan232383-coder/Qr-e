@@ -28,9 +28,9 @@ async def copy_questions_to_najah():
     # Define mapping rules
     mappings = [
         # (source_prefix, target_prefix, description)
-        ('AAU_DENT', 'NAJAH_DENT', 'Dentistry'),
-        ('AAU_PHARM', 'NAJAH_PHARM', 'Pharmacy'),
-        ('IASI_MED', 'NAJAH_MED', 'Medicine'),
+        ('AAU_DENT_', 'NAJAH_DENT_', 'Dentistry'),
+        ('AAU_PHARM_', 'NAJAH_PHARM_', 'Pharmacy'),
+        ('IASI_MED_', 'NAJAH_MED_', 'Medicine'),
     ]
     
     for source_prefix, target_prefix, desc in mappings:
@@ -39,10 +39,8 @@ async def copy_questions_to_najah():
         print('='*60)
         
         # Get all source courses with questions
-        source_courses = await db.mcq_questions.distinct(
-            'course_id', 
-            {'course_id': {'$regex': f'^{source_prefix}'}}
-        )
+        all_courses = await db.mcq_questions.distinct('course_id')
+        source_courses = [c for c in all_courses if c.startswith(source_prefix)]
         print(f"Found {len(source_courses)} source courses")
         
         copied_in_section = 0
@@ -73,13 +71,14 @@ async def copy_questions_to_najah():
                 new_q = {
                     'question_id': f"q_{uuid.uuid4().hex[:12]}",
                     'course_id': target_course,
-                    'question': q['question'],
-                    'option_a': q['option_a'],
-                    'option_b': q['option_b'],
-                    'option_c': q['option_c'],
-                    'option_d': q['option_d'],
-                    'correct_answer': q['correct_answer'],
+                    'question': q.get('question', ''),
+                    'option_a': q.get('option_a', q.get('a', '')),
+                    'option_b': q.get('option_b', q.get('b', '')),
+                    'option_c': q.get('option_c', q.get('c', '')),
+                    'option_d': q.get('option_d', q.get('d', '')),
+                    'correct_answer': q.get('correct_answer', q.get('answer', '')),
                     'explanation': q.get('explanation', ''),
+                    'difficulty': q.get('difficulty', 'medium'),
                     'created_at': datetime.now(timezone.utc).isoformat(),
                     'source': source_course  # Track source for reference
                 }
@@ -103,14 +102,17 @@ async def copy_questions_to_najah():
     print('='*60)
     
     # Final verification
-    najah_total = await db.mcq_questions.count_documents({'course_id': {'$regex': '^NAJAH_'}})
+    all_najah = await db.mcq_questions.distinct('course_id')
+    najah_courses = [c for c in all_najah if c.startswith('NAJAH_')]
+    
+    najah_total = await db.mcq_questions.count_documents({'course_id': {'$in': najah_courses}})
     print(f"\nVerification: NAJAH now has {najah_total} questions")
     
     # Show by program
     for prog in ['MED', 'DENT', 'PHARM']:
-        count = await db.mcq_questions.count_documents({'course_id': {'$regex': f'^NAJAH_{prog}'}})
-        courses = len(await db.mcq_questions.distinct('course_id', {'course_id': {'$regex': f'^NAJAH_{prog}'}}))
-        print(f"  NAJAH_{prog}: {count} questions in {courses} courses")
+        prog_courses = [c for c in najah_courses if c.startswith(f'NAJAH_{prog}_')]
+        count = await db.mcq_questions.count_documents({'course_id': {'$in': prog_courses}})
+        print(f"  NAJAH_{prog}: {count} questions in {len(prog_courses)} courses")
 
 
 if __name__ == '__main__':
