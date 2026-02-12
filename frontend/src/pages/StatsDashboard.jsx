@@ -20,11 +20,35 @@ import {
   Stethoscope,
   Globe,
   Award,
-  TrendingUp
+  TrendingUp,
+  PieChart as PieChartIcon,
+  BarChart3
 } from "lucide-react";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
+} from "recharts";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
+
+// Chart colors
+const COLORS = {
+  complete: "#22c55e",    // green-500
+  partial: "#eab308",     // yellow-500
+  incomplete: "#ef4444",  // red-500
+  primary: "#14b8a6",     // teal-500
+  universities: ["#0ea5e9", "#10b981", "#8b5cf6", "#f59e0b", "#ec4899"] // sky, emerald, violet, amber, pink
+};
 
 export default function StatsDashboard() {
   const navigate = useNavigate();
