@@ -90,8 +90,8 @@ MCQ Questions → Script Generation → HeyGen API → Video Download → Fronte
 - API Key: Configured in environment
 
 ## Key Links
-- Video Gallery: https://edcontent-multi.preview.emergentagent.com/videos
-- Style Demos: https://edcontent-multi.preview.emergentagent.com/styles
+- Video Gallery: https://learning-portal-hub.preview.emergentagent.com/videos
+- Style Demos: https://learning-portal-hub.preview.emergentagent.com/styles
 
 ## User Language
 Hebrew (עברית)

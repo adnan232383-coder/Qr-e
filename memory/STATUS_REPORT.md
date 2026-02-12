@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://edcontent-multi.preview.emergentagent.com |
-| Admin Panel | https://edcontent-multi.preview.emergentagent.com/admin/progress |
-| API Docs | https://edcontent-multi.preview.emergentagent.com/api/docs |
+| Frontend | https://learning-portal-hub.preview.emergentagent.com |
+| Admin Panel | https://learning-portal-hub.preview.emergentagent.com/admin/progress |
+| API Docs | https://learning-portal-hub.preview.emergentagent.com/api/docs |
 
 ---
 
