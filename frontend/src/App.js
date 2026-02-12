@@ -15,6 +15,7 @@ import UniversityCatalog from "@/pages/UniversityCatalog";
 import VideoGallery from "@/pages/VideoGallery";
 import StyleDemos from "@/pages/StyleDemos";
 import CourseViewer from "@/pages/CourseViewer";
+import StatsDashboard from "@/pages/StatsDashboard";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
@@ -41,6 +42,7 @@ function AppRouter() {
       <Route path="/videos/:courseId" element={<CourseViewer />} />
       <Route path="/styles" element={<StyleDemos />} />
       <Route path="/admin/progress" element={<GenerationProgress />} />
+      <Route path="/admin/stats" element={<StatsDashboard />} />
     </Routes>
   );
 }
