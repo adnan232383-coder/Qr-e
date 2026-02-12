@@ -34,3 +34,54 @@ LiteLLM completion() model= gpt-4o-mini; provider = openai
 2026-02-12 13:55:34,110 - INFO -   Added 24 questions to UG_DENT_Y1_S1_C01
 2026-02-12 13:55:36,112 - INFO - 
 LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:56:25,906 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:56:25,906 - ERROR - Error generating MCQ batch: Expecting ',' delimiter: line 179 column 114 (char 7744)
+2026-02-12 13:56:27,169 - INFO - ============================================================
+2026-02-12 13:56:27,169 - INFO - AUTONOMOUS RUNNER STARTED
+2026-02-12 13:56:27,169 - INFO - Time: 2026-02-12T13:56:27.169589+00:00
+2026-02-12 13:56:27,169 - INFO - ============================================================
+2026-02-12 13:56:27,169 - INFO - ============================================================
+2026-02-12 13:56:27,169 - INFO - STARTING MCQ GENERATION
+2026-02-12 13:56:27,170 - INFO - ============================================================
+2026-02-12 13:56:27,268 - INFO - Found 20 courses needing MCQs
+2026-02-12 13:56:27,268 - INFO - 
+[1/20] Processing UG_DENT_Y1_S1_C01
+2026-02-12 13:56:29,415 - INFO - Generating 151 questions for General Biology
+2026-02-12 13:56:29,420 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:56:30,911 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:57:15,666 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:57:15,669 - INFO -   Added 23 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:57:17,670 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:57:25,207 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:57:25,209 - INFO -   Added 26 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:57:27,211 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:58:09,948 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:58:09,950 - INFO -   Added 27 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:58:11,953 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:58:27,220 - INFO - Retrying request to /chat/completions in 0.491860 seconds
+2026-02-12 13:59:01,054 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:59:01,056 - INFO -   Added 24 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:59:03,058 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:59:15,767 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:59:15,769 - INFO -   Added 23 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:59:17,771 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:00:01,428 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:00:01,430 - INFO -   Added 27 questions to UG_DENT_Y1_S1_C01
+2026-02-12 14:00:03,432 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:00:14,324 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:00:14,325 - ERROR - Error generating MCQ batch: Invalid control character at: line 59 column 104 (char 2448)
+2026-02-12 14:00:19,329 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:01:03,440 - INFO - Retrying request to /chat/completions in 0.414724 seconds
+2026-02-12 14:01:13,545 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:01:13,548 - INFO -   Added 24 questions to UG_DENT_Y1_S1_C01
+2026-02-12 14:01:15,550 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
