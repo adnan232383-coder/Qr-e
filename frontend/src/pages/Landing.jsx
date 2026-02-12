@@ -309,15 +309,15 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <div className="text-3xl font-bold text-primary">160+</div>
+              <div className="text-3xl font-bold text-primary">{allCourses.length > 0 ? `${allCourses.length}+` : '490+'}</div>
               <div className="text-sm text-muted-foreground mt-1">Courses</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="text-3xl font-bold text-primary">2</div>
+              <div className="text-3xl font-bold text-primary">{universities.length || 5}</div>
               <div className="text-sm text-muted-foreground mt-1">Universities</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="text-3xl font-bold text-primary">37K+</div>
+              <div className="text-3xl font-bold text-primary">{allCourses.length > 0 ? `${Math.round(allCourses.reduce((sum, c) => sum + (c.mcq_count || 0), 0) / 1000)}K+` : '150K+'}</div>
               <div className="text-sm text-muted-foreground mt-1">MCQ Questions</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
