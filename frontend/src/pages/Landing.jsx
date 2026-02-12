@@ -352,7 +352,7 @@ export default function Landing() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto stagger-children">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto stagger-children">
             {universities.map((uni) => {
               const Icon = getUniversityIcon(uni.name);
               const gradientClass = getUniversityColor(uni.external_id);
@@ -364,18 +364,15 @@ export default function Landing() {
                   onClick={() => navigate(`/university/${uni.external_id}`)}
                   data-testid={`university-card-${uni.external_id}`}
                 >
-                  <CardContent className="p-8">
-                    <div className="flex items-start gap-4">
-                      <div className="p-3 rounded-xl bg-background text-primary">
-                        <Icon className="h-8 w-8" />
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-3">
+                      <div className="p-2 rounded-xl bg-background text-primary">
+                        <Icon className="h-6 w-6" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="text-2xl font-bold mb-2">{uni.name}</h3>
-                        <p className="text-muted-foreground mb-2">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-lg font-bold mb-1 truncate">{uni.name}</h3>
+                        <p className="text-sm text-muted-foreground mb-2">
                           {uni.city}, {uni.country}
-                        </p>
-                        <p className="text-sm text-muted-foreground mb-4">
-                          {uni.description?.substring(0, 100)}...
                         </p>
                         <div className="flex items-center text-sm text-primary font-medium group-hover:gap-2 transition-all">
                           Explore Courses
