@@ -579,6 +579,30 @@ async def get_module_video(module_id: str):
         raise HTTPException(status_code=404, detail="Video not found")
     return video
 
+@api_router.get("/videos/{module_id}")
+async def serve_module_video(module_id: str):
+    """Serve video file for a module"""
+    video_path = Path(f"/app/generated_videos/{module_id}.mp4")
+    if not video_path.exists():
+        raise HTTPException(status_code=404, detail="Video file not found")
+    return FileResponse(
+        video_path,
+        media_type="video/mp4",
+        filename=f"{module_id}.mp4"
+    )
+
+@api_router.get("/videos/{module_id}/file")
+async def serve_module_video_file(module_id: str):
+    """Serve video file for a module (alternate path)"""
+    video_path = Path(f"/app/generated_videos/{module_id}.mp4")
+    if not video_path.exists():
+        raise HTTPException(status_code=404, detail="Video file not found")
+    return FileResponse(
+        video_path,
+        media_type="video/mp4",
+        filename=f"{module_id}.mp4"
+    )
+
 @api_router.get("/video/queue-status")
 async def get_video_queue_status():
     """Get video generation queue status"""
