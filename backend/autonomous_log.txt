@@ -162,3 +162,20 @@ LiteLLM completion() model= gpt-4o-mini; provider = openai
 2026-02-12 14:06:20,815 - ERROR - Error generating MCQ batch: Invalid control character at: line 223 column 88 (char 9956)
 2026-02-12 14:06:25,820 - INFO - 
 LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:06:37,825 - INFO - ============================================================
+2026-02-12 14:06:37,825 - INFO - AUTONOMOUS RUNNER STARTED
+2026-02-12 14:06:37,825 - INFO - Time: 2026-02-12T14:06:37.825437+00:00
+2026-02-12 14:06:37,825 - INFO - ============================================================
+2026-02-12 14:06:37,825 - INFO - ============================================================
+2026-02-12 14:06:37,825 - INFO - STARTING MCQ GENERATION
+2026-02-12 14:06:37,825 - INFO - ============================================================
+2026-02-12 14:06:37,942 - INFO - Found 19 courses needing MCQs
+2026-02-12 14:06:37,943 - INFO - 
+[1/19] Processing UG_DENT_Y1_S1_C02
+2026-02-12 14:06:39,369 - INFO - Generating 156 questions for General Chemistry
+2026-02-12 14:06:39,373 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:06:45,307 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:06:45,308 - INFO -   Added 23 questions to UG_DENT_Y1_S1_C02
+2026-02-12 14:06:47,310 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
