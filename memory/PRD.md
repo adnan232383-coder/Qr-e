@@ -1,97 +1,80 @@
-# Educational Video Platform - PRD
+# Multi-University E-Learning Platform - PRD
 
-## Original Problem Statement
-Build a comprehensive educational video platform with AI-generated avatar videos for medical/pharmacy courses across multiple universities.
+## Overview
+A comprehensive e-learning platform supporting 5 universities with MCQ questions and educational videos.
 
-### Initial Requirements
-1. Build courses based on existing MCQ database
-2. Each course should have multiple video modules with talking avatars (HeyGen)
-3. Videos in English with multi-language subtitles (Hebrew, Arabic, Russian, Romanian)
-4. **Visual diversity**: Different avatar styles and presentation formats every 2 modules
+## Universities Supported
+1. **UG** - University of Georgia (Tbilisi)
+2. **NVU** - New Vision University
+3. **IASI** - University of Medicine and Pharmacy Iași (Romania)
+4. **AAU** - Al-Ahliyya Amman University (Jordan)
+5. **NAJAH** - An-Najah National University (Palestine)
 
-## Current Status (Dec 2025)
+## Current Status (Feb 12, 2026)
 
-### ✅ MCQ Content Population - COMPLETED
+### Content Statistics
+- **Total Universities**: 5
+- **Total Courses**: 486
+- **Total MCQ Questions**: ~148,000+
+- **Courses with 300+ MCQs**: 466+ (96%)
+- **Videos Generated**: 1 (test video)
+- **HeyGen API Credits**: 39,600 available
 
-| University | Courses | Courses with 300+ MCQs | Total Questions |
-|------------|---------|------------------------|-----------------|
-| **An-Najah National University (NAJAH)** | 160 | **160** ✅ | **48,000** |
-| Al-Ahliyya Amman University (AAU) | 100 | 100 ✅ | 30,000 |
-| New Vision University (NVU) | 72 | 72 ✅ | 25,666 |
-| University of Georgia (UG) | 94 | 74 | 22,882 |
-| University of Medicine Iași (IASI) | 60 | 60 ✅ | 18,000 |
-| **TOTAL** | **486** | **466** | **144,548** |
+### Completed Features
+- ✅ University and course catalog
+- ✅ MCQ quiz system with explanations
+- ✅ Statistics dashboard with charts
+- ✅ Module scripts for educational content
+- ✅ Video streaming infrastructure (HTTP 206 Range support)
+- ✅ HeyGen video generation integration
 
-### ✅ University Structure - COMPLETED
-- [x] UG (University of Georgia) - 94 courses
-- [x] NVU (New Vision University) - 72 courses  
-- [x] IASI (University of Medicine Iași) - 60 courses
-- [x] AAU (Al-Ahliyya Amman University) - 100 courses
-- [x] NAJAH (An-Najah National University) - 160 courses (MED: 60, DENT: 50, PHARM: 50)
+### In Progress
+- 🔄 MCQ generation for remaining 20 UG courses (~5,500 questions)
+- 🔄 Video generation for all modules
 
-### ✅ Frontend & Dashboard - COMPLETED
-- [x] Landing page shows all 5 universities with unique icons and colors
-- [x] Statistics dynamically calculated from database
-- [x] **NEW**: Statistics Dashboard (`/admin/stats`) with:
-  - Summary cards (Universities, Courses, MCQs, Completion %)
-  - Overall progress bar with 300+/200-299/Under 200 breakdown
-  - Per-university breakdown with progress indicators
-  - Export to CSV functionality
-  - Refresh button for real-time updates
+### Known Limitations
+- Playwright headless browser cannot play videos (codec limitation - not a bug)
+- Some courses still under 300 MCQ target
 
-### 🔴 BLOCKED - Video Generation
-- HeyGen API credits insufficient
-- User is handling with HeyGen support
-- Video generation for all 486+ courses pending resolution
+## Technical Architecture
 
-### Backlog 📋
-- [ ] Generate videos for all courses (pending HeyGen credits)
-- [ ] Complete MCQ population for remaining 20 UG courses to 300
+### Backend (FastAPI)
+- `/api/universities` - List all universities
+- `/api/courses` - List all courses
+- `/api/courses/{id}/questions` - Get MCQ questions
+- `/api/videos/{module_id}/file` - Stream video with Range support (HTTP 206)
+- `/api/stats/dashboard` - Dashboard statistics
 
-## Architecture
+### Frontend (React)
+- Homepage with dynamic stats
+- University catalog
+- Course detail with tabs (Overview, Modules, Quiz, Scripts)
+- Statistics dashboard with Recharts
 
-### Video Generation Pipeline
-```
-MCQ Questions → Script Generation → HeyGen API → Video Download → Frontend Display
-```
+### Database (MongoDB)
+- universities
+- courses
+- mcq_questions
+- modules
+- module_scripts
+- module_videos
 
-### Style Rotation System (APPROVED - Feb 2026)
-**Only 2 styles approved by user:**
+### External Integrations
+- **HeyGen API** - Video generation with avatars
+- **Emergent LLM** - MCQ question generation
 
-| Module | Style | Avatar | Description |
-|--------|-------|--------|-------------|
-| 1-4 | Medical Dark | Adriana Nurse | Standard center position, dark background |
-| 5-8 | Presentation | Adriana Nurse (Side) | Avatar on left, room for slides on right |
+## API Keys
+- HeyGen: Configured in backend/.env
+- Emergent LLM: Available for AI generation
 
-**Rejected styles:** Office Light, Studio Dark (male), Business Modern
+## Files of Reference
+- `/app/backend/server.py` - Main API server
+- `/app/backend/heygen_video_creator.py` - HeyGen integration
+- `/app/frontend/src/pages/CourseDetail.jsx` - Course view
+- `/app/frontend/src/pages/StatsDashboard.jsx` - Dashboard
 
-### Backend Files
-- `/app/backend/auto_course_builder.py` - Autonomous course builder
-- `/app/backend/generate_diverse_videos.py` - Video generation with styles
-- `/app/backend/heygen_video_creator.py` - HeyGen API integration
-
-### Frontend Pages
-- `/videos` - Video gallery with module list
-- `/styles` - Style demonstration page
-- `/` - Landing page with course catalog
-
-### Video Storage
-- `/app/frontend/public/videos/diverse/` - First course videos
-- `/app/frontend/public/videos/{course_id}/` - Additional course videos
-- `/app/frontend/public/videos/subtitles/` - VTT subtitle files
-
-## Database (MongoDB)
-- `courses`: 325 courses
-- `mcq_questions`: 36,412 questions
-- Total content available for video generation
-
-## 3rd Party Integrations
-- **HeyGen API** - Avatar video generation
-- API Key: Configured in environment
-
-## Key Links
-- Video Gallery: https://learning-portal-hub.preview.emergentagent.com/videos
-- Style Demos: https://learning-portal-hub.preview.emergentagent.com/styles
-
-## User Language
-Hebrew (עברית)
+## Next Steps
+1. Complete MCQ generation for remaining courses
+2. Generate videos for all modules using HeyGen
+3. Add subtitles/captions to videos
+4. Multi-language support (Hebrew, Arabic)
