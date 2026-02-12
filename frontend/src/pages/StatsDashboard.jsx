@@ -1,0 +1,403 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
+import { useTheme } from "@/context/ThemeContext";
+import {
+  GraduationCap,
+  BookOpen,
+  FileQuestion,
+  Download,
+  RefreshCw,
+  Sun,
+  Moon,
+  ArrowLeft,
+  CheckCircle2,
+  AlertCircle,
+  Building2,
+  Heart,
+  Stethoscope,
+  Globe,
+  Award,
+  TrendingUp
+} from "lucide-react";
+
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const API = `${BACKEND_URL}/api`;
+
+export default function StatsDashboard() {
+  const navigate = useNavigate();
+  const { theme, toggleTheme } = useTheme();
+  const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+  const [stats, setStats] = useState(null);
+  const [universities, setUniversities] = useState([]);
+
+  useEffect(() => {
+    fetchStats();
+  }, []);
+
+  const fetchStats = async () => {
+    setRefreshing(true);
+    try {
+      // Fetch universities
+      const uniRes = await fetch(`${API}/universities`);
+      const uniData = await uniRes.json();
+      setUniversities(uniData);
+
+      // Fetch courses for each university
+      const uniIds = uniData.map(u => u.external_id);
+      const coursePromises = uniIds.map(id => 
+        fetch(`${API}/courses/by-university/${id}`).then(r => r.ok ? r.json() : [])
+      );
+      const allCourses = await Promise.all(coursePromises);
+
+      // Calculate stats for each university
+      const uniStats = uniData.map((uni, idx) => {
+        const courses = allCourses[idx] || [];
+        const totalQuestions = courses.reduce((sum, c) => sum + (c.mcq_count || 0), 0);
+        const coursesWith300 = courses.filter(c => (c.mcq_count || 0) >= 300).length;
+        const coursesWith200 = courses.filter(c => (c.mcq_count || 0) >= 200 && (c.mcq_count || 0) < 300).length;
+        const coursesUnder200 = courses.filter(c => (c.mcq_count || 0) < 200).length;
+
+        return {
+          ...uni,
+          totalCourses: courses.length,
+          totalQuestions,
+          coursesWith300,
+          coursesWith200,
+          coursesUnder200,
+          completionRate: courses.length > 0 ? (coursesWith300 / courses.length) * 100 : 0,
+          courses
+        };
+      });
+
+      // Calculate totals
+      const totals = {
+        totalUniversities: uniData.length,
+        totalCourses: uniStats.reduce((sum, u) => sum + u.totalCourses, 0),
+        totalQuestions: uniStats.reduce((sum, u) => sum + u.totalQuestions, 0),
+        coursesWith300: uniStats.reduce((sum, u) => sum + u.coursesWith300, 0),
+        coursesWith200: uniStats.reduce((sum, u) => sum + u.coursesWith200, 0),
+        coursesUnder200: uniStats.reduce((sum, u) => sum + u.coursesUnder200, 0),
+      };
+      totals.overallCompletion = totals.totalCourses > 0 
+        ? (totals.coursesWith300 / totals.totalCourses) * 100 
+        : 0;
+
+      setStats({ universities: uniStats, totals });
+    } catch (e) {
+      console.error("Error fetching stats:", e);
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  };
+
+  const exportToCSV = () => {
+    if (!stats) return;
+
+    let csv = "University,Courses,Questions,300+ MCQ,200-299 MCQ,Under 200,Completion %\n";
+    
+    stats.universities.forEach(uni => {
+      csv += `"${uni.name}",${uni.totalCourses},${uni.totalQuestions},${uni.coursesWith300},${uni.coursesWith200},${uni.coursesUnder200},${uni.completionRate.toFixed(1)}\n`;
+    });
+
+    csv += `\n"TOTAL",${stats.totals.totalCourses},${stats.totals.totalQuestions},${stats.totals.coursesWith300},${stats.totals.coursesWith200},${stats.totals.coursesUnder200},${stats.totals.overallCompletion.toFixed(1)}\n`;
+
+    // Add detailed course list
+    csv += "\n\nDetailed Course List\n";
+    csv += "University,Course ID,Course Name,MCQ Count,Status\n";
+    
+    stats.universities.forEach(uni => {
+      uni.courses.forEach(course => {
+        const status = (course.mcq_count || 0) >= 300 ? "Complete" : 
+                      (course.mcq_count || 0) >= 200 ? "Partial" : "Incomplete";
+        csv += `"${uni.name}","${course.external_id}","${course.course_name}",${course.mcq_count || 0},${status}\n`;
+      });
+    });
+
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `mcq_stats_${new Date().toISOString().split('T')[0]}.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const getUniversityIcon = (name) => {
+    if (name.toLowerCase().includes("georgia")) return Building2;
+    if (name.toLowerCase().includes("vision")) return Heart;
+    if (name.toLowerCase().includes("iași") || name.toLowerCase().includes("iasi")) return Stethoscope;
+    if (name.toLowerCase().includes("amman") || name.toLowerCase().includes("aau")) return Globe;
+    if (name.toLowerCase().includes("najah")) return Award;
+    return GraduationCap;
+  };
+
+  const getStatusColor = (rate) => {
+    if (rate >= 90) return "text-green-500";
+    if (rate >= 70) return "text-yellow-500";
+    return "text-red-500";
+  };
+
+  const getProgressColor = (rate) => {
+    if (rate >= 90) return "bg-green-500";
+    if (rate >= 70) return "bg-yellow-500";
+    return "bg-red-500";
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <RefreshCw className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+          <p className="text-muted-foreground">Loading statistics...</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Navigation */}
+      <nav className="glass sticky top-0 z-50 border-b border-border/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center gap-3">
+              <Button variant="ghost" size="icon" onClick={() => navigate("/")} data-testid="back-btn">
+                <ArrowLeft className="h-5 w-5" />
+              </Button>
+              <GraduationCap className="h-8 w-8 text-primary" />
+              <span className="text-xl font-semibold">Content Statistics</span>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={fetchStats}
+                disabled={refreshing}
+                data-testid="refresh-btn"
+              >
+                <RefreshCw className={`h-4 w-4 mr-2 ${refreshing ? 'animate-spin' : ''}`} />
+                Refresh
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={exportToCSV}
+                data-testid="export-btn"
+              >
+                <Download className="h-4 w-4 mr-2" />
+                Export CSV
+              </Button>
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={toggleTheme}
+                data-testid="theme-toggle-btn"
+                className="rounded-full"
+              >
+                {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Summary Cards */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          <Card data-testid="total-universities-card">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Building2 className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Universities</p>
+                  <p className="text-2xl font-bold">{stats?.totals.totalUniversities}</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card data-testid="total-courses-card">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-lg bg-blue-500/10">
+                  <BookOpen className="h-5 w-5 text-blue-500" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Total Courses</p>
+                  <p className="text-2xl font-bold">{stats?.totals.totalCourses}</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card data-testid="total-questions-card">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-lg bg-green-500/10">
+                  <FileQuestion className="h-5 w-5 text-green-500" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Total MCQs</p>
+                  <p className="text-2xl font-bold">{stats?.totals.totalQuestions.toLocaleString()}</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card data-testid="completion-rate-card">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-lg bg-purple-500/10">
+                  <TrendingUp className="h-5 w-5 text-purple-500" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Completion</p>
+                  <p className="text-2xl font-bold">{stats?.totals.overallCompletion.toFixed(1)}%</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Overall Progress */}
+        <Card className="mb-8" data-testid="overall-progress-card">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <CheckCircle2 className="h-5 w-5 text-green-500" />
+              Overall Content Progress
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div className="flex items-center justify-between text-sm">
+                <span>Courses with 300+ MCQs</span>
+                <span className="font-medium text-green-500">
+                  {stats?.totals.coursesWith300} / {stats?.totals.totalCourses}
+                </span>
+              </div>
+              <Progress 
+                value={stats?.totals.overallCompletion} 
+                className="h-3"
+              />
+              <div className="grid grid-cols-3 gap-4 text-center text-sm">
+                <div className="p-3 rounded-lg bg-green-500/10">
+                  <p className="font-bold text-green-500">{stats?.totals.coursesWith300}</p>
+                  <p className="text-muted-foreground">300+ MCQs</p>
+                </div>
+                <div className="p-3 rounded-lg bg-yellow-500/10">
+                  <p className="font-bold text-yellow-500">{stats?.totals.coursesWith200}</p>
+                  <p className="text-muted-foreground">200-299 MCQs</p>
+                </div>
+                <div className="p-3 rounded-lg bg-red-500/10">
+                  <p className="font-bold text-red-500">{stats?.totals.coursesUnder200}</p>
+                  <p className="text-muted-foreground">Under 200</p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* University Details */}
+        <h2 className="text-xl font-bold mb-4">University Breakdown</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {stats?.universities.map((uni) => {
+            const Icon = getUniversityIcon(uni.name);
+            return (
+              <Card 
+                key={uni.external_id} 
+                className="overflow-hidden"
+                data-testid={`uni-card-${uni.external_id}`}
+              >
+                <CardHeader className="pb-2">
+                  <div className="flex items-start justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 rounded-lg bg-primary/10">
+                        <Icon className="h-5 w-5 text-primary" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-lg">{uni.name}</CardTitle>
+                        <p className="text-sm text-muted-foreground">{uni.city}, {uni.country}</p>
+                      </div>
+                    </div>
+                    <div className={`flex items-center gap-1 ${getStatusColor(uni.completionRate)}`}>
+                      {uni.completionRate >= 90 ? (
+                        <CheckCircle2 className="h-5 w-5" />
+                      ) : (
+                        <AlertCircle className="h-5 w-5" />
+                      )}
+                      <span className="font-bold">{uni.completionRate.toFixed(0)}%</span>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    {/* Progress bar */}
+                    <div>
+                      <div className="flex justify-between text-sm mb-1">
+                        <span className="text-muted-foreground">Progress</span>
+                        <span>{uni.coursesWith300} / {uni.totalCourses} complete</span>
+                      </div>
+                      <div className="h-2 bg-secondary rounded-full overflow-hidden">
+                        <div 
+                          className={`h-full ${getProgressColor(uni.completionRate)} transition-all`}
+                          style={{ width: `${uni.completionRate}%` }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Stats grid */}
+                    <div className="grid grid-cols-2 gap-3 text-sm">
+                      <div className="p-3 rounded-lg bg-secondary/50">
+                        <p className="text-muted-foreground">Courses</p>
+                        <p className="text-xl font-bold">{uni.totalCourses}</p>
+                      </div>
+                      <div className="p-3 rounded-lg bg-secondary/50">
+                        <p className="text-muted-foreground">Questions</p>
+                        <p className="text-xl font-bold">{uni.totalQuestions.toLocaleString()}</p>
+                      </div>
+                    </div>
+
+                    {/* Status breakdown */}
+                    <div className="flex gap-2 text-xs">
+                      <span className="px-2 py-1 rounded-full bg-green-500/10 text-green-500">
+                        {uni.coursesWith300} complete
+                      </span>
+                      {uni.coursesWith200 > 0 && (
+                        <span className="px-2 py-1 rounded-full bg-yellow-500/10 text-yellow-500">
+                          {uni.coursesWith200} partial
+                        </span>
+                      )}
+                      {uni.coursesUnder200 > 0 && (
+                        <span className="px-2 py-1 rounded-full bg-red-500/10 text-red-500">
+                          {uni.coursesUnder200} incomplete
+                        </span>
+                      )}
+                    </div>
+
+                    {/* View courses button */}
+                    <Button 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => navigate(`/university/${uni.external_id}`)}
+                      data-testid={`view-courses-${uni.external_id}`}
+                    >
+                      View Courses
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+      </main>
+    </div>
+  );
+}
