@@ -102,20 +102,18 @@ export default function Landing() {
 
   const fetchAllCourses = async () => {
     try {
-      // Fetch courses from both universities
-      const [ugRes, nvuRes] = await Promise.all([
-        fetch(`${API}/courses/by-university/UG_TBILISI`),
-        fetch(`${API}/courses/by-university/NVU`)
-      ]);
+      // Fetch courses from all universities
+      const uniIds = ["UG_TBILISI", "NVU", "IASI_ROMANIA", "AAU_AMMAN", "NAJAH"];
+      const responses = await Promise.all(
+        uniIds.map(id => fetch(`${API}/courses/by-university/${id}`))
+      );
       
       let courses = [];
-      if (ugRes.ok) {
-        const ugCourses = await ugRes.json();
-        courses = [...courses, ...ugCourses.map(c => ({ ...c, university: "UG" }))];
-      }
-      if (nvuRes.ok) {
-        const nvuCourses = await nvuRes.json();
-        courses = [...courses, ...nvuCourses.map(c => ({ ...c, university: "NVU" }))];
+      for (let i = 0; i < responses.length; i++) {
+        if (responses[i].ok) {
+          const data = await responses[i].json();
+          courses = [...courses, ...data.map(c => ({ ...c, university: uniIds[i] }))];
+        }
       }
       setAllCourses(courses);
     } catch (e) {
