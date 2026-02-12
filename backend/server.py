@@ -599,8 +599,8 @@ async def serve_module_video(module_id: str):
     
     raise HTTPException(status_code=404, detail="Video file not found")
 
-@api_router.get("/videos/{module_id}/file")
-async def serve_module_video_file(module_id: str):
+@api_router.api_route("/videos/{module_id}/file", methods=["GET", "HEAD"])
+async def serve_module_video_file(module_id: str, request: Request):
     """Serve video file for a module (alternate path)"""
     # Check multiple video locations
     video_paths = [
@@ -614,7 +614,10 @@ async def serve_module_video_file(module_id: str):
                 video_path,
                 media_type="video/mp4",
                 filename=f"{module_id}.mp4",
-                headers={"Accept-Ranges": "bytes"}
+                headers={
+                    "Accept-Ranges": "bytes",
+                    "Content-Length": str(video_path.stat().st_size)
+                }
             )
     
     # If local file not found, try to get from database and proxy from HeyGen
@@ -630,7 +633,8 @@ async def serve_module_video_file(module_id: str):
                         media_type="video/mp4",
                         headers={
                             "Accept-Ranges": "bytes",
-                            "Content-Disposition": f'inline; filename="{module_id}.mp4"'
+                            "Content-Disposition": f'inline; filename="{module_id}.mp4"',
+                            "Content-Length": str(len(response.content))
                         }
                     )
             except Exception as e:
