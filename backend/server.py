@@ -617,6 +617,25 @@ async def serve_module_video_file(module_id: str):
                 headers={"Accept-Ranges": "bytes"}
             )
     
+    # If local file not found, try to get from database and proxy from HeyGen
+    video_doc = await db.module_videos.find_one({'module_id': module_id})
+    if video_doc and video_doc.get('video_url') and video_doc['video_url'].startswith('http'):
+        # Proxy from HeyGen
+        async with httpx.AsyncClient() as client:
+            try:
+                response = await client.get(video_doc['video_url'], follow_redirects=True)
+                if response.status_code == 200:
+                    return Response(
+                        content=response.content,
+                        media_type="video/mp4",
+                        headers={
+                            "Accept-Ranges": "bytes",
+                            "Content-Disposition": f'inline; filename="{module_id}.mp4"'
+                        }
+                    )
+            except Exception as e:
+                logger.error(f"Error proxying video: {e}")
+    
     raise HTTPException(status_code=404, detail="Video file not found")
 
 @api_router.get("/video/queue-status")
