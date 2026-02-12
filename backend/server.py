@@ -601,46 +601,77 @@ async def serve_module_video(module_id: str):
 
 @api_router.api_route("/videos/{module_id}/file", methods=["GET", "HEAD"])
 async def serve_module_video_file(module_id: str, request: Request):
-    """Serve video file for a module (alternate path)"""
+    """Serve video file for a module with range request support"""
+    from starlette.responses import StreamingResponse
+    import os as os_module
+    
     # Check multiple video locations
     video_paths = [
         Path(f"/app/backend/heygen_videos/{module_id}.mp4"),
         Path(f"/app/generated_videos/{module_id}.mp4"),
     ]
     
-    for video_path in video_paths:
-        if video_path.exists():
-            return FileResponse(
-                video_path,
-                media_type="video/mp4",
-                filename=f"{module_id}.mp4",
-                headers={
-                    "Accept-Ranges": "bytes",
-                    "Content-Length": str(video_path.stat().st_size)
-                }
-            )
+    video_path = None
+    for vp in video_paths:
+        if vp.exists():
+            video_path = vp
+            break
     
-    # If local file not found, try to get from database and proxy from HeyGen
-    video_doc = await db.module_videos.find_one({'module_id': module_id})
-    if video_doc and video_doc.get('video_url') and video_doc['video_url'].startswith('http'):
-        # Proxy from HeyGen
-        async with httpx.AsyncClient() as client:
-            try:
-                response = await client.get(video_doc['video_url'], follow_redirects=True)
-                if response.status_code == 200:
-                    return Response(
-                        content=response.content,
-                        media_type="video/mp4",
-                        headers={
-                            "Accept-Ranges": "bytes",
-                            "Content-Disposition": f'inline; filename="{module_id}.mp4"',
-                            "Content-Length": str(len(response.content))
-                        }
-                    )
-            except Exception as e:
-                logger.error(f"Error proxying video: {e}")
+    if not video_path:
+        raise HTTPException(status_code=404, detail="Video file not found")
     
-    raise HTTPException(status_code=404, detail="Video file not found")
+    file_size = video_path.stat().st_size
+    range_header = request.headers.get("range")
+    
+    # Handle Range requests for video streaming
+    if range_header:
+        # Parse Range header: "bytes=0-1023" or "bytes=0-"
+        range_match = range_header.replace("bytes=", "").split("-")
+        start = int(range_match[0]) if range_match[0] else 0
+        end = int(range_match[1]) if range_match[1] else file_size - 1
+        
+        # Ensure valid range
+        if start >= file_size:
+            raise HTTPException(status_code=416, detail="Range not satisfiable")
+        if end >= file_size:
+            end = file_size - 1
+        
+        content_length = end - start + 1
+        
+        def iter_file():
+            with open(video_path, "rb") as f:
+                f.seek(start)
+                remaining = content_length
+                while remaining > 0:
+                    chunk_size = min(8192, remaining)
+                    data = f.read(chunk_size)
+                    if not data:
+                        break
+                    remaining -= len(data)
+                    yield data
+        
+        return StreamingResponse(
+            iter_file(),
+            status_code=206,
+            media_type="video/mp4",
+            headers={
+                "Content-Range": f"bytes {start}-{end}/{file_size}",
+                "Accept-Ranges": "bytes",
+                "Content-Length": str(content_length),
+                "Content-Type": "video/mp4",
+            }
+        )
+    
+    # No Range header - return full file
+    return FileResponse(
+        video_path,
+        media_type="video/mp4",
+        filename=f"{module_id}.mp4",
+        headers={
+            "Accept-Ranges": "bytes",
+            "Content-Length": str(file_size)
+        }
+    )
 
 @api_router.get("/video/queue-status")
 async def get_video_queue_status():
