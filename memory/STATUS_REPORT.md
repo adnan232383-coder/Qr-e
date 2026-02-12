@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://heygen-preview.preview.emergentagent.com |
-| Admin Panel | https://heygen-preview.preview.emergentagent.com/admin/progress |
-| API Docs | https://heygen-preview.preview.emergentagent.com/api/docs |
+| Frontend | https://edcontent-multi.preview.emergentagent.com |
+| Admin Panel | https://edcontent-multi.preview.emergentagent.com/admin/progress |
+| API Docs | https://edcontent-multi.preview.emergentagent.com/api/docs |
 
 ---
 
