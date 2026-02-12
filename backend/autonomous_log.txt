@@ -1,0 +1,36 @@
+2026-02-12 13:51:22,887 - INFO - ============================================================
+2026-02-12 13:51:22,888 - INFO - AUTONOMOUS RUNNER STARTED
+2026-02-12 13:51:22,888 - INFO - Time: 2026-02-12T13:51:22.887493+00:00
+2026-02-12 13:51:22,888 - INFO - ============================================================
+2026-02-12 13:51:22,888 - INFO - ============================================================
+2026-02-12 13:51:22,888 - INFO - STARTING MCQ GENERATION
+2026-02-12 13:51:22,888 - INFO - ============================================================
+2026-02-12 13:51:23,301 - INFO - Found 20 courses needing MCQs
+2026-02-12 13:51:23,301 - INFO - 
+[1/20] Processing UG_DENT_Y1_S1_C01
+2026-02-12 13:51:30,278 - INFO - Generating 276 questions for General Biology
+2026-02-12 13:51:30,283 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:51:31,478 - ERROR - Error generating MCQ batch: Failed to generate chat completion: litellm.BadRequestError: OpenAIException - Budget has been exceeded! Current cost: 335.2835331932698, Max budget: 335.0
+2026-02-12 13:51:36,483 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:52:19,719 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:19,723 - INFO -   Added 25 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:52:21,725 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:53:10,689 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:10,691 - INFO -   Added 24 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:53:12,692 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:53:54,610 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:54,614 - INFO -   Added 26 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:53:56,617 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:54:43,549 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:54:43,559 - INFO -   Added 26 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:54:45,562 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 13:55:34,105 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:55:34,110 - INFO -   Added 24 questions to UG_DENT_Y1_S1_C01
+2026-02-12 13:55:36,112 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
