@@ -153,6 +153,15 @@ export default function Landing() {
             <div className="flex items-center gap-4">
               <Button
                 variant="ghost"
+                size="sm"
+                onClick={() => navigate("/admin/stats")}
+                data-testid="stats-btn"
+                className="hidden sm:flex"
+              >
+                Statistics
+              </Button>
+              <Button
+                variant="ghost"
                 size="icon"
                 onClick={toggleTheme}
                 data-testid="theme-toggle-btn"
