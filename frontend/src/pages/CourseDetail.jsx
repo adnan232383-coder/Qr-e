@@ -173,7 +173,7 @@ export default function CourseDetail() {
           fetch(`${API}/video/${m.module_id}`).then(r => r.ok ? r.json() : null).catch(() => null)
         );
         const videosData = await Promise.all(videoPromises);
-        setVideos(videosData.filter(v => v && v.video_path));
+        setVideos(videosData.filter(v => v && (v.video_path || v.video_url)));
       }
     } catch (e) {
       console.error("Error fetching videos:", e);
