@@ -179,3 +179,7 @@ LiteLLM completion() model= gpt-4o-mini; provider = openai
 2026-02-12 14:06:45,308 - INFO -   Added 23 questions to UG_DENT_Y1_S1_C02
 2026-02-12 14:06:47,310 - INFO - 
 LiteLLM completion() model= gpt-4o-mini; provider = openai
+2026-02-12 14:06:56,489 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:06:56,491 - INFO -   Added 21 questions to UG_DENT_Y1_S1_C02
+2026-02-12 14:06:58,493 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
