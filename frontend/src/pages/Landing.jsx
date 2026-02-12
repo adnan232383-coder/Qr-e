@@ -124,12 +124,18 @@ export default function Landing() {
   const getUniversityIcon = (name) => {
     if (name.toLowerCase().includes("georgia")) return Building2;
     if (name.toLowerCase().includes("vision")) return Heart;
+    if (name.toLowerCase().includes("iași") || name.toLowerCase().includes("iasi")) return Stethoscope;
+    if (name.toLowerCase().includes("amman") || name.toLowerCase().includes("aau")) return Globe;
+    if (name.toLowerCase().includes("najah")) return Award;
     return GraduationCap;
   };
 
   const getUniversityColor = (id) => {
     if (id === "UG_TBILISI") return "from-sky-500/20 to-blue-500/10";
     if (id === "NVU") return "from-emerald-500/20 to-teal-500/10";
+    if (id === "IASI_ROMANIA") return "from-purple-500/20 to-violet-500/10";
+    if (id === "AAU_AMMAN") return "from-amber-500/20 to-orange-500/10";
+    if (id === "NAJAH") return "from-rose-500/20 to-pink-500/10";
     return "from-primary/20 to-accent/10";
   };
 
