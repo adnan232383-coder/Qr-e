@@ -290,6 +290,181 @@ export default function StatsDashboard() {
           </CardContent>
         </Card>
 
+        {/* Charts Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          {/* Pie Chart - Course Status Distribution */}
+          <Card data-testid="pie-chart-card">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <PieChartIcon className="h-5 w-5 text-primary" />
+                Course Status Distribution
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="h-64">
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Pie
+                      data={[
+                        { name: "300+ MCQs", value: stats?.totals.coursesWith300 || 0, color: COLORS.complete },
+                        { name: "200-299 MCQs", value: stats?.totals.coursesWith200 || 0, color: COLORS.partial },
+                        { name: "Under 200", value: stats?.totals.coursesUnder200 || 0, color: COLORS.incomplete }
+                      ]}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={60}
+                      outerRadius={90}
+                      paddingAngle={3}
+                      dataKey="value"
+                      label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                      labelLine={false}
+                    >
+                      {[COLORS.complete, COLORS.partial, COLORS.incomplete].map((color, index) => (
+                        <Cell key={`cell-${index}`} fill={color} />
+                      ))}
+                    </Pie>
+                    <Tooltip 
+                      contentStyle={{ 
+                        backgroundColor: theme === 'dark' ? '#1f2937' : '#fff',
+                        border: '1px solid #374151',
+                        borderRadius: '8px'
+                      }}
+                    />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+              <div className="flex justify-center gap-4 mt-4 text-sm">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.complete }}></div>
+                  <span>Complete</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.partial }}></div>
+                  <span>Partial</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.incomplete }}></div>
+                  <span>Incomplete</span>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Bar Chart - Questions per University */}
+          <Card data-testid="bar-chart-card">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <BarChart3 className="h-5 w-5 text-primary" />
+                MCQ Questions by University
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="h-64">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart
+                    data={stats?.universities.map((uni, idx) => ({
+                      name: uni.name.split(" ")[0], // Short name
+                      fullName: uni.name,
+                      questions: uni.totalQuestions,
+                      courses: uni.totalCourses,
+                      fill: COLORS.universities[idx % COLORS.universities.length]
+                    })) || []}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
+                    <XAxis 
+                      dataKey="name" 
+                      tick={{ fontSize: 12 }}
+                      stroke={theme === 'dark' ? '#9ca3af' : '#6b7280'}
+                    />
+                    <YAxis 
+                      tickFormatter={(value) => `${(value / 1000).toFixed(0)}K`}
+                      stroke={theme === 'dark' ? '#9ca3af' : '#6b7280'}
+                    />
+                    <Tooltip
+                      contentStyle={{ 
+                        backgroundColor: theme === 'dark' ? '#1f2937' : '#fff',
+                        border: '1px solid #374151',
+                        borderRadius: '8px'
+                      }}
+                      formatter={(value, name) => [value.toLocaleString(), name === 'questions' ? 'Questions' : name]}
+                      labelFormatter={(label, payload) => payload?.[0]?.payload?.fullName || label}
+                    />
+                    <Bar dataKey="questions" radius={[4, 4, 0, 0]}>
+                      {stats?.universities.map((_, idx) => (
+                        <Cell key={`cell-${idx}`} fill={COLORS.universities[idx % COLORS.universities.length]} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Completion Rate Bar Chart */}
+        <Card className="mb-8" data-testid="completion-bar-chart-card">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <TrendingUp className="h-5 w-5 text-primary" />
+              Completion Rate by University
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={stats?.universities.map((uni, idx) => ({
+                    name: uni.name.length > 20 ? uni.name.substring(0, 20) + "..." : uni.name,
+                    fullName: uni.name,
+                    completion: uni.completionRate,
+                    courses300: uni.coursesWith300,
+                    totalCourses: uni.totalCourses,
+                    fill: COLORS.universities[idx % COLORS.universities.length]
+                  })) || []}
+                  layout="vertical"
+                  margin={{ top: 5, right: 30, left: 100, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
+                  <XAxis 
+                    type="number" 
+                    domain={[0, 100]}
+                    tickFormatter={(value) => `${value}%`}
+                    stroke={theme === 'dark' ? '#9ca3af' : '#6b7280'}
+                  />
+                  <YAxis 
+                    dataKey="name" 
+                    type="category" 
+                    tick={{ fontSize: 11 }}
+                    width={95}
+                    stroke={theme === 'dark' ? '#9ca3af' : '#6b7280'}
+                  />
+                  <Tooltip
+                    contentStyle={{ 
+                      backgroundColor: theme === 'dark' ? '#1f2937' : '#fff',
+                      border: '1px solid #374151',
+                      borderRadius: '8px'
+                    }}
+                    formatter={(value, name, props) => [
+                      `${value.toFixed(1)}% (${props.payload.courses300}/${props.payload.totalCourses} courses)`,
+                      'Completion'
+                    ]}
+                    labelFormatter={(label, payload) => payload?.[0]?.payload?.fullName || label}
+                  />
+                  <Bar dataKey="completion" radius={[0, 4, 4, 0]}>
+                    {stats?.universities.map((uni, idx) => (
+                      <Cell 
+                        key={`cell-${idx}`} 
+                        fill={uni.completionRate >= 90 ? COLORS.complete : uni.completionRate >= 70 ? COLORS.partial : COLORS.incomplete} 
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* University Details */}
         <h2 className="text-xl font-bold mb-4">University Breakdown</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
