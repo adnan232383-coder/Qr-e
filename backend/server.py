@@ -1124,6 +1124,95 @@ async def get_generation_progress():
         }
     }
 
+@api_router.get("/stats/dashboard")
+async def get_dashboard_stats():
+    """Get comprehensive dashboard statistics - optimized single query"""
+    # Get all universities
+    universities = await db.universities.find({}, {"_id": 0}).to_list(100)
+    
+    # Get MCQ counts grouped by course_id prefix (university)
+    mcq_pipeline = [
+        {"$group": {"_id": "$course_id", "count": {"$sum": 1}}},
+    ]
+    mcq_by_course = await db.mcq_questions.aggregate(mcq_pipeline).to_list(1000)
+    
+    # Create a dict for fast lookup
+    course_mcq = {item["_id"]: item["count"] for item in mcq_by_course}
+    
+    # Get courses and their mcq_count
+    courses = await db.courses.find({}, {"_id": 0, "external_id": 1, "course_name": 1, "university_id": 1, "mcq_count": 1}).to_list(1000)
+    
+    # Group courses by university
+    uni_data = {}
+    for uni in universities:
+        uni_id = uni["external_id"]
+        # Get prefix for this university
+        prefix_map = {
+            "UG_TBILISI": "UG_",
+            "NVU": "NVU_",
+            "IASI_ROMANIA": "IASI_",
+            "AAU_AMMAN": "AAU_",
+            "NAJAH": "NAJAH_"
+        }
+        prefix = prefix_map.get(uni_id, f"{uni_id}_")
+        
+        # Filter courses for this university
+        uni_courses = [c for c in courses if c["external_id"].startswith(prefix)]
+        
+        # Calculate stats
+        total_questions = 0
+        courses_300 = 0
+        courses_200 = 0
+        courses_under = 0
+        
+        course_details = []
+        for c in uni_courses:
+            # Use actual count from questions collection
+            actual_count = course_mcq.get(c["external_id"], 0)
+            total_questions += actual_count
+            
+            if actual_count >= 300:
+                courses_300 += 1
+            elif actual_count >= 200:
+                courses_200 += 1
+            else:
+                courses_under += 1
+            
+            course_details.append({
+                "external_id": c["external_id"],
+                "course_name": c["course_name"],
+                "mcq_count": actual_count
+            })
+        
+        completion_rate = (courses_300 / len(uni_courses) * 100) if uni_courses else 0
+        
+        uni_data[uni_id] = {
+            **uni,
+            "totalCourses": len(uni_courses),
+            "totalQuestions": total_questions,
+            "coursesWith300": courses_300,
+            "coursesWith200": courses_200,
+            "coursesUnder200": courses_under,
+            "completionRate": completion_rate,
+            "courses": course_details
+        }
+    
+    # Calculate totals
+    totals = {
+        "totalUniversities": len(universities),
+        "totalCourses": len(courses),
+        "totalQuestions": sum(u["totalQuestions"] for u in uni_data.values()),
+        "coursesWith300": sum(u["coursesWith300"] for u in uni_data.values()),
+        "coursesWith200": sum(u["coursesWith200"] for u in uni_data.values()),
+        "coursesUnder200": sum(u["coursesUnder200"] for u in uni_data.values()),
+    }
+    totals["overallCompletion"] = (totals["coursesWith300"] / totals["totalCourses"] * 100) if totals["totalCourses"] > 0 else 0
+    
+    return {
+        "universities": list(uni_data.values()),
+        "totals": totals
+    }
+
 @api_router.post("/content/generate-mcq/{course_id}")
 async def generate_mcq_for_course(course_id: str, count: int = 200):
     """Generate MCQ questions for a course using AI"""
