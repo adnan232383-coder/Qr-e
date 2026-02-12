@@ -742,7 +742,8 @@ export default function CourseDetail() {
                                 <video 
                                   controls 
                                   className="w-full h-full"
-                                  src={video.video_url || `${API}/videos/${script.module_id}/file`}
+                                  src={`${API}/videos/${script.module_id}/file`}
+                                  crossOrigin="anonymous"
                                 >
                                   Your browser does not support the video tag.
                                 </video>
