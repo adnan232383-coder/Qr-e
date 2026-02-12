@@ -259,7 +259,15 @@ export default function Landing() {
                       <div className="px-3 py-2 text-xs font-semibold text-muted-foreground uppercase">
                         Courses
                       </div>
-                      {searchResults.courses.map((course) => (
+                      {searchResults.courses.map((course) => {
+                        const uniNames = {
+                          "UG_TBILISI": "University of Georgia",
+                          "NVU": "New Vision University",
+                          "IASI_ROMANIA": "IASI Romania",
+                          "AAU_AMMAN": "AAU Amman",
+                          "NAJAH": "An-Najah University"
+                        };
+                        return (
                         <button
                           key={course.external_id}
                           onClick={() => {
@@ -274,12 +282,12 @@ export default function Landing() {
                           <div>
                             <div className="font-medium">{course.course_name}</div>
                             <div className="text-sm text-muted-foreground">
-                              {course.university === "UG" ? "University of Georgia" : "New Vision University"}
+                              {uniNames[course.university] || course.university}
                               {course.mcq_count > 0 && ` • ${course.mcq_count} MCQs`}
                             </div>
                           </div>
                         </button>
-                      ))}
+                      )})}
                     </div>
                   )}
                 </div>
