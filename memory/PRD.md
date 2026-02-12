@@ -17,32 +17,36 @@ Build a comprehensive educational video platform with AI-generated avatar videos
 |------------|---------|------------------------|-----------------|
 | **An-Najah National University (NAJAH)** | 160 | **160** ✅ | **48,000** |
 | Al-Ahliyya Amman University (AAU) | 100 | 100 ✅ | 30,000 |
-| New Vision University (NVU) | 76 | 72 | 26,315 |
-| University of Georgia (UG) | 94 | 91 ✅ | 28,398 |
+| New Vision University (NVU) | 72 | 72 ✅ | 25,666 |
+| University of Georgia (UG) | 94 | 74 | 22,882 |
 | University of Medicine Iași (IASI) | 60 | 60 ✅ | 18,000 |
-| **TOTAL** | **490** | **483** | **150,713** |
+| **TOTAL** | **486** | **466** | **144,548** |
 
 ### ✅ University Structure - COMPLETED
 - [x] UG (University of Georgia) - 94 courses
-- [x] NVU (New Vision University) - 76 courses  
+- [x] NVU (New Vision University) - 72 courses  
 - [x] IASI (University of Medicine Iași) - 60 courses
 - [x] AAU (Al-Ahliyya Amman University) - 100 courses
 - [x] NAJAH (An-Najah National University) - 160 courses (MED: 60, DENT: 50, PHARM: 50)
 
-### ✅ Frontend Updated - COMPLETED
-- [x] Landing page now shows all 5 universities
+### ✅ Frontend & Dashboard - COMPLETED
+- [x] Landing page shows all 5 universities with unique icons and colors
 - [x] Statistics dynamically calculated from database
-- [x] Each university has unique icon and color gradient
-- [x] Search results show correct university names
+- [x] **NEW**: Statistics Dashboard (`/admin/stats`) with:
+  - Summary cards (Universities, Courses, MCQs, Completion %)
+  - Overall progress bar with 300+/200-299/Under 200 breakdown
+  - Per-university breakdown with progress indicators
+  - Export to CSV functionality
+  - Refresh button for real-time updates
 
 ### 🔴 BLOCKED - Video Generation
 - HeyGen API credits insufficient
 - User is handling with HeyGen support
-- Video generation for all 490+ courses pending resolution
+- Video generation for all 486+ courses pending resolution
 
 ### Backlog 📋
 - [ ] Generate videos for all courses (pending HeyGen credits)
-- [ ] Complete MCQ population for remaining 7 courses to 300 (UG/NVU)
+- [ ] Complete MCQ population for remaining 20 UG courses to 300
 
 ## Architecture
 
