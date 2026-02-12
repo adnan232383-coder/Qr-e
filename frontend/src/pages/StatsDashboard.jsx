@@ -41,52 +41,13 @@ export default function StatsDashboard() {
   const fetchStats = async () => {
     setRefreshing(true);
     try {
-      // Fetch universities
-      const uniRes = await fetch(`${API}/universities`);
-      const uniData = await uniRes.json();
-      setUniversities(uniData);
-
-      // Fetch courses for each university
-      const uniIds = uniData.map(u => u.external_id);
-      const coursePromises = uniIds.map(id => 
-        fetch(`${API}/courses/by-university/${id}`).then(r => r.ok ? r.json() : [])
-      );
-      const allCourses = await Promise.all(coursePromises);
-
-      // Calculate stats for each university
-      const uniStats = uniData.map((uni, idx) => {
-        const courses = allCourses[idx] || [];
-        const totalQuestions = courses.reduce((sum, c) => sum + (c.mcq_count || 0), 0);
-        const coursesWith300 = courses.filter(c => (c.mcq_count || 0) >= 300).length;
-        const coursesWith200 = courses.filter(c => (c.mcq_count || 0) >= 200 && (c.mcq_count || 0) < 300).length;
-        const coursesUnder200 = courses.filter(c => (c.mcq_count || 0) < 200).length;
-
-        return {
-          ...uni,
-          totalCourses: courses.length,
-          totalQuestions,
-          coursesWith300,
-          coursesWith200,
-          coursesUnder200,
-          completionRate: courses.length > 0 ? (coursesWith300 / courses.length) * 100 : 0,
-          courses
-        };
-      });
-
-      // Calculate totals
-      const totals = {
-        totalUniversities: uniData.length,
-        totalCourses: uniStats.reduce((sum, u) => sum + u.totalCourses, 0),
-        totalQuestions: uniStats.reduce((sum, u) => sum + u.totalQuestions, 0),
-        coursesWith300: uniStats.reduce((sum, u) => sum + u.coursesWith300, 0),
-        coursesWith200: uniStats.reduce((sum, u) => sum + u.coursesWith200, 0),
-        coursesUnder200: uniStats.reduce((sum, u) => sum + u.coursesUnder200, 0),
-      };
-      totals.overallCompletion = totals.totalCourses > 0 
-        ? (totals.coursesWith300 / totals.totalCourses) * 100 
-        : 0;
-
-      setStats({ universities: uniStats, totals });
+      // Use the optimized dashboard stats API
+      const response = await fetch(`${API}/stats/dashboard`);
+      if (response.ok) {
+        const data = await response.json();
+        setUniversities(data.universities);
+        setStats(data);
+      }
     } catch (e) {
       console.error("Error fetching stats:", e);
     } finally {
