@@ -453,7 +453,7 @@
             </div>
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
-                    <video class="avatar-video" id="avatarVideo" playsinline preload="none" src="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y1_S1_C01_M01">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="auto" autoplay muted src="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y1_S1_C01_M01">
                         Your browser does not support the video tag.
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
@@ -656,6 +656,36 @@
                 video.load();
             }
         }, 1000);
+        
+        // AUTO-PLAY: Start video automatically when page loads
+        window.addEventListener('load', () => {
+            // Try to play with sound first
+            video.muted = false;
+            video.play().then(() => {
+                console.log('Auto-play with sound started');
+                placeholder.style.display = 'none';
+            }).catch(err => {
+                console.log('Auto-play with sound blocked, trying muted...');
+                // If blocked, try muted autoplay
+                video.muted = true;
+                video.play().then(() => {
+                    console.log('Auto-play muted started');
+                    placeholder.style.display = 'none';
+                    // Show message to unmute
+                    placeholder.innerHTML = '<span style="cursor:pointer" onclick="document.getElementById(\'avatarVideo\').muted=false;this.parentElement.style.display=\'none\';">🔊 Click to enable sound</span>';
+                    placeholder.style.display = 'flex';
+                }).catch(e => {
+                    console.log('Auto-play failed:', e);
+                    placeholder.querySelector('span').textContent = 'Click anywhere to start';
+                    document.body.onclick = () => {
+                        video.muted = false;
+                        video.play();
+                        placeholder.style.display = 'none';
+                        document.body.onclick = null;
+                    };
+                });
+            });
+        });
         
         video.addEventListener('timeupdate', () => {
             const progress = (video.currentTime / video.duration) * 100;
