@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetics Fundamentals - General Biology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+        
+        .presentation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            color: #00d4ff;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .audio-player {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .audio-player h3 {
+            margin-bottom: 15px;
+            color: #00d4ff;
+        }
+        
+        audio {
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        .slides-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .slide {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .slide:hover {
+            border-color: #00d4ff;
+            transform: translateY(-2px);
+        }
+        
+        .title-slide {
+            text-align: center;
+            background: linear-gradient(135deg, rgba(0,212,255,0.2) 0%, rgba(0,212,255,0.05) 100%);
+        }
+        
+        .title-slide h2 {
+            font-size: 2rem;
+            color: #00d4ff;
+        }
+        
+        .slide h2 {
+            color: #00d4ff;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid rgba(0,212,255,0.3);
+            padding-bottom: 10px;
+        }
+        
+        .slide-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .slide-content p {
+            margin-bottom: 15px;
+        }
+        
+        .slide-content ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        
+        .slide-content li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .slide-content li::before {
+            content: "▸";
+            color: #00d4ff;
+            position: absolute;
+            left: 0;
+        }
+        
+        .slide-number {
+            text-align: right;
+            color: #666;
+            font-size: 0.8rem;
+            margin-top: 20px;
+        }
+        
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .nav-btn {
+            background: #00d4ff;
+            color: #1a1a2e;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(0,212,255,0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .slide {
+                padding: 20px;
+            }
+            .title-slide h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="header">
+            <h1>Genetics Fundamentals</h1>
+            <p>General Biology</p>
+        </div>
+        
+        <div class="audio-player" id="audio-section">
+            <h3>Audio Narration</h3>
+            <audio controls id="audioPlayer">
+                <source src="/api/audio/UG_DENT_Y1_S1_C01_M02.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+        
+        <div class="slides-container">
+            
+        <div class="slide title-slide" id="slide-0">
+            <h2>Genetics Fundamentals</h2>
+            <div class="slide-content">
+                
+            </div>
+            <div class="slide-number">1 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-1">
+            <h2>Introduction</h2>
+            <div class="slide-content">
+                <p>Welcome to this module on Genetics Fundamentals. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</p>
+
+            </div>
+            <div class="slide-number">2 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-2">
+            <h2>Learning Objectives</h2>
+            <div class="slide-content">
+                <ul><p>By the end of this session, you'll be able to:</p>
+<li>Define and explain core terminology related to Genetics Fundamentals</li>
+<li>Identify key principles and their clinical applications</li>
+<li>Apply this knowledge to practical scenarios</li>
+</ul>
+            </div>
+            <div class="slide-number">3 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-3">
+            <h2>Section 1: Fundamentals</h2>
+            <div class="slide-content">
+                <p>Let's begin with the basic concepts. DNA structure is essential because it forms the foundation of our understanding.</p>
+<p>[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
+<p>In clinical settings, you'll encounter these principles daily. For example, when assessing patients, knowledge of DNA structure helps you interpret findings accurately.</p>
+
+            </div>
+            <div class="slide-number">4 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-4">
+            <h2>Section 2: Clinical Applications</h2>
+            <div class="slide-content">
+                <p>Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of Replication guides your diagnostic approach.</p>
+<p>The key steps in clinical application include:</p>
+<p>1. Assessment based on foundational knowledge</p>
+<p>2. Integration of findings</p>
+<p>3. Evidence-based decision making</p>
+<p>[EMPHASIS] Clinical reasoning depends on solid foundational understanding.</p>
+
+            </div>
+            <div class="slide-number">5 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-5">
+            <h2>Section 3: Advanced Concepts</h2>
+            <div class="slide-content">
+                <ul><p>Building on our foundation, let's examine Transcription. These advanced concepts connect what we've learned to more complex clinical scenarios.</p>
+<p>Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
+<li>Strong foundational knowledge</li>
+<li>Critical thinking skills</li>
+<li>Continuous learning mindset</li>
+</ul>
+            </div>
+            <div class="slide-number">6 / 7</div>
+        </div>
+        
+        <div class="slide content-slide" id="slide-6">
+            <h2>Summary</h2>
+            <div class="slide-content">
+                <ul><p>Today we covered:</p>
+<li>Core concepts of Genetics Fundamentals</li>
+<li>Clinical applications and relevance</li>
+<li>Advanced topics for deeper understanding</li>
+<p>[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
+<p>In our next module, we'll build on these concepts as we explore more advanced topics.</p>
+<p>Thank you for your attention. Keep reviewing these materials and don't hesitate to ask questions!</p>
+</ul>
+            </div>
+            <div class="slide-number">7 / 7</div>
+        </div>
+        
+        </div>
+    </div>
+    
+    <script>
+        // Auto-scroll to current slide based on audio time (optional enhancement)
+        const audio = document.getElementById('audioPlayer');
+        const slides = document.querySelectorAll('.slide');
+        
+        // Simple keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                audio.currentTime += 10;
+            } else if (e.key === 'ArrowLeft') {
+                audio.currentTime -= 10;
+            } else if (e.key === ' ') {
+                e.preventDefault();
+                if (audio.paused) audio.play();
+                else audio.pause();
+            }
+        });
+    </script>
+</body>
+</html>
