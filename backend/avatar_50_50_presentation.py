@@ -744,8 +744,9 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             </div>
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
-                    <video class="avatar-video" id="avatarVideo" playsinline preload="auto">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="metadata" crossorigin="anonymous" muted>
                         <source src="{abs_video_path}" type="video/mp4">
+                        Your browser does not support the video tag.
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
                         <svg viewBox="0 0 24 24" fill="currentColor">
