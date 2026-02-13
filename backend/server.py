@@ -761,6 +761,34 @@ async def generate_50_50_presentation(module_id: str, video_url: Optional[str] =
     
     return result
 
+@api_router.get("/test-video/{module_id}")
+async def test_video_page(module_id: str):
+    """Simple video test page"""
+    from starlette.responses import HTMLResponse
+    
+    html = f'''<!DOCTYPE html>
+<html>
+<head><title>Video Test</title></head>
+<body>
+    <h1>Video Test: {module_id}</h1>
+    <video id="video" width="600" height="400" controls autoplay muted>
+        <source src="/api/avatar-videos/{module_id}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p id="status">Loading...</p>
+    <script>
+        const video = document.getElementById('video');
+        const status = document.getElementById('status');
+        video.addEventListener('loadstart', () => status.textContent = 'Load started...');
+        video.addEventListener('loadeddata', () => status.textContent = 'Data loaded!');
+        video.addEventListener('canplay', () => status.textContent = 'Can play!');
+        video.addEventListener('playing', () => status.textContent = 'Playing!');
+        video.addEventListener('error', () => status.textContent = 'Error: ' + (video.error?.message || 'Unknown'));
+    </script>
+</body>
+</html>'''
+    return HTMLResponse(content=html)
+
 @api_router.api_route("/avatar-videos/{module_id}", methods=["GET", "HEAD"])
 async def serve_avatar_video(module_id: str, request: Request):
     """Serve avatar video file"""
