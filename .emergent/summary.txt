@@ -1,171 +1,135 @@
 <analysis>**original_problem_statement:**
-The user's primary goal is to build out a multi-university e-learning platform. The core tasks have been to populate the database with universities and courses, fill each course with at least 300 Multiple Choice Questions (MCQs), and generate educational videos for all course modules.
+The user's goal is to create a multi-university e-learning platform. The core feature is generating professional, auto-playing presentations with synchronized narration. The current, highest-priority request is to enhance these presentations by integrating a speaking avatar from HeyGen, displayed in a 50/50 split-screen layout with the slides, creating a virtual lecturer experience.
 
-Recent user requests include:
-1.  Resolving the blocker preventing video generation.
-2.  Viewing the generated videos directly within the application.
-3.  Addressing why a test video was short and lacked subtitles (translation).
-4.  Fixing content gaps where some courses did not have the required 300 MCQs.
-5.  Running tasks autonomously to complete all pending content generation (both MCQs and videos).
+The user has specifically asked for two full course modules—one in Dentistry and one in Pharmacy/Biology—to be created with this new feature for review with students. They have also requested to see the syllabuses for these courses and to expand the library of available illustrations.
 
 PRODUCT REQUIREMENTS:
-- The platform must support multiple universities, each with its own set of courses.
-- All courses must be populated with a target of at least 300 MCQs.
-- An administrative statistics dashboard must provide a clear overview of content completion.
-- The system must generate educational videos for all 490+ course modules.
-- The UI should display generated content correctly and be resilient.
+- The platform must support multiple universities and courses.
+- Content format: Auto-playing presentations with a speaking avatar and synchronized audio.
+- The layout should be a 50/50 split between the avatar video and the presentation slides.
+- Presentations must be visually rich with content-aware, color illustrations.
+- Two demo courses (Dentistry, Pharmacy/Biology) must be completed end-to-end.
+- Eventually, generate content for all ~490 course modules.
+- A secondary requirement is to fill content gaps (MCQs) for some courses.
 
 **User's preferred language**: The user communicates in **Hebrew (עברית)**. The next agent **MUST** respond in **Hebrew**.
 
 **what currently exists?**
-The platform's HeyGen integration is fully unblocked. The user now has **39,600 API credits** available after the agent diagnosed a Plan vs. API credits issue and guided the user to purchase an API credit plan.
-
-A robust video delivery pipeline has been implemented:
-1.  A test video was successfully generated via the HeyGen API.
-2.  The video is downloaded to the server at .
-3.  A new backend endpoint () serves these videos using a  that correctly handles HTTP Range Requests (HTTP 206), which is critical for video seeking and buffering in browsers.
-4.  The frontend () has been updated to display the video player, which now points to this reliable backend endpoint.
-
-A content gap was identified: 20 courses at the University of Georgia (UG) have significantly fewer than the 300 required MCQs.
+- A system to generate  presentations with audio narration and content-aware images is in place.
+- A new 50/50 presentation layout has been developed, including a Jinja2 template () and a generator function ().
+- New backend endpoints have been added to :  to serve the new presentation format and  to serve the avatar videos.
+- A script () exists to poll the HeyGen API and download completed videos.
+- One avatar video (Cell Structure) has been successfully generated via the HeyGen API and downloaded to .
 
 **Last working item**:
--   **Last item agent was working:** Debugging why the correctly implemented video streaming was not rendering in the  tool's browser. The agent concluded, after extensive testing (including re-encoding, checking headers, and using a known-good test video), that the issue is not with the application code but a limitation of the testing environment's headless browser, which lacks the necessary video codecs.
--   **Status:** RESOLVED (The problem was diagnosed as an environmental issue, and the application code is confirmed to be correct).
--   **Agent Testing Done:** Y (The agent verified via  that the  endpoint correctly returns a  response with appropriate headers, proving the streaming implementation is functional).
--   **Which testing method agent to use?** Ask user to verify manually in their browser.
+-   **Last item agent was working:** Debugging a critical issue where the generated avatar video fails to play within the 50/50 presentation view. The agent was attempting to generate two complete demo courses for the user but is blocked by this video streaming problem.
+-   **Status:** BLOCKED
+-   **Agent Testing Done:** N
+-   **Which testing method agent to use?** After fixing the video streaming, use the  tool to verify the presentation plays correctly. Given this is a core feature, a final validation with the  is recommended before user handoff.
 -   **User Testing Done:** N
 
 **All Pending/In progress Issue list**:
--   **Issue 1 (P0): User needs to verify video playback in a real browser.**
--   **Issue 2 (P1): Long video generation failed or timed out.**
--   **Issue 3 (P1): Content gap in University of Georgia (UG) courses.**
-
-**Issues Detail:**
--   **Issue 1: User needs to verify video playback in a real browser.**
-    -   **Attempted fixes:** N/A. The fix was in the backend streaming logic.
+-   **Issue 1: (P0) Avatar video fails to stream in the presentation.**
+    -   **Description:** The presentation page loads with the 50/50 layout, but the video panel remains black. The browser's network tab shows the video request is aborted. This is the primary blocker preventing any further progress on the main feature.
+    -   **Attempted fixes:**
+        -   The agent correctly identified and fixed an issue where a  header was forcing the browser to download the video. The endpoint  now serves the video with the correct  content type.
+        -   Other attempts included using absolute URLs and adding  to the video tag.
     -   **Next debug checklist:**
-        1.  Ask the user to navigate to the General Biology course page: .
-        2.  Instruct them to click on the Scripts tab.
-        3.  Ask them to confirm if the video plays correctly for them in their browser.
-    -   **Why fix this issue and what will be achieved with the fix?** This confirms that the complex video playback solution works for end-users, finally closing the loop on the entire video generation and display feature.
-    -   **Status:** USER VERIFICATION PENDING
-    -   **Is recurring issue?** Y (The user has repeatedly reported issues seeing the video).
-    -   **Should Test frontend/backend/both after fix?** N/A (User verification is the test).
-    -   **Blocked on other issue:** None.
-
--   **Issue 2: Long video generation failed or timed out.**
-    -   **Attempted fixes:** The agent initiated the creation of a 90-second video. After waiting for over 26 minutes with the status stuck on processing, the agent concluded the job had failed on HeyGen's side.
-    -   **Next debug checklist:**
-        1.  Attempt to generate another long-form video (e.g., 60 seconds) to see if the issue was transient.
-        2.  If it fails again, consider generating videos in smaller chunks (e.g., 30-45 seconds).
-        3.  Check HeyGen's API status or documentation for notes on long video processing times.
-    -   **Why fix this issue and what will be achieved with the fix?** The platform requires real, substantive educational videos, not just short test clips.
-    -   **Status:** NOT STARTED
-    -   **Is recurring issue?** N
-    -   **Should Test frontend/backend/both after fix?** backend
-    -   **Blocked on other issue:** None.
-
--   **Issue 3: Content gap in University of Georgia (UG) courses.**
-    -   **Attempted fixes:** The agent started an autonomous script to generate questions but was interrupted by the user's new requests and frustrations.
-    -   **Next debug checklist:**
-        1.  Confirm the priority of this task with the user.
-        2.  Run the  script specifically for the 20 UG courses that are missing content.
-        3.  Verify the  in the database for these courses post-generation.
-    -   **Why fix this issue and what will be achieved with the fix?** This will bring the entire platform to 100% compliance with the 300-MCQ-per-course requirement.
+        1.  **Re-implement with :** The  in FastAPI is not ideal for large media. The endpoint  in  should be refactored to use . This is the standard, robust way to stream large files and properly supports HTTP Range requests, which is essential for video players in browsers.
+        2.  **Verify Endpoint Logic:** Double-check the path logic inside the  implementation to ensure it correctly locates and reads the video file from .
+        3.  **Isolate with a Small Video:** If the issue persists, temporarily modify the  script to use a very small (<1MB) known-good MP4 video file. This will determine if the problem is with the large file size (25MB) or a fundamental issue with the presentation's HTML/JS.
+    -   **Why fix this issue and what will be achieved with the fix?** Fixing this will unblock the entire feature. It will enable the avatar video to play alongside the slides, delivering the virtual lecturer experience the user requested.
     -   **Status:** IN PROGRESS
-    -   **Is recurring issue?** Y (The user has pointed out content discrepancies before).
-    -   **Should Test frontend/backend/both after fix?** backend
-    -   **Blocked on other issue:** None.
+    -   **Is recurring issue?** Y
+    -   **Should Test frontend/backend/both after fix?** Frontend.
+    -   **Blocked on other issue:** No, this is the main blocker.
 
 **In progress Task List**:
-None.
+-   **Task 1: (P0) Generate and Integrate Two Full Demo Courses.**
+    -   **Where to resume:**
+        1.  Immediately focus on fixing **Issue 1**.
+        2.  Check the status of the second HeyGen video (Endodontics, ID: ) using the  script.
+        3.  If it's ready, download it.
+        4.  Once the video streaming is fixed, generate the 50/50 presentations for both the Cell Structure and Endodontics modules.
+    -   **What will be achieved with this?** Two complete, end-to-end course modules with the 50/50 avatar presentation, ready for the user to review as requested.
+    -   **Status:** IN PROGRESS
+    -   **Blocked on something:** Blocked on **Issue 1**.
+
+-   **Task 2: (P1) Provide Syllabuses to User.**
+    -   **Where to resume:** The user asked to see the syllabuses for the two courses being worked on. The agent must find the script/text content for the Endodontics and Cell Structure modules and present them to the user.
+    -   **What will be achieved with this?** Fulfills a direct user request and provides transparency.
+    -   **Status:** NOT STARTED
+    -   **Blocked on something:** Nothing.
 
 **Upcoming and Future Tasks**
--   **(P0) Begin large-scale video generation for all modules:** Once user verification is complete, the agent can start the main task of generating videos for the ~490 course modules. This should be done in a resilient way, logging progress and handling potential failures for individual videos.
--   **(P1) Implement video subtitles/translation:** The user asked Where is the translation?. The agent should investigate the HeyGen API for options to enable auto-captions () or use their translation features.
--   **(P2) Complete MCQ generation for UG courses:** Finish the task of generating the ~5,520 missing questions for the 20 courses at the University of Georgia.
+-   **(P1) Feature: Expand Illustration Library:** The user requested a repository of models and illustrations and color images. The agent needs to source more relevant, high-quality images and add them to the  directory.
+-   **(P2) Task: Generate Presentations for All Modules:** After the avatar feature is approved, run the generation scripts for all ~490 modules.
+-   **(P2) Task: Complete MCQ Generation:** The original task to generate ~5,520 MCQs for 20 courses using  is still pending.
+-   **(P3) Feature: Add Subtitles:** Implement a subtitles/captions feature for the presentations.
 
 **Completed work in this session**
--   **HeyGen API Unblocked:** Diagnosed that the user had 0 API credits despite having Plan credits. Guided the user through the HeyGen interface with screenshots to purchase an API plan, successfully unlocking **39,600 API credits**.
--   **First Video Generated:** Successfully created a test video via the HeyGen API.
--   **Robust Video Streaming Backend:** Implemented a new backend endpoint () that serves downloaded video files. This endpoint correctly handles **HTTP HEAD requests** and **HTTP Range Requests (206 Partial Content)**, ensuring reliable and efficient video streaming to web browsers.
--   **In-App Video Integration:** Linked the generated video to a course module in the database and ensured the frontend () correctly displays the video player pointing to the new streaming endpoint.
--   **Advanced Troubleshooting:** Diagnosed that video playback failures in testing screenshots were due to a limitation of the headless browser environment (lacking H.264 codecs), proving the application code itself was not at fault.
--   **Identified Content Gaps:** Confirmed that 20 UG courses have a significant deficit of MCQs.
+-   **Designed 50/50 Presentation Layout:** Created  and the corresponding generator logic in .
+-   **Added New Backend Endpoints:** Implemented  and  in .
+-   **Initiated HeyGen Video Generation:** Started the creation of two avatar videos from audio files. One video (Cell Structure) was successfully generated and downloaded.
+-   **Partially Debugged Video Streaming:** Fixed an incorrect  header on the video endpoint.
 
 **Earlier issues found/mentioned but not fixed**
--   The issue where a long (90-second) video generation process got stuck on HeyGen's side was abandoned and not resolved.
+-   The task to generate ~5,520 MCQs for 20 courses remains pending.
 
 **Known issue recurrence from previous fork**
--   **Issue recurrence in previous fork:** HeyGen API limitations (credits, plan types, processing failures) have been a persistent theme.
--   **Recurrence count:** 4+
--   **Status:** Partially Resolved (Credits are fixed, but processing stability for long videos is unknown).
+-   None.
 
 **Code Architecture**
 
 
 **Key Technical Concepts**
--   **Backend:** FastAPI, PostgreSQL, **** for video.
--   **Frontend:** React, .
--   **Video Streaming:** Handling **HTTP Range Requests (206 Partial Content)** and HEAD requests to enable browser video players to buffer and seek correctly.
--   **3rd Party API:** HeyGen (unblocked), Emergent LLM Key.
--   **Troubleshooting:** Differentiating between application bugs and environmental limitations (e.g., codec support in headless browsers).
+-   **Presentation Framework:** 
+-   **Backend:** FastAPI
+-   **Video Generation:** HeyGen API
+-   **Video Streaming:** The primary technical challenge, requiring proper use of FastAPI's  to handle large files and HTTP Range requests.
 
 **key DB schema**
--   **course_modules**:  (The  is now populated with the local streaming path, e.g., ).
+-   No database is used for this feature; all content is stored on the filesystem.
 
 **changes in tech stack**
--   No new libraries, but a significant change in backend architecture to support video streaming.
+-   None.
 
 **All files of reference**
--   : Major changes to add the video download and streaming logic.
--   : Modified to display the video player correctly.
--   : Used to generate the video.
--   : To be used for filling MCQ gaps.
--   : New location for all generated video assets.
+-   : Contains the video streaming endpoint () that needs to be fixed.
+-   : Contains the logic for creating the 50/50 presentation.
+-   : The HTML/JS template for the presentation viewer where the video fails to load.
+-   : Script to check status and download videos from HeyGen.
 
 **key api endpoints**
--   : For the dashboard.
--   : To create videos.
--   : **New critical endpoint** that streams a locally stored video file with support for HTTP Range Requests.
+-   : **(BROKEN)** Streams the MP4 avatar video. This is the source of the main issue.
+-   : Serves the new 50/50 presentation HTML.
 
 **Critical Info for New Agent**
 -   **LANGUAGE:** You **MUST** communicate in **Hebrew (עברית)**.
--   **VIDEO PLAYBACK IS LIKELY FIXED:** Do not try to fix the video playback again. The previous agent proved the backend code is correct. Your first action should be to ask the user to verify it works in their normal browser. The previous failures were due to the testing environment.
--   **VIDEO GENERATION IS UNBLOCKED:** The user has **39,600 API credits**. The main blocker of this project is resolved.
--   **CONFIRM PRIORITIES:** The user's focus shifts. Before starting a large autonomous task (like generating all videos or all MCQs), confirm the immediate priority. A good starting point is asking them to verify the video playback, and then asking what to do next: 1) Fill MCQ gaps, or 2) Start mass video generation.
-
-**documents and test reports created in this job**
--   : Updated to reflect the resolution of the video blocker.
--   : Created to log progress of autonomous tasks.
--   : Created to track progress of autonomous tasks.
+-   **IMMEDIATE BLOCKER:** Your first priority is to fix the video streaming in . The video doesn't play in the presentation. The most robust solution is to refactor the  endpoint to use FastAPI's  to correctly handle large video files for browser-based players.
+-   **USER EXPECTATIONS:** The user is waiting for two things:
+    1.  Two complete demo courses (Dentistry and Pharmacy/Biology) with the working avatar feature.
+    2.  The syllabuses for these two courses.
+-   **HEYGEN VIDEO STATUS:** The Cell Structure video is downloaded. You need to check the status of the Endodontics video (ID: ) and download it once it's complete.
 
 **Last 10 User Messages and any pending HUMAN messages**
-1.  **קשה כך כל הזמן אותן טעויות עשה בבקשה בדיקה מקיףה (It's hard like this, always the same mistakes. Please do a comprehensive check.)** - User expressing frustration and requesting a full system check. (Status: Addressed by the comprehensive check and root cause analysis of the video issue).
-2.  **ניפגש מחר (See you tomorrow)** - User signing off.
-3.  **אוטונומי אוטומטי (Autonomous automatic)** - User instruction to run pending tasks automatically. (Status: Started, but interrupted).
-4.  **איפוא התרגום למה זה קצר תורישד סרטון אמית ותן לי לאות (Where is the translation? Why is it short? Download a real video and let me see it.)** - User request for a longer, non-test video with subtitles. (Status: Partially addressed; long video generation failed, subtitle feature is pending).
-5.  **User uploads screenshot of a course with 24/200 questions** - User reporting the MCQ content gap. (Status: Acknowledged, pending fix).
-6.  **כן (Yes)** - Ambiguous confirmation.
-7.  **תשלח לי לראות לפי שאתה מתקדם (Send me to see before you proceed)** - User wants to see the result of the test video generation. (Status: Completed).
-8.  **למה אני לא רואה את התרגום תשייך את זה לקורס אני רוצה לרות מתוך האפליקציה (Why don't I see the translation? Associate it with the course, I want to see it from within the app)** - The initial request to see the video inside the app. (Status: Completed).
-9.  **User provides screenshot of Buy More Credits page.** (Status: Addressed).
-10. **User provides screenshot of API settings page.** (Status: Addressed).
+1.  **Okay, go ahead. Add a repository of models and illustrations and color images. We will finish two courses and decide. Can you send me the two syllabuses you plan to work on?** - This is the latest user directive, setting the current tasks. (Status: In Progress, Blocked)
+2.  **Excellent, go for it. I suggest you do two courses from start to finish, one in dentistry and the other in pharmacy. I am with two students, we will watch together and I will send you comments if there are any.** - User's approval to build the two full demos. (Status: In Progress, Blocked)
 
 **Project Health Check:**
--   **Broken:** None.
+-   **Broken:** The core avatar presentation feature is non-functional due to the video streaming bug.
 -   **Mocked:** None.
 
 **3rd Party Integrations**
--   **Emergent LLM Key:** Used for MCQ generation.
--   **HeyGen (Video Generation):** Requires a User API Key. Status is now **UNBLOCKED**, with 39,600 credits available.
+-   **OpenAI TTS:** Actively used for audio generation.
+-   **HeyGen:** Actively used for avatar video generation.
 
 **Testing status**
--   **Testing agent used after significant changes:** YES (Used for a comprehensive check).
--   **Troubleshoot agent used after agent stuck in loop:** YES (Used to diagnose the HTTP Range Request issue).
--   **Test files created:** None.
--   **Known regressions:** None.
+-   **Testing agent used after significant changes:** NO
+-   **Troubleshoot agent used after agent stuck in loop:** NO
+-   **Test files created:** None
+-   **Known regressions:** None
 
 **What agent forgot to execute**
--   The autonomous task to generate 5,520 MCQs for the 20 UG courses was started but not completed due to user interruptions.
--   The attempt to create a long (90-second) video failed and was not retried or debugged further.</analysis>
+-   The agent did not fulfill the user's explicit request to be sent the syllabuses for the two courses under development.
+-   The agent created a new frontend page () but did not appear to integrate it into the application's router, making it unreachable. This should be checked and fixed if necessary.</analysis>

@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://virtual-prof-2.preview.emergentagent.com |
-| Admin Panel | https://virtual-prof-2.preview.emergentagent.com/admin/progress |
-| API Docs | https://virtual-prof-2.preview.emergentagent.com/api/docs |
+| Frontend | https://virtual-lecturer.preview.emergentagent.com |
+| Admin Panel | https://virtual-lecturer.preview.emergentagent.com/admin/progress |
+| API Docs | https://virtual-lecturer.preview.emergentagent.com/api/docs |
 
 ---
 
