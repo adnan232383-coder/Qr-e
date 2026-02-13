@@ -849,8 +849,16 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         
         video.addEventListener('error', (e) => {{
             console.error('Video error:', video.error);
-            placeholder.querySelector('span').textContent = 'Click Play to load video';
+            placeholder.querySelector('span').textContent = 'Video loading...';
+            document.getElementById('videoLink').style.display = 'block';
         }});
+        
+        // Auto-hide placeholder when video is ready
+        setTimeout(() => {{
+            if (video.readyState >= 2) {{
+                placeholder.style.display = 'none';
+            }}
+        }}, 3000);
         
         video.addEventListener('timeupdate', () => {{
             const progress = (video.currentTime / video.duration) * 100;
