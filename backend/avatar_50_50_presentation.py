@@ -240,7 +240,7 @@ def parse_script_to_slides(script_text: str, title: str, topic: str = "dental") 
     return slides
 
 
-def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: str, video_path: str) -> str:
+def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: str, video_path: str, script_text: str = "") -> str:
     """Generate HTML presentation with 50/50 avatar layout"""
     
     total = len(slides)
@@ -270,6 +270,10 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
                 </div>
             </div>
             '''
+    
+    # Generate subtitles from script
+    subtitles_en = generate_subtitles_from_script(script_text, total)
+    subtitles_he = translate_subtitles_to_hebrew(subtitles_en)
     
     # Get base URL for video loading from frontend .env
     import os
