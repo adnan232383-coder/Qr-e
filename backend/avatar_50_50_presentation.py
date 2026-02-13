@@ -271,11 +271,18 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             </div>
             '''
     
-    # Get base URL for video loading
+    # Get base URL for video loading from frontend .env
     import os
-    base_url = os.environ.get('REACT_APP_BACKEND_URL', '')
-    if not base_url:
-        base_url = os.environ.get('PUBLIC_URL', '')
+    from pathlib import Path
+    
+    base_url = ''
+    frontend_env = Path('/app/frontend/.env')
+    if frontend_env.exists():
+        with open(frontend_env) as f:
+            for line in f:
+                if line.startswith('REACT_APP_BACKEND_URL='):
+                    base_url = line.strip().split('=', 1)[1]
+                    break
     
     # Make video path absolute if it starts with /api
     abs_video_path = video_path
