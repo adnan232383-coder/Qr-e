@@ -3,549 +3,593 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evolution & Diversity - General Biology</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Evolution & Diversity</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: 'Poppins', sans-serif;
-            background: #0a0a0f;
+            background: #000;
             color: #fff;
-            overflow-x: hidden;
-        }
-        
-        /* Header */
-        .presentation-header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: rgba(10, 10, 15, 0.95);
-            backdrop-filter: blur(20px);
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .course-info h1 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #00d4ff;
-        }
-        
-        .course-info p {
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.6);
-        }
-        
-        /* Audio Player */
-        .audio-section {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        
-        .audio-section audio {
-            height: 40px;
-            border-radius: 20px;
-        }
-        
-        .audio-label {
-            font-size: 0.8rem;
-            color: #00d4ff;
-        }
-        
-        /* Slides Container */
-        .slides-container {
-            padding-top: 80px;
-        }
-        
-        /* Individual Slide */
-        .slide {
-            position: relative;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             overflow: hidden;
         }
         
-        .slide-image-container {
+        /* Video-like container */
+        .video-container {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Slides wrapper */
+        .slides-wrapper {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .slide {
             position: absolute;
             inset: 0;
-            z-index: 1;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+            pointer-events: none;
         }
         
-        .slide-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: brightness(0.4);
-            transition: transform 0.5s ease;
-        }
-        
-        .slide:hover .slide-image {
-            transform: scale(1.02);
+        .slide.active {
+            opacity: 1;
+            pointer-events: auto;
         }
         
         .slide-overlay {
             position: absolute;
             inset: 0;
-            background: linear-gradient(
-                135deg,
-                rgba(0, 0, 0, 0.7) 0%,
-                rgba(0, 0, 0, 0.3) 50%,
-                rgba(0, 212, 255, 0.1) 100%
-            );
+            background: linear-gradient(135deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 50%, rgba(0,50,80,0.3) 100%);
         }
         
-        .slide-content-wrapper {
+        .slide-box {
             position: relative;
             z-index: 10;
-            max-width: 900px;
-            padding: 60px;
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(10px);
+            max-width: 800px;
+            padding: 50px 60px;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(15px);
             border-radius: 20px;
-            border: 1px solid rgba(255,255,255,0.1);
-            margin: 20px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            animation: slideIn 0.6s ease;
         }
         
-        .title-slide .slide-content-wrapper {
+        @keyframes slideIn {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .title-slide .slide-box {
             text-align: center;
-            background: rgba(0, 212, 255, 0.1);
-            border-color: rgba(0, 212, 255, 0.3);
+            background: rgba(0, 212, 255, 0.15);
         }
         
-        .slide-title {
-            font-size: 2.5rem;
+        .slide-box h2 {
+            font-size: 2.2rem;
             font-weight: 700;
-            color: #fff;
-            margin-bottom: 25px;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-        }
-        
-        .title-slide .slide-title {
-            font-size: 3rem;
             color: #00d4ff;
+            margin-bottom: 25px;
+            line-height: 1.3;
         }
         
-        .slide-content {
-            font-size: 1.2rem;
-            line-height: 1.8;
+        .title-slide .slide-box h2 {
+            font-size: 2.8rem;
         }
         
         .slide-text {
-            margin-bottom: 20px;
+            font-size: 1.15rem;
+            line-height: 1.8;
             color: rgba(255,255,255,0.9);
+            margin-bottom: 15px;
         }
         
-        .key-points {
+        .bullets {
             list-style: none;
             padding: 0;
         }
         
-        .key-points li {
-            padding: 15px 0 15px 40px;
-            position: relative;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+        .bullets li {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 12px 0;
             font-size: 1.1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         
-        .key-points li:last-child {
+        .bullets li:last-child {
             border-bottom: none;
         }
         
-        .key-points li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 20px;
-            height: 20px;
-            background: linear-gradient(135deg, #00d4ff, #00ff88);
-            border-radius: 50%;
-            box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
-        }
-        
-        .slide-progress {
-            position: absolute;
-            bottom: 30px;
-            right: 40px;
-            z-index: 20;
-            background: rgba(0,0,0,0.5);
-            padding: 10px 20px;
-            border-radius: 30px;
-            font-size: 0.9rem;
-        }
-        
-        .slide-progress .current {
-            color: #00d4ff;
-            font-weight: 600;
-        }
-        
-        .slide-progress .separator {
-            color: rgba(255,255,255,0.3);
-            margin: 0 5px;
-        }
-        
-        /* Navigation Dots */
-        .nav-dots {
-            position: fixed;
-            right: 30px;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        
-        .nav-dot {
+        .bullet-dot {
+            flex-shrink: 0;
             width: 12px;
             height: 12px;
+            margin-top: 6px;
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
             border-radius: 50%;
-            background: rgba(255,255,255,0.3);
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
         }
         
-        .nav-dot:hover, .nav-dot.active {
-            background: #00d4ff;
-            border-color: #fff;
-            transform: scale(1.3);
+        .slide-counter {
+            position: absolute;
+            bottom: 100px;
+            right: 40px;
+            background: rgba(0,0,0,0.6);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            z-index: 20;
         }
         
-        /* Controls */
-        .controls {
-            position: fixed;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 1000;
+        /* Control bar - video style */
+        .control-bar {
+            height: 80px;
+            background: rgba(10, 10, 15, 0.95);
             display: flex;
-            gap: 15px;
-            background: rgba(0,0,0,0.8);
-            padding: 15px 25px;
-            border-radius: 50px;
-            backdrop-filter: blur(10px);
+            align-items: center;
+            padding: 0 30px;
+            gap: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
         }
         
-        .control-btn {
-            background: transparent;
-            border: 2px solid rgba(255,255,255,0.3);
-            color: #fff;
+        .play-btn {
             width: 50px;
             height: 50px;
             border-radius: 50%;
+            background: #00d4ff;
+            border: none;
             cursor: pointer;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.3s;
         }
         
-        .control-btn:hover {
-            border-color: #00d4ff;
-            color: #00d4ff;
+        .play-btn:hover {
             transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
         }
         
-        .control-btn.play-btn {
+        .play-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: #0a0a0f;
+        }
+        
+        /* Progress bar */
+        .progress-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .progress-bar {
+            flex: 1;
+            height: 6px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+        
+        .progress-bar:hover .progress-fill {
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+        
+        .time-display {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            min-width: 100px;
+        }
+        
+        .title-info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        
+        .title-info h3 {
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .title-info p {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+        }
+        
+        /* Volume */
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .volume-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+        }
+        
+        .volume-btn svg {
+            width: 24px;
+            height: 24px;
+            fill: rgba(255,255,255,0.7);
+        }
+        
+        .volume-slider {
+            width: 80px;
+            height: 4px;
+            -webkit-appearance: none;
+            background: rgba(255,255,255,0.3);
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
             background: #00d4ff;
-            border-color: #00d4ff;
-            color: #0a0a0f;
+            border-radius: 50%;
+            cursor: pointer;
         }
         
-        /* Responsive */
-        @media (max-width: 768px) {
-            .slide-content-wrapper {
-                padding: 30px;
-                margin: 15px;
-            }
-            
-            .slide-title {
-                font-size: 1.8rem;
-            }
-            
-            .title-slide .slide-title {
-                font-size: 2rem;
-            }
-            
-            .slide-content {
-                font-size: 1rem;
-            }
-            
-            .nav-dots {
-                display: none;
-            }
+        /* Fullscreen */
+        .fullscreen-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+        
+        .fullscreen-btn svg {
+            width: 22px;
+            height: 22px;
+            fill: rgba(255,255,255,0.7);
+            transition: fill 0.3s;
+        }
+        
+        .fullscreen-btn:hover svg {
+            fill: #00d4ff;
+        }
+        
+        /* Hidden audio */
+        #audioPlayer {
+            display: none;
+        }
+        
+        /* Loading overlay */
+        .loading-overlay {
+            position: fixed;
+            inset: 0;
+            background: #0a0a0f;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: opacity 0.5s;
+        }
+        
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(0, 212, 255, 0.2);
+            border-top-color: #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .loading-text {
+            margin-top: 20px;
+            color: rgba(255,255,255,0.7);
         }
     </style>
 </head>
 <body>
-    <header class="presentation-header">
-        <div class="course-info">
-            <h1>Evolution & Diversity</h1>
-            <p>General Biology</p>
-        </div>
-        <div class="audio-section">
-            <span class="audio-label">Audio Narration</span>
-            <audio id="audioPlayer" controls>
-                <source src="/api/audio/UG_DENT_Y1_S1_C01_M03.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-    </header>
-    
-    <nav class="nav-dots" id="navDots"></nav>
-    
-    <main class="slides-container">
-        
-        <section class="slide title-slide" id="slide-0" data-index="0">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1758656803198-eeea35110219?w=800" alt="Evolution & Diversity" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Evolution & Diversity</h2>
-                <div class="slide-content">
-                    
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">1</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-1" data-index="1">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1758702046109-1ca08784e691?w=800" alt="Introduction" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Introduction</h2>
-                <div class="slide-content">
-                    <p class="slide-text">Welcome to this module on Evolution & Diversity. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</p>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">2</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-2" data-index="2">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800" alt="Learning Objectives" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Learning Objectives</h2>
-                <div class="slide-content">
-                    <p class="slide-text">By the end of this session, you'll be able to:</p>
-<ul class="key-points">
-<li>Define and explain core terminology related to Evolution & Diversity</li>
-<li>Identify key principles and their clinical applications</li>
-<li>Apply this knowledge to practical scenarios</li>
-</ul>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">3</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-3" data-index="3">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800" alt="Section 1: Fundamentals" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Section 1: Fundamentals</h2>
-                <div class="slide-content">
-                    <p class="slide-text">Let's begin with the basic concepts. Natural selection is essential because it forms the foundation of our understanding.</p>
-<p class="slide-text">[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">4</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-4" data-index="4">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800" alt="Section 2: Clinical Applications" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Section 2: Clinical Applications</h2>
-                <div class="slide-content">
-                    <p class="slide-text">Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of Adaptation guides your diagnostic approach.</p>
-<p class="slide-text">The key steps in clinical application include:</p>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">5</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-5" data-index="5">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=800" alt="Section 3: Advanced Concepts" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Section 3: Advanced Concepts</h2>
-                <div class="slide-content">
-                    <p class="slide-text">Building on our foundation, let's examine Speciation. These advanced concepts connect what we've learned to more complex clinical scenarios.</p>
-<p class="slide-text">Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
-<ul class="key-points">
-<li>Strong foundational knowledge</li>
-<li>Critical thinking skills</li>
-<li>Continuous learning mindset</li>
-</ul>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">6</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-        <section class="slide content-slide" id="slide-6" data-index="6">
-            <div class="slide-image-container">
-                <img src="https://images.unsplash.com/photo-1758656803198-eeea35110219?w=800" alt="Summary" class="slide-image" loading="lazy">
-                <div class="slide-overlay"></div>
-            </div>
-            <div class="slide-content-wrapper">
-                <h2 class="slide-title">Summary</h2>
-                <div class="slide-content">
-                    <p class="slide-text">Today we covered:</p>
-<p class="slide-text">[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
-<ul class="key-points">
-<li>Core concepts of Evolution & Diversity</li>
-<li>Clinical applications and relevance</li>
-<li>Advanced topics for deeper understanding</li>
-</ul>
-
-                </div>
-            </div>
-            <div class="slide-progress">
-                <span class="current">7</span>
-                <span class="separator">/</span>
-                <span class="total">7</span>
-            </div>
-        </section>
-        
-    </main>
-    
-    <div class="controls">
-        <button class="control-btn" onclick="prevSlide()" title="Previous">&#9664;</button>
-        <button class="control-btn play-btn" onclick="toggleAudio()" id="playBtn" title="Play/Pause">&#9658;</button>
-        <button class="control-btn" onclick="nextSlide()" title="Next">&#9654;</button>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading presentation...</p>
     </div>
     
+    <div class="video-container">
+        <div class="slides-wrapper">
+            
+        <div class="slide title-slide" data-index="0" style="background-image: url('https://images.unsplash.com/photo-1758656803198-eeea35110219?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Evolution & Diversity</h2>
+                <div class="slide-content"></div>
+            </div>
+            <div class="slide-counter">1 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="1" style="background-image: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Introduction</h2>
+                <div class="slide-content"><p class="slide-text">Welcome to this module on Evolution & Diversity. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</p>
+</div>
+            </div>
+            <div class="slide-counter">2 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="2" style="background-image: url('https://images.unsplash.com/photo-1758702046109-1ca08784e691?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Learning Objectives</h2>
+                <div class="slide-content"><p class="slide-text">By the end of this session, you'll be able to:</p>
+<ul class="bullets">
+<li><span class="bullet-dot"></span>Define and explain core terminology related to Evolution & Diversity</li>
+<li><span class="bullet-dot"></span>Identify key principles and their clinical applications</li>
+<li><span class="bullet-dot"></span>Apply this knowledge to practical scenarios</li>
+</ul>
+</div>
+            </div>
+            <div class="slide-counter">3 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="3" style="background-image: url('https://images.unsplash.com/photo-1758656803198-eeea35110219?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Section 1: Fundamentals</h2>
+                <div class="slide-content"><p class="slide-text">Let's begin with the basic concepts. Natural selection is essential because it forms the foundation of our understanding.</p>
+<p class="slide-text">[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
+</div>
+            </div>
+            <div class="slide-counter">4 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="4" style="background-image: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Section 2: Clinical Applications</h2>
+                <div class="slide-content"><p class="slide-text">Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of Adaptation guides your diagnostic approach.</p>
+<p class="slide-text">The key steps in clinical application include:</p>
+</div>
+            </div>
+            <div class="slide-counter">5 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="5" style="background-image: url('https://images.unsplash.com/photo-1758702046109-1ca08784e691?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Section 3: Advanced Concepts</h2>
+                <div class="slide-content"><p class="slide-text">Building on our foundation, let's examine Speciation. These advanced concepts connect what we've learned to more complex clinical scenarios.</p>
+<p class="slide-text">Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
+<ul class="bullets">
+<li><span class="bullet-dot"></span>Strong foundational knowledge</li>
+<li><span class="bullet-dot"></span>Critical thinking skills</li>
+<li><span class="bullet-dot"></span>Continuous learning mindset</li>
+</ul>
+</div>
+            </div>
+            <div class="slide-counter">6 / 7</div>
+        </div>
+        
+        <div class="slide " data-index="6" style="background-image: url('https://images.unsplash.com/photo-1758656803198-eeea35110219?w=1200');">
+            <div class="slide-overlay"></div>
+            <div class="slide-box">
+                <h2>Summary</h2>
+                <div class="slide-content"><p class="slide-text">Today we covered:</p>
+<p class="slide-text">[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
+<ul class="bullets">
+<li><span class="bullet-dot"></span>Core concepts of Evolution & Diversity</li>
+<li><span class="bullet-dot"></span>Clinical applications and relevance</li>
+<li><span class="bullet-dot"></span>Advanced topics for deeper understanding</li>
+</ul>
+</div>
+            </div>
+            <div class="slide-counter">7 / 7</div>
+        </div>
+        
+        </div>
+        
+        <div class="control-bar">
+            <button class="play-btn" id="playBtn" title="Play/Pause">
+                <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                <svg id="pauseIcon" style="display:none" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            
+            <div class="title-info">
+                <h3>Evolution & Diversity</h3>
+                <p>General Biology</p>
+            </div>
+            
+            <div class="progress-container">
+                <span class="time-display" id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="time-display" id="totalTime">0:00</span>
+            </div>
+            
+            <div class="volume-control">
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                </button>
+                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+            </div>
+            
+            <button class="fullscreen-btn" id="fullscreenBtn" title="Fullscreen">
+                <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+            </button>
+        </div>
+    </div>
+    
+    <audio id="audioPlayer" preload="auto">
+        <source src="/api/audio/UG_DENT_Y1_S1_C01_M03.mp3" type="audio/mpeg">
+    </audio>
+    
     <script>
-        const slides = document.querySelectorAll('.slide');
         const audio = document.getElementById('audioPlayer');
         const playBtn = document.getElementById('playBtn');
-        const navDotsContainer = document.getElementById('navDots');
+        const playIcon = document.getElementById('playIcon');
+        const pauseIcon = document.getElementById('pauseIcon');
+        const progressBar = document.getElementById('progressBar');
+        const progressFill = document.getElementById('progressFill');
+        const currentTimeEl = document.getElementById('currentTime');
+        const totalTimeEl = document.getElementById('totalTime');
+        const volumeSlider = document.getElementById('volumeSlider');
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
         let currentSlide = 0;
+        let isPlaying = false;
         
-        // Create navigation dots
-        slides.forEach((_, i) => {
-            const dot = document.createElement('div');
-            dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
-            dot.onclick = () => goToSlide(i);
-            navDotsContainer.appendChild(dot);
-        });
+        // Format time
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
         
-        function updateDots() {
-            document.querySelectorAll('.nav-dot').forEach((dot, i) => {
-                dot.classList.toggle('active', i === currentSlide);
+        // Show slide
+        function showSlide(index) {
+            slides.forEach((s, i) => {
+                s.classList.toggle('active', i === index);
             });
-        }
-        
-        function goToSlide(index) {
             currentSlide = index;
-            slides[index].scrollIntoView({ behavior: 'smooth' });
-            updateDots();
         }
         
-        function nextSlide() {
-            if (currentSlide < slides.length - 1) {
-                goToSlide(currentSlide + 1);
+        // Calculate which slide to show based on audio time
+        function updateSlideFromTime() {
+            if (!audio.duration) return;
+            
+            const progress = audio.currentTime / audio.duration;
+            const slideIndex = Math.min(
+                Math.floor(progress * totalSlides),
+                totalSlides - 1
+            );
+            
+            if (slideIndex !== currentSlide) {
+                showSlide(slideIndex);
             }
         }
         
-        function prevSlide() {
-            if (currentSlide > 0) {
-                goToSlide(currentSlide - 1);
-            }
-        }
-        
-        function toggleAudio() {
+        // Play/Pause
+        function togglePlay() {
             if (audio.paused) {
                 audio.play();
-                playBtn.innerHTML = '&#10074;&#10074;';
             } else {
                 audio.pause();
-                playBtn.innerHTML = '&#9658;';
             }
         }
         
-        // Keyboard navigation
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextSlide();
-            if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevSlide();
-            if (e.key === ' ') { e.preventDefault(); toggleAudio(); }
+        // Event listeners
+        audio.addEventListener('loadedmetadata', () => {
+            totalTimeEl.textContent = formatTime(audio.duration);
+            loadingOverlay.classList.add('hidden');
+            showSlide(0);
         });
         
-        // Scroll detection
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    currentSlide = parseInt(entry.target.dataset.index);
-                    updateDots();
-                }
-            });
-        }, { threshold: 0.5 });
+        audio.addEventListener('timeupdate', () => {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressFill.style.width = `${progress}%`;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+            updateSlideFromTime();
+        });
         
-        slides.forEach(slide => observer.observe(slide));
+        audio.addEventListener('play', () => {
+            isPlaying = true;
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+        });
         
-        // Audio state
-        audio.addEventListener('play', () => playBtn.innerHTML = '&#10074;&#10074;');
-        audio.addEventListener('pause', () => playBtn.innerHTML = '&#9658;');
+        audio.addEventListener('pause', () => {
+            isPlaying = false;
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+        });
+        
+        audio.addEventListener('ended', () => {
+            showSlide(totalSlides - 1);
+        });
+        
+        playBtn.addEventListener('click', togglePlay);
+        
+        // Progress bar click
+        progressBar.addEventListener('click', (e) => {
+            const rect = progressBar.getBoundingClientRect();
+            const pos = (e.clientX - rect.left) / rect.width;
+            audio.currentTime = pos * audio.duration;
+        });
+        
+        // Volume
+        volumeSlider.addEventListener('input', (e) => {
+            audio.volume = e.target.value;
+        });
+        
+        // Fullscreen
+        fullscreenBtn.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        });
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                togglePlay();
+            } else if (e.code === 'ArrowRight') {
+                audio.currentTime = Math.min(audio.currentTime + 5, audio.duration);
+            } else if (e.code === 'ArrowLeft') {
+                audio.currentTime = Math.max(audio.currentTime - 5, 0);
+            } else if (e.code === 'KeyF') {
+                fullscreenBtn.click();
+            }
+        });
+        
+        // Auto-start option (click anywhere to start)
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.control-bar')) return;
+            if (!isPlaying && audio.paused) {
+                togglePlay();
+            }
+        }, { once: true });
+        
+        // Initialize
+        showSlide(0);
     </script>
 </body>
 </html>
