@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cell Structure & Function - General Biology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -11,280 +13,539 @@
             box-sizing: border-box;
         }
         
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            font-family: 'Poppins', sans-serif;
+            background: #0a0a0f;
             color: #fff;
-            min-height: 100vh;
+            overflow-x: hidden;
         }
         
-        .presentation-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            padding: 20px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .header h1 {
-            font-size: 1.8rem;
-            color: #00d4ff;
-            margin-bottom: 5px;
-        }
-        
-        .header p {
-            color: #888;
-            font-size: 0.9rem;
-        }
-        
-        .audio-player {
-            background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        
-        .audio-player h3 {
-            margin-bottom: 15px;
-            color: #00d4ff;
-        }
-        
-        audio {
-            width: 100%;
-            max-width: 500px;
-        }
-        
-        .slides-container {
+        /* Header */
+        .presentation-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 15px 30px;
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         
+        .course-info h1 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #00d4ff;
+        }
+        
+        .course-info p {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        /* Audio Player */
+        .audio-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .audio-section audio {
+            height: 40px;
+            border-radius: 20px;
+        }
+        
+        .audio-label {
+            font-size: 0.8rem;
+            color: #00d4ff;
+        }
+        
+        /* Slides Container */
+        .slides-container {
+            padding-top: 80px;
+        }
+        
+        /* Individual Slide */
         .slide {
-            background: rgba(255,255,255,0.05);
-            border-radius: 15px;
-            padding: 40px;
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .slide-image-container {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+        
+        .slide-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.4);
+            transition: transform 0.5s ease;
+        }
+        
+        .slide:hover .slide-image {
+            transform: scale(1.02);
+        }
+        
+        .slide-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                135deg,
+                rgba(0, 0, 0, 0.7) 0%,
+                rgba(0, 0, 0, 0.3) 50%,
+                rgba(0, 212, 255, 0.1) 100%
+            );
+        }
+        
+        .slide-content-wrapper {
+            position: relative;
+            z-index: 10;
+            max-width: 900px;
+            padding: 60px;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
             border: 1px solid rgba(255,255,255,0.1);
-            transition: all 0.3s ease;
+            margin: 20px;
         }
         
-        .slide:hover {
-            border-color: #00d4ff;
-            transform: translateY(-2px);
-        }
-        
-        .title-slide {
+        .title-slide .slide-content-wrapper {
             text-align: center;
-            background: linear-gradient(135deg, rgba(0,212,255,0.2) 0%, rgba(0,212,255,0.05) 100%);
+            background: rgba(0, 212, 255, 0.1);
+            border-color: rgba(0, 212, 255, 0.3);
         }
         
-        .title-slide h2 {
-            font-size: 2rem;
-            color: #00d4ff;
+        .slide-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 25px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
         }
         
-        .slide h2 {
+        .title-slide .slide-title {
+            font-size: 3rem;
             color: #00d4ff;
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-            border-bottom: 2px solid rgba(0,212,255,0.3);
-            padding-bottom: 10px;
         }
         
         .slide-content {
+            font-size: 1.2rem;
             line-height: 1.8;
+        }
+        
+        .slide-text {
+            margin-bottom: 20px;
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .key-points {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .key-points li {
+            padding: 15px 0 15px 40px;
+            position: relative;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
             font-size: 1.1rem;
         }
         
-        .slide-content p {
-            margin-bottom: 15px;
+        .key-points li:last-child {
+            border-bottom: none;
         }
         
-        .slide-content ul {
-            list-style: none;
-            padding-left: 20px;
-        }
-        
-        .slide-content li {
-            margin-bottom: 12px;
-            padding-left: 25px;
-            position: relative;
-        }
-        
-        .slide-content li::before {
-            content: "▸";
-            color: #00d4ff;
+        .key-points li::before {
+            content: "";
             position: absolute;
             left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
         }
         
-        .slide-number {
-            text-align: right;
-            color: #666;
-            font-size: 0.8rem;
-            margin-top: 20px;
+        .slide-progress {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+            z-index: 20;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
         }
         
-        .navigation {
+        .slide-progress .current {
+            color: #00d4ff;
+            font-weight: 600;
+        }
+        
+        .slide-progress .separator {
+            color: rgba(255,255,255,0.3);
+            margin: 0 5px;
+        }
+        
+        /* Navigation Dots */
+        .nav-dots {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
             display: flex;
+            flex-direction: column;
             gap: 10px;
         }
         
-        .nav-btn {
-            background: #00d4ff;
-            color: #1a1a2e;
-            border: none;
-            padding: 15px 25px;
-            border-radius: 10px;
+        .nav-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
             cursor: pointer;
-            font-weight: bold;
             transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
         
-        .nav-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 20px rgba(0,212,255,0.4);
+        .nav-dot:hover, .nav-dot.active {
+            background: #00d4ff;
+            border-color: #fff;
+            transform: scale(1.3);
         }
         
+        /* Controls */
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            display: flex;
+            gap: 15px;
+            background: rgba(0,0,0,0.8);
+            padding: 15px 25px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .control-btn {
+            background: transparent;
+            border: 2px solid rgba(255,255,255,0.3);
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .control-btn:hover {
+            border-color: #00d4ff;
+            color: #00d4ff;
+            transform: scale(1.1);
+        }
+        
+        .control-btn.play-btn {
+            background: #00d4ff;
+            border-color: #00d4ff;
+            color: #0a0a0f;
+        }
+        
+        /* Responsive */
         @media (max-width: 768px) {
-            .slide {
-                padding: 20px;
+            .slide-content-wrapper {
+                padding: 30px;
+                margin: 15px;
             }
-            .title-slide h2 {
-                font-size: 1.5rem;
+            
+            .slide-title {
+                font-size: 1.8rem;
+            }
+            
+            .title-slide .slide-title {
+                font-size: 2rem;
+            }
+            
+            .slide-content {
+                font-size: 1rem;
+            }
+            
+            .nav-dots {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
-    <div class="presentation-container">
-        <div class="header">
+    <header class="presentation-header">
+        <div class="course-info">
             <h1>Cell Structure & Function</h1>
             <p>General Biology</p>
         </div>
-        
-        <div class="audio-player" id="audio-section">
-            <h3>Audio Narration</h3>
-            <audio controls id="audioPlayer">
+        <div class="audio-section">
+            <span class="audio-label">Audio Narration</span>
+            <audio id="audioPlayer" controls>
                 <source src="/api/audio/UG_DENT_Y1_S1_C01_M01.mp3" type="audio/mpeg">
-                Your browser does not support audio.
             </audio>
         </div>
+    </header>
+    
+    <nav class="nav-dots" id="navDots"></nav>
+    
+    <main class="slides-container">
         
-        <div class="slides-container">
-            
-        <div class="slide title-slide" id="slide-0">
-            <h2>Cell Structure & Function</h2>
-            <div class="slide-content">
-                
+        <section class="slide title-slide" id="slide-0" data-index="0">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1767486366936-c41b4f767eb8?w=800" alt="Cell Structure & Function" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
             </div>
-            <div class="slide-number">1 / 7</div>
-        </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Cell Structure & Function</h2>
+                <div class="slide-content">
+                    
+                </div>
+            </div>
+            <div class="slide-progress">
+                <span class="current">1</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        <div class="slide content-slide" id="slide-1">
-            <h2>Introduction</h2>
-            <div class="slide-content">
-                <p>Welcome to this module on Cell Structure & Function. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</p>
+        <section class="slide content-slide" id="slide-1" data-index="1">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1647083701139-3930542304cf?w=800" alt="Introduction" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Introduction</h2>
+                <div class="slide-content">
+                    <p class="slide-text">Welcome to this module on Cell Structure & Function. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</p>
 
+                </div>
             </div>
-            <div class="slide-number">2 / 7</div>
-        </div>
+            <div class="slide-progress">
+                <span class="current">2</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        <div class="slide content-slide" id="slide-2">
-            <h2>Learning Objectives</h2>
-            <div class="slide-content">
-                <ul><p>By the end of this session, you'll be able to:</p>
+        <section class="slide content-slide" id="slide-2" data-index="2">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1758206523826-a65d4cf070aa?w=800" alt="Learning Objectives" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Learning Objectives</h2>
+                <div class="slide-content">
+                    <p class="slide-text">By the end of this session, you'll be able to:</p>
+<ul class="key-points">
 <li>Define and explain core terminology related to Cell Structure & Function</li>
 <li>Identify key principles and their clinical applications</li>
 <li>Apply this knowledge to practical scenarios</li>
 </ul>
-            </div>
-            <div class="slide-number">3 / 7</div>
-        </div>
-        
-        <div class="slide content-slide" id="slide-3">
-            <h2>Section 1: Fundamentals</h2>
-            <div class="slide-content">
-                <p>Let's begin with the basic concepts. Cell membrane is essential because it forms the foundation of our understanding.</p>
-<p>[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
-<p>In clinical settings, you'll encounter these principles daily. For example, when assessing patients, knowledge of Cell membrane helps you interpret findings accurately.</p>
 
+                </div>
             </div>
-            <div class="slide-number">4 / 7</div>
-        </div>
+            <div class="slide-progress">
+                <span class="current">3</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        <div class="slide content-slide" id="slide-4">
-            <h2>Section 2: Clinical Applications</h2>
-            <div class="slide-content">
-                <p>Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of Nucleus guides your diagnostic approach.</p>
-<p>The key steps in clinical application include:</p>
-<p>1. Assessment based on foundational knowledge</p>
-<p>2. Integration of findings</p>
-<p>3. Evidence-based decision making</p>
-<p>[EMPHASIS] Clinical reasoning depends on solid foundational understanding.</p>
+        <section class="slide content-slide" id="slide-3" data-index="3">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1767486366936-c41b4f767eb8?w=800" alt="Section 1: Fundamentals" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Section 1: Fundamentals</h2>
+                <div class="slide-content">
+                    <p class="slide-text">Let's begin with the basic concepts. Cell membrane is essential because it forms the foundation of our understanding.</p>
+<p class="slide-text">[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
 
+                </div>
             </div>
-            <div class="slide-number">5 / 7</div>
-        </div>
+            <div class="slide-progress">
+                <span class="current">4</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        <div class="slide content-slide" id="slide-5">
-            <h2>Section 3: Advanced Concepts</h2>
-            <div class="slide-content">
-                <ul><p>Building on our foundation, let's examine Mitochondria. These advanced concepts connect what we've learned to more complex clinical scenarios.</p>
-<p>Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
+        <section class="slide content-slide" id="slide-4" data-index="4">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800" alt="Section 2: Clinical Applications" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Section 2: Clinical Applications</h2>
+                <div class="slide-content">
+                    <p class="slide-text">Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your understanding of Nucleus guides your diagnostic approach.</p>
+<p class="slide-text">The key steps in clinical application include:</p>
+
+                </div>
+            </div>
+            <div class="slide-progress">
+                <span class="current">5</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
+        
+        <section class="slide content-slide" id="slide-5" data-index="5">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=800" alt="Section 3: Advanced Concepts" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Section 3: Advanced Concepts</h2>
+                <div class="slide-content">
+                    <p class="slide-text">Building on our foundation, let's examine Mitochondria. These advanced concepts connect what we've learned to more complex clinical scenarios.</p>
+<p class="slide-text">Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
+<ul class="key-points">
 <li>Strong foundational knowledge</li>
 <li>Critical thinking skills</li>
 <li>Continuous learning mindset</li>
 </ul>
+
+                </div>
             </div>
-            <div class="slide-number">6 / 7</div>
-        </div>
+            <div class="slide-progress">
+                <span class="current">6</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        <div class="slide content-slide" id="slide-6">
-            <h2>Summary</h2>
-            <div class="slide-content">
-                <ul><p>Today we covered:</p>
+        <section class="slide content-slide" id="slide-6" data-index="6">
+            <div class="slide-image-container">
+                <img src="https://images.unsplash.com/photo-1767486366936-c41b4f767eb8?w=800" alt="Summary" class="slide-image" loading="lazy">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-content-wrapper">
+                <h2 class="slide-title">Summary</h2>
+                <div class="slide-content">
+                    <p class="slide-text">Today we covered:</p>
+<p class="slide-text">[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
+<ul class="key-points">
 <li>Core concepts of Cell Structure & Function</li>
 <li>Clinical applications and relevance</li>
 <li>Advanced topics for deeper understanding</li>
-<p>[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
-<p>In our next module, we'll build on these concepts as we explore more advanced topics.</p>
-<p>Thank you for your attention. Keep reviewing these materials and don't hesitate to ask questions!</p>
 </ul>
+
+                </div>
             </div>
-            <div class="slide-number">7 / 7</div>
-        </div>
+            <div class="slide-progress">
+                <span class="current">7</span>
+                <span class="separator">/</span>
+                <span class="total">7</span>
+            </div>
+        </section>
         
-        </div>
+    </main>
+    
+    <div class="controls">
+        <button class="control-btn" onclick="prevSlide()" title="Previous">&#9664;</button>
+        <button class="control-btn play-btn" onclick="toggleAudio()" id="playBtn" title="Play/Pause">&#9658;</button>
+        <button class="control-btn" onclick="nextSlide()" title="Next">&#9654;</button>
     </div>
     
     <script>
-        // Auto-scroll to current slide based on audio time (optional enhancement)
-        const audio = document.getElementById('audioPlayer');
         const slides = document.querySelectorAll('.slide');
+        const audio = document.getElementById('audioPlayer');
+        const playBtn = document.getElementById('playBtn');
+        const navDotsContainer = document.getElementById('navDots');
+        let currentSlide = 0;
         
-        // Simple keyboard navigation
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowRight') {
-                audio.currentTime += 10;
-            } else if (e.key === 'ArrowLeft') {
-                audio.currentTime -= 10;
-            } else if (e.key === ' ') {
-                e.preventDefault();
-                if (audio.paused) audio.play();
-                else audio.pause();
-            }
+        // Create navigation dots
+        slides.forEach((_, i) => {
+            const dot = document.createElement('div');
+            dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
+            dot.onclick = () => goToSlide(i);
+            navDotsContainer.appendChild(dot);
         });
+        
+        function updateDots() {
+            document.querySelectorAll('.nav-dot').forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+        
+        function goToSlide(index) {
+            currentSlide = index;
+            slides[index].scrollIntoView({ behavior: 'smooth' });
+            updateDots();
+        }
+        
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                goToSlide(currentSlide + 1);
+            }
+        }
+        
+        function prevSlide() {
+            if (currentSlide > 0) {
+                goToSlide(currentSlide - 1);
+            }
+        }
+        
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+                playBtn.innerHTML = '&#10074;&#10074;';
+            } else {
+                audio.pause();
+                playBtn.innerHTML = '&#9658;';
+            }
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextSlide();
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevSlide();
+            if (e.key === ' ') { e.preventDefault(); toggleAudio(); }
+        });
+        
+        // Scroll detection
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    currentSlide = parseInt(entry.target.dataset.index);
+                    updateDots();
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        slides.forEach(slide => observer.observe(slide));
+        
+        // Audio state
+        audio.addEventListener('play', () => playBtn.innerHTML = '&#10074;&#10074;');
+        audio.addEventListener('pause', () => playBtn.innerHTML = '&#9658;');
     </script>
 </body>
 </html>
