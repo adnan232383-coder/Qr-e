@@ -1015,13 +1015,24 @@
         
         // Video events
         video.addEventListener('loadedmetadata', () => {
+            console.log('Video metadata loaded', video.duration);
             placeholder.style.display = 'none';
             totalTimeEl.textContent = formatTime(video.duration);
         });
         
-        video.addEventListener('error', () => {
-            placeholder.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg><span>Avatar video not available</span>';
+        video.addEventListener('canplay', () => {
+            console.log('Video can play');
+            placeholder.style.display = 'none';
         });
+        
+        video.addEventListener('error', (e) => {
+            console.error('Video error:', video.error);
+            placeholder.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg><span>Video loading...</span>';
+        });
+        
+        // Force load video
+        video.load();
+        console.log('Video src:', video.querySelector('source').src);
         
         video.addEventListener('timeupdate', () => {
             const progress = (video.currentTime / video.duration) * 100;
