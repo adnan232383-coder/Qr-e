@@ -818,6 +818,8 @@ async def serve_avatar_video(module_id: str, request: Request):
                 "Accept-Ranges": "bytes",
                 "Content-Length": str(content_length),
                 "Content-Type": "video/mp4",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Expose-Headers": "Content-Range, Content-Length",
             }
         )
     
@@ -827,7 +829,8 @@ async def serve_avatar_video(module_id: str, request: Request):
         filename=f"{module_id}.mp4",
         headers={
             "Accept-Ranges": "bytes",
-            "Content-Length": str(file_size)
+            "Content-Length": str(file_size),
+            "Access-Control-Allow-Origin": "*",
         }
     )
 
