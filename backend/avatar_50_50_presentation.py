@@ -1196,8 +1196,8 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         
         // Subtitles data - synced with video timestamps
         const subtitlesData = {{
-            en: {script_subtitles_en},
-            he: {script_subtitles_he}
+            en: SUBTITLES_EN_PLACEHOLDER,
+            he: SUBTITLES_HE_PLACEHOLDER
         }};
         
         // Toggle subtitles
