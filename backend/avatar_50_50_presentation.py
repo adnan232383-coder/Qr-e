@@ -271,12 +271,24 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             </div>
             '''
     
+    # Get base URL for video loading
+    import os
+    base_url = os.environ.get('REACT_APP_BACKEND_URL', '')
+    if not base_url:
+        base_url = os.environ.get('PUBLIC_URL', '')
+    
+    # Make video path absolute if it starts with /api
+    abs_video_path = video_path
+    if video_path.startswith('/api') and base_url:
+        abs_video_path = base_url + video_path
+    
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <base href="{base_url}/">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
