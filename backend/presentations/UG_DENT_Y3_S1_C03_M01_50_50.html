@@ -448,19 +448,20 @@
             <div class="avatar-header">
                 <div class="instructor-badge">
                     <div class="dot"></div>
-                    <span>Virtual Instructor</span>
+                    <span>Virtual Instructor - Adriana</span>
                 </div>
             </div>
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
-                    <video class="avatar-video" id="avatarVideo" playsinline preload="metadata">
-                        <source src="https://virtual-lecturer.preview.emergentagent.com/api/videos/demo_avatar/file" type="video/mp4">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="auto">
+                        <source src="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y3_S1_C03_M01" type="video/mp4">
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                         </svg>
-                        <span>Click Play to Start</span>
+                        <span>Loading Avatar...</span>
+                        <a href="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y3_S1_C03_M01" target="_blank" style="display:none;margin-top:10px;color:#38bdf8;font-size:12px;" id="videoLink">Open video in new tab</a>
                     </div>
                 </div>
             </div>
@@ -1025,8 +1026,16 @@
         
         video.addEventListener('error', (e) => {
             console.error('Video error:', video.error);
-            placeholder.querySelector('span').textContent = 'Click Play to load video';
+            placeholder.querySelector('span').textContent = 'Video loading...';
+            document.getElementById('videoLink').style.display = 'block';
         });
+        
+        // Auto-hide placeholder when video is ready
+        setTimeout(() => {
+            if (video.readyState >= 2) {
+                placeholder.style.display = 'none';
+            }
+        }, 3000);
         
         video.addEventListener('timeupdate', () => {
             const progress = (video.currentTime / video.duration) * 100;
