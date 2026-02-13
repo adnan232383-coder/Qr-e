@@ -827,11 +827,33 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             .avatar-video-container {{
                 max-width: 200px;
             }}
+            
+            .subtitle-text {{
+                font-size: 1.1rem;
+                padding: 10px 20px;
+            }}
         }}
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="presentation-container">
+        <!-- Subtitles Toggle Button -->
+        <button class="subtitles-toggle" id="subtitlesToggle" data-testid="subtitles-toggle">
+            <span>CC</span> כתוביות
+        </button>
+        
+        <!-- Language Selector -->
+        <div class="lang-selector" id="langSelector">
+            <div class="lang-option selected" data-lang="en">English</div>
+            <div class="lang-option" data-lang="he">עברית</div>
+        </div>
+        
+        <!-- Subtitles Display -->
+        <div class="subtitles-container" id="subtitlesContainer" style="display:none;">
+            <div class="subtitle-text" id="subtitleText"></div>
+        </div>
+        
         <!-- Avatar Panel - Left 50% -->
         <div class="avatar-panel">
             <div class="avatar-header">
