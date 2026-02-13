@@ -738,7 +738,7 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
                     <video class="avatar-video" id="avatarVideo" playsinline>
-                        <source src="{video_path}" type="video/mp4">
+                        <source src="{abs_video_path}" type="video/mp4">
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
                         <svg viewBox="0 0 24 24" fill="currentColor">
