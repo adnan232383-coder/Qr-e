@@ -163,23 +163,25 @@
         }
         
         .title-slide h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
+            font-size: 3.5rem;
+            font-weight: 800;
             background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 30px rgba(56, 189, 248, 0.3);
         }
         
         .course-name {
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             color: var(--text-muted);
             margin-bottom: 40px;
+            font-weight: 600;
         }
         
         .title-image {
-            max-width: 350px;
+            max-width: 400px;
             background: var(--card);
             border-radius: 16px;
             padding: 15px;
@@ -193,10 +195,10 @@
         
         /* Content Slide */
         .content-slide h2 {
-            font-size: 1.6rem;
-            font-weight: 600;
+            font-size: 2.2rem;
+            font-weight: 700;
             color: var(--text);
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             padding-bottom: 15px;
             border-bottom: 2px solid var(--card);
             position: relative;
@@ -207,8 +209,8 @@
             position: absolute;
             bottom: -2px;
             left: 0;
-            width: 80px;
-            height: 2px;
+            width: 100px;
+            height: 3px;
             background: var(--gradient);
         }
         
@@ -223,7 +225,7 @@
             background: var(--card);
             border-radius: 12px;
             padding: 12px;
-            max-width: 280px;
+            max-width: 320px;
         }
         
         .slide-image img {
@@ -235,29 +237,30 @@
             list-style: none;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
         }
         
         .points li {
             display: flex;
             align-items: flex-start;
-            gap: 12px;
-            padding: 14px 18px;
+            gap: 15px;
+            padding: 18px 22px;
             background: var(--card);
-            border-radius: 10px;
-            font-size: 0.95rem;
-            line-height: 1.5;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.6;
             animation: slideIn 0.4s ease forwards;
             opacity: 0;
-            border-left: 3px solid var(--accent);
+            border-left: 4px solid var(--accent);
         }
         
         .points li .bullet {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             background: var(--accent);
             border-radius: 50%;
-            margin-top: 8px;
+            margin-top: 10px;
             flex-shrink: 0;
         }
         
@@ -269,6 +272,101 @@
         @keyframes slideIn {
             from { opacity: 0; transform: translateX(20px); }
             to { opacity: 1; transform: translateX(0); }
+        }
+        
+        /* Subtitles Container */
+        .subtitles-container {
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            z-index: 50;
+            pointer-events: none;
+        }
+        
+        .subtitle-text {
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 15px 30px;
+            border-radius: 10px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            max-width: 100%;
+        }
+        
+        .subtitle-text.hebrew {
+            direction: rtl;
+            font-family: 'Heebo', 'Arial Hebrew', sans-serif;
+        }
+        
+        .subtitles-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .subtitles-toggle:hover {
+            background: rgba(56, 189, 248, 0.3);
+        }
+        
+        .subtitles-toggle.active {
+            background: rgba(56, 189, 248, 0.5);
+            border-color: var(--accent);
+        }
+        
+        /* Language selector */
+        .lang-selector {
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 100;
+            display: none;
+        }
+        
+        .lang-selector.show {
+            display: block;
+        }
+        
+        .lang-option {
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: white;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .lang-option:last-child {
+            border-bottom: none;
+        }
+        
+        .lang-option:hover {
+            background: rgba(56, 189, 248, 0.3);
+        }
+        
+        .lang-option.selected {
+            background: rgba(56, 189, 248, 0.5);
         }
         
         /* Control Bar */
@@ -438,11 +536,33 @@
             .avatar-video-container {
                 max-width: 200px;
             }
+            
+            .subtitle-text {
+                font-size: 1.1rem;
+                padding: 10px 20px;
+            }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="presentation-container">
+        <!-- Subtitles Toggle Button -->
+        <button class="subtitles-toggle" id="subtitlesToggle" data-testid="subtitles-toggle">
+            <span>CC</span> כתוביות
+        </button>
+        
+        <!-- Language Selector -->
+        <div class="lang-selector" id="langSelector">
+            <div class="lang-option selected" data-lang="en">English</div>
+            <div class="lang-option" data-lang="he">עברית</div>
+        </div>
+        
+        <!-- Subtitles Display -->
+        <div class="subtitles-container" id="subtitlesContainer" style="display:none;">
+            <div class="subtitle-text" id="subtitleText"></div>
+        </div>
+        
         <!-- Avatar Panel - Left 50% -->
         <div class="avatar-panel">
             <div class="avatar-header">
@@ -770,7 +890,63 @@
                 video.currentTime = (prev / total) * video.duration;
             }
             if (e.code === 'KeyF') fsBtn.click();
+            if (e.code === 'KeyC') subtitlesToggle.click();
         };
+        
+        // ===== SUBTITLES SYSTEM =====
+        const subtitlesToggle = document.getElementById('subtitlesToggle');
+        const langSelector = document.getElementById('langSelector');
+        const subtitlesContainer = document.getElementById('subtitlesContainer');
+        const subtitleText = document.getElementById('subtitleText');
+        
+        let subtitlesEnabled = false;
+        let currentLang = 'en';
+        
+        // Subtitles data - synced with video timestamps
+        const subtitlesData = {
+            en: [{"start": 0, "end": 6.2, "text": "# Cell Structure & Function\n\n[INTRODUCTION]\nWelcome to this module on Cell Structure & Function."}, {"start": 6.2, "end": 9.2, "text": "In the next 12 minutes, we'll explore the key concepts that will form the foundation"}, {"start": 9.2, "end": 12.3, "text": "of your understanding in this area."}, {"start": 12.3, "end": 13.9, "text": "[PAUSE] ## Learning Objectives By the end of this session, you'll be able to: -"}, {"start": 13.9, "end": 15.4, "text": "Define and explain core terminology related to Cell Structure & Function - Identify key principles"}, {"start": 15.4, "end": 16.9, "text": "and their clinical applications - Apply this knowledge to practical scenarios [PAUSE] ## Section 1:"}, {"start": 16.9, "end": 18.5, "text": "Fundamentals Let's begin with the basic concepts."}, {"start": 18.5, "end": 24.6, "text": "Cell membrane is essential because it forms the foundation of our understanding."}, {"start": 24.6, "end": 30.8, "text": "[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice."}, {"start": 30.8, "end": 37.0, "text": "In clinical settings, you'll encounter these principles daily."}, {"start": 37.0, "end": 43.1, "text": "For example, when assessing patients, knowledge of Cell membrane helps you interpret findings accurately."}, {"start": 43.1, "end": 49.3, "text": "[PAUSE]\n\n## Section 2: Clinical Applications\n\nNow let's explore how these concepts apply in practice."}, {"start": 49.3, "end": 55.4, "text": "Consider a patient presenting with relevant symptoms - your understanding of Nucleus guides your diagnostic approach."}, {"start": 55.4, "end": 61.6, "text": "The key steps in clinical application include:\n1."}, {"start": 61.6, "end": 67.8, "text": "Assessment based on foundational knowledge\n2."}, {"start": 67.8, "end": 73.9, "text": "Integration of findings\n3."}, {"start": 73.9, "end": 80.1, "text": "Evidence-based decision making\n\n[EMPHASIS] Clinical reasoning depends on solid foundational understanding."}, {"start": 80.1, "end": 86.2, "text": "[PAUSE]\n\n## Section 3: Advanced Concepts\n\nBuilding on our foundation, let's examine Mitochondria."}, {"start": 86.2, "end": 92.4, "text": "These advanced concepts connect what we've learned to more complex clinical scenarios."}, {"start": 92.4, "end": 98.6, "text": "Healthcare professionals must integrate multiple concepts when managing patient care."}, {"start": 98.6, "end": 100.1, "text": "This requires: - Strong foundational knowledge - Critical thinking skills - Continuous learning mindset [PAUSE]"}, {"start": 100.1, "end": 101.6, "text": "## Summary Today we covered: - Core concepts of Cell Structure & Function - Clinical"}, {"start": 101.6, "end": 103.2, "text": "applications and relevance - Advanced topics for deeper understanding [EMPHASIS] Key takeaway: These fundamentals will"}, {"start": 103.2, "end": 104.7, "text": "serve you throughout your career."}, {"start": 104.7, "end": 110.9, "text": "In our next module, we'll build on these concepts as we explore more advanced topics."}, {"start": 110.9, "end": 117.0, "text": "Thank you for your attention."}, {"start": 117.0, "end": 123.2, "text": "Keep reviewing these materials and don't hesitate to ask questions!"}],
+            he: [{"start": 0, "end": 6.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] # Cell Structure & Function\n\n[INTRODUCTION]\nWelcom..."}, {"start": 6.2, "end": 9.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] In the next 12 minutes, we'll explore the key conc..."}, {"start": 9.2, "end": 12.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] of your understanding in this area."}, {"start": 12.3, "end": 13.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ## Learning Objectives By the end of this ..."}, {"start": 13.9, "end": 15.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Define and explain core terminology related to Cel..."}, {"start": 15.4, "end": 16.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] and their clinical applications - Apply this knowl..."}, {"start": 16.9, "end": 18.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Fundamentals Let's begin with the basic concepts."}, {"start": 18.5, "end": 24.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Cell membrane is essential because it forms the fo..."}, {"start": 24.6, "end": 30.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [EMPHASIS] Remember: Understanding these fundament..."}, {"start": 30.8, "end": 37.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] In clinical settings, you'll encounter these princ..."}, {"start": 37.0, "end": 43.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] For example, when assessing patients, knowledge of..."}, {"start": 43.1, "end": 49.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n## Section 2: Clinical Applications\n\nNow ..."}, {"start": 49.3, "end": 55.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Consider a patient presenting with relevant sympto..."}, {"start": 55.4, "end": 61.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] The key steps in clinical application include:\n1."}, {"start": 61.6, "end": 67.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Assessment based on foundational knowledge\n2."}, {"start": 67.8, "end": 73.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Integration of findings\n3."}, {"start": 73.9, "end": 80.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Evidence-based decision making\n\n[EMPHASIS] Clinica..."}, {"start": 80.1, "end": 86.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n## Section 3: Advanced Concepts\n\nBuilding..."}, {"start": 86.2, "end": 92.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] These advanced concepts connect what we've learned..."}, {"start": 92.4, "end": 98.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Healthcare professionals must integrate multiple c..."}, {"start": 98.6, "end": 100.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] This requires: - Strong foundational knowledge - C..."}, {"start": 100.1, "end": 101.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ## Summary Today we covered: - Core concepts of Ce..."}, {"start": 101.6, "end": 103.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] applications and relevance - Advanced topics for d..."}, {"start": 103.2, "end": 104.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] serve you throughout your career."}, {"start": 104.7, "end": 110.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] In our next module, we'll build on these concepts ..."}, {"start": 110.9, "end": 117.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Thank you for your attention."}, {"start": 117.0, "end": 123.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Keep reviewing these materials and don't hesitate ..."}]
+        };
+        
+        // Toggle subtitles
+        subtitlesToggle.onclick = () => {
+            subtitlesEnabled = !subtitlesEnabled;
+            subtitlesToggle.classList.toggle('active', subtitlesEnabled);
+            subtitlesContainer.style.display = subtitlesEnabled ? 'block' : 'none';
+            langSelector.classList.toggle('show', subtitlesEnabled);
+        };
+        
+        // Language selection
+        document.querySelectorAll('.lang-option').forEach(opt => {
+            opt.onclick = () => {
+                document.querySelectorAll('.lang-option').forEach(o => o.classList.remove('selected'));
+                opt.classList.add('selected');
+                currentLang = opt.dataset.lang;
+                subtitleText.classList.toggle('hebrew', currentLang === 'he');
+                updateSubtitle();
+            };
+        });
+        
+        // Update subtitle based on video time
+        function updateSubtitle() {
+            if (!subtitlesEnabled) return;
+            
+            const currentTime = video.currentTime;
+            const subs = subtitlesData[currentLang];
+            let currentSub = '';
+            
+            for (let i = 0; i < subs.length; i++) {
+                if (currentTime >= subs[i].start && currentTime < subs[i].end) {
+                    currentSub = subs[i].text;
+                    break;
+                }
+            }
+            
+            subtitleText.textContent = currentSub;
+        }
+        
+        // Add subtitle update to timeupdate
+        video.addEventListener('timeupdate', updateSubtitle);
         
         // Initialize
         showSlide(0);

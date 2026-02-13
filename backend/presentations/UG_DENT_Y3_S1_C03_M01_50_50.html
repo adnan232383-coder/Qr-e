@@ -163,23 +163,25 @@
         }
         
         .title-slide h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
+            font-size: 3.5rem;
+            font-weight: 800;
             background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 30px rgba(56, 189, 248, 0.3);
         }
         
         .course-name {
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             color: var(--text-muted);
             margin-bottom: 40px;
+            font-weight: 600;
         }
         
         .title-image {
-            max-width: 350px;
+            max-width: 400px;
             background: var(--card);
             border-radius: 16px;
             padding: 15px;
@@ -193,10 +195,10 @@
         
         /* Content Slide */
         .content-slide h2 {
-            font-size: 1.6rem;
-            font-weight: 600;
+            font-size: 2.2rem;
+            font-weight: 700;
             color: var(--text);
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             padding-bottom: 15px;
             border-bottom: 2px solid var(--card);
             position: relative;
@@ -207,8 +209,8 @@
             position: absolute;
             bottom: -2px;
             left: 0;
-            width: 80px;
-            height: 2px;
+            width: 100px;
+            height: 3px;
             background: var(--gradient);
         }
         
@@ -223,7 +225,7 @@
             background: var(--card);
             border-radius: 12px;
             padding: 12px;
-            max-width: 280px;
+            max-width: 320px;
         }
         
         .slide-image img {
@@ -235,29 +237,30 @@
             list-style: none;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
         }
         
         .points li {
             display: flex;
             align-items: flex-start;
-            gap: 12px;
-            padding: 14px 18px;
+            gap: 15px;
+            padding: 18px 22px;
             background: var(--card);
-            border-radius: 10px;
-            font-size: 0.95rem;
-            line-height: 1.5;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.6;
             animation: slideIn 0.4s ease forwards;
             opacity: 0;
-            border-left: 3px solid var(--accent);
+            border-left: 4px solid var(--accent);
         }
         
         .points li .bullet {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             background: var(--accent);
             border-radius: 50%;
-            margin-top: 8px;
+            margin-top: 10px;
             flex-shrink: 0;
         }
         
@@ -269,6 +272,101 @@
         @keyframes slideIn {
             from { opacity: 0; transform: translateX(20px); }
             to { opacity: 1; transform: translateX(0); }
+        }
+        
+        /* Subtitles Container */
+        .subtitles-container {
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            z-index: 50;
+            pointer-events: none;
+        }
+        
+        .subtitle-text {
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 15px 30px;
+            border-radius: 10px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            max-width: 100%;
+        }
+        
+        .subtitle-text.hebrew {
+            direction: rtl;
+            font-family: 'Heebo', 'Arial Hebrew', sans-serif;
+        }
+        
+        .subtitles-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .subtitles-toggle:hover {
+            background: rgba(56, 189, 248, 0.3);
+        }
+        
+        .subtitles-toggle.active {
+            background: rgba(56, 189, 248, 0.5);
+            border-color: var(--accent);
+        }
+        
+        /* Language selector */
+        .lang-selector {
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 100;
+            display: none;
+        }
+        
+        .lang-selector.show {
+            display: block;
+        }
+        
+        .lang-option {
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: white;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .lang-option:last-child {
+            border-bottom: none;
+        }
+        
+        .lang-option:hover {
+            background: rgba(56, 189, 248, 0.3);
+        }
+        
+        .lang-option.selected {
+            background: rgba(56, 189, 248, 0.5);
         }
         
         /* Control Bar */
@@ -438,11 +536,33 @@
             .avatar-video-container {
                 max-width: 200px;
             }
+            
+            .subtitle-text {
+                font-size: 1.1rem;
+                padding: 10px 20px;
+            }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="presentation-container">
+        <!-- Subtitles Toggle Button -->
+        <button class="subtitles-toggle" id="subtitlesToggle" data-testid="subtitles-toggle">
+            <span>CC</span> כתוביות
+        </button>
+        
+        <!-- Language Selector -->
+        <div class="lang-selector" id="langSelector">
+            <div class="lang-option selected" data-lang="en">English</div>
+            <div class="lang-option" data-lang="he">עברית</div>
+        </div>
+        
+        <!-- Subtitles Display -->
+        <div class="subtitles-container" id="subtitlesContainer" style="display:none;">
+            <div class="subtitle-text" id="subtitleText"></div>
+        </div>
+        
         <!-- Avatar Panel - Left 50% -->
         <div class="avatar-panel">
             <div class="avatar-header">
@@ -1170,7 +1290,63 @@
                 video.currentTime = (prev / total) * video.duration;
             }
             if (e.code === 'KeyF') fsBtn.click();
+            if (e.code === 'KeyC') subtitlesToggle.click();
         };
+        
+        // ===== SUBTITLES SYSTEM =====
+        const subtitlesToggle = document.getElementById('subtitlesToggle');
+        const langSelector = document.getElementById('langSelector');
+        const subtitlesContainer = document.getElementById('subtitlesContainer');
+        const subtitleText = document.getElementById('subtitleText');
+        
+        let subtitlesEnabled = false;
+        let currentLang = 'en';
+        
+        // Subtitles data - synced with video timestamps
+        const subtitlesData = {
+            en: [{"start": 0, "end": 3.4, "text": "## Endodontics I \u2014 Module: Introduction & Fundamentals ### Video Lecture Script (Target ~12 minutes"}, {"start": 3.4, "end": 6.8, "text": "/ ~1800 words) --- ## 1) Introduction & Learning Objectives Welcome to Endodontics I."}, {"start": 6.8, "end": 13.6, "text": "In this module\u2014Introduction and Fundamentals\u2014we\u2019ll build the foundation for everything you\u2019ll do in endodontic diagnosis, treatment planning, and clinical technique."}, {"start": 13.6, "end": 20.4, "text": "Endodontics is often described as \u201croot canal therapy,\u201d but that\u2019s only one part of the picture."}, {"start": 20.4, "end": 27.1, "text": "At its core, endodontics is about diagnosing and treating diseases of the dental pulp and the tissues surrounding the root."}, {"start": 27.1, "end": 33.9, "text": "It\u2019s a blend of biology, anatomy, microbiology, pain science, and precise clinical skills."}, {"start": 33.9, "end": 40.7, "text": "[PAUSE]\n\n### Learning Objectives  \nBy the end of this lecture, you should be able to:\n\n1."}, {"start": 40.7, "end": 47.5, "text": "Define and correctly use essential [EMPHASIS] endodontic terminology."}, {"start": 47.5, "end": 54.3, "text": "Explain the basic biological and mechanical principles behind endodontic treatment."}, {"start": 54.3, "end": 61.1, "text": "Describe the overall workflow of endodontic care\u2014from diagnosis to obturation and follow-up."}, {"start": 61.1, "end": 67.9, "text": "Apply foundational concepts to simple clinical scenarios, including common diagnostic patterns."}, {"start": 67.9, "end": 70.1, "text": "[PAUSE] --- ## 2) Why Endodontics Matters: The Big Picture Let\u2019s start with the \u201cwhy.\u201d"}, {"start": 70.1, "end": 72.4, "text": "Teeth are meant to last a lifetime, and endodontic therapy is a major tool for"}, {"start": 72.4, "end": 74.6, "text": "preserving natural dentition."}, {"start": 74.6, "end": 81.4, "text": "When the pulp becomes inflamed or infected, the pain can be intense, and the disease can spread beyond the tooth."}, {"start": 81.4, "end": 88.2, "text": "Successful endodontics relieves pain, eradicates infection, and preserves function\u2014often with outcomes comparable to other long-term restorative solutions when done well."}, {"start": 88.2, "end": 95.0, "text": "A helpful mindset is this: endodontics is not a single procedure."}, {"start": 95.0, "end": 101.8, "text": "It is a **sequence** of biological and mechanical steps designed to reduce microbes, prevent reinfection, and allow periapical healing."}, {"start": 101.8, "end": 108.6, "text": "[PAUSE]\n\n### Quick Summary: Big Picture  \n- Endodontics aims to **retain the natural tooth**."}, {"start": 108.6, "end": 115.4, "text": "- Most endodontic disease is **microbial** in origin."}, {"start": 115.4, "end": 122.2, "text": "- Success depends on **diagnosis**, **cleaning/shaping**, **disinfection**, and **sealing**."}, {"start": 122.2, "end": 125.5, "text": "[PAUSE] --- ## 3) Key Terms: Speaking the Language of Endodontics Before we go further,"}, {"start": 125.5, "end": 128.9, "text": "let\u2019s clarify key terms you\u2019ll hear throughout this course."}, {"start": 128.9, "end": 132.3, "text": "### Core Anatomy & Tissues - [EMPHASIS] **Pulp**: soft connective tissue inside the tooth containing"}, {"start": 132.3, "end": 135.7, "text": "nerves, blood vessels, immune cells, and odontoblasts."}, {"start": 135.7, "end": 142.5, "text": "- [EMPHASIS] **Apical foramen**: the main portal where nerves and vessels enter the tooth at the root tip."}, {"start": 142.5, "end": 145.9, "text": "- [EMPHASIS] **Apical constriction**: the narrowest part of the canal system near the apex\u2014often considered"}, {"start": 145.9, "end": 149.3, "text": "a key landmark for working length."}, {"start": 149.3, "end": 156.1, "text": "- [EMPHASIS] **Periodontal ligament (PDL)**: connective tissue between root and bone\u2014important in diagnosing periapical conditions."}, {"start": 156.1, "end": 162.9, "text": "- [EMPHASIS] **Periapical tissues**: tissues around the apex, including PDL and alveolar bone."}, {"start": 162.9, "end": 166.3, "text": "### Disease & Diagnosis Terms - [EMPHASIS] **Reversible pulpitis**: inflammation where the pulp can recover\u2014classically"}, {"start": 166.3, "end": 169.7, "text": "sharp pain to cold that resolves quickly."}, {"start": 169.7, "end": 176.4, "text": "- [EMPHASIS] **Irreversible pulpitis**: inflammation beyond recovery\u2014often lingering pain, spontaneous pain, or pain that\u2019s difficult to localize early on."}, {"start": 176.4, "end": 183.2, "text": "- [EMPHASIS] **Pulp necrosis**: non-vital pulp\u2014often no response to sensibility tests, may be asymptomatic until apical disease develops."}, {"start": 183.2, "end": 190.0, "text": "- [EMPHASIS] **Apical periodontitis**: inflammation at the apex, usually due to infected/necrotic pulp\u2014may be symptomatic or asymptomatic."}, {"start": 190.0, "end": 196.8, "text": "- [EMPHASIS] **Acute apical abscess**: rapid onset, pain, swelling, possible systemic involvement."}, {"start": 196.8, "end": 203.6, "text": "### Treatment Terms  \n- [EMPHASIS] **Working length**: the measured distance for cleaning and shaping\u2014critical for effective disinfection and preventing over-instrumentation."}, {"start": 203.6, "end": 210.4, "text": "- [EMPHASIS] **Chemomechanical debridement**: combined action of instruments and irrigants to remove tissue, microbes, and debris."}, {"start": 210.4, "end": 217.2, "text": "- [EMPHASIS] **Obturation**: filling and sealing the cleaned canal system, typically with gutta-percha and a sealer."}, {"start": 217.2, "end": 223.9, "text": "- [EMPHASIS] **Coronal seal**: the quality of the restoration sealing the tooth from the top\u2014vital for preventing reinfection."}, {"start": 223.9, "end": 230.7, "text": "[PAUSE]\n\n### Key Point  \nIn endodontics, terminology isn\u2019t just vocabulary\u2014it guides your clinical decisions."}, {"start": 230.7, "end": 237.5, "text": "Mislabel the diagnosis, and you risk the wrong treatment."}, {"start": 237.5, "end": 239.8, "text": "[PAUSE] --- ## 4) Basic Principles: The \u201cWhy\u201d Behind the Steps ### Principle 1: Endodontic"}, {"start": 239.8, "end": 242.0, "text": "Disease Is Mostly Microbial The primary cause of apical periodontitis is microbial infection within the"}, {"start": 242.0, "end": 244.3, "text": "root canal system."}, {"start": 244.3, "end": 251.1, "text": "That means treatment must focus on **reducing microbial load** to a level compatible with healing."}, {"start": 251.1, "end": 257.9, "text": "You are not just \u201cremoving the nerve.\u201d You are managing an infection in a complex anatomical space."}, {"start": 257.9, "end": 264.7, "text": "[PAUSE]\n\n### Principle 2: Root Canal Anatomy Is Complex  \nCanals are rarely simple tubes."}, {"start": 264.7, "end": 271.4, "text": "They may include fins, isthmuses, lateral canals, accessory canals, apical deltas, and curvatures."}, {"start": 271.4, "end": 278.2, "text": "Instruments contact only part of the canal walls, which is why irrigation and disinfection are not optional\u2014they are essential."}, {"start": 278.2, "end": 285.0, "text": "[EMPHASIS] **Irrigation** is the endodontic \u201cequalizer,\u201d reaching spaces instruments cannot."}, {"start": 285.0, "end": 291.8, "text": "[PAUSE]\n\n### Principle 3: Respect the Apical Tissues  \nOver-instrumentation can push debris and microbes beyond the apex and cause flare-ups."}, {"start": 291.8, "end": 298.6, "text": "Under-instrumentation can leave infected tissue behind."}, {"start": 298.6, "end": 305.4, "text": "Proper working length, glide path, and controlled shaping are key to balancing cleaning with tissue respect."}, {"start": 305.4, "end": 308.8, "text": "[PAUSE] ### Principle 4: A Seal Is as Important as Cleaning Even with excellent cleaning,"}, {"start": 308.8, "end": 312.2, "text": "poor obturation or poor coronal seal can allow reinfection."}, {"start": 312.2, "end": 314.4, "text": "Endodontic success depends on sealing both ends of the system: - Apical seal through obturation"}, {"start": 314.4, "end": 316.7, "text": "- Coronal seal through definitive restoration [PAUSE] ### Mini-Summary: Basic Principles - Microbes drive disease"}, {"start": 316.7, "end": 319.0, "text": "\u2192 treatment targets microbes."}, {"start": 319.0, "end": 325.7, "text": "- Anatomy is complex \u2192 you need irrigation + shaping strategies."}, {"start": 325.7, "end": 332.5, "text": "- Control the apex \u2192 prevent extrusion and flare-ups."}, {"start": 332.5, "end": 339.3, "text": "- Seal matters \u2192 obturation plus coronal restoration."}, {"start": 339.3, "end": 342.7, "text": "[PAUSE] --- ## 5) Overview of Endodontic Workflow (From Start to Finish) Let\u2019s zoom out"}, {"start": 342.7, "end": 346.1, "text": "and walk through a typical endodontic workflow."}, {"start": 346.1, "end": 352.9, "text": "Think of it as a chain: if one link is weak, the outcome suffers."}, {"start": 352.9, "end": 354.6, "text": "### Step 1: Diagnosis & Case Selection Diagnosis combines: - Chief complaint and history of"}, {"start": 354.6, "end": 356.3, "text": "present illness - Clinical exam: percussion, palpation, periodontal probing, mobility - Pulp sensibility tests: cold,"}, {"start": 356.3, "end": 358.0, "text": "heat, EPT (remember: these test *nerve response*, not true vitality) - Radiographs, and when indicated,"}, {"start": 358.0, "end": 359.7, "text": "CBCT Your goal is two-part: establish a **pulpal diagnosis** and a **periapical diagnosis**."}, {"start": 359.7, "end": 361.4, "text": "[PAUSE] ### Step 2: Treatment Planning & Informed Consent You choose between options such as:"}, {"start": 361.4, "end": 363.1, "text": "- Vital pulp therapy (in selected cases) - Non-surgical root canal treatment - Retreatment -"}, {"start": 363.1, "end": 364.8, "text": "Surgery - Extraction with replacement options Informed consent should address risks like instrument separation, perforation,"}, {"start": 364.8, "end": 366.5, "text": "persistent infection, post-op pain, and the possibility of further treatment."}, {"start": 366.5, "end": 373.2, "text": "[PAUSE]\n\n### Step 3: Anesthesia & Isolation  \nProfound anesthesia is non-negotiable, especially for irreversible pulpitis."}, {"start": 373.2, "end": 380.0, "text": "[EMPHASIS] **Rubber dam isolation** is the standard of care\u2014protecting the patient, ensuring asepsis, and preventing salivary contamination."}, {"start": 380.0, "end": 381.7, "text": "[PAUSE] ### Step 4: Access Cavity Preparation Access is about creating a pathway that is:"}, {"start": 381.7, "end": 383.4, "text": "- Straight-line when possible - Conservative but adequate - Designed to locate all canals Common"}, {"start": 383.4, "end": 385.1, "text": "endodontic failures start with missed anatomy\u2014often because access was too small, misdirected, or restorative obstacles"}, {"start": 385.1, "end": 386.8, "text": "weren\u2019t properly managed."}, {"start": 386.8, "end": 389.1, "text": "[PAUSE] ### Step 5: Working Length Determination Working length is determined using: - Electronic apex"}, {"start": 389.1, "end": 391.3, "text": "locator - Radiographic verification - Anatomical understanding The target is cleaning and shaping to an"}, {"start": 391.3, "end": 393.6, "text": "apical limit that supports healing while minimizing extrusion."}, {"start": 393.6, "end": 397.0, "text": "[PAUSE] ### Step 6: Cleaning and Shaping This is the heart of endodontics: shaping a"}, {"start": 397.0, "end": 400.4, "text": "canal to facilitate irrigation, remove infected contents, and create a form suitable for obturation."}, {"start": 400.4, "end": 402.6, "text": "Key concepts include: - Glide path - Apical size and taper decisions - Maintaining canal"}, {"start": 402.6, "end": 404.9, "text": "curvature and original anatomy - Avoiding procedural errors like ledging, transportation, zipping [PAUSE] ### Step"}, {"start": 404.9, "end": 407.2, "text": "7: Irrigation & Intracanal Disinfection Irrigants\u2014especially sodium hypochlorite\u2014help dissolve organic tissue and kill microbes."}, {"start": 407.2, "end": 414.0, "text": "EDTA helps remove smear layer."}, {"start": 414.0, "end": 420.7, "text": "Activation techniques can improve effectiveness."}, {"start": 420.7, "end": 427.5, "text": "In some cases, an intracanal medicament like calcium hydroxide may be used between visits."}, {"start": 427.5, "end": 429.8, "text": "[PAUSE] ### Step 8: Obturation and Coronal Seal Obturation aims to seal the canal system"}, {"start": 429.8, "end": 432.1, "text": "as completely as possible, commonly using gutta-percha with sealer via techniques like warm vertical compaction"}, {"start": 432.1, "end": 434.3, "text": "or carrier-based systems."}, {"start": 434.3, "end": 441.1, "text": "Finally, the tooth needs a timely and well-sealed restoration."}, {"start": 441.1, "end": 447.9, "text": "A well-done root canal can fail if the coronal seal fails."}, {"start": 447.9, "end": 454.7, "text": "[PAUSE]\n\n### Step 9: Follow-Up and Healing  \nClinical success includes symptom resolution and function."}, {"start": 454.7, "end": 461.5, "text": "Radiographic healing may take months."}, {"start": 461.5, "end": 468.2, "text": "Follow-up is part of quality endodontic care."}, {"start": 468.2, "end": 470.5, "text": "[PAUSE] --- ## 6) Clinical Examples & Case Scenarios ### Case 1: \u201cCold Sensitivity That"}, {"start": 470.5, "end": 472.8, "text": "Lingers\u201d A 28-year-old patient reports severe lingering pain to cold on the lower right side,"}, {"start": 472.8, "end": 475.0, "text": "especially at night."}, {"start": 475.0, "end": 481.8, "text": "The pain lasts 30 to 60 seconds after cold is removed."}, {"start": 481.8, "end": 488.6, "text": "The tooth has a deep occlusal restoration."}, {"start": 488.6, "end": 495.4, "text": "Percussion is mildly positive."}, {"start": 495.4, "end": 502.2, "text": "Radiograph shows a deep restoration approaching the pulp, no clear periapical radiolucency."}, {"start": 502.2, "end": 509.0, "text": "Interpretation: This pattern strongly suggests [EMPHASIS] irreversible pulpitis, potentially progressing."}, {"start": 509.0, "end": 515.8, "text": "The mild percussion sensitivity may indicate early apical inflammation."}, {"start": 515.8, "end": 518.0, "text": "Clinical implications: - Expect anesthesia challenges - Endodontic treatment is often indicated - A key"}, {"start": 518.0, "end": 520.3, "text": "early goal is pain control and bacterial reduction through proper access, irrigation, and shaping [PAUSE]"}, {"start": 520.3, "end": 522.5, "text": "**Key Point:** Lingering thermal pain is a major clue."}, {"start": 522.5, "end": 529.3, "text": "Always pair symptoms with tests and radiographs\u2014don\u2019t diagnose from one data point."}, {"start": 529.3, "end": 532.7, "text": "[PAUSE] ### Case 2: \u201cNo Response to Cold, But Pain on Biting\u201d A 45-year-old patient"}, {"start": 532.7, "end": 536.1, "text": "reports discomfort when chewing on an upper molar."}, {"start": 536.1, "end": 542.9, "text": "Cold test: no response."}, {"start": 542.9, "end": 549.7, "text": "Percussion: positive."}, {"start": 549.7, "end": 556.5, "text": "Palpation: mild tenderness."}, {"start": 556.5, "end": 563.3, "text": "Radiograph shows slight widening of the PDL at the apex; a large existing restoration is present."}, {"start": 563.3, "end": 570.0, "text": "Interpretation: Likely [EMPHASIS] pulp necrosis with [EMPHASIS] symptomatic apical periodontitis."}, {"start": 570.0, "end": 571.7, "text": "Clinical implications: - The main target is microbial infection within the canal system - Working"}, {"start": 571.7, "end": 573.4, "text": "length control and irrigation are essential - Post-op discomfort is common; explain expectations and manage"}, {"start": 573.4, "end": 575.1, "text": "occlusion if indicated [PAUSE] **Key Point:** A non-responsive cold test plus percussion tenderness often points"}, {"start": 575.1, "end": 576.8, "text": "to necrosis with apical involvement."}, {"start": 576.8, "end": 580.2, "text": "[PAUSE] ### Case 3: \u201cSwelling and a \u2018Pimple\u2019 on the Gum\u201d A 36-year-old patient notices"}, {"start": 580.2, "end": 583.6, "text": "a recurring bump on the gum near a maxillary lateral incisor."}, {"start": 583.6, "end": 590.4, "text": "Minimal pain."}, {"start": 590.4, "end": 597.2, "text": "Cold test is negative."}, {"start": 597.2, "end": 604.0, "text": "A sinus tract is visible."}, {"start": 604.0, "end": 610.8, "text": "Radiograph shows a periapical radiolucency."}, {"start": 610.8, "end": 617.5, "text": "Interpretation: A chronic apical abscess with sinus tract drainage\u2014typically from long-standing necrosis."}, {"start": 617.5, "end": 619.2, "text": "Clinical implications: - Trace the sinus tract with a gutta-percha point to confirm the source"}, {"start": 619.2, "end": 620.9, "text": "- Root canal therapy is often the primary treatment; drainage may already be occurring -"}, {"start": 620.9, "end": 622.6, "text": "Antibiotics are generally not indicated unless systemic involvement is present [PAUSE] **Key Point:** A sinus"}, {"start": 622.6, "end": 624.3, "text": "tract often means the body has created drainage."}, {"start": 624.3, "end": 631.1, "text": "Your job is to eliminate the intraradicular source."}, {"start": 631.1, "end": 637.9, "text": "[PAUSE]\n\n---\n\n## 7) Common Misconceptions to Correct Early\n\n1."}, {"start": 637.9, "end": 644.7, "text": "\u201cRoot canal treatment removes all bacteria.\u201d  \nReality: We reduce bacterial levels dramatically, then **seal** to prevent regrowth and reinfection."}, {"start": 644.7, "end": 651.5, "text": "\u201cIf the radiograph looks normal, the pulp must be fine.\u201d  \nReality: Pulpal disease can exist without radiographic changes, especially early."}, {"start": 651.5, "end": 658.3, "text": "\u201cPain location always identifies the tooth.\u201d  \nReality: Referred pain and poor localization are common, especially with pulpal inflammation."}, {"start": 658.3, "end": 665.0, "text": "\u201cThe root canal is a single straight tube.\u201d  \nReality: Anatomical complexity is the rule, not the exception."}, {"start": 665.0, "end": 671.8, "text": "[PAUSE]\n\n### Quick Summary: Misconceptions  \n- Endodontics is **microbial management + sealing**, not \u201csterilization.\u201d  \n- Diagnosis is **multi-factor**, not radiograph-only."}, {"start": 671.8, "end": 678.6, "text": "- Anatomy is **complex**, so technique must be systematic."}, {"start": 678.6, "end": 682.0, "text": "[PAUSE] --- ## 8) Periodic Wrap-Up: The Core Framework If you remember one framework from"}, {"start": 682.0, "end": 685.4, "text": "this introductory module, make it this: 1."}, {"start": 685.4, "end": 692.2, "text": "**Diagnose accurately** (pulpal + apical)."}, {"start": 692.2, "end": 699.0, "text": "**Create access** that allows canal location and straight-line entry."}, {"start": 699.0, "end": 705.8, "text": "**Determine working length** and maintain apical control."}, {"start": 705.8, "end": 712.6, "text": "**Clean, shape, irrigate** to reduce microbes and remove tissue/debris."}, {"start": 712.6, "end": 719.3, "text": "**Obturate and restore** to prevent reinfection."}, {"start": 719.3, "end": 726.1, "text": "**Follow up** and evaluate healing."}, {"start": 726.1, "end": 732.9, "text": "[PAUSE]\n\n---\n\n## 9) Conclusion & Key Takeaways\n\nEndodontics begins with fundamentals: language, biology, anatomy, and a systematic approach."}, {"start": 732.9, "end": 736.3, "text": "As you move through this course, you\u2019ll add technique\u2014instrumentation systems, irrigation strategies, obturation methods\u2014but those"}, {"start": 736.3, "end": 739.7, "text": "skills only work when built on sound principles."}, {"start": 739.7, "end": 746.5, "text": "[PAUSE]\n\n### Key Takeaways  \n- [EMPHASIS] Endodontics treats pulpal and periapical disease, primarily driven by microbes."}, {"start": 746.5, "end": 753.3, "text": "- [EMPHASIS] Accurate diagnosis requires symptoms, tests, and imaging\u2014never just one item."}, {"start": 753.3, "end": 760.1, "text": "- [EMPHASIS] Anatomy is complex; irrigation and disinfection are essential partners to instrumentation."}, {"start": 760.1, "end": 766.8, "text": "- [EMPHASIS] Working length control and apical respect reduce complications and improve outcomes."}, {"start": 766.8, "end": 773.6, "text": "- [EMPHASIS] Long-term success depends on both obturation **and** the coronal seal."}, {"start": 773.6, "end": 775.9, "text": "[PAUSE] In the next module, we\u2019ll deepen diagnostic reasoning and begin connecting testing outcomes to"}, {"start": 775.9, "end": 778.2, "text": "specific pulpal and apical diagnoses\u2014so you can confidently decide when endodontic treatment is indicated and"}, {"start": 778.2, "end": 780.4, "text": "what your clinical priorities should be."}, {"start": 780.4, "end": 787.2, "text": "[PAUSE]\n\n---"}],
+            he: [{"start": 0, "end": 3.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ## Endodontics I \u2014 Module: Introduction & Fundamen..."}, {"start": 3.4, "end": 6.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] / ~1800 words) --- ## 1) Introduction & Learning O..."}, {"start": 6.8, "end": 13.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] In this module\u2014Introduction and Fundamentals\u2014we\u2019ll..."}, {"start": 13.6, "end": 20.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Endodontics is often described as \u201croot canal ther..."}, {"start": 20.4, "end": 27.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] At its core, endodontics is about diagnosing and t..."}, {"start": 27.1, "end": 33.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] It\u2019s a blend of biology, anatomy, microbiology, pa..."}, {"start": 33.9, "end": 40.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Learning Objectives  \nBy the end of t..."}, {"start": 40.7, "end": 47.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Define and correctly use essential [EMPHASIS] endo..."}, {"start": 47.5, "end": 54.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Explain the basic biological and mechanical princi..."}, {"start": 54.3, "end": 61.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Describe the overall workflow of endodontic care\u2014f..."}, {"start": 61.1, "end": 67.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Apply foundational concepts to simple clinical sce..."}, {"start": 67.9, "end": 70.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 2) Why Endodontics Matters: The Big..."}, {"start": 70.1, "end": 72.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Teeth are meant to last a lifetime, and endodontic..."}, {"start": 72.4, "end": 74.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] preserving natural dentition."}, {"start": 74.6, "end": 81.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] When the pulp becomes inflamed or infected, the pa..."}, {"start": 81.4, "end": 88.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Successful endodontics relieves pain, eradicates i..."}, {"start": 88.2, "end": 95.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] A helpful mindset is this: endodontics is not a si..."}, {"start": 95.0, "end": 101.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] It is a **sequence** of biological and mechanical ..."}, {"start": 101.8, "end": 108.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Quick Summary: Big Picture  \n- Endodo..."}, {"start": 108.6, "end": 115.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Most endodontic disease is **microbial** in orig..."}, {"start": 115.4, "end": 122.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Success depends on **diagnosis**, **cleaning/sha..."}, {"start": 122.2, "end": 125.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 3) Key Terms: Speaking the Language..."}, {"start": 125.5, "end": 128.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] let\u2019s clarify key terms you\u2019ll hear throughout thi..."}, {"start": 128.9, "end": 132.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ### Core Anatomy & Tissues - [EMPHASIS] **Pulp**: ..."}, {"start": 132.3, "end": 135.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] nerves, blood vessels, immune cells, and odontobla..."}, {"start": 135.7, "end": 142.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Apical foramen**: the main portal w..."}, {"start": 142.5, "end": 145.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Apical constriction**: the narrowes..."}, {"start": 145.9, "end": 149.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] a key landmark for working length."}, {"start": 149.3, "end": 156.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Periodontal ligament (PDL)**: conne..."}, {"start": 156.1, "end": 162.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Periapical tissues**: tissues aroun..."}, {"start": 162.9, "end": 166.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ### Disease & Diagnosis Terms - [EMPHASIS] **Rever..."}, {"start": 166.3, "end": 169.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] sharp pain to cold that resolves quickly."}, {"start": 169.7, "end": 176.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Irreversible pulpitis**: inflammati..."}, {"start": 176.4, "end": 183.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Pulp necrosis**: non-vital pulp\u2014oft..."}, {"start": 183.2, "end": 190.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Apical periodontitis**: inflammatio..."}, {"start": 190.0, "end": 196.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Acute apical abscess**: rapid onset..."}, {"start": 196.8, "end": 203.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ### Treatment Terms  \n- [EMPHASIS] **Working lengt..."}, {"start": 203.6, "end": 210.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Chemomechanical debridement**: comb..."}, {"start": 210.4, "end": 217.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Obturation**: filling and sealing t..."}, {"start": 217.2, "end": 223.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] **Coronal seal**: the quality of the ..."}, {"start": 223.9, "end": 230.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Key Point  \nIn endodontics, terminolo..."}, {"start": 230.7, "end": 237.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Mislabel the diagnosis, and you risk the wrong tre..."}, {"start": 237.5, "end": 239.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 4) Basic Principles: The \u201cWhy\u201d Behi..."}, {"start": 239.8, "end": 242.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Disease Is Mostly Microbial The primary cause of a..."}, {"start": 242.0, "end": 244.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] root canal system."}, {"start": 244.3, "end": 251.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] That means treatment must focus on **reducing micr..."}, {"start": 251.1, "end": 257.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] You are not just \u201cremoving the nerve.\u201d You are man..."}, {"start": 257.9, "end": 264.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Principle 2: Root Canal Anatomy Is Co..."}, {"start": 264.7, "end": 271.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] They may include fins, isthmuses, lateral canals, ..."}, {"start": 271.4, "end": 278.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Instruments contact only part of the canal walls, ..."}, {"start": 278.2, "end": 285.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [EMPHASIS] **Irrigation** is the endodontic \u201cequal..."}, {"start": 285.0, "end": 291.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Principle 3: Respect the Apical Tissu..."}, {"start": 291.8, "end": 298.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Under-instrumentation can leave infected tissue be..."}, {"start": 298.6, "end": 305.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Proper working length, glide path, and controlled ..."}, {"start": 305.4, "end": 308.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Principle 4: A Seal Is as Important as..."}, {"start": 308.8, "end": 312.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] poor obturation or poor coronal seal can allow rei..."}, {"start": 312.2, "end": 314.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Endodontic success depends on sealing both ends of..."}, {"start": 314.4, "end": 316.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Coronal seal through definitive restoration [PAU..."}, {"start": 316.7, "end": 319.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] \u2192 treatment targets microbes."}, {"start": 319.0, "end": 325.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Anatomy is complex \u2192 you need irrigation + shapi..."}, {"start": 325.7, "end": 332.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Control the apex \u2192 prevent extrusion and flare-u..."}, {"start": 332.5, "end": 339.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Seal matters \u2192 obturation plus coronal restorati..."}, {"start": 339.3, "end": 342.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 5) Overview of Endodontic Workflow ..."}, {"start": 342.7, "end": 346.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] and walk through a typical endodontic workflow."}, {"start": 346.1, "end": 352.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Think of it as a chain: if one link is weak, the o..."}, {"start": 352.9, "end": 354.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] ### Step 1: Diagnosis & Case Selection Diagnosis c..."}, {"start": 354.6, "end": 356.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] present illness - Clinical exam: percussion, palpa..."}, {"start": 356.3, "end": 358.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] heat, EPT (remember: these test *nerve response*, ..."}, {"start": 358.0, "end": 359.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] CBCT Your goal is two-part: establish a **pulpal d..."}, {"start": 359.7, "end": 361.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Step 2: Treatment Planning & Informed ..."}, {"start": 361.4, "end": 363.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Vital pulp therapy (in selected cases) - Non-sur..."}, {"start": 363.1, "end": 364.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Surgery - Extraction with replacement options Info..."}, {"start": 364.8, "end": 366.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] persistent infection, post-op pain, and the possib..."}, {"start": 366.5, "end": 373.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Step 3: Anesthesia & Isolation  \nProf..."}, {"start": 373.2, "end": 380.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [EMPHASIS] **Rubber dam isolation** is the standar..."}, {"start": 380.0, "end": 381.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Step 4: Access Cavity Preparation Acce..."}, {"start": 381.7, "end": 383.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Straight-line when possible - Conservative but a..."}, {"start": 383.4, "end": 385.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] endodontic failures start with missed anatomy\u2014ofte..."}, {"start": 385.1, "end": 386.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] weren\u2019t properly managed."}, {"start": 386.8, "end": 389.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Step 5: Working Length Determination W..."}, {"start": 389.1, "end": 391.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] locator - Radiographic verification - Anatomical u..."}, {"start": 391.3, "end": 393.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] apical limit that supports healing while minimizin..."}, {"start": 393.6, "end": 397.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Step 6: Cleaning and Shaping This is t..."}, {"start": 397.0, "end": 400.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] canal to facilitate irrigation, remove infected co..."}, {"start": 400.4, "end": 402.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Key concepts include: - Glide path - Apical size a..."}, {"start": 402.6, "end": 404.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] curvature and original anatomy - Avoiding procedur..."}, {"start": 404.9, "end": 407.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] 7: Irrigation & Intracanal Disinfection Irrigants\u2014..."}, {"start": 407.2, "end": 414.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] EDTA helps remove smear layer."}, {"start": 414.0, "end": 420.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Activation techniques can improve effectiveness."}, {"start": 420.7, "end": 427.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] In some cases, an intracanal medicament like calci..."}, {"start": 427.5, "end": 429.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Step 8: Obturation and Coronal Seal Ob..."}, {"start": 429.8, "end": 432.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] as completely as possible, commonly using gutta-pe..."}, {"start": 432.1, "end": 434.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] or carrier-based systems."}, {"start": 434.3, "end": 441.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Finally, the tooth needs a timely and well-sealed ..."}, {"start": 441.1, "end": 447.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] A well-done root canal can fail if the coronal sea..."}, {"start": 447.9, "end": 454.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Step 9: Follow-Up and Healing  \nClini..."}, {"start": 454.7, "end": 461.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Radiographic healing may take months."}, {"start": 461.5, "end": 468.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Follow-up is part of quality endodontic care."}, {"start": 468.2, "end": 470.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 6) Clinical Examples & Case Scenari..."}, {"start": 470.5, "end": 472.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Lingers\u201d A 28-year-old patient reports severe ling..."}, {"start": 472.8, "end": 475.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] especially at night."}, {"start": 475.0, "end": 481.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] The pain lasts 30 to 60 seconds after cold is remo..."}, {"start": 481.8, "end": 488.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] The tooth has a deep occlusal restoration."}, {"start": 488.6, "end": 495.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Percussion is mildly positive."}, {"start": 495.4, "end": 502.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Radiograph shows a deep restoration approaching th..."}, {"start": 502.2, "end": 509.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Interpretation: This pattern strongly suggests [EM..."}, {"start": 509.0, "end": 515.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] The mild percussion sensitivity may indicate early..."}, {"start": 515.8, "end": 518.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Clinical implications: - Expect anesthesia challen..."}, {"start": 518.0, "end": 520.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] early goal is pain control and bacterial reduction..."}, {"start": 520.3, "end": 522.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Key Point:** Lingering thermal pain is a major c..."}, {"start": 522.5, "end": 529.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Always pair symptoms with tests and radiographs\u2014do..."}, {"start": 529.3, "end": 532.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Case 2: \u201cNo Response to Cold, But Pain..."}, {"start": 532.7, "end": 536.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] reports discomfort when chewing on an upper molar."}, {"start": 536.1, "end": 542.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Cold test: no response."}, {"start": 542.9, "end": 549.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Percussion: positive."}, {"start": 549.7, "end": 556.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Palpation: mild tenderness."}, {"start": 556.5, "end": 563.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Radiograph shows slight widening of the PDL at the..."}, {"start": 563.3, "end": 570.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Interpretation: Likely [EMPHASIS] pulp necrosis wi..."}, {"start": 570.0, "end": 571.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Clinical implications: - The main target is microb..."}, {"start": 571.7, "end": 573.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] length control and irrigation are essential - Post..."}, {"start": 573.4, "end": 575.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] occlusion if indicated [PAUSE] **Key Point:** A no..."}, {"start": 575.1, "end": 576.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] to necrosis with apical involvement."}, {"start": 576.8, "end": 580.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] ### Case 3: \u201cSwelling and a \u2018Pimple\u2019 on th..."}, {"start": 580.2, "end": 583.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] a recurring bump on the gum near a maxillary later..."}, {"start": 583.6, "end": 590.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Minimal pain."}, {"start": 590.4, "end": 597.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Cold test is negative."}, {"start": 597.2, "end": 604.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] A sinus tract is visible."}, {"start": 604.0, "end": 610.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Radiograph shows a periapical radiolucency."}, {"start": 610.8, "end": 617.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Interpretation: A chronic apical abscess with sinu..."}, {"start": 617.5, "end": 619.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Clinical implications: - Trace the sinus tract wit..."}, {"start": 619.2, "end": 620.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Root canal therapy is often the primary treatmen..."}, {"start": 620.9, "end": 622.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Antibiotics are generally not indicated unless sys..."}, {"start": 622.6, "end": 624.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] tract often means the body has created drainage."}, {"start": 624.3, "end": 631.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] Your job is to eliminate the intraradicular source..."}, {"start": 631.1, "end": 637.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n---\n\n## 7) Common Misconceptions to Corre..."}, {"start": 637.9, "end": 644.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] \u201cRoot canal treatment removes all bacteria.\u201d  \nRea..."}, {"start": 644.7, "end": 651.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] \u201cIf the radiograph looks normal, the pulp must be ..."}, {"start": 651.5, "end": 658.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] \u201cPain location always identifies the tooth.\u201d  \nRea..."}, {"start": 658.3, "end": 665.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] \u201cThe root canal is a single straight tube.\u201d  \nReal..."}, {"start": 665.0, "end": 671.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Quick Summary: Misconceptions  \n- End..."}, {"start": 671.8, "end": 678.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - Anatomy is **complex**, so technique must be sys..."}, {"start": 678.6, "end": 682.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] --- ## 8) Periodic Wrap-Up: The Core Frame..."}, {"start": 682.0, "end": 685.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] this introductory module, make it this: 1."}, {"start": 685.4, "end": 692.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Diagnose accurately** (pulpal + apical)."}, {"start": 692.2, "end": 699.0, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Create access** that allows canal location and s..."}, {"start": 699.0, "end": 705.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Determine working length** and maintain apical c..."}, {"start": 705.8, "end": 712.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Clean, shape, irrigate** to reduce microbes and ..."}, {"start": 712.6, "end": 719.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Obturate and restore** to prevent reinfection."}, {"start": 719.3, "end": 726.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] **Follow up** and evaluate healing."}, {"start": 726.1, "end": 732.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n---\n\n## 9) Conclusion & Key Takeaways\n\nEn..."}, {"start": 732.9, "end": 736.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] As you move through this course, you\u2019ll add techni..."}, {"start": 736.3, "end": 739.7, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] skills only work when built on sound principles."}, {"start": 739.7, "end": 746.5, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n### Key Takeaways  \n- [EMPHASIS] Endodont..."}, {"start": 746.5, "end": 753.3, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] Accurate diagnosis requires symptoms,..."}, {"start": 753.3, "end": 760.1, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] Anatomy is complex; irrigation and di..."}, {"start": 760.1, "end": 766.8, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] Working length control and apical res..."}, {"start": 766.8, "end": 773.6, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] - [EMPHASIS] Long-term success depends on both obt..."}, {"start": 773.6, "end": 775.9, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE] In the next module, we\u2019ll deepen diagnosti..."}, {"start": 775.9, "end": 778.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] specific pulpal and apical diagnoses\u2014so you can co..."}, {"start": 778.2, "end": 780.4, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] what your clinical priorities should be."}, {"start": 780.4, "end": 787.2, "text": "[\u05ea\u05e8\u05d2\u05d5\u05dd] [PAUSE]\n\n---"}]
+        };
+        
+        // Toggle subtitles
+        subtitlesToggle.onclick = () => {
+            subtitlesEnabled = !subtitlesEnabled;
+            subtitlesToggle.classList.toggle('active', subtitlesEnabled);
+            subtitlesContainer.style.display = subtitlesEnabled ? 'block' : 'none';
+            langSelector.classList.toggle('show', subtitlesEnabled);
+        };
+        
+        // Language selection
+        document.querySelectorAll('.lang-option').forEach(opt => {
+            opt.onclick = () => {
+                document.querySelectorAll('.lang-option').forEach(o => o.classList.remove('selected'));
+                opt.classList.add('selected');
+                currentLang = opt.dataset.lang;
+                subtitleText.classList.toggle('hebrew', currentLang === 'he');
+                updateSubtitle();
+            };
+        });
+        
+        // Update subtitle based on video time
+        function updateSubtitle() {
+            if (!subtitlesEnabled) return;
+            
+            const currentTime = video.currentTime;
+            const subs = subtitlesData[currentLang];
+            let currentSub = '';
+            
+            for (let i = 0; i < subs.length; i++) {
+                if (currentTime >= subs[i].start && currentTime < subs[i].end) {
+                    currentSub = subs[i].text;
+                    break;
+                }
+            }
+            
+            subtitleText.textContent = currentSub;
+        }
+        
+        // Add subtitle update to timeupdate
+        video.addEventListener('timeupdate', updateSubtitle);
         
         // Initialize
         showSlide(0);
