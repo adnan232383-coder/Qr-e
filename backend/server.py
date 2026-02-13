@@ -604,16 +604,18 @@ async def serve_module_video(module_id: str):
 @api_router.get("/presentations/{module_id}")
 async def get_presentation(module_id: str):
     """Get HTML presentation for a module"""
+    from starlette.responses import HTMLResponse
+    
     presentation_path = Path(f"/app/backend/presentations/{module_id}.html")
     
     if not presentation_path.exists():
         raise HTTPException(status_code=404, detail="Presentation not found")
     
-    return FileResponse(
-        presentation_path,
-        media_type="text/html",
-        filename=f"{module_id}.html"
-    )
+    # Read and return as HTML content (not download)
+    with open(presentation_path, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    
+    return HTMLResponse(content=html_content, media_type="text/html")
 
 @api_router.api_route("/audio/{filename:path}", methods=["GET", "HEAD"])
 async def get_audio(filename: str, request: Request):
