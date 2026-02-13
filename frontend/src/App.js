@@ -44,6 +44,7 @@ function AppRouter() {
       <Route path="/styles" element={<StyleDemos />} />
       <Route path="/admin/progress" element={<GenerationProgress />} />
       <Route path="/admin/stats" element={<StatsDashboard />} />
+      <Route path="/presentation/:moduleId" element={<AvatarPresentation />} />
     </Routes>
   );
 }
