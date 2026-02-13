@@ -880,6 +880,36 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             }}
         }}, 1000);
         
+        // AUTO-PLAY: Start video automatically when page loads
+        window.addEventListener('load', () => {{
+            // Try to play with sound first
+            video.muted = false;
+            video.play().then(() => {{
+                console.log('Auto-play with sound started');
+                placeholder.style.display = 'none';
+            }}).catch(err => {{
+                console.log('Auto-play with sound blocked, trying muted...');
+                // If blocked, try muted autoplay
+                video.muted = true;
+                video.play().then(() => {{
+                    console.log('Auto-play muted started');
+                    placeholder.style.display = 'none';
+                    // Show message to unmute
+                    placeholder.innerHTML = '<span style="cursor:pointer" onclick="document.getElementById(\\'avatarVideo\\').muted=false;this.parentElement.style.display=\\'none\\';">🔊 Click to enable sound</span>';
+                    placeholder.style.display = 'flex';
+                }}).catch(e => {{
+                    console.log('Auto-play failed:', e);
+                    placeholder.querySelector('span').textContent = 'Click anywhere to start';
+                    document.body.onclick = () => {{
+                        video.muted = false;
+                        video.play();
+                        placeholder.style.display = 'none';
+                        document.body.onclick = null;
+                    }};
+                }});
+            }});
+        }});
+        
         video.addEventListener('timeupdate', () => {{
             const progress = (video.currentTime / video.duration) * 100;
             progressFill.style.width = progress + '%';
