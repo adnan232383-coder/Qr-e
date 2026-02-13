@@ -882,35 +882,43 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             }}
         }}, 1000);
         
+        // Unmute overlay
+        const unmuteOverlay = document.getElementById('unmuteOverlay');
+        
         // AUTO-PLAY: Start video automatically when page loads
         window.addEventListener('load', () => {{
-            // Try to play with sound first
-            video.muted = false;
+            video.muted = true;
             video.play().then(() => {{
-                console.log('Auto-play with sound started');
+                console.log('Auto-play started (muted)');
                 placeholder.style.display = 'none';
-            }}).catch(err => {{
-                console.log('Auto-play with sound blocked, trying muted...');
-                // If blocked, try muted autoplay
-                video.muted = true;
-                video.play().then(() => {{
-                    console.log('Auto-play muted started');
+                // Show unmute overlay
+                unmuteOverlay.style.display = 'block';
+            }}).catch(e => {{
+                console.log('Auto-play failed:', e);
+                placeholder.querySelector('span').textContent = 'לחץ להפעלה';
+                placeholder.style.cursor = 'pointer';
+                placeholder.onclick = () => {{
+                    video.muted = false;
+                    video.play();
                     placeholder.style.display = 'none';
-                    // Show message to unmute
-                    placeholder.innerHTML = '<span style="cursor:pointer" onclick="document.getElementById(\\'avatarVideo\\').muted=false;this.parentElement.style.display=\\'none\\';">🔊 Click to enable sound</span>';
-                    placeholder.style.display = 'flex';
-                }}).catch(e => {{
-                    console.log('Auto-play failed:', e);
-                    placeholder.querySelector('span').textContent = 'Click anywhere to start';
-                    document.body.onclick = () => {{
-                        video.muted = false;
-                        video.play();
-                        placeholder.style.display = 'none';
-                        document.body.onclick = null;
-                    }};
-                }});
+                }};
             }});
         }});
+        
+        // Click anywhere on video area to unmute
+        unmuteOverlay.onclick = () => {{
+            video.muted = false;
+            unmuteOverlay.style.display = 'none';
+            console.log('Audio enabled');
+        }};
+        
+        // Also unmute on video click
+        video.onclick = () => {{
+            if (video.muted) {{
+                video.muted = false;
+                unmuteOverlay.style.display = 'none';
+            }}
+        }};
         
         video.addEventListener('timeupdate', () => {{
             const progress = (video.currentTime / video.duration) * 100;
