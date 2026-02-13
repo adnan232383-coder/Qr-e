@@ -752,7 +752,9 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                         </svg>
                         <span>Loading Avatar...</span>
-                        <a href="{abs_video_path}" target="_blank" style="display:none;margin-top:10px;color:#38bdf8;font-size:12px;" id="videoLink">Open video in new tab</a>
+                    </div>
+                    <div class="unmute-overlay" id="unmuteOverlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.8);padding:20px 40px;border-radius:12px;cursor:pointer;z-index:100;display:none;">
+                        <span style="color:white;font-size:24px;">🔊 לחץ להפעלת קול</span>
                     </div>
                 </div>
             </div>
