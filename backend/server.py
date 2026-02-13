@@ -792,7 +792,6 @@ async def test_video_page(module_id: str):
 @api_router.api_route("/avatar-videos/{module_id}", methods=["GET", "HEAD"])
 async def serve_avatar_video(module_id: str, request: Request):
     """Serve avatar video file"""
-    from starlette.responses import StreamingResponse
     
     video_paths = [
         Path(f"/app/backend/heygen_videos/{module_id}_avatar.mp4"),
@@ -810,61 +809,15 @@ async def serve_avatar_video(module_id: str, request: Request):
     if not video_path:
         raise HTTPException(status_code=404, detail="Avatar video not found")
     
-    file_size = video_path.stat().st_size
-    range_header = request.headers.get("range")
-    
-    if range_header:
-        range_match = range_header.replace("bytes=", "").split("-")
-        start = int(range_match[0]) if range_match[0] else 0
-        end = int(range_match[1]) if range_match[1] else file_size - 1
-        
-        if start >= file_size:
-            raise HTTPException(status_code=416, detail="Range not satisfiable")
-        if end >= file_size:
-            end = file_size - 1
-        
-        content_length = end - start + 1
-        
-        def iter_file():
-            with open(video_path, "rb") as f:
-                f.seek(start)
-                remaining = content_length
-                while remaining > 0:
-                    chunk_size = min(8192, remaining)
-                    data = f.read(chunk_size)
-                    if not data:
-                        break
-                    remaining -= len(data)
-                    yield data
-        
-        return StreamingResponse(
-            iter_file(),
-            status_code=206,
-            media_type="video/mp4",
-            headers={
-                "Content-Range": f"bytes {start}-{end}/{file_size}",
-                "Accept-Ranges": "bytes",
-                "Content-Length": str(content_length),
-                "Content-Type": "video/mp4",
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Expose-Headers": "Content-Range, Content-Length",
-            }
-        )
-    
-    # Return StreamingResponse to avoid Content-Disposition: attachment
-    def iter_full_file():
-        with open(video_path, "rb") as f:
-            while chunk := f.read(65536):
-                yield chunk
-    
-    return StreamingResponse(
-        iter_full_file(),
+    # Use FileResponse for simpler video serving with proper headers
+    return FileResponse(
+        path=str(video_path),
         media_type="video/mp4",
+        filename=video_path.name,
         headers={
             "Accept-Ranges": "bytes",
-            "Content-Length": str(file_size),
-            "Content-Type": "video/mp4",
             "Access-Control-Allow-Origin": "*",
+            "Cache-Control": "no-cache",
         }
     )
 
