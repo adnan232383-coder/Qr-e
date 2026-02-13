@@ -49,12 +49,13 @@ IMAGES = {
 }
 
 
-def get_module_images(module_title: str) -> List[str]:
+def get_module_images(module_title: str, course_name: str = "") -> List[str]:
     """Get all relevant images for a module"""
-    title_lower = module_title.lower()
+    # Check both module title and course name
+    search_text = (module_title + " " + course_name).lower()
     
     # Dental - Endodontics (Root Canal)
-    if any(word in title_lower for word in ["endodon", "root canal", "pulp"]):
+    if any(word in search_text for word in ["endodon", "root canal", "pulp"]):
         return [
             IMAGES["root_canal"],
             IMAGES["tooth_anatomy"],
@@ -65,7 +66,7 @@ def get_module_images(module_title: str) -> List[str]:
         ]
     
     # Dental - Restorative
-    if any(word in title_lower for word in ["restor", "operative", "filling", "composite"]):
+    if any(word in search_text for word in ["restor", "operative", "filling", "composite"]):
         return [
             IMAGES["dental_restoration"],
             IMAGES["tooth_anatomy"],
@@ -76,7 +77,7 @@ def get_module_images(module_title: str) -> List[str]:
         ]
     
     # Dental - General
-    if any(word in title_lower for word in ["dent", "tooth", "oral"]):
+    if any(word in search_text for word in ["dent", "tooth", "oral"]):
         return [
             IMAGES["tooth_anatomy"],
             IMAGES["dental_instruments"],
@@ -87,7 +88,7 @@ def get_module_images(module_title: str) -> List[str]:
         ]
     
     # Cell Biology
-    if "cell" in title_lower:
+    if "cell" in search_text:
         return [
             IMAGES["microscope"],
             IMAGES["cell_structure"],
@@ -98,7 +99,7 @@ def get_module_images(module_title: str) -> List[str]:
         ]
     
     # Genetics
-    elif "genetic" in title_lower:
+    elif "genetic" in search_text:
         return [
             IMAGES["dna"],
             IMAGES["dna_replication"],
@@ -108,7 +109,7 @@ def get_module_images(module_title: str) -> List[str]:
         ]
     
     # Evolution
-    elif "evolution" in title_lower:
+    elif "evolution" in search_text:
         return [
             IMAGES["evolution_tree"],
             IMAGES["natural_selection"],
