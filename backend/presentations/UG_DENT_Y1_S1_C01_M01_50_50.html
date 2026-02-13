@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Structure & Function</title>
+    <base href="https://virtual-prof-2.preview.emergentagent.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #0a0f1a;
+            --card: #151d2e;
+            --card-hover: #1a2538;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-secondary: #a78bfa;
+            --gradient: linear-gradient(135deg, #38bdf8 0%, #a78bfa 100%);
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            overflow: hidden;
+            height: 100vh;
+        }
+        
+        /* Main 50/50 Layout */
+        .presentation-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 70px;
+            height: 100vh;
+        }
+        
+        /* Avatar Panel - Left Side */
+        .avatar-panel {
+            background: linear-gradient(180deg, #0f172a 0%, #0a0f1a 100%);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border-right: 1px solid rgba(56, 189, 248, 0.1);
+        }
+        
+        .avatar-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .instructor-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            padding: 8px 16px;
+            border-radius: 30px;
+        }
+        
+        .instructor-badge .dot {
+            width: 8px;
+            height: 8px;
+            background: #22c55e;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .instructor-badge span {
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+        
+        .avatar-video-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+        
+        .avatar-video-container {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 9/16;
+            background: #000;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 
+                0 0 0 1px rgba(56, 189, 248, 0.2),
+                0 20px 60px rgba(0,0,0,0.5),
+                0 0 100px rgba(56, 189, 248, 0.1);
+        }
+        
+        .avatar-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .avatar-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: var(--text-muted);
+            gap: 15px;
+        }
+        
+        .avatar-placeholder svg {
+            width: 80px;
+            height: 80px;
+            opacity: 0.5;
+        }
+        
+        /* Slides Panel - Right Side */
+        .slides-panel {
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .slide {
+            position: absolute;
+            inset: 0;
+            padding: 40px;
+            opacity: 0;
+            transform: translateX(60px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: auto;
+        }
+        
+        .slide-inner {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Title Slide */
+        .title-slide .slide-inner {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .title-slide h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+        
+        .course-name {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+        
+        .title-image {
+            max-width: 350px;
+            background: var(--card);
+            border-radius: 16px;
+            padding: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        .title-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        /* Content Slide */
+        .content-slide h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--card);
+            position: relative;
+        }
+        
+        .content-slide h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            background: var(--gradient);
+        }
+        
+        .content-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            flex: 1;
+        }
+        
+        .slide-image {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 12px;
+            max-width: 280px;
+        }
+        
+        .slide-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        .points {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .points li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 14px 18px;
+            background: var(--card);
+            border-radius: 10px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            animation: slideIn 0.4s ease forwards;
+            opacity: 0;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .points li .bullet {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            margin-top: 8px;
+            flex-shrink: 0;
+        }
+        
+        .slide.active .points li:nth-child(1) { animation-delay: 0.1s; }
+        .slide.active .points li:nth-child(2) { animation-delay: 0.2s; }
+        .slide.active .points li:nth-child(3) { animation-delay: 0.3s; }
+        .slide.active .points li:nth-child(4) { animation-delay: 0.4s; }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        /* Control Bar */
+        .control-bar {
+            grid-column: 1 / -1;
+            background: var(--card);
+            display: flex;
+            align-items: center;
+            padding: 0 25px;
+            gap: 20px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .play-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--gradient);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            flex-shrink: 0;
+        }
+        
+        .play-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+        }
+        
+        .play-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+        
+        .info {
+            min-width: 180px;
+        }
+        
+        .info h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .info p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        
+        .progress-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .time {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+            min-width: 42px;
+        }
+        
+        .progress-bar {
+            flex: 1;
+            height: 5px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--gradient);
+            width: 0%;
+            transition: width 0.1s;
+            border-radius: 3px;
+        }
+        
+        .slide-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+        }
+        
+        .slide-indicator .current {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .slide-indicator span {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        
+        .control-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            color: var(--text-muted);
+            transition: all 0.3s;
+            border-radius: 8px;
+        }
+        
+        .control-btn:hover {
+            color: var(--accent);
+            background: rgba(56, 189, 248, 0.1);
+        }
+        
+        .control-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        .vol-slider {
+            width: 80px;
+            height: 4px;
+            -webkit-appearance: none;
+            background: rgba(255,255,255,0.15);
+            border-radius: 2px;
+        }
+        
+        .vol-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            background: var(--accent);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .presentation-container {
+                grid-template-columns: 45% 55%;
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .presentation-container {
+                grid-template-columns: 1fr;
+                grid-template-rows: 250px 1fr 70px;
+            }
+            
+            .avatar-panel {
+                border-right: none;
+                border-bottom: 1px solid rgba(56, 189, 248, 0.1);
+            }
+            
+            .avatar-video-wrapper {
+                padding: 15px;
+            }
+            
+            .avatar-video-container {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Avatar Panel - Left 50% -->
+        <div class="avatar-panel">
+            <div class="avatar-header">
+                <div class="instructor-badge">
+                    <div class="dot"></div>
+                    <span>Virtual Instructor</span>
+                </div>
+            </div>
+            <div class="avatar-video-wrapper">
+                <div class="avatar-video-container">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="metadata">
+                        <source src="https://virtual-prof-2.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y1_S1_C01_M01_avatar" type="video/mp4">
+                    </video>
+                    <div class="avatar-placeholder" id="avatarPlaceholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                        <span>Click Play to Start</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slides Panel - Right 50% -->
+        <div class="slides-panel">
+            
+            <div class="slide title-slide" data-index="0">
+                <div class="slide-inner">
+                    <h1>Cell Structure & Function</h1>
+                    <p class="course-name">General Biology</p>
+                    <div class="title-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/f49ac82dc9f54808b7c78b9749cd3f11790fdc8a7b561db105271f3a11361fce.png" alt=""></div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="1">
+                <div class="slide-inner">
+                    <h2>Introduction</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/de71f85ab3c53fb5fb0f037d7453bf194df5deb55fba729e8dc993eb6e7f3a77.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>Welcome to this module on Cell Structure & Function. In the next 12 minutes, we'll explore the key concepts that will fo</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="2">
+                <div class="slide-inner">
+                    <h2>Learning Objectives</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/16d68af7809ae10728ce9a12dda84359ab21d47bd2ee390673f3657650f9fc2e.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>By the end of this session, you'll be able to:</li><li><span class="bullet"></span>Define and explain core terminology related to Cell Structure & Function</li><li><span class="bullet"></span>Identify key principles and their clinical applications</li><li><span class="bullet"></span>Apply this knowledge to practical scenarios</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="3">
+                <div class="slide-inner">
+                    <h2>Section 1: Fundamentals</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/315479269c6bb29c3f481606593e121c4fc56736335527081d6699bc869d5996.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>Let's begin with the basic concepts. Cell membrane is essential because it forms the foundation of our understanding.</li><li><span class="bullet"></span>[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</li><li><span class="bullet"></span>In clinical settings, you'll encounter these principles daily. For example, when assessing patients, knowledge of Cell m</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="4">
+                <div class="slide-inner">
+                    <h2>Section 2: Clinical Applications</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/9abba951790d8002ddd4c7f3df41b8dfe6efd5e7e4e301cc8daf2080bb09dc5d.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your unde</li><li><span class="bullet"></span>The key steps in clinical application include:</li><li><span class="bullet"></span>1. Assessment based on foundational knowledge</li><li><span class="bullet"></span>2. Integration of findings</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="5">
+                <div class="slide-inner">
+                    <h2>Section 3: Advanced Concepts</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/e73e57fdd4609ae5ea1f8a33bac8bece1e825a888e8051cc738b3c5f466d95a7.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>Building on our foundation, let's examine Mitochondria. These advanced concepts connect what we've learned to more compl</li><li><span class="bullet"></span>Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</li><li><span class="bullet"></span>Strong foundational knowledge</li><li><span class="bullet"></span>Critical thinking skills</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="6">
+                <div class="slide-inner">
+                    <h2>Summary</h2>
+                    <div class="content-grid">
+                        <div class="slide-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/91cb5fe80e7dc8ee4133cc77965249a28ce2dcaf407423c6ca1b2dd7008db76f.png" alt=""></div>
+                        <ul class="points"><li><span class="bullet"></span>Core concepts of Cell Structure & Function</li><li><span class="bullet"></span>Clinical applications and relevance</li><li><span class="bullet"></span>Advanced topics for deeper understanding</li><li><span class="bullet"></span>[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Control Bar -->
+        <div class="control-bar">
+            <button class="play-btn" id="playBtn" data-testid="play-btn">
+                <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                <svg id="pauseIcon" style="display:none" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            
+            <div class="info">
+                <h4>Cell Structure & Function</h4>
+                <p>General Biology</p>
+            </div>
+            
+            <div class="progress-area">
+                <span class="time" id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar" data-testid="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="time" id="totalTime">0:00</span>
+            </div>
+            
+            <div class="slide-indicator">
+                <span class="current" id="slideNum">1</span>
+                <span>/</span>
+                <span>7</span>
+            </div>
+            
+            <button class="control-btn" id="volBtn" data-testid="volume-btn">
+                <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+            </button>
+            <input type="range" class="vol-slider" id="volSlider" min="0" max="1" step="0.1" value="1" data-testid="volume-slider">
+            
+            <button class="control-btn" id="fsBtn" data-testid="fullscreen-btn">
+                <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+            </button>
+        </div>
+    </div>
+    
+    <script>
+        const video = document.getElementById('avatarVideo');
+        const placeholder = document.getElementById('avatarPlaceholder');
+        const playBtn = document.getElementById('playBtn');
+        const playIcon = document.getElementById('playIcon');
+        const pauseIcon = document.getElementById('pauseIcon');
+        const progressBar = document.getElementById('progressBar');
+        const progressFill = document.getElementById('progressFill');
+        const currentTimeEl = document.getElementById('currentTime');
+        const totalTimeEl = document.getElementById('totalTime');
+        const slideNumEl = document.getElementById('slideNum');
+        const volSlider = document.getElementById('volSlider');
+        const fsBtn = document.getElementById('fsBtn');
+        
+        const slides = document.querySelectorAll('.slide');
+        const total = slides.length;
+        let current = 0;
+        
+        function formatTime(s) {
+            const m = Math.floor(s / 60);
+            const sec = Math.floor(s % 60);
+            return m + ':' + String(sec).padStart(2, '0');
+        }
+        
+        function showSlide(idx) {
+            slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+            current = idx;
+            slideNumEl.textContent = idx + 1;
+        }
+        
+        function updateSlideFromTime() {
+            if (!video.duration) return;
+            const progress = video.currentTime / video.duration;
+            const idx = Math.min(Math.floor(progress * total), total - 1);
+            if (idx !== current) showSlide(idx);
+        }
+        
+        // Video events
+        video.addEventListener('loadedmetadata', () => {
+            placeholder.style.display = 'none';
+            totalTimeEl.textContent = formatTime(video.duration);
+        });
+        
+        video.addEventListener('canplay', () => {
+            placeholder.style.display = 'none';
+        });
+        
+        video.addEventListener('error', (e) => {
+            console.error('Video error:', video.error);
+            placeholder.querySelector('span').textContent = 'Click Play to load video';
+        });
+        
+        video.addEventListener('timeupdate', () => {
+            const progress = (video.currentTime / video.duration) * 100;
+            progressFill.style.width = progress + '%';
+            currentTimeEl.textContent = formatTime(video.currentTime);
+            updateSlideFromTime();
+        });
+        
+        video.addEventListener('play', () => {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+        });
+        
+        video.addEventListener('pause', () => {
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+        });
+        
+        video.addEventListener('ended', () => {
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+        });
+        
+        // Controls
+        playBtn.onclick = () => video.paused ? video.play() : video.pause();
+        
+        progressBar.onclick = (e) => {
+            const rect = progressBar.getBoundingClientRect();
+            const pos = (e.clientX - rect.left) / rect.width;
+            video.currentTime = pos * video.duration;
+        };
+        
+        volSlider.oninput = (e) => video.volume = e.target.value;
+        
+        fsBtn.onclick = () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        };
+        
+        // Keyboard controls
+        document.onkeydown = (e) => {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                playBtn.click();
+            }
+            if (e.code === 'ArrowRight') video.currentTime += 5;
+            if (e.code === 'ArrowLeft') video.currentTime -= 5;
+            if (e.code === 'ArrowUp') {
+                e.preventDefault();
+                const next = Math.min(current + 1, total - 1);
+                video.currentTime = (next / total) * video.duration;
+            }
+            if (e.code === 'ArrowDown') {
+                e.preventDefault();
+                const prev = Math.max(current - 1, 0);
+                video.currentTime = (prev / total) * video.duration;
+            }
+            if (e.code === 'KeyF') fsBtn.click();
+        };
+        
+        // Initialize
+        showSlide(0);
+    </script>
+</body>
+</html>
