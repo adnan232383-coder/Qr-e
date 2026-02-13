@@ -153,14 +153,17 @@ def parse_script_to_notebooklm_slides(script_text: str, module_title: str) -> Li
     
     # Add remaining section
     if current_section and current_points:
+        content_text = ' '.join(current_points)
+        illustration = get_illustration_for_content(current_section, content_text)
         slides.append({
             "type": "content",
             "title": current_section,
             "points": current_points[:4],
-            "illustration": ILLUSTRATIONS["icons"]
+            "illustration": illustration
         })
     
-    # Add statistics slide
+    # Add statistics slide with relevant illustration
+    stats_illustration = ILLUSTRATIONS["cell_comparison"] if "cell" in module_lower else ILLUSTRATIONS["icons"]
     slides.append({
         "type": "stats",
         "title": "Key Numbers",
@@ -169,10 +172,11 @@ def parse_script_to_notebooklm_slides(script_text: str, module_title: str) -> Li
             {"number": "100%", "label": "Visual Learning"},
             {"number": "12", "label": "Minutes Duration"}
         ],
-        "illustration": ILLUSTRATIONS["icons"]
+        "illustration": stats_illustration
     })
     
     # Add summary slide
+    summary_illustration = ILLUSTRATIONS["icons"]
     slides.append({
         "type": "summary",
         "title": "Key Takeaways",
@@ -181,7 +185,7 @@ def parse_script_to_notebooklm_slides(script_text: str, module_title: str) -> Li
             "Each organelle has a specific function",
             "Cells are the building blocks of life"
         ],
-        "illustration": ILLUSTRATIONS["cell"]
+        "illustration": summary_illustration
     })
     
     return slides
