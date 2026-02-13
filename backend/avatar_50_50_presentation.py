@@ -840,26 +840,46 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         
         // Video events
         video.addEventListener('loadedmetadata', () => {{
+            console.log('Video metadata loaded, duration:', video.duration);
             placeholder.style.display = 'none';
             totalTimeEl.textContent = formatTime(video.duration);
         }});
         
         video.addEventListener('canplay', () => {{
+            console.log('Video can play');
             placeholder.style.display = 'none';
+        }});
+        
+        video.addEventListener('loadstart', () => {{
+            console.log('Video load started');
+            placeholder.querySelector('span').textContent = 'Loading video...';
+        }});
+        
+        video.addEventListener('progress', () => {{
+            if (video.buffered.length > 0) {{
+                const buffered = video.buffered.end(0);
+                console.log('Video buffered:', buffered, 'seconds');
+            }}
         }});
         
         video.addEventListener('error', (e) => {{
             console.error('Video error:', video.error);
-            placeholder.querySelector('span').textContent = 'Video loading...';
+            placeholder.querySelector('span').textContent = 'Click Play to start';
             document.getElementById('videoLink').style.display = 'block';
         }});
         
-        // Auto-hide placeholder when video is ready
+        video.addEventListener('stalled', () => {{
+            console.log('Video stalled, retrying...');
+        }});
+        
+        // Force video load after short delay
         setTimeout(() => {{
             if (video.readyState >= 2) {{
                 placeholder.style.display = 'none';
+            }} else {{
+                video.load();
             }}
-        }}, 3000);
+        }}, 1000);
         
         video.addEventListener('timeupdate', () => {{
             const progress = (video.currentTime / video.duration) * 100;
