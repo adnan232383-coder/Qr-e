@@ -61,16 +61,51 @@ TOPIC_ILLUSTRATIONS = {
 }
 
 
+def get_illustration_for_content(title: str, content: str) -> str:
+    """Get the best matching illustration for the slide content"""
+    text = (title + " " + content).lower()
+    
+    # Check topic mappings
+    for topic, illustrations in TOPIC_ILLUSTRATIONS.items():
+        if topic in text:
+            return ILLUSTRATIONS.get(illustrations[0], ILLUSTRATIONS["cell"])
+    
+    # Default based on keywords
+    if any(word in text for word in ["cell", "organelle", "membrane"]):
+        return ILLUSTRATIONS["cell"]
+    elif any(word in text for word in ["dna", "gene", "genetic"]):
+        return ILLUSTRATIONS["dna"]
+    elif any(word in text for word in ["evolution", "darwin", "selection"]):
+        return ILLUSTRATIONS["evolution_tree"]
+    
+    return ILLUSTRATIONS["microscope"]
+
+
 def parse_script_to_notebooklm_slides(script_text: str, module_title: str) -> List[Dict]:
     """Parse script into NotebookLM-style slides with key points and stats"""
     slides = []
+    
+    # Determine module type for better illustration selection
+    module_lower = module_title.lower()
+    if "cell" in module_lower:
+        hero_illustration = ILLUSTRATIONS["microscope"]
+        default_illustration = ILLUSTRATIONS["cell"]
+    elif "genetic" in module_lower:
+        hero_illustration = ILLUSTRATIONS["dna"]
+        default_illustration = ILLUSTRATIONS["dna_replication"]
+    elif "evolution" in module_lower:
+        hero_illustration = ILLUSTRATIONS["evolution_tree"]
+        default_illustration = ILLUSTRATIONS["natural_selection"]
+    else:
+        hero_illustration = ILLUSTRATIONS["microscope"]
+        default_illustration = ILLUSTRATIONS["cell"]
     
     # Title slide
     slides.append({
         "type": "title",
         "title": module_title,
         "subtitle": "Educational Module",
-        "illustration": ILLUSTRATIONS["microscope"]
+        "illustration": hero_illustration
     })
     
     # Parse sections from script
