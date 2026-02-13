@@ -823,13 +823,19 @@ async def serve_avatar_video(module_id: str, request: Request):
             }
         )
     
-    return FileResponse(
-        video_path,
+    # Return StreamingResponse to avoid Content-Disposition: attachment
+    def iter_full_file():
+        with open(video_path, "rb") as f:
+            while chunk := f.read(65536):
+                yield chunk
+    
+    return StreamingResponse(
+        iter_full_file(),
         media_type="video/mp4",
-        filename=f"{module_id}.mp4",
         headers={
             "Accept-Ranges": "bytes",
             "Content-Length": str(file_size),
+            "Content-Type": "video/mp4",
             "Access-Control-Allow-Origin": "*",
         }
     )
