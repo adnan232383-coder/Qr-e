@@ -1301,8 +1301,8 @@ async def create_avatar_presentation_50_50(
             else:
                 video_path = f"/api/avatar-videos/{module_id}"  # Will show placeholder
     
-    # Generate HTML
-    html = generate_50_50_html(slides, module_id, title, course_name, video_path)
+    # Generate HTML with script for subtitles
+    html = generate_50_50_html(slides, module_id, title, course_name, video_path, script_text)
     
     # Save presentation
     PRESENTATIONS_DIR.mkdir(parents=True, exist_ok=True)
