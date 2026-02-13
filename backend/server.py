@@ -771,19 +771,34 @@ async def test_video_page(module_id: str):
 <head><title>Video Test</title></head>
 <body>
     <h1>Video Test: {module_id}</h1>
-    <video id="video" width="600" height="400" controls autoplay muted>
+    
+    <h2>Local Video via API</h2>
+    <video id="video1" width="400" height="300" controls>
         <source src="/api/avatar-videos/{module_id}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <p id="status">Loading...</p>
+    <p id="status1">Status: Waiting...</p>
+    
+    <h2>External Test Video (Control)</h2>
+    <video id="video2" width="400" height="300" controls>
+        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    </video>
+    <p id="status2">Status: Waiting...</p>
+    
     <script>
-        const video = document.getElementById('video');
-        const status = document.getElementById('status');
-        video.addEventListener('loadstart', () => status.textContent = 'Load started...');
-        video.addEventListener('loadeddata', () => status.textContent = 'Data loaded!');
-        video.addEventListener('canplay', () => status.textContent = 'Can play!');
-        video.addEventListener('playing', () => status.textContent = 'Playing!');
-        video.addEventListener('error', () => status.textContent = 'Error: ' + (video.error?.message || 'Unknown'));
+        function setupVideoEvents(video, statusEl) {{
+            video.addEventListener('loadstart', () => statusEl.textContent = 'Status: Load started...');
+            video.addEventListener('loadeddata', () => statusEl.textContent = 'Status: Data loaded!');
+            video.addEventListener('canplay', () => statusEl.textContent = 'Status: Can play!');
+            video.addEventListener('playing', () => statusEl.textContent = 'Status: Playing!');
+            video.addEventListener('error', (e) => {{
+                statusEl.textContent = 'Status: ERROR - ' + (video.error?.message || 'Check console');
+                console.error('Video error:', video.error);
+            }});
+        }}
+        
+        setupVideoEvents(document.getElementById('video1'), document.getElementById('status1'));
+        setupVideoEvents(document.getElementById('video2'), document.getElementById('status2'));
     </script>
 </body>
 </html>'''
