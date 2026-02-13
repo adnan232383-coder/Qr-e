@@ -9,46 +9,44 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
-            --bg-primary: #fafafa;
-            --bg-secondary: #ffffff;
-            --text-primary: #1a1a2e;
-            --text-secondary: #64748b;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
             --accent: #0ea5e9;
             --accent-light: #e0f2fe;
-            --success: #10b981;
         }
         
         body {
             font-family: 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
+            background: var(--bg);
+            color: var(--text);
             overflow: hidden;
         }
         
-        .presentation-container {
+        .presentation {
             height: 100vh;
             display: flex;
             flex-direction: column;
         }
         
-        /* Slides Area */
-        .slides-wrapper {
+        .slides-area {
             flex: 1;
             position: relative;
             overflow: hidden;
         }
         
+        /* Slides */
         .slide {
             position: absolute;
             inset: 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            padding: 60px 80px;
+            padding: 40px 60px;
             opacity: 0;
-            transform: translateX(50px);
-            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateX(100px);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             pointer-events: none;
+            display: flex;
+            flex-direction: column;
         }
         
         .slide.active {
@@ -57,51 +55,83 @@
             pointer-events: auto;
         }
         
-        .slide.exit {
-            opacity: 0;
-            transform: translateX(-50px);
-        }
-        
-        /* Content Area */
-        .slide-content-area {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-right: 40px;
-        }
-        
         /* Title Slide */
-        .title-slide .title-content {
-            text-align: left;
+        .title-slide {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
         
-        .main-title {
+        .title-content {
+            margin-bottom: 50px;
+        }
+        
+        .title-slide h1 {
             font-size: 3.5rem;
             font-weight: 700;
-            color: var(--text-primary);
-            line-height: 1.2;
-            margin-bottom: 20px;
+            color: var(--text);
+            margin-bottom: 15px;
         }
         
         .subtitle {
             font-size: 1.3rem;
-            color: var(--text-secondary);
-            font-weight: 400;
+            color: var(--text-light);
         }
         
-        /* Section Title */
-        .section-title {
-            font-size: 2.2rem;
+        .hero-images-row {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            max-width: 1200px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            max-width: 350px;
+            background: var(--card);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            animation: floatUp 0.6s ease forwards;
+            opacity: 0;
+        }
+        
+        .hero-image:nth-child(1) { animation-delay: 0.2s; }
+        .hero-image:nth-child(2) { animation-delay: 0.4s; }
+        .hero-image:nth-child(3) { animation-delay: 0.6s; }
+        
+        @keyframes floatUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        /* Content Slide */
+        .content-slide {
+            padding: 30px 40px;
+        }
+        
+        .slide-header {
+            margin-bottom: 30px;
+        }
+        
+        .slide-header h2 {
+            font-size: 2rem;
             font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 40px;
+            color: var(--text);
             position: relative;
+            display: inline-block;
         }
         
-        .section-title::after {
+        .slide-header h2::after {
             content: '';
             position: absolute;
-            bottom: -12px;
+            bottom: -8px;
             left: 0;
             width: 60px;
             height: 4px;
@@ -109,129 +139,141 @@
             border-radius: 2px;
         }
         
-        /* Points */
-        .points-container {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
+        .content-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr 280px;
+            gap: 40px;
+            flex: 1;
+            align-items: center;
         }
         
-        .point-item {
+        .left-image, .right-image {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+            animation: slideIn 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        .left-image { animation-delay: 0.2s; }
+        .right-image { animation-delay: 0.4s; }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .left-image img, .right-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
+        .point {
             display: flex;
             align-items: flex-start;
             gap: 16px;
-            animation: fadeInUp 0.5s ease forwards;
-            opacity: 0;
-        }
-        
-        .slide.active .point-item:nth-child(1) { animation-delay: 0.2s; }
-        .slide.active .point-item:nth-child(2) { animation-delay: 0.4s; }
-        .slide.active .point-item:nth-child(3) { animation-delay: 0.6s; }
-        .slide.active .point-item:nth-child(4) { animation-delay: 0.8s; }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .point-icon {
-            flex-shrink: 0;
-            width: 28px;
-            height: 28px;
-            background: var(--accent-light);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--accent);
-        }
-        
-        .point-icon svg {
-            width: 16px;
-            height: 16px;
-        }
-        
-        .point-text {
-            font-size: 1.15rem;
-            line-height: 1.6;
-            color: var(--text-primary);
-        }
-        
-        /* Stats */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-        
-        .stat-card {
-            background: var(--bg-secondary);
-            padding: 30px;
+            padding: 20px 25px;
+            background: var(--card);
             border-radius: 16px;
-            text-align: center;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-            animation: scaleIn 0.5s ease forwards;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            animation: fadeInPoint 0.4s ease forwards;
             opacity: 0;
-            transform: scale(0.9);
+            border-left: 4px solid var(--accent);
         }
         
-        .slide.active .stat-card:nth-child(1) { animation-delay: 0.2s; }
-        .slide.active .stat-card:nth-child(2) { animation-delay: 0.4s; }
-        .slide.active .stat-card:nth-child(3) { animation-delay: 0.6s; }
+        .slide.active .point:nth-child(1) { animation-delay: 0.3s; }
+        .slide.active .point:nth-child(2) { animation-delay: 0.5s; }
+        .slide.active .point:nth-child(3) { animation-delay: 0.7s; }
+        .slide.active .point:nth-child(4) { animation-delay: 0.9s; }
         
-        @keyframes scaleIn {
-            to { opacity: 1; transform: scale(1); }
+        @keyframes fadeInPoint {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
         }
         
-        .stat-number {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--accent);
-            margin-bottom: 8px;
+        .point-bullet {
+            flex-shrink: 0;
+            width: 10px;
+            height: 10px;
+            margin-top: 6px;
+            background: var(--accent);
+            border-radius: 50%;
         }
         
-        .stat-label {
-            font-size: 1rem;
-            color: var(--text-secondary);
+        .point p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--text);
         }
         
-        /* Illustration Area */
-        .illustration-area {
-            display: flex;
-            align-items: center;
+        /* Summary Slide */
+        .summary-slide {
             justify-content: center;
-            background: var(--bg-secondary);
-            border-radius: 24px;
-            padding: 40px;
-            box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+            align-items: center;
         }
         
-        .main-illustration {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-            animation: illustrationIn 0.8s ease forwards;
+        .summary-slide h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 50px;
+            color: var(--text);
         }
         
-        @keyframes illustrationIn {
-            from { opacity: 0; transform: scale(0.95); }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 900px;
+        }
+        
+        .summary-image {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            animation: zoomIn 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        .summary-image:nth-child(1) { animation-delay: 0.1s; }
+        .summary-image:nth-child(2) { animation-delay: 0.2s; }
+        .summary-image:nth-child(3) { animation-delay: 0.3s; }
+        .summary-image:nth-child(4) { animation-delay: 0.4s; }
+        
+        @keyframes zoomIn {
+            from { opacity: 0; transform: scale(0.8); }
             to { opacity: 1; transform: scale(1); }
+        }
+        
+        .summary-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
         }
         
         /* Control Bar */
         .control-bar {
-            height: 80px;
-            background: var(--bg-secondary);
+            height: 70px;
+            background: var(--card);
             display: flex;
             align-items: center;
-            padding: 0 40px;
-            gap: 24px;
+            padding: 0 30px;
+            gap: 20px;
             border-top: 1px solid #e2e8f0;
         }
         
         .play-btn {
-            width: 56px;
-            height: 56px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             background: var(--accent);
             border: none;
@@ -240,41 +282,45 @@
             align-items: center;
             justify-content: center;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
+            box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
         }
         
         .play-btn:hover {
             transform: scale(1.05);
-            box-shadow: 0 6px 20px rgba(14, 165, 233, 0.5);
         }
         
         .play-btn svg {
-            width: 24px;
-            height: 24px;
+            width: 22px;
+            height: 22px;
             fill: white;
         }
         
-        .title-info {
-            flex: 0 0 auto;
+        .info {
+            min-width: 200px;
         }
         
-        .title-info h3 {
-            font-size: 1rem;
+        .info h3 {
+            font-size: 0.95rem;
             font-weight: 600;
-            color: var(--text-primary);
+            color: var(--text);
         }
         
-        .title-info p {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
+        .info p {
+            font-size: 0.8rem;
+            color: var(--text-light);
         }
         
-        /* Progress */
-        .progress-container {
+        .progress-area {
             flex: 1;
             display: flex;
             align-items: center;
-            gap: 16px;
+            gap: 15px;
+        }
+        
+        .time {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-variant-numeric: tabular-nums;
         }
         
         .progress-bar {
@@ -283,129 +329,95 @@
             background: #e2e8f0;
             border-radius: 3px;
             cursor: pointer;
-            position: relative;
             overflow: hidden;
         }
         
         .progress-fill {
             height: 100%;
-            background: linear-gradient(90deg, var(--accent), var(--success));
-            border-radius: 3px;
+            background: linear-gradient(90deg, var(--accent), #10b981);
             width: 0%;
-            transition: width 0.1s linear;
+            transition: width 0.1s;
         }
         
-        .time-display {
+        .slide-num {
             font-size: 0.9rem;
-            color: var(--text-secondary);
-            font-variant-numeric: tabular-nums;
-            min-width: 50px;
+            color: var(--text-light);
         }
         
-        /* Slide Counter */
-        .slide-counter {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-        
-        .slide-counter .current {
+        .slide-num .current {
             color: var(--accent);
             font-weight: 600;
         }
         
-        /* Volume */
-        .volume-control {
+        .volume-area {
             display: flex;
             align-items: center;
             gap: 8px;
         }
         
-        .volume-btn {
+        .vol-btn {
             background: none;
             border: none;
             cursor: pointer;
-            padding: 8px;
-            color: var(--text-secondary);
-            transition: color 0.3s;
+            color: var(--text-light);
         }
         
-        .volume-btn:hover {
-            color: var(--accent);
-        }
-        
-        .volume-btn svg {
-            width: 22px;
-            height: 22px;
+        .vol-btn svg {
+            width: 20px;
+            height: 20px;
             fill: currentColor;
         }
         
-        .volume-slider {
-            width: 80px;
+        .vol-slider {
+            width: 70px;
             height: 4px;
             -webkit-appearance: none;
             background: #e2e8f0;
             border-radius: 2px;
-            cursor: pointer;
         }
         
-        .volume-slider::-webkit-slider-thumb {
+        .vol-slider::-webkit-slider-thumb {
             -webkit-appearance: none;
-            width: 14px;
-            height: 14px;
+            width: 12px;
+            height: 12px;
             background: var(--accent);
             border-radius: 50%;
-            cursor: pointer;
-            transition: transform 0.2s;
         }
         
-        .volume-slider::-webkit-slider-thumb:hover {
-            transform: scale(1.2);
-        }
-        
-        /* Fullscreen */
-        .fullscreen-btn {
+        .fs-btn {
             background: none;
             border: none;
             cursor: pointer;
-            padding: 8px;
-            color: var(--text-secondary);
-            transition: color 0.3s;
+            color: var(--text-light);
+            padding: 5px;
         }
         
-        .fullscreen-btn:hover {
-            color: var(--accent);
-        }
-        
-        .fullscreen-btn svg {
-            width: 22px;
-            height: 22px;
+        .fs-btn svg {
+            width: 20px;
+            height: 20px;
             fill: currentColor;
         }
         
         /* Loading */
-        .loading-overlay {
+        .loading {
             position: fixed;
             inset: 0;
-            background: var(--bg-primary);
+            background: var(--bg);
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            z-index: 1000;
-            transition: opacity 0.5s;
+            z-index: 100;
+            transition: opacity 0.4s;
         }
         
-        .loading-overlay.hidden {
+        .loading.hidden {
             opacity: 0;
             pointer-events: none;
         }
         
-        .loading-spinner {
-            width: 50px;
-            height: 50px;
+        .spinner {
+            width: 40px;
+            height: 40px;
             border: 3px solid #e2e8f0;
             border-top-color: var(--accent);
             border-radius: 50%;
@@ -416,367 +428,287 @@
             to { transform: rotate(360deg); }
         }
         
-        .loading-text {
-            margin-top: 20px;
-            color: var(--text-secondary);
-        }
-        
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .slide {
+        @media (max-width: 1200px) {
+            .content-layout {
                 grid-template-columns: 1fr;
-                padding: 40px;
             }
-            
-            .illustration-area {
+            .left-image, .right-image {
                 display: none;
-            }
-            
-            .main-title {
-                font-size: 2.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loading-spinner"></div>
-        <p class="loading-text">Loading presentation...</p>
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
     </div>
     
-    <div class="presentation-container">
-        <div class="slides-wrapper">
+    <div class="presentation">
+        <div class="slides-area">
             
             <div class="slide title-slide" data-index="0">
-                <div class="slide-content-area">
-                    <div class="title-content">
-                        <h1 class="main-title">Genetics Fundamentals</h1>
-                        <p class="subtitle">Educational Module</p>
-                    </div>
+                <div class="title-content">
+                    <h1>Genetics Fundamentals</h1>
+                    <p class="subtitle">General Biology</p>
                 </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="" class="main-illustration">
+                <div class="hero-images-row">
+                    <div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt=""></div><div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png" alt=""></div><div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png" alt=""></div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="1">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Introduction</h2>
-                    <div class="points-container">
-                        
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                <div class="slide-header">
+                    <h2>Introduction</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="">
                     </div>
-                    <div class="point-text">Welcome to this module on Genetics Fundamentals. In the next 12 minutes, we'll explore the key conce</div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Welcome to this module on Genetics Fundamentals. In the next 12 minutes, we'll explore the key concepts that will form t</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png" alt="">
+                    </div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="2">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Learning Objectives</h2>
-                    <div class="points-container">
+                <div class="slide-header">
+                    <h2>Learning Objectives</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png" alt="">
+                    </div>
+                    <div class="center-content">
                         
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">By the end of this session, you'll be able to:</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>By the end of this session, you'll be able to:</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Define and explain core terminology related to Genetics Fundamentals</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Define and explain core terminology related to Genetics Fundamentals</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Identify key principles and their clinical applications</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Identify key principles and their clinical applications</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Apply this knowledge to practical scenarios</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Apply this knowledge to practical scenarios</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="3">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Section 1: Fundamentals</h2>
-                    <div class="points-container">
+                <div class="slide-header">
+                    <h2>Section 1: Fundamentals</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
                         
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Let's begin with the basic concepts. DNA structure is essential because it forms the foundation of o</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Let's begin with the basic concepts. DNA structure is essential because it forms the foundation of our understanding.</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">In clinical settings, you'll encounter these principles daily. For example, when assessing patients,</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>In clinical settings, you'll encounter these principles daily. For example, when assessing patients, knowledge of DNA st</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="">
+                    </div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="4">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Section 2: Clinical Applications</h2>
-                    <div class="points-container">
+                <div class="slide-header">
+                    <h2>Section 2: Clinical Applications</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png" alt="">
+                    </div>
+                    <div class="center-content">
                         
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant </div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant symptoms - your unde</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">The key steps in clinical application include:</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>The key steps in clinical application include:</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">1. Assessment based on foundational knowledge</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>1. Assessment based on foundational knowledge</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">2. Integration of findings</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>2. Integration of findings</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png" alt="">
+                    </div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="5">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Section 3: Advanced Concepts</h2>
-                    <div class="points-container">
+                <div class="slide-header">
+                    <h2>Section 3: Advanced Concepts</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                    <div class="center-content">
                         
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Building on our foundation, let's examine Transcription. These advanced concepts connect what we've </div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Building on our foundation, let's examine Transcription. These advanced concepts connect what we've learned to more comp</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Healthcare professionals must integrate multiple concepts when managing patient care. This requires:</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Strong foundational knowledge</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Strong foundational knowledge</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Critical thinking skills</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Critical thinking skills</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
                 </div>
             </div>
             
             <div class="slide content-slide" data-index="6">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Summary</h2>
-                    <div class="points-container">
+                <div class="slide-header">
+                    <h2>Summary</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="">
+                    </div>
+                    <div class="center-content">
                         
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Core concepts of Genetics Fundamentals</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Core concepts of Genetics Fundamentals</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Clinical applications and relevance</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical applications and relevance</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Advanced topics for deeper understanding</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Advanced topics for deeper understanding</p>
                 </div>
                 
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</div>
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Key takeaway: These fundamentals will serve you throughout your career.</p>
                 </div>
                 
                     </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt="" class="main-illustration">
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png" alt="">
+                    </div>
                 </div>
             </div>
             
-            <div class="slide stats-slide" data-index="7">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Key Numbers</h2>
-                    <div class="stats-grid">
-                        
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Main Components</div>
-                </div>
-                
-                <div class="stat-card">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Visual Learning</div>
-                </div>
-                
-                <div class="stat-card">
-                    <div class="stat-number">12</div>
-                    <div class="stat-label">Minutes Duration</div>
-                </div>
-                
-                    </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/bc48f99a753b5699d104fe3caf5452877c8ce777c116a3ec53921f4d7c81715f.png" alt="" class="main-illustration">
-                </div>
-            </div>
-            
-            <div class="slide content-slide" data-index="8">
-                <div class="slide-content-area">
-                    <h2 class="section-title">Key Takeaways</h2>
-                    <div class="points-container">
-                        
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Understanding cellular structure is fundamental</div>
-                </div>
-                
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Each organelle has a specific function</div>
-                </div>
-                
-                <div class="point-item">
-                    <div class="point-icon">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    </div>
-                    <div class="point-text">Cells are the building blocks of life</div>
-                </div>
-                
-                    </div>
-                </div>
-                <div class="illustration-area">
-                    <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/bc48f99a753b5699d104fe3caf5452877c8ce777c116a3ec53921f4d7c81715f.png" alt="" class="main-illustration">
+            <div class="slide summary-slide" data-index="7">
+                <h2>Key Concepts</h2>
+                <div class="summary-grid">
+                    <div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt=""></div>
                 </div>
             </div>
             
         </div>
         
         <div class="control-bar">
-            <button class="play-btn" id="playBtn" title="Play/Pause">
+            <button class="play-btn" id="playBtn">
                 <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                 <svg id="pauseIcon" style="display:none" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
             </button>
             
-            <div class="title-info">
+            <div class="info">
                 <h3>Genetics Fundamentals</h3>
                 <p>General Biology</p>
             </div>
             
-            <div class="progress-container">
-                <span class="time-display" id="currentTime">0:00</span>
+            <div class="progress-area">
+                <span class="time" id="currentTime">0:00</span>
                 <div class="progress-bar" id="progressBar">
                     <div class="progress-fill" id="progressFill"></div>
                 </div>
-                <span class="time-display" id="totalTime">0:00</span>
+                <span class="time" id="totalTime">0:00</span>
             </div>
             
-            <div class="slide-counter">
-                <span class="current" id="currentSlide">1</span>
-                <span>/</span>
-                <span id="totalSlides">9</span>
+            <div class="slide-num">
+                <span class="current" id="slideNum">1</span> / 8
             </div>
             
-            <div class="volume-control">
-                <button class="volume-btn" id="volumeBtn">
-                    <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            <div class="volume-area">
+                <button class="vol-btn">
+                    <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
                 </button>
-                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+                <input type="range" class="vol-slider" id="volSlider" min="0" max="1" step="0.1" value="1">
             </div>
             
-            <button class="fullscreen-btn" id="fullscreenBtn" title="Fullscreen">
+            <button class="fs-btn" id="fsBtn">
                 <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
             </button>
         </div>
     </div>
     
-    <audio id="audioPlayer" preload="auto">
+    <audio id="audio" preload="auto">
         <source src="/api/audio/UG_DENT_Y1_S1_C01_M02.mp3" type="audio/mpeg">
     </audio>
     
     <script>
-        const audio = document.getElementById('audioPlayer');
+        const audio = document.getElementById('audio');
         const playBtn = document.getElementById('playBtn');
         const playIcon = document.getElementById('playIcon');
         const pauseIcon = document.getElementById('pauseIcon');
@@ -784,74 +716,41 @@
         const progressFill = document.getElementById('progressFill');
         const currentTimeEl = document.getElementById('currentTime');
         const totalTimeEl = document.getElementById('totalTime');
-        const currentSlideEl = document.getElementById('currentSlide');
-        const volumeSlider = document.getElementById('volumeSlider');
-        const fullscreenBtn = document.getElementById('fullscreenBtn');
-        const loadingOverlay = document.getElementById('loadingOverlay');
+        const slideNumEl = document.getElementById('slideNum');
+        const volSlider = document.getElementById('volSlider');
+        const fsBtn = document.getElementById('fsBtn');
+        const loading = document.getElementById('loading');
         
         const slides = document.querySelectorAll('.slide');
-        const totalSlides = slides.length;
-        let currentSlide = 0;
-        let previousSlide = 0;
+        const total = slides.length;
+        let current = 0;
         
-        function formatTime(seconds) {
-            const mins = Math.floor(seconds / 60);
-            const secs = Math.floor(seconds % 60);
-            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        function fmt(s) {
+            return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
         }
         
-        function showSlide(index) {
-            if (index === currentSlide) return;
-            
-            previousSlide = currentSlide;
-            currentSlide = index;
-            
-            slides.forEach((s, i) => {
-                s.classList.remove('active', 'exit');
-                if (i === currentSlide) {
-                    s.classList.add('active');
-                } else if (i === previousSlide) {
-                    s.classList.add('exit');
-                }
-            });
-            
-            currentSlideEl.textContent = currentSlide + 1;
+        function show(idx) {
+            slides.forEach((s,i) => s.classList.toggle('active', i === idx));
+            current = idx;
+            slideNumEl.textContent = idx + 1;
         }
         
-        function updateSlideFromTime() {
+        function updateFromTime() {
             if (!audio.duration) return;
-            
-            const progress = audio.currentTime / audio.duration;
-            const slideIndex = Math.min(
-                Math.floor(progress * totalSlides),
-                totalSlides - 1
-            );
-            
-            if (slideIndex !== currentSlide) {
-                showSlide(slideIndex);
-            }
+            const idx = Math.min(Math.floor((audio.currentTime / audio.duration) * total), total - 1);
+            if (idx !== current) show(idx);
         }
         
-        function togglePlay() {
-            if (audio.paused) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
-        }
-        
-        // Events
         audio.addEventListener('loadedmetadata', () => {
-            totalTimeEl.textContent = formatTime(audio.duration);
-            loadingOverlay.classList.add('hidden');
-            slides[0].classList.add('active');
+            totalTimeEl.textContent = fmt(audio.duration);
+            loading.classList.add('hidden');
+            show(0);
         });
         
         audio.addEventListener('timeupdate', () => {
-            const progress = (audio.currentTime / audio.duration) * 100;
-            progressFill.style.width = `${progress}%`;
-            currentTimeEl.textContent = formatTime(audio.currentTime);
-            updateSlideFromTime();
+            progressFill.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+            currentTimeEl.textContent = fmt(audio.currentTime);
+            updateFromTime();
         });
         
         audio.addEventListener('play', () => {
@@ -864,35 +763,28 @@
             pauseIcon.style.display = 'none';
         });
         
-        playBtn.addEventListener('click', togglePlay);
+        playBtn.onclick = () => audio.paused ? audio.play() : audio.pause();
         
-        progressBar.addEventListener('click', (e) => {
+        progressBar.onclick = (e) => {
             const rect = progressBar.getBoundingClientRect();
-            const pos = (e.clientX - rect.left) / rect.width;
-            audio.currentTime = pos * audio.duration;
-        });
+            audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+        };
         
-        volumeSlider.addEventListener('input', (e) => {
-            audio.volume = e.target.value;
-        });
+        volSlider.oninput = (e) => audio.volume = e.target.value;
         
-        fullscreenBtn.addEventListener('click', () => {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen();
-            } else {
-                document.exitFullscreen();
-            }
-        });
+        fsBtn.onclick = () => {
+            if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+            else document.exitFullscreen();
+        };
         
-        document.addEventListener('keydown', (e) => {
-            if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
-            else if (e.code === 'ArrowRight') { audio.currentTime = Math.min(audio.currentTime + 5, audio.duration); }
-            else if (e.code === 'ArrowLeft') { audio.currentTime = Math.max(audio.currentTime - 5, 0); }
-            else if (e.code === 'KeyF') { fullscreenBtn.click(); }
-        });
+        document.onkeydown = (e) => {
+            if (e.code === 'Space') { e.preventDefault(); playBtn.click(); }
+            if (e.code === 'ArrowRight') audio.currentTime += 5;
+            if (e.code === 'ArrowLeft') audio.currentTime -= 5;
+            if (e.code === 'KeyF') fsBtn.click();
+        };
         
-        // Initialize
-        showSlide(0);
+        show(0);
     </script>
 </body>
 </html>
