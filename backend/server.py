@@ -720,6 +720,177 @@ async def generate_course_presentations(course_id: str):
         "results": results
     }
 
+# ==================== 50/50 AVATAR PRESENTATION ROUTES ====================
+
+@api_router.get("/presentations-50-50/{module_id}")
+async def get_50_50_presentation(module_id: str):
+    """Get 50/50 avatar presentation for a module"""
+    from starlette.responses import HTMLResponse
+    
+    presentation_path = Path(f"/app/backend/presentations/{module_id}_50_50.html")
+    
+    if not presentation_path.exists():
+        raise HTTPException(status_code=404, detail="50/50 Presentation not found")
+    
+    with open(presentation_path, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    
+    return HTMLResponse(content=html_content, media_type="text/html")
+
+@api_router.post("/presentations-50-50/generate/{module_id}")
+async def generate_50_50_presentation(module_id: str, video_url: Optional[str] = None):
+    """Generate 50/50 avatar presentation for a module"""
+    from avatar_50_50_presentation import create_avatar_presentation_50_50
+    from pymongo import MongoClient
+    
+    sync_client = MongoClient('mongodb://localhost:27017')
+    sync_db = sync_client['test_database']
+    
+    module = sync_db.modules.find_one({"module_id": module_id})
+    if not module:
+        raise HTTPException(status_code=404, detail="Module not found")
+    
+    script = sync_db.module_scripts.find_one({"module_id": module_id})
+    if not script:
+        raise HTTPException(status_code=400, detail="No script found for module")
+    
+    import asyncio
+    result = asyncio.get_event_loop().run_until_complete(
+        create_avatar_presentation_50_50(module_id, sync_db, video_url)
+    )
+    
+    return result
+
+@api_router.api_route("/avatar-videos/{module_id}", methods=["GET", "HEAD"])
+async def serve_avatar_video(module_id: str, request: Request):
+    """Serve avatar video file"""
+    from starlette.responses import StreamingResponse
+    
+    video_paths = [
+        Path(f"/app/backend/heygen_videos/{module_id}_avatar.mp4"),
+        Path(f"/app/backend/heygen_videos/{module_id}.mp4"),
+        Path(f"/app/backend/heygen_videos/{module_id}_5min.mp4"),
+        Path(f"/app/backend/heygen_videos/{module_id}_full.mp4"),
+    ]
+    
+    video_path = None
+    for vp in video_paths:
+        if vp.exists():
+            video_path = vp
+            break
+    
+    if not video_path:
+        raise HTTPException(status_code=404, detail="Avatar video not found")
+    
+    file_size = video_path.stat().st_size
+    range_header = request.headers.get("range")
+    
+    if range_header:
+        range_match = range_header.replace("bytes=", "").split("-")
+        start = int(range_match[0]) if range_match[0] else 0
+        end = int(range_match[1]) if range_match[1] else file_size - 1
+        
+        if start >= file_size:
+            raise HTTPException(status_code=416, detail="Range not satisfiable")
+        if end >= file_size:
+            end = file_size - 1
+        
+        content_length = end - start + 1
+        
+        def iter_file():
+            with open(video_path, "rb") as f:
+                f.seek(start)
+                remaining = content_length
+                while remaining > 0:
+                    chunk_size = min(8192, remaining)
+                    data = f.read(chunk_size)
+                    if not data:
+                        break
+                    remaining -= len(data)
+                    yield data
+        
+        return StreamingResponse(
+            iter_file(),
+            status_code=206,
+            media_type="video/mp4",
+            headers={
+                "Content-Range": f"bytes {start}-{end}/{file_size}",
+                "Accept-Ranges": "bytes",
+                "Content-Length": str(content_length),
+                "Content-Type": "video/mp4",
+            }
+        )
+    
+    return FileResponse(
+        video_path,
+        media_type="video/mp4",
+        filename=f"{module_id}.mp4",
+        headers={
+            "Accept-Ranges": "bytes",
+            "Content-Length": str(file_size)
+        }
+    )
+
+@api_router.post("/avatar-videos/generate/{module_id}")
+async def generate_avatar_video(module_id: str, background_tasks: BackgroundTasks):
+    """Generate HeyGen avatar video from existing audio file"""
+    from avatar_50_50_presentation import generate_avatar_video_from_audio
+    from pymongo import MongoClient
+    
+    audio_path = Path(f"/app/backend/audio/{module_id}.mp3")
+    if not audio_path.exists():
+        raise HTTPException(status_code=400, detail=f"No audio file found for {module_id}")
+    
+    sync_client = MongoClient('mongodb://localhost:27017')
+    sync_db = sync_client['test_database']
+    
+    async def run_generation():
+        result = await generate_avatar_video_from_audio(module_id, sync_db)
+        await db.avatar_video_jobs.update_one(
+            {"module_id": module_id},
+            {"$set": {
+                "module_id": module_id,
+                "status": "completed" if result.get("success") else "failed",
+                "result": result,
+                "updated_at": datetime.now(timezone.utc).isoformat()
+            }},
+            upsert=True
+        )
+    
+    await db.avatar_video_jobs.update_one(
+        {"module_id": module_id},
+        {"$set": {
+            "module_id": module_id,
+            "status": "processing",
+            "started_at": datetime.now(timezone.utc).isoformat()
+        }},
+        upsert=True
+    )
+    
+    background_tasks.add_task(run_generation)
+    
+    return {
+        "message": f"Avatar video generation started for {module_id}",
+        "module_id": module_id,
+        "status": "processing"
+    }
+
+@api_router.get("/avatar-videos/status/{module_id}")
+async def get_avatar_video_status(module_id: str):
+    """Get avatar video generation status"""
+    job = await db.avatar_video_jobs.find_one({"module_id": module_id}, {"_id": 0})
+    if not job:
+        video_exists = (
+            Path(f"/app/backend/heygen_videos/{module_id}_avatar.mp4").exists() or
+            Path(f"/app/backend/heygen_videos/{module_id}.mp4").exists()
+        )
+        return {
+            "module_id": module_id,
+            "status": "completed" if video_exists else "not_started",
+            "video_exists": video_exists
+        }
+    return job
+
 @api_router.api_route("/videos/{module_id}/file", methods=["GET", "HEAD"])
 async def serve_module_video_file(module_id: str, request: Request):
     """Serve video file for a module with range request support"""
