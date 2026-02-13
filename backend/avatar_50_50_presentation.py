@@ -454,23 +454,25 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         }}
         
         .title-slide h1 {{
-            font-size: 2.5rem;
-            font-weight: 700;
+            font-size: 3.5rem;
+            font-weight: 800;
             background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 30px rgba(56, 189, 248, 0.3);
         }}
         
         .course-name {{
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             color: var(--text-muted);
             margin-bottom: 40px;
+            font-weight: 600;
         }}
         
         .title-image {{
-            max-width: 350px;
+            max-width: 400px;
             background: var(--card);
             border-radius: 16px;
             padding: 15px;
@@ -484,10 +486,10 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         
         /* Content Slide */
         .content-slide h2 {{
-            font-size: 1.6rem;
-            font-weight: 600;
+            font-size: 2.2rem;
+            font-weight: 700;
             color: var(--text);
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             padding-bottom: 15px;
             border-bottom: 2px solid var(--card);
             position: relative;
@@ -498,8 +500,8 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             position: absolute;
             bottom: -2px;
             left: 0;
-            width: 80px;
-            height: 2px;
+            width: 100px;
+            height: 3px;
             background: var(--gradient);
         }}
         
@@ -514,7 +516,7 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             background: var(--card);
             border-radius: 12px;
             padding: 12px;
-            max-width: 280px;
+            max-width: 320px;
         }}
         
         .slide-image img {{
