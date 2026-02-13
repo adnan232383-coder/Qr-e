@@ -863,9 +863,9 @@ async def create_rich_presentation(module_id: str, db) -> Dict:
     script_text = script_doc.get("script_text", "")
     module_title = module.get("title", module_id)
     
-    print(f"Creating: {module_title}")
+    print(f"Creating: {module_title} ({course_name})")
     
-    slides = parse_script_to_rich_slides(script_text, module_title)
+    slides = parse_script_to_rich_slides(script_text, module_title, course_name)
     html = generate_rich_html(slides, module_id, module_title, course_name)
     
     path = PRESENTATIONS_DIR / f"{module_id}.html"
