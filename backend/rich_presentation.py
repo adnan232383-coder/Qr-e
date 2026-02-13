@@ -36,6 +36,16 @@ IMAGES = {
     
     # Icons
     "icons": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/bc48f99a753b5699d104fe3caf5452877c8ce777c116a3ec53921f4d7c81715f.png",
+    
+    # DENTAL - Endodontics & Restorative
+    "tooth_anatomy": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/de71f85ab3c53fb5fb0f037d7453bf194df5deb55fba729e8dc993eb6e7f3a77.png",
+    "dental_instruments": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/e73e57fdd4609ae5ea1f8a33bac8bece1e825a888e8051cc738b3c5f466d95a7.png",
+    "dental_restoration": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/91cb5fe80e7dc8ee4133cc77965249a28ce2dcaf407423c6ca1b2dd7008db76f.png",
+    "root_canal": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/f49ac82dc9f54808b7c78b9749cd3f11790fdc8a7b561db105271f3a11361fce.png",
+    "dental_xray": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/315479269c6bb29c3f481606593e121c4fc56736335527081d6699bc869d5996.png",
+    "pulp_infection": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/16d68af7809ae10728ce9a12dda84359ab21d47bd2ee390673f3657650f9fc2e.png",
+    "rubber_dam": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/9abba951790d8002ddd4c7f3df41b8dfe6efd5e7e4e301cc8daf2080bb09dc5d.png",
+    "dental_crown": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/f58663c013b25905529c6d5b5d81747bd51d6327f9d93f890e905bcbee3ff39a.png",
 }
 
 
