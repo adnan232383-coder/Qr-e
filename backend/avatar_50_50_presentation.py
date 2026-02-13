@@ -528,29 +528,30 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             list-style: none;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
         }}
         
         .points li {{
             display: flex;
             align-items: flex-start;
-            gap: 12px;
-            padding: 14px 18px;
+            gap: 15px;
+            padding: 18px 22px;
             background: var(--card);
-            border-radius: 10px;
-            font-size: 0.95rem;
-            line-height: 1.5;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.6;
             animation: slideIn 0.4s ease forwards;
             opacity: 0;
-            border-left: 3px solid var(--accent);
+            border-left: 4px solid var(--accent);
         }}
         
         .points li .bullet {{
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             background: var(--accent);
             border-radius: 50%;
-            margin-top: 8px;
+            margin-top: 10px;
             flex-shrink: 0;
         }}
         
@@ -562,6 +563,101 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         @keyframes slideIn {{
             from {{ opacity: 0; transform: translateX(20px); }}
             to {{ opacity: 1; transform: translateX(0); }}
+        }}
+        
+        /* Subtitles Container */
+        .subtitles-container {{
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            z-index: 50;
+            pointer-events: none;
+        }}
+        
+        .subtitle-text {{
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 15px 30px;
+            border-radius: 10px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            max-width: 100%;
+        }}
+        
+        .subtitle-text.hebrew {{
+            direction: rtl;
+            font-family: 'Heebo', 'Arial Hebrew', sans-serif;
+        }}
+        
+        .subtitles-toggle {{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        
+        .subtitles-toggle:hover {{
+            background: rgba(56, 189, 248, 0.3);
+        }}
+        
+        .subtitles-toggle.active {{
+            background: rgba(56, 189, 248, 0.5);
+            border-color: var(--accent);
+        }}
+        
+        /* Language selector */
+        .lang-selector {{
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 100;
+            display: none;
+        }}
+        
+        .lang-selector.show {{
+            display: block;
+        }}
+        
+        .lang-option {{
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: white;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }}
+        
+        .lang-option:last-child {{
+            border-bottom: none;
+        }}
+        
+        .lang-option:hover {{
+            background: rgba(56, 189, 248, 0.3);
+        }}
+        
+        .lang-option.selected {{
+            background: rgba(56, 189, 248, 0.5);
         }}
         
         /* Control Bar */
