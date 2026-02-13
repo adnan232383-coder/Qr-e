@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction & Fundamentals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --accent: #0ea5e9;
+            --accent-light: #e0f2fe;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            overflow: hidden;
+        }
+        
+        .presentation {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slides-area {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Slides */
+        .slide {
+            position: absolute;
+            inset: 0;
+            padding: 40px 60px;
+            opacity: 0;
+            transform: translateX(100px);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: auto;
+        }
+        
+        /* Title Slide */
+        .title-slide {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .title-content {
+            margin-bottom: 50px;
+        }
+        
+        .title-slide h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: var(--text-light);
+        }
+        
+        .hero-images-row {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            max-width: 1200px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            max-width: 350px;
+            background: var(--card);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            animation: floatUp 0.6s ease forwards;
+            opacity: 0;
+        }
+        
+        .hero-image:nth-child(1) { animation-delay: 0.2s; }
+        .hero-image:nth-child(2) { animation-delay: 0.4s; }
+        .hero-image:nth-child(3) { animation-delay: 0.6s; }
+        
+        @keyframes floatUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        /* Content Slide */
+        .content-slide {
+            padding: 30px 40px;
+        }
+        
+        .slide-header {
+            margin-bottom: 30px;
+        }
+        
+        .slide-header h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--text);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .slide-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+        
+        .content-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr 280px;
+            gap: 40px;
+            flex: 1;
+            align-items: center;
+        }
+        
+        .left-image, .right-image {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+            animation: slideIn 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        .left-image { animation-delay: 0.2s; }
+        .right-image { animation-delay: 0.4s; }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .left-image img, .right-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
+        .point {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px 25px;
+            background: var(--card);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            animation: fadeInPoint 0.4s ease forwards;
+            opacity: 0;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .slide.active .point:nth-child(1) { animation-delay: 0.3s; }
+        .slide.active .point:nth-child(2) { animation-delay: 0.5s; }
+        .slide.active .point:nth-child(3) { animation-delay: 0.7s; }
+        .slide.active .point:nth-child(4) { animation-delay: 0.9s; }
+        
+        @keyframes fadeInPoint {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .point-bullet {
+            flex-shrink: 0;
+            width: 10px;
+            height: 10px;
+            margin-top: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+        
+        .point p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--text);
+        }
+        
+        /* Summary Slide */
+        .summary-slide {
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .summary-slide h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 50px;
+            color: var(--text);
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 900px;
+        }
+        
+        .summary-image {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            animation: zoomIn 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        .summary-image:nth-child(1) { animation-delay: 0.1s; }
+        .summary-image:nth-child(2) { animation-delay: 0.2s; }
+        .summary-image:nth-child(3) { animation-delay: 0.3s; }
+        .summary-image:nth-child(4) { animation-delay: 0.4s; }
+        
+        @keyframes zoomIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .summary-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        /* Control Bar */
+        .control-bar {
+            height: 70px;
+            background: var(--card);
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            gap: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .play-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+        }
+        
+        .play-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .play-btn svg {
+            width: 22px;
+            height: 22px;
+            fill: white;
+        }
+        
+        .info {
+            min-width: 200px;
+        }
+        
+        .info h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .info p {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+        
+        .progress-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .time {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .progress-bar {
+            flex: 1;
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 3px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), #10b981);
+            width: 0%;
+            transition: width 0.1s;
+        }
+        
+        .slide-num {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        
+        .slide-num .current {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .volume-area {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .vol-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-light);
+        }
+        
+        .vol-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        .vol-slider {
+            width: 70px;
+            height: 4px;
+            -webkit-appearance: none;
+            background: #e2e8f0;
+            border-radius: 2px;
+        }
+        
+        .vol-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+        
+        .fs-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-light);
+            padding: 5px;
+        }
+        
+        .fs-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        /* Loading */
+        .loading {
+            position: fixed;
+            inset: 0;
+            background: var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            transition: opacity 0.4s;
+        }
+        
+        .loading.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e2e8f0;
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 1200px) {
+            .content-layout {
+                grid-template-columns: 1fr;
+            }
+            .left-image, .right-image {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+    
+    <div class="presentation">
+        <div class="slides-area">
+            
+            <div class="slide title-slide" data-index="0">
+                <div class="title-content">
+                    <h1>Introduction & Fundamentals</h1>
+                    <p class="subtitle">Endodontics I</p>
+                </div>
+                <div class="hero-images-row">
+                    <div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt=""></div><div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt=""></div><div class="hero-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt=""></div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="1">
+                <div class="slide-header">
+                    <h2>Video Lecture Script (Target ~12 minutes / ~1800 words)</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="2">
+                <div class="slide-header">
+                    <h2>1) Introduction & Learning Objectives</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Welcome to Endodontics I. In this module—Introduction and Fundamentals—we’ll build the foundation for everything you’ll </p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Endodontics is often described as “root canal therapy,” but that’s only one part of the picture. At its core, endodontic</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="3">
+                <div class="slide-header">
+                    <h2>Learning Objectives</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>By the end of this lecture, you should be able to:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>1. Define and correctly use essential [EMPHASIS] endodontic terminology.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>2. Explain the basic biological and mechanical principles behind endodontic treatment.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>3. Describe the overall workflow of endodontic care—from diagnosis to obturation and follow-up.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="4">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="5">
+                <div class="slide-header">
+                    <h2>2) Why Endodontics Matters: The Big Picture</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Let’s start with the “why.” Teeth are meant to last a lifetime, and endodontic therapy is a major tool for preserving na</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>A helpful mindset is this: endodontics is not a single procedure. It is a **sequence** of biological and mechanical step</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="6">
+                <div class="slide-header">
+                    <h2>Quick Summary: Big Picture</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Endodontics aims to **retain the natural tooth**.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Most endodontic disease is **microbial** in origin.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Success depends on **diagnosis**, **cleaning/shaping**, **disinfection**, and **sealing**.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="7">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="8">
+                <div class="slide-header">
+                    <h2>3) Key Terms: Speaking the Language of Endodontics</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Before we go further, let’s clarify key terms you’ll hear throughout this course.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="9">
+                <div class="slide-header">
+                    <h2>Core Anatomy & Tissues</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Pulp**: soft connective tissue inside the tooth containing nerves, blood vessels, immune cells, and odontoblasts.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Apical foramen**: the main portal where nerves and vessels enter the tooth at the root tip.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Apical constriction**: the narrowest part of the canal system near the apex—often considered a key landmark for working length.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Periodontal ligament (PDL)**: connective tissue between root and bone—important in diagnosing periapical conditions.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="10">
+                <div class="slide-header">
+                    <h2>Disease & Diagnosis Terms</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Reversible pulpitis**: inflammation where the pulp can recover—classically sharp pain to cold that resolves quickly.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Irreversible pulpitis**: inflammation beyond recovery—often lingering pain, spontaneous pain, or pain that’s difficult to localize early on.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Pulp necrosis**: non-vital pulp—often no response to sensibility tests, may be asymptomatic until apical disease develops.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Apical periodontitis**: inflammation at the apex, usually due to infected/necrotic pulp—may be symptomatic or asymptomatic.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="11">
+                <div class="slide-header">
+                    <h2>Treatment Terms</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Working length**: the measured distance for cleaning and shaping—critical for effective disinfection and preventing over-instrumentation.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Chemomechanical debridement**: combined action of instruments and irrigants to remove tissue, microbes, and debris.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Obturation**: filling and sealing the cleaned canal system, typically with gutta-percha and a sealer.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Coronal seal**: the quality of the restoration sealing the tooth from the top—vital for preventing reinfection.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="12">
+                <div class="slide-header">
+                    <h2>Key Point</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>In endodontics, terminology isn’t just vocabulary—it guides your clinical decisions. Mislabel the diagnosis, and you ris</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="13">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="14">
+                <div class="slide-header">
+                    <h2>Principle 1: Endodontic Disease Is Mostly Microbial</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>The primary cause of apical periodontitis is microbial infection within the root canal system. That means treatment must</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>You are not just “removing the nerve.” You are managing an infection in a complex anatomical space.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="15">
+                <div class="slide-header">
+                    <h2>Principle 2: Root Canal Anatomy Is Complex</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Canals are rarely simple tubes. They may include fins, isthmuses, lateral canals, accessory canals, apical deltas, and c</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Irrigation** is the endodontic “equalizer,” reaching spaces instruments cannot.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="16">
+                <div class="slide-header">
+                    <h2>Principle 3: Respect the Apical Tissues</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Over-instrumentation can push debris and microbes beyond the apex and cause flare-ups. Under-instrumentation can leave i</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="17">
+                <div class="slide-header">
+                    <h2>Principle 4: A Seal Is as Important as Cleaning</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Even with excellent cleaning, poor obturation or poor coronal seal can allow reinfection. Endodontic success depends on </p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Apical seal through obturation</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Coronal seal through definitive restoration</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="18">
+                <div class="slide-header">
+                    <h2>Mini-Summary: Basic Principles</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Microbes drive disease → treatment targets microbes.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Anatomy is complex → you need irrigation + shaping strategies.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Control the apex → prevent extrusion and flare-ups.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Seal matters → obturation plus coronal restoration.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="19">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="20">
+                <div class="slide-header">
+                    <h2>5) Overview of Endodontic Workflow (From Start to Finish)</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Let’s zoom out and walk through a typical endodontic workflow. Think of it as a chain: if one link is weak, the outcome </p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="21">
+                <div class="slide-header">
+                    <h2>Step 1: Diagnosis & Case Selection</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Chief complaint and history of present illness</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical exam: percussion, palpation, periodontal probing, mobility</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Pulp sensibility tests: cold, heat, EPT (remember: these test *nerve response*, not true vitality)</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Radiographs, and when indicated, CBCT</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="22">
+                <div class="slide-header">
+                    <h2>Step 2: Treatment Planning & Informed Consent</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>You choose between options such as:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Vital pulp therapy (in selected cases)</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Non-surgical root canal treatment</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Retreatment</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="23">
+                <div class="slide-header">
+                    <h2>Step 3: Anesthesia & Isolation</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Profound anesthesia is non-negotiable, especially for irreversible pulpitis.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] **Rubber dam isolation** is the standard of care—protecting the patient, ensuring asepsis, and preventing sal</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="24">
+                <div class="slide-header">
+                    <h2>Step 4: Access Cavity Preparation</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Access is about creating a pathway that is:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Straight-line when possible</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Conservative but adequate</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Designed to locate all canals</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="25">
+                <div class="slide-header">
+                    <h2>Step 5: Working Length Determination</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Working length is determined using:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Electronic apex locator</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Radiographic verification</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Anatomical understanding</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="26">
+                <div class="slide-header">
+                    <h2>Step 6: Cleaning and Shaping</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>This is the heart of endodontics: shaping a canal to facilitate irrigation, remove infected contents, and create a form </p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Key concepts include:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Glide path</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Apical size and taper decisions</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="27">
+                <div class="slide-header">
+                    <h2>Step 7: Irrigation & Intracanal Disinfection</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Irrigants—especially sodium hypochlorite—help dissolve organic tissue and kill microbes. EDTA helps remove smear layer. </p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>In some cases, an intracanal medicament like calcium hydroxide may be used between visits.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="28">
+                <div class="slide-header">
+                    <h2>Step 8: Obturation and Coronal Seal</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Obturation aims to seal the canal system as completely as possible, commonly using gutta-percha with sealer via techniqu</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Finally, the tooth needs a timely and well-sealed restoration. A well-done root canal can fail if the coronal seal fails</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="29">
+                <div class="slide-header">
+                    <h2>Step 9: Follow-Up and Healing</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical success includes symptom resolution and function. Radiographic healing may take months. Follow-up is part of qu</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="30">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="31">
+                <div class="slide-header">
+                    <h2>Case 1: “Cold Sensitivity That Lingers”</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>A 28-year-old patient reports severe lingering pain to cold on the lower right side, especially at night. The pain lasts</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Interpretation: This pattern strongly suggests [EMPHASIS] irreversible pulpitis, potentially progressing. The mild percu</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical implications:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Expect anesthesia challenges</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="32">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>**Key Point:** Lingering thermal pain is a major clue. Always pair symptoms with tests and radiographs—don’t diagnose fr</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="33">
+                <div class="slide-header">
+                    <h2>Case 2: “No Response to Cold, But Pain on Biting”</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>A 45-year-old patient reports discomfort when chewing on an upper molar. Cold test: no response. Percussion: positive. P</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Interpretation: Likely [EMPHASIS] pulp necrosis with [EMPHASIS] symptomatic apical periodontitis.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical implications:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>The main target is microbial infection within the canal system</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="34">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>**Key Point:** A non-responsive cold test plus percussion tenderness often points to necrosis with apical involvement.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="35">
+                <div class="slide-header">
+                    <h2>Case 3: “Swelling and a ‘Pimple’ on the Gum”</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>A 36-year-old patient notices a recurring bump on the gum near a maxillary lateral incisor. Minimal pain. Cold test is n</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Interpretation: A chronic apical abscess with sinus tract drainage—typically from long-standing necrosis.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Clinical implications:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Trace the sinus tract with a gutta-percha point to confirm the source</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="36">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>**Key Point:** A sinus tract often means the body has created drainage. Your job is to eliminate the intraradicular sour</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="37">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="38">
+                <div class="slide-header">
+                    <h2>7) Common Misconceptions to Correct Early</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>1. “Root canal treatment removes all bacteria.”</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Reality: We reduce bacterial levels dramatically, then **seal** to prevent regrowth and reinfection.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>2. “If the radiograph looks normal, the pulp must be fine.”</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Reality: Pulpal disease can exist without radiographic changes, especially early.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="39">
+                <div class="slide-header">
+                    <h2>Quick Summary: Misconceptions</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Endodontics is **microbial management + sealing**, not “sterilization.”</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Diagnosis is **multi-factor**, not radiograph-only.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Anatomy is **complex**, so technique must be systematic.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="40">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="41">
+                <div class="slide-header">
+                    <h2>8) Periodic Wrap-Up: The Core Framework</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>If you remember one framework from this introductory module, make it this:</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>1. **Diagnose accurately** (pulpal + apical).</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>2. **Create access** that allows canal location and straight-line entry.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>3. **Determine working length** and maintain apical control.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="42">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="43">
+                <div class="slide-header">
+                    <h2>9) Conclusion & Key Takeaways</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>Endodontics begins with fundamentals: language, biology, anatomy, and a systematic approach. As you move through this co</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="44">
+                <div class="slide-header">
+                    <h2>Key Takeaways</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Endodontics treats pulpal and periapical disease, primarily driven by microbes.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Accurate diagnosis requires symptoms, tests, and imaging—never just one item.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Anatomy is complex; irrigation and disinfection are essential partners to instrumentation.</p>
+                </div>
+                
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>[EMPHASIS] Working length control and apical respect reduce complications and improve outcomes.</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="45">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>In the next module, we’ll deepen diagnostic reasoning and begin connecting testing outcomes to specific pulpal and apica</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide content-slide" data-index="46">
+                <div class="slide-header">
+                    <h2>Pause</h2>
+                </div>
+                <div class="content-layout">
+                    <div class="left-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt="">
+                    </div>
+                    <div class="center-content">
+                        
+                <div class="point">
+                    <div class="point-bullet"></div>
+                    <p>--</p>
+                </div>
+                
+                    </div>
+                    <div class="right-image">
+                        <img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide summary-slide" data-index="47">
+                <h2>Key Concepts</h2>
+                <div class="summary-grid">
+                    <div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png" alt=""></div><div class="summary-image"><img src="https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png" alt=""></div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="control-bar">
+            <button class="play-btn" id="playBtn">
+                <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                <svg id="pauseIcon" style="display:none" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            
+            <div class="info">
+                <h3>Introduction & Fundamentals</h3>
+                <p>Endodontics I</p>
+            </div>
+            
+            <div class="progress-area">
+                <span class="time" id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="time" id="totalTime">0:00</span>
+            </div>
+            
+            <div class="slide-num">
+                <span class="current" id="slideNum">1</span> / 48
+            </div>
+            
+            <div class="volume-area">
+                <button class="vol-btn">
+                    <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+                </button>
+                <input type="range" class="vol-slider" id="volSlider" min="0" max="1" step="0.1" value="1">
+            </div>
+            
+            <button class="fs-btn" id="fsBtn">
+                <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+            </button>
+        </div>
+    </div>
+    
+    <audio id="audio" preload="auto">
+        <source src="/api/audio/UG_DENT_Y3_S1_C03_M01.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script>
+        const audio = document.getElementById('audio');
+        const playBtn = document.getElementById('playBtn');
+        const playIcon = document.getElementById('playIcon');
+        const pauseIcon = document.getElementById('pauseIcon');
+        const progressBar = document.getElementById('progressBar');
+        const progressFill = document.getElementById('progressFill');
+        const currentTimeEl = document.getElementById('currentTime');
+        const totalTimeEl = document.getElementById('totalTime');
+        const slideNumEl = document.getElementById('slideNum');
+        const volSlider = document.getElementById('volSlider');
+        const fsBtn = document.getElementById('fsBtn');
+        const loading = document.getElementById('loading');
+        
+        const slides = document.querySelectorAll('.slide');
+        const total = slides.length;
+        let current = 0;
+        
+        function fmt(s) {
+            return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+        }
+        
+        function show(idx) {
+            slides.forEach((s,i) => s.classList.toggle('active', i === idx));
+            current = idx;
+            slideNumEl.textContent = idx + 1;
+        }
+        
+        function updateFromTime() {
+            if (!audio.duration) return;
+            const idx = Math.min(Math.floor((audio.currentTime / audio.duration) * total), total - 1);
+            if (idx !== current) show(idx);
+        }
+        
+        audio.addEventListener('loadedmetadata', () => {
+            totalTimeEl.textContent = fmt(audio.duration);
+            loading.classList.add('hidden');
+            show(0);
+        });
+        
+        audio.addEventListener('timeupdate', () => {
+            progressFill.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+            currentTimeEl.textContent = fmt(audio.currentTime);
+            updateFromTime();
+        });
+        
+        audio.addEventListener('play', () => {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+        });
+        
+        audio.addEventListener('pause', () => {
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+        });
+        
+        playBtn.onclick = () => audio.paused ? audio.play() : audio.pause();
+        
+        progressBar.onclick = (e) => {
+            const rect = progressBar.getBoundingClientRect();
+            audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+        };
+        
+        volSlider.oninput = (e) => audio.volume = e.target.value;
+        
+        fsBtn.onclick = () => {
+            if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+            else document.exitFullscreen();
+        };
+        
+        document.onkeydown = (e) => {
+            if (e.code === 'Space') { e.preventDefault(); playBtn.click(); }
+            if (e.code === 'ArrowRight') audio.currentTime += 5;
+            if (e.code === 'ArrowLeft') audio.currentTime -= 5;
+            if (e.code === 'KeyF') fsBtn.click();
+        };
+        
+        show(0);
+    </script>
+</body>
+</html>
