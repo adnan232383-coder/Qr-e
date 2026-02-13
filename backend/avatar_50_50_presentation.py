@@ -1113,7 +1113,63 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
                 video.currentTime = (prev / total) * video.duration;
             }}
             if (e.code === 'KeyF') fsBtn.click();
+            if (e.code === 'KeyC') subtitlesToggle.click();
         }};
+        
+        // ===== SUBTITLES SYSTEM =====
+        const subtitlesToggle = document.getElementById('subtitlesToggle');
+        const langSelector = document.getElementById('langSelector');
+        const subtitlesContainer = document.getElementById('subtitlesContainer');
+        const subtitleText = document.getElementById('subtitleText');
+        
+        let subtitlesEnabled = false;
+        let currentLang = 'en';
+        
+        // Subtitles data - synced with video timestamps
+        const subtitlesData = {{
+            en: {script_subtitles_en},
+            he: {script_subtitles_he}
+        }};
+        
+        // Toggle subtitles
+        subtitlesToggle.onclick = () => {{
+            subtitlesEnabled = !subtitlesEnabled;
+            subtitlesToggle.classList.toggle('active', subtitlesEnabled);
+            subtitlesContainer.style.display = subtitlesEnabled ? 'block' : 'none';
+            langSelector.classList.toggle('show', subtitlesEnabled);
+        }};
+        
+        // Language selection
+        document.querySelectorAll('.lang-option').forEach(opt => {{
+            opt.onclick = () => {{
+                document.querySelectorAll('.lang-option').forEach(o => o.classList.remove('selected'));
+                opt.classList.add('selected');
+                currentLang = opt.dataset.lang;
+                subtitleText.classList.toggle('hebrew', currentLang === 'he');
+                updateSubtitle();
+            }};
+        }});
+        
+        // Update subtitle based on video time
+        function updateSubtitle() {{
+            if (!subtitlesEnabled) return;
+            
+            const currentTime = video.currentTime;
+            const subs = subtitlesData[currentLang];
+            let currentSub = '';
+            
+            for (let i = 0; i < subs.length; i++) {{
+                if (currentTime >= subs[i].start && currentTime < subs[i].end) {{
+                    currentSub = subs[i].text;
+                    break;
+                }}
+            }}
+            
+            subtitleText.textContent = currentSub;
+        }}
+        
+        // Add subtitle update to timeupdate
+        video.addEventListener('timeupdate', updateSubtitle);
         
         // Initialize
         showSlide(0);
