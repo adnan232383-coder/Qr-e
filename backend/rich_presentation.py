@@ -53,6 +53,40 @@ def get_module_images(module_title: str) -> List[str]:
     """Get all relevant images for a module"""
     title_lower = module_title.lower()
     
+    # Dental - Endodontics (Root Canal)
+    if any(word in title_lower for word in ["endodon", "root canal", "pulp"]):
+        return [
+            IMAGES["root_canal"],
+            IMAGES["tooth_anatomy"],
+            IMAGES["pulp_infection"],
+            IMAGES["dental_xray"],
+            IMAGES["rubber_dam"],
+            IMAGES["dental_instruments"],
+        ]
+    
+    # Dental - Restorative
+    if any(word in title_lower for word in ["restor", "operative", "filling", "composite"]):
+        return [
+            IMAGES["dental_restoration"],
+            IMAGES["tooth_anatomy"],
+            IMAGES["dental_instruments"],
+            IMAGES["dental_crown"],
+            IMAGES["rubber_dam"],
+            IMAGES["dental_xray"],
+        ]
+    
+    # Dental - General
+    if any(word in title_lower for word in ["dent", "tooth", "oral"]):
+        return [
+            IMAGES["tooth_anatomy"],
+            IMAGES["dental_instruments"],
+            IMAGES["dental_restoration"],
+            IMAGES["dental_crown"],
+            IMAGES["dental_xray"],
+            IMAGES["root_canal"],
+        ]
+    
+    # Cell Biology
     if "cell" in title_lower:
         return [
             IMAGES["microscope"],
@@ -62,6 +96,8 @@ def get_module_images(module_title: str) -> List[str]:
             IMAGES["cell_membrane"],
             IMAGES["cell_comparison"],
         ]
+    
+    # Genetics
     elif "genetic" in title_lower:
         return [
             IMAGES["dna"],
@@ -70,6 +106,8 @@ def get_module_images(module_title: str) -> List[str]:
             IMAGES["nucleus"],
             IMAGES["cell_structure"],
         ]
+    
+    # Evolution
     elif "evolution" in title_lower:
         return [
             IMAGES["evolution_tree"],
@@ -77,6 +115,8 @@ def get_module_images(module_title: str) -> List[str]:
             IMAGES["dna"],
             IMAGES["cell_comparison"],
         ]
+    
+    # Default
     else:
         return list(IMAGES.values())[:6]
 
