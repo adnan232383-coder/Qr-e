@@ -240,6 +240,71 @@ def parse_script_to_slides(script_text: str, title: str, topic: str = "dental") 
     return slides
 
 
+def generate_subtitles_from_script(script_text: str, num_slides: int) -> List[Dict]:
+    """Generate timed subtitles from script text"""
+    import json
+    import re
+    
+    if not script_text:
+        return []
+    
+    # Split script into sentences
+    sentences = re.split(r'(?<=[.!?])\s+', script_text.strip())
+    sentences = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+    
+    if not sentences:
+        return []
+    
+    # Estimate video duration (approximately 150 words per minute for speech)
+    total_words = len(script_text.split())
+    estimated_duration = (total_words / 150) * 60  # in seconds
+    
+    # Calculate time per sentence
+    time_per_sentence = estimated_duration / len(sentences) if sentences else 0
+    
+    subtitles = []
+    current_time = 0
+    
+    for sentence in sentences:
+        # Break long sentences into chunks of ~15 words
+        words = sentence.split()
+        if len(words) > 20:
+            chunks = []
+            for i in range(0, len(words), 15):
+                chunk = ' '.join(words[i:i+15])
+                if chunk:
+                    chunks.append(chunk)
+        else:
+            chunks = [sentence]
+        
+        chunk_duration = time_per_sentence / len(chunks)
+        
+        for chunk in chunks:
+            subtitles.append({
+                "start": round(current_time, 1),
+                "end": round(current_time + chunk_duration, 1),
+                "text": chunk
+            })
+            current_time += chunk_duration
+    
+    return subtitles
+
+
+def translate_subtitles_to_hebrew(subtitles_en: List[Dict]) -> List[Dict]:
+    """Create Hebrew placeholder subtitles (would need actual translation API)"""
+    # For now, return placeholders - in production, use translation API
+    subtitles_he = []
+    
+    for sub in subtitles_en:
+        subtitles_he.append({
+            "start": sub["start"],
+            "end": sub["end"],
+            "text": f"[תרגום] {sub['text'][:50]}..." if len(sub['text']) > 50 else f"[תרגום] {sub['text']}"
+        })
+    
+    return subtitles_he
+
+
 def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: str, video_path: str, script_text: str = "") -> str:
     """Generate HTML presentation with 50/50 avatar layout"""
     
