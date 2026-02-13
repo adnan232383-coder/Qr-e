@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://mcq-platform-4.preview.emergentagent.com |
-| Admin Panel | https://mcq-platform-4.preview.emergentagent.com/admin/progress |
-| API Docs | https://mcq-platform-4.preview.emergentagent.com/api/docs |
+| Frontend | https://virtual-prof-2.preview.emergentagent.com |
+| Admin Panel | https://virtual-prof-2.preview.emergentagent.com/admin/progress |
+| API Docs | https://virtual-prof-2.preview.emergentagent.com/api/docs |
 
 ---
 
