@@ -120,22 +120,27 @@ def parse_script_to_notebooklm_slides(script_text: str, module_title: str) -> Li
             
         if line.startswith('#'):
             if current_section and current_points:
+                # Get best illustration for this section
+                content_text = ' '.join(current_points)
+                illustration = get_illustration_for_content(current_section, content_text)
                 slides.append({
                     "type": "content",
                     "title": current_section,
                     "points": current_points[:4],
-                    "illustration": ILLUSTRATIONS["cell"] if "cell" in current_section.lower() else ILLUSTRATIONS["dna"]
+                    "illustration": illustration
                 })
             current_section = line.replace('#', '').strip()
             current_points = []
         elif line.startswith('[') and line.endswith(']'):
             section_name = line[1:-1].replace('_', ' ').title()
             if current_section and current_points:
+                content_text = ' '.join(current_points)
+                illustration = get_illustration_for_content(current_section, content_text)
                 slides.append({
                     "type": "content",
                     "title": current_section,
                     "points": current_points[:4],
-                    "illustration": ILLUSTRATIONS["cell"]
+                    "illustration": illustration
                 })
             current_section = section_name
             current_points = []
