@@ -1246,6 +1246,11 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
 </body>
 </html>'''
     
+    # Inject subtitles JSON into HTML
+    import json
+    html = html.replace('{script_subtitles_en}', json.dumps(subtitles_en))
+    html = html.replace('{script_subtitles_he}', json.dumps(subtitles_he))
+    
     return html
 
 
