@@ -16,6 +16,7 @@ import VideoGallery from "@/pages/VideoGallery";
 import StyleDemos from "@/pages/StyleDemos";
 import CourseViewer from "@/pages/CourseViewer";
 import StatsDashboard from "@/pages/StatsDashboard";
+import AvatarPresentation from "@/pages/AvatarPresentation";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
