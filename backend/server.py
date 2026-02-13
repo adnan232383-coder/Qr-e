@@ -615,8 +615,8 @@ async def get_presentation(module_id: str):
         filename=f"{module_id}.html"
     )
 
-@api_router.get("/audio/{filename:path}")
-async def get_audio(filename: str):
+@api_router.api_route("/audio/{filename:path}", methods=["GET", "HEAD"])
+async def get_audio(filename: str, request: Request):
     """Get audio narration for a module"""
     # Remove .mp3 extension if present to get module_id
     module_id = filename.replace('.mp3', '')
@@ -624,6 +624,20 @@ async def get_audio(filename: str):
     
     if not audio_path.exists():
         raise HTTPException(status_code=404, detail="Audio not found")
+    
+    file_size = audio_path.stat().st_size
+    
+    # Handle HEAD request
+    if request.method == "HEAD":
+        return Response(
+            content=b"",
+            media_type="audio/mpeg",
+            headers={
+                "Content-Length": str(file_size),
+                "Accept-Ranges": "bytes",
+                "Content-Type": "audio/mpeg"
+            }
+        )
     
     return FileResponse(
         audio_path,
