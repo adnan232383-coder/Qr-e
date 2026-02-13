@@ -986,7 +986,7 @@ async def generate_avatar_video_from_audio(module_id: str, db) -> Dict:
         return {"success": False, "error": "Failed to upload audio"}
     
     # Generate video
-    print(f"Generating avatar video...")
+    print("Generating avatar video...")
     video_id = generator.generate_avatar_video(asset_id, title)
     if not video_id:
         return {"success": False, "error": "Failed to start video generation"}

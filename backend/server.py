@@ -1052,7 +1052,7 @@ async def generate_all_videos(background_tasks: BackgroundTasks):
     
     background_tasks.add_task(queue.process_queue)
     
-    return {"message": f"Video generation started", "task_id": task_id, "queued": queued_count}
+    return {"message": "Video generation started", "task_id": task_id, "queued": queued_count}
 
 @api_router.get("/bulk-tasks/{task_id}")
 async def get_bulk_task_status(task_id: str):
@@ -1105,7 +1105,7 @@ async def admin_start_mcq_generation(course_id: Optional[str] = None, questions_
     try:
         job = await runner.start_mcq_generation(course_id)
         return {
-            "message": f"MCQ generation started" + (f" for course {course_id}" if course_id else " for all courses"),
+            "message": "MCQ generation started" + (f" for course {course_id}" if course_id else " for all courses"),
             "job": job
         }
     except ValueError as e:
@@ -1166,7 +1166,7 @@ async def admin_start_script_generation(course_id: Optional[str] = None):
     try:
         job = await runner.start_script_generation(course_id)
         return {
-            "message": f"Script generation started" + (f" for course {course_id}" if course_id else " for all modules"),
+            "message": "Script generation started" + (f" for course {course_id}" if course_id else " for all modules"),
             "job": job
         }
     except ValueError as e:
