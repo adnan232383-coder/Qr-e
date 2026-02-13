@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Test</title>
+</head>
+<body>
+    <h1>Video Test Page</h1>
+    
+    <h2>Method 1: Direct src</h2>
+    <video id="video1" width="400" controls>
+        <source src="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/demo_avatar" type="video/mp4">
+    </video>
+    
+    <h2>Method 2: Internal path</h2>
+    <video id="video2" width="400" controls>
+        <source src="/api/avatar-videos/demo_avatar" type="video/mp4">
+    </video>
+    
+    <h2>Method 3: External test video</h2>
+    <video id="video3" width="400" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+    
+    <script>
+        document.querySelectorAll('video').forEach((v, i) => {
+            v.addEventListener('error', () => console.error('Video ' + (i+1) + ' error:', v.error));
+            v.addEventListener('canplay', () => console.log('Video ' + (i+1) + ' can play'));
+        });
+    </script>
+</body>
+</html>
