@@ -122,10 +122,10 @@ def get_module_images(module_title: str, course_name: str = "") -> List[str]:
         return list(IMAGES.values())[:6]
 
 
-def parse_script_to_rich_slides(script_text: str, module_title: str) -> List[Dict]:
+def parse_script_to_rich_slides(script_text: str, module_title: str, course_name: str = "") -> List[Dict]:
     """Parse script into slides with multiple images"""
     slides = []
-    images = get_module_images(module_title)
+    images = get_module_images(module_title, course_name)
     
     # Title slide with hero images
     slides.append({
