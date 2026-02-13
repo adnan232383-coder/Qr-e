@@ -599,6 +599,105 @@ async def serve_module_video(module_id: str):
     
     raise HTTPException(status_code=404, detail="Video file not found")
 
+# ==================== PRESENTATION & AUDIO ROUTES ====================
+
+@api_router.get("/presentations/{module_id}")
+async def get_presentation(module_id: str):
+    """Get HTML presentation for a module"""
+    presentation_path = Path(f"/app/backend/presentations/{module_id}.html")
+    
+    if not presentation_path.exists():
+        raise HTTPException(status_code=404, detail="Presentation not found")
+    
+    return FileResponse(
+        presentation_path,
+        media_type="text/html",
+        filename=f"{module_id}.html"
+    )
+
+@api_router.get("/audio/{module_id}.mp3")
+async def get_audio(module_id: str):
+    """Get audio narration for a module"""
+    audio_path = Path(f"/app/backend/audio/{module_id}.mp3")
+    
+    if not audio_path.exists():
+        raise HTTPException(status_code=404, detail="Audio not found")
+    
+    return FileResponse(
+        audio_path,
+        media_type="audio/mpeg",
+        filename=f"{module_id}.mp3"
+    )
+
+@api_router.get("/module/{module_id}/content")
+async def get_module_content(module_id: str):
+    """Get available content (presentation, audio, video) for a module"""
+    presentation_exists = Path(f"/app/backend/presentations/{module_id}.html").exists()
+    audio_exists = Path(f"/app/backend/audio/{module_id}.mp3").exists()
+    video_exists = (
+        Path(f"/app/backend/heygen_videos/{module_id}.mp4").exists() or
+        Path(f"/app/generated_videos/{module_id}.mp4").exists()
+    )
+    
+    # Get script info
+    script = await db.module_scripts.find_one({"module_id": module_id}, {"_id": 0})
+    
+    return {
+        "module_id": module_id,
+        "has_presentation": presentation_exists,
+        "has_audio": audio_exists,
+        "has_video": video_exists,
+        "has_script": script is not None,
+        "urls": {
+            "presentation": f"/api/presentations/{module_id}" if presentation_exists else None,
+            "audio": f"/api/audio/{module_id}.mp3" if audio_exists else None,
+            "video": f"/api/videos/{module_id}/file" if video_exists else None
+        }
+    }
+
+@api_router.post("/presentations/generate/{module_id}")
+async def generate_presentation(module_id: str, background_tasks: BackgroundTasks):
+    """Generate presentation and audio for a module"""
+    from presentation_generator import generate_module_presentation
+    from pymongo import MongoClient
+    
+    sync_client = MongoClient('mongodb://localhost:27017')
+    sync_db = sync_client['test_database']
+    
+    # Check if module exists
+    module = sync_db.modules.find_one({"module_id": module_id})
+    if not module:
+        raise HTTPException(status_code=404, detail="Module not found")
+    
+    # Check if script exists
+    script = sync_db.module_scripts.find_one({"module_id": module_id})
+    if not script:
+        raise HTTPException(status_code=400, detail="No script found for module")
+    
+    # Run generation
+    import asyncio
+    result = asyncio.get_event_loop().run_until_complete(
+        generate_module_presentation(module_id, sync_db)
+    )
+    
+    return result
+
+@api_router.post("/presentations/generate-course/{course_id}")
+async def generate_course_presentations(course_id: str):
+    """Generate presentations and audio for all modules in a course"""
+    from presentation_generator import generate_course_presentations as gen_course
+    
+    results = await gen_course(course_id)
+    
+    success_count = sum(1 for r in results if r.get("success"))
+    
+    return {
+        "course_id": course_id,
+        "total_modules": len(results),
+        "successful": success_count,
+        "results": results
+    }
+
 @api_router.api_route("/videos/{module_id}/file", methods=["GET", "HEAD"])
 async def serve_module_video_file(module_id: str, request: Request):
     """Serve video file for a module with range request support"""
