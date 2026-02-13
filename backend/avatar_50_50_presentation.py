@@ -903,7 +903,20 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
         }});
         
         // Controls
-        playBtn.onclick = () => video.paused ? video.play() : video.pause();
+        playBtn.onclick = () => {{
+            if (video.paused) {{
+                // Start loading and playing
+                if (video.readyState < 1) {{
+                    video.load();
+                }}
+                video.play().catch(err => {{
+                    console.error('Play error:', err);
+                    placeholder.querySelector('span').textContent = 'Click again to play';
+                }});
+            }} else {{
+                video.pause();
+            }}
+        }};
         
         progressBar.onclick = (e) => {{
             const rect = progressBar.getBoundingClientRect();
