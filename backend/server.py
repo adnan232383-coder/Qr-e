@@ -809,15 +809,13 @@ async def serve_avatar_video(module_id: str, request: Request):
     if not video_path:
         raise HTTPException(status_code=404, detail="Avatar video not found")
     
-    # Use FileResponse for simpler video serving with proper headers
+    # Use FileResponse without filename to avoid Content-Disposition header
     return FileResponse(
         path=str(video_path),
         media_type="video/mp4",
-        filename=video_path.name,
         headers={
             "Accept-Ranges": "bytes",
             "Access-Control-Allow-Origin": "*",
-            "Cache-Control": "no-cache",
         }
     )
 
