@@ -15,12 +15,49 @@ load_dotenv()
 PRESENTATIONS_DIR = Path("/app/backend/presentations")
 AUDIO_DIR = Path("/app/backend/audio")
 
-# Generated illustration URLs
+# Generated illustration URLs - comprehensive library
 ILLUSTRATIONS = {
+    # Cell Biology
     "cell": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8b3b9bc2921652d9a7d382da47f411eebdb611ef0920044f3dfe36f735e43e93.png",
-    "dna": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png",
+    "cell_membrane": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/cb81ddda1ff60e878c1d4b90ba55b42579b1b6631f2a8e1d258f70e812d767c2.png",
+    "mitochondria": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/a8e3ca2c395891a3f61c8696f4d0aaee9f13f544a38411d0eb23854d2a12e326.png",
+    "nucleus": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/6147ec29bbf3d1f7ddd038a1b85ddfe6c4ecbd3daf6c4543d035516ee5f6d151.png",
+    "cell_comparison": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c77a7cf2bdb23050773632fc08281c958e2c054d025f7974aa221ba1d667a935.png",
     "microscope": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/76ee0be816211a9fb709210d6eca541ead88b348d0f8304dc0bdfe6fcfb97eea.png",
+    
+    # Genetics
+    "dna": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/03fda0d7d0e11fe1aa768feab16f01f17e60b9c74cdb6c5fe6f99c8f00e9a235.png",
+    "dna_replication": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8bc00faae592d23a8f26156060081200e53f727040bcab90bb53cf4fca04871e.png",
+    "gene_expression": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/c2c9932ea2abc61d19025bd4dc359cd1bc9c5bf56050dab793628cbf58e4d4af.png",
+    
+    # Evolution
+    "evolution_tree": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/7d275c5e3de67ab648b80d4d9df7080a6651d86ca0e8348d6a10ae34e3e99c91.png",
+    "natural_selection": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/8e70304b7d6e12c5b948cb2aca8e8215e6f108a1a110532907fd15519a7c1397.png",
+    
+    # General
     "icons": "https://static.prod-images.emergentagent.com/jobs/b0c52883-64de-42c1-88b8-e8437b2fa4c0/images/bc48f99a753b5699d104fe3caf5452877c8ce777c116a3ec53921f4d7c81715f.png",
+}
+
+# Topic to illustrations mapping
+TOPIC_ILLUSTRATIONS = {
+    "cell structure": ["cell", "cell_membrane", "cell_comparison"],
+    "membrane": ["cell_membrane", "cell"],
+    "mitochondria": ["mitochondria", "cell"],
+    "nucleus": ["nucleus", "cell"],
+    "organelle": ["cell", "mitochondria", "nucleus"],
+    "dna": ["dna", "dna_replication", "nucleus"],
+    "genetic": ["dna", "gene_expression", "dna_replication"],
+    "replication": ["dna_replication", "dna"],
+    "transcription": ["gene_expression", "dna"],
+    "translation": ["gene_expression"],
+    "evolution": ["evolution_tree", "natural_selection"],
+    "natural selection": ["natural_selection", "evolution_tree"],
+    "darwin": ["natural_selection"],
+    "diversity": ["evolution_tree", "cell_comparison"],
+    "introduction": ["microscope"],
+    "learning": ["microscope", "icons"],
+    "summary": ["icons"],
+    "conclusion": ["icons"],
 }
 
 
