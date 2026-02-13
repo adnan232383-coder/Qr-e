@@ -744,14 +744,14 @@ def generate_50_50_html(slides: List[Dict], module_id: str, title: str, course: 
             </div>
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
-                    <video class="avatar-video" id="avatarVideo" playsinline preload="auto" crossorigin="anonymous">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="metadata">
                         <source src="{abs_video_path}" type="video/mp4">
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                         </svg>
-                        <span>Loading Avatar...</span>
+                        <span>Click Play to Start</span>
                     </div>
                 </div>
             </div>
