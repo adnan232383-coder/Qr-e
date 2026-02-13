@@ -453,8 +453,9 @@
             </div>
             <div class="avatar-video-wrapper">
                 <div class="avatar-video-container">
-                    <video class="avatar-video" id="avatarVideo" playsinline preload="auto">
+                    <video class="avatar-video" id="avatarVideo" playsinline preload="metadata" crossorigin="anonymous">
                         <source src="https://virtual-lecturer.preview.emergentagent.com/api/avatar-videos/UG_DENT_Y3_S1_C03_M01" type="video/mp4">
+                        Your browser does not support the video tag.
                     </video>
                     <div class="avatar-placeholder" id="avatarPlaceholder">
                         <svg viewBox="0 0 24 24" fill="currentColor">
@@ -1016,26 +1017,46 @@
         
         // Video events
         video.addEventListener('loadedmetadata', () => {
+            console.log('Video metadata loaded, duration:', video.duration);
             placeholder.style.display = 'none';
             totalTimeEl.textContent = formatTime(video.duration);
         });
         
         video.addEventListener('canplay', () => {
+            console.log('Video can play');
             placeholder.style.display = 'none';
+        });
+        
+        video.addEventListener('loadstart', () => {
+            console.log('Video load started');
+            placeholder.querySelector('span').textContent = 'Loading video...';
+        });
+        
+        video.addEventListener('progress', () => {
+            if (video.buffered.length > 0) {
+                const buffered = video.buffered.end(0);
+                console.log('Video buffered:', buffered, 'seconds');
+            }
         });
         
         video.addEventListener('error', (e) => {
             console.error('Video error:', video.error);
-            placeholder.querySelector('span').textContent = 'Video loading...';
+            placeholder.querySelector('span').textContent = 'Click Play to start';
             document.getElementById('videoLink').style.display = 'block';
         });
         
-        // Auto-hide placeholder when video is ready
+        video.addEventListener('stalled', () => {
+            console.log('Video stalled, retrying...');
+        });
+        
+        // Force video load after short delay
         setTimeout(() => {
             if (video.readyState >= 2) {
                 placeholder.style.display = 'none';
+            } else {
+                video.load();
             }
-        }, 3000);
+        }, 1000);
         
         video.addEventListener('timeupdate', () => {
             const progress = (video.currentTime / video.duration) * 100;
