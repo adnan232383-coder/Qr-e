@@ -131,7 +131,7 @@ class TestAudioStreamingAPI:
         
         assert response.status_code == 200, f"Expected 200, got {response.status_code}"
         assert response.headers.get("content-type") == "audio/mpeg"
-        assert "content-length" in response.headers.lower() or int(response.headers.get("Content-Length", 0)) > 0
+        assert "Content-Length" in response.headers or int(response.headers.get("Content-Length", 0)) > 0
         print(f"✓ Audio HEAD request returns metadata")
 
 
