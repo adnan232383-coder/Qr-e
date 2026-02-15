@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Introduction & Fundamentals</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0f1a;--card:#151d2e;--txt:#f1f5f9;--acc:#38bdf8}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);height:100vh;overflow:hidden}
+.c{display:flex;flex-direction:column;height:100vh}
+.sl{flex:1;position:relative}
+.slide{position:absolute;inset:0;padding:50px;opacity:0;transform:translateX(40px);transition:.4s}
+.slide.active{opacity:1;transform:translateX(0)}
+.inner{height:100%;display:flex;flex-direction:column}
+.title-slide .inner{justify-content:center;align-items:center;text-align:center}
+.title-slide h1{font-size:3.2rem;background:linear-gradient(135deg,#38bdf8,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{font-size:1.4rem;color:#94a3b8;margin-top:15px}
+h2{font-size:2rem;margin-bottom:25px;border-bottom:2px solid var(--card);padding-bottom:12px}
+.pts{list-style:none}
+.pts li{display:flex;gap:12px;padding:15px 18px;background:var(--card);border-radius:8px;font-size:1.2rem;margin-bottom:12px;border-left:3px solid var(--acc)}
+.b{width:8px;height:8px;background:var(--acc);border-radius:50%;margin-top:8px;flex-shrink:0}
+.subs{position:absolute;bottom:90px;left:50%;transform:translateX(-50%);text-align:center}
+.stxt{background:rgba(0,0,0,.85);color:#fff;font-size:1.2rem;padding:10px 20px;border-radius:6px}
+.ctrl{height:60px;background:rgba(15,23,42,.95);border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;padding:0 20px;gap:12px}
+.btn{background:rgba(56,189,248,.2);border:1px solid rgba(56,189,248,.3);color:var(--acc);width:40px;height:40px;border-radius:8px;cursor:pointer;font-size:1rem}
+.btn:hover{background:rgba(56,189,248,.4)}
+.prg{flex:1;height:5px;background:var(--card);border-radius:3px;cursor:pointer}
+.pbar{height:100%;background:linear-gradient(90deg,#38bdf8,#a78bfa);width:0%}
+.tm{color:#94a3b8;font-size:.8rem;min-width:80px;text-align:center}
+.ind{font-weight:600}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.8);display:flex;align-items:center;justify-content:center;z-index:100}
+.ov.h{display:none}
+.sbtn{background:linear-gradient(135deg,#38bdf8,#a78bfa);color:#fff;border:none;padding:18px 35px;font-size:1.2rem;font-weight:700;border-radius:10px;cursor:pointer}
+.cc{position:absolute;top:12px;right:12px;z-index:50}
+.cc.a{background:rgba(56,189,248,.5)}
+</style></head>
+<body>
+<div class="c">
+<div class="sl"><div class="slide title-slide active" data-index="0">
+        <div class="inner"><h1>Introduction & Fundamentals</h1><p class="sub">Preclinical Operative Dentistry I</p></div></div><div class="slide" data-index="1">
+            <div class="inner"><h2>Key Points 1</h2><ul class="pts"><li><span class="b"></span># Introduction & Fundamentals  [INTRODUCTION] Welcome to this module on Introduction & Fundamentals.</li><li><span class="b"></span>In the next 12 minutes, we'll explore the key concepts that will form the foundation of your understanding in this area.</li><li><span class="b"></span>[PAUSE]  ## Learning Objectives By the end of this session, you'll be able to: - Define and explain core terminology related to Introduction & Fundamentals - Identify key principles and their clinical applications - Apply this knowledge to practical scenarios  [PAUSE]  ## Section 1: Fundamentals  Let's begin with the basic concepts.</li></ul></div></div><div class="slide" data-index="2">
+            <div class="inner"><h2>Key Points 2</h2><ul class="pts"><li><span class="b"></span>Key terms is essential because it forms the foundation of our understanding.</li><li><span class="b"></span>[EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice.</li><li><span class="b"></span>In clinical settings, you'll encounter these principles daily.</li></ul></div></div><div class="slide" data-index="3">
+            <div class="inner"><h2>Key Points 3</h2><ul class="pts"><li><span class="b"></span>For example, when assessing patients, knowledge of Key terms helps you interpret findings accurately.</li><li><span class="b"></span>[PAUSE]  ## Section 2: Clinical Applications  Now let's explore how these concepts apply in practice.</li><li><span class="b"></span>Consider a patient presenting with relevant symptoms - your understanding of Basic principles guides your diagnostic approach.</li></ul></div></div><div class="slide" data-index="4">
+            <div class="inner"><h2>Key Points 4</h2><ul class="pts"><li><span class="b"></span>The key steps in clinical application include: 1.</li><li><span class="b"></span>Assessment based on foundational knowledge 2.</li><li><span class="b"></span>Integration of findings 3.</li></ul></div></div><div class="slide" data-index="5">
+            <div class="inner"><h2>Key Points 5</h2><ul class="pts"><li><span class="b"></span>Evidence-based decision making  [EMPHASIS] Clinical reasoning depends on solid foundational understanding.</li><li><span class="b"></span>[PAUSE]  ## Section 3: Advanced Concepts  Building on our foundation, let's examine Overview.</li><li><span class="b"></span>These advanced concepts connect what we've learned to more complex clinical scenarios.</li></ul></div></div><div class="slide" data-index="6">
+        <div class="inner"><h2>Summary</h2><ul class="pts">
+            <li><span class="b"></span>Key concepts covered</li>
+            <li><span class="b"></span>Clinical applications</li>
+            <li><span class="b"></span>Review and practice</li></ul></div></div>
+<div class="subs" id="ss"><span class="stxt" id="st"></span></div>
+<button class="btn cc a" id="ccb">CC</button>
+</div>
+<div class="ctrl">
+<button class="btn" id="pb">▶</button>
+<button class="btn" id="pv">◀</button>
+<button class="btn" id="nx">▶</button>
+<div class="prg" id="pg"><div class="pbar" id="pgb"></div></div>
+<span class="tm" id="tm">0:00/0:00</span>
+<span class="ind" id="in">1/7</span>
+<button class="btn" id="vb">🔊</button>
+<button class="btn" id="fb">⛶</button>
+</div></div>
+<div class="ov" id="ov"><button class="sbtn" id="sb">🔊 Start Presentation</button></div>
+<audio id="a"><source src="/api/audio/UG_DENT_Y2_S2_C07_M01.mp3" type="audio/mpeg"></audio>
+<script>
+const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=7,su=[{"start": 0.0, "end": 4.8, "text": "# Introduction & Fundamentals [INTRODUCTION] Welcome to this module on Introduction &"}, {"start": 4.8, "end": 9.6, "text": "Fundamentals. In the next 12 minutes, we'll explore the key concepts that"}, {"start": 9.6, "end": 14.4, "text": "will form the foundation of your understanding in this area. [PAUSE] ##"}, {"start": 14.4, "end": 19.2, "text": "Learning Objectives By the end of this session, you'll be able to:"}, {"start": 19.2, "end": 24.0, "text": "- Define and explain core terminology related to Introduction & Fundamentals -"}, {"start": 24.0, "end": 28.8, "text": "Identify key principles and their clinical applications - Apply this knowledge to"}, {"start": 28.8, "end": 33.6, "text": "practical scenarios [PAUSE] ## Section 1: Fundamentals Let's begin with the basic"}, {"start": 33.6, "end": 38.4, "text": "concepts. Key terms is essential because it forms the foundation of our"}, {"start": 38.4, "end": 43.2, "text": "understanding. [EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice. In"}, {"start": 43.2, "end": 48.0, "text": "clinical settings, you'll encounter these principles daily. For example, when assessing patients,"}, {"start": 48.0, "end": 52.8, "text": "knowledge of Key terms helps you interpret findings accurately. [PAUSE] ## Section"}, {"start": 52.8, "end": 57.6, "text": "2: Clinical Applications Now let's explore how these concepts apply in practice."}, {"start": 57.6, "end": 62.4, "text": "Consider a patient presenting with relevant symptoms - your understanding of Basic"}, {"start": 62.4, "end": 67.2, "text": "principles guides your diagnostic approach. The key steps in clinical application include:"}, {"start": 67.2, "end": 72.0, "text": "1. Assessment based on foundational knowledge 2. Integration of findings 3. Evidence-based"}, {"start": 72.0, "end": 76.8, "text": "decision making [EMPHASIS] Clinical reasoning depends on solid foundational understanding. [PAUSE] ##"}, {"start": 76.8, "end": 81.6, "text": "Section 3: Advanced Concepts Building on our foundation, let's examine Overview. These"}, {"start": 81.6, "end": 86.4, "text": "advanced concepts connect what we've learned to more complex clinical scenarios. Healthcare"}, {"start": 86.4, "end": 91.2, "text": "professionals must integrate multiple concepts when managing patient care. This requires: -"}, {"start": 91.2, "end": 96.0, "text": "Strong foundational knowledge - Critical thinking skills - Continuous learning mindset [PAUSE]"}, {"start": 96.0, "end": 100.8, "text": "## Summary Today we covered: - Core concepts of Introduction & Fundamentals"}, {"start": 100.8, "end": 105.6, "text": "- Clinical applications and relevance - Advanced topics for deeper understanding [EMPHASIS]"}, {"start": 105.6, "end": 110.4, "text": "Key takeaway: These fundamentals will serve you throughout your career. In our"}, {"start": 110.4, "end": 115.2, "text": "next module, we'll build on these concepts as we explore more advanced"}, {"start": 115.2, "end": 120.0, "text": "topics. Thank you for your attention. Keep reviewing these materials and don't"}, {"start": 120.0, "end": 122.0, "text": "hesitate to ask questions! [END]"}];
+let c=0,cc=true;
+const up=i=>{sl.forEach((s,j)=>s.classList.toggle('active',j===i));document.getElementById('in').textContent=`${i+1}/${n}`;c=i;};
+const ft=s=>isNaN(s)?'0:00':`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+a.ontimeupdate=()=>{
+const p=(a.currentTime/a.duration)*100||0;
+document.getElementById('pgb').style.width=`${p}%`;
+document.getElementById('tm').textContent=`${ft(a.currentTime)}/${ft(a.duration)}`;
+const si=Math.min(Math.floor(a.currentTime/(a.duration/n)),n-1);
+if(si!==c)up(si);
+if(cc){const s=su.find(x=>a.currentTime>=x.start&&a.currentTime<x.end);document.getElementById('st').textContent=s?s.text:'';}
+};
+document.getElementById('pb').onclick=()=>{if(a.paused){a.play();document.getElementById('pb').textContent='⏸';}else{a.pause();document.getElementById('pb').textContent='▶';}};
+document.getElementById('pv').onclick=()=>up(Math.max(0,c-1));
+document.getElementById('nx').onclick=()=>up(Math.min(n-1,c+1));
+document.getElementById('ccb').onclick=function(){cc=!cc;this.classList.toggle('a',cc);document.getElementById('ss').style.display=cc?'block':'none';};
+document.getElementById('vb').onclick=()=>{a.muted=!a.muted;document.getElementById('vb').textContent=a.muted?'🔇':'🔊';};
+document.getElementById('fb').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
+document.getElementById('pg').onclick=e=>{const r=e.target.getBoundingClientRect();a.currentTime=(e.clientX-r.left)/r.width*a.duration;};
+document.getElementById('sb').onclick=()=>{a.muted=false;a.play();document.getElementById('ov').classList.add('h');document.getElementById('pb').textContent='⏸';};
+a.muted=true;a.play().catch(()=>{});
+</script></body></html>
