@@ -1,80 +1,150 @@
-# Multi-University E-Learning Platform - PRD
+# Medical Education E-Learning Platform PRD
 
-## Overview
-A comprehensive e-learning platform supporting 5 universities with MCQ questions and educational videos.
+## Original Problem Statement
+Build a multi-university e-learning platform with auto-playing presentations featuring speaking avatars (HeyGen) in a 50/50 split-screen layout with synchronized narration, subtitles, and professional visual design.
 
-## Universities Supported
-1. **UG** - University of Georgia (Tbilisi)
-2. **NVU** - New Vision University
-3. **IASI** - University of Medicine and Pharmacy Iași (Romania)
-4. **AAU** - Al-Ahliyya Amman University (Jordan)
-5. **NAJAH** - An-Najah National University (Palestine)
+## Target Users
+- Medical and pharmacy students
+- International students studying at Georgian universities
+- Self-paced learners in health sciences
 
-## Current Status (Feb 12, 2026)
+## Core Requirements
+1. **Multi-University Support**: 5 universities (UG, NVU, IASI, AAU, NAJAH)
+2. **Course Content**: 490+ courses across Dentistry, Pharmacy, Medicine
+3. **MCQ System**: 150K+ multiple-choice questions
+4. **Presentations**: Auto-playing with speaking avatar
+5. **Subtitles**: English + Hebrew translation option
+6. **Layout**: 50/50 split (avatar left, slides right)
+7. **Audio Control**: Auto-play muted with unmute button
 
-### Content Statistics
-- **Total Universities**: 5
-- **Total Courses**: 486
-- **Total MCQ Questions**: ~148,000+
-- **Courses with 300+ MCQs**: 466+ (96%)
-- **Videos Generated**: 1 (test video)
-- **HeyGen API Credits**: 39,600 available
+---
 
-### Completed Features
-- ✅ University and course catalog
-- ✅ MCQ quiz system with explanations
-- ✅ Statistics dashboard with charts
-- ✅ Module scripts for educational content
-- ✅ Video streaming infrastructure (HTTP 206 Range support)
-- ✅ HeyGen video generation integration
+## What's Been Implemented
 
-### In Progress
-- 🔄 MCQ generation for remaining 20 UG courses (~5,500 questions)
-- 🔄 Video generation for all modules
+### Date: February 15, 2025
 
-### Known Limitations
-- Playwright headless browser cannot play videos (codec limitation - not a bug)
-- Some courses still under 300 MCQ target
+#### Backend APIs (100% functional)
+- [x] `/api/universities` - Returns 5 universities
+- [x] `/api/courses` - Returns 200 courses
+- [x] `/api/courses/{id}/questions` - MCQ questions API
+- [x] `/api/avatar-videos/{module_id}` - Video streaming (MP4)
+- [x] `/api/audio/{filename}` - Audio streaming (MP3)
+- [x] `/api/presentations-50-50/{module_id}` - 50/50 HTML presentation
+- [x] `/api/auth/session` - Google OAuth authentication
+- [x] `/api/chat` - AI Study Assistant (GPT-5.2)
+- [x] Admin MCQ generation endpoints
+
+#### Frontend Pages
+- [x] Landing page with stats (490+ courses, 5 unis, 150K+ MCQs)
+- [x] University catalog (/university/{id})
+- [x] Course detail pages
+- [x] Login with Google OAuth
+- [x] Dashboard (authenticated users)
+- [x] Stats dashboard (/admin/stats)
+- [x] Video gallery
+
+#### 50/50 Presentation Features
+- [x] Split-screen layout (avatar left 50%, slides right 50%)
+- [x] Virtual Instructor badge with live indicator
+- [x] CC (Closed Captions) toggle button
+- [x] Language selector (English/Hebrew)
+- [x] Volume control with slider
+- [x] Fullscreen button
+- [x] Progress bar with slide indicator (e.g., "1/7")
+- [x] Auto-play (muted by default for browser compliance)
+- [x] Larger fonts for readability
+- [x] Subtitle display synchronized with audio
+
+#### Demo Presentations Available
+1. `/api/presentations-50-50/UG_DENT_Y1_S1_C01_M01` - Cell Structure & Function
+2. `/api/presentations-50-50/UG_DENT_Y3_S1_C03_M01` - Oral Pathology
+
+#### Content Generated
+- 94 courses for UG (University of Georgia)
+- 24-300 MCQ questions per course
+- Audio narrations for demo modules
+- HeyGen avatar videos for demo modules
+
+---
+
+## Testing Status (February 15, 2025)
+- **Backend**: 100% (18/18 tests passed)
+- **Frontend**: 95% (all major features working)
+- **Test report**: `/app/test_reports/iteration_4.json`
+
+---
+
+## Known Limitations
+1. **Hebrew subtitles**: Currently placeholder text (not real translations)
+2. **Video in Playwright**: Shows black in testing environment (works in real browser)
+
+---
+
+## Prioritized Backlog
+
+### P0 - Critical (User Verification)
+- [ ] User confirms demo presentations work in their browser
+
+### P1 - High Priority
+- [ ] Implement real Hebrew translation (Google Translate API or Gemini)
+- [ ] Expand illustration/image library
+
+### P2 - Medium Priority
+- [ ] Generate presentations for all ~490 modules
+- [ ] Complete MCQ generation to 200 per course
+- [ ] Add more HeyGen avatar videos
+
+### P3 - Future Enhancements
+- [ ] Progress tracking per user
+- [ ] Quiz mode for MCQ practice
+- [ ] Certificate generation
+- [ ] Mobile responsive design improvements
+
+---
 
 ## Technical Architecture
 
-### Backend (FastAPI)
-- `/api/universities` - List all universities
-- `/api/courses` - List all courses
-- `/api/courses/{id}/questions` - Get MCQ questions
-- `/api/videos/{module_id}/file` - Stream video with Range support (HTTP 206)
-- `/api/stats/dashboard` - Dashboard statistics
+### Stack
+- **Backend**: FastAPI (Python 3.11)
+- **Frontend**: React 18 with Tailwind CSS, Shadcn/UI
+- **Database**: MongoDB
+- **AI**: OpenAI GPT-5.2 via Emergent LLM Key
+- **TTS**: OpenAI TTS
+- **Avatar**: HeyGen API
 
-### Frontend (React)
-- Homepage with dynamic stats
-- University catalog
-- Course detail with tabs (Overview, Modules, Quiz, Scripts)
-- Statistics dashboard with Recharts
+### Key Files
+```
+/app/backend/
+├── server.py                    # Main API server
+├── presentations/               # Generated HTML presentations
+├── audio/                       # MP3 narrations
+├── heygen_videos/               # Avatar videos
+└── scripts/                     # Generation scripts
 
-### Database (MongoDB)
-- universities
-- courses
-- mcq_questions
-- modules
-- module_scripts
-- module_videos
+/app/frontend/
+├── src/pages/                   # React pages
+├── src/components/              # Reusable components
+└── src/context/                 # Auth, Theme contexts
+```
 
-### External Integrations
-- **HeyGen API** - Video generation with avatars
-- **Emergent LLM** - MCQ question generation
+### Environment Variables
+- `REACT_APP_BACKEND_URL`: Frontend API base URL
+- `MONGO_URL`: MongoDB connection string
+- `EMERGENT_LLM_KEY`: Universal AI key
+- `HEYGEN_API_KEY`: Avatar video generation
 
-## API Keys
-- HeyGen: Configured in backend/.env
-- Emergent LLM: Available for AI generation
+---
 
-## Files of Reference
-- `/app/backend/server.py` - Main API server
-- `/app/backend/heygen_video_creator.py` - HeyGen integration
-- `/app/frontend/src/pages/CourseDetail.jsx` - Course view
-- `/app/frontend/src/pages/StatsDashboard.jsx` - Dashboard
+## 3rd Party Integrations
+1. **OpenAI (GPT-5.2)**: MCQ generation, AI chat assistant
+2. **OpenAI TTS**: Audio narration generation
+3. **HeyGen**: Speaking avatar video generation
+4. **Emergent Google Auth**: User authentication
+5. **Potential**: Google Translate API for Hebrew subtitles
 
-## Next Steps
-1. Complete MCQ generation for remaining courses
-2. Generate videos for all modules using HeyGen
-3. Add subtitles/captions to videos
-4. Multi-language support (Hebrew, Arabic)
+---
+
+## Preview URLs
+- **App**: https://speak-learn-37.preview.emergentagent.com/
+- **Demo 1**: https://speak-learn-37.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y1_S1_C01_M01
+- **Demo 2**: https://speak-learn-37.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y3_S1_C03_M01
