@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction & Fundamentals - Podcast</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --bg: #0f0f23; --card: #1a1a2e; --text: #eaeaea; --accent: #00d9ff; --accent2: #ff6b9d; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+        
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        
+        .podcast-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .podcast-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .podcast-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .podcast-subtitle {
+            font-size: 1.2rem;
+            color: #888;
+        }
+        
+        .player-card {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        .waveform {
+            height: 60px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent2) 50%, var(--accent) 100%);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .waveform::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: var(--progress, 0%);
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+            opacity: 1;
+            transition: width 0.1s;
+        }
+        
+        .player-controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .play-btn {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: #fff;
+            transition: transform 0.2s;
+        }
+        
+        .play-btn:hover { transform: scale(1.1); }
+        
+        .time-info {
+            flex: 1;
+        }
+        
+        .time-display {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .progress-bar {
+            height: 6px;
+            background: #333;
+            border-radius: 3px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+            width: 0%;
+            transition: width 0.1s;
+        }
+        
+        .speed-btn {
+            background: #333;
+            border: none;
+            color: var(--text);
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .transcript {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 30px;
+        }
+        
+        .transcript-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .transcript-content {
+            max-height: 400px;
+            overflow-y: auto;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            color: #bbb;
+        }
+        
+        .transcript-segment {
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            transition: background 0.3s;
+        }
+        
+        .transcript-segment.active {
+            background: rgba(0, 217, 255, 0.1);
+            color: var(--text);
+        }
+        
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+        
+        .overlay.hidden { display: none; }
+        
+        .start-btn {
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            color: #fff;
+            border: none;
+            padding: 25px 50px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="podcast-header">
+            <div class="podcast-badge">🎙️ MEDICAL PODCAST</div>
+            <h1 class="podcast-title">Introduction & Fundamentals</h1>
+            <p class="podcast-subtitle">Dental Materials I</p>
+        </div>
+        
+        <div class="player-card">
+            <div class="waveform" id="waveform"></div>
+            <div class="player-controls">
+                <button class="play-btn" id="playBtn">▶</button>
+                <div class="time-info">
+                    <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+                <button class="speed-btn" id="speedBtn">1x</button>
+            </div>
+        </div>
+        
+        <div class="transcript">
+            <div class="transcript-title">📝 Transcript</div>
+            <div class="transcript-content" id="transcript">
+                <div class="transcript-segment" data-start="0.0" data-end="12.0"># Introduction & Fundamentals [INTRODUCTION] Welcome to this module on Introduction & Fundamentals. In the next 12 minutes, we'll explore the key concepts that will form the foundation of your</div><div class="transcript-segment" data-start="12.0" data-end="24.0">understanding in this area. [PAUSE] ## Learning Objectives By the end of this session, you'll be able to: - Define and explain core terminology related to Introduction & Fundamentals -</div><div class="transcript-segment" data-start="24.0" data-end="36.0">Identify key principles and their clinical applications - Apply this knowledge to practical scenarios [PAUSE] ## Section 1: Fundamentals Let's begin with the basic concepts. Key terms is essential because</div><div class="transcript-segment" data-start="36.0" data-end="48.0">it forms the foundation of our understanding. [EMPHASIS] Remember: Understanding these fundamentals is crucial for clinical practice. In clinical settings, you'll encounter these principles daily. For example, when assessing patients,</div><div class="transcript-segment" data-start="48.0" data-end="60.0">knowledge of Key terms helps you interpret findings accurately. [PAUSE] ## Section 2: Clinical Applications Now let's explore how these concepts apply in practice. Consider a patient presenting with relevant</div><div class="transcript-segment" data-start="60.0" data-end="72.0">symptoms - your understanding of Basic principles guides your diagnostic approach. The key steps in clinical application include: 1. Assessment based on foundational knowledge 2. Integration of findings 3. Evidence-based</div><div class="transcript-segment" data-start="72.0" data-end="84.0">decision making [EMPHASIS] Clinical reasoning depends on solid foundational understanding. [PAUSE] ## Section 3: Advanced Concepts Building on our foundation, let's examine Overview. These advanced concepts connect what we've learned</div><div class="transcript-segment" data-start="84.0" data-end="96.0">to more complex clinical scenarios. Healthcare professionals must integrate multiple concepts when managing patient care. This requires: - Strong foundational knowledge - Critical thinking skills - Continuous learning mindset [PAUSE]</div><div class="transcript-segment" data-start="96.0" data-end="108.0">## Summary Today we covered: - Core concepts of Introduction & Fundamentals - Clinical applications and relevance - Advanced topics for deeper understanding [EMPHASIS] Key takeaway: These fundamentals will serve</div><div class="transcript-segment" data-start="108.0" data-end="120.0">you throughout your career. In our next module, we'll build on these concepts as we explore more advanced topics. Thank you for your attention. Keep reviewing these materials and don't</div><div class="transcript-segment" data-start="120.0" data-end="122.0">hesitate to ask questions! [END]</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="overlay" id="overlay">
+        <button class="start-btn" id="startBtn">🎧 Start Listening</button>
+    </div>
+    
+    <audio id="audio" preload="auto">
+        <source src="/api/audio/UG_DENT_Y2_S2_C08_M01.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script>
+        const audio = document.getElementById('audio');
+        const segments = document.querySelectorAll('.transcript-segment');
+        const speeds = [1, 1.25, 1.5, 2];
+        let speedIdx = 0;
+        
+        const fmt = s => isNaN(s) ? '0:00' : `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+        
+        audio.ontimeupdate = () => {
+            const p = (audio.currentTime / audio.duration) * 100 || 0;
+            document.getElementById('progressFill').style.width = `${p}%`;
+            document.getElementById('waveform').style.setProperty('--progress', `${p}%`);
+            document.getElementById('timeDisplay').textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+            
+            // Highlight current segment
+            segments.forEach(seg => {
+                const start = parseFloat(seg.dataset.start);
+                const end = parseFloat(seg.dataset.end);
+                seg.classList.toggle('active', audio.currentTime >= start && audio.currentTime < end);
+                if (seg.classList.contains('active')) {
+                    seg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
+        };
+        
+        document.getElementById('playBtn').onclick = () => {
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('playBtn').textContent = '⏸';
+            } else {
+                audio.pause();
+                document.getElementById('playBtn').textContent = '▶';
+            }
+        };
+        
+        document.getElementById('progressBar').onclick = e => {
+            const rect = e.target.getBoundingClientRect();
+            audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+        };
+        
+        document.getElementById('speedBtn').onclick = () => {
+            speedIdx = (speedIdx + 1) % speeds.length;
+            audio.playbackRate = speeds[speedIdx];
+            document.getElementById('speedBtn').textContent = `${speeds[speedIdx]}x`;
+        };
+        
+        document.getElementById('startBtn').onclick = () => {
+            audio.play();
+            document.getElementById('overlay').classList.add('hidden');
+            document.getElementById('playBtn').textContent = '⏸';
+        };
+        
+        segments.forEach(seg => {
+            seg.onclick = () => {
+                audio.currentTime = parseFloat(seg.dataset.start);
+                if (audio.paused) audio.play();
+            };
+        });
+    </script>
+</body>
+</html>
