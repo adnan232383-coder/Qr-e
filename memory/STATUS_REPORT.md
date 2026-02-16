@@ -118,9 +118,9 @@
 
 | Resource | URL |
 |----------|-----|
-| Frontend | https://speak-learn-37.preview.emergentagent.com |
-| Admin Panel | https://speak-learn-37.preview.emergentagent.com/admin/progress |
-| API Docs | https://speak-learn-37.preview.emergentagent.com/api/docs |
+| Frontend | https://ug-elearning-core.preview.emergentagent.com |
+| Admin Panel | https://ug-elearning-core.preview.emergentagent.com/admin/progress |
+| API Docs | https://ug-elearning-core.preview.emergentagent.com/api/docs |
 
 ---
 

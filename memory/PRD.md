@@ -145,6 +145,6 @@ Build a multi-university e-learning platform with auto-playing presentations fea
 ---
 
 ## Preview URLs
-- **App**: https://speak-learn-37.preview.emergentagent.com/
-- **Demo 1**: https://speak-learn-37.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y1_S1_C01_M01
-- **Demo 2**: https://speak-learn-37.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y3_S1_C03_M01
+- **App**: https://ug-elearning-core.preview.emergentagent.com/
+- **Demo 1**: https://ug-elearning-core.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y1_S1_C01_M01
+- **Demo 2**: https://ug-elearning-core.preview.emergentagent.com/api/presentations-50-50/UG_DENT_Y3_S1_C03_M01
