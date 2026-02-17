@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { ArrowLeft, BookOpen, GraduationCap, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, BookOpen, GraduationCap, CheckCircle2, Filter } from "lucide-react";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
@@ -12,6 +12,8 @@ export default function UniversityCatalog() {
   const { universityId } = useParams();
   const [university, setUniversity] = useState(null);
   const [courses, setCourses] = useState([]);
+  const [majors, setMajors] = useState([]);
+  const [selectedMajor, setSelectedMajor] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -23,6 +25,12 @@ export default function UniversityCatalog() {
           const unis = await uniRes.json();
           const uni = unis.find(u => u.external_id === universityId);
           setUniversity(uni);
+        }
+
+        // Fetch majors for this university
+        const majorsRes = await fetch(`${API}/majors/by-university/${universityId}`);
+        if (majorsRes.ok) {
+          setMajors(await majorsRes.json());
         }
 
         // Fetch courses
@@ -39,6 +47,27 @@ export default function UniversityCatalog() {
 
     fetchData();
   }, [universityId]);
+
+  // Fetch courses when major filter changes
+  useEffect(() => {
+    const fetchFilteredCourses = async () => {
+      try {
+        const url = selectedMajor 
+          ? `${API}/courses/by-university/${universityId}?major_id=${selectedMajor}`
+          : `${API}/courses/by-university/${universityId}`;
+        const coursesRes = await fetch(url);
+        if (coursesRes.ok) {
+          setCourses(await coursesRes.json());
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    };
+
+    if (!loading) {
+      fetchFilteredCourses();
+    }
+  }, [selectedMajor, universityId, loading]);
 
   // Group courses by program
   const coursesByProgram = courses.reduce((acc, course) => {
