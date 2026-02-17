@@ -441,7 +441,7 @@ export default function CourseDetail() {
               <CardContent>
                 {content?.summary ? (
                   <div className="prose dark:prose-invert max-w-none">
-                    <div className="whitespace-pre-wrap">{content.summary}</div>
+                    <ReactMarkdown>{content.summary}</ReactMarkdown>
                   </div>
                 ) : (
                   <div className="text-center py-8 text-muted-foreground">
