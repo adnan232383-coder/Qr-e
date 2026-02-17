@@ -1,6 +1,27 @@
-Traceback (most recent call last):
-  File "/app/generate_missing_mcqs.py", line 23, in <module>
-    client = MongoClient(os.environ['MONGO_URL'])
-                         ~~~~~~~~~~^^^^^^^^^^^^^
-  File "<frozen os>", line 679, in __getitem__
-KeyError: 'MONGO_URL'
+============================================================
+Starting MCQ Generation for Courses with < 200 Questions
+============================================================
+
+Found 20 courses needing questions
+Total questions to generate: 3496
+
+[1/20] General Biology
+  Current: 48, Needed: 152
+  Batch 1: Generating 24 questions...
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+  Error generating questions: Failed to generate chat completion: litellm.BadRequestError: OpenAIException - Budget has been exceeded! Current cost: 480.3995375932702, Max budget: 480.0
+  Failed to generate questions, retrying in 5 seconds...
+  Batch 2: Generating 24 questions...
+  Generated and saved 22 questions
+  Batch 3: Generating 24 questions...
+  Generated and saved 21 questions
+  Batch 4: Generating 24 questions...
+  Generated and saved 19 questions
+  Batch 5: Generating 24 questions...
+  Generated and saved 20 questions
+  Batch 6: Generating 24 questions...
+  Generated and saved 19 questions
+  Batch 7: Generating 24 questions...
