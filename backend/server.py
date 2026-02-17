@@ -367,13 +367,41 @@ async def get_courses(year_id: Optional[str] = None, semester: Optional[int] = N
     courses = await db.courses.find(query, {"_id": 0}).to_list(200)
     return courses
 
+@api_router.get("/majors/by-university/{university_id}")
+async def get_majors_by_university(university_id: str):
+    """Get all majors for a university"""
+    # Get faculties for this university
+    faculties = await db.faculties.find({"university_id": university_id}, {"_id": 0}).to_list(100)
+    faculty_ids = [f["external_id"] for f in faculties]
+    
+    # Get majors for these faculties
+    majors = await db.majors.find({"faculty_id": {"$in": faculty_ids}}, {"_id": 0}).to_list(100)
+    
+    # Add course count for each major
+    for major in majors:
+        # Find courses that belong to this major by matching major prefix in course external_id
+        major_prefix = major["external_id"].replace("M_", "")  # e.g., UG_M_DENT -> UG_DENT
+        course_count = await db.courses.count_documents({
+            "external_id": {"$regex": f"^{major_prefix}_"}
+        })
+        major["course_count"] = course_count
+    
+    return majors
+
 @api_router.get("/courses/by-university/{university_id}")
-async def get_courses_by_university(university_id: str):
-    """Get all courses for a university"""
-    courses = await db.courses.find(
-        {"university_id": university_id}, 
-        {"_id": 0}
-    ).sort([("program", 1), ("year", 1), ("semester", 1)]).to_list(200)
+async def get_courses_by_university(university_id: str, major_id: Optional[str] = None):
+    """Get all courses for a university, optionally filtered by major"""
+    query = {"university_id": university_id}
+    
+    # If major_id specified, filter by major prefix
+    if major_id:
+        # Convert major_id (e.g., UG_M_DENT) to course prefix (e.g., UG_DENT)
+        major_prefix = major_id.replace("_M_", "_")
+        query["external_id"] = {"$regex": f"^{major_prefix}_"}
+    
+    courses = await db.courses.find(query, {"_id": 0}).sort([
+        ("program", 1), ("year", 1), ("semester", 1)
+    ]).to_list(200)
     
     # Add MCQ count for each course
     for course in courses:
