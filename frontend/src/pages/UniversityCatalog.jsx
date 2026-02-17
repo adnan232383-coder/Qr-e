@@ -106,6 +106,38 @@ export default function UniversityCatalog() {
         </div>
       </header>
 
+      {/* Majors Filter */}
+      {majors.length > 0 && (
+        <div className="container mx-auto px-4 py-4 border-b">
+          <div className="flex items-center gap-2 mb-3">
+            <Filter className="h-4 w-4 text-muted-foreground" />
+            <span className="text-sm font-medium">Filter by Major:</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Button
+              variant={selectedMajor === null ? "default" : "outline"}
+              size="sm"
+              onClick={() => setSelectedMajor(null)}
+              data-testid="major-filter-all"
+            >
+              All Majors
+            </Button>
+            {majors.map((major) => (
+              <Button
+                key={major.external_id}
+                variant={selectedMajor === major.external_id ? "default" : "outline"}
+                size="sm"
+                onClick={() => setSelectedMajor(major.external_id)}
+                data-testid={`major-filter-${major.external_id}`}
+              >
+                {major.name}
+                <Badge variant="secondary" className="ml-2">{major.course_count}</Badge>
+              </Button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Content */}
       <main className="container mx-auto px-4 py-8">
         {Object.entries(coursesByProgram).map(([program, programCourses]) => (
