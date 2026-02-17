@@ -82,7 +82,10 @@ Generate exactly {num_questions} questions. Return ONLY the JSON array, no other
         return []
 
 
-def main():
+import asyncio
+
+
+async def main():
     print("=" * 60)
     print("Starting MCQ Generation for Courses with < 200 Questions")
     print("=" * 60)
@@ -122,7 +125,7 @@ def main():
             
             print(f"  Batch {batch_num}: Generating {batch_size} questions...")
             
-            questions = generate_mcqs_batch(
+            questions = await generate_mcqs_batch(
                 course['course_name'],
                 course.get('course_description', ''),
                 batch_size
@@ -162,4 +165,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
