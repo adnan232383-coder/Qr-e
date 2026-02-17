@@ -7,14 +7,17 @@ import sys
 import time
 import json
 import uuid
+import asyncio
 from datetime import datetime
+
+# Setup environment
+os.chdir('/app/backend')
+from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv(Path('/app/backend/.env'))
 
 # Add backend to path
 sys.path.insert(0, '/app/backend')
-os.chdir('/app/backend')
-
-from dotenv import load_dotenv
-load_dotenv()
 
 from pymongo import MongoClient
 from emergentintegrations.llm.chat import LlmChat, UserMessage
@@ -23,7 +26,7 @@ from emergentintegrations.llm.chat import LlmChat, UserMessage
 client = MongoClient(os.environ['MONGO_URL'])
 db = client[os.environ['DB_NAME']]
 
-EMERGENT_API_KEY = os.environ.get('EMERGENT_API_KEY', '')
+EMERGENT_API_KEY = os.environ.get('EMERGENT_LLM_KEY', '')
 
 async def generate_mcqs_batch(course_name: str, course_description: str, num_questions: int = 24) -> list:
     """Generate a batch of MCQ questions using LLM"""
