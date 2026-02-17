@@ -25,14 +25,15 @@ db = client[os.environ['DB_NAME']]
 
 EMERGENT_API_KEY = os.environ.get('EMERGENT_API_KEY', '')
 
-def generate_mcqs_batch(course_name: str, course_description: str, num_questions: int = 24) -> list:
+async def generate_mcqs_batch(course_name: str, course_description: str, num_questions: int = 24) -> list:
     """Generate a batch of MCQ questions using LLM"""
     
     llm = LlmChat(
         api_key=EMERGENT_API_KEY,
-        model="gpt-4o-mini",
-        temperature=0.7
+        session_id=f"mcq_gen_{uuid.uuid4().hex[:8]}",
+        system_message="You are an expert educator creating multiple choice questions for university courses."
     )
+    llm.with_model("openai", "gpt-4o-mini")
     
     prompt = f"""Generate {num_questions} multiple choice questions for a university course.
 
@@ -63,10 +64,10 @@ Return ONLY valid JSON array with this structure:
 Generate exactly {num_questions} questions. Return ONLY the JSON array, no other text."""
 
     try:
-        response = llm.chat([UserMessage(content=prompt)])
+        response = await llm.send_message(UserMessage(text=prompt))
         
         # Parse JSON from response
-        text = response.content.strip()
+        text = response.strip()
         if text.startswith("```json"):
             text = text[7:]
         if text.startswith("```"):
