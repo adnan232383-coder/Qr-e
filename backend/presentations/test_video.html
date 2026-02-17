@@ -1,31 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Video Test</title>
-</head>
+<html><head><meta charset="UTF-8"><title>Video Test</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0f1a;--card:#151d2e;--txt:#f1f5f9;--acc:#38bdf8}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);height:100vh;overflow:hidden}
+.c{display:flex;flex-direction:column;height:100vh}
+.sl{flex:1;position:relative;overflow:hidden}
+.slide{position:absolute;inset:0;padding:40px;opacity:0;transform:translateX(40px);transition:.4s}
+.slide.active{opacity:1;transform:translateX(0)}
+.inner{height:100%;display:flex;flex-direction:column}
+.inner.split{flex-direction:row;gap:40px;align-items:center}
+.text-side{flex:1;min-width:0}
+.img-side{flex:0 0 45%;display:flex;align-items:center;justify-content:center}
+.img-side img{max-width:100%;max-height:70vh;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.5);object-fit:cover}
+.title-slide .inner{justify-content:center;align-items:center;text-align:center}
+.title-slide .img-container{margin-bottom:30px}
+.title-slide .img-container img{width:300px;height:200px;object-fit:cover;border-radius:20px;box-shadow:0 25px 80px rgba(56,189,248,.3)}
+.title-slide h1{font-size:2.8rem;background:linear-gradient(135deg,#38bdf8,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+.sub{font-size:1.3rem;color:#94a3b8}
+h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);padding-bottom:12px;color:var(--acc)}
+.pts{list-style:none}
+.pts li{display:flex;gap:12px;padding:14px 16px;background:var(--card);border-radius:8px;font-size:1.1rem;margin-bottom:10px;border-left:3px solid var(--acc);line-height:1.5}
+.b{width:8px;height:8px;background:var(--acc);border-radius:50%;margin-top:8px;flex-shrink:0}
+.subs{position:absolute;bottom:90px;left:50%;transform:translateX(-50%);text-align:center;max-width:80%}
+.stxt{background:rgba(0,0,0,.85);color:#fff;font-size:1.1rem;padding:10px 20px;border-radius:6px;display:inline-block}
+.ctrl{height:60px;background:rgba(15,23,42,.95);border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;padding:0 20px;gap:12px}
+.btn{background:rgba(56,189,248,.2);border:1px solid rgba(56,189,248,.3);color:var(--acc);width:40px;height:40px;border-radius:8px;cursor:pointer;font-size:1rem;transition:all .2s}
+.btn:hover{background:rgba(56,189,248,.4);transform:scale(1.05)}
+.prg{flex:1;height:5px;background:var(--card);border-radius:3px;cursor:pointer}
+.pbar{height:100%;background:linear-gradient(90deg,#38bdf8,#a78bfa);width:0%;border-radius:3px;transition:width .3s}
+.tm{color:#94a3b8;font-size:.85rem;min-width:90px;text-align:center}
+.ind{font-weight:600;color:#fff}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;z-index:100;backdrop-filter:blur(10px)}
+.ov.h{display:none}
+.sbtn{background:linear-gradient(135deg,#38bdf8,#a78bfa);color:#fff;border:none;padding:20px 40px;font-size:1.3rem;font-weight:700;border-radius:12px;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.sbtn:hover{transform:scale(1.05);box-shadow:0 10px 40px rgba(56,189,248,.4)}
+.cc{position:absolute;top:12px;right:12px;z-index:50}
+.cc.a{background:rgba(56,189,248,.5)}
+@media(max-width:900px){
+.inner.split{flex-direction:column}
+.img-side{flex:0 0 auto;width:100%}
+.img-side img{max-height:35vh}
+.title-slide .img-container img{width:200px;height:140px}
+.title-slide h1{font-size:2rem}
+.pts li{font-size:1rem;padding:10px 12px}
+}
+</style></head>
 <body>
-    <h1>Video Test Page</h1>
-    
-    <h2>Method 1: Direct src</h2>
-    <video id="video1" width="400" controls>
-        <source src="https://ug-elearning-core.preview.emergentagent.com/api/avatar-videos/demo_avatar" type="video/mp4">
-    </video>
-    
-    <h2>Method 2: Internal path</h2>
-    <video id="video2" width="400" controls>
-        <source src="/api/avatar-videos/demo_avatar" type="video/mp4">
-    </video>
-    
-    <h2>Method 3: External test video</h2>
-    <video id="video3" width="400" controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
-    
-    <script>
-        document.querySelectorAll('video').forEach((v, i) => {
-            v.addEventListener('error', () => console.error('Video ' + (i+1) + ' error:', v.error));
-            v.addEventListener('canplay', () => console.log('Video ' + (i+1) + ' can play'));
-        });
-    </script>
-</body>
-</html>
+<div class="c">
+<div class="sl">
+<div class="subs" id="ss"><span class="stxt" id="st"></span></div>
+<button class="btn cc a" id="ccb">CC</button>
+</div>
+<div class="ctrl">
+<button class="btn" id="pb">▶</button>
+<button class="btn" id="pv">◀</button>
+<button class="btn" id="nx">▶</button>
+<div class="prg" id="pg"><div class="pbar" id="pgb"></div></div>
+<span class="tm" id="tm">0:00/0:00</span>
+<span class="ind" id="in">1/0</span>
+<button class="btn" id="vb">🔊</button>
+<button class="btn" id="fb">⛶</button>
+</div></div>
+<div class="ov" id="ov"><button class="sbtn" id="sb">🔊 Start Presentation</button></div>
+<audio id="a"><source src="https://ug-elearning-core.preview.emergentagent.com/api/avatar-videos/demo_avatar" type="audio/mpeg"></audio>
+<script>
+const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=0,su=[];
+let c=0,cc=true;
+const up=i=>{sl.forEach((s,j)=>s.classList.toggle('active',j===i));document.getElementById('in').textContent=`${i+1}/${n}`;c=i;};
+const ft=s=>isNaN(s)?'0:00':`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+a.ontimeupdate=()=>{
+const p=(a.currentTime/a.duration)*100||0;
+document.getElementById('pgb').style.width=`${p}%`;
+document.getElementById('tm').textContent=`${ft(a.currentTime)}/${ft(a.duration)}`;
+const si=Math.min(Math.floor(a.currentTime/(a.duration/n)),n-1);
+if(si!==c)up(si);
+if(cc){const s=su.find(x=>a.currentTime>=x.start&&a.currentTime<x.end);document.getElementById('st').textContent=s?s.text:'';}
+};
+document.getElementById('pb').onclick=()=>{if(a.paused){a.play();document.getElementById('pb').textContent='⏸';}else{a.pause();document.getElementById('pb').textContent='▶';}};
+document.getElementById('pv').onclick=()=>up(Math.max(0,c-1));
+document.getElementById('nx').onclick=()=>up(Math.min(n-1,c+1));
+document.getElementById('ccb').onclick=function(){cc=!cc;this.classList.toggle('a',cc);document.getElementById('ss').style.display=cc?'block':'none';};
+document.getElementById('vb').onclick=()=>{a.muted=!a.muted;document.getElementById('vb').textContent=a.muted?'🔇':'🔊';};
+document.getElementById('fb').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
+document.getElementById('pg').onclick=e=>{const r=e.target.getBoundingClientRect();a.currentTime=(e.clientX-r.left)/r.width*a.duration;};
+document.getElementById('sb').onclick=()=>{a.muted=false;a.play();document.getElementById('ov').classList.add('h');document.getElementById('pb').textContent='⏸';};
+a.muted=true;a.play().catch(()=>{});
+</script></body></html>

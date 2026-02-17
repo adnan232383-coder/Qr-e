@@ -81,14 +81,6 @@ h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);paddi
     </div><div class="slide" data-index="4">
         <div class="inner split">
             <div class="text-side">
-                <h2>Key Points 4</h2>
-                <ul class="pts"><li><span class="b"></span>The key steps in clinical application include: 1.</li><li><span class="b"></span>Assessment based on foundational knowledge 2.</li><li><span class="b"></span>Integration of findings 3.</li></ul>
-            </div>
-            <div class="img-side"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800" alt="Illustration" loading="lazy"></div>
-        </div>
-    </div><div class="slide" data-index="5">
-        <div class="inner split">
-            <div class="text-side">
                 <h2>Summary</h2>
                 <ul class="pts">
                     <li><span class="b"></span>Key concepts covered</li>
@@ -96,7 +88,7 @@ h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);paddi
                     <li><span class="b"></span>Review and practice</li>
                 </ul>
             </div>
-            <div class="img-side"><img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800" alt="Summary" loading="lazy"></div>
+            <div class="img-side"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800" alt="Summary" loading="lazy"></div>
         </div>
     </div>
 <div class="subs" id="ss"><span class="stxt" id="st"></span></div>
@@ -108,14 +100,14 @@ h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);paddi
 <button class="btn" id="nx">▶</button>
 <div class="prg" id="pg"><div class="pbar" id="pgb"></div></div>
 <span class="tm" id="tm">0:00/0:00</span>
-<span class="ind" id="in">1/6</span>
+<span class="ind" id="in">1/5</span>
 <button class="btn" id="vb">🔊</button>
 <button class="btn" id="fb">⛶</button>
 </div></div>
 <div class="ov" id="ov"><button class="sbtn" id="sb">🔊 Start Presentation</button></div>
 <audio id="a"><source src="/api/audio/UG_DENT_Y2_S2_C07_M01.mp3" type="audio/mpeg"></audio>
 <script>
-const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=6,su=[{"start": 0, "end": 10, "text": "Welcome"}];
+const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=5,su=[{"start": 0, "end": 10, "text": "Welcome"}];
 let c=0,cc=true;
 const up=i=>{sl.forEach((s,j)=>s.classList.toggle('active',j===i));document.getElementById('in').textContent=`${i+1}/${n}`;c=i;};
 const ft=s=>isNaN(s)?'0:00':`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
