@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>Clinical Applications</title>
+<html><head><meta charset="UTF-8"><title>Dent Y3 S1 C05 M02</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0f1a;--card:#151d2e;--txt:#f1f5f9;--acc:#38bdf8}
@@ -48,7 +48,61 @@ h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);paddi
 </style></head>
 <body>
 <div class="c">
-<div class="sl">
+<div class="sl"><div class="slide title-slide active" data-index="0">
+        <div class="inner">
+            <div class="img-container"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800" alt="Course illustration" loading="lazy"></div>
+            <h1>Dent Y3 S1 C05 M02</h1>
+            <p class="sub">Course Module</p>
+        </div>
+    </div><div class="slide" data-index="1">
+        <div class="inner split">
+            <div class="text-side">
+                <h2>Key Points 1</h2>
+                <ul class="pts">
+                    <li><span class="b"></span>Important concept related to this topic</li>
+                    <li><span class="b"></span>Clinical significance and applications</li>
+                    <li><span class="b"></span>Key terminology and definitions</li>
+                </ul>
+            </div>
+            <div class="img-side"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800" alt="Illustration" loading="lazy"></div>
+        </div>
+    </div><div class="slide" data-index="2">
+        <div class="inner split">
+            <div class="text-side">
+                <h2>Key Points 2</h2>
+                <ul class="pts">
+                    <li><span class="b"></span>Important concept related to this topic</li>
+                    <li><span class="b"></span>Clinical significance and applications</li>
+                    <li><span class="b"></span>Key terminology and definitions</li>
+                </ul>
+            </div>
+            <div class="img-side"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800" alt="Illustration" loading="lazy"></div>
+        </div>
+    </div><div class="slide" data-index="3">
+        <div class="inner split">
+            <div class="text-side">
+                <h2>Key Points 3</h2>
+                <ul class="pts">
+                    <li><span class="b"></span>Important concept related to this topic</li>
+                    <li><span class="b"></span>Clinical significance and applications</li>
+                    <li><span class="b"></span>Key terminology and definitions</li>
+                </ul>
+            </div>
+            <div class="img-side"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800" alt="Illustration" loading="lazy"></div>
+        </div>
+    </div><div class="slide" data-index="4">
+        <div class="inner split">
+            <div class="text-side">
+                <h2>Summary</h2>
+                <ul class="pts">
+                    <li><span class="b"></span>Key concepts covered in this module</li>
+                    <li><span class="b"></span>Clinical applications and relevance</li>
+                    <li><span class="b"></span>Review questions available in quiz section</li>
+                </ul>
+            </div>
+            <div class="img-side"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800" alt="Summary" loading="lazy"></div>
+        </div>
+    </div>
 <div class="subs" id="ss"><span class="stxt" id="st"></span></div>
 <button class="btn cc a" id="ccb">CC</button>
 </div>
@@ -58,14 +112,14 @@ h2{font-size:1.8rem;margin-bottom:20px;border-bottom:2px solid var(--card);paddi
 <button class="btn" id="nx">▶</button>
 <div class="prg" id="pg"><div class="pbar" id="pgb"></div></div>
 <span class="tm" id="tm">0:00/0:00</span>
-<span class="ind" id="in">1/0</span>
+<span class="ind" id="in">1/5</span>
 <button class="btn" id="vb">🔊</button>
 <button class="btn" id="fb">⛶</button>
 </div></div>
 <div class="ov" id="ov"><button class="sbtn" id="sb">🔊 Start Presentation</button></div>
 <audio id="a"><source src="/api/audio/UG_DENT_Y3_S1_C05_M02.mp3" type="audio/mpeg"></audio>
 <script>
-const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=0,su=[];
+const a=document.getElementById('a'),sl=document.querySelectorAll('.slide'),n=5,su=[{"start": 0, "end": 10, "text": "Welcome to this module"}];
 let c=0,cc=true;
 const up=i=>{sl.forEach((s,j)=>s.classList.toggle('active',j===i));document.getElementById('in').textContent=`${i+1}/${n}`;c=i;};
 const ft=s=>isNaN(s)?'0:00':`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
