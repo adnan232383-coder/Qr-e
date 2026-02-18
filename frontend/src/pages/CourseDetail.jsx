@@ -753,18 +753,14 @@ export default function CourseDetail() {
                             </div>
                           </CardHeader>
                           <CardContent className="space-y-4">
-                            {video && (
-                              <div className="bg-black rounded-lg overflow-hidden aspect-video">
-                                <video 
-                                  controls 
-                                  className="w-full h-full"
-                                  src={`${API}/videos/${script.module_id}/file`}
-                                  crossOrigin="anonymous"
-                                >
-                                  Your browser does not support the video tag.
-                                </video>
-                              </div>
-                            )}
+                            <Button 
+                              className="w-full"
+                              onClick={() => window.open(`${API}/presentations/${script.module_id}`, '_blank')}
+                              data-testid={`presentation-${script.module_id}`}
+                            >
+                              <Play className="h-4 w-4 mr-2" />
+                              Watch Audio Presentation (~3 min)
+                            </Button>
                             <details className="group">
                               <summary className="cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground flex items-center gap-2">
                                 <FileText className="h-4 w-4" />
