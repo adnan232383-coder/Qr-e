@@ -539,6 +539,21 @@ export default function CourseDetail() {
                                   </ul>
                                 </div>
                               )}
+                              <div className="flex gap-3 pt-2">
+                                <Button 
+                                  onClick={() => window.open(`${API}/presentations/${module.module_id}`, '_blank')}
+                                  data-testid={`watch-presentation-${module.module_id}`}
+                                >
+                                  <Play className="h-4 w-4 mr-2" />
+                                  Watch Presentation (~3 min)
+                                </Button>
+                                {moduleScript && (
+                                  <Button variant="outline" onClick={() => setActiveTab("scripts")}>
+                                    <FileText className="h-4 w-4 mr-2" />
+                                    View Script
+                                  </Button>
+                                )}
+                              </div>
                             </div>
                           </AccordionContent>
                         </AccordionItem>
